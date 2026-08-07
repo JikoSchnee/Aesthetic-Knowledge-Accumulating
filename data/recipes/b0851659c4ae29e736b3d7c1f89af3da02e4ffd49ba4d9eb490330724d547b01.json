@@ -1,0 +1,305 @@
+{
+  "id": "b0851659c4ae29e736b3d7c1f89af3da02e4ffd49ba4d9eb490330724d547b01",
+  "libraryType": "photo",
+  "batchId": "7793b57b-d710-4ec2-9d9c-56730858372b",
+  "status": "approved",
+  "providerModel": "google/gemini-2.5-flash",
+  "createdAt": "2026-08-07T09:54:06.562Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-2.5-flash",
+  "typographyUpdatedAt": "2026-08-07T09:54:06.562Z",
+  "source": {
+    "kind": "album_cover",
+    "filename": "Drake — Nothing Was the Same (Deluxe).jpg",
+    "hash": "b0851659c4ae29e736b3d7c1f89af3da02e4ffd49ba4d9eb490330724d547b01",
+    "provider": "iTunes Search API",
+    "albumId": "1440829462",
+    "title": "Nothing Was the Same (Deluxe)",
+    "artist": "Drake",
+    "genre": "Hip-Hop/Rap · Music · R&B/Soul",
+    "year": "2013",
+    "sourceUrl": "https://music.apple.com/us/album/nothing-was-the-same-deluxe/1440829462",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/61/f3/5161f3c4-2292-f035-eb68-6f95bbc9edd6/00602537542338.rgb.jpg/600x600bb.jpg"
+  },
+  "dedupeText": "drake nothing was the same album cover portrait sky clouds profile male gold chain blue the man s profile is sharply contrasted against the soft out of focus sky the bright blue of the sky provides a vibrant backdrop for the warm skin tones the gold chain adds a metallic accent and texture against the smooth skin the clouds are subtly rendered providing depth without distracting from the subject recreate a digitally painted profile portrait of a man looking left against a bright blue cloudy sky include a gold chain apply distressed white sans serif typography for the main title and subtitle in the bottom left and a standard parental advisory label in the top left",
+  "duplicateCandidates": [],
+  "duplicateDecision": "not_required",
+  "recipe": {
+    "metadata": {
+      "title": "Drake - Nothing Was The Same Album Cover",
+      "category": "album cover",
+      "medium": [
+        "digital painting",
+        "illustration"
+      ],
+      "useCases": [
+        "album art",
+        "promotional material",
+        "digital display"
+      ],
+      "retrievalTags": [
+        "portrait",
+        "sky",
+        "clouds",
+        "profile",
+        "male",
+        "gold chain",
+        "blue"
+      ]
+    },
+    "visualDefinition": "A digitally painted portrait of a man in profile, looking left, against a bright blue sky with scattered white clouds. The man has a short haircut with a distinct fade and a trimmed beard. He wears a thick gold chain around his neck. The style is realistic with soft brushstrokes, emphasizing light and shadow on the skin and hair.",
+    "coreVisualRelationships": [
+      "The man's profile is sharply contrasted against the soft, out-of-focus sky.",
+      "The bright blue of the sky provides a vibrant backdrop for the warm skin tones.",
+      "The gold chain adds a metallic accent and texture against the smooth skin.",
+      "The clouds are subtly rendered, providing depth without distracting from the subject."
+    ],
+    "coreInvariants": [
+      "Profile view of a man looking left.",
+      "Bright blue sky background with soft white clouds.",
+      "Prominent gold chain around the neck.",
+      "Realistic, painterly style with soft blending."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The man's head and upper torso occupy the majority of the frame, positioned slightly right of center, with his gaze directed towards the left edge. His head is large in scale, dominating the composition.",
+      "visualAnchor": "The man's face, particularly his eye and nose, serves as the primary visual anchor.",
+      "movementAndEyePath": "The eye is drawn from the man's face, along his profile, and then down to the gold chain. The upward gaze and open sky suggest aspiration or contemplation.",
+      "negativeSpace": "The expansive blue sky with clouds acts as significant negative space, emphasizing the isolation and prominence of the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Blue (sky) provides the dominant cool background, creating a sense of openness and calm.",
+      "contrastColorRole": "Warm skin tones and the gold chain provide a strong contrast against the cool blue, drawing attention to the subject.",
+      "accentColorRole": "The bright gold of the chain serves as a metallic accent, adding a touch of luxury and detail.",
+      "saturationAndValueRelationship": "The sky is moderately saturated and bright, while the skin tones are warmer and slightly desaturated in comparison, with a range of values creating depth. The gold chain has high saturation and value to appear reflective.",
+      "paletteRestrictions": [
+        "Avoid overly dark or muted blues for the sky.",
+        "Maintain warm, natural skin tones.",
+        "Ensure gold chain has a metallic sheen."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Sans-serif, all caps for the main title, mixed case for the subtitle.",
+      "letterConstructionRules": [
+        "Letters are slightly distressed or 'grungy' with irregular edges and subtle texture.",
+        "The main title 'DRAKE' has a slightly wider tracking and is bolder.",
+        "The subtitle 'NOTHING WAS THE SAME' is smaller, lighter, and has tighter tracking.",
+        "The 'PARENTAL ADVISORY' text is a standard, compact sans-serif, all caps, with a thin black outline box."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' in 'DRAKE' has a slightly pointed apex.",
+        "The 'K' in 'DRAKE' has a distinctive, slightly extended leg."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "distressed sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "monoline",
+            "xHeight": "tall",
+            "terminals": "blunt",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "slightly irregular"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "loose",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "bottom left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over the lower left corner of the portrait, not obscuring key features"
+          },
+          "treatment": {
+            "fill": "#FFFFFF",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "subtle grunge/distress",
+            "distortion": "slight irregularity in edges"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "distressed sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "regular",
+            "contrast": "monoline",
+            "xHeight": "moderate",
+            "terminals": "blunt",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "slightly irregular"
+          },
+          "typesetting": {
+            "case": "mixed case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "normal"
+          },
+          "composition": {
+            "position": "directly below the display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over the lower left corner of the portrait, below the main title"
+          },
+          "treatment": {
+            "fill": "#FFFFFF",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "subtle grunge/distress",
+            "distortion": "slight irregularity in edges"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 3,
+          "classification": "compact sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "monoline",
+            "xHeight": "tall",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "clean"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "dense"
+          },
+          "composition": {
+            "position": "top left corner",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within a black rectangular box, placed over the sky"
+          },
+          "treatment": {
+            "fill": "#FFFFFF",
+            "outline": "1px black box",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A distressed sans-serif for the main title and subtitle, paired with a clean, compact sans-serif for metadata, creating a contrast between artistic expression and functional information.",
+      "graphicDevices": [
+        "Black rectangular box with white text for 'PARENTAL ADVISORY'."
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "distressed/grunge texture on main title and subtitle",
+          "all caps for main title",
+          "mixed case for subtitle",
+          "white fill for all text",
+          "black outline box for parental advisory"
+        ],
+        "avoid": [
+          "serif fonts",
+          "script fonts",
+          "clean, geometric sans-serifs for the main title/subtitle",
+          "bright colors for text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "distressed sans-serif",
+            "reason": "To maintain the slightly rugged and artistic feel of the main title and subtitle.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "compact bold sans-serif",
+            "reason": "For the 'PARENTAL ADVISORY' text, to ensure legibility and a standard, official appearance.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "grunge font",
+            "reason": "To replicate the irregular edges and subtle texture of the main title and subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a digitally painted portrait of a man in profile, looking left. He has a short, faded haircut and a trimmed beard. A thick gold chain is around his neck. The background is a bright blue sky with soft, scattered white clouds. Ensure the style is realistic with soft brushstrokes and good light/shadow definition. Leave clear space in the bottom left for text and the top left for a warning label.",
+        "overlayInstruction": "Overlay the main title 'DRAKE' in a distressed, bold, all-caps white sans-serif font in the bottom left. Below it, add the subtitle 'NOTHING WAS THE SAME' in a smaller, distressed, mixed-case white sans-serif font. In the top left corner, place a black rectangular box with 'PARENTAL ADVISORY' in bold, white, condensed, all-caps sans-serif text on the first line and 'EXPLICIT CONTENT' in smaller, bold, white, condensed, all-caps sans-serif text on the second line, centered within the box."
+      },
+      "verificationChecks": [
+        "Is the main title 'DRAKE' distressed and white?",
+        "Is the subtitle 'NOTHING WAS THE SAME' distressed, white, and smaller than the main title?",
+        "Is the 'PARENTAL ADVISORY' label a black box with white, bold, condensed sans-serif text?",
+        "Are all text elements positioned correctly in the bottom left and top left corners respectively?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Exact shade of blue for the sky",
+      "Density and form of the clouds",
+      "Specific facial features of the man (while maintaining profile and general appearance)",
+      "Thickness and detail of the gold chain",
+      "Degree of distress/grunge on the main title and subtitle text"
+    ],
+    "mustRedesign": [
+      "The specific person depicted (Drake)",
+      "The exact wording of the title and subtitle (unless for a different album)"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "A realistic, painterly quality for the portrait.",
+        "Clear distinction between the subject and the sky background.",
+        "Legible and appropriately styled text elements.",
+        "A sense of depth and atmosphere in the sky."
+      ],
+      "avoid": [
+        "Cartoonish or overly stylized rendering of the portrait.",
+        "Flat, untextured sky.",
+        "Illegible or clashing typography.",
+        "Distracting background elements."
+      ]
+    },
+    "postGenerationChecks": [
+      "Does the portrait maintain a consistent painterly style?",
+      "Is the blue sky vibrant and do the clouds appear soft and natural?",
+      "Are the text elements clearly visible and correctly positioned?",
+      "Does the gold chain have a realistic metallic appearance?",
+      "Is the overall mood contemplative and aspirational?",
+      "Are there any unintended brand elements or logos present?"
+    ],
+    "reuseFormula": "Recreate a digitally painted profile portrait of a man looking left, against a bright blue, cloudy sky. Include a gold chain. Apply distressed white sans-serif typography for the main title and subtitle in the bottom left, and a standard 'PARENTAL ADVISORY' label in the top left."
+  },
+  "embeddingStatus": "ready",
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-07T10:04:50.842Z",
+  "indexStatus": "hybrid_searchable",
+  "approvedAt": "2026-08-07T10:04:50.842Z"
+}

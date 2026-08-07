@@ -1,0 +1,385 @@
+{
+  "id": "d2e30d0ae64a5daff9e5d06cd6308a1dc194892c18bd9ce7c0e87f2c3dc6cd66",
+  "batchId": "4cd75dbc-99fc-42ac-9d48-c6b23050c386",
+  "status": "approved",
+  "providerModel": "google/gemini-2.5-flash",
+  "createdAt": "2026-08-07T03:36:50.016Z",
+  "source": {
+    "filename": "3637287960_e2e88e16dd_b.jpg",
+    "hash": "d2e30d0ae64a5daff9e5d06cd6308a1dc194892c18bd9ce7c0e87f2c3dc6cd66"
+  },
+  "dedupeText": "grand canyon national park vintage poster grand canyon national park vintage travel landscape retro wpa style desert canyon geology the layered terraced rock formations of the canyon dominate the upper two thirds of the image creating a sense of depth and scale a river or stream winds through the bottom of the canyon providing a visual path and contrast to the rock formations the sky with stylized clouds occupies the top portion setting the atmospheric tone a solid color block at the bottom serves as a canvas for textual information and a small emblem the overall composition uses a limited muted color palette to evoke a historical aesthetic recreate a vintage travel poster of a canyon landscape using a limited desaturated color palette and strong dark outlines the composition should feature layered rock formations dominating the upper two thirds with a stylized sky and a winding river a solid color block at the bottom must contain specific blocky text and a circular bison emblem all rendered in a flat screen print style",
+  "duplicateCandidates": [],
+  "duplicateDecision": "not_required",
+  "recipe": {
+    "metadata": {
+      "title": "Grand Canyon National Park Vintage Poster",
+      "category": "Travel Poster",
+      "medium": [
+        "Digital Illustration",
+        "Screen Print Style"
+      ],
+      "useCases": [
+        "Promotional Material",
+        "Decorative Art",
+        "Historical Archiving",
+        "Educational Content"
+      ],
+      "retrievalTags": [
+        "Grand Canyon",
+        "National Park",
+        "Vintage",
+        "Travel",
+        "Landscape",
+        "Retro",
+        "WPA Style",
+        "Desert",
+        "Canyon",
+        "Geology"
+      ]
+    },
+    "visualDefinition": "A vintage-style travel poster depicting a stylized, layered view of the Grand Canyon, characterized by flat color blocks and strong outlines, with a prominent text block at the bottom.",
+    "coreVisualRelationships": [
+      "The layered, terraced rock formations of the canyon dominate the upper two-thirds of the image, creating a sense of depth and scale.",
+      "A river or stream winds through the bottom of the canyon, providing a visual path and contrast to the rock formations.",
+      "The sky with stylized clouds occupies the top portion, setting the atmospheric tone.",
+      "A solid color block at the bottom serves as a canvas for textual information and a small emblem.",
+      "The overall composition uses a limited, muted color palette to evoke a historical aesthetic."
+    ],
+    "coreInvariants": [
+      "The Grand Canyon's iconic layered geological formations must be clearly depicted.",
+      "The color palette must be limited to 5-7 flat, muted colors.",
+      "Strong, dark outlines must define all major shapes and features.",
+      "A clear distinction between sky, canyon walls, and river/canyon floor must be maintained.",
+      "A text block at the bottom with specific information and a small, circular emblem is essential."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The Grand Canyon occupies the majority of the frame, from the mid-bottom to the top, with its vastness emphasized by the layered perspective. The text block is positioned at the very bottom, acting as a base.",
+      "visualAnchor": "The most prominent canyon wall in the mid-ground, with its intricate layering and dark shadows, serves as the primary visual anchor, drawing the eye into the depth of the scene.",
+      "movementAndEyePath": "The eye is drawn from the foreground canyon walls, moving upwards and inwards following the receding layers of the canyon, eventually leading to the distant horizon and sky. The river provides a secondary, winding path.",
+      "negativeSpace": "The sky and the flat color block at the bottom serve as negative space, providing contrast and allowing the detailed canyon illustration to stand out. The sky's negative space is broken by stylized clouds."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted peach/light orange and dark grey/charcoal, representing the sunlit and shadowed parts of the canyon respectively, creating the primary visual texture.",
+      "contrastColorRole": "Light blue/teal, used for the sky and river, provides a cool contrast to the warm canyon tones and defines water elements.",
+      "accentColorRole": "A darker, richer orange (almost brown) used for subtle details and outlines within the peach areas, adding depth and texture.",
+      "saturationAndValueRelationship": "The colors are generally desaturated and have a medium to dark value range, contributing to the vintage, poster-like aesthetic. There is a clear distinction between light (peach, light blue) and dark (charcoal, dark orange) values.",
+      "paletteRestrictions": [
+        "Use a maximum of 7 distinct flat colors.",
+        "Avoid gradients or complex shading.",
+        "Maintain a desaturated, muted tone across the entire palette.",
+        "Ensure strong contrast between adjacent color blocks."
+      ]
+    },
+    "adjustableVariables": [
+      "The specific shades of peach, grey, and blue can be adjusted while maintaining their relative warmth/coolness and value.",
+      "The level of detail in the canyon layers can be simplified or made slightly more intricate.",
+      "The style and density of the clouds in the sky.",
+      "The font style for the text block, while maintaining a clear, blocky, sans-serif appearance.",
+      "The design of the circular emblem at the bottom."
+    ],
+    "mustRedesign": [
+      "The specific text content and layout at the bottom, ensuring it matches the provided OCR.",
+      "The circular emblem, which must be a bison silhouette within a circle.",
+      "The overall composition to ensure the canyon dominates the upper two-thirds."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "A clear, recognizable depiction of a vast canyon landscape.",
+        "A distinct vintage poster aesthetic, characterized by flat colors and strong outlines.",
+        "Legible text at the bottom with a clear, authoritative tone.",
+        "A sense of depth and scale within the canyon illustration."
+      ],
+      "avoid": [
+        "Photorealistic rendering or complex shading.",
+        "Bright, highly saturated colors.",
+        "Modern or overly stylized typography that deviates from the vintage feel.",
+        "Cluttered or indistinct visual elements."
+      ]
+    },
+    "postGenerationChecks": [
+      "Are all major canyon layers and features clearly outlined and distinct?",
+      "Is the color palette limited to the specified number of flat, muted colors?",
+      "Is the text at the bottom legible and correctly formatted according to the OCR?",
+      "Does the overall image evoke a vintage travel poster style?",
+      "Is the bison emblem accurately depicted within a circular frame?",
+      "Is there a clear visual hierarchy guiding the eye through the scene?"
+    ],
+    "reuseFormula": "Recreate a vintage travel poster of a canyon landscape using a limited, desaturated color palette and strong, dark outlines. The composition should feature layered rock formations dominating the upper two-thirds, with a stylized sky and a winding river. A solid color block at the bottom must contain specific, blocky text and a circular bison emblem, all rendered in a flat, screen-print style.",
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "sans-serif",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "monoline",
+            "xHeight": "large",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "geometric"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "centered",
+            "tracking": "loose",
+            "leading": "tight",
+            "lineBreakPattern": "logical-grouping",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "bottom-center",
+            "scale": "large",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "below-image"
+          },
+          "treatment": {
+            "fill": "solid-dark",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "monoline",
+            "xHeight": "large",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "geometric"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "left-aligned",
+            "tracking": "loose",
+            "leading": "tight",
+            "lineBreakPattern": "logical-grouping",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "bottom-left",
+            "scale": "medium",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "below-image"
+          },
+          "treatment": {
+            "fill": "solid-dark",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "monoline",
+            "xHeight": "large",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "geometric"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "right-aligned",
+            "tracking": "loose",
+            "leading": "tight",
+            "lineBreakPattern": "logical-grouping",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "bottom-right",
+            "scale": "medium",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "below-image"
+          },
+          "treatment": {
+            "fill": "solid-dark",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "caption",
+          "hierarchyLevel": 3,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "monoline",
+            "xHeight": "large",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "geometric"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "left-aligned",
+            "tracking": "loose",
+            "leading": "tight",
+            "lineBreakPattern": "logical-grouping",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "bottom-left",
+            "scale": "small",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "below-image"
+          },
+          "treatment": {
+            "fill": "solid-dark",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "caption",
+          "hierarchyLevel": 3,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "monoline",
+            "xHeight": "large",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "geometric"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "right-aligned",
+            "tracking": "loose",
+            "leading": "tight",
+            "lineBreakPattern": "logical-grouping",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "bottom-right",
+            "scale": "small",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "below-image"
+          },
+          "treatment": {
+            "fill": "solid-dark",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "single-font-multiple-sizes-and-alignments",
+      "graphicDevices": [
+        "circular-logo-with-animal-silhouette"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "all-caps",
+          "bold-weight",
+          "geometric-sans-serif-style",
+          "loose-tracking",
+          "tight-leading",
+          "dark-solid-fill",
+          "bottom-aligned-text-block",
+          "centered-main-title",
+          "left-and-right-aligned-subtitles-and-captions"
+        ],
+        "avoid": [
+          "serif-fonts",
+          "light-weights",
+          "script-fonts",
+          "condensed-or-expanded-widths",
+          "uneven-baselines",
+          "outlines-or-shadows-on-text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Geometric sans-serif with strong, monoline strokes and good legibility at various sizes, matching the overall aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat Bold",
+            "reason": "Modern geometric sans-serif with a similar clean, bold appearance and good all-caps presentation.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Another strong geometric sans-serif with a clear, impactful presence suitable for display and smaller text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Avenir Next Bold",
+            "reason": "A humanist geometric sans-serif that maintains the clean, bold look while offering good readability.",
+            "confidence": "low"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate the full image of the canyon landscape with the specified color palette and artistic style, leaving a solid, light-colored rectangular block at the bottom for text. The block should occupy approximately the bottom 20-25% of the canvas.",
+        "overlayInstruction": "Overlay the text onto the solid color block at the bottom. Use a bold, geometric sans-serif font in all-caps. The main title should be centered and larger. Subtitles and captions should be smaller, with some left-aligned and others right-aligned, maintaining loose tracking and tight leading. Ensure the text color is a dark, solid fill that contrasts well with the background block. Incorporate a circular logo with a dark animal silhouette in the bottom-center area, positioned between the left and right aligned text blocks."
+      },
+      "verificationChecks": [
+        "Is the main title centered and significantly larger than other text elements?",
+        "Are all text elements in all-caps and a bold, geometric sans-serif style?",
+        "Is the tracking consistently loose and leading consistently tight across all text blocks?",
+        "Are the left and right aligned text blocks balanced in their respective areas?",
+        "Is the circular logo clearly visible and positioned appropriately in the bottom section?"
+      ],
+      "confidence": "high"
+    }
+  },
+  "indexStatus": "keyword_only",
+  "approvedAt": "2026-08-07T03:38:49.907Z",
+  "embeddingStatus": "stale",
+  "embeddingModel": "qwen/qwen3-embedding-8b",
+  "embeddingUpdatedAt": "2026-08-07T06:10:35.989Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-2.5-flash",
+  "typographyUpdatedAt": "2026-08-07T07:51:55.717Z"
+}

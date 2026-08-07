@@ -1,0 +1,344 @@
+{
+  "id": "e0bd5cbbac9181bc4b545c7b2e37c896739562a44e3f56009cd93b69d21c120e",
+  "libraryType": "photo",
+  "batchId": "7793b57b-d710-4ec2-9d9c-56730858372b",
+  "status": "approved",
+  "providerModel": "google/gemini-2.5-flash",
+  "createdAt": "2026-08-07T09:44:30.725Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-2.5-flash",
+  "typographyUpdatedAt": "2026-08-07T09:44:30.725Z",
+  "source": {
+    "kind": "album_cover",
+    "filename": "Morgan Wallen — Dangerous: The Double Album.jpg",
+    "hash": "e0bd5cbbac9181bc4b545c7b2e37c896739562a44e3f56009cd93b69d21c120e",
+    "provider": "iTunes Search API",
+    "albumId": "1818409982",
+    "title": "Dangerous: The Double Album",
+    "artist": "Morgan Wallen",
+    "genre": "Country · Music",
+    "year": "2021",
+    "sourceUrl": "https://music.apple.com/us/album/dangerous-the-double-album/1818409982",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/3a/37/543a372b-ae7b-cca9-2a2b-16c5a6650d15/00602435458939_Cover.jpg/600x600bb.jpg"
+  },
+  "dedupeText": "morgan wallen dangerous album cover country music acoustic gritty industrial singer songwriter musician as central figure grounded by the stool and guitar distressed brick wall and grimy window establish a raw industrial setting lighting from the window creates strong contrast and highlights the musician typography elements are integrated into the wall texture appearing hand drawn or stenciled recreate a moody industrial inspired setting with a seated musician and an acoustic guitar integrate custom lettered album title and artist name along with clean condensed tracklists directly onto a distressed brick wall background ensuring all text appears to be part of the environment",
+  "duplicateCandidates": [],
+  "duplicateDecision": "not_required",
+  "recipe": {
+    "metadata": {
+      "title": "Morgan Wallen Dangerous Album Cover",
+      "category": "Album Art",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover",
+        "Promotional Material",
+        "Digital Media"
+      ],
+      "retrievalTags": [
+        "Country Music",
+        "Acoustic",
+        "Gritty",
+        "Industrial",
+        "Singer-Songwriter"
+      ]
+    },
+    "visualDefinition": "A full-body shot of a male musician sitting on a wooden stool, holding an acoustic guitar, against a distressed brick wall. A large, grimy window is visible on the left, casting light into the otherwise dimly lit space. The overall mood is somber and raw.",
+    "coreVisualRelationships": [
+      "Musician as central figure, grounded by the stool and guitar.",
+      "Distressed brick wall and grimy window establish a raw, industrial setting.",
+      "Lighting from the window creates strong contrast and highlights the musician.",
+      "Typography elements are integrated into the wall texture, appearing hand-drawn or stenciled."
+    ],
+    "coreInvariants": [
+      "The musician must be seated, holding an acoustic guitar, and facing slightly away from the viewer.",
+      "The background must be a textured, distressed wall, preferably brick, with a prominent window on the left.",
+      "The lighting should be dramatic, with a strong light source from the left.",
+      "Typography should appear integrated into the wall, not merely overlaid."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The musician is positioned slightly to the right of the vertical center, occupying approximately 40% of the image height and 30% of the width. He is seated, making him appear grounded and contemplative.",
+      "visualAnchor": "The musician and his guitar serve as the primary visual anchor, drawing the eye to the center-right of the composition.",
+      "movementAndEyePath": "The eye is drawn from the bright window on the left, across the textured wall, to the musician, and then up to the album title. The tracklists guide the eye further into the details.",
+      "negativeSpace": "The large expanse of the brick wall acts as significant negative space, emphasizing the isolation of the musician and providing a canvas for the typographic elements. The dark corners and ceiling also contribute to the sense of enclosure."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated grays and browns of the brick wall and floor create a somber, earthy base.",
+      "contrastColorRole": "The musician's white t-shirt and the lighter tones of his skin and the guitar provide a subtle contrast against the dark background.",
+      "accentColorRole": "The subtle warm tones of the guitar wood and the musician's boots offer a touch of warmth.",
+      "saturationAndValueRelationship": "Overall low saturation with a wide range of values, from deep shadows in the corners to highlights on the window and the musician's shirt, creating depth and mood.",
+      "paletteRestrictions": [
+        "Avoid bright, vibrant colors.",
+        "Maintain a desaturated, muted color scheme.",
+        "Limit the use of strong primary colors."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "The main title 'DANGEROUS' uses a rough, all-caps, sans-serif skeleton with irregular strokes. The artist's name 'Morgan Wallen' uses a fluid, script-like skeleton. The tracklists use a condensed, sans-serif skeleton.",
+      "letterConstructionRules": [
+        "For 'DANGEROUS': Letters are hand-drawn with uneven, scratchy outlines, resembling chalk or paint on a rough surface. Strokes vary in thickness and have a slightly distressed, 'erased' quality.",
+        "For 'Morgan Wallen': Letters are connected in a flowing, cursive style, mimicking natural handwriting with varying pressure and slight imperfections.",
+        "For 'the double album' and tracklists: Letters are simple, monoline sans-serif, appearing as if stenciled or lightly printed onto the wall, with slight texture integration."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' in 'DANGEROUS' has a distinctive, slightly pointed apex and a crossbar that doesn't fully connect.",
+        "The 'G' in 'DANGEROUS' has an open counter and a somewhat angular tail.",
+        "The 'M' in 'Morgan' has a prominent, looping initial stroke.",
+        "The 'W' in 'Wallen' has a wide, open structure."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Hand-drawn Sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium-bold (simulated)",
+            "contrast": "low",
+            "xHeight": "tall",
+            "terminals": "blunt, irregular",
+            "corners": "slightly rounded, distressed",
+            "counters": "open, irregular",
+            "strokeCharacter": "scratchy, uneven, chalk-like"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "left",
+            "tracking": "loose",
+            "leading": "normal",
+            "lineBreakPattern": "not applicable",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "top right, integrated into brick texture",
+            "scale": "large",
+            "rotation": "none",
+            "warp": "subtly follows wall texture",
+            "overlap": "none",
+            "relationshipToImage": "appears to be written directly on the wall"
+          },
+          "treatment": {
+            "fill": "off-white, semi-transparent",
+            "outline": "none",
+            "shadow": "subtle, integrated into wall texture",
+            "depth": "appears flat on surface",
+            "texture": "rough, chalky",
+            "distortion": "slight irregularities in stroke"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Hand-drawn Script",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "flowing, connected",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "fluid, handwritten"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "not applicable",
+            "density": "normal"
+          },
+          "composition": {
+            "position": "bottom left, integrated into brick texture",
+            "scale": "medium-large",
+            "rotation": "none",
+            "warp": "subtly follows wall texture",
+            "overlap": "none",
+            "relationshipToImage": "appears to be written directly on the wall"
+          },
+          "treatment": {
+            "fill": "off-white, semi-transparent",
+            "outline": "none",
+            "shadow": "subtle, integrated into wall texture",
+            "depth": "appears flat on surface",
+            "texture": "smooth, ink-like",
+            "distortion": "slight irregularities in stroke"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 3,
+          "classification": "Condensed Sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "regular",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "clean, monoline"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "natural word breaks",
+            "density": "dense"
+          },
+          "composition": {
+            "position": "right and bottom left, integrated into brick texture",
+            "scale": "small",
+            "rotation": "none",
+            "warp": "subtly follows wall texture",
+            "overlap": "none",
+            "relationshipToImage": "appears stenciled or printed on the wall"
+          },
+          "treatment": {
+            "fill": "off-white, semi-transparent",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "appears flat on surface",
+            "texture": "subtly textured",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "caption",
+          "hierarchyLevel": 4,
+          "classification": "Monospace Sans-serif",
+          "anatomy": {
+            "width": "fixed",
+            "weight": "regular",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "clean, monoline"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "not applicable",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "bottom right, small",
+            "scale": "very small",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "appears printed on the surface"
+          },
+          "treatment": {
+            "fill": "off-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast in style (rough sans-serif, flowing script, clean sans-serif) to differentiate hierarchy, unified by color and integration into the background texture.",
+      "graphicDevices": [
+        "Numbered lists for track titles.",
+        "Small, circular logo-like graphic at the bottom right."
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The distressed, hand-drawn quality of the main title 'DANGEROUS'.",
+          "The flowing, handwritten style of 'Morgan Wallen'.",
+          "The condensed, clean readability of the tracklists.",
+          "The integration of all text elements into the wall texture."
+        ],
+        "avoid": [
+          "Perfectly clean or geometric sans-serifs for the main title.",
+          "Overly ornate or decorative scripts for the artist's name.",
+          "Highly contrasting colors for any text elements.",
+          "Text that appears to float above the background rather than being part of it."
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Chalkboard/Distressed Sans-serif for 'DANGEROUS'",
+            "reason": "Captures the rough, hand-drawn, and textured feel of the original title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Casual Script for 'Morgan Wallen'",
+            "reason": "Matches the fluid, personal, and handwritten aesthetic of the artist's name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Condensed Monoline Sans-serif for tracklists",
+            "reason": "Provides the necessary readability and compact form while maintaining a simple, understated presence.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate an image of a male musician sitting on a wooden stool, holding an acoustic guitar, against a distressed brick wall. A large, grimy window should be prominently featured on the left, casting dramatic light into the scene. The overall lighting should be dim and moody, with strong shadows and highlights. Ensure the brick wall has visible texture and imperfections suitable for text integration.",
+        "overlayInstruction": "Overlay the main title 'DANGEROUS' in a scratchy, all-caps, hand-drawn sans-serif style at the top right. Below it, add 'the double album' in a smaller, clean sans-serif. Place the artist's name 'Morgan Wallen' in a flowing, handwritten script at the bottom left. Add two columns of tracklist text in a condensed sans-serif, one to the right of the main title and one below the artist's name. All text should be off-white and appear subtly integrated into the brick texture, as if painted or stenciled on the wall. Add a small, circular logo-like graphic at the bottom right."
+      },
+      "verificationChecks": [
+        "Is the main title 'DANGEROUS' rough and hand-drawn, not a clean font?",
+        "Does 'Morgan Wallen' appear as a natural, flowing script?",
+        "Are all text elements integrated into the wall texture, not floating?",
+        "Is the tracklist text condensed and readable at small sizes?",
+        "Are the colors of the text off-white and muted?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Exact level of distress on the brick wall.",
+      "Intensity and direction of light from the window.",
+      "Musician's pose and expression (within seated, guitar-holding context).",
+      "Specific texture and 'grime' on the window.",
+      "Subtle variations in the hand-drawn letterforms for a more unique feel."
+    ],
+    "mustRedesign": [
+      "The specific wording of the tracklists and album information to avoid copyright infringement.",
+      "The small circular logo at the bottom right."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "A raw, authentic, and slightly melancholic mood.",
+        "A strong sense of place and atmosphere through the distressed environment.",
+        "Clear visual hierarchy for all text elements.",
+        "Believable integration of text into the background texture."
+      ],
+      "avoid": [
+        "A polished, studio-like aesthetic.",
+        "Overly bright or cheerful lighting.",
+        "Generic, untextured typography.",
+        "Text that looks digitally pasted on rather than part of the scene."
+      ]
+    },
+    "postGenerationChecks": [
+      "Does the overall image convey a sense of introspection and rawness?",
+      "Is the musician clearly the focal point, despite the busy background?",
+      "Are the typographic styles distinct yet cohesive with the overall mood?",
+      "Is the lighting dramatic and does it enhance the scene?",
+      "Are there any elements that appear too clean or out of place for a distressed setting?",
+      "Is the text legible against the textured background?"
+    ],
+    "reuseFormula": "Recreate a moody, industrial-inspired setting with a seated musician and an acoustic guitar. Integrate custom-lettered album title and artist name, along with clean, condensed tracklists, directly onto a distressed brick wall background, ensuring all text appears to be part of the environment."
+  },
+  "embeddingStatus": "ready",
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-07T10:05:24.611Z",
+  "indexStatus": "hybrid_searchable",
+  "approvedAt": "2026-08-07T10:05:24.611Z"
+}

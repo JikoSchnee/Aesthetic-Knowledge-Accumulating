@@ -1,0 +1,223 @@
+{
+  "id": "7bdf74e44986c5432be371727840a0f35ddb3e8c1365babdec35f4474c1644d2",
+  "libraryType": "photo",
+  "batchId": "7793b57b-d710-4ec2-9d9c-56730858372b",
+  "status": "approved",
+  "providerModel": "google/gemini-2.5-flash",
+  "createdAt": "2026-08-07T09:44:06.479Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-2.5-flash",
+  "typographyUpdatedAt": "2026-08-07T09:44:06.479Z",
+  "source": {
+    "kind": "album_cover",
+    "filename": "Michael Jackson — Thriller.jpg",
+    "hash": "7bdf74e44986c5432be371727840a0f35ddb3e8c1365babdec35f4474c1644d2",
+    "provider": "iTunes Search API",
+    "albumId": "269572838",
+    "title": "Thriller",
+    "artist": "Michael Jackson",
+    "genre": "Pop · Music",
+    "year": "1982",
+    "sourceUrl": "https://music.apple.com/us/album/thriller/269572838",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg"
+  },
+  "dedupeText": "michael jackson thriller album cover michael jackson thriller pop music 1980s album cover portrait white suit black background glow effect the subject s direct gaze establishes a strong connection with the viewer the contrast between the bright white suit and the dark background highlights the figure the soft ethereal glow around the subject creates a sense of mystique and focus the placement of the text in the upper left balances the composition with the subject s pose recreate the iconic portrait of michael jackson in a white suit against a dark glowing background with custom lettered script typography in a warm gradient in the upper left",
+  "duplicateCandidates": [],
+  "duplicateDecision": "not_required",
+  "recipe": {
+    "metadata": {
+      "title": "Michael Jackson Thriller Album Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Packaging",
+        "Promotional Material",
+        "Digital Media"
+      ],
+      "retrievalTags": [
+        "Michael Jackson",
+        "Thriller",
+        "Pop Music",
+        "1980s",
+        "Album Cover",
+        "Portrait",
+        "White Suit",
+        "Black Background",
+        "Glow Effect"
+      ]
+    },
+    "visualDefinition": "A medium close-up portrait of Michael Jackson, seated and looking directly at the viewer, against a dark background. He is wearing a white suit jacket over a black shirt. The lighting creates a soft glow around his figure, particularly on his right side. The album title and artist name are rendered in a script typeface in the upper left corner.",
+    "coreVisualRelationships": [
+      "The subject's direct gaze establishes a strong connection with the viewer.",
+      "The contrast between the bright white suit and the dark background highlights the figure.",
+      "The soft, ethereal glow around the subject creates a sense of mystique and focus.",
+      "The placement of the text in the upper left balances the composition with the subject's pose."
+    ],
+    "coreInvariants": [
+      "Subject is Michael Jackson, depicted in a seated or reclining pose.",
+      "Subject wears a white suit jacket over a dark (black) shirt.",
+      "Background is predominantly dark, almost black.",
+      "A soft, light glow emanates from behind and around the subject.",
+      "Text elements (artist name and album title) are present in the upper left quadrant, rendered in a script style."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Michael Jackson occupies the majority of the right and central-lower portion of the frame, from approximately the waist up, with his head slightly off-center to the right.",
+      "visualAnchor": "Michael Jackson's face and direct eye contact serve as the primary visual anchor.",
+      "movementAndEyePath": "The eye is drawn first to Michael Jackson's face, then follows the line of his arm and suit, and finally moves to the text in the upper left.",
+      "negativeSpace": "The dark background acts as significant negative space, emphasizing the illuminated figure and text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "The dark background (black/deep charcoal) provides depth and contrast.",
+      "contrastColorRole": "The white of Michael Jackson's suit jacket strongly contrasts with the background and his dark shirt.",
+      "accentColorRole": "The warm, golden-orange gradient of the text and the subtle glow around the subject serve as an accent.",
+      "saturationAndValueRelationship": "The image features high contrast between the dark background and the bright whites, with the skin tones and text providing mid-range saturation.",
+      "paletteRestrictions": [
+        "Limited to black, white, skin tones, and a warm golden-orange for text/glow."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Connected, flowing script with varying stroke widths, reminiscent of formal handwriting.",
+      "letterConstructionRules": [
+        "All letters are connected within words.",
+        "Uppercase letters are significantly larger and more ornate than lowercase.",
+        "Ascenders and descenders are elongated and gracefully curved.",
+        "Stroke width varies, with thicker downstrokes and thinner upstrokes.",
+        "The baseline is slightly undulating for 'Thriller'."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'M' in 'Michael' has a distinctive, wide, and flowing initial stroke.",
+        "The 'J' in 'Jackson' features a prominent loop and extends below the baseline.",
+        "The 'T' in 'Thriller' has a long, elegant crossbar that extends over subsequent letters.",
+        "The 'r' characters in 'Thriller' have unique, almost calligraphic loops."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Script",
+          "anatomy": {
+            "width": "condensed to normal",
+            "weight": "light to regular (variable)",
+            "contrast": "high (thick/thin strokes)",
+            "xHeight": "low",
+            "terminals": "pointed and flowing",
+            "corners": "rounded where strokes connect",
+            "counters": "open and fluid",
+            "strokeCharacter": "calligraphic, brush-like"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "left",
+            "tracking": "tight (connected letters)",
+            "leading": "normal for two lines of text",
+            "lineBreakPattern": "natural word breaks",
+            "density": "moderate"
+          },
+          "composition": {
+            "position": "upper left quadrant",
+            "scale": "large, prominent",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in negative space, not overlapping the subject"
+          },
+          "treatment": {
+            "fill": "gradient from light orange to yellow",
+            "outline": "none",
+            "shadow": "subtle, soft glow",
+            "depth": "implied by glow",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single script typeface for both elements, creating a cohesive and elegant look.",
+      "graphicDevices": [
+        "Soft, ethereal glow around the text, matching the glow around the subject."
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Connected script style",
+          "Varying stroke widths",
+          "Elongated ascenders/descenders",
+          "Warm gradient fill",
+          "Placement in upper left"
+        ],
+        "avoid": [
+          "Sans-serif or serif fonts",
+          "Block lettering",
+          "Monoline scripts",
+          "Overly decorative or unreadable scripts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Formal Script fonts (e.g., Edwardian Script ITC, Bickham Script Pro)",
+            "reason": "These fonts share the elegant, connected, and variable-width characteristics of the original, but would require significant modification to match the unique letterforms.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Calligraphy-inspired custom lettering",
+            "reason": "Allows for precise replication of unique letterforms and stroke variations, ensuring authenticity to the original's custom feel.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a medium close-up portrait of Michael Jackson, seated or reclining, wearing a white suit jacket over a black shirt, against a dark, almost black background. Apply soft, ethereal backlighting or rim lighting to create a subtle glow around his figure, particularly on his right side.",
+        "overlayInstruction": "Overlay the artist name 'Michael Jackson' and album title 'Thriller' in the upper left quadrant. Both should be rendered in a flowing, connected script style with variable stroke widths. The text should have a warm gradient fill, transitioning from light orange to yellow, and a subtle, soft glow around it, matching the glow on the subject."
+      },
+      "verificationChecks": [
+        "Is the subject clearly recognizable as Michael Jackson?",
+        "Is the white suit jacket and dark shirt combination present?",
+        "Is the background dark and does it feature a soft glow around the subject?",
+        "Is the text in a flowing, connected script with a warm gradient and soft glow?",
+        "Is the text positioned in the upper left quadrant and legible?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Exact shade of dark background",
+      "Intensity and spread of the soft glow",
+      "Specific hues within the text gradient",
+      "Scale of the text relative to the subject (within the upper left quadrant)"
+    ],
+    "mustRedesign": [
+      "The specific letterforms of the original custom lettering, if a font is used as a base."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "A sophisticated and iconic portrait aesthetic.",
+        "Clear legibility of the artist and album title.",
+        "A sense of mystique and elegance through lighting and composition."
+      ],
+      "avoid": [
+        "Harsh or unflattering lighting.",
+        "Generic or uninspired typography.",
+        "Distracting background elements.",
+        "Lack of visual hierarchy between subject and text."
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the subject's likeness is accurate and respectful.",
+      "Verify that the lighting creates the intended ethereal glow.",
+      "Confirm the text's script style, gradient, and glow are consistent with the original.",
+      "Check for any unintended artifacts or distortions in the image or text.",
+      "Assess overall visual balance and impact."
+    ],
+    "reuseFormula": "Recreate the iconic portrait of Michael Jackson in a white suit against a dark, glowing background, with custom-lettered script typography in a warm gradient in the upper left."
+  },
+  "embeddingStatus": "ready",
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-07T10:05:25.375Z",
+  "indexStatus": "hybrid_searchable",
+  "approvedAt": "2026-08-07T10:05:25.375Z"
+}

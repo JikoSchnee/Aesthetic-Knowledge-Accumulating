@@ -1,0 +1,149 @@
+{
+  "id": "f905bbf159f359b7144970276ceae09402a005783c77ba8e93819c0b604a1941",
+  "libraryType": "photo",
+  "batchId": "7793b57b-d710-4ec2-9d9c-56730858372b",
+  "status": "approved",
+  "providerModel": "google/gemini-2.5-flash",
+  "createdAt": "2026-08-07T09:53:30.576Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-2.5-flash",
+  "typographyUpdatedAt": "2026-08-07T09:53:30.576Z",
+  "source": {
+    "kind": "album_cover",
+    "filename": "Tame Impala — Deadbeat.jpg",
+    "hash": "f905bbf159f359b7144970276ceae09402a005783c77ba8e93819c0b604a1941",
+    "provider": "iTunes Search API",
+    "albumId": "1836226516",
+    "title": "Deadbeat",
+    "artist": "Tame Impala",
+    "genre": "Alternative · Music · Dance",
+    "year": "2025",
+    "sourceUrl": "https://music.apple.com/us/album/deadbeat/1836226516",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/54/11/80541122-c1c4-50ad-a673-ff79f4cf8aa7/196873555331.jpg/600x600bb.jpg"
+  },
+  "dedupeText": "child and adult portrait child adult embrace affection family black and white grainy close up intimate candid the child s face is the primary focal point positioned centrally and looking out the adult s head and shoulder provide a supportive partially obscured frame for the child the contrast between the child s lighter skin and the adult s darker hair creates visual separation the soft focus and graininess contribute to a nostalgic or intimate atmosphere recreate a grainy black and white close up portrait of a child and adult in an intimate embrace with the child s face prominent and looking forward and the adult s face partially obscured emphasize natural expressions and soft diffused lighting",
+  "duplicateCandidates": [],
+  "duplicateDecision": "not_required",
+  "recipe": {
+    "metadata": {
+      "title": "Child and Adult Portrait",
+      "category": "portrait",
+      "medium": [
+        "photography",
+        "black and white"
+      ],
+      "useCases": [
+        "editorial",
+        "album art",
+        "social media",
+        "personal memory"
+      ],
+      "retrievalTags": [
+        "child",
+        "adult",
+        "embrace",
+        "affection",
+        "family",
+        "black and white",
+        "grainy",
+        "close-up",
+        "intimate",
+        "candid"
+      ]
+    },
+    "visualDefinition": "A grainy, black and white close-up portrait of a young child looking directly at the viewer, partially embraced by an adult whose face is mostly obscured. The child's expression is one of innocent curiosity or slight surprise.",
+    "coreVisualRelationships": [
+      "The child's face is the primary focal point, positioned centrally and looking out.",
+      "The adult's head and shoulder provide a supportive, partially obscured frame for the child.",
+      "The contrast between the child's lighter skin and the adult's darker hair creates visual separation.",
+      "The soft focus and graininess contribute to a nostalgic or intimate atmosphere."
+    ],
+    "coreInvariants": [
+      "The image must be black and white with noticeable film grain.",
+      "A young child's face must be clearly visible and looking forward.",
+      "An adult figure must be partially visible, embracing or close to the child, with their face mostly obscured.",
+      "The composition must be a close-up, emphasizing the faces."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The child's face occupies the central-left portion of the frame, scaled to dominate the visual space. The adult's head is positioned to the right, partially behind the child, creating a sense of closeness.",
+      "visualAnchor": "The child's eyes serve as the primary visual anchor, drawing the viewer's gaze directly.",
+      "movementAndEyePath": "The eye path starts at the child's eyes, moves to their mouth, and then subtly shifts to the adult's obscured profile, reinforcing the intimate connection.",
+      "negativeSpace": "Minimal negative space, with the background blurred and indistinct, pushing the subjects forward and emphasizing their interaction."
+    },
+    "colorSystem": {
+      "dominantColorRole": "The mid-tones and highlights on the child's skin and hair define the dominant visual areas, conveying softness.",
+      "contrastColorRole": "The deep shadows in the adult's hair and the child's clothing provide strong contrast, adding depth and definition.",
+      "accentColorRole": "There are no specific accent colors; the entire image relies on the tonal range of black and white.",
+      "saturationAndValueRelationship": "The image features a full range of values from deep blacks to bright whites, with a strong emphasis on mid-tone variations to create texture and form. Saturation is absent due to the black and white nature.",
+      "paletteRestrictions": [
+        "Strictly black and white or grayscale.",
+        "No color tints or sepia tones."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a grainy, black and white close-up photograph featuring a young child looking forward, partially embraced by an adult whose face is mostly obscured. Ensure the child's expression is one of curiosity or slight surprise. The background should be soft-focused and indistinct.",
+        "overlayInstruction": "No text or graphic elements are present in the original image."
+      },
+      "verificationChecks": [
+        "Is the image strictly black and white?",
+        "Is a young child's face clearly visible and looking towards the viewer?",
+        "Is an adult figure partially visible, embracing the child, with their face mostly obscured?",
+        "Does the image exhibit a noticeable film grain texture?",
+        "Is the composition a close-up, focusing on the subjects' faces?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "level of film grain",
+      "exact expression of the child",
+      "degree of blur in the background",
+      "proportion of the adult's face that is obscured",
+      "lighting contrast (soft vs. harsh)"
+    ],
+    "mustRedesign": [],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "A sense of intimacy and connection between the subjects.",
+        "A natural, candid photographic style.",
+        "A clear distinction between the child and adult figures despite the embrace."
+      ],
+      "avoid": [
+        "Overly sharp or digital-looking image quality.",
+        "Staged or artificial poses.",
+        "Distracting background elements."
+      ]
+    },
+    "postGenerationChecks": [
+      "Does the generated image maintain the black and white aesthetic with appropriate grain?",
+      "Is the child's face the primary focus and clearly visible?",
+      "Is the adult's presence supportive and partially obscured as described?",
+      "Does the overall mood convey intimacy and naturalness?",
+      "Are there any unintended color casts or artifacts?",
+      "Is the background sufficiently blurred to keep focus on the subjects?"
+    ],
+    "reuseFormula": "Recreate a grainy black and white close-up portrait of a child and adult in an intimate embrace, with the child's face prominent and looking forward, and the adult's face partially obscured. Emphasize natural expressions and soft, diffused lighting."
+  },
+  "embeddingStatus": "ready",
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-07T10:04:52.681Z",
+  "indexStatus": "hybrid_searchable",
+  "approvedAt": "2026-08-07T10:04:52.681Z"
+}

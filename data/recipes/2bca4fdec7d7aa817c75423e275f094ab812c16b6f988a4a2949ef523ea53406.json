@@ -1,0 +1,303 @@
+{
+  "id": "2bca4fdec7d7aa817c75423e275f094ab812c16b6f988a4a2949ef523ea53406",
+  "libraryType": "photo",
+  "batchId": "7793b57b-d710-4ec2-9d9c-56730858372b",
+  "status": "approved",
+  "providerModel": "google/gemini-2.5-flash",
+  "createdAt": "2026-08-07T09:54:25.348Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-2.5-flash",
+  "typographyUpdatedAt": "2026-08-07T09:54:25.348Z",
+  "source": {
+    "kind": "album_cover",
+    "filename": "Drake — Scorpion.jpg",
+    "hash": "2bca4fdec7d7aa817c75423e275f094ab812c16b6f988a4a2949ef523ea53406",
+    "provider": "iTunes Search API",
+    "albumId": "1418213110",
+    "title": "Scorpion",
+    "artist": "Drake",
+    "genre": "Hip-Hop/Rap · Music · R&B/Soul",
+    "year": "2018",
+    "sourceUrl": "https://music.apple.com/us/album/scorpion/1418213110",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/37/43/1f374304-2e04-2be3-53ea-41dd6f0b6fb8/00602567892410.rgb.jpg/600x600bb.jpg"
+  },
+  "dedupeText": "monochromatic portrait with signature and text monochrome portrait signature minimalist dark textured album cover the portrait dominates the composition creating a strong focal point the dark background provides a stark contrast emphasizing the subject s features the signature and text elements are secondary positioned to not distract from the main portrait the overall monochromatic scheme unifies all elements creating a cohesive and serious mood recreate a high contrast monochromatic portrait of a subject looking right against a dark textured background overlay a light colored flowing signature and small clean sans serif text in the lower right add a standard parental advisory label in the lower left",
+  "duplicateCandidates": [],
+  "duplicateDecision": "not_required",
+  "recipe": {
+    "metadata": {
+      "title": "Monochromatic Portrait with Signature and Text",
+      "category": "album cover",
+      "medium": [
+        "digital art",
+        "photography"
+      ],
+      "useCases": [
+        "album art",
+        "promotional material",
+        "social media graphic"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "portrait",
+        "signature",
+        "minimalist",
+        "dark",
+        "textured",
+        "album cover"
+      ]
+    },
+    "visualDefinition": "A monochromatic, high-contrast portrait of a man, cropped from the chest up, looking to the right. The background is dark and textured. A stylized signature and small text elements are placed in the lower right corner, with a parental advisory label in the lower left.",
+    "coreVisualRelationships": [
+      "The portrait dominates the composition, creating a strong focal point.",
+      "The dark background provides a stark contrast, emphasizing the subject's features.",
+      "The signature and text elements are secondary, positioned to not distract from the main portrait.",
+      "The overall monochromatic scheme unifies all elements, creating a cohesive and serious mood."
+    ],
+    "coreInvariants": [
+      "Monochromatic color scheme (grayscale).",
+      "Portrait of a man, cropped from chest up, looking right.",
+      "Dark, textured background.",
+      "Signature-like graphic element in the lower right.",
+      "Small text elements in the lower right.",
+      "Parental advisory label in the lower left."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject's head and upper torso occupy approximately 70% of the vertical space and are centered horizontally, slightly shifted to the left to accommodate the gaze direction.",
+      "visualAnchor": "The subject's face, specifically the eyes and mouth, serve as the primary visual anchor.",
+      "movementAndEyePath": "The viewer's eye is drawn first to the subject's face, then follows the gaze to the right, and finally descends to the text and signature elements in the lower right.",
+      "negativeSpace": "Significant negative space surrounds the subject, particularly on the right and top, enhancing the focus on the portrait and providing room for the text elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Dark gray/black serves as the dominant background and shadow color, creating a somber and serious mood.",
+      "contrastColorRole": "Light gray/white highlights on the subject's skin and hair provide strong contrast, defining form and drawing attention to facial features.",
+      "accentColorRole": "None, the image is strictly monochromatic.",
+      "saturationAndValueRelationship": "The image features a full range of values from deep black to bright white, with no saturation, creating a high-contrast grayscale aesthetic.",
+      "paletteRestrictions": [
+        "Strictly grayscale, no color allowed."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "The text 'SCORPION 2018' uses a sans-serif typeface with consistent stroke width and slightly condensed letterforms. The parental advisory label uses a compact, bold sans-serif.",
+      "letterConstructionRules": [
+        "All letters are uppercase for 'SCORPION' and 'ADVISORY'.",
+        "Numerals for '2018' match the style of 'SCORPION'.",
+        "The parental advisory text is tightly packed within a rectangular outline."
+      ],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "variable",
+            "terminals": "curved, flowing",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "fluid, calligraphic"
+          },
+          "typesetting": {
+            "case": "mixed",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "single line",
+            "lineBreakPattern": "n/a",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "lower right, overlapping the subject's shoulder",
+            "scale": "large, dominant within its text block",
+            "rotation": "slight upward tilt",
+            "warp": "none",
+            "overlap": "overlaps the subject's shoulder",
+            "relationshipToImage": "integrated into the lower right, appearing as a personal mark"
+          },
+          "treatment": {
+            "fill": "light gray",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "subtle grain matching background",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal to slightly condensed",
+            "weight": "regular",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "geometric, even"
+          },
+          "typesetting": {
+            "case": "all caps",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line for 'SCORPION', single line for '2018'",
+            "density": "normal"
+          },
+          "composition": {
+            "position": "below and to the right of the signature",
+            "scale": "small, secondary to signature",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in the lower right corner, distinct from the portrait"
+          },
+          "treatment": {
+            "fill": "light gray",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "subtle grain matching background",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "caption",
+          "hierarchyLevel": 3,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "geometric, even"
+          },
+          "typesetting": {
+            "case": "all caps",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "multiple lines within a small box",
+            "density": "dense"
+          },
+          "composition": {
+            "position": "lower left corner",
+            "scale": "very small",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within a small rectangular graphic, distinct from the portrait"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "black box",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A script-like signature is paired with a clean, modern sans-serif for informational text, creating a contrast between personal touch and clear communication. The parental advisory uses a distinct, compact sans-serif for official labeling.",
+      "graphicDevices": [
+        "A rectangular outline for the parental advisory label.",
+        "A stylized, handwritten signature."
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The contrast between the flowing signature and the structured sans-serif text.",
+          "The all-caps setting for 'SCORPION' and the parental advisory text.",
+          "The small scale and placement of the informational text.",
+          "The compact, bold nature of the parental advisory text within its box."
+        ],
+        "avoid": [
+          "Script fonts for 'SCORPION' or the parental advisory.",
+          "Serif fonts for any text.",
+          "Decorative or highly stylized fonts for the informational text.",
+          "Overly wide or expanded letterforms."
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Signature-style script font (e.g., Autography, Brusher)",
+            "reason": "To replicate the personal, handwritten feel of the large signature.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Geometric sans-serif (e.g., Montserrat, Gotham, Avenir)",
+            "reason": "For the clean, modern, and legible 'SCORPION 2018' text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Compact, bold sans-serif (e.g., Impact, Anton, Bebas Neue)",
+            "reason": "For the parental advisory label, emphasizing its official and warning nature.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a monochromatic, high-contrast portrait of a man, cropped from the chest up, looking to the right. Ensure a dark, textured background. The subject should have defined facial features and hair waves. Leave the lower left and lower right corners clear for text.",
+        "overlayInstruction": "Overlay a light gray, stylized, flowing signature in the lower right, partially overlapping the subject's shoulder. Below and to the right of the signature, add 'SCORPION' in light gray, all caps, sans-serif, followed by '2018' in the same style on a new line. In the lower left corner, add a small black rectangular box with a white outline, containing the 'PARENTAL ADVISORY EXPLICIT CONTENT' text in white, bold, condensed, all-caps sans-serif, centered and tightly packed."
+      },
+      "verificationChecks": [
+        "Is the portrait monochromatic and high-contrast?",
+        "Is the signature clearly distinct from the sans-serif text?",
+        "Is the parental advisory label small, compact, and in the lower left?",
+        "Are all text elements light gray or white against the dark background/box?",
+        "Does the overall composition maintain a serious and focused mood?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's facial expression (subtle changes)",
+      "Specific texture of the background (subtle variations)",
+      "Exact placement of the signature and text (within the general lower right area)",
+      "Weight and width of the sans-serif fonts (within the specified categories)"
+    ],
+    "mustRedesign": [
+      "Any use of color beyond grayscale.",
+      "Changing the subject's pose or gaze direction significantly.",
+      "Placing text elements in the upper half of the image.",
+      "Using highly decorative or serif fonts."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "A strong, focused portrait aesthetic.",
+        "Clear legibility of all text elements.",
+        "A cohesive monochromatic visual style.",
+        "A sense of depth and texture in the portrait and background."
+      ],
+      "avoid": [
+        "Washed-out or low-contrast appearance.",
+        "Distracting background elements.",
+        "Cluttered text layout.",
+        "Inconsistent typographic styles."
+      ]
+    },
+    "postGenerationChecks": [
+      "Verify the monochromatic nature of the entire image.",
+      "Confirm the subject's gaze direction and cropping.",
+      "Check the legibility and placement of all text elements (signature, 'SCORPION 2018', parental advisory).",
+      "Ensure the background texture is present and not distracting.",
+      "Confirm the overall mood is serious and contemplative.",
+      "Check for any unintended color artifacts or gradients."
+    ],
+    "reuseFormula": "Recreate a high-contrast, monochromatic portrait of a subject looking right, against a dark, textured background. Overlay a light-colored, flowing signature and small, clean sans-serif text in the lower right. Add a standard parental advisory label in the lower left."
+  },
+  "embeddingStatus": "ready",
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-07T10:04:49.610Z",
+  "indexStatus": "hybrid_searchable",
+  "approvedAt": "2026-08-07T10:04:49.611Z"
+}

@@ -1,0 +1,224 @@
+{
+  "id": "a08689b6f0de1526e417d6e65fabe58f25c6cade315ac6bc26c5b3461b12b2d4",
+  "libraryType": "photo",
+  "batchId": "7793b57b-d710-4ec2-9d9c-56730858372b",
+  "status": "approved",
+  "providerModel": "google/gemini-2.5-flash",
+  "createdAt": "2026-08-07T09:38:28.436Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-2.5-flash",
+  "typographyUpdatedAt": "2026-08-07T09:38:28.436Z",
+  "source": {
+    "kind": "album_cover",
+    "filename": "Beyoncé — MORNING DEW (DONK) REMIX PACK - EP.jpg",
+    "hash": "a08689b6f0de1526e417d6e65fabe58f25c6cade315ac6bc26c5b3461b12b2d4",
+    "provider": "iTunes Search API",
+    "albumId": "6798146444",
+    "title": "MORNING DEW (DONK) REMIX PACK - EP",
+    "artist": "Beyoncé",
+    "genre": "Pop · Music",
+    "year": "2026",
+    "sourceUrl": "https://music.apple.com/us/album/morning-dew-donk-remix-pack-ep/6798146444",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/56/2a/cc562a9d-cfb7-e198-eb5f-17cfc00280cc/196874652756.jpg/600x600bb.jpg"
+  },
+  "dedupeText": "gritty portrait with text overlay monochrome grainy portrait dark moody minimalist typography abstract texture face shadows the human face is the central dominant element occupying most of the frame high contrast between dark and light areas defines the facial features and creates depth the pervasive grain and noise texture unifies the entire image obscuring fine details the overlaid text elements are small and unobtrusive serving as informational accents rather than primary visual foci generate a high contrast grainy monochrome portrait of a human face emphasizing dark tones and abstract features overlay small white all caps monospaced text in the top left and top right corners for informational purposes",
+  "duplicateCandidates": [],
+  "duplicateDecision": "not_required",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Portrait with Text Overlay",
+      "category": "Album Art",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover",
+        "Promotional Material",
+        "Digital Display"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "grainy",
+        "portrait",
+        "dark",
+        "moody",
+        "minimalist typography",
+        "abstract",
+        "texture",
+        "face",
+        "shadows"
+      ]
+    },
+    "visualDefinition": "A high-contrast, grainy, monochrome portrait of a person's face, rendered in dark tones with significant visual noise, creating an abstract and moody aesthetic. Minimalist white text is overlaid in the upper corners.",
+    "coreVisualRelationships": [
+      "The human face is the central, dominant element, occupying most of the frame.",
+      "High contrast between dark and light areas defines the facial features and creates depth.",
+      "The pervasive grain and noise texture unifies the entire image, obscuring fine details.",
+      "The overlaid text elements are small and unobtrusive, serving as informational accents rather than primary visual foci."
+    ],
+    "coreInvariants": [
+      "The image must be monochrome, primarily black and white with shades of gray.",
+      "A strong, pervasive grain or noise filter must be applied to the entire image.",
+      "The central subject must be a human face, rendered in a dark, moody, and somewhat abstract manner.",
+      "The text must be white, sans-serif, and positioned in the upper corners, maintaining a small scale relative to the overall composition."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject's face is centrally positioned and occupies approximately 80-90% of the vertical frame, with the top of the head and chin slightly cropped. It is a close-up shot, emphasizing the eyes, nose, and mouth.",
+      "visualAnchor": "The eyes and the strong shadow under the nose serve as primary visual anchors, drawing the viewer's gaze into the central facial features.",
+      "movementAndEyePath": "The eye path is drawn from the upper left text to the upper right text, then down to the central facial features, particularly the eyes and nose, before exploring the textured surface of the face.",
+      "negativeSpace": "There is very little traditional negative space; the background is filled with the textured, dark hair and shoulders of the subject, blending into the overall grainy aesthetic. The dark areas around the face function as negative space, emphasizing the lighter facial features."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Dark grays and blacks form the dominant color role, creating a somber and mysterious mood, and serving as the primary background and shadow tones.",
+      "contrastColorRole": "Light grays and whites serve as the contrast color role, highlighting facial features and providing legibility for the overlaid text.",
+      "accentColorRole": "None; the image is strictly monochrome.",
+      "saturationAndValueRelationship": "The image exhibits a full range of values from deep black to bright white, but with a strong emphasis on the darker end of the spectrum. Saturation is entirely absent due to the monochrome nature.",
+      "paletteRestrictions": [
+        "Strictly monochrome (black, white, and shades of gray).",
+        "No color accents or hues."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "A monospaced, sans-serif typeface with uniform stroke width and square terminals.",
+      "letterConstructionRules": [
+        "All characters are uppercase.",
+        "Characters have a fixed width, typical of monospaced fonts.",
+        "Stroke endings are blunt and unadorned.",
+        "Minimal variation in stroke thickness."
+      ],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Monospaced Sans-serif",
+          "anatomy": {
+            "width": "fixed",
+            "weight": "regular",
+            "contrast": "monoline",
+            "xHeight": "tall",
+            "terminals": "square",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "geometric, uniform"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "natural word breaks",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "top-left and top-right corners",
+            "scale": "small, approximately 5-7% of image height",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on the dark, grainy background, providing clear contrast"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for all text elements, maintaining consistency and a minimalist aesthetic.",
+      "graphicDevices": [],
+      "substitutionGuidance": {
+        "preserve": [
+          "Monospaced characteristic",
+          "All-caps typesetting",
+          "Small scale relative to the image",
+          "White color against dark background",
+          "Placement in upper corners"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Decorative fonts",
+          "Bold or heavy weights",
+          "Varying font sizes for different text blocks",
+          "Central alignment"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "IBM Plex Mono",
+            "reason": "Excellent monospaced sans-serif with good legibility and a modern, technical feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Space Mono",
+            "reason": "Distinctive monospaced font with a strong character, suitable for a slightly more stylized look.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Consolas",
+            "reason": "Classic monospaced font, very clean and readable, good for a straightforward, functional aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, monochrome portrait of a human face, rendered with significant visual noise and grain. The face should be dark and moody, occupying most of the frame, with features defined by strong shadows and highlights. The background should blend into the subject, also appearing dark and grainy.",
+        "overlayInstruction": "Overlay white, all-caps, monospaced sans-serif text in the top-left and top-right corners. The text should be small, approximately 5-7% of the image height, and maintain normal tracking. Ensure clear contrast against the dark background."
+      },
+      "verificationChecks": [
+        "Is the text monospaced and all-caps?",
+        "Is the text white and clearly legible against the dark background?",
+        "Are the text blocks positioned in the upper corners and relatively small?",
+        "Is there a single typeface used for all text elements?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Specific monospaced font choice",
+      "Exact scale and position of text blocks (within corner constraints)",
+      "Level of grain/noise applied to the image",
+      "Intensity of contrast in the portrait",
+      "Facial expression of the subject (maintaining a moody tone)"
+    ],
+    "mustRedesign": [],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "A strong sense of moodiness and abstraction through high contrast and grain.",
+        "Clear legibility of the overlaid text despite the textured background.",
+        "A cohesive monochrome palette without any color intrusion.",
+        "The central focus on a human face, even if partially obscured or abstract."
+      ],
+      "avoid": [
+        "Smooth, clean photographic quality without grain.",
+        "Bright, cheerful, or overly detailed facial expressions.",
+        "Colorful elements or gradients.",
+        "Decorative or highly stylized typography that breaks the minimalist aesthetic.",
+        "Text that is difficult to read due to poor contrast or small size."
+      ]
+    },
+    "postGenerationChecks": [
+      "Verify the image is strictly monochrome with no color.",
+      "Confirm the presence of a strong, pervasive grain/noise texture.",
+      "Check that the human face is the dominant subject and appears dark/moody.",
+      "Ensure the text is white, monospaced, all-caps, and positioned in the upper corners.",
+      "Confirm text legibility against the background.",
+      "Assess if the overall mood is dark, abstract, and somewhat mysterious."
+    ],
+    "reuseFormula": "Generate a high-contrast, grainy, monochrome portrait of a human face, emphasizing dark tones and abstract features. Overlay small, white, all-caps monospaced text in the top-left and top-right corners for informational purposes."
+  },
+  "embeddingStatus": "ready",
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-07T10:05:42.350Z",
+  "indexStatus": "hybrid_searchable",
+  "approvedAt": "2026-08-07T10:05:42.350Z"
+}
