@@ -1,0 +1,107 @@
+.import-mode-tabs{display:grid;grid-template-columns:1fr 1fr;margin:0 24px 26px;border:1px solid #aaa392;background:#d7d8ca}
+.import-mode-tabs button{display:flex;align-items:center;gap:16px;padding:15px 20px;border:0;border-right:1px solid #aaa392;background:transparent;text-align:left;color:var(--ink);cursor:pointer}
+.import-mode-tabs button:last-child{border-right:0}
+.import-mode-tabs button.active{background:var(--ink);color:#f1eadc}
+.import-mode-tabs button>b{font:26px var(--serif);color:var(--red)}
+.import-mode-tabs button>span{font:15px var(--serif)}
+.import-mode-tabs small{display:block;margin-top:3px;font:8px var(--mono);letter-spacing:.1em}
+.skill-import-page{padding-top:0}
+.skill-source-tabs{display:flex;margin:0 24px 12px;border-bottom:1px solid #9f9888}
+.skill-source-tabs button{display:flex;gap:12px;align-items:center;padding:11px 18px;border:0;background:transparent;font:10px var(--mono);color:var(--ink);cursor:pointer}
+.skill-source-tabs button b{font:8px var(--mono);letter-spacing:.12em;color:var(--red)}
+.skill-source-tabs button.active{background:var(--ink);color:#f1eadc}
+.skill-drop{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:36px;margin:0 24px 26px;padding:34px;background:#e8e2d4;border:1px solid #9f9888;border-top:4px solid var(--ink);box-shadow:9px 9px 0 #c3c8b8}
+.skill-drop h2{margin:8px 0 12px;font:40px/1.02 var(--serif)}
+.skill-drop p{max-width:520px;font-size:11px;line-height:1.7;color:#554f45}
+.skill-file-actions{display:grid;align-content:center;gap:10px}
+.skill-file-actions label{display:flex;justify-content:space-between;align-items:center;padding:16px 18px;border:1px solid var(--ink);font:10px var(--mono);cursor:pointer;background:#f1eadc}
+.skill-file-actions label:after{content:"↗";font-size:17px}
+.skill-file-actions label:hover{background:#dce3d5}
+.skill-file-actions input{position:absolute;opacity:0;pointer-events:none}
+.skill-file-actions small{font:8px/1.5 var(--mono);color:#746d60}
+.github-import-form{display:grid;align-content:center;gap:9px}
+.github-import-form label{font:8px var(--mono);letter-spacing:.12em}
+.github-import-form input{width:100%;box-sizing:border-box;padding:16px;border:1px solid var(--ink);background:#f1eadc;color:var(--ink);font:10px var(--mono);outline:none}
+.github-import-form input:focus{box-shadow:4px 4px 0 #bd4838}
+.github-import-form small{font:8px/1.55 var(--mono);color:#746d60}
+.skill-file-strip{grid-column:1/-1;display:grid;grid-template-columns:auto auto 1fr;gap:12px;align-items:baseline;padding-top:18px;border-top:1px solid #aaa392}
+.skill-file-strip b{font:30px var(--serif);color:var(--red)}
+.skill-file-strip span{font:9px var(--mono)}
+.skill-file-strip p{justify-self:end;margin:0;font:9px var(--mono);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:70%}
+.github-resolution{grid-column:1/-1;display:grid;grid-template-columns:1.2fr 1.4fr 1fr 1.1fr .6fr .7fr;border-top:1px solid #aaa392;border-left:1px solid #aaa392}
+.github-resolution span{min-width:0;padding:12px;border-right:1px solid #aaa392;border-bottom:1px solid #aaa392;font:7px var(--mono);letter-spacing:.08em;color:#6c665a}
+.github-resolution b,.github-resolution a{display:block;margin-bottom:5px;overflow:hidden;text-overflow:ellipsis;color:var(--ink);font:10px var(--mono);letter-spacing:0;white-space:nowrap}
+.skill-import-console{margin:0 24px 54px;background:#202820;color:#eee7d8;border-top:3px solid var(--red)}
+.skill-import-progress{padding:24px}
+.skill-import-progress>span{font:9px var(--mono);letter-spacing:.1em;color:#b8c5b3}
+.skill-import-progress>b{float:right;font:30px var(--serif)}
+.skill-import-progress>div{clear:both;height:7px;margin-top:18px;background:#4c574d}
+.skill-import-progress i{display:block;height:100%;background:#d65340;transition:width .25s}
+.skill-import-progress p{margin:12px 0 0;font:10px var(--mono)}
+.skill-import-console dl{display:grid;grid-template-columns:repeat(4,1fr);margin:0;border-top:1px solid #536053;border-bottom:1px solid #536053}
+.skill-import-console dl>div{padding:16px 22px;border-right:1px solid #536053}
+.skill-import-console dt{font:9px var(--mono);color:#b8c5b3}
+.skill-import-console dd{margin:5px 0 0;font:28px var(--serif)}
+.skill-import-details{max-height:150px;overflow:auto;padding:13px 22px;background:#192019}
+.skill-import-details p{font:9px/1.5 var(--mono)}
+.skill-import-details .reject{color:#e2aa69}
+.skill-import-details .fail{color:#ef8779}
+.skill-import-details .skip{color:#a9bba6}
+.skill-import-console footer{display:flex;justify-content:space-between;align-items:center;padding:18px 22px}
+.skill-import-console footer small{font:8px var(--mono);color:#b8c5b3}
+.library-identity{display:grid;grid-template-columns:90px 1fr;gap:24px;margin-bottom:28px;padding:25px 28px;background:#e8e2d4;border-top:3px solid var(--ink)}
+.library-identity>span{font:72px/.9 var(--serif);color:var(--red)}
+.library-identity h2{margin:3px 0 5px;font:32px var(--serif)}
+.library-identity small{font:8px var(--mono);letter-spacing:.12em}
+.library-identity p{margin:0;font-size:10px}
+.skill-library .library-identity{background:#dce3d5}
+.review-library-tabs{display:flex;margin:0 34px 20px;border-bottom:1px solid #9f9888}
+.review-library-tabs button{padding:12px 18px;border:0;background:transparent;font:10px var(--mono);cursor:pointer}
+.review-library-tabs button.active{background:var(--ink);color:#fff}
+.review-library-tabs b{margin-left:10px;color:var(--red)}
+.external-source{max-width:940px;margin:0 34px 45px;background:#dce3d5;border:1px solid #8e988a}
+.external-source header{display:flex;justify-content:space-between;padding:20px 22px;border-bottom:1px solid #9ba594}
+.external-source h3{margin:5px 0 0;font:26px var(--serif)}
+.external-source dl{display:grid;grid-template-columns:1fr 1fr 1fr;margin:0}
+.external-source dl>div{padding:12px 18px;border-right:1px solid #9ba594}
+.external-source dt{font:8px var(--mono)}
+.external-source dd{margin:4px 0 0;font:10px var(--mono);overflow-wrap:anywhere}
+.external-source pre{max-height:230px;overflow:auto;margin:0;padding:20px;white-space:pre-wrap;font:9px/1.65 var(--mono);background:#edf0e7}
+.source-stamps{display:flex;gap:8px;align-items:flex-start}
+.source-stamps .update{background:#bd4838;color:#fff;border-color:#bd4838}
+.external-source a{color:#8d2f24;text-decoration:none}
+.github-source-line{margin:0;padding:10px 18px;border-top:1px solid #9ba594;background:#cbd6c8;font:8px/1.5 var(--mono)}
+.split-results{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:26px}
+.retrieval-column{min-width:0;background:#e8e2d4;border-top:3px solid var(--ink)}
+.retrieval-column.imported_skill{background:#dce3d5;border-top-color:#bd4838}
+.retrieval-column .section-label{padding:16px 18px}
+.retrieval-column .candidate{grid-template-columns:38px 1fr auto;margin:0;border-top:1px solid #aaa392}
+.source-chip{display:inline-block;margin-bottom:5px;padding:3px 5px;background:#202820;color:#fff;font:7px var(--mono);letter-spacing:.08em}
+.retrieval-column.imported_skill .source-chip{background:#bd4838}
+.column-empty{display:grid;place-items:center;min-height:220px;color:#70695e}
+.column-empty b{font:38px var(--serif)}
+.column-empty p{margin-top:-60px;font:9px var(--mono)}
+.export-library-filter{display:flex;gap:8px;padding:14px 20px;background:#dce3d5;border-bottom:1px solid #aaa392}
+.export-library-filter button{padding:8px 12px;border:1px solid #8e8a7e;background:transparent;font:9px var(--mono);cursor:pointer}
+.export-library-filter button.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+@media(max-width:900px){.skill-drop,.split-results{grid-template-columns:1fr}
+.github-resolution{grid-template-columns:1fr 1fr}
+.skill-import-console dl{grid-template-columns:1fr 1fr}
+.skill-import-console dl>div:nth-child(2){border-right:0}
+.skill-file-strip{grid-template-columns:auto 1fr}
+.skill-file-strip p{grid-column:1/-1;justify-self:start;max-width:100%}
+.external-source dl{grid-template-columns:1fr}
+.external-source dl>div{border-right:0;border-bottom:1px solid #9ba594}
+}
+
+@media(max-width:620px){.import-mode-tabs,.skill-source-tabs{margin-inline:18px}
+.skill-drop,.skill-import-console{margin-inline:18px}
+.skill-drop{padding:24px}
+.skill-drop h2{font-size:32px}
+.skill-import-console footer{align-items:flex-start;gap:16px;flex-direction:column}
+.skill-import-console footer .ink-btn{width:100%}
+.library-identity{grid-template-columns:55px 1fr}
+.library-identity>span{font-size:50px}
+.review-library-tabs,.external-source{margin-inline:18px}
+}
