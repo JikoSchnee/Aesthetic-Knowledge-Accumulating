@@ -1,5 +1,5 @@
 import { createHash, randomUUID } from "node:crypto";
-import { mkdir, readFile, readdir, rename, stat, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, rename, rm, stat, writeFile } from "node:fs/promises";
 import { basename, extname, join } from "node:path";
 import { embeddingTexts, type EmbeddingConfig } from "./embeddings";
 import { isGenerationTransientError, resolveGeneratedImage, pollGeneration, submitGeneration, type GenerationSubmission } from "./image-generation";
@@ -54,10 +54,16 @@ export type EvalRun = {
   id: string;
   createdAt: string;
   updatedAt: string;
+  groupName?: string;
   status: "running" | "paused" | "completed";
   config: Omit<ImageGenerationSettings, "apiKey"> & { topK: number; library: LibraryType | "all"; concurrency?: number };
   cases: EvalCaseRun[];
 };
+
+export function evalGroupName(value: unknown) {
+  const name = typeof value === "string" ? value.replace(/\s+/g, " ").trim().slice(0, 80) : "";
+  return name || "未命名组";
+}
 
 const supportedMime = new Map([["image/jpeg", "jpg"], ["image/png", "png"], ["image/webp", "webp"]] as const);
 const safeId = (value: string) => /^[a-f0-9-]{16,64}$/i.test(value);
@@ -163,7 +169,7 @@ function clearEvalRetrySchedule(item: RetryableEvalItem) {
   delete item.lastTransientError;
 }
 
-export async function createEvalRun(input: { caseIds?: string[]; topK?: number; library?: LibraryType | "all"; concurrency?: number }) {
+export async function createEvalRun(input: { caseIds?: string[]; topK?: number; library?: LibraryType | "all"; concurrency?: number; groupName?: string }) {
   const cases = await listEvalCases();
   const selected = input.caseIds?.length ? cases.filter((item) => input.caseIds?.includes(item.id)) : cases;
   if (!selected.length) throw new Error("请先添加至少一张 Eval 图片。");
@@ -176,12 +182,29 @@ export async function createEvalRun(input: { caseIds?: string[]; topK?: number; 
   await mkdir(directory, { recursive: true });
   const { apiKey: _secret, ...snapshot } = settings;
   const run: EvalRun = {
-    schemaVersion: "1.0", id, createdAt: now, updatedAt: now, status: "running",
+    schemaVersion: "1.0", id, createdAt: now, updatedAt: now, groupName: evalGroupName(input.groupName), status: "running",
     config: { ...snapshot, topK: Math.max(1, Math.min(10, Math.round(input.topK || 3))), library: input.library === "photo" || input.library === "imported_skill" ? input.library : "all", concurrency: evalConcurrency(input.concurrency) },
     cases: selected.map((item) => ({ caseId: item.id, filename: item.filename, stage: "pending_analysis", timings: {} }))
   };
   await saveEvalRun(run);
   return run;
+}
+
+export async function renameEvalGroup(from: unknown, to: unknown) {
+  const source = evalGroupName(from);
+  const target = evalGroupName(to);
+  if (source === target) return listEvalRuns();
+  const runs = await listEvalRuns();
+  await Promise.all(runs.filter((run) => evalGroupName(run.groupName) === source).map(async (run) => { run.groupName = target; await saveEvalRun(run); }));
+  return listEvalRuns();
+}
+
+export async function deleteEvalGroup(group: unknown) {
+  const name = evalGroupName(group);
+  const runs = await listEvalRuns();
+  const targets = runs.filter((run) => evalGroupName(run.groupName) === name);
+  await Promise.all(targets.map((run) => rm(join(evalRunsDir(), run.id), { recursive: true, force: true })));
+  return targets.map((run) => run.id);
 }
 
 async function analyzeEvalImage(path: string, mime: string) {
@@ -320,6 +343,7 @@ async function advanceGeneration(run: EvalRun, item: EvalCaseRun, generation: Ev
 }
 
 async function advanceEvalCase(run: EvalRun, item: EvalCaseRun, sourceCase: EvalCase, embedding?: EmbeddingConfig) {
+  const sourcePath = join(evalImagesDir(), sourceCase.filename);
   try {
     if (item.stage === "pending_analysis") {
       const started = Date.now();
