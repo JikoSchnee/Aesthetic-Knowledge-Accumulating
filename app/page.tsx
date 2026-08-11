@@ -9,8 +9,10 @@ import "./export.css";
 import "./embedding.css";
 import "./typography.css";
 import "./skill-import.css";
+import "./eval-sidebar.css";
+import { EvalStudio, ImageGenerationSettingsPanel } from "./eval-studio";
 
-type Screen = "photo-library" | "skill-library" | "import" | "review" | "lab" | "export" | "settings";
+type Screen = "photo-library" | "skill-library" | "import" | "review" | "lab" | "eval" | "export" | "settings";
 type DuplicateCandidate = { id: string; title: string; similarity: number; overlap: string[] };
 type TypographyRoleView = { role: string; hierarchyLevel: number; classification: string; anatomy?: Record<string, string>; typesetting?: Record<string, string>; composition?: Record<string, string>; treatment?: Record<string, string> };
 type TypographyView = { presence: "dominant" | "supporting" | "none"; constructionMode?: string; baseSkeleton?: string; letterConstructionRules?: string[]; characterSpecificRedesigns?: string[]; recommendedProductionMethod?: string; fontRequired?: boolean; roles: TypographyRoleView[]; pairingStrategy?: string; graphicDevices?: string[]; substitutionGuidance?: { preserve?: string[]; avoid?: string[]; candidateDirections?: Array<{ nameOrCategory: string; reason: string; confidence: string }> }; twoStageComposition?: { backgroundInstruction?: string; overlayInstruction?: string }; verificationChecks?: string[]; confidence?: string };
@@ -159,7 +161,7 @@ export default function Home() {
     const payload = response.ok ? await response.json() : { results: [], retrievalMode: "keyword", warning: "检索失败。" };
     setPhotoSearchResults(payload.photoResults || []); setImportedSearchResults(payload.importedSkillResults || []); setRetrievalMode(payload.retrievalMode || "keyword"); setRetrievalWarning(payload.warning || "");
   };
-  const nav = [{ id: "photo-library", zh: "照片审美库", en: "PHOTO LIBRARY" }, { id: "skill-library", zh: "Skill 审美库", en: "SKILL LIBRARY" }, { id: "import", zh: "导入", en: "IMPORT" }, { id: "review", zh: "审阅台", en: "REVIEW" }, { id: "lab", zh: "检索实验室", en: "RETRIEVAL" }, { id: "export", zh: "导出", en: "EXPORT" }] as const;
+  const nav = [{ id: "photo-library", zh: "照片审美库", en: "PHOTO LIBRARY" }, { id: "skill-library", zh: "Skill 审美库", en: "SKILL LIBRARY" }, { id: "import", zh: "导入", en: "IMPORT" }, { id: "review", zh: "审阅台", en: "REVIEW" }, { id: "lab", zh: "检索实验室", en: "RETRIEVAL" }, { id: "eval", zh: "生成测试", en: "EVAL RUNS" }, { id: "export", zh: "导出", en: "EXPORT" }] as const;
   const activeReviewRecipes = reviewRecipes.filter((item) => (item.libraryType || "photo") === reviewLibrary);
   return <main>
     <aside className="sidebar">
@@ -170,14 +172,15 @@ export default function Home() {
       <div className="side-bottom"><div className="provider-dot"/><span>{apiSettings.apiKey ? "API READY" : "API NOT CONFIGURED"}</span><small>{apiSettings.model}</small></div>
     </aside>
     <section className="workspace">
-      <header><div><span className="eyebrow">REFERENCE ATLAS / 2026</span><h1>{screen === "photo-library" ? "从照片里，积累视觉判断。" : screen === "skill-library" ? "让别人的方法，经过你的审阅。" : screen === "import" ? "把灵感或方法放进队列。" : screen === "review" ? "人来决定什么值得留下。" : screen === "lab" ? "两座资料库，同一个问题。" : screen === "export" ? "带走可复用的判断。" : "为视觉判断，接通模型。"}</h1></div><div className="header-actions"><span className="sync">● LOCAL DATABASE SYNCED</span>{screen !== "settings" && <button className="ink-btn" onClick={() => setScreen("import")}>+ 添加参考</button>}</div></header>
+      <header><div><span className="eyebrow">REFERENCE ATLAS / 2026</span><h1>{screen === "photo-library" ? "从照片里，积累视觉判断。" : screen === "skill-library" ? "让别人的方法，经过你的审阅。" : screen === "import" ? "把灵感或方法放进队列。" : screen === "review" ? "人来决定什么值得留下。" : screen === "lab" ? "两座资料库，同一个问题。" : screen === "eval" ? "把视觉判断，交给结果验证。" : screen === "export" ? "带走可复用的判断。" : "为视觉判断，接通模型。"}</h1></div><div className="header-actions"><span className="sync">● LOCAL DATABASE SYNCED</span>{screen !== "settings" && screen !== "eval" && <button className="ink-btn" onClick={() => setScreen("import")}>+ 添加参考</button>}</div></header>
       {screen === "photo-library" && <Library onNavigate={setScreen} recipes={photoRecipes} library="photo" />}
       {screen === "skill-library" && <Library onNavigate={setScreen} recipes={importedRecipes} library="imported_skill" />}
       {screen === "import" && <><ImportModeTabs mode={importMode} setMode={setImportMode} />{importMode === "photo" ? <><AlbumCrawler apiReady={Boolean(apiSettings.apiKey)} running={importStatus === "processing"} onImport={startAlbumImport} /> <Hot100Importer vision={apiSettings} /> <Import files={files} addFiles={addFiles} queue={queue} concurrency={concurrency} setConcurrency={setConcurrency} apiSettings={apiSettings} onOpenSettings={() => setScreen("settings")} status={importStatus} onStart={startImport} error={importError} onReview={() => { setReviewLibrary("photo"); setScreen("review"); }} intakeRecords={intakeRecords} selectionNote={selectionNote} analysisFailures={analysisFailures} /></> : <SkillImport vision={apiSettings} onReview={() => { setReviewLibrary("imported_skill"); setScreen("review"); }} />}</>}
       {screen === "review" && <><ReviewLibraryTabs value={reviewLibrary} onChange={setReviewLibrary} counts={{ photo: reviewRecipes.filter((item) => (item.libraryType || "photo") === "photo").length, imported: reviewRecipes.filter((item) => item.libraryType === "imported_skill").length }} /><Review recipes={activeReviewRecipes} onApprove={approveRecipe} onApproveAll={approveAllRecipes} onReject={rejectRecipe} error={approvalError} />{activeReviewRecipes[0]?.libraryType === "imported_skill" && <ExternalSkillSource item={activeReviewRecipes[0]} />}{activeReviewRecipes[0] && <><TypographyReview typography={activeReviewRecipes[0].recipe.typographyAndGraphicLanguage} /><LetteringConstruction typography={activeReviewRecipes[0].recipe.typographyAndGraphicLanguage} /></>}</>}
       {screen === "lab" && <SemanticLab query={query} setQuery={setQuery} photoResults={photoSearchResults} importedResults={importedSearchResults} retrievalMode={retrievalMode} warning={retrievalWarning} onSearch={runSearch} />}
+      {screen === "eval" && <EvalStudio embedding={embeddingSettings} onOpenSettings={() => setScreen("settings")} />}
       {screen === "export" && <Export recipes={[...photoRecipes, ...importedRecipes]} />}
-      {screen === "settings" && <><Settings values={apiSettings} setValues={setApiSettings} saved={saved} setSaved={setSaved} /><UpstreamDiagnostics /><EmbeddingSettingsPanel values={embeddingSettings} setValues={setEmbeddingSettings} /><TypographyBackfillPanel vision={apiSettings} embedding={embeddingSettings} /></>}
+      {screen === "settings" && <><Settings values={apiSettings} setValues={setApiSettings} saved={saved} setSaved={setSaved} /><ImageGenerationSettingsPanel /><UpstreamDiagnostics /><EmbeddingSettingsPanel values={embeddingSettings} setValues={setEmbeddingSettings} /><TypographyBackfillPanel vision={apiSettings} embedding={embeddingSettings} /></>}
     </section>
   </main>;
 }
