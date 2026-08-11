@@ -16,6 +16,7 @@ const DATASET_KEY = `${OWNER}/${REPO}/${PATH}`;
 const MAX_SOURCE_BYTES = 100 * 1024 * 1024;
 const LEASE_MS = 60_000;
 const IDLE_MS = 800;
+export const MAX_HOT100_CONCURRENCY = 16;
 const ALLOWED_MIME = new Map([["image/jpeg", "jpg"], ["image/png", "png"], ["image/webp", "webp"]]);
 
 export type VisionConfig = { endpoint?: string; model?: string; apiKey?: string };
@@ -286,7 +287,11 @@ export function hot100Summary(job: JobRow) {
   const low = db.prepare("SELECT count(*) count FROM hot100_songs WHERE job_id=? AND json_extract(match_json,'$.verificationNeeded')=1").get(job.id) as { count: number };
   const albums = db.prepare("SELECT count(*) count FROM hot100_albums WHERE job_id=?").get(job.id) as { count: number };
   const recent = db.prepare("SELECT song_id,song,performer,status,error,recipe_id FROM hot100_songs WHERE job_id=? AND status!='pending_lookup' ORDER BY updated_at DESC LIMIT 12").all(job.id) as Array<Record<string, string | null>>;
-  return { id: job.id, status: job.status, createdAt: job.created_at, updatedAt: job.updated_at, sourceSnapshot, totalRows: job.total_rows, uniqueSongs, uniqueAlbums: Number(albums.count), counts, lowConfidence: Number(low.count), processedPerMinute: Number(processedPerMinute.toFixed(2)), etaSeconds, concurrency: job.concurrency, migration: job.migration_json ? JSON.parse(job.migration_json) : undefined, recent: recent.map((item) => ({ songId: item.song_id, song: item.song, performer: item.performer, status: item.status, error: item.error || undefined, recipeId: item.recipe_id || undefined })) };
+  const active = db.prepare(`SELECT count(*) count FROM hot100_songs songs
+    JOIN hot100_worker_lease worker ON worker.owner=songs.lease_owner
+    WHERE songs.job_id=? AND songs.status IN ('looking_up','downloading','analyzing')
+      AND songs.lease_until>? AND worker.expires_at>?`).get(job.id, now(), now()) as { count: number };
+  return { id: job.id, status: job.status, createdAt: job.created_at, updatedAt: job.updated_at, sourceSnapshot, totalRows: job.total_rows, uniqueSongs, uniqueAlbums: Number(albums.count), counts, lowConfidence: Number(low.count), processedPerMinute: Number(processedPerMinute.toFixed(2)), etaSeconds, concurrency: job.concurrency, activeConcurrency: Number(active.count), maxConcurrency: MAX_HOT100_CONCURRENCY, migration: job.migration_json ? JSON.parse(job.migration_json) : undefined, recent: recent.map((item) => ({ songId: item.song_id, song: item.song, performer: item.performer, status: item.status, error: item.error || undefined, recipeId: item.recipe_id || undefined })) };
 }
 
 function requiredVision(vision?: VisionConfig): Required<VisionConfig> | undefined {
@@ -407,7 +412,7 @@ async function workerLoop(owner: string) {
     const job = database().prepare("SELECT * FROM hot100_jobs WHERE status='running' ORDER BY updated_at DESC LIMIT 1").get() as JobRow | undefined;
     const vision = requiredVision();
     if (!job || !vision) { await new Promise((resolve) => setTimeout(resolve, 2_000)); continue; }
-    const claims = Array.from({ length: Math.max(1, Math.min(job.concurrency, 8)) }, () => claimSong(job.id, owner)).filter((row): row is SongRow => Boolean(row));
+    const claims = Array.from({ length: Math.max(1, Math.min(job.concurrency, MAX_HOT100_CONCURRENCY)) }, () => claimSong(job.id, owner)).filter((row): row is SongRow => Boolean(row));
     if (!claims.length) { updateJobCompletion(job.id); await new Promise((resolve) => setTimeout(resolve, IDLE_MS)); continue; }
     const heartbeat = setInterval(() => { try { renewWorkerLease(owner); } catch { /* The next loop will reacquire the lease. */ } }, Math.floor(LEASE_MS / 3));
     try { await Promise.all(claims.map((row) => processClaim(row, vision))); }
@@ -423,17 +428,19 @@ export async function ensureHot100Worker() {
   void workerLoop(state.owner).catch(() => { if (globalState.__tasteHot100Worker?.owner === state.owner) globalState.__tasteHot100Worker.running = false; });
 }
 
-export async function runHot100Job(id: string, vision?: VisionConfig, retryFailed = false, concurrency = 3) {
+export async function runHot100Job(id: string, vision?: VisionConfig, retryFailed = false, concurrency?: number) {
   await initialize(); const db = database(); const job = db.prepare("SELECT * FROM hot100_jobs WHERE id=?").get(id) as JobRow | undefined; if (!job) throw new Error("找不到 Hot 100 导入任务。");
   if (!requiredVision(vision)) throw new Error("请先配置视觉模型，才能自动分析并批准封面。");
   if (retryFailed) db.prepare(`UPDATE hot100_songs SET status=CASE previous_status WHEN 'pending_cover' THEN 'pending_cover' WHEN 'pending_analysis' THEN 'pending_analysis' ELSE 'pending_lookup' END,error=NULL,available_at=?,lease_owner=NULL,lease_until=NULL,updated_at=? WHERE job_id=? AND status='failed'`).run(now(), now(), id);
-  const value = Math.max(1, Math.min(Number(concurrency) || job.concurrency || 3, 8));
+  const value = Math.max(1, Math.min(Number(concurrency) || job.concurrency || 3, MAX_HOT100_CONCURRENCY));
   db.prepare("UPDATE hot100_jobs SET status='running',started_at=coalesce(started_at,?),updated_at=?,concurrency=? WHERE id=?").run(now(), now(), value, id);
   await ensureHot100Worker(); return db.prepare("SELECT * FROM hot100_jobs WHERE id=?").get(id) as JobRow;
 }
 
-export async function pauseHot100Job(id: string, paused: boolean) {
+export async function updateHot100Job(id: string, action: "pause" | "resume" | "configure", concurrency?: number) {
   await initialize(); const db = database(); const current = db.prepare("SELECT * FROM hot100_jobs WHERE id=?").get(id) as JobRow | undefined; if (!current) throw new Error("找不到 Hot 100 导入任务。");
-  db.prepare("UPDATE hot100_jobs SET status=?,updated_at=? WHERE id=?").run(paused ? "paused" : "running", now(), id);
-  if (!paused) await ensureHot100Worker(); return db.prepare("SELECT * FROM hot100_jobs WHERE id=?").get(id) as JobRow;
+  const value = Math.max(1, Math.min(Number(concurrency) || current.concurrency || 3, MAX_HOT100_CONCURRENCY));
+  const status = action === "pause" ? "paused" : action === "resume" ? "running" : current.status;
+  db.prepare("UPDATE hot100_jobs SET status=?,concurrency=?,updated_at=? WHERE id=?").run(status, value, now(), id);
+  if (status === "running") await ensureHot100Worker(); return db.prepare("SELECT * FROM hot100_jobs WHERE id=?").get(id) as JobRow;
 }
