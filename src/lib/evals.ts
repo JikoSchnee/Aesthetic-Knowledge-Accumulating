@@ -2,15 +2,20 @@ import { createHash, randomUUID } from "node:crypto";
 import { mkdir, readFile, readdir, rename, stat, writeFile } from "node:fs/promises";
 import { basename, extname, join } from "node:path";
 import { embeddingTexts, type EmbeddingConfig } from "./embeddings";
-import { resolveGeneratedImage, pollGeneration, submitGeneration, type GenerationSubmission } from "./image-generation";
+import { isGenerationTransientError, resolveGeneratedImage, pollGeneration, submitGeneration, type GenerationSubmission } from "./image-generation";
 import { imageGenerationSettingsFromEnv, type ImageGenerationSettings } from "./image-generation-settings";
 import { dataRoot, locateSkill, type LibraryType } from "./library";
 import { imageRecipePrompt, parseValidRecipe } from "./recipe-schema";
 import { retrieveSkills, type RankedSearchCard } from "./retrieval";
 
 export const EVAL_MAX_IMAGE_BYTES = 20 * 1024 * 1024;
+export const EVAL_MAX_CONCURRENCY = 8;
+export const EVAL_MAX_RETRIES = 3;
+const evalRetryDelays = [1000, 3000, 9000];
 export type EvalCase = { id: string; filename: string; extension: "jpg" | "png" | "webp"; mime: string; size: number; createdAt: string };
 export type EvalStage = "pending_analysis" | "pending_retrieval" | "pending_generation" | "waiting_generation" | "completed" | "failed";
+type EvalCopyLanguage = "en" | "zh";
+type EvalTextSuggestion = { language: EvalCopyLanguage; copy: string };
 export type EvalCaseRun = {
   caseId: string;
   filename: string;
@@ -24,6 +29,9 @@ export type EvalCaseRun = {
   remoteState?: string;
   resultFile?: string;
   error?: string;
+  retryCount?: number;
+  nextRetryAt?: string;
+  lastTransientError?: string;
   timings: Partial<Record<"analysis" | "retrieval" | "generation" | "download", number>>;
 };
 export type EvalRun = {
@@ -32,7 +40,7 @@ export type EvalRun = {
   createdAt: string;
   updatedAt: string;
   status: "running" | "paused" | "completed";
-  config: Omit<ImageGenerationSettings, "apiKey"> & { topK: number; library: LibraryType | "all" };
+  config: Omit<ImageGenerationSettings, "apiKey"> & { topK: number; library: LibraryType | "all"; concurrency?: number };
   cases: EvalCaseRun[];
 };
 
@@ -116,7 +124,30 @@ async function saveEvalRun(run: EvalRun) {
   return run;
 }
 
-export async function createEvalRun(input: { caseIds?: string[]; topK?: number; library?: LibraryType | "all" }) {
+export function evalConcurrency(value: unknown) {
+  const parsed = Number(value);
+  return Math.max(1, Math.min(EVAL_MAX_CONCURRENCY, Number.isFinite(parsed) ? Math.round(parsed) : 3));
+}
+
+export function scheduleEvalRetry(item: EvalCaseRun, error: Error, now = Date.now()) {
+  const retryCount = (item.retryCount || 0) + 1;
+  item.retryCount = retryCount;
+  if (retryCount > EVAL_MAX_RETRIES) return false;
+  item.lastTransientError = error.message.slice(0, 500);
+  item.nextRetryAt = new Date(now + evalRetryDelays[retryCount - 1]).toISOString();
+  return true;
+}
+
+export function isEvalRetryDue(item: EvalCaseRun, now = Date.now()) {
+  return !item.nextRetryAt || Date.parse(item.nextRetryAt) <= now;
+}
+
+function clearEvalRetrySchedule(item: EvalCaseRun) {
+  delete item.nextRetryAt;
+  delete item.lastTransientError;
+}
+
+export async function createEvalRun(input: { caseIds?: string[]; topK?: number; library?: LibraryType | "all"; concurrency?: number }) {
   const cases = await listEvalCases();
   const selected = input.caseIds?.length ? cases.filter((item) => input.caseIds?.includes(item.id)) : cases;
   if (!selected.length) throw new Error("请先添加至少一张 Eval 图片。");
@@ -130,7 +161,7 @@ export async function createEvalRun(input: { caseIds?: string[]; topK?: number; 
   const { apiKey: _secret, ...snapshot } = settings;
   const run: EvalRun = {
     schemaVersion: "1.0", id, createdAt: now, updatedAt: now, status: "running",
-    config: { ...snapshot, topK: Math.max(1, Math.min(10, Math.round(input.topK || 3))), library: input.library === "photo" || input.library === "imported_skill" ? input.library : "all" },
+    config: { ...snapshot, topK: Math.max(1, Math.min(10, Math.round(input.topK || 3))), library: input.library === "photo" || input.library === "imported_skill" ? input.library : "all", concurrency: evalConcurrency(input.concurrency) },
     cases: selected.map((item) => ({ caseId: item.id, filename: item.filename, stage: "pending_analysis", timings: {} }))
   };
   await saveEvalRun(run);
@@ -145,7 +176,7 @@ async function analyzeEvalImage(path: string, mime: string) {
   const request = async (strict = false) => fetch(`${endpoint.replace(/\/$/, "")}/chat/completions`, {
     method: "POST",
     headers: { "content-type": "application/json", authorization: `Bearer ${apiKey}` },
-    body: JSON.stringify({ model, temperature: strict ? 0 : 0.2, response_format: { type: "json_object" }, messages: [{ role: "system", content: strict ? `${imageRecipePrompt} Return only the JSON object.` : imageRecipePrompt }, { role: "user", content: [{ type: "text", text: "Analyze this evaluation image as a temporary visual recipe for retrieval. Do not assume it will be added to the library." }, { type: "image_url", image_url: { url: `data:${mime};base64,${image.toString("base64")}` } }] }] })
+    body: JSON.stringify({ model, temperature: strict ? 0 : 0.2, response_format: { type: "json_object" }, messages: [{ role: "system", content: `${imageRecipePrompt} Also include an evalTextSuggestion object with language (en or zh) and copy. The copy must be a meaningful, original title grounded in the depicted subject, scene, or mood; never transcribe source text, brands, or logos. Use the source writing system when clear; otherwise use English. English copy must contain 1 to 5 real words. Chinese copy must contain 2 to 12 Han characters. Return only the JSON object.` }, { role: "user", content: [{ type: "text", text: "Analyze this evaluation image as a temporary visual recipe for retrieval and provide its temporary generation text suggestion. Do not assume either will be added to the library." }, { type: "image_url", image_url: { url: `data:${mime};base64,${image.toString("base64")}` } }] }] })
   });
   let response = await request();
   if (!response.ok) throw new Error(`视觉分析失败（HTTP ${response.status}）。`);
@@ -160,6 +191,33 @@ async function analyzeEvalImage(path: string, mime: string) {
 }
 
 const arrayText = (value: unknown): string => Array.isArray(value) ? value.map(arrayText).filter(Boolean).join("; ") : value && typeof value === "object" ? Object.values(value as Record<string, unknown>).map(arrayText).filter(Boolean).join("; ") : typeof value === "string" ? value : "";
+const cleanEnglishCopy = (value: unknown) => {
+  const copy = typeof value === "string" ? value.replace(/[\r\n]+/g, " ").replace(/\s+/g, " ").trim() : "";
+  return /^[A-Za-z]+(?:[ '-][A-Za-z]+){0,4}$/.test(copy) ? copy : undefined;
+};
+const cleanChineseCopy = (value: unknown) => {
+  const copy = typeof value === "string" ? value.trim() : "";
+  return /^[\p{Script=Han}]{2,12}$/u.test(copy) ? copy : undefined;
+};
+
+export function evalTextSuggestion(analysis: Record<string, unknown>): EvalTextSuggestion {
+  const raw = analysis.evalTextSuggestion && typeof analysis.evalTextSuggestion === "object" ? analysis.evalTextSuggestion as Record<string, unknown> : {};
+  const language: EvalCopyLanguage = raw.language === "zh" ? "zh" : "en";
+  const suggested = language === "zh" ? cleanChineseCopy(raw.copy) : cleanEnglishCopy(raw.copy);
+  if (suggested) return { language, copy: suggested };
+  const metadata = analysis.metadata && typeof analysis.metadata === "object" ? analysis.metadata as Record<string, unknown> : {};
+  return { language: "en", copy: cleanEnglishCopy(metadata.title) || "Visual Story" };
+}
+
+export function evalTextInstruction(analysis: Record<string, unknown>) {
+  const suggestion = evalTextSuggestion(analysis);
+  return [
+    "Typography is optional. If the composition works without readable text, omit it.",
+    `If readable text is included, use exactly this complete ${suggestion.language === "zh" ? "Chinese" : "English"} copy with identical characters and capitalization: ${JSON.stringify(suggestion.copy)}.`,
+    "Do not add any other readable words, letters, numbers, pseudo-words, random glyphs, captions, labels, logos, signatures, or watermarks. Do not substitute or misspell the allowed copy."
+  ].join(" ");
+}
+
 async function generationPrompt(analysis: Record<string, unknown>, matches: RankedSearchCard[]) {
   const skills = await Promise.all(matches.map(async (match) => {
     const located = await locateSkill(dataRoot(), match.id, match.libraryType);
@@ -181,7 +239,8 @@ async function generationPrompt(analysis: Record<string, unknown>, matches: Rank
     `Preserve its subject identity, depicted objects, event, and semantic meaning. Source reading: ${arrayText(analysis.visualDefinition) || arrayText(metadata.title)}.`,
     "Apply the transferable visual system from the ranked Skills below. Combine them coherently, giving earlier Skills higher priority:",
     ...skills.filter((item): item is string => Boolean(item)),
-    "Do not copy source wording, logos, signatures, protected characters, watermarks, or the exact layout of any Skill. Replace any necessary text with neutral original text or omit it. Create a materially new composition while preserving the evaluation image's subject and meaning.",
+    "Do not copy source wording, logos, signatures, protected characters, watermarks, or the exact layout of any Skill. Create a materially new composition while preserving the evaluation image's subject and meaning.",
+    evalTextInstruction(analysis),
     "Return one finished raster image."
   ].join("\n\n");
 }
@@ -203,15 +262,7 @@ async function finishGeneration(run: EvalRun, item: EvalCaseRun, result: Generat
   item.timings.download = Date.now() - started;
 }
 
-export async function updateEvalRun(id: string, action: "advance" | "pause" | "resume", embedding?: EmbeddingConfig) {
-  const run = await readEvalRun(id);
-  if (action === "pause") { if (run.status !== "completed") run.status = "paused"; return saveEvalRun(run); }
-  if (action === "resume") { if (run.status !== "completed") run.status = "running"; return saveEvalRun(run); }
-  if (run.status !== "running") return run;
-  const item = run.cases.find((candidate) => !["completed", "failed"].includes(candidate.stage));
-  if (!item) { run.status = "completed"; return saveEvalRun(run); }
-  const sourceCase = (await listEvalCases()).find((candidate) => candidate.id === item.caseId);
-  if (!sourceCase) { item.stage = "failed"; item.error = "Eval 原图已不存在。"; return saveEvalRun(run); }
+async function advanceEvalCase(run: EvalRun, item: EvalCaseRun, sourceCase: EvalCase, embedding?: EmbeddingConfig) {
   const sourcePath = join(evalImagesDir(), sourceCase.filename);
   try {
     if (item.stage === "pending_analysis") {
@@ -219,6 +270,7 @@ export async function updateEvalRun(id: string, action: "advance" | "pause" | "r
       item.analysis = await analyzeEvalImage(sourcePath, sourceCase.mime);
       item.timings.analysis = Date.now() - started;
       item.stage = "pending_retrieval";
+      clearEvalRetrySchedule(item);
     } else if (item.stage === "pending_retrieval") {
       const started = Date.now();
       const texts = embeddingTexts(item.analysis || {});
@@ -229,6 +281,7 @@ export async function updateEvalRun(id: string, action: "advance" | "pause" | "r
       item.timings.retrieval = Date.now() - started;
       if (!item.matches.length) throw new Error("没有检索到可用于生成的已批准 Skill。");
       item.stage = "pending_generation";
+      clearEvalRetrySchedule(item);
     } else if (item.stage === "pending_generation") {
       const started = Date.now();
       item.prompt = await generationPrompt(item.analysis || {}, item.matches || []);
@@ -238,7 +291,7 @@ export async function updateEvalRun(id: string, action: "advance" | "pause" | "r
       item.remoteState = result.state;
       if (result.state === "completed") await finishGeneration(run, item, result);
       else if (result.state === "failed") throw new Error(result.error || "生图任务提交失败。");
-      else item.stage = "waiting_generation";
+      else { item.stage = "waiting_generation"; clearEvalRetrySchedule(item); }
     } else if (item.stage === "waiting_generation") {
       if (!item.remoteId) throw new Error("fal.ai 任务缺少 request_id。");
       const started = Date.now();
@@ -247,11 +300,33 @@ export async function updateEvalRun(id: string, action: "advance" | "pause" | "r
       item.remoteState = result.state;
       if (result.state === "completed") await finishGeneration(run, item, result);
       else if (result.state === "failed") throw new Error(result.error || "fal.ai 生图任务失败。");
+      else clearEvalRetrySchedule(item);
     }
   } catch (error) {
+    if (isGenerationTransientError(error) && scheduleEvalRetry(item, error)) return;
     item.stage = "failed";
     item.error = error instanceof Error ? error.message.slice(0, 500) : "Eval 步骤失败。";
   }
+}
+
+export async function updateEvalRun(id: string, action: "advance" | "pause" | "resume", embedding?: EmbeddingConfig) {
+  const run = await readEvalRun(id);
+  if (action === "pause") { if (run.status !== "completed") run.status = "paused"; return saveEvalRun(run); }
+  if (action === "resume") { if (run.status !== "completed") run.status = "running"; return saveEvalRun(run); }
+  if (run.status !== "running") return run;
+  const cases = new Map((await listEvalCases()).map((item) => [item.id, item]));
+  const concurrency = evalConcurrency(run.config.concurrency);
+  run.config.concurrency = concurrency;
+  const runStage = async (items: EvalCaseRun[]) => Promise.all(items.map(async (item) => {
+    const sourceCase = cases.get(item.caseId);
+    if (!sourceCase) { item.stage = "failed"; item.error = "Eval 原图已不存在。"; return; }
+    await advanceEvalCase(run, item, sourceCase, embedding);
+  }));
+
+  await runStage(run.cases.filter((item) => item.stage === "waiting_generation" && isEvalRetryDue(item)));
+  await runStage(run.cases.filter((item) => (item.stage === "pending_analysis" || item.stage === "pending_retrieval") && isEvalRetryDue(item)).slice(0, concurrency));
+  const openSlots = Math.max(0, concurrency - run.cases.filter((item) => item.stage === "waiting_generation").length);
+  if (openSlots) await runStage(run.cases.filter((item) => item.stage === "pending_generation" && isEvalRetryDue(item)).slice(0, openSlots));
   if (run.cases.every((candidate) => ["completed", "failed"].includes(candidate.stage))) run.status = "completed";
   return saveEvalRun(run);
 }

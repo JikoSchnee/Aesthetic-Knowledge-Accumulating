@@ -6,6 +6,42 @@ export type GenerationState = "queued" | "running" | "completed" | "failed";
 export type GenerationSubmission = { state: GenerationState; remoteId?: string; imageUrl?: string; imageBase64?: string; contentType?: string; error?: string };
 
 const MAX_RESULT_BYTES = 25 * 1024 * 1024;
+const transientStatuses = new Set([408, 429, 500, 501, 502, 503, 504]);
+
+export class GenerationTransientError extends Error {
+  readonly retryable = true;
+  constructor(message: string, readonly status?: number, options?: ErrorOptions) {
+    super(message, options);
+    this.name = "GenerationTransientError";
+  }
+}
+
+function errorStatus(error: unknown) {
+  if (!error || typeof error !== "object") return undefined;
+  const candidate = error as { status?: unknown; response?: { status?: unknown } };
+  const status = Number(candidate.status ?? candidate.response?.status);
+  return Number.isFinite(status) ? status : undefined;
+}
+
+export function isGenerationTransientError(error: unknown): error is GenerationTransientError {
+  if (error instanceof GenerationTransientError) return true;
+  const status = errorStatus(error);
+  if (status !== undefined && transientStatuses.has(status)) return true;
+  const message = error instanceof Error ? error.message : String(error || "");
+  return /fetch failed|network(?:\s+error)?|timed?\s*out|ECONN(?:RESET|REFUSED|ABORTED)|EAI_AGAIN|socket hang up/i.test(message);
+}
+
+function transientError(error: unknown, context: string) {
+  if (error instanceof GenerationTransientError) return error;
+  const status = errorStatus(error);
+  if (isGenerationTransientError(error)) return new GenerationTransientError(`${context}：${error instanceof Error ? error.message : "临时网络错误。"}`, status, { cause: error });
+  return error;
+}
+
+async function generationFetch(url: string, init: RequestInit, context: string) {
+  try { return await fetch(url, init); }
+  catch (error) { throw transientError(error, context); }
+}
 
 type FalClient = {
   storage: {
@@ -85,13 +121,15 @@ export async function submitGeneration(input: { prompt: string; sourcePath: stri
   const settings = input.settings || imageGenerationSettingsFromEnv();
   const source = await readFile(input.sourcePath);
   if (settings.provider === "fal") {
-    const fal = createFalClient(settings.apiKey);
-    const imageUrl = await fal.storage.upload(new Blob([source], { type: input.sourceMime }), { lifecycle: { expiresIn: "1d" } });
-    const submitted = await fal.queue.submit(settings.model as never, { input: falInput(settings, input.prompt, imageUrl) as never });
-    return { state: "queued", remoteId: submitted.request_id };
+    try {
+      const fal = createFalClient(settings.apiKey);
+      const imageUrl = await fal.storage.upload(new Blob([source], { type: input.sourceMime }), { lifecycle: { expiresIn: "1d" } });
+      const submitted = await fal.queue.submit(settings.model as never, { input: falInput(settings, input.prompt, imageUrl) as never });
+      return { state: "queued", remoteId: submitted.request_id };
+    } catch (error) { throw transientError(error, "fal.ai 生图提交暂时失败"); }
   }
 
-  const response = await fetch(`${settings.endpoint.replace(/\/$/, "")}/images`, {
+  const response = await generationFetch(`${settings.endpoint.replace(/\/$/, "")}/images`, {
     method: "POST",
     headers: { "content-type": "application/json", authorization: `Bearer ${settings.apiKey}` },
     body: JSON.stringify({
@@ -100,8 +138,9 @@ export async function submitGeneration(input: { prompt: string; sourcePath: stri
       input_references: [{ image_url: `data:${input.sourceMime};base64,${source.toString("base64")}` }],
       output_format: settings.outputFormat
     })
-  });
+  }, "OpenRouter 生图请求暂时失败");
   const text = await response.text();
+  if (transientStatuses.has(response.status)) throw new GenerationTransientError(`OpenRouter 生图暂时失败（HTTP ${response.status}）：${text.slice(0, 260)}`, response.status);
   if (!response.ok) throw new Error(`OpenRouter 生图失败（HTTP ${response.status}）：${text.slice(0, 260)}`);
   let payload: Record<string, unknown>;
   try { payload = JSON.parse(text) as Record<string, unknown>; } catch { throw new Error("OpenRouter 返回了无法解析的响应。"); }
@@ -110,14 +149,16 @@ export async function submitGeneration(input: { prompt: string; sourcePath: stri
 
 export async function pollGeneration(remoteId: string, settings = imageGenerationSettingsFromEnv()): Promise<GenerationSubmission> {
   if (settings.provider !== "fal") throw new Error("只有 fal.ai 任务需要轮询。");
-  const fal = createFalClient(settings.apiKey);
-  const status = await fal.queue.status(settings.model, { requestId: remoteId, logs: false });
-  if (status.status === "IN_QUEUE") return { state: "queued", remoteId };
-  if (status.status === "IN_PROGRESS") return { state: "running", remoteId };
-  const result = await fal.queue.result(settings.model as never, { requestId: remoteId }) as unknown as { data: unknown };
-  const imageUrl = getPath(result.data, settings.falResultPath);
-  if (typeof imageUrl !== "string" || !/^https:\/\//i.test(imageUrl)) return { state: "failed", remoteId, error: `fal.ai 结果路径 ${settings.falResultPath} 没有返回 HTTPS 图片。` };
-  return { state: "completed", remoteId, imageUrl };
+  try {
+    const fal = createFalClient(settings.apiKey);
+    const status = await fal.queue.status(settings.model, { requestId: remoteId, logs: false });
+    if (status.status === "IN_QUEUE") return { state: "queued", remoteId };
+    if (status.status === "IN_PROGRESS") return { state: "running", remoteId };
+    const result = await fal.queue.result(settings.model as never, { requestId: remoteId }) as unknown as { data: unknown };
+    const imageUrl = getPath(result.data, settings.falResultPath);
+    if (typeof imageUrl !== "string" || !/^https:\/\//i.test(imageUrl)) return { state: "failed", remoteId, error: `fal.ai 结果路径 ${settings.falResultPath} 没有返回 HTTPS 图片。` };
+    return { state: "completed", remoteId, imageUrl };
+  } catch (error) { throw transientError(error, "fal.ai 任务轮询暂时失败"); }
 }
 
 export async function resolveGeneratedImage(result: GenerationSubmission) {
@@ -127,7 +168,8 @@ export async function resolveGeneratedImage(result: GenerationSubmission) {
     bytes = Buffer.from(encoded, "base64");
   } else if (result.imageUrl) {
     if (!/^https:\/\//i.test(result.imageUrl)) throw new Error("生成结果 URL 必须使用 HTTPS。");
-    const response = await fetch(result.imageUrl, { redirect: "follow" });
+    const response = await generationFetch(result.imageUrl, { redirect: "follow" }, "生成结果下载暂时失败");
+    if (transientStatuses.has(response.status)) throw new GenerationTransientError(`生成结果下载暂时失败（HTTP ${response.status}）。`, response.status);
     if (!response.ok) throw new Error(`无法下载生成结果（HTTP ${response.status}）。`);
     const length = Number(response.headers.get("content-length") || 0);
     if (length > MAX_RESULT_BYTES) throw new Error("生成结果超过 25MB。");

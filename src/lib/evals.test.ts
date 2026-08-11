@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { resolveGeneratedImage, validateRaster } from "./image-generation";
+import { EVAL_MAX_CONCURRENCY, EVAL_MAX_RETRIES, evalConcurrency, evalTextInstruction, evalTextSuggestion, isEvalRetryDue, scheduleEvalRetry, type EvalCaseRun } from "./evals";
+import { GenerationTransientError, isGenerationTransientError, resolveGeneratedImage, validateRaster } from "./image-generation";
 import { IMAGE_GENERATION_DEFAULTS, templateForFalModel, validateImageGenerationSettings, visibleImageGenerationSettings } from "./image-generation-settings";
 import { keywordScore } from "./retrieval";
 
@@ -54,6 +55,51 @@ test("raster validation accepts PNG magic and rejects disguised text", () => {
 
 test("generated image downloads require HTTPS", async () => {
   await assert.rejects(() => resolveGeneratedImage({ state: "completed", imageUrl: "http://127.0.0.1/private.png" }), /HTTPS/);
+});
+
+test("transient generation errors include network failures and temporary HTTP responses", async () => {
+  assert.equal(isGenerationTransientError(new TypeError("fetch failed")), true);
+  assert.equal(isGenerationTransientError(new GenerationTransientError("rate limited", 429)), true);
+  assert.equal(isGenerationTransientError(new Error("invalid API key")), false);
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async () => { throw new TypeError("fetch failed"); };
+  await assert.rejects(() => resolveGeneratedImage({ state: "completed", imageUrl: "https://example.com/image.png" }), GenerationTransientError);
+  globalThis.fetch = originalFetch;
+});
+
+test("Eval text suggestions keep meaningful short copy and fall back safely", () => {
+  assert.deepEqual(evalTextSuggestion({ evalTextSuggestion: { language: "en", copy: "Night Drive" } }), { language: "en", copy: "Night Drive" });
+  assert.deepEqual(evalTextSuggestion({ evalTextSuggestion: { language: "zh", copy: "月光街景" } }), { language: "zh", copy: "月光街景" });
+  assert.deepEqual(evalTextSuggestion({ evalTextSuggestion: { language: "en", copy: "ZXQ-77 $$$" }, metadata: { title: "Quiet Harbor" } }), { language: "en", copy: "Quiet Harbor" });
+  assert.deepEqual(evalTextSuggestion({ evalTextSuggestion: { language: "zh", copy: "too short" } }), { language: "en", copy: "Visual Story" });
+});
+
+test("Eval text instructions allow only the suggested copy", () => {
+  const instruction = evalTextInstruction({ evalTextSuggestion: { language: "en", copy: "Night Drive" } });
+  assert.match(instruction, /"Night Drive"/);
+  assert.match(instruction, /Do not add any other readable words/);
+  assert.match(instruction, /Do not substitute or misspell/);
+});
+
+test("Eval concurrency stays within the supported range", () => {
+  assert.equal(evalConcurrency(undefined), 3);
+  assert.equal(evalConcurrency(0), 1);
+  assert.equal(evalConcurrency(5.6), 6);
+  assert.equal(evalConcurrency(99), EVAL_MAX_CONCURRENCY);
+});
+
+test("Eval transient failures persist a three-attempt backoff schedule", () => {
+  const item = { caseId: "case", filename: "case.png", stage: "pending_generation", timings: {} } as EvalCaseRun;
+  const error = new GenerationTransientError("fetch failed");
+  assert.equal(scheduleEvalRetry(item, error, 100), true);
+  assert.equal(item.nextRetryAt, new Date(1100).toISOString());
+  assert.equal(isEvalRetryDue(item, 1099), false);
+  assert.equal(isEvalRetryDue(item, 1100), true);
+  assert.equal(scheduleEvalRetry(item, error, 1100), true);
+  assert.equal(item.nextRetryAt, new Date(4100).toISOString());
+  assert.equal(scheduleEvalRetry(item, error, 4100), true);
+  assert.equal(item.retryCount, EVAL_MAX_RETRIES);
+  assert.equal(scheduleEvalRetry(item, error, 13100), false);
 });
 
 test("keyword scoring remains deterministic", () => {
