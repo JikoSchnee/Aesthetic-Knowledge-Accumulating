@@ -24,6 +24,7 @@ export type EvalCaseRun = {
   retrievalMode?: string;
   retrievalWarning?: string;
   matches?: RankedSearchCard[];
+  generations?: EvalGeneration[];
   prompt?: string;
   remoteId?: string;
   remoteState?: string;
@@ -33,6 +34,20 @@ export type EvalCaseRun = {
   nextRetryAt?: string;
   lastTransientError?: string;
   timings: Partial<Record<"analysis" | "retrieval" | "generation" | "download", number>>;
+};
+export type EvalGeneration = {
+  matchId: string;
+  rank: number;
+  stage: "pending_generation" | "waiting_generation" | "completed" | "failed";
+  prompt?: string;
+  remoteId?: string;
+  remoteState?: string;
+  resultFile?: string;
+  error?: string;
+  retryCount?: number;
+  nextRetryAt?: string;
+  lastTransientError?: string;
+  timings: Partial<Record<"generation" | "download", number>>;
 };
 export type EvalRun = {
   schemaVersion: "1.0";
@@ -129,7 +144,8 @@ export function evalConcurrency(value: unknown) {
   return Math.max(1, Math.min(EVAL_MAX_CONCURRENCY, Number.isFinite(parsed) ? Math.round(parsed) : 3));
 }
 
-export function scheduleEvalRetry(item: EvalCaseRun, error: Error, now = Date.now()) {
+type RetryableEvalItem = Pick<EvalCaseRun, "retryCount" | "nextRetryAt" | "lastTransientError">;
+export function scheduleEvalRetry(item: RetryableEvalItem, error: Error, now = Date.now()) {
   const retryCount = (item.retryCount || 0) + 1;
   item.retryCount = retryCount;
   if (retryCount > EVAL_MAX_RETRIES) return false;
@@ -138,11 +154,11 @@ export function scheduleEvalRetry(item: EvalCaseRun, error: Error, now = Date.no
   return true;
 }
 
-export function isEvalRetryDue(item: EvalCaseRun, now = Date.now()) {
+export function isEvalRetryDue(item: Pick<EvalCaseRun, "nextRetryAt">, now = Date.now()) {
   return !item.nextRetryAt || Date.parse(item.nextRetryAt) <= now;
 }
 
-function clearEvalRetrySchedule(item: EvalCaseRun) {
+function clearEvalRetrySchedule(item: RetryableEvalItem) {
   delete item.nextRetryAt;
   delete item.lastTransientError;
 }
@@ -218,27 +234,25 @@ export function evalTextInstruction(analysis: Record<string, unknown>) {
   ].join(" ");
 }
 
-async function generationPrompt(analysis: Record<string, unknown>, matches: RankedSearchCard[]) {
-  const skills = await Promise.all(matches.map(async (match) => {
-    const located = await locateSkill(dataRoot(), match.id, match.libraryType);
-    if (!located) return undefined;
-    const stored = JSON.parse(await readFile(located.path, "utf8")) as { recipe?: Record<string, unknown> };
-    const recipe = stored.recipe || {};
-    return [
-      `#${match.title}`,
-      `Visual definition: ${arrayText(recipe.visualDefinition)}`,
-      `Core relationships: ${arrayText(recipe.coreVisualRelationships)}`,
-      `Color: ${arrayText(recipe.colorSystem)}`,
-      `Reuse formula: ${arrayText(recipe.reuseFormula)}`,
-      `Must redesign: ${arrayText(recipe.mustRedesign)}`
-    ].join("\n");
-  }));
+async function generationPrompt(analysis: Record<string, unknown>, match: RankedSearchCard) {
+  const located = await locateSkill(dataRoot(), match.id, match.libraryType);
+  if (!located) throw new Error(`找不到已匹配的 Skill：${match.title}`);
+  const stored = JSON.parse(await readFile(located.path, "utf8")) as { recipe?: Record<string, unknown> };
+  const recipe = stored.recipe || {};
+  const skill = [
+    `#${match.title}`,
+    `Visual definition: ${arrayText(recipe.visualDefinition)}`,
+    `Core relationships: ${arrayText(recipe.coreVisualRelationships)}`,
+    `Color: ${arrayText(recipe.colorSystem)}`,
+    `Reuse formula: ${arrayText(recipe.reuseFormula)}`,
+    `Must redesign: ${arrayText(recipe.mustRedesign)}`
+  ].join("\n");
   const metadata = analysis.metadata && typeof analysis.metadata === "object" ? analysis.metadata as Record<string, unknown> : {};
   return [
     "Edit the supplied evaluation image; it is the required reference image.",
     `Preserve its subject identity, depicted objects, event, and semantic meaning. Source reading: ${arrayText(analysis.visualDefinition) || arrayText(metadata.title)}.`,
-    "Apply the transferable visual system from the ranked Skills below. Combine them coherently, giving earlier Skills higher priority:",
-    ...skills.filter((item): item is string => Boolean(item)),
+    "Apply the transferable visual system from this matched Skill:",
+    skill,
     "Do not copy source wording, logos, signatures, protected characters, watermarks, or the exact layout of any Skill. Create a materially new composition while preserving the evaluation image's subject and meaning.",
     evalTextInstruction(analysis),
     "Return one finished raster image."
@@ -251,19 +265,61 @@ function settingsForRun(run: EvalRun) {
   return { ...run.config, apiKey: current.apiKey } satisfies ImageGenerationSettings;
 }
 
-async function finishGeneration(run: EvalRun, item: EvalCaseRun, result: GenerationSubmission) {
+async function finishGeneration(run: EvalRun, item: EvalCaseRun, generation: EvalGeneration, result: GenerationSubmission) {
   const started = Date.now();
   const resolved = await resolveGeneratedImage(result);
-  const resultFile = `${item.caseId}.${resolved.extension}`;
+  const resultFile = `${item.caseId}-${generation.rank}.${resolved.extension}`;
   await writeFile(join(evalRunsDir(), run.id, resultFile), resolved.bytes);
-  item.resultFile = resultFile;
-  item.stage = "completed";
-  item.remoteState = "completed";
-  item.timings.download = Date.now() - started;
+  generation.resultFile = resultFile;
+  generation.stage = "completed";
+  generation.remoteState = "completed";
+  generation.timings.download = Date.now() - started;
+}
+
+function refreshCaseStage(item: EvalCaseRun) {
+  const generations = item.generations || [];
+  if (!generations.length) return;
+  if (generations.every((generation) => ["completed", "failed"].includes(generation.stage))) {
+    item.stage = generations.every((generation) => generation.stage === "failed") ? "failed" : "completed";
+    item.error = generations.filter((generation) => generation.error).map((generation) => generation.error).join("；") || undefined;
+  } else if (generations.some((generation) => generation.stage === "waiting_generation")) item.stage = "waiting_generation";
+  else item.stage = "pending_generation";
+}
+
+async function advanceGeneration(run: EvalRun, item: EvalCaseRun, generation: EvalGeneration, sourceCase: EvalCase) {
+  const sourcePath = join(evalImagesDir(), sourceCase.filename);
+  try {
+    if (generation.stage === "pending_generation") {
+      const match = item.matches?.find((candidate) => candidate.id === generation.matchId);
+      if (!match) throw new Error("生成任务缺少对应的匹配 Skill。");
+      const started = Date.now();
+      generation.prompt ||= await generationPrompt(item.analysis || {}, match);
+      const result = await submitGeneration({ prompt: generation.prompt, sourcePath, sourceMime: sourceCase.mime, settings: settingsForRun(run) });
+      generation.timings.generation = Date.now() - started;
+      generation.remoteId = result.remoteId;
+      generation.remoteState = result.state;
+      if (result.state === "completed") await finishGeneration(run, item, generation, result);
+      else if (result.state === "failed") throw new Error(result.error || "生图任务提交失败。");
+      else { generation.stage = "waiting_generation"; clearEvalRetrySchedule(generation); }
+    } else if (generation.stage === "waiting_generation") {
+      if (!generation.remoteId) throw new Error("fal.ai 任务缺少 request_id。");
+      const started = Date.now();
+      const result = await pollGeneration(generation.remoteId, settingsForRun(run));
+      generation.timings.generation = (generation.timings.generation || 0) + Date.now() - started;
+      generation.remoteState = result.state;
+      if (result.state === "completed") await finishGeneration(run, item, generation, result);
+      else if (result.state === "failed") throw new Error(result.error || "fal.ai 生图任务失败。");
+      else clearEvalRetrySchedule(generation);
+    }
+  } catch (error) {
+    if (isGenerationTransientError(error) && scheduleEvalRetry(generation, error)) { refreshCaseStage(item); return; }
+    generation.stage = "failed";
+    generation.error = error instanceof Error ? error.message.slice(0, 500) : "生图步骤失败。";
+  }
+  refreshCaseStage(item);
 }
 
 async function advanceEvalCase(run: EvalRun, item: EvalCaseRun, sourceCase: EvalCase, embedding?: EmbeddingConfig) {
-  const sourcePath = join(evalImagesDir(), sourceCase.filename);
   try {
     if (item.stage === "pending_analysis") {
       const started = Date.now();
@@ -282,25 +338,9 @@ async function advanceEvalCase(run: EvalRun, item: EvalCaseRun, sourceCase: Eval
       if (!item.matches.length) throw new Error("没有检索到可用于生成的已批准 Skill。");
       item.stage = "pending_generation";
       clearEvalRetrySchedule(item);
-    } else if (item.stage === "pending_generation") {
-      const started = Date.now();
-      item.prompt = await generationPrompt(item.analysis || {}, item.matches || []);
-      const result = await submitGeneration({ prompt: item.prompt, sourcePath, sourceMime: sourceCase.mime, settings: settingsForRun(run) });
-      item.timings.generation = Date.now() - started;
-      item.remoteId = result.remoteId;
-      item.remoteState = result.state;
-      if (result.state === "completed") await finishGeneration(run, item, result);
-      else if (result.state === "failed") throw new Error(result.error || "生图任务提交失败。");
-      else { item.stage = "waiting_generation"; clearEvalRetrySchedule(item); }
-    } else if (item.stage === "waiting_generation") {
-      if (!item.remoteId) throw new Error("fal.ai 任务缺少 request_id。");
-      const started = Date.now();
-      const result = await pollGeneration(item.remoteId, settingsForRun(run));
-      item.timings.generation = (item.timings.generation || 0) + Date.now() - started;
-      item.remoteState = result.state;
-      if (result.state === "completed") await finishGeneration(run, item, result);
-      else if (result.state === "failed") throw new Error(result.error || "fal.ai 生图任务失败。");
-      else clearEvalRetrySchedule(item);
+    } else if (item.stage === "pending_generation" && !item.generations) {
+      item.generations = (item.matches || []).map((match, index) => ({ matchId: match.id, rank: index + 1, stage: "pending_generation", timings: {} }));
+      if (!item.generations.length) throw new Error("没有检索到可用于生成的已批准 Skill。");
     }
   } catch (error) {
     if (isGenerationTransientError(error) && scheduleEvalRetry(item, error)) return;
@@ -317,16 +357,34 @@ export async function updateEvalRun(id: string, action: "advance" | "pause" | "r
   const cases = new Map((await listEvalCases()).map((item) => [item.id, item]));
   const concurrency = evalConcurrency(run.config.concurrency);
   run.config.concurrency = concurrency;
+  // Runs created before per-Skill outputs existed retain their one existing task/result.
+  for (const item of run.cases) {
+    if (item.generations || !item.matches?.length || !["pending_generation", "waiting_generation", "completed", "failed"].includes(item.stage)) continue;
+    item.generations = [{ matchId: item.matches[0].id, rank: 1, stage: item.stage === "completed" ? "completed" : item.stage === "failed" ? "failed" : item.stage === "waiting_generation" ? "waiting_generation" : "pending_generation", prompt: item.prompt, remoteId: item.remoteId, remoteState: item.remoteState, resultFile: item.resultFile, error: item.error, retryCount: item.retryCount, nextRetryAt: item.nextRetryAt, lastTransientError: item.lastTransientError, timings: { generation: item.timings.generation, download: item.timings.download } }];
+  }
   const runStage = async (items: EvalCaseRun[]) => Promise.all(items.map(async (item) => {
     const sourceCase = cases.get(item.caseId);
     if (!sourceCase) { item.stage = "failed"; item.error = "Eval 原图已不存在。"; return; }
     await advanceEvalCase(run, item, sourceCase, embedding);
   }));
 
-  await runStage(run.cases.filter((item) => item.stage === "waiting_generation" && isEvalRetryDue(item)));
+  // First create durable per-Skill generation records after retrieval. Each record is
+  // advanced independently below, so Top K produces Top K images rather than one blend.
   await runStage(run.cases.filter((item) => (item.stage === "pending_analysis" || item.stage === "pending_retrieval") && isEvalRetryDue(item)).slice(0, concurrency));
-  const openSlots = Math.max(0, concurrency - run.cases.filter((item) => item.stage === "waiting_generation").length);
-  if (openSlots) await runStage(run.cases.filter((item) => item.stage === "pending_generation" && isEvalRetryDue(item)).slice(0, openSlots));
+  await runStage(run.cases.filter((item) => item.stage === "pending_generation" && !item.generations && isEvalRetryDue(item)).slice(0, concurrency));
+  const generationJobs = run.cases.flatMap((item) => (item.generations || []).map((generation) => ({ item, generation })))
+    .filter(({ generation }) => ["pending_generation", "waiting_generation"].includes(generation.stage) && isEvalRetryDue(generation));
+  const waiting = generationJobs.filter(({ generation }) => generation.stage === "waiting_generation");
+  await Promise.all(waiting.map(({ item, generation }) => {
+    const sourceCase = cases.get(item.caseId);
+    return sourceCase ? advanceGeneration(run, item, generation, sourceCase) : Promise.resolve();
+  }));
+  const activeRemote = run.cases.flatMap((item) => item.generations || []).filter((generation) => generation.stage === "waiting_generation").length;
+  const openSlots = Math.max(0, concurrency - activeRemote);
+  await Promise.all(generationJobs.filter(({ generation }) => generation.stage === "pending_generation").slice(0, openSlots).map(({ item, generation }) => {
+    const sourceCase = cases.get(item.caseId);
+    return sourceCase ? advanceGeneration(run, item, generation, sourceCase) : Promise.resolve();
+  }));
   if (run.cases.every((candidate) => ["completed", "failed"].includes(candidate.stage))) run.status = "completed";
   return saveEvalRun(run);
 }
