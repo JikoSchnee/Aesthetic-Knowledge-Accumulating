@@ -80,7 +80,7 @@ export async function saveImageGenerationSettings(input: Partial<ImageGeneration
   const settings: ImageGenerationSettings = {
     provider,
     model: clean(input.model || ""),
-    endpoint: clean(input.endpoint || ""),
+    endpoint: provider === "fal" ? "https://queue.fal.run" : clean(input.endpoint || ""),
     apiKey,
     outputFormat: ["png", "jpeg", "webp"].includes(input.outputFormat || "") ? input.outputFormat as OutputFormat : "png",
     falInputTemplate: clean(input.falInputTemplate || IMAGE_GENERATION_DEFAULTS.falInputTemplate),

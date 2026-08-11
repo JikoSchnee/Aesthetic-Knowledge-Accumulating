@@ -1,11 +1,39 @@
-import { createFalClient } from "@fal-ai/client";
 import { readFile } from "node:fs/promises";
+import { createRequire } from "node:module";
 import { imageGenerationSettingsFromEnv, templateForFalModel, type ImageGenerationSettings } from "./image-generation-settings";
 
 export type GenerationState = "queued" | "running" | "completed" | "failed";
 export type GenerationSubmission = { state: GenerationState; remoteId?: string; imageUrl?: string; imageBase64?: string; contentType?: string; error?: string };
 
 const MAX_RESULT_BYTES = 25 * 1024 * 1024;
+
+type FalClient = {
+  storage: {
+    upload: (file: Blob, options?: { lifecycle?: { expiresIn?: string } }) => Promise<string>;
+  };
+  queue: {
+    submit: (model: never, options: { input: never }) => Promise<{ request_id: string }>;
+    status: (model: string, options: { requestId: string; logs: boolean }) => Promise<{ status: string }>;
+    result: (model: never, options: { requestId: string }) => Promise<{ data: unknown }>;
+  };
+};
+
+const requireFromProject = createRequire(import.meta.url);
+
+function createFalClient(credentials: string): FalClient {
+  try {
+    const falModule = requireFromProject("@fal-ai/client") as {
+      createFalClient: (options: { credentials: string }) => FalClient;
+    };
+    return falModule.createFalClient({ credentials });
+  } catch (error) {
+    const code = error && typeof error === "object" && "code" in error ? String(error.code) : "";
+    if (code === "MODULE_NOT_FOUND") {
+      throw new Error("fal.ai SDK 尚未安装，请在项目目录执行 npm install 后重新启动服务。", { cause: error });
+    }
+    throw error;
+  }
+}
 
 function mimeFromBytes(bytes: Buffer) {
   if (bytes.length >= 8 && bytes.subarray(0, 8).equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]))) return { mime: "image/png", extension: "png" };
@@ -57,7 +85,7 @@ export async function submitGeneration(input: { prompt: string; sourcePath: stri
   const settings = input.settings || imageGenerationSettingsFromEnv();
   const source = await readFile(input.sourcePath);
   if (settings.provider === "fal") {
-    const fal = createFalClient({ credentials: settings.apiKey });
+    const fal = createFalClient(settings.apiKey);
     const imageUrl = await fal.storage.upload(new Blob([source], { type: input.sourceMime }), { lifecycle: { expiresIn: "1d" } });
     const submitted = await fal.queue.submit(settings.model as never, { input: falInput(settings, input.prompt, imageUrl) as never });
     return { state: "queued", remoteId: submitted.request_id };
@@ -82,7 +110,7 @@ export async function submitGeneration(input: { prompt: string; sourcePath: stri
 
 export async function pollGeneration(remoteId: string, settings = imageGenerationSettingsFromEnv()): Promise<GenerationSubmission> {
   if (settings.provider !== "fal") throw new Error("只有 fal.ai 任务需要轮询。");
-  const fal = createFalClient({ credentials: settings.apiKey });
+  const fal = createFalClient(settings.apiKey);
   const status = await fal.queue.status(settings.model, { requestId: remoteId, logs: false });
   if (status.status === "IN_QUEUE") return { state: "queued", remoteId };
   if (status.status === "IN_PROGRESS") return { state: "running", remoteId };
