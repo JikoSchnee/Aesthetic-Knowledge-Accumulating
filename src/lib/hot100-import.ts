@@ -23,6 +23,7 @@ export type VisionConfig = { endpoint?: string; model?: string; apiKey?: string 
 type Appearance = { chartDate: string; position: number };
 export type SongStatus = "pending_lookup" | "looking_up" | "pending_cover" | "downloading" | "pending_analysis" | "analyzing" | "approved" | "merged" | "unmatched" | "no_album" | "no_cover" | "failed";
 type JobStatus = "ready" | "running" | "paused" | "completed";
+type ProcessingStage = "lookup" | "cover" | "analysis";
 type SongEntry = {
   songId: string; song: string; performer: string; appearances: Appearance[]; peakPosition: number; firstChartDate: string; lastChartDate: string;
   status?: string; retries?: number; error?: string; canonicalReleaseGroupId?: string; recipeId?: string; match?: Record<string, unknown>;
@@ -41,6 +42,7 @@ type JobRow = { id: string; status: JobStatus; created_at: string; updated_at: s
 
 const globalState = globalThis as typeof globalThis & {
   __tasteHot100Db?: DatabaseSync;
+  __tasteHot100MetricsReady?: boolean;
   __tasteHot100Worker?: { owner: string; running: boolean };
   __tasteHot100RecipeIndex?: RecipeLike[];
 };
@@ -52,8 +54,20 @@ function cacheDirectory(root = dataRoot()) { return join(root, "hot100-cache"); 
 function databasePath(root = dataRoot()) { return join(root, "hot100.sqlite"); }
 function safeKey(song: string, performer: string) { return `${song}\u0000${performer}`.trim().toLowerCase(); }
 
+function ensureMetricsSchema(db: DatabaseSync) {
+  if (globalState.__tasteHot100MetricsReady) return;
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS hot100_stage_events (
+      job_id TEXT NOT NULL, song_id TEXT NOT NULL, stage TEXT NOT NULL, outcome TEXT NOT NULL, completed_at TEXT NOT NULL,
+      PRIMARY KEY(job_id, song_id, stage), FOREIGN KEY(job_id, song_id) REFERENCES hot100_songs(job_id, song_id) ON DELETE CASCADE
+    );
+    CREATE INDEX IF NOT EXISTS hot100_stage_event_rate ON hot100_stage_events(job_id, completed_at, stage);
+  `);
+  globalState.__tasteHot100MetricsReady = true;
+}
+
 function database() {
-  if (globalState.__tasteHot100Db) return globalState.__tasteHot100Db;
+  if (globalState.__tasteHot100Db) { ensureMetricsSchema(globalState.__tasteHot100Db); return globalState.__tasteHot100Db; }
   mkdirSync(dataRoot(), { recursive: true });
   const db = new DatabaseSync(databasePath());
   db.exec(`
@@ -91,6 +105,7 @@ function database() {
     );
   `);
   globalState.__tasteHot100Db = db;
+  ensureMetricsSchema(db);
   return db;
 }
 
@@ -291,7 +306,13 @@ export function hot100Summary(job: JobRow) {
     JOIN hot100_worker_lease worker ON worker.owner=songs.lease_owner
     WHERE songs.job_id=? AND songs.status IN ('looking_up','downloading','analyzing')
       AND songs.lease_until>? AND worker.expires_at>?`).get(job.id, now(), now()) as { count: number };
-  return { id: job.id, status: job.status, createdAt: job.created_at, updatedAt: job.updated_at, sourceSnapshot, totalRows: job.total_rows, uniqueSongs, uniqueAlbums: Number(albums.count), counts, lowConfidence: Number(low.count), processedPerMinute: Number(processedPerMinute.toFixed(2)), etaSeconds, concurrency: job.concurrency, activeConcurrency: Number(active.count), maxConcurrency: MAX_HOT100_CONCURRENCY, migration: job.migration_json ? JSON.parse(job.migration_json) : undefined, recent: recent.map((item) => ({ songId: item.song_id, song: item.song, performer: item.performer, status: item.status, error: item.error || undefined, recipeId: item.recipe_id || undefined })) };
+  const minuteAgo = sqlNowOffset(-60_000);
+  const recentThroughput = db.prepare(`SELECT count(*) count FROM hot100_songs WHERE job_id=? AND updated_at>=?
+    AND status IN ('approved','merged','unmatched','no_album','no_cover','failed')`).get(job.id, minuteAgo) as { count: number };
+  const stageRows = db.prepare("SELECT stage,count(*) count FROM hot100_stage_events WHERE job_id=? AND completed_at>=? GROUP BY stage").all(job.id, minuteAgo) as Array<{ stage: ProcessingStage; count: number }>;
+  const stageRates: Record<ProcessingStage, number> = { lookup: 0, cover: 0, analysis: 0 };
+  for (const row of stageRows) stageRates[row.stage] = Number(row.count);
+  return { id: job.id, status: job.status, createdAt: job.created_at, updatedAt: job.updated_at, sourceSnapshot, totalRows: job.total_rows, uniqueSongs, uniqueAlbums: Number(albums.count), counts, lowConfidence: Number(low.count), processedPerMinute: Number(processedPerMinute.toFixed(2)), recentThroughputPerMinute: Number(recentThroughput.count), stageRates, etaSeconds, concurrency: job.concurrency, activeConcurrency: Number(active.count), maxConcurrency: MAX_HOT100_CONCURRENCY, migration: job.migration_json ? JSON.parse(job.migration_json) : undefined, recent: recent.map((item) => ({ songId: item.song_id, song: item.song, performer: item.performer, status: item.status, error: item.error || undefined, recipeId: item.recipe_id || undefined })) };
 }
 
 function requiredVision(vision?: VisionConfig): Required<VisionConfig> | undefined {
@@ -345,12 +366,27 @@ function claimSong(jobId: string, owner: string): SongRow | undefined {
   });
 }
 
-function finishSong(row: SongRow, status: SongStatus, fields: { error?: string | null; match?: Record<string, unknown>; releaseGroupId?: string; recipeId?: string; delayMs?: number } = {}) {
-  database().prepare(`UPDATE hot100_songs SET status=?,previous_status=NULL,error=?,match_json=coalesce(?,match_json),release_group_id=coalesce(?,release_group_id),recipe_id=coalesce(?,recipe_id),available_at=?,lease_owner=NULL,lease_until=NULL,updated_at=? WHERE job_id=? AND song_id=?`).run(status, fields.error ?? null, fields.match ? JSON.stringify(fields.match) : null, fields.releaseGroupId || null, fields.recipeId || null, sqlNowOffset(fields.delayMs || 0), now(), row.job_id, row.song_id);
+function recordStageEvent(db: DatabaseSync, row: SongRow, stage: ProcessingStage, outcome: string) {
+  db.prepare(`INSERT INTO hot100_stage_events(job_id,song_id,stage,outcome,completed_at) VALUES(?,?,?,?,?)
+    ON CONFLICT(job_id,song_id,stage) DO UPDATE SET outcome=excluded.outcome,completed_at=excluded.completed_at`).run(row.job_id, row.song_id, stage, outcome, now());
+}
+
+function claimedStage(row: SongRow): ProcessingStage | undefined {
+  return row.status === "looking_up" ? "lookup" : row.status === "downloading" ? "cover" : row.status === "analyzing" ? "analysis" : undefined;
+}
+
+function finishSong(row: SongRow, status: SongStatus, fields: { error?: string | null; match?: Record<string, unknown>; releaseGroupId?: string; recipeId?: string; delayMs?: number; completedStage?: ProcessingStage } = {}) {
+  transaction((db) => {
+    db.prepare(`UPDATE hot100_songs SET status=?,previous_status=NULL,error=?,match_json=coalesce(?,match_json),release_group_id=coalesce(?,release_group_id),recipe_id=coalesce(?,recipe_id),available_at=?,lease_owner=NULL,lease_until=NULL,updated_at=? WHERE job_id=? AND song_id=?`).run(status, fields.error ?? null, fields.match ? JSON.stringify(fields.match) : null, fields.releaseGroupId || null, fields.recipeId || null, sqlNowOffset(fields.delayMs || 0), now(), row.job_id, row.song_id);
+    if (fields.completedStage) recordStageEvent(db, row, fields.completedStage, status);
+  });
 }
 
 function failSong(row: SongRow, error: unknown) {
-  database().prepare("UPDATE hot100_songs SET status='failed',previous_status=?,retries=retries+1,error=?,lease_owner=NULL,lease_until=NULL,updated_at=? WHERE job_id=? AND song_id=?").run(row.previous_status || "pending_lookup", error instanceof Error ? error.message.slice(0, 300) : "未知处理失败。", now(), row.job_id, row.song_id);
+  transaction((db) => {
+    db.prepare("UPDATE hot100_songs SET status='failed',previous_status=?,retries=retries+1,error=?,lease_owner=NULL,lease_until=NULL,updated_at=? WHERE job_id=? AND song_id=?").run(row.previous_status || "pending_lookup", error instanceof Error ? error.message.slice(0, 300) : "未知处理失败。", now(), row.job_id, row.song_id);
+    const stage = claimedStage(row); if (stage) recordStageEvent(db, row, stage, "failed");
+  });
 }
 
 async function processClaim(row: SongRow, vision: Required<VisionConfig>) {
@@ -362,28 +398,28 @@ async function processClaim(row: SongRow, vision: Required<VisionConfig>) {
       const cachedResult = cached ? JSON.parse(cached.result_json) as { found: boolean; match?: Awaited<ReturnType<typeof findOriginalAlbumForRecording>> } : undefined;
       const match = cachedResult ? cachedResult.match : await findOriginalAlbumForRecording(row.song, row.performer);
       if (!cachedResult) db.prepare("INSERT OR REPLACE INTO hot100_lookup_cache(lookup_key,result_json,updated_at) VALUES(?,?,?)").run(lookupKey, JSON.stringify({ found: Boolean(match), match }), now());
-      if (!match) { finishSong(row, "unmatched"); return; }
+      if (!match) { finishSong(row, "unmatched", { completedStage: "lookup" }); return; }
       const matchData = { recordingId: match.recordingId, recordingScore: match.recordingScore, releaseId: "releaseId" in match ? match.releaseId : undefined, releaseGroupId: "releaseGroupId" in match ? match.releaseGroupId : undefined, releaseDate: "releaseDate" in match ? match.releaseDate : undefined, albumTitle: "albumTitle" in match ? match.albumTitle : undefined, verificationNeeded: match.recordingScore < 100, lookupVersion: 3 };
-      if (match.noAlbum || !("releaseGroupId" in match) || !match.releaseGroupId) { finishSong(row, "no_album", { match: matchData }); return; }
+      if (match.noAlbum || !("releaseGroupId" in match) || !match.releaseGroupId) { finishSong(row, "no_album", { match: matchData, completedStage: "lookup" }); return; }
       db.prepare(`INSERT INTO hot100_albums(job_id,release_group_id,canonical_song_id,status,artwork_url,updated_at) VALUES(?,?,?,?,?,?) ON CONFLICT(job_id,release_group_id) DO NOTHING`).run(row.job_id, match.releaseGroupId, row.song_id, "pending_cover", coverArtUrl(match.releaseGroupId), now());
-      finishSong(row, "pending_cover", { match: matchData, releaseGroupId: match.releaseGroupId }); return;
+      finishSong(row, "pending_cover", { match: matchData, releaseGroupId: match.releaseGroupId, completedStage: "lookup" }); return;
     }
     const releaseGroupId = row.release_group_id; if (!releaseGroupId) throw new Error("歌曲缺少 release group，无法继续。");
     const album = db.prepare("SELECT * FROM hot100_albums WHERE job_id=? AND release_group_id=?").get(row.job_id, releaseGroupId) as Record<string, string | null> | undefined;
     if (!album) { finishSong(row, "pending_cover", { delayMs: 1_000 }); return; }
-    if (album.recipe_id) { finishSong(row, album.canonical_song_id === row.song_id ? "approved" : "merged", { recipeId: album.recipe_id }); return; }
-    if (album.status === "no_cover") { finishSong(row, "no_cover"); return; }
+    if (album.recipe_id) { finishSong(row, album.canonical_song_id === row.song_id ? "approved" : "merged", { recipeId: album.recipe_id, completedStage: claimedStage(row) }); return; }
+    if (album.status === "no_cover") { finishSong(row, "no_cover", { completedStage: claimedStage(row) }); return; }
     if (album.canonical_song_id !== row.song_id) { finishSong(row, "pending_cover", { delayMs: 2_000 }); return; }
     if (row.status === "downloading") {
-      if (album.image_hash && album.extension) { finishSong(row, "pending_analysis"); return; }
+      if (album.image_hash && album.extension) { finishSong(row, "pending_analysis", { completedStage: "cover" }); return; }
       const artwork = album.artwork_url || coverArtUrl(releaseGroupId); const response = await fetch(artwork, { headers: { accept: "image/jpeg,image/png,image/webp" } });
-      if (!response.ok) { db.prepare("UPDATE hot100_albums SET status='no_cover',error=?,updated_at=? WHERE job_id=? AND release_group_id=?").run(`HTTP ${response.status}`, now(), row.job_id, releaseGroupId); finishSong(row, "no_cover"); return; }
+      if (!response.ok) { db.prepare("UPDATE hot100_albums SET status='no_cover',error=?,updated_at=? WHERE job_id=? AND release_group_id=?").run(`HTTP ${response.status}`, now(), row.job_id, releaseGroupId); finishSong(row, "no_cover", { completedStage: "cover" }); return; }
       const extension = ALLOWED_MIME.get(response.headers.get("content-type")?.split(";", 1)[0].toLowerCase() || ""); if (!extension) throw new Error("CAA 返回了不受支持的封面格式。");
       const bytes = Buffer.from(await response.arrayBuffer()); if (!bytes.length || bytes.length > 20 * 1024 * 1024) throw new Error("CAA 封面文件无效或超过 20MB。");
       const hash = createHash("sha256").update(bytes).digest("hex"); const directory = join(dataRoot(), "uploads", "default"); const path = join(directory, `${hash}.${extension}`); await mkdir(directory, { recursive: true });
       try { await access(path); } catch { await writeFile(path, bytes); }
       db.prepare("UPDATE hot100_albums SET status='pending_analysis',image_hash=?,extension=?,updated_at=? WHERE job_id=? AND release_group_id=?").run(hash, extension, now(), row.job_id, releaseGroupId);
-      finishSong(row, "pending_analysis"); return;
+      finishSong(row, "pending_analysis", { completedStage: "cover" }); return;
     }
     if (!album.image_hash || !album.extension) { finishSong(row, "pending_cover"); return; }
     const recipePath = join(dataRoot(), "recipes", `${album.image_hash}.json`); let recipeId = album.image_hash;
@@ -395,6 +431,7 @@ async function processClaim(row: SongRow, vision: Required<VisionConfig>) {
     transaction((tx) => {
       tx.prepare("UPDATE hot100_albums SET status='approved',recipe_id=?,error=NULL,updated_at=? WHERE job_id=? AND release_group_id=?").run(recipeId, now(), row.job_id, releaseGroupId);
       tx.prepare("UPDATE hot100_songs SET status=CASE WHEN song_id=? THEN 'approved' ELSE 'merged' END,recipe_id=?,error=NULL,lease_owner=NULL,lease_until=NULL,updated_at=? WHERE job_id=? AND release_group_id=? AND status NOT IN ('approved','merged')").run(row.song_id, recipeId, now(), row.job_id, releaseGroupId);
+      recordStageEvent(tx, row, "analysis", "approved");
     });
   } catch (error) { failSong(row, error); }
 }
