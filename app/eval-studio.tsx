@@ -7,7 +7,8 @@ import "./eval.css";
 type Library = "all" | "photo" | "imported_skill";
 type EvalCase = { id: string; filename: string; mime: string; size: number; createdAt: string };
 type Match = { id: string; title: string; libraryType: "photo" | "imported_skill"; score: number; matchReason: string };
-type GenerationRun = { matchId: string; rank: number; stage: string; resultFile?: string; error?: string; retryCount?: number; nextRetryAt?: string; lastTransientError?: string; remoteId?: string; remoteState?: string; timings: Record<string, number> };
+type QualityCheck = { status: "pending" | "passed" | "failed"; reasons: string[] };
+type GenerationRun = { matchId: string; rank: number; stage: string; resultFile?: string; error?: string; retryCount?: number; nextRetryAt?: string; lastTransientError?: string; remoteId?: string; remoteState?: string; fidelityAttempt?: 1 | 2; qualityCheck?: QualityCheck; qualityTimings?: number; timings: Record<string, number> };
 type RetrievalDiagnostics = { indexed: number; approved: number; eligible: number; returned: number; rejected: Array<{ skillId?: string; versionId?: string; title?: string; reason: string }> };
 type CaseRun = { caseId: string; filename: string; stage: string; matches?: Match[]; generations?: GenerationRun[]; prompt?: string; resultFile?: string; error?: string; retrievalCode?: string; retrievalDiagnostics?: RetrievalDiagnostics; retryCount?: number; nextRetryAt?: string; lastTransientError?: string; remoteId?: string; remoteState?: string; timings: Record<string, number> };
 type EvalRun = { schemaVersion: "1.0" | "2.0"; id: string; createdAt: string; updatedAt: string; groupName?: string; name?: string; status: "running" | "paused" | "completed"; pauseReason?: string; snapshot?: { candidateCount: number; visionModel: string; embeddingModel?: string }; config: GenerationSettings & { topK: number; library: Library; concurrency?: number }; cases: CaseRun[]; progress: { completed: number; failed: number; total: number; percent: number } };
@@ -27,10 +28,14 @@ const elapsed = (timings: Record<string, number>) => Object.entries(timings).map
 const retryMessage = (item: CaseRun) => item.nextRetryAt && item.retryCount ? `正在重试（第 ${item.retryCount}/3 次）：${item.lastTransientError || "瞬时网络错误"}` : "";
 
 function GenerationGallery({ item, run }: { item: CaseRun; run: EvalRun }) {
-  const generations = item.generations?.length ? item.generations : [{ matchId: item.matches?.[0]?.id || "legacy", rank: 1, stage: item.stage, resultFile: item.resultFile, error: item.error, retryCount: item.retryCount, nextRetryAt: item.nextRetryAt, lastTransientError: item.lastTransientError }];
+  const generations: GenerationRun[] = item.generations?.length ? item.generations : [{ matchId: item.matches?.[0]?.id || "legacy", rank: 1, stage: item.stage, resultFile: item.resultFile, error: item.error, retryCount: item.retryCount, nextRetryAt: item.nextRetryAt, lastTransientError: item.lastTransientError, timings: item.timings }];
   return <div className="eval-pair"><figure><img src={`/api/evals/assets?kind=case&id=${item.caseId}`} alt="Eval 原图"/><figcaption>SOURCE / SEMANTICS LOCKED</figcaption></figure>{generations.map((generation) => {
     const match = item.matches?.find((candidate) => candidate.id === generation.matchId);
-    return <figure key={`${generation.matchId}-${generation.rank}`} className={!generation.resultFile ? "waiting" : ""}>{generation.resultFile ? <img src={`/api/evals/assets?run=${run.id}&file=${encodeURIComponent(generation.resultFile)}`} alt={`生成结果 ${generation.rank}`}/> : <div><b>{generation.stage === "failed" ? "×" : "…"}</b><span>{generation.nextRetryAt && generation.retryCount ? `正在重试（第 ${generation.retryCount}/3 次）：${generation.lastTransientError || "瞬时网络错误"}` : generation.error || stageLabel[generation.stage]}</span></div>}<figcaption>#{generation.rank} / {match?.title || "MATCHED SKILL"}</figcaption></figure>;
+    const qualityFailed = generation.qualityCheck?.status === "failed";
+    const qualityPending = generation.qualityCheck?.status === "pending";
+    const classes = [!generation.resultFile ? "waiting" : "", qualityFailed ? "quality-warning" : ""].filter(Boolean).join(" ");
+    const waitingText = qualityPending && generation.fidelityAttempt === 2 ? `主体保真重试：${generation.qualityCheck?.reasons.join("；")}` : generation.nextRetryAt && generation.retryCount ? `正在重试（第 ${generation.retryCount}/3 次）：${generation.lastTransientError || "瞬时网络错误"}` : generation.error || stageLabel[generation.stage];
+    return <figure key={`${generation.matchId}-${generation.rank}`} className={classes}>{generation.resultFile ? <img src={`/api/evals/assets?run=${run.id}&file=${encodeURIComponent(generation.resultFile)}`} alt={`生成结果 ${generation.rank}`}/> : <div><b>{generation.stage === "failed" ? "×" : "…"}</b><span>{waitingText}</span></div>}{generation.resultFile && generation.qualityCheck && <div className={`quality-badge ${generation.qualityCheck.status}`} title={generation.qualityCheck.reasons.join("；")}>{qualityFailed ? `主体保真警告：${generation.qualityCheck.reasons.join("；")}` : "✓ 主体保真通过"}</div>}<figcaption>#{generation.rank} / {match?.title || "MATCHED SKILL"}{generation.fidelityAttempt === 2 ? " / RETRY 2" : ""}</figcaption></figure>;
   })}</div>;
 }
 

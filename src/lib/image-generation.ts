@@ -117,6 +117,18 @@ function openRouterResult(payload: Record<string, unknown>): GenerationSubmissio
   return { state: "completed", imageBase64, imageUrl, contentType: typeof first?.content_type === "string" ? first.content_type : undefined };
 }
 
+export function openRouterRequestBody(input: { model: string; prompt: string; sourceMime: string; source: Buffer; outputFormat: ImageGenerationSettings["outputFormat"] }) {
+  return {
+    model: input.model,
+    prompt: input.prompt,
+    input_references: [{
+      type: "image_url",
+      image_url: { url: `data:${input.sourceMime};base64,${input.source.toString("base64")}` }
+    }],
+    output_format: input.outputFormat
+  };
+}
+
 export async function submitGeneration(input: { prompt: string; sourcePath: string; sourceMime: string; settings?: ImageGenerationSettings }): Promise<GenerationSubmission> {
   const settings = input.settings || imageGenerationSettingsFromEnv();
   const source = await readFile(input.sourcePath);
@@ -132,12 +144,7 @@ export async function submitGeneration(input: { prompt: string; sourcePath: stri
   const response = await generationFetch(`${settings.endpoint.replace(/\/$/, "")}/images`, {
     method: "POST",
     headers: { "content-type": "application/json", authorization: `Bearer ${settings.apiKey}` },
-    body: JSON.stringify({
-      model: settings.model,
-      prompt: input.prompt,
-      input_references: [{ image_url: `data:${input.sourceMime};base64,${source.toString("base64")}` }],
-      output_format: settings.outputFormat
-    })
+    body: JSON.stringify(openRouterRequestBody({ model: settings.model, prompt: input.prompt, sourceMime: input.sourceMime, source, outputFormat: settings.outputFormat }))
   }, "OpenRouter 生图请求暂时失败");
   const text = await response.text();
   if (transientStatuses.has(response.status)) throw new GenerationTransientError(`OpenRouter 生图暂时失败（HTTP ${response.status}）：${text.slice(0, 260)}`, response.status);

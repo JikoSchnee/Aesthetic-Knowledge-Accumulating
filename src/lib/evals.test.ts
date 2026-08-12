@@ -3,8 +3,8 @@ import { test } from "node:test";
 import { mkdtemp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { EVAL_MAX_CONCURRENCY, EVAL_MAX_RETRIES, evalConcurrency, evalTextInstruction, evalTextSuggestion, isEvalRetryDue, scheduleEvalRetry, type EvalCaseRun } from "./evals";
-import { GenerationTransientError, isGenerationTransientError, resolveGeneratedImage, validateRaster } from "./image-generation";
+import { EVAL_GENERATION_TEMPLATE, EVAL_MAX_CONCURRENCY, EVAL_MAX_RETRIES, evalConcurrency, evalTextInstruction, evalTextSuggestion, fidelityRepairPrompt, generationPrompt, isEvalRetryDue, parseQualityCheck, qualityOutcome, scheduleEvalRetry, subjectLockFromAnalysis, subjectLockInstruction, type EvalCaseRun } from "./evals";
+import { GenerationTransientError, isGenerationTransientError, openRouterRequestBody, resolveGeneratedImage, validateRaster } from "./image-generation";
 import { IMAGE_GENERATION_DEFAULTS, templateForFalModel, validateImageGenerationSettings, visibleImageGenerationSettings } from "./image-generation-settings";
 import { buildEligibleSkillPool, keywordScore, rankSkillPool, retrieveSkills } from "./retrieval";
 import { migrateRetrievalProfiles } from "./retrieval-profile-migration";
@@ -60,6 +60,46 @@ test("raster validation accepts PNG magic and rejects disguised text", () => {
 
 test("generated image downloads require HTTPS", async () => {
   await assert.rejects(() => resolveGeneratedImage({ state: "completed", imageUrl: "http://127.0.0.1/private.png" }), /HTTPS/);
+});
+
+test("OpenRouter image edits send a typed nested reference with the source data URL", () => {
+  const body = openRouterRequestBody({ model: "test/image", prompt: "preserve subject", sourceMime: "image/png", source: Buffer.from("source"), outputFormat: "png" });
+  assert.deepEqual(body.input_references, [{ type: "image_url", image_url: { url: `data:image/png;base64,${Buffer.from("source").toString("base64")}` } }]);
+});
+
+test("subject locks normalize people, groups, and non-person subjects without empty invariants", () => {
+  const person = subjectLockFromAnalysis({ subjectLock: { subjectType: "person", subjectCount: 1, identityAndFace: "same face", hairAndColor: "short black curls", bodyType: "slender", definingFeatures: ["freckles"] } });
+  const group = subjectLockFromAnalysis({ subjectLock: { subjectType: "group", subjectCount: 4, definingFeatures: ["four distinct people"] }, visualDefinition: "four-person band portrait" });
+  const object = subjectLockFromAnalysis({ subjectLock: { subjectType: "object", subjectCount: 2, definingFeatures: ["two red ceramic cups"] } });
+  assert.equal(person.hairAndColor, "short black curls");
+  assert.equal(group.subjectCount, 4);
+  assert.match(group.identityAndFace, /identity/);
+  assert.equal(object.identityAndFace, "not applicable");
+  for (const lock of [person, group, object]) assert.ok(Object.values(lock).every((value) => Array.isArray(value) ? value.length > 0 : value !== ""));
+});
+
+test("generation prompts put the source subject lock above conflicting Skill appearance", async () => {
+  const versionId = "a".repeat(64);
+  const analysis = { visualDefinition: "one woman in close portrait", subjectLock: { subjectType: "person", subjectCount: 1, identityAndFace: "same woman and face", hairAndColor: "long black braids", bodyType: "athletic", definingFeatures: ["small cheek scar"] } };
+  const recipe = { visualDefinition: "a group of three people with short blonde hair", coreVisualRelationships: ["group portrait"], colorSystem: {}, reuseFormula: "replace the subject with a trio", mustRedesign: [] };
+  const snapshot = { prompts: { generationTemplate: EVAL_GENERATION_TEMPLATE }, pool: { candidates: [{ card: { versionId }, recipe }] } };
+  const prompt = await generationPrompt(analysis, { id: versionId, versionId, title: "Conflicting Skill", libraryType: "photo" } as never, snapshot as never);
+  assert.match(prompt, /count=1/);
+  assert.match(prompt, /long black braids/);
+  assert.match(prompt, /If any Skill instruction conflicts with the SUBJECT LOCK, ignore that instruction/);
+  assert.ok(prompt.indexOf("SUBJECT LOCK — highest priority") < prompt.indexOf("a group of three people"));
+});
+
+test("quality failures retry once, then keep the second result with a warning", () => {
+  const failed = parseQualityCheck({ checks: { subjectPresentAndCount: true, identityAndFace: true, hairAndColor: false, bodyType: true, definingFeatures: true, subjectVisibility: true }, reasons: ["hair changed"] });
+  const networkState = {} as EvalCaseRun;
+  scheduleEvalRetry(networkState, new GenerationTransientError("network retry"), 100);
+  assert.equal(failed.status, "failed");
+  assert.equal(qualityOutcome(failed, 1), "retry");
+  assert.equal(networkState.retryCount, 1);
+  assert.equal(qualityOutcome(failed, 2), "accept_with_warning");
+  assert.equal(qualityOutcome(parseQualityCheck({ checks: { subjectPresentAndCount: true, identityAndFace: true, hairAndColor: true, bodyType: true, definingFeatures: true, subjectVisibility: true }, reasons: [] }), 2), "accept");
+  assert.match(fidelityRepairPrompt("base prompt", failed.reasons), /hair changed/);
 });
 
 test("transient generation errors include network failures and temporary HTTP responses", async () => {

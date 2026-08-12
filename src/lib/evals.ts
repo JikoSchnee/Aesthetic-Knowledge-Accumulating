@@ -5,7 +5,7 @@ import { embeddingTexts, type EmbeddingConfig } from "./embeddings";
 import { isGenerationTransientError, resolveGeneratedImage, pollGeneration, submitGeneration, type GenerationSubmission } from "./image-generation";
 import { imageGenerationSettingsFromEnv, type ImageGenerationSettings } from "./image-generation-settings";
 import { dataRoot, locateSkill, type LibraryType } from "./library";
-import { imageRecipePrompt, parseValidRecipe } from "./recipe-schema";
+import { imageRecipePrompt, parseJsonObject, parseValidRecipe } from "./recipe-schema";
 import { buildEligibleSkillPool, noEligibleSkillMessage, rankSkillPool, retrieveSkills, type RankedSearchCard, type RetrievalDiagnostics, type RetrievalPool } from "./retrieval";
 
 export const EVAL_MAX_IMAGE_BYTES = 20 * 1024 * 1024;
@@ -16,17 +16,35 @@ export type EvalCase = { id: string; filename: string; extension: "jpg" | "png" 
 export type EvalStage = "pending_analysis" | "pending_retrieval" | "pending_generation" | "waiting_generation" | "completed" | "failed";
 type EvalCopyLanguage = "en" | "zh";
 type EvalTextSuggestion = { language: EvalCopyLanguage; copy: string };
+export type SubjectLock = {
+  subjectType: "person" | "group" | "animal" | "object" | "scene" | "other";
+  subjectCount: number;
+  identityAndFace: string;
+  hairAndColor: string;
+  bodyType: string;
+  definingFeatures: string[];
+};
+export type EvalQualityCheck = { status: "pending" | "passed" | "failed"; reasons: string[] };
 const EVAL_ANALYSIS_USER_PROMPT = "Analyze this evaluation image as a temporary visual recipe for retrieval and provide its temporary generation text suggestion. Do not assume either will be added to the library.";
-const EVAL_ANALYSIS_SYSTEM_PROMPT = `${imageRecipePrompt} Also include an evalTextSuggestion object with language (en or zh) and copy. The copy must be a meaningful, original title grounded in the depicted subject, scene, or mood; never transcribe source text, brands, or logos. Use the source writing system when clear; otherwise use English. English copy must contain 1 to 5 real words. Chinese copy must contain 2 to 12 Han characters. Return only the JSON object.`;
-const EVAL_GENERATION_TEMPLATE = [
-  "Edit the supplied evaluation image; it is the required reference image.",
-  "Preserve its subject identity, depicted objects, event, and semantic meaning. Source reading: {{SOURCE_READING}}.",
+const EVAL_ANALYSIS_SYSTEM_PROMPT = `${imageRecipePrompt} Also include an evalTextSuggestion object with language (en or zh) and copy. The copy must be a meaningful, original title grounded in the depicted subject, scene, or mood; never transcribe source text, brands, or logos. Use the source writing system when clear; otherwise use English. English copy must contain 1 to 5 real words. Chinese copy must contain 2 to 12 Han characters. Also include subjectLock using {"subjectType":"person|group|animal|object|scene|other","subjectCount":1,"identityAndFace":"stable identity and facial appearance, or not applicable","hairAndColor":"exact hairstyle, texture, length, and color, or not applicable","bodyType":"stable build and proportions, or not applicable","definingFeatures":["stable visual feature"]}. Describe only visible, identity-bearing appearance; do not include pose, clothing, or handheld props. Never leave a subjectLock string or array empty. Return only the JSON object.`;
+export const EVAL_GENERATION_TEMPLATE = [
+  "Use case: identity-preserve. Edit the supplied evaluation image; it is the sole and required subject reference image.",
+  "SUBJECT LOCK — highest priority: {{SUBJECT_LOCK}}",
+  "The output must contain the same primary subject count and preserve identity, face, hairstyle and hair color, body type, and all stable defining appearance from the source. Keep every primary subject clearly visible and recognizable; do not remove, replace, merge, hide, heavily crop, or overpower a subject with typography, background, texture, lighting, or effects.",
+  "Pose, clothing, and handheld props may change to support a materially new composition. Source reading: {{SOURCE_READING}}.",
   "Apply the transferable visual system from this matched Skill:",
   "{{SKILL}}",
-  "Do not copy source wording, logos, signatures, protected characters, watermarks, or the exact layout of any Skill. Create a materially new composition while preserving the evaluation image's subject and meaning.",
+  "The Skill may control only visual style, palette, typography, and composition. If any Skill instruction conflicts with the SUBJECT LOCK, ignore that instruction and preserve the source subject. Do not copy source wording, logos, signatures, protected characters, watermarks, or the exact layout of any Skill.",
   "{{TEXT_INSTRUCTION}}",
   "Return one finished raster image."
 ].join("\n\n");
+const EVAL_QUALITY_SYSTEM_PROMPT = [
+  "You are a strict image-edit identity preservation inspector.",
+  "Image 1 is the source and Image 2 is the generated result. Compare content, not rendering style.",
+  "Return only JSON using this exact shape: {\"checks\":{\"subjectPresentAndCount\":true,\"identityAndFace\":true,\"hairAndColor\":true,\"bodyType\":true,\"definingFeatures\":true,\"subjectVisibility\":true},\"reasons\":[\"concise failure reason\"]}.",
+  "A non-applicable person-specific check must be true. reasons must be empty only when every check is true."
+].join(" ");
+const EVAL_QUALITY_USER_PROMPT = "Verify the generated result against this source subject lock: {{SUBJECT_LOCK}}. Fail any changed identity-bearing trait, missing/extra primary subject, changed hairstyle or hair color, changed body type, lost defining feature, or subject that is obscured/cropped enough to stop being clearly recognizable.";
 
 export type EvalSnapshot = {
   schemaVersion: "1.0";
@@ -35,7 +53,7 @@ export type EvalSnapshot = {
   vision: { endpoint: string; model: string; temperature: number; retryTemperature: number; responseFormat: "json_object"; systemPrompt: string; userPrompt: string };
   embedding: { endpoint?: string; model?: string };
   generation: Omit<ImageGenerationSettings, "apiKey">;
-  prompts: { generationTemplate: string };
+  prompts: { generationTemplate: string; qualitySystemPrompt?: string; qualityUserPrompt?: string };
 };
 export type EvalCaseRun = {
   caseId: string;
@@ -72,6 +90,9 @@ export type EvalGeneration = {
   retryCount?: number;
   nextRetryAt?: string;
   lastTransientError?: string;
+  fidelityAttempt?: 1 | 2;
+  qualityCheck?: EvalQualityCheck;
+  qualityTimings?: number;
   timings: Partial<Record<"generation" | "download", number>>;
 };
 export type EvalRun = {
@@ -232,7 +253,7 @@ export async function createEvalRun(input: { caseIds?: string[]; topK?: number; 
     vision: { endpoint: process.env.VISION_ENDPOINT, model: process.env.VISION_MODEL, temperature: 0.2, retryTemperature: 0, responseFormat: "json_object", systemPrompt: EVAL_ANALYSIS_SYSTEM_PROMPT, userPrompt: EVAL_ANALYSIS_USER_PROMPT },
     embedding: { endpoint: input.embedding?.endpoint?.trim(), model: input.embedding?.model?.trim() },
     generation: generationSnapshot,
-    prompts: { generationTemplate: EVAL_GENERATION_TEMPLATE }
+    prompts: { generationTemplate: EVAL_GENERATION_TEMPLATE, qualitySystemPrompt: EVAL_QUALITY_SYSTEM_PROMPT, qualityUserPrompt: EVAL_QUALITY_USER_PROMPT }
   };
   const snapshotBytes = Buffer.from(JSON.stringify(evalSnapshot, null, 2));
   const snapshotHash = createHash("sha256").update(snapshotBytes).digest("hex");
@@ -241,7 +262,7 @@ export async function createEvalRun(input: { caseIds?: string[]; topK?: number; 
   const run: EvalRun = {
     schemaVersion: "2.0", id, createdAt: now, updatedAt: now, groupName: evalGroupName(input.groupName), name: evalRunName(input.name, `Eval ${new Date().toLocaleString("zh-CN")}`), status: "running",
     config: { ...generationSnapshot, topK: Math.max(1, Math.min(10, Math.round(input.topK || 3))), library, concurrency: evalConcurrency(input.concurrency) },
-    snapshot: { file: "snapshot.json", sha256: snapshotHash, candidateCount: pool.candidates.length, visionModel: evalSnapshot.vision.model, embeddingModel: evalSnapshot.embedding.model, promptHash: createHash("sha256").update(`${evalSnapshot.vision.systemPrompt}\0${evalSnapshot.vision.userPrompt}\0${evalSnapshot.prompts.generationTemplate}`).digest("hex") },
+    snapshot: { file: "snapshot.json", sha256: snapshotHash, candidateCount: pool.candidates.length, visionModel: evalSnapshot.vision.model, embeddingModel: evalSnapshot.embedding.model, promptHash: createHash("sha256").update(`${evalSnapshot.vision.systemPrompt}\0${evalSnapshot.vision.userPrompt}\0${evalSnapshot.prompts.generationTemplate}\0${evalSnapshot.prompts.qualitySystemPrompt}\0${evalSnapshot.prompts.qualityUserPrompt}`).digest("hex") },
     cases: selected.map((item) => ({ caseId: item.id, filename: item.filename, stage: "pending_analysis", timings: {} }))
   };
   await saveEvalRun(run);
@@ -296,6 +317,66 @@ async function analyzeEvalImage(path: string, mime: string, snapshot?: EvalSnaps
 }
 
 const arrayText = (value: unknown): string => Array.isArray(value) ? value.map(arrayText).filter(Boolean).join("; ") : value && typeof value === "object" ? Object.values(value as Record<string, unknown>).map(arrayText).filter(Boolean).join("; ") : typeof value === "string" ? value : "";
+const compactText = (value: unknown, fallback: string) => typeof value === "string" && value.trim() ? value.replace(/\s+/g, " ").trim() : fallback;
+const subjectTypes = new Set<SubjectLock["subjectType"]>(["person", "group", "animal", "object", "scene", "other"]);
+
+export function subjectLockFromAnalysis(analysis: Record<string, unknown>): SubjectLock {
+  const raw = analysis.subjectLock && typeof analysis.subjectLock === "object" && !Array.isArray(analysis.subjectLock) ? analysis.subjectLock as Record<string, unknown> : {};
+  const metadata = analysis.metadata && typeof analysis.metadata === "object" ? analysis.metadata as Record<string, unknown> : {};
+  const subjectType = subjectTypes.has(raw.subjectType as SubjectLock["subjectType"]) ? raw.subjectType as SubjectLock["subjectType"] : "other";
+  const parsedCount = Math.round(Number(raw.subjectCount));
+  const definingFeatures = Array.isArray(raw.definingFeatures) ? raw.definingFeatures.map((value) => compactText(value, "")).filter(Boolean).slice(0, 8) : [];
+  if (!definingFeatures.length) definingFeatures.push(compactText(analysis.visualDefinition, compactText(metadata.title, "the source image's primary subject appearance")));
+  return {
+    subjectType,
+    subjectCount: Number.isFinite(parsedCount) && parsedCount > 0 ? Math.min(parsedCount, 20) : 1,
+    identityAndFace: compactText(raw.identityAndFace, subjectType === "person" || subjectType === "group" ? "preserve the exact visible identity and facial appearance from the source" : "not applicable"),
+    hairAndColor: compactText(raw.hairAndColor, subjectType === "person" || subjectType === "group" || subjectType === "animal" ? "preserve the exact visible hair or fur shape, texture, length, and color from the source" : "not applicable"),
+    bodyType: compactText(raw.bodyType, subjectType === "person" || subjectType === "group" || subjectType === "animal" ? "preserve the visible build, proportions, and silhouette from the source" : "not applicable"),
+    definingFeatures
+  };
+}
+
+export function subjectLockInstruction(analysis: Record<string, unknown>) {
+  const lock = subjectLockFromAnalysis(analysis);
+  return [
+    `type=${lock.subjectType}`,
+    `count=${lock.subjectCount}`,
+    `identity/face=${lock.identityAndFace}`,
+    `hair/color=${lock.hairAndColor}`,
+    `body type=${lock.bodyType}`,
+    `defining features=${lock.definingFeatures.join("; ")}`
+  ].join(" | ");
+}
+
+export function fidelityRepairPrompt(prompt: string, reasons: string[]) {
+  const failures = reasons.map((reason) => compactText(reason, "")).filter(Boolean).slice(0, 8);
+  return `${prompt}\n\nFIDELITY CORRECTION — the previous result failed subject preservation for: ${failures.join("; ") || "subject identity drift"}. Correct only these failures. Re-read the supplied source image as the sole subject reference and obey the SUBJECT LOCK above. Do not repeat the failed change.`;
+}
+
+const qualityLabels: Record<string, string> = {
+  subjectPresentAndCount: "主体缺失或数量不一致",
+  identityAndFace: "人物身份或面部不一致",
+  hairAndColor: "发型、发质、长度或发色不一致",
+  bodyType: "体型或身体比例不一致",
+  definingFeatures: "主体关键外观特征丢失或改变",
+  subjectVisibility: "主体被严重遮挡、裁切或弱化"
+};
+
+export function parseQualityCheck(content: unknown): EvalQualityCheck {
+  const parsed = typeof content === "string" || Array.isArray(content) ? parseJsonObject(content) : content as Record<string, unknown>;
+  const checks = parsed?.checks && typeof parsed.checks === "object" && !Array.isArray(parsed.checks) ? parsed.checks as Record<string, unknown> : {};
+  const failed = Object.keys(qualityLabels).filter((key) => checks[key] !== true);
+  const supplied = Array.isArray(parsed?.reasons) ? parsed.reasons.map((value) => compactText(value, "")).filter(Boolean) : [];
+  const reasons = [...new Set([...supplied, ...failed.map((key) => qualityLabels[key])])];
+  return { status: failed.length ? "failed" : "passed", reasons: failed.length ? reasons : [] };
+}
+
+export function qualityOutcome(check: EvalQualityCheck, attempt: 1 | 2) {
+  if (check.status === "passed") return "accept" as const;
+  if (attempt === 1 && !check.reasons.some((reason) => reason.startsWith("主体保真质检不可用"))) return "retry" as const;
+  return "accept_with_warning" as const;
+}
 const cleanEnglishCopy = (value: unknown) => {
   const copy = typeof value === "string" ? value.replace(/[\r\n]+/g, " ").replace(/\s+/g, " ").trim() : "";
   return /^[A-Za-z]+(?:[ '-][A-Za-z]+){0,4}$/.test(copy) ? copy : undefined;
@@ -323,7 +404,7 @@ export function evalTextInstruction(analysis: Record<string, unknown>) {
   ].join(" ");
 }
 
-async function generationPrompt(analysis: Record<string, unknown>, match: RankedSearchCard, snapshot?: EvalSnapshot) {
+export async function generationPrompt(analysis: Record<string, unknown>, match: RankedSearchCard, snapshot?: EvalSnapshot) {
   let recipe = snapshot?.pool.candidates.find((candidate) => candidate.card.versionId === match.versionId)?.recipe;
   if (!recipe) {
     const located = await locateSkill(dataRoot(), match.versionId || match.id, match.libraryType);
@@ -342,6 +423,7 @@ async function generationPrompt(analysis: Record<string, unknown>, match: Ranked
   const metadata = analysis.metadata && typeof analysis.metadata === "object" ? analysis.metadata as Record<string, unknown> : {};
   return (snapshot?.prompts.generationTemplate || EVAL_GENERATION_TEMPLATE)
     .replaceAll("{{SOURCE_READING}}", arrayText(analysis.visualDefinition) || arrayText(metadata.title))
+    .replaceAll("{{SUBJECT_LOCK}}", subjectLockInstruction(analysis))
     .replaceAll("{{SKILL}}", skill)
     .replaceAll("{{TEXT_INSTRUCTION}}", evalTextInstruction(analysis));
 }
@@ -355,15 +437,61 @@ function settingsForRun(run: EvalRun) {
   return { ...run.config, apiKey: current.apiKey } satisfies ImageGenerationSettings;
 }
 
-async function finishGeneration(run: EvalRun, item: EvalCaseRun, generation: EvalGeneration, result: GenerationSubmission) {
+async function inspectGeneratedQuality(sourceCase: EvalCase, generated: Buffer, generatedMime: string, analysis: Record<string, unknown>, snapshot: EvalSnapshot): Promise<EvalQualityCheck> {
+  try {
+    const source = await readFile(join(evalImagesDir(), sourceCase.filename));
+    const apiKey = process.env.VISION_API_KEY || "";
+    if (!apiKey) throw new Error("视觉分析 API Key 不可用");
+    const userPrompt = (snapshot.prompts.qualityUserPrompt || EVAL_QUALITY_USER_PROMPT).replaceAll("{{SUBJECT_LOCK}}", subjectLockInstruction(analysis));
+    const response = await fetch(`${snapshot.vision.endpoint.replace(/\/$/, "")}/chat/completions`, {
+      method: "POST",
+      headers: { "content-type": "application/json", authorization: `Bearer ${apiKey}` },
+      body: JSON.stringify({
+        model: snapshot.vision.model,
+        temperature: 0,
+        response_format: { type: "json_object" },
+        messages: [
+          { role: "system", content: snapshot.prompts.qualitySystemPrompt || EVAL_QUALITY_SYSTEM_PROMPT },
+          { role: "user", content: [
+            { type: "text", text: userPrompt },
+            { type: "image_url", image_url: { url: `data:${sourceCase.mime};base64,${source.toString("base64")}` } },
+            { type: "image_url", image_url: { url: `data:${generatedMime};base64,${generated.toString("base64")}` } }
+          ] }
+        ]
+      })
+    });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json() as { choices?: Array<{ message?: { content?: unknown } }> };
+    return parseQualityCheck(payload.choices?.[0]?.message?.content);
+  } catch (error) {
+    return { status: "failed", reasons: [`主体保真质检不可用：${error instanceof Error ? error.message : "未知错误"}`] };
+  }
+}
+
+async function finishGeneration(run: EvalRun, item: EvalCaseRun, generation: EvalGeneration, result: GenerationSubmission, sourceCase: EvalCase, snapshot?: EvalSnapshot) {
   const started = Date.now();
   const resolved = await resolveGeneratedImage(result);
+  generation.timings.download = (generation.timings.download || 0) + Date.now() - started;
+  if (snapshot?.prompts.qualitySystemPrompt) {
+    const qualityStarted = Date.now();
+    const qualityCheck = await inspectGeneratedQuality(sourceCase, resolved.bytes, resolved.mime, item.analysis || {}, snapshot);
+    generation.qualityTimings = (generation.qualityTimings || 0) + Date.now() - qualityStarted;
+    generation.qualityCheck = qualityCheck;
+    const attempt = generation.fidelityAttempt || 1;
+    if (qualityOutcome(qualityCheck, attempt as 1 | 2) === "retry") {
+      generation.fidelityAttempt = 2;
+      generation.qualityCheck = { status: "pending", reasons: qualityCheck.reasons };
+      generation.stage = "pending_generation";
+      generation.remoteState = "quality_retry";
+      delete generation.remoteId;
+      return;
+    }
+  }
   const resultFile = `${item.caseId}-${generation.rank}.${resolved.extension}`;
   await writeFile(join(evalRunsDir(), run.id, resultFile), resolved.bytes);
   generation.resultFile = resultFile;
   generation.stage = "completed";
   generation.remoteState = "completed";
-  generation.timings.download = Date.now() - started;
 }
 
 function refreshCaseStage(item: EvalCaseRun) {
@@ -384,11 +512,13 @@ async function advanceGeneration(run: EvalRun, item: EvalCaseRun, generation: Ev
       if (!match) throw new Error("生成任务缺少对应的匹配 Skill。");
       const started = Date.now();
       generation.prompt ||= await generationPrompt(item.analysis || {}, match, snapshot);
-      const result = await submitGeneration({ prompt: generation.prompt, sourcePath, sourceMime: sourceCase.mime, settings: settingsForRun(run) });
+      generation.fidelityAttempt ||= 1;
+      const requestPrompt = generation.fidelityAttempt === 2 ? fidelityRepairPrompt(generation.prompt, generation.qualityCheck?.reasons || []) : generation.prompt;
+      const result = await submitGeneration({ prompt: requestPrompt, sourcePath, sourceMime: sourceCase.mime, settings: settingsForRun(run) });
       generation.timings.generation = Date.now() - started;
       generation.remoteId = result.remoteId;
       generation.remoteState = result.state;
-      if (result.state === "completed") await finishGeneration(run, item, generation, result);
+      if (result.state === "completed") await finishGeneration(run, item, generation, result, sourceCase, snapshot);
       else if (result.state === "failed") throw new Error(result.error || "生图任务提交失败。");
       else { generation.stage = "waiting_generation"; clearEvalRetrySchedule(generation); }
     } else if (generation.stage === "waiting_generation") {
@@ -397,7 +527,7 @@ async function advanceGeneration(run: EvalRun, item: EvalCaseRun, generation: Ev
       const result = await pollGeneration(generation.remoteId, settingsForRun(run));
       generation.timings.generation = (generation.timings.generation || 0) + Date.now() - started;
       generation.remoteState = result.state;
-      if (result.state === "completed") await finishGeneration(run, item, generation, result);
+      if (result.state === "completed") await finishGeneration(run, item, generation, result, sourceCase, snapshot);
       else if (result.state === "failed") throw new Error(result.error || "fal.ai 生图任务失败。");
       else clearEvalRetrySchedule(generation);
     }
@@ -435,7 +565,7 @@ async function advanceEvalCase(run: EvalRun, item: EvalCaseRun, sourceCase: Eval
       item.stage = "pending_generation";
       clearEvalRetrySchedule(item);
     } else if (item.stage === "pending_generation" && !item.generations) {
-      item.generations = (item.matches || []).map((match, index) => ({ matchId: match.id, rank: index + 1, stage: "pending_generation", timings: {} }));
+      item.generations = (item.matches || []).map((match, index) => ({ matchId: match.id, rank: index + 1, stage: "pending_generation", fidelityAttempt: 1, timings: {} }));
       if (!item.generations.length) { item.retrievalCode = "NO_ELIGIBLE_SKILL"; throw new Error(noEligibleSkillMessage(item.retrievalDiagnostics || { indexed: 0, approved: 0, eligible: 0, returned: 0, rejected: [] })); }
     }
   } catch (error) {
