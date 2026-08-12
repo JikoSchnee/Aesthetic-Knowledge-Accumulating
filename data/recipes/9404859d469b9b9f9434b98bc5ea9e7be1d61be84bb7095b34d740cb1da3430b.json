@@ -1,0 +1,303 @@
+{
+  "id": "9404859d469b9b9f9434b98bc5ea9e7be1d61be84bb7095b34d740cb1da3430b",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T18:36:50.688Z",
+  "approvedAt": "2026-08-11T18:36:50.688Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T18:36:50.688Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Top Gun: Maverick: Music From the Motion Picture.jpg",
+    "hash": "9404859d469b9b9f9434b98bc5ea9e7be1d61be84bb7095b34d740cb1da3430b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Top Gun: Maverick: Music From the Motion Picture",
+    "artist": "Lady Gaga",
+    "artworkUrl": "https://coverartarchive.org/release-group/034cc2d4-934a-49d3-9bd1-949a99b5541b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/034cc2d4-934a-49d3-9bd1-949a99b5541b",
+    "releaseGroupId": "034cc2d4-934a-49d3-9bd1-949a99b5541b",
+    "recordingId": "3d6733ee-e03f-4340-b433-80585ae9b91a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Hold My HandLady Gaga",
+      "song": "Hold My Hand",
+      "performer": "Lady Gaga",
+      "peakPosition": 49,
+      "firstChartDate": "2022-05-21",
+      "lastChartDate": "2022-07-23",
+      "appearances": [
+        {
+          "chartDate": "2022-05-21",
+          "position": 82
+        },
+        {
+          "chartDate": "2022-05-28",
+          "position": 98
+        },
+        {
+          "chartDate": "2022-06-04",
+          "position": 86
+        },
+        {
+          "chartDate": "2022-06-11",
+          "position": 53
+        },
+        {
+          "chartDate": "2022-06-18",
+          "position": 49
+        },
+        {
+          "chartDate": "2022-06-25",
+          "position": 50
+        },
+        {
+          "chartDate": "2022-07-02",
+          "position": 61
+        },
+        {
+          "chartDate": "2022-07-09",
+          "position": 54
+        },
+        {
+          "chartDate": "2022-07-16",
+          "position": 65
+        },
+        {
+          "chartDate": "2022-07-23",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "aviation heroism soundtrack cover pilot fighter jet sunset military aviation cinematic lighting action hero pilot as the primary focal point in the right foreground fighter jet cockpit canopy framing the pilot s head from the left golden sunset light creating rim lighting on the pilot and metallic surfaces graphic title treatment anchored in the lower center third subject heroic figure backdrop technical machinery lighting golden hour rim light typography heavy geometric center lockup",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Aviation Heroism Soundtrack Cover",
+      "category": "Entertainment",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Album Art",
+        "Movie Poster",
+        "Promotional Graphic"
+      ],
+      "retrievalTags": [
+        "pilot",
+        "fighter jet",
+        "sunset",
+        "military aviation",
+        "cinematic lighting",
+        "action hero"
+      ]
+    },
+    "visualDefinition": "A cinematic portrait of a pilot in flight gear standing before a fighter jet with an open cockpit, set against a dramatic golden-hour sky with high-contrast warm lighting.",
+    "coreVisualRelationships": [
+      "Pilot as the primary focal point in the right foreground",
+      "Fighter jet cockpit canopy framing the pilot's head from the left",
+      "Golden sunset light creating rim lighting on the pilot and metallic surfaces",
+      "Graphic title treatment anchored in the lower-center third"
+    ],
+    "coreInvariants": [
+      "Warm, amber-saturated color palette",
+      "Shallow depth of field blurring the jet's tail",
+      "High-contrast shadows on the flight suit",
+      "Centered typographic stack"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Pilot occupies the right two-thirds of the frame, medium shot from waist up; jet cockpit dominates the left background.",
+      "visualAnchor": "The pilot's face and the high-contrast white title logo.",
+      "movementAndEyePath": "Eye starts at the pilot's face, follows the diagonal line of the cockpit canopy down to the central title, then scans the metadata at the top and bottom.",
+      "negativeSpace": "Atmospheric sky in the upper right and left provides breathing room for secondary text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Golden amber and warm yellow (sky and highlights)",
+      "contrastColorRole": "Deep charcoal and olive drab (flight suit and shadows)",
+      "accentColorRole": "Pure white (typography for maximum legibility)",
+      "saturationAndValueRelationship": "High saturation in the highlights; low value/high contrast in the subject's clothing.",
+      "paletteRestrictions": [
+        "Avoid cool blues or greens",
+        "Maintain monochromatic warmth"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy Sans-Serif",
+      "letterConstructionRules": [
+        "Extra-bold weight with zero-radius corners",
+        "Horizontal shearing or stretching to fit geometric containers",
+        "Integrated graphic wings flanking the central text"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are clipped or integrated into a horizontal bar structure",
+        "Star motif integrated into the bottom of the central lockup"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Black",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Tight",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Compact",
+            "lineBreakPattern": "Stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Lower center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Overlays subject slightly",
+            "relationshipToImage": "Foreground anchor"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "Subtle drop shadow for depth",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Condensed Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "Standard",
+            "terminals": "Straight",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top and bottom margins",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "White with 80% opacity",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy geometric display face paired with a light, airy condensed secondary face.",
+      "graphicDevices": [
+        "Horizontal stripes/wings",
+        "Five-pointed star",
+        "Framing canopy lines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Wide tracking for metadata",
+          "Heavy weight for main title"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Bright colors for text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Machin",
+            "reason": "Provides the necessary weight and vertical presence for the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "DIN Condensed",
+            "reason": "Matches the technical, military feel of the metadata text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A cinematic photo of a male pilot in a dark olive flight suit standing in front of a modern fighter jet. The jet's cockpit is open. The background is a hazy, golden sunset sky. High contrast, rim lighting on the pilot's silhouette. No text.",
+        "overlayInstruction": "Add a large, bold, white geometric sans-serif title in the lower center. Flank the title with horizontal wing-like stripes. Add small, wide-tracked condensed uppercase text at the very top and very bottom edges."
+      },
+      "verificationChecks": [
+        "Is the lighting consistently warm/golden?",
+        "Is the main title perfectly centered?",
+        "Does the pilot have a sharp rim light?",
+        "Is the jet cockpit used as a framing element?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the golden hour glow",
+      "Specific model of the fighter jet",
+      "Tightness of the tracking on metadata"
+    ],
+    "mustRedesign": [
+      "Specific actor likeness",
+      "Original movie logos",
+      "Exact billing block names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic depth of field",
+        "High-contrast lighting",
+        "Clean typographic alignment"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Cluttered backgrounds",
+        "Low-resolution textures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text is not garbled or AI-hallucinated",
+      "Check that the pilot's gear looks authentic to aviation",
+      "Verify the golden hour color balance is not overly orange",
+      "Confirm the title graphic does not obscure the pilot's face"
+    ],
+    "reuseFormula": "Subject (Heroic Figure) + Backdrop (Technical Machinery) + Lighting (Golden Hour Rim Light) + Typography (Heavy Geometric Center Lockup)."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:16:11.938Z"
+}

@@ -1,0 +1,279 @@
+{
+  "id": "e1585035bed4480ed1e22911bd639003d7c1e9284038df72f81cd66ffd32baf4",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:06:59.194Z",
+  "approvedAt": "2026-08-11T22:06:59.194Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:06:59.194Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Oh How It Hurts.jpg",
+    "hash": "e1585035bed4480ed1e22911bd639003d7c1e9284038df72f81cd66ffd32baf4",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Oh How It Hurts",
+    "artist": "Barbara Mason",
+    "artworkUrl": "https://coverartarchive.org/release-group/afa50b58-813f-4bc9-90c5-f4d0837a557c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/afa50b58-813f-4bc9-90c5-f4d0837a557c",
+    "releaseGroupId": "afa50b58-813f-4bc9-90c5-f4d0837a557c",
+    "recordingId": "3b87e0ae-7986-4d04-82de-9d5fd69b5248",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "If You Don't (Love Me, Tell Me So)Barbara Mason",
+      "song": "If You Don't (Love Me, Tell Me So)",
+      "performer": "Barbara Mason",
+      "peakPosition": 85,
+      "firstChartDate": "1965-11-06",
+      "lastChartDate": "1965-11-20",
+      "appearances": [
+        {
+          "chartDate": "1965-11-06",
+          "position": 99
+        },
+        {
+          "chartDate": "1965-11-13",
+          "position": 95
+        },
+        {
+          "chartDate": "1965-11-20",
+          "position": 85
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid 1960s soul album cover aesthetic 1960s soul music bouffant hairstyle technicolor mid century typography sequined dress swash lettering subject s face as the central emotional anchor vibrant pink display type arching over the subject s head vertical color bands in the background contrasting with the horizontal lean of the subject small dense blocks of white metadata text balancing the large display titles combine a high contrast 60s soul portrait with arched decorative swash typography and a corner hype sticker for a period accurate album aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-1960s Soul Album Cover Aesthetic",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Offset Printing"
+      ],
+      "useCases": [
+        "Vinyl record cover design",
+        "Retro soul music branding",
+        "Vintage editorial layouts",
+        "1960s period-accurate posters"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "soul music",
+        "bouffant hairstyle",
+        "technicolor",
+        "mid-century typography",
+        "sequined dress",
+        "swash lettering"
+      ]
+    },
+    "visualDefinition": "A high-contrast, warm-toned portrait of a female vocalist with a 1960s bouffant hairstyle, set against a blurred, vertically striped background of red and teal. The composition features a mix of bold sans-serif and expressive swash-heavy display typography in vibrant pink and white, with a characteristic 'hype sticker' graphic in the corner.",
+    "coreVisualRelationships": [
+      "Subject's face as the central emotional anchor",
+      "Vibrant pink display type arching over the subject's head",
+      "Vertical color bands in the background contrasting with the horizontal lean of the subject",
+      "Small, dense blocks of white metadata text balancing the large display titles"
+    ],
+    "coreInvariants": [
+      "Warm, saturated skin tones with deep shadows",
+      "Visible film grain and soft focus in the background",
+      "High-sheen texture on the subject's clothing (sequins)",
+      "Asymmetrical text placement"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Close-up portrait occupying the lower two-thirds of the frame, leaning slightly to the left.",
+      "visualAnchor": "The subject's eyes and the bright pink arched title.",
+      "movementAndEyePath": "Starts at the top-left artist name, follows the arched title across the subject's hair, down to the tracklist on the left, and finally to the blue sticker in the top right.",
+      "negativeSpace": "Tight composition with minimal negative space, filled by background color bands and text blocks."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm amber and brown (skin tones and shadows)",
+      "contrastColorRole": "Teal and red (background vertical stripes)",
+      "accentColorRole": "Hot pink (main title) and Cyan (hype sticker)",
+      "saturationAndValueRelationship": "High saturation in the accents against a mid-value, high-contrast photographic base.",
+      "paletteRestrictions": [
+        "Avoid neon or digital-looking gradients",
+        "Limit to mid-century process colors: cyan, magenta, yellow, black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Grotesque sans-serif and decorative swash serif",
+      "letterConstructionRules": [
+        "Artist name in a heavy, tight-kerning sans-serif",
+        "Title in a high-contrast serif with extreme, decorative swashes on 'O', 'H', and 't'",
+        "Metadata in all-caps, narrow sans-serif"
+      ],
+      "characterSpecificRedesigns": [
+        "Curled, whip-like swashes extending from the ascenders and descenders of the title script",
+        "Tight, almost overlapping letter spacing in the artist name"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "decorative-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "flared-swash",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "centered-arch",
+            "tracking": "normal",
+            "leading": "n/a",
+            "lineBreakPattern": "single-line-arch",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "upper-middle",
+            "scale": "large",
+            "rotation": "curved",
+            "warp": "arch",
+            "overlap": "partial-over-hair",
+            "relationshipToImage": "layered-on-top"
+          },
+          "treatment": {
+            "fill": "solid-pink",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "grotesque-sans",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "tight",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "medium",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "corner-aligned"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy sans-serif for authority paired with flamboyant swash-serif for emotional expression.",
+      "graphicDevices": [
+        "Angled rectangular 'hype sticker' in the top right corner",
+        "Small bullet points separating list items",
+        "Vertical color banding"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Arched title path",
+          "Hot pink color for main title",
+          "Tight sans-serif for artist name"
+        ],
+        "avoid": [
+          "Modern geometric sans-serifs",
+          "Clean digital gradients",
+          "Thin, delicate hairlines"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the 60s/70s decorative serif feel with exaggerated terminals",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Matches the heavy, tight-packed feel of the artist name",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 1960s style portrait of a woman with a large bouffant hairstyle wearing a gold sequined dress. The background should be out of focus with vertical stripes of muted red and teal. Use warm, high-contrast film lighting.",
+        "overlayInstruction": "Add a large arched title in hot pink decorative swash lettering across the top third. Place a heavy white sans-serif name in the top left. Add a cyan rectangular sticker at a 15-degree angle in the top right with white condensed text."
+      },
+      "verificationChecks": [
+        "Title text arches correctly over the subject's head",
+        "Background stripes are vertically oriented and blurred",
+        "Color palette includes hot pink, cyan, teal, and red",
+        "Typography feels period-accurate to 1965-1968"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the background color stripes",
+      "Degree of swash decoration on the title font",
+      "Angle and color of the hype sticker",
+      "Density of the tracklist text"
+    ],
+    "mustRedesign": [
+      "Any specific artist names or record label logos",
+      "Specific song titles listed in the tracklist",
+      "The specific face of the individual in the photo"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s film grain and color saturation",
+        "Balanced typographic hierarchy despite multiple text blocks",
+        "Tactile 'printed paper' texture"
+      ],
+      "avoid": [
+        "Flat, vector-style illustrations",
+        "Modern digital 'glow' effects",
+        "Default system fonts like Arial or Times New Roman"
+      ]
+    },
+    "postGenerationChecks": [
+      "Does the image look like a physical vinyl record cover?",
+      "Is the pink title the most prominent graphic element?",
+      "Is the lighting on the subject's face dramatic and warm?",
+      "Are the sequins on the dress rendered with realistic specular highlights?"
+    ],
+    "reuseFormula": "Combine a high-contrast 60s soul portrait with arched decorative swash typography and a corner hype sticker for a period-accurate album aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:24:55.440Z"
+}

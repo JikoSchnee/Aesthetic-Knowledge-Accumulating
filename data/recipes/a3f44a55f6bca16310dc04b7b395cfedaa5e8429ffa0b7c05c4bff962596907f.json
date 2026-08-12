@@ -1,0 +1,231 @@
+{
+  "id": "a3f44a55f6bca16310dc04b7b395cfedaa5e8429ffa0b7c05c4bff962596907f",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T18:12:54.207Z",
+  "approvedAt": "2026-08-11T18:12:54.207Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T18:12:54.207Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Claudine.jpg",
+    "hash": "a3f44a55f6bca16310dc04b7b395cfedaa5e8429ffa0b7c05c4bff962596907f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Claudine",
+    "artist": "Claudine Longet",
+    "artworkUrl": "https://coverartarchive.org/release-group/c553e1dc-a7ac-3ba8-bdf3-f1fe26287aef/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c553e1dc-a7ac-3ba8-bdf3-f1fe26287aef",
+    "releaseGroupId": "c553e1dc-a7ac-3ba8-bdf3-f1fe26287aef",
+    "recordingId": "02be4d06-a8ca-4157-b94f-8fd2d7153fd3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Hello, HelloClaudine Longet",
+      "song": "Hello, Hello",
+      "performer": "Claudine Longet",
+      "peakPosition": 91,
+      "firstChartDate": "1967-05-27",
+      "lastChartDate": "1967-05-27",
+      "appearances": [
+        {
+          "chartDate": "1967-05-27",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soft focus portrait sixties soft focus bokeh bouffant pastel analog film grain mod style subject s pink lace garment against green yellow bokeh background yellow flower accent echoing the warm highlights in the foliage soft low contrast shadows on the face contrasting with sharp eye detail centered subject with asymmetrical typographic placement in the upper right quadrant vintage portrait soft focus bokeh 1960s styling geometric rounded typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soft Focus Portrait",
+      "category": "Album Cover Art",
+      "medium": [
+        "Color Photography",
+        "Analog Film"
+      ],
+      "useCases": [
+        "Vintage Music Packaging",
+        "Retro Editorial Photography",
+        "1960s Lifestyle Branding"
+      ],
+      "retrievalTags": [
+        "sixties",
+        "soft focus",
+        "bokeh",
+        "bouffant",
+        "pastel",
+        "analog film grain",
+        "mod style"
+      ]
+    },
+    "visualDefinition": "A soft-focus, mid-century portrait of a woman with a 1960s bouffant hairstyle and a yellow flower tucked behind her ear, set against a dappled, sun-drenched garden background with heavy bokeh. The lighting is warm and diffused, characteristic of vintage Ektachrome or Kodachrome film stocks.",
+    "coreVisualRelationships": [
+      "Subject's pink lace garment against green/yellow bokeh background",
+      "Yellow flower accent echoing the warm highlights in the foliage",
+      "Soft, low-contrast shadows on the face contrasting with sharp eye detail",
+      "Centered subject with asymmetrical typographic placement in the upper right quadrant"
+    ],
+    "coreInvariants": [
+      "Analog film grain and slight chromatic aberration",
+      "Muted, warm color palette with a dominant magenta/pink hue",
+      "1960s hair and makeup styling (winged eyeliner, flip-out hair ends)"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium close-up, woman positioned slightly left of center, occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The subject's eyes and the yellow flower behind the ear.",
+      "movementAndEyePath": "From the subject's face to the flower, then upward to the display text, and finally down to the hands in the lower left.",
+      "negativeSpace": "Significant blurred foliage in the upper right and left margins provides breathing room for text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted magenta and pink (clothing and skin tones)",
+      "contrastColorRole": "Soft sage greens and creamy yellows (background foliage)",
+      "accentColorRole": "Bright yellow (flower) and deep purple (typography)",
+      "saturationAndValueRelationship": "High-key values with low-to-medium saturation; shadows are lifted and tinted warm.",
+      "paletteRestrictions": [
+        "Avoid harsh blacks",
+        "Avoid neon or digital-looking primary colors",
+        "Limit to warm, sun-faded tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Geometric sans-serif with rounded terminals",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Rounded, circular counters",
+        "Open apertures",
+        "Lowercase-style 'a' and 'u' mixed with uppercase proportions"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'C' and 'L' are stylized with soft, rounded ends",
+        "The 'A' lacks a crossbar or has a very low, curved one",
+        "The 'E' features a curved middle bar"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "rounded-geometric-sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Rounded",
+            "corners": "Softened",
+            "counters": "Circular",
+            "strokeCharacter": "Smooth"
+          },
+          "typesetting": {
+            "case": "Mixed-case styling",
+            "alignment": "Right-aligned",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Upper right quadrant",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Slightly overlapping background foliage",
+            "relationshipToImage": "Floating over negative space"
+          },
+          "treatment": {
+            "fill": "Solid purple",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Small, technical sans-serif for metadata at the very top edges.",
+      "graphicDevices": [
+        "Thin horizontal lines with arrowheads for technical metadata",
+        "Small rectangular logo frame in the bottom right corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Rounded terminals",
+          "Purple color",
+          "Geometric circularity"
+        ],
+        "avoid": [
+          "Serifs",
+          "Sharp corners",
+          "High-contrast strokes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "VAG Rounded",
+            "reason": "Matches the uniform stroke and rounded terminals.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Blippo or Bauhaus",
+            "reason": "Captures the 1960s geometric/circular aesthetic.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A soft-focus 1960s style color photograph of a woman with a brown bouffant hairstyle and a yellow daisy behind her ear, wearing a pink lace top, standing in a sun-dappled garden with heavy bokeh. Analog film texture, warm vintage tint.",
+        "overlayInstruction": "Add a large display title in the upper right using a rounded, purple, geometric sans-serif font. Add small technical metadata in the top corners with thin arrow lines."
+      },
+      "verificationChecks": [
+        "Is the hair styled in a 1960s flip?",
+        "Is the background sufficiently blurred into bokeh circles?",
+        "Is the typography purple and rounded?",
+        "Does the image have a warm, analog film grain?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Hair color",
+      "Flower type",
+      "Garment color (must remain pastel)",
+      "Intensity of film grain"
+    ],
+    "mustRedesign": [
+      "Specific facial features to avoid likeness",
+      "Specific brand logos in corners",
+      "Exact text content"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s color grading",
+        "Soft-focus dreamlike quality",
+        "Clean, geometric typography"
+      ],
+      "avoid": [
+        "Digital sharpness",
+        "Modern high-contrast HDR",
+        "Contemporary sans-serif fonts like Helvetica"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for authentic film-like highlights",
+      "Ensure the purple text is legible against the bokeh",
+      "Verify the 'flip' at the ends of the hair",
+      "Confirm the presence of analog-style grain"
+    ],
+    "reuseFormula": "Vintage Portrait + Soft Focus Bokeh + 1960s Styling + Geometric Rounded Typography"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:17:59.728Z"
+}

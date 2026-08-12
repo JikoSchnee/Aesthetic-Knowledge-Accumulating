@@ -1,0 +1,281 @@
+{
+  "id": "e1476c17f8ed86d09fd5bcdfa88515514f78e11bc7afbff401d8de3a8007cab3",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:33:35.419Z",
+  "approvedAt": "2026-08-11T09:33:35.419Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:33:35.419Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Complete Hits of Vic Dana.jpg",
+    "hash": "e1476c17f8ed86d09fd5bcdfa88515514f78e11bc7afbff401d8de3a8007cab3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Complete Hits of Vic Dana",
+    "artist": "Vic Dana",
+    "artworkUrl": "https://coverartarchive.org/release-group/6e4f9f2f-43e6-3be2-be5a-13bd4545c05a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6e4f9f2f-43e6-3be2-be5a-13bd4545c05a",
+    "releaseGroupId": "6e4f9f2f-43e6-3be2-be5a-13bd4545c05a",
+    "recordingId": "bb2ab50f-fc25-49aa-be2f-7ac288588ef2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Bring A Little Sunshine (To My Heart)Vic Dana",
+      "song": "Bring A Little Sunshine (To My Heart)",
+      "performer": "Vic Dana",
+      "peakPosition": 66,
+      "firstChartDate": "1965-05-22",
+      "lastChartDate": "1965-06-26",
+      "appearances": [
+        {
+          "chartDate": "1965-05-22",
+          "position": 98
+        },
+        {
+          "chartDate": "1965-05-29",
+          "position": 83
+        },
+        {
+          "chartDate": "1965-06-05",
+          "position": 69
+        },
+        {
+          "chartDate": "1965-06-12",
+          "position": 69
+        },
+        {
+          "chartDate": "1965-06-19",
+          "position": 67
+        },
+        {
+          "chartDate": "1965-06-26",
+          "position": 66
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century crooner album cover 1960s crooner sunset serif typography portrait vintage music subject s head occupies the central vertical axis slightly tilted typography is layered over the sky framing the subject s head warm skin tones contrast against the cool blue and purple background secondary text is anchored to the bottom left corner for balance portrait twilight landscape bold serif header italic sans serif footer classic crooner aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Crooner Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Album Art",
+        "Retro Poster Design",
+        "Nostalgic Branding"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "crooner",
+        "sunset",
+        "serif typography",
+        "portrait",
+        "vintage music"
+      ]
+    },
+    "visualDefinition": "A close-up portrait of a smiling male vocalist with dark, styled hair, set against a twilight landscape featuring a purple and blue sky with a low-horizon sunset over water and distant hills.",
+    "coreVisualRelationships": [
+      "Subject's head occupies the central vertical axis, slightly tilted.",
+      "Typography is layered over the sky, framing the subject's head.",
+      "Warm skin tones contrast against the cool blue and purple background.",
+      "Secondary text is anchored to the bottom left corner for balance."
+    ],
+    "coreInvariants": [
+      "Twilight color palette (deep blue to magenta)",
+      "Soft-focus landscape background",
+      "Sharp, high-contrast portrait lighting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale headshot centered horizontally, extending from the bottom edge to the upper third.",
+      "visualAnchor": "The subject's eyes and smile serve as the primary focal point.",
+      "movementAndEyePath": "From the large red display text at the top, down to the subject's face, then to the supporting text at the bottom left.",
+      "negativeSpace": "The upper corners and the area around the subject's neck provide breathing room for text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blue and violet sky (background atmosphere)",
+      "contrastColorRole": "Bright red (primary typography)",
+      "accentColorRole": "Golden yellow and white (secondary text and sunset highlights)",
+      "saturationAndValueRelationship": "High saturation in the sky and red text; naturalistic but warm values in the skin tones.",
+      "paletteRestrictions": [
+        "Avoid neon greens or harsh artificial oranges"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classic high-contrast serifs and geometric sans-serifs",
+      "letterConstructionRules": [
+        "Primary display text uses a thick, flared serif with a slight 3D bevel effect.",
+        "Secondary text uses a clean, italicized geometric sans-serif."
+      ],
+      "characterSpecificRedesigns": [
+        "Enlarged initial capitals for the main name.",
+        "Drop shadows applied to all text for legibility against the complex background."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "flared",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "tapered"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "layered over sky"
+          },
+          "treatment": {
+            "fill": "gradient red",
+            "outline": "white thin",
+            "shadow": "soft black drop shadow",
+            "depth": "subtle inner bevel",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "square",
+            "corners": "sharp",
+            "counters": "geometric",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom left",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "anchored to corner"
+          },
+          "treatment": {
+            "fill": "pale yellow",
+            "outline": "none",
+            "shadow": "hard black drop shadow",
+            "depth": "none",
+            "texture": "smooth",
+            "distortion": "italicized"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for the name paired with a functional sans-serif for metadata.",
+      "graphicDevices": [
+        "Drop shadows",
+        "Inner glows on main text",
+        "Subtle gradient on background"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Red/White/Yellow color hierarchy",
+          "Italicized sans-serif for bottom text"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Distressed or grunge textures"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cooper Black or Goudy Heavy",
+            "reason": "Matches the weight and flared serif personality of the main title.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Italic",
+            "reason": "Provides the clean, mid-century industrial look for the secondary text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-resolution portrait of a 1960s-style male singer with dark pompadour hair, smiling warmly. The background should be a soft-focus twilight landscape with a purple-blue sky and a sunset over a lake with dark silhouettes of hills.",
+        "overlayInstruction": "Apply the main title in a bold red serif font with a white stroke and drop shadow at the top. Add secondary all-caps italicized sans-serif text in pale yellow at the bottom left with a drop shadow."
+      },
+      "verificationChecks": [
+        "Is the red text clearly legible against the blue sky?",
+        "Does the subject's lighting match the warm tones of the sunset?",
+        "Is the bottom text properly italicized and aligned left?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Sky color intensity",
+      "Subject's hair style",
+      "Typography color (gold vs red)"
+    ],
+    "mustRedesign": [
+      "Modern digital artifacts",
+      "Flat 2D illustrations",
+      "Contemporary fashion elements"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s color grading",
+        "Clean typographic layering",
+        "Expressive facial detail"
+      ],
+      "avoid": [
+        "Low-contrast text",
+        "Overly busy backgrounds",
+        "Desaturated palettes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no text is cut off by the frame edges.",
+      "Verify the drop shadow direction is consistent.",
+      "Check that the skin tones look natural under twilight lighting.",
+      "Confirm the hierarchy between the name and the description text."
+    ],
+    "reuseFormula": "Portrait + Twilight Landscape + Bold Serif Header + Italic Sans-Serif Footer = Classic Crooner Aesthetic"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:47:24.870Z"
+}

@@ -1,0 +1,240 @@
+{
+  "id": "ac56faf9d053c4a324ba73d7ad57408c751b7fdfd1de9ce5f72006dd16fd8a90",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:58:48.414Z",
+  "approvedAt": "2026-08-11T15:58:48.414Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:58:48.414Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Buck the World.jpg",
+    "hash": "ac56faf9d053c4a324ba73d7ad57408c751b7fdfd1de9ce5f72006dd16fd8a90",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Buck the World",
+    "artist": "Young Buck",
+    "artworkUrl": "https://coverartarchive.org/release-group/3a26218f-1538-3e7b-87fd-43b7bd75ec72/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3a26218f-1538-3e7b-87fd-43b7bd75ec72",
+    "releaseGroupId": "3a26218f-1538-3e7b-87fd-43b7bd75ec72",
+    "recordingId": "b2a78ab6-bef5-4237-ac00-4a9ec3e63cc2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Get BuckYoung Buck",
+      "song": "Get Buck",
+      "performer": "Young Buck",
+      "peakPosition": 87,
+      "firstChartDate": "2007-04-14",
+      "lastChartDate": "2007-05-05",
+      "appearances": [
+        {
+          "chartDate": "2007-04-14",
+          "position": 87
+        },
+        {
+          "chartDate": "2007-04-21",
+          "position": 96
+        },
+        {
+          "chartDate": "2007-05-05",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty urban portraiture cover urban gritty sepia tone tattooed distressed type street photography desaturated subject to background contrast via lighting and saturation text to subject overlap creating depth symmetry between the central figure and flanking graphic icons texture harmony between skin tattoos and distressed typography central urban portrait high contrast sepia condensed distressed display type symmetrical framing icons",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Urban Portraiture Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Distressed Typography"
+      ],
+      "useCases": [
+        "Hip-Hop Album Covers",
+        "Urban Streetwear Branding",
+        "Documentary Film Posters"
+      ],
+      "retrievalTags": [
+        "urban",
+        "gritty",
+        "sepia-tone",
+        "tattooed",
+        "distressed-type",
+        "street-photography",
+        "desaturated"
+      ]
+    },
+    "visualDefinition": "A centered, shirtless male figure with tattoos stands in a desaturated, high-contrast urban street setting. The background features low-income housing and parked cars in a muted, dark sepia wash, while the foreground is anchored by bold, weathered block lettering and ornamental flourishes.",
+    "coreVisualRelationships": [
+      "Subject-to-background contrast via lighting and saturation",
+      "Text-to-subject overlap creating depth",
+      "Symmetry between the central figure and flanking graphic icons",
+      "Texture harmony between skin tattoos and distressed typography"
+    ],
+    "coreInvariants": [
+      "Desaturated color palette with warm brown/sepia undertones",
+      "High-contrast lighting on the central figure's musculature",
+      "Distressed, weathered texture applied to all foreground elements",
+      "Symmetrical composition"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central medium-shot of a male figure, occupying the vertical center and approximately 60% of the frame width.",
+      "visualAnchor": "The subject's face and the large-scale horizontal text block across the lower third.",
+      "movementAndEyePath": "Eyes move from the subject's face down the torso to the high-contrast white text, then outward to the flanking icons.",
+      "negativeSpace": "Dark, atmospheric space at the top and bottom corners, filled with subtle urban details and ornamental scrollwork."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Dark charcoal and muted sepia tones in the background and shadows.",
+      "contrastColorRole": "Warm, desaturated skin tones with high-key highlights on the torso.",
+      "accentColorRole": "Off-white/cream for the primary typography and graphic icons.",
+      "saturationAndValueRelationship": "Low saturation overall; value is used to define form, with deep blacks in the shadows and bright whites in the text.",
+      "paletteRestrictions": [
+        "No vibrant primary colors",
+        "No high-saturation blues or greens"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed Sans-Serif Block",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Condensed horizontal proportions",
+        "Flat terminals",
+        "Heavy distressing/weathering effect"
+      ],
+      "characterSpecificRedesigns": [
+        "Eroded edges to simulate stencil or street-worn paint"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Slightly rounded by erosion",
+            "counters": "Narrow",
+            "strokeCharacter": "Solid but weathered"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Lower third, centered",
+            "scale": "Large, spanning nearly the full width",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Slightly overlaps the subject's waist",
+            "relationshipToImage": "Foreground anchor"
+          },
+          "treatment": {
+            "fill": "Off-white",
+            "outline": "None",
+            "shadow": "Subtle drop shadow for legibility",
+            "depth": "Flat",
+            "texture": "Grunge/Eroded",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single bold display face paired with small, clean sans-serif metadata blocks.",
+      "graphicDevices": [
+        "Symmetrical crest-like icons",
+        "Dark ornamental scrollwork in the lower corners",
+        "Heavy vignette"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Weathered texture",
+          "Uppercase styling"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Clean, modern geometric fonts",
+          "Serif fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact with grunge overlay",
+            "reason": "Matches the heavy, condensed block feel",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bebas Neue (Distressed)",
+            "reason": "Correct proportions and clean skeleton for weathering",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a gritty, desaturated urban street scene at dusk featuring a shirtless, tattooed man centered in the frame. Apply a sepia-toned high-contrast filter with deep shadows and bright highlights on the skin. Include dark ornamental filigree in the bottom corners.",
+        "overlayInstruction": "Add bold, condensed, uppercase sans-serif text across the lower third in off-white. Apply a heavy 'eroded' or 'grunge' texture to the letters. Flank the text with two small, symmetrical white graphic icons."
+      },
+      "verificationChecks": [
+        "Is the text weathered and distressed?",
+        "Is the color palette restricted to sepia, black, and off-white?",
+        "Is the subject centrally aligned?",
+        "Does the text overlap the subject slightly?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the sepia tint",
+      "Amount of typographic distressing",
+      "Complexity of the background urban detail",
+      "Subject's tattoo density"
+    ],
+    "mustRedesign": [
+      "Specific brand logos",
+      "Exact tattoo patterns",
+      "Parental advisory label specifics"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast lighting on the subject",
+        "Consistent 'street' grit texture",
+        "Balanced symmetrical layout"
+      ],
+      "avoid": [
+        "Bright, clean colors",
+        "Soft, diffused lighting",
+        "Thin, elegant typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast muscle definition",
+      "Verify the 'weathered' look of the white text",
+      "Ensure the background is sufficiently desaturated",
+      "Confirm the presence of ornamental corner elements",
+      "Check for centered symmetry"
+    ],
+    "reuseFormula": "Central Urban Portrait + High Contrast Sepia + Condensed Distressed Display Type + Symmetrical Framing Icons"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:19:08.997Z"
+}

@@ -1,0 +1,302 @@
+{
+  "id": "029991538922ac8daa00941345287047e9b151d0dfa7e5ecaf5b6419a7401617",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T14:41:36.842Z",
+  "approvedAt": "2026-08-11T14:41:36.842Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T14:41:36.842Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Tomorrow.jpg",
+    "hash": "029991538922ac8daa00941345287047e9b151d0dfa7e5ecaf5b6419a7401617",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Tomorrow",
+    "artist": "Sean Kingston",
+    "artworkUrl": "https://coverartarchive.org/release-group/40d93180-3dd4-4dd1-b1bf-ef63326b31dc/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/40d93180-3dd4-4dd1-b1bf-ef63326b31dc",
+    "releaseGroupId": "40d93180-3dd4-4dd1-b1bf-ef63326b31dc",
+    "recordingId": "4b5abb7e-4c1d-4d60-949e-f3c82d817613",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Face DropSean Kingston",
+      "song": "Face Drop",
+      "performer": "Sean Kingston",
+      "peakPosition": 61,
+      "firstChartDate": "2009-09-19",
+      "lastChartDate": "2009-11-21",
+      "appearances": [
+        {
+          "chartDate": "2009-09-19",
+          "position": 98
+        },
+        {
+          "chartDate": "2009-09-26",
+          "position": 93
+        },
+        {
+          "chartDate": "2009-10-10",
+          "position": 70
+        },
+        {
+          "chartDate": "2009-10-17",
+          "position": 64
+        },
+        {
+          "chartDate": "2009-10-24",
+          "position": 61
+        },
+        {
+          "chartDate": "2009-10-31",
+          "position": 63
+        },
+        {
+          "chartDate": "2009-11-07",
+          "position": 65
+        },
+        {
+          "chartDate": "2009-11-14",
+          "position": 70
+        },
+        {
+          "chartDate": "2009-11-21",
+          "position": 86
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban vinyl toy album art vinyl toy urban character 3d render hip hop aesthetic bold typography studio lighting character centered vertically and horizontally typography anchored to the top margin soft shadow grounding the character on a reflective floor high contrast between yellow text and gray background 3d urban toy neutral studio bold block typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Vinyl Toy Album Art",
+      "category": "Music Cover Art",
+      "medium": [
+        "3D Digital Rendering",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Covers",
+        "Promotional Posters",
+        "Character Design"
+      ],
+      "retrievalTags": [
+        "vinyl toy",
+        "urban character",
+        "3D render",
+        "hip-hop aesthetic",
+        "bold typography",
+        "studio lighting"
+      ]
+    },
+    "visualDefinition": "A stylized 3D urban character designed in the aesthetic of a designer vinyl toy, centered against a neutral studio background. The character features exaggerated proportions, wearing oversized sunglasses, a green jacket, and heavy gold jewelry, holding a microphone. Bold, blocky typography is positioned at the top.",
+    "coreVisualRelationships": [
+      "Character centered vertically and horizontally",
+      "Typography anchored to the top margin",
+      "Soft shadow grounding the character on a reflective floor",
+      "High contrast between yellow text and gray background"
+    ],
+    "coreInvariants": [
+      "Vinyl toy texture (smooth, matte-to-semi-gloss plastic)",
+      "Exaggerated head-to-body ratio",
+      "Neutral gray studio backdrop",
+      "Bold black outlines on primary text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body character centered, occupying approximately 70% of the vertical space.",
+      "visualAnchor": "The character's oversized white sunglasses and the large 'SK' gold chain.",
+      "movementAndEyePath": "Starts at the top bold text, moves down to the character's face/sunglasses, then follows the body down to the sneakers.",
+      "negativeSpace": "Ample uniform gray space surrounding the character to emphasize the 3D form."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Neutral Gray (Background)",
+      "contrastColorRole": "Bright Yellow (Typography and Accents)",
+      "accentColorRole": "Green and Gold (Character Clothing/Jewelry)",
+      "saturationAndValueRelationship": "High saturation on the character and text against a low-saturation, mid-value background.",
+      "paletteRestrictions": [
+        "Gray",
+        "Yellow",
+        "Black",
+        "Green",
+        "Gold"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold slab serif and extended sans-serif",
+      "letterConstructionRules": [
+        "Primary text uses heavy block weights with minimal internal counters",
+        "Secondary text uses wide, extended horizontal proportions",
+        "Thick black outer strokes on primary lettering"
+      ],
+      "characterSpecificRedesigns": [
+        "Integration of a silhouette inside one of the letterforms"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "compressed",
+            "weight": "ultra-black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "very small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating above subject"
+          },
+          "treatment": {
+            "fill": "yellow",
+            "outline": "thick black",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "flat",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "extended-sans",
+          "anatomy": {
+            "width": "ultra-extended",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "mid",
+            "terminals": "square",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "monoline"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "centered above head"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "flat",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy vertical block text paired with wide horizontal extended text for structural balance.",
+      "graphicDevices": [
+        "Thick black outlines",
+        "Silhouette masking within letters"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow fill",
+          "Black outline",
+          "Extended width of secondary text"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Thin weights",
+          "Serifs with high contrast"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Aachen",
+            "reason": "Matches the heavy, blocky slab-serif feel of the primary title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Microgramma or Eurostile Extended",
+            "reason": "Matches the wide, technical look of the subtitle.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 3D render of a stylized urban vinyl toy character with dark skin, wearing white sunglasses, a green jacket, and large gold chains. Place him in a neutral gray studio with a slightly reflective floor and soft shadows.",
+        "overlayInstruction": "Add bold yellow block text with a thick black outline at the top center. Below it, add black extended sans-serif text with wide tracking."
+      },
+      "verificationChecks": [
+        "Is the character's texture plastic-like?",
+        "Is the background a clean, neutral gray?",
+        "Is the yellow text outlined in black?",
+        "Is the secondary text significantly wider than it is tall?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Character clothing color",
+      "Background gray value",
+      "Jewelry complexity",
+      "Sunglasses frame color"
+    ],
+    "mustRedesign": [
+      "Specific brand logos",
+      "Exact character likeness",
+      "Proprietary font files"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean 3D lighting",
+        "Clear typographic hierarchy",
+        "Vinyl toy material finish"
+      ],
+      "avoid": [
+        "Photorealistic human textures",
+        "Cluttered backgrounds",
+        "Thin, unreadable fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for smooth 3D surfaces without artifacts",
+      "Ensure text is perfectly centered",
+      "Verify the shadow is soft and realistic",
+      "Confirm the yellow and green colors are vibrant",
+      "Check that the character's pose is balanced"
+    ],
+    "reuseFormula": "3D Urban Toy + Neutral Studio + Bold Block Typography"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:01:24.165Z"
+}

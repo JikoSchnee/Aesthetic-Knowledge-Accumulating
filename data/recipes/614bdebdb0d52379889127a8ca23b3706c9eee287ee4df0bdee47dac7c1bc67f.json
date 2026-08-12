@@ -1,0 +1,280 @@
+{
+  "id": "614bdebdb0d52379889127a8ca23b3706c9eee287ee4df0bdee47dac7c1bc67f",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:31:38.492Z",
+  "approvedAt": "2026-08-11T09:31:38.492Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:31:38.492Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Can’t Be Tamed.jpg",
+    "hash": "614bdebdb0d52379889127a8ca23b3706c9eee287ee4df0bdee47dac7c1bc67f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Can’t Be Tamed",
+    "artist": "Miley Cyrus",
+    "artworkUrl": "https://coverartarchive.org/release-group/ae4a82c4-dd46-481d-a4c9-eb6a11b25832/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ae4a82c4-dd46-481d-a4c9-eb6a11b25832",
+    "releaseGroupId": "ae4a82c4-dd46-481d-a4c9-eb6a11b25832",
+    "recordingId": "68b01ecb-abd9-4dbe-be1c-0a3f568d2ddc",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "BreakoutMiley Cyrus",
+      "song": "Breakout",
+      "performer": "Miley Cyrus",
+      "peakPosition": 56,
+      "firstChartDate": "2008-08-09",
+      "lastChartDate": "2008-08-30",
+      "appearances": [
+        {
+          "chartDate": "2008-08-09",
+          "position": 56
+        },
+        {
+          "chartDate": "2008-08-16",
+          "position": 56
+        },
+        {
+          "chartDate": "2008-08-23",
+          "position": 77
+        },
+        {
+          "chartDate": "2008-08-30",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "edgy pop rock album cover aesthetic leather jacket grunge typography studio lighting vignette pop rock distressed texture subject centered against a radial spotlight background text layered both behind and in front of the subject s torso high contrast between black leather textures and warm skin tones distressed weathered text texture mirroring the rock aesthetic studio portrait radial gradient layered distressed condensed typography edgy pop rock cover",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Edgy Pop-Rock Album Cover Aesthetic",
+      "category": "Music Branding",
+      "medium": [
+        "Studio Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Concert Posters",
+        "Artist Promotional Graphics"
+      ],
+      "retrievalTags": [
+        "leather jacket",
+        "grunge typography",
+        "studio lighting",
+        "vignette",
+        "pop rock",
+        "distressed texture"
+      ]
+    },
+    "visualDefinition": "A centered, medium-shot portrait of a female artist in edgy attire, set against a neutral gradient background with heavy, distressed sans-serif typography layered across the midsection.",
+    "coreVisualRelationships": [
+      "Subject centered against a radial spotlight background",
+      "Text layered both behind and in front of the subject's torso",
+      "High contrast between black leather textures and warm skin tones",
+      "Distressed, weathered text texture mirroring the 'rock' aesthetic"
+    ],
+    "coreInvariants": [
+      "Neutral grey-to-white radial gradient background",
+      "Black studded leather jacket and accessories",
+      "Muted gold or tan color for primary typography",
+      "Heavy drop shadow on text to create depth"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered medium shot, waist-up, filling approximately 70% of the vertical frame.",
+      "visualAnchor": "The artist's face and the large-scale primary text across the chest.",
+      "movementAndEyePath": "Eyes start at the face, move down to the large name text, then to the smaller subtitle on the bottom right.",
+      "negativeSpace": "Ample space on the left and right sides of the head, narrowing towards the bottom as the subject fills the width."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Neutral greys and blacks (background and clothing).",
+      "contrastColorRole": "Warm auburn hair and skin tones against the cool background.",
+      "accentColorRole": "Muted tan/gold for the typography.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the central light and dark edges.",
+      "paletteRestrictions": [
+        "Avoid bright primary colors",
+        "Stick to earth tones and greyscale"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extra-condensed sans-serif",
+      "letterConstructionRules": [
+        "Extremely tall x-height",
+        "Narrow character widths",
+        "Rough, eroded edges simulating stamped or weathered paint",
+        "Uniform stroke weight"
+      ],
+      "characterSpecificRedesigns": [
+        "Irregular 'bitten' edges on vertical stems",
+        "Distressed interior texture within the glyph fills"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "distressed-condensed-sans",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "flat but eroded",
+            "corners": "slightly rounded/worn",
+            "counters": "very narrow",
+            "strokeCharacter": "weathered"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "middle third of frame",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "behind arms, in front of torso",
+            "relationshipToImage": "integrated depth"
+          },
+          "treatment": {
+            "fill": "muted tan",
+            "outline": "none",
+            "shadow": "soft black drop shadow",
+            "depth": "layered",
+            "texture": "grunge/stamped",
+            "distortion": "eroded edges"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "distressed-condensed-sans",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "square",
+            "counters": "narrow",
+            "strokeCharacter": "weathered"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom right, below display text",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "muted tan",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "grunge",
+            "distortion": "eroded edges"
+          }
+        }
+      ],
+      "pairingStrategy": "Size and weight contrast within the same distressed typeface family.",
+      "graphicDevices": [
+        "Heavy drop shadows for legibility",
+        "Layered masking to place text behind foreground elements"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Distressed texture",
+          "Muted gold color"
+        ],
+        "avoid": [
+          "Clean, modern sans-serifs",
+          "Serif fonts",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact (Distressed)",
+            "reason": "Matches the heavy, condensed weight and presence.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bebas Neue (Weathered)",
+            "reason": "Provides the correct verticality and condensed feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A studio portrait of a woman with auburn hair wearing a black studded leather jacket and leather pants, centered against a grey radial gradient background with a spotlight effect behind her head.",
+        "overlayInstruction": "Add large, extra-condensed, distressed tan-colored uppercase text across the center. Mask the text so it appears behind the jacket sleeves but in front of the torso. Add a smaller subtitle in the same style at the bottom right."
+      },
+      "verificationChecks": [
+        "Is the text properly masked behind the arms?",
+        "Does the text have a visible weathered/grunge texture?",
+        "Is the background a smooth radial gradient?",
+        "Is the lighting high-contrast on the leather texture?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Hair color",
+      "Jacket stud density",
+      "Text erosion level",
+      "Background gradient intensity"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the artist",
+      "Exact brand logos on clothing",
+      "Specific jewelry designs"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Professional studio lighting",
+        "Legible but heavily distressed typography",
+        "Depth through layering"
+      ],
+      "avoid": [
+        "Flat, untextured text",
+        "Busy or colorful backgrounds",
+        "Low-contrast lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for realistic leather specular highlights",
+      "Ensure text drop shadow is consistent with lighting",
+      "Verify the 'weathered' effect doesn't make text unreadable",
+      "Confirm the subject's pose is centered and balanced"
+    ],
+    "reuseFormula": "Studio Portrait + Radial Gradient + Layered Distressed Condensed Typography = Edgy Pop-Rock Cover"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:46:25.323Z"
+}

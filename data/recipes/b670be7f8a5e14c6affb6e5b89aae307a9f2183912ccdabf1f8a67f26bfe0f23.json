@@ -1,0 +1,275 @@
+{
+  "id": "b670be7f8a5e14c6affb6e5b89aae307a9f2183912ccdabf1f8a67f26bfe0f23",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T12:35:53.318Z",
+  "approvedAt": "2026-08-11T12:35:53.318Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T12:35:53.318Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Believe.jpg",
+    "hash": "b670be7f8a5e14c6affb6e5b89aae307a9f2183912ccdabf1f8a67f26bfe0f23",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Believe",
+    "artist": "Justin Bieber",
+    "artworkUrl": "https://coverartarchive.org/release-group/df46f245-7f62-4982-9d2c-e83d7be91cbf/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/df46f245-7f62-4982-9d2c-e83d7be91cbf",
+    "releaseGroupId": "df46f245-7f62-4982-9d2c-e83d7be91cbf",
+    "recordingId": "7cca50af-61e7-4990-9f5f-32c1117ae90a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Die In Your ArmsJustin Bieber",
+      "song": "Die In Your Arms",
+      "performer": "Justin Bieber",
+      "peakPosition": 17,
+      "firstChartDate": "2012-06-16",
+      "lastChartDate": "2012-06-23",
+      "appearances": [
+        {
+          "chartDate": "2012-06-16",
+          "position": 17
+        },
+        {
+          "chartDate": "2012-06-23",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic pop portrait cover male portrait dramatic lighting warm tones diagonal banner sans serif typography cinematic pop music warm skin tones against a dark textured background diagonal white banner cutting across the lower third extreme wide tracking in the top header text strong key light creating deep shadows on one side of the face cinematic portrait diagonal banner overlay wide tracked header warm color grade",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Pop Portrait Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design",
+        "Color Grading"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "male portrait",
+        "dramatic lighting",
+        "warm tones",
+        "diagonal banner",
+        "sans-serif typography",
+        "cinematic",
+        "pop music"
+      ]
+    },
+    "visualDefinition": "A high-contrast, warm-toned male portrait featuring a three-quarter view, anchored by a prominent white diagonal banner at the bottom containing bold, sans-serif display text.",
+    "coreVisualRelationships": [
+      "Warm skin tones against a dark, textured background",
+      "Diagonal white banner cutting across the lower third",
+      "Extreme wide tracking in the top header text",
+      "Strong key light creating deep shadows on one side of the face"
+    ],
+    "coreInvariants": [
+      "Square aspect ratio",
+      "Thin white border framing the entire composition",
+      "Diagonal text orientation for the primary title",
+      "Grainy, film-like texture overlay"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Close-up portrait centered horizontally, slightly cropped at the top of the hair.",
+      "visualAnchor": "The bright white diagonal banner at the bottom right.",
+      "movementAndEyePath": "Starts at the eyes of the subject, moves down to the bold diagonal title, then up to the wide-tracked header.",
+      "negativeSpace": "Dark, moody space surrounding the head, particularly on the left side."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep amber and warm browns in the skin and background.",
+      "contrastColorRole": "Pure white for the diagonal banner and thin outer border.",
+      "accentColorRole": "Golden yellow highlights on the clothing and in the header text.",
+      "saturationAndValueRelationship": "High contrast with deep blacks and bright highlights; saturated warm tones.",
+      "paletteRestrictions": [
+        "Amber",
+        "Burnt Sienna",
+        "Black",
+        "White",
+        "Gold"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Large x-height",
+        "Closed counters"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Bold",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered on banner",
+            "tracking": "Normal",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Lower third",
+            "scale": "Large",
+            "rotation": "-5 to -10 degrees",
+            "warp": "None",
+            "overlap": "Placed inside a white diagonal bar",
+            "relationshipToImage": "Foreground overlay"
+          },
+          "treatment": {
+            "fill": "Dark brown to black gradient",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Humanist Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "Medium",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Thin"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified across top",
+            "tracking": "Extremely wide (500+)",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top edge",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Floating over background",
+            "relationshipToImage": "Top margin"
+          },
+          "treatment": {
+            "fill": "Gold",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between heavy, tilted display type and light, widely-spaced metadata type.",
+      "graphicDevices": [
+        "Diagonal white ribbon/banner",
+        "Thin white hairline border"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Diagonal orientation of the main title",
+          "Extreme tracking of the top text"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Vertical text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Matches the geometric weight and modern feel of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Medium",
+            "reason": "Good for the top metadata text when tracked out widely.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a cinematic close-up portrait of a young man with styled hair, looking off-camera. Use warm, dramatic lighting (Chiaroscuro) with amber and gold tones. The background should be dark and textured. Add a thin white frame around the entire image.",
+        "overlayInstruction": "Add a thick white diagonal banner across the bottom third. Inside the banner, place bold uppercase sans-serif text in a dark gradient. At the very top, add a single line of uppercase sans-serif text in gold with extreme letter spacing spanning the full width."
+      },
+      "verificationChecks": [
+        "Is the banner diagonal?",
+        "Is the top text extremely tracked out?",
+        "Is there a thin white border around the edge?",
+        "Is the lighting warm and high-contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Angle of the diagonal banner",
+      "Intensity of the warm color grade",
+      "Thickness of the outer white border",
+      "Amount of film grain"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the celebrity",
+      "Any brand logos",
+      "Original album title text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Professional studio lighting look",
+        "Clean typographic execution",
+        "Balanced diagonal composition"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Cluttered backgrounds",
+        "Low-resolution textures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text is legible against the banner",
+      "Check that the diagonal banner does not obscure the subject's eyes",
+      "Verify the thin white border is consistent on all four sides"
+    ],
+    "reuseFormula": "Cinematic Portrait + Diagonal Banner Overlay + Wide-Tracked Header + Warm Color Grade"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:20:23.104Z"
+}

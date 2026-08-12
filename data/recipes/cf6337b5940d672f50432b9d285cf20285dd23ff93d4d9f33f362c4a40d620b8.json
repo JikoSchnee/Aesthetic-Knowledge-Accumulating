@@ -1,0 +1,164 @@
+{
+  "id": "cf6337b5940d672f50432b9d285cf20285dd23ff93d4d9f33f362c4a40d620b8",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:53:46.419Z",
+  "approvedAt": "2026-08-11T15:53:46.419Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:53:46.419Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "MAYHEM.jpg",
+    "hash": "cf6337b5940d672f50432b9d285cf20285dd23ff93d4d9f33f362c4a40d620b8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "MAYHEM",
+    "artist": "Lady Gaga",
+    "artworkUrl": "https://coverartarchive.org/release-group/4174e53c-90e8-4630-993f-1f7466178398/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/4174e53c-90e8-4630-993f-1f7466178398",
+    "releaseGroupId": "4174e53c-90e8-4630-993f-1f7466178398",
+    "recordingId": "bee46dc3-c3f6-4904-9294-df3f021c7e76",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Garden Of EdenLady Gaga",
+      "song": "Garden Of Eden",
+      "performer": "Lady Gaga",
+      "peakPosition": 52,
+      "firstChartDate": "2025-03-22",
+      "lastChartDate": "2025-03-22",
+      "appearances": [
+        {
+          "chartDate": "2025-03-22",
+          "position": 52
+        }
+      ]
+    }
+  },
+  "dedupeText": "prismatic monochrome portrait monochrome double exposure prism distortion grainy texture shag haircut avant garde noir portrait sharp focus vs motion blurred reflection deep black shadows vs stark white highlights organic hair texture vs geometric glass refraction direct eye contact vs obscured profile high contrast monochrome vertical glass refraction grainy close up portrait avant garde styling",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Prismatic Monochrome Portrait",
+      "category": "Editorial Photography",
+      "medium": [
+        "Black and White Film Photography",
+        "In-camera Distortion",
+        "Analog Manipulation"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Fashion Editorial",
+        "Cinematic Poster",
+        "Experimental Portraiture"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "double exposure",
+        "prism distortion",
+        "grainy texture",
+        "shag haircut",
+        "avant-garde",
+        "noir portrait"
+      ]
+    },
+    "visualDefinition": "A high-contrast, black-and-white close-up portrait featuring a subject with dark, textured hair and heavy bangs. The composition is bisected by a vertical prismatic or glass-like distortion that creates a blurred, ghosted reflection of the subject's face on the left side, while the right side remains in sharp, moody focus.",
+    "coreVisualRelationships": [
+      "Sharp focus vs. motion-blurred reflection",
+      "Deep black shadows vs. stark white highlights",
+      "Organic hair texture vs. geometric glass refraction",
+      "Direct eye contact vs. obscured profile"
+    ],
+    "coreInvariants": [
+      "High-grain film texture",
+      "Square aspect ratio",
+      "Desaturated monochrome palette",
+      "Vertical refraction line"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up, face occupying the central and right two-thirds of the frame.",
+      "visualAnchor": "The subject's right eye (viewer's left) positioned near the center of the frame.",
+      "movementAndEyePath": "The eye is drawn to the sharp central face, then follows the vertical glass distortion downward and left into the blurred reflection.",
+      "negativeSpace": "Minimal; the frame is tightly packed with the subject and the refractive element."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and true black for shadows and hair.",
+      "contrastColorRole": "Pure white for the background and skin highlights.",
+      "accentColorRole": "Mid-tone grays for skin texture and blurred motion.",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast with a compressed mid-tone range to emphasize grain.",
+      "paletteRestrictions": [
+        "Strictly grayscale",
+        "No sepia or warm tints"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Prismatic refraction",
+        "Motion blur",
+        "Film grain"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white portrait of a person with a dark shag haircut and bangs. Place a vertical glass prism or shard in front of the lens to create a blurred, horizontally stretched reflection of the face on the left side. The lighting should be flat but moody, with heavy film grain and a square crop.",
+        "overlayInstruction": "If adding text, use a minimalist sans-serif or a raw, hand-stamped typeface in white or light gray, positioned in the lower third to avoid interfering with the facial features."
+      },
+      "verificationChecks": [
+        "Is the grain texture visible and consistent?",
+        "Does the refraction create a distinct ghosting effect?",
+        "Is the contrast high enough to lose detail in the deepest blacks?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of film grain",
+      "Width of the refractive distortion",
+      "Sharpness of the main eye",
+      "Density of the hair texture"
+    ],
+    "mustRedesign": [
+      "Avoid digital smoothness; must feel like analog film.",
+      "Ensure the refraction does not look like a simple digital overlay; it must interact with the light."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Raw, tactile film quality",
+        "Intense, direct gaze",
+        "Complex layering of light through glass"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Soft-focus beauty lighting",
+        "Color fringing"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for square aspect ratio consistency.",
+      "Verify the presence of a vertical 'break' in the image plane.",
+      "Ensure the hair texture is dark and messy.",
+      "Confirm the absence of any color information."
+    ],
+    "reuseFormula": "High-contrast monochrome + vertical glass refraction + grainy close-up portrait + avant-garde styling."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:23:06.925Z"
+}

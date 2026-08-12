@@ -1,0 +1,282 @@
+{
+  "id": "06b7d9e449673a871e2abfa57afd23f4cbef01d64cc5d1c8f4ce469224971af4",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:58:00.854Z",
+  "approvedAt": "2026-08-11T08:58:00.854Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:58:00.854Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Help Yourself.jpg",
+    "hash": "06b7d9e449673a871e2abfa57afd23f4cbef01d64cc5d1c8f4ce469224971af4",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Help Yourself",
+    "artist": "Peggy Scott-Adams",
+    "artworkUrl": "https://coverartarchive.org/release-group/3bb47e39-3c8a-332c-a8f8-02666ea4ef47/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3bb47e39-3c8a-332c-a8f8-02666ea4ef47",
+    "releaseGroupId": "3bb47e39-3c8a-332c-a8f8-02666ea4ef47",
+    "recordingId": "3676c16f-cc29-4b4a-b359-89af3213255e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "BillPeggy Scott-Adams",
+      "song": "Bill",
+      "performer": "Peggy Scott-Adams",
+      "peakPosition": 87,
+      "firstChartDate": "1997-03-29",
+      "lastChartDate": "1997-04-19",
+      "appearances": [
+        {
+          "chartDate": "1997-03-29",
+          "position": 92
+        },
+        {
+          "chartDate": "1997-04-05",
+          "position": 87
+        },
+        {
+          "chartDate": "1997-04-12",
+          "position": 95
+        },
+        {
+          "chartDate": "1997-04-19",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro soul album cover design 90s aesthetic lightning background soul music gradient text starburst sticker portrait photography subject looking back over shoulder toward the viewer lightning bolts radiating from behind the subject s head text stacked vertically on the right to balance the subject s mass starburst graphic in the lower right corner acting as a secondary focal point portrait on left lightning background stacked gradient text on right starburst callout retro soul cover",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Soul Album Cover Design",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Social Media Music Announcement"
+      ],
+      "retrievalTags": [
+        "90s aesthetic",
+        "lightning background",
+        "soul music",
+        "gradient text",
+        "starburst sticker",
+        "portrait photography"
+      ]
+    },
+    "visualDefinition": "A high-contrast portrait of a female vocalist positioned on the left, set against a dramatic dark sky filled with electric pink and white lightning bolts. The right side is dominated by bold, multi-layered typography featuring heavy drop shadows and vibrant gradients.",
+    "coreVisualRelationships": [
+      "Subject looking back over shoulder toward the viewer",
+      "Lightning bolts radiating from behind the subject's head",
+      "Text stacked vertically on the right to balance the subject's mass",
+      "Starburst graphic in the lower right corner acting as a secondary focal point"
+    ],
+    "coreInvariants": [
+      "Electric lightning texture in the background",
+      "Heavy black drop shadows on all display text",
+      "High-contrast lighting on the subject's face",
+      "Ornate, patterned clothing on the subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left two-thirds of the frame, shown from the waist up, angled away from the camera.",
+      "visualAnchor": "The subject's face and the large, bright title text on the right.",
+      "movementAndEyePath": "Starts at the subject's face, follows the lightning bolts to the top-right text, moves down through the title, and ends at the starburst sticker.",
+      "negativeSpace": "Minimal; the frame is filled with lightning patterns and large-scale typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and dark purple in the background and clothing.",
+      "contrastColorRole": "Electric pink and white for the lightning and highlights.",
+      "accentColorRole": "Cyan, yellow, and orange gradients within the typography.",
+      "saturationAndValueRelationship": "High saturation in the text gradients against a dark, high-value contrast background.",
+      "paletteRestrictions": [
+        "Cyan-to-white gradient",
+        "Yellow-to-red gradient",
+        "Bright yellow starburst",
+        "Electric pink lightning"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy sans-serif and casual script hybrids",
+      "letterConstructionRules": [
+        "Thick black outlines and deep offset drop shadows",
+        "Vertical gradients within the letterforms",
+        "Tight letter spacing with slight overlaps"
+      ],
+      "characterSpecificRedesigns": [
+        "Quotation marks styled as thick, slanted bars",
+        "Stacked layout with varying font sizes for hierarchy"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Casual Script / Sans-Serif",
+          "anatomy": {
+            "width": "Condensed to Normal",
+            "weight": "Extra Bold",
+            "contrast": "Medium",
+            "xHeight": "High",
+            "terminals": "Rounded",
+            "corners": "Softened",
+            "counters": "Small",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Mixed Case",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked by name/title",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top and Center Right",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Slight",
+            "relationshipToImage": "Overlays background lightning"
+          },
+          "treatment": {
+            "fill": "Cyan-to-white or Yellow-to-red gradient",
+            "outline": "Thin black",
+            "shadow": "Deep black hard-edged drop shadow",
+            "depth": "Extruded look",
+            "texture": "Smooth",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Bold Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Black",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Minimal",
+            "strokeCharacter": "Blocky"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Center",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Inside graphic",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Bottom Right inside starburst",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Contained within yellow shape"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Script-style display for the artist name paired with a blocky, high-impact sans-serif for the title and callouts.",
+      "graphicDevices": [
+        "Multi-pointed yellow starburst sticker",
+        "Electric lightning bolt overlays"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Heavy drop shadows",
+          "Gradient fills",
+          "Starburst container"
+        ],
+        "avoid": [
+          "Thin, elegant serifs",
+          "Minimalist white space",
+          "Subtle colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Helvetica Inserat",
+            "reason": "For the bold, blocky title and starburst text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Brush Script or Mistral",
+            "reason": "For the casual, energetic feel of the artist name.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a woman in a patterned black dress with gold embroidery, looking over her shoulder. The background should be a dark, stormy sky with vibrant pink and white lightning bolts striking across the frame.",
+        "overlayInstruction": "Add bold, stacked typography on the right side. Use a cyan-to-white gradient for the top text and a yellow-to-red gradient for the middle text, both with heavy black drop shadows. Place a bright yellow multi-pointed starburst in the bottom right corner with black sans-serif text inside."
+      },
+      "verificationChecks": [
+        "Is the lightning vibrant and high-contrast?",
+        "Do the text gradients flow vertically?",
+        "Is the drop shadow deep and solid black?",
+        "Is the subject's pose dynamic and looking toward the viewer?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Lightning color (pink, blue, or purple)",
+      "Text gradient colors",
+      "Pattern density on the subject's clothing",
+      "Starburst point count"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact embroidery patterns",
+      "Specific brand logos or trademarks"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-energy 90s soul aesthetic",
+        "Legible but heavy typography",
+        "Dramatic atmospheric lighting"
+      ],
+      "avoid": [
+        "Flat, modern minimalism",
+        "Pastel color palettes",
+        "Thin, delicate lines"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text does not obscure the subject's face.",
+      "Check that the starburst is a solid, bright yellow.",
+      "Verify the lightning bolts have a glowing effect.",
+      "Confirm the drop shadows are consistent in direction."
+    ],
+    "reuseFormula": "Portrait on left + Lightning background + Stacked gradient text on right + Starburst callout = Retro Soul Cover"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:03:18.830Z"
+}

@@ -1,0 +1,237 @@
+{
+  "id": "d45f96a3e7109dc220f5e84479f7ee689f920a78ae5662560428be4907c1212d",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:15:15.119Z",
+  "approvedAt": "2026-08-11T09:15:15.119Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:15:15.119Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Scorpion.jpg",
+    "hash": "d45f96a3e7109dc220f5e84479f7ee689f920a78ae5662560428be4907c1212d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Scorpion",
+    "artist": "Drake",
+    "artworkUrl": "https://coverartarchive.org/release-group/857db798-5c31-4d5f-991a-6667f41d8899/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/857db798-5c31-4d5f-991a-6667f41d8899",
+    "releaseGroupId": "857db798-5c31-4d5f-991a-6667f41d8899",
+    "recordingId": "2a2a1970-4e18-482a-8fbe-4ca7a9f449c6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Blue TintDrake",
+      "song": "Blue Tint",
+      "performer": "Drake",
+      "peakPosition": 30,
+      "firstChartDate": "2018-07-14",
+      "lastChartDate": "2018-07-28",
+      "appearances": [
+        {
+          "chartDate": "2018-07-14",
+          "position": 30
+        },
+        {
+          "chartDate": "2018-07-21",
+          "position": 55
+        },
+        {
+          "chartDate": "2018-07-28",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome portrait with hand drawn overlays black and white portrait handwriting grainy texture minimalist signature overlay the central portrait is framed by a wider darker textured border the light source creates a strong highlight on the subject s forehead and nose contrasting with deep shadows the organic fluid lines of the signature contrast with the rigid rectangular framing of the photo the overall grainy texture unifies the photographic and illustrative elements take a high contrast b w portrait apply a heavy grain filter frame it with a dark textured border and add a large semi transparent handwritten signature in the lower right corner for a personal raw aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Portrait with Hand-Drawn Overlays",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Illustration",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portraiture",
+        "Social Media Branding"
+      ],
+      "retrievalTags": [
+        "black and white",
+        "portrait",
+        "handwriting",
+        "grainy texture",
+        "minimalist",
+        "signature overlay"
+      ]
+    },
+    "visualDefinition": "A high-contrast, black-and-white male portrait centered within a textured dark frame, featuring a large gestural signature and handwritten title in the lower right quadrant.",
+    "coreVisualRelationships": [
+      "The central portrait is framed by a wider, darker textured border.",
+      "The light source creates a strong highlight on the subject's forehead and nose, contrasting with deep shadows.",
+      "The organic, fluid lines of the signature contrast with the rigid rectangular framing of the photo.",
+      "The overall grainy texture unifies the photographic and illustrative elements."
+    ],
+    "coreInvariants": [
+      "Strict grayscale color palette",
+      "Heavy film grain texture across all layers",
+      "Hand-drawn aesthetic for all text elements"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is a three-quarter profile portrait, occupying the central 70% of the vertical space.",
+      "visualAnchor": "The subject's eyes and the bright highlight on the face serve as the primary focal point.",
+      "movementAndEyePath": "The eye moves from the face down to the large signature, then follows the horizontal text in the bottom right.",
+      "negativeSpace": "Substantial dark negative space provided by the thick outer border and the shadowed background of the photo."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and black for the background and shadows.",
+      "contrastColorRole": "Mid-tone grays for the signature and skin tones.",
+      "accentColorRole": "Bright white/light gray for facial highlights and small metadata text.",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between the subject's face and the surrounding darkness.",
+      "paletteRestrictions": [
+        "No color",
+        "No pure digital blacks (must have grain)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Handwritten script and block capitals",
+      "letterConstructionRules": [
+        "Signature: Continuous line, varying pressure, large loops.",
+        "Title: Informal, slightly irregular sans-serif block letters.",
+        "Year: Smaller, rounded numerals."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'S' in the title is slightly oversized and rounded.",
+        "The signature features a long, tapering horizontal tail."
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "wide",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "variable",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "mixed",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "none",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom right",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "overlaps subject's shoulder",
+            "relationshipToImage": "integrated overlay"
+          },
+          "treatment": {
+            "fill": "semi-transparent gray",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "grainy",
+            "distortion": "natural handwriting"
+          }
+        }
+      ],
+      "pairingStrategy": "A large gestural signature paired with a smaller, more legible handwritten block title.",
+      "graphicDevices": [
+        "Thick textured border",
+        "Film grain overlay",
+        "Parental advisory-style metadata block in bottom left"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Handwritten feel",
+          "Grainy texture",
+          "Bottom-right placement"
+        ],
+        "avoid": [
+          "Clean digital fonts",
+          "High-gloss finishes",
+          "Perfectly straight lines"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Custom digital ink brush",
+            "reason": "To replicate the natural variation of a marker or pen.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Marker-style handwriting",
+            "reason": "Matches the informal, personal tone of the original.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a grainy, black and white three-quarter profile portrait of a man with a beard and short hair, centered within a thick dark gray textured border.",
+        "overlayInstruction": "Using a medium-gray digital marker brush, draw a large gestural signature over the bottom right of the portrait, followed by a handwritten title in block capitals and a year below it."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochrome?",
+        "Is there a visible grain texture over the entire composition?",
+        "Is the text clearly hand-drawn rather than a standard font?",
+        "Is the signature overlapping the subject's clothing?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the film grain",
+      "Thickness of the outer border",
+      "Opacity of the signature overlay",
+      "Subject's facial expression"
+    ],
+    "mustRedesign": [
+      "Specific celebrity likeness",
+      "Exact signature pattern",
+      "Specific brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Atmospheric film-noir lighting",
+        "Authentic-looking handwriting",
+        "Consistent textural grit"
+      ],
+      "avoid": [
+        "Smooth gradients",
+        "Default system fonts",
+        "Vibrant colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the signature does not obscure the subject's face.",
+      "Check that the grain doesn't wash out the facial details.",
+      "Verify the 'Parental Advisory' style block is stylized and not a direct copy.",
+      "Confirm the composition feels balanced despite the heavy right-side text."
+    ],
+    "reuseFormula": "Take a high-contrast B&W portrait, apply a heavy grain filter, frame it with a dark textured border, and add a large, semi-transparent handwritten signature in the lower right corner for a personal, raw aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:47:18.894Z"
+}

@@ -1,0 +1,268 @@
+{
+  "id": "5f31bb5666f683cce889edaae9dc9fb99da246fd2410db5a5b1433d04f2119eb",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:18:00.098Z",
+  "approvedAt": "2026-08-11T22:18:00.098Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:18:00.098Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Hurricane.jpg",
+    "hash": "5f31bb5666f683cce889edaae9dc9fb99da246fd2410db5a5b1433d04f2119eb",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Hurricane",
+    "artist": "Etta James & Sugar Pie DeSanto",
+    "artworkUrl": "https://coverartarchive.org/release-group/f25753fa-07aa-33b9-8f96-d6fd1ab5d3ff/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f25753fa-07aa-33b9-8f96-d6fd1ab5d3ff",
+    "releaseGroupId": "f25753fa-07aa-33b9-8f96-d6fd1ab5d3ff",
+    "recordingId": "73c87ea1-6974-4222-a5ab-acb372a39073",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "In The Basement - Part 1Etta James & Sugar Pie DeSanto",
+      "song": "In The Basement - Part 1",
+      "performer": "Etta James & Sugar Pie DeSanto",
+      "peakPosition": 97,
+      "firstChartDate": "1966-08-13",
+      "lastChartDate": "1966-08-20",
+      "appearances": [
+        {
+          "chartDate": "1966-08-13",
+          "position": 98
+        },
+        {
+          "chartDate": "1966-08-20",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "intense duotone portrait layout duotone high contrast portrait vertical text monochromatic warm cinematic the vertical text acts as a structural pillar against the organic curves of the face the high contrast lighting creates a deep black negative space on the left that cradles the typography the amber to red gradient in the highlights emphasizes the intensity of the subject s expression extreme close up portrait amber black duotone left aligned vertical bold sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Intense Duotone Portrait Layout",
+      "category": "Entertainment Poster",
+      "medium": [
+        "Photography",
+        "Digital Composition"
+      ],
+      "useCases": [
+        "Album Covers",
+        "Film Posters",
+        "Editorial Profiles"
+      ],
+      "retrievalTags": [
+        "duotone",
+        "high-contrast",
+        "portrait",
+        "vertical-text",
+        "monochromatic-warm",
+        "cinematic"
+      ]
+    },
+    "visualDefinition": "A tight, high-contrast close-up portrait of a man with an intense gaze, rendered in a warm amber and black duotone palette, featuring bold vertical typography aligned to the left edge.",
+    "coreVisualRelationships": [
+      "The vertical text acts as a structural pillar against the organic curves of the face.",
+      "The high-contrast lighting creates a deep black negative space on the left that cradles the typography.",
+      "The amber-to-red gradient in the highlights emphasizes the intensity of the subject's expression."
+    ],
+    "coreInvariants": [
+      "Amber/Orange monochromatic color cast on the subject",
+      "Deep black background on the left third",
+      "Extreme close-up cropping of the face"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject's face occupies the right two-thirds of the frame at an extreme scale, cropped at the forehead and chin.",
+      "visualAnchor": "The subject's eyes, specifically the one centered in the frame, serve as the primary focal point.",
+      "movementAndEyePath": "The eye moves from the large vertical text on the left, across the bridge of the nose to the subject's eyes, then down to the clenched fist.",
+      "negativeSpace": "Solid black vertical band on the left side provides a high-contrast foundation for the title."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black for shadows and background negative space.",
+      "contrastColorRole": "Vibrant amber/yellow for primary highlights and skin tones.",
+      "accentColorRole": "Subtle red-orange mid-tones and thin red secondary text.",
+      "saturationAndValueRelationship": "High saturation in the warm tones with extreme value contrast between the highlights and the black background.",
+      "paletteRestrictions": [
+        "No cool tones",
+        "No blues",
+        "No greens"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold, condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Minimal kerning (tight tracking)",
+        "Vertical orientation rotated 90 degrees counter-clockwise"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "heavy",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "tight",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "-2%",
+            "leading": "1.0",
+            "lineBreakPattern": "single-line-vertical",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "left edge",
+            "scale": "large",
+            "rotation": "-90 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over black negative space"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "10%",
+            "leading": "1.2",
+            "lineBreakPattern": "single-line-vertical",
+            "density": "light"
+          },
+          "composition": {
+            "position": "adjacent to display text",
+            "scale": "small",
+            "rotation": "-90 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separates display text from the subject"
+          },
+          "treatment": {
+            "fill": "muted red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Size and color contrast within the same typeface family or similar geometric sans-serifs.",
+      "graphicDevices": [
+        "Vertical text orientation"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical orientation",
+          "Condensed heavy weight",
+          "Left-side placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Horizontal orientation for the main title"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy weight and condensed nature of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Compressed",
+            "reason": "Provides the necessary verticality and industrial feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, extreme close-up portrait of a man with an intense expression, lit with a strong amber/orange duotone effect. The left third of the image should be solid black negative space.",
+        "overlayInstruction": "Add a large, bold, condensed sans-serif title in white, rotated 90 degrees counter-clockwise, aligned to the left edge. Add a smaller subtitle in red, also rotated 90 degrees, placed between the title and the subject."
+      },
+      "verificationChecks": [
+        "Is the text rotated 90 degrees counter-clockwise?",
+        "Is the color palette strictly warm (amber/red/black)?",
+        "Is the left side of the image a solid black void for the text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the amber duotone",
+      "Width of the black negative space",
+      "Subject's facial expression",
+      "Font weight of the display text"
+    ],
+    "mustRedesign": [
+      "Do not use horizontal text for the main title",
+      "Do not include any cool colors like blue or green",
+      "Do not use a full-body shot; maintain the extreme close-up"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast lighting",
+        "Clean, sharp typography",
+        "Consistent duotone color grading"
+      ],
+      "avoid": [
+        "Low-contrast or muddy shadows",
+        "Cluttered backgrounds",
+        "Soft or decorative fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the white text is perfectly legible against the black background.",
+      "Ensure the subject's eyes are in sharp focus.",
+      "Verify the vertical alignment of all text elements.",
+      "Confirm the duotone effect covers the entire subject."
+    ],
+    "reuseFormula": "Extreme close-up portrait + Amber/Black duotone + Left-aligned vertical bold sans-serif typography."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:10:47.809Z"
+}

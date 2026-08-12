@@ -1,0 +1,247 @@
+{
+  "id": "5cbd298c4263bfa6b9c36a170d5818893bf4960e3e76c35e57c6a41247cac5fd",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T19:29:06.032Z",
+  "approvedAt": "2026-08-11T19:29:06.032Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T19:29:06.032Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Stone Cold Rhymin’.jpg",
+    "hash": "5cbd298c4263bfa6b9c36a170d5818893bf4960e3e76c35e57c6a41247cac5fd",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Stone Cold Rhymin’",
+    "artist": "Young M.C.",
+    "artworkUrl": "https://coverartarchive.org/release-group/c5df70c7-8a6a-303e-8f96-321153890ac7/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c5df70c7-8a6a-303e-8f96-321153890ac7",
+    "releaseGroupId": "c5df70c7-8a6a-303e-8f96-321153890ac7",
+    "recordingId": "a392b43f-7e10-475f-bdd3-a6788bf6b1f9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I Come OffYoung M.C.",
+      "song": "I Come Off",
+      "performer": "Young M.C.",
+      "peakPosition": 75,
+      "firstChartDate": "1990-03-24",
+      "lastChartDate": "1990-04-21",
+      "appearances": [
+        {
+          "chartDate": "1990-03-24",
+          "position": 90
+        },
+        {
+          "chartDate": "1990-03-31",
+          "position": 79
+        },
+        {
+          "chartDate": "1990-04-07",
+          "position": 79
+        },
+        {
+          "chartDate": "1990-04-14",
+          "position": 75
+        },
+        {
+          "chartDate": "1990-04-21",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro hip hop duotone cover sepia duotone vertical sidebar condensed typography hip hop aesthetic microphone 80s design the warm sepia orange portrait occupies the left two thirds of the frame a stark black vertical column occupies the right one third the text in the sidebar is vertically stacked and extremely elongated the secondary text at the bottom left overlaps the portrait in a contrasting red hue duotone portrait left 2 3 solid sidebar right 1 3 vertically stretched display type geometric icon",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Hip-Hop Duotone Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Duotone"
+      ],
+      "useCases": [
+        "Music Album Cover",
+        "Concert Poster",
+        "Retro Editorial Layout"
+      ],
+      "retrievalTags": [
+        "sepia",
+        "duotone",
+        "vertical sidebar",
+        "condensed typography",
+        "hip-hop aesthetic",
+        "microphone",
+        "80s design"
+      ]
+    },
+    "visualDefinition": "A high-contrast, duotone portrait of a performer holding a microphone, paired with a solid black vertical sidebar containing ultra-condensed, vertically stacked typography and a geometric starburst icon.",
+    "coreVisualRelationships": [
+      "The warm sepia-orange portrait occupies the left two-thirds of the frame.",
+      "A stark black vertical column occupies the right one-third.",
+      "The text in the sidebar is vertically stacked and extremely elongated.",
+      "The secondary text at the bottom left overlaps the portrait in a contrasting red hue."
+    ],
+    "coreInvariants": [
+      "Warm orange-to-black duotone gradient on the image",
+      "Solid black sidebar for primary text",
+      "Extreme vertical compression of letterforms"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Close-up portrait of a male figure, angled from the left, filling the left 66% of the canvas.",
+      "visualAnchor": "The microphone and hand in the center-left act as the focal point of the action.",
+      "movementAndEyePath": "Eyes move from the subject's face down to the microphone, then jump to the bold vertical text in the black sidebar.",
+      "negativeSpace": "The solid black sidebar provides heavy negative space that balances the detailed texture of the portrait."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm Sepia/Orange (Mid-tones and highlights of the portrait)",
+      "contrastColorRole": "Solid Black (Sidebar and shadows)",
+      "accentColorRole": "Vibrant Red (Top text and bottom script)",
+      "saturationAndValueRelationship": "High contrast between deep blacks and saturated oranges; muted red provides a secondary focal point.",
+      "paletteRestrictions": [
+        "Orange",
+        "Black",
+        "Red",
+        "Yellow-Gold"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Ultra-condensed sans-serif and decorative script",
+      "letterConstructionRules": [
+        "Primary text is stretched vertically by at least 200%",
+        "Stroke weight is uniform but appears thin due to elongation",
+        "Script text at the bottom uses a heavy, brush-like weight with sharp terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'Y' and 'G' in the top section have sharp, dagger-like descenders/ascenders",
+        "The 'M.C.' section uses a more geometric, blocky structure"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "decorative-condensed",
+          "anatomy": {
+            "width": "ultra-narrow",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "angular",
+            "counters": "sliver-like",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "vertical-stack",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top-right sidebar",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "vertical-stretch",
+            "overlap": "none",
+            "relationshipToImage": "contained within sidebar"
+          },
+          "treatment": {
+            "fill": "red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "vertical-scaling"
+          }
+        }
+      ],
+      "pairingStrategy": "Vertical stacking of different colors (red and yellow) within the same sidebar, paired with a horizontal script overlay.",
+      "graphicDevices": [
+        "Vertical dividing line",
+        "Eight-pointed geometric starburst icon"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical stretching",
+          "Sidebar containment",
+          "Color-coded text blocks"
+        ],
+        "avoid": [
+          "Standard proportions",
+          "Horizontal orientation in sidebar",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Provides the necessary heavy, condensed base for further vertical stretching.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Custom brush script",
+            "reason": "For the bottom horizontal text to match the 80s hip-hop aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast close-up photo of a person singing into a microphone, apply a warm orange/sepia duotone filter, and add a solid black vertical bar on the right third of the frame.",
+        "overlayInstruction": "Place vertically stretched red sans-serif text in the top of the black bar, yellow-gold block text in the middle, and a red starburst at the bottom. Overlay a red decorative script horizontally across the bottom-left of the portrait."
+      },
+      "verificationChecks": [
+        "Is the portrait duotone orange and black?",
+        "Is the primary text vertically stretched and stacked?",
+        "Is there a clear black sidebar on the right?",
+        "Is the bottom text a contrasting script style?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Duotone color tint",
+      "Width of the black sidebar",
+      "Degree of vertical text stretching",
+      "Icon shape at the bottom of the sidebar"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the artist",
+      "Exact brand logos",
+      "Proprietary font names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast duotone effect",
+        "Clean vertical division",
+        "Aggressive typographic verticality"
+      ],
+      "avoid": [
+        "Full-color photography",
+        "Centered horizontal layouts",
+        "Modern minimalist sans-serifs without distortion"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that text does not bleed into the portrait area from the sidebar.",
+      "Ensure the duotone doesn't lose facial detail in the shadows.",
+      "Verify the red text is legible against both the orange and black backgrounds.",
+      "Confirm the starburst icon is geometrically centered in the sidebar's bottom section."
+    ],
+    "reuseFormula": "Duotone Portrait (Left 2/3) + Solid Sidebar (Right 1/3) + Vertically Stretched Display Type + Geometric Icon"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:10:33.987Z"
+}

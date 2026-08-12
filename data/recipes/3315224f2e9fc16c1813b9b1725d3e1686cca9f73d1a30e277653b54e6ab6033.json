@@ -1,0 +1,244 @@
+{
+  "id": "3315224f2e9fc16c1813b9b1725d3e1686cca9f73d1a30e277653b54e6ab6033",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T12:13:36.750Z",
+  "approvedAt": "2026-08-11T12:13:36.750Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T12:13:36.750Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Eddie Kendricks.jpg",
+    "hash": "3315224f2e9fc16c1813b9b1725d3e1686cca9f73d1a30e277653b54e6ab6033",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Eddie Kendricks",
+    "artist": "Eddie Kendricks",
+    "artworkUrl": "https://coverartarchive.org/release-group/d6b6c1d2-67ea-3930-b926-93c4e0ba86ee/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d6b6c1d2-67ea-3930-b926-93c4e0ba86ee",
+    "releaseGroupId": "d6b6c1d2-67ea-3930-b926-93c4e0ba86ee",
+    "recordingId": "2bb231ee-13b3-4531-8ee4-e51db38bf6dd",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Darling Come Back HomeEddie Kendricks",
+      "song": "Darling Come Back Home",
+      "performer": "Eddie Kendricks",
+      "peakPosition": 67,
+      "firstChartDate": "1973-07-14",
+      "lastChartDate": "1973-08-11",
+      "appearances": [
+        {
+          "chartDate": "1973-07-14",
+          "position": 88
+        },
+        {
+          "chartDate": "1973-07-21",
+          "position": 88
+        },
+        {
+          "chartDate": "1973-07-28",
+          "position": 72
+        },
+        {
+          "chartDate": "1973-08-04",
+          "position": 72
+        },
+        {
+          "chartDate": "1973-08-11",
+          "position": 67
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro soul portrait layout 1970s aesthetic minimalist layout velvet texture geometric typography asymmetric composition subject occupies the left vertical third creating a strong asymmetrical balance the dark textured green of the jacket contrasts sharply with the flat warm white background the geometric lines of the typography echo the verticality of the subject s pose subject left aligned negativespace right two thirds typography top right hairline geometric 70s soul aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Soul Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portraiture",
+        "Vintage Poster Design"
+      ],
+      "retrievalTags": [
+        "1970s aesthetic",
+        "minimalist layout",
+        "velvet texture",
+        "geometric typography",
+        "asymmetric composition"
+      ]
+    },
+    "visualDefinition": "A clean, minimalist 1970s-style portrait composition featuring a subject positioned on the far left, looking back toward the camera, set against a vast expanse of off-white negative space with stylized geometric typography in the upper right quadrant.",
+    "coreVisualRelationships": [
+      "Subject occupies the left vertical third, creating a strong asymmetrical balance.",
+      "The dark, textured green of the jacket contrasts sharply with the flat, warm-white background.",
+      "The geometric lines of the typography echo the verticality of the subject's pose."
+    ],
+    "coreInvariants": [
+      "Off-white or cream-colored background with subtle paper texture.",
+      "Subject looking over the shoulder toward the viewer.",
+      "Typography restricted to the top-right corner."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is a medium-full shot positioned on the left edge, scaled to occupy approximately 80% of the vertical height.",
+      "visualAnchor": "The subject's face and eyes serve as the primary anchor, followed by the large-scale text block.",
+      "movementAndEyePath": "The eye starts at the subject's face, follows the line of the shoulder down, then moves across the negative space to the typography in the upper right.",
+      "negativeSpace": "Extensive negative space on the right side, creating a sense of openness and sophistication."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm off-white (Background)",
+      "contrastColorRole": "Deep forest green (Subject's jacket)",
+      "accentColorRole": "Burnt orange and teal (Inline typographic details)",
+      "saturationAndValueRelationship": "High value background with low-to-mid value subject; saturation is muted to maintain a vintage film look.",
+      "paletteRestrictions": [
+        "Cream",
+        "Forest Green",
+        "Burnt Orange",
+        "Teal",
+        "Charcoal"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Ultra-thin stroke weights for the primary skeleton.",
+        "Geometric circles for rounded characters (O, D, R).",
+        "Double-line or inline decorative elements on vertical stems.",
+        "Open counters and wide tracking."
+      ],
+      "characterSpecificRedesigns": [
+        "Vertical stems of 'E', 'D', and 'K' feature a secondary parallel line in a contrasting color.",
+        "The 'S' has a wide, open geometric curve."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Normal to Wide",
+            "weight": "Hairline",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Sheared",
+            "corners": "Sharp",
+            "counters": "Large/Circular",
+            "strokeCharacter": "Technical/Architectural"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked-words",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top-right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "dark-grey",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family with color-based decorative modifications.",
+      "graphicDevices": [
+        "Inline color stripes",
+        "Asymmetric margins"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Hairline weight",
+          "Geometric circularity",
+          "Top-right placement"
+        ],
+        "avoid": [
+          "Serifs",
+          "Bold weights",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic (Extra Light)",
+            "reason": "Captures the 1970s geometric soul aesthetic perfectly.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura (Light)",
+            "reason": "Provides the necessary geometric skeleton for the 'O' and 'D'.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in a dark green velvet blazer and white turtleneck, standing on the left side of the frame looking back over his shoulder. The background must be a flat, textured off-white paper surface with significant empty space on the right.",
+        "overlayInstruction": "Apply the display text in the upper right corner using a hairline geometric sans-serif. Add thin vertical accent lines in orange and teal inside the stems of the letters."
+      },
+      "verificationChecks": [
+        "Is the subject strictly on the left third?",
+        "Is the background a warm, textured cream?",
+        "Is the text hairline-thin and geometric?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Jacket color",
+      "Subject's ethnicity",
+      "Accent colors in typography",
+      "Background texture intensity"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Record label logos",
+      "Unique brand identifiers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "1970s film grain and color grading",
+        "Precise geometric alignment of text",
+        "High-quality velvet texture rendering"
+      ],
+      "avoid": [
+        "Modern digital sharpness",
+        "Cluttered backgrounds",
+        "Standard bold fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no text overlaps the subject.",
+      "Check that the 'inline' effect on letters is clean and vertical.",
+      "Verify the off-white background is not pure white.",
+      "Confirm the subject's gaze is directed toward the camera."
+    ],
+    "reuseFormula": "Subject[Left-Aligned] + NegativeSpace[Right-Two-Thirds] + Typography[Top-Right, Hairline-Geometric] = 70s Soul Aesthetic"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:06:03.871Z"
+}

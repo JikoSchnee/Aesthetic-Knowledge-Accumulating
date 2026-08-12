@@ -1,0 +1,264 @@
+{
+  "id": "d75269daf2ee4aa3631b75b762c69a7ad8dccf7e4354e6f936eb4e58fd2cb43b",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T01:06:12.654Z",
+  "approvedAt": "2026-08-12T01:06:12.654Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T01:06:12.654Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Mi sangre.jpg",
+    "hash": "d75269daf2ee4aa3631b75b762c69a7ad8dccf7e4354e6f936eb4e58fd2cb43b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Mi sangre",
+    "artist": "Juanes",
+    "artworkUrl": "https://coverartarchive.org/release-group/358fe206-e1e9-3305-bccd-89205772e655/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/358fe206-e1e9-3305-bccd-89205772e655",
+    "releaseGroupId": "358fe206-e1e9-3305-bccd-89205772e655",
+    "recordingId": "d461eb02-461c-48ab-9f13-3080b77009c8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Lo Que Me Gusta A MiJuanes",
+      "song": "Lo Que Me Gusta A Mi",
+      "performer": "Juanes",
+      "peakPosition": 94,
+      "firstChartDate": "2006-04-15",
+      "lastChartDate": "2006-04-15",
+      "appearances": [
+        {
+          "chartDate": "2006-04-15",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "introspective portrait with graphic overlay close up portrait hand over face tattoo sleeve intense gaze blackletter typography warm lighting grainy texture the hand creates a diagonal frame that isolates the subject s eye the warm skin tones contrast with the cool blue and black of the primary typography the intricate detail of the tattoo balances the smooth out of focus background close up portrait diagonal limb occlusion blackletter sans serif typographic pairing warm filmic grading",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Introspective Portrait with Graphic Overlay",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portraiture",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "close-up portrait",
+        "hand over face",
+        "tattoo sleeve",
+        "intense gaze",
+        "blackletter typography",
+        "warm lighting",
+        "grainy texture"
+      ]
+    },
+    "visualDefinition": "A tight, high-contrast close-up of a man's face, partially obscured by his own hand and forearm. The subject features long dark hair and an intense, direct gaze from one visible eye. The forearm is covered in a colorful, illustrative tattoo sleeve. The composition is anchored by a mix of traditional blackletter-inspired display type and clean sans-serif secondary text positioned in the upper quadrant.",
+    "coreVisualRelationships": [
+      "The hand creates a diagonal frame that isolates the subject's eye.",
+      "The warm skin tones contrast with the cool blue and black of the primary typography.",
+      "The intricate detail of the tattoo balances the smooth, out-of-focus background."
+    ],
+    "coreInvariants": [
+      "Partial facial occlusion by a hand",
+      "Direct eye contact with the viewer",
+      "Warm, directional lighting with soft shadows",
+      "Film-like grain texture across the entire image"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up, centered horizontally, with the face filling the lower two-thirds of the frame.",
+      "visualAnchor": "The visible eye, positioned near the vertical center of the image.",
+      "movementAndEyePath": "Starts at the bold blue typography, follows the diagonal line of the arm down to the eye, then rests on the mouth and tattoo details.",
+      "negativeSpace": "Minimal; limited to the upper corners and the dark hair framing the face."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm flesh tones and deep browns (skin and hair).",
+      "contrastColorRole": "Deep blue (primary text) and black (shadows).",
+      "accentColorRole": "Red and gold (tattoo details).",
+      "saturationAndValueRelationship": "High value contrast between the lit side of the face and the dark hair; saturation is concentrated in the tattoo and text.",
+      "paletteRestrictions": [
+        "Avoid neon or overly synthetic colors",
+        "Maintain a naturalistic, slightly desaturated skin palette"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Blackletter/Fraktur",
+      "letterConstructionRules": [
+        "Vertical stress with sharp, angular terminals",
+        "Elongated descender on the initial character",
+        "Lowercase letters maintain a consistent x-height with heavy strokes"
+      ],
+      "characterSpecificRedesigns": [
+        "The initial 'j' features a long, curved tail that acts as a visual divider",
+        "The 'u' and 'a' have simplified, modern gothic connections"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Blackletter",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Spiky/Angular",
+            "corners": "Sharp",
+            "counters": "Narrow",
+            "strokeCharacter": "Calligraphic"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "Tight",
+            "leading": "n/a",
+            "lineBreakPattern": "Single word",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top left quadrant, overlapping the hand",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays skin texture",
+            "relationshipToImage": "Integrated into the foreground"
+          },
+          "treatment": {
+            "fill": "Solid medium blue",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Slightly grainy to match photo",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Humanist Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Blunt",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "Normal",
+            "leading": "n/a",
+            "lineBreakPattern": "Horizontal line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "To the right of the display text",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays hair",
+            "relationshipToImage": "Floating over dark background"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High contrast between a decorative, historical display face and a functional, modern sans-serif.",
+      "graphicDevices": [
+        "Grainy film overlay",
+        "Soft vignette"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The blue color of the main text",
+          "The diagonal arm composition"
+        ],
+        "avoid": [
+          "Standard serif fonts like Times New Roman",
+          "Bright, flat digital colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Fette Fraktur",
+            "reason": "Matches the heavy, angular blackletter aesthetic of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gill Sans Bold",
+            "reason": "Provides the clean, humanist sans-serif contrast for the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A grainy, high-contrast close-up photo of a man with long dark hair, his hand covering the top half of his face so only one eye is visible. The arm features a colorful, traditional-style tattoo. Warm, directional lighting.",
+        "overlayInstruction": "Add a large, bold blue blackletter word in the top left, overlapping the hand. To its right, add a small, bold white sans-serif phrase in lowercase."
+      },
+      "verificationChecks": [
+        "Is the eye the focal point?",
+        "Does the blue text have a long descender on the first letter?",
+        "Is the film grain visible across the image?",
+        "Is the tattoo colorful and illustrative?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the film grain",
+      "Color of the display typography",
+      "Complexity of the tattoo design"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact tattoo artwork",
+      "Proprietary brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Intense emotional mood",
+        "Tactile, filmic texture",
+        "Clear typographic hierarchy"
+      ],
+      "avoid": [
+        "Over-sharpened digital look",
+        "Generic corporate portraiture",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the hand placement feels natural and not forced.",
+      "Check that the blue text is legible against the skin tone.",
+      "Verify the grain doesn't obscure the subject's eye detail.",
+      "Confirm the sans-serif text is perfectly horizontal."
+    ],
+    "reuseFormula": "Close-up portrait + diagonal limb occlusion + blackletter/sans-serif typographic pairing + warm filmic grading."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:29:29.572Z"
+}

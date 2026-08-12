@@ -1,0 +1,260 @@
+{
+  "id": "1ff8341a8679ae4befe862b98eb89414ba53453cc9a0d063e264ff0c5f98f8c0",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T12:29:24.831Z",
+  "approvedAt": "2026-08-11T12:29:24.831Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T12:29:24.831Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Carryin' On.jpg",
+    "hash": "1ff8341a8679ae4befe862b98eb89414ba53453cc9a0d063e264ff0c5f98f8c0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Carryin' On",
+    "artist": "Stampeders",
+    "artworkUrl": "https://coverartarchive.org/release-group/084a5b7d-a942-36dc-8c6e-d2b8862ee036/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/084a5b7d-a942-36dc-8c6e-d2b8862ee036",
+    "releaseGroupId": "084a5b7d-a942-36dc-8c6e-d2b8862ee036",
+    "recordingId": "5e7ddb89-521d-491c-b78d-82c117b12846",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Devil YouStampeders",
+      "song": "Devil You",
+      "performer": "Stampeders",
+      "peakPosition": 61,
+      "firstChartDate": "1971-12-04",
+      "lastChartDate": "1972-01-15",
+      "appearances": [
+        {
+          "chartDate": "1971-12-04",
+          "position": 98
+        },
+        {
+          "chartDate": "1971-12-11",
+          "position": 76
+        },
+        {
+          "chartDate": "1971-12-18",
+          "position": 68
+        },
+        {
+          "chartDate": "1971-12-25",
+          "position": 62
+        },
+        {
+          "chartDate": "1972-01-01",
+          "position": 61
+        },
+        {
+          "chartDate": "1972-01-08",
+          "position": 61
+        },
+        {
+          "chartDate": "1972-01-15",
+          "position": 63
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage country rock album cover vintage 1970s country rock grainy photography trestle bridge western wear bubble script offset printing subject trio arranged vertically against a diagonal architectural line industrial bridge structure contrasting with organic human forms bright yellow and blue typography popping against a muted sky warm earth tones in clothing balanced by cool blue sky and shadows combine 1970s outdoor group portraiture with heavy rounded display typography and high contrast offset print textures",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Country Rock Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Retro Poster Design",
+        "1970s Themed Branding"
+      ],
+      "retrievalTags": [
+        "vintage",
+        "1970s",
+        "country rock",
+        "grainy photography",
+        "trestle bridge",
+        "western wear",
+        "bubble script",
+        "offset printing"
+      ]
+    },
+    "visualDefinition": "A grainy, high-contrast 1970s-style photograph of three men in Western-inspired attire posing outdoors near a concrete ledge with a large steel trestle bridge in the background, featuring bold, overlapping bubble-script typography in the upper right corner.",
+    "coreVisualRelationships": [
+      "Subject trio arranged vertically against a diagonal architectural line",
+      "Industrial bridge structure contrasting with organic human forms",
+      "Bright yellow and blue typography popping against a muted sky",
+      "Warm earth tones in clothing balanced by cool blue sky and shadows"
+    ],
+    "coreInvariants": [
+      "Heavy film grain and visible offset print texture",
+      "High-waisted 70s fashion including fringe and wide-brimmed hats",
+      "Strong diagonal composition from bottom-left to top-right",
+      "Drop-shadowed, rounded script lettering"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three figures occupy the left half of the frame, scaled to show full bodies from the waist up or seated positions.",
+      "visualAnchor": "The seated figure in the foreground provides a stable base for the vertical stack of subjects.",
+      "movementAndEyePath": "Eyes follow the concrete ledge upward to the subjects, then move right to the bridge and finally to the large text in the top right.",
+      "negativeSpace": "The sky in the upper right provides a clear area for the primary typographic elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm earth tones (brown, tan, rust) in the foreground subjects.",
+      "contrastColorRole": "Pale cyan-blue sky and bridge shadows.",
+      "accentColorRole": "Vibrant yellow for the primary display text.",
+      "saturationAndValueRelationship": "High saturation in the text against a desaturated, slightly faded photographic background.",
+      "paletteRestrictions": [
+        "Must include a primary yellow with a black outline",
+        "Must include a medium blue for secondary text"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Rounded, heavy-weight script with high x-height and tight kerning.",
+      "letterConstructionRules": [
+        "Thick, uniform stroke weights",
+        "Soft, bulbous terminals",
+        "Overlapping characters in a cursive or semi-connected style",
+        "Heavy black drop shadow or outline for legibility"
+      ],
+      "characterSpecificRedesigns": [
+        "Uppercase 'S' with a large, sweeping top curve",
+        "Lowercase letters with tight, circular counters"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Rounded Script / Bubble",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Black",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Rounded",
+            "corners": "Soft",
+            "counters": "Small/Circular",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top Right",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Slightly overlapping",
+            "relationshipToImage": "Floating over sky"
+          },
+          "treatment": {
+            "fill": "Solid Yellow",
+            "outline": "Thin Black",
+            "shadow": "Hard Black Drop Shadow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "A larger, bright yellow script paired with a slightly smaller, darker blue script in a similar weight.",
+      "graphicDevices": [
+        "Heavy drop shadows",
+        "Tight character spacing"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Rounded terminals",
+          "Heavy weight",
+          "Drop shadow"
+        ],
+        "avoid": [
+          "Serifs",
+          "Thin strokes",
+          "Modern geometric sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cooper Black Italic (Modified)",
+            "reason": "Captures the heavy, rounded 70s feel.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Motter Tektura",
+            "reason": "Matches the era's preference for tight, rounded forms.",
+            "confidence": "low"
+          },
+          {
+            "nameOrCategory": "Blippo Black",
+            "reason": "Provides the necessary weight and roundness.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 1970s-style grainy photograph of three men in western attire (fringe jackets, cowboy hats) posing on a concrete bridge overlook. A large steel trestle bridge is visible in the background under a clear blue sky. Use a faded, high-contrast color palette with visible film grain.",
+        "overlayInstruction": "Apply large, bold, rounded script text in the upper right corner. The top line should be bright yellow with a black drop shadow. The second line should be a medium blue script, slightly smaller, positioned just below and to the right of the first line."
+      },
+      "verificationChecks": [
+        "Is the film grain clearly visible?",
+        "Does the typography have a heavy black drop shadow?",
+        "Are the subjects wearing authentic 1970s western-style clothing?",
+        "Is the diagonal composition maintained?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of film grain",
+      "Specific colors of the clothing",
+      "Angle of the trestle bridge",
+      "Exact shade of yellow for the text"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subjects",
+      "Any unique band logos or trademarks",
+      "Exact phrasing of the original text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s analog photo texture",
+        "Bold, legible bubble-style typography",
+        "Strong sense of depth between foreground and background bridge"
+      ],
+      "avoid": [
+        "Clean, digital-looking photography",
+        "Modern minimalist fonts",
+        "Flat, shadowless text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text does not look 'pasted on' but integrated via shadow.",
+      "Check that the grain is consistent across the entire image.",
+      "Verify the color palette feels aged and slightly sun-faded.",
+      "Confirm the bridge structure looks like a vintage steel trestle."
+    ],
+    "reuseFormula": "Combine 1970s outdoor group portraiture with heavy, rounded display typography and high-contrast offset print textures."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:04:27.370Z"
+}

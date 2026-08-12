@@ -1,0 +1,241 @@
+{
+  "id": "571bd194772b1a59e336475b3ad07de8b2499d7ec5246024798f232ea936a4d9",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T00:50:35.499Z",
+  "approvedAt": "2026-08-12T00:50:35.499Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T00:50:35.499Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Jungle.jpg",
+    "hash": "571bd194772b1a59e336475b3ad07de8b2499d7ec5246024798f232ea936a4d9",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Jungle",
+    "artist": "Dwight Twilley",
+    "artworkUrl": "https://coverartarchive.org/release-group/0fe8976d-4c42-36c4-ba2c-b5c6d319749e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0fe8976d-4c42-36c4-ba2c-b5c6d319749e",
+    "releaseGroupId": "0fe8976d-4c42-36c4-ba2c-b5c6d319749e",
+    "recordingId": "ca7c2c80-b0f2-4657-8fa0-ecf98933e907",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Little Bit Of LoveDwight Twilley",
+      "song": "Little Bit Of Love",
+      "performer": "Dwight Twilley",
+      "peakPosition": 77,
+      "firstChartDate": "1984-05-19",
+      "lastChartDate": "1984-06-09",
+      "appearances": [
+        {
+          "chartDate": "1984-05-19",
+          "position": 84
+        },
+        {
+          "chartDate": "1984-05-26",
+          "position": 78
+        },
+        {
+          "chartDate": "1984-06-02",
+          "position": 77
+        },
+        {
+          "chartDate": "1984-06-09",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban dusk portrait layout 1980s aesthetic urban bokeh street portrait narrow sans serif cinematic lighting cityscape background subject in sharp focus against a deep blurred urban background high contrast between the dark jacket and the light inner shirt typography placed in the upper corners to frame the subject s head cool toned shadows balanced by warm out of focus street lights urban portrait shallow depth of field corner aligned condensed sans serif moody 80s album aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Dusk Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "35mm Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portraiture",
+        "Vintage Street Photography"
+      ],
+      "retrievalTags": [
+        "1980s aesthetic",
+        "urban bokeh",
+        "street portrait",
+        "narrow sans-serif",
+        "cinematic lighting",
+        "cityscape background"
+      ]
+    },
+    "visualDefinition": "A medium-shot portrait of a male subject in a dark jacket and light henley shirt, positioned off-center against a heavily blurred urban street background at dusk. The lighting is soft and directional, creating a moody, cinematic atmosphere with cool blue shadows and warm bokeh highlights.",
+    "coreVisualRelationships": [
+      "Subject in sharp focus against a deep, blurred urban background",
+      "High contrast between the dark jacket and the light inner shirt",
+      "Typography placed in the upper corners to frame the subject's head",
+      "Cool-toned shadows balanced by warm, out-of-focus street lights"
+    ],
+    "coreInvariants": [
+      "Shallow depth of field with circular bokeh",
+      "Off-center subject placement (Rule of Thirds)",
+      "Muted, film-like color grading with a slight grain"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is positioned in the right two-thirds of the frame, medium-shot scale from waist up.",
+      "visualAnchor": "The subject's face and the high-contrast white shirt act as the primary anchors.",
+      "movementAndEyePath": "Eye starts at the subject's face, moves down the line of the arm to the left, then up to the typography in the corners.",
+      "negativeSpace": "Significant negative space in the upper left and right corners, utilized for text placement."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep navy and charcoal (jacket and shadows)",
+      "contrastColorRole": "Off-white and cream (shirt and highlights)",
+      "accentColorRole": "Muted reds and yellows (background bokeh and street signs)",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the subject's clothing layers.",
+      "paletteRestrictions": [
+        "Avoid vibrant primary colors",
+        "Maintain a desaturated, filmic look"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Extremely narrow width-to-height ratio",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Extra-condensed",
+            "weight": "Medium",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Slightly rounded",
+            "counters": "Narrow ovals",
+            "strokeCharacter": "Clean"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified to corners",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top left and top right corners",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over background bokeh"
+          },
+          "treatment": {
+            "fill": "Light grey or off-white",
+            "outline": "Thin dark drop shadow or outer glow for legibility",
+            "shadow": "Subtle soft drop shadow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used in two distinct blocks for symmetry.",
+      "graphicDevices": [
+        "Corner-aligned text blocks"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extra-condensed width",
+          "Uppercase styling",
+          "Corner placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Wide tracking"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed structure.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Clean, modern condensed sans-serif that matches the verticality.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers Ultra Condensed",
+            "reason": "Matches the mid-century to 80s transition aesthetic.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 35mm film-style portrait of a man in a dark blazer and white henley shirt standing on a city street at dusk. Use a shallow depth of field (f/1.8) to create heavy bokeh from city lights and signs in the background. The color palette should be moody with cool shadows and warm highlights.",
+        "overlayInstruction": "Add uppercase text in an extra-condensed sans-serif font. Place one word/name block in the top left corner and another in the top right corner. Use a light grey fill with a very subtle dark drop shadow to ensure the text pops against the blurred background."
+      },
+      "verificationChecks": [
+        "Is the background sufficiently blurred to create bokeh?",
+        "Is the text extra-condensed and placed in the top corners?",
+        "Does the color grading feel like 1980s film stock?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of background bokeh",
+      "Subject's gaze direction",
+      "Specific color of the jacket",
+      "Amount of film grain"
+    ],
+    "mustRedesign": [
+      "Avoid using specific celebrity likenesses",
+      "Do not replicate exact brand logos from the background signs"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic shallow depth of field",
+        "Balanced corner-weighted typography",
+        "Filmic color grading"
+      ],
+      "avoid": [
+        "Overly sharp digital look",
+        "Cluttered foregrounds",
+        "Wide, airy fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for realistic skin tones under dusk lighting",
+      "Ensure text is legible against the bokeh",
+      "Verify the subject is off-center",
+      "Confirm the absence of modern digital artifacts"
+    ],
+    "reuseFormula": "Urban Portrait + Shallow Depth of Field + Corner-Aligned Condensed Sans-Serif = Moody 80s Album Aesthetic"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:10:01.577Z"
+}

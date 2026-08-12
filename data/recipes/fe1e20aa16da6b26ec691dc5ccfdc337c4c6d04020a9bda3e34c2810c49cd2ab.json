@@ -1,0 +1,256 @@
+{
+  "id": "fe1e20aa16da6b26ec691dc5ccfdc337c4c6d04020a9bda3e34c2810c49cd2ab",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T13:47:38.125Z",
+  "approvedAt": "2026-08-11T13:47:38.125Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T13:47:38.125Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Paul Simon.jpg",
+    "hash": "fe1e20aa16da6b26ec691dc5ccfdc337c4c6d04020a9bda3e34c2810c49cd2ab",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Paul Simon",
+    "artist": "Paul Simon",
+    "artworkUrl": "https://coverartarchive.org/release-group/602d0c54-2901-3469-a683-a5a50f3e5260/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/602d0c54-2901-3469-a683-a5a50f3e5260",
+    "releaseGroupId": "602d0c54-2901-3469-a683-a5a50f3e5260",
+    "recordingId": "935de698-22ea-4c84-a445-2585846b4263",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "DuncanPaul Simon",
+      "song": "Duncan",
+      "performer": "Paul Simon",
+      "peakPosition": 52,
+      "firstChartDate": "1972-07-08",
+      "lastChartDate": "1972-08-19",
+      "appearances": [
+        {
+          "chartDate": "1972-07-08",
+          "position": 74
+        },
+        {
+          "chartDate": "1972-07-15",
+          "position": 66
+        },
+        {
+          "chartDate": "1972-07-22",
+          "position": 60
+        },
+        {
+          "chartDate": "1972-07-29",
+          "position": 56
+        },
+        {
+          "chartDate": "1972-08-05",
+          "position": 53
+        },
+        {
+          "chartDate": "1972-08-12",
+          "position": 52
+        },
+        {
+          "chartDate": "1972-08-19",
+          "position": 60
+        }
+      ]
+    }
+  },
+  "dedupeText": "winter parka portrait layout fur hood 70s photography tight crop warm lighting heavy sans serif parka grainy film the massive fur hood frames the face as a central focal point the shadow from the hood creates a horizontal band across the upper face the heavy black typography in the corner balances the visual weight of the centered subject tight portrait massive fur hood 70s film grain top right bold sans serif vintage winter editorial style",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Winter Parka Portrait Layout",
+      "category": "Album Cover Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Editorial Portraits",
+        "Winter Fashion Photography"
+      ],
+      "retrievalTags": [
+        "fur hood",
+        "70s photography",
+        "tight crop",
+        "warm lighting",
+        "heavy sans-serif",
+        "parka",
+        "grainy film"
+      ]
+    },
+    "visualDefinition": "A tight, centered portrait of a man wearing a large, fur-lined parka hood that casts a soft shadow over his eyes. The composition is dominated by the texture of the fur and the quilted fabric of the coat, with a minimalist typographic element in the upper right corner.",
+    "coreVisualRelationships": [
+      "The massive fur hood frames the face as a central focal point.",
+      "The shadow from the hood creates a horizontal band across the upper face.",
+      "The heavy black typography in the corner balances the visual weight of the centered subject."
+    ],
+    "coreInvariants": [
+      "Tight head-and-shoulders crop",
+      "High-texture fur hood framing the face",
+      "Warm, slightly desaturated 1970s film aesthetic",
+      "Top-right corner text placement"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centrally positioned, filling approximately 80% of the vertical frame.",
+      "visualAnchor": "The man's face, specifically the mouth and nose area which are in direct light.",
+      "movementAndEyePath": "From the face outward to the texture of the fur, then to the bold text in the top right corner.",
+      "negativeSpace": "Minimal; the background is a blown-out, light neutral tone that blends with the outer edges of the fur."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm ochre and tan (fur and skin tones)",
+      "contrastColorRole": "Deep brown and black (shadows and typography)",
+      "accentColorRole": "Muted blue-grey (parka fabric)",
+      "saturationAndValueRelationship": "Low saturation with high textural detail; values are compressed to mimic vintage film stock.",
+      "paletteRestrictions": [
+        "Earthy tones",
+        "Avoid neon or high-chroma colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Extra-bold weight",
+        "Tight letter spacing (tracking)",
+        "Uniform stroke width",
+        "Flat terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Extra-Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Horizontal",
+            "corners": "Sharp",
+            "counters": "Small/Closed",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked two-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right corner",
+            "scale": "small relative to frame",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over background"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in a stacked, justified-right block.",
+      "graphicDevices": [
+        "Corner-aligned text block"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extra-bold weight",
+          "Tight tracking",
+          "Right alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the sturdy, classic American grotesque feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Neue Black",
+            "reason": "Provides the necessary weight and tight counters.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Inter Extra Bold",
+            "reason": "Modern alternative with similar geometric clarity.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A close-up photograph of a man in a heavy winter parka with a large, shaggy faux-fur hood. The hood is pulled forward, casting a shadow over his eyes. The lighting is warm and soft, with a vintage 1970s film grain. The background is a bright, overexposed neutral white.",
+        "overlayInstruction": "Add two lines of extra-bold, black, uppercase sans-serif text in the top right corner. Align the text to the right with very tight letter spacing and line height."
+      },
+      "verificationChecks": [
+        "Is the fur texture highly detailed?",
+        "Is the text placed strictly in the top right corner?",
+        "Does the image have a warm, vintage film aesthetic?",
+        "Is the subject's face partially shadowed by the hood?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Fur color and length",
+      "Parka fabric color",
+      "Intensity of the eye shadow",
+      "Specific sans-serif typeface weight"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original subject",
+      "Any specific brand logos on the parka",
+      "The exact wording of the original text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile fur texture",
+        "Authentic-looking film grain",
+        "Balanced corner typography"
+      ],
+      "avoid": [
+        "Digital-looking sharpness",
+        "Overly bright or neon colors",
+        "Thin or delicate fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text does not touch the subject's hood.",
+      "Verify the film grain is consistent across the image.",
+      "Check that the shadow on the face looks natural and soft.",
+      "Confirm the right-alignment of the text block."
+    ],
+    "reuseFormula": "Tight portrait + massive fur hood + 70s film grain + top-right bold sans-serif = Vintage Winter Editorial Style"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:28:12.703Z"
+}

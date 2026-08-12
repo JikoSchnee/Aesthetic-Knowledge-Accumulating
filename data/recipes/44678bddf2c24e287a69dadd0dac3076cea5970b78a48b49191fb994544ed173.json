@@ -1,0 +1,263 @@
+{
+  "id": "44678bddf2c24e287a69dadd0dac3076cea5970b78a48b49191fb994544ed173",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:41:32.927Z",
+  "approvedAt": "2026-08-11T08:41:32.927Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:41:32.927Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Testimony: Vol. 2, Love & Politics.jpg",
+    "hash": "44678bddf2c24e287a69dadd0dac3076cea5970b78a48b49191fb994544ed173",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Testimony: Vol. 2, Love & Politics",
+    "artist": "India.Arie",
+    "artworkUrl": "https://coverartarchive.org/release-group/966aa47a-9078-33d6-ab23-ba6c1a112fc6/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/966aa47a-9078-33d6-ab23-ba6c1a112fc6",
+    "releaseGroupId": "966aa47a-9078-33d6-ab23-ba6c1a112fc6",
+    "recordingId": "3c3279e5-99ea-43a6-847f-4e6400aa1bb3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Beautiful FlowerIndia.Arie",
+      "song": "Beautiful Flower",
+      "performer": "India.Arie",
+      "peakPosition": 56,
+      "firstChartDate": "2007-06-16",
+      "lastChartDate": "2007-06-16",
+      "appearances": [
+        {
+          "chartDate": "2007-06-16",
+          "position": 56
+        }
+      ]
+    }
+  },
+  "dedupeText": "dual portrait soul album cover dual portrait soul music leather texture monochrome fashion warm lighting symmetrical composition mirror image symmetry between the two subjects contrast between dark leather textures and bright white headband stripes central vertical axis for all typographic elements warm low key lighting creating a spotlight effect on the floor symmetrical dual portrait central vertical typography high contrast monochrome accessories warm low key lighting",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Dual Portrait Soul Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Editorial Layout"
+      ],
+      "retrievalTags": [
+        "dual portrait",
+        "soul music",
+        "leather texture",
+        "monochrome fashion",
+        "warm lighting",
+        "symmetrical composition"
+      ]
+    },
+    "visualDefinition": "A symmetrical composition featuring two mirrored versions of a woman with an afro and striped headband, seated on a dark, textured floor. The lighting is dramatic with a central glow, highlighting leather-like clothing and metallic jewelry against a dark, moody background.",
+    "coreVisualRelationships": [
+      "Mirror-image symmetry between the two subjects",
+      "Contrast between dark leather textures and bright white headband stripes",
+      "Central vertical axis for all typographic elements",
+      "Warm, low-key lighting creating a spotlight effect on the floor"
+    ],
+    "coreInvariants": [
+      "Striped black and white headbands",
+      "Seated pose with knees drawn up",
+      "Dark, reflective floor texture",
+      "Warm sepia-toned highlights on skin"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two large-scale figures positioned on the left and right thirds, facing inward toward the center.",
+      "visualAnchor": "The central vertical column of text and the large graphic ampersand.",
+      "movementAndEyePath": "Eyes start at the faces, move down the central text column, and rest on the large horizontal name at the bottom.",
+      "negativeSpace": "Dark, shadowy areas at the top corners and between the two figures."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and dark browns in the background and clothing.",
+      "contrastColorRole": "Bright white in the headbands and jewelry highlights.",
+      "accentColorRole": "Muted gold for the central graphic and deep red for the primary text.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast in the highlights.",
+      "paletteRestrictions": [
+        "Avoid bright blues or greens",
+        "Keep tones warm and earthy"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Serif and Script",
+      "letterConstructionRules": [
+        "Primary name uses a heavy, wide serif with custom ligatures and elongated horizontal strokes.",
+        "Secondary text uses a vertical stack with high tracking.",
+        "Subtitle uses a fluid, casual script."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' characters in the main name feature extended crossbars that connect to adjacent letters.",
+        "Large, translucent ampersand acting as a background graphic for the central text."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "custom-serif",
+          "anatomy": {
+            "width": "extra-wide",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp-serif",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "thick-to-thin"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "foreground-overlay"
+          },
+          "treatment": {
+            "fill": "deep-red",
+            "outline": "none",
+            "shadow": "subtle-drop",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "horizontal-stretch"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "medium",
+            "xHeight": "high",
+            "terminals": "bracketed-serif",
+            "corners": "sharp",
+            "counters": "tight",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "widest",
+            "leading": "loose",
+            "lineBreakPattern": "vertical-stack",
+            "density": "light"
+          },
+          "composition": {
+            "position": "center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over-graphic",
+            "relationshipToImage": "central-axis"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "thin-black",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A heavy, custom display serif paired with a light, vertically-stacked serif and a casual script for contrast.",
+      "graphicDevices": [
+        "Large translucent ampersand",
+        "Central light flare"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical stacking of central text",
+          "Extended horizontal bars in main name"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Bright neon colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Copperplate Gothic",
+            "reason": "For the small, wide-tracked central text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "ITC Benguiat",
+            "reason": "For the display text's decorative serif feel.",
+            "confidence": "low"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a symmetrical photo of a woman with an afro and a black-and-white striped headband, wearing black leather, seated on a dark textured floor with a central spotlight effect. Mirror the figure on the left and right sides.",
+        "overlayInstruction": "Place a large, wide red serif name at the bottom. In the center, place a large translucent gold ampersand with white vertically-stacked serif text layered on top. Add a small script subtitle above the ampersand."
+      },
+      "verificationChecks": [
+        "Is the composition symmetrical?",
+        "Is the main name at the bottom wide and red?",
+        "Is there a large ampersand in the center?",
+        "Are the headbands striped black and white?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the central light flare",
+      "Transparency of the ampersand",
+      "Width of the bottom text"
+    ],
+    "mustRedesign": [
+      "Specific brand logos",
+      "Exact facial features of the artist"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic low-key lighting",
+        "Rich leather textures",
+        "Balanced symmetry"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Cluttered backgrounds",
+        "Modern sans-serif typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for proper vertical alignment of central text.",
+      "Ensure the red text at the bottom is legible against the dark floor.",
+      "Verify the mirrored poses look intentional and balanced.",
+      "Confirm the striped pattern on the headbands is crisp."
+    ],
+    "reuseFormula": "Symmetrical dual-portrait + central vertical typography + high-contrast monochrome accessories + warm low-key lighting."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:06:37.659Z"
+}

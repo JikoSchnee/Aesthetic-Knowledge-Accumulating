@@ -1,0 +1,296 @@
+{
+  "id": "d41967c4ef4ead9559197c6593897498b330fa0d8b1d9eed7ab67fbc9a3cc610",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T11:13:36.893Z",
+  "approvedAt": "2026-08-11T11:13:36.893Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T11:13:36.893Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Give It a Try.jpg",
+    "hash": "d41967c4ef4ead9559197c6593897498b330fa0d8b1d9eed7ab67fbc9a3cc610",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Give It a Try",
+    "artist": "Petula Clark",
+    "artworkUrl": "https://coverartarchive.org/release-group/fd3f1f59-fb82-3956-bc62-e812d49a76d4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/fd3f1f59-fb82-3956-bc62-e812d49a76d4",
+    "releaseGroupId": "fd3f1f59-fb82-3956-bc62-e812d49a76d4",
+    "recordingId": "9162177d-8b12-4faa-9386-fcf6aaeade20",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Color My WorldPetula Clark",
+      "song": "Color My World",
+      "performer": "Petula Clark",
+      "peakPosition": 16,
+      "firstChartDate": "1966-12-24",
+      "lastChartDate": "1967-02-18",
+      "appearances": [
+        {
+          "chartDate": "1966-12-24",
+          "position": 69
+        },
+        {
+          "chartDate": "1966-12-31",
+          "position": 38
+        },
+        {
+          "chartDate": "1967-01-07",
+          "position": 28
+        },
+        {
+          "chartDate": "1967-01-14",
+          "position": 23
+        },
+        {
+          "chartDate": "1967-01-21",
+          "position": 16
+        },
+        {
+          "chartDate": "1967-01-28",
+          "position": 16
+        },
+        {
+          "chartDate": "1967-02-04",
+          "position": 19
+        },
+        {
+          "chartDate": "1967-02-11",
+          "position": 28
+        },
+        {
+          "chartDate": "1967-02-18",
+          "position": 50
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro pop vocal album cover 1980s style portrait pink gradient script typography framed photo vocalist central portrait framed by a wide monochromatic border top heavy script balanced by bottom aligned serif blocks soft gradient background contrasting with the dark high contrast portrait square layout pink gradient background centered framed portrait top script bottom serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Pop Vocal Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Digital Music Thumbnail"
+      ],
+      "retrievalTags": [
+        "1980s style",
+        "portrait",
+        "pink gradient",
+        "script typography",
+        "framed photo",
+        "vocalist"
+      ]
+    },
+    "visualDefinition": "A centered portrait of a female vocalist with short blonde hair, set within a thin white-bordered frame against a dusty pink gradient background. The layout features elegant script text at the top and structured serif text at the bottom, evoking a mid-80s adult contemporary aesthetic.",
+    "coreVisualRelationships": [
+      "Central portrait framed by a wide monochromatic border",
+      "Top-heavy script balanced by bottom-aligned serif blocks",
+      "Soft gradient background contrasting with the dark, high-contrast portrait"
+    ],
+    "coreInvariants": [
+      "Thin white internal border around the photo",
+      "Dusty rose to mauve vertical gradient",
+      "High-contrast studio lighting on the subject's face"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered vertical rectangle containing a head-and-shoulders portrait, occupying approximately 40% of the total area.",
+      "visualAnchor": "The subject's eyes and smile within the central frame.",
+      "movementAndEyePath": "Starts at the large script name at the top, drops to the central portrait, and settles on the album title at the bottom.",
+      "negativeSpace": "Substantial pink border area providing a clean, uncluttered frame for the central content."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Dusty rose gradient (background)",
+      "contrastColorRole": "Black (portrait background and clothing)",
+      "accentColorRole": "White (typography and frame border)",
+      "saturationAndValueRelationship": "Low-saturation background with high-value white text and high-contrast dark portrait tones.",
+      "paletteRestrictions": [
+        "Pink",
+        "Mauve",
+        "White",
+        "Black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Calligraphic script and transitional serif",
+      "letterConstructionRules": [
+        "Top text uses a flowing, slanted formal script with high stroke contrast",
+        "Bottom text uses a clean, semi-bold serif with moderate x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "flourished",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by background space"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "soft drop shadow",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "bracketed",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "below central frame"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Calligraphic script for the artist name paired with a sturdy serif for the title to balance elegance with legibility.",
+      "graphicDevices": [
+        "Thin white rectangular stroke framing the portrait",
+        "Subtle vertical gradient"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Script style for top text",
+          "Serif style for bottom text",
+          "White color for all text"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Modern geometric fonts",
+          "Bright neon colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bickham Script",
+            "reason": "Captures the formal, high-contrast calligraphic feel of the top text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Times New Roman Bold",
+            "reason": "Matches the traditional, structured serif look of the bottom text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a square layout with a vertical gradient from light dusty rose at the top to a deeper mauve at the bottom. In the center, place a vertical rectangular portrait of a woman with short blonde hair against a black background, enclosed in a thin white line border.",
+        "overlayInstruction": "Add the artist name in a large white calligraphic script at the top. Add the album title in a medium-sized white bold serif font at the bottom, centered."
+      },
+      "verificationChecks": [
+        "Is the portrait centered and framed by a white line?",
+        "Is the background a soft pink/mauve gradient?",
+        "Is the top text a script font and the bottom text a serif font?",
+        "Is all text white?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Gradient intensity",
+      "Portrait frame thickness",
+      "Script flourish level"
+    ],
+    "mustRedesign": [
+      "Specific artist likeness",
+      "Original brand logos",
+      "Exact wording of the source text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean 80s adult contemporary look",
+        "Balanced symmetrical layout",
+        "Soft, feminine color palette"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Harsh primary colors",
+        "Low-contrast text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the script text is legible despite the flourishes.",
+      "Check that the white border around the photo is perfectly aligned.",
+      "Verify the gradient transition is smooth without banding.",
+      "Confirm the portrait lighting is dramatic with deep shadows."
+    ],
+    "reuseFormula": "Square layout + Pink Gradient Background + Centered Framed Portrait + Top Script/Bottom Serif Typography."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:23:39.801Z"
+}

@@ -1,0 +1,250 @@
+{
+  "id": "07ec156a702ff33c06a0b9755fec3c5d08ce09586a7bc4df76ba7b5c621bf00e",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T07:56:06.370Z",
+  "approvedAt": "2026-08-11T07:56:06.370Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T07:56:06.370Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Nu Flavor.jpg",
+    "hash": "07ec156a702ff33c06a0b9755fec3c5d08ce09586a7bc4df76ba7b5c621bf00e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Nu Flavor",
+    "artist": "Nu Flavor",
+    "artworkUrl": "https://coverartarchive.org/release-group/723766fb-d2c8-32a0-bd94-903eb56c9972/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/723766fb-d2c8-32a0-bd94-903eb56c9972",
+    "releaseGroupId": "723766fb-d2c8-32a0-bd94-903eb56c9972",
+    "recordingId": "e5d6bfed-b6c6-4c09-a0f3-7ba728976017",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Baby Be ThereNu Flavor",
+      "song": "Baby Be There",
+      "performer": "Nu Flavor",
+      "peakPosition": 83,
+      "firstChartDate": "1998-06-13",
+      "lastChartDate": "1998-07-25",
+      "appearances": [
+        {
+          "chartDate": "1998-06-13",
+          "position": 89
+        },
+        {
+          "chartDate": "1998-06-20",
+          "position": 89
+        },
+        {
+          "chartDate": "1998-06-27",
+          "position": 83
+        },
+        {
+          "chartDate": "1998-07-04",
+          "position": 92
+        },
+        {
+          "chartDate": "1998-07-11",
+          "position": 100
+        },
+        {
+          "chartDate": "1998-07-18",
+          "position": 92
+        },
+        {
+          "chartDate": "1998-07-25",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "90s r b group portrait aesthetic boy band 90s aesthetic close up portrait low key lighting geometric sans serif warm skin tones tight proximity of subjects creating a sense of unity contrast between dark background and warm lit faces geometric logo acting as a horizontal divider between the upper and lower subjects direct eye contact from all subjects to the viewer combine a low key group studio portrait with a high contrast wide geometric typographic overlay positioned in the negative space between subjects",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "90s R&B Group Portrait Aesthetic",
+      "category": "Music Photography",
+      "medium": [
+        "Studio Photography",
+        "Digital Graphic Overlay"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Promotional Band Poster",
+        "Nostalgic Social Media Graphic"
+      ],
+      "retrievalTags": [
+        "boy band",
+        "90s aesthetic",
+        "close-up portrait",
+        "low-key lighting",
+        "geometric sans-serif",
+        "warm skin tones"
+      ]
+    },
+    "visualDefinition": "A tight, four-person group portrait featuring male subjects in a diamond-like arrangement against a dark, void-like background. The lighting is soft but directional, emphasizing facial features and warm skin tones, with a bold, horizontally-aligned typographic logo cutting across the center-left.",
+    "coreVisualRelationships": [
+      "Tight proximity of subjects creating a sense of unity",
+      "Contrast between dark background and warm, lit faces",
+      "Geometric logo acting as a horizontal divider between the upper and lower subjects",
+      "Direct eye contact from all subjects to the viewer"
+    ],
+    "coreInvariants": [
+      "Deep black negative space",
+      "Warm, saturated skin tones",
+      "Soft-focus studio lighting",
+      "Low-angle and eye-level perspective mix"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four subjects arranged in a cluster; two in the upper corners, one central-bottom, and one lower-left, all at large scale filling the frame.",
+      "visualAnchor": "The central-bottom subject's face and the bright typographic logo.",
+      "movementAndEyePath": "Eyes move from the top-left face, across to the top-right, down to the central-bottom face, then left to the final face, following a circular path around the logo.",
+      "negativeSpace": "Heavy black negative space in the center and upper-middle areas, providing a high-contrast backdrop for the text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background and clothing) providing depth and contrast.",
+      "contrastColorRole": "Warm tan and peach (skin tones) providing the primary visual interest.",
+      "accentColorRole": "Golden yellow and white (typography) for brand visibility.",
+      "saturationAndValueRelationship": "High value contrast between the black background and the bright text; medium saturation in the skin tones for a healthy, warm glow.",
+      "paletteRestrictions": [
+        "Avoid cool-toned lighting",
+        "Limit background to pure black or very dark charcoal"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Extended horizontal proportions",
+        "Open counters",
+        "Rounded terminals on specific characters to create a custom 'n' and 'u' flow"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'n' and 'u' connected or mirrored to form a single wave-like glyph",
+        "Uppercase 'L' and 'A' with extended horizontal bars"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Extended",
+            "weight": "Medium",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Blunt/Rounded",
+            "corners": "Slightly rounded",
+            "counters": "Wide",
+            "strokeCharacter": "Clean and modern"
+          },
+          "typesetting": {
+            "case": "Mixed Case",
+            "alignment": "Left",
+            "tracking": "Normal to Wide",
+            "leading": "None",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Center-left",
+            "scale": "Medium-large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays subjects slightly",
+            "relationshipToImage": "Floating above the dark space between faces"
+          },
+          "treatment": {
+            "fill": "Solid white and golden yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Smooth",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface with color-coding to distinguish words.",
+      "graphicDevices": [
+        "Color split within a single word string"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric simplicity",
+          "Extended width",
+          "Horizontal alignment"
+        ],
+        "avoid": [
+          "Serifs",
+          "Script fonts",
+          "Heavy drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma or Eurostile Extended",
+            "reason": "Captures the 90s tech-forward geometric feel and wide stance.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bank Gothic",
+            "reason": "Provides the square-off geometric structure typical of the era.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A studio portrait of four men with short dark hair and light facial hair, wearing simple dark shirts. Arrange them in a tight cluster against a solid black background. Use warm, soft key lighting to highlight their faces, ensuring deep shadows in the background.",
+        "overlayInstruction": "Place a wide, geometric sans-serif logo across the center-left. The first two letters should be white and lowercase/stylized, while the remaining letters should be uppercase and golden yellow. Ensure the text is perfectly horizontal and clean."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Are the skin tones warm and saturated?",
+        "Is the typography extended and geometric?",
+        "Are there four distinct faces in a tight arrangement?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects",
+      "Specific accent color of the text",
+      "Tightness of the crop"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the individuals",
+      "Exact brand name or trademarked logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, high-contrast studio lighting",
+        "Balanced but asymmetrical group composition",
+        "Sharp, vector-quality typography"
+      ],
+      "avoid": [
+        "Muddiness in the shadows",
+        "Overly busy backgrounds",
+        "Distorted or handwritten fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for four distinct, clear faces.",
+      "Ensure the text is legible against the dark background.",
+      "Verify the horizontal alignment of the text.",
+      "Confirm the absence of any background elements other than the subjects."
+    ],
+    "reuseFormula": "Combine a low-key group studio portrait with a high-contrast, wide geometric typographic overlay positioned in the negative space between subjects."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T08:12:10.778Z"
+}

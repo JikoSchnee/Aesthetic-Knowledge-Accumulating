@@ -1,0 +1,266 @@
+{
+  "id": "4efd4f7b468913abb1bcc0ac5f15db2c36e6fcf40a3c1a2a192d6d3a9b5e6b75",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T23:32:31.405Z",
+  "approvedAt": "2026-08-11T23:32:31.405Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T23:32:31.405Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "4:44.jpg",
+    "hash": "4efd4f7b468913abb1bcc0ac5f15db2c36e6fcf40a3c1a2a192d6d3a9b5e6b75",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "4:44",
+    "artist": "JAY-Z",
+    "artworkUrl": "https://coverartarchive.org/release-group/aa35dd3d-b629-4a5f-abe9-a8463f80b37e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/aa35dd3d-b629-4a5f-abe9-a8463f80b37e",
+    "releaseGroupId": "aa35dd3d-b629-4a5f-abe9-a8463f80b37e",
+    "recordingId": "76452468-d6c6-4b4f-9320-fdfa59645c21",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Kill Jay ZJAY-Z",
+      "song": "Kill Jay Z",
+      "performer": "JAY-Z",
+      "peakPosition": 55,
+      "firstChartDate": "2017-07-29",
+      "lastChartDate": "2017-07-29",
+      "appearances": [
+        {
+          "chartDate": "2017-07-29",
+          "position": 55
+        }
+      ]
+    }
+  },
+  "dedupeText": "minimalist numeric album cover minimalist peach serif numeric centered modernist extreme scale contrast between the large central numbers and the small top text strict vertical alignment along the center axis high contrast black typography against a muted pastel background generous negative space in the upper two thirds of the frame solid pastel background top metadata horizontal rule large bottom weighted serif typography minimalist editorial cover",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Minimalist Numeric Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Digital Illustration",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Poster Design",
+        "Social Media Graphic"
+      ],
+      "retrievalTags": [
+        "minimalist",
+        "peach",
+        "serif",
+        "numeric",
+        "centered",
+        "modernist"
+      ]
+    },
+    "visualDefinition": "A minimalist, text-driven composition featuring a large numeric display in the lower half and a small metadata line at the top, set against a solid, warm peach background.",
+    "coreVisualRelationships": [
+      "Extreme scale contrast between the large central numbers and the small top text",
+      "Strict vertical alignment along the center axis",
+      "High-contrast black typography against a muted pastel background",
+      "Generous negative space in the upper two-thirds of the frame"
+    ],
+    "coreInvariants": [
+      "Solid peach background color",
+      "Black ink-like typography",
+      "Horizontal rule separating top text from the void",
+      "Symmetrical numeric layout"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large numeric characters dominate the bottom third of the frame, spanning nearly the full width.",
+      "visualAnchor": "The large central colon and flanking numbers act as the primary visual weight.",
+      "movementAndEyePath": "Eye starts at the small top text, follows the vertical axis down through the negative space, and rests on the large numbers.",
+      "negativeSpace": "Extensive open space in the middle section creates a sense of importance and focus."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Peach/Apricot background providing a warm, flat canvas.",
+      "contrastColorRole": "Solid black for all typographic elements and graphic lines.",
+      "accentColorRole": "None; the design relies on binary color contrast.",
+      "saturationAndValueRelationship": "Low-saturation background with high-value contrast against the black foreground.",
+      "paletteRestrictions": [
+        "No gradients",
+        "No textures",
+        "Strictly two colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Traditional high-contrast serif",
+      "letterConstructionRules": [
+        "Strong vertical stress",
+        "Sharp, flat serifs",
+        "Circular dots for punctuation",
+        "Open counters in numeric glyphs"
+      ],
+      "characterSpecificRedesigns": [
+        "Numbers feature slab-like base serifs",
+        "Colon consists of two perfectly circular dots"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "N/A",
+            "terminals": "Sharp",
+            "corners": "Right-angled",
+            "counters": "Large",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "numeric",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "N/A",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "Bottom third",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "primary subject"
+          },
+          "treatment": {
+            "fill": "Solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium-Bold",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Subtle",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Consistent"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "Top margin",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "secondary detail"
+          },
+          "treatment": {
+            "fill": "Solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Monotype pairing using different scales and weights of a similar serif family.",
+      "graphicDevices": [
+        "Thin horizontal line (rule) centered below the top text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Serif style",
+          "Scale disparity",
+          "Peach background"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Vibrant colors",
+          "Centering the large text vertically"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Tiempos Headline",
+            "reason": "High contrast and sharp serifs match the display numbers.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni",
+            "reason": "Classic high-contrast serif with strong verticality.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A solid, flat peach-colored square canvas with no texture or gradients.",
+        "overlayInstruction": "Add a small line of all-caps serif text at the top center. Below it, add a thin black horizontal line. In the bottom third, place large, bold serif numbers separated by a colon, centered horizontally."
+      },
+      "verificationChecks": [
+        "Is the background a solid peach color?",
+        "Is the large text positioned in the bottom third?",
+        "Is there a thin horizontal line below the top text?",
+        "Are all elements perfectly centered horizontally?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background hue (within pastel range)",
+      "Specific numeric value",
+      "Top metadata text content"
+    ],
+    "mustRedesign": [
+      "Specific album titles or artist-specific identifiers",
+      "Exact proprietary font files"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Perfect horizontal centering",
+        "Clean, sharp typographic edges",
+        "Balanced negative space"
+      ],
+      "avoid": [
+        "Clutter",
+        "Low-contrast text",
+        "Off-center alignment"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no artifacts in the solid background",
+      "Check that the colon dots are circular",
+      "Verify the horizontal rule is perfectly straight",
+      "Confirm the scale ratio between top and bottom text is at least 1:10"
+    ],
+    "reuseFormula": "Solid Pastel Background + Top Metadata + Horizontal Rule + Large Bottom-Weighted Serif Typography = Minimalist Editorial Cover"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:08:52.646Z"
+}

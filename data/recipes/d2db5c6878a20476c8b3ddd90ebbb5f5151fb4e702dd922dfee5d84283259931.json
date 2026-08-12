@@ -1,0 +1,248 @@
+{
+  "id": "d2db5c6878a20476c8b3ddd90ebbb5f5151fb4e702dd922dfee5d84283259931",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:50:31.115Z",
+  "approvedAt": "2026-08-11T15:50:31.115Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:50:31.115Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Handsome Devils.jpg",
+    "hash": "d2db5c6878a20476c8b3ddd90ebbb5f5151fb4e702dd922dfee5d84283259931",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Handsome Devils",
+    "artist": "Hello People",
+    "artworkUrl": "https://coverartarchive.org/release-group/a30eab8d-65fb-4e97-ad16-91be9051f478/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a30eab8d-65fb-4e97-ad16-91be9051f478",
+    "releaseGroupId": "a30eab8d-65fb-4e97-ad16-91be9051f478",
+    "recordingId": "b4312c76-2448-458a-b8f0-e2faf413d83b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Future ShockHello People",
+      "song": "Future Shock",
+      "performer": "Hello People",
+      "peakPosition": 71,
+      "firstChartDate": "1975-01-18",
+      "lastChartDate": "1975-03-01",
+      "appearances": [
+        {
+          "chartDate": "1975-01-18",
+          "position": 83
+        },
+        {
+          "chartDate": "1975-01-25",
+          "position": 83
+        },
+        {
+          "chartDate": "1975-02-01",
+          "position": 79
+        },
+        {
+          "chartDate": "1975-02-08",
+          "position": 71
+        },
+        {
+          "chartDate": "1975-02-15",
+          "position": 71
+        },
+        {
+          "chartDate": "1975-02-22",
+          "position": 78
+        },
+        {
+          "chartDate": "1975-03-01",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "theatrical mime portrait mime afro hairstyle white face paint screaming 70s aesthetic theatrical makeup red turtleneck the circular silhouette of the afro framing the oval of the white painted face the stark contrast between the white face paint and the dark hair background the vertical alignment of the open mouth with the central axis of the composition the textural contrast between the soft hair and the sharp defined lines of the makeup centralized theatrical portrait high contrast makeup spherical framing element condensed sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Theatrical Mime Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Studio Lighting"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Theatrical Poster",
+        "Editorial Portraiture"
+      ],
+      "retrievalTags": [
+        "mime",
+        "afro hairstyle",
+        "white face paint",
+        "screaming",
+        "70s aesthetic",
+        "theatrical makeup",
+        "red turtleneck"
+      ]
+    },
+    "visualDefinition": "A high-contrast, centered portrait of a performer with a large afro and white mime makeup, captured in a moment of intense vocalization or screaming against a dark, textured background.",
+    "coreVisualRelationships": [
+      "The circular silhouette of the afro framing the oval of the white-painted face",
+      "The stark contrast between the white face paint and the dark hair/background",
+      "The vertical alignment of the open mouth with the central axis of the composition",
+      "The textural contrast between the soft hair and the sharp, defined lines of the makeup"
+    ],
+    "coreInvariants": [
+      "White greasepaint face with black vertical tear-line details",
+      "Large, spherical dark afro hairstyle",
+      "Wide-open mouth showing teeth and tongue",
+      "Red ribbed garment at the base"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centrally located, filling approximately 80% of the vertical frame from the chest up.",
+      "visualAnchor": "The open mouth and exposed teeth serve as the primary focal point.",
+      "movementAndEyePath": "Eyes are drawn to the bright white face, then drop to the dark cavity of the mouth, then move outward to the texture of the hair.",
+      "negativeSpace": "Dark, vignetted space in the corners emphasizes the central figure."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and black (background and hair)",
+      "contrastColorRole": "Pure white (face paint and teeth)",
+      "accentColorRole": "Muted red (clothing)",
+      "saturationAndValueRelationship": "High value contrast between face and hair; low saturation overall with the exception of the red shirt.",
+      "paletteRestrictions": [
+        "Limit to black, white, red, and skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight letter spacing",
+        "All-caps presentation"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "on top of clothing",
+            "relationshipToImage": "integrated into the lower third"
+          },
+          "treatment": {
+            "fill": "yellowish-white",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for both top and bottom text for consistency.",
+      "graphicDevices": [
+        "Text placement follows the curve of the clothing or hair"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps",
+          "Sans-serif style",
+          "Central alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "High-contrast strokes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Matches the tight, vertical, and bold nature of the original type.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed structure.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a man with a large black afro, wearing white mime makeup with black vertical lines through the eyes, screaming with mouth wide open, wearing a red ribbed turtleneck, against a dark textured background.",
+        "overlayInstruction": "Add centered, all-caps, condensed sans-serif text in a light cream color at the very top and bottom of the frame."
+      },
+      "verificationChecks": [
+        "Is the face paint stark white?",
+        "Is the mouth wide open showing teeth?",
+        "Is the afro perfectly circular and framing the face?",
+        "Is the text condensed and all-caps?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the scream",
+      "Texture of the background",
+      "Specific pattern of the mime makeup lines"
+    ],
+    "mustRedesign": [
+      "Specific brand logos in the corners",
+      "Exact grain/noise pattern of the vintage print"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast theatrical lighting",
+        "Clear mime makeup definition",
+        "Symmetrical composition"
+      ],
+      "avoid": [
+        "Smiling or neutral expressions",
+        "Brightly colored backgrounds",
+        "Modern digital-clean look"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 70s film grain texture",
+      "Ensure the afro is the dominant shape",
+      "Verify the red shirt has a ribbed texture",
+      "Confirm text is legible but secondary to the image"
+    ],
+    "reuseFormula": "Centralized theatrical portrait + high-contrast makeup + spherical framing element + condensed sans-serif typography."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:23:32.128Z"
+}

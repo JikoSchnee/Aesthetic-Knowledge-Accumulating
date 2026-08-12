@@ -1,0 +1,277 @@
+{
+  "id": "4aa36f5ccca150c9aef258d443c1d7f5a06e53382bc685e3685aaf4a3c31622e",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T14:47:51.946Z",
+  "approvedAt": "2026-08-11T14:47:51.946Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T14:47:51.946Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Thanks.jpg",
+    "hash": "4aa36f5ccca150c9aef258d443c1d7f5a06e53382bc685e3685aaf4a3c31622e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Thanks",
+    "artist": "Ivan Neville",
+    "artworkUrl": "https://coverartarchive.org/release-group/912d2376-a7bf-44f6-9403-20c544ef1079/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/912d2376-a7bf-44f6-9403-20c544ef1079",
+    "releaseGroupId": "912d2376-a7bf-44f6-9403-20c544ef1079",
+    "recordingId": "ae8a4ed0-ed9e-44ef-8066-578cc618b150",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Falling Out Of LoveIvan Neville",
+      "song": "Falling Out Of Love",
+      "performer": "Ivan Neville",
+      "peakPosition": 91,
+      "firstChartDate": "1989-02-25",
+      "lastChartDate": "1989-03-11",
+      "appearances": [
+        {
+          "chartDate": "1989-02-25",
+          "position": 91
+        },
+        {
+          "chartDate": "1989-03-04",
+          "position": 91
+        },
+        {
+          "chartDate": "1989-03-11",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban soul album layout 80s aesthetic urban portrait crouching pose salmon pink gradient geometric logo tracklist layout subject positioned on the right balancing the text block on the left soft focus architectural background contrasting with sharp foreground typography warm salmon pink wash unifying disparate photographic and graphic elements geometric emblem acting as a secondary visual anchor to the primary portrait combine a low angle urban portrait with a heavy color wash gradient then overlay a high contrast typographic grid using a mix of ultra thin display and bold functional sans serifs",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Soul Album Layout",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Album Back Cover",
+        "Promotional Poster",
+        "Digital Music Interface"
+      ],
+      "retrievalTags": [
+        "80s aesthetic",
+        "urban portrait",
+        "crouching pose",
+        "salmon pink gradient",
+        "geometric logo",
+        "tracklist layout"
+      ]
+    },
+    "visualDefinition": "A multi-layered composition featuring a portrait of a man in a hat crouching in an urban setting, set against a soft salmon-pink gradient background. The layout includes a tracklist on the left and a stylized geometric emblem in the top-left corner.",
+    "coreVisualRelationships": [
+      "Subject positioned on the right balancing the text block on the left",
+      "Soft-focus architectural background contrasting with sharp foreground typography",
+      "Warm salmon-pink wash unifying disparate photographic and graphic elements",
+      "Geometric emblem acting as a secondary visual anchor to the primary portrait"
+    ],
+    "coreInvariants": [
+      "Salmon-pink color wash across the left third of the frame",
+      "Subject in a low-angle, crouching pose wearing a fedora-style hat",
+      "Vertical tracklist aligned to the left margin"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is medium-scale, positioned in the lower right quadrant, looking upward and away from the camera.",
+      "visualAnchor": "The subject's face and hat serve as the primary focal point, supported by the large display text at the top.",
+      "movementAndEyePath": "Eye starts at the top-right display text, moves down to the subject, then sweeps left across the tracklist to the top-left emblem.",
+      "negativeSpace": "Significant negative space in the upper-left and center, filled with a soft pink gradient and blurred brick textures."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Salmon-pink gradient wash providing the overall mood and background base.",
+      "contrastColorRole": "Deep blacks and browns in the subject's clothing and the architectural shadows.",
+      "accentColorRole": "White for typography and multi-colored rainbow/blue accents within the top-left emblem.",
+      "saturationAndValueRelationship": "Muted saturation in the background with high-value white text and high-contrast dark tones in the subject.",
+      "paletteRestrictions": [
+        "Salmon pink",
+        "Charcoal black",
+        "Brick red",
+        "Pure white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Display text features ultra-thin strokes with double-line accents on specific characters",
+        "Body text is a clean, bold, all-caps sans-serif with slight drop shadows",
+        "Uniform stroke weight for the tracklist for maximum legibility"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'N' in the display name features a diagonal double-line motif",
+        "Vertical orientation for secondary name components"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "light",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "sheared",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "clean"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "horizontal-vertical-mix",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top center-right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "soft-drop",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "grotesque-sans",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "closed",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "loose",
+            "lineBreakPattern": "vertical-list",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "bottom left",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed on solid color field"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle-offset",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Thin, stylized display type paired with heavy, functional body type for contrast.",
+      "graphicDevices": [
+        "Vertical text orientation",
+        "Drop shadows for legibility",
+        "Framed emblem with rainbow and bird motifs"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps styling",
+          "Left-aligned tracklist",
+          "Thin-weight display name"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Captures the geometric 80s feel of the display type",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Bold",
+            "reason": "Matches the clean, functional look of the tracklist",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in a black fedora and vest crouching in front of a blurred brick building. Apply a soft salmon-pink gradient overlay that is most intense on the left side. Leave the top-left corner open for a graphic emblem.",
+        "overlayInstruction": "Add a vertical tracklist in bold white sans-serif on the bottom left. Place a large, thin-weight geometric name at the top right. Add a rectangular emblem in the top left featuring a rainbow and symmetrical blue bird silhouettes."
+      },
+      "verificationChecks": [
+        "Is the salmon-pink gradient smooth and consistent?",
+        "Is the tracklist perfectly left-aligned?",
+        "Does the display text have the characteristic double-line 'N' motif?",
+        "Is the subject's pose low-angle and crouching?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the pink gradient",
+      "Blur level of the architectural background",
+      "Tracking/spacing of the tracklist items"
+    ],
+    "mustRedesign": [
+      "Specific artist name and track titles",
+      "Specific brand logos or trademarks",
+      "Exact facial features of the subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean typographic hierarchy",
+        "Balanced urban-meets-graphic composition",
+        "Consistent 1980s color palette"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast text",
+        "Modern digital filters"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for legibility of white text against the pink background",
+      "Ensure the subject does not overlap with the tracklist",
+      "Verify the geometric emblem is distinct and not muddy",
+      "Confirm the all-caps styling is maintained throughout"
+    ],
+    "reuseFormula": "Combine a low-angle urban portrait with a heavy color-wash gradient, then overlay a high-contrast typographic grid using a mix of ultra-thin display and bold functional sans-serifs."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:08:25.653Z"
+}

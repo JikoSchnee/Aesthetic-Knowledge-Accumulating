@@ -1,0 +1,272 @@
+{
+  "id": "c6b94e0154f759d4d85a770f7ef066260c1982cb8cc79ebe94c2c18c97b01627",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T10:20:51.818Z",
+  "approvedAt": "2026-08-11T10:20:51.818Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T10:20:51.818Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "A.N.T. Farm.jpg",
+    "hash": "c6b94e0154f759d4d85a770f7ef066260c1982cb8cc79ebe94c2c18c97b01627",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "A.N.T. Farm",
+    "artist": "China Anne McClain",
+    "artworkUrl": "https://coverartarchive.org/release-group/6616d792-0322-40f7-ae04-a7734dea341f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6616d792-0322-40f7-ae04-a7734dea341f",
+    "releaseGroupId": "6616d792-0322-40f7-ae04-a7734dea341f",
+    "recordingId": "e59c72ab-c452-4cca-b5a9-d87799f7edc2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Calling All The MonstersChina Anne McClain",
+      "song": "Calling All The Monsters",
+      "performer": "China Anne McClain",
+      "peakPosition": 86,
+      "firstChartDate": "2011-10-15",
+      "lastChartDate": "2011-10-29",
+      "appearances": [
+        {
+          "chartDate": "2011-10-15",
+          "position": 100
+        },
+        {
+          "chartDate": "2011-10-29",
+          "position": 86
+        }
+      ]
+    }
+  },
+  "dedupeText": "high school musical comedy cover art school lockers red background teen pop acoustic guitar plaid blazer bold typography subject positioned on the right third balancing the heavy text block on the left bright red lockers provide a repetitive geometric texture behind the subject high contrast color palette of red white and purple creates a youthful energy the guitar neck acts as a vertical lead in line from the bottom center subject teen youth background repetitive institutional texture graphic layered 3d typography accent angled informational banner high energy youth media cover art",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High School Musical Comedy Cover Art",
+      "category": "Entertainment Branding",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design",
+        "Vector Illustration"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Streaming Thumbnail"
+      ],
+      "retrievalTags": [
+        "school lockers",
+        "red background",
+        "teen pop",
+        "acoustic guitar",
+        "plaid blazer",
+        "bold typography"
+      ]
+    },
+    "visualDefinition": "A vibrant, high-energy composition featuring a smiling teenage girl holding an acoustic guitar against a backdrop of bright red school lockers. The layout uses a heavy, layered typographic treatment in the upper left, anchored by a soft pink spotlight effect.",
+    "coreVisualRelationships": [
+      "Subject positioned on the right third, balancing the heavy text block on the left",
+      "Bright red lockers provide a repetitive geometric texture behind the subject",
+      "High-contrast color palette of red, white, and purple creates a youthful energy",
+      "The guitar neck acts as a vertical lead-in line from the bottom center"
+    ],
+    "coreInvariants": [
+      "Vivid red locker background with visible vents and handles",
+      "Subject wearing a red and black buffalo plaid blazer",
+      "Soft pink circular glow behind the primary title text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is medium-shot, positioned on the right side of the frame, occupying approximately 40% of the horizontal space.",
+      "visualAnchor": "The large, multi-layered title text in the upper left quadrant.",
+      "movementAndEyePath": "Starts at the subject's face, moves left to the large title, then down to the secondary text strip, and finally to the guitar.",
+      "negativeSpace": "Minimal; the frame is densely packed with the locker pattern and large graphic elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Bright primary red (lockers and blazer)",
+      "contrastColorRole": "Crisp white (title fill and shirt)",
+      "accentColorRole": "Deep purple and soft pink (title shadow and glow)",
+      "saturationAndValueRelationship": "High saturation and high value across all elements for a 'pop' aesthetic.",
+      "paletteRestrictions": [
+        "Avoid muted or earthy tones",
+        "Limit to red, white, purple, and black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extra-bold sans-serif",
+      "letterConstructionRules": [
+        "Heavy black outlines on all characters",
+        "Tight, overlapping kerning",
+        "Dramatic drop shadows creating a 3D effect",
+        "Slightly irregular baseline for a playful feel"
+      ],
+      "characterSpecificRedesigns": [
+        "Dots in acronyms are square and integrated into the stroke weight",
+        "Lower text block is slightly arched or warped"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "extended",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper left",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "letters overlap slightly",
+            "relationshipToImage": "layered over a pink glow"
+          },
+          "treatment": {
+            "fill": "white and purple",
+            "outline": "thick black",
+            "shadow": "hard offset purple",
+            "depth": "3D extrusion effect",
+            "texture": "flat",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "condensed-sans",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "straight",
+            "corners": "slightly rounded",
+            "counters": "tight",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "middle left",
+            "scale": "medium",
+            "rotation": "5 degrees counter-clockwise",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within a white rectangular banner"
+          },
+          "treatment": {
+            "fill": "red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "flat",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy display face paired with a condensed, utilitarian sans-serif for information.",
+      "graphicDevices": [
+        "Angled white banner strip",
+        "Soft pink radial gradient glow",
+        "Thick black vector outlines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The 3D stacked effect of the main title",
+          "The angled banner for the secondary text"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Thin stroke weights",
+          "Transparent text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Futura Extra Bold",
+            "reason": "Provides the necessary weight and geometric structure for the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Matches the clean, high-visibility look of the secondary text banner.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A medium shot of a teenage girl with long dark hair, smiling, wearing a red and black plaid blazer over a white top, holding an acoustic guitar. The background is a wall of bright red metal school lockers with visible vents and silver handles. A soft pink circular glow is positioned in the upper left area.",
+        "overlayInstruction": "Add a large, two-tiered title in the upper left over the pink glow using an extra-bold sans-serif. Top tier is white with black outlines; bottom tier is purple with black outlines and a 3D drop shadow. Below this, add a white rectangular banner tilted 5 degrees, containing red condensed sans-serif text."
+      },
+      "verificationChecks": [
+        "Is the locker background a vibrant primary red?",
+        "Does the main title have a thick black outline and 3D depth?",
+        "Is the secondary text contained within a tilted white banner?",
+        "Is the subject positioned to the right to balance the text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Locker color",
+      "Blazer pattern",
+      "Title shadow color",
+      "Banner tilt angle"
+    ],
+    "mustRedesign": [
+      "Specific network logos",
+      "Exact celebrity likeness",
+      "Original show title wording"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast commercial pop aesthetic",
+        "Clean vector-style text effects",
+        "Bright, even studio lighting on the subject"
+      ],
+      "avoid": [
+        "Gritty textures",
+        "Low-saturation colors",
+        "Handwritten or script fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text does not obscure the subject's face",
+      "Verify the 3D effect on the title is consistent",
+      "Check that the red of the lockers doesn't clash with the red of the blazer",
+      "Confirm the pink glow is soft and doesn't have hard edges"
+    ],
+    "reuseFormula": "Subject(Teen/Youth) + Background(Repetitive Institutional Texture) + Graphic(Layered 3D Typography) + Accent(Angled Informational Banner) = High-Energy Youth Media Cover Art."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:22:12.498Z"
+}

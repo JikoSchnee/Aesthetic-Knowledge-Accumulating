@@ -1,0 +1,229 @@
+{
+  "id": "3a1f27d7028decb8792a1781beb81bf8eec68de10d444e79bd2d84ff0b9ca6d5",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T10:19:59.418Z",
+  "approvedAt": "2026-08-11T10:19:59.418Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T10:19:59.418Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Wizrd.jpg",
+    "hash": "3a1f27d7028decb8792a1781beb81bf8eec68de10d444e79bd2d84ff0b9ca6d5",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Wizrd",
+    "artist": "Future",
+    "artworkUrl": "https://coverartarchive.org/release-group/a8677ad1-9667-4370-bd4d-96b6889d8ed3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a8677ad1-9667-4370-bd4d-96b6889d8ed3",
+    "releaseGroupId": "a8677ad1-9667-4370-bd4d-96b6889d8ed3",
+    "recordingId": "795b208b-a983-4152-b1f0-e3cef5122128",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Call The CoronerFuture",
+      "song": "Call The Coroner",
+      "performer": "Future",
+      "peakPosition": 100,
+      "firstChartDate": "2019-02-02",
+      "lastChartDate": "2019-02-02",
+      "appearances": [
+        {
+          "chartDate": "2019-02-02",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty duotone forest portrait grunge duotone distressed forest portrait brutalist analog texture central figure anchored by dark vertical tree trunks high contrast orange and black subject against muted purple borders textured typography mirroring the distressed quality of the background symmetrical horizontal banding framing the organic central scene duotone central image solid color framing bands distressed wide sans serif typography heavy analog grain overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Duotone Forest Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Digital Collage",
+        "Screen Print Texture",
+        "Duotone Photography"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Streetwear Graphic",
+        "Event Poster"
+      ],
+      "retrievalTags": [
+        "grunge",
+        "duotone",
+        "distressed",
+        "forest",
+        "portrait",
+        "brutalist",
+        "analog texture"
+      ]
+    },
+    "visualDefinition": "A high-contrast, gritty duotone portrait of a central figure in a wooded area, framed by solid color bands at the top and bottom. The image features heavy analog-style grain, vertical scan lines, and a weathered screen-print aesthetic.",
+    "coreVisualRelationships": [
+      "Central figure anchored by dark vertical tree trunks",
+      "High-contrast orange and black subject against muted purple borders",
+      "Textured typography mirroring the distressed quality of the background",
+      "Symmetrical horizontal banding framing the organic central scene"
+    ],
+    "coreInvariants": [
+      "Heavy film grain and dust texture across all elements",
+      "Strict duotone treatment for the central image (Orange/Black)",
+      "Solid color headers and footers (Muted Purple)"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central medium shot of a figure, occupying the middle 60% of the vertical space.",
+      "visualAnchor": "The dark silhouette of the figure's torso and the surrounding vertical tree trunks.",
+      "movementAndEyePath": "Eyes start at the top bold text, drop to the central figure's face, and settle on the bottom title text.",
+      "negativeSpace": "Solid horizontal bands at top and bottom provide breathing room for typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Orange (#D34817) provides the mid-tones and highlights for the central image.",
+      "contrastColorRole": "Black (#000000) defines the shadows, figure silhouette, and tree details.",
+      "accentColorRole": "Muted Purple (#8E6DA3) used for the top and bottom framing bands.",
+      "saturationAndValueRelationship": "High contrast in the center with low-saturation, medium-value borders.",
+      "paletteRestrictions": [
+        "Limit to 3 primary hues: Orange, Purple, Black",
+        "No gradients; use halftone or grain for transitions"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold, wide geometric sans-serif",
+      "letterConstructionRules": [
+        "Heavy horizontal weight",
+        "Square proportions",
+        "Distressed 'stamped' or 'eroded' texture applied to glyphs"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are intentionally degraded to show 'ink bleed' or 'missing ink' effects"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small/closed",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "centered within color bands",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by color blocks"
+          },
+          "treatment": {
+            "fill": "orange-to-black distress",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "heavy erosion",
+            "distortion": "rough edges"
+          }
+        }
+      ],
+      "pairingStrategy": "Monospace or small technical sans-serif for secondary metadata.",
+      "graphicDevices": [
+        "Horizontal framing bars",
+        "Small technical icons/logos in corners",
+        "Vertical woodblock-style texture lines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide proportions",
+          "Heavy weight",
+          "Distressed texture"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Clean, high-resolution edges"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Microgramma (Distressed)",
+            "reason": "Matches the heavy, wide geometric presence.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Stencil or Rubber Stamp fonts",
+            "reason": "Provides the necessary eroded texture.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast duotone (orange and black) image of a person with dreadlocks standing in a dark forest. Apply heavy film grain and vertical scan-line textures. Add solid muted purple bands at the top and bottom edges.",
+        "overlayInstruction": "Place wide, extra-bold geometric sans-serif text in the center of the purple bands. Apply a heavy 'eroded' or 'grunge' texture to the text so it appears stamped with orange ink."
+      },
+      "verificationChecks": [
+        "Is the central image strictly duotone?",
+        "Does the text have a weathered, stamped texture?",
+        "Are the top and bottom bands a solid, consistent color?",
+        "Is the grain visible across the entire composition?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the framing bands",
+      "Density of the forest background",
+      "Level of typographic erosion",
+      "Subject pose and attire"
+    ],
+    "mustRedesign": [
+      "Specific artist names or titles",
+      "Record label logos",
+      "Unique eagle illustrations"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Analog screen-print feel",
+        "High-contrast gritty texture",
+        "Balanced horizontal framing"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Thin or elegant typography",
+        "Full-color photography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no smooth surfaces remain; everything must have texture.",
+      "Check that the orange in the text matches the orange in the image.",
+      "Verify the text is perfectly centered horizontally.",
+      "Confirm the vertical scan lines are subtle but present."
+    ],
+    "reuseFormula": "Duotone Central Image + Solid Color Framing Bands + Distressed Wide Sans-Serif Typography + Heavy Analog Grain Overlay."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:06:51.693Z"
+}

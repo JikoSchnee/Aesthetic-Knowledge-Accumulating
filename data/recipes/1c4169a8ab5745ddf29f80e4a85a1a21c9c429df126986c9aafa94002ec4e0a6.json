@@ -1,0 +1,264 @@
+{
+  "id": "1c4169a8ab5745ddf29f80e4a85a1a21c9c429df126986c9aafa94002ec4e0a6",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T14:45:48.250Z",
+  "approvedAt": "2026-08-11T14:45:48.250Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T14:45:48.250Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Fallen Angel....jpg",
+    "hash": "1c4169a8ab5745ddf29f80e4a85a1a21c9c429df126986c9aafa94002ec4e0a6",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Fallen Angel...",
+    "artist": "Webb Pierce",
+    "artworkUrl": "https://coverartarchive.org/release-group/c934872c-84c3-47b4-b2f5-1d79defc94e6/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c934872c-84c3-47b4-b2f5-1d79defc94e6",
+    "releaseGroupId": "c934872c-84c3-47b4-b2f5-1d79defc94e6",
+    "recordingId": "89e656dc-4155-4676-8f78-cf7deb2631d9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Fallen AngelWebb Pierce",
+      "song": "Fallen Angel",
+      "performer": "Webb Pierce",
+      "peakPosition": 99,
+      "firstChartDate": "1960-11-19",
+      "lastChartDate": "1960-11-19",
+      "appearances": [
+        {
+          "chartDate": "1960-11-19",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century country music album cover 1950s nudie suit country music split screen layout drop shadow typography americana vertical division between a blue toned photographic panel and a warm white text panel contrast between fluid script lettering and rigid blocky sans serif type visual weight balance between the musician s guitar and the large scale red text split screen layout ratio 1 2 subject in decorative uniform script title with shadow ultra condensed block name muted primary palette",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Country Music Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Offset Printing",
+        "Photography",
+        "Hand-Lettering"
+      ],
+      "useCases": [
+        "Vintage Album Art",
+        "Retro Poster Design",
+        "Music Industry Branding"
+      ],
+      "retrievalTags": [
+        "1950s",
+        "Nudie Suit",
+        "Country Music",
+        "Split-Screen Layout",
+        "Drop Shadow Typography",
+        "Americana"
+      ]
+    },
+    "visualDefinition": "A vertical split-composition album cover featuring a full-body portrait of a male musician in a decorative suit on the left, contrasted against a textured off-white field with bold, multi-style typography on the right.",
+    "coreVisualRelationships": [
+      "Vertical division between a blue-toned photographic panel and a warm-white text panel",
+      "Contrast between fluid, script lettering and rigid, blocky sans-serif type",
+      "Visual weight balance between the musician's guitar and the large-scale red text"
+    ],
+    "coreInvariants": [
+      "Split-screen layout with approximately 1/3 photo and 2/3 text field",
+      "High-contrast red and black typography against a light background",
+      "A musician in a highly decorative, embroidered western-style suit"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Musician positioned on the far left, occupying the full vertical height of the blue panel.",
+      "visualAnchor": "The large, bold red name in the center-right serves as the primary focal point.",
+      "movementAndEyePath": "Starts at the musician's face, moves right to the script title, drops down to the large red name, and ends at the tracklist at the bottom.",
+      "negativeSpace": "Ample breathing room around the typography on the right to emphasize the scale of the letters."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/cream background for the text panel.",
+      "contrastColorRole": "Vibrant blue for the photographic background and suit.",
+      "accentColorRole": "Bright red for the primary display text.",
+      "saturationAndValueRelationship": "High saturation in the red and blue elements against a low-saturation, high-value background.",
+      "paletteRestrictions": [
+        "Primary Red",
+        "Cerulean Blue",
+        "Cream",
+        "Black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Mix of upright script and condensed grotesque sans-serif",
+      "letterConstructionRules": [
+        "Script: High-contrast strokes with large, circular loops on ascenders and descenders.",
+        "Sans-serif: Ultra-condensed, heavy weight with flat terminals and tight apertures."
+      ],
+      "characterSpecificRedesigns": [
+        "Script 'F' features an exaggerated top loop that extends over subsequent letters.",
+        "Sans-serif 'W' and 'M' have vertical outer strokes."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "0.9em",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "center-right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "adjacent"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "looped",
+            "corners": "round",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top-right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "adjacent"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "soft red offset drop shadow",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme contrast between organic script and industrial sans-serif.",
+      "graphicDevices": [
+        "Vertical color block",
+        "Offset drop shadow on script text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The specific red drop shadow on the black script",
+          "The ultra-condensed nature of the red block text"
+        ],
+        "avoid": [
+          "Modern digital gradients",
+          "Clean, thin sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Champion Gothic or Impact",
+            "reason": "Matches the heavy, condensed feel of the main name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral or Kaufmann",
+            "reason": "Captures the mid-century brush script aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a split-screen image. The left 30% is a solid blue panel featuring a full-body portrait of a smiling man in a blue western suit with floral embroidery, holding an acoustic guitar. The right 70% is a textured, off-white paper background.",
+        "overlayInstruction": "Apply a black script title with a red offset drop shadow at the top right. Below it, place a large, two-line name in ultra-condensed bold red sans-serif. Add a small tracklist in a simple black sans-serif at the bottom right."
+      },
+      "verificationChecks": [
+        "Is the red text significantly larger than the script text?",
+        "Does the script text have a visible red drop shadow?",
+        "Is the musician's suit clearly decorated with floral patterns?",
+        "Is the layout strictly divided vertically?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Width of the blue panel",
+      "Color of the floral embroidery",
+      "Intensity of the paper texture"
+    ],
+    "mustRedesign": [
+      "Specific record label logos",
+      "Original artist name and album title",
+      "Specific catalog numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1950s color palette",
+        "Balanced split-screen composition",
+        "High-impact typographic hierarchy"
+      ],
+      "avoid": [
+        "Digital-looking drop shadows",
+        "Perfectly white backgrounds",
+        "Modern slim fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 'haloing' or printing artifacts to simulate vintage offset press.",
+      "Ensure the red shadow on the script is offset down and to the right.",
+      "Verify the guitar details look period-appropriate.",
+      "Confirm the red text is vertically centered in its field."
+    ],
+    "reuseFormula": "Split-screen layout [Ratio 1:2] + [Subject in Decorative Uniform] + [Script Title with Shadow] + [Ultra-Condensed Block Name] + [Muted Primary Palette]"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:04:07.346Z"
+}

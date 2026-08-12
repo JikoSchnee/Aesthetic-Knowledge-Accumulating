@@ -1,0 +1,275 @@
+{
+  "id": "826bcd78d2a0e12628da38d976f3f8da9b9e6e84d89a9dac159af849294f1209",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T18:46:43.224Z",
+  "approvedAt": "2026-08-11T18:46:43.224Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T18:46:43.224Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Bet The Farm.jpg",
+    "hash": "826bcd78d2a0e12628da38d976f3f8da9b9e6e84d89a9dac159af849294f1209",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Bet The Farm",
+    "artist": "LOCASH",
+    "artworkUrl": "https://coverartarchive.org/release-group/c41abc11-3ea6-4bb2-8f4b-04553a7bc912/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c41abc11-3ea6-4bb2-8f4b-04553a7bc912",
+    "releaseGroupId": "c41abc11-3ea6-4bb2-8f4b-04553a7bc912",
+    "recordingId": "a2bebdb7-4480-498f-a277-c7a61f09452e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Hometown HomeLOCASH",
+      "song": "Hometown Home",
+      "performer": "LOCASH",
+      "peakPosition": 91,
+      "firstChartDate": "2025-04-12",
+      "lastChartDate": "2025-04-19",
+      "appearances": [
+        {
+          "chartDate": "2025-04-12",
+          "position": 91
+        },
+        {
+          "chartDate": "2025-04-19",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "rustic outlaw country album cover rustic country music outlaw distressed wood camo denim low angle gritty texture symmetry between the two seated figures creates a balanced but informal composition the low angle perspective emphasizes the subjects presence and the texture of the wooden floor high contrast lighting creates deep shadows enhancing the outlaw or rugged aesthetic textural harmony between the weathered wood background and the distressed treatment of the typography rustic portrait low angle distressed slab serif desaturated earth tones",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Rustic Outlaw Country Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Distressed Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "rustic",
+        "country music",
+        "outlaw",
+        "distressed wood",
+        "camo",
+        "denim",
+        "low angle",
+        "gritty texture"
+      ]
+    },
+    "visualDefinition": "A gritty, low-angle portrait of two men in casual rustic attire sitting in leather chairs against a weathered wooden wall, framed by heavy distressed slab-serif typography at the top and a gestural signature-style mark at the bottom.",
+    "coreVisualRelationships": [
+      "Symmetry between the two seated figures creates a balanced but informal composition.",
+      "The low-angle perspective emphasizes the subjects' presence and the texture of the wooden floor.",
+      "High-contrast lighting creates deep shadows, enhancing the 'outlaw' or rugged aesthetic.",
+      "Textural harmony between the weathered wood background and the distressed treatment of the typography."
+    ],
+    "coreInvariants": [
+      "Desaturated color palette with earthy tones.",
+      "Heavy vignette effect drawing focus to the center.",
+      "Distressed, stone-like texture applied to the primary display text."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two subjects centered horizontally, occupying the middle third of the frame vertically, scaled to appear imposing.",
+      "visualAnchor": "The primary title at the top center acts as the heaviest visual weight.",
+      "movementAndEyePath": "Starts at the top title, moves down through the subjects' faces, and settles on the gestural mark at the bottom.",
+      "negativeSpace": "Utilized in the upper and lower margins to house typography without obscuring the subjects."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted browns and greys from the wooden interior.",
+      "contrastColorRole": "Deep blacks in the shadows and leather chairs.",
+      "accentColorRole": "Faded orange and blue from the camouflage and denim clothing.",
+      "saturationAndValueRelationship": "Low saturation across all channels with high value contrast in the highlights and shadows.",
+      "paletteRestrictions": [
+        "Avoid vibrant or neon colors",
+        "Limit to earthy, organic tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy slab-serif with spurred midpoints",
+      "letterConstructionRules": [
+        "Blocky, high-weight strokes",
+        "Sharp, aggressive serifs",
+        "Internal distressing mimicking cracked stone or weathered wood",
+        "Irregular, jagged edges"
+      ],
+      "characterSpecificRedesigns": [
+        "Spurs added to the vertical stems of letters like 'H' and 'M'",
+        "Eroded counters to enhance the aged look"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif / Western",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Black",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Spurred",
+            "corners": "Sharp",
+            "counters": "Small",
+            "strokeCharacter": "Rugged"
+          },
+          "typesetting": {
+            "case": "All Caps",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating above subjects"
+          },
+          "treatment": {
+            "fill": "Textured grey/beige",
+            "outline": "None",
+            "shadow": "Subtle drop shadow for legibility",
+            "depth": "Flat with internal texture",
+            "texture": "Cracked stone",
+            "distortion": "Eroded edges"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Hand-lettered / Script",
+          "anatomy": {
+            "width": "Variable",
+            "weight": "Thin to Medium",
+            "contrast": "High",
+            "xHeight": "Low",
+            "terminals": "Tapered",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Gestural"
+          },
+          "typesetting": {
+            "case": "Mixed",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Bottom center",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Overlays floor",
+            "relationshipToImage": "Integrated into foreground"
+          },
+          "treatment": {
+            "fill": "Off-white with transparency",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Slightly grainy",
+            "distortion": "Natural handwriting variation"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a heavy, rigid slab-serif with a light, fluid gestural script.",
+      "graphicDevices": [
+        "Vignetting",
+        "Texture overlays",
+        "Low-angle perspective"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab-serif classification",
+          "Distressed texture",
+          "All-caps display style"
+        ],
+        "avoid": [
+          "Clean, modern sans-serifs",
+          "Bright colors",
+          "Centered subjects without low-angle"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Ironwood or Mesquite",
+            "reason": "Captures the spurred, western slab-serif aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Custom gestural signature",
+            "reason": "The bottom text requires a unique, non-font appearance to look authentic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-angle photograph of two men in rustic clothing (camo jacket, denim, cowboy hat, baseball cap) sitting in dark leather armchairs inside a weathered wooden barn. Use desaturated, high-contrast lighting with a heavy vignette.",
+        "overlayInstruction": "Apply a heavy, distressed slab-serif title in all caps at the top center with a cracked stone texture. Add a light, gestural off-white signature-style mark at the bottom center, slightly transparent to blend with the floor texture."
+      },
+      "verificationChecks": [
+        "Is the lighting high-contrast and moody?",
+        "Does the top text have a visible weathered texture?",
+        "Is the perspective low-angle?",
+        "Is the color palette desaturated and earthy?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the vignette",
+      "Level of distressing on the typography",
+      "Specific clothing items (e.g., swapping camo for flannel)",
+      "The degree of desaturation"
+    ],
+    "mustRedesign": [
+      "Any specific brand logos on hats or shoes",
+      "The specific facial features of the subjects",
+      "The exact wording of the text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Gritty, tactile texture",
+        "Balanced but informal symmetry",
+        "Legible but heavily distressed typography"
+      ],
+      "avoid": [
+        "Clean, studio-style lighting",
+        "Saturated primary colors",
+        "Modern, minimalist fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "The image feels like a cohesive music album cover.",
+      "The typography does not look like a clean digital font overlay.",
+      "The subjects look integrated into the environment.",
+      "The mood is consistently rugged and 'outlaw'."
+    ],
+    "reuseFormula": "Rustic Portrait + Low Angle + Distressed Slab Serif + Desaturated Earth Tones"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:14:19.199Z"
+}

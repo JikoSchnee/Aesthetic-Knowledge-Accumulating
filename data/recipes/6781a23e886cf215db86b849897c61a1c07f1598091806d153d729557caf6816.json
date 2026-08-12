@@ -1,0 +1,163 @@
+{
+  "id": "6781a23e886cf215db86b849897c61a1c07f1598091806d153d729557caf6816",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:08:29.353Z",
+  "approvedAt": "2026-08-11T22:08:29.353Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:08:29.353Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "DAYTONA.jpg",
+    "hash": "6781a23e886cf215db86b849897c61a1c07f1598091806d153d729557caf6816",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "DAYTONA",
+    "artist": "Pusha T",
+    "artworkUrl": "https://coverartarchive.org/release-group/c51761fc-9f1b-486e-9ff2-74aafb5b70ea/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c51761fc-9f1b-486e-9ff2-74aafb5b70ea",
+    "releaseGroupId": "c51761fc-9f1b-486e-9ff2-74aafb5b70ea",
+    "recordingId": "41e2c066-5528-4d37-9f56-e19a2ab0bdcf",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "If You Know You KnowPusha T",
+      "song": "If You Know You Know",
+      "performer": "Pusha T",
+      "peakPosition": 73,
+      "firstChartDate": "2018-06-09",
+      "lastChartDate": "2018-06-09",
+      "appearances": [
+        {
+          "chartDate": "2018-06-09",
+          "position": 73
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty grunge domestic decay grunge distressed bathroom messy flash photography chemical burn decay lo fi harsh artificial light reflecting off a mirror vs dark muddy perimeter domestic clutter vs aggressive physical destruction of the image medium clean white cabinetry vs chaotic textured grime and stains combine a harsh flash lit domestic interior with a heavy multi layered chemical erosion frame in dark purple and rust tones",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Grunge Domestic Decay",
+      "category": "Album Art",
+      "medium": [
+        "Flash Photography",
+        "Mixed Media Collage",
+        "Distressed Film"
+      ],
+      "useCases": [
+        "Experimental Music Cover",
+        "Gritty Urban Editorial",
+        "Psychological Thriller Visuals"
+      ],
+      "retrievalTags": [
+        "grunge",
+        "distressed",
+        "bathroom",
+        "messy",
+        "flash photography",
+        "chemical burn",
+        "decay",
+        "lo-fi"
+      ]
+    },
+    "visualDefinition": "A high-contrast, flash-lit photograph of a cluttered bathroom vanity, framed by heavy, organic chemical distressing and dark purple/red ink-like stains that obscure the edges of the frame.",
+    "coreVisualRelationships": [
+      "Harsh artificial light reflecting off a mirror vs. dark, muddy perimeter",
+      "Domestic clutter vs. aggressive physical destruction of the image medium",
+      "Clean white cabinetry vs. chaotic, textured grime and stains"
+    ],
+    "coreInvariants": [
+      "Heavy vignette of purple and brown chemical erosion",
+      "Direct, centered flash reflection in the mirror",
+      "Extreme clutter including papers, containers, and tools on the counter"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The bathroom counter and sink occupy the central horizontal band, viewed from a slightly elevated eye-level.",
+      "visualAnchor": "The bright white sink and the central flash reflection in the mirror.",
+      "movementAndEyePath": "The eye starts at the central flash point, moves down to the cluttered counter, and then is pushed back inward by the heavy, textured borders.",
+      "negativeSpace": "Minimal; the frame is packed with either physical objects or dense, textured chemical decay."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white and beige (countertop and cabinets)",
+      "contrastColorRole": "Deep purple and rust-brown (chemical borders)",
+      "accentColorRole": "Cyan-blue (flash reflection tint)",
+      "saturationAndValueRelationship": "High value contrast between the bright flash and dark borders; low saturation in the center with high saturation in the 'damaged' areas.",
+      "paletteRestrictions": [
+        "Avoid clean primary colors",
+        "Muted, dirty tones only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Chemical burn textures",
+        "Film grain",
+        "Ink splatters",
+        "Torn paper edges"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a messy bathroom counter with a sink, gold faucets, and scattered trash. Use harsh direct flash photography. The scene should look lived-in and slightly derelict.",
+        "overlayInstruction": "Apply a heavy, organic frame of purple and brown chemical erosion, mimicking damaged polaroid film or acid-burnt paper. Ensure the center remains visible but the edges are heavily textured and dark."
+      },
+      "verificationChecks": [
+        "Does the flash reflection appear in the mirror?",
+        "Is the border texture organic and messy?",
+        "Is the clutter on the counter diverse and non-repeating?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the chemical burn",
+      "Amount of clutter on the counter",
+      "Color of the border stains",
+      "Brightness of the flash"
+    ],
+    "mustRedesign": [
+      "Any recognizable brand logos on the trash",
+      "Clear faces in the mirror reflection",
+      "Legible text on the scattered papers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Gritty, lo-fi texture",
+        "Sense of domestic chaos",
+        "Authentic film damage appearance"
+      ],
+      "avoid": [
+        "Clean, digital-looking gradients",
+        "Neat organization",
+        "Soft, diffused lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for realistic flash fall-off",
+      "Ensure the 'damage' looks like a physical layer over the photo",
+      "Verify the color palette remains muddy and distressed"
+    ],
+    "reuseFormula": "Combine a harsh flash-lit domestic interior with a heavy, multi-layered chemical erosion frame in dark purple and rust tones."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:11:43.103Z"
+}

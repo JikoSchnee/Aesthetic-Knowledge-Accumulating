@@ -1,0 +1,271 @@
+{
+  "id": "9a11d35d4598877c990c7f6957753117164ff9f9c1b4c1398643a8ad5a6ee8b1",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T19:05:35.228Z",
+  "approvedAt": "2026-08-11T19:05:35.228Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T19:05:35.228Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "How They Remember You.jpg",
+    "hash": "9a11d35d4598877c990c7f6957753117164ff9f9c1b4c1398643a8ad5a6ee8b1",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "How They Remember You",
+    "artist": "Rascal Flatts",
+    "artworkUrl": "https://coverartarchive.org/release-group/ce88b66d-40b2-4737-8fb6-6bfde67e3008/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ce88b66d-40b2-4737-8fb6-6bfde67e3008",
+    "releaseGroupId": "ce88b66d-40b2-4737-8fb6-6bfde67e3008",
+    "recordingId": "93c5b9e3-6e55-4bd1-9f45-7d096c0f85c0",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "How They Remember YouRascal Flatts",
+      "song": "How They Remember You",
+      "performer": "Rascal Flatts",
+      "peakPosition": 89,
+      "firstChartDate": "2021-02-27",
+      "lastChartDate": "2021-05-08",
+      "appearances": [
+        {
+          "chartDate": "2021-02-27",
+          "position": 100
+        },
+        {
+          "chartDate": "2021-05-08",
+          "position": 89
+        }
+      ]
+    }
+  },
+  "dedupeText": "contemporary country trio album cover male trio studio portrait yellow background condensed sans serif denim and leather country pop subject to background contrast via warm yellow vs cool blue black clothing text to subject layering where typography sits in front of the mid sections triangular composition with the central figure slightly forward studio portrait solid warm background centered condensed sans serif overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Contemporary Country Trio Album Cover",
+      "category": "Music Promotion",
+      "medium": [
+        "Studio Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Album Artwork",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "male trio",
+        "studio portrait",
+        "yellow background",
+        "condensed sans-serif",
+        "denim and leather",
+        "country pop"
+      ]
+    },
+    "visualDefinition": "A clean studio portrait of three men in modern casual-rock attire, positioned against a solid pale yellow backdrop with a centered, two-tiered typographic overlay using high-contrast condensed fonts.",
+    "coreVisualRelationships": [
+      "Subject-to-background contrast via warm yellow vs cool blue/black clothing",
+      "Text-to-subject layering where typography sits in front of the mid-sections",
+      "Triangular composition with the central figure slightly forward"
+    ],
+    "coreInvariants": [
+      "Solid, seamless pale yellow background",
+      "Condensed, all-caps sans-serif typography",
+      "Soft studio lighting with minimal harsh shadows"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three men framed from the waist up, filling the horizontal width of the frame.",
+      "visualAnchor": "The central figure in the blue leather jacket acts as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the central face, move down to the large white text, then scan the flanking figures.",
+      "negativeSpace": "Ample negative space at the top above the heads and at the bottom corners."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pale yellow (background) providing a warm, neutral base.",
+      "contrastColorRole": "Deep blues and blacks (clothing) creating a strong silhouette.",
+      "accentColorRole": "Gold/Tan (secondary text) and White (primary text).",
+      "saturationAndValueRelationship": "High value background with medium-to-low value subjects; text uses maximum brightness for legibility.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Limit to warm yellows, cool blues, and neutrals"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Tight internal counters",
+        "All-caps presentation"
+      ],
+      "characterSpecificRedesigns": [
+        "None; standard geometric condensed forms"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Extra-condensed",
+            "weight": "Bold",
+            "contrast": "Monolinear",
+            "xHeight": "Full cap height",
+            "terminals": "Straight",
+            "corners": "Slightly rounded or sharp",
+            "counters": "Narrow",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Center-middle",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Overlays subjects",
+            "relationshipToImage": "Foreground layer"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Monolinear",
+            "xHeight": "Full cap height",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Narrow",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Directly below display text",
+            "scale": "Small (approx 25% of display)",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Overlays subjects",
+            "relationshipToImage": "Foreground layer"
+          },
+          "treatment": {
+            "fill": "Muted Gold / Tan",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Size and color contrast within the same font family or similar condensed sans-serifs.",
+      "graphicDevices": [
+        "None"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed verticality",
+          "All-caps styling",
+          "Centered alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Italics"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Matches the clean, condensed, all-caps impact of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and verticality for the display role.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "DIN Condensed",
+            "reason": "Offers a professional, modern feel for the subtitle text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of three men in their 40s with modern hairstyles, wearing blue leather and denim jackets, standing against a solid pale yellow seamless background. The lighting should be even and soft.",
+        "overlayInstruction": "Add two lines of centered text in the middle of the frame. The top line should be large, white, and in an extra-condensed bold sans-serif. The bottom line should be smaller, in a muted gold color, with wider letter spacing."
+      },
+      "verificationChecks": [
+        "Text is perfectly centered horizontally",
+        "Background is a flat, non-distracting yellow",
+        "Typography is legible against the clothing textures"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue",
+      "Clothing textures (leather vs denim)",
+      "Text color for the subtitle"
+    ],
+    "mustRedesign": [
+      "Specific band member likenesses",
+      "Original band name and album title text",
+      "Any specific brand logos on clothing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean studio lighting",
+        "Balanced triangular composition",
+        "High-impact condensed typography"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast text",
+        "Overly aggressive photo filters"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text does not obscure the faces",
+      "Check that the yellow background is consistent and seamless",
+      "Verify the all-caps styling is maintained",
+      "Confirm the color palette remains within warm yellow and cool blue tones"
+    ],
+    "reuseFormula": "Studio Portrait + Solid Warm Background + Centered Condensed Sans-Serif Overlay"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:16:48.345Z"
+}

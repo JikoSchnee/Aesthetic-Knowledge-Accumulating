@@ -1,0 +1,289 @@
+{
+  "id": "bbe4f29dce5092a9fc81b7787f51a065d78c1b0c35f001b68a641255142aaeb1",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T10:34:37.163Z",
+  "approvedAt": "2026-08-11T10:34:37.163Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T10:34:37.163Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "12 in a Roe.jpg",
+    "hash": "bbe4f29dce5092a9fc81b7787f51a065d78c1b0c35f001b68a641255142aaeb1",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "12 in a Roe",
+    "artist": "Tommy Roe",
+    "artworkUrl": "https://coverartarchive.org/release-group/1ffd11cd-ced0-42ed-87ca-b36219a1440f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1ffd11cd-ced0-42ed-87ca-b36219a1440f",
+    "releaseGroupId": "1ffd11cd-ced0-42ed-87ca-b36219a1440f",
+    "recordingId": "3b624da6-e771-4356-960d-f8fbb6fa17be",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "CarolTommy Roe",
+      "song": "Carol",
+      "performer": "Tommy Roe",
+      "peakPosition": 61,
+      "firstChartDate": "1964-04-25",
+      "lastChartDate": "1964-05-30",
+      "appearances": [
+        {
+          "chartDate": "1964-04-25",
+          "position": 96
+        },
+        {
+          "chartDate": "1964-05-02",
+          "position": 85
+        },
+        {
+          "chartDate": "1964-05-09",
+          "position": 79
+        },
+        {
+          "chartDate": "1964-05-16",
+          "position": 69
+        },
+        {
+          "chartDate": "1964-05-23",
+          "position": 61
+        },
+        {
+          "chartDate": "1964-05-30",
+          "position": 70
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro pop compilation cover 1960s mid century modern sans serif collage pop music blue background scale contrast between the large central bust and the miniature full body figures at the base alignment of text block with the left edge of the composition color harmony between the warm skin tones cream clothing and the cool blue backdrop solid dark background large subject portrait miniature subject row at base bold left aligned sans serif typography block",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Pop Compilation Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Collage"
+      ],
+      "useCases": [
+        "Vinyl Record Packaging",
+        "Music Anthology Design",
+        "Retro Poster Art"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "Mid-century Modern",
+        "Sans-serif",
+        "Collage",
+        "Pop Music",
+        "Blue Background"
+      ]
+    },
+    "visualDefinition": "A mid-century pop music album cover featuring a large central portrait of a male artist superimposed over a row of smaller full-body figures of the same artist in various poses. The layout uses a deep blue background with stark white sans-serif typography concentrated in the upper-left quadrant.",
+    "coreVisualRelationships": [
+      "Scale contrast between the large central bust and the miniature full-body figures at the base",
+      "Alignment of text block with the left edge of the composition",
+      "Color harmony between the warm skin tones/cream clothing and the cool blue backdrop"
+    ],
+    "coreInvariants": [
+      "Solid deep blue background",
+      "White sans-serif typography",
+      "Multiple instances of the same subject",
+      "Left-justified text block"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large central portrait occupies the right two-thirds; a horizontal line of small figures anchors the bottom edge.",
+      "visualAnchor": "The large smiling face of the artist serves as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the bold title in the top left, move down the tracklist, then sweep right to the large portrait and down to the small figures.",
+      "negativeSpace": "Significant negative space in the upper right and around the text block to maintain clarity."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep navy blue background providing high contrast for white text.",
+      "contrastColorRole": "White for all typographic elements.",
+      "accentColorRole": "Warm cream and tan tones in the subject's clothing and skin.",
+      "saturationAndValueRelationship": "High value contrast between the bright subjects/text and the dark, saturated background.",
+      "paletteRestrictions": [
+        "No bright primary colors except for small details",
+        "Avoid gradients in the background"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight letter spacing (kerning)",
+        "Large x-height",
+        "Closed apertures on 'G' and 'S'"
+      ],
+      "characterSpecificRedesigns": [
+        "Straight-legged 'R'",
+        "Square-dotted 'i'",
+        "Vertically cut terminals"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top Left",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separated by negative space"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Normal",
+            "leading": "Normal",
+            "lineBreakPattern": "List",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Middle Left",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over background"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in varying scales and weights for hierarchy.",
+      "graphicDevices": [
+        "Vertical list alignment",
+        "Scale-based hierarchy"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Tight leading",
+          "Left alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the sturdy, mid-century American sans-serif aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Bold",
+            "reason": "Provides the necessary geometric clarity and tight spacing.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a man with a 1960s hairstyle wearing a cream shirt against a solid dark blue background. At the bottom, include a row of 10-12 miniature versions of the same man in grey suits and straw hats in various standing poses.",
+        "overlayInstruction": "Add bold, white, uppercase geometric sans-serif text in the top left corner. The main title should be large and stacked, followed by a list of smaller text items aligned to the left margin."
+      },
+      "verificationChecks": [
+        "Is the text strictly left-aligned?",
+        "Is the background a solid, non-gradient blue?",
+        "Are there two distinct scales of the subject present?",
+        "Is the typography entirely uppercase?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background blue saturation",
+      "Number of miniature figures at the bottom",
+      "Weight of the display font",
+      "Subject's clothing color"
+    ],
+    "mustRedesign": [
+      "Avoid any modern digital gradients",
+      "Do not use lowercase letters in the primary text blocks",
+      "Ensure the miniature figures do not overlap the main title text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typographic edges",
+        "Balanced distribution of visual weight between text and image",
+        "Authentic 1960s photographic lighting"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast text",
+        "Modern sans-serifs with thin weights"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for consistent lighting across all subject instances",
+      "Verify that the text block does not touch the subject's face",
+      "Ensure the blue color is deep enough to make white text pop",
+      "Confirm all text is left-justified"
+    ],
+    "reuseFormula": "Solid dark background + Large subject portrait + Miniature subject row at base + Bold left-aligned sans-serif typography block."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:21:02.370Z"
+}

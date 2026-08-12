@@ -1,0 +1,290 @@
+{
+  "id": "76f321679f2320045713ab2c5d327fbc85781e0ad4d73fb2c0a775eb4df2ddd9",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T20:29:02.112Z",
+  "approvedAt": "2026-08-11T20:29:02.112Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T20:29:02.112Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "In Time.jpg",
+    "hash": "76f321679f2320045713ab2c5d327fbc85781e0ad4d73fb2c0a775eb4df2ddd9",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "In Time",
+    "artist": "Engelbert Humperdinck",
+    "artworkUrl": "https://coverartarchive.org/release-group/2662af62-d04d-45c3-be0d-4c7efac16b3a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/2662af62-d04d-45c3-be0d-4c7efac16b3a",
+    "releaseGroupId": "2662af62-d04d-45c3-be0d-4c7efac16b3a",
+    "recordingId": "cffe2e69-2c8f-4252-baa3-3f47dd4c9976",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I Never Said GoodbyeEngelbert Humperdinck",
+      "song": "I Never Said Goodbye",
+      "performer": "Engelbert Humperdinck",
+      "peakPosition": 61,
+      "firstChartDate": "1972-12-30",
+      "lastChartDate": "1973-02-10",
+      "appearances": [
+        {
+          "chartDate": "1972-12-30",
+          "position": 100
+        },
+        {
+          "chartDate": "1973-01-06",
+          "position": 86
+        },
+        {
+          "chartDate": "1973-01-13",
+          "position": 71
+        },
+        {
+          "chartDate": "1973-01-20",
+          "position": 70
+        },
+        {
+          "chartDate": "1973-01-27",
+          "position": 67
+        },
+        {
+          "chartDate": "1973-02-03",
+          "position": 61
+        },
+        {
+          "chartDate": "1973-02-10",
+          "position": 69
+        }
+      ]
+    }
+  },
+  "dedupeText": "impressionist portrait album cover impasto palette knife 1970s portrait serif typography high contrast yellow and purple textured brushstrokes the yellow highlights on the face mirror the solid yellow of the primary display text the lavender brushstrokes provide a cool toned counterpoint to the warm brown background the tight vertical stacking of text creates a dense block that balances the large scale facial features impasto portrait high contrast serif typography complementary yellow purple accents",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Impressionist Portrait Album Cover",
+      "category": "Graphic Design / Music",
+      "medium": [
+        "Oil Painting",
+        "Impressionism",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vinyl Record Cover",
+        "Retro Poster Art",
+        "Book Cover Illustration"
+      ],
+      "retrievalTags": [
+        "impasto",
+        "palette knife",
+        "1970s",
+        "portrait",
+        "serif typography",
+        "high contrast",
+        "yellow and purple",
+        "textured brushstrokes"
+      ]
+    },
+    "visualDefinition": "A high-contrast, expressive oil-painted portrait of a man with dark hair, rendered with thick, visible impasto brushstrokes. The color palette is dominated by ochre, deep browns, and vibrant yellow highlights, with unexpected pops of lavender and magenta in the shadows. The typography is tightly packed in the upper-left quadrant, utilizing a mix of bold solid serifs and outlined lowercase letters.",
+    "coreVisualRelationships": [
+      "The yellow highlights on the face mirror the solid yellow of the primary display text.",
+      "The lavender brushstrokes provide a cool-toned counterpoint to the warm brown background.",
+      "The tight vertical stacking of text creates a dense block that balances the large-scale facial features."
+    ],
+    "coreInvariants": [
+      "Heavy, vertical impasto texture across the entire canvas.",
+      "High-contrast lighting with a strong yellow key light.",
+      "Tight, overlapping letter spacing in the main title."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A large-scale portrait occupying the right two-thirds of the frame, cropped closely to the head and shoulders.",
+      "visualAnchor": "The subject's right eye (viewer's left) serves as the central focal point, surrounded by intense yellow highlights.",
+      "movementAndEyePath": "The eye starts at the bright yellow text in the top left, moves down to the outlined subtitle, and then sweeps across the face following the vertical brushstrokes.",
+      "negativeSpace": "Minimal; the background is filled with dark, textured brown strokes that bleed into the subject's hair."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Umber and Burnt Sienna (background and shadows)",
+      "contrastColorRole": "Cadmium Yellow (highlights and primary text)",
+      "accentColorRole": "Lavender and Magenta (mid-tones and shadow edges)",
+      "saturationAndValueRelationship": "High value contrast between the bright yellow highlights and the near-black shadows, with mid-range saturation in the purple accents.",
+      "paletteRestrictions": [
+        "Avoid clean gradients",
+        "Limit to earthy tones plus primary yellow and secondary purple"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional serif",
+      "letterConstructionRules": [
+        "Extremely tight tracking (touching or overlapping)",
+        "Tall x-height for the display text",
+        "Thin, uniform stroke for the outlined subtitle"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'i' and 'n' in the subtitle are hollow outlines with no fill."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Sharp",
+            "corners": "Slightly rounded",
+            "counters": "Small",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Two lines, stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top Left",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Letters touch",
+            "relationshipToImage": "Overlays the dark background"
+          },
+          "treatment": {
+            "fill": "Solid Yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "Low",
+            "xHeight": "Medium",
+            "terminals": "Blunt",
+            "corners": "Square",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear outline"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "Left",
+            "tracking": "Normal",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Below display text",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlays the subject's shoulder"
+          },
+          "treatment": {
+            "fill": "None",
+            "outline": "Thin White",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Solid bold serif paired with its outlined lowercase counterpart for textural contrast.",
+      "graphicDevices": [
+        "Tight vertical stacking",
+        "Outlined glyphs"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Tight tracking",
+          "High contrast serif style",
+          "Yellow/White color split"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Wide letter spacing",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Century Schoolbook Bold",
+            "reason": "Matches the heavy serif weight and traditional structure.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Clarendon Condensed",
+            "reason": "Provides the necessary verticality and tight fit.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate an oil painting portrait of a man with dark hair in a 1970s style. Use heavy impasto brushstrokes and a palette knife technique. Colors should be dominated by dark brown, ochre, and bright yellow highlights on the face, with lavender and magenta accents in the shadows. The background should be a dark, vertically textured brown.",
+        "overlayInstruction": "Add two lines of bold, yellow serif text in the top left corner with extremely tight tracking so the letters touch. Below that, add a single line of lowercase text in a thin white outline serif font."
+      },
+      "verificationChecks": [
+        "Is the paint texture thick and visible?",
+        "Are the yellow highlights on the face vibrant?",
+        "Does the text in the top left overlap or touch?",
+        "Is the subtitle rendered as a hollow white outline?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the lavender accents",
+      "Thickness of the impasto texture",
+      "Tightness of the letter tracking"
+    ],
+    "mustRedesign": [
+      "Any specific artist signatures",
+      "Record label logos in the bottom corners",
+      "Specific facial likeness of the original subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile paint texture",
+        "Dramatic chiaroscuro lighting",
+        "Cohesive 1970s analog feel"
+      ],
+      "avoid": [
+        "Smooth digital gradients",
+        "Clean vector lines in the illustration",
+        "Modern geometric sans-serifs"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the yellow text is legible against the dark background.",
+      "Verify the purple tones are integrated into the brushwork, not just flat overlays.",
+      "Check that the impasto texture follows the contours of the face.",
+      "Confirm the subtitle is strictly lowercase and outlined."
+    ],
+    "reuseFormula": "Impasto Portrait + High-Contrast Serif Typography + Complementary Yellow/Purple Accents"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:13:06.216Z"
+}

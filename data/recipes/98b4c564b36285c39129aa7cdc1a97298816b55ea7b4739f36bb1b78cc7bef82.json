@@ -1,0 +1,283 @@
+{
+  "id": "98b4c564b36285c39129aa7cdc1a97298816b55ea7b4739f36bb1b78cc7bef82",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:30:05.424Z",
+  "approvedAt": "2026-08-11T15:30:05.424Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:30:05.424Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Love & Emotion.jpg",
+    "hash": "98b4c564b36285c39129aa7cdc1a97298816b55ea7b4739f36bb1b78cc7bef82",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Love & Emotion",
+    "artist": "Stevie B",
+    "artworkUrl": "https://coverartarchive.org/release-group/a2ab2cc7-50b6-3116-9c71-c8437b883d4d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a2ab2cc7-50b6-3116-9c71-c8437b883d4d",
+    "releaseGroupId": "a2ab2cc7-50b6-3116-9c71-c8437b883d4d",
+    "recordingId": "9a5be7e0-885c-43fc-8418-62632acae422",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Forever MoreStevie B",
+      "song": "Forever More",
+      "performer": "Stevie B",
+      "peakPosition": 96,
+      "firstChartDate": "1991-10-26",
+      "lastChartDate": "1991-11-16",
+      "appearances": [
+        {
+          "chartDate": "1991-10-26",
+          "position": 100
+        },
+        {
+          "chartDate": "1991-11-02",
+          "position": 97
+        },
+        {
+          "chartDate": "1991-11-09",
+          "position": 96
+        },
+        {
+          "chartDate": "1991-11-16",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro freestyle album aesthetic 80s freestyle mullet hairstyle soft focus portrait vertical typography script signature blue and magenta lighting vertical text balancing the profile gaze complementary blue background vs magenta clothing soft focus photographic grain vs sharp graphic overlays high key rim lighting on hair texture profile portrait hazy blue background vertical slab serif left script signature bottom right 80s grain",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Freestyle Album Aesthetic",
+      "category": "Music Cover Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Retro Event Poster",
+        "Social Media Music Promotion"
+      ],
+      "retrievalTags": [
+        "80s freestyle",
+        "mullet hairstyle",
+        "soft focus portrait",
+        "vertical typography",
+        "script signature",
+        "blue and magenta lighting"
+      ]
+    },
+    "visualDefinition": "A profile portrait of a man with a textured 80s-style haircut, set against a hazy, atmospheric blue background with a high-contrast magenta garment. The composition features bold vertical serif lettering on the left and a fluid, hand-drawn script signature in the lower right.",
+    "coreVisualRelationships": [
+      "Vertical text balancing the profile gaze",
+      "Complementary blue background vs magenta clothing",
+      "Soft-focus photographic grain vs sharp graphic overlays",
+      "High-key rim lighting on hair texture"
+    ],
+    "coreInvariants": [
+      "Side profile orientation",
+      "Vertical text alignment on the left margin",
+      "Hazy, textured blue background",
+      "Script signature with a heart motif"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large profile portrait occupying the center and right, facing left.",
+      "visualAnchor": "The vertical gold lettering on the left edge.",
+      "movementAndEyePath": "Starts at the vertical text, follows the subject's gaze downward, and finishes at the script signature in the bottom right.",
+      "negativeSpace": "Atmospheric blue space around the head and behind the vertical text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep atmospheric blue background.",
+      "contrastColorRole": "Vibrant magenta/red for the subject's clothing.",
+      "accentColorRole": "Gold/yellow for the vertical text and heart icon.",
+      "saturationAndValueRelationship": "High saturation in the clothing, muted tones in the skin and background, high value in the rim lighting.",
+      "paletteRestrictions": [
+        "Cobalt blue",
+        "Magenta",
+        "Gold",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif and fluid monoline script.",
+      "letterConstructionRules": [
+        "Vertical text uses high-contrast slab serifs with drop shadows.",
+        "Signature text uses a continuous, monolinear cursive stroke.",
+        "Integration of a simple geometric heart shape within the script."
+      ],
+      "characterSpecificRedesigns": [
+        "Stacked vertical orientation for the display text.",
+        "Extended swashes on the script signature."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Blunt slabs",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Center-stacked",
+            "tracking": "Wide",
+            "leading": "Tight",
+            "lineBreakPattern": "Character-by-character vertical",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Left margin",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over background"
+          },
+          "treatment": {
+            "fill": "Gold gradient",
+            "outline": "None",
+            "shadow": "Hard drop shadow",
+            "depth": "2D with shadow",
+            "texture": "Smooth",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Script",
+          "anatomy": {
+            "width": "Extended",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "Variable",
+            "terminals": "Rounded",
+            "corners": "Soft",
+            "counters": "Looped",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Title case",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Bottom right",
+            "scale": "Medium",
+            "rotation": "-5 degrees",
+            "warp": "Fluid",
+            "overlap": "Over clothing",
+            "relationshipToImage": "Integrated signature"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "Hand-drawn"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of rigid, vertical slab serifs with organic, horizontal script.",
+      "graphicDevices": [
+        "Drop shadows",
+        "Heart icon overlay",
+        "Film grain texture"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical stacking",
+          "Slab serif style",
+          "Monoline script"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Horizontal alignment for the primary title",
+          "Clean, digital-only gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab serif weight and structure.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral or custom monoline script",
+            "reason": "Captures the 80s signature aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a profile portrait of a man with a voluminous 80s textured haircut and a shaved line detail, wearing a high-collar magenta jacket. The background should be a hazy, grainy blue with soft light leaks. The lighting should be a bright white rim light on the hair.",
+        "overlayInstruction": "Add vertical stacked text in a bold gold slab serif font on the left. Add a white monoline script signature in the bottom right, overlapping the jacket, including a simple gold heart outline."
+      },
+      "verificationChecks": [
+        "Is the text stacked vertically on the left?",
+        "Is the background a textured, hazy blue?",
+        "Does the signature include a heart icon?",
+        "Is the subject in a clear side profile?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background blue intensity",
+      "Jacket color",
+      "Text shadow depth",
+      "Hair texture volume"
+    ],
+    "mustRedesign": [
+      "Specific facial features",
+      "Exact signature wording",
+      "Specific brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "80s film grain texture",
+        "High-contrast rim lighting",
+        "Balanced vertical/horizontal text layout"
+      ],
+      "avoid": [
+        "Modern flat design",
+        "Clean vector gradients",
+        "Minimalist white space"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the vertical text is legible and properly spaced.",
+      "Verify the rim light creates a halo effect on the hair.",
+      "Check that the script signature looks hand-drawn, not typed.",
+      "Confirm the color palette maintains the blue/magenta/gold triad."
+    ],
+    "reuseFormula": "Profile portrait + Hazy blue background + Vertical Slab Serif (Left) + Script Signature (Bottom Right) + 80s Grain."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:16:40.683Z"
+}

@@ -1,0 +1,269 @@
+{
+  "id": "3b6db9e7142f3e0d74936008c61f4a29336c6cf632ce7e0ff2f260373287852b",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T19:29:19.813Z",
+  "approvedAt": "2026-08-11T19:29:19.813Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T19:29:19.813Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The World of Soul.jpg",
+    "hash": "3b6db9e7142f3e0d74936008c61f4a29336c6cf632ce7e0ff2f260373287852b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The World of Soul",
+    "artist": "The Magnificent Men",
+    "artworkUrl": "https://coverartarchive.org/release-group/786d6d66-78fc-41fd-b022-3aebfbd7be24/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/786d6d66-78fc-41fd-b022-3aebfbd7be24",
+    "releaseGroupId": "786d6d66-78fc-41fd-b022-3aebfbd7be24",
+    "recordingId": "fb20c3c7-7733-44fe-a6f0-10b110a99c3a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I Could Be So HappyThe Magnificent Men",
+      "song": "I Could Be So Happy",
+      "performer": "The Magnificent Men",
+      "peakPosition": 93,
+      "firstChartDate": "1967-07-15",
+      "lastChartDate": "1967-07-15",
+      "appearances": [
+        {
+          "chartDate": "1967-07-15",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "psychedelic soul album cover layout 1960s psychedelic radial symmetry isometric typography halftone soul music central spiral core radiating into petal shaped portrait frames isometric 3d text forming a perimeter frame around the central graphic extreme contrast between heavy black header type and white negative space symmetrical balance with rotational orientation of text and imagery isometric frame radial portrait motif ultra bold header high contrast b w white negative space",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Psychedelic Soul Album Cover Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Print",
+        "Vinyl Cover Art"
+      ],
+      "useCases": [
+        "Album Art",
+        "Poster Design",
+        "Retro Branding"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "psychedelic",
+        "radial symmetry",
+        "isometric typography",
+        "halftone",
+        "soul music"
+      ]
+    },
+    "visualDefinition": "A high-contrast, white-background composition featuring a central floral-radial motif of high-contrast portraits, framed by a square of isometric 3D block lettering and topped with heavy, ultra-bold sans-serif display type.",
+    "coreVisualRelationships": [
+      "Central spiral core radiating into petal-shaped portrait frames",
+      "Isometric 3D text forming a perimeter frame around the central graphic",
+      "Extreme contrast between heavy black header type and white negative space",
+      "Symmetrical balance with rotational orientation of text and imagery"
+    ],
+    "coreInvariants": [
+      "High-contrast black and white photography",
+      "Isometric extrusion on perimeter text",
+      "Central spiral or hypnotic focal point",
+      "Strict white background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A central flower-like arrangement of 7 oval portraits occupies the middle 60% of the frame.",
+      "visualAnchor": "The heavy, black, ultra-bold title at the top of the composition.",
+      "movementAndEyePath": "Eyes start at the top title, move down to the central spiral, then rotate clockwise following the perimeter text.",
+      "negativeSpace": "Extensive white space between the header, the perimeter frame, and the central motif."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White background providing high-key negative space.",
+      "contrastColorRole": "Black for primary typography and high-contrast photographic shadows.",
+      "accentColorRole": "Muted green and blue used exclusively for the 3D isometric extrusions.",
+      "saturationAndValueRelationship": "Low saturation with extreme value contrast (pure black vs pure white).",
+      "paletteRestrictions": [
+        "No gradients",
+        "No mid-tone grays in graphics",
+        "Limited to 4 colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Header: Ultra-expanded, heavy weight with minimal counters.",
+        "Perimeter: Isometric extrusion with a 45-degree upward or downward projection.",
+        "Subtitles: Small, clean, high-readability sans-serif."
+      ],
+      "characterSpecificRedesigns": [
+        "Letters in the main title are pushed together until they almost touch (tight tracking).",
+        "Perimeter text is rotated 90, 180, and 270 degrees to form a square."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Extra Bold Sans-Serif",
+          "anatomy": {
+            "width": "ultra-expanded",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "minimal",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "header"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Isometric Sans-Serif",
+          "anatomy": {
+            "width": "standard",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "n/a",
+            "lineBreakPattern": "perimeter",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "perimeter square",
+            "scale": "medium",
+            "rotation": "variable",
+            "warp": "isometric",
+            "overlap": "none",
+            "relationshipToImage": "frame"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "black thin",
+            "shadow": "none",
+            "depth": "isometric extrusion in green or blue",
+            "texture": "none",
+            "distortion": "3D perspective"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy display face paired with outlined isometric secondary text and functional metadata sans-serif.",
+      "graphicDevices": [
+        "Isometric extrusion",
+        "Halftone spiral",
+        "Petal-shaped image masks"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ultra-bold weight of header",
+          "Isometric projection angle",
+          "White background"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Soft edges",
+          "Photorealistic textures"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Antique Olive Nord",
+            "reason": "Matches the heavy, blocky presence of the top header.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Bold",
+            "reason": "Good base for the isometric perimeter text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a white square canvas. In the center, place a black and white halftone spiral. Surround the spiral with 7 black petal-shaped masks containing high-contrast, grainy black and white portraits of men. Leave ample white space around this central motif.",
+        "overlayInstruction": "Add a heavy, ultra-expanded black sans-serif title at the top. Create a square frame around the central graphic using four lines of isometric 3D text; the top and bottom lines should have blue extrusions, and the side lines should have green extrusions. Add small metadata text in the top corners."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Does the perimeter text form a perfect square?",
+        "Are the portraits high-contrast black and white?",
+        "Is the top title the heaviest visual element?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Extrusion color",
+      "Number of portrait petals",
+      "Header font width",
+      "Spiral density"
+    ],
+    "mustRedesign": [
+      "Specific band member faces",
+      "Original album title text",
+      "Record label logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp isometric angles",
+        "Clean negative space",
+        "High-contrast photo processing"
+      ],
+      "avoid": [
+        "Blurry edges",
+        "Drop shadows (use extrusions instead)",
+        "Color gradients"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that isometric text is readable from its respective orientation.",
+      "Ensure the central spiral does not bleed into the portraits.",
+      "Verify the top header is perfectly centered.",
+      "Confirm the 3D extrusions use flat colors without shading."
+    ],
+    "reuseFormula": "Isometric Frame + Radial Portrait Motif + Ultra-Bold Header + High-Contrast B&W + White Negative Space"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:06:59.482Z"
+}

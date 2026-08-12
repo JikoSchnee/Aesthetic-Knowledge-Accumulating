@@ -1,0 +1,276 @@
+{
+  "id": "e9ed33e830e23c73eee9e5e06157202807229a521eebe79e178851666fd4b175",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T12:19:58.783Z",
+  "approvedAt": "2026-08-11T12:19:58.783Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T12:19:58.783Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Midnights.jpg",
+    "hash": "e9ed33e830e23c73eee9e5e06157202807229a521eebe79e178851666fd4b175",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Midnights",
+    "artist": "Taylor Swift",
+    "artworkUrl": "https://coverartarchive.org/release-group/0dcc84fb-c592-46e9-ba92-a52bb44dd553/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0dcc84fb-c592-46e9-ba92-a52bb44dd553",
+    "releaseGroupId": "0dcc84fb-c592-46e9-ba92-a52bb44dd553",
+    "recordingId": "5da62e2f-d867-49ce-ba26-ceef0b6e23ff",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Dear ReaderTaylor Swift",
+      "song": "Dear Reader",
+      "performer": "Taylor Swift",
+      "peakPosition": 45,
+      "firstChartDate": "2022-11-05",
+      "lastChartDate": "2022-11-12",
+      "appearances": [
+        {
+          "chartDate": "2022-11-05",
+          "position": 45
+        },
+        {
+          "chartDate": "2022-11-12",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro cinematic album layout retro 70s aesthetic minimalist sans serif gradient text cinematic portrait film grain the title text bridges the white border and the photographic frame the vertical text list aligns with the left edge of the photograph the subject s gaze and the light source create a diagonal focal path the grain texture unifies the photographic and graphic elements combine a 70s style grainy portrait with a minimalist polaroid frame and tight bold neo grotesque typography for a nostalgic yet modern editorial look",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Cinematic Album Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Digital Photography",
+        "Typography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Editorial Magazine Layout",
+        "Social Media Promotional Graphic"
+      ],
+      "retrievalTags": [
+        "retro",
+        "70s aesthetic",
+        "minimalist",
+        "sans-serif",
+        "gradient text",
+        "cinematic portrait",
+        "film grain"
+      ]
+    },
+    "visualDefinition": "A minimalist square composition featuring a high-contrast cinematic portrait framed by a thick off-white border. The layout uses a distinct L-shaped negative space for typography, with a large title overlapping the top edge of the image and a vertical list of text in the bottom-left corner.",
+    "coreVisualRelationships": [
+      "The title text bridges the white border and the photographic frame.",
+      "The vertical text list aligns with the left edge of the photograph.",
+      "The subject's gaze and the light source create a diagonal focal path.",
+      "The grain texture unifies the photographic and graphic elements."
+    ],
+    "coreInvariants": [
+      "Square 1:1 aspect ratio",
+      "Thick white border on top and left sides",
+      "Heavy film grain texture across the entire canvas",
+      "Muted, warm-toned color palette"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is a close-up portrait occupying the bottom-right three-quarters of the frame.",
+      "visualAnchor": "The main title in the upper-left quadrant acts as the primary typographic anchor.",
+      "movementAndEyePath": "Eyes move from the large title, down to the vertical list, then across to the subject's face and the light source.",
+      "negativeSpace": "Substantial off-white negative space at the top and left creates a 'Polaroid' or editorial frame effect."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/Cream (Background and Border)",
+      "contrastColorRole": "Deep Blues and Shadows (Subject's eyes and hair)",
+      "accentColorRole": "Muted Red and Warm Glow (Lips and lighter flame)",
+      "saturationAndValueRelationship": "Low saturation with high contrast in the photographic area; typography uses a subtle blue-to-grey gradient.",
+      "paletteRestrictions": [
+        "No pure blacks",
+        "No neon or high-vibrancy colors",
+        "Limited to earth tones and desaturated blues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Neo-Grotesque Sans-Serif",
+      "letterConstructionRules": [
+        "Tight kerning (letter-spacing)",
+        "Uniform stroke weight",
+        "Horizontal terminals",
+        "Large x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'g' with an open loop",
+        "Lowercase 't' with a straight vertical stem"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Left",
+            "tracking": "-2%",
+            "leading": "100%",
+            "lineBreakPattern": "Single word",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Top-left, overlapping image top edge",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Partial overlap with image",
+            "relationshipToImage": "Header"
+          },
+          "treatment": {
+            "fill": "Linear gradient (Steel Blue to Slate)",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Grainy",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Left",
+            "tracking": "0%",
+            "leading": "120%",
+            "lineBreakPattern": "Vertical list",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Bottom-left corner",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Sidebar list"
+          },
+          "treatment": {
+            "fill": "Desaturated Blue-Grey",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in different weights and scales for consistency.",
+      "graphicDevices": [
+        "Hard-edged rectangular image frame",
+        "Subtle film grain overlay",
+        "L-shaped border"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Tight kerning",
+          "Sentence case for title",
+          "Gradient in main title"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Italics",
+          "All-caps for the main title"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Neue Bold",
+            "reason": "Matches the clean, mid-century modern aesthetic and tight spacing.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Inter",
+            "reason": "Provides the necessary x-height and modern clarity.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square cinematic portrait of a person in 1970s style, low-light, warm tones, heavy film grain, with a glowing light source in the foreground. Place this image in the bottom-right of a square canvas, leaving a thick cream-colored border on the top and left.",
+        "overlayInstruction": "Add a large sans-serif title in sentence case overlapping the top edge of the photo. Apply a subtle blue-to-grey gradient to the title. Add a vertical list of text in a smaller weight of the same font in the bottom-left corner, aligned with the photo's left edge."
+      },
+      "verificationChecks": [
+        "Is the grain consistent across both the image and the border?",
+        "Does the title text overlap the top of the image frame?",
+        "Is the font a clean, modern sans-serif?",
+        "Is the color palette muted and retro-inspired?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Thickness of the white border",
+      "Intensity of the film grain",
+      "Gradient colors in the title",
+      "Subject of the portrait"
+    ],
+    "mustRedesign": [
+      "Avoid using specific celebrity likenesses",
+      "Do not use existing brand logos",
+      "Ensure the text content is original"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic film grain texture",
+        "Precise typographic alignment",
+        "Balanced negative space"
+      ],
+      "avoid": [
+        "Digital-looking gradients",
+        "Overly sharp, clean edges",
+        "Default system fonts like Arial"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 1:1 aspect ratio",
+      "Verify tight kerning in the title",
+      "Ensure the gradient is subtle and not distracting",
+      "Confirm the 'L' shaped border is clear"
+    ],
+    "reuseFormula": "Combine a 70s-style grainy portrait with a minimalist 'Polaroid' frame and tight, bold Neo-Grotesque typography for a nostalgic yet modern editorial look."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:25:55.254Z"
+}

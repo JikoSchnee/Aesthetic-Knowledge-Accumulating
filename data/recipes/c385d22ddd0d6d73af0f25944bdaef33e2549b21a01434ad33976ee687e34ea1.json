@@ -1,0 +1,261 @@
+{
+  "id": "c385d22ddd0d6d73af0f25944bdaef33e2549b21a01434ad33976ee687e34ea1",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T21:17:51.963Z",
+  "approvedAt": "2026-08-11T21:17:51.963Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T21:17:51.963Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Dark Horse.jpg",
+    "hash": "c385d22ddd0d6d73af0f25944bdaef33e2549b21a01434ad33976ee687e34ea1",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Dark Horse",
+    "artist": "Nickelback",
+    "artworkUrl": "https://coverartarchive.org/release-group/4a62f40e-acce-3938-bdcd-c4ee3003e747/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/4a62f40e-acce-3938-bdcd-c4ee3003e747",
+    "releaseGroupId": "4a62f40e-acce-3938-bdcd-c4ee3003e747",
+    "recordingId": "24bc8ae3-5cf9-46d7-9cd6-315c4f0965f2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I'd Come For YouNickelback",
+      "song": "I'd Come For You",
+      "performer": "Nickelback",
+      "peakPosition": 44,
+      "firstChartDate": "2008-12-06",
+      "lastChartDate": "2008-12-13",
+      "appearances": [
+        {
+          "chartDate": "2008-12-06",
+          "position": 44
+        },
+        {
+          "chartDate": "2008-12-13",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "western metalwork album cover belt buckle horseshoe distressed typography western gothic metallic monogram ornate silver central metallic object anchored against a dark textured background distressed large scale display text contrasting with clean small serif subtitle cool toned silver highlights against deep blacks and muted teal accents combine macro metal object dark negative space distressed block typography wide tracked serif subtitle for a gritty western rock aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Western Metalwork Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Album Art",
+        "Concert Poster",
+        "Merchandise Design"
+      ],
+      "retrievalTags": [
+        "belt buckle",
+        "horseshoe",
+        "distressed typography",
+        "western gothic",
+        "metallic monogram",
+        "ornate silver"
+      ]
+    },
+    "visualDefinition": "A high-contrast, moody close-up of an ornate silver belt buckle featuring a horseshoe frame and a complex central monogram, set against a dark background with distressed, heavy-weight typography at the top.",
+    "coreVisualRelationships": [
+      "Central metallic object anchored against a dark, textured background",
+      "Distressed, large-scale display text contrasting with clean, small serif subtitle",
+      "Cool-toned silver highlights against deep blacks and muted teal accents"
+    ],
+    "coreInvariants": [
+      "Horseshoe-shaped buckle frame",
+      "Intricate filigree or monogram center",
+      "Heavy distressing on the primary display text",
+      "Low-key lighting with sharp specular highlights on metal"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large central belt buckle occupying the middle two-thirds of the frame.",
+      "visualAnchor": "The reflective silver monogram inside the horseshoe.",
+      "movementAndEyePath": "Top-down: starting at the bold display text, moving to the subtitle, and resting on the detailed metalwork.",
+      "negativeSpace": "Deep black space at the top and bottom edges to frame the central elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (Background and shadows)",
+      "contrastColorRole": "Silver/White (Metallic highlights and primary text)",
+      "accentColorRole": "Muted Teal/Blue (Textured fabric behind the buckle)",
+      "saturationAndValueRelationship": "Low saturation with high value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "Avoid vibrant colors",
+        "Stick to monochromatic silver and deep blues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extra-bold geometric sans-serif and classical slab serif",
+      "letterConstructionRules": [
+        "Primary text: Wide, blocky proportions with heavy distressing and 'eroded' edges",
+        "Secondary text: Wide tracking, small caps, high-contrast slab serifs"
+      ],
+      "characterSpecificRedesigns": [
+        "Inner counters of letters like 'B' and 'A' are partially filled or eroded",
+        "Horizontal strokes are thick and uniform"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "distressed-sans",
+          "anatomy": {
+            "width": "extended",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded by erosion",
+            "counters": "small and tight",
+            "strokeCharacter": "weathered"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in the dark negative space above the subject"
+          },
+          "treatment": {
+            "fill": "white with grit texture",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "stamped/eroded",
+            "distortion": "grunge"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "blunt serifs",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "clean"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "very wide",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "directly below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "bridge between main text and image"
+          },
+          "treatment": {
+            "fill": "muted blue-grey",
+            "outline": "none",
+            "shadow": "subtle outer glow",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme contrast between a heavy, distressed sans-serif and a delicate, widely-spaced slab serif.",
+      "graphicDevices": [
+        "Distressed texture overlays",
+        "Specular metallic glints"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Distressed texture of main text",
+          "Wide tracking of subtitle"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Clean modern sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler with grunge filters",
+            "reason": "Matches the heavy, blocky weight of the primary text",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Clarendon or Rockwell (Wide tracking)",
+            "reason": "Matches the slab-serif structure of the subtitle",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A macro photograph of a silver horseshoe belt buckle with an ornate monogram. The buckle is set against a dark, textured fabric with hints of teal. Lighting is dramatic and low-key, highlighting the metallic edges and filigree. The top third of the image is solid black negative space.",
+        "overlayInstruction": "Add large, distressed, white blocky text in the top negative space. Below it, add a smaller subtitle in a blue-grey slab serif font with wide letter spacing."
+      },
+      "verificationChecks": [
+        "Is the primary text heavily weathered?",
+        "Is the buckle centered and highly detailed?",
+        "Is the color palette restricted to silver, black, and muted teal?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Amount of text distressing",
+      "Complexity of the monogram",
+      "Intensity of the teal accent color"
+    ],
+    "mustRedesign": [
+      "Specific monogram initials",
+      "Exact brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast metallic rendering",
+        "Authentic-looking weathered typography"
+      ],
+      "avoid": [
+        "Plastic-looking metal",
+        "Clean, digital-looking text effects"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text does not overlap the buckle",
+      "Check that the silver highlights look reflective",
+      "Verify the wide tracking on the subtitle is consistent"
+    ],
+    "reuseFormula": "Combine [Macro Metal Object] + [Dark Negative Space] + [Distressed Block Typography] + [Wide-Tracked Serif Subtitle] for a gritty, western-rock aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:21:52.495Z"
+}

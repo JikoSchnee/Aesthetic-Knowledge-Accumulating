@@ -1,0 +1,291 @@
+{
+  "id": "9aee895ed61289b4b153f5444ace2925d8e42d6b3c6447478fd850407aed5291",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:25:16.187Z",
+  "approvedAt": "2026-08-11T22:25:16.187Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:25:16.187Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Innocent Eyes.jpg",
+    "hash": "9aee895ed61289b4b153f5444ace2925d8e42d6b3c6447478fd850407aed5291",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Innocent Eyes",
+    "artist": "Graham Nash",
+    "artworkUrl": "https://coverartarchive.org/release-group/0d7589c1-ce09-334f-ae5b-b2609357e3ee/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0d7589c1-ce09-334f-ae5b-b2609357e3ee",
+    "releaseGroupId": "0d7589c1-ce09-334f-ae5b-b2609357e3ee",
+    "recordingId": "457cc7d1-ab00-4098-9418-6aa8f2bc111c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Innocent EyesGraham Nash",
+      "song": "Innocent Eyes",
+      "performer": "Graham Nash",
+      "peakPosition": 84,
+      "firstChartDate": "1986-04-26",
+      "lastChartDate": "1986-06-07",
+      "appearances": [
+        {
+          "chartDate": "1986-04-26",
+          "position": 94
+        },
+        {
+          "chartDate": "1986-05-03",
+          "position": 87
+        },
+        {
+          "chartDate": "1986-05-10",
+          "position": 86
+        },
+        {
+          "chartDate": "1986-05-17",
+          "position": 84
+        },
+        {
+          "chartDate": "1986-05-24",
+          "position": 87
+        },
+        {
+          "chartDate": "1986-05-31",
+          "position": 92
+        },
+        {
+          "chartDate": "1986-06-07",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro digital cosmic collage pixelated scanlines cosmic glitch art thermal map 80s digital space collage spherical planets contrasted against sharp rectangular glitch frames vibrant neon thermal gradients against a deep black starfield horizontal scanline textures unifying disparate collage elements large display text anchored at the top with smaller subtitle centered below combine cosmic background thermal texture spheres geometric glitch overlays scanline filter dot matrix typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro-Digital Cosmic Collage",
+      "category": "Album Art",
+      "medium": [
+        "Digital Collage",
+        "Scanline Art",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Synthwave Album Covers",
+        "Retro-Tech Branding",
+        "80s Sci-Fi Posters"
+      ],
+      "retrievalTags": [
+        "pixelated",
+        "scanlines",
+        "cosmic",
+        "glitch art",
+        "thermal map",
+        "80s digital",
+        "space collage"
+      ]
+    },
+    "visualDefinition": "A dense, dark cosmic collage featuring pixelated celestial bodies with thermal-gradient textures, overlaid with geometric glitch artifacts, scanline patterns, and 80s-era digital display typography.",
+    "coreVisualRelationships": [
+      "Spherical planets contrasted against sharp rectangular glitch frames",
+      "Vibrant neon thermal gradients against a deep black starfield",
+      "Horizontal scanline textures unifying disparate collage elements",
+      "Large display text anchored at the top with smaller subtitle centered below"
+    ],
+    "coreInvariants": [
+      "Visible horizontal scanline or raster pattern across all elements",
+      "Thermal-style color mapping (cyan, magenta, yellow, green) on planets",
+      "Deep black background with fine white stippled star noise"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two large overlapping spheres dominate the lower right and center; geometric frames occupy the left mid-ground.",
+      "visualAnchor": "The largest planet in the lower right quadrant acts as the primary visual weight.",
+      "movementAndEyePath": "Starts at the large top-aligned text, moves down through the central spheres, and follows the vertical glitch strips on the right.",
+      "negativeSpace": "Deep black space provides high contrast for the neon and white elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (Background/Space)",
+      "contrastColorRole": "White (Stars and Display Text)",
+      "accentColorRole": "Neon Cyan, Magenta, and Lime Green (Thermal Planet Textures)",
+      "saturationAndValueRelationship": "High saturation accents against a low-value, high-contrast background.",
+      "paletteRestrictions": [
+        "Avoid natural earth tones",
+        "Limit to high-frequency neon spectrums"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Condensed Sans-Serif",
+      "letterConstructionRules": [
+        "Tall, narrow proportions",
+        "Segmented or 'dotted' texture mimicking early digital dot-matrix or LED displays",
+        "Uniform stroke weight"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are composed of small horizontal segments or dots",
+        "Sharp, non-rounded corners"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Digital Sans-Serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "square",
+            "counters": "narrow",
+            "strokeCharacter": "segmented"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating above background elements"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "dot-matrix",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Handwritten Script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "light",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "below primary text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "centered horizontally"
+          },
+          "treatment": {
+            "fill": "orange-red gradient",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "slight italicization"
+          }
+        }
+      ],
+      "pairingStrategy": "High-tech digital display font paired with a contrasting organic, slanted script.",
+      "graphicDevices": [
+        "Horizontal scanlines",
+        "Rectangular glitch frames",
+        "Rainbow-colored vertical data strips"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Segmented texture of display font",
+          "Condensed proportions"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Modern clean minimalist sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Dot Matrix or LED Display",
+            "reason": "Matches the 80s computer aesthetic",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Narrow Marker Script",
+            "reason": "Provides the necessary organic contrast for the subtitle",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a dark cosmic collage with a black starfield. Include two large spheres with neon thermal-map textures (cyan, magenta, yellow). Add rectangular glitch frames on the left and vertical rainbow-colored data strips on the right. Apply a consistent horizontal scanline filter over the entire image.",
+        "overlayInstruction": "Add large, white, condensed dot-matrix style uppercase text at the top. Below it, center a smaller subtitle in an orange-red slanted marker-style script."
+      },
+      "verificationChecks": [
+        "Is the scanline texture visible across the planets?",
+        "Are the planets colored with a thermal-gradient look?",
+        "Is the primary text segmented/dotted?",
+        "Is the background a deep black with fine star noise?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of starfield",
+      "Intensity of scanlines",
+      "Complexity of geometric glitch frames",
+      "Thermal color palette (e.g., shifting toward blues or reds)"
+    ],
+    "mustRedesign": [
+      "Specific artist names or titles",
+      "Unique logo shapes",
+      "Identifiable facial features if present in textures"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 80s digital 'low-res' feel",
+        "Vibrant neon-on-black contrast",
+        "Consistent scanline overlay"
+      ],
+      "avoid": [
+        "Clean, high-definition gradients",
+        "Modern 3D rendering styles",
+        "Minimalist white space"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no modern vector smoothness; maintain pixelated edges.",
+      "Check that the scanlines do not obscure the text legibility.",
+      "Verify the thermal colors feel 'electronic' rather than natural.",
+      "Confirm the collage feels layered rather than a single flat image."
+    ],
+    "reuseFormula": "Combine [Cosmic Background] + [Thermal Texture Spheres] + [Geometric Glitch Overlays] + [Scanline Filter] + [Dot-Matrix Typography]."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:16:56.410Z"
+}

@@ -1,0 +1,284 @@
+{
+  "id": "0d5c4b8a4570d7855862e0a89aeba750c909dfb6de0c66d623d5533aef5a2cdb",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T00:23:34.433Z",
+  "approvedAt": "2026-08-12T00:23:34.433Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T00:23:34.433Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Hit Love Songs of the 60’s.jpg",
+    "hash": "0d5c4b8a4570d7855862e0a89aeba750c909dfb6de0c66d623d5533aef5a2cdb",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Hit Love Songs of the 60’s",
+    "artist": "Long John Baldry",
+    "artworkUrl": "https://coverartarchive.org/release-group/aa32ec1a-8b5e-4d8f-9c04-ee416807349d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/aa32ec1a-8b5e-4d8f-9c04-ee416807349d",
+    "releaseGroupId": "aa32ec1a-8b5e-4d8f-9c04-ee416807349d",
+    "recordingId": "ff2769fe-ebae-46ea-a331-013b83fb8f75",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Let The Heartaches BeginLong John Baldry",
+      "song": "Let The Heartaches Begin",
+      "performer": "Long John Baldry",
+      "peakPosition": 88,
+      "firstChartDate": "1968-01-13",
+      "lastChartDate": "1968-01-20",
+      "appearances": [
+        {
+          "chartDate": "1968-01-13",
+          "position": 98
+        },
+        {
+          "chartDate": "1968-01-20",
+          "position": 88
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro comic romance anthology layout comic book style pop art romance comic grid layout halftone 1960s aesthetic ink drawing grid based organization of varying panel sizes high contrast black ink line work against flat primary color fields large red heart motifs acting as primary and secondary focal points yellow rectangular text boxes providing narrative context to each panel comic grid romance ink style primary color accents heart motifs",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Comic Romance Anthology Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Ink Illustration",
+        "Screen Print",
+        "Digital Layout"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Poster Design",
+        "Editorial Illustration",
+        "Retro Branding"
+      ],
+      "retrievalTags": [
+        "comic book style",
+        "pop art",
+        "romance comic",
+        "grid layout",
+        "halftone",
+        "1960s aesthetic",
+        "ink drawing"
+      ]
+    },
+    "visualDefinition": "A multi-panel grid composition featuring black-and-white ink illustrations of romantic couples and individuals in a 1960s comic book style, interspersed with bold red heart shapes and yellow text boxes.",
+    "coreVisualRelationships": [
+      "Grid-based organization of varying panel sizes",
+      "High-contrast black ink line work against flat primary color fields",
+      "Large red heart motifs acting as primary and secondary focal points",
+      "Yellow rectangular text boxes providing narrative context to each panel"
+    ],
+    "coreInvariants": [
+      "Thick black outlines on all characters",
+      "Flat, non-gradient color fills",
+      "Ben-Day dot or simple hatching for shading",
+      "White gutters separating the panels"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The main title heart is top-left; a secondary heart is mid-right; character panels fill the remaining grid space at varying scales.",
+      "visualAnchor": "The large red heart in the top-left corner containing the primary title.",
+      "movementAndEyePath": "Z-pattern flow starting from the top-left heart, moving through the character panels, and ending at the bottom-right remastered note.",
+      "negativeSpace": "Minimal; the composition is dense with information, using white gutters as the only relief."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White and Black (line work and background)",
+      "contrastColorRole": "Red (heart shapes)",
+      "accentColorRole": "Yellow (text boxes and title highlights)",
+      "saturationAndValueRelationship": "High saturation primaries (Red, Yellow, Blue) against stark black and white values.",
+      "paletteRestrictions": [
+        "Red",
+        "Yellow",
+        "Blue",
+        "Lavender",
+        "Peach",
+        "Black",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Sans-serif and Script",
+      "letterConstructionRules": [
+        "Heavy blocky sans-serif for main titles",
+        "Cursive brush script for secondary emphasis",
+        "Clean, monolinear sans-serif for panel captions"
+      ],
+      "characterSpecificRedesigns": [
+        "Title letters feature thick black outlines and slight vertical stretching",
+        "Script text is angled at approximately 15 degrees"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "extra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "inside top-left heart",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "under script",
+            "relationshipToImage": "contained within shape"
+          },
+          "treatment": {
+            "fill": "yellow",
+            "outline": "black",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "flat",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "caption",
+          "hierarchyLevel": 2,
+          "classification": "Humanist Sans-Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "blunt",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "monoline"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "multi-line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "inside yellow boxes",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay on panels"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "flat",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold blocky display paired with a fluid brush script and functional caption sans.",
+      "graphicDevices": [
+        "Speech-bubble-like rectangular boxes",
+        "Heart-shaped containers",
+        "Thick panel borders"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow background for captions",
+          "Black outlines on display text",
+          "Uppercase formatting"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Drop shadows",
+          "Gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Franklin Gothic",
+            "reason": "Matches the heavy, condensed blocky feel of the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Brush Script MT",
+            "reason": "Approximates the mid-century casual script used for secondary titles.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Helvetica Condensed",
+            "reason": "Provides the clean, legible feel for the panel captions.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a grid of 8-10 comic book panels featuring 1960s style ink drawings of men and women in romantic or dramatic poses. Use black and white line art with flat color backgrounds (blue, peach, lavender). Include two large red hearts, one in the top left and one in the middle right. Place empty yellow rectangular boxes in the corners of several panels.",
+        "overlayInstruction": "Add bold yellow condensed sans-serif text with black outlines inside the top-left heart. Add black uppercase sans-serif text inside the yellow boxes. Add a dark grey brush script title overlapping the top-left heart."
+      },
+      "verificationChecks": [
+        "Are all character illustrations in a consistent 1960s ink style?",
+        "Is the grid layout varied in panel size?",
+        "Are the yellow text boxes placed clearly within or overlapping the panels?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of panels",
+      "Panel background colors",
+      "Heart placement",
+      "Character expressions"
+    ],
+    "mustRedesign": [
+      "Specific character faces to avoid likenesses",
+      "Specific song titles and artist names",
+      "Branding logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic mid-century comic line weight",
+        "Flat primary color palette",
+        "Clear visual hierarchy between hearts and panels"
+      ],
+      "avoid": [
+        "Modern digital gradients",
+        "Thin, wispy lines",
+        "Photorealistic textures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for consistent line thickness across all panels.",
+      "Ensure text is perfectly legible against yellow backgrounds.",
+      "Verify that the red hearts are the most saturated elements.",
+      "Confirm the grid gutters are clean and white."
+    ],
+    "reuseFormula": "Comic Grid + Romance Ink Style + Primary Color Accents + Heart Motifs"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:02:28.498Z"
+}

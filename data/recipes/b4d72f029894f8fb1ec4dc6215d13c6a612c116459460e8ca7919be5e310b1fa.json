@@ -1,0 +1,274 @@
+{
+  "id": "b4d72f029894f8fb1ec4dc6215d13c6a612c116459460e8ca7919be5e310b1fa",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T06:47:08.956Z",
+  "approvedAt": "2026-08-11T06:47:08.956Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T06:47:08.956Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Feels Like Carolina.jpg",
+    "hash": "b4d72f029894f8fb1ec4dc6215d13c6a612c116459460e8ca7919be5e310b1fa",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Feels Like Carolina",
+    "artist": "Parmalee",
+    "artworkUrl": "https://coverartarchive.org/release-group/7bc42c8d-84f5-4cf8-9697-76873c8cad5d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7bc42c8d-84f5-4cf8-9697-76873c8cad5d",
+    "releaseGroupId": "7bc42c8d-84f5-4cf8-9697-76873c8cad5d",
+    "recordingId": "7f28eb00-7d79-4821-8fc6-c390729f7745",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Already Callin' You MineParmalee",
+      "song": "Already Callin' You Mine",
+      "performer": "Parmalee",
+      "peakPosition": 91,
+      "firstChartDate": "2015-11-21",
+      "lastChartDate": "2015-12-26",
+      "appearances": [
+        {
+          "chartDate": "2015-11-21",
+          "position": 96
+        },
+        {
+          "chartDate": "2015-12-19",
+          "position": 100
+        },
+        {
+          "chartDate": "2015-12-26",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "country band rural landscape cover outdoor portrait rural field grunge typography band photography southern rock aesthetic desaturated landscape foreground subject centered and slightly larger to create depth text to subject overlap where the main title sits over the lower bodies color harmony between the muted green landscape and the desaturated clothing contrast between the clean upper text and the weathered lower text rural landscape staggered group portrait distressed bold sans serif title clean condensed subtitle",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Country Band Rural Landscape Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Distressed Typography"
+      ],
+      "useCases": [
+        "Country Music Album Cover",
+        "Band Promotional Poster",
+        "Southern Lifestyle Branding"
+      ],
+      "retrievalTags": [
+        "outdoor portrait",
+        "rural field",
+        "grunge typography",
+        "band photography",
+        "southern rock aesthetic",
+        "desaturated landscape"
+      ]
+    },
+    "visualDefinition": "A group portrait of four men in casual southern attire standing in a grassy field under a cloudy sky, featuring a large distressed title in the foreground and a clean subtitle at the top.",
+    "coreVisualRelationships": [
+      "Foreground subject centered and slightly larger to create depth",
+      "Text-to-subject overlap where the main title sits over the lower bodies",
+      "Color harmony between the muted green landscape and the desaturated clothing",
+      "Contrast between the clean upper text and the weathered lower text"
+    ],
+    "coreInvariants": [
+      "Rural field background with a visible treeline",
+      "Cloudy, slightly overcast lighting with soft shadows",
+      "Distressed, high-contrast white main typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four subjects arranged in a staggered V-formation; the central figure is largest and closest to the lens.",
+      "visualAnchor": "The central figure's face and the large distressed white text at the bottom.",
+      "movementAndEyePath": "Eyes start at the central figure, move up to the top subtitle, then drop down to the large textured title at the base.",
+      "negativeSpace": "Ample space in the upper third for the sky and secondary text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted earth tones (olive green, tan, denim blue) in the landscape and clothing.",
+      "contrastColorRole": "Desaturated teal-grey sky providing a cool backdrop for the warm-toned subjects.",
+      "accentColorRole": "Bright white for all typography to ensure legibility against complex backgrounds.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast in the typography.",
+      "paletteRestrictions": [
+        "Avoid neon or highly vibrant colors",
+        "Limit to naturalistic, weathered tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy Sans-Serif",
+      "letterConstructionRules": [
+        "Blocky, geometric proportions",
+        "Uniform stroke weight",
+        "Heavy weathering and erosion effects applied to the main title"
+      ],
+      "characterSpecificRedesigns": [
+        "Main title features 'stamped' or 'stencil-leak' textures",
+        "Subtitle features subtle drop shadows for legibility against clouds"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom third",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over subjects",
+            "relationshipToImage": "foreground layer"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "heavy grunge/distress",
+            "distortion": "eroded edges"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top margin",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over sky",
+            "relationshipToImage": "background layer"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "soft black drop shadow",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a heavy, distressed display face and a clean, spaced-out condensed sans-serif.",
+      "graphicDevices": [
+        "Texture overlays",
+        "Soft vignetting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Distressed texture on the main title",
+          "Wide tracking on the subtitle"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Clean edges on the primary title"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Headline with grunge mask",
+            "reason": "Matches the heavy weight and blocky nature of the main title",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Matches the condensed, clean look of the subtitle",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a wide-angle photograph of four men in their 30s standing in a grassy field with a treeline in the distance. They are wearing casual button-down shirts and jeans. The lighting is overcast and slightly desaturated with a cool-toned sky. The central man is slightly in front of the others.",
+        "overlayInstruction": "Apply a large, bold, white sans-serif title across the bottom third with a heavy eroded/grunge texture. Add a smaller, clean, condensed sans-serif subtitle at the very top with wide letter spacing and a subtle drop shadow."
+      },
+      "verificationChecks": [
+        "Is the main title heavily textured and white?",
+        "Is the subtitle clean and widely spaced?",
+        "Are the subjects arranged in a staggered depth formation?",
+        "Is the color palette muted and naturalistic?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the grunge texture",
+      "Amount of tracking in the subtitle",
+      "Depth of field in the background landscape"
+    ],
+    "mustRedesign": [
+      "Any specific band logos",
+      "Distinctive facial features of the original subjects",
+      "Exact clothing brand details"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Legible but weathered typography",
+        "Balanced group composition",
+        "Cohesive desaturated color grade"
+      ],
+      "avoid": [
+        "Overly bright or saturated colors",
+        "Generic, untextured fonts for the main title",
+        "Harsh, direct sunlight"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text does not obscure the faces of the subjects",
+      "Check that the grunge texture looks organic and not like a repetitive pattern",
+      "Verify that the white text is readable against the sky and grass",
+      "Confirm the staggered depth of the subjects is maintained"
+    ],
+    "reuseFormula": "Rural landscape + staggered group portrait + [Distressed Bold Sans-Serif Title] + [Clean Condensed Subtitle]"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T07:31:50.435Z"
+}

@@ -1,0 +1,268 @@
+{
+  "id": "13c7d4df9713db1ee30f963c6dd9b57e675dac646a75165131c510639e01adc1",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:33:24.209Z",
+  "approvedAt": "2026-08-11T09:33:24.209Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:33:24.209Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Complete Season 5 Collection (The Voice Performance).jpg",
+    "hash": "13c7d4df9713db1ee30f963c6dd9b57e675dac646a75165131c510639e01adc1",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Complete Season 5 Collection (The Voice Performance)",
+    "artist": "Tessanne Chin",
+    "artworkUrl": "https://coverartarchive.org/release-group/774b8642-cafd-4418-90a2-a4c6918adb05/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/774b8642-cafd-4418-90a2-a4c6918adb05",
+    "releaseGroupId": "774b8642-cafd-4418-90a2-a4c6918adb05",
+    "recordingId": "0b348400-34dc-4740-86e5-a3f2b0f8cc73",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Bridge Over Troubled WaterTessanne Chin",
+      "song": "Bridge Over Troubled Water",
+      "performer": "Tessanne Chin",
+      "peakPosition": 64,
+      "firstChartDate": "2013-12-28",
+      "lastChartDate": "2013-12-28",
+      "appearances": [
+        {
+          "chartDate": "2013-12-28",
+          "position": 64
+        }
+      ]
+    }
+  },
+  "dedupeText": "talent competition album cover layout dynamic typography red and black studio portrait diagonal composition competition branding high contrast subject positioned in the lower right quadrant to balance the heavy top left typography diagonal upward tilt of the main title creates a sense of momentum and energy red accents in the typography and subject s lips unify the color story layered depth created by a ghosted semi transparent reflection of the main title behind the subject combine a high key studio portrait with a massive multi outlined diagonal title and horizontal footer bars using a tri color palette white black accent for a high energy commercial look",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Talent Competition Album Cover Layout",
+      "category": "Music Promotion",
+      "medium": [
+        "Digital Graphic Design",
+        "Studio Photography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Digital Single Cover",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "dynamic typography",
+        "red and black",
+        "studio portrait",
+        "diagonal composition",
+        "competition branding",
+        "high contrast"
+      ]
+    },
+    "visualDefinition": "A high-energy promotional layout featuring a studio portrait of a smiling female artist in the lower right, set against a clean white background with a massive, diagonally-oriented logo-style title and a structured text block at the bottom.",
+    "coreVisualRelationships": [
+      "Subject positioned in the lower right quadrant to balance the heavy top-left typography.",
+      "Diagonal upward tilt of the main title creates a sense of momentum and energy.",
+      "Red accents in the typography and subject's lips unify the color story.",
+      "Layered depth created by a ghosted, semi-transparent reflection of the main title behind the subject."
+    ],
+    "coreInvariants": [
+      "High-key white background",
+      "Red, black, and white color palette",
+      "Sharp, geometric sans-serif typography",
+      "Subject wearing dark, textured clothing"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is a medium-close-up portrait, anchored in the bottom right, occupying approximately 40% of the frame.",
+      "visualAnchor": "The large, black-filled main title in the top left serves as the primary anchor.",
+      "movementAndEyePath": "The eye starts at the top-left title, follows the diagonal down to the subject's face, and finishes at the horizontal text bar at the bottom.",
+      "negativeSpace": "Ample white space in the upper right and center provides breathing room for the dense graphic elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (Background) providing a clean, commercial canvas.",
+      "contrastColorRole": "Black (Main Title and Clothing) providing weight and definition.",
+      "accentColorRole": "Vibrant Red (Outlines and Text Bars) used for branding and emphasis.",
+      "saturationAndValueRelationship": "High-value white background contrasts with high-saturation red and low-value black for maximum legibility.",
+      "paletteRestrictions": [
+        "Limited to Red, Black, White, and natural skin tones."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Heavy stroke weight with tight kerning",
+        "Sharp corners mixed with subtle curves in circular characters",
+        "Thick white inner stroke followed by a thin red outer stroke on the main title"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'the' nested within the larger title structure",
+        "Diagonal shearing applied to the entire main title block"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "extended",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "slightly rounded",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "massive",
+            "rotation": "15 degrees upward",
+            "warp": "none",
+            "overlap": "behind subject",
+            "relationshipToImage": "dominant overlay"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "multi-layered white and red",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "sheared"
+          }
+        },
+        {
+          "role": "display",
+          "hierarchyLevel": 2,
+          "classification": "square-sans",
+          "anatomy": {
+            "width": "extended",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "horizontal bars",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom-left",
+            "scale": "medium",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "anchored base"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Monochromatic weight variation using a single geometric family with different widths and treatments.",
+      "graphicDevices": [
+        "Solid red horizontal bar for name emphasis",
+        "Solid black horizontal bar for secondary info",
+        "Ghosted watermark effect of the main logo"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Diagonal tilt of the main title",
+          "Multi-layered outlines",
+          "Horizontal text bars at the bottom"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Drop shadows on text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Ultra or Black",
+            "reason": "Provides the necessary geometric weight and modern feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Microgramma or Eurostile Bold Extended",
+            "reason": "Matches the square-sans look of the bottom text bars.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A clean studio portrait of a smiling woman with short styled hair, wearing a black studded jacket, positioned in the bottom right corner against a pure white background. Include a faint, semi-transparent grey geometric shape in the center-left representing a ghosted logo.",
+        "overlayInstruction": "Add a large, bold, black-filled title at a 15-degree upward angle in the top left with a thick white inner border and thin red outer border. At the bottom, place two horizontal bars (red on top, black on bottom) containing white, wide-tracked, uppercase geometric sans-serif text."
+      },
+      "verificationChecks": [
+        "Is the main title tilted upwards?",
+        "Does the subject overlap a ghosted version of the logo?",
+        "Are there distinct red and black bars at the bottom?",
+        "Is the background pure white?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Angle of the main title",
+      "Color of the accent bars (e.g., blue instead of red)",
+      "Subject's pose and expression",
+      "Density of the ghosted watermark"
+    ],
+    "mustRedesign": [
+      "Specific show logos",
+      "Artist's name and specific season text",
+      "Any trademarked network branding"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp vector-like edges on all typography",
+        "High-contrast studio lighting on the subject",
+        "Balanced distribution of visual weight"
+      ],
+      "avoid": [
+        "Blurry or low-resolution text",
+        "Cluttered backgrounds",
+        "Muted or pastel colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is legible against the white background.",
+      "Ensure the red accents are vibrant and not muddy.",
+      "Verify the subject's placement does not obscure the primary title.",
+      "Confirm the diagonal lines are consistent across the top graphic."
+    ],
+    "reuseFormula": "Combine a high-key studio portrait with a massive, multi-outlined diagonal title and horizontal footer bars using a tri-color palette (White/Black/Accent) for a high-energy commercial look."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:45:53.449Z"
+}

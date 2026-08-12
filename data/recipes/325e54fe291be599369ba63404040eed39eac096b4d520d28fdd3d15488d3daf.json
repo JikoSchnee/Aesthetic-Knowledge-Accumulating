@@ -1,0 +1,233 @@
+{
+  "id": "325e54fe291be599369ba63404040eed39eac096b4d520d28fdd3d15488d3daf",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:44:28.468Z",
+  "approvedAt": "2026-08-11T08:44:28.468Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:44:28.468Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "LP1.jpg",
+    "hash": "325e54fe291be599369ba63404040eed39eac096b4d520d28fdd3d15488d3daf",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "LP1",
+    "artist": "Liam Payne",
+    "artworkUrl": "https://coverartarchive.org/release-group/0aa9c4a2-c890-487c-8e74-c1895f521c37/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0aa9c4a2-c890-487c-8e74-c1895f521c37",
+    "releaseGroupId": "0aa9c4a2-c890-487c-8e74-c1895f521c37",
+    "recordingId": "a3f138a8-dec1-477c-88c2-cba7a22ae799",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Bedroom FloorLiam Payne",
+      "song": "Bedroom Floor",
+      "performer": "Liam Payne",
+      "peakPosition": 98,
+      "firstChartDate": "2017-11-11",
+      "lastChartDate": "2017-11-11",
+      "appearances": [
+        {
+          "chartDate": "2017-11-11",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic portrait with minimalist sans serif typography male portrait low key lighting geometric sans serif bokeh background cinematic color grading three quarter view warm skin tones against a cool teal and muted orange background sharp focus on the subject s eyes and facial texture versus a soft focus background extreme contrast between the dark clothing shadows and the bright white typography asymmetrical typographic balance anchored to the bottom edge portrait subject directional key light bokeh seascape background lower corner geometric sans typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Portrait with Minimalist Sans-Serif Typography",
+      "category": "Album Cover Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Music Album Art",
+        "Editorial Portraiture",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "male portrait",
+        "low-key lighting",
+        "geometric sans-serif",
+        "bokeh background",
+        "cinematic color grading",
+        "three-quarter view"
+      ]
+    },
+    "visualDefinition": "A close-up, high-contrast male portrait featuring a three-quarter profile against a soft, painterly bokeh background of teal and sunset hues. The lighting is directional, creating deep shadows on the right side of the face while highlighting skin texture and facial features. Minimalist, lowercase white typography is positioned at the bottom corners.",
+    "coreVisualRelationships": [
+      "Warm skin tones against a cool teal and muted orange background",
+      "Sharp focus on the subject's eyes and facial texture versus a soft-focus background",
+      "Extreme contrast between the dark clothing/shadows and the bright white typography",
+      "Asymmetrical typographic balance anchored to the bottom edge"
+    ],
+    "coreInvariants": [
+      "Lower-left and lower-right text placement",
+      "Directional lighting from the upper left",
+      "Short, textured hairstyle with visible stubble",
+      "Muted, desaturated color palette for the background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject occupies the central and right two-thirds of the frame, cropped from the chest up.",
+      "visualAnchor": "The subject's left eye (viewer's left) acts as the primary focal point due to sharpness and lighting.",
+      "movementAndEyePath": "The viewer's eye starts at the subject's gaze, moves down the bridge of the nose to the mouth, then drops to the white text at the bottom corners.",
+      "negativeSpace": "The upper left quadrant provides breathing room with a blurred, atmospheric horizon line."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and dark browns in the subject's hair and clothing.",
+      "contrastColorRole": "Teal and soft cyan in the background sky.",
+      "accentColorRole": "Warm peach and orange highlights on the skin and horizon.",
+      "saturationAndValueRelationship": "High value contrast between skin highlights and deep shadows; low saturation in the background to maintain focus on the subject.",
+      "paletteRestrictions": [
+        "Avoid vibrant primary colors",
+        "Limit to earth tones and muted teals"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Circular 'o' and 'p' counters",
+        "Straight-cut terminals",
+        "Lowercase only for all text elements"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'l' is a simple vertical bar",
+        "The 'p' has a descender that does not curve"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open/Circular",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom-left and bottom-right corners",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "Overlaid on dark areas for maximum legibility"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used for both name and title to maintain minimalist aesthetic.",
+      "graphicDevices": [
+        "Corner anchoring"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase styling",
+          "Geometric circularity",
+          "White color"
+        ],
+        "avoid": [
+          "Serifs",
+          "Italics",
+          "Uppercase letters",
+          "High-contrast strokes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Matches the geometric circularity and monolinear weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Medium",
+            "reason": "Provides the necessary geometric skeleton and lowercase charm.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Gotham",
+            "reason": "Modern, clean, and highly legible at small scales.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-detail portrait of a man with short textured hair in a dark shirt, lit from the side. The background should be a heavily blurred, out-of-focus seascape at dusk with teal and orange tones.",
+        "overlayInstruction": "Add lowercase geometric sans-serif text in solid white. Place the name in the bottom-left corner and the short title in the bottom-right corner, ensuring they are aligned with the margins."
+      },
+      "verificationChecks": [
+        "Is the text entirely lowercase?",
+        "Is the lighting directional and high-contrast?",
+        "Is the background sufficiently blurred to create depth?",
+        "Is the font a clean, geometric sans-serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the teal background",
+      "Sharpness of the skin texture",
+      "Tracking/letter spacing of the typography"
+    ],
+    "mustRedesign": [
+      "Any use of serif fonts",
+      "Bright, saturated background colors",
+      "Centered typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic depth of field",
+        "Clean, modern typographic layout",
+        "Realistic skin rendering"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Cluttered backgrounds",
+        "Default system fonts like Arial"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for monolinear stroke weight in text",
+      "Ensure the subject's gaze is directed toward the camera",
+      "Verify the white text is perfectly legible against the dark foreground",
+      "Confirm the color palette remains within the teal/orange/black spectrum"
+    ],
+    "reuseFormula": "Portrait subject + Directional Key Light + Bokeh Seascape Background + Lower-Corner Geometric Sans Typography"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:06:28.226Z"
+}

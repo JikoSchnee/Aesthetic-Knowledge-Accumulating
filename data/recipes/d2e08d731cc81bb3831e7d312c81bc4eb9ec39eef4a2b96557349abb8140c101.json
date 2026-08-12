@@ -1,0 +1,269 @@
+{
+  "id": "d2e08d731cc81bb3831e7d312c81bc4eb9ec39eef4a2b96557349abb8140c101",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:27:04.383Z",
+  "approvedAt": "2026-08-11T15:27:04.383Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:27:04.383Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "When You’re Through Thinking, Say Yes.jpg",
+    "hash": "d2e08d731cc81bb3831e7d312c81bc4eb9ec39eef4a2b96557349abb8140c101",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "When You’re Through Thinking, Say Yes",
+    "artist": "Yellowcard",
+    "artworkUrl": "https://coverartarchive.org/release-group/7e3f23cb-522d-41dd-958c-8e6a8373c2ee/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7e3f23cb-522d-41dd-958c-8e6a8373c2ee",
+    "releaseGroupId": "7e3f23cb-522d-41dd-958c-8e6a8373c2ee",
+    "recordingId": "1b66214f-e891-4877-9fd9-2d4a5022738b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "For You, And Your DenialYellowcard",
+      "song": "For You, And Your Denial",
+      "performer": "Yellowcard",
+      "peakPosition": 100,
+      "firstChartDate": "2011-02-05",
+      "lastChartDate": "2011-02-05",
+      "appearances": [
+        {
+          "chartDate": "2011-02-05",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "nocturnal cityscape grunge cover night city grunge texture vignette distressed typography urban landscape purple and gold scratched film central emblem acts as the primary focal point against the dark sky warm city lights at the bottom provide a grounded contrast to the cool toned upper half heavy distressing and scratches unify the foreground text and background image arched text follows the curve of the central circular seal nocturnal cityscape circular scratch overlay arched distressed slab serif wide tracked sans serif footer",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Nocturnal Cityscape Grunge Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Distressed Texturing"
+      ],
+      "useCases": [
+        "Alternative Rock Album Cover",
+        "Moody Social Media Graphic",
+        "Concert Poster Background"
+      ],
+      "retrievalTags": [
+        "night city",
+        "grunge texture",
+        "vignette",
+        "distressed typography",
+        "urban landscape",
+        "purple and gold",
+        "scratched film"
+      ]
+    },
+    "visualDefinition": "A low-angle nocturnal cityscape featuring a distant horizon of city lights under a heavy, textured sky. The composition is centered around a distressed circular emblem and arched display text, all treated with a weathered, stamped-ink effect. The color palette transitions from deep purples and blacks at the top to warm, glowing ambers at the bottom, overlaid with heavy film grain and circular scratches.",
+    "coreVisualRelationships": [
+      "Central emblem acts as the primary focal point against the dark sky.",
+      "Warm city lights at the bottom provide a grounded contrast to the cool-toned upper half.",
+      "Heavy distressing and scratches unify the foreground text and background image.",
+      "Arched text follows the curve of the central circular seal."
+    ],
+    "coreInvariants": [
+      "Heavy circular scratch texture across the entire frame.",
+      "High-contrast horizon line with bokeh-style city lights.",
+      "Weathered, monochromatic white treatment for all graphic elements."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A large circular emblem is centered vertically and horizontally, flanked by arched text above it. A silhouette of trees and a utility tower occupies the lower left quadrant.",
+      "visualAnchor": "The central white emblem and the bright horizon line of the city.",
+      "movementAndEyePath": "Eyes start at the central emblem, move up to the arched text, then down to the horizon line and across the bottom text.",
+      "negativeSpace": "The upper two-thirds of the image is dominated by dark, textured sky, providing space for the central graphics."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep indigo and charcoal purple in the sky and shadows.",
+      "contrastColorRole": "Warm amber and golden yellow from the city lights.",
+      "accentColorRole": "Desaturated white for the distressed graphic elements.",
+      "saturationAndValueRelationship": "Low saturation in the sky with high value contrast at the horizon line and in the white text.",
+      "paletteRestrictions": [
+        "Avoid vibrant primary colors",
+        "Limit to a tri-tone feel of purple, gold, and white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy slab serif and geometric sans-serif",
+      "letterConstructionRules": [
+        "Display text is arched along a circular path.",
+        "All characters feature a 'stamped' or 'eroded' texture with missing chunks of ink.",
+        "Secondary text is wide-tracked and small."
+      ],
+      "characterSpecificRedesigns": [
+        "Slab serifs are blunted and rounded by the weathering effect.",
+        "The central monogram uses interlocking geometric strokes."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "rounded",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered-arch",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper-center",
+            "scale": "large",
+            "rotation": "arched",
+            "warp": "arc",
+            "overlap": "none",
+            "relationshipToImage": "floating over sky"
+          },
+          "treatment": {
+            "fill": "distressed-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "grunge-erosion",
+            "distortion": "weathered"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "square",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monoline"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "widest",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom-center",
+            "scale": "small",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on dark foreground"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "slight-grain",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy, textured display type paired with clean, widely-spaced geometric sans-serif for contrast.",
+      "graphicDevices": [
+        "Scalloped circular seal",
+        "Interlocking monogram",
+        "Circular scratch overlays"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Arched orientation",
+          "Distressed texture",
+          "Wide tracking on bottom text"
+        ],
+        "avoid": [
+          "Clean, modern digital fonts",
+          "Drop shadows",
+          "Gradient fills on text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Clarendon or Rockwell (Distressed)",
+            "reason": "Provides the necessary slab-serif weight for the arched display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham or Montserrat (Light/Wide)",
+            "reason": "Matches the clean, geometric structure of the bottom metadata text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A nocturnal cityscape at dusk, looking down from a hill. The bottom 20% is a glowing horizon of amber city lights. The upper 80% is a dark purple sky with heavy film grain, circular scratches, and a vignette. A silhouette of a tree and a power line tower is on the left.",
+        "overlayInstruction": "Add a distressed white scalloped circular emblem in the center. Above it, arch a bold slab-serif font. At the very bottom, place a single line of wide-tracked, small sans-serif text. Apply a heavy grunge/erosion texture to all white elements."
+      },
+      "verificationChecks": [
+        "Is the sky texture dominated by circular scratches?",
+        "Is the top text arched correctly around the center?",
+        "Does the bottom text have significant letter-spacing?",
+        "Is the color transition from purple to amber smooth?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the scratch texture",
+      "Curvature of the arched text",
+      "Density of the city lights at the horizon",
+      "Level of erosion on the typography"
+    ],
+    "mustRedesign": [
+      "Specific band logos",
+      "Unique monogram shapes",
+      "Exact wording of the title"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic film-wear appearance",
+        "Balanced nocturnal lighting",
+        "Legible but heavily weathered type"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Default font rendering without texture",
+        "Overly bright or neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for circular scratch artifacts across the image.",
+      "Ensure the horizon line glows without blowing out detail.",
+      "Verify the 'stamped' look of the central emblem.",
+      "Confirm the text is centered and follows the established hierarchy."
+    ],
+    "reuseFormula": "Nocturnal Cityscape + Circular Scratch Overlay + Arched Distressed Slab Serif + Wide-Tracked Sans Serif Footer"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:23:32.945Z"
+}

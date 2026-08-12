@@ -1,0 +1,269 @@
+{
+  "id": "e513c34a17462898ade55e03c856ab216c7cc6e6bcf702cd2b986ee2fb27d3de",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:41:00.979Z",
+  "approvedAt": "2026-08-11T22:41:00.979Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:41:00.979Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "When Lights Are Low.jpg",
+    "hash": "e513c34a17462898ade55e03c856ab216c7cc6e6bcf702cd2b986ee2fb27d3de",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "When Lights Are Low",
+    "artist": "Tony Bennett",
+    "artworkUrl": "https://coverartarchive.org/release-group/a66a58d7-52ef-45c1-a177-cec0b3c7480c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a66a58d7-52ef-45c1-a177-cec0b3c7480c",
+    "releaseGroupId": "a66a58d7-52ef-45c1-a177-cec0b3c7480c",
+    "recordingId": "9c769ecd-ded8-4efe-9e81-74480e33991e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "It's A Sin To Tell A LieTony Bennett",
+      "song": "It's A Sin To Tell A Lie",
+      "performer": "Tony Bennett",
+      "peakPosition": 99,
+      "firstChartDate": "1964-07-11",
+      "lastChartDate": "1964-07-11",
+      "appearances": [
+        {
+          "chartDate": "1964-07-11",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "expressionist jazz portrait cover expressionist portrait blue and green palette impasto brushwork mid century typography asymmetrical layout jazz aesthetic the profile silhouette emerges from a textured green vertical band on the left into a deep blue field the primary text block overlaps the right side of the painted face creating a tension between figure and ground the orange accent text provides a warm counterpoint to the cool toned blue and green background expressionist impasto portrait mid century modernist typography asymmetrical right aligned layout blue green orange palette",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Expressionist Jazz Portrait Cover",
+      "category": "Album Art",
+      "medium": [
+        "Oil Painting",
+        "Impasto",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vinyl Record Sleeves",
+        "Jazz Festival Posters",
+        "Mid-Century Modern Art Prints"
+      ],
+      "retrievalTags": [
+        "expressionist portrait",
+        "blue and green palette",
+        "impasto brushwork",
+        "mid-century typography",
+        "asymmetrical layout",
+        "jazz aesthetic"
+      ]
+    },
+    "visualDefinition": "A high-contrast, expressionist oil-painted profile of a man rendered in deep blues and vibrant greens, featuring heavy impasto textures and visible palette knife strokes. The composition is anchored by a large, right-aligned typographic block using a mix of sans-serif and serif fonts in white and orange.",
+    "coreVisualRelationships": [
+      "The profile silhouette emerges from a textured green vertical band on the left into a deep blue field.",
+      "The primary text block overlaps the right side of the painted face, creating a tension between figure and ground.",
+      "The orange accent text provides a warm counterpoint to the cool-toned blue and green background."
+    ],
+    "coreInvariants": [
+      "Heavy impasto texture with visible ridges and grooves.",
+      "A palette restricted to ultramarine blue, emerald green, and a highlight of bright orange.",
+      "Asymmetrical right-justified text alignment."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A large-scale profile face occupies the left two-thirds of the frame, facing left.",
+      "visualAnchor": "The large white sans-serif name in the center-right acts as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the white text, move up to the orange title, then sweep left along the profile's gaze, finally descending the tracklist on the bottom right.",
+      "negativeSpace": "Minimal; the entire canvas is filled with dense painterly texture."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Ultramarine and Cobalt Blue (Background and shadows)",
+      "contrastColorRole": "Emerald and Forest Green (Left vertical band and highlights)",
+      "accentColorRole": "Vibrant Orange (Title and secondary text)",
+      "saturationAndValueRelationship": "High saturation in the blues and greens with high value contrast provided by the white typography.",
+      "paletteRestrictions": [
+        "No warm reds or yellows outside of the specific orange accent.",
+        "No flat black; shadows are deep blue."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif and Transitional Serif",
+      "letterConstructionRules": [
+        "Tight kerning and leading in the main display text.",
+        "Mixed case for the main name, all-caps for technical metadata.",
+        "Italicized serif for the tracklist."
+      ],
+      "characterSpecificRedesigns": [
+        "None; relies on standard mid-century grotesque and serif forms."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "extra-tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "center-right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "overlaps-subject",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "solid-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "stacked",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "top-right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "solid-orange",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold sans-serif for the subject name paired with a smaller, high-contrast orange sans-serif for the title and a delicate italic serif for the tracklist.",
+      "graphicDevices": [
+        "Horizontal lines separating text blocks",
+        "Geometric logo box in the top left corner",
+        "Stereo banner at the top center"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right-aligned text block",
+          "Overlapping text on the face",
+          "Orange and white color contrast"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Drop shadows",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the weight and mid-century feel of the main name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Bold",
+            "reason": "Provides the clean, geometric structure for the orange title.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Baskerville Italic",
+            "reason": "Captures the classic, elegant feel of the tracklist.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create an expressionist oil painting of a man's profile facing left. Use heavy impasto texture with visible palette knife strokes. The left third should be a vertical band of emerald green, transitioning into a deep ultramarine blue field that makes up the rest of the background and the shadows of the face. The face should be stylized and moody.",
+        "overlayInstruction": "Add a large block of text on the right side. The main name should be in large, bold white sans-serif, slightly overlapping the painted face. Above it, place the title in bold orange sans-serif, right-aligned. Below the name, add a secondary line in orange. In the bottom right corner, add a list of items in a small, white italicized serif font, right-aligned."
+      },
+      "verificationChecks": [
+        "Is the impasto texture clearly visible?",
+        "Is the text right-aligned and overlapping the portrait?",
+        "Is the color palette strictly blue, green, white, and orange?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the impasto texture",
+      "Proportion of green vs blue in the background",
+      "Scale of the main typographic block"
+    ],
+    "mustRedesign": [
+      "Any specific corporate logos or trademarks",
+      "The specific tracklist wording",
+      "The artist's name"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile, thick paint quality",
+        "High-contrast color interaction",
+        "Clean, modernist typographic layout"
+      ],
+      "avoid": [
+        "Smooth digital gradients",
+        "Thin, wispy brushstrokes",
+        "Centered or symmetrical layouts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the orange text is vibrant and legible against the blue.",
+      "Check that the paint texture looks physical rather than a digital filter.",
+      "Verify the right-alignment of the typographic block.",
+      "Confirm the profile silhouette is distinct but painterly."
+    ],
+    "reuseFormula": "Expressionist Impasto Portrait + Mid-Century Modernist Typography + Asymmetrical Right-Aligned Layout + Blue/Green/Orange Palette"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:25:21.848Z"
+}

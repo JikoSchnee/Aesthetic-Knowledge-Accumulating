@@ -1,0 +1,230 @@
+{
+  "id": "3f03ebc8e2e9866a88a1ca9ed73b941b8bd87cc173f44198d4a1ef129882d4f7",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:19:07.355Z",
+  "approvedAt": "2026-08-11T08:19:07.355Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:19:07.355Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "7220.jpg",
+    "hash": "3f03ebc8e2e9866a88a1ca9ed73b941b8bd87cc173f44198d4a1ef129882d4f7",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "7220",
+    "artist": "Lil Durk",
+    "artworkUrl": "https://coverartarchive.org/release-group/5a62bebd-d78e-4f02-9d95-0bee626a7eff/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5a62bebd-d78e-4f02-9d95-0bee626a7eff",
+    "releaseGroupId": "5a62bebd-d78e-4f02-9d95-0bee626a7eff",
+    "recordingId": "ec136003-cbf7-4a43-b987-fbbe2065f7f1",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "BarbarianLil Durk",
+      "song": "Barbarian",
+      "performer": "Lil Durk",
+      "peakPosition": 48,
+      "firstChartDate": "2022-03-26",
+      "lastChartDate": "2022-04-02",
+      "appearances": [
+        {
+          "chartDate": "2022-03-26",
+          "position": 48
+        },
+        {
+          "chartDate": "2022-04-02",
+          "position": 79
+        }
+      ]
+    }
+  },
+  "dedupeText": "lo fi nostalgic portrait cover lo fi vintage photo childhood portrait handwritten typography film grain light leak blurry subject focus vs sharp typographic elements deep shadow background vs warm golden light leak organic handwritten script vs rigid advisory labeling vintage portrait heavy grain light leak corner script",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Lo-Fi Nostalgic Portrait Cover",
+      "category": "Album Art",
+      "medium": [
+        "Analog Photography",
+        "Digital Illustration",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Hip-Hop Album Cover",
+        "Nostalgic Social Media Graphic",
+        "Vintage-Style Poster"
+      ],
+      "retrievalTags": [
+        "lo-fi",
+        "vintage photo",
+        "childhood portrait",
+        "handwritten typography",
+        "film grain",
+        "light leak"
+      ]
+    },
+    "visualDefinition": "A soft-focus, low-resolution childhood portrait set against a dark background, featuring heavy film grain, a warm light leak on the right edge, and a distinctive handwritten numeric signature in the bottom left corner.",
+    "coreVisualRelationships": [
+      "Blurry subject focus vs. sharp typographic elements",
+      "Deep shadow background vs. warm golden light leak",
+      "Organic handwritten script vs. rigid advisory labeling"
+    ],
+    "coreInvariants": [
+      "Heavy chromatic aberration and digital noise",
+      "Soft-focus facial features",
+      "Warm, desaturated skin tones"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered, medium close-up portrait occupying 70% of the vertical frame.",
+      "visualAnchor": "The subject's eyes, despite the blur, act as the central focal point.",
+      "movementAndEyePath": "From the central face down to the handwritten numbers in the bottom left, then across to the advisory tag in the bottom right.",
+      "negativeSpace": "Large areas of dark, textured black space surrounding the head and shoulders."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and black (background and hair)",
+      "contrastColorRole": "Muted peach and terracotta (skin tones)",
+      "accentColorRole": "Golden yellow (light leak and handwritten text)",
+      "saturationAndValueRelationship": "Low saturation with high contrast between the subject and the dark void.",
+      "paletteRestrictions": [
+        "No vibrant primary colors",
+        "No pure whites"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Handwritten script with a slight italic lean",
+      "letterConstructionRules": [
+        "Monolinear stroke width",
+        "Fluid, connected strokes for repeating digits",
+        "Angled baseline rising from left to right"
+      ],
+      "characterSpecificRedesigns": [
+        "The number '2' features a looped base and a sharp top hook",
+        "The final digit is stylized with a horizontal strike-through or underline integration"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "extended",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "variable",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "marker-like"
+          },
+          "typesetting": {
+            "case": "numeric",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "low"
+          },
+          "composition": {
+            "position": "bottom left corner",
+            "scale": "20% of width",
+            "rotation": "15 degrees upward",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over dark negative space"
+          },
+          "treatment": {
+            "fill": "golden-tan",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "natural handwriting variance"
+          }
+        }
+      ],
+      "pairingStrategy": "A fluid, organic signature paired with a stark, geometric sans-serif for technical metadata.",
+      "graphicDevices": [
+        "Film grain overlay",
+        "Vertical light leak (orange/yellow gradient)",
+        "Vignetting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Handwritten feel",
+          "Golden-tan color",
+          "Angled placement"
+        ],
+        "avoid": [
+          "Clean digital fonts",
+          "Perfectly horizontal alignment"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Casual marker script",
+            "reason": "Mimics the personal, signed feel of the original",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Graffiti tag style",
+            "reason": "Captures the urban aesthetic and fluid motion",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-resolution, blurry portrait of a young child with dark hair against a black background. Apply heavy film grain, a soft orange light leak on the right side, and a slight purple/red chromatic aberration.",
+        "overlayInstruction": "Add custom handwritten numbers in a golden-tan color in the bottom left corner, tilted upwards. Add a standard small black and white advisory label in the bottom right corner."
+      },
+      "verificationChecks": [
+        "Is the portrait sufficiently out of focus?",
+        "Does the light leak look like a natural film defect?",
+        "Is the handwriting color consistent with the light leak tone?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the light leak",
+      "Amount of film grain",
+      "Degree of facial blur",
+      "Angle of the handwritten text"
+    ],
+    "mustRedesign": [
+      "Specific facial identity",
+      "Exact numeric sequence",
+      "Proprietary logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic analog film texture",
+        "Emotional nostalgia through soft focus",
+        "Balanced negative space"
+      ],
+      "avoid": [
+        "High-definition clarity",
+        "Modern digital filters that look 'fake'",
+        "Centered text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the grain doesn't obscure the subject entirely",
+      "Check that the light leak doesn't wash out the face",
+      "Verify the handwritten text looks manually drawn, not typed",
+      "Confirm the color palette remains muted and warm"
+    ],
+    "reuseFormula": "Vintage Portrait + Heavy Grain + Light Leak + Corner Script"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:06:35.256Z"
+}

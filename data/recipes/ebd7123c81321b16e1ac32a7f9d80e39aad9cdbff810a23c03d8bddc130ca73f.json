@@ -1,0 +1,253 @@
+{
+  "id": "ebd7123c81321b16e1ac32a7f9d80e39aad9cdbff810a23c03d8bddc130ca73f",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T00:17:59.268Z",
+  "approvedAt": "2026-08-12T00:17:59.268Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T00:17:59.268Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Nothing to Lose.jpg",
+    "hash": "ebd7123c81321b16e1ac32a7f9d80e39aad9cdbff810a23c03d8bddc130ca73f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Nothing to Lose",
+    "artist": "Eddie Money",
+    "artworkUrl": "https://coverartarchive.org/release-group/d3ad9569-6542-3436-852f-a43cbb142183/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d3ad9569-6542-3436-852f-a43cbb142183",
+    "releaseGroupId": "d3ad9569-6542-3436-852f-a43cbb142183",
+    "recordingId": "7257fb29-8491-42d4-80de-cec451d6ad64",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Let Me InEddie Money",
+      "song": "Let Me In",
+      "performer": "Eddie Money",
+      "peakPosition": 60,
+      "firstChartDate": "1989-04-22",
+      "lastChartDate": "1989-06-03",
+      "appearances": [
+        {
+          "chartDate": "1989-04-22",
+          "position": 81
+        },
+        {
+          "chartDate": "1989-04-29",
+          "position": 72
+        },
+        {
+          "chartDate": "1989-05-06",
+          "position": 61
+        },
+        {
+          "chartDate": "1989-05-13",
+          "position": 60
+        },
+        {
+          "chartDate": "1989-05-20",
+          "position": 63
+        },
+        {
+          "chartDate": "1989-05-27",
+          "position": 81
+        },
+        {
+          "chartDate": "1989-06-03",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic duotone collage album cover duotone cinematic lighting obi strip collage vintage car high contrast vertical typography triadic color zones separating distinct photographic frames vertical white sidebar anchoring the left hand composition high contrast shadows creating a noir inspired cinematic mood repetition of the subject across different color filtered segments combine high contrast duotone photography in a triadic collage with a structured vertical sidebar for a vintage cinematic aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Duotone Collage Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Digital Collage",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Poster Design",
+        "Editorial Layout"
+      ],
+      "retrievalTags": [
+        "duotone",
+        "cinematic lighting",
+        "obi strip",
+        "collage",
+        "vintage car",
+        "high contrast",
+        "vertical typography"
+      ]
+    },
+    "visualDefinition": "A multi-paneled photographic collage featuring a central figure in a vintage car, characterized by high-contrast duotone color grading (red, yellow, blue) and a distinctive vertical sidebar (obi strip) containing dense typographic information.",
+    "coreVisualRelationships": [
+      "Triadic color zones separating distinct photographic frames",
+      "Vertical white sidebar anchoring the left-hand composition",
+      "High-contrast shadows creating a noir-inspired cinematic mood",
+      "Repetition of the subject across different color-filtered segments"
+    ],
+    "coreInvariants": [
+      "High-contrast film grain texture",
+      "Strict vertical orientation for primary text blocks",
+      "Primary color duotone filters (Red, Yellow, Blue)",
+      "White border/sidebar on the left edge"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central subject is framed within a car window, occupying the middle yellow-toned panel at a medium scale.",
+      "visualAnchor": "The white vertical sidebar on the left acts as the primary structural anchor.",
+      "movementAndEyePath": "The eye moves from the top-right red panel, down through the central yellow panel, to the bottom blue panel, guided by the diagonal cuts of the collage.",
+      "negativeSpace": "Deep black shadows within the car interior provide significant negative space that emphasizes the subject's face and hands."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Red, Golden Yellow, and Cobalt Blue define the three main photographic zones.",
+      "contrastColorRole": "Pure Black provides the structural shadows and depth.",
+      "accentColorRole": "White is used for the sidebar and small typographic details to ensure legibility.",
+      "saturationAndValueRelationship": "High saturation in the mid-tones with crushed blacks and blown-out highlights.",
+      "paletteRestrictions": [
+        "Limited to a triadic primary palette plus black and white."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif and Bold Condensed Gothic",
+      "letterConstructionRules": [
+        "Vertical stacking for Latin characters",
+        "Heavy weight for primary titles",
+        "Tight letter spacing in vertical orientation"
+      ],
+      "characterSpecificRedesigns": [
+        "Latin characters rotated 90 degrees to read vertically top-to-bottom"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "vertical-stack",
+            "density": "high"
+          },
+          "composition": {
+            "position": "left-center sidebar",
+            "scale": "large",
+            "rotation": "90deg",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within white sidebar"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold condensed sans-serif for titles paired with light-weight gothic for metadata.",
+      "graphicDevices": [
+        "Vertical dotted lines",
+        "Solid color square separators",
+        "Black header bar at the top of the sidebar"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical orientation",
+          "Red-on-white color scheme for main title",
+          "Condensed proportions"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Horizontal text in the sidebar",
+          "Script or decorative styles"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Matches the heavy, industrial feel of the vertical title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers Ultra Condensed",
+            "reason": "Provides the necessary narrow profile for vertical stacking.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a three-panel vertical collage of a man in a vintage car. Top panel: Red duotone, close up of hands on a steering wheel. Middle panel: Yellow duotone, man looking out of a car window. Bottom panel: Blue duotone, low angle of the car front. High contrast, film grain, noir lighting.",
+        "overlayInstruction": "Add a white vertical sidebar on the far left. Place a black rectangular block at the top of the sidebar with white metadata. Below it, place the main title in bold red condensed sans-serif, rotated 90 degrees to read vertically. Add secondary text in black gothic script to the right of the main title within the sidebar."
+      },
+      "verificationChecks": [
+        "Is the color palette strictly limited to red, yellow, blue, black, and white?",
+        "Is the main title oriented vertically within the white sidebar?",
+        "Does the image have a high-contrast, grainy photographic texture?",
+        "Are the three color zones clearly demarcated by diagonal or horizontal cuts?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Angle of the collage cuts",
+      "Specific duotone hues",
+      "Width of the left sidebar",
+      "Subject matter within the car theme"
+    ],
+    "mustRedesign": [
+      "Specific artist names and logos",
+      "Japanese characters (unless specifically requested)",
+      "Original catalog numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic noir lighting",
+        "Authentic film grain texture",
+        "Balanced triadic color distribution"
+      ],
+      "avoid": [
+        "Modern digital gradients",
+        "Clean, high-resolution digital look",
+        "Horizontal text in the sidebar"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the red, yellow, and blue zones do not bleed into each other excessively.",
+      "Check that the vertical text is perfectly centered in the white sidebar.",
+      "Verify that the shadows are deep black without losing all detail.",
+      "Confirm the grain texture is consistent across all three color panels."
+    ],
+    "reuseFormula": "Combine high-contrast duotone photography in a triadic collage with a structured vertical sidebar for a vintage cinematic aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:26:05.838Z"
+}

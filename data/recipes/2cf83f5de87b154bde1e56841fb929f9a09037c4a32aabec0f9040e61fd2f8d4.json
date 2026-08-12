@@ -1,0 +1,275 @@
+{
+  "id": "2cf83f5de87b154bde1e56841fb929f9a09037c4a32aabec0f9040e61fd2f8d4",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T21:38:59.645Z",
+  "approvedAt": "2026-08-11T21:38:59.645Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T21:38:59.645Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Walkin' in the Sun.jpg",
+    "hash": "2cf83f5de87b154bde1e56841fb929f9a09037c4a32aabec0f9040e61fd2f8d4",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Walkin' in the Sun",
+    "artist": "Lisa Keith",
+    "artworkUrl": "https://coverartarchive.org/release-group/e1031f02-bc48-3af6-a0ce-8b35648649b2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e1031f02-bc48-3af6-a0ce-8b35648649b2",
+    "releaseGroupId": "e1031f02-bc48-3af6-a0ce-8b35648649b2",
+    "recordingId": "ffc42eb9-2a8e-40f3-8604-be07698b0ae4",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I'm In LoveLisa Keith",
+      "song": "I'm In Love",
+      "performer": "Lisa Keith",
+      "peakPosition": 84,
+      "firstChartDate": "1994-01-22",
+      "lastChartDate": "1994-02-05",
+      "appearances": [
+        {
+          "chartDate": "1994-01-22",
+          "position": 84
+        },
+        {
+          "chartDate": "1994-01-29",
+          "position": 85
+        },
+        {
+          "chartDate": "1994-02-05",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "sun kissed portrait layout 90s aesthetic warm lighting monogram overlay geometric header soft focus portrait warm skin tones against a neutral gray beige background horizontal black bar anchoring the upper third of the composition large scale script initials acting as a graphic layer over the photographic subject textured black knit clothing providing a dark base for the composition combine a soft focus warm portrait with a heavy geometric header and a large scale script watermark for a 90s inspired editorial look",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Sun-Kissed Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Cover",
+        "Editorial Portrait",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "90s aesthetic",
+        "warm lighting",
+        "monogram overlay",
+        "geometric header",
+        "soft focus portrait"
+      ]
+    },
+    "visualDefinition": "A warm-toned, soft-focus portrait of a woman with eyes closed, framed by a black horizontal header bar at the top and featuring a large, translucent script monogram overlapping the subject.",
+    "coreVisualRelationships": [
+      "Warm skin tones against a neutral gray-beige background",
+      "Horizontal black bar anchoring the upper third of the composition",
+      "Large-scale script initials acting as a graphic layer over the photographic subject",
+      "Textured black knit clothing providing a dark base for the composition"
+    ],
+    "coreInvariants": [
+      "Warm, golden-hour lighting on the face",
+      "Closed-eye expression conveying serenity",
+      "Hands positioned near the face with soft finger placement",
+      "Contrast between sharp geometric header and organic script lettering"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered horizontally, filling the lower two-thirds of the frame from the chest up.",
+      "visualAnchor": "The black header bar at the top provides a heavy visual weight that stabilizes the airy portrait.",
+      "movementAndEyePath": "Eyes start at the high-contrast text in the black bar, move down to the face, and follow the large script 'K' back up.",
+      "negativeSpace": "Neutral space around the head allows the hair and skin to glow without competition."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm peach and golden tones in the skin and hair.",
+      "contrastColorRole": "Deep black in the header bar and sweater.",
+      "accentColorRole": "Muted coral/salmon for the primary text.",
+      "saturationAndValueRelationship": "High value in the center (face) transitioning to deep shadows in the clothing; saturation is concentrated in the warm highlights.",
+      "paletteRestrictions": [
+        "Golden peach",
+        "Charcoal black",
+        "Warm gray",
+        "Muted coral"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric sans-serif and elegant script",
+      "letterConstructionRules": [
+        "Primary text uses wide, all-caps geometric proportions",
+        "Secondary text uses lowercase, wide-tracked sans-serif",
+        "Monogram uses high-contrast calligraphic strokes with a large scale"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'K' in the monogram features a long, sweeping tail that descends into the portrait area"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "N/A (all caps)",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "very wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "centered in black bar",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within graphic element"
+          },
+          "treatment": {
+            "fill": "solid coral",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "formal script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "variable",
+            "terminals": "rounded/teardrop",
+            "corners": "curved",
+            "counters": "large",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "mixed",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "none",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "top right, overlapping header",
+            "scale": "extra large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over image and header",
+            "relationshipToImage": "translucent overlay"
+          },
+          "treatment": {
+            "fill": "dark charcoal with transparency",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Geometric sans-serif for structure paired with a fluid script for elegance and movement.",
+      "graphicDevices": [
+        "Horizontal color block",
+        "Large-scale letterform as a watermark"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide letter spacing",
+          "Horizontal bar layout",
+          "Monogram scale"
+        ],
+        "avoid": [
+          "Condensed fonts",
+          "Bright primary colors",
+          "Hard drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Extra Bold Wide",
+            "reason": "Matches the geometric, wide-tracked uppercase aesthetic",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bickham Script",
+            "reason": "Provides the high-contrast, elegant flourishes for the monogram",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus portrait of a woman with blonde hair and closed eyes, wearing a black turtleneck sweater. Use warm, golden lighting. The background should be a neutral, warm gray. Leave the top 20% of the frame for a solid black horizontal bar.",
+        "overlayInstruction": "Add a solid black bar at the top. Center wide-tracked geometric sans-serif text in coral inside the bar. Below the bar, add a second line of lowercase text in a lighter peach. Overlay a very large, dark gray script monogram on the right side that overlaps both the black bar and the portrait."
+      },
+      "verificationChecks": [
+        "Is the lighting warm and golden?",
+        "Is the text in the black bar widely spaced?",
+        "Does the script 'K' overlap the subject's hair?",
+        "Is the overall mood serene and soft?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Width of the top black bar",
+      "Opacity of the script monogram",
+      "Saturation of the coral text color",
+      "Intensity of the golden light on the subject"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original artist",
+      "Exact brand logos",
+      "Original text content"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft skin texture",
+        "Balanced typographic hierarchy",
+        "Warm, cohesive color palette"
+      ],
+      "avoid": [
+        "Harsh digital sharpening",
+        "Clashing neon colors",
+        "Crowded margins"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the script monogram does not obscure the face entirely.",
+      "Check that the coral text is legible against the black background.",
+      "Verify the transition between the black bar and the photo is a clean horizontal edge.",
+      "Confirm the sweater texture is visible but dark."
+    ],
+    "reuseFormula": "Combine a soft-focus warm portrait with a heavy geometric header and a large-scale script watermark for a 90s-inspired editorial look."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:05:29.770Z"
+}

@@ -1,0 +1,230 @@
+{
+  "id": "373a87338268d46d6e2bf35641f3ecf45bb0de828644c7f5b8b110d9d819e129",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T10:55:20.708Z",
+  "approvedAt": "2026-08-11T10:55:20.708Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T10:55:20.708Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Chocolate Chip.jpg",
+    "hash": "373a87338268d46d6e2bf35641f3ecf45bb0de828644c7f5b8b110d9d819e129",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Chocolate Chip",
+    "artist": "Isaac Hayes",
+    "artworkUrl": "https://coverartarchive.org/release-group/2983c0e4-b502-3d20-8b2d-ab1da9db9c76/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/2983c0e4-b502-3d20-8b2d-ab1da9db9c76",
+    "releaseGroupId": "2983c0e4-b502-3d20-8b2d-ab1da9db9c76",
+    "recordingId": "0cdb394a-cbf2-402e-9b6b-ae93c8223b56",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Chocolate ChipIsaac Hayes",
+      "song": "Chocolate Chip",
+      "performer": "Isaac Hayes",
+      "peakPosition": 92,
+      "firstChartDate": "1975-08-23",
+      "lastChartDate": "1975-08-30",
+      "appearances": [
+        {
+          "chartDate": "1975-08-23",
+          "position": 94
+        },
+        {
+          "chartDate": "1975-08-30",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "low key soul portrait low key lighting chiaroscuro black background soul music aesthetic minimalist typography high contrast portrait vertical alignment between the illuminated face and the illuminated hand extreme contrast between deep shadows and warm skin highlights text positioned in the upper left quadrant to balance the central vertical axis combine low key chiaroscuro portrait pure black negative space top left geometric sans serif typography to create a soul inspired minimalist cover",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Low-Key Soul Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Studio Lighting"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portraiture",
+        "Minimalist Poster Design"
+      ],
+      "retrievalTags": [
+        "low-key lighting",
+        "chiaroscuro",
+        "black background",
+        "soul music aesthetic",
+        "minimalist typography",
+        "high contrast portrait"
+      ]
+    },
+    "visualDefinition": "A high-contrast, low-key portrait of a Black man emerging from absolute blackness. The lighting is focused solely on the face and a hand holding a small object, creating a dramatic chiaroscuro effect where the body and clothing are completely invisible, merged into the dark background.",
+    "coreVisualRelationships": [
+      "Vertical alignment between the illuminated face and the illuminated hand",
+      "Extreme contrast between deep shadows and warm skin highlights",
+      "Text positioned in the upper-left quadrant to balance the central vertical axis"
+    ],
+    "coreInvariants": [
+      "Pure black background (#000000)",
+      "Selective lighting on facial features and hand only",
+      "Absence of visible clothing or torso"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Face centered in the upper half; hand centered in the lower half; large scale relative to the frame.",
+      "visualAnchor": "The subject's eyes and the illuminated object in the hand.",
+      "movementAndEyePath": "The eye starts at the face, moves down the vertical axis to the hand, then shifts to the top-left typography.",
+      "negativeSpace": "Dominant; approximately 85% of the frame is solid black negative space."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (Background and shadows)",
+      "contrastColorRole": "Warm amber and brown (Skin tones)",
+      "accentColorRole": "White (Typography)",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast in specific focal points.",
+      "paletteRestrictions": [
+        "Deep Umber",
+        "Burnt Sienna",
+        "Pure Black",
+        "Off-White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Heavy weight",
+        "Tight letter spacing",
+        "Lowercase for secondary lines",
+        "Uppercase for primary lines"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Extra Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top Left",
+            "scale": "Small relative to canvas",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family using weight and case contrast.",
+      "graphicDevices": [
+        "Left-aligned text block"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Heavy weight",
+          "Geometric structure",
+          "Tight leading"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "High-contrast strokes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic Bold",
+            "reason": "Matches the 70s geometric soul aesthetic and tight tracking.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Provides the necessary geometric weight and clean terminals.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A portrait of a Black man with a beard in a dark room, lit with a single overhead spotlight so only his face and his hand holding a cookie are visible. The rest of his body and the background are pure black. High contrast, cinematic film grain.",
+        "overlayInstruction": "Add two lines of heavy geometric sans-serif text in the top left corner. The top line should be all caps, the bottom line all lowercase. Use white color and tight line spacing."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Are the torso and shoulders invisible?",
+        "Is the text left-aligned in the upper-left quadrant?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the spotlight",
+      "Object held in the hand",
+      "Facial expression",
+      "Font weight"
+    ],
+    "mustRedesign": [
+      "Specific facial identity",
+      "Specific brand logos",
+      "Exact text content"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Deep, rich blacks without noise",
+        "Natural skin textures in highlights",
+        "Balanced vertical composition"
+      ],
+      "avoid": [
+        "Visible background details",
+        "Soft, flat lighting",
+        "Centered typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no 'ghosting' of the body is visible in the shadows.",
+      "Check that the hand and face are vertically aligned.",
+      "Verify typography is sharp and legible against the black.",
+      "Confirm the lighting feels directional and intentional."
+    ],
+    "reuseFormula": "Combine [Low-Key Chiaroscuro Portrait] + [Pure Black Negative Space] + [Top-Left Geometric Sans-Serif Typography] to create a soul-inspired minimalist cover."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:06:34.049Z"
+}

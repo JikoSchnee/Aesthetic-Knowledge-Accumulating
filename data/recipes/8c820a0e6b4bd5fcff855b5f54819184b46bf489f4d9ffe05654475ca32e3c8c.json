@@ -1,0 +1,231 @@
+{
+  "id": "8c820a0e6b4bd5fcff855b5f54819184b46bf489f4d9ffe05654475ca32e3c8c",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:24:30.354Z",
+  "approvedAt": "2026-08-11T22:24:30.354Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:24:30.354Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "No Muss... No Fuss.jpg",
+    "hash": "8c820a0e6b4bd5fcff855b5f54819184b46bf489f4d9ffe05654475ca32e3c8c",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "No Muss... No Fuss",
+    "artist": "Donnie Iris",
+    "artworkUrl": "https://coverartarchive.org/release-group/a7f9a5f4-68b4-4f09-966a-7df7a3644e62/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a7f9a5f4-68b4-4f09-966a-7df7a3644e62",
+    "releaseGroupId": "a7f9a5f4-68b4-4f09-966a-7df7a3644e62",
+    "recordingId": "72204f11-28d2-4d00-9c26-10b043de3415",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Injured In The Game of LoveDonnie Iris",
+      "song": "Injured In The Game of Love",
+      "performer": "Donnie Iris",
+      "peakPosition": 91,
+      "firstChartDate": "1985-03-23",
+      "lastChartDate": "1985-03-30",
+      "appearances": [
+        {
+          "chartDate": "1985-03-23",
+          "position": 93
+        },
+        {
+          "chartDate": "1985-03-30",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "new wave stencil portrait stencil typography 80s new wave monochrome portrait thick rimmed glasses high contrast red text grainy film red typography against a grayscale photographic background tight cropping on the subject s face creating intimacy and intensity industrial stencil texture contrasting with organic facial features diagonal eye path from the subject s gaze to the stacked text blocks take a high contrast b w portrait add heavy red stencil type crop tightly to the eyes new wave aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "New Wave Stencil Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Black and white photography",
+        "Screen-printed typography"
+      ],
+      "useCases": [
+        "Music packaging",
+        "Retro editorial design",
+        "Poster art"
+      ],
+      "retrievalTags": [
+        "stencil typography",
+        "80s new wave",
+        "monochrome portrait",
+        "thick rimmed glasses",
+        "high contrast red text",
+        "grainy film"
+      ]
+    },
+    "visualDefinition": "A high-contrast, grainy black-and-white close-up portrait of a man with thick black glasses, paired with bold, bright red stencil-style typography that overlaps the subject's forehead and fills the upper right negative space.",
+    "coreVisualRelationships": [
+      "Red typography against a grayscale photographic background",
+      "Tight cropping on the subject's face creating intimacy and intensity",
+      "Industrial stencil texture contrasting with organic facial features",
+      "Diagonal eye-path from the subject's gaze to the stacked text blocks"
+    ],
+    "coreInvariants": [
+      "Vibrant red (#FF0000) for all text elements",
+      "Grainy, desaturated black and white photography",
+      "Stencil-cut letterforms with visible bridges"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is positioned on the left two-thirds of the frame, scaled to a tight head-and-shoulders crop.",
+      "visualAnchor": "The dark, thick frames of the subject's glasses.",
+      "movementAndEyePath": "Starts at the eyes, moves up to the primary header text, then drops to the secondary text block on the right.",
+      "negativeSpace": "Neutral gray background on the right side provides a canvas for the secondary text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Grayscale tones (background and subject)",
+      "contrastColorRole": "Pure red (typography)",
+      "accentColorRole": "Deep black (glasses and shadows)",
+      "saturationAndValueRelationship": "High value contrast between the red text and the gray background; low saturation except for the text.",
+      "paletteRestrictions": [
+        "No blues or greens",
+        "No gradients in the text"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold slab serif stencil",
+      "letterConstructionRules": [
+        "Heavy vertical strokes",
+        "Horizontal stencil breaks in the middle of vertical stems",
+        "Short, thick serifs",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Vertical breaks in 'O' and 'D' characters",
+        "Disconnected crossbars on 'A' and 'E'"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Stencil Serif",
+          "anatomy": {
+            "width": "compressed",
+            "weight": "black",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "slab",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "mechanical"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "manual",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top left, overlapping hair",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "partial over subject",
+            "relationshipToImage": "integrated"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean edges",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in two distinct blocks with varying alignment.",
+      "graphicDevices": [
+        "Stencil bridges"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Stencil breaks",
+          "Slab serifs",
+          "Extreme weight"
+        ],
+        "avoid": [
+          "Rounded sans-serifs",
+          "Script fonts",
+          "Thin strokes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Stenciletta Black",
+            "reason": "Matches the heavy slab-serif stencil aesthetic",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Glaser Stencil",
+            "reason": "Captures the retro-industrial feel of the era",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a grainy, high-contrast black and white portrait of a man with thick black glasses looking slightly upward, with a neutral gray studio background and a tight crop.",
+        "overlayInstruction": "Apply bold red stencil slab-serif text in all caps. Place the primary name across the top left, overlapping the hair. Place a two-line secondary phrase in the upper right negative space, right-aligned."
+      },
+      "verificationChecks": [
+        "Is the text pure red?",
+        "Are the stencil breaks clearly visible?",
+        "Is the photo strictly monochrome?",
+        "Does the text overlap the subject's hair?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Grain intensity",
+      "Text overlap amount",
+      "Subject's expression",
+      "Red hue saturation"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original person",
+      "Original brand logos",
+      "Exact wording of the title"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast photographic grain",
+        "Aggressive typographic weight",
+        "Flat, unshaded color for text"
+      ],
+      "avoid": [
+        "Soft focus",
+        "Drop shadows on text",
+        "Modern digital cleanliness"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the red text does not have a digital glow.",
+      "Check that the stencil bridges are consistent across all letters.",
+      "Verify the photo grain looks like film, not digital noise.",
+      "Confirm the composition feels 'top-heavy' as per the original."
+    ],
+    "reuseFormula": "Take a high-contrast B&W portrait + Add heavy red stencil type + Crop tightly to the eyes = New Wave Aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:15:22.931Z"
+}

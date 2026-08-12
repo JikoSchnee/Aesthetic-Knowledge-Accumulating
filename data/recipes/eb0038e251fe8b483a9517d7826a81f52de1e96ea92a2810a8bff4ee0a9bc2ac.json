@@ -1,0 +1,284 @@
+{
+  "id": "eb0038e251fe8b483a9517d7826a81f52de1e96ea92a2810a8bff4ee0a9bc2ac",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T10:57:41.647Z",
+  "approvedAt": "2026-08-11T10:57:41.647Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T10:57:41.647Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Three Hearts.jpg",
+    "hash": "eb0038e251fe8b483a9517d7826a81f52de1e96ea92a2810a8bff4ee0a9bc2ac",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Three Hearts",
+    "artist": "Bob Welch",
+    "artworkUrl": "https://coverartarchive.org/release-group/9a2b2fdf-e06e-492b-ab6e-16fe63ba6a95/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9a2b2fdf-e06e-492b-ab6e-16fe63ba6a95",
+    "releaseGroupId": "9a2b2fdf-e06e-492b-ab6e-16fe63ba6a95",
+    "recordingId": "cb2dba84-372f-41cf-9035-d330d16297c0",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "ChurchBob Welch",
+      "song": "Church",
+      "performer": "Bob Welch",
+      "peakPosition": 73,
+      "firstChartDate": "1979-05-26",
+      "lastChartDate": "1979-06-09",
+      "appearances": [
+        {
+          "chartDate": "1979-05-26",
+          "position": 86
+        },
+        {
+          "chartDate": "1979-06-02",
+          "position": 76
+        },
+        {
+          "chartDate": "1979-06-09",
+          "position": 73
+        }
+      ]
+    }
+  },
+  "dedupeText": "late 70s glamour portrait 1970s glamour striped background condensed serif framed typography soft focus disco era central figure as the vertical axis for the composition interaction between the subjects creating a tight triangular cluster contrast between dark clothing and the bright reflective striped background typographic box acting as a heavy visual weight in the upper left quadrant combine a high fashion trio portrait with a pinstripe background and a framed typographic lockup using extra condensed serifs",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Late 70s Glamour Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Packaging",
+        "Retro Editorial",
+        "Vintage Poster Design"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "glamour",
+        "striped background",
+        "condensed serif",
+        "framed typography",
+        "soft focus",
+        "disco era"
+      ]
+    },
+    "visualDefinition": "A three-person portrait featuring a central male figure flanked by two women, set against a gold-and-white vertical striped backdrop. The image utilizes a high-contrast, slightly grainy photographic style typical of late 1970s fashion photography, with a prominent boxed typographic lockup in the top left corner.",
+    "coreVisualRelationships": [
+      "Central figure as the vertical axis for the composition",
+      "Interaction between the subjects creating a tight, triangular cluster",
+      "Contrast between dark clothing and the bright, reflective striped background",
+      "Typographic box acting as a heavy visual weight in the upper left quadrant"
+    ],
+    "coreInvariants": [
+      "Vertical gold and white pinstripe background",
+      "Square framing for the overall composition",
+      "Black rectangular box containing all primary text elements",
+      "High-key lighting with soft, blooming highlights"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subjects are centered horizontally, occupying the middle and lower two-thirds of the frame.",
+      "visualAnchor": "The black text box in the top left corner serves as the primary anchor against the busy background.",
+      "movementAndEyePath": "Eyes start at the top-left text box, move down the left subject's arm, across the central figure, and up to the right subject's face.",
+      "negativeSpace": "Minimal negative space, primarily located in the upper right and around the typographic box."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Gold and white vertical stripes provide the primary tonal texture.",
+      "contrastColorRole": "Deep black in the clothing and the text box provides structural contrast.",
+      "accentColorRole": "Muted reds and blues in the scarves, eyewear, and illustrated masks.",
+      "saturationAndValueRelationship": "High value with moderate saturation; colors feel aged and warm.",
+      "paletteRestrictions": [
+        "Gold",
+        "Cream",
+        "Black",
+        "Dusty Rose"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed transitional serif",
+      "letterConstructionRules": [
+        "Extremely high aspect ratio (tall and narrow)",
+        "Sharp, bracketed serifs",
+        "High stroke contrast between thick verticals and thin horizontals",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Uniform cap height across all letters",
+        "Vertical stress in all rounded characters"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "right-angled",
+            "counters": "narrow",
+            "strokeCharacter": "static"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top of black box",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within a bordered frame"
+          },
+          "treatment": {
+            "fill": "muted gold",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom of black box",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated from display text by graphic icons"
+          },
+          "treatment": {
+            "fill": "muted gold",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for the name paired with a clean, spaced-out sans-serif for the title.",
+      "graphicDevices": [
+        "Double-bordered rectangular frame",
+        "Small illustrated icons (masks) centered between text lines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extra-condensed proportions",
+          "High contrast serifs",
+          "Gold-on-black color scheme"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Rounded sans-serifs",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Onyx or Onyx MT",
+            "reason": "Matches the extreme verticality and sharp serifs of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Thorowgood Sans Shaded",
+            "reason": "Captures the period-accurate high-contrast look.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Suitable for the secondary subtitle text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A soft-focus 1970s style photograph of three people (one man in a scarf and cap, two women in black dresses) posing closely together. The background is a wall with vertical gold and white stripes. The lighting is warm and slightly overexposed.",
+        "overlayInstruction": "Create a black rectangle in the top left corner with a thin gold double-border. Place the primary name in an extra-condensed bold serif font at the top. Place three small illustrated masquerade masks in the center. Place the title in a spaced-out gold sans-serif at the bottom."
+      },
+      "verificationChecks": [
+        "Is the display font extremely tall and narrow?",
+        "Is the background composed of vertical stripes?",
+        "Is the text contained within a bordered black box?",
+        "Is the overall color palette warm and gold-toned?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Width of the stripes",
+      "Complexity of the central icons",
+      "Thickness of the box border",
+      "Saturation of the clothing colors"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subjects",
+      "Exact mask illustrations",
+      "Specific brand logos in the corners"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Grainy film texture",
+        "High-contrast serif typography",
+        "Warm, disco-era lighting"
+      ],
+      "avoid": [
+        "Clean digital vectors",
+        "Modern minimalist layouts",
+        "Neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text box does not obscure the subjects' faces.",
+      "Ensure the stripes are perfectly vertical.",
+      "Verify the serif font has high stroke contrast.",
+      "Confirm the overall image has a square aspect ratio."
+    ],
+    "reuseFormula": "Combine a high-fashion trio portrait with a pinstripe background and a framed typographic lockup using extra-condensed serifs."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:26:01.354Z"
+}

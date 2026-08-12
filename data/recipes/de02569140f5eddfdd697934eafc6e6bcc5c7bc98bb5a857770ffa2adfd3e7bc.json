@@ -1,0 +1,274 @@
+{
+  "id": "de02569140f5eddfdd697934eafc6e6bcc5c7bc98bb5a857770ffa2adfd3e7bc",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T07:39:09.118Z",
+  "approvedAt": "2026-08-11T07:39:09.118Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T07:39:09.118Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Land of Dreams.jpg",
+    "hash": "de02569140f5eddfdd697934eafc6e6bcc5c7bc98bb5a857770ffa2adfd3e7bc",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Land of Dreams",
+    "artist": "Johnny Rivers",
+    "artworkUrl": "https://coverartarchive.org/release-group/4eadbbb0-658f-4402-be52-fc0498e98091/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/4eadbbb0-658f-4402-be52-fc0498e98091",
+    "releaseGroupId": "4eadbbb0-658f-4402-be52-fc0498e98091",
+    "recordingId": "dcab5e09-c9dc-47aa-9379-7d1ee7f216b0",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Ashes And SandJohnny Rivers",
+      "song": "Ashes And Sand",
+      "performer": "Johnny Rivers",
+      "peakPosition": 96,
+      "firstChartDate": "1977-02-05",
+      "lastChartDate": "1977-02-26",
+      "appearances": [
+        {
+          "chartDate": "1977-02-05",
+          "position": 99
+        },
+        {
+          "chartDate": "1977-02-12",
+          "position": 97
+        },
+        {
+          "chartDate": "1977-02-19",
+          "position": 96
+        },
+        {
+          "chartDate": "1977-02-26",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "live performance album cover musician acoustic guitar live stage concert lighting folk rock performance photography subject s head and microphone in the upper left quadrant guitar body spanning the lower horizontal third text block anchored to the top right corner microphone stand creating a diagonal line through the center stage photography right aligned bold sans serif typography cool warm color contrast",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Live Performance Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Digital Layout"
+      ],
+      "useCases": [
+        "CD Cover Art",
+        "Digital Streaming Platform Thumbnail",
+        "Concert Poster"
+      ],
+      "retrievalTags": [
+        "musician",
+        "acoustic guitar",
+        "live stage",
+        "concert lighting",
+        "folk rock",
+        "performance photography"
+      ]
+    },
+    "visualDefinition": "A medium shot of a male musician performing live, playing an acoustic guitar and singing into a microphone. The background features deep blue stage lighting with blurred bokeh elements, while the subject is illuminated by warm spotlights. Typography is flush-right in the upper corner.",
+    "coreVisualRelationships": [
+      "Subject's head and microphone in the upper left quadrant",
+      "Guitar body spanning the lower horizontal third",
+      "Text block anchored to the top right corner",
+      "Microphone stand creating a diagonal line through the center"
+    ],
+    "coreInvariants": [
+      "Warm skin tones and wood grain against a cool blue background",
+      "Shallow depth of field blurring the stage equipment",
+      "Subject wearing a plaid shirt and dark vest"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The musician is the primary subject, scaled to fill approximately 70% of the frame from the waist up.",
+      "visualAnchor": "The musician's face and the microphone are the primary focal points.",
+      "movementAndEyePath": "The eye starts at the face, follows the microphone stand down to the guitar, and then moves up to the text in the top right.",
+      "negativeSpace": "The upper right corner provides a dark, relatively clean area for legibility of the title text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep indigo and navy blue background for atmosphere.",
+      "contrastColorRole": "Warm yellow and tan of the acoustic guitar and skin tones.",
+      "accentColorRole": "Red outlines on the secondary text for visibility.",
+      "saturationAndValueRelationship": "High value on the subject's face and guitar; low value, high saturation in the background shadows.",
+      "paletteRestrictions": [
+        "Avoid bright greens or oranges",
+        "Stick to a primary blue/yellow/red triad"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Bold, italicized sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Slightly condensed proportions",
+        "Right-leaning italic slant"
+      ],
+      "characterSpecificRedesigns": [
+        "None; standard geometric forms"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top right",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlays dark background"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "Subtle drop shadow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "Italicized"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Immediately below display text",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlays dark background"
+          },
+          "treatment": {
+            "fill": "Red",
+            "outline": "Thin white stroke",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Same-family variation using color and case to differentiate hierarchy.",
+      "graphicDevices": [
+        "Text stroke/outline for legibility"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right alignment",
+          "Italicized primary text",
+          "Red/White color contrast"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy Italic",
+            "reason": "Matches the weight and aggressive slant of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Neue Bold Italic",
+            "reason": "Provides the clean, modern sans-serif look required.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photo of a male musician with grey hair in a plaid shirt and vest, playing an acoustic guitar on a stage with blue lighting and a microphone in front of him. Ensure the top right corner is dark and out of focus.",
+        "overlayInstruction": "Add the artist name in bold white italicized sans-serif in the top right, and the album title in red with a white outline directly below it, both right-aligned."
+      },
+      "verificationChecks": [
+        "Is the text right-aligned?",
+        "Is the primary text italicized?",
+        "Is the background primarily blue?",
+        "Is the musician's face clearly visible?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the blue background",
+      "Pattern of the plaid shirt",
+      "Specific shade of red for the subtitle"
+    ],
+    "mustRedesign": [
+      "Any specific venue logos or microphone brand names",
+      "The 'WSM' logo on the stand in the foreground"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clear legibility of text against the background",
+        "Realistic stage lighting effects",
+        "Dynamic performance posture"
+      ],
+      "avoid": [
+        "Flat, even lighting",
+        "Cluttered backgrounds that obscure the text",
+        "Low-contrast text colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for text legibility in the upper right.",
+      "Ensure the guitar looks like a standard acoustic model.",
+      "Verify the microphone does not obscure the musician's eyes.",
+      "Confirm the color palette is limited to blue, white, red, and wood tones."
+    ],
+    "reuseFormula": "Stage photography + right-aligned bold sans-serif typography + cool/warm color contrast."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T08:13:00.734Z"
+}

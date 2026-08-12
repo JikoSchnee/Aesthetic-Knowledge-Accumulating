@@ -1,0 +1,247 @@
+{
+  "id": "ebca2f0ebaa0b8d269d88535b198720ac022da9210bdd0540a6e4e4cdc3479f8",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T23:12:58.958Z",
+  "approvedAt": "2026-08-11T23:12:58.958Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T23:12:58.958Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Live & Well.jpg",
+    "hash": "ebca2f0ebaa0b8d269d88535b198720ac022da9210bdd0540a6e4e4cdc3479f8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Live & Well",
+    "artist": "B.B. King",
+    "artworkUrl": "https://coverartarchive.org/release-group/e9ce30a0-3db4-3942-b205-1d2cea850c3e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e9ce30a0-3db4-3942-b205-1d2cea850c3e",
+    "releaseGroupId": "e9ce30a0-3db4-3942-b205-1d2cea850c3e",
+    "recordingId": "79dc766f-256e-4629-aa78-ff4e861240fa",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Just A Little LoveB.B. King",
+      "song": "Just A Little Love",
+      "performer": "B.B. King",
+      "peakPosition": 76,
+      "firstChartDate": "1969-10-18",
+      "lastChartDate": "1969-11-22",
+      "appearances": [
+        {
+          "chartDate": "1969-10-18",
+          "position": 100
+        },
+        {
+          "chartDate": "1969-10-25",
+          "position": 100
+        },
+        {
+          "chartDate": "1969-11-08",
+          "position": 86
+        },
+        {
+          "chartDate": "1969-11-15",
+          "position": 80
+        },
+        {
+          "chartDate": "1969-11-22",
+          "position": 76
+        }
+      ]
+    }
+  },
+  "dedupeText": "soulful blues double exposure cover double exposure low key lighting 70s typography soul music portrait photography stacked type warm tones the profile silhouette frames the frontal face through shadow and light the bright saturated typography contrasts against the dark moody photography the microphone in the lower right balances the heavy text in the upper center combine low key double exposure photography with 1970s style stacked 3d block lettering to create a soulful vintage music aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soulful Blues Double Exposure Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Analog Film"
+      ],
+      "useCases": [
+        "Vinyl Record Covers",
+        "Music Event Posters",
+        "Soul/Blues Branding"
+      ],
+      "retrievalTags": [
+        "double exposure",
+        "low key lighting",
+        "70s typography",
+        "soul music",
+        "portrait photography",
+        "stacked type",
+        "warm tones"
+      ]
+    },
+    "visualDefinition": "A low-key, double-exposure portrait of a male musician featuring a profile view in deep shadow and a frontal view with eyes closed in concentration. The composition is anchored by heavy, stacked 3D typography at the top center, utilizing a warm, retro color palette against a dark, grainy background.",
+    "coreVisualRelationships": [
+      "The profile silhouette frames the frontal face through shadow and light.",
+      "The bright, saturated typography contrasts against the dark, moody photography.",
+      "The microphone in the lower right balances the heavy text in the upper center."
+    ],
+    "coreInvariants": [
+      "Deep chiaroscuro lighting",
+      "Double exposure technique",
+      "Stacked 3D block lettering",
+      "Grainy film texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two overlapping portraits occupy the central and left-of-center space, scaled to fill approximately 80% of the height.",
+      "visualAnchor": "The bright orange and blue 3D text at the top center acts as the primary focal point.",
+      "movementAndEyePath": "Eyes move from the bright text down to the highlighted profile on the left, then across the frontal face to the microphone at the bottom right.",
+      "negativeSpace": "Heavy black negative space surrounds the subjects, particularly in the upper corners and right side."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and dark browns provide the atmospheric base.",
+      "contrastColorRole": "Warm skin tones and highlights define the facial features.",
+      "accentColorRole": "Vibrant orange-red and light blue are used exclusively for the typography.",
+      "saturationAndValueRelationship": "High contrast between the low-value background and the high-saturation, high-value text.",
+      "paletteRestrictions": [
+        "Burnt orange",
+        "Powder blue",
+        "Deep amber",
+        "Charcoal black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Extra-bold, condensed sans-serif with rounded terminals.",
+      "letterConstructionRules": [
+        "Letters feature a heavy 3D drop-shadow effect extending downward and to the right.",
+        "The 3D depth is rendered in alternating color bands.",
+        "Tight kerning with overlapping 3D elements."
+      ],
+      "characterSpecificRedesigns": [
+        "The ampersand is stylized with a fluid, script-like curve contrasting the blocky letters."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "decorative-3d",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "ultra-heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "softened",
+            "counters": "tight",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked two-line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "3D shadows overlap adjacent letters",
+            "relationshipToImage": "floating above the subject"
+          },
+          "treatment": {
+            "fill": "orange-red gradient",
+            "outline": "none",
+            "shadow": "multi-layered blue 3D extrusion",
+            "depth": "extreme",
+            "texture": "smooth matte",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A primary heavy 3D block font paired with a slightly smaller, similarly weighted sub-header in a contrasting color.",
+      "graphicDevices": [
+        "3D extrusion",
+        "Color banding",
+        "Film grain overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "3D depth direction",
+          "Rounded terminals",
+          "Stacked layout"
+        ],
+        "avoid": [
+          "Thin strokes",
+          "Serifs",
+          "Modern digital gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Blippo Black or Pump",
+            "reason": "Matches the rounded, heavy geometric skeleton of the letters.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Retro 3D Display",
+            "reason": "Captures the 1970s soul aesthetic and depth.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a double exposure photograph of a Black man with a beard. One exposure is a profile silhouette from the left, the other is a frontal view with eyes closed in a soulful expression. Use low-key lighting with warm amber highlights and deep black shadows. Include a vintage silver microphone in the bottom right corner. Apply heavy analog film grain.",
+        "overlayInstruction": "Add two lines of stacked, centered text at the top. Use an ultra-bold rounded sans-serif. Apply a thick 3D extrusion effect pointing down-right. The top line should be orange with a blue 3D shadow; the bottom line should be light blue with an orange 3D shadow."
+      },
+      "verificationChecks": [
+        "Is the lighting high-contrast and moody?",
+        "Does the typography have a distinct 70s 3D effect?",
+        "Are the two exposures blended naturally through shadow?",
+        "Is the color palette restricted to warm tones and the specific blue/orange accents?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of film grain",
+      "Angle of 3D extrusion",
+      "Opacity of the double exposure blend",
+      "Warmth of the skin tone highlights"
+    ],
+    "mustRedesign": [
+      "Specific artist name and album title",
+      "Record label logos in the corner",
+      "Catalog numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic analog film texture",
+        "Convincing 3D typographic depth",
+        "Emotional, soulful expression in the portrait"
+      ],
+      "avoid": [
+        "Clean digital vectors",
+        "Flat, modern typography",
+        "Bright, even lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no text is illegible due to the 3D effect.",
+      "Check that the double exposure doesn't muddy the facial features.",
+      "Verify the grain is consistent across the entire image.",
+      "Confirm the 3D shadow direction is uniform for all letters."
+    ],
+    "reuseFormula": "Combine low-key double exposure photography with 1970s-style stacked 3D block lettering to create a soulful, vintage music aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:26:04.395Z"
+}

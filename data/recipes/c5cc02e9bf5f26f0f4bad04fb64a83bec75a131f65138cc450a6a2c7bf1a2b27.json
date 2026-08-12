@@ -1,0 +1,162 @@
+{
+  "id": "c5cc02e9bf5f26f0f4bad04fb64a83bec75a131f65138cc450a6a2c7bf1a2b27",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T06:44:47.709Z",
+  "approvedAt": "2026-08-11T06:44:47.709Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T06:44:47.709Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "After Hours.jpg",
+    "hash": "c5cc02e9bf5f26f0f4bad04fb64a83bec75a131f65138cc450a6a2c7bf1a2b27",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "After Hours",
+    "artist": "The Weeknd",
+    "artworkUrl": "https://coverartarchive.org/release-group/78570bea-2a26-467c-a3db-c52723ceb394/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/78570bea-2a26-467c-a3db-c52723ceb394",
+    "releaseGroupId": "78570bea-2a26-467c-a3db-c52723ceb394",
+    "recordingId": "19c2df56-f7d3-4063-80ca-839ff6143413",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Alone AgainThe Weeknd",
+      "song": "Alone Again",
+      "performer": "The Weeknd",
+      "peakPosition": 21,
+      "firstChartDate": "2020-04-04",
+      "lastChartDate": "2020-04-04",
+      "appearances": [
+        {
+          "chartDate": "2020-04-04",
+          "position": 21
+        }
+      ]
+    }
+  },
+  "dedupeText": "low angle gritty portraiture low angle gritty film grain dramatic lighting bloody manic expression urban noir warm blood stained facial features against a desaturated cool toned background extreme low angle perspective creating a sense of dominance and psychological intensity heavy film grain texture unifying the subject and the environment low angle cinematic portrait manic expression bloodied facial features heavy 35mm film grain warm cool color contrast",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Low-Angle Gritty Portraiture",
+      "category": "Photography",
+      "medium": [
+        "Cinematic Photography",
+        "35mm Film Grain"
+      ],
+      "useCases": [
+        "Album Art",
+        "Editorial Portrait",
+        "Cinematic Poster"
+      ],
+      "retrievalTags": [
+        "low angle",
+        "gritty",
+        "film grain",
+        "dramatic lighting",
+        "bloody",
+        "manic expression",
+        "urban noir"
+      ]
+    },
+    "visualDefinition": "A tight, extreme low-angle close-up of a man with a manic, bloodied face. The lighting is harsh and warm-toned, emphasizing skin texture and heavy film grain, set against a blurred, industrial background with cool-toned highlights.",
+    "coreVisualRelationships": [
+      "Warm, blood-stained facial features against a desaturated, cool-toned background",
+      "Extreme low-angle perspective creating a sense of dominance and psychological intensity",
+      "Heavy film grain texture unifying the subject and the environment"
+    ],
+    "coreInvariants": [
+      "Blood smears on the nose and mouth",
+      "Manic, wide-eyed or squinted expression with visible teeth",
+      "Tight framing focusing on the head and shoulders",
+      "Heavy 35mm-style film grain"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered, filling the majority of the frame from a low-angle perspective.",
+      "visualAnchor": "The bloodied nose and mouth area at the center of the vertical axis.",
+      "movementAndEyePath": "The viewer's eye starts at the bloodied mouth, moves up to the eyes, and then follows the silhouette of the hair against the background.",
+      "negativeSpace": "Minimal, confined to the blurred background elements surrounding the head."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm, golden-brown skin tones and deep shadows.",
+      "contrastColorRole": "Cool, desaturated greens and teals in the blurred background.",
+      "accentColorRole": "Vibrant, saturated red from the blood and the clothing collar.",
+      "saturationAndValueRelationship": "High contrast between deep blacks and bright, warm highlights; saturation is concentrated in the reds.",
+      "paletteRestrictions": [
+        "Avoid clean, digital-looking gradients",
+        "Avoid bright primary blues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Heavy film grain",
+        "Motion blur in background",
+        "Chromatic aberration at edges"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-angle, cinematic portrait of a man with an afro and a mustache, wearing a red suit. The face should be bloodied around the nose and mouth with a manic expression. Use harsh, warm lighting and a blurred, industrial background with cool teal highlights. Apply heavy 35mm film grain.",
+        "overlayInstruction": "If adding text, use a bold, sans-serif font with a distressed or weathered texture, placed in the upper or lower third to avoid obscuring the face."
+      },
+      "verificationChecks": [
+        "Is the angle sufficiently low to look up at the chin?",
+        "Is the film grain prominent and gritty?",
+        "Is the blood color a deep, realistic red?",
+        "Is the background appropriately blurred and cool-toned?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the manic expression",
+      "Amount of blood coverage",
+      "Density of the film grain",
+      "Warmth of the primary lighting"
+    ],
+    "mustRedesign": [
+      "Do not replicate specific celebrity likeness",
+      "Do not use specific brand logos on clothing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic depth of field",
+        "Tactile skin texture",
+        "Psychological tension"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Clean digital finish",
+        "Cartoonish blood"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for realistic skin pores and hair texture under grain",
+      "Ensure the low-angle perspective doesn't distort the face unnaturally",
+      "Verify the color contrast between the red blood and the teal background",
+      "Confirm the expression conveys the intended psychological state"
+    ],
+    "reuseFormula": "Low-angle cinematic portrait + manic expression + bloodied facial features + heavy 35mm film grain + warm/cool color contrast."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T07:32:13.106Z"
+}

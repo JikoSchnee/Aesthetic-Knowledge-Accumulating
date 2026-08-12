@@ -1,0 +1,240 @@
+{
+  "id": "4a499d57f6df9609906cdd958d3c684af4491be42a3676bd0468c0b2e3c552ce",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:21:44.295Z",
+  "approvedAt": "2026-08-11T22:21:44.295Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:21:44.295Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Changing Times.jpg",
+    "hash": "4a499d57f6df9609906cdd958d3c684af4491be42a3676bd0468c0b2e3c552ce",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Changing Times",
+    "artist": "Four Tops",
+    "artworkUrl": "https://coverartarchive.org/release-group/a07b7e05-6748-3a69-964b-d617b9c09993/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a07b7e05-6748-3a69-964b-d617b9c09993",
+    "releaseGroupId": "a07b7e05-6748-3a69-964b-d617b9c09993",
+    "recordingId": "de495dd1-f179-4b36-87ef-e37c5906600a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "In These Changing TimesFour Tops",
+      "song": "In These Changing Times",
+      "performer": "Four Tops",
+      "peakPosition": 70,
+      "firstChartDate": "1971-07-03",
+      "lastChartDate": "1971-07-24",
+      "appearances": [
+        {
+          "chartDate": "1971-07-03",
+          "position": 79
+        },
+        {
+          "chartDate": "1971-07-10",
+          "position": 77
+        },
+        {
+          "chartDate": "1971-07-17",
+          "position": 70
+        },
+        {
+          "chartDate": "1971-07-24",
+          "position": 75
+        }
+      ]
+    }
+  },
+  "dedupeText": "concentric target soul album cover 1970s soul music concentric circles urban steps vintage photography psychedelic typography target motif concentric circles acting as a graphic overlay that flattens the 3d space juxtaposition between the standing group in the background and the seated individual in the foreground integration of curved typography following the path of the circular graphic elements take a multi subject urban portrait apply geometric concentric ring overlay add path aligned psychedelic serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Concentric Target Soul Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Vintage Poster",
+        "Social Media Graphic"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "soul music",
+        "concentric circles",
+        "urban steps",
+        "vintage photography",
+        "psychedelic typography",
+        "target motif"
+      ]
+    },
+    "visualDefinition": "A low-angle urban photograph of four men in 1970s fashion standing on a brownstone stoop, contrasted with an older man sitting in the foreground, all framed by a series of thin white concentric circles radiating from the center.",
+    "coreVisualRelationships": [
+      "Concentric circles acting as a graphic overlay that flattens the 3D space",
+      "Juxtaposition between the standing group in the background and the seated individual in the foreground",
+      "Integration of curved typography following the path of the circular graphic elements"
+    ],
+    "coreInvariants": [
+      "Thin white concentric rings",
+      "Low-angle perspective of stone stairs",
+      "Ornate wrought iron railings on the periphery",
+      "Muted, earthy 1970s color palette"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four figures stand at the top of the stairs (mid-ground); one figure sits on the lower steps (foreground).",
+      "visualAnchor": "The central point of the concentric circles, located between the two central standing figures.",
+      "movementAndEyePath": "The eye follows the rings outward from the center to the standing figures, then drops to the foreground figure and the curved text.",
+      "negativeSpace": "The upper corners and the gaps between the concentric rings provide visual breathing room."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Earthy browns and grays of the stone architecture.",
+      "contrastColorRole": "Deep blues, greens, and browns of the subjects' clothing.",
+      "accentColorRole": "Bright orange-red and royal blue for the curved text.",
+      "saturationAndValueRelationship": "Low saturation overall with a vintage film grain; high value contrast in the white graphic rings.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Avoid high-key digital whites"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Art Nouveau influenced serif",
+      "letterConstructionRules": [
+        "High-contrast strokes with thin hairlines and thick stems",
+        "Elongated, swash-like terminals and descenders",
+        "Curved baselines that follow the arc of the concentric circles"
+      ],
+      "characterSpecificRedesigns": [
+        "Exaggerated loops on lowercase 'g' and 'y'",
+        "Ball terminals on 's' and 'r'"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "psychedelic-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "ball and swash",
+            "corners": "rounded",
+            "counters": "tight",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "centered-arc",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "arched",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "top and bottom arcs",
+            "scale": "large",
+            "rotation": "variable-arc",
+            "warp": "circular-path",
+            "overlap": "over-image",
+            "relationshipToImage": "integrated-graphic"
+          },
+          "treatment": {
+            "fill": "solid-color",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "path-warped"
+          }
+        }
+      ],
+      "pairingStrategy": "Single decorative face used in two different colors to distinguish between title and artist.",
+      "graphicDevices": [
+        "Concentric white rings",
+        "Ornate ironwork framing"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Curved baseline",
+          "High contrast stroke",
+          "Swash terminals"
+        ],
+        "avoid": [
+          "Modern sans-serifs",
+          "Geometric fonts",
+          "Straight horizontal baselines"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the 70s decorative serif feel",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Art Nouveau Display",
+            "reason": "Matches the fluid, organic curves of the lettering",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A low-angle photo of four men in 1970s leather and denim standing on the top of a brownstone stoop, with an older man in a hat sitting on the lower steps. Overlay 8-10 thin, perfectly centered white concentric circles across the entire frame. Muted vintage film aesthetic.",
+        "overlayInstruction": "Add custom decorative serif text following the path of the circles. The top text should be in royal blue, arched upwards. The bottom text should be in orange-red, arched downwards, featuring long swashes on the descenders."
+      },
+      "verificationChecks": [
+        "Are the circles perfectly concentric?",
+        "Does the text follow the curvature of the rings?",
+        "Is the color palette muted and earthy?",
+        "Is the perspective low-angle?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of concentric rings",
+      "Subject clothing styles",
+      "Text color pairing",
+      "Intensity of film grain"
+    ],
+    "mustRedesign": [
+      "Specific faces of the individuals",
+      "Any brand logos or record label marks",
+      "Exact wording of the original text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film texture",
+        "Precise geometric alignment of the rings",
+        "Fluid integration of text and graphic circles"
+      ],
+      "avoid": [
+        "Clean digital vectors",
+        "Modern high-saturation photography",
+        "Standard horizontal typesetting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the rings do not obscure the subjects' faces excessively.",
+      "Check that the text colors have enough contrast against the background.",
+      "Verify the low-angle perspective creates a sense of height.",
+      "Confirm the grain texture is consistent across the image."
+    ],
+    "reuseFormula": "Take a multi-subject urban portrait + apply geometric concentric ring overlay + add path-aligned psychedelic serif typography."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:08:22.560Z"
+}

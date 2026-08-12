@@ -1,0 +1,266 @@
+{
+  "id": "bcaeafa35a1f37deafde3ae508b121140b4235060b74cbdea4c611f9a374b8a3",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:26:44.321Z",
+  "approvedAt": "2026-08-11T09:26:44.321Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:26:44.321Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Rare.jpg",
+    "hash": "bcaeafa35a1f37deafde3ae508b121140b4235060b74cbdea4c611f9a374b8a3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Rare",
+    "artist": "Selena Gomez",
+    "artworkUrl": "https://coverartarchive.org/release-group/c4bb9940-e53e-4d5c-a19c-dab81e0f9687/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c4bb9940-e53e-4d5c-a19c-dab81e0f9687",
+    "releaseGroupId": "c4bb9940-e53e-4d5c-a19c-dab81e0f9687",
+    "recordingId": "1c00eca2-c08e-4e26-89e7-1fa23d5d50f7",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "BoyfriendSelena Gomez",
+      "song": "Boyfriend",
+      "performer": "Selena Gomez",
+      "peakPosition": 59,
+      "firstChartDate": "2020-04-25",
+      "lastChartDate": "2020-04-25",
+      "appearances": [
+        {
+          "chartDate": "2020-04-25",
+          "position": 59
+        }
+      ]
+    }
+  },
+  "dedupeText": "minimalist high key portrait with script overlay high key monochrome portrait negative space handwritten script polaroid aesthetic grainy texture asymmetrical composition subject positioned diagonally against a vast white void high contrast black text balancing the dark tones of the subject s hair grainy film texture unifying the photographic and graphic elements position a desaturated subject in one corner fill 70 of the frame with white anchor right aligned contrasting typography in the opposite corner apply global film grain",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Minimalist High-Key Portrait with Script Overlay",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Fashion Layout",
+        "Minimalist Poster Design"
+      ],
+      "retrievalTags": [
+        "high-key",
+        "monochrome portrait",
+        "negative space",
+        "handwritten script",
+        "polaroid aesthetic",
+        "grainy texture",
+        "asymmetrical composition"
+      ]
+    },
+    "visualDefinition": "A high-key, minimalist composition featuring a desaturated, grainy portrait of a person lying down, positioned in the lower-left quadrant. The subject is surrounded by expansive white negative space, with a small cluster of black typography anchored in the bottom-right corner.",
+    "coreVisualRelationships": [
+      "Subject positioned diagonally against a vast white void",
+      "High-contrast black text balancing the dark tones of the subject's hair",
+      "Grainy film texture unifying the photographic and graphic elements"
+    ],
+    "coreInvariants": [
+      "Overwhelming white negative space",
+      "Desaturated, high-contrast subject rendering",
+      "Bottom-right typographic anchor"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is cropped and placed in the lower-left corner, occupying approximately 25% of the frame.",
+      "visualAnchor": "The dark hair and facial features of the subject provide the primary weight, balanced by the text in the opposite corner.",
+      "movementAndEyePath": "The eye starts at the subject's face, follows the diagonal line of the body, and rests on the typography in the bottom right.",
+      "negativeSpace": "Dominant, occupying roughly 70% of the canvas to create a sense of isolation and focus."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure white background providing a high-key environment.",
+      "contrastColorRole": "Deep blacks and dark grays in the subject's hair and the typography.",
+      "accentColorRole": "Subtle, desaturated skin tones and a faint hint of color on the clothing graphic.",
+      "saturationAndValueRelationship": "Extremely high value (brightness) with very low saturation, creating a near-monochrome effect.",
+      "paletteRestrictions": [
+        "White",
+        "Black",
+        "Cool Gray"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "A combination of a casual, fluid script and a clean, geometric sans-serif.",
+      "letterConstructionRules": [
+        "Script: Continuous stroke, medium weight, upright posture with natural ligatures.",
+        "Sans-serif: All-caps, even stroke weight, wide tracking."
+      ],
+      "characterSpecificRedesigns": [
+        "Script 'R' features a prominent, rounded loop and a long tail.",
+        "Sans-serif 'E' and 'A' have open, geometric proportions."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "medium",
+            "weight": "semi-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "monolinear-handwriting"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single-word",
+            "density": "moderate"
+          },
+          "composition": {
+            "position": "bottom-right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "isolated"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "geometric",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "right",
+            "tracking": "wide",
+            "leading": "loose",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "directly below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "isolated"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between organic, fluid handwriting and rigid, geometric industrial type.",
+      "graphicDevices": [
+        "Film grain overlay",
+        "High-key exposure"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right-aligned layout",
+          "Script over sans-serif hierarchy",
+          "Wide tracking on the bottom line"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Centered text",
+          "Bright colors in text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Autography or Mr Dafoe",
+            "reason": "Provides the necessary fluid, upright script feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat or Futura Bold",
+            "reason": "Offers the clean, geometric all-caps look for the metadata line.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a high-key, grainy photograph of a person with dark hair lying down on a white surface, positioned in the lower-left corner. The image should be mostly white negative space with high contrast and low saturation.",
+        "overlayInstruction": "Add two lines of black text in the bottom-right corner. The top line should be a large, upright script font. The bottom line should be a small, bold, all-caps geometric sans-serif font with wide letter spacing."
+      },
+      "verificationChecks": [
+        "Is the background predominantly white?",
+        "Is the text right-aligned in the bottom corner?",
+        "Is there a visible film grain texture across the entire image?",
+        "Does the script font appear fluid and handwritten?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject pose",
+      "Grain intensity",
+      "Script font weight",
+      "Amount of negative space"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Any logos or brand-specific marks",
+      "Exact clothing graphics"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, minimalist balance",
+        "Legible typographic hierarchy",
+        "Consistent film-like texture"
+      ],
+      "avoid": [
+        "Cluttered composition",
+        "Low-contrast text",
+        "Smooth, digital gradients"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the subject does not dominate the frame.",
+      "Check that the script and sans-serif fonts do not touch.",
+      "Verify the grain is uniform and not blotchy.",
+      "Confirm the white space feels intentional and not empty."
+    ],
+    "reuseFormula": "Position a desaturated subject in one corner + Fill 70% of the frame with white + Anchor right-aligned contrasting typography in the opposite corner + Apply global film grain."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:47:05.832Z"
+}

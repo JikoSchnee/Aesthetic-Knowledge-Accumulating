@@ -1,0 +1,228 @@
+{
+  "id": "f0b2ab1c757506c053cfd6ae4c96086b27b65d847f6cbd914c52dbae358cde62",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:50:40.578Z",
+  "approvedAt": "2026-08-11T08:50:40.578Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:50:40.578Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "See You Next Wednesday.jpg",
+    "hash": "f0b2ab1c757506c053cfd6ae4c96086b27b65d847f6cbd914c52dbae358cde62",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "See You Next Wednesday",
+    "artist": "Belly, The Weeknd & Young Thug",
+    "artworkUrl": "https://coverartarchive.org/release-group/d810b72f-4f00-475c-be15-e98842f806c6/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d810b72f-4f00-475c-be15-e98842f806c6",
+    "releaseGroupId": "d810b72f-4f00-475c-be15-e98842f806c6",
+    "recordingId": "f86a1b72-e3b2-4de0-864b-6e7ceae8ea01",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Better BelieveBelly, The Weeknd & Young Thug",
+      "song": "Better Believe",
+      "performer": "Belly, The Weeknd & Young Thug",
+      "peakPosition": 88,
+      "firstChartDate": "2021-08-07",
+      "lastChartDate": "2021-08-07",
+      "appearances": [
+        {
+          "chartDate": "2021-08-07",
+          "position": 88
+        }
+      ]
+    }
+  },
+  "dedupeText": "fiery silhouette portrait fire silhouette man in suit chiaroscuro high contrast burning dramatic lighting dark background fire as the primary light source and focal point subject leaning at a diagonal angle to create dynamic tension extreme contrast between the bright white hot core of the fire and the absolute black background subtle texture of the suit fabric revealed only by the rim lighting combine a dark silhouette with a singular high intensity elemental light source fire against a void using a diagonal axis for the subject to create a sense of motion or struggle",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Fiery Silhouette Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Dramatic Poster Design",
+        "Cinematic Key Art"
+      ],
+      "retrievalTags": [
+        "fire",
+        "silhouette",
+        "man in suit",
+        "chiaroscuro",
+        "high contrast",
+        "burning",
+        "dramatic lighting",
+        "dark background"
+      ]
+    },
+    "visualDefinition": "A high-contrast, low-key portrait of a man in a patterned suit leaning forward, with intense flames erupting from his back against a pure black void. The lighting is dominated by the fire, casting a warm red and orange glow on the subject's contours while leaving the rest in deep shadow.",
+    "coreVisualRelationships": [
+      "Fire as the primary light source and focal point",
+      "Subject leaning at a diagonal angle to create dynamic tension",
+      "Extreme contrast between the bright white-hot core of the fire and the absolute black background",
+      "Subtle texture of the suit fabric revealed only by the rim lighting"
+    ],
+    "coreInvariants": [
+      "Pure black background (#000000)",
+      "Subject in a suit or formal attire",
+      "Flames originating from the upper back/shoulders",
+      "Diagonal composition"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered but angled diagonally, occupying the middle two-thirds of the frame.",
+      "visualAnchor": "The bright white core of the flame at the top-center.",
+      "movementAndEyePath": "The eye starts at the bright flame, follows the light down the subject's back and arm, and then moves to the face in profile.",
+      "negativeSpace": "Extensive negative space surrounding the subject, emphasizing isolation and intensity."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background for maximum contrast.",
+      "contrastColorRole": "Bright white and yellow at the flame's core.",
+      "accentColorRole": "Warm oranges and deep reds for the glow and rim lighting.",
+      "saturationAndValueRelationship": "High saturation in the oranges/reds; extreme value range from 0 to 100.",
+      "paletteRestrictions": [
+        "Black",
+        "Fire-spectrum (White, Yellow, Orange, Red)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "High x-height",
+        "Tight kerning",
+        "Rectangular block formation"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "metadata",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Closed",
+            "strokeCharacter": "Industrial"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked block",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top left corner",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "White or light grey",
+            "outline": "Thin black border",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family in a contained box.",
+      "graphicDevices": [
+        "Rectangular border framing the text block"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Uppercase styling",
+          "Boxed layout"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Low-contrast colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary condensed weight and industrial feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Offers a clean, authoritative look for metadata.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast photo of a man in a dark plaid suit leaning forward at a 45-degree angle. Large, realistic flames should be erupting from his upper back and shoulders. The background must be pure black. The light from the fire should cast a strong orange and red rim light on his hair, face, and the texture of the suit.",
+        "overlayInstruction": "Place a small, white, condensed sans-serif text block in the top-left corner, enclosed in a thin white rectangular frame."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Is the fire the only light source?",
+        "Is the subject's pose dynamic and diagonal?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the fire",
+      "Pattern of the suit",
+      "Angle of the subject's lean",
+      "Color temperature of the glow"
+    ],
+    "mustRedesign": [
+      "Any specific brand logos",
+      "Specific facial features of the subject",
+      "Exact text content"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Realistic fire physics",
+        "Sharp rim lighting",
+        "Total black negative space"
+      ],
+      "avoid": [
+        "Visible background elements",
+        "Soft or muddy lighting",
+        "Cartoonish fire effects"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 'haloing' around the subject; edges should be sharp.",
+      "Ensure the fire core is bright enough to appear white.",
+      "Verify the suit texture is visible in the lit areas.",
+      "Confirm the diagonal composition is maintained."
+    ],
+    "reuseFormula": "Combine a dark silhouette with a singular, high-intensity elemental light source (fire) against a void, using a diagonal axis for the subject to create a sense of motion or struggle."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:08:04.410Z"
+}

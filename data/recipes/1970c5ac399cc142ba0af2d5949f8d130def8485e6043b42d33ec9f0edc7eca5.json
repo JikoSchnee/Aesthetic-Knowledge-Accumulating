@@ -1,0 +1,256 @@
+{
+  "id": "1970c5ac399cc142ba0af2d5949f8d130def8485e6043b42d33ec9f0edc7eca5",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T13:15:56.451Z",
+  "approvedAt": "2026-08-11T13:15:56.451Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T13:15:56.451Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Boys Band.jpg",
+    "hash": "1970c5ac399cc142ba0af2d5949f8d130def8485e6043b42d33ec9f0edc7eca5",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Boys Band",
+    "artist": "The Boys Band",
+    "artworkUrl": "https://coverartarchive.org/release-group/9da2e2f0-46c1-486c-8802-79a8c28f388c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9da2e2f0-46c1-486c-8802-79a8c28f388c",
+    "releaseGroupId": "9da2e2f0-46c1-486c-8802-79a8c28f388c",
+    "recordingId": "642a1e94-10eb-4648-99cd-ea3967f28c70",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Don't Stop Me Baby (I'm On Fire)The Boys Band",
+      "song": "Don't Stop Me Baby (I'm On Fire)",
+      "performer": "The Boys Band",
+      "peakPosition": 61,
+      "firstChartDate": "1982-03-06",
+      "lastChartDate": "1982-04-24",
+      "appearances": [
+        {
+          "chartDate": "1982-03-06",
+          "position": 89
+        },
+        {
+          "chartDate": "1982-03-13",
+          "position": 87
+        },
+        {
+          "chartDate": "1982-03-20",
+          "position": 83
+        },
+        {
+          "chartDate": "1982-03-27",
+          "position": 74
+        },
+        {
+          "chartDate": "1982-04-03",
+          "position": 68
+        },
+        {
+          "chartDate": "1982-04-10",
+          "position": 62
+        },
+        {
+          "chartDate": "1982-04-17",
+          "position": 61
+        },
+        {
+          "chartDate": "1982-04-24",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "chiaroscuro band portrait chiaroscuro low key lighting trio portrait 1970s aesthetic black background dramatic shadows faces emerging from absolute blackness triangular arrangement of subjects high contrast directional lighting top aligned typographic header low key lighting triangular subject arrangement top aligned condensed sans serif dramatic 70s portraiture",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Chiaroscuro Band Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Studio Lighting"
+      ],
+      "useCases": [
+        "Music Album Cover",
+        "Promotional Poster",
+        "Editorial Portrait"
+      ],
+      "retrievalTags": [
+        "chiaroscuro",
+        "low-key lighting",
+        "trio portrait",
+        "1970s aesthetic",
+        "black background",
+        "dramatic shadows"
+      ]
+    },
+    "visualDefinition": "A high-contrast, low-key group portrait featuring three male subjects emerging from a deep black void. The lighting is harsh and directional, illuminating only the faces and hair, while bodies and clothing disappear into total shadow. The composition is triangular, with one face positioned higher and centered, flanked by two lower faces.",
+    "coreVisualRelationships": [
+      "Faces emerging from absolute blackness",
+      "Triangular arrangement of subjects",
+      "High-contrast directional lighting",
+      "Top-aligned typographic header"
+    ],
+    "coreInvariants": [
+      "Pure black background (#000000)",
+      "Visible grain and film texture",
+      "Harsh shadows that obscure features"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three faces arranged in a pyramid; the top face is central, the bottom two are slightly smaller and positioned to the left and right.",
+      "visualAnchor": "The central face at the top of the triangle.",
+      "movementAndEyePath": "Eyes move from the top central face down to the left, then across to the right, following the illuminated highlights.",
+      "negativeSpace": "Extensive negative space occupying approximately 80% of the frame, creating a sense of mystery and focus."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background and shadows.",
+      "contrastColorRole": "Warm skin tones and highlights.",
+      "accentColorRole": "Off-white/silver for the typography.",
+      "saturationAndValueRelationship": "Low saturation with extreme value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "Black",
+        "Deep Umber",
+        "Pale Ochre",
+        "Silver-Grey"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy, condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight kerning",
+        "High verticality",
+        "Flat terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Slightly rounded",
+            "counters": "Narrow",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified across top",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top edge",
+            "scale": "Small relative to frame, large relative to faces",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separated by negative space"
+          },
+          "treatment": {
+            "fill": "Light grey with metallic sheen",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Subtle film grain",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used with varying horizontal placement to create balance.",
+      "graphicDevices": [
+        "Horizontal alignment along the top margin"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed width",
+          "Bold weight",
+          "Uppercase"
+        ],
+        "avoid": [
+          "Serifs",
+          "Italics",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy condensed weight and high x-height.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Haettenschweiler",
+            "reason": "Captures the ultra-condensed 70s display look.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a low-key studio portrait of three men with 1970s hairstyles and facial hair. Use a single harsh light source from the side to create deep chiaroscuro effects where only their faces are visible against a pure black background. Arrange them in a triangle: one centered high, two lower on the sides.",
+        "overlayInstruction": "Add three words of text in a bold, condensed sans-serif font along the very top edge of the frame. Place one word in the top-left corner, one in the top-center, and one in the top-right corner. Use a light silver-grey color for the text."
+      },
+      "verificationChecks": [
+        "Is the background absolute black?",
+        "Are the bodies of the subjects completely hidden in shadow?",
+        "Is the text perfectly aligned to the top margin?",
+        "Does the lighting create a dramatic, moody atmosphere?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects",
+      "Specific facial expressions",
+      "Intensity of the film grain",
+      "Horizontal spacing of the top text"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original subjects",
+      "Exact brand logos",
+      "Original band name"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic chiaroscuro lighting",
+        "Clean, minimalist typographic header",
+        "Authentic film texture"
+      ],
+      "avoid": [
+        "Soft, even lighting",
+        "Visible clothing details",
+        "Centered text blocks"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no light leaks in the background.",
+      "Check that the text is legible but not overpowering.",
+      "Verify the triangular composition is balanced.",
+      "Confirm the 1970s aesthetic is maintained through hair and grain."
+    ],
+    "reuseFormula": "Low-key lighting + Triangular subject arrangement + Top-aligned condensed sans-serif = Dramatic 70s Portraiture"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:03:51.584Z"
+}

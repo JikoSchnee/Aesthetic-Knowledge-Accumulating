@@ -1,0 +1,285 @@
+{
+  "id": "f648fef6728f30b0f0639dd4868cefc728728abcac7851b767f634189f0db1b5",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T20:39:45.466Z",
+  "approvedAt": "2026-08-11T20:39:45.466Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T20:39:45.466Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Electrifying Aretha Franklin.jpg",
+    "hash": "f648fef6728f30b0f0639dd4868cefc728728abcac7851b767f634189f0db1b5",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Electrifying Aretha Franklin",
+    "artist": "Aretha Franklin",
+    "artworkUrl": "https://coverartarchive.org/release-group/be5819f2-ea8c-37ae-b08f-141e377e48b0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/be5819f2-ea8c-37ae-b08f-141e377e48b0",
+    "releaseGroupId": "be5819f2-ea8c-37ae-b08f-141e377e48b0",
+    "recordingId": "d2a29232-5a91-48b1-8077-fcc9331d24df",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I Surrender, DearAretha Franklin",
+      "song": "I Surrender, Dear",
+      "performer": "Aretha Franklin",
+      "peakPosition": 87,
+      "firstChartDate": "1962-02-03",
+      "lastChartDate": "1962-03-03",
+      "appearances": [
+        {
+          "chartDate": "1962-02-03",
+          "position": 97
+        },
+        {
+          "chartDate": "1962-02-10",
+          "position": 97
+        },
+        {
+          "chartDate": "1962-02-17",
+          "position": 96
+        },
+        {
+          "chartDate": "1962-02-24",
+          "position": 93
+        },
+        {
+          "chartDate": "1962-03-03",
+          "position": 87
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul album cover template 1960s monochromatic portrait mustard yellow swiss style typography grid based layout vintage vinyl subject occupies the left two thirds while text occupies the right third high contrast black and white photography against a warm saturated background strict vertical alignment of text blocks within a rectangular container combine a high contrast monochromatic portrait on a solid warm toned background with a structured right aligned typographic grid enclosed in a minimalist geometric frame",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Album Cover Template",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Offset Printing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vinyl Record Packaging",
+        "Retro Poster Design",
+        "Jazz and Soul Branding"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "monochromatic portrait",
+        "mustard yellow",
+        "Swiss style typography",
+        "grid-based layout",
+        "vintage vinyl"
+      ]
+    },
+    "visualDefinition": "A mid-20th-century album cover design featuring a high-contrast, slightly desaturated portrait of a female vocalist positioned on the left, set against a solid mustard-yellow background. The right side is dedicated to a structured, right-aligned typographic grid enclosed in a subtle dotted-line frame.",
+    "coreVisualRelationships": [
+      "Subject occupies the left two-thirds while text occupies the right third.",
+      "High-contrast black-and-white photography against a warm, saturated background.",
+      "Strict vertical alignment of text blocks within a rectangular container."
+    ],
+    "coreInvariants": [
+      "Solid mustard-yellow background color.",
+      "Dotted-line rectangular border for the text block.",
+      "Heavy use of bold, sans-serif uppercase typography."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Portrait of a singer from the waist up, angled slightly toward the center, occupying the left 60% of the frame.",
+      "visualAnchor": "The subject's face and the bold red artist name at the top right.",
+      "movementAndEyePath": "Starts at the subject's expression, moves right to the red title, then descends through the tracklist.",
+      "negativeSpace": "Large areas of flat yellow background provide breathing room between the subject and the text container."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mustard yellow background (Hex #D4A017 equivalent).",
+      "contrastColorRole": "Deep black and dark greens in the subject's clothing and hair.",
+      "accentColorRole": "Vibrant red for the primary artist name.",
+      "saturationAndValueRelationship": "High saturation background with low-saturation, high-contrast photographic elements.",
+      "paletteRestrictions": [
+        "Mustard Yellow",
+        "True Black",
+        "Bright Red",
+        "Off-White/Cream"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Grotesque sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight letter spacing (tracking)",
+        "All-caps for all display levels",
+        "Square-ish proportions for the boldest weights"
+      ],
+      "characterSpecificRedesigns": [
+        "None; relies on standard mid-century grotesque forms."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Bold Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Extra Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Closed",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "-2%",
+            "leading": "90%",
+            "lineBreakPattern": "Word-based",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top right within container",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separated by negative space"
+          },
+          "treatment": {
+            "fill": "Red",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Slight ink bleed",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Medium Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "0",
+            "leading": "110%",
+            "lineBreakPattern": "Multi-line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Center right within container",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separated"
+          },
+          "treatment": {
+            "fill": "White or Cream",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family using weight and color contrast (Red vs. White) to establish hierarchy.",
+      "graphicDevices": [
+        "Dotted line rectangular border",
+        "Horizontal divider lines between text sections",
+        "Top banner with arrows for technical info"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Right-side text container",
+          "Mustard yellow background"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the sturdy, mid-century American grotesque feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Trade Gothic Bold Condensed",
+            "reason": "Captures the utilitarian, newsprint-style aesthetic of the era.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, desaturated portrait of a soul singer in 1960s attire, positioned on the left against a flat mustard-yellow background. Leave the right 40% of the image as empty yellow space.",
+        "overlayInstruction": "Add a vertical rectangular container on the right defined by a thin white dotted line. Inside, place bold, red, all-caps sans-serif text at the top, followed by white all-caps sans-serif text for the tracklist, separated by thin horizontal lines."
+      },
+      "verificationChecks": [
+        "Is the background a consistent mustard yellow?",
+        "Is the text container right-aligned and bounded by a dotted line?",
+        "Is the primary artist name in bold red uppercase?",
+        "Is the portrait high-contrast and desaturated?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue",
+      "Subject expression",
+      "Text container border style",
+      "Accent color for the main title"
+    ],
+    "mustRedesign": [
+      "Specific artist name and song titles",
+      "Record label logos and branding",
+      "Stereo/Mono technical badges"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean grid-based layout",
+        "Authentic 1960s color palette",
+        "Sharp typographic hierarchy"
+      ],
+      "avoid": [
+        "Modern gradients",
+        "Drop shadows on text",
+        "Digital-looking filters"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no text is overlapping the subject's face.",
+      "Check that the dotted line container is perfectly vertical.",
+      "Verify the red text is the most prominent typographic element.",
+      "Confirm the overall image has a matte, printed paper texture."
+    ],
+    "reuseFormula": "Combine a high-contrast monochromatic portrait on a solid warm-toned background with a structured, right-aligned typographic grid enclosed in a minimalist geometric frame."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:27:11.698Z"
+}

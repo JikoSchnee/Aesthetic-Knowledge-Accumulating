@@ -1,0 +1,275 @@
+{
+  "id": "2fd0bb4036a069050c28a84c056f5f2badd818a9e55dafaf8b48c36913d89849",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:26:25.911Z",
+  "approvedAt": "2026-08-11T22:26:25.911Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:26:25.911Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "What's a Matter Baby.jpg",
+    "hash": "2fd0bb4036a069050c28a84c056f5f2badd818a9e55dafaf8b48c36913d89849",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "What's a Matter Baby",
+    "artist": "Timi Yuro",
+    "artworkUrl": "https://coverartarchive.org/release-group/9fe1e975-5f66-3f00-8c0d-247474538905/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9fe1e975-5f66-3f00-8c0d-247474538905",
+    "releaseGroupId": "9fe1e975-5f66-3f00-8c0d-247474538905",
+    "recordingId": "2098dec6-1399-4746-bd34-e736fee63376",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Insult To InjuryTimi Yuro",
+      "song": "Insult To Injury",
+      "performer": "Timi Yuro",
+      "peakPosition": 81,
+      "firstChartDate": "1963-03-30",
+      "lastChartDate": "1963-03-30",
+      "appearances": [
+        {
+          "chartDate": "1963-03-30",
+          "position": 81
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul album cover 1960s soul music pencil portrait italic sans serif salmon pink asymmetrical layout the large bold red header contrasts with the delicate grey pencil sketch the right aligned text block balances the left weighted portrait horizontal black rules define the hierarchy of the artist name and tracklist solid pastel background graphite pencil portrait bold slanted header right aligned tracklist column with horizontal rules",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Pencil Sketch",
+        "Offset Lithography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vinyl Record Packaging",
+        "Vintage Poster Design",
+        "Retro Editorial Layout"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "soul music",
+        "pencil portrait",
+        "italic sans-serif",
+        "salmon pink",
+        "asymmetrical layout"
+      ]
+    },
+    "visualDefinition": "A mid-century modern album cover featuring a soft graphite pencil portrait of a woman with a bouffant hairstyle, set against a solid salmon-pink background. The layout uses a strong right-aligned typographic column and a bold, slanted header spanning the top.",
+    "coreVisualRelationships": [
+      "The large, bold red header contrasts with the delicate grey pencil sketch.",
+      "The right-aligned text block balances the left-weighted portrait.",
+      "Horizontal black rules define the hierarchy of the artist name and tracklist."
+    ],
+    "coreInvariants": [
+      "Solid salmon-pink background color",
+      "Monochromatic graphite-style portrait",
+      "Heavy use of italicized sans-serif typography",
+      "Horizontal divider lines"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Portrait is positioned slightly to the left of center, occupying the lower two-thirds of the height.",
+      "visualAnchor": "The large, bold red title at the top serves as the primary entry point.",
+      "movementAndEyePath": "Top title to the portrait, then across to the right-aligned artist name and down the tracklist.",
+      "negativeSpace": "Ample salmon-pink space surrounds the portrait to emphasize the delicate pencil work."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Salmon pink background providing a warm, vintage tone.",
+      "contrastColorRole": "Deep red for the primary title to create high impact.",
+      "accentColorRole": "Black for secondary text and divider lines; magenta-pink for the artist name.",
+      "saturationAndValueRelationship": "Low-saturation background with high-saturation red and magenta accents.",
+      "paletteRestrictions": [
+        "Salmon",
+        "Crimson Red",
+        "Magenta",
+        "Graphite Grey",
+        "Black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed sans-serif and high-contrast italic serif.",
+      "letterConstructionRules": [
+        "Heavy weight for the main title with a strong rightward slant.",
+        "Condensed proportions for the tracklist to fit multiple lines in a narrow column.",
+        "Italicized, high-contrast forms for the artist name."
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "extra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-edge",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "italicized-slant",
+            "overlap": "none",
+            "relationshipToImage": "header"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "italic-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "pointed",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "mid-right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "side-aligned"
+          },
+          "treatment": {
+            "fill": "magenta",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold condensed sans-serif for impact paired with elegant italic serif for personality.",
+      "graphicDevices": [
+        "Thick horizontal black rules",
+        "Small metadata text in the top right corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Italic slant",
+          "Condensed width",
+          "Right-aligned column"
+        ],
+        "avoid": [
+          "Rounded sans-serifs",
+          "Modern geometric fonts",
+          "Centered text for the tracklist"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Matches the heavy, condensed, slanted feel of the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni Italic",
+            "reason": "Captures the high-contrast, elegant serif feel for the artist name.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Appropriate for the clean, mid-century tracklist style.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a solid salmon-pink background. In the lower left quadrant, place a soft, detailed graphite pencil sketch of a woman's face with a 1960s bouffant hairstyle, looking directly forward with a neutral expression. The sketch should have feathered edges that blend into the pink background.",
+        "overlayInstruction": "Add a large, bold red italicized sans-serif title across the top. On the right side, create a column containing two thick black horizontal lines framing the artist's name in magenta italic serif. Below the second line, list a series of song titles in a clean, black, condensed sans-serif font, all right-aligned."
+      },
+      "verificationChecks": [
+        "Is the background a consistent salmon-pink?",
+        "Is the portrait rendered in a pencil-sketch style?",
+        "Are the horizontal rules present and black?",
+        "Is the main title slanted and bold red?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue",
+      "Portrait subject",
+      "Accent color for artist name",
+      "Number of tracklist items"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Specific song titles",
+      "Record label logos",
+      "Catalog numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean mid-century layout",
+        "Delicate pencil texture in the portrait",
+        "Strong typographic hierarchy"
+      ],
+      "avoid": [
+        "Digital gradients",
+        "Drop shadows on text",
+        "Modern photorealism"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text does not overlap the portrait's facial features.",
+      "Check that the red title is sufficiently legible against the pink.",
+      "Verify the pencil sketch maintains a hand-drawn quality.",
+      "Confirm the right-alignment of the tracklist is precise."
+    ],
+    "reuseFormula": "Solid pastel background + graphite pencil portrait + bold slanted header + right-aligned tracklist column with horizontal rules."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:05:44.981Z"
+}

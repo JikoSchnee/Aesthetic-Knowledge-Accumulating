@@ -1,0 +1,269 @@
+{
+  "id": "0079b2c4e8fa4744a91dedd60d4df9abab323c5d12742348509a5ee2751b4435",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T11:45:26.158Z",
+  "approvedAt": "2026-08-11T11:45:26.158Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T11:45:26.158Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Naked Brothers Band.jpg",
+    "hash": "0079b2c4e8fa4744a91dedd60d4df9abab323c5d12742348509a5ee2751b4435",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Naked Brothers Band",
+    "artist": "The Naked Brothers Band",
+    "artworkUrl": "https://coverartarchive.org/release-group/7a3e7563-e760-344a-b94f-79dea94acc85/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7a3e7563-e760-344a-b94f-79dea94acc85",
+    "releaseGroupId": "7a3e7563-e760-344a-b94f-79dea94acc85",
+    "recordingId": "f22b70ff-de4a-49d7-9caa-2f004cf3c992",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Crazy CarThe Naked Brothers Band",
+      "song": "Crazy Car",
+      "performer": "The Naked Brothers Band",
+      "peakPosition": 83,
+      "firstChartDate": "2007-02-17",
+      "lastChartDate": "2007-02-17",
+      "appearances": [
+        {
+          "chartDate": "2007-02-17",
+          "position": 83
+        }
+      ]
+    }
+  },
+  "dedupeText": "pop rock youth band album cover mid 2000s youth rock jumping grunge typography splatter white background denim symmetrical dynamic action with subjects jumping outward from the center contrast between clean white background and gritty distressed graphic elements visual connection via a long microphone cable looping through the negative space hierarchy established by the central logo placement between the two subjects dynamic action high key background distressed block typography brand color splatter",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Pop-Rock Youth Band Album Cover",
+      "category": "Music/Entertainment",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "DVD Cover"
+      ],
+      "retrievalTags": [
+        "mid-2000s",
+        "youth rock",
+        "jumping",
+        "grunge typography",
+        "splatter",
+        "white background",
+        "denim"
+      ]
+    },
+    "visualDefinition": "A high-energy composition featuring two young male performers mid-air against a textured white studio background, anchored by a central distressed typographic logo and a bottom black metadata bar.",
+    "coreVisualRelationships": [
+      "Symmetrical dynamic action with subjects jumping outward from the center",
+      "Contrast between clean white background and gritty, distressed graphic elements",
+      "Visual connection via a long microphone cable looping through the negative space",
+      "Hierarchy established by the central logo placement between the two subjects"
+    ],
+    "coreInvariants": [
+      "High-key studio lighting with soft shadows",
+      "Distressed, blocky sans-serif typography",
+      "Organic splatter or 'slime' graphic element",
+      "Bottom-aligned black horizontal footer"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two full-body subjects at medium-large scale, positioned on the left and right thirds, captured in mid-jump.",
+      "visualAnchor": "The central logo stack and the orange splatter graphic serve as the focal point.",
+      "movementAndEyePath": "Eyes move from the central logo outward to the expressive faces of the performers, then follow the microphone cable loop.",
+      "negativeSpace": "Ample white space with subtle vertical texture/pinstriping to emphasize the subjects' motion."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (background) and Blue (denim jeans) provide the primary canvas.",
+      "contrastColorRole": "Black (typography, footer, and shadows) provides structural definition.",
+      "accentColorRole": "Vibrant Orange (splatter graphic) adds a pop of energy and brand recognition.",
+      "saturationAndValueRelationship": "High-value background with moderately saturated clothing and a high-saturation accent graphic.",
+      "paletteRestrictions": [
+        "Avoid neon colors except for the specific orange accent",
+        "Maintain neutral denim tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy, condensed sans-serif",
+      "letterConstructionRules": [
+        "All-caps presentation",
+        "Rough, eroded edges suggesting a stamp or stencil effect",
+        "Tight vertical stacking with minimal leading",
+        "Slightly irregular baseline for a 'garage band' feel"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are contained within or overlapping dark, rectangular distressed blocks"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "grunge-sans",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "extra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat/distressed",
+            "corners": "slightly rounded by erosion",
+            "counters": "small/tight",
+            "strokeCharacter": "uniform but weathered"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "extremely tight",
+            "lineBreakPattern": "stacked three-tier",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "center-right of the middle axis",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "overlaps background splatter",
+            "relationshipToImage": "integrated with graphic elements"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "black distressed block background",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "eroded/stamped",
+            "distortion": "weathered edges"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "handwritten-script",
+          "anatomy": {
+            "width": "medium",
+            "weight": "regular",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "single",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom center within black bar",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "contained",
+            "relationshipToImage": "footer text"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-impact distressed display type paired with a casual, friendly monoline script for secondary info.",
+      "graphicDevices": [
+        "Ink splatter/blob",
+        "Distressed rectangular text containers",
+        "Microphone cable as a framing device"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Stacked layout",
+          "Distressed texture",
+          "All-caps display"
+        ],
+        "avoid": [
+          "Clean, modern geometric sans-serifs",
+          "Serif fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact with a grunge overlay",
+            "reason": "Matches the heavy condensed weight and blocky feel",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Rubber Stamp or Stencil fonts",
+            "reason": "Captures the eroded edges and DIY aesthetic",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate an image of two young boys with shaggy hair jumping excitedly. One on the left holds drumsticks; one on the right holds a vintage microphone with a long black cable. They wear casual clothes (white blazer/red shirt and open blue shirt/white tank) with denim jeans. Background is bright white with subtle vertical grey pinstripe texture. Leave the center-right area open for a logo.",
+        "overlayInstruction": "Add a three-line stacked title in a heavy, distressed white sans-serif font. Place each line inside a black, weathered rectangular box. Position an orange organic splatter shape behind the top-left of the text. Add a solid black bar at the very bottom with small white handwritten-style text centered inside."
+      },
+      "verificationChecks": [
+        "Is the text stacked in three distinct lines?",
+        "Does the typography have a weathered, stamped texture?",
+        "Is the orange splatter positioned behind the logo?",
+        "Is there a black footer bar at the bottom?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Splatter color",
+      "Subject poses",
+      "Background texture intensity",
+      "Footer bar height"
+    ],
+    "mustRedesign": [
+      "Specific brand logos",
+      "Exact facial likenesses",
+      "Proprietary character names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sense of motion/jumping",
+        "Gritty but clean commercial look",
+        "High-contrast center-weighted layout"
+      ],
+      "avoid": [
+        "Static poses",
+        "Purely clean typography",
+        "Dark or busy backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the microphone cable creates a fluid loop in the composition.",
+      "Check that the distressed text is still legible.",
+      "Verify the subjects appear to be at the same height/scale.",
+      "Confirm the bottom black bar is perfectly horizontal."
+    ],
+    "reuseFormula": "Dynamic Action + High-Key Background + Distressed Block Typography + Brand Color Splatter"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:01:07.477Z"
+}

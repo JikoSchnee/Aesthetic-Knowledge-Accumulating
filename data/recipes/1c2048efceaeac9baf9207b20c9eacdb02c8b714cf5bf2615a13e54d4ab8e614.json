@@ -1,0 +1,232 @@
+{
+  "id": "1c2048efceaeac9baf9207b20c9eacdb02c8b714cf5bf2615a13e54d4ab8e614",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:36:32.304Z",
+  "approvedAt": "2026-08-11T15:36:32.304Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:36:32.304Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Boogity Boogity.jpg",
+    "hash": "1c2048efceaeac9baf9207b20c9eacdb02c8b714cf5bf2615a13e54d4ab8e614",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Boogity Boogity",
+    "artist": "Ray Stevens",
+    "artworkUrl": "https://coverartarchive.org/release-group/9d577470-24f5-4933-a39a-cdcf8edb260d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9d577470-24f5-4933-a39a-cdcf8edb260d",
+    "releaseGroupId": "9d577470-24f5-4933-a39a-cdcf8edb260d",
+    "recordingId": "fb0ac183-21a7-44c1-852d-2831482c0785",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Freddie Feelgood (And His Funky Little Five Piece Band)Ray Stevens",
+      "song": "Freddie Feelgood (And His Funky Little Five Piece Band)",
+      "performer": "Ray Stevens",
+      "peakPosition": 91,
+      "firstChartDate": "1966-07-16",
+      "lastChartDate": "1966-07-23",
+      "appearances": [
+        {
+          "chartDate": "1966-07-16",
+          "position": 92
+        },
+        {
+          "chartDate": "1966-07-23",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro comic style motion blur cover motion blur comic book burst 70s aesthetic speech bubble action photography kitsch pop art the jagged red burst frames the upper text and the subject s head horizontal motion blur streaks contrast with the verticality of the central figure graphic speech bubbles and cloud motifs anchor the bottom corners combine action photography with long exposure comic book graphic overlays arched heavyweight typography to create a retro novelty aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Comic-Style Motion Blur Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Illustration",
+        "Airbrushing"
+      ],
+      "useCases": [
+        "Vintage Music Packaging",
+        "Humorous Editorial Layouts",
+        "Retro Poster Design"
+      ],
+      "retrievalTags": [
+        "motion blur",
+        "comic book burst",
+        "70s aesthetic",
+        "speech bubble",
+        "action photography",
+        "kitsch",
+        "pop art"
+      ]
+    },
+    "visualDefinition": "A high-energy composition featuring a central figure in extreme motion blur against a dark background, framed by jagged comic-style bursts and playful, layered typography. The style mimics 1970s novelty record covers with a mix of photographic realism and flat graphic elements.",
+    "coreVisualRelationships": [
+      "The jagged red burst frames the upper text and the subject's head.",
+      "Horizontal motion blur streaks contrast with the verticality of the central figure.",
+      "Graphic speech bubbles and cloud motifs anchor the bottom corners."
+    ],
+    "coreInvariants": [
+      "Extreme horizontal motion blur on the subject",
+      "Jagged, multi-layered comic 'explosion' frame for the main title",
+      "High-contrast lighting with a dark, vignetted background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central full-body figure, slightly off-center to the left, scaled to fill the vertical height.",
+      "visualAnchor": "The large, arched title text inside the red jagged burst at the top.",
+      "movementAndEyePath": "Starts at the top title, follows the motion blur lines across the center, and ends at the graphic elements in the bottom corners.",
+      "negativeSpace": "Deep brown/black negative space in the upper corners and behind the motion streaks."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep brown and black background providing high contrast for the subject.",
+      "contrastColorRole": "Bright red and yellow used in the jagged burst and title outlines.",
+      "accentColorRole": "Muted green and blue for secondary text elements; pale yellow for the speech bubble.",
+      "saturationAndValueRelationship": "High saturation in graphic elements versus desaturated, warm-toned photography.",
+      "paletteRestrictions": [
+        "Must include a primary red/yellow comic palette",
+        "Background must remain dark and warm-toned"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Heavy sans-serif and slab-serif hybrids",
+      "letterConstructionRules": [
+        "Main title: Arched, thick strokes, heavy black outlines, and internal drop shadows.",
+        "Secondary text: Italicized, blocky, and often following a path or contained in shapes.",
+        "Graphic containers: Jagged bursts, oval speech bubbles with tails, and rounded cloud clusters."
+      ],
+      "characterSpecificRedesigns": [
+        "Letters in the main title overlap slightly to create a unified graphic block.",
+        "Exclamation points are oversized and slanted to match the 'action' feel."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "custom-slab",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "ultra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "slightly rounded",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered-arch",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "two-word arch",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "arched",
+            "warp": "arc-upper",
+            "overlap": "letters overlap",
+            "relationshipToImage": "frames the head of the subject"
+          },
+          "treatment": {
+            "fill": "yellow-to-orange gradient",
+            "outline": "thick red and thin black",
+            "shadow": "hard black drop shadow",
+            "depth": "flat graphic",
+            "texture": "clean",
+            "distortion": "perspective arch"
+          }
+        }
+      ],
+      "pairingStrategy": "Eclectic mix of bold action-oriented display faces and simple sans-serifs for metadata.",
+      "graphicDevices": [
+        "Jagged 'POW' style burst",
+        "Oval speech bubble with sharp tail",
+        "Stylized white clouds",
+        "Horizontal speed lines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The arched layout of the top text",
+          "The multi-layered outline effect"
+        ],
+        "avoid": [
+          "Modern minimalist fonts",
+          "Thin or elegant serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Burbank Big Condensed",
+            "reason": "Captures the heavy, comic-book weight and energy.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary thickness for the secondary action words.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A man running with extreme horizontal motion blur, wearing white socks and sneakers. The background is dark brown/black. The lighting is warm. Leave space at the top for a large arched graphic and in the corners for icons.",
+        "overlayInstruction": "Add a large arched title at the top inside a red jagged burst. Place a yellow speech bubble in the bottom left and stylized white clouds with blue text in the bottom right. Use thick outlines and drop shadows on all text."
+      },
+      "verificationChecks": [
+        "Is the motion blur purely horizontal?",
+        "Does the top text follow a distinct arch shape?",
+        "Are there at least three distinct graphic containers (burst, bubble, clouds)?",
+        "Is the color palette limited to retro-saturated tones?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the motion blur",
+      "Color of the jagged burst frame",
+      "Subject's pose and attire",
+      "Placement of secondary graphic elements"
+    ],
+    "mustRedesign": [
+      "Specific artist names and album titles",
+      "Record label logos in the bottom left corner",
+      "Specific catalog numbers in the top left"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-energy comic book vibe",
+        "Authentic 70s film grain and blur",
+        "Heavy, layered graphic outlines"
+      ],
+      "avoid": [
+        "Clean digital vectors",
+        "Modern flat design",
+        "Sharp, frozen-action photography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that text does not obscure the subject's face.",
+      "Ensure the motion blur looks like a long exposure, not a digital smudge.",
+      "Verify the jagged burst has a 'sticker' or 'cut-out' appearance.",
+      "Confirm the background is dark enough to make the red burst pop."
+    ],
+    "reuseFormula": "Combine [Action Photography with Long Exposure] + [Comic Book Graphic Overlays] + [Arched Heavyweight Typography] to create a [Retro Novelty] aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:04:06.738Z"
+}

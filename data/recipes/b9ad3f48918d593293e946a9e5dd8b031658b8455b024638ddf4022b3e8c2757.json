@@ -1,0 +1,276 @@
+{
+  "id": "b9ad3f48918d593293e946a9e5dd8b031658b8455b024638ddf4022b3e8c2757",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:43:44.407Z",
+  "approvedAt": "2026-08-11T22:43:44.407Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:43:44.407Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "You’ll Lose a Good Thing.jpg",
+    "hash": "b9ad3f48918d593293e946a9e5dd8b031658b8455b024638ddf4022b3e8c2757",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "You’ll Lose a Good Thing",
+    "artist": "Barbara Lynn",
+    "artworkUrl": "https://coverartarchive.org/release-group/3a66c574-0a01-3a5e-a0da-29f34b2bb8f4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3a66c574-0a01-3a5e-a0da-29f34b2bb8f4",
+    "releaseGroupId": "3a66c574-0a01-3a5e-a0da-29f34b2bb8f4",
+    "recordingId": "94563d5e-1420-472f-9438-fe44df1dd1ac",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "It's Better To Have ItBarbara Lynn",
+      "song": "It's Better To Have It",
+      "performer": "Barbara Lynn",
+      "peakPosition": 95,
+      "firstChartDate": "1965-01-09",
+      "lastChartDate": "1965-01-16",
+      "appearances": [
+        {
+          "chartDate": "1965-01-09",
+          "position": 95
+        },
+        {
+          "chartDate": "1965-01-16",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul color block layout 1960s color block soul music condensed sans serif bouncing baseline mid century modern vertical alignment of text blocks against a large scale portrait high contrast warm skin tones against a vibrant multi color palette interaction between the subject s gesture and the bottom text block strict geometric grid for the left third versus organic photographic forms on the right split screen layout 5 tier color block column condensed sans serif bouncing slab serif warm toned studio portrait",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Color Block Layout",
+      "category": "Album Cover Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Offset Lithography"
+      ],
+      "useCases": [
+        "Vintage-inspired editorial layouts",
+        "Music packaging",
+        "Retro social media graphics"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "color block",
+        "soul music",
+        "condensed sans-serif",
+        "bouncing baseline",
+        "mid-century modern"
+      ]
+    },
+    "visualDefinition": "A split-screen composition featuring a high-contrast studio portrait of a woman on the right and a vertically stacked sequence of five distinct color blocks on the left, each containing bold typography.",
+    "coreVisualRelationships": [
+      "Vertical alignment of text blocks against a large-scale portrait",
+      "High-contrast warm skin tones against a vibrant multi-color palette",
+      "Interaction between the subject's gesture and the bottom text block",
+      "Strict geometric grid for the left third versus organic photographic forms on the right"
+    ],
+    "coreInvariants": [
+      "Five horizontal color bands on the left",
+      "Large-scale portrait occupying the right two-thirds",
+      "White typography for maximum legibility against saturated backgrounds",
+      "Warm, orange-toned lighting on the subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is positioned on the right, cropped from the shoulders up, filling approximately 60% of the frame.",
+      "visualAnchor": "The subject's face and eyes serve as the primary focal point, balanced by the heavy block of text on the left.",
+      "movementAndEyePath": "The eye starts at the top-left text, moves down through the color blocks, and is directed back to the subject's face by her upward-pointing hand.",
+      "negativeSpace": "Minimal; the frame is densely packed with color and information."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm Orange (background and skin tones)",
+      "contrastColorRole": "Primary Green, Yellow, and Cyan (middle blocks)",
+      "accentColorRole": "Deep Purple (bottom block)",
+      "saturationAndValueRelationship": "High saturation across all blocks with consistent value to maintain a flat, graphic quality.",
+      "paletteRestrictions": [
+        "Burnt Orange",
+        "Kelly Green",
+        "Golden Yellow",
+        "Sky Blue",
+        "Royal Purple"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed grotesque sans-serif and a casual slab-serif",
+      "letterConstructionRules": [
+        "Upper four blocks use a heavy, condensed sans-serif with flat terminals",
+        "Bottom block uses a playful, slightly irregular slab-serif with a bouncing baseline",
+        "Uniform stroke weight in the sans-serif blocks"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'L' and 'E' in the sans-serif have very short horizontal bars to maintain the condensed profile",
+        "The slab-serif 'a' and 'n' have rounded, friendly terminals"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "per-block",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "left-aligned column",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within color blocks"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Slab-Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "blunt-serif",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "dynamic"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "staggered",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom-left block",
+            "scale": "medium-large",
+            "rotation": "slight-upward-tilt",
+            "warp": "bouncing-baseline",
+            "overlap": "none",
+            "relationshipToImage": "adjacent to subject's hand"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between rigid, condensed geometric forms and organic, playful serif forms.",
+      "graphicDevices": [
+        "Horizontal color bands",
+        "Thin black border at top for technical metadata",
+        "Oval logo container in top right"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed width of the top text",
+          "Bouncing baseline of the bottom text",
+          "White color for all primary text"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Drop shadows",
+          "Gradient fills in the color blocks"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Matches the heavy, condensed sans-serif aesthetic of the top blocks.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Adelle or Clarendon",
+            "reason": "Provides the sturdy but friendly slab-serif feel for the bottom block.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a split composition. The right 60% is a warm-toned studio portrait of a person with a 1960s hairstyle against an orange background. The left 40% consists of five equal-height horizontal color blocks: Orange, Green, Yellow, Cyan, and Purple from top to bottom.",
+        "overlayInstruction": "Apply bold, white, extra-condensed sans-serif text centered in the top four blocks. In the bottom purple block, apply white slab-serif text with a bouncing baseline and a slight upward tilt."
+      },
+      "verificationChecks": [
+        "Are there exactly five color blocks on the left?",
+        "Is the top text extra-condensed and uppercase?",
+        "Does the bottom text have a playful, non-linear baseline?",
+        "Is the lighting on the portrait warm and high-contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color palette of the blocks",
+      "Subject of the portrait",
+      "Number of horizontal blocks",
+      "Specific typeface for the slab-serif section"
+    ],
+    "mustRedesign": [
+      "Specific artist name and album title",
+      "Record label logo and catalog numbers",
+      "Exact facial features of the subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Flat, vibrant color application",
+        "Sharp typographic edges",
+        "Clear visual separation between the grid and the photo"
+      ],
+      "avoid": [
+        "Modern digital gradients",
+        "Thin, light-weight fonts",
+        "Desaturated or pastel colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for clean alignment between color block edges and the photo boundary.",
+      "Ensure the white text pops against the yellow and cyan blocks.",
+      "Verify the 'bouncing' effect of the bottom text is visible but legible.",
+      "Confirm the portrait lighting matches the 1960s soul aesthetic."
+    ],
+    "reuseFormula": "Split-screen layout + 5-tier color block column + condensed sans-serif + bouncing slab-serif + warm-toned studio portrait."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:20:47.563Z"
+}

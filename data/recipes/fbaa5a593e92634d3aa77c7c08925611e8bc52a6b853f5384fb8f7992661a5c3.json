@@ -1,0 +1,321 @@
+{
+  "id": "fbaa5a593e92634d3aa77c7c08925611e8bc52a6b853f5384fb8f7992661a5c3",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T00:45:57.186Z",
+  "approvedAt": "2026-08-12T00:45:57.186Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T00:45:57.186Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Acker Bilk On The Shore.jpg",
+    "hash": "fbaa5a593e92634d3aa77c7c08925611e8bc52a6b853f5384fb8f7992661a5c3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Acker Bilk On The Shore",
+    "artist": "Mr. Acker Bilk",
+    "artworkUrl": "https://coverartarchive.org/release-group/ed9c7508-31ba-4cf9-ae71-e988cd911dd7/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ed9c7508-31ba-4cf9-ae71-e988cd911dd7",
+    "releaseGroupId": "ed9c7508-31ba-4cf9-ae71-e988cd911dd7",
+    "recordingId": "69f2831d-7177-4653-8f00-2054d70e477a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "LimelightMr. Acker Bilk",
+      "song": "Limelight",
+      "performer": "Mr. Acker Bilk",
+      "peakPosition": 92,
+      "firstChartDate": "1962-12-01",
+      "lastChartDate": "1962-12-15",
+      "appearances": [
+        {
+          "chartDate": "1962-12-01",
+          "position": 100
+        },
+        {
+          "chartDate": "1962-12-08",
+          "position": 93
+        },
+        {
+          "chartDate": "1962-12-15",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century jazz album cover aesthetic 1960s aesthetic jazz album slab serif low key lighting bowler hat candlelight vintage photography the musician s direct gaze creates a focal point balanced by the large scale typography warm candlelight highlights contrast against a deep dark background the verticality of the candles and clarinet echoes the vertical alignment of the text blocks combine a low key character portrait with heavy stacked slab serif typography in the upper left and a light right aligned sans serif list in the upper right",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Jazz Album Cover Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Vintage Poster Design",
+        "Editorial Layout"
+      ],
+      "retrievalTags": [
+        "1960s aesthetic",
+        "jazz album",
+        "slab serif",
+        "low-key lighting",
+        "bowler hat",
+        "candlelight",
+        "vintage photography"
+      ]
+    },
+    "visualDefinition": "A moody, low-key photographic portrait of a musician in a bowler hat and striped waistcoat, seated at a dark table with candles and open magazines. The composition is framed by bold, heavy slab-serif typography in the upper left and a vertical list of tracks in the upper right.",
+    "coreVisualRelationships": [
+      "The musician's direct gaze creates a focal point balanced by the large-scale typography.",
+      "Warm candlelight highlights contrast against a deep, dark background.",
+      "The verticality of the candles and clarinet echoes the vertical alignment of the text blocks."
+    ],
+    "coreInvariants": [
+      "Low-key lighting with high contrast",
+      "Heavy slab-serif display type with inline detailing",
+      "Asymmetrical balance between subject and text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central figure, medium shot, slightly right of center.",
+      "visualAnchor": "The musician's face and the bright white candles forming a triangular base.",
+      "movementAndEyePath": "Starts at the large display text (top left), moves to the subject's face, follows the clarinet down to the magazines, and ends at the tracklist (top right).",
+      "negativeSpace": "Extensive dark, near-black space surrounding the subject and text elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal/black background providing high contrast.",
+      "contrastColorRole": "Warm ochre and brown tones in the waistcoat and skin tones.",
+      "accentColorRole": "Bright white for candles and display text; muted red for secondary text.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast in the highlights.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Ochre",
+        "Muted Red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extra-bold slab serif",
+      "letterConstructionRules": [
+        "Heavy, blocky slabs",
+        "Inline white stroke detail within the letterforms",
+        "Tight letter spacing",
+        "Lowercase for primary name, lowercase for secondary title"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'a' with a large counter",
+        "Lowercase 'k' with heavy slab terminals"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Ultra-Black",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Heavy Slab",
+            "corners": "Sharp",
+            "counters": "Small/Inline",
+            "strokeCharacter": "Uniformly thick"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "Stacked words",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top left quadrant",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "Floating over dark background"
+          },
+          "treatment": {
+            "fill": "White with black inline",
+            "outline": "Thin black",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "Clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Slab",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Adjacent to display text",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "Horizontal contrast to stacked name"
+          },
+          "treatment": {
+            "fill": "Muted Red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "Clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 3,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "Medium",
+            "terminals": "Blunt",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "wide",
+            "leading": "loose",
+            "lineBreakPattern": "Vertical list",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top right corner",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "Balanced against display text"
+          },
+          "treatment": {
+            "fill": "Ochre/Yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "Clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy slab serif for branding paired with a light, airy sans-serif for information.",
+      "graphicDevices": [
+        "Inline text effect",
+        "Vertical list alignment"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase slab serif for the main name",
+          "Inline detailing",
+          "Right-aligned uppercase tracklist"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Modernist minimalism",
+          "Bright neon colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Stymie Black with custom inline",
+            "reason": "Matches the heavy slab weight and mid-century feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Provides the necessary geometric slab structure.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Suitable for the secondary tracklist text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A moody 1960s photographic portrait of a man with a goatee wearing a black bowler hat and a brown striped waistcoat. He is sitting at a dark table with two tall white candles in brass holders and open magazines. He holds a clarinet. The background is dark and shadowy.",
+        "overlayInstruction": "Apply a large, stacked lowercase slab-serif name in the top left with a white fill and black inline. Add a secondary title in red slab-serif next to it. Place a vertical list of song titles in small, yellow, uppercase sans-serif in the top right corner."
+      },
+      "verificationChecks": [
+        "Is the main text lowercase slab-serif?",
+        "Is the lighting low-key with visible candle flames?",
+        "Is the tracklist right-aligned in the upper right?",
+        "Does the subject wear a bowler hat and striped vest?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's instrument",
+      "Color of the secondary text",
+      "Density of the tracklist"
+    ],
+    "mustRedesign": [
+      "Specific artist name",
+      "Specific track titles",
+      "Record label logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast chiaroscuro lighting",
+        "Authentic mid-century slab-serif typography",
+        "Balanced asymmetrical layout"
+      ],
+      "avoid": [
+        "Digital-looking gradients",
+        "Modern sans-serif display fonts",
+        "Flat, even lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for inline detail in the display font.",
+      "Ensure the background remains dark and atmospheric.",
+      "Verify the three-color typographic hierarchy (White, Red, Yellow).",
+      "Confirm the subject's attire matches the 1960s jazz aesthetic."
+    ],
+    "reuseFormula": "Combine a low-key character portrait with heavy, stacked slab-serif typography in the upper left and a light, right-aligned sans-serif list in the upper right."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:27:56.517Z"
+}

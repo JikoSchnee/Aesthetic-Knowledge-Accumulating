@@ -1,0 +1,274 @@
+{
+  "id": "f775097dab7d4665c286ceb42e67fdd5896b97c66640aafcce9dc74c8f59ad9a",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T14:40:59.103Z",
+  "approvedAt": "2026-08-11T14:40:59.103Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T14:40:59.103Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Life of Pablo.jpg",
+    "hash": "f775097dab7d4665c286ceb42e67fdd5896b97c66640aafcce9dc74c8f59ad9a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Life of Pablo",
+    "artist": "Kanye West",
+    "artworkUrl": "https://coverartarchive.org/release-group/8c18657a-6338-490d-a952-897663596b96/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8c18657a-6338-490d-a952-897663596b96",
+    "releaseGroupId": "8c18657a-6338-490d-a952-897663596b96",
+    "recordingId": "485d50bd-8623-4428-921a-9336e7bb12aa",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "FMLKanye West",
+      "song": "FML",
+      "performer": "Kanye West",
+      "peakPosition": 84,
+      "firstChartDate": "2016-04-23",
+      "lastChartDate": "2016-04-23",
+      "appearances": [
+        {
+          "chartDate": "2016-04-23",
+          "position": 84
+        }
+      ]
+    }
+  },
+  "dedupeText": "dual image repetitive typography layout orange background repetitive text collage brutalist design sans serif typography layered images repetitive text blocks framing central imagery contrast between vintage family photography and modern provocative photography strict grid like alignment of text versus asymmetrical placement of images dominant vibrant orange field providing a unified canvas solid color background repetitive bold sans serif text asymmetrical photo collage overlays",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Dual-Image Repetitive Typography Layout",
+      "category": "Graphic Design / Album Art",
+      "medium": [
+        "Digital Graphic Design",
+        "Photography Collage"
+      ],
+      "useCases": [
+        "Album Covers",
+        "Social Media Graphics",
+        "Poster Design"
+      ],
+      "retrievalTags": [
+        "orange background",
+        "repetitive text",
+        "collage",
+        "brutalist design",
+        "sans-serif typography",
+        "layered images"
+      ]
+    },
+    "visualDefinition": "A high-contrast, minimalist collage featuring a solid orange background overlaid with repetitive, bold sans-serif text and two distinct photographic inserts that overlap the typography.",
+    "coreVisualRelationships": [
+      "Repetitive text blocks framing central imagery",
+      "Contrast between vintage family photography and modern provocative photography",
+      "Strict grid-like alignment of text versus asymmetrical placement of images",
+      "Dominant vibrant orange field providing a unified canvas"
+    ],
+    "coreInvariants": [
+      "Solid, untextured orange background (#F58B57)",
+      "Heavy, black sans-serif typography",
+      "Intentional overlapping of images over text",
+      "Repetition of phrases to create texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two rectangular photographs placed off-center; one larger wedding photo in the upper-left quadrant and one smaller provocative photo in the lower-right quadrant.",
+      "visualAnchor": "The large, bold repetitive text blocks that span the width of the canvas.",
+      "movementAndEyePath": "The eye follows the vertical repetition of the text, interrupted by the top-left image, then moves down to the bottom-right image.",
+      "negativeSpace": "Significant open orange space around the edges and between text blocks, creating a 'brutalist' breathing room."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant orange background acting as the primary canvas.",
+      "contrastColorRole": "Pure black for all typographic elements.",
+      "accentColorRole": "Naturalistic tones from the embedded photographs (muted browns, whites, and skin tones).",
+      "saturationAndValueRelationship": "High saturation background with low-value (black) text for maximum legibility and impact.",
+      "paletteRestrictions": [
+        "No gradients",
+        "No background textures",
+        "Solid orange hex #F58B57 or similar"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Closed apertures",
+        "Flat terminals",
+        "High x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "None; relies on standard geometric proportions"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left and right justified columns",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Repetitive phrases",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Centered and stacked",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Underneath images",
+            "relationshipToImage": "Text acts as a background layer for the photos"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left and right justified",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked short phrases",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Lower quadrants",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Partially obscured by images",
+            "relationshipToImage": "Flanking the lower image"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Monospaced or single-family sans-serif used in different scales.",
+      "graphicDevices": [
+        "Repetition",
+        "Collage-style image placement",
+        "Intentional obscuring of text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Bold weight",
+          "Uppercase setting",
+          "Orange background"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Bold",
+            "reason": "Classic geometric clarity and neutral tone.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Arial Black",
+            "reason": "Readily available with similar weight and impact.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Inter Bold",
+            "reason": "Modern digital alternative with excellent legibility.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a solid vibrant orange canvas. Place two rectangular photographs: one vintage wedding group photo in the upper-left and one modern urban fashion photo in the lower-right.",
+        "overlayInstruction": "Using a bold black sans-serif font, repeat a primary phrase in large uppercase letters across the top and middle. In the lower section, repeat a secondary short phrase in smaller uppercase letters, allowing the text to be partially covered by the images."
+      },
+      "verificationChecks": [
+        "Is the background a solid, flat orange?",
+        "Is the text strictly black and sans-serif?",
+        "Do the images overlap the text layers?",
+        "Is the text repeated vertically to create a pattern?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue",
+      "Image content and placement",
+      "Text repetition count",
+      "Font weight"
+    ],
+    "mustRedesign": [
+      "Specific photographic subjects",
+      "Exact wording of the text",
+      "Any logos or branding"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typographic edges",
+        "High contrast between text and background",
+        "Intentional 'unfinished' collage look"
+      ],
+      "avoid": [
+        "Soft edges on images",
+        "Gradients in the background",
+        "Low-contrast text colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text is perfectly horizontal.",
+      "Check that images are rectangular with no borders.",
+      "Verify that the orange is vibrant and not muddy.",
+      "Confirm the text repetition creates a rhythmic visual texture."
+    ],
+    "reuseFormula": "Solid Color Background + Repetitive Bold Sans-Serif Text + Asymmetrical Photo Collage Overlays"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:27:21.373Z"
+}

@@ -1,0 +1,288 @@
+{
+  "id": "d2bf6a6afe4892188bbdc91077c175d1c657bce3df4010b7a11351ac820fe282",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T01:13:48.649Z",
+  "approvedAt": "2026-08-12T01:13:48.649Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T01:13:48.649Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Strange Company.jpg",
+    "hash": "d2bf6a6afe4892188bbdc91077c175d1c657bce3df4010b7a11351ac820fe282",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Strange Company",
+    "artist": "Wendy Waldman",
+    "artworkUrl": "https://coverartarchive.org/release-group/f8e49a46-ed78-3416-93c5-deb1b7bac0d1/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f8e49a46-ed78-3416-93c5-deb1b7bac0d1",
+    "releaseGroupId": "f8e49a46-ed78-3416-93c5-deb1b7bac0d1",
+    "recordingId": "18d8aff3-de7c-455e-89f6-d6d27ccbb229",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Long Hot Summer NightsWendy Waldman",
+      "song": "Long Hot Summer Nights",
+      "performer": "Wendy Waldman",
+      "peakPosition": 76,
+      "firstChartDate": "1978-08-19",
+      "lastChartDate": "1978-09-09",
+      "appearances": [
+        {
+          "chartDate": "1978-08-19",
+          "position": 90
+        },
+        {
+          "chartDate": "1978-08-26",
+          "position": 80
+        },
+        {
+          "chartDate": "1978-09-02",
+          "position": 78
+        },
+        {
+          "chartDate": "1978-09-09",
+          "position": 76
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage tabloid newspaper layout tabloid vintage newspaper halftone 1970s black and white high contrast typography newsprint texture columnar layout dominant bold headlines contrasting with tight justified body text columns a central halftone photograph acting as the primary visual anchor heavy black bars and geometric borders separating distinct content sections a masthead featuring outlined blocky lettering at the top center combine a high contrast halftone central image with ultra bold sans serif headers and justified serif body text in a multi column grid framed by heavy black horizontal dividers on a textured newsprint background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Tabloid Newspaper Layout",
+      "category": "Editorial Design",
+      "medium": [
+        "Newsprint",
+        "Halftone Photography",
+        "Letterpress Printing"
+      ],
+      "useCases": [
+        "Retro-themed editorial design",
+        "Satirical news layouts",
+        "Period-accurate 1970s graphic design",
+        "Zine aesthetics"
+      ],
+      "retrievalTags": [
+        "tabloid",
+        "vintage newspaper",
+        "halftone",
+        "1970s",
+        "black and white",
+        "high-contrast typography",
+        "newsprint texture",
+        "columnar layout"
+      ]
+    },
+    "visualDefinition": "A high-contrast, black-and-white tabloid newspaper front page characterized by dense, multi-columnar text, heavy sans-serif headlines, and grainy halftone photography with a distinct 1970s aesthetic.",
+    "coreVisualRelationships": [
+      "Dominant bold headlines contrasting with tight, justified body text columns.",
+      "A central halftone photograph acting as the primary visual anchor.",
+      "Heavy black bars and geometric borders separating distinct content sections.",
+      "A masthead featuring outlined, blocky lettering at the top center."
+    ],
+    "coreInvariants": [
+      "Strict black and white color palette with newsprint grey mid-tones.",
+      "Heavy use of halftone dots in all photographic elements.",
+      "Justified text alignment with narrow gutters."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The masthead occupies the top 15%, followed by a massive headline taking up 25%, with a large central photograph occupying the middle 40%.",
+      "visualAnchor": "The oversized, bold sans-serif headline in the upper-middle section.",
+      "movementAndEyePath": "Top-down vertical flow, starting at the masthead, moving through the massive headline, into the central image, and finally to the bottom text columns.",
+      "negativeSpace": "Minimal; the layout is intentionally crowded to simulate the 'sensationalist' tabloid feel."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/light grey newsprint background.",
+      "contrastColorRole": "Deep black for headlines, borders, and shadows.",
+      "accentColorRole": "Mid-grey halftone patterns for photographic depth.",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between ink and paper.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric and Grotesque sans-serifs",
+      "letterConstructionRules": [
+        "Headlines use ultra-bold, tightly tracked sans-serifs.",
+        "Masthead uses heavy, slab-like block letters with thick outlines.",
+        "Body text uses a high-readability serif for dense columns."
+      ],
+      "characterSpecificRedesigns": [
+        "Extremely tight kerning in main headlines, often touching.",
+        "Outlined 'inline' effect for the primary masthead title."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Extra-Bold Sans-Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Black/Ultra",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Small",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Upper-middle",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Above"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Clean edges",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Slab-Serif Display",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Heavy",
+            "contrast": "Low",
+            "xHeight": "Medium",
+            "terminals": "Blocky",
+            "corners": "Rounded-exterior",
+            "counters": "Open",
+            "strokeCharacter": "Outlined"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Normal",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Header"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "Thick Black",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of ultra-bold sans-serif headlines with traditional serif body copy.",
+      "graphicDevices": [
+        "Double-line borders",
+        "Solid black header bars",
+        "Halftone screen overlays",
+        "Vertical column rules"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The tight tracking of the main headline",
+          "The outlined style of the masthead",
+          "The multi-column justified body text"
+        ],
+        "avoid": [
+          "Modern digital gradients",
+          "Thin, elegant serifs for headlines",
+          "Wide margins"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the weight and era of the primary headlines.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary verticality and weight for tabloid headers.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Times New Roman",
+            "reason": "Standard for newspaper body text to maintain period accuracy.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 1970s-style black and white halftone photograph of people at a dimly lit nightclub table with cocktails. Apply a newsprint texture and high-contrast lighting. Surround this with a layout of empty text columns and thick black horizontal bars.",
+        "overlayInstruction": "Add a large, centered, ultra-bold sans-serif headline in all-caps above the image. Place an outlined slab-serif masthead at the very top. Fill the side and bottom columns with justified serif placeholder text."
+      },
+      "verificationChecks": [
+        "Is the image processed with a visible halftone dot pattern?",
+        "Are the headlines sufficiently bold and tightly tracked?",
+        "Is the layout divided into clear columns with vertical rules?",
+        "Does the overall aesthetic feel like 1970s newsprint?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Halftone dot size",
+      "Headline font weight",
+      "Number of text columns",
+      "Paper aging/yellowing level"
+    ],
+    "mustRedesign": [
+      "Specific celebrity names or likenesses",
+      "Existing publication logos",
+      "Specific dates and prices"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast black and white balance",
+        "Authentic newsprint grain",
+        "Dense, crowded editorial feel"
+      ],
+      "avoid": [
+        "Clean, minimalist modern layouts",
+        "High-resolution, smooth photography",
+        "Vibrant colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no color bleeds into the grayscale design.",
+      "Check that the halftone effect doesn't obscure the subject matter.",
+      "Verify that the headline hierarchy is clear and dominant.",
+      "Confirm the presence of period-appropriate graphic rules and bars."
+    ],
+    "reuseFormula": "Combine a high-contrast halftone central image with ultra-bold sans-serif headers and justified serif body text in a multi-column grid, framed by heavy black horizontal dividers on a textured newsprint background."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:29:28.710Z"
+}

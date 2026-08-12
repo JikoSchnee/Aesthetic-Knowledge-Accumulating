@@ -1,0 +1,267 @@
+{
+  "id": "305f4513f1a4e788d460283175cf27db55da5c9754c4d4ec76cd3df7bf6b3870",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T10:37:44.496Z",
+  "approvedAt": "2026-08-11T10:37:44.496Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T10:37:44.496Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Here We Go Again.jpg",
+    "hash": "305f4513f1a4e788d460283175cf27db55da5c9754c4d4ec76cd3df7bf6b3870",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Here We Go Again",
+    "artist": "Demi Lovato",
+    "artworkUrl": "https://coverartarchive.org/release-group/3f5ac466-62df-44bd-9c50-c41b5f6c03f1/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3f5ac466-62df-44bd-9c50-c41b5f6c03f1",
+    "releaseGroupId": "3f5ac466-62df-44bd-9c50-c41b5f6c03f1",
+    "recordingId": "557c33cb-c932-4805-8ac0-648e02503238",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Catch MeDemi Lovato",
+      "song": "Catch Me",
+      "performer": "Demi Lovato",
+      "peakPosition": 89,
+      "firstChartDate": "2009-08-08",
+      "lastChartDate": "2009-08-08",
+      "appearances": [
+        {
+          "chartDate": "2009-08-08",
+          "position": 89
+        }
+      ]
+    }
+  },
+  "dedupeText": "pop portrait album cover pop music portrait hand lettering pink accent shushing gesture soft focus 2000s aesthetic the pink script lettering frames the subject s forehead and hair the vertical finger gesture creates a central axis for the composition the high contrast lighting on the face draws immediate attention to the eyes and lips combine a high key shushing portrait with a dual typographic system expressive pink marker script on top and wide tracked white sans serif on bottom",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Pop Portrait Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Digital Illustration",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "pop music",
+        "portrait",
+        "hand-lettering",
+        "pink accent",
+        "shushing gesture",
+        "soft focus",
+        "2000s aesthetic"
+      ]
+    },
+    "visualDefinition": "A close-up portrait of a young woman with dark hair, performing a 'shush' gesture with her finger to her lips, featuring large-scale pink script lettering overlaid at the top and clean sans-serif text at the bottom.",
+    "coreVisualRelationships": [
+      "The pink script lettering frames the subject's forehead and hair.",
+      "The vertical finger gesture creates a central axis for the composition.",
+      "The high-contrast lighting on the face draws immediate attention to the eyes and lips."
+    ],
+    "coreInvariants": [
+      "A single finger held vertically to the lips.",
+      "A vibrant bubblegum pink accent color for the main title.",
+      "Soft-focus, bright background to isolate the subject."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered close-up portrait, head and shoulders filling the frame.",
+      "visualAnchor": "The subject's eyes and the vertical finger gesture.",
+      "movementAndEyePath": "Starts at the eyes, moves down the finger to the bottom text, then sweeps up to the pink script at the top.",
+      "negativeSpace": "Minimal, primarily in the bright, blown-out background areas around the hair."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm skin tones and dark brunette hair (neutral base).",
+      "contrastColorRole": "Bright white/overexposed background highlights.",
+      "accentColorRole": "Vibrant bubblegum pink for the script lettering and lipstick.",
+      "saturationAndValueRelationship": "High value in the background, high saturation in the pink accents, and deep shadows in the hair.",
+      "paletteRestrictions": [
+        "Pink",
+        "White",
+        "Black",
+        "Tan/Beige"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script and geometric sans-serif",
+      "letterConstructionRules": [
+        "Top text: Monolinear, fluid, hand-drawn script with large loops and long connectors.",
+        "Bottom text: Wide-tracked, all-caps geometric sans-serif with thin strokes."
+      ],
+      "characterSpecificRedesigns": [
+        "The dot over the 'i' is replaced with a small hand-drawn heart shape."
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "extended",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "variable",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "large/open",
+            "strokeCharacter": "monolinear marker"
+          },
+          "typesetting": {
+            "case": "mixed-case script",
+            "alignment": "centered",
+            "tracking": "loose",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top third",
+            "scale": "large",
+            "rotation": "slight upward tilt",
+            "warp": "none",
+            "overlap": "over hair",
+            "relationshipToImage": "integrated overlay"
+          },
+          "treatment": {
+            "fill": "solid pink",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "natural handwriting"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "very wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "bottom margin",
+            "scale": "small",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "over clothing",
+            "relationshipToImage": "grounding element"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle drop shadow for legibility",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme contrast between expressive, organic script and rigid, geometric sans-serif.",
+      "graphicDevices": [
+        "Hand-drawn heart icon",
+        "Wide letter spacing"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Pink color",
+          "Script style",
+          "Wide tracking on bottom text"
+        ],
+        "avoid": [
+          "Heavy block fonts",
+          "Serif fonts",
+          "Dark colors for text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Custom Marker Script",
+            "reason": "To match the fluid, personal feel of the top lettering.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham Light or Montserrat Light",
+            "reason": "To provide the clean, modern geometric base for the subtitle.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key portrait of a young woman with dark wavy hair, finger to lips in a shushing gesture, soft lighting, bright overexposed background, wearing a large cocktail ring.",
+        "overlayInstruction": "Add a large, vibrant pink hand-written script across the top hair area, replacing the 'i' dot with a heart. Add a clean, white, wide-tracked geometric sans-serif title at the bottom."
+      },
+      "verificationChecks": [
+        "Is the pink script monolinear and fluid?",
+        "Is the bottom text all-caps with wide tracking?",
+        "Is the 'shush' gesture clearly visible?",
+        "Does the pink color match the lipstick tone?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Hair color",
+      "Lipstick shade",
+      "Script color",
+      "Background brightness"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the artist",
+      "Exact handwriting signature",
+      "Brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, high-key lighting",
+        "Legible but expressive script",
+        "Balanced composition between top and bottom text"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast text",
+        "Heavy shadows on the face"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the pink script doesn't obscure the eyes.",
+      "Check that the bottom text is perfectly centered.",
+      "Verify the heart icon is present over the 'i'.",
+      "Confirm the ring on the finger is visible and detailed."
+    ],
+    "reuseFormula": "Combine a high-key shushing portrait with a dual-typographic system: expressive pink marker script on top and wide-tracked white sans-serif on bottom."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:05:46.489Z"
+}

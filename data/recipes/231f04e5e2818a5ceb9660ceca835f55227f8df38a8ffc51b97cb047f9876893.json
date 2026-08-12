@@ -1,0 +1,231 @@
+{
+  "id": "231f04e5e2818a5ceb9660ceca835f55227f8df38a8ffc51b97cb047f9876893",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:33:43.918Z",
+  "approvedAt": "2026-08-11T15:33:43.918Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:33:43.918Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Kane Brown.jpg",
+    "hash": "231f04e5e2818a5ceb9660ceca835f55227f8df38a8ffc51b97cb047f9876893",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Kane Brown",
+    "artist": "Kane Brown",
+    "artworkUrl": "https://coverartarchive.org/release-group/d305ff2d-b66a-4f6b-93e9-96d42909617c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d305ff2d-b66a-4f6b-93e9-96d42909617c",
+    "releaseGroupId": "d305ff2d-b66a-4f6b-93e9-96d42909617c",
+    "recordingId": "64eb8145-ef3c-46fb-b426-c0e7b21a991a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Found YouKane Brown",
+      "song": "Found You",
+      "performer": "Kane Brown",
+      "peakPosition": 80,
+      "firstChartDate": "2017-09-30",
+      "lastChartDate": "2017-09-30",
+      "appearances": [
+        {
+          "chartDate": "2017-09-30",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban portrait with geometric monogram tattooed male portrait backward baseball cap geometric monogram gritty texture lower third banner urban style pierced eyebrow subject s intense gaze directed at the viewer arms raised behind head creating a triangular frame for the face contrast between the warm skin tones and the cool dark textured background geometric logo acting as a central divider for the text banner urban portrait textured lower third geometric hairline typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Portrait with Geometric Monogram",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Album Covers",
+        "Artist Promotional Posters",
+        "Social Media Profile Banners"
+      ],
+      "retrievalTags": [
+        "tattooed male portrait",
+        "backward baseball cap",
+        "geometric monogram",
+        "gritty texture",
+        "lower third banner",
+        "urban style",
+        "pierced eyebrow"
+      ]
+    },
+    "visualDefinition": "A close-up, high-contrast portrait of a young man with tattoos and a backward cap, framed by a semi-transparent textured banner at the bottom containing thin geometric typography and a circular monogram.",
+    "coreVisualRelationships": [
+      "Subject's intense gaze directed at the viewer",
+      "Arms raised behind head creating a triangular frame for the face",
+      "Contrast between the warm skin tones and the cool, dark textured background",
+      "Geometric logo acting as a central divider for the text banner"
+    ],
+    "coreInvariants": [
+      "Backward black snapback cap",
+      "Intricate black-and-grey arm tattoos",
+      "Semi-transparent grey horizontal banner at the bottom edge",
+      "High-detail skin texture and facial hair stubble"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered and occupies the top 80% of the frame, cropped at the chest.",
+      "visualAnchor": "The subject's eyes and the central circular monogram in the footer.",
+      "movementAndEyePath": "Eyes start at the subject's face, follow the arms down to the tattoos, and settle on the horizontal text banner at the base.",
+      "negativeSpace": "Dark, scratched blue-grey background provides breathing room around the head and shoulders."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep navy and charcoal grey background with heavy grit texture.",
+      "contrastColorRole": "Light grey/white of the subject's t-shirt and the semi-transparent footer banner.",
+      "accentColorRole": "Natural skin tones and subtle teal/green hints in the arm tattoos.",
+      "saturationAndValueRelationship": "High value contrast between the bright face and dark background; desaturated overall palette with punchy highlights.",
+      "paletteRestrictions": [
+        "Avoid vibrant primary colors",
+        "Maintain a moody, desaturated urban aesthetic"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Ultra-light geometric sans-serif",
+      "letterConstructionRules": [
+        "Monolinear stroke weight",
+        "Extremely wide tracking",
+        "Geometric circular and angular forms",
+        "High horizontal crossbars"
+      ],
+      "characterSpecificRedesigns": [
+        "Circular monogram containing interlocking angular initials",
+        "Thin black outlines for the circular logo"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "wide",
+            "weight": "hairline",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "widest",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "bottom-third",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "contained-in-banner",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "solid-black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A single ultra-light weight used for both text and the internal lines of the monogram.",
+      "graphicDevices": [
+        "Semi-transparent frosted glass banner",
+        "Thin black horizontal border lines on the banner",
+        "Circular emblem as a focal point"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ultra-light weight",
+          "Wide letter spacing",
+          "Geometric circular logo"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Bold weights",
+          "Script styles"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Thin or Montserrat Hairline",
+            "reason": "Provides the necessary geometric skeleton and clean lines.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Classic geometric proportions that match the 'O' and 'B' shapes.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast portrait of a tattooed man in a white v-neck and backward cap against a dark, scratched blue wall. Leave the bottom 20% clear for a banner.",
+        "overlayInstruction": "Add a semi-transparent light grey banner at the bottom with thin black borders. Place a geometric circular monogram in the center and ultra-light, wide-spaced uppercase sans-serif text on either side."
+      },
+      "verificationChecks": [
+        "Is the text weight hairline/ultra-light?",
+        "Is the banner semi-transparent with a grit texture?",
+        "Is the monogram perfectly centered between the two words?",
+        "Does the subject have a direct, intense eye contact?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Tattoo patterns",
+      "Background texture intensity",
+      "Banner transparency level",
+      "Eye color"
+    ],
+    "mustRedesign": [
+      "Specific artist name and logo",
+      "Exact tattoo artwork",
+      "Specific jewelry details"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp focus on facial features",
+        "Clean, modern typographic layout",
+        "Gritty, urban atmosphere"
+      ],
+      "avoid": [
+        "Soft focus or blurry textures",
+        "Cluttered typography",
+        "Bright, cheerful lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is legible against the banner texture.",
+      "Verify the arms create a symmetrical frame for the face.",
+      "Check that the monogram lines match the font weight.",
+      "Confirm the background has a distressed, metallic or concrete feel."
+    ],
+    "reuseFormula": "Urban Portrait + Textured Lower Third + Geometric Hairline Typography"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:04:40.387Z"
+}

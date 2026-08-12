@@ -1,0 +1,250 @@
+{
+  "id": "95e324b080bb3f826729f4eed5f976e9ec8cac5258c8a5bdbedf71cd3333e481",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:05:56.838Z",
+  "approvedAt": "2026-08-11T08:05:56.838Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:05:56.838Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Workin’ on a Groovy Thing.jpg",
+    "hash": "95e324b080bb3f826729f4eed5f976e9ec8cac5258c8a5bdbedf71cd3333e481",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Workin’ on a Groovy Thing",
+    "artist": "Barbara Lewis",
+    "artworkUrl": "https://coverartarchive.org/release-group/ffffe43d-a699-4f87-9402-fbb583fb6132/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ffffe43d-a699-4f87-9402-fbb583fb6132",
+    "releaseGroupId": "ffffe43d-a699-4f87-9402-fbb583fb6132",
+    "recordingId": "68b7e564-c052-481c-8947-0aed2d4c988e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Baby What Do You Want Me To DoBarbara Lewis",
+      "song": "Baby What Do You Want Me To Do",
+      "performer": "Barbara Lewis",
+      "peakPosition": 74,
+      "firstChartDate": "1966-10-29",
+      "lastChartDate": "1966-12-03",
+      "appearances": [
+        {
+          "chartDate": "1966-10-29",
+          "position": 86
+        },
+        {
+          "chartDate": "1966-11-05",
+          "position": 79
+        },
+        {
+          "chartDate": "1966-11-12",
+          "position": 77
+        },
+        {
+          "chartDate": "1966-11-19",
+          "position": 74
+        },
+        {
+          "chartDate": "1966-11-26",
+          "position": 76
+        },
+        {
+          "chartDate": "1966-12-03",
+          "position": 76
+        }
+      ]
+    }
+  },
+  "dedupeText": "psychedelic soul quadrant cover quadrant psychedelic soul 60s monochromatic tint bubble font portrait grid repetition of the subject across a 2x2 grid high contrast between the black border and neon tinted panels integration of rounded organic letterforms with the structured grid color coded emotional states or moods per quadrant 2x2 monochromatic portrait grid black frame psychedelic display type",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Psychedelic Soul Quadrant Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Color Tinting"
+      ],
+      "useCases": [
+        "Vinyl Record Packaging",
+        "Retro Music Promotion",
+        "1960s Themed Poster"
+      ],
+      "retrievalTags": [
+        "quadrant",
+        "psychedelic",
+        "soul",
+        "60s",
+        "monochromatic tint",
+        "bubble font",
+        "portrait grid"
+      ]
+    },
+    "visualDefinition": "A four-panel grid layout featuring a central female figure in different expressive poses, each panel saturated in a distinct vibrant monochromatic tint (pink, purple, blue, green), set against a black outer frame with heavy, rounded psychedelic typography at the top.",
+    "coreVisualRelationships": [
+      "Repetition of the subject across a 2x2 grid",
+      "High contrast between the black border and neon-tinted panels",
+      "Integration of rounded, organic letterforms with the structured grid",
+      "Color-coded emotional states or moods per quadrant"
+    ],
+    "coreInvariants": [
+      "Black outer border framing the entire composition",
+      "Four equal-sized rectangular quadrants",
+      "Subject-to-background monochromatic color matching",
+      "Heavy, rounded display type centered at the top"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered in each quadrant, waist-up framing, occupying approximately 60% of each panel's height.",
+      "visualAnchor": "The top-center typography acts as the primary anchor, followed by the four-way grid symmetry.",
+      "movementAndEyePath": "Z-pattern starting from the top-left quadrant, moving across and down through the four color zones.",
+      "negativeSpace": "Heavy black border provides significant negative space at the top and sides to isolate the content."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black serves as the structural frame and background for the text.",
+      "contrastColorRole": "Vibrant Magenta, Electric Blue, Lime Green, and Deep Purple define the individual quadrants.",
+      "accentColorRole": "Pastel pink and mint green are used for the typography to pop against the black.",
+      "saturationAndValueRelationship": "High saturation in the panels with high value contrast between the subject's skin tones and the tinted backgrounds.",
+      "paletteRestrictions": [
+        "Avoid natural skin tones; use monochromatic tinting for the subject within each panel."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold, rounded slab serif with high-waisted curves.",
+      "letterConstructionRules": [
+        "Extremely rounded corners",
+        "Tight letter spacing (kerning)",
+        "Swash-like terminals on lowercase 'g' and 'y'",
+        "Heavy weight with minimal stroke contrast"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'i' with large circular dots",
+        "Curled descenders on 'y' and 'g'"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Psychedelic Bubble",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Heavy",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Rounded",
+            "corners": "Soft",
+            "counters": "Small/Tight",
+            "strokeCharacter": "Uniformly thick"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Two lines, stacked",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating above the grid"
+          },
+          "treatment": {
+            "fill": "Solid pastel",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used in two contrasting colors (pink and green) to differentiate lines.",
+      "graphicDevices": [
+        "Thin white horizontal bar at the very top for metadata",
+        "Black grid dividers"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Rounded terminals",
+          "Heavy weight",
+          "Tight spacing"
+        ],
+        "avoid": [
+          "Sharp serifs",
+          "Thin strokes",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cooper Black",
+            "reason": "Classic 60s rounded weight and feel",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Pinto Flare",
+            "reason": "Captures the psychedelic swash elements",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a 2x2 grid of four photographs of the same woman in different poses. Apply a heavy monochromatic tint to each: top-left magenta, top-right purple, bottom-left blue, bottom-right green. Frame the entire grid with a thick black border, leaving extra space at the top.",
+        "overlayInstruction": "Add two lines of centered text in the top black area using a heavy, rounded bubble font. The top line should be pink and the bottom line should be mint green."
+      },
+      "verificationChecks": [
+        "Are the four quadrants distinct in color?",
+        "Is the subject monochromatic within each panel?",
+        "Is the font heavy and rounded?",
+        "Is the black border consistent around the edges?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Quadrant colors",
+      "Subject poses",
+      "Text color pairing",
+      "Border thickness"
+    ],
+    "mustRedesign": [
+      "Specific artist name",
+      "Album title text",
+      "Record label logo in the top right quadrant"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast color saturation",
+        "Clean grid alignment",
+        "Authentic 1960s rounded typography feel"
+      ],
+      "avoid": [
+        "Modern digital gradients",
+        "Thin sans-serif fonts",
+        "Naturalistic color palettes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no text is inside the color quadrants",
+      "Verify the subject is the same person in all four panels",
+      "Check that the typography is centered horizontally",
+      "Confirm the black border is pure black without texture"
+    ],
+    "reuseFormula": "2x2 Monochromatic Portrait Grid + Black Frame + Psychedelic Display Type"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T08:12:39.600Z"
+}

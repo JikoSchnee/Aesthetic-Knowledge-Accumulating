@@ -1,0 +1,280 @@
+{
+  "id": "56eacc6d9fdd1f5f168dc539fc4a45ac731e8a6a656c42d1863d6ae0cd505792",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T18:44:47.605Z",
+  "approvedAt": "2026-08-11T18:44:47.605Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T18:44:47.605Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Play On.jpg",
+    "hash": "56eacc6d9fdd1f5f168dc539fc4a45ac731e8a6a656c42d1863d6ae0cd505792",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Play On",
+    "artist": "Carrie Underwood",
+    "artworkUrl": "https://coverartarchive.org/release-group/f938faab-5ced-4539-899b-51e25773e611/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f938faab-5ced-4539-899b-51e25773e611",
+    "releaseGroupId": "f938faab-5ced-4539-899b-51e25773e611",
+    "recordingId": "a1614637-1aba-47a4-b9a3-d46bd74dee86",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Home Sweet HomeCarrie Underwood",
+      "song": "Home Sweet Home",
+      "performer": "Carrie Underwood",
+      "peakPosition": 21,
+      "firstChartDate": "2009-03-28",
+      "lastChartDate": "2009-06-06",
+      "appearances": [
+        {
+          "chartDate": "2009-03-28",
+          "position": 21
+        },
+        {
+          "chartDate": "2009-04-04",
+          "position": 62
+        },
+        {
+          "chartDate": "2009-06-06",
+          "position": 79
+        }
+      ]
+    }
+  },
+  "dedupeText": "ethereal mint portrait cover mint green blonde portrait geometric sans serif daisy shallow depth of field ethereal lighting the mint green tint unifies the subject and the blurred background the yellow typography echoes the yellow centers of the white daisies the subject s direct gaze creates a central focal point against the soft focus environment the dark sweater provides a heavy base that grounds the light airy upper composition soft focus portrait mint green color wash hairline geometric sans serif floral accents ethereal modern aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Ethereal Mint Portrait Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Digital Color Grading",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover",
+        "Editorial Portrait",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "mint green",
+        "blonde portrait",
+        "geometric sans-serif",
+        "daisy",
+        "shallow depth of field",
+        "ethereal lighting"
+      ]
+    },
+    "visualDefinition": "A soft-focus, high-key portrait of a blonde woman with a mint-green color cast, featuring a daisy in her hair and foreground floral elements, overlaid with thin geometric typography.",
+    "coreVisualRelationships": [
+      "The mint-green tint unifies the subject and the blurred background.",
+      "The yellow typography echoes the yellow centers of the white daisies.",
+      "The subject's direct gaze creates a central focal point against the soft-focus environment.",
+      "The dark sweater provides a heavy base that grounds the light, airy upper composition."
+    ],
+    "coreInvariants": [
+      "Overall mint/cyan color wash",
+      "Shallow depth of field with foreground bokeh",
+      "Geometric, hairline-weight sans-serif typography",
+      "Natural floral accents (daisies)"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered-left, medium close-up, occupying approximately 60% of the vertical frame.",
+      "visualAnchor": "The subject's eyes and the daisy in her hair act as the primary anchors.",
+      "movementAndEyePath": "Eyes move from the subject's face down to the horizontal text line, then right toward the foreground flowers.",
+      "negativeSpace": "Significant blurred space on the right side provides balance for the text overlay."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mint green and cyan tones dominate the highlights and midtones.",
+      "contrastColorRole": "Deep charcoal and black in the sweater provide tonal weight.",
+      "accentColorRole": "Bright yellow in the typography and flower centers.",
+      "saturationAndValueRelationship": "High-value, low-saturation pastels contrasted with high-saturation yellow accents.",
+      "paletteRestrictions": [
+        "Avoid warm reds or oranges",
+        "Limit palette to mint, white, charcoal, and yellow"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Extremely thin stroke weight (hairline/thin)",
+        "Perfectly circular 'O' and 'C' characters",
+        "Wide tracking for the secondary text line",
+        "Uniform line thickness throughout"
+      ],
+      "characterSpecificRedesigns": [
+        "The letter 'O' in the secondary line contains a small play-button triangle icon."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Thin",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Sheared",
+            "corners": "Sharp",
+            "counters": "Large/Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Lower third, spanning the width",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays the subject's torso",
+            "relationshipToImage": "Integrated into the mid-ground"
+          },
+          "treatment": {
+            "fill": "Vibrant Yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Sheared",
+            "corners": "Sharp",
+            "counters": "Large",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Below primary text, right-aligned",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays dark background",
+            "relationshipToImage": "High contrast against dark sweater"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Weight and color contrast within the same typeface family.",
+      "graphicDevices": [
+        "Play icon integrated into typography"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric circularity",
+          "Thin stroke weight",
+          "Yellow/White color split"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Heavy bold weights",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Classic geometric proportions and circular 'O'.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham Thin",
+            "reason": "Modern geometric structure with clean lines.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Extreme geometric purity and thin weights.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a blonde woman with a daisy in her hair, wearing a dark knit sweater. Apply a strong mint-green/cyan color grade. Use a shallow depth of field with blurred white daisies in the foreground and a soft-focus interior background.",
+        "overlayInstruction": "Add geometric sans-serif text in the lower third. The top line should be thin, yellow, and large. The bottom line should be smaller, white, right-aligned, and have wider tracking."
+      },
+      "verificationChecks": [
+        "Is the color cast consistently mint-green?",
+        "Is the primary text thin and yellow?",
+        "Are the foreground flowers blurred (bokeh)?",
+        "Is the 'O' in the text perfectly circular?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the green color grade",
+      "Placement of the foreground floral bokeh",
+      "Tracking width of the subtitle",
+      "Subject's pose and gaze"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact brand logos or trademarks",
+      "Specific artist name text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, diffused lighting",
+        "Cohesive mint-green color palette",
+        "Clean, minimalist typographic layout"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Cluttered backgrounds",
+        "Warm-toned skin processing"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for color harmony between yellow text and flower centers.",
+      "Ensure the mint tint does not make the skin look sickly.",
+      "Verify the geometric font is sufficiently thin.",
+      "Confirm the foreground blur creates depth without obscuring the subject."
+    ],
+    "reuseFormula": "Soft-focus portrait + Mint-green color wash + Hairline geometric sans-serif + Floral accents = Ethereal Modern Aesthetic"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:09:54.557Z"
+}

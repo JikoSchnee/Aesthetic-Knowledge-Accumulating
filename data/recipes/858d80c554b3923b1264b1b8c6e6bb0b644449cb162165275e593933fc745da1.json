@@ -1,0 +1,295 @@
+{
+  "id": "858d80c554b3923b1264b1b8c6e6bb0b644449cb162165275e593933fc745da1",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T12:03:48.628Z",
+  "approvedAt": "2026-08-11T12:03:48.628Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T12:03:48.628Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Kung Fu Fighter.jpg",
+    "hash": "858d80c554b3923b1264b1b8c6e6bb0b644449cb162165275e593933fc745da1",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Kung Fu Fighter",
+    "artist": "Carl Douglas",
+    "artworkUrl": "https://coverartarchive.org/release-group/23ff7c78-552f-4c29-9a09-7440b650cf29/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/23ff7c78-552f-4c29-9a09-7440b650cf29",
+    "releaseGroupId": "23ff7c78-552f-4c29-9a09-7440b650cf29",
+    "recordingId": "ca890f6a-d74b-4d86-856d-f723684c9107",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Dance The Kung FuCarl Douglas",
+      "song": "Dance The Kung Fu",
+      "performer": "Carl Douglas",
+      "peakPosition": 48,
+      "firstChartDate": "1975-02-15",
+      "lastChartDate": "1975-03-29",
+      "appearances": [
+        {
+          "chartDate": "1975-02-15",
+          "position": 85
+        },
+        {
+          "chartDate": "1975-02-22",
+          "position": 74
+        },
+        {
+          "chartDate": "1975-03-01",
+          "position": 62
+        },
+        {
+          "chartDate": "1975-03-08",
+          "position": 52
+        },
+        {
+          "chartDate": "1975-03-15",
+          "position": 52
+        },
+        {
+          "chartDate": "1975-03-22",
+          "position": 48
+        },
+        {
+          "chartDate": "1975-03-29",
+          "position": 72
+        }
+      ]
+    }
+  },
+  "dedupeText": "martial arts pop vinyl cover vintage album martial arts torn paper effect 1970s typography action photography retro color palette the central figure s dynamic pose breaks the flat plane of the background the red border echoes the color of the artist s headband and the secondary text the jagged edges of the torn hole contrast with the clean rectangular frame the top heavy typography balances the weight of the central photographic element vintage action portrait torn paper motif dual color calligraphic display type framed composition",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Martial Arts Pop Vinyl Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Print"
+      ],
+      "useCases": [
+        "Vinyl Record Sleeves",
+        "Retro Poster Design",
+        "1970s Themed Branding"
+      ],
+      "retrievalTags": [
+        "vintage album",
+        "martial arts",
+        "torn paper effect",
+        "1970s typography",
+        "action photography",
+        "retro color palette"
+      ]
+    },
+    "visualDefinition": "A vintage 1970s-style album cover featuring a central portrait of a martial artist bursting through a jagged, torn hole in a tan background. The layout is framed by a thin red border and topped with stylized, brush-like display typography in contrasting colors.",
+    "coreVisualRelationships": [
+      "The central figure's dynamic pose breaks the flat plane of the background.",
+      "The red border echoes the color of the artist's headband and the secondary text.",
+      "The jagged edges of the 'torn' hole contrast with the clean rectangular frame.",
+      "The top-heavy typography balances the weight of the central photographic element."
+    ],
+    "coreInvariants": [
+      "Torn paper effect with black interior shadow",
+      "Thin red rectangular frame around the central image",
+      "Off-white or light tan textured background",
+      "High-contrast action photography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A central vertical rectangle contains the subject, who occupies approximately 60% of the frame's height.",
+      "visualAnchor": "The artist's face and red headband serve as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the large green title, drop to the red artist name, then follow the diagonal line of the subject's arm through the torn paper.",
+      "negativeSpace": "Generous off-white margins surround the central framed image and typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/Tan (Background)",
+      "contrastColorRole": "Black (Torn hole interior and clothing)",
+      "accentColorRole": "Deep Red (Headband, border, and secondary text)",
+      "saturationAndValueRelationship": "Muted, earthy background tones contrasted with highly saturated red and green accents.",
+      "paletteRestrictions": [
+        "Forest Green",
+        "Crimson Red",
+        "Tan/Cream",
+        "Black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Display sans-serif with calligraphic influence",
+      "letterConstructionRules": [
+        "Top line: Faux-Asian brush stroke style with sharp, flared terminals and varying stroke widths.",
+        "Second line: Rounded, slightly flared stems with a hand-drawn, organic feel.",
+        "High waistlines on characters like 'A' and 'R'."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'U' and 'N' have sharp, thorn-like extensions.",
+        "The 'S' features a deep, sweeping curve with pointed ends."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "decorative",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "pointed/flared",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "calligraphic brush"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "above frame"
+          },
+          "treatment": {
+            "fill": "dark green",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "serif-hybrid",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "rounded-flare",
+            "corners": "soft",
+            "counters": "large",
+            "strokeCharacter": "marker-like"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below primary title",
+            "scale": "medium-large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "above frame"
+          },
+          "treatment": {
+            "fill": "red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrasting colors (Green vs Red) with distinct calligraphic styles (Sharp vs Rounded).",
+      "graphicDevices": [
+        "Jagged starburst callout",
+        "Circular seal/stamp",
+        "Thin red rectangular border"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Brush-stroke aesthetic",
+          "Red/Green color contrast",
+          "Torn paper central motif"
+        ],
+        "avoid": [
+          "Modern geometric sans-serifs",
+          "Clean digital gradients",
+          "Minimalist white space"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Faux-Oriental Brush Script",
+            "reason": "Matches the sharp, flared terminals of the top title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "1970s Soft Display Serif",
+            "reason": "Matches the rounded, flared look of the artist name.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a vintage 1970s album cover background. It should be a light tan textured paper. In the center, a vertical rectangle with a thin red border. Inside the rectangle, a man in a black martial arts outfit and red headband is bursting through a jagged, torn hole in the paper. The interior of the hole is solid black. Leave the top 20% of the canvas empty for text.",
+        "overlayInstruction": "Add two lines of centered text at the top. The first line should be in a dark green, sharp, brush-style font. The second line should be in a red, rounded, flared-terminal font. Add a blue jagged starburst sticker on the left and a blue circular seal on the right."
+      },
+      "verificationChecks": [
+        "Is the torn paper effect jagged and realistic?",
+        "Does the red border frame the central action?",
+        "Are the two top fonts distinct in both color and style?",
+        "Is the background color a warm, aged tan?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the torn paper edges",
+      "Saturation of the red and green accents",
+      "Thickness of the red framing border",
+      "Texture of the background paper"
+    ],
+    "mustRedesign": [
+      "Specific artist names and song titles",
+      "Non-English text elements",
+      "Specific record label logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s print texture",
+        "Dynamic sense of movement in the central figure",
+        "Balanced typographic hierarchy"
+      ],
+      "avoid": [
+        "Clean, modern vector lines",
+        "Digital-looking drop shadows",
+        "Generic stock photography poses"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the red headband color matches the red text and border.",
+      "Check that the torn paper effect has a dark interior shadow for depth.",
+      "Verify the typography feels hand-drawn rather than perfectly digital.",
+      "Confirm the layout maintains the off-white margins."
+    ],
+    "reuseFormula": "Vintage Action Portrait + Torn Paper Motif + Dual-Color Calligraphic Display Type + Framed Composition"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:14:42.351Z"
+}

@@ -1,0 +1,300 @@
+{
+  "id": "5b455c007c7633eb5eb716b3463ca3410ae8313245e3cab9b7ded50e63ab9743",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T16:12:48.057Z",
+  "approvedAt": "2026-08-11T16:12:48.057Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T16:12:48.057Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "For You.jpg",
+    "hash": "5b455c007c7633eb5eb716b3463ca3410ae8313245e3cab9b7ded50e63ab9743",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "For You",
+    "artist": "Parmalee",
+    "artworkUrl": "https://coverartarchive.org/release-group/ef8f8f3a-235a-499d-982f-b762ae51afa6/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ef8f8f3a-235a-499d-982f-b762ae51afa6",
+    "releaseGroupId": "ef8f8f3a-235a-499d-982f-b762ae51afa6",
+    "recordingId": "fa85fbfa-4c3c-462e-ac3f-2cc790e86110",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Girl In MineParmalee",
+      "song": "Girl In Mine",
+      "performer": "Parmalee",
+      "peakPosition": 81,
+      "firstChartDate": "2023-07-01",
+      "lastChartDate": "2023-10-07",
+      "appearances": [
+        {
+          "chartDate": "2023-07-01",
+          "position": 97
+        },
+        {
+          "chartDate": "2023-07-29",
+          "position": 100
+        },
+        {
+          "chartDate": "2023-08-05",
+          "position": 95
+        },
+        {
+          "chartDate": "2023-09-02",
+          "position": 100
+        },
+        {
+          "chartDate": "2023-09-09",
+          "position": 99
+        },
+        {
+          "chartDate": "2023-09-16",
+          "position": 92
+        },
+        {
+          "chartDate": "2023-09-23",
+          "position": 91
+        },
+        {
+          "chartDate": "2023-09-30",
+          "position": 95
+        },
+        {
+          "chartDate": "2023-10-07",
+          "position": 81
+        }
+      ]
+    }
+  },
+  "dedupeText": "suburban nostalgia album cover vintage van suburban landscape film grain desaturated foggy morning trailer retro aesthetic van and trailer as the central diagonal subject foggy sky acting as a canvas for large scale display text suburban houses providing a repetitive muted background film grain and dust textures unifying the foreground and background suburban scene foggy atmosphere film grain condensed display text at 50 opacity geometric bold lowercase text at 100 opacity",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Suburban Nostalgia Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Film Grain Overlay"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Indie Film Poster",
+        "Social Media Promotional Graphic"
+      ],
+      "retrievalTags": [
+        "vintage van",
+        "suburban landscape",
+        "film grain",
+        "desaturated",
+        "foggy morning",
+        "trailer",
+        "retro aesthetic"
+      ]
+    },
+    "visualDefinition": "A desaturated, hazy photograph of a vintage conversion van towing a white trailer on a suburban street, featuring heavy film grain and large, semi-transparent sans-serif typography integrated into the sky.",
+    "coreVisualRelationships": [
+      "Van and trailer as the central diagonal subject",
+      "Foggy sky acting as a canvas for large-scale display text",
+      "Suburban houses providing a repetitive, muted background",
+      "Film grain and dust textures unifying the foreground and background"
+    ],
+    "coreInvariants": [
+      "Muted, low-contrast color palette",
+      "Heavy analog film texture (dust and scratches)",
+      "Diagonal street composition",
+      "Semi-transparent display typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The van and trailer occupy the lower two-thirds of the frame, angled from the center-left toward the bottom-right.",
+      "visualAnchor": "The front grille of the van serves as the primary focal point.",
+      "movementAndEyePath": "The eye follows the diagonal line of the van from the bottom right up toward the large text in the upper third.",
+      "negativeSpace": "The foggy, overexposed sky provides significant negative space for the primary title."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated grey and muted blue (van and asphalt)",
+      "contrastColorRole": "Flat white (trailer and sky)",
+      "accentColorRole": "Muted green (grass) and subtle orange (van indicators)",
+      "saturationAndValueRelationship": "Low saturation throughout with high-key values in the upper half to simulate fog.",
+      "paletteRestrictions": [
+        "No vibrant or neon colors",
+        "Avoid deep blacks; use lifted shadows"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed sans-serif and geometric sans-serif",
+      "letterConstructionRules": [
+        "Top text: Tall, narrow, blocky letterforms with uniform stroke weight",
+        "Bottom text: Wide, lowercase, geometric letterforms with thick strokes"
+      ],
+      "characterSpecificRedesigns": [
+        "Top text uses high transparency (approx 40-60%) to blend with the sky",
+        "Bottom text is opaque white with tight kerning"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif Condensed",
+          "anatomy": {
+            "width": "Extra-condensed",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Narrow",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Center",
+            "tracking": "Normal",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light due to transparency"
+          },
+          "composition": {
+            "position": "Top third",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Behind fog layer",
+            "relationshipToImage": "Integrated into the atmosphere"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Grainy",
+            "distortion": "Opacity reduction"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Extra-Bold",
+            "contrast": "None",
+            "xHeight": "Standard",
+            "terminals": "Straight",
+            "corners": "Slightly rounded",
+            "counters": "Circular",
+            "strokeCharacter": "Thick"
+          },
+          "typesetting": {
+            "case": "Lowercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Bottom left corner",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays grass",
+            "relationshipToImage": "Floating overlay"
+          },
+          "treatment": {
+            "fill": "Off-white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme contrast between vertical condensed and horizontal geometric forms.",
+      "graphicDevices": [
+        "Film grain",
+        "Dust specks",
+        "Light leaks"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed verticality of top text",
+          "Lowercase geometric nature of bottom text"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "High-contrast strokes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Steelfish",
+            "reason": "Matches the tall, condensed, bold display style for the top text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham Black or Montserrat Bold",
+            "reason": "Provides the geometric, wide, lowercase look for the bottom text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A desaturated photograph of a 1980s conversion van with a white box trailer parked on a suburban street. The lighting is hazy and foggy, washing out the sky. Apply a heavy film grain and dust texture.",
+        "overlayInstruction": "Add large, semi-transparent white condensed sans-serif text in the sky area. Add bold, lowercase geometric sans-serif text in the bottom left corner over the grass."
+      },
+      "verificationChecks": [
+        "Is the top text semi-transparent?",
+        "Is the film grain visible across the entire image?",
+        "Is the color palette desaturated and muted?",
+        "Is the van angled diagonally?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of fog",
+      "Amount of film grain",
+      "Transparency level of the top text",
+      "Specific model of the vintage van"
+    ],
+    "mustRedesign": [
+      "Specific brand logos on the van",
+      "License plate details",
+      "Exact house architecture"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic analog film look",
+        "Balanced typographic hierarchy",
+        "Atmospheric depth through fog"
+      ],
+      "avoid": [
+        "Over-saturation",
+        "Crisp, digital-looking edges",
+        "Modern cars in the background"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text does not obscure the main van body",
+      "Check that the film grain doesn't look like digital noise",
+      "Verify the bottom text is legible against the grass",
+      "Confirm the sky is sufficiently bright to host the transparent text"
+    ],
+    "reuseFormula": "Suburban scene + Foggy atmosphere + Film grain + (Condensed Display Text at 50% opacity) + (Geometric Bold Lowercase Text at 100% opacity)"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:10:25.314Z"
+}

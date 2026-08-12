@@ -1,0 +1,276 @@
+{
+  "id": "556a7fde82f0e41d70c7fe201510858dff9541fb21fdf5692dc68e2cb8b7342a",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T07:13:44.572Z",
+  "approvedAt": "2026-08-11T07:13:44.572Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T07:13:44.572Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Another Night.jpg",
+    "hash": "556a7fde82f0e41d70c7fe201510858dff9541fb21fdf5692dc68e2cb8b7342a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Another Night",
+    "artist": "The Hollies",
+    "artworkUrl": "https://coverartarchive.org/release-group/c7bc119f-b9f3-3bae-90cb-b66d84d58cbe/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c7bc119f-b9f3-3bae-90cb-b66d84d58cbe",
+    "releaseGroupId": "c7bc119f-b9f3-3bae-90cb-b66d84d58cbe",
+    "recordingId": "03abc4f8-fb65-423b-a304-1d11c45a8309",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Another NightThe Hollies",
+      "song": "Another Night",
+      "performer": "The Hollies",
+      "peakPosition": 71,
+      "firstChartDate": "1975-06-28",
+      "lastChartDate": "1975-07-12",
+      "appearances": [
+        {
+          "chartDate": "1975-06-28",
+          "position": 82
+        },
+        {
+          "chartDate": "1975-07-05",
+          "position": 71
+        },
+        {
+          "chartDate": "1975-07-12",
+          "position": 71
+        }
+      ]
+    }
+  },
+  "dedupeText": "neon cityscape album art 1970s neon city one point perspective light trails billboard typography retro illustration nightlife converging light trails leading to a central vanishing point large scale typographic billboards framing the left and right foreground warm yellow orange sky contrasting with cool blue and magenta street tones silhouetted figures on sidewalks providing scale to the massive architecture combine one point perspective urban layout 70s airbrush texture neon billboard typography long exposure light trails",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Neon Cityscape Album Art",
+      "category": "Music Packaging",
+      "medium": [
+        "Airbrush Illustration",
+        "Gouache",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vinyl Record Cover",
+        "Retro-Futurist Poster",
+        "Cityscape Illustration"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "neon city",
+        "one-point perspective",
+        "light trails",
+        "billboard typography",
+        "retro-illustration",
+        "nightlife"
+      ]
+    },
+    "visualDefinition": "A vibrant, airbrushed one-point perspective cityscape at night, characterized by glowing neon billboards, long-exposure light trails on a central road, and a warm, hazy sky. The style features a mix of sharp architectural lines and soft, diffused glows typical of mid-70s commercial illustration.",
+    "coreVisualRelationships": [
+      "Converging light trails leading to a central vanishing point",
+      "Large-scale typographic billboards framing the left and right foreground",
+      "Warm yellow-orange sky contrasting with cool blue and magenta street tones",
+      "Silhouetted figures on sidewalks providing scale to the massive architecture"
+    ],
+    "coreInvariants": [
+      "One-point linear perspective",
+      "Glow effects around every light source",
+      "Grainy, airbrushed texture throughout",
+      "High-contrast lighting between dark building faces and bright neon signs"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The central road acts as the primary axis, with massive billboards occupying the immediate left and right foreground to create depth.",
+      "visualAnchor": "The large, illuminated billboard on the left containing the primary display text.",
+      "movementAndEyePath": "The eye follows the light trails from the bottom center toward the vanishing point, then circles back through the vertical billboards and the sky.",
+      "negativeSpace": "Minimal; the composition is densely packed with urban detail and atmospheric haze."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blues and blacks for building shadows and road surfaces.",
+      "contrastColorRole": "Bright yellows and oranges for the sky and neon glows.",
+      "accentColorRole": "Magenta and cyan for the light trails and specific neon accents.",
+      "saturationAndValueRelationship": "High saturation in light sources against low-value, dark architectural backgrounds.",
+      "paletteRestrictions": [
+        "Avoid flat digital gradients",
+        "Must include warm-to-cool transition from top to bottom"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans and Formal Script",
+      "letterConstructionRules": [
+        "Primary display text uses heavy, rounded geometric sans-serif with inner glow",
+        "Secondary text uses a fluid, high-contrast formal script with connected letters",
+        "All text is integrated into the scene as physical signage"
+      ],
+      "characterSpecificRedesigns": [
+        "Rounded terminals on all sans-serif glyphs",
+        "Exaggerated swashes on the script 'A' and 'N'"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Heavy",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Rounded",
+            "corners": "Softened",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Solid"
+          },
+          "composition": {
+            "position": "Top Left Billboard",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Integrated as neon sign"
+          },
+          "treatment": {
+            "fill": "Yellow",
+            "outline": "Dark green/black",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Inner glow",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Script",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Tapered",
+            "corners": "Curved",
+            "counters": "Narrow",
+            "strokeCharacter": "Calligraphic"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Center",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Two lines",
+            "density": "Fluid"
+          },
+          "composition": {
+            "position": "Center Left Billboard",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Painted on illuminated panel"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "Soft drop shadow",
+            "depth": "None",
+            "texture": "Smooth",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a rigid, heavy sans-serif and a delicate, flowing script.",
+      "graphicDevices": [
+        "Neon tubes",
+        "Light boxes",
+        "Halftone glow effects"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "One-point perspective alignment",
+          "Integration of text into billboards"
+        ],
+        "avoid": [
+          "Modern digital sans-serifs",
+          "Clean, vector-perfect edges"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Bauhaus or Kabel",
+            "reason": "Captures the rounded, geometric 70s display feel",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral or Brush Script",
+            "reason": "Provides the necessary retro script contrast",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 1970s airbrushed illustration of a city at night in one-point perspective. The road should have long-exposure light trails in red, yellow, and white. Include large blank billboards on the left and right foreground. The sky should be a hazy orange-yellow with faint stars.",
+        "overlayInstruction": "Add a large yellow geometric sans-serif title to the top-left billboard with an inner glow. Below it, add a white script subtitle on a red illuminated panel. Ensure the text matches the perspective of the billboards."
+      },
+      "verificationChecks": [
+        "Is the perspective consistent across all buildings?",
+        "Do the light trails converge at a single point?",
+        "Is the airbrushed texture visible in the sky?",
+        "Does the text look like it is part of the physical environment?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the light trails",
+      "Color of the sky (sunset vs. deep night)",
+      "Density of the silhouetted crowds",
+      "Complexity of the neon signage"
+    ],
+    "mustRedesign": [
+      "Specific band names or logos",
+      "Identifiable faces on the right billboard",
+      "Specific brand names on smaller signs"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, diffused glow on all light sources",
+        "Grainy, non-digital texture",
+        "Strong sense of depth through perspective"
+      ],
+      "avoid": [
+        "Flat, solid colors without gradients",
+        "Perfectly straight, sharp digital lines",
+        "Modern 3D rendering styles"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for consistent one-point perspective",
+      "Ensure light trails have a 'motion blur' quality",
+      "Verify that neon glows bleed into surrounding surfaces",
+      "Confirm the sky has a grainy, airbrushed gradient"
+    ],
+    "reuseFormula": "Combine one-point perspective urban layout + 70s airbrush texture + neon billboard typography + long-exposure light trails."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T07:30:26.965Z"
+}

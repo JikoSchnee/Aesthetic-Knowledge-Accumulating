@@ -1,0 +1,289 @@
+{
+  "id": "907ed95eeaf805d8c99ea180e44122016bdd51bb1f4439728680fcd7b0e9ce91",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T10:51:53.911Z",
+  "approvedAt": "2026-08-11T10:51:53.911Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T10:51:53.911Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Everything Is 4.jpg",
+    "hash": "907ed95eeaf805d8c99ea180e44122016bdd51bb1f4439728680fcd7b0e9ce91",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Everything Is 4",
+    "artist": "Jason Derulo",
+    "artworkUrl": "https://coverartarchive.org/release-group/74ab9e2d-93dd-47df-b168-1d93ff382097/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/74ab9e2d-93dd-47df-b168-1d93ff382097",
+    "releaseGroupId": "74ab9e2d-93dd-47df-b168-1d93ff382097",
+    "recordingId": "f9f3d6d2-8d7c-4ccf-a65d-53243747d9e6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "CheyenneJason Derulo",
+      "song": "Cheyenne",
+      "performer": "Jason Derulo",
+      "peakPosition": 66,
+      "firstChartDate": "2015-08-15",
+      "lastChartDate": "2015-09-26",
+      "appearances": [
+        {
+          "chartDate": "2015-08-15",
+          "position": 90
+        },
+        {
+          "chartDate": "2015-08-22",
+          "position": 80
+        },
+        {
+          "chartDate": "2015-08-29",
+          "position": 66
+        },
+        {
+          "chartDate": "2015-09-05",
+          "position": 73
+        },
+        {
+          "chartDate": "2015-09-12",
+          "position": 78
+        },
+        {
+          "chartDate": "2015-09-19",
+          "position": 81
+        },
+        {
+          "chartDate": "2015-09-26",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "split tone portrait with large graphic overlay split lighting monochrome background large numeral overlay sans serif typography high contrast transparency effects vertical bisecting line between light and dark backgrounds large scale numeral acting as both a foreground element and a mask tight cropping on the face to emphasize texture and expression top heavy typographic hierarchy balancing the central visual weight combine a split tone background with a large graphic mask overlaying a central portrait topped with a high contrast typographic pairing of bold sans serif and wide tracked serif",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Split-Tone Portrait with Large Graphic Overlay",
+      "category": "Album Art",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portraiture",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "split lighting",
+        "monochrome background",
+        "large numeral overlay",
+        "sans-serif typography",
+        "high contrast",
+        "transparency effects"
+      ]
+    },
+    "visualDefinition": "A high-contrast male portrait centered against a vertically split background of light grey and black. A large, semi-transparent numeral is superimposed over the face, creating a complex interplay of light and shadow, while bold typography sits at the top.",
+    "coreVisualRelationships": [
+      "Vertical bisecting line between light and dark backgrounds",
+      "Large-scale numeral acting as both a foreground element and a mask",
+      "Tight cropping on the face to emphasize texture and expression",
+      "Top-heavy typographic hierarchy balancing the central visual weight"
+    ],
+    "coreInvariants": [
+      "Split-tone background (50/50 vertical divide)",
+      "Large central numeral with varying opacity levels",
+      "Monochrome or desaturated color palette with high tonal range"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Close-up headshot centered horizontally, filling the middle two-thirds of the frame.",
+      "visualAnchor": "The eyes of the subject, visible through the semi-transparent overlay.",
+      "movementAndEyePath": "Top-down flow: starting with the bold name, moving to the subtitle, then resting on the large central numeral and the subject's gaze.",
+      "negativeSpace": "Balanced between the light left side and dark right side, providing breathing room for the text at the top."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Neutral greys and blacks for background and shadows.",
+      "contrastColorRole": "White and light grey for highlights and the left-side background.",
+      "accentColorRole": "Natural skin tones in the central portrait area.",
+      "saturationAndValueRelationship": "Low overall saturation with extreme value contrast between the two halves of the image.",
+      "paletteRestrictions": [
+        "Greyscale",
+        "Deep Black",
+        "Natural Skin Tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric sans-serif and high-contrast serif.",
+      "letterConstructionRules": [
+        "Primary text uses ultra-bold, wide geometric sans-serif with tight kerning.",
+        "Secondary text uses a wide-tracked, high-contrast serif for an elegant counterpoint.",
+        "Large numeral uses a classic serif structure with thick stems and sharp terminals."
+      ],
+      "characterSpecificRedesigns": [
+        "The large numeral '4' is treated as a graphic mask, with its opacity adjusted to reveal the face underneath."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "solid grey",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "regular",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "very wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "white/light grey",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold geometric sans-serif paired with a light, wide-tracked serif for a modern, high-fashion aesthetic.",
+      "graphicDevices": [
+        "Large numeral mask",
+        "Vertical split-screen background"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide tracking on the serif text",
+          "Ultra-bold weight of the main name",
+          "Central placement of the large numeral"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Low-contrast backgrounds",
+          "Small, illegible text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Ultra or Montserrat Bold",
+            "reason": "Provides the necessary weight and geometric clarity for the main display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Didot or Bodoni",
+            "reason": "Offers the high-contrast serif look required for the subtitle and large numeral.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a high-contrast close-up portrait of a man centered on a background that is vertically split into light grey (left) and black (right). The lighting on the face should be dramatic, matching the background split.",
+        "overlayInstruction": "Add a large, semi-transparent serif numeral '4' over the center of the face. At the top, place a bold, wide sans-serif name in grey, and below it, a subtitle in a wide-tracked, high-contrast serif font in white."
+      },
+      "verificationChecks": [
+        "Is the background split exactly in the center?",
+        "Is the large numeral semi-transparent and centered?",
+        "Is the tracking on the subtitle text significantly wider than the main name?",
+        "Is the color palette strictly limited to greyscale and skin tones?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Opacity of the large numeral",
+      "Specific shade of the light grey background",
+      "Tracking width of the subtitle text"
+    ],
+    "mustRedesign": [
+      "Specific artist names and titles",
+      "Parental advisory logo",
+      "Exact facial features of the subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp edges on typography",
+        "Smooth gradient transitions in the portrait lighting",
+        "Perfect vertical alignment of all elements"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-resolution textures",
+        "Poorly kerned typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for typographic clarity against the split background",
+      "Ensure the numeral overlay does not obscure the eyes completely",
+      "Verify the balance between the heavy top text and the large central graphic",
+      "Confirm the vertical split is perfectly straight"
+    ],
+    "reuseFormula": "Combine a split-tone background with a large graphic mask overlaying a central portrait, topped with a high-contrast typographic pairing of bold sans-serif and wide-tracked serif."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:15:50.669Z"
+}

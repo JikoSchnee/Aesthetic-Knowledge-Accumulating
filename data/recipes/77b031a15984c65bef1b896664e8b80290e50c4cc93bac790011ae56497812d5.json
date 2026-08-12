@@ -1,0 +1,281 @@
+{
+  "id": "77b031a15984c65bef1b896664e8b80290e50c4cc93bac790011ae56497812d5",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T21:48:11.795Z",
+  "approvedAt": "2026-08-11T21:48:11.795Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T21:48:11.795Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Euphoria: Season 2 Soundtrack.jpg",
+    "hash": "77b031a15984c65bef1b896664e8b80290e50c4cc93bac790011ae56497812d5",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Euphoria: Season 2 Soundtrack",
+    "artist": "Labrinth & Zendaya",
+    "artworkUrl": "https://coverartarchive.org/release-group/502491f2-8d08-4866-88cf-4e72fbe0844c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/502491f2-8d08-4866-88cf-4e72fbe0844c",
+    "releaseGroupId": "502491f2-8d08-4866-88cf-4e72fbe0844c",
+    "recordingId": "b9481097-91b0-4085-8bce-7128123b4ea6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I'm TiredLabrinth & Zendaya",
+      "song": "I'm Tired",
+      "performer": "Labrinth & Zendaya",
+      "peakPosition": 53,
+      "firstChartDate": "2022-03-12",
+      "lastChartDate": "2022-04-02",
+      "appearances": [
+        {
+          "chartDate": "2022-03-12",
+          "position": 76
+        },
+        {
+          "chartDate": "2022-03-19",
+          "position": 53
+        },
+        {
+          "chartDate": "2022-03-26",
+          "position": 92
+        },
+        {
+          "chartDate": "2022-04-02",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic glow album cover cinematic lighting orange glow film grain geometric sans serif profile portrait moody atmosphere warm orange highlights contrasting against deep teal black shadows heavy film grain texture unifying the subject and the negative space geometric thin weight typography balanced against the organic curves of the profile soft focus glow on the subject s face echoing the outer glow of the text profile portrait intense orange rim light heavy film grain geometric sans serif typography with outer glow",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Glow Album Cover",
+      "category": "Music & Media",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Film Grain"
+      ],
+      "useCases": [
+        "Soundtrack Cover Art",
+        "Promotional Poster",
+        "Streaming Platform Thumbnail"
+      ],
+      "retrievalTags": [
+        "cinematic lighting",
+        "orange glow",
+        "film grain",
+        "geometric sans serif",
+        "profile portrait",
+        "moody atmosphere"
+      ]
+    },
+    "visualDefinition": "A moody, high-contrast profile portrait of a figure bathed in intense orange rim lighting against a dark, grainy background, featuring clean geometric typography with a distinct glowing effect.",
+    "coreVisualRelationships": [
+      "Warm orange highlights contrasting against deep teal-black shadows",
+      "Heavy film grain texture unifying the subject and the negative space",
+      "Geometric, thin-weight typography balanced against the organic curves of the profile",
+      "Soft-focus glow on the subject's face echoing the outer glow of the text"
+    ],
+    "coreInvariants": [
+      "Intense orange backlighting",
+      "Heavy analog film grain",
+      "Right-aligned text block",
+      "Low-key lighting scheme"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Profile of a figure on the left third, facing left, occupying approximately 40% of the frame width.",
+      "visualAnchor": "The bright orange glow on the face and shoulder acts as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the bright profile, follow the light down the arm, then move right to the glowing title text.",
+      "negativeSpace": "Large expanse of dark, textured space on the right side provides room for typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal/teal-black for the background and shadows.",
+      "contrastColorRole": "Vibrant orange and amber for the light source and highlights.",
+      "accentColorRole": "White for the secondary metadata text and logo elements.",
+      "saturationAndValueRelationship": "High saturation in the highlights (orange) against very low value/desaturated shadows.",
+      "paletteRestrictions": [
+        "Avoid bright blues or greens",
+        "Limit to amber, black, and white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Circular 'o' and 'e' shapes",
+        "Thin, uniform stroke weights",
+        "Wide tracking for secondary text",
+        "Tight kerning for the main title"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'e' with a perfectly horizontal crossbar",
+        "Lowercase 'a' with a circular bowl and no spur"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Open/Circular",
+            "strokeCharacter": "Clean"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "-20",
+            "leading": "1.0",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Center-right",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Placed in the dark negative space"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "Soft outer glow in orange"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "None",
+            "xHeight": "Medium",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Circular",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "200",
+            "leading": "1.2",
+            "lineBreakPattern": "Single line",
+            "density": "Spaced"
+          },
+          "composition": {
+            "position": "Below display text, right-aligned",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Amber/Orange",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family using weight and case contrast.",
+      "graphicDevices": [
+        "Outer glow effect on primary text",
+        "Parental advisory box in bottom right corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric circularity",
+          "Thin stroke weight",
+          "Lowercase main title"
+        ],
+        "avoid": [
+          "Serifs",
+          "Script fonts",
+          "Heavy bold weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Perfect geometric circles and thin weights.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Classic geometric proportions.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a profile portrait of a person with long curly hair, facing left. Use intense orange rim lighting from the left. The background should be dark teal-black with heavy 35mm film grain and light leaks. The right side of the frame should be mostly empty dark space.",
+        "overlayInstruction": "Add a lowercase title in a thin geometric sans-serif font in the center-right. Apply a soft orange outer glow to the title. Below it, add a subtitle in all-caps with wide letter spacing in an amber color, aligned to the right edge of the title."
+      },
+      "verificationChecks": [
+        "Is the lighting strictly orange and high-contrast?",
+        "Is the film grain visible across the entire image?",
+        "Is the main title in lowercase geometric sans-serif?",
+        "Is the subtitle right-aligned with wide tracking?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the orange glow",
+      "Density of the film grain",
+      "Subject profile angle",
+      "Text tracking width"
+    ],
+    "mustRedesign": [
+      "Specific network logos",
+      "Exact celebrity likeness",
+      "Specific soundtrack titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic atmosphere",
+        "Legible but delicate typography",
+        "Cohesive warm/cool color balance"
+      ],
+      "avoid": [
+        "Flat digital lighting",
+        "Clean, grain-free backgrounds",
+        "Cluttered compositions"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for haloing around the text glow",
+      "Ensure the grain doesn't obscure the facial features",
+      "Verify the geometric circularity of the 'o' characters",
+      "Confirm the right-aligned hierarchy of the text block"
+    ],
+    "reuseFormula": "Profile portrait + Intense Orange Rim Light + Heavy Film Grain + Geometric Sans-Serif Typography with Outer Glow."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:13:09.759Z"
+}

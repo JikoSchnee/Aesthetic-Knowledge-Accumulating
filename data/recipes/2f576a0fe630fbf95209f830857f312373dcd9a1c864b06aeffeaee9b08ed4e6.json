@@ -1,0 +1,171 @@
+{
+  "id": "2f576a0fe630fbf95209f830857f312373dcd9a1c864b06aeffeaee9b08ed4e6",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T06:59:53.976Z",
+  "approvedAt": "2026-08-11T06:59:53.976Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T06:59:53.976Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Pink Tape.jpg",
+    "hash": "2f576a0fe630fbf95209f830857f312373dcd9a1c864b06aeffeaee9b08ed4e6",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Pink Tape",
+    "artist": "Lil Uzi Vert",
+    "artworkUrl": "https://coverartarchive.org/release-group/4fc5b424-43f0-482a-b8ad-948fcfcebb2d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/4fc5b424-43f0-482a-b8ad-948fcfcebb2d",
+    "releaseGroupId": "4fc5b424-43f0-482a-b8ad-948fcfcebb2d",
+    "recordingId": "a0b0b791-7956-4a49-b375-6f9693e3fd4a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "AmpedLil Uzi Vert",
+      "song": "Amped",
+      "performer": "Lil Uzi Vert",
+      "peakPosition": 67,
+      "firstChartDate": "2023-07-15",
+      "lastChartDate": "2023-07-15",
+      "appearances": [
+        {
+          "chartDate": "2023-07-15",
+          "position": 67
+        }
+      ]
+    }
+  },
+  "dedupeText": "subverted flag portrait pink and white stripes black canton liberty spikes punk fashion symmetrical composition subverted flag high contrast the figure s jacket mirrors the pattern and color palette of the backdrop the sharp radial geometry of the hair spikes contrasts with the horizontal stripes the black canton in the upper left balances the dark hair of the central figure below scale disparity between the massive flag elements and the relatively small central subject combine a subverted national icon color swapped flag with a subcultural fashion icon punk hair using a symmetrical high contrast studio layout",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Subverted Flag Portrait",
+      "category": "Editorial Photography",
+      "medium": [
+        "Studio Photography",
+        "Digital Art"
+      ],
+      "useCases": [
+        "Album Art",
+        "Fashion Editorial",
+        "Social Commentary Poster"
+      ],
+      "retrievalTags": [
+        "pink and white stripes",
+        "black canton",
+        "liberty spikes",
+        "punk fashion",
+        "symmetrical composition",
+        "subverted flag",
+        "high contrast"
+      ]
+    },
+    "visualDefinition": "A high-contrast, symmetrical studio portrait featuring a central figure with exaggerated punk-style liberty spikes, positioned against a large-scale backdrop of a subverted American flag where red is replaced by vibrant magenta-pink and the blue canton is replaced by solid black.",
+    "coreVisualRelationships": [
+      "The figure's jacket mirrors the pattern and color palette of the backdrop.",
+      "The sharp, radial geometry of the hair spikes contrasts with the horizontal stripes.",
+      "The black canton in the upper left balances the dark hair of the central figure below.",
+      "Scale disparity between the massive flag elements and the relatively small central subject."
+    ],
+    "coreInvariants": [
+      "Magenta-pink and white horizontal stripes",
+      "Solid black canton with white five-pointed stars",
+      "Central vertical alignment of the subject",
+      "Subject looking downward with eyes closed"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centered in the lower third of the frame, appearing small against the expansive background.",
+      "visualAnchor": "The black canton in the top left and the dark, spiked hair of the subject create a diagonal weight balance.",
+      "movementAndEyePath": "The eye starts at the black canton, follows the stripes down to the subject, and rests on the sharp silhouette of the hair.",
+      "negativeSpace": "Extensive use of the flag pattern as negative space to emphasize the subject's isolation."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Magenta-pink and white stripes providing the primary rhythmic structure.",
+      "contrastColorRole": "Solid black used for the canton and the subject's hair to ground the composition.",
+      "accentColorRole": "White stars and white shirt providing high-value highlights.",
+      "saturationAndValueRelationship": "High saturation in the pink tones against neutral black and white for maximum graphic impact.",
+      "paletteRestrictions": [
+        "Pure Magenta (#FF00FF range)",
+        "True Black",
+        "Optic White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Repeating geometric stars",
+        "Parallel horizontal bands",
+        "Symmetrical silhouette"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The specific pink/black/white color triad",
+          "The liberty spike hairstyle silhouette"
+        ],
+        "avoid": [
+          "Standard red, white, and blue colors",
+          "Naturalistic lighting or shadows"
+        ],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a large flat backdrop of a flag with 13 horizontal stripes alternating between vibrant magenta-pink and white. In the top left corner, place a solid black rectangle containing a grid of white five-pointed stars.",
+        "overlayInstruction": "Place a central figure in the lower foreground wearing a jacket that matches the pink and white stripes. The figure must have tall, black, sharp liberty spikes for hair and be looking down. Ensure the lighting is flat and studio-quality."
+      },
+      "verificationChecks": [
+        "Is the red replaced by magenta?",
+        "Is the blue replaced by black?",
+        "Is the subject perfectly centered?",
+        "Are the hair spikes sharp and distinct?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of stars in the canton",
+      "Width of the stripes",
+      "Intensity of the magenta hue",
+      "Height and count of the hair spikes"
+    ],
+    "mustRedesign": [
+      "Any traditional national colors",
+      "Brand logos on clothing",
+      "Specific facial features of the subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Graphic, poster-like clarity",
+        "Perfectly horizontal stripe alignment",
+        "High-key studio lighting"
+      ],
+      "avoid": [
+        "Fabric wrinkles or texture that breaks the graphic pattern",
+        "Muted or pastel tones",
+        "Motion blur"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the pink is vibrant and not red.",
+      "Ensure the black canton is solid and deep.",
+      "Verify the subject's hair does not blend into the black canton.",
+      "Confirm the jacket pattern aligns with the background logic."
+    ],
+    "reuseFormula": "Combine a subverted national icon (color-swapped flag) with a subcultural fashion icon (punk hair) using a symmetrical, high-contrast studio layout."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T07:29:53.958Z"
+}

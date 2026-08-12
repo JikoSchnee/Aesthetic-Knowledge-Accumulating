@@ -1,0 +1,279 @@
+{
+  "id": "9a77260af640a7cf2dd651569e1bc99d10f82f48ca37ebf1a92424f316af69b7",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T23:32:32.243Z",
+  "approvedAt": "2026-08-11T23:32:32.243Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T23:32:32.243Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "At The Organ.jpg",
+    "hash": "9a77260af640a7cf2dd651569e1bc99d10f82f48ca37ebf1a92424f316af69b7",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "At The Organ",
+    "artist": "Jimmy McGriff",
+    "artworkUrl": "https://coverartarchive.org/release-group/17de3f69-68ce-45ce-aca3-d6e4bc825a72/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/17de3f69-68ce-45ce-aca3-d6e4bc825a72",
+    "releaseGroupId": "17de3f69-68ce-45ce-aca3-d6e4bc825a72",
+    "recordingId": "d4edcc80-19cc-4e1e-960e-34b98ad0849e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "KikoJimmy McGriff",
+      "song": "Kiko",
+      "performer": "Jimmy McGriff",
+      "peakPosition": 79,
+      "firstChartDate": "1964-05-16",
+      "lastChartDate": "1964-06-13",
+      "appearances": [
+        {
+          "chartDate": "1964-05-16",
+          "position": 89
+        },
+        {
+          "chartDate": "1964-05-23",
+          "position": 85
+        },
+        {
+          "chartDate": "1964-06-06",
+          "position": 79
+        },
+        {
+          "chartDate": "1964-06-13",
+          "position": 79
+        }
+      ]
+    }
+  },
+  "dedupeText": "textured impressionist jazz album cover mid century modern textured glass stippled condensed serif warm palette 1960s jazz textured distortion vs sharp typographic edges warm subject tones vs cool dark background repetitive vertical text stack vs organic central figure combine a textured glass distorted portrait with a rhythmic vertically stacked condensed serif layout for a vintage jazz aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Textured Impressionist Jazz Album Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Impressionist Filter",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vinyl Record Sleeves",
+        "Jazz Music Promotion",
+        "Vintage Aesthetic Branding"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "textured glass",
+        "stippled",
+        "condensed serif",
+        "warm palette",
+        "1960s jazz"
+      ]
+    },
+    "visualDefinition": "A high-contrast, textured portrait of a figure viewed through hammered or rippled glass, creating a stippled, impressionistic effect. The composition features a dark, moody background with a vibrant red and gold subject, paired with a right-aligned stack of condensed, high-contrast serif typography.",
+    "coreVisualRelationships": [
+      "Textured distortion vs. sharp typographic edges",
+      "Warm subject tones vs. cool dark background",
+      "Repetitive vertical text stack vs. organic central figure"
+    ],
+    "coreInvariants": [
+      "Hammered glass texture overlay",
+      "High-contrast condensed serif typography",
+      "Black header bar with centered wide-set text",
+      "Right-aligned text block"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A central figure in profile, occupying the left and middle thirds of the frame, scaled to fill the vertical height.",
+      "visualAnchor": "The bright red glow on the right side of the figure and the large stacked text block on the far right.",
+      "movementAndEyePath": "Starts at the top black header, moves down the textured figure, and settles on the rhythmic repetition of the right-aligned text.",
+      "negativeSpace": "Deep black negative space in the upper left and far right margins."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and black for background and header.",
+      "contrastColorRole": "Vibrant red and warm gold for the subject and text.",
+      "accentColorRole": "Pale blue and white highlights within the figure's jewelry/texture.",
+      "saturationAndValueRelationship": "High saturation in the reds and yellows against a very low-value, desaturated background.",
+      "paletteRestrictions": [
+        "Primary Red",
+        "Golden Yellow",
+        "Deep Black",
+        "Muted Teal/Blue"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed modern serif with high stroke contrast.",
+      "letterConstructionRules": [
+        "Vertical stress",
+        "Thin horizontal serifs",
+        "Extremely narrow proportions",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Top header uses a wide, geometric sans-serif with rounded corners."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "tall",
+            "terminals": "sharp",
+            "corners": "square",
+            "counters": "narrow",
+            "strokeCharacter": "thick verticals, hairline horizontals"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "repetitive stack",
+            "density": "high"
+          },
+          "composition": {
+            "position": "right-aligned vertical column",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over dark background area"
+          },
+          "treatment": {
+            "fill": "solid color (red to yellow gradient effect)",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "wide",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "very wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "low"
+          },
+          "composition": {
+            "position": "top center in black bar",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "isolated in header"
+          },
+          "treatment": {
+            "fill": "multi-color (red, blue, yellow)",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between ultra-condensed serif and ultra-wide geometric sans.",
+      "graphicDevices": [
+        "Top horizontal black border",
+        "Textured glass distortion filter"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right alignment",
+          "Vertical stacking",
+          "High contrast serifs"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Centered main text",
+          "Low contrast fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Onyx or Onyx MT",
+            "reason": "Matches the extreme verticality and high contrast of the main text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Microgramma or Eurostile Extended",
+            "reason": "Matches the wide, technical feel of the header text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create an impressionist portrait of a figure in profile, viewed through heavily textured hammered glass. Use a palette of deep black, fiery red, and golden yellow. The figure should be on the left, leaving dark space on the right. Include a solid black bar at the very top.",
+        "overlayInstruction": "Add a vertical stack of right-aligned text in an extra-condensed modern serif font. The text should alternate between red and yellow. In the top black bar, center a wide-set geometric sans-serif word with letters colored red, blue, and yellow."
+      },
+      "verificationChecks": [
+        "Is the glass texture stippled and organic?",
+        "Is the main text block strictly right-aligned?",
+        "Does the header text have wide tracking?",
+        "Are the serifs on the main text thin and horizontal?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the glass texture",
+      "Ratio of red to yellow in the figure",
+      "Number of repetitions in the text stack"
+    ],
+    "mustRedesign": [
+      "Specific artist names and logos",
+      "Exact catalog numbers in the top right"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile, painterly quality in the image",
+        "Sharp, clean typographic execution",
+        "Mid-century jazz aesthetic"
+      ],
+      "avoid": [
+        "Modern digital gradients",
+        "Generic sans-serif for main text",
+        "Smooth, undistorted photography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast serif anatomy",
+      "Ensure the background texture doesn't obscure text legibility",
+      "Verify the top header bar is solid black",
+      "Confirm right-alignment of the main text block"
+    ],
+    "reuseFormula": "Combine a textured, glass-distorted portrait with a rhythmic, vertically-stacked condensed serif layout for a vintage jazz aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:16:52.203Z"
+}

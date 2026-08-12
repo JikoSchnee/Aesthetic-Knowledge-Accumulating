@@ -1,0 +1,275 @@
+{
+  "id": "d1b4d9e4a7de8a34097f235d546ee1916ae13c863a19827b9e98284e6c6c065e",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T06:40:34.571Z",
+  "approvedAt": "2026-08-11T06:40:34.571Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T06:40:34.571Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "1989 (Taylor’s Version).jpg",
+    "hash": "d1b4d9e4a7de8a34097f235d546ee1916ae13c863a19827b9e98284e6c6c065e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "1989 (Taylor’s Version)",
+    "artist": "Taylor Swift",
+    "artworkUrl": "https://coverartarchive.org/release-group/1c4770b3-b7a3-4d44-a7a9-8e2dbb74b85a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1c4770b3-b7a3-4d44-a7a9-8e2dbb74b85a",
+    "releaseGroupId": "1c4770b3-b7a3-4d44-a7a9-8e2dbb74b85a",
+    "recordingId": "52750f99-402f-44c0-b2b7-e763b9da8b95",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "All You Had To Do Was Stay (Taylor's Version)Taylor Swift",
+      "song": "All You Had To Do Was Stay (Taylor's Version)",
+      "performer": "Taylor Swift",
+      "peakPosition": 20,
+      "firstChartDate": "2023-11-11",
+      "lastChartDate": "2023-11-18",
+      "appearances": [
+        {
+          "chartDate": "2023-11-11",
+          "position": 20
+        },
+        {
+          "chartDate": "2023-11-18",
+          "position": 89
+        }
+      ]
+    }
+  },
+  "dedupeText": "nostalgic coastal pop album cover vintage film grain seagulls coastal aesthetic hand painted typography candid portrait blue sky polaroid style subject centered in the lower two thirds looking off camera with a wide smile large numerals overlapping the top of the subject s head secondary text horizontally centered across the middle of the large numerals five seagulls distributed asymmetrically around the subject to create depth and movement candid joyful portrait clear sky flying birds textured display type wide tracked serif subtitle film grain rounded border",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Nostalgic Coastal Pop Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Album Art",
+        "Vinyl Sleeve Design",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "vintage film grain",
+        "seagulls",
+        "coastal aesthetic",
+        "hand-painted typography",
+        "candid portrait",
+        "blue sky",
+        "polaroid style"
+      ]
+    },
+    "visualDefinition": "A candid, joyful portrait of a woman with wind-swept hair against a clear blue sky, framed by flying seagulls and topped with large, textured, hand-painted numerals and secondary serif text. The overall look mimics a vintage film photograph with a soft grain and a rounded-corner border.",
+    "coreVisualRelationships": [
+      "Subject centered in the lower two-thirds, looking off-camera with a wide smile.",
+      "Large numerals overlapping the top of the subject's head.",
+      "Secondary text horizontally centered across the middle of the large numerals.",
+      "Five seagulls distributed asymmetrically around the subject to create depth and movement."
+    ],
+    "coreInvariants": [
+      "Soft, warm sunlight on the subject's face.",
+      "Heavy film grain texture across the entire image.",
+      "Rounded corner frame with a light cream border.",
+      "High-contrast red lipstick as a focal point."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium close-up portrait, positioned slightly off-center to the right, occupying approximately 60% of the vertical frame.",
+      "visualAnchor": "The subject's bright red smile and the large white numerals at the top.",
+      "movementAndEyePath": "Starts at the subject's face, follows the wind-blown hair to the left, circles up through the seagulls, and rests on the central typography.",
+      "negativeSpace": "Expansive blue sky provides breathing room for the typography and seagulls."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Sky blue (background) and cream (border/skin tones).",
+      "contrastColorRole": "Bright white (typography and seagulls).",
+      "accentColorRole": "Vibrant red (lipstick).",
+      "saturationAndValueRelationship": "High-value, medium-saturation palette with a warm, nostalgic tint.",
+      "paletteRestrictions": [
+        "Avoid neon or synthetic colors.",
+        "Limit dark shadows; keep values mid-to-high."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Condensed geometric sans-serif for numerals; classic Roman serif for secondary text.",
+      "letterConstructionRules": [
+        "Numerals must have a rough, dry-brush painted texture with visible bristle marks.",
+        "Secondary text must be clean, thin, and widely tracked.",
+        "Vertical strokes in numerals are thick and slightly irregular."
+      ],
+      "characterSpecificRedesigns": [
+        "Numerals feature rounded terminals and a tall x-height.",
+        "The '8' has a slightly larger bottom loop for stability."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "hand-painted-sans",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded-rough",
+            "corners": "soft",
+            "counters": "narrow",
+            "strokeCharacter": "textured-brush"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "behind-birds-over-hair",
+            "relationshipToImage": "integrated-overlay"
+          },
+          "treatment": {
+            "fill": "white-with-transparency",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "dry-brush-distress",
+            "distortion": "organic-jitter"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "transitional-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "bracketed-serif",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "clean"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "widest",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "centered-on-display-text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over-display-text",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "dark-grey-or-black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a heavy, textured display numeral with a delicate, clean serif.",
+      "graphicDevices": [
+        "Rounded corner mask",
+        "Film grain overlay",
+        "Cream-colored outer border"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Brush texture of large numbers",
+          "Wide tracking of serif text",
+          "Rounded corner frame"
+        ],
+        "avoid": [
+          "Modern sans-serifs",
+          "Drop shadows",
+          "Glow effects"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Baskerville or Caslon",
+            "reason": "Provides the classic, timeless feel for the secondary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Custom dry-brush lettering",
+            "reason": "Necessary to capture the specific organic texture of the numerals.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-grain, vintage-style photo of a woman with blonde hair smiling joyfully, looking to the side. The background is a clear blue sky. Five seagulls are flying in various positions around her. The image should have a rounded corner frame inside a cream border.",
+        "overlayInstruction": "Apply large, white, hand-painted textured numerals at the top center. Overlay a thin, black, widely-spaced serif subtitle horizontally across the center of the numerals."
+      },
+      "verificationChecks": [
+        "Is the grain texture consistent across the image and border?",
+        "Do the seagulls appear at different depths (some in front, some behind)?",
+        "Is the red lipstick the most saturated element in the photo?",
+        "Is the subtitle text perfectly centered and legible against the white numerals?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of film grain",
+      "Number and placement of seagulls",
+      "Intensity of the brush texture on numerals",
+      "Width of the cream border"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact wording of the text",
+      "Proprietary logos or branding"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1980s-inspired film aesthetic",
+        "Sense of motion in the hair and birds",
+        "Tactile, 'analog' feel to the typography"
+      ],
+      "avoid": [
+        "Over-sharpened digital look",
+        "Perfectly clean vector edges on display type",
+        "High-contrast HDR lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the hair looks naturally wind-blown without digital artifacts.",
+      "Verify the rounded corners are smooth and symmetrical.",
+      "Check that the brush texture on the numerals doesn't look like a repetitive pattern.",
+      "Confirm the color temperature is warm and nostalgic."
+    ],
+    "reuseFormula": "Candid Joyful Portrait + Clear Sky + Flying Birds + Textured Display Type + Wide-Tracked Serif Subtitle + Film Grain + Rounded Border."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T07:32:21.660Z"
+}

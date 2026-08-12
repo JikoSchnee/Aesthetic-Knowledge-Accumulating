@@ -1,0 +1,228 @@
+{
+  "id": "545b5868c74bc5ad413bbb3aa6df22c4d1aeefe8f1e50f4756dda9793337bd10",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:44:27.844Z",
+  "approvedAt": "2026-08-11T08:44:27.844Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:44:27.844Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "You've Got A Friend.jpg",
+    "hash": "545b5868c74bc5ad413bbb3aa6df22c4d1aeefe8f1e50f4756dda9793337bd10",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "You've Got A Friend",
+    "artist": "Mark Lindsay",
+    "artworkUrl": "https://coverartarchive.org/release-group/5367f9c4-5e79-4f58-8a2a-5e306098fe98/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5367f9c4-5e79-4f58-8a2a-5e306098fe98",
+    "releaseGroupId": "5367f9c4-5e79-4f58-8a2a-5e306098fe98",
+    "recordingId": "dec9cfed-af2b-45e6-b5c1-a9bd3f418cc4",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Been Too Long On The RoadMark Lindsay",
+      "song": "Been Too Long On The Road",
+      "performer": "Mark Lindsay",
+      "peakPosition": 98,
+      "firstChartDate": "1971-06-12",
+      "lastChartDate": "1971-06-12",
+      "appearances": [
+        {
+          "chartDate": "1971-06-12",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage 1970s portrait album cover 1970s soft focus mop top mustache pastel background serif typography close up portrait subject s eyes aligned with the horizontal midline of the inner frame tight cropping of the head against a wide cream border contrast between the detailed texture of the hair mustache and the soft focus background typography centered in the top margin bridging the border and the image combine a tight soulful 70s portrait with a wide cream border and centered high contrast serif typography for a classic singer songwriter aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage 1970s Portrait Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Editorial Portraiture",
+        "Vintage Branding"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "soft focus",
+        "mop-top",
+        "mustache",
+        "pastel background",
+        "serif typography",
+        "close-up portrait"
+      ]
+    },
+    "visualDefinition": "A tight, intimate close-up portrait of a man with 1970s-style hair and mustache, framed within a cream-colored border. The subject's eyes are the focal point, looking directly at the viewer over a crossed arm. The background features a soft, painterly wash of pastel colors, and the typography is a classic, high-contrast serif centered at the top.",
+    "coreVisualRelationships": [
+      "Subject's eyes aligned with the horizontal midline of the inner frame",
+      "Tight cropping of the head against a wide cream border",
+      "Contrast between the detailed texture of the hair/mustache and the soft-focus background",
+      "Typography centered in the top margin, bridging the border and the image"
+    ],
+    "coreInvariants": [
+      "Cream-colored outer border framing the central square image",
+      "Direct eye contact with a neutral, soulful expression",
+      "Soft, diffused lighting with minimal harsh shadows"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up, head filling approximately 70% of the inner frame, positioned centrally.",
+      "visualAnchor": "The subject's eyes, specifically the bridge of the nose.",
+      "movementAndEyePath": "Starts at the eyes, moves down to the mustache and crossed arm, then upward to the centered title text.",
+      "negativeSpace": "Substantial cream-colored border acts as a breathing room around the dense central portrait."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm browns and tans in the hair and skin tones.",
+      "contrastColorRole": "Muted teal and denim blue in the clothing and background accents.",
+      "accentColorRole": "Soft pastel yellows and pinks in the hazy background wash.",
+      "saturationAndValueRelationship": "Low to medium saturation with a warm, slightly yellowed vintage cast.",
+      "paletteRestrictions": [
+        "No neon or high-chroma colors",
+        "Avoid pure black; use deep browns for shadows"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional serif",
+      "letterConstructionRules": [
+        "Vertical stress",
+        "Sharp, bracketed serifs",
+        "High stroke contrast between thicks and thins",
+        "Ball terminals on lowercase letters like 'a' and 'y'"
+      ],
+      "characterSpecificRedesigns": [
+        "Tight letter spacing (tracking) typical of 70s phototypesetting"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp/Ball",
+            "corners": "Bracketed",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top center margin",
+            "scale": "Small relative to frame",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Slightly overlaps the top edge of the photo",
+            "relationshipToImage": "Floating above"
+          },
+          "treatment": {
+            "fill": "Muted mauve or dark brown",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for both artist name and title, separated by a vertical bar or slash.",
+      "graphicDevices": [
+        "Thin vertical separator line",
+        "Square inner frame with rounded or sharp corners"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast serif style",
+          "Tight tracking",
+          "Centered top placement"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Modern digital-looking scripts",
+          "Bold weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Caslon No. 224",
+            "reason": "Captures the tight, high-contrast 70s serif aesthetic perfectly.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Century Schoolbook",
+            "reason": "Provides the classic, readable serif structure with similar proportions.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A close-up 1970s style portrait of a man with long brown hair and a mustache, looking directly at the camera. He is leaning on his arm. The background is a soft, out-of-focus pastel wash of blue, yellow, and pink. The entire image is framed by a wide, solid cream-colored border.",
+        "overlayInstruction": "Add centered serif text in the top margin. Use a high-contrast serif font like Caslon, set in title case with tight tracking. The text should be a dark muted brown and sit partially on the cream border and partially on the image."
+      },
+      "verificationChecks": [
+        "Is the eye contact direct and central?",
+        "Does the cream border have a consistent width?",
+        "Is the typography high-contrast and tightly spaced?",
+        "Is the color palette warm and vintage-toned?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Width of the cream border",
+      "Intensity of the pastel background wash",
+      "Specific serif typeface choice",
+      "Tightness of the facial crop"
+    ],
+    "mustRedesign": [
+      "Remove specific record label logos in the corners",
+      "Change the specific names and titles to generic placeholders",
+      "Ensure the hair style is generic 70s rather than a specific celebrity likeness"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film grain and soft focus",
+        "Balanced, centered composition",
+        "Elegant, high-contrast typography"
+      ],
+      "avoid": [
+        "High-definition digital sharpness",
+        "Modern neon colors",
+        "Cluttered layouts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for correct serif anatomy (high contrast)",
+      "Ensure the cream border is not pure white",
+      "Verify the subject's gaze is level and engaging",
+      "Confirm the background colors are soft and blended"
+    ],
+    "reuseFormula": "Combine a tight, soulful 70s portrait with a wide cream border and centered, high-contrast serif typography for a classic singer-songwriter aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:06:44.212Z"
+}

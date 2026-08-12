@@ -1,0 +1,289 @@
+{
+  "id": "8ee08e70f9ad54601180458786e399bbbd2c008f6912b32dabb7d9827eb2692b",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:14:35.573Z",
+  "approvedAt": "2026-08-11T08:14:35.573Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:14:35.573Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Hall of Fame.jpg",
+    "hash": "8ee08e70f9ad54601180458786e399bbbd2c008f6912b32dabb7d9827eb2692b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Hall of Fame",
+    "artist": "Polo G",
+    "artworkUrl": "https://coverartarchive.org/release-group/0cd22e63-e1bd-4789-84d9-f50722288bf2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0cd22e63-e1bd-4789-84d9-f50722288bf2",
+    "releaseGroupId": "0cd22e63-e1bd-4789-84d9-f50722288bf2",
+    "recordingId": "ca9525a4-7f0c-4878-94d5-61adbf3deffa",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Bad Man (Smooth Criminal)Polo G",
+      "song": "Bad Man (Smooth Criminal)",
+      "performer": "Polo G",
+      "peakPosition": 49,
+      "firstChartDate": "2021-11-27",
+      "lastChartDate": "2022-01-15",
+      "appearances": [
+        {
+          "chartDate": "2021-11-27",
+          "position": 49
+        },
+        {
+          "chartDate": "2021-12-04",
+          "position": 68
+        },
+        {
+          "chartDate": "2021-12-11",
+          "position": 84
+        },
+        {
+          "chartDate": "2021-12-18",
+          "position": 70
+        },
+        {
+          "chartDate": "2021-12-25",
+          "position": 97
+        },
+        {
+          "chartDate": "2022-01-15",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "hip hop hall of fame commemorative cover podium press conference gold trophy red velvet curtain hip hop awards ceremonial lighting trophy room central figure anchored by a large foreground podium warm orange rim light contrasting with deep red shadows symmetrical arrangement of background artifacts busts and plaques text layered over the podium to create a sense of depth formal ceremony red velvet gold 3d script wide tracked serif high contrast warm lighting",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Hip-Hop Hall of Fame Commemorative Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Digital Photography",
+        "3D Rendering",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover",
+        "Promotional Poster",
+        "Social Media Announcement"
+      ],
+      "retrievalTags": [
+        "podium",
+        "press conference",
+        "gold trophy",
+        "red velvet curtain",
+        "hip hop awards",
+        "ceremonial lighting",
+        "trophy room"
+      ]
+    },
+    "visualDefinition": "A formal ceremonial scene featuring a central figure in a suit standing at a transparent podium, flanked by marble busts and gold record plaques against a deep red velvet backdrop with dramatic warm spotlighting.",
+    "coreVisualRelationships": [
+      "Central figure anchored by a large foreground podium",
+      "Warm orange rim light contrasting with deep red shadows",
+      "Symmetrical arrangement of background artifacts (busts and plaques)",
+      "Text layered over the podium to create a sense of depth"
+    ],
+    "coreInvariants": [
+      "Red velvet curtain background",
+      "Transparent acrylic podium top",
+      "High-contrast warm spotlight from the top-right",
+      "Gold metallic texture on primary display text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central medium shot of a male figure, occupying the middle 60% of the vertical frame.",
+      "visualAnchor": "The large, dark podium base in the lower third serves as the foundation for the primary typography.",
+      "movementAndEyePath": "Starts at the central figure's face, moves down to the golden script on the podium, then radiates outward to the background awards.",
+      "negativeSpace": "Deep shadows in the corners and upper curtain folds provide breathing room for the central composition."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Crimson (Background curtains and shadows)",
+      "contrastColorRole": "Bright Orange/Amber (Rim lighting and lens flare)",
+      "accentColorRole": "Polished Gold (Typography and awards)",
+      "saturationAndValueRelationship": "High saturation in the reds and oranges; high value contrast between the dark suit and the bright podium highlights.",
+      "paletteRestrictions": [
+        "Avoid cool blues or greens",
+        "Maintain a warm, prestigious atmosphere"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Formal script and wide serif",
+      "letterConstructionRules": [
+        "Primary text uses a fluid, connected script with varying stroke thickness",
+        "Secondary text uses a wide-tracked, all-caps serif for a cinematic feel",
+        "Beveled edges and 3D gold extrusion on the main title"
+      ],
+      "characterSpecificRedesigns": [
+        "Elongated swashes on the 'H' and 'F' to frame the word 'Of'",
+        "High-gloss specular highlights on the curves of the script"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Script",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Rounded swashes",
+            "corners": "Smooth",
+            "counters": "Open",
+            "strokeCharacter": "Calligraphic"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Centered",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Lower center, overlapping podium",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "Slight upward arch",
+            "overlap": "Overlays the podium and subject's hands",
+            "relationshipToImage": "Foreground anchor"
+          },
+          "treatment": {
+            "fill": "Gold gradient",
+            "outline": "Thin dark stroke",
+            "shadow": "Soft drop shadow",
+            "depth": "3D bevel",
+            "texture": "Polished metal",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "Small",
+            "terminals": "Sharp",
+            "corners": "Square",
+            "counters": "Wide",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "All Caps",
+            "alignment": "Centered",
+            "tracking": "Extremely Wide",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Bottom center",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Base element"
+          },
+          "treatment": {
+            "fill": "White to light gold",
+            "outline": "None",
+            "shadow": "Outer glow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a decorative, organic script with a rigid, geometric serif.",
+      "graphicDevices": [
+        "Lens flare in top right corner",
+        "Floating dust particles in light beams",
+        "Reflections on the acrylic podium surface"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Gold metallic texture",
+          "Wide letter spacing for the bottom name",
+          "Script style for the main title"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Flat, non-textured colors for text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Shelley Volante Script",
+            "reason": "Matches the elegant, swash-heavy calligraphic look of the main title.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Cinzel Decorative",
+            "reason": "Provides the wide, prestigious serif look for the secondary text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A man in a tan suit standing at a clear podium in front of red velvet curtains. To his left is a marble bust of himself, and to his right are gold record plaques. Dramatic orange spotlight from the top right creates a lens flare and highlights his dreadlocks.",
+        "overlayInstruction": "Add large 3D gold script text 'Hall of Fame' centered over the podium. Below it, add the artist's name in a wide-spaced white serif font. Place a small parental advisory logo in the bottom right corner."
+      },
+      "verificationChecks": [
+        "Is the gold text beveled and metallic?",
+        "Is the lighting consistent across the subject and the background elements?",
+        "Is the secondary text widely tracked?",
+        "Does the red curtain have deep, rich shadows?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the orange lens flare",
+      "Number of background awards/plaques",
+      "Color of the suit",
+      "Curtain texture and fold density"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact logos on the plaques",
+      "Specific jewelry designs"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic lighting",
+        "Realistic metallic textures",
+        "Balanced symmetrical composition"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Cartoonish script",
+        "Cluttered background"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the podium looks transparent and reflective.",
+      "Check that the gold text doesn't blend into the suit highlights.",
+      "Verify the 'Parental Advisory' box is legible but small.",
+      "Confirm the rim light follows the direction of the lens flare."
+    ],
+    "reuseFormula": "Formal Ceremony + Red Velvet + Gold 3D Script + Wide-Tracked Serif + High-Contrast Warm Lighting"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:07:07.315Z"
+}

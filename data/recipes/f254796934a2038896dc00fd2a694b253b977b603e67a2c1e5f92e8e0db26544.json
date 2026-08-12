@@ -1,0 +1,285 @@
+{
+  "id": "f254796934a2038896dc00fd2a694b253b977b603e67a2c1e5f92e8e0db26544",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T10:40:29.075Z",
+  "approvedAt": "2026-08-11T10:40:29.075Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T10:40:29.075Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Certain Things Are Likely.jpg",
+    "hash": "f254796934a2038896dc00fd2a694b253b977b603e67a2c1e5f92e8e0db26544",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Certain Things Are Likely",
+    "artist": "K.T.P.",
+    "artworkUrl": "https://coverartarchive.org/release-group/175848e9-1840-479e-900c-10d73ad0042a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/175848e9-1840-479e-900c-10d73ad0042a",
+    "releaseGroupId": "175848e9-1840-479e-900c-10d73ad0042a",
+    "recordingId": "266fd3b3-77c2-4e40-8011-44961ae6de56",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Certain Things Are LikelyK.T.P.",
+      "song": "Certain Things Are Likely",
+      "performer": "K.T.P.",
+      "peakPosition": 97,
+      "firstChartDate": "1987-06-13",
+      "lastChartDate": "1987-07-04",
+      "appearances": [
+        {
+          "chartDate": "1987-06-13",
+          "position": 97
+        },
+        {
+          "chartDate": "1987-06-20",
+          "position": 98
+        },
+        {
+          "chartDate": "1987-06-27",
+          "position": 98
+        },
+        {
+          "chartDate": "1987-07-04",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "grid based mixed media portrait minimalist grid portrait sketchy white space serif typography 80s aesthetic central photographic focal point vs expansive white background rigid geometric grid lines vs loose organic sketch marks boxed display characters at the top vs italicized body text at the bottom high contrast facial features vs washed out skin tones combine a central gridded photographic fragment with expansive white space and structured high contrast serif typography for a sophisticated minimalist editorial look",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Grid-Based Mixed Media Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Collage",
+        "Sketching"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Layout",
+        "Artistic Poster"
+      ],
+      "retrievalTags": [
+        "minimalist",
+        "grid",
+        "portrait",
+        "sketchy",
+        "white space",
+        "serif typography",
+        "80s aesthetic"
+      ]
+    },
+    "visualDefinition": "A minimalist, high-key composition featuring a central photographic portrait fragment overlaid with a hand-drawn grid and loose sketches, framed by significant white negative space and structured serif typography.",
+    "coreVisualRelationships": [
+      "Central photographic focal point vs. expansive white background",
+      "Rigid geometric grid lines vs. loose organic sketch marks",
+      "Boxed display characters at the top vs. italicized body text at the bottom",
+      "High-contrast facial features vs. washed-out skin tones"
+    ],
+    "coreInvariants": [
+      "Off-white or cream-colored paper texture background",
+      "Central square containing a cropped face",
+      "Thin black line-work for grids and boxes",
+      "High-contrast serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A small, square photographic crop of a face is centered vertically and horizontally within the upper two-thirds of the frame.",
+      "visualAnchor": "The central eyes of the portrait act as the primary anchor, supported by the three boxed letters at the top.",
+      "movementAndEyePath": "Top-down vertical flow: starting at the boxed letters, moving to the central portrait, and ending at the italicized text at the bottom.",
+      "negativeSpace": "Extensive white space occupies approximately 70% of the canvas, creating a sense of clinical or artistic isolation."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/Cream (Background)",
+      "contrastColorRole": "Black (Typography and line-work)",
+      "accentColorRole": "Flesh tones and soft reds (Portrait)",
+      "saturationAndValueRelationship": "Low saturation overall with high value (brightness); the only saturated elements are the lips and eyes of the portrait.",
+      "paletteRestrictions": [
+        "Cream",
+        "Black",
+        "Soft Red",
+        "Pale Peach"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Serif",
+      "letterConstructionRules": [
+        "High stroke contrast between thick and thin lines",
+        "Sharp, bracketed serifs",
+        "Large x-height for the display letters",
+        "Italicized slant for the bottom text"
+      ],
+      "characterSpecificRedesigns": [
+        "Display letters are enclosed in individual thin-lined rectangular boxes",
+        "Small lowercase versions of the letters appear in the bottom right corner of each box"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Sharp",
+            "corners": "Angular",
+            "counters": "Open",
+            "strokeCharacter": "Traditional"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Inside boxes",
+            "relationshipToImage": "Header"
+          },
+          "treatment": {
+            "fill": "Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Serif Italic",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "Medium",
+            "xHeight": "Standard",
+            "terminals": "Refined",
+            "corners": "Sharp",
+            "counters": "Clear",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Normal",
+            "leading": "Standard",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Bottom center",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Footer"
+          },
+          "treatment": {
+            "fill": "Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Matching serif family using weight and posture (italic vs. roman) to differentiate hierarchy.",
+      "graphicDevices": [
+        "Thin rectangular boxes",
+        "Hand-drawn cross-hair grid over the face",
+        "Loose, scribbled perimeter marks around the central square"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast serifs",
+          "Italicized bottom text",
+          "Boxed top letters"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Heavy textures",
+          "Bright colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "Matches the high-contrast, elegant serif look of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Times New Roman Italic",
+            "reason": "Provides the classic, readable italicized look for the bottom text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key, off-white paper background. In the center, place a square photographic crop of a pale face (eyes, nose, mouth). Overlay the face with a thin black cross-hair grid and surround the square with loose, faint, hand-drawn charcoal or pencil sketch marks.",
+        "overlayInstruction": "Add three thin black rectangular boxes at the top center. Inside each box, place a large bold serif letter and a tiny lowercase version in the corner. At the bottom center, add a single line of uppercase italicized serif text with moderate tracking."
+      },
+      "verificationChecks": [
+        "Is the background a clean, off-white space?",
+        "Are the top letters individually boxed?",
+        "Is the central portrait overlaid with a grid?",
+        "Is the bottom text italicized and centered?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Portrait crop tightess",
+      "Grid line thickness",
+      "Amount of sketch marks",
+      "Typography tracking"
+    ],
+    "mustRedesign": [
+      "Specific facial identity",
+      "Exact letter combinations",
+      "Original brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean minimalist layout",
+        "Precise typographic alignment",
+        "Delicate balance of negative space"
+      ],
+      "avoid": [
+        "Cluttered composition",
+        "Low-contrast fonts",
+        "Vibrant or neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the central square is perfectly centered horizontally.",
+      "Check that the grid lines on the face are thin and precise.",
+      "Verify the serif fonts have high contrast between thick and thin strokes.",
+      "Confirm the background color is a consistent off-white/cream tone."
+    ],
+    "reuseFormula": "Combine a central, gridded photographic fragment with expansive white space and structured, high-contrast serif typography for a sophisticated, minimalist editorial look."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:26:43.062Z"
+}

@@ -1,0 +1,247 @@
+{
+  "id": "f8e4c0608a1991ce5c449425ca3858ee58dde7ebf49458f0f6e296e70f6e4883",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T00:26:42.239Z",
+  "approvedAt": "2026-08-12T00:26:42.239Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T00:26:42.239Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Pursuit of Happiness.jpg",
+    "hash": "f8e4c0608a1991ce5c449425ca3858ee58dde7ebf49458f0f6e296e70f6e4883",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Pursuit of Happiness",
+    "artist": "Rupert Holmes",
+    "artworkUrl": "https://coverartarchive.org/release-group/94eb7a28-e478-457d-8327-2a99bc34febf/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/94eb7a28-e478-457d-8327-2a99bc34febf",
+    "releaseGroupId": "94eb7a28-e478-457d-8327-2a99bc34febf",
+    "recordingId": "87f2abcc-538e-4003-b9d0-6b82ebfcaa49",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Let's Get Crazy TonightRupert Holmes",
+      "song": "Let's Get Crazy Tonight",
+      "performer": "Rupert Holmes",
+      "peakPosition": 72,
+      "firstChartDate": "1978-09-02",
+      "lastChartDate": "1978-10-07",
+      "appearances": [
+        {
+          "chartDate": "1978-09-02",
+          "position": 88
+        },
+        {
+          "chartDate": "1978-09-09",
+          "position": 81
+        },
+        {
+          "chartDate": "1978-09-16",
+          "position": 78
+        },
+        {
+          "chartDate": "1978-09-23",
+          "position": 74
+        },
+        {
+          "chartDate": "1978-09-30",
+          "position": 72
+        },
+        {
+          "chartDate": "1978-10-07",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "seventies domestic melancholy album cover 1970s sepia double exposure interior design fireplace suede jacket ghostly figure warm lighting foreground subject in sharp focus vs background ghost figure in soft transparency warm interior lighting vs dark wood paneling text placement flush right at top and bottom edges take a 70s style portrait apply amber sepia filter add a translucent double exposure figure in the background frame with a thick brown border add right aligned italic serif text",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Seventies Domestic Melancholy Album Cover",
+      "category": "Music Photography",
+      "medium": [
+        "Film Photography",
+        "Double Exposure",
+        "Studio Portraiture"
+      ],
+      "useCases": [
+        "Album Art",
+        "Book Cover",
+        "Editorial Illustration"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "sepia",
+        "double exposure",
+        "interior design",
+        "fireplace",
+        "suede jacket",
+        "ghostly figure",
+        "warm lighting"
+      ]
+    },
+    "visualDefinition": "A warm-toned, 1970s-style portrait featuring a man in the foreground and a ghostly, translucent figure of a woman in the background within a cozy, wood-paneled living room. The scene is framed by a thick brown border with elegant serif typography at the top and bottom edges.",
+    "coreVisualRelationships": [
+      "Foreground subject in sharp focus vs. background ghost figure in soft transparency",
+      "Warm interior lighting vs. dark wood paneling",
+      "Text placement flush right at top and bottom edges"
+    ],
+    "coreInvariants": [
+      "Heavy brown outer frame",
+      "Double exposure effect on the background figure",
+      "Monochromatic warm color cast (sepia/amber)",
+      "Subject wearing a turtleneck and suede blazer"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Male subject occupies the right two-thirds of the foreground, cropped at the waist. Ghostly figure is centered in the background.",
+      "visualAnchor": "The man's face and eyes, which look directly at the viewer.",
+      "movementAndEyePath": "From the man's face, down his jacket, across to the fireplace and the translucent woman, then to the text at the top and bottom.",
+      "negativeSpace": "Minimal; the frame is filled with detailed interior elements and the thick border."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm browns and ambers (wood paneling, jacket, lighting)",
+      "contrastColorRole": "Cream and off-white (turtleneck, sofa, text)",
+      "accentColorRole": "Orange-red (fireplace glow)",
+      "saturationAndValueRelationship": "Low saturation with high warmth; values are compressed into the mid-tones and shadows.",
+      "paletteRestrictions": [
+        "No cool blues or greens",
+        "No high-contrast blacks"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional serif",
+      "letterConstructionRules": [
+        "Italicized characters",
+        "Thin hairlines and thick stems",
+        "Sharp, bracketed serifs",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Italicized 'R' and 'P' with elegant curves"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif Italic",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Ball or teardrop",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "-2%",
+            "leading": "1.0",
+            "lineBreakPattern": "Single line",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Top right and bottom right corners",
+            "scale": "Small relative to frame",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Placed within the brown border"
+          },
+          "treatment": {
+            "fill": "White/Cream",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for both name and title for consistency.",
+      "graphicDevices": [
+        "Thick solid color border framing the central image"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Italicization",
+          "High contrast",
+          "Right alignment"
+        ],
+        "avoid": [
+          "Sans-serif",
+          "Bold weights",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Caslon No. 224 Italic",
+            "reason": "Captures the 70s editorial serif look with high contrast.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Times New Roman Italic",
+            "reason": "Standard high-contrast serif that mimics the era's utility.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A 1970s film-style photograph of a man with a beard, wearing a brown suede jacket and cream turtleneck, standing in a wood-paneled room. In the background, a translucent, ghostly double-exposure of a woman stands near a lit fireplace. The entire image has a warm, amber-sepia tint. Surround the image with a thick, solid dark-brown border.",
+        "overlayInstruction": "Add uppercase italic serif text in cream color. Place the first line in the top right corner of the brown border and the second line in the bottom right corner of the brown border."
+      },
+      "verificationChecks": [
+        "Is the background figure translucent?",
+        "Is the color palette restricted to warm browns and ambers?",
+        "Is the text right-aligned within the border?",
+        "Does the man have a 70s-style beard and hairstyle?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the double exposure",
+      "Width of the outer border",
+      "Specific shade of the warm color cast"
+    ],
+    "mustRedesign": [
+      "Avoid modern digital sharpness; maintain film grain",
+      "Do not use modern sans-serif fonts"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film texture",
+        "Cohesive warm color story",
+        "Balanced double exposure"
+      ],
+      "avoid": [
+        "High-saturation colors",
+        "Digital gradients",
+        "Modern clothing styles"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for film grain texture",
+      "Ensure the border is a solid, flat color",
+      "Verify the text is high-contrast serif italic",
+      "Confirm the ghostly figure is properly blended"
+    ],
+    "reuseFormula": "Take a 70s-style portrait + apply amber/sepia filter + add a translucent double-exposure figure in the background + frame with a thick brown border + add right-aligned italic serif text."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:27:32.703Z"
+}

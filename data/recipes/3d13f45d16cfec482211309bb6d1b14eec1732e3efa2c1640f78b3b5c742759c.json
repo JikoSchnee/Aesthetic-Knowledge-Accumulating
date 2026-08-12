@@ -1,0 +1,232 @@
+{
+  "id": "3d13f45d16cfec482211309bb6d1b14eec1732e3efa2c1640f78b3b5c742759c",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T11:00:34.490Z",
+  "approvedAt": "2026-08-11T11:00:34.490Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T11:00:34.490Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "3 Doors Down.jpg",
+    "hash": "3d13f45d16cfec482211309bb6d1b14eec1732e3efa2c1640f78b3b5c742759c",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "3 Doors Down",
+    "artist": "3 Doors Down",
+    "artworkUrl": "https://coverartarchive.org/release-group/64348b38-dbfe-368f-9704-cb1318f7e99b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/64348b38-dbfe-368f-9704-cb1318f7e99b",
+    "releaseGroupId": "64348b38-dbfe-368f-9704-cb1318f7e99b",
+    "recordingId": "d857d3f0-d0b4-44ae-abc0-7c8f84abdd57",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Citizen/Soldier3 Doors Down",
+      "song": "Citizen/Soldier",
+      "performer": "3 Doors Down",
+      "peakPosition": 96,
+      "firstChartDate": "2008-01-12",
+      "lastChartDate": "2008-01-19",
+      "appearances": [
+        {
+          "chartDate": "2008-01-12",
+          "position": 99
+        },
+        {
+          "chartDate": "2008-01-19",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "grunge era band portrait alternative rock grunge desaturated industrial background band lineup horizontal header bar central figure is larger and more forward than the flanking members a horizontal black bar in the lower third creates a foreground barrier the top header bar mirrors the lower bar s horizontal weight desaturated cyan grey tones unify the subjects with the industrial background industrial portrait horizontal header footer bars extended geometric sans typography desaturated high contrast filter",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Grunge Era Band Portrait",
+      "category": "Music Photography",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Promotional Band Poster",
+        "Editorial Music Feature"
+      ],
+      "retrievalTags": [
+        "alternative rock",
+        "grunge",
+        "desaturated",
+        "industrial background",
+        "band lineup",
+        "horizontal header bar"
+      ]
+    },
+    "visualDefinition": "A desaturated, high-contrast group portrait of five men in casual dark clothing, positioned against a textured concrete wall with a prominent horizontal graphic header containing a stylized numerical and typographic logo.",
+    "coreVisualRelationships": [
+      "Central figure is larger and more forward than the flanking members",
+      "A horizontal black bar in the lower third creates a foreground barrier",
+      "The top header bar mirrors the lower bar's horizontal weight",
+      "Desaturated cyan-grey tones unify the subjects with the industrial background"
+    ],
+    "coreInvariants": [
+      "High-contrast desaturation",
+      "Textured, mottled concrete background",
+      "Strict horizontal framing elements at top and bottom"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Five subjects arranged in a shallow 'V' formation; the lead singer is centered and scaled approximately 20% larger than the others.",
+      "visualAnchor": "The large, bold numerical '3' in the top left header box.",
+      "movementAndEyePath": "Eye starts at the top-left logo, moves across the header, drops to the central figure, then scans outward to the peripheral band members.",
+      "negativeSpace": "Ample textured space above the subjects' heads and below the horizontal foreground bar."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated cool grey/cyan for skin tones and background.",
+      "contrastColorRole": "Deep black for clothing and graphic bars.",
+      "accentColorRole": "Pure white for the logo text and header highlights.",
+      "saturationAndValueRelationship": "Low saturation with high tonal contrast; shadows are crushed to black while highlights on the wall are near white.",
+      "paletteRestrictions": [
+        "No vibrant primary colors",
+        "No warm tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extended Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Heavy stroke weight",
+        "Square proportions with rounded outer corners",
+        "Tight letter spacing within a contained box"
+      ],
+      "characterSpecificRedesigns": [
+        "Numerical '3' is significantly larger and features a double-stroke outline effect",
+        "Letters are vertically compressed to fit within horizontal bands"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "extra-extended",
+            "weight": "black",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "slightly rounded",
+            "counters": "small and rectangular",
+            "strokeCharacter": "thick and uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top left inside a white box",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within a dedicated graphic header"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in varying weights and scales for consistency.",
+      "graphicDevices": [
+        "Rectangular framing boxes",
+        "Horizontal gradient bar",
+        "Thick black dividing lines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extended width",
+          "Square-ish counters",
+          "Heavy weight"
+        ],
+        "avoid": [
+          "Serifs",
+          "Script fonts",
+          "Light weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma or Eurostile Bold Extended",
+            "reason": "Matches the industrial, square-geometric aesthetic of the era.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bank Gothic",
+            "reason": "Similar square proportions but with sharper corners.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a desaturated, high-contrast photo of five men in dark casual clothes standing against a weathered concrete wall. Add a thick black horizontal bar across the bottom foreground. Leave the top 15% of the image as a flat white and grey gradient header area.",
+        "overlayInstruction": "In the top left white box, place a large bold numerical '3' followed by two lines of extended sans-serif text in black, perfectly aligned within the box."
+      },
+      "verificationChecks": [
+        "Is the image desaturated with a cyan/grey tint?",
+        "Is the central figure the largest?",
+        "Is the text contained within a distinct header bar?",
+        "Is there a horizontal bar in the foreground?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of band members",
+      "Intensity of the cyan tint",
+      "Texture of the background wall",
+      "Width of the header bar"
+    ],
+    "mustRedesign": [
+      "Specific band member faces",
+      "Exact logo wording",
+      "Specific jewelry or clothing logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Gritty industrial texture",
+        "Strong horizontal graphic framing",
+        "Unified desaturated color palette"
+      ],
+      "avoid": [
+        "Bright colors",
+        "Soft lighting",
+        "Centered text over faces"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is legible and not distorted",
+      "Check that the horizontal bars are perfectly straight",
+      "Verify the desaturation doesn't lose all detail in the blacks",
+      "Confirm the 'V' formation of the subjects"
+    ],
+    "reuseFormula": "Industrial Portrait + Horizontal Header/Footer Bars + Extended Geometric Sans Typography + Desaturated High-Contrast Filter"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:07:12.469Z"
+}

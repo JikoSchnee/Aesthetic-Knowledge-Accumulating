@@ -1,0 +1,161 @@
+{
+  "id": "d9bfa121b96f60383757f6c52efa9e8e44eaffbd207ecd7657f1c8a68d2d127e",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:32:13.036Z",
+  "approvedAt": "2026-08-11T09:32:13.036Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:32:13.036Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Fearless (Taylor’s Version).jpg",
+    "hash": "d9bfa121b96f60383757f6c52efa9e8e44eaffbd207ecd7657f1c8a68d2d127e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Fearless (Taylor’s Version)",
+    "artist": "Taylor Swift Featuring Colbie Caillat",
+    "artworkUrl": "https://coverartarchive.org/release-group/d2e4838d-90e1-471c-bda0-fd816dabb2d4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d2e4838d-90e1-471c-bda0-fd816dabb2d4",
+    "releaseGroupId": "d2e4838d-90e1-471c-bda0-fd816dabb2d4",
+    "recordingId": "91c4a6ad-a082-41ff-a6fd-431595cf73e8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "BreatheTaylor Swift Featuring Colbie Caillat",
+      "song": "Breathe",
+      "performer": "Taylor Swift Featuring Colbie Caillat",
+      "peakPosition": 87,
+      "firstChartDate": "2008-11-29",
+      "lastChartDate": "2008-11-29",
+      "appearances": [
+        {
+          "chartDate": "2008-11-29",
+          "position": 87
+        }
+      ]
+    }
+  },
+  "dedupeText": "sepia wind swept portrait sepia wind swept hair low angle monochromatic ethereal satin texture closed eyes dynamic hair movement contrasting with the serene facial expression high key highlights on the satin fabric against the mid tone sepia sky low angle perspective creating a sense of elevation and transcendence low angle monochromatic sepia portrait wind swept hair satin textures clear sky background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Sepia Wind-Swept Portrait",
+      "category": "Photography",
+      "medium": [
+        "Digital Photography",
+        "Sepia Toning"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Editorial Fashion Spread",
+        "Cinematic Poster"
+      ],
+      "retrievalTags": [
+        "sepia",
+        "wind-swept hair",
+        "low angle",
+        "monochromatic",
+        "ethereal",
+        "satin texture",
+        "closed eyes"
+      ]
+    },
+    "visualDefinition": "A low-angle, monochromatic sepia portrait of a woman with her eyes closed, captured in a moment of dynamic motion. Her long, wavy hair is blown upward and outward by a strong wind, creating a halo-like effect against a clear, flat sky. She wears a light-colored, pleated satin blouse with ruffled sleeves that catch the light, emphasizing texture and form.",
+    "coreVisualRelationships": [
+      "Dynamic hair movement contrasting with the serene facial expression",
+      "High-key highlights on the satin fabric against the mid-tone sepia sky",
+      "Low-angle perspective creating a sense of elevation and transcendence"
+    ],
+    "coreInvariants": [
+      "Monochromatic sepia color grade",
+      "Extreme wind-blown hair texture",
+      "Closed-eye profile or three-quarter view",
+      "Uniform, cloudless background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the lower two-thirds of the frame, with hair extending into the upper third.",
+      "visualAnchor": "The subject's face, positioned slightly off-center, serves as the emotional and visual focal point.",
+      "movementAndEyePath": "The eye follows the upward sweep of the hair from the left, curving around the face and leading down the lines of the pleated blouse.",
+      "negativeSpace": "The upper right and left corners consist of empty, flat sky, providing breathing room for the complex hair detail."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-tone sepia (brownish-gold) for the sky and shadows.",
+      "contrastColorRole": "Creamy highlights on the skin and satin blouse.",
+      "accentColorRole": "Deep umber for the darkest shadows in the hair and clothing folds.",
+      "saturationAndValueRelationship": "Low saturation, high contrast between the luminous highlights and the warm, earthy mid-tones.",
+      "paletteRestrictions": [
+        "Strictly monochromatic sepia",
+        "No true blacks or whites",
+        "No secondary hues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Naturalistic lighting",
+        "Motion blur in hair strands"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-angle photograph of a woman with long wavy hair in a strong wind, eyes closed, wearing a pleated satin blouse. Apply a uniform sepia tint. The background should be a clear, flat sky.",
+        "overlayInstruction": "If adding text, use a thin, elegant serif font in a slightly lighter shade of the dominant sepia, placed in the negative space of the sky."
+      },
+      "verificationChecks": [
+        "Is the color palette strictly monochromatic sepia?",
+        "Does the hair show significant upward movement?",
+        "Is the lighting soft but directional, highlighting the satin texture?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the sepia tint",
+      "Volume and direction of the hair movement",
+      "Complexity of the garment pleats"
+    ],
+    "mustRedesign": [
+      "Any modern logos or branding",
+      "Specific facial features of known individuals",
+      "Modern background elements like buildings or trees"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-detail hair strands",
+        "Luminous satin sheen",
+        "Smooth tonal gradients in the sky"
+      ],
+      "avoid": [
+        "Digital noise in the shadows",
+        "Harsh, unnatural color shifts",
+        "Static or flat hair rendering"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the sepia tone is consistent across the entire image.",
+      "Verify that the hair movement feels natural and not overly distorted.",
+      "Check that the highlights on the clothing do not blow out to pure white.",
+      "Confirm the low-angle perspective is maintained."
+    ],
+    "reuseFormula": "Low-angle monochromatic sepia portrait + wind-swept hair + satin textures + clear sky background."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:47:22.396Z"
+}

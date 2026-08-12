@@ -1,0 +1,285 @@
+{
+  "id": "c271c6d12af75dd1500eb42fd40aebaa33f9907065a4d1736c1b75c9a48d6205",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:32:41.123Z",
+  "approvedAt": "2026-08-11T15:32:41.123Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:32:41.123Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Providence.jpg",
+    "hash": "c271c6d12af75dd1500eb42fd40aebaa33f9907065a4d1736c1b75c9a48d6205",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Providence",
+    "artist": "Rebecca Lynn Howard",
+    "artworkUrl": "https://coverartarchive.org/release-group/66c79c96-810f-3f5c-9f02-b5c707dcd87e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/66c79c96-810f-3f5c-9f02-b5c707dcd87e",
+    "releaseGroupId": "66c79c96-810f-3f5c-9f02-b5c707dcd87e",
+    "recordingId": "8d8cdd37-f957-46c1-ba75-48743f18bfab",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "ForgiveRebecca Lynn Howard",
+      "song": "Forgive",
+      "performer": "Rebecca Lynn Howard",
+      "peakPosition": 71,
+      "firstChartDate": "2002-11-09",
+      "lastChartDate": "2002-12-07",
+      "appearances": [
+        {
+          "chartDate": "2002-11-09",
+          "position": 75
+        },
+        {
+          "chartDate": "2002-11-16",
+          "position": 71
+        },
+        {
+          "chartDate": "2002-11-23",
+          "position": 74
+        },
+        {
+          "chartDate": "2002-11-30",
+          "position": 95
+        },
+        {
+          "chartDate": "2002-12-07",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "autumnal portrait album cover portrait maple leaf serif typography soft focus autumnal close up warm lighting the maple leaf acts as a visual counterweight to the subject s face the subject s gaze is directed slightly off camera creating a contemplative mood the text block in the upper right follows the curve of the subject s hair portrait single seasonal element bold serif base right aligned metadata list",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Autumnal Portrait Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Soundtrack Cover Art",
+        "Editorial Portraiture",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "portrait",
+        "maple leaf",
+        "serif typography",
+        "soft focus",
+        "autumnal",
+        "close-up",
+        "warm lighting"
+      ]
+    },
+    "visualDefinition": "A tight, soft-focus portrait of a woman with curly hair, framed by a single vibrant orange maple leaf in the lower right and a list of names in the upper right. The composition uses a warm, earthy color palette with a prominent bold serif title at the bottom.",
+    "coreVisualRelationships": [
+      "The maple leaf acts as a visual counterweight to the subject's face.",
+      "The subject's gaze is directed slightly off-camera, creating a contemplative mood.",
+      "The text block in the upper right follows the curve of the subject's hair."
+    ],
+    "coreInvariants": [
+      "Single orange maple leaf with visible veins",
+      "Soft, diffused lighting on the face",
+      "Tight headshot crop cutting off the top of the head",
+      "High-contrast black serif title at the base"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The face occupies the left two-thirds of the frame in a tight close-up.",
+      "visualAnchor": "The large, bold title at the bottom center-left and the orange leaf in the bottom right.",
+      "movementAndEyePath": "Starts at the eyes, moves down to the title, then swings right to the leaf and up through the list of names.",
+      "negativeSpace": "Minimal; the frame is filled with the subject's hair and the text blocks."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm skin tones and dark brown hair provide the base.",
+      "contrastColorRole": "Black typography provides sharp contrast against the light skin and background.",
+      "accentColorRole": "Vibrant orange and red of the maple leaf provide a singular pop of color.",
+      "saturationAndValueRelationship": "High value in the facial highlights, low value in the hair and shadows, with high saturation reserved for the leaf.",
+      "paletteRestrictions": [
+        "Earth tones",
+        "Burnt orange",
+        "Cream",
+        "Deep brown"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman serif",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Sharp, bracketed serifs",
+        "Vertical stress",
+        "Tight letter spacing for the main title"
+      ],
+      "characterSpecificRedesigns": [
+        "The title features slightly compressed tracking to emphasize its horizontal weight."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Pointed",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Bottom edge",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Anchors the base of the portrait"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Humanist Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Regular",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Slightly rounded",
+            "counters": "Closed",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Mixed",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked list",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Top right corner",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays hair and background",
+            "relationshipToImage": "Secondary information layer"
+          },
+          "treatment": {
+            "fill": "Dark Grey to Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for the title paired with a clean, legible sans-serif for secondary details.",
+      "graphicDevices": [
+        "Photorealistic maple leaf overlay",
+        "Soft gradient vignette on the right edge"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps serif title",
+          "Right-aligned list of names",
+          "Italicized subtitle above the main title"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Neon colors",
+          "Heavy drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman Bold or Georgia",
+            "reason": "Matches the classical high-contrast serif look of the title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gill Sans or Helvetica Condensed",
+            "reason": "Provides a clean, modern contrast for the metadata list.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A soft-focus, warm-toned portrait of a woman with dark curly hair looking slightly to the side. In the bottom right corner, place a single, detailed orange-red maple leaf. The right side of the image should fade into a light, creamy background.",
+        "overlayInstruction": "Add a large, bold, black serif title in all caps at the bottom. Above it, add a small line of italicized serif text. In the top right corner, add a right-aligned list of names in a clean sans-serif font."
+      },
+      "verificationChecks": [
+        "Is the maple leaf vibrant and distinct?",
+        "Is the title font a high-contrast serif?",
+        "Is the lighting on the face soft and warm?",
+        "Is the text in the top right right-aligned?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the orange in the leaf",
+      "Tightness of the portrait crop",
+      "Weight of the serif title",
+      "Amount of blur in the hair"
+    ],
+    "mustRedesign": [
+      "Specific names in the list",
+      "Original brand logos",
+      "Exact facial features of the subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Elegant, classical typography",
+        "Natural, warm skin tones",
+        "Balanced composition between text and image"
+      ],
+      "avoid": [
+        "Harsh digital sharpening",
+        "Cluttered layout",
+        "Cold or blue color casts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the leaf does not obscure the main title.",
+      "Check that the right-aligned text is legible against the background.",
+      "Verify the serif title feels grounded at the bottom of the frame.",
+      "Confirm the overall mood is nostalgic and warm."
+    ],
+    "reuseFormula": "Portrait + Single Seasonal Element + Bold Serif Base + Right-Aligned Metadata List"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:21:44.657Z"
+}

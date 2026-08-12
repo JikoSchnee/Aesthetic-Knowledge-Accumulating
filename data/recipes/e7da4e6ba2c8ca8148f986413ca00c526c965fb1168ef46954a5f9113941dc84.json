@@ -1,0 +1,230 @@
+{
+  "id": "e7da4e6ba2c8ca8148f986413ca00c526c965fb1168ef46954a5f9113941dc84",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:54:40.959Z",
+  "approvedAt": "2026-08-11T22:54:40.959Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:54:40.959Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Blonde.jpg",
+    "hash": "e7da4e6ba2c8ca8148f986413ca00c526c965fb1168ef46954a5f9113941dc84",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Blonde",
+    "artist": "Frank Ocean",
+    "artworkUrl": "https://coverartarchive.org/release-group/0da340a0-6ad7-4fc2-a272-6f94393a7831/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0da340a0-6ad7-4fc2-a272-6f94393a7831",
+    "releaseGroupId": "0da340a0-6ad7-4fc2-a272-6f94393a7831",
+    "recordingId": "fe8b367d-78ef-4ec3-9c9a-ff3435a65d5b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "IvyFrank Ocean",
+      "song": "Ivy",
+      "performer": "Frank Ocean",
+      "peakPosition": 80,
+      "firstChartDate": "2016-09-10",
+      "lastChartDate": "2016-09-10",
+      "appearances": [
+        {
+          "chartDate": "2016-09-10",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "minimalist portrait with geometric framing minimalist portrait white border sans serif vulnerability geometric wet skin tiled background the vertical image is nested within a square white canvas creating a thick border the bold black typography at the top balances the visual weight of the barcode and advisory logo at the bottom the subject s green hair provides a singular point of saturated color against a neutral warm toned background combine a vertical intimate portrait with a wide white square border and bold lowercase italicized sans serif typography for a minimalist editorial look",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Minimalist Portrait with Geometric Framing",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Layout",
+        "Poster Design"
+      ],
+      "retrievalTags": [
+        "minimalist",
+        "portrait",
+        "white border",
+        "sans-serif",
+        "vulnerability",
+        "geometric",
+        "wet skin",
+        "tiled background"
+      ]
+    },
+    "visualDefinition": "A centered vertical portrait of a man covering his face with his hand, set within a large white square border. The image features high-contrast lighting, wet skin textures, and a stark, bold sans-serif title at the top.",
+    "coreVisualRelationships": [
+      "The vertical image is nested within a square white canvas, creating a thick border.",
+      "The bold black typography at the top balances the visual weight of the barcode and advisory logo at the bottom.",
+      "The subject's green hair provides a singular point of saturated color against a neutral, warm-toned background."
+    ],
+    "coreInvariants": [
+      "A wide, textured white border framing the central image.",
+      "A centered, vertical rectangular photograph.",
+      "Bold, italicized sans-serif typography positioned in the top margin."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is a medium close-up portrait, centered horizontally, occupying the middle 60% of the vertical space.",
+      "visualAnchor": "The subject's hand covering the face acts as the central focal point, drawing the eye to the center of the frame.",
+      "movementAndEyePath": "The eye starts at the bold title at the top, moves down to the central portrait, and finally rests on the technical metadata at the bottom.",
+      "negativeSpace": "Extensive use of white negative space in the outer border to isolate and emphasize the central image."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/light gray textured background.",
+      "contrastColorRole": "Deep blacks in the typography and shadows of the photograph.",
+      "accentColorRole": "Muted green in the subject's hair and warm skin tones.",
+      "saturationAndValueRelationship": "Low overall saturation with high value contrast between the white border and the dark shadows of the photo.",
+      "paletteRestrictions": [
+        "White",
+        "Black",
+        "Flesh tones",
+        "Sage green"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric sans-serif",
+      "letterConstructionRules": [
+        "Heavy weight",
+        "Italicized/oblique slant",
+        "Tight kerning",
+        "Lowercase characters"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Black/Heavy",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat/Sheared",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "centered",
+            "tracking": "-20",
+            "leading": "1.0",
+            "lineBreakPattern": "single line",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by white space"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used for the main title, paired with utilitarian/functional metadata fonts at the bottom.",
+      "graphicDevices": [
+        "Barcode",
+        "Parental advisory box",
+        "Subtle paper texture on the white border"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase styling",
+          "Italic slant",
+          "Heavy weight"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Uppercase titles",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Extra Bold Italic",
+            "reason": "Matches the geometric structure and heavy oblique feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers Black Italic",
+            "reason": "Provides a similar clean, modernist aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a vertical portrait of a man with short green hair, wet skin, and a bandage on his finger, covering his face in a tiled shower. Place this image inside a square white frame with a subtle paper texture.",
+        "overlayInstruction": "Add a bold, black, lowercase, italicized sans-serif title in the top center margin. Add a barcode and a small parental advisory logo in the bottom center margin."
+      },
+      "verificationChecks": [
+        "Is the title lowercase and italicized?",
+        "Is the central image a vertical rectangle inside a square border?",
+        "Is the lighting high-contrast and moody?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Border width",
+      "Subject hair color",
+      "Typography weight",
+      "Background tile color"
+    ],
+    "mustRedesign": [
+      "Do not use the specific artist's name or likeness.",
+      "Do not copy the exact barcode numbers.",
+      "Do not use the specific brand logos."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean geometric alignment",
+        "High-quality skin texture rendering",
+        "Modernist typographic balance"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast lighting",
+        "Decorative or script fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the white border has a subtle paper grain.",
+      "Check that the typography is perfectly centered.",
+      "Verify the image aspect ratio is vertical within a square canvas.",
+      "Confirm the skin appears wet with visible water droplets."
+    ],
+    "reuseFormula": "Combine a vertical intimate portrait with a wide white square border and bold, lowercase, italicized sans-serif typography for a minimalist editorial look."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:25:41.695Z"
+}
