@@ -1,13 +1,30 @@
 node_modules/
 .next/
 .pnpm-store/
+
+# Keep the portable Skill library in Git, but leave generated and binary data local.
 data/*
 !data/recipes/
 !data/recipes/**
-!data/uploads/
-!data/uploads/**
+!data/imported-skills/
+!data/imported-skills/**
+!data/imported-sources/
+!data/imported-sources/**
+!data/search-documents/
+!data/search-documents/**
+!data/active-skill-versions.json
+data/embeddings/
+data/uploads/
+data/hot100-imports/
+data/exports/
+data/*.sqlite
+data/*.sqlite-*
+data/.DS_Store
+
+# Eval inputs, snapshots, and generated results stay local.
+eval-cases/
+
 .env
 .env.local
 .idea/
 *.tsbuildinfo
-/data/uploads/default
