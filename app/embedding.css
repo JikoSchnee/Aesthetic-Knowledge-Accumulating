@@ -1,12 +1,16 @@
-.embedding-sheet{margin-top:32px;padding-top:26px;border-top:2px solid var(--ink)}
-.embedding-head{display:flex;justify-content:space-between;gap:24px;align-items:flex-end;margin-bottom:18px}
-.embedding-head h3{font:30px var(--serif);margin:6px 0}
-.embedding-head p{margin:0;color:#64645e;font-size:12px}
-.embedding-count{text-align:right}
-.embedding-count b{display:block;font:42px var(--serif);line-height:.8}
-.embedding-count small{font:9px var(--mono);color:#657060}
-.embedding-fields{margin:0}
-.embedding-fields footer>div{display:flex;gap:14px;align-items:center}
-.embedding-message{margin:14px 0 0;padding:10px 12px;border-left:3px solid #567d63;background:#e6eee3;font:11px var(--mono);line-height:1.5;color:#334336}
-.candidate small{font:9px var(--mono);color:#657060}
-@media(max-width:580px){.embedding-head{align-items:flex-start;flex-direction:column}.embedding-count{text-align:left}.embedding-fields footer>div{align-items:flex-start;flex-direction:column}}
+.embedding-sheet { margin-top: 32px; padding-top: 26px; border-top: 2px solid var(--ink); }
+.embedding-head { display: flex; justify-content: space-between; gap: 24px; align-items: flex-end; margin-bottom: 18px; }
+.embedding-head h3 { font: 30px var(--serif); margin: 6px 0; }
+.embedding-head p { margin: 0; color: #64645e; font-size: 12px; }
+.embedding-count { text-align: right; }
+.embedding-count b { display: block; font: 42px/.8 var(--serif); }
+.embedding-count small { font: 9px var(--mono); color: #657060; }
+.embedding-fields { margin: 0; }
+.embedding-fields footer > div { display: flex; gap: 9px; align-items: center; }
+.embedding-message { margin: 12px 0 0; padding: 11px 13px; border-left: 3px solid #567d63; background: #e6eee3; font: 10px/1.5 var(--mono); color: #334336; }
+.candidate small { font: 9px var(--mono); color: #657060; }
+@media (max-width: 580px) {
+  .embedding-head { align-items: flex-start; flex-direction: column; }
+  .embedding-count { text-align: left; }
+  .embedding-fields footer > div { align-items: stretch; flex-direction: column; }
+}
