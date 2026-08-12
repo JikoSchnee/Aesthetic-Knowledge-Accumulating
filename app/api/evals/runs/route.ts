@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { createEvalRun, deleteEvalGroup, listEvalRuns, publicEvalRun, renameEvalGroup } from "../../../../src/lib/evals";
+import { createEvalRun, listEvalRuns, publicEvalRun, renameEvalGroup } from "../../../../src/lib/evals";
 import type { LibraryType } from "../../../../src/lib/library";
 
 export const runtime = "nodejs";
@@ -19,12 +19,4 @@ export async function PATCH(request: Request) {
     if (!body.groupName || !body.nextGroupName) throw new Error("请填写组名。");
     return NextResponse.json((await renameEvalGroup(body.groupName, body.nextGroupName)).map(publicEvalRun));
   } catch (error) { return NextResponse.json({ error: error instanceof Error ? error.message : "无法重命名历史组。" }, { status: 400 }); }
-}
-
-export async function DELETE(request: Request) {
-  try {
-    const groupName = new URL(request.url).searchParams.get("group");
-    if (!groupName) throw new Error("缺少历史组名。");
-    return NextResponse.json({ deletedIds: await deleteEvalGroup(groupName) });
-  } catch (error) { return NextResponse.json({ error: error instanceof Error ? error.message : "无法删除历史组。" }, { status: 400 }); }
 }

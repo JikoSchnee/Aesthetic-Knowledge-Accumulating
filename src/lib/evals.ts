@@ -55,6 +55,7 @@ export type EvalRun = {
   createdAt: string;
   updatedAt: string;
   groupName?: string;
+  name?: string;
   status: "running" | "paused" | "completed";
   config: Omit<ImageGenerationSettings, "apiKey"> & { topK: number; library: LibraryType | "all"; concurrency?: number };
   cases: EvalCaseRun[];
@@ -63,6 +64,11 @@ export type EvalRun = {
 export function evalGroupName(value: unknown) {
   const name = typeof value === "string" ? value.replace(/\s+/g, " ").trim().slice(0, 80) : "";
   return name || "未命名组";
+}
+
+export function evalRunName(value: unknown, fallback = "未命名任务") {
+  const name = typeof value === "string" ? value.replace(/\s+/g, " ").trim().slice(0, 80) : "";
+  return name || fallback;
 }
 
 const supportedMime = new Map([["image/jpeg", "jpg"], ["image/png", "png"], ["image/webp", "webp"]] as const);
@@ -169,7 +175,7 @@ function clearEvalRetrySchedule(item: RetryableEvalItem) {
   delete item.lastTransientError;
 }
 
-export async function createEvalRun(input: { caseIds?: string[]; topK?: number; library?: LibraryType | "all"; concurrency?: number; groupName?: string }) {
+export async function createEvalRun(input: { caseIds?: string[]; topK?: number; library?: LibraryType | "all"; concurrency?: number; groupName?: string; name?: string }) {
   const cases = await listEvalCases();
   const selected = input.caseIds?.length ? cases.filter((item) => input.caseIds?.includes(item.id)) : cases;
   if (!selected.length) throw new Error("请先添加至少一张 Eval 图片。");
@@ -182,12 +188,18 @@ export async function createEvalRun(input: { caseIds?: string[]; topK?: number; 
   await mkdir(directory, { recursive: true });
   const { apiKey: _secret, ...snapshot } = settings;
   const run: EvalRun = {
-    schemaVersion: "1.0", id, createdAt: now, updatedAt: now, groupName: evalGroupName(input.groupName), status: "running",
+    schemaVersion: "1.0", id, createdAt: now, updatedAt: now, groupName: evalGroupName(input.groupName), name: evalRunName(input.name, `Eval ${new Date().toLocaleString("zh-CN")}`), status: "running",
     config: { ...snapshot, topK: Math.max(1, Math.min(10, Math.round(input.topK || 3))), library: input.library === "photo" || input.library === "imported_skill" ? input.library : "all", concurrency: evalConcurrency(input.concurrency) },
     cases: selected.map((item) => ({ caseId: item.id, filename: item.filename, stage: "pending_analysis", timings: {} }))
   };
   await saveEvalRun(run);
   return run;
+}
+
+export async function renameEvalRun(id: string, name: unknown) {
+  const run = await readEvalRun(id);
+  run.name = evalRunName(name, run.name || `Eval ${new Date(run.createdAt).toLocaleString("zh-CN")}`);
+  return saveEvalRun(run);
 }
 
 export async function renameEvalGroup(from: unknown, to: unknown) {
@@ -199,12 +211,11 @@ export async function renameEvalGroup(from: unknown, to: unknown) {
   return listEvalRuns();
 }
 
-export async function deleteEvalGroup(group: unknown) {
-  const name = evalGroupName(group);
-  const runs = await listEvalRuns();
-  const targets = runs.filter((run) => evalGroupName(run.groupName) === name);
-  await Promise.all(targets.map((run) => rm(join(evalRunsDir(), run.id), { recursive: true, force: true })));
-  return targets.map((run) => run.id);
+export async function deleteEvalRun(id: string) {
+  if (!safeId(id)) throw new Error("无效的 Eval Run ID。");
+  // Resolve the run first so the only recursive deletion target is a validated run directory.
+  await readEvalRun(id);
+  await rm(join(evalRunsDir(), id), { recursive: true, force: true });
 }
 
 async function analyzeEvalImage(path: string, mime: string) {
