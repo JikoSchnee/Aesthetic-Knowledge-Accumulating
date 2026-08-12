@@ -104,7 +104,7 @@ export type EvalRun = {
   name?: string;
   status: "running" | "paused" | "completed";
   pauseReason?: string;
-  config: Omit<ImageGenerationSettings, "apiKey"> & { topK: number; library: LibraryType | "all"; concurrency?: number };
+  config: Omit<ImageGenerationSettings, "apiKey"> & { topK: number; randomPickCount?: number; library: LibraryType | "all"; concurrency?: number };
   snapshot?: { file: "snapshot.json"; sha256: string; candidateCount: number; visionModel: string; embeddingModel?: string; promptHash: string };
   cases: EvalCaseRun[];
 };
@@ -213,6 +213,20 @@ export function evalConcurrency(value: unknown) {
   return Math.max(1, Math.min(EVAL_MAX_CONCURRENCY, Number.isFinite(parsed) ? Math.round(parsed) : 3));
 }
 
+export function evalRandomPickCount(topK: number, value: unknown) {
+  const parsed = Number(value);
+  return Math.max(1, Math.min(topK, Number.isFinite(parsed) ? Math.round(parsed) : topK));
+}
+
+export function selectRandomTopK<T>(items: T[], count: number, random: () => number = Math.random) {
+  const indexed = items.map((item, index) => ({ item, index }));
+  for (let index = indexed.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(random() * (index + 1));
+    [indexed[index], indexed[swapIndex]] = [indexed[swapIndex], indexed[index]];
+  }
+  return indexed.slice(0, Math.max(0, Math.min(indexed.length, Math.round(count)))).sort((a, b) => a.index - b.index).map(({ item }) => item);
+}
+
 type RetryableEvalItem = Pick<EvalCaseRun, "retryCount" | "nextRetryAt" | "lastTransientError">;
 export function scheduleEvalRetry(item: RetryableEvalItem, error: Error, now = Date.now()) {
   const retryCount = (item.retryCount || 0) + 1;
@@ -232,7 +246,7 @@ function clearEvalRetrySchedule(item: RetryableEvalItem) {
   delete item.lastTransientError;
 }
 
-export async function createEvalRun(input: { caseIds?: string[]; topK?: number; library?: LibraryType | "all"; concurrency?: number; groupName?: string; name?: string; embedding?: EmbeddingConfig }) {
+export async function createEvalRun(input: { caseIds?: string[]; topK?: number; randomPickCount?: number; library?: LibraryType | "all"; concurrency?: number; groupName?: string; name?: string; embedding?: EmbeddingConfig }) {
   const cases = await listEvalCases();
   const selected = input.caseIds?.length ? cases.filter((item) => input.caseIds?.includes(item.id)) : cases;
   if (!selected.length) throw new Error("请先添加至少一张 Eval 图片。");
@@ -244,6 +258,8 @@ export async function createEvalRun(input: { caseIds?: string[]; topK?: number; 
   const directory = join(evalRunsDir(), id);
   const { apiKey: _secret, ...generationSnapshot } = settings;
   const library = input.library === "photo" || input.library === "imported_skill" ? input.library : "all";
+  const topK = Math.max(1, Math.min(10, Math.round(input.topK || 3)));
+  const randomPickCount = evalRandomPickCount(topK, input.randomPickCount);
   const pool = await buildEligibleSkillPool({ root: dataRoot(), library, excludeIds: selected.map((item) => item.id) });
   if (!pool.candidates.length) throw new Error(noEligibleSkillMessage(pool.diagnostics));
   const evalSnapshot: EvalSnapshot = {
@@ -261,7 +277,7 @@ export async function createEvalRun(input: { caseIds?: string[]; topK?: number; 
   await writeFile(join(directory, "snapshot.json"), snapshotBytes, { flag: "wx" });
   const run: EvalRun = {
     schemaVersion: "2.0", id, createdAt: now, updatedAt: now, groupName: evalGroupName(input.groupName), name: evalRunName(input.name, `Eval ${new Date().toLocaleString("zh-CN")}`), status: "running",
-    config: { ...generationSnapshot, topK: Math.max(1, Math.min(10, Math.round(input.topK || 3))), library, concurrency: evalConcurrency(input.concurrency) },
+    config: { ...generationSnapshot, topK, randomPickCount, library, concurrency: evalConcurrency(input.concurrency) },
     snapshot: { file: "snapshot.json", sha256: snapshotHash, candidateCount: pool.candidates.length, visionModel: evalSnapshot.vision.model, embeddingModel: evalSnapshot.embedding.model, promptHash: createHash("sha256").update(`${evalSnapshot.vision.systemPrompt}\0${evalSnapshot.vision.userPrompt}\0${evalSnapshot.prompts.generationTemplate}\0${evalSnapshot.prompts.qualitySystemPrompt}\0${evalSnapshot.prompts.qualityUserPrompt}`).digest("hex") },
     cases: selected.map((item) => ({ caseId: item.id, filename: item.filename, stage: "pending_analysis", timings: {} }))
   };
@@ -555,10 +571,11 @@ async function advanceEvalCase(run: EvalRun, item: EvalCaseRun, sourceCase: Eval
       const retrieved = snapshot
         ? await rankSkillPool({ query: item.retrievalQuery, embedding, topK: run.config.topK, pool: snapshot.pool })
         : await retrieveSkills({ query: item.retrievalQuery, embedding, library: run.config.library, topK: run.config.topK, excludeIds: [item.caseId] });
-      item.matches = retrieved.results;
+      const randomPickCount = evalRandomPickCount(run.config.topK, run.config.randomPickCount);
+      item.matches = selectRandomTopK(retrieved.results, randomPickCount);
       item.retrievalMode = retrieved.retrievalMode;
       item.retrievalWarning = retrieved.warning;
-      item.retrievalDiagnostics = retrieved.diagnostics;
+      item.retrievalDiagnostics = { ...retrieved.diagnostics, returned: item.matches.length };
       item.queryVector = retrieved.queryVector;
       item.timings.retrieval = Date.now() - started;
       if (!item.matches.length) { item.retrievalCode = "NO_ELIGIBLE_SKILL"; throw new Error(noEligibleSkillMessage(retrieved.diagnostics)); }
@@ -622,7 +639,7 @@ export async function updateEvalRun(id: string, action: "advance" | "pause" | "r
   }));
 
   // First create durable per-Skill generation records after retrieval. Each record is
-  // advanced independently below, so Top K produces Top K images rather than one blend.
+  // advanced independently below, so the random subset is fixed for pause/resume.
   await runStage(run.cases.filter((item) => (item.stage === "pending_analysis" || item.stage === "pending_retrieval") && isEvalRetryDue(item)).slice(0, concurrency));
   await runStage(run.cases.filter((item) => item.stage === "pending_generation" && !item.generations && isEvalRetryDue(item)).slice(0, concurrency));
   const generationJobs = run.cases.flatMap((item) => (item.generations || []).map((generation) => ({ item, generation })))

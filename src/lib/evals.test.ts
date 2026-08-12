@@ -3,7 +3,7 @@ import { test } from "node:test";
 import { mkdtemp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { EVAL_GENERATION_TEMPLATE, EVAL_MAX_CONCURRENCY, EVAL_MAX_RETRIES, evalConcurrency, evalTextInstruction, evalTextSuggestion, fidelityRepairPrompt, generationPrompt, isEvalRetryDue, parseQualityCheck, qualityOutcome, scheduleEvalRetry, subjectLockFromAnalysis, subjectLockInstruction, type EvalCaseRun } from "./evals";
+import { EVAL_GENERATION_TEMPLATE, EVAL_MAX_CONCURRENCY, EVAL_MAX_RETRIES, evalConcurrency, evalRandomPickCount, evalTextInstruction, evalTextSuggestion, fidelityRepairPrompt, generationPrompt, isEvalRetryDue, parseQualityCheck, qualityOutcome, scheduleEvalRetry, selectRandomTopK, subjectLockFromAnalysis, subjectLockInstruction, type EvalCaseRun } from "./evals";
 import { GenerationTransientError, isGenerationTransientError, openRouterRequestBody, resolveGeneratedImage, validateRaster } from "./image-generation";
 import { IMAGE_GENERATION_DEFAULTS, templateForFalModel, validateImageGenerationSettings, visibleImageGenerationSettings } from "./image-generation-settings";
 import { buildEligibleSkillPool, keywordScore, rankSkillPool, retrieveSkills } from "./retrieval";
@@ -131,6 +131,14 @@ test("Eval concurrency stays within the supported range", () => {
   assert.equal(evalConcurrency(0), 1);
   assert.equal(evalConcurrency(5.6), 6);
   assert.equal(evalConcurrency(99), EVAL_MAX_CONCURRENCY);
+});
+
+test("Eval randomly selects the requested number from Top K", () => {
+  assert.equal(evalRandomPickCount(5, 2.4), 2);
+  assert.equal(evalRandomPickCount(5, 99), 5);
+  assert.equal(evalRandomPickCount(5, undefined), 5);
+  const selected = selectRandomTopK(["a", "b", "c", "d", "e"], 2, () => 0);
+  assert.deepEqual(selected, ["b", "c"]);
 });
 
 test("Eval transient failures persist a three-attempt backoff schedule", () => {
