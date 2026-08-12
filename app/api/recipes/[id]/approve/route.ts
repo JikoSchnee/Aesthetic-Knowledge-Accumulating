@@ -2,7 +2,7 @@ import { mkdir, readFile, unlink, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { NextResponse } from "next/server";
 import { dedupeText, findDuplicateCandidates, type RecipeLike } from "../../../../../src/lib/dedupe";
-import { createSkillEmbedding, hasEmbeddingConfig, type EmbeddingConfig } from "../../../../../src/lib/embeddings";
+import { createSkillEmbedding, hasEmbeddingConfig, removeEmbeddingMetadata, type EmbeddingConfig } from "../../../../../src/lib/embeddings";
 import { TYPOGRAPHY_SCHEMA_VERSION, typographyText } from "../../../../../src/lib/typography";
 import { dataRoot, locateSkill, readSkills } from "../../../../../src/lib/library";
 import { applyRetrievalProfile, retrievalProfileForRecipe, setActiveSkillVersion, skillIdentity } from "../../../../../src/lib/skill-governance";
@@ -18,6 +18,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     if (!located) return NextResponse.json({ error: "Recipe not found." }, { status: 404 });
     const recipePath = located.path;
     const stored = JSON.parse(await readFile(recipePath, "utf8"));
+    removeEmbeddingMetadata(stored);
     if (stored.status !== "needs_review") return NextResponse.json({ error: "Recipe is not awaiting review." }, { status: 409 });
     const identity = skillIdentity(stored);
     stored.skillId = identity.skillId; stored.versionId = identity.versionId; stored.version = identity.version;
@@ -76,26 +77,9 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     if (hasEmbeddingConfig(embedding)) {
       try {
         generatedEmbedding = await createSkillEmbedding(identity.skillId, recipe, embedding, identity.versionId);
-        stored.embeddingStatus = "ready";
-        stored.embeddingModel = embedding.model;
-        stored.embeddingUpdatedAt = generatedEmbedding.createdAt;
-        stored.indexStatus = "hybrid_searchable";
-        searchDocument.embeddingStatus = "ready";
-        searchDocument.embeddingModel = embedding.model;
-        searchDocument.embeddingUpdatedAt = generatedEmbedding.createdAt;
       } catch (error) {
         embeddingWarning = error instanceof Error ? error.message : "向量生成失败。";
-        stored.embeddingStatus = "failed";
-        stored.embeddingModel = embedding.model;
-        stored.embeddingError = embeddingWarning;
-        stored.indexStatus = "keyword_only";
-        searchDocument.embeddingStatus = "failed";
-        searchDocument.embeddingModel = embedding.model;
       }
-    } else {
-      stored.embeddingStatus = "missing";
-      stored.indexStatus = "keyword_only";
-      searchDocument.embeddingStatus = "missing";
     }
     stored.approvedAt = new Date().toISOString();
     await mkdir(join(dataDir, "search-documents"), { recursive: true });
@@ -122,6 +106,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
         await unlink(join(dataDir, "search-documents", `${predecessor.id}.json`)).catch(() => undefined);
       } catch { /* Keep the newly approved version even if historical cleanup fails. */ }
     }
-    return NextResponse.json({ id, libraryType: stored.libraryType || located.library, status: "approved", indexStatus: stored.indexStatus, embeddingStatus: stored.embeddingStatus, warning: embeddingWarning || undefined });
+    const embeddingStatus = generatedEmbedding ? "ready" : "missing";
+    return NextResponse.json({ id, libraryType: stored.libraryType || located.library, status: "approved", embeddingStatus, warning: embeddingWarning || undefined });
   } catch { return NextResponse.json({ error: "Recipe not found." }, { status: 404 }); }
 }

@@ -23,7 +23,7 @@ type IntakeRecord = { hash: string; extension: string; filename: string; outcome
 type AlbumCandidate = { id: string; title: string; artist: string; genre: string; year: string; artwork: string; sourceUrl: string; provider: "musicbrainz-caa" | "apple-music-rss"; releaseGroupId?: string; chartRank?: number };
 type AnalysisFailure = { hash: string; filename: string; reason: string };
 type EmbeddingSettings = { endpoint: string; model: string; apiKey: string };
-type EmbeddingStats = { total: number; ready: number; pending: number; stale: number; failed: number };
+type EmbeddingStats = { total: number; ready: number; missing: number; stale: number };
 type LocalTransferStats = Record<"embeddings" | "uploads" | "evals", { files: number; bytes: number }>;
 type TypographyStats = { total: number; ready: number; pending: number; failed: number; missingSource: number };
 type ConnectionResult = { target: string; ok: boolean; status: number | null; latencyMs: number; message: string; endpoint?: string };
@@ -332,6 +332,7 @@ function LocalTransferPanel({ embedding, setEmbedding }: { embedding: EmbeddingS
         const next = { ...embedding, ...result.embeddingConfig };
         setEmbedding(next); window.localStorage.setItem("taste-studio-embedding-settings", JSON.stringify(next));
       }
+      window.dispatchEvent(new Event("taste-studio-embeddings-changed"));
       setMessage(`导入完成：新增 ${result.imported || 0} · 更新 ${result.replaced || 0} · 已一致 ${result.unchanged || 0}。API Key 未从迁移包读取。`);
       await refresh();
     } catch (error) { setMessage(error instanceof Error ? error.message : "迁移包导入失败。"); }
@@ -354,10 +355,10 @@ function UpstreamDiagnostics() {
 }
 
 function EmbeddingSettingsPanel({ values, setValues }: { values: EmbeddingSettings; setValues: React.Dispatch<React.SetStateAction<EmbeddingSettings>> }) {
-  const [stats, setStats] = useState<EmbeddingStats>({ total: 0, ready: 0, pending: 0, stale: 0, failed: 0 });
+  const [stats, setStats] = useState<EmbeddingStats>({ total: 0, ready: 0, missing: 0, stale: 0 });
   const [message, setMessage] = useState(""); const [running, setRunning] = useState(false); const [saved, setSaved] = useState(false); const [testing, setTesting] = useState(false); const [testResult, setTestResult] = useState<ConnectionResult>();
-  const refresh = () => fetch("/api/embeddings/backfill").then((response) => response.ok ? response.json() : null).then((next) => next && setStats(next)).catch(() => undefined);
-  useEffect(() => { void refresh(); }, []);
+  const refresh = (model = values.model) => fetch(`/api/embeddings/backfill?model=${encodeURIComponent(model)}`).then((response) => response.ok ? response.json() : null).then((next) => next && setStats(next)).catch(() => undefined);
+  useEffect(() => { const updateStats = () => { void fetch(`/api/embeddings/backfill?model=${encodeURIComponent(values.model)}`).then((response) => response.ok ? response.json() : null).then((next) => next && setStats(next)).catch(() => undefined); }; updateStats(); window.addEventListener("taste-studio-embeddings-changed", updateStats); return () => window.removeEventListener("taste-studio-embeddings-changed", updateStats); }, [values.model]);
   const update = (key: keyof EmbeddingSettings, value: string) => { setSaved(false); setValues((current) => ({ ...current, [key]: value })); };
   const save = () => { window.localStorage.setItem("taste-studio-embedding-settings", JSON.stringify(values)); setSaved(true); setMessage("向量配置已保存到当前浏览器。"); };
   const test = async () => { setTesting(true); setTestResult(undefined); try { const response = await fetch("/api/settings/connections", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ target: "embedding", ...values }) }); setTestResult(await response.json() as ConnectionResult); } catch (error) { setTestResult({ target: "embedding", ok: false, status: null, latencyMs: 0, message: error instanceof Error ? error.message : "连接测试失败。" }); } finally { setTesting(false); } };
@@ -373,7 +374,7 @@ function EmbeddingSettingsPanel({ values, setValues }: { values: EmbeddingSettin
     } catch (error) { setMessage(error instanceof Error ? error.message : "回填失败。"); }
     finally { setRunning(false); }
   };
-  return <section className="embedding-sheet"><div className="embedding-head"><div><span className="eyebrow">SEMANTIC INDEX</span><h3>Skill 向量检索</h3><p>批准时创建三条向量；旧资料库可在此显式回填。</p></div><div className="embedding-count"><b>{stats.ready}</b><small>/ {stats.total} READY</small></div></div><div className="settings-sheet embedding-fields"><div className="settings-field full"><label htmlFor="embedding-endpoint">Embedding API Base URL</label><input id="embedding-endpoint" value={values.endpoint} onChange={(event) => update("endpoint", event.target.value)} /></div><div className="settings-field"><label htmlFor="embedding-model">Embedding 模型 ID</label><input id="embedding-model" value={values.model} onChange={(event) => update("model", event.target.value)} /></div><div className="settings-field"><label htmlFor="embedding-key">Embedding API Key</label><div className="key-input"><input id="embedding-key" type="password" value={values.apiKey} onChange={(event) => update("apiKey", event.target.value)} autoComplete="off"/><span>{values.apiKey ? "● 已输入" : "○ 未输入"}</span></div></div><footer><small>已就绪 {stats.ready} · 待生成 {stats.pending} · 过期 {stats.stale} · 失败 {stats.failed}</small><div><button className="text-btn" onClick={test} disabled={testing || !values.apiKey}>{testing ? "正在测试…" : "测试 Embedding API"}</button><button className="text-btn" onClick={save}>{saved ? "✓ 已保存" : "保存向量配置"}</button><button className="ink-btn" onClick={backfill} disabled={running}>{running ? "正在建立向量…" : "为旧 Skill 建立/更新向量"}</button></div></footer>{testResult && <ConnectionStatus result={testResult} />}</div>{message && <p className="embedding-message">{message}</p>}</section>;
+  return <section className="embedding-sheet"><div className="embedding-head"><div><span className="eyebrow">SEMANTIC INDEX</span><h3>Skill 向量检索</h3><p>批准时创建三条向量；状态由当前设备的向量签名实时计算。</p></div><div className="embedding-count"><b>{stats.ready}</b><small>/ {stats.total} READY</small></div></div><div className="settings-sheet embedding-fields"><div className="settings-field full"><label htmlFor="embedding-endpoint">Embedding API Base URL</label><input id="embedding-endpoint" value={values.endpoint} onChange={(event) => update("endpoint", event.target.value)} /></div><div className="settings-field"><label htmlFor="embedding-model">Embedding 模型 ID</label><input id="embedding-model" value={values.model} onChange={(event) => update("model", event.target.value)} /></div><div className="settings-field"><label htmlFor="embedding-key">Embedding API Key</label><div className="key-input"><input id="embedding-key" type="password" value={values.apiKey} onChange={(event) => update("apiKey", event.target.value)} autoComplete="off"/><span>{values.apiKey ? "● 已输入" : "○ 未输入"}</span></div></div><footer><small>已就绪 {stats.ready} · 缺少 {stats.missing} · 过期 {stats.stale}</small><div><button className="text-btn" onClick={test} disabled={testing || !values.apiKey}>{testing ? "正在测试…" : "测试 Embedding API"}</button><button className="text-btn" onClick={save}>{saved ? "✓ 已保存" : "保存向量配置"}</button><button className="ink-btn" onClick={backfill} disabled={running}>{running ? "正在建立向量…" : "为旧 Skill 建立/更新向量"}</button></div></footer>{testResult && <ConnectionStatus result={testResult} />}</div>{message && <p className="embedding-message">{message}</p>}</section>;
 }
 
 function TypographyBackfillPanel({ vision, embedding }: { vision: { endpoint: string; model: string; apiKey: string }; embedding: EmbeddingSettings }) {

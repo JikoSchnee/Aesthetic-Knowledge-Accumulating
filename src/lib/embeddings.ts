@@ -15,6 +15,14 @@ export type SkillEmbedding = {
   contentHashes: Record<keyof EmbeddingTexts, string>;
   vectors: Record<keyof EmbeddingTexts, number[]>;
 };
+export type EmbeddingState = "ready" | "stale" | "missing";
+
+const embeddingMetadataFields = ["embeddingStatus", "embeddingModel", "embeddingUpdatedAt", "embeddingError", "indexStatus"] as const;
+
+export function removeEmbeddingMetadata<T extends Record<string, unknown>>(record: T) {
+  for (const field of embeddingMetadataFields) delete record[field];
+  return record;
+}
 
 const object = (value: unknown) => value && typeof value === "object" && !Array.isArray(value) ? value as Record<string, unknown> : {};
 const join = (parts: unknown[]) => parts.flatMap(flattenText).join(" · ");
@@ -73,8 +81,14 @@ export async function createQueryEmbedding(query: string, config: Required<Embed
 
 export function isCurrentEmbedding(embedding: SkillEmbedding | undefined, skillId: string, recipe: RecipeForEmbedding, model: string, versionId = skillId) {
   if (!embedding || embedding.skillId !== skillId || (embedding.versionId || embedding.skillId) !== versionId || embedding.requestedModel !== model) return false;
+  if (!Number.isSafeInteger(embedding.dimensions) || embedding.dimensions <= 0 || (Object.keys(embedding.vectors || {}) as Array<keyof EmbeddingTexts>).length !== 3 || (Object.keys(embeddingTexts(recipe)) as Array<keyof EmbeddingTexts>).some((key) => !Array.isArray(embedding.vectors[key]) || embedding.vectors[key].length !== embedding.dimensions)) return false;
   const hashes = textHashes(embeddingTexts(recipe));
   return (Object.keys(hashes) as Array<keyof EmbeddingTexts>).every((key) => hashes[key] === embedding.contentHashes[key]);
+}
+
+export function embeddingState(embedding: SkillEmbedding | undefined, skillId: string, recipe: RecipeForEmbedding, model?: string, versionId = skillId): EmbeddingState {
+  if (!embedding) return "missing";
+  return isCurrentEmbedding(embedding, skillId, recipe, model?.trim() || embedding.requestedModel, versionId) ? "ready" : "stale";
 }
 
 export function cosine(a: number[], b: number[]) {

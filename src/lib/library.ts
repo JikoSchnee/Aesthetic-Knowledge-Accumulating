@@ -13,11 +13,6 @@ export type StoredSkill = {
   status: "needs_review" | "approved" | "rejected" | string;
   createdAt: string;
   recipe: Record<string, unknown> & { metadata?: { title?: string; category?: string }; retrievalProfile?: RetrievalProfile };
-  embeddingStatus?: string;
-  embeddingModel?: string;
-  embeddingUpdatedAt?: string;
-  embeddingError?: string;
-  indexStatus?: string;
   [key: string]: unknown;
 };
 

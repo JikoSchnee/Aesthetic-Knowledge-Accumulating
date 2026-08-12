@@ -1,7 +1,7 @@
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { extname, join } from "node:path";
 import { NextResponse } from "next/server";
-import { createSkillEmbedding, hasEmbeddingConfig, type EmbeddingConfig } from "../../../../src/lib/embeddings";
+import { createSkillEmbedding, hasEmbeddingConfig, removeEmbeddingMetadata, type EmbeddingConfig } from "../../../../src/lib/embeddings";
 import { isTypography, TYPOGRAPHY_SCHEMA_VERSION, typographyContract, typographyRules, typographyText } from "../../../../src/lib/typography";
 import { retrievalProfileForRecipe, skillIdentity } from "../../../../src/lib/skill-governance";
 
@@ -67,12 +67,13 @@ export async function POST(request: Request) {
           const searchPath = join(searchDir, `${stored.id}.json`); const search = await readJson<Record<string, unknown>>(searchPath); const typographySearchText = typographyText(typography);
           if (search) { const array = (value: unknown) => Array.isArray(value) ? value : []; const profile = retrievalProfileForRecipe(stored.recipe); search.retrievalProfile = profile; search.typographyText = typographySearchText; search.searchText = [search.title, search.category, ...array(search.medium), ...array(search.useCases), ...array(search.tags), profile.description, ...profile.triggerTerms, ...array(search.coreRelationships), search.reuseFormula, typographySearchText].filter(Boolean).join(" · "); search.typographyStatus = "ready"; search.typographySchemaVersion = TYPOGRAPHY_SCHEMA_VERSION; search.recipeSchemaVersion = "1.2"; search.searchSchemaVersion = "1.2"; }
           if (hasEmbeddingConfig(embedding)) {
-            try { const identity = skillIdentity(stored as Record<string, unknown>); const generated = await createSkillEmbedding(identity.skillId, stored.recipe, embedding, identity.versionId); await writeFile(join(embeddingsDir, `${stored.id}.json`), JSON.stringify(generated, null, 2)); stored.embeddingStatus = "ready"; stored.embeddingModel = embedding.model; stored.embeddingUpdatedAt = generated.createdAt; stored.indexStatus = "hybrid_searchable"; if (search) { search.embeddingStatus = "ready"; search.embeddingModel = embedding.model; search.embeddingUpdatedAt = generated.createdAt; } vectorsRebuilt += 1; }
-            catch (error) { stored.embeddingStatus = "stale"; stored.embeddingError = error instanceof Error ? error.message : "向量重建失败。"; stored.indexStatus = "keyword_only"; if (search) search.embeddingStatus = "stale"; }
-          } else { stored.embeddingStatus = "stale"; stored.indexStatus = "keyword_only"; if (search) search.embeddingStatus = "stale"; }
+            try { const identity = skillIdentity(stored as Record<string, unknown>); const generated = await createSkillEmbedding(identity.skillId, stored.recipe, embedding, identity.versionId); await writeFile(join(embeddingsDir, `${stored.id}.json`), JSON.stringify(generated, null, 2)); vectorsRebuilt += 1; }
+            catch { /* The changed recipe remains stale until a later local vector rebuild. */ }
+          }
+          removeEmbeddingMetadata(stored); if (search) removeEmbeddingMetadata(search);
           await writeFile(join(recipesDir, `${stored.id}.json`), JSON.stringify(stored, null, 2)); if (search) await writeFile(searchPath, JSON.stringify(search, null, 2)); succeeded += 1;
         }
-      } catch (error) { stored.typographyStatus = "failed"; stored.typographyModel = vision.model; stored.typographyError = error instanceof Error ? error.message : "字体分析失败。"; await writeFile(join(recipesDir, `${stored.id}.json`), JSON.stringify(stored, null, 2)); failed.push({ id: stored.id, title, reason: stored.typographyError }); }
+      } catch (error) { stored.typographyStatus = "failed"; stored.typographyModel = vision.model; stored.typographyError = error instanceof Error ? error.message : "字体分析失败。"; removeEmbeddingMetadata(stored); await writeFile(join(recipesDir, `${stored.id}.json`), JSON.stringify(stored, null, 2)); failed.push({ id: stored.id, title, reason: stored.typographyError }); }
       emit({ type: "progress", completed: index + 1, total: recipes.length, succeeded, skipped, failed: failed.length, vectorsRebuilt, title });
     }
     emit({ type: "complete", total: recipes.length, succeeded, skipped, vectorsRebuilt, failed }); controller.close();
