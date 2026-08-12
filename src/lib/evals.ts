@@ -299,17 +299,17 @@ async function analyzeEvalImage(path: string, mime: string, snapshot?: EvalSnaps
   if (snapshot && (process.env.VISION_ENDPOINT !== endpoint || process.env.VISION_MODEL !== model)) throw new Error(`当前视觉分析配置已变更。请切回 ${endpoint} / ${model} 后恢复此运行。`);
   if (!apiKey) throw new Error("视觉分析 API Key 不可用。");
   const vision = snapshot?.vision || { endpoint, model, temperature: 0.2, retryTemperature: 0, responseFormat: "json_object" as const, systemPrompt: EVAL_ANALYSIS_SYSTEM_PROMPT, userPrompt: EVAL_ANALYSIS_USER_PROMPT };
-  const request = async (strict = false) => fetch(`${endpoint.replace(/\/$/, "")}/chat/completions`, {
+  const request = async (strict = false, validationError = "") => fetch(`${endpoint.replace(/\/$/, "")}/chat/completions`, {
     method: "POST",
     headers: { "content-type": "application/json", authorization: `Bearer ${apiKey}` },
-    body: JSON.stringify({ model, temperature: strict ? vision.retryTemperature : vision.temperature, response_format: { type: vision.responseFormat }, messages: [{ role: "system", content: vision.systemPrompt }, { role: "user", content: [{ type: "text", text: vision.userPrompt }, { type: "image_url", image_url: { url: `data:${mime};base64,${image.toString("base64")}` } }] }] })
+    body: JSON.stringify({ model, temperature: strict ? vision.retryTemperature : vision.temperature, response_format: { type: vision.responseFormat }, messages: [{ role: "system", content: vision.systemPrompt }, { role: "user", content: [{ type: "text", text: strict ? `${vision.userPrompt}\nRegenerate the complete object and correct these validation errors: ${validationError}` : vision.userPrompt }, { type: "image_url", image_url: { url: `data:${mime};base64,${image.toString("base64")}` } }] }] })
   });
   let response = await request();
   if (!response.ok) throw new Error(`视觉分析失败（HTTP ${response.status}）。`);
   let payload = await response.json() as { choices?: Array<{ message?: { content?: unknown } }> };
   try { return parseValidRecipe(payload.choices?.[0]?.message?.content) as Record<string, unknown>; }
-  catch {
-    response = await request(true);
+  catch (firstError) {
+    response = await request(true, firstError instanceof Error ? firstError.message.slice(0, 1200) : "invalid recipe structure");
     if (!response.ok) throw new Error(`视觉分析重试失败（HTTP ${response.status}）。`);
     payload = await response.json() as { choices?: Array<{ message?: { content?: unknown } }> };
     return parseValidRecipe(payload.choices?.[0]?.message?.content) as Record<string, unknown>;

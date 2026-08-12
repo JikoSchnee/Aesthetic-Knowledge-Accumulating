@@ -32,10 +32,10 @@ export async function POST(request: Request) {
     try { await access(join(recipeDir, `${record.hash}.json`)); skipped.push(record.hash); return; } catch { /* New source image. */ }
     const image = await readFile(join(dataDir, "uploads", "default", `${record.hash}.${record.extension}`));
     const mime = record.extension === "jpg" ? "image/jpeg" : `image/${record.extension}`;
-    const requestModel = (strict = false) => fetch(`${endpoint.replace(/\/$/, "")}/chat/completions`, {
+    const requestModel = (strict = false, validationError = "") => fetch(`${endpoint.replace(/\/$/, "")}/chat/completions`, {
       method: "POST",
       headers: { "content-type": "application/json", authorization: `Bearer ${apiKey}` },
-      body: JSON.stringify({ model, temperature: strict ? 0 : 0.3, response_format: { type: "json_object" }, messages: [{ role: "system", content: strict ? `${recipePrompt} This is a retry. Return the JSON object only: no Markdown fence, no explanation, and no text before or after it.` : recipePrompt }, { role: "user", content: [{ type: "text", text: "Create one independent English visual recipe for this image." }, { type: "image_url", image_url: { url: `data:${mime};base64,${image.toString("base64")}` } }] }] })
+      body: JSON.stringify({ model, temperature: strict ? 0 : 0.3, response_format: { type: "json_object" }, messages: [{ role: "system", content: strict ? `${recipePrompt} This is a schema-repair retry. Correct every validation error listed by the user and return the complete JSON object only.` : recipePrompt }, { role: "user", content: [{ type: "text", text: strict ? `Regenerate the complete recipe. The previous response failed validation: ${validationError}` : "Create one independent English visual recipe for this image." }, { type: "image_url", image_url: { url: `data:${mime};base64,${image.toString("base64")}` } }] }] })
     });
     const response = await requestModel();
     if (!response.ok) {
@@ -46,11 +46,11 @@ export async function POST(request: Request) {
     const content = payload.choices?.[0]?.message?.content;
     if (!content) throw new Error("模型没有返回配方内容。");
     let recipe: RecipeLike["recipe"];
-    try { recipe = parseValidRecipe(content); } catch {
-      const retry = await requestModel(true);
+    try { recipe = parseValidRecipe(content); } catch (firstError) {
+      const retry = await requestModel(true, firstError instanceof Error ? firstError.message.slice(0, 1200) : "invalid recipe structure");
       if (!retry.ok) throw new Error(`模型重试失败（HTTP ${retry.status}）。`);
       const retryPayload = await retry.json() as { choices?: Array<{ message?: { content?: unknown } }> };
-      try { recipe = parseValidRecipe(retryPayload.choices?.[0]?.message?.content); } catch { throw new Error("模型连续两次未返回有效的配方 JSON 或字体设计板块。请更换支持结构化输出的视觉模型后重试。"); }
+      try { recipe = parseValidRecipe(retryPayload.choices?.[0]?.message?.content); } catch (retryError) { throw new Error(`模型连续两次未返回有效配方：${retryError instanceof Error ? retryError.message : "unknown schema error"}`); }
     }
     recipe = applyRetrievalProfile(recipe as Record<string, unknown>) as RecipeLike["recipe"];
     const duplicateCandidates = findDuplicateCandidates(recipe as RecipeLike["recipe"], existing);
