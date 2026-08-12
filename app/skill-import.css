@@ -1,9 +1,9 @@
-.import-mode-tabs{display:grid;grid-template-columns:1fr 1fr;margin:0 24px 26px;border:1px solid #aaa392;background:#d7d8ca}
-.import-mode-tabs button{display:flex;align-items:center;gap:16px;padding:15px 20px;border:0;border-right:1px solid #aaa392;background:transparent;text-align:left;color:var(--ink);cursor:pointer}
+.import-mode-tabs{display:grid;grid-template-columns:repeat(5,minmax(145px,1fr));margin:0 24px 26px;border:1px solid #aaa392;background:#d7d8ca;overflow-x:auto}
+.import-mode-tabs button{display:flex;align-items:center;gap:12px;min-width:145px;padding:13px 15px;border:0;border-right:1px solid #aaa392;background:transparent;text-align:left;color:var(--ink);cursor:pointer}
 .import-mode-tabs button:last-child{border-right:0}
 .import-mode-tabs button.active{background:var(--ink);color:#f1eadc}
 .import-mode-tabs button>b{font:26px var(--serif);color:var(--red)}
-.import-mode-tabs button>span{font:15px var(--serif)}
+.import-mode-tabs button>span{font:14px var(--serif);white-space:nowrap}
 .import-mode-tabs small{display:block;margin-top:3px;font:8px var(--mono);letter-spacing:.1em}
 .skill-import-page{padding-top:0}
 .skill-source-tabs{display:flex;margin:0 24px 12px;border-bottom:1px solid #9f9888}
@@ -95,6 +95,7 @@
 .external-source dl>div{border-right:0;border-bottom:1px solid #9ba594}
 }
 
+@media(max-width:900px){.import-mode-tabs{grid-template-columns:repeat(5,145px);scrollbar-width:thin}}
 @media(max-width:620px){.import-mode-tabs,.skill-source-tabs{margin-inline:18px}
 .skill-drop,.skill-import-console{margin-inline:18px}
 .skill-drop{padding:24px}

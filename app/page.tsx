@@ -13,13 +13,14 @@ import "./eval-sidebar.css";
 import { EvalStudio, ImageGenerationSettingsPanel } from "./eval-studio";
 
 type Screen = "photo-library" | "skill-library" | "import" | "review" | "lab" | "eval" | "export" | "settings";
+type ImportMode = "local" | "pinterest" | "album" | "hot100" | "skill";
 type DuplicateCandidate = { id: string; title: string; similarity: number; overlap: string[] };
 type TypographyRoleView = { role: string; hierarchyLevel: number; classification: string; anatomy?: Record<string, string>; typesetting?: Record<string, string>; composition?: Record<string, string>; treatment?: Record<string, string> };
 type TypographyView = { presence: "dominant" | "supporting" | "none"; constructionMode?: string; baseSkeleton?: string; letterConstructionRules?: string[]; characterSpecificRedesigns?: string[]; recommendedProductionMethod?: string; fontRequired?: boolean; roles: TypographyRoleView[]; pairingStrategy?: string; graphicDevices?: string[]; substitutionGuidance?: { preserve?: string[]; avoid?: string[]; candidateDirections?: Array<{ nameOrCategory: string; reason: string; confidence: string }> }; twoStageComposition?: { backgroundInstruction?: string; overlayInstruction?: string }; verificationChecks?: string[]; confidence?: string };
 type GitHubSource = { originalUrl: string; owner: string; repo: string; skillRoot: string; inputRef: string; commitSha: string; commitUrl: string; fetchedAt: string; upstreamKey: string };
 type RetrievalProfile = { description: string; triggerTerms: string[]; excludeWhen: string[]; reviewStatus: "generated" | "reviewed" };
-type StoredRecipe = { id: string; libraryType?: "photo" | "imported_skill"; status: string; providerModel: string; createdAt: string; duplicateCandidates?: DuplicateCandidate[]; duplicateDecision?: string; upstreamUpdate?: boolean; supersedes?: Array<{ id: string; commitSha?: string }>; source?: { kind?: string; title?: string; artist?: string; albumTitle?: string; root?: string; files?: string[]; preview?: string; externalSkillId?: string; remoteSource?: GitHubSource }; recipe: { metadata?: { title?: string; category?: string; medium?: string[]; retrievalTags?: string[] }; retrievalProfile?: RetrievalProfile; visualDefinition?: string; coreVisualRelationships?: string[]; colorSystem?: { dominantColorRole?: string; contrastColorRole?: string; accentColorRole?: string }; typographyAndGraphicLanguage?: TypographyView; reuseFormula?: string } };
-type IntakeRecord = { hash: string; extension: string; filename: string; outcome: "new" | "retry" | "skipped_duplicate"; reason?: string };
+type StoredRecipe = { id: string; libraryType?: "photo" | "imported_skill"; status: string; providerModel: string; createdAt: string; duplicateCandidates?: DuplicateCandidate[]; duplicateDecision?: string; upstreamUpdate?: boolean; supersedes?: Array<{ id: string; commitSha?: string }>; source?: { kind?: string; title?: string; artist?: string; albumTitle?: string; root?: string; files?: string[]; preview?: string; externalSkillId?: string; remoteSource?: GitHubSource; imageUrl?: string; pinUrl?: string; pinId?: string; board?: string; author?: string; saves?: number; followers?: number; selectionMode?: "fixed_threshold" | "relative_batch"; qualityScore?: number; savePercentile?: number; followerPercentile?: number; minimumSaves?: number }; recipe: { metadata?: { title?: string; category?: string; medium?: string[]; retrievalTags?: string[] }; retrievalProfile?: RetrievalProfile; visualDefinition?: string; coreVisualRelationships?: string[]; colorSystem?: { dominantColorRole?: string; contrastColorRole?: string; accentColorRole?: string }; typographyAndGraphicLanguage?: TypographyView; reuseFormula?: string } };
+type IntakeRecord = { hash: string; extension: string; filename: string; outcome: "new" | "retry" | "skipped_duplicate"; reason?: string; source?: Record<string, unknown> };
 type AlbumCandidate = { id: string; title: string; artist: string; genre: string; year: string; artwork: string; sourceUrl: string; provider: "musicbrainz-caa" | "apple-music-rss"; releaseGroupId?: string; chartRank?: number };
 type AnalysisFailure = { hash: string; filename: string; reason: string };
 type EmbeddingSettings = { endpoint: string; model: string; apiKey: string };
@@ -31,7 +32,7 @@ type SearchResult = { id: string; libraryType?: "photo" | "imported_skill"; titl
 type SkillImportEvent = { type: string; completed?: number; total?: number; succeeded?: number; rejected?: number; failed?: number | Array<{ title: string; reason: string }>; current?: string; outcome?: string; reason?: string };
 export default function Home() {
   const [screen, setScreen] = useState<Screen>("photo-library");
-  const [importMode, setImportMode] = useState<"photo" | "skill">("photo");
+  const [importMode, setImportMode] = useState<ImportMode>("local");
   const [files, setFiles] = useState<File[]>([]);
   const [queue, setQueue] = useState(0);
   const [importStatus, setImportStatus] = useState<"idle" | "processing" | "completed">("idle");
@@ -39,6 +40,11 @@ export default function Home() {
   const [intakeRecords, setIntakeRecords] = useState<IntakeRecord[]>([]);
   const [selectionNote, setSelectionNote] = useState("");
   const [analysisFailures, setAnalysisFailures] = useState<AnalysisFailure[]>([]);
+  const [albumQueue, setAlbumQueue] = useState(0);
+  const [albumStatus, setAlbumStatus] = useState<"idle" | "processing" | "completed">("idle");
+  const [albumError, setAlbumError] = useState("");
+  const [albumIntakeRecords, setAlbumIntakeRecords] = useState<IntakeRecord[]>([]);
+  const [albumFailures, setAlbumFailures] = useState<AnalysisFailure[]>([]);
   const [approvalError, setApprovalError] = useState("");
   const [reviewRecipes, setReviewRecipes] = useState<StoredRecipe[]>([]);
   const [photoRecipes, setPhotoRecipes] = useState<StoredRecipe[]>([]);
@@ -121,21 +127,21 @@ export default function Home() {
     }
   };
   const startAlbumImport = async (albums: AlbumCandidate[]) => {
-    if (!albums.length || importStatus === "processing") return;
-    setImportError(""); setAnalysisFailures([]); setQueue(0); setImportStatus("processing");
+    if (!albums.length || albumStatus === "processing") return;
+    setAlbumError(""); setAlbumFailures([]); setAlbumQueue(0); setAlbumStatus("processing");
     try {
       const response = await fetch("/api/albums/import", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ albums }) });
       const intake = await response.json() as { batchId?: string; records?: IntakeRecord[]; error?: string };
       if (!response.ok || !intake.batchId || !intake.records) throw new Error(intake.error || "无法保存专辑封面");
-      setIntakeRecords(intake.records); const newRecords = intake.records.filter((record) => record.outcome !== "skipped_duplicate");
-      if (!newRecords.length) { setQueue(100); setImportStatus("completed"); return; }
+      setAlbumIntakeRecords(intake.records); const newRecords = intake.records.filter((record) => record.outcome !== "skipped_duplicate");
+      if (!newRecords.length) { setAlbumQueue(100); setAlbumStatus("completed"); return; }
       const analysis = await fetch("/api/batches/analyze", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ batchId: intake.batchId, records: newRecords, provider: apiSettings.provider, model: apiSettings.model, endpoint: apiSettings.endpoint, apiKey: apiSettings.apiKey, concurrency, stream: true }) });
       if (!analysis.ok) { const result = await analysis.json().catch(() => ({})); throw new Error(result.error || "模型分析失败"); }
       const reader = analysis.body?.getReader(); if (!reader) throw new Error("分析进度流未建立。");
       const decoder = new TextDecoder(); let buffer = ""; let failures: AnalysisFailure[] = [];
-      while (true) { const { done, value } = await reader.read(); buffer += decoder.decode(value || new Uint8Array(), { stream: !done }); const lines = buffer.split("\n"); buffer = lines.pop() || ""; for (const line of lines) { if (!line.trim()) continue; const event = JSON.parse(line) as { type: string; completed?: number; total?: number; failed?: AnalysisFailure[]; error?: string }; if (event.type === "progress") setQueue(Math.round(((event.completed || 0) / (event.total || newRecords.length)) * 100)); if (event.type === "complete") failures = event.failed || []; if (event.type === "error") throw new Error(event.error || "模型分析失败"); } if (done) break; }
-      setAnalysisFailures(failures); setQueue(100); setImportStatus("completed");
-    } catch (error) { setQueue(0); setImportStatus("idle"); setImportError(error instanceof Error ? error.message : "专辑封面导入失败。"); }
+      while (true) { const { done, value } = await reader.read(); buffer += decoder.decode(value || new Uint8Array(), { stream: !done }); const lines = buffer.split("\n"); buffer = lines.pop() || ""; for (const line of lines) { if (!line.trim()) continue; const event = JSON.parse(line) as { type: string; completed?: number; total?: number; failed?: AnalysisFailure[]; error?: string }; if (event.type === "progress") setAlbumQueue(Math.round(((event.completed || 0) / (event.total || newRecords.length)) * 100)); if (event.type === "complete") failures = event.failed || []; if (event.type === "error") throw new Error(event.error || "模型分析失败"); } if (done) break; }
+      setAlbumFailures(failures); setAlbumQueue(100); setAlbumStatus("completed");
+    } catch (error) { setAlbumQueue(0); setAlbumStatus("idle"); setAlbumError(error instanceof Error ? error.message : "专辑封面导入失败。"); }
   };
   const approveRecipe = async (id: string, keepIndependent = false) => {
     setApprovalError("");
@@ -183,12 +189,12 @@ export default function Home() {
       <header><div><span className="eyebrow">REFERENCE ATLAS / 2026</span><h1>{screen === "photo-library" ? "从照片里，积累视觉判断。" : screen === "skill-library" ? "让别人的方法，经过你的审阅。" : screen === "import" ? "把灵感或方法放进队列。" : screen === "review" ? "人来决定什么值得留下。" : screen === "lab" ? "两座资料库，同一个问题。" : screen === "eval" ? "把视觉判断，交给结果验证。" : screen === "export" ? "带走可复用的判断。" : "为视觉判断，接通模型。"}</h1></div><div className="header-actions"><span className="sync">● LOCAL DATABASE SYNCED</span>{screen !== "settings" && screen !== "eval" && <button className="ink-btn" onClick={() => setScreen("import")}>+ 添加参考</button>}</div></header>
       {screen === "photo-library" && <Library onNavigate={setScreen} recipes={photoRecipes} library="photo" />}
       {screen === "skill-library" && <Library onNavigate={setScreen} recipes={importedRecipes} library="imported_skill" />}
-      {screen === "import" && <><ImportModeTabs mode={importMode} setMode={setImportMode} />{importMode === "photo" ? <><AlbumCrawler apiReady={Boolean(apiSettings.apiKey)} running={importStatus === "processing"} onImport={startAlbumImport} /> <Hot100Importer vision={apiSettings} /> <Import files={files} addFiles={addFiles} queue={queue} concurrency={concurrency} setConcurrency={setConcurrency} apiSettings={apiSettings} onOpenSettings={() => setScreen("settings")} status={importStatus} onStart={startImport} error={importError} onReview={() => { setReviewLibrary("photo"); setScreen("review"); }} intakeRecords={intakeRecords} selectionNote={selectionNote} analysisFailures={analysisFailures} /></> : <SkillImport vision={apiSettings} onReview={() => { setReviewLibrary("imported_skill"); setScreen("review"); }} />}</>}
-      {screen === "review" && <><ReviewLibraryTabs value={reviewLibrary} onChange={setReviewLibrary} counts={{ photo: reviewRecipes.filter((item) => (item.libraryType || "photo") === "photo").length, imported: reviewRecipes.filter((item) => item.libraryType === "imported_skill").length }} /><Review recipes={activeReviewRecipes} onApprove={approveRecipe} onApproveAll={approveAllRecipes} onReject={rejectRecipe} onSaveProfile={saveRetrievalProfile} error={approvalError} />{activeReviewRecipes[0]?.libraryType === "imported_skill" && <ExternalSkillSource item={activeReviewRecipes[0]} />}{activeReviewRecipes[0] && <><TypographyReview typography={activeReviewRecipes[0].recipe.typographyAndGraphicLanguage} /><LetteringConstruction typography={activeReviewRecipes[0].recipe.typographyAndGraphicLanguage} /></>}</>}
+      {screen === "import" && <><ImportModeTabs mode={importMode} setMode={setImportMode} />{importMode === "local" && <Import files={files} addFiles={addFiles} queue={queue} concurrency={concurrency} setConcurrency={setConcurrency} apiSettings={apiSettings} onOpenSettings={() => setScreen("settings")} status={importStatus} onStart={startImport} error={importError} onReview={() => { setReviewLibrary("photo"); setScreen("review"); }} intakeRecords={intakeRecords} selectionNote={selectionNote} analysisFailures={analysisFailures} />}{importMode === "pinterest" && <PinterestImporter vision={apiSettings} concurrency={concurrency} onOpenSettings={() => setScreen("settings")} onReview={() => { setReviewLibrary("photo"); setScreen("review"); }} />}{importMode === "album" && <div className="page import-source-page"><AlbumCrawler apiReady={Boolean(apiSettings.apiKey)} running={albumStatus === "processing"} onImport={startAlbumImport} /><PhotoImportProgress title="专辑封面分析" queue={albumQueue} status={albumStatus} error={albumError} records={albumIntakeRecords} failures={albumFailures} onReview={() => { setReviewLibrary("photo"); setScreen("review"); }} /></div>}{importMode === "hot100" && <div className="page import-source-page"><Hot100Importer vision={apiSettings} /></div>}{importMode === "skill" && <SkillImport vision={apiSettings} onReview={() => { setReviewLibrary("imported_skill"); setScreen("review"); }} />}</>}
+      {screen === "review" && <><ReviewLibraryTabs value={reviewLibrary} onChange={setReviewLibrary} counts={{ photo: reviewRecipes.filter((item) => (item.libraryType || "photo") === "photo").length, imported: reviewRecipes.filter((item) => item.libraryType === "imported_skill").length }} /><Review recipes={activeReviewRecipes} onApprove={approveRecipe} onApproveAll={approveAllRecipes} onReject={rejectRecipe} onSaveProfile={saveRetrievalProfile} error={approvalError} />{activeReviewRecipes[0]?.libraryType === "imported_skill" && <ExternalSkillSource item={activeReviewRecipes[0]} />}{activeReviewRecipes[0]?.source?.kind === "pinterest" && <PinterestSource item={activeReviewRecipes[0]} />}{activeReviewRecipes[0] && <><TypographyReview typography={activeReviewRecipes[0].recipe.typographyAndGraphicLanguage} /><LetteringConstruction typography={activeReviewRecipes[0].recipe.typographyAndGraphicLanguage} /></>}</>}
       {screen === "lab" && <SemanticLab query={query} setQuery={setQuery} photoResults={photoSearchResults} importedResults={importedSearchResults} retrievalMode={retrievalMode} warning={retrievalWarning} onSearch={runSearch} />}
       {screen === "eval" && <EvalStudio embedding={embeddingSettings} onOpenSettings={() => setScreen("settings")} />}
       {screen === "export" && <Export recipes={[...photoRecipes, ...importedRecipes]} />}
-      {screen === "settings" && <div className="page settings-page"><Settings values={apiSettings} setValues={setApiSettings} saved={saved} setSaved={setSaved} /><ImageGenerationSettingsPanel /><UpstreamDiagnostics /><EmbeddingSettingsPanel values={embeddingSettings} setValues={setEmbeddingSettings} /><LocalTransferPanel embedding={embeddingSettings} setEmbedding={setEmbeddingSettings}/><TypographyBackfillPanel vision={apiSettings} embedding={embeddingSettings} /></div>}
+      {screen === "settings" && <div className="page settings-page"><Settings values={apiSettings} setValues={setApiSettings} saved={saved} setSaved={setSaved} /><ScrapeCreatorsSettings /><ImageGenerationSettingsPanel /><UpstreamDiagnostics /><EmbeddingSettingsPanel values={embeddingSettings} setValues={setEmbeddingSettings} /><LocalTransferPanel embedding={embeddingSettings} setEmbedding={setEmbeddingSettings}/><TypographyBackfillPanel vision={apiSettings} embedding={embeddingSettings} /></div>}
     </section>
   </main>;
 }
@@ -226,15 +232,17 @@ function SemanticLab({ query, setQuery, photoResults, importedResults, retrieval
   return <div className="page lab-page"><section className="query-panel"><span className="eyebrow">ASK BOTH LIBRARIES</span><textarea value={query} onChange={(event) => setQuery(event.target.value)} /><div><span>{retrievalMode === "hybrid" ? "One query · two semantic rankings" : "One query · two keyword rankings"}</span><button className="ink-btn" onClick={onSearch}>同时检索两库 →</button></div></section>{warning && <p className="embedding-message">{warning}</p>}{hasResults ? <div className="split-results">{column("照片审美库", "PHOTO-DERIVED", photoResults, "photo")}{column("SKILL 审美库", "EXTERNAL METHOD", importedResults, "imported_skill")}</div> : <section className="library-empty"><span className="empty-mark">⌕</span><span className="eyebrow">SEARCH BOTH APPROVED LIBRARIES</span><h2>输入需求，同时询问两座资料库。</h2><p>照片分析与外部 Skill 使用相同的三向量权重，但结果不会混排。</p></section>}</div>;
 }
 
-type SourceGroup = "album" | "photo" | "external" | "other";
+type SourceGroup = "album" | "pinterest" | "photo" | "external" | "other";
 const sourceGroups: Array<{ id: SourceGroup; label: string; eyebrow: string }> = [
   { id: "album", label: "专辑封面", eyebrow: "ALBUM COVERS" },
+  { id: "pinterest", label: "Pinterest", eyebrow: "CURATED PINTEREST" },
   { id: "photo", label: "图片参考", eyebrow: "PHOTO REFERENCES" },
   { id: "external", label: "外部 Skill", eyebrow: "EXTERNAL SKILLS" },
   { id: "other", label: "其他来源", eyebrow: "OTHER SOURCES" }
 ];
 function sourceGroup(item: StoredRecipe): SourceGroup {
   if (item.source?.kind === "album_cover" || item.source?.kind === "hot100_album_cover") return "album";
+  if (item.source?.kind === "pinterest") return "pinterest";
   if (item.source?.kind === "external_skill") return "external";
   if (item.source?.kind === "photo") return "photo";
   return item.libraryType === "imported_skill" ? "external" : "other";
@@ -242,8 +250,84 @@ function sourceGroup(item: StoredRecipe): SourceGroup {
 function sourceLabel(item: StoredRecipe) { return sourceGroups.find((group) => group.id === sourceGroup(item))?.label || "其他来源"; }
 function Library({ onNavigate, recipes, library }: { onNavigate: (s: Screen) => void; recipes: StoredRecipe[]; library: "photo" | "imported_skill" }) { const imported = library === "imported_skill"; const grouped = sourceGroups.map((group) => ({ ...group, items: recipes.filter((item) => sourceGroup(item) === group.id) })).filter((group) => group.items.length); return <div className={`page library ${imported ? "skill-library" : "photo-library"}`}><section className="library-identity"><span>{imported ? "B" : "A"}</span><div><small>{imported ? "EXTERNAL METHODS / LOCALLY REVIEWED" : "PHOTO-DERIVED / LOCALLY ANALYZED"}</small><h2>{imported ? "Skill 审美库" : "照片审美库"}</h2><p>{imported ? "保存别人设计好的审美方法；原始文档只读保留，本地批准后才进入检索。" : "从参考照片提炼视觉关系、字体结构与复用约束。"}</p></div></section><section className="metrics"><div><span>SEARCHABLE RECIPES</span><strong>{recipes.length}</strong><small>已批准、可用于检索</small></div><div><span>LIBRARY SOURCE</span><strong>{imported ? "EXT" : "IMG"}</strong><small>{imported ? "外部 Skill" : "本地照片分析"}</small></div><div><span>VISUAL LANGUAGES</span><strong>{new Set(recipes.map((item) => item.recipe.metadata?.category).filter(Boolean)).size}</strong><small>已建立视觉索引</small></div><div className="export-metric"><span>LOCAL GOVERNANCE</span><strong>✓</strong><small>人工批准后可用</small></div></section>{recipes.length ? <section className="approved-shelf">{grouped.map((group) => <section className="source-group" key={group.id}><span className="eyebrow">{group.eyebrow} · {group.label} · {group.items.length}</span>{group.items.map((item) => <article className="approved-recipe" key={item.id}><span className="stamp green">{sourceLabel(item)} · SEARCHABLE</span><div><small>{item.recipe.metadata?.category || "Uncategorized"}</small><h2>{item.recipe.metadata?.title || "Untitled visual recipe"}</h2><p>{item.recipe.visualDefinition}</p></div><span className="recipe-id">{item.id.slice(0, 8)}</span></article>)}</section>)}</section> : <section className="library-empty"><span className="empty-mark">{imported ? "↳" : "✳"}</span><span className="eyebrow">AN EMPTY {imported ? "METHOD SHELF" : "ATLAS"}</span><h2>{imported ? "还没有批准的外部 Skill。" : "照片审美库现在是空的。"}</h2><p>{imported ? "导入 Skill 包或通用 SKILL.md，规范化并审阅后会出现在这里。" : "导入第一批参考图，生成待审阅的英文视觉配方。"}</p><button className="ink-btn" onClick={() => onNavigate("import")}>{imported ? "导入第一个 Skill →" : "导入第一批照片 →"}</button></section>}</div>; }
 
-function ImportModeTabs({ mode, setMode }: { mode: "photo" | "skill"; setMode: (mode: "photo" | "skill") => void }) {
-  return <div className="import-mode-tabs"><button className={mode === "photo" ? "active" : ""} onClick={() => setMode("photo")}><b>01</b><span>照片导入<small>IMAGE ANALYSIS</small></span></button><button className={mode === "skill" ? "active" : ""} onClick={() => setMode("skill")}><b>02</b><span>Skill 导入<small>EXTERNAL METHOD</small></span></button></div>;
+function ImportModeTabs({ mode, setMode }: { mode: ImportMode; setMode: (mode: ImportMode) => void }) {
+  const modes: Array<{ id: ImportMode; label: string; note: string }> = [
+    { id: "local", label: "本地图片", note: "LOCAL FILES" },
+    { id: "pinterest", label: "Pinterest", note: "QUALITY CRAWL" },
+    { id: "album", label: "专辑封面", note: "PUBLIC COVERS" },
+    { id: "hot100", label: "Hot 100", note: "HISTORICAL QUEUE" },
+    { id: "skill", label: "Skill", note: "EXTERNAL METHOD" }
+  ];
+  return <div className="import-mode-tabs" role="tablist" aria-label="导入方式">{modes.map((item, index) => <button role="tab" aria-selected={mode === item.id} className={mode === item.id ? "active" : ""} key={item.id} onClick={() => setMode(item.id)}><b>{String(index + 1).padStart(2, "0")}</b><span>{item.label}<small>{item.note}</small></span></button>)}</div>;
+}
+
+type PinterestStats = { searches: number; inspected: number; unavailableDetails: number; failedDetails: number; eligible: number; relativeSelected: number; qualified: number; downloaded: number; duplicates: number; failed: number; requestsUsed: number; requestLimit: number; targetCount: number; exhausted: boolean; selectionMode: "fixed_threshold" | "relative_batch" };
+type PinterestEvent = { type: string; error?: string; message?: string; searches?: number; maxSearches?: number; candidates?: number; query?: string; inspected?: number; maxDetails?: number; unavailableDetails?: number; failedDetails?: number; qualified?: number; eligible?: number; selected?: number; targetCount?: number; minimumSaves?: number; completed?: number; total?: number; downloaded?: number; failed?: number; batchId?: string; records?: IntakeRecord[]; stats?: PinterestStats };
+
+function PinterestImporter({ vision, concurrency, onOpenSettings, onReview }: { vision: { provider: string; endpoint: string; model: string; apiKey: string }; concurrency: number; onOpenSettings: () => void; onReview: () => void }) {
+  const [mode, setMode] = useState<"random" | "topic">("random");
+  const [query, setQuery] = useState("");
+  const [targetCount, setTargetCount] = useState(12);
+  const [configured, setConfigured] = useState(false);
+  const [status, setStatus] = useState<"idle" | "crawling" | "analyzing" | "completed">("idle");
+  const [message, setMessage] = useState("准备从设计词库随机抽取公开 Pin。");
+  const [error, setError] = useState("");
+  const [stats, setStats] = useState<PinterestStats>();
+  const [crawlProgress, setCrawlProgress] = useState(0);
+  const [analysisProgress, setAnalysisProgress] = useState(0);
+  const [failures, setFailures] = useState<AnalysisFailure[]>([]);
+  const [details, setDetails] = useState<string[]>([]);
+  useEffect(() => { fetch("/api/settings/scrapecreators", { cache: "no-store" }).then((response) => response.ok ? response.json() : null).then((value) => setConfigured(Boolean(value?.apiKey))).catch(() => setConfigured(false)); }, []);
+
+  const start = async () => {
+    if (status === "crawling" || status === "analyzing") return;
+    setStatus("crawling"); setError(""); setStats(undefined); setFailures([]); setDetails([]); setCrawlProgress(2); setAnalysisProgress(0); setMessage("正在建立随机候选池…");
+    try {
+      const response = await fetch("/api/pinterest/import", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ mode, query: mode === "topic" ? query.trim() : undefined, targetCount }) });
+      if (!response.ok) { const value = await response.json().catch(() => ({})); throw new Error(value.error || "Pinterest 抓取请求失败。"); }
+      const reader = response.body?.getReader(); if (!reader) throw new Error("Pinterest 进度流未建立。");
+      const decoder = new TextDecoder(); let buffer = ""; let completed: PinterestEvent | undefined; let terminalError = "";
+      while (true) {
+        const { done, value } = await reader.read(); buffer += decoder.decode(value || new Uint8Array(), { stream: !done }); const lines = buffer.split("\n"); buffer = lines.pop() || "";
+        for (const line of lines) {
+          if (!line.trim()) continue;
+          const event = JSON.parse(line) as PinterestEvent;
+          if (event.type === "search") { setCrawlProgress(Math.min(28, ((event.searches || 0) / (event.maxSearches || 4)) * 28)); setMessage(`搜索 ${event.searches} / ${event.maxSearches} · 已收集 ${event.candidates || 0} 个候选 · ${event.query || ""}`); }
+          if (event.type === "inspect") { setCrawlProgress(28 + Math.min(57, ((event.inspected || 0) / (event.maxDetails || 40)) * 57)); const skipped = event.unavailableDetails ? ` · 失效 Pin 跳过 ${event.unavailableDetails}` : ""; setMessage(mode === "topic" ? `正在建立主题批次排名 · 已检查 ${event.inspected} / ${event.maxDetails} · 达到 20 保存底线 ${event.eligible || 0}${skipped}` : `正在核对固定门槛 · 已检查 ${event.inspected} / ${event.maxDetails} · 合格 ${event.qualified} / ${event.targetCount}${skipped}`); }
+          if (event.type === "rank") { setCrawlProgress(85); setMessage(`相对排名完成 · 达到底线 ${event.eligible || 0} · 入选 ${event.selected || 0} / ${event.targetCount}`); }
+          if (event.type === "download") { setCrawlProgress(85 + Math.min(15, ((event.completed || 0) / Math.max(1, event.total || 1)) * 15)); setMessage(`正在保存合格原图 · ${event.downloaded || 0} 成功 · ${event.failed || 0} 失败`); }
+          if (event.type === "detail-error" || event.type === "download-error") setDetails((current) => [...current, event.message || "单项处理失败。"].slice(-6));
+          if (event.type === "error") terminalError = event.error || "Pinterest 导入失败。";
+          if (event.type === "complete") completed = event;
+        }
+        if (done) break;
+      }
+      if (terminalError) throw new Error(terminalError);
+      if (!completed?.batchId || !completed.records || !completed.stats) throw new Error("Pinterest 抓取未返回完整批次。");
+      setStats(completed.stats); setCrawlProgress(100);
+      const analyzable = completed.records.filter((record) => record.outcome !== "skipped_duplicate");
+      if (!analyzable.length) { setStatus("completed"); setAnalysisProgress(100); setMessage(completed.records.length ? "抓取完成；合格图片均为本地已有的精确重复。" : "本轮没有找到达到阈值且可下载的设计。"); return; }
+      setStatus("analyzing"); setMessage(`已保存 ${analyzable.length} 张，正在生成视觉配方…`);
+      const analysis = await fetch("/api/batches/analyze", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ batchId: completed.batchId, records: analyzable, provider: vision.provider, model: vision.model, endpoint: vision.endpoint, apiKey: vision.apiKey, concurrency, stream: true }) });
+      if (!analysis.ok) { const value = await analysis.json().catch(() => ({})); throw new Error(value.error || "Pinterest 图片分析失败。"); }
+      const analysisReader = analysis.body?.getReader(); if (!analysisReader) throw new Error("模型分析进度流未建立。");
+      buffer = ""; let analysisFailures: AnalysisFailure[] = [];
+      while (true) { const { done, value } = await analysisReader.read(); buffer += decoder.decode(value || new Uint8Array(), { stream: !done }); const lines = buffer.split("\n"); buffer = lines.pop() || ""; for (const line of lines) { if (!line.trim()) continue; const event = JSON.parse(line) as { type: string; completed?: number; total?: number; failed?: AnalysisFailure[]; error?: string }; if (event.type === "progress") setAnalysisProgress(Math.round(((event.completed || 0) / (event.total || analyzable.length)) * 100)); if (event.type === "complete") analysisFailures = event.failed || []; if (event.type === "error") throw new Error(event.error || "模型分析失败。"); } if (done) break; }
+      setFailures(analysisFailures); setAnalysisProgress(100); setStatus("completed"); setMessage(`批次完成：${analyzable.length - analysisFailures.length} 张已进入审阅，${analysisFailures.length} 张分析失败。`);
+    } catch (reason) { setStatus("idle"); setError(reason instanceof Error ? reason.message : "Pinterest 导入失败。"); setMessage("任务已停止；可检查配置后重试。"); }
+  };
+  const busy = status === "crawling" || status === "analyzing";
+  const canStart = configured && Boolean(vision.apiKey) && (mode === "random" || Boolean(query.trim()));
+  const hasNewRecipes = status === "completed" && Boolean(stats && stats.downloaded > stats.duplicates);
+  const primaryAction = hasNewRecipes ? onReview : !configured || !vision.apiKey ? onOpenSettings : start;
+  return <div className="page pinterest-import-page"><section className="pinterest-hero"><div><span className="eyebrow">SCRAPECREATORS / PUBLIC PINTEREST SIGNALS</span><h2>随机打捞，<i>只留下有沉淀的设计。</i></h2><p>{mode === "topic" ? "主题模式会检查完整候选池，在同批次内比较保存与作者规模；保存达到 20 即可参与排名，小众风格不再和大众绝对量级硬碰。" : "搜索结果会先随机化，再逐条核对固定保存数与作者规模。作者粉丝仅作为公开的曝光代理，不代表真实展示次数。"}</p></div><div className="quality-stamp">{mode === "topic" ? <><b>TOP</b><span>RELATIVE</span><i>/</i><b>20</b><span>SAVES FLOOR</span></> : <><b>1K</b><span>SAVES</span><i>＋</i><b>10K</b><span>FOLLOWERS</span></>}</div></section><section className="pinterest-controls"><div className="pinterest-source-tabs"><button className={mode === "random" ? "active" : ""} onClick={() => setMode("random")} disabled={busy}><b>RANDOM INDEX</b>一键随机设计词库</button><button className={mode === "topic" ? "active" : ""} onClick={() => setMode("topic")} disabled={busy}><b>DIRECTED RANDOM</b>输入主题后随机</button></div>{mode === "topic" ? <label className="pinterest-query"><span>SEARCH THEME · RELATIVE BATCH RANK</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="例如：brutalist typography poster" disabled={busy} /></label> : <div className="pinterest-query pool"><span>BUILT-IN DESIGN INDEX</span><p>海报 · 编辑 · 字体 · 品牌 · 包装 · 网页 · UI · 书封 · 专辑封面 · 实验平面 · 动态设计帧 · 信息设计</p></div>}<label className="pinterest-target"><span>TARGET IMPORT</span><input type="range" min="1" max="24" value={targetCount} disabled={busy} onChange={(event) => setTargetCount(Number(event.target.value))}/><b>{targetCount}</b><small>张 · 最多 44 次请求</small></label></section><section className="pinterest-console"><div className="pinterest-progress"><span>01 / DISCOVER + QUALIFY</span><b>{Math.round(crawlProgress)}%</b><div><i style={{ width: `${crawlProgress}%` }}/></div></div><div className="pinterest-progress"><span>02 / VISION ANALYSIS</span><b>{Math.round(analysisProgress)}%</b><div><i style={{ width: `${analysisProgress}%` }}/></div></div><p className="pinterest-message">{message}</p>{error && <p className="import-error">{error}</p>}{details.length > 0 && <div className="pinterest-errors">{details.map((item, index) => <small key={`${item}-${index}`}>{item}</small>)}</div>}{stats && <div className="pinterest-stats"><span>搜索 <b>{stats.searches}</b></span><span>详情 <b>{stats.inspected}</b></span>{stats.unavailableDetails > 0 && <span>失效跳过 <b>{stats.unavailableDetails}</b></span>}{stats.failedDetails > 0 && <span>详情失败 <b>{stats.failedDetails}</b></span>}{stats.selectionMode === "relative_batch" ? <><span>达到底线 <b>{stats.eligible}</b></span><span>相对入选 <b>{stats.relativeSelected}</b></span></> : <span>固定门槛合格 <b>{stats.qualified}</b></span>}<span>保存 <b>{stats.downloaded}</b></span><span>重复 <b>{stats.duplicates}</b></span><span>请求 <b>{stats.requestsUsed}/{stats.requestLimit}</b></span></div>}<footer><small>{!configured ? "ScrapeCreators Key 未配置" : !vision.apiKey ? "视觉模型 Key 未配置" : mode === "topic" ? `主题模式：保存 ≥ 20 · 批次相对排名 · 将检查完整候选池 · 分析模型 ${vision.model}` : `随机词库：保存 ≥ 1,000 AND 作者粉丝 ≥ 10,000 · 分析模型 ${vision.model}`}</small><button className="ink-btn" onClick={primaryAction} disabled={busy || (configured && Boolean(vision.apiKey) && status !== "completed" && !canStart)}>{hasNewRecipes ? "前往照片审阅 →" : busy ? status === "crawling" ? "正在筛选…" : "正在分析…" : !configured || !vision.apiKey ? "前往 API 配置 →" : mode === "topic" && !query.trim() ? "请输入搜索主题" : `随机抓取 ${targetCount} 张 →`}</button></footer>{failures.length > 0 && <div className="pinterest-errors">{failures.map((item) => <small key={item.hash}>分析失败：{item.filename} · {item.reason}</small>)}</div>}</section></div>;
+}
+
+function PhotoImportProgress({ title, queue, status, error, records, failures, onReview }: { title: string; queue: number; status: "idle" | "processing" | "completed"; error: string; records: IntakeRecord[]; failures: AnalysisFailure[]; onReview: () => void }) {
+  if (status === "idle" && !error && !records.length) return null;
+  const imported = records.filter((item) => item.outcome !== "skipped_duplicate").length;
+  const duplicates = records.filter((item) => item.outcome === "skipped_duplicate").length;
+  return <section className="photo-import-progress"><div><span className="eyebrow">ANALYSIS QUEUE</span><h3>{title}</h3><p>{status === "processing" ? "正在下载并生成视觉配方…" : `已处理 ${records.length} 张 · 精确重复 ${duplicates} · 分析失败 ${failures.length}`}</p></div><div className="progress"><i style={{ width: `${queue}%` }}/></div>{error && <p className="import-error">{error}</p>}{status === "completed" && imported > failures.length && <button className="ink-btn" onClick={onReview}>查看成功配方 →</button>}</section>;
 }
 
 function SkillImport({ vision, onReview }: { vision: { endpoint: string; model: string; apiKey: string }; onReview: () => void }) {
@@ -292,6 +376,19 @@ function ReviewLibraryTabs({ value, onChange, counts }: { value: "photo" | "impo
 
 function ExternalSkillSource({ item }: { item: StoredRecipe }) { const remote = item.source?.remoteSource; return <section className="external-source"><header><div><span className="eyebrow">ORIGINAL EXTERNAL SKILL / READ-ONLY</span><h3>{item.source?.title || "Imported Skill"}</h3></div><div className="source-stamps">{item.upstreamUpdate && <span className="stamp update">UPSTREAM UPDATE</span>}<span className="stamp">UNTRUSTED SOURCE</span></div></header><dl><div><dt>{remote ? "GITHUB REPOSITORY" : "ROOT"}</dt><dd>{remote ? `${remote.owner}/${remote.repo}` : item.source?.root || "/"}</dd></div><div><dt>{remote ? "SKILL PATH" : "FILES"}</dt><dd>{remote ? remote.skillRoot || "/" : item.source?.files?.length || 0}</dd></div><div><dt>{remote ? "PINNED COMMIT" : "EXTERNAL ID"}</dt><dd>{remote ? <a href={remote.commitUrl} target="_blank" rel="noreferrer">{remote.commitSha.slice(0, 12)} ↗</a> : item.source?.externalSkillId || "—"}</dd></div></dl>{remote && <p className="github-source-line">输入 ref：{remote.inputRef} · 抓取于 {new Date(remote.fetchedAt).toLocaleString()} · {item.supersedes?.length || 0} 个已批准旧版将在本版批准后退出检索</p>}<pre>{item.source?.preview || "No SKILL.md preview was available; review the normalized recipe above."}</pre></section>; }
 
+function safeSourceUrl(value: string | undefined, hostname: string) {
+  try { const url = new URL(value || ""); return url.protocol === "https:" && (url.hostname === hostname || url.hostname.endsWith(`.${hostname}`)) ? url.toString() : ""; }
+  catch { return ""; }
+}
+
+function PinterestSource({ item }: { item: StoredRecipe }) {
+  const source = item.source;
+  const imageUrl = safeSourceUrl(source?.imageUrl, "i.pinimg.com");
+  const pinUrl = safeSourceUrl(source?.pinUrl, "pinterest.com");
+  const relative = source?.selectionMode === "relative_batch";
+  return <section className="pinterest-source"><header><div><span className="eyebrow">PINTEREST SOURCE / PUBLIC ORIGINAL</span><h3>{source?.title || "Pinterest reference"}</h3></div><span className="stamp green">{relative ? `RELATIVE TOP · ${Math.round((source?.qualityScore || 0) * 100)}/100` : "FIXED THRESHOLD PASSED"}</span></header><dl><div><dt>SAVES</dt><dd>{source?.saves?.toLocaleString() || "—"}<small>{relative ? `批次百分位 ${Math.round((source?.savePercentile || 0) * 100)}% · 底线 ${source?.minimumSaves || 20}` : "固定门槛 ≥ 1,000"}</small></dd></div><div><dt>AUTHOR FOLLOWERS</dt><dd>{source?.followers?.toLocaleString() || "—"}<small>{relative ? `曝光代理百分位 ${Math.round((source?.followerPercentile || 0) * 100)}%` : "曝光代理 · 固定门槛 ≥ 10,000"}</small></dd></div><div><dt>CREATOR / BOARD</dt><dd>{source?.author || "—"}<small>{source?.board || "未标注画板"}</small></dd></div></dl><footer>{imageUrl ? <a className="ink-btn" href={imageUrl} target="_blank" rel="noreferrer">打开 Pinterest 原图 ↗</a> : <span className="source-unavailable">原图链接不可用</span>}{pinUrl && <a className="text-btn" href={pinUrl} target="_blank" rel="noreferrer">查看原始 Pin ↗</a>}</footer></section>;
+}
+
 function Settings({ values, setValues, saved, setSaved }: { values: { provider: string; model: string; endpoint: string; apiKey: string }; setValues: React.Dispatch<React.SetStateAction<{ provider: string; model: string; endpoint: string; apiKey: string }>>; saved: boolean; setSaved: (value: boolean) => void }) {
   const [testing, setTesting] = useState(false); const [testResult, setTestResult] = useState<ConnectionResult>();
   const update = (key: keyof typeof values, value: string) => { setSaved(false); setValues((current) => ({ ...current, [key]: value })); };
@@ -299,6 +396,19 @@ function Settings({ values, setValues, saved, setSaved }: { values: { provider: 
   const save = async () => { const response = await fetch("/api/settings/vision", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(values) }); const result = await response.json().catch(() => null); if (response.ok && result) { setValues(result); setSaved(true); } };
   const test = async () => { setTesting(true); setTestResult(undefined); try { const response = await fetch("/api/settings/connections", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ target: "vision", ...values }) }); setTestResult(await response.json() as ConnectionResult); } catch (error) { setTestResult({ target: "vision", ok: false, status: null, latencyMs: 0, message: error instanceof Error ? error.message : "连接测试失败。" }); } finally { setTesting(false); } };
   return <><div className="settings-intro"><span className="eyebrow">LOCAL CONNECTIONS</span><h2>API 配置</h2><p>密钥保存在项目根目录的 <code>.env</code>，不会写入浏览器存储、导出文件或日志。</p></div><section className="settings-sheet"><div className="settings-field"><label htmlFor="provider">视觉模型服务商</label><select id="provider" value={values.provider} onChange={(event) => { const provider = event.target.value; setSaved(false); setValues((current) => ({ ...current, provider, model: providerModels[provider] })); }}><option value="qwen">Qwen / DashScope</option><option value="gemini">Google Gemini</option><option value="openai">OpenAI</option><option value="openrouter">OpenRouter</option></select></div><div className="settings-field"><label htmlFor="model">模型 ID</label><input id="model" value={values.model} onChange={(event) => update("model", event.target.value)} placeholder="例如 google/gemini-2.5-flash" /></div><div className="settings-field full"><label htmlFor="endpoint">API Base URL</label><input id="endpoint" value={values.endpoint} onChange={(event) => update("endpoint", event.target.value)} placeholder="https://…" /></div><div className="settings-field full"><label htmlFor="key">API Key</label><div className="key-input"><input id="key" type="password" value={values.apiKey === "env-configured" ? "" : values.apiKey} onChange={(event) => update("apiKey", event.target.value)} placeholder={values.apiKey === "env-configured" ? "已保存在 .env；如需更换请粘贴新 Key" : "粘贴你的 API key"} autoComplete="off"/><span>{values.apiKey ? "● 已配置" : "○ 未输入"}</span></div></div><footer><small>测试会显示真实 HTTP 状态码。</small><div className="settings-actions"><button className="text-btn" onClick={test} disabled={testing || !values.apiKey}>{testing ? "正在测试…" : "测试视觉 API"}</button><button className="ink-btn" onClick={save}>{saved ? "✓ 已保存到 .env" : "保存到 .env"}</button></div></footer>{testResult && <ConnectionStatus result={testResult} />}</section><div className="security-note"><span>01</span><p>密钥仅由服务端读取并用于模型请求；浏览器重开后仍会从本地 <code>.env</code> 恢复配置。</p></div></>;
+}
+
+function ScrapeCreatorsSettings() {
+  const [apiKey, setApiKey] = useState("");
+  const [saved, setSaved] = useState(false);
+  const [working, setWorking] = useState(false);
+  const [message, setMessage] = useState("");
+  const [testResult, setTestResult] = useState<ConnectionResult>();
+  useEffect(() => { fetch("/api/settings/scrapecreators", { cache: "no-store" }).then((response) => response.ok ? response.json() : null).then((value) => value && setApiKey(value.apiKey || "")).catch(() => undefined); }, []);
+  const save = async () => { setWorking(true); setMessage(""); try { const response = await fetch("/api/settings/scrapecreators", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ apiKey }) }); const result = await response.json().catch(() => ({})); if (!response.ok) throw new Error(result.error || "无法保存 ScrapeCreators Key。"); setApiKey(result.apiKey || "env-configured"); setSaved(true); setMessage("密钥已保存；重新打开 Pinterest 导入入口即可使用。"); } catch (error) { setMessage(error instanceof Error ? error.message : "保存失败。"); } finally { setWorking(false); } };
+  const test = async () => { setWorking(true); setTestResult(undefined); try { const response = await fetch("/api/settings/connections", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ target: "scrapecreators", apiKey }) }); setTestResult(await response.json() as ConnectionResult); } catch (error) { setTestResult({ target: "scrapecreators", ok: false, status: null, latencyMs: 0, message: error instanceof Error ? error.message : "连接失败。" }); } finally { setWorking(false); } };
+  const configured = Boolean(apiKey);
+  return <section className="scrape-settings"><header><div><span className="eyebrow">PINTEREST DATA SOURCE</span><h3>ScrapeCreators</h3><p>仅用于服务端搜索 Pinterest 与读取公开 Pin 指标；连接测试使用账户余额接口，不消耗搜索 credits。</p></div><span className={`connection-badge ${configured ? "ready" : ""}`}>{configured ? "● CONFIGURED" : "○ NOT CONFIGURED"}</span></header><div className="settings-sheet"><div className="settings-field full"><label htmlFor="scrapecreators-key">ScrapeCreators API Key</label><div className="key-input"><input id="scrapecreators-key" type="password" value={apiKey === "env-configured" ? "" : apiKey} onChange={(event) => { setApiKey(event.target.value); setSaved(false); }} placeholder={apiKey === "env-configured" ? "已保存在 .env；如需更换请粘贴新 Key" : "粘贴 ScrapeCreators API Key"} autoComplete="off"/><span>{configured ? "● 已配置" : "○ 未输入"}</span></div></div><footer><small>环境变量：SCRAPECREATORS_API_KEY</small><div className="settings-actions"><button className="text-btn" onClick={test} disabled={working || !configured}>{working ? "正在连接…" : "测试并读取余额"}</button><button className="ink-btn" onClick={save} disabled={working || !configured}>{saved ? "✓ 已保存" : "保存到 .env"}</button></div></footer>{testResult && <ConnectionStatus result={testResult} />}{message && <p className="settings-message">{message}</p>}</div></section>;
 }
 
 function ConnectionStatus({ result }: { result: ConnectionResult }) { return <div className={`connection-result ${result.ok ? "ok" : "failed"}`} role="status"><b>{result.ok ? "PASS" : result.status === 403 ? "403 FORBIDDEN" : "FAILED"}</b><span>{result.status == null ? "NO HTTP RESPONSE" : `HTTP ${result.status}`} · {result.latencyMs}ms</span><p>{result.message}</p>{result.endpoint && <small>{result.endpoint}</small>}</div>; }
@@ -347,7 +457,7 @@ function LocalTransferPanel({ embedding, setEmbedding }: { embedding: EmbeddingS
 }
 
 function UpstreamDiagnostics() {
-  const services = [{ target: "github", label: "GitHub 数据源" }, { target: "musicbrainz", label: "MusicBrainz" }, { target: "cover-art", label: "Cover Art Archive" }] as const;
+  const services = [{ target: "github", label: "GitHub 数据源" }, { target: "musicbrainz", label: "MusicBrainz" }, { target: "cover-art", label: "Cover Art Archive" }, { target: "scrapecreators", label: "ScrapeCreators" }] as const;
   const [running, setRunning] = useState<Set<string>>(new Set()); const [results, setResults] = useState<Record<string, ConnectionResult>>({});
   const test = async (target: string) => { setRunning((current) => new Set(current).add(target)); try { const response = await fetch("/api/settings/connections", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ target }) }); const result = await response.json() as ConnectionResult; setResults((current) => ({ ...current, [target]: result })); } catch (error) { setResults((current) => ({ ...current, [target]: { target, ok: false, status: null, latencyMs: 0, message: error instanceof Error ? error.message : "连接测试失败。" } })); } finally { setRunning((current) => { const next = new Set(current); next.delete(target); return next; }); } };
   const testAll = async () => { await Promise.all(services.map((service) => test(service.target))); };

@@ -4,7 +4,7 @@ import { musicBrainzFetch } from "../../../../src/lib/musicbrainz";
 export const runtime = "nodejs";
 export const maxDuration = 30;
 
-type Target = "vision" | "embedding" | "github" | "musicbrainz" | "cover-art";
+type Target = "vision" | "embedding" | "github" | "musicbrainz" | "cover-art" | "scrapecreators";
 type ConnectionInput = { target?: Target; endpoint?: string; model?: string; apiKey?: string };
 
 function cleanBaseUrl(value: string | undefined) {
@@ -28,7 +28,7 @@ async function ordinaryFetch(url: string, init?: RequestInit) {
 export async function POST(request: Request) {
   const body = await request.json().catch(() => ({})) as ConnectionInput; const startedAt = Date.now();
   try {
-    let response: Response; let label = "";
+    let response: Response; let label = ""; let successMessage = "连接成功，服务已接受请求。";
     if (body.target === "vision") {
       const endpoint = cleanBaseUrl(body.endpoint || process.env.VISION_ENDPOINT); const model = (body.model || process.env.VISION_MODEL || "").trim();
       const apiKey = body.apiKey === "env-configured" ? process.env.VISION_API_KEY : body.apiKey || process.env.VISION_API_KEY;
@@ -49,8 +49,18 @@ export async function POST(request: Request) {
     } else if (body.target === "cover-art") {
       label = "https://coverartarchive.org/release-group/1b022e01-4da6-387b-8658-8678046e4cef";
       response = await ordinaryFetch(label, { headers: { accept: "application/json" } });
+    } else if (body.target === "scrapecreators") {
+      const apiKey = body.apiKey === "env-configured" ? process.env.SCRAPECREATORS_API_KEY : body.apiKey || process.env.SCRAPECREATORS_API_KEY;
+      if (!apiKey) throw new Error("ScrapeCreators API Key 尚未配置。");
+      label = "https://api.scrapecreators.com/v1/account/credit-balance";
+      response = await ordinaryFetch(label, { headers: { accept: "application/json", "x-api-key": apiKey } });
+      if (response.ok) {
+        const payload = await response.clone().json().catch(() => ({})) as { credits_remaining?: number; credits?: number; balance?: number };
+        const credits = payload.credits_remaining ?? payload.credits ?? payload.balance;
+        successMessage = credits == null ? "连接成功；账户接口已接受密钥。" : `连接成功；当前可用 credits：${credits.toLocaleString()}。`;
+      }
     } else throw new Error("未知的连接测试类型。");
-    const message = response.ok ? "连接成功，服务已接受请求。" : await responseMessage(response);
+    const message = response.ok ? successMessage : await responseMessage(response);
     return NextResponse.json({ target: body.target, ok: response.ok, status: response.status, latencyMs: Date.now() - startedAt, message: message || response.statusText || "上游没有返回错误说明。", endpoint: label }, { status: response.ok ? 200 : 502 });
   } catch (error) {
     return NextResponse.json({ target: body.target, ok: false, status: null, latencyMs: Date.now() - startedAt, message: error instanceof Error ? error.message : "连接测试失败。" }, { status: 502 });

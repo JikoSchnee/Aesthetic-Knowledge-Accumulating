@@ -121,6 +121,13 @@
 }
 .security-note span { font: 16px var(--serif); color: var(--red); }
 .security-note p { margin: 0; font-size: 11px; line-height: 1.6; color: #6c6c66; }
+.scrape-settings{margin-top:44px;padding-top:26px;border-top:2px solid var(--ink)}
+.scrape-settings>header{min-height:0;margin:0 0 18px;padding:0;border:0;background:transparent;align-items:flex-end}
+.scrape-settings h3{margin:6px 0;font:30px var(--serif)}
+.scrape-settings header p{max-width:590px;color:#64645e;font-size:12px;line-height:1.55}
+.connection-badge{font:9px var(--mono);color:var(--muted)}.connection-badge.ready{color:var(--green)}
+.scrape-settings .settings-sheet{grid-template-columns:1fr}.scrape-settings .connection-result,.scrape-settings .settings-message{grid-column:1/-1}
+.settings-message{margin:0;font:10px/1.5 var(--mono);color:var(--green)}
 
 /* Shared section rhythm for generation, diagnostics, embeddings, transfer and backfill. */
 .settings-page > .embedding-sheet,
@@ -285,7 +292,6 @@
   .settings-actions,
   .embedding-fields footer > div { flex-wrap: wrap; }
 }
-
 @media (max-width: 580px) {
   .settings-sheet { grid-template-columns: 1fr; padding: 20px; }
   .settings-field.full { grid-column: auto; }
