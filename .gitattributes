@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+eval-cases/runs/**/*.png filter=lfs diff=lfs merge=lfs -text
+eval-cases/runs/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+eval-cases/runs/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+eval-cases/runs/**/*.webp filter=lfs diff=lfs merge=lfs -text
