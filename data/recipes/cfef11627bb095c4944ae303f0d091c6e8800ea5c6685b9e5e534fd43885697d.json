@@ -10,6 +10,8 @@
   "typographyStatus": "ready",
   "typographyModel": "google/gemini-3-flash-preview",
   "typographyUpdatedAt": "2026-08-11T23:17:40.735Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
   "source": {
     "kind": "hot100_album_cover",
     "filename": "Stripped.jpg",
@@ -223,5 +225,7 @@
       "Is the text legible but clearly hand-drawn?"
     ],
     "reuseFormula": "Create a [SUBJECT] in the style of a [MARKER TYPE] sketch on a [PAPER TEXTURE], framed by [BORDER STYLE] with [TEXT POSITION] hand-lettering."
-  }
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:23:12.325Z"
 }
