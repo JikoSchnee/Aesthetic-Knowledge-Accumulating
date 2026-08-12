@@ -5,6 +5,7 @@ import { dedupeText, findDuplicateCandidates, type RecipeLike } from "../../../.
 import { TYPOGRAPHY_SCHEMA_VERSION } from "../../../../src/lib/typography";
 import { imageRecipePrompt as recipePrompt, parseValidRecipe } from "../../../../src/lib/recipe-schema";
 import { readSkills } from "../../../../src/lib/library";
+import { applyRetrievalProfile } from "../../../../src/lib/skill-governance";
 
 export const runtime = "nodejs";
 export const maxDuration = 300;
@@ -51,8 +52,9 @@ export async function POST(request: Request) {
       const retryPayload = await retry.json() as { choices?: Array<{ message?: { content?: unknown } }> };
       try { recipe = parseValidRecipe(retryPayload.choices?.[0]?.message?.content); } catch { throw new Error("模型连续两次未返回有效的配方 JSON 或字体设计板块。请更换支持结构化输出的视觉模型后重试。"); }
     }
+    recipe = applyRetrievalProfile(recipe as Record<string, unknown>) as RecipeLike["recipe"];
     const duplicateCandidates = findDuplicateCandidates(recipe as RecipeLike["recipe"], existing);
-    const stored = { id: record.hash, libraryType: "photo", batchId: body.batchId, status: "needs_review", providerModel: model, createdAt: new Date().toISOString(), recipeSchemaVersion: "1.1", typographySchemaVersion: TYPOGRAPHY_SCHEMA_VERSION, typographyStatus: "ready", typographyModel: model, typographyUpdatedAt: new Date().toISOString(), source: { kind: "photo", filename: record.filename || "", hash: record.hash, ...record.source }, dedupeText: dedupeText(recipe as RecipeLike["recipe"]), duplicateCandidates, duplicateDecision: duplicateCandidates.length ? "pending" : "not_required", recipe };
+    const stored = { id: record.hash, skillId: record.hash, versionId: record.hash, version: 1, libraryType: "photo", batchId: body.batchId, status: "needs_review", providerModel: model, createdAt: new Date().toISOString(), recipeSchemaVersion: "1.2", typographySchemaVersion: TYPOGRAPHY_SCHEMA_VERSION, typographyStatus: "ready", typographyModel: model, typographyUpdatedAt: new Date().toISOString(), source: { kind: "photo", filename: record.filename || "", hash: record.hash, ...record.source }, dedupeText: dedupeText(recipe as RecipeLike["recipe"]), duplicateCandidates, duplicateDecision: duplicateCandidates.length ? "pending" : "not_required", recipe };
     await writeFile(join(recipeDir, `${record.hash}.json`), JSON.stringify(stored, null, 2));
     existing.push(stored);
     completed.push(record.hash);

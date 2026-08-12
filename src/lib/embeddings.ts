@@ -7,6 +7,7 @@ export type EmbeddingTexts = { intent: string; visual: string; adaptation: strin
 export type SkillEmbedding = {
   schemaVersion: "1.0";
   skillId: string;
+  versionId?: string;
   requestedModel: string;
   actualModel: string;
   dimensions: number;
@@ -27,8 +28,9 @@ export function embeddingTexts(recipe: RecipeForEmbedding): EmbeddingTexts {
   const material = object(recipe.materialAndProcess);
   const typography = object(recipe.typographyAndGraphicLanguage);
   const floor = object(recipe.aestheticFloor);
+  const retrieval = object(recipe.retrievalProfile);
   return {
-    intent: join([metadata.title, metadata.category, metadata.medium, metadata.useCases, metadata.retrievalTags, recipe.visualDefinition]),
+    intent: join([metadata.title, metadata.category, metadata.medium, metadata.useCases, metadata.retrievalTags, retrieval.description, retrieval.triggerTerms, recipe.visualDefinition]),
     visual: join([recipe.visualDefinition, recipe.coreVisualRelationships, recipe.coreInvariants, ...Object.values(composition), ...Object.values(space), ...Object.values(color), ...Object.values(light), ...Object.values(material), ...Object.values(typography)]),
     adaptation: join([recipe.reuseFormula, recipe.adjustableVariables, recipe.mustRedesign, ...Object.values(floor), recipe.postGenerationChecks])
   };
@@ -41,7 +43,7 @@ export function hasEmbeddingConfig(config?: EmbeddingConfig): config is Required
   return Boolean(config?.endpoint?.trim() && config.model?.trim() && config.apiKey?.trim());
 }
 
-export async function createSkillEmbedding(skillId: string, recipe: RecipeForEmbedding, config: Required<EmbeddingConfig>): Promise<SkillEmbedding> {
+export async function createSkillEmbedding(skillId: string, recipe: RecipeForEmbedding, config: Required<EmbeddingConfig>, versionId = skillId): Promise<SkillEmbedding> {
   const texts = embeddingTexts(recipe);
   if (!texts.intent || !texts.visual || !texts.adaptation) throw new Error("Recipe lacks enough text to create retrieval vectors.");
   const response = await fetch(`${config.endpoint.replace(/\/$/, "")}/embeddings`, {
@@ -53,7 +55,7 @@ export async function createSkillEmbedding(skillId: string, recipe: RecipeForEmb
   const payload = await response.json() as { model?: string; data?: Array<{ index?: number; embedding?: number[] }> };
   const ordered = (payload.data || []).sort((a, b) => (a.index || 0) - (b.index || 0)).map((item) => item.embedding || []);
   if (ordered.length !== 3 || ordered.some((vector) => !vector.length) || new Set(ordered.map((vector) => vector.length)).size !== 1) throw new Error("向量服务返回了无效的向量组。");
-  return { schemaVersion: "1.0", skillId, requestedModel: config.model, actualModel: payload.model || config.model, dimensions: ordered[0].length, createdAt: new Date().toISOString(), contentHashes: textHashes(texts), vectors: { intent: ordered[0], visual: ordered[1], adaptation: ordered[2] } };
+  return { schemaVersion: "1.0", skillId, versionId, requestedModel: config.model, actualModel: payload.model || config.model, dimensions: ordered[0].length, createdAt: new Date().toISOString(), contentHashes: textHashes(texts), vectors: { intent: ordered[0], visual: ordered[1], adaptation: ordered[2] } };
 }
 
 export async function createQueryEmbedding(query: string, config: Required<EmbeddingConfig>) {
@@ -69,8 +71,8 @@ export async function createQueryEmbedding(query: string, config: Required<Embed
   return { vector, model: payload.model || config.model };
 }
 
-export function isCurrentEmbedding(embedding: SkillEmbedding | undefined, skillId: string, recipe: RecipeForEmbedding, model: string) {
-  if (!embedding || embedding.skillId !== skillId || embedding.requestedModel !== model) return false;
+export function isCurrentEmbedding(embedding: SkillEmbedding | undefined, skillId: string, recipe: RecipeForEmbedding, model: string, versionId = skillId) {
+  if (!embedding || embedding.skillId !== skillId || (embedding.versionId || embedding.skillId) !== versionId || embedding.requestedModel !== model) return false;
   const hashes = textHashes(embeddingTexts(recipe));
   return (Object.keys(hashes) as Array<keyof EmbeddingTexts>).every((key) => hashes[key] === embedding.contentHashes[key]);
 }

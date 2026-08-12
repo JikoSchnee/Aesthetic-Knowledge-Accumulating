@@ -92,7 +92,7 @@ export async function POST(request: Request) {
     skills.push({ id, title: stored.recipe?.metadata?.title || "Untitled visual recipe", directory, libraryType: stored.libraryType || located.library, files: childFiles });
   }
 
-  const manifest = { packageName, exportedAt: new Date().toISOString(), recipeSchemaVersion: "1.1", searchSchemaVersion: "1.1", typographySchemaVersion: "1.1", embeddingSchemaVersion: "1.0", sourceImagesIncluded: false, excludes: ["source images", "font files", "source wording", "API keys", "authorization headers", "raw provider responses", "image Base64"], skills, sharedFiles: ["SKILL.md", ...Object.keys(references), "references/graphic-language.md", "references/retrieval.md"], files: ["manifest.json", ...files.map((file) => file.path)] };
+  const manifest = { packageName, exportedAt: new Date().toISOString(), recipeSchemaVersion: "1.2", searchSchemaVersion: "1.2", typographySchemaVersion: "1.1", embeddingSchemaVersion: "1.0", sourceImagesIncluded: false, excludes: ["source images", "font files", "source wording", "API keys", "authorization headers", "raw provider responses", "image Base64"], skills, sharedFiles: ["SKILL.md", ...Object.keys(references), "references/graphic-language.md", "references/retrieval.md"], files: ["manifest.json", ...files.map((file) => file.path)] };
   files.unshift({ path: "manifest.json", content: JSON.stringify(manifest, null, 2), mime: "application/json" });
 
   if (destination) {

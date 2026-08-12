@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { createSkillEmbedding, hasEmbeddingConfig, isCurrentEmbedding, type EmbeddingConfig, type SkillEmbedding } from "../../../../src/lib/embeddings";
 import { NextResponse } from "next/server";
 import { dataRoot, readSkills, recipeDirectory } from "../../../../src/lib/library";
+import { skillIdentity } from "../../../../src/lib/skill-governance";
 
 export const runtime = "nodejs";
 export const maxDuration = 300;
@@ -16,7 +17,8 @@ export async function GET() {
     const stats = { total: approved.length, ready: 0, pending: 0, failed: 0, stale: 0 };
     for (const recipe of approved) {
       const embedding = await readJson<SkillEmbedding>(join(embeddingDir, `${recipe.id}.json`));
-      if (embedding && recipe.embeddingModel && isCurrentEmbedding(embedding, recipe.id, recipe.recipe, recipe.embeddingModel)) stats.ready += 1;
+      const identity = skillIdentity(recipe as unknown as Record<string, unknown>);
+      if (embedding && recipe.embeddingModel && isCurrentEmbedding(embedding, identity.skillId, recipe.recipe, recipe.embeddingModel, identity.versionId)) stats.ready += 1;
       else if (recipe.embeddingStatus === "failed") stats.failed += 1;
       else if (embedding) stats.stale += 1;
       else stats.pending += 1;
@@ -40,15 +42,16 @@ export async function POST(request: Request) {
       for (let index = 0; index < approved.length; index += 1) {
         const stored = approved[index]; const title = stored.recipe?.metadata?.title || stored.id;
         try {
+          const identity = skillIdentity(stored as unknown as Record<string, unknown>);
           const existing = await readJson<SkillEmbedding>(join(embeddingsDir, `${stored.id}.json`));
-          if (isCurrentEmbedding(existing, stored.id, stored.recipe, embedding.model)) {
+          if (isCurrentEmbedding(existing, identity.skillId, stored.recipe, embedding.model, identity.versionId)) {
             stored.embeddingStatus = "ready"; stored.embeddingModel = embedding.model; stored.embeddingUpdatedAt = existing?.createdAt; stored.indexStatus = "hybrid_searchable";
             const searchPath = join(searchDir, `${stored.id}.json`); const search = await readJson<Record<string, unknown>>(searchPath);
             if (search) { search.embeddingStatus = "ready"; search.embeddingModel = embedding.model; search.embeddingUpdatedAt = existing?.createdAt; await writeFile(searchPath, JSON.stringify(search, null, 2)); }
             await writeFile(join(recipeDirectory(root, stored.libraryType || "photo"), `${stored.id}.json`), JSON.stringify(stored, null, 2)); skipped += 1;
           }
           else {
-            const generated = await createSkillEmbedding(stored.id, stored.recipe, embedding);
+            const generated = await createSkillEmbedding(identity.skillId, stored.recipe, embedding, identity.versionId);
             stored.embeddingStatus = "ready"; stored.embeddingModel = embedding.model; stored.embeddingUpdatedAt = generated.createdAt; stored.indexStatus = "hybrid_searchable";
             await writeFile(join(embeddingsDir, `${stored.id}.json`), JSON.stringify(generated, null, 2));
             const searchPath = join(searchDir, `${stored.id}.json`); const search = await readJson<Record<string, unknown>>(searchPath);

@@ -1,14 +1,18 @@
 import { access, readFile, readdir } from "node:fs/promises";
 import { join } from "node:path";
+import type { RetrievalProfile } from "./skill-governance";
 
 export type LibraryType = "photo" | "imported_skill";
 
 export type StoredSkill = {
   id: string;
+  skillId?: string;
+  versionId?: string;
+  version?: number;
   libraryType?: LibraryType;
   status: "needs_review" | "approved" | "rejected" | string;
   createdAt: string;
-  recipe: Record<string, unknown> & { metadata?: { title?: string; category?: string } };
+  recipe: Record<string, unknown> & { metadata?: { title?: string; category?: string }; retrievalProfile?: RetrievalProfile };
   embeddingStatus?: string;
   embeddingModel?: string;
   embeddingUpdatedAt?: string;

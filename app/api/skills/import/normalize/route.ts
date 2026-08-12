@@ -6,6 +6,7 @@ import { dataRoot, readSkills } from "../../../../../src/lib/library";
 import { importedSkillPrompt, isCurrentRecipe, parseJsonObject } from "../../../../../src/lib/recipe-schema";
 import type { GitHubRemoteSource } from "../../../../../src/lib/skill-intake";
 import { TYPOGRAPHY_SCHEMA_VERSION } from "../../../../../src/lib/typography";
+import { applyRetrievalProfile, skillIdentity, stableSkillId } from "../../../../../src/lib/skill-governance";
 
 export const runtime = "nodejs";
 export const maxDuration = 300;
@@ -48,17 +49,23 @@ export async function POST(request: Request) {
         try {
           const result = await normalize(candidate, config);
           if (result.rejected) { rejected += 1; emit({ type: "progress", completed: index + 1, total: staging.candidates.length, succeeded, rejected, failed: failures.length, current: candidate.title, outcome: "rejected", reason: result.rejected }); continue; }
-          const recipe = result.recipe!;
-          const upstreamRecords = candidate.remoteSource ? existingSkills.filter((item) => {
-            const source = item.source as { remoteSource?: GitHubRemoteSource } | undefined;
-            return item.libraryType === "imported_skill" && item.id !== candidate.id && source?.remoteSource?.upstreamKey === candidate.remoteSource?.upstreamKey;
-          }) : [];
+          const recipe = applyRetrievalProfile(result.recipe!);
+          const upstreamRecords = existingSkills.filter((item) => {
+            if (item.libraryType !== "imported_skill" || item.id === candidate.id) return false;
+            const source = item.source as { externalSkillId?: string; remoteSource?: GitHubRemoteSource } | undefined;
+            if (candidate.remoteSource?.upstreamKey) return source?.remoteSource?.upstreamKey === candidate.remoteSource.upstreamKey;
+            return Boolean(candidate.externalSkillId && source?.externalSkillId === candidate.externalSkillId);
+          });
           const predecessorIds = new Set(upstreamRecords.map((item) => item.id));
+          const lineageKey = candidate.remoteSource?.upstreamKey || (candidate.externalSkillId ? `external:${candidate.externalSkillId}` : undefined);
+          const inheritedIdentity = upstreamRecords[0] ? skillIdentity(upstreamRecords[0] as unknown as Record<string, unknown>) : undefined;
+          const skillId = inheritedIdentity?.skillId || stableSkillId(lineageKey || candidate.id);
+          const version = Math.max(0, ...upstreamRecords.map((item) => skillIdentity(item as unknown as Record<string, unknown>).version)) + 1;
           const duplicateCandidates = findDuplicateCandidates(recipe as RecipeLike["recipe"], existing.filter((item) => !predecessorIds.has(item.id)) as RecipeLike[]);
           const sourceDirectory = join(root, "imported-sources", body.batchId!, candidate.id);
           await Promise.all(candidate.documents.map(async (document) => { const output = join(sourceDirectory, document.path); await mkdir(join(output, ".."), { recursive: true }); await writeFile(output, document.content); }));
           const supersedes = upstreamRecords.filter((item) => item.status === "approved").map((item) => ({ id: item.id, commitSha: ((item.source as { remoteSource?: GitHubRemoteSource } | undefined)?.remoteSource?.commitSha) }));
-          const stored = { id: candidate.id, libraryType: "imported_skill", importBatchId: body.batchId, status: "needs_review", providerModel: result.conversion === "native" ? "external/native" : config.model, createdAt: new Date().toISOString(), recipeSchemaVersion: "1.1", typographySchemaVersion: TYPOGRAPHY_SCHEMA_VERSION, typographyStatus: "ready", source: { kind: "external_skill", title: candidate.title, root: candidate.sourceRoot, hash: candidate.id, originalSchema: candidate.originalSchema, externalSkillId: candidate.externalSkillId, sourceDirectory: join("imported-sources", body.batchId!, candidate.id), files: candidate.documents.map((document) => document.path), preview: candidate.documents.find((document) => document.path.toLowerCase().endsWith("skill.md"))?.content.slice(0, 1800) || "", ...(candidate.remoteSource ? { remoteSource: candidate.remoteSource } : {}) }, normalization: { mode: result.conversion, model: result.conversion === "model" ? config.model : undefined, normalizedAt: new Date().toISOString() }, ...(candidate.remoteSource ? { upstreamUpdate: upstreamRecords.length > 0, supersedes } : {}), dedupeText: dedupeText(recipe as RecipeLike["recipe"]), duplicateCandidates, duplicateDecision: duplicateCandidates.length ? "pending" : "not_required", recipe };
+          const stored = { id: candidate.id, skillId, versionId: candidate.id, version, libraryType: "imported_skill", importBatchId: body.batchId, status: "needs_review", providerModel: result.conversion === "native" ? "external/native" : config.model, createdAt: new Date().toISOString(), recipeSchemaVersion: "1.2", typographySchemaVersion: TYPOGRAPHY_SCHEMA_VERSION, typographyStatus: "ready", source: { kind: "external_skill", title: candidate.title, root: candidate.sourceRoot, hash: candidate.id, originalSchema: candidate.originalSchema, externalSkillId: candidate.externalSkillId, sourceDirectory: join("imported-sources", body.batchId!, candidate.id), files: candidate.documents.map((document) => document.path), preview: candidate.documents.find((document) => document.path.toLowerCase().endsWith("skill.md"))?.content.slice(0, 1800) || "", ...(candidate.remoteSource ? { remoteSource: candidate.remoteSource } : {}) }, normalization: { mode: result.conversion, model: result.conversion === "model" ? config.model : undefined, normalizedAt: new Date().toISOString() }, ...(upstreamRecords.length ? { upstreamUpdate: true, supersedes } : {}), dedupeText: dedupeText(recipe as RecipeLike["recipe"]), duplicateCandidates, duplicateDecision: duplicateCandidates.length ? "pending" : "not_required", recipe };
           for (const oldDraft of upstreamRecords.filter((item) => item.status === "needs_review")) {
             oldDraft.status = "obsolete_draft"; oldDraft.obsoletedBy = candidate.id; oldDraft.obsoletedAt = new Date().toISOString();
             await writeFile(join(root, "imported-skills", `${oldDraft.id}.json`), JSON.stringify(oldDraft, null, 2));
