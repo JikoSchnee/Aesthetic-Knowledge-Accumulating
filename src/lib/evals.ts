@@ -1,12 +1,13 @@
 import { createHash, randomUUID } from "node:crypto";
 import { mkdir, readFile, readdir, rename, rm, stat, writeFile } from "node:fs/promises";
-import { basename, extname, join } from "node:path";
+import { basename, extname, join, resolve, sep } from "node:path";
 import { embeddingTexts, type EmbeddingConfig } from "./embeddings";
 import { isGenerationTransientError, resolveGeneratedImage, pollGeneration, submitGeneration, type GenerationSubmission } from "./image-generation";
 import { imageGenerationSettingsFromEnv, type ImageGenerationSettings } from "./image-generation-settings";
 import { dataRoot, locateSkill, type LibraryType } from "./library";
 import { imageRecipePrompt, parseJsonObject, parseValidRecipe } from "./recipe-schema";
 import { buildEligibleSkillPool, noEligibleSkillMessage, rankSkillPool, retrieveSkills, type RankedSearchCard, type RetrievalDiagnostics, type RetrievalPool } from "./retrieval";
+import { safeSkillPath } from "./skill-intake";
 
 export const EVAL_MAX_IMAGE_BYTES = 20 * 1024 * 1024;
 export const EVAL_MAX_CONCURRENCY = 8;
@@ -66,6 +67,7 @@ export type EvalCaseRun = {
   retrievalDiagnostics?: RetrievalDiagnostics;
   retrievalQuery?: string;
   queryVector?: number[];
+  topMatches?: RankedSearchCard[];
   matches?: RankedSearchCard[];
   generations?: EvalGeneration[];
   prompt?: string;
@@ -183,14 +185,14 @@ async function atomicJson(path: string, value: unknown) {
 export async function listEvalRuns() {
   await ensureEvalDirectories();
   const runs = await Promise.all((await readdir(evalRunsDir(), { withFileTypes: true })).filter((item) => item.isDirectory() && safeId(item.name)).map(async (item) => {
-    try { return JSON.parse(await readFile(join(evalRunsDir(), item.name, "manifest.json"), "utf8")) as EvalRun; } catch { return undefined; }
+    try { return await hydrateEvalTopMatches(JSON.parse(await readFile(join(evalRunsDir(), item.name, "manifest.json"), "utf8")) as EvalRun); } catch { return undefined; }
   }));
   return runs.filter((item): item is EvalRun => Boolean(item)).sort((a, b) => b.createdAt.localeCompare(a.createdAt));
 }
 
 export async function readEvalRun(id: string) {
   if (!safeId(id)) throw new Error("无效的 Eval Run ID。");
-  return JSON.parse(await readFile(join(evalRunsDir(), id, "manifest.json"), "utf8")) as EvalRun;
+  return hydrateEvalTopMatches(JSON.parse(await readFile(join(evalRunsDir(), id, "manifest.json"), "utf8")) as EvalRun);
 }
 
 async function readEvalSnapshot(run: EvalRun): Promise<EvalSnapshot | undefined> {
@@ -205,6 +207,32 @@ async function readEvalSnapshot(run: EvalRun): Promise<EvalSnapshot | undefined>
 async function saveEvalRun(run: EvalRun) {
   run.updatedAt = new Date().toISOString();
   await atomicJson(join(evalRunsDir(), run.id, "manifest.json"), run);
+  return run;
+}
+
+async function hydrateEvalTopMatches(run: EvalRun) {
+  const missing = run.cases.filter((item) => !item.topMatches?.length && item.matches?.length && item.retrievalQuery && item.queryVector?.length);
+  if (!missing.length || run.schemaVersion !== "2.0") return run;
+  try {
+    const snapshot = await readEvalSnapshot(run);
+    if (!snapshot) return run;
+    let changed = false;
+    for (const item of missing) {
+      const ranked = await rankSkillPool({ query: item.retrievalQuery!, topK: run.config.topK, pool: snapshot.pool, queryVector: item.queryVector, embeddingModel: snapshot.embedding.model });
+      const selectedIds = new Set((item.matches || []).map((match) => match.id));
+      if (!ranked.results.length || [...selectedIds].some((id) => !ranked.results.some((match) => match.id === id))) continue;
+      item.topMatches = ranked.results;
+      if (item.retrievalDiagnostics) item.retrievalDiagnostics.returned = ranked.results.length;
+      for (const generation of item.generations || []) {
+        const rank = ranked.results.findIndex((match) => match.id === generation.matchId);
+        if (rank >= 0) generation.rank = rank + 1;
+      }
+      changed = true;
+    }
+    if (changed && run.status === "completed") return saveEvalRun(run);
+  } catch {
+    // Old runs without enough frozen retrieval data keep the matches-only fallback.
+  }
   return run;
 }
 
@@ -225,6 +253,16 @@ export function selectRandomTopK<T>(items: T[], count: number, random: () => num
     [indexed[index], indexed[swapIndex]] = [indexed[swapIndex], indexed[index]];
   }
   return indexed.slice(0, Math.max(0, Math.min(indexed.length, Math.round(count)))).sort((a, b) => a.index - b.index).map(({ item }) => item);
+}
+
+export function prepareEvalMatches<T>(items: T[], count: number, random: () => number = Math.random) {
+  return { topMatches: items, matches: selectRandomTopK(items, count, random) };
+}
+
+export function evalGenerationRank(item: Pick<EvalCaseRun, "topMatches" | "matches">, match: Pick<RankedSearchCard, "id">) {
+  const ranked = item.topMatches?.length ? item.topMatches : item.matches || [];
+  const index = ranked.findIndex((candidate) => candidate.id === match.id);
+  return index >= 0 ? index + 1 : 1;
 }
 
 type RetryableEvalItem = Pick<EvalCaseRun, "retryCount" | "nextRetryAt" | "lastTransientError">;
@@ -283,6 +321,57 @@ export async function createEvalRun(input: { caseIds?: string[]; topK?: number; 
   };
   await saveEvalRun(run);
   return run;
+}
+
+export function evalRunContainsSkill(run: Pick<EvalRun, "cases">, skillId: string) {
+  return run.cases.some((item) => (item.topMatches?.length ? item.topMatches : item.matches || []).some((match) => match.id === skillId || match.versionId === skillId));
+}
+
+export function resolveEvalSourceFile(root: string, sourceDirectory: string, files: string[], requestedFile?: string) {
+  const safeDirectory = safeSkillPath(sourceDirectory);
+  const safeFiles = files.map(safeSkillPath);
+  const primary = safeFiles.find((file) => basename(file).toLowerCase() === "skill.md") || safeFiles[0];
+  const selected = requestedFile ? safeSkillPath(requestedFile) : primary;
+  if (!selected || !safeFiles.includes(selected)) throw new Error("该来源文件不属于此 Skill。");
+  const directory = resolve(root, safeDirectory);
+  const path = resolve(directory, selected);
+  if (path !== directory && !path.startsWith(`${directory}${sep}`)) throw new Error("无效的来源文件路径。");
+  return { files: safeFiles, selected, path };
+}
+
+export type EvalSkillDetail = {
+  id: string;
+  title: string;
+  libraryType: LibraryType;
+  recipe: Record<string, unknown>;
+  sourceFiles: string[];
+  sourceFile?: { path: string; content: string };
+  sourceUnavailable?: string;
+};
+
+export async function readEvalSkillDetail(runId: string, skillId: string, requestedFile?: string): Promise<EvalSkillDetail> {
+  if (!/^[a-f0-9]{64}$/i.test(skillId)) throw new Error("无效的 Skill ID。");
+  const run = await readEvalRun(runId);
+  if (!evalRunContainsSkill(run, skillId)) throw new Error("该 Skill 不属于此 Eval 运行。");
+  const snapshot = await readEvalSnapshot(run);
+  if (!snapshot) throw new Error("旧版 Eval 运行没有可读取的 Skill 快照。");
+  const candidate = snapshot.pool.candidates.find((item) => item.card.id === skillId || item.card.versionId === skillId);
+  if (!candidate) throw new Error("Eval 快照中找不到该 Skill。");
+  const detail: EvalSkillDetail = { id: candidate.card.versionId, title: candidate.card.title, libraryType: candidate.card.libraryType, recipe: candidate.recipe, sourceFiles: [] };
+  if (candidate.card.libraryType !== "imported_skill") return detail;
+  const located = await locateSkill(dataRoot(), candidate.card.versionId, "imported_skill");
+  if (!located) return { ...detail, sourceUnavailable: "外部 Skill 记录已不存在；仍可查看运行快照中的生图内容。" };
+  try {
+    const stored = JSON.parse(await readFile(located.path, "utf8")) as { source?: { sourceDirectory?: string; files?: string[] } };
+    const source = stored.source;
+    if (!source?.sourceDirectory || !Array.isArray(source.files) || !source.files.length) return { ...detail, sourceUnavailable: "该外部 Skill 没有保存原始来源文档。" };
+    const resolved = resolveEvalSourceFile(dataRoot(), source.sourceDirectory, source.files, requestedFile);
+    const content = await readFile(resolved.path, "utf8");
+    return { ...detail, sourceFiles: resolved.files, sourceFile: { path: resolved.selected, content } };
+  } catch (error) {
+    if (requestedFile) throw error;
+    return { ...detail, sourceUnavailable: error instanceof Error ? error.message : "无法读取外部 Skill 原文。" };
+  }
 }
 
 export async function renameEvalRun(id: string, name: unknown) {
@@ -572,17 +661,19 @@ async function advanceEvalCase(run: EvalRun, item: EvalCaseRun, sourceCase: Eval
         ? await rankSkillPool({ query: item.retrievalQuery, embedding, topK: run.config.topK, pool: snapshot.pool })
         : await retrieveSkills({ query: item.retrievalQuery, embedding, library: run.config.library, topK: run.config.topK, excludeIds: [item.caseId] });
       const randomPickCount = evalRandomPickCount(run.config.topK, run.config.randomPickCount);
-      item.matches = selectRandomTopK(retrieved.results, randomPickCount);
+      const selection = prepareEvalMatches(retrieved.results, randomPickCount);
+      item.topMatches = selection.topMatches;
+      item.matches = selection.matches;
       item.retrievalMode = retrieved.retrievalMode;
       item.retrievalWarning = retrieved.warning;
-      item.retrievalDiagnostics = { ...retrieved.diagnostics, returned: item.matches.length };
+      item.retrievalDiagnostics = retrieved.diagnostics;
       item.queryVector = retrieved.queryVector;
       item.timings.retrieval = Date.now() - started;
       if (!item.matches.length) { item.retrievalCode = "NO_ELIGIBLE_SKILL"; throw new Error(noEligibleSkillMessage(retrieved.diagnostics)); }
       item.stage = "pending_generation";
       clearEvalRetrySchedule(item);
     } else if (item.stage === "pending_generation" && !item.generations) {
-      item.generations = (item.matches || []).map((match, index) => ({ matchId: match.id, rank: index + 1, stage: "pending_generation", fidelityAttempt: 1, timings: {} }));
+      item.generations = (item.matches || []).map((match) => ({ matchId: match.id, rank: evalGenerationRank(item, match), stage: "pending_generation", fidelityAttempt: 1, timings: {} }));
       if (!item.generations.length) { item.retrievalCode = "NO_ELIGIBLE_SKILL"; throw new Error(noEligibleSkillMessage(item.retrievalDiagnostics || { indexed: 0, approved: 0, eligible: 0, returned: 0, rejected: [] })); }
     }
   } catch (error) {

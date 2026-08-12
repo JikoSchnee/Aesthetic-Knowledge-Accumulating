@@ -10,9 +10,10 @@ type Match = { id: string; title: string; libraryType: "photo" | "imported_skill
 type QualityCheck = { status: "pending" | "passed" | "failed"; reasons: string[] };
 type GenerationRun = { matchId: string; rank: number; stage: string; resultFile?: string; error?: string; retryCount?: number; nextRetryAt?: string; lastTransientError?: string; remoteId?: string; remoteState?: string; fidelityAttempt?: 1 | 2; qualityCheck?: QualityCheck; qualityTimings?: number; timings: Record<string, number> };
 type RetrievalDiagnostics = { indexed: number; approved: number; eligible: number; returned: number; rejected: Array<{ skillId?: string; versionId?: string; title?: string; reason: string }> };
-type CaseRun = { caseId: string; filename: string; stage: string; matches?: Match[]; generations?: GenerationRun[]; prompt?: string; resultFile?: string; error?: string; retrievalCode?: string; retrievalDiagnostics?: RetrievalDiagnostics; retryCount?: number; nextRetryAt?: string; lastTransientError?: string; remoteId?: string; remoteState?: string; timings: Record<string, number> };
+type CaseRun = { caseId: string; filename: string; stage: string; topMatches?: Match[]; matches?: Match[]; generations?: GenerationRun[]; prompt?: string; resultFile?: string; error?: string; retrievalCode?: string; retrievalDiagnostics?: RetrievalDiagnostics; retryCount?: number; nextRetryAt?: string; lastTransientError?: string; remoteId?: string; remoteState?: string; timings: Record<string, number> };
 type EvalRun = { schemaVersion: "1.0" | "2.0"; id: string; createdAt: string; updatedAt: string; groupName?: string; name?: string; status: "running" | "paused" | "completed"; pauseReason?: string; snapshot?: { candidateCount: number; visionModel: string; embeddingModel?: string }; config: GenerationSettings & { topK: number; randomPickCount?: number; library: Library; concurrency?: number }; cases: CaseRun[]; progress: { completed: number; failed: number; total: number; percent: number } };
 type GenerationSettings = { provider: "openrouter" | "fal"; model: string; endpoint: string; apiKey: string; outputFormat: "png" | "jpeg" | "webp"; falInputTemplate: string; falResultPath: string; presets?: Array<{ id: string; label: string }> };
+type SkillDetail = { id: string; title: string; libraryType: "photo" | "imported_skill"; recipe: Record<string, unknown>; sourceFiles: string[]; sourceFile?: { path: string; content: string }; sourceUnavailable?: string; error?: string };
 
 const falModelOptions = [
   { id: "fal-ai/flux-pro/kontext", label: "FLUX.1 Kontext Pro" },
@@ -26,6 +27,77 @@ const defaultGeneration: GenerationSettings = { provider: "openrouter", model: "
 const stageLabel: Record<string, string> = { pending_analysis: "等待视觉分析", pending_retrieval: "等待检索", pending_generation: "等待提交生图", waiting_generation: "远程生成中", completed: "已完成", failed: "失败" };
 const elapsed = (timings: Record<string, number>) => Object.entries(timings).map(([key, value]) => `${key} ${(value / 1000).toFixed(1)}s`).join(" · ") || "尚未开始";
 const retryMessage = (item: CaseRun) => item.nextRetryAt && item.retryCount ? `正在重试（第 ${item.retryCount}/3 次）：${item.lastTransientError || "瞬时网络错误"}` : "";
+const skillDetailCache = new Map<string, Promise<SkillDetail>>();
+
+function loadSkillDetail(runId: string, skillId: string, file?: string) {
+  const key = `${runId}:${skillId}:${file || "__primary__"}`;
+  const cached = skillDetailCache.get(key);
+  if (cached) return cached;
+  const query = file ? `?file=${encodeURIComponent(file)}` : "";
+  const request = fetch(`/api/evals/runs/${runId}/skills/${skillId}${query}`, { cache: "no-store" }).then(async (response) => {
+    const result = await response.json() as SkillDetail;
+    if (!response.ok) throw new Error(result.error || "无法读取 Skill 详情。");
+    return result;
+  });
+  skillDetailCache.set(key, request);
+  void request.catch(() => skillDetailCache.delete(key));
+  return request;
+}
+
+const detailLabel = (key: string) => key.replace(/([a-z])([A-Z])/g, "$1 $2").replace(/^./, (letter) => letter.toUpperCase());
+
+function DetailValue({ value }: { value: unknown }) {
+  if (value == null || value === "") return <span className="skill-detail-empty">—</span>;
+  if (Array.isArray(value)) return value.length ? <ul>{value.map((item, index) => <li key={index}><DetailValue value={item}/></li>)}</ul> : <span className="skill-detail-empty">—</span>;
+  if (typeof value === "object") return <dl>{Object.entries(value as Record<string, unknown>).map(([key, entry]) => <div key={key}><dt>{detailLabel(key)}</dt><dd><DetailValue value={entry}/></dd></div>)}</dl>;
+  return <span>{String(value)}</span>;
+}
+
+function SkillMatchList({ item, run }: { item: CaseRun; run: EvalRun }) {
+  const rankedMatches = item.topMatches?.length ? item.topMatches : item.matches || [];
+  const selectedIds = new Set(item.generations?.length ? item.generations.map((generation) => generation.matchId) : (item.matches || []).map((match) => match.id));
+  const [expanded, setExpanded] = useState<string>();
+  const [tab, setTab] = useState<"recipe" | "source">("recipe");
+  const [detail, setDetail] = useState<SkillDetail>();
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const requestVersion = useRef(0);
+
+  const open = async (match: Match) => {
+    const skillId = match.id;
+    if (expanded === skillId) { requestVersion.current += 1; setExpanded(undefined); return; }
+    const version = ++requestVersion.current;
+    setExpanded(skillId); setTab("recipe"); setDetail(undefined); setError(""); setLoading(true);
+    try { const result = await loadSkillDetail(run.id, skillId); if (requestVersion.current === version) setDetail(result); }
+    catch (nextError) { if (requestVersion.current === version) setError(nextError instanceof Error ? nextError.message : "无法读取 Skill 详情。"); }
+    finally { if (requestVersion.current === version) setLoading(false); }
+  };
+  const chooseSource = async (file: string) => {
+    if (!expanded) return;
+    const version = ++requestVersion.current;
+    setLoading(true); setError("");
+    try { const result = await loadSkillDetail(run.id, expanded, file); if (requestVersion.current === version) { setDetail(result); setTab("source"); } }
+    catch (nextError) { if (requestVersion.current === version) setError(nextError instanceof Error ? nextError.message : "无法读取来源文档。"); }
+    finally { if (requestVersion.current === version) setLoading(false); }
+  };
+
+  if (!rankedMatches.length) return null;
+  return <section className="eval-match-list"><header><span>TOP K MATCHES</span><small>{rankedMatches.length} RETURNED · {selectedIds.size} SELECTED</small></header>{rankedMatches.map((match, rank) => {
+    const selected = selectedIds.has(match.id);
+    const isExpanded = expanded === match.id;
+    return <article key={match.id} className={`${selected ? "selected" : ""} ${isExpanded ? "expanded" : ""}`}>
+      <button type="button" className="eval-match-row" onClick={() => void open(match)} aria-expanded={isExpanded}>
+        <b>{String(rank + 1).padStart(2, "0")}</b><span>{match.title}<small>{match.libraryType === "photo" ? "照片库" : "Skill 库"} · {match.matchReason}</small></span>{selected && <strong>已选生成</strong>}<em>{match.score.toFixed(3)}</em><i>{isExpanded ? "−" : "+"}</i>
+      </button>
+      {isExpanded && <div className="eval-skill-detail">
+        {loading && !detail ? <p className="skill-detail-status">正在读取运行快照…</p> : error ? <p className="skill-detail-status error">{error}</p> : detail ? <>
+          <nav><button type="button" className={tab === "recipe" ? "active" : ""} onClick={() => setTab("recipe")}>用于生成</button>{detail.libraryType === "imported_skill" && <button type="button" className={tab === "source" ? "active" : ""} onClick={() => setTab("source")}>导入原文</button>}</nav>
+          {tab === "recipe" ? <div className="skill-recipe"><div className="skill-detail-kicker">FROZEN RECIPE / 实际用于本次生成</div><DetailValue value={detail.recipe}/>{detail.libraryType === "photo" && <p className="skill-source-note">照片衍生 Skill 没有外部原文；以上为照片分析后冻结的完整配方。</p>}</div> : <div className="skill-source"><div className="skill-source-files">{detail.sourceFiles.map((file) => <button type="button" className={detail.sourceFile?.path === file ? "active" : ""} key={file} onClick={() => void chooseSource(file)}>{file}</button>)}</div>{loading && <p className="skill-detail-status">正在读取来源文件…</p>}{detail.sourceFile ? <pre>{detail.sourceFile.content}</pre> : <p className="skill-detail-status">{detail.sourceUnavailable || "没有可读取的原始来源文档。"}</p>}</div>}
+        </> : null}
+      </div>}
+    </article>;
+  })}</section>;
+}
 
 function GenerationGallery({ item, run }: { item: CaseRun; run: EvalRun }) {
   const generations: GenerationRun[] = item.generations?.length ? item.generations : [{ matchId: item.matches?.[0]?.id || "legacy", rank: 1, stage: item.stage, resultFile: item.resultFile, error: item.error, retryCount: item.retryCount, nextRetryAt: item.nextRetryAt, lastTransientError: item.lastTransientError, timings: item.timings }];
@@ -139,7 +211,7 @@ export function EvalStudio({ embedding, onOpenSettings }: { embedding: Embedding
 
     <section className="eval-run-layout">
       <aside className="eval-history"><div className="section-label"><span>RUN HISTORY</span><small>{runs.length}</small></div>{Object.entries(runs.reduce<Record<string, EvalRun[]>>((groups, run) => { const name = run.groupName || "未命名组"; (groups[name] ||= []).push(run); return groups; }, {})).map(([name, groupRuns]) => <section className="eval-history-group" key={name}><div className="eval-history-group-head"><b>{name}</b><span>{groupRuns.length} RUNS</span><button onClick={() => renameGroup(name)} aria-label={`重命名 ${name}`}>改名</button></div>{groupRuns.map((run) => <div className="eval-history-run" key={run.id}><button className={activeRun?.id === run.id ? "active" : ""} onClick={() => setActiveRun(run)}><b>{run.name || `Eval ${new Date(run.createdAt).toLocaleString()}`}</b><span>{run.config.provider} · {run.config.model}</span><small>{run.progress.completed}/{run.progress.total} 完成 · {run.progress.failed} 失败</small></button><button className="icon-action edit-run" onClick={() => renameRun(run)} aria-label={`编辑任务 ${run.name || run.id}`} title="编辑任务名称">✎</button><button className="icon-action delete-run" onClick={() => deleteRun(run)} aria-label={`删除任务 ${run.name || run.id}`} title="删除任务">⌫</button></div>)}</section>)}</aside>
-      <div className="eval-run-detail">{activeRun ? <><header><div><span className="eyebrow">RUN {activeRun.id.slice(0, 12).toUpperCase()} · {activeRun.schemaVersion === "2.0" ? `SNAPSHOT ${activeRun.snapshot?.candidateCount || 0}` : "LEGACY / 非严格可复现"}</span><h3>{activeRun.status === "completed" ? "运行记录已封存" : activeRun.status === "paused" ? "运行已暂停" : "测试正在推进"}</h3><p>{activeRun.config.provider} / {activeRun.config.model} · Top {activeRun.config.topK} 随机选 {activeRun.config.randomPickCount || activeRun.config.topK} · 并发 {activeRun.config.concurrency || 3}</p>{activeRun.pauseReason && <p className="eval-message">{activeRun.pauseReason}</p>}</div><div className="eval-progress-ring" style={{ "--progress": `${activeRun.progress.percent * 3.6}deg` } as React.CSSProperties}><b>{activeRun.progress.percent}%</b></div><button className="text-btn" onClick={() => action(activeRun.status === "paused" ? "resume" : "pause")} disabled={activeRun.status === "completed"}>{activeRun.status === "paused" ? "恢复" : "暂停"}</button></header><div className="eval-progress"><i style={{ width: `${activeRun.progress.percent}%` }}/></div><div className="eval-results">{activeRun.cases.map((item, index) => <article key={item.caseId} className={`eval-result ${item.stage}`}><div className="eval-result-head"><span>CASE {String(index + 1).padStart(2, "0")}</span><b>{item.filename}</b><em>{stageLabel[item.stage] || item.stage}</em></div><GenerationGallery item={item} run={activeRun}/>{item.matches?.length ? <div className="eval-match-list">{item.matches.map((match, rank) => <div key={match.id}><b>0{rank + 1}</b><span>{match.title}<small>{match.libraryType === "photo" ? "照片库" : "Skill 库"} · {match.matchReason}</small></span><em>{match.score.toFixed(3)}</em></div>)}</div> : null}{item.error && <p className="eval-message">{item.error}</p>}{item.retrievalDiagnostics && <details className="eval-diagnostics"><summary>检索诊断 · indexed {item.retrievalDiagnostics.indexed} / approved {item.retrievalDiagnostics.approved} / eligible {item.retrievalDiagnostics.eligible} / selected {item.retrievalDiagnostics.returned}</summary><pre>{JSON.stringify(item.retrievalDiagnostics.rejected, null, 2)}</pre></details>}<footer><span>{elapsed(item.timings)}</span>{item.remoteState && <small>REMOTE {item.remoteState.toUpperCase()}{item.remoteId ? ` · ${item.remoteId.slice(0, 12)}` : ""}</small>}</footer></article>)}</div></> : <div className="eval-empty"><b>◎</b><p>创建一次运行后，这里会显示检索轨迹和生成结果。</p></div>}</div>
+      <div className="eval-run-detail">{activeRun ? <><header><div><span className="eyebrow">RUN {activeRun.id.slice(0, 12).toUpperCase()} · {activeRun.schemaVersion === "2.0" ? `SNAPSHOT ${activeRun.snapshot?.candidateCount || 0}` : "LEGACY / 非严格可复现"}</span><h3>{activeRun.status === "completed" ? "运行记录已封存" : activeRun.status === "paused" ? "运行已暂停" : "测试正在推进"}</h3><p>{activeRun.config.provider} / {activeRun.config.model} · Top {activeRun.config.topK} 随机选 {activeRun.config.randomPickCount || activeRun.config.topK} · 并发 {activeRun.config.concurrency || 3}</p>{activeRun.pauseReason && <p className="eval-message">{activeRun.pauseReason}</p>}</div><div className="eval-progress-ring" style={{ "--progress": `${activeRun.progress.percent * 3.6}deg` } as React.CSSProperties}><b>{activeRun.progress.percent}%</b></div><button className="text-btn" onClick={() => action(activeRun.status === "paused" ? "resume" : "pause")} disabled={activeRun.status === "completed"}>{activeRun.status === "paused" ? "恢复" : "暂停"}</button></header><div className="eval-progress"><i style={{ width: `${activeRun.progress.percent}%` }}/></div><div className="eval-results">{activeRun.cases.map((item, index) => <article key={item.caseId} className={`eval-result ${item.stage}`}><div className="eval-result-head"><span>CASE {String(index + 1).padStart(2, "0")}</span><b>{item.filename}</b><em>{stageLabel[item.stage] || item.stage}</em></div><GenerationGallery item={item} run={activeRun}/><SkillMatchList item={item} run={activeRun}/>{item.error && <p className="eval-message">{item.error}</p>}{item.retrievalDiagnostics && <details className="eval-diagnostics"><summary>检索诊断 · indexed {item.retrievalDiagnostics.indexed} / approved {item.retrievalDiagnostics.approved} / eligible {item.retrievalDiagnostics.eligible} / returned {item.retrievalDiagnostics.returned} / selected {item.matches?.length || 0}</summary><pre>{JSON.stringify(item.retrievalDiagnostics.rejected, null, 2)}</pre></details>}<footer><span>{elapsed(item.timings)}</span>{item.remoteState && <small>REMOTE {item.remoteState.toUpperCase()}{item.remoteId ? ` · ${item.remoteId.slice(0, 12)}` : ""}</small>}</footer></article>)}</div></> : <div className="eval-empty"><b>◎</b><p>创建一次运行后，这里会显示检索轨迹和生成结果。</p></div>}</div>
     </section>
   </div>;
 }

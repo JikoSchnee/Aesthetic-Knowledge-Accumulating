@@ -3,7 +3,7 @@ import { test } from "node:test";
 import { mkdtemp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { EVAL_GENERATION_TEMPLATE, EVAL_MAX_CONCURRENCY, EVAL_MAX_RETRIES, evalConcurrency, evalRandomPickCount, evalTextInstruction, evalTextSuggestion, fidelityRepairPrompt, generationPrompt, isEvalRetryDue, parseQualityCheck, qualityOutcome, scheduleEvalRetry, selectRandomTopK, subjectLockFromAnalysis, subjectLockInstruction, type EvalCaseRun } from "./evals";
+import { EVAL_GENERATION_TEMPLATE, EVAL_MAX_CONCURRENCY, EVAL_MAX_RETRIES, evalConcurrency, evalGenerationRank, evalRandomPickCount, evalRunContainsSkill, evalTextInstruction, evalTextSuggestion, fidelityRepairPrompt, generationPrompt, isEvalRetryDue, parseQualityCheck, prepareEvalMatches, qualityOutcome, resolveEvalSourceFile, scheduleEvalRetry, selectRandomTopK, subjectLockFromAnalysis, subjectLockInstruction, type EvalCaseRun } from "./evals";
 import { GenerationTransientError, isGenerationTransientError, openRouterRequestBody, resolveGeneratedImage, validateRaster } from "./image-generation";
 import { IMAGE_GENERATION_DEFAULTS, templateForFalModel, validateImageGenerationSettings, visibleImageGenerationSettings } from "./image-generation-settings";
 import { buildEligibleSkillPool, keywordScore, rankSkillPool, retrieveSkills } from "./retrieval";
@@ -139,6 +139,31 @@ test("Eval randomly selects the requested number from Top K", () => {
   assert.equal(evalRandomPickCount(5, undefined), 5);
   const selected = selectRandomTopK(["a", "b", "c", "d", "e"], 2, () => 0);
   assert.deepEqual(selected, ["b", "c"]);
+});
+
+test("Eval preserves the complete Top K and original ranks for selected matches", () => {
+  const ranked = ["a", "b", "c", "d", "e"].map((id) => ({ id })) as never[];
+  const selection = prepareEvalMatches(ranked, 2, () => 0);
+  assert.deepEqual(selection.topMatches.map((item: { id: string }) => item.id), ["a", "b", "c", "d", "e"]);
+  assert.deepEqual(selection.matches.map((item: { id: string }) => item.id), ["b", "c"]);
+  assert.equal(evalGenerationRank(selection as never, selection.matches[0] as never), 2);
+  assert.equal(evalGenerationRank(selection as never, selection.matches[1] as never), 3);
+});
+
+test("Eval Skill detail authorization supports new and legacy match manifests", () => {
+  const topMatch = { id: "a".repeat(64), versionId: "a".repeat(64) };
+  const selected = { id: "b".repeat(64), versionId: "b".repeat(64) };
+  assert.equal(evalRunContainsSkill({ cases: [{ topMatches: [topMatch], matches: [selected] } as never] }, topMatch.id), true);
+  assert.equal(evalRunContainsSkill({ cases: [{ matches: [selected] } as never] }, selected.id), true);
+  assert.equal(evalRunContainsSkill({ cases: [{ topMatches: [topMatch], matches: [selected] } as never] }, selected.id), false);
+});
+
+test("Eval source documents resolve only declared safe paths", () => {
+  const resolved = resolveEvalSourceFile("/tmp/eval-data", "imported-sources/batch/skill", ["references/color.md", "SKILL.md"]);
+  assert.equal(resolved.selected, "SKILL.md");
+  assert.equal(resolved.path, "/tmp/eval-data/imported-sources/batch/skill/SKILL.md");
+  assert.throws(() => resolveEvalSourceFile("/tmp/eval-data", "imported-sources/batch/skill", ["SKILL.md"], "../secret.txt"), /Unsafe path/);
+  assert.throws(() => resolveEvalSourceFile("/tmp/eval-data", "imported-sources/batch/skill", ["SKILL.md"], "missing.md"), /不属于/);
 });
 
 test("Eval transient failures persist a three-attempt backoff schedule", () => {

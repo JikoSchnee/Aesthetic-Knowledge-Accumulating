@@ -148,19 +148,20 @@ export async function buildEligibleSkillPool(options: Omit<RetrievalOptions, "qu
   return { candidates, diagnostics: { indexed, approved, eligible: candidates.length, returned: 0, rejected } };
 }
 
-export async function rankSkillPool(options: Pick<RetrievalOptions, "query" | "embedding" | "topK"> & { pool: RetrievalPool }) {
+export async function rankSkillPool(options: Pick<RetrievalOptions, "query" | "embedding" | "topK"> & { pool: RetrievalPool; queryVector?: number[]; embeddingModel?: string }) {
   const query = options.query.trim();
   const topK = Math.max(1, Math.min(100, Math.round(options.topK || 5)));
   const diagnostics = { ...options.pool.diagnostics, rejected: [...options.pool.diagnostics.rejected], returned: 0 };
   if (!query) return { results: [] as RankedSearchCard[], retrievalMode: "keyword", warning: undefined as string | undefined, diagnostics, queryVector: undefined as number[] | undefined };
 
-  let queryVector: number[] | undefined;
+  let queryVector = options.queryVector;
   let warning = "";
   const embeddingConfig = hasEmbeddingConfig(options.embedding) ? options.embedding : undefined;
-  if (embeddingConfig) {
+  if (!queryVector && embeddingConfig) {
     try { queryVector = (await createQueryEmbedding(query, embeddingConfig)).vector; }
     catch (error) { warning = error instanceof Error ? `${error.message} 已降级为关键词检索。` : "语义检索不可用，已降级为关键词检索。"; }
-  } else warning = "未配置 Embedding API，当前使用关键词检索。";
+  } else if (!queryVector) warning = "未配置 Embedding API，当前使用关键词检索。";
+  const embeddingModel = options.embeddingModel || embeddingConfig?.model;
 
   const ranked = options.pool.candidates.map((candidate): RankedSearchCard => {
     const card = candidate.card;
@@ -169,7 +170,7 @@ export async function rankSkillPool(options: Pick<RetrievalOptions, "query" | "e
     let intent = 0; let visual = 0; let adaptation = 0;
     let matchDimension = "关键词";
     const vector = candidate.embedding;
-    if (queryVector && embeddingConfig && vector && isCurrentEmbedding(vector, card.skillId, candidate.recipe, embeddingConfig.model, card.versionId) && vector.dimensions === queryVector.length) {
+    if (queryVector && embeddingModel && vector && isCurrentEmbedding(vector, card.skillId, candidate.recipe, embeddingModel, card.versionId) && vector.dimensions === queryVector.length) {
       intent = cosine(queryVector, vector.vectors.intent) || 0;
       visual = cosine(queryVector, vector.vectors.visual) || 0;
       adaptation = cosine(queryVector, vector.vectors.adaptation) || 0;
