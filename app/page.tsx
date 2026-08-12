@@ -24,6 +24,7 @@ type AlbumCandidate = { id: string; title: string; artist: string; genre: string
 type AnalysisFailure = { hash: string; filename: string; reason: string };
 type EmbeddingSettings = { endpoint: string; model: string; apiKey: string };
 type EmbeddingStats = { total: number; ready: number; pending: number; stale: number; failed: number };
+type LocalTransferStats = Record<"embeddings" | "uploads" | "evals", { files: number; bytes: number }>;
 type TypographyStats = { total: number; ready: number; pending: number; failed: number; missingSource: number };
 type ConnectionResult = { target: string; ok: boolean; status: number | null; latencyMs: number; message: string; endpoint?: string };
 type SearchResult = { id: string; libraryType?: "photo" | "imported_skill"; title: string; category: string; tags: string[]; coreRelationships: string[]; reuseFormula: string; score: number; semanticScore?: number; keywordScore?: number; matchDimension?: string };
@@ -187,7 +188,7 @@ export default function Home() {
       {screen === "lab" && <SemanticLab query={query} setQuery={setQuery} photoResults={photoSearchResults} importedResults={importedSearchResults} retrievalMode={retrievalMode} warning={retrievalWarning} onSearch={runSearch} />}
       {screen === "eval" && <EvalStudio embedding={embeddingSettings} onOpenSettings={() => setScreen("settings")} />}
       {screen === "export" && <Export recipes={[...photoRecipes, ...importedRecipes]} />}
-      {screen === "settings" && <><Settings values={apiSettings} setValues={setApiSettings} saved={saved} setSaved={setSaved} /><ImageGenerationSettingsPanel /><UpstreamDiagnostics /><EmbeddingSettingsPanel values={embeddingSettings} setValues={setEmbeddingSettings} /><TypographyBackfillPanel vision={apiSettings} embedding={embeddingSettings} /></>}
+      {screen === "settings" && <><Settings values={apiSettings} setValues={setApiSettings} saved={saved} setSaved={setSaved} /><ImageGenerationSettingsPanel /><UpstreamDiagnostics /><EmbeddingSettingsPanel values={embeddingSettings} setValues={setEmbeddingSettings} /><LocalTransferPanel embedding={embeddingSettings} setEmbedding={setEmbeddingSettings}/><TypographyBackfillPanel vision={apiSettings} embedding={embeddingSettings} /></>}
     </section>
   </main>;
 }
@@ -301,6 +302,48 @@ function Settings({ values, setValues, saved, setSaved }: { values: { provider: 
 }
 
 function ConnectionStatus({ result }: { result: ConnectionResult }) { return <div className={`connection-result ${result.ok ? "ok" : "failed"}`} role="status"><b>{result.ok ? "PASS" : result.status === 403 ? "403 FORBIDDEN" : "FAILED"}</b><span>{result.status == null ? "NO HTTP RESPONSE" : `HTTP ${result.status}`} · {result.latencyMs}ms</span><p>{result.message}</p>{result.endpoint && <small>{result.endpoint}</small>}</div>; }
+
+const transferBytes = (bytes: number) => bytes >= 1024 ** 3 ? `${(bytes / 1024 ** 3).toFixed(1)} GB` : bytes >= 1024 ** 2 ? `${Math.round(bytes / 1024 ** 2)} MB` : `${Math.round(bytes / 1024)} KB`;
+
+function LocalTransferPanel({ embedding, setEmbedding }: { embedding: EmbeddingSettings; setEmbedding: React.Dispatch<React.SetStateAction<EmbeddingSettings>> }) {
+  const [stats, setStats] = useState<LocalTransferStats>();
+  const [selected, setSelected] = useState({ embeddings: true, uploads: false, evals: false });
+  const [message, setMessage] = useState("");
+  const [importing, setImporting] = useState(false);
+  const refresh = () => fetch("/api/local-transfer", { cache: "no-store" }).then(async (response) => { const result = await response.json(); if (!response.ok) throw new Error(result.error || "无法统计迁移数据。"); setStats(result); }).catch((error) => setMessage(error instanceof Error ? error.message : "无法统计迁移数据。"));
+  useEffect(() => { void refresh(); }, []);
+  const sections = (["embeddings", "uploads", "evals"] as const).filter((section) => selected[section]);
+  const totalBytes = sections.reduce((total, section) => total + (stats?.[section].bytes || 0), 0);
+  const download = () => {
+    if (!sections.length) { setMessage("请至少选择一类本地数据。"); return; }
+    const query = new URLSearchParams({ sections: sections.join(","), endpoint: embedding.endpoint, model: embedding.model });
+    const link = document.createElement("a"); link.href = `/api/local-transfer/export?${query}`; link.download = ""; document.body.appendChild(link); link.click(); link.remove();
+    setMessage(`迁移包正在生成并下载 · 预计原始数据 ${transferBytes(totalBytes)}。请保持应用运行直到浏览器显示下载完成。`);
+  };
+  const importArchive = async (event: ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0]; event.target.value = ""; if (!file || importing) return;
+    setImporting(true); setMessage("正在校验清单、路径和文件哈希…");
+    try {
+      const form = new FormData(); form.append("archive", file);
+      const response = await fetch("/api/local-transfer", { method: "POST", body: form });
+      const result = await response.json() as { imported?: number; replaced?: number; unchanged?: number; total?: number; embeddingConfig?: { endpoint: string; model: string }; error?: string };
+      if (!response.ok) throw new Error(result.error || "迁移包导入失败。");
+      if (result.embeddingConfig) {
+        const next = { ...embedding, ...result.embeddingConfig };
+        setEmbedding(next); window.localStorage.setItem("taste-studio-embedding-settings", JSON.stringify(next));
+      }
+      setMessage(`导入完成：新增 ${result.imported || 0} · 更新 ${result.replaced || 0} · 已一致 ${result.unchanged || 0}。API Key 未从迁移包读取。`);
+      await refresh();
+    } catch (error) { setMessage(error instanceof Error ? error.message : "迁移包导入失败。"); }
+    finally { setImporting(false); }
+  };
+  const options = [
+    { id: "embeddings" as const, number: "01", title: "Embedding 向量", note: "GitHub 不同步 · 推荐", stat: stats?.embeddings },
+    { id: "uploads" as const, number: "02", title: "原始图片", note: "用于照片预览与字体回填", stat: stats?.uploads },
+    { id: "evals" as const, number: "03", title: "Eval 数据", note: "Case、快照与生成结果", stat: stats?.evals }
+  ];
+  return <section className="local-transfer"><header><div><span className="eyebrow">OFF-GIT TRANSFER / VERIFIED ZIP</span><h3>本地数据迁移</h3><p>GitHub 同步 Skill；这里搬运未进入 Git 的向量、图片和评测记录。</p></div><div className="transfer-total"><b>{stats ? transferBytes(totalBytes) : "…"}</b><small>SELECTED</small></div></header><div className="transfer-ledger">{options.map((option) => <label className={selected[option.id] ? "selected" : ""} key={option.id}><input type="checkbox" checked={selected[option.id]} onChange={(event) => setSelected((current) => ({ ...current, [option.id]: event.target.checked }))}/><span>{option.number}</span><div><b>{option.title}</b><small>{option.note}</small></div><em>{option.stat ? `${option.stat.files} FILES · ${transferBytes(option.stat.bytes)}` : "SCANNING"}</em></label>)}</div><footer><div><b>不会打包 API Key、.env、Skill JSON 或 SQLite 数据库</b><small>导入会先完整校验，再新增或替换对应本地文件。</small></div><div className="transfer-actions"><label className={`text-btn ${importing ? "disabled" : ""}`}>{importing ? "正在导入…" : "选择迁移包导入"}<input type="file" accept=".zip,application/zip" disabled={importing} onChange={importArchive}/></label><button className="ink-btn" type="button" onClick={download} disabled={!stats || !sections.length}>一键打包下载 →</button></div></footer>{message && <p className="transfer-message" role="status">{message}</p>}</section>;
+}
 
 function UpstreamDiagnostics() {
   const services = [{ target: "github", label: "GitHub 数据源" }, { target: "musicbrainz", label: "MusicBrainz" }, { target: "cover-art", label: "Cover Art Archive" }] as const;
