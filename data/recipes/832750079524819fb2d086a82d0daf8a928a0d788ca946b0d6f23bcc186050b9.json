@@ -1,0 +1,292 @@
+{
+  "id": "832750079524819fb2d086a82d0daf8a928a0d788ca946b0d6f23bcc186050b9",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T06:53:58.832Z",
+  "approvedAt": "2026-08-11T06:53:58.832Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T06:53:58.832Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Real Neil.jpg",
+    "hash": "832750079524819fb2d086a82d0daf8a928a0d788ca946b0d6f23bcc186050b9",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Real Neil",
+    "artist": "Neil Sedaka",
+    "artworkUrl": "https://coverartarchive.org/release-group/ff9884c6-2faf-4f8f-92ce-2f98690fa5e2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ff9884c6-2faf-4f8f-92ce-2f98690fa5e2",
+    "releaseGroupId": "ff9884c6-2faf-4f8f-92ce-2f98690fa5e2",
+    "recordingId": "c2d59a66-b645-4392-af5f-aea13ea1793e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "AmarilloNeil Sedaka",
+      "song": "Amarillo",
+      "performer": "Neil Sedaka",
+      "peakPosition": 44,
+      "firstChartDate": "1977-05-28",
+      "lastChartDate": "1977-07-09",
+      "appearances": [
+        {
+          "chartDate": "1977-05-28",
+          "position": 85
+        },
+        {
+          "chartDate": "1977-06-04",
+          "position": 75
+        },
+        {
+          "chartDate": "1977-06-11",
+          "position": 62
+        },
+        {
+          "chartDate": "1977-06-18",
+          "position": 50
+        },
+        {
+          "chartDate": "1977-06-25",
+          "position": 44
+        },
+        {
+          "chartDate": "1977-07-02",
+          "position": 44
+        },
+        {
+          "chartDate": "1977-07-09",
+          "position": 50
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome portrait with magenta accents cd cover monochrome portrait magenta typography piano keys signature script square composition high contrast black and white subject occupies the right two thirds of the frame with a direct gaze typography is vertically stacked in the upper left quadrant the white script signature acts as a horizontal divider between the title and the piano background high key facial highlights contrast against a deep black background square layout right aligned monochrome portrait left aligned stacked magenta sans serif white script signature overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Portrait with Magenta Accents CD Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Artist Promotional Material",
+        "Biographical Media Cover"
+      ],
+      "retrievalTags": [
+        "monochrome portrait",
+        "magenta typography",
+        "piano keys",
+        "signature script",
+        "square composition",
+        "high contrast black and white"
+      ]
+    },
+    "visualDefinition": "A square composition featuring a high-contrast black-and-white portrait of a smiling older man on the right, balanced by bold magenta sans-serif text and a white script signature on a dark background on the left. The bottom left features a blurred perspective of piano keys.",
+    "coreVisualRelationships": [
+      "Subject occupies the right two-thirds of the frame with a direct gaze.",
+      "Typography is vertically stacked in the upper left quadrant.",
+      "The white script signature acts as a horizontal divider between the title and the piano background.",
+      "High-key facial highlights contrast against a deep black background."
+    ],
+    "coreInvariants": [
+      "High-contrast monochrome photography for the subject.",
+      "Vibrant magenta as the primary accent color for display text.",
+      "Presence of a piano keyboard in the lower left foreground.",
+      "Tight cropping on the subject's face."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale portrait positioned on the right, cropped at the shoulders and top of the head.",
+      "visualAnchor": "The subject's eyes and smile provide the primary focal point.",
+      "movementAndEyePath": "Starts at the magenta title, moves down to the signature, then follows the diagonal of the piano keys toward the subject's face.",
+      "negativeSpace": "Deep black space in the upper left provides a canvas for the primary typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black and white monochrome for the photographic elements.",
+      "contrastColorRole": "Deep black background provides high contrast for white and magenta elements.",
+      "accentColorRole": "Vibrant magenta (approx. #D81B60) for the main title text.",
+      "saturationAndValueRelationship": "High value contrast in the face; high saturation contrast between the magenta text and the grayscale image.",
+      "paletteRestrictions": [
+        "Grayscale",
+        "Magenta",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Open counters",
+        "Straight terminals",
+        "Large x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "Tight letter spacing to create a block-like appearance for the title."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked three-line block",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "upper left",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed on negative space"
+          },
+          "treatment": {
+            "fill": "magenta",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "regular",
+            "contrast": "medium",
+            "xHeight": "variable",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "looping",
+            "strokeCharacter": "hand-drawn"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "center left, below display text",
+            "scale": "medium",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed on dark background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "smooth ink",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Modern geometric sans-serif paired with a personal, fluid handwriting script.",
+      "graphicDevices": [
+        "Horizontal alignment of text blocks",
+        "Depth of field blur on the piano keys"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Magenta color",
+          "Uppercase sans-serif for title",
+          "Script for the name"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Italics for the main title",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham or Montserrat",
+            "reason": "Provides the clean, geometric uppercase look for the title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral or custom brush script",
+            "reason": "Mimics the fluid, connected nature of a signature.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white square photograph. On the right, a close-up portrait of a smiling older man with graying hair. On the bottom left, a set of piano keys receding into the background with a shallow depth of field. The upper left area should be solid black negative space.",
+        "overlayInstruction": "Add three lines of uppercase geometric sans-serif text in vibrant magenta in the upper left. Below that, add a single line of white fluid script text resembling a signature."
+      },
+      "verificationChecks": [
+        "Is the portrait high-contrast monochrome?",
+        "Is the title text vibrant magenta?",
+        "Is the signature text white and script-based?",
+        "Are the piano keys visible in the lower left?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the magenta hue",
+      "Tightness of the portrait crop",
+      "Angle of the piano keys",
+      "Weight of the sans-serif font"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the individual",
+      "Exact signature strokes",
+      "Any visible logos or branding"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Professional photographic lighting",
+        "Clean typographic layout",
+        "High-contrast tonal range"
+      ],
+      "avoid": [
+        "Low-resolution textures",
+        "Cluttered backgrounds",
+        "Default system fonts like Arial"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the magenta text is legible against the black.",
+      "Confirm the portrait does not look like a specific celebrity.",
+      "Check that the piano keys are sufficiently blurred to not distract from the face.",
+      "Verify the signature looks hand-written rather than typed."
+    ],
+    "reuseFormula": "Square layout + Right-aligned monochrome portrait + Left-aligned stacked magenta sans-serif + White script signature overlay."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T07:31:07.876Z"
+}

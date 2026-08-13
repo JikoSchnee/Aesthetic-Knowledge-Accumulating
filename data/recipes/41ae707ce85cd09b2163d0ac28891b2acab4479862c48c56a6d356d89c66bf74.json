@@ -1,0 +1,322 @@
+{
+  "id": "41ae707ce85cd09b2163d0ac28891b2acab4479862c48c56a6d356d89c66bf74",
+  "skillId": "41ae707ce85cd09b2163d0ac28891b2acab4479862c48c56a6d356d89c66bf74",
+  "versionId": "41ae707ce85cd09b2163d0ac28891b2acab4479862c48c56a6d356d89c66bf74",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:15:48.720Z",
+  "approvedAt": "2026-08-12T17:15:48.720Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:15:48.720Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Stone Blue.jpg",
+    "hash": "41ae707ce85cd09b2163d0ac28891b2acab4479862c48c56a6d356d89c66bf74",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Stone Blue",
+    "artist": "Foghat",
+    "artworkUrl": "https://coverartarchive.org/release-group/10922ca0-aee8-3c48-a76a-a9e6763899b8/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/10922ca0-aee8-3c48-a76a-a9e6763899b8",
+    "releaseGroupId": "10922ca0-aee8-3c48-a76a-a9e6763899b8",
+    "recordingId": "9ed63104-c05c-407a-aee5-38d50628cc18",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Stone BlueFoghat",
+      "song": "Stone Blue",
+      "performer": "Foghat",
+      "peakPosition": 36,
+      "firstChartDate": "1978-05-20",
+      "lastChartDate": "1978-07-22",
+      "appearances": [
+        {
+          "chartDate": "1978-05-20",
+          "position": 85
+        },
+        {
+          "chartDate": "1978-05-27",
+          "position": 75
+        },
+        {
+          "chartDate": "1978-06-03",
+          "position": 61
+        },
+        {
+          "chartDate": "1978-06-10",
+          "position": 51
+        },
+        {
+          "chartDate": "1978-06-17",
+          "position": 45
+        },
+        {
+          "chartDate": "1978-06-24",
+          "position": 37
+        },
+        {
+          "chartDate": "1978-07-01",
+          "position": 36
+        },
+        {
+          "chartDate": "1978-07-08",
+          "position": 58
+        },
+        {
+          "chartDate": "1978-07-15",
+          "position": 81
+        },
+        {
+          "chartDate": "1978-07-22",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro rock neon tunnel aesthetic neon tubes tunnel perspective low key lighting 70s rock aesthetic monolinear script glowing typography glowing neon tubes create a radial perspective leading toward the subjects high contrast lighting illuminates only the faces of the subjects against a black background the primary logo overlaps the top of the tunnel structure secondary text is small sans serif and aligned to the right margin low key portrait radial neon tunnel monolinear script overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Rock Neon Tunnel Aesthetic",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Neon Lighting",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Classic rock album covers",
+        "Retro-futuristic band posters",
+        "High-contrast portraiture with light trails"
+      ],
+      "retrievalTags": [
+        "neon tubes",
+        "tunnel perspective",
+        "low-key lighting",
+        "70s rock aesthetic",
+        "monolinear script",
+        "glowing typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Use this skill for creating high-contrast group portraits framed by glowing geometric light trails and integrated monolinear neon-style typography.",
+      "triggerTerms": [
+        "neon tube tunnel",
+        "low-key band portrait",
+        "glowing monolinear script",
+        "retro rock lighting"
+      ],
+      "excludeWhen": [
+        "brightly lit environments",
+        "minimalist flat design",
+        "daylight photography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dark, low-key group portrait set within a receding tunnel of glowing white neon tubes, topped with a large, monolinear script logo that appears to be made of light.",
+    "coreVisualRelationships": [
+      "Glowing neon tubes create a radial perspective leading toward the subjects",
+      "High-contrast lighting illuminates only the faces of the subjects against a black background",
+      "The primary logo overlaps the top of the tunnel structure",
+      "Secondary text is small, sans-serif, and aligned to the right margin"
+    ],
+    "coreInvariants": [
+      "Monolinear stroke weight for the main script",
+      "Radial symmetry in the background light trails",
+      "Deep black shadows with no visible background detail"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four subjects arranged in a diamond formation, centered vertically and horizontally in the lower two-thirds.",
+      "visualAnchor": "The large, glowing script logo at the top center.",
+      "movementAndEyePath": "Eyes follow the neon tubes inward toward the faces, then upward to the glowing logo.",
+      "negativeSpace": "Extensive black negative space in the lower half and between light tubes."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background and shadows",
+      "contrastColorRole": "Bright white for neon tubes and typography",
+      "accentColorRole": "Warm skin tones and subtle amber highlights on faces",
+      "saturationAndValueRelationship": "Extreme value contrast between pure black and glowing white; low saturation overall.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Amber/Skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Monolinear cursive script with extended horizontal terminals",
+      "letterConstructionRules": [
+        "Uniform stroke thickness throughout",
+        "Large, sweeping loops for ascenders",
+        "Horizontal bars that extend across the width of the composition",
+        "Rounded terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Initial letter features a long horizontal tail extending to the left",
+        "Final letter features a long horizontal tail extending to the right"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "wide",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over background elements",
+            "relationshipToImage": "integrated as a light source"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "outer glow",
+            "depth": "flat",
+            "texture": "neon glow",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "light",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "geometric",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "right",
+            "tracking": "wide",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "tight"
+          },
+          "composition": {
+            "position": "top right, below main logo tail",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Large, expressive monolinear script paired with a tiny, wide-tracked geometric sans-serif.",
+      "graphicDevices": [
+        "Horizontal rule lines extending from typography",
+        "Outer glow effects"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Monolinear stroke",
+          "Extended horizontal lines",
+          "Glow effect"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Variable stroke widths",
+          "Distressed textures"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Neon-style script",
+            "reason": "Matches the monolinear, glowing aesthetic of the primary logo",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Microgramma or Eurostile",
+            "reason": "Matches the wide-tracked, geometric feel of the secondary text",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-key photograph of four men's faces in a diamond arrangement, illuminated by a tunnel of glowing white neon tubes that recede into a black background.",
+        "overlayInstruction": "Add a large white monolinear script logo at the top center with a soft outer glow, and a small all-caps sans-serif subtitle aligned to the right below the logo's horizontal extension."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Do the neon tubes create a radial perspective?",
+        "Is the main typography monolinear with a glow?",
+        "Are the faces high-contrast with deep shadows?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects",
+      "Density of neon tubes",
+      "Color of the neon glow",
+      "Length of typographic horizontal extensions"
+    ],
+    "mustRedesign": [
+      "Specific band member likenesses",
+      "Original brand logos",
+      "Exact letterforms of the source text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Strong chiaroscuro lighting",
+        "Clean, glowing vector-like typography",
+        "Sense of deep perspective"
+      ],
+      "avoid": [
+        "Muddy shadows",
+        "Low-contrast lighting",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for monolinear stroke consistency in the logo",
+      "Ensure the glow effect does not obscure the letterforms",
+      "Verify the radial alignment of the background tubes",
+      "Confirm the subjects are only partially lit",
+      "Check that the secondary text is legible but small"
+    ],
+    "reuseFormula": "Low-key portrait + radial neon tunnel + monolinear script overlay"
+  }
+}

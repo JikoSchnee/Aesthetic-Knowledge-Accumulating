@@ -1,0 +1,357 @@
+{
+  "id": "883a11d0661b42d12962faf029370206bfcedd3003e7bc6714cd1a315d6fa58a",
+  "skillId": "883a11d0661b42d12962faf029370206bfcedd3003e7bc6714cd1a315d6fa58a",
+  "versionId": "883a11d0661b42d12962faf029370206bfcedd3003e7bc6714cd1a315d6fa58a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:35:55.190Z",
+  "approvedAt": "2026-08-12T21:35:55.190Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:35:55.190Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "One by One.jpg",
+    "hash": "883a11d0661b42d12962faf029370206bfcedd3003e7bc6714cd1a315d6fa58a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "One by One",
+    "artist": "Foo Fighters",
+    "artworkUrl": "https://coverartarchive.org/release-group/a9f6787f-0c0b-39e2-aaf7-befba34727b4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a9f6787f-0c0b-39e2-aaf7-befba34727b4",
+    "releaseGroupId": "a9f6787f-0c0b-39e2-aaf7-befba34727b4",
+    "recordingId": "13dccd4a-91e7-4995-a6f8-20a96e899e9b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Times Like TheseFoo Fighters",
+      "song": "Times Like These",
+      "performer": "Foo Fighters",
+      "peakPosition": 65,
+      "firstChartDate": "2003-03-08",
+      "lastChartDate": "2003-07-19",
+      "appearances": [
+        {
+          "chartDate": "2003-03-08",
+          "position": 75
+        },
+        {
+          "chartDate": "2003-03-15",
+          "position": 73
+        },
+        {
+          "chartDate": "2003-03-22",
+          "position": 71
+        },
+        {
+          "chartDate": "2003-03-29",
+          "position": 69
+        },
+        {
+          "chartDate": "2003-04-05",
+          "position": 69
+        },
+        {
+          "chartDate": "2003-04-12",
+          "position": 70
+        },
+        {
+          "chartDate": "2003-04-19",
+          "position": 65
+        },
+        {
+          "chartDate": "2003-04-26",
+          "position": 65
+        },
+        {
+          "chartDate": "2003-05-03",
+          "position": 65
+        },
+        {
+          "chartDate": "2003-05-10",
+          "position": 74
+        },
+        {
+          "chartDate": "2003-05-17",
+          "position": 73
+        },
+        {
+          "chartDate": "2003-05-24",
+          "position": 69
+        },
+        {
+          "chartDate": "2003-05-31",
+          "position": 78
+        },
+        {
+          "chartDate": "2003-06-07",
+          "position": 83
+        },
+        {
+          "chartDate": "2003-06-14",
+          "position": 87
+        },
+        {
+          "chartDate": "2003-06-21",
+          "position": 81
+        },
+        {
+          "chartDate": "2003-06-28",
+          "position": 82
+        },
+        {
+          "chartDate": "2003-07-05",
+          "position": 87
+        },
+        {
+          "chartDate": "2003-07-12",
+          "position": 88
+        },
+        {
+          "chartDate": "2003-07-19",
+          "position": 89
+        }
+      ]
+    }
+  },
+  "dedupeText": "grunge ink heart album cover hand drawn heart ink blot grunge typography stark contrast minimalist white background central subject dominance high contrast black and white balance symmetrical text placement in upper margins rough texture vs clean background central subject ink illustration background stark white typography distressed hand lettered corners",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Grunge Ink Heart Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Ink Illustration",
+        "Digital Graphic"
+      ],
+      "useCases": [
+        "Rock Album Art",
+        "Alternative Music Branding",
+        "Minimalist Poster Design"
+      ],
+      "retrievalTags": [
+        "hand-drawn heart",
+        "ink blot",
+        "grunge typography",
+        "stark contrast",
+        "minimalist white background"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A stark, high-contrast composition featuring a central hand-inked heart with rough, expressive brushwork and distressed, hand-lettered typography.",
+      "triggerTerms": [
+        "grunge ink heart illustration",
+        "distressed hand-lettered album cover",
+        "minimalist black ink on white"
+      ],
+      "excludeWhen": [
+        "clean vector icons are requested",
+        "photorealistic imagery is needed",
+        "complex multi-color gradients are required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A large, central black heart rendered with heavy ink strokes and internal white negative-space highlights, set against a flat white background with distressed text in the upper corners.",
+    "coreVisualRelationships": [
+      "Central subject dominance",
+      "High-contrast black and white balance",
+      "Symmetrical text placement in upper margins",
+      "Rough texture vs. clean background"
+    ],
+    "coreInvariants": [
+      "Hand-drawn, irregular heart silhouette",
+      "Visible brush or ink-pen texture",
+      "Stark white negative space"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large central heart occupying approximately 60% of the vertical space.",
+      "visualAnchor": "The heavy black mass of the heart.",
+      "movementAndEyePath": "Eyes start at the central heart, then move to the top-left text, then across to the top-right text.",
+      "negativeSpace": "Expansive white background creates a clean, stark frame for the messy central subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White background",
+      "contrastColorRole": "Black ink for the heart and primary text",
+      "accentColorRole": "Deep red for secondary text",
+      "saturationAndValueRelationship": "High value contrast with zero saturation in the main subject; low-saturation red for accent.",
+      "paletteRestrictions": [
+        "Pure White",
+        "Solid Black",
+        "Blood Red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Tall, condensed sans-serif with irregular heights",
+      "letterConstructionRules": [
+        "Inconsistent stroke weights",
+        "Simulated ink bleed and splatter",
+        "Rough, jagged edges",
+        "Varying baseline alignment"
+      ],
+      "characterSpecificRedesigns": [
+        "O characters are irregular circles",
+        "E characters have uneven horizontal bars",
+        "Stenciled or distressed gaps in strokes"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "distressed-handwritten",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt/rough",
+            "corners": "irregular",
+            "counters": "tight",
+            "strokeCharacter": "ink-drawn"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top-left corner",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "isolated in negative space"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "ink-bleed",
+            "distortion": "jitter"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "distressed-handwritten",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt/rough",
+            "corners": "irregular",
+            "counters": "tight",
+            "strokeCharacter": "ink-drawn"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top-right corner",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "isolated in negative space"
+          },
+          "treatment": {
+            "fill": "dark-red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "ink-bleed",
+            "distortion": "jitter"
+          }
+        }
+      ],
+      "pairingStrategy": "Matching distressed styles in contrasting colors (black and red).",
+      "graphicDevices": [
+        "Ink splatters",
+        "Rough brush strokes"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Hand-drawn feel",
+          "Distressed edges",
+          "Condensed proportions"
+        ],
+        "avoid": [
+          "Clean geometric fonts",
+          "Perfectly aligned baselines"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rough-hewn woodcut fonts",
+            "reason": "Captures the jagged, manual feel of the original lettering.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Ink-splatter display types",
+            "reason": "Mimics the bleed and texture of the red text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a stark white background with a large, centrally placed heart rendered in heavy black ink with expressive, rough brushwork and internal white highlights.",
+        "overlayInstruction": "Add custom hand-lettered text in the top-left (black) and top-right (dark red) corners using a condensed, distressed style with irregular stroke widths."
+      },
+      "verificationChecks": [
+        "Is the heart centrally dominant?",
+        "Is the background pure white?",
+        "Does the text look hand-drawn and distressed?",
+        "Is the color palette limited to black, white, and red?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Heart stroke thickness",
+      "Amount of internal white highlights",
+      "Text distress level",
+      "Red accent saturation"
+    ],
+    "mustRedesign": [
+      "Avoid using specific band names or album titles",
+      "Do not replicate the exact heart silhouette shape"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast visual impact",
+        "Authentic ink-on-paper texture",
+        "Balanced asymmetrical typography"
+      ],
+      "avoid": [
+        "Smooth digital gradients",
+        "Perfectly symmetrical heart shapes",
+        "Standard system fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast black/white balance",
+      "Verify text is in the upper corners",
+      "Ensure heart texture looks manual, not digital",
+      "Confirm red accent is used only for secondary text"
+    ],
+    "reuseFormula": "Central [Subject: Ink Illustration] + [Background: Stark White] + [Typography: Distressed Hand-Lettered Corners]"
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "id": "b649c31e993754e10b2d96a39784dd7c51c788ce04ac5ab11125d6e39ed74606",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T12:39:31.997Z",
+  "approvedAt": "2026-08-11T12:39:31.997Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T12:39:31.997Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Dirty Looks.jpg",
+    "hash": "b649c31e993754e10b2d96a39784dd7c51c788ce04ac5ab11125d6e39ed74606",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Dirty Looks",
+    "artist": "Juice Newton",
+    "artworkUrl": "https://coverartarchive.org/release-group/b521533e-f83c-3efb-b1e6-bf581541fa8e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b521533e-f83c-3efb-b1e6-bf581541fa8e",
+    "releaseGroupId": "b521533e-f83c-3efb-b1e6-bf581541fa8e",
+    "recordingId": "1631c66d-9c19-4c9a-9d42-ca3dde6092c9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Dirty LooksJuice Newton",
+      "song": "Dirty Looks",
+      "performer": "Juice Newton",
+      "peakPosition": 90,
+      "firstChartDate": "1983-11-05",
+      "lastChartDate": "1983-11-19",
+      "appearances": [
+        {
+          "chartDate": "1983-11-05",
+          "position": 95
+        },
+        {
+          "chartDate": "1983-11-12",
+          "position": 90
+        },
+        {
+          "chartDate": "1983-11-19",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "eighties pop collage aesthetic 1980s memphis style grid collage neon palette geometric overlays fashion photography halftone diagonal stripes repetition of subject across varied lighting and color environments interplay between photographic realism and flat vector geometry dynamic tension created by diagonal lines cutting across a rigid grid centralized graphic anchor overlapping the grid intersections grid based fashion collage memphis style geometric overlays dual path typography circular diagonal script",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Eighties Pop Collage Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Vector Illustration",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Retro Editorial Layout",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "1980s",
+        "Memphis style",
+        "grid collage",
+        "neon palette",
+        "geometric overlays",
+        "fashion photography",
+        "halftone",
+        "diagonal stripes"
+      ]
+    },
+    "visualDefinition": "A 3x3 grid collage featuring multiple poses of a single female subject, integrated with vibrant 1980s geometric graphics, diagonal stripes, and a central circular emblem containing a stylized eye.",
+    "coreVisualRelationships": [
+      "Repetition of subject across varied lighting and color environments",
+      "Interplay between photographic realism and flat vector geometry",
+      "Dynamic tension created by diagonal lines cutting across a rigid grid",
+      "Centralized graphic anchor overlapping the grid intersections"
+    ],
+    "coreInvariants": [
+      "High-contrast lighting on the subject",
+      "Vibrant cyan, magenta, and yellow color blocks",
+      "Diagonal black-and-yellow or black-and-pink hazard stripes",
+      "Airbrushed or soft-focus photographic quality"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject appears in nine distinct frames, varying from close-up portraits to full-body poses, with a larger close-up occupying the center-bottom frames.",
+      "visualAnchor": "A central circular graphic containing a stylized eye and overlapping geometric shapes (triangles and rectangles).",
+      "movementAndEyePath": "The eye is drawn to the central graphic, then follows the diagonal stripes and color blocks outward to the individual grid cells.",
+      "negativeSpace": "Minimal; the composition is densely packed with color, patterns, and imagery."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cyan and Magenta provide the primary 80s pop atmosphere.",
+      "contrastColorRole": "Black and white provide structural contrast and define the grid.",
+      "accentColorRole": "Bright yellow and soft peach act as highlights within specific cells.",
+      "saturationAndValueRelationship": "High saturation across all hues with deep black shadows in the photography.",
+      "paletteRestrictions": [
+        "Avoid muted earth tones",
+        "Strictly use neon-adjacent primaries and secondaries"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Geometric Sans and Script",
+      "letterConstructionRules": [
+        "Display text follows a circular path around the central emblem",
+        "Secondary text is a sharp, angular script with heavy outlines",
+        "Letters are often tilted or warped to match the diagonal energy"
+      ],
+      "characterSpecificRedesigns": [
+        "Sharp, lightning-bolt-like terminals on script elements",
+        "Uniform stroke weight for circular sans-serif text"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "regular",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered-on-path",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "circular",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "upper-right quadrant of center",
+            "scale": "medium",
+            "rotation": "variable-on-path",
+            "warp": "arc",
+            "overlap": "on-top",
+            "relationshipToImage": "integrated with central graphic"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "angular-script",
+          "anatomy": {
+            "width": "extended",
+            "weight": "heavy",
+            "contrast": "high",
+            "xHeight": "variable",
+            "terminals": "pointed",
+            "corners": "acute",
+            "counters": "tight",
+            "strokeCharacter": "calligraphic-marker"
+          },
+          "typesetting": {
+            "case": "mixed",
+            "alignment": "diagonal",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "center-right",
+            "scale": "large",
+            "rotation": "15-degrees-up",
+            "warp": "none",
+            "overlap": "over-multiple-cells",
+            "relationshipToImage": "breaks-grid-boundaries"
+          },
+          "treatment": {
+            "fill": "yellow",
+            "outline": "black-thick",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "italicized"
+          }
+        }
+      ],
+      "pairingStrategy": "A rigid, clean geometric sans paired with a chaotic, hand-drawn angular script.",
+      "graphicDevices": [
+        "Circular eye emblem",
+        "Diagonal 'hazard' stripes",
+        "Pink triangle overlays",
+        "Halftone dot patterns"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Circular path for the primary name",
+          "Yellow-on-black outline for the script"
+        ],
+        "avoid": [
+          "Soft cursive",
+          "Serif fonts",
+          "Horizontal-only layouts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Matches the geometric sans-serif circular text",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Custom 80s Marker Script",
+            "reason": "Captures the aggressive, angular energy of the secondary text",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a 3x3 grid of fashion portraits featuring a woman with 80s hair and attire. Each cell should have a different vibrant background color (cyan, magenta, yellow, purple). Overlay diagonal black stripes and geometric shapes like triangles across the grid lines.",
+        "overlayInstruction": "Add a central circular graphic with a stylized eye. Place uppercase geometric sans-serif text in a semi-circle above the eye. Add a large, yellow-filled angular script with a thick black outline diagonally across the center-right of the composition."
+      },
+      "verificationChecks": [
+        "Is the grid 3x3?",
+        "Does the central eye graphic anchor the composition?",
+        "Are the colors neon and high-contrast?",
+        "Is the script text outlined in black?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Grid cell count",
+      "Specific geometric shapes",
+      "Portrait poses",
+      "Primary neon hue"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original artist",
+      "Original brand logos",
+      "Exact wording of the title"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-energy 80s color palette",
+        "Clean vector-over-photo integration",
+        "Sharp diagonal movement"
+      ],
+      "avoid": [
+        "Modern minimalist whitespace",
+        "Desaturated filters",
+        "Standard horizontal typesetting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 80s-appropriate fashion and hair styling",
+      "Ensure the diagonal stripes do not obscure the subject's face",
+      "Verify the central eye graphic is clean and stylized",
+      "Confirm the color palette is limited to high-saturation tones"
+    ],
+    "reuseFormula": "Grid-based fashion collage + Memphis-style geometric overlays + Dual-path typography (Circular + Diagonal Script)."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:20:22.327Z"
+}

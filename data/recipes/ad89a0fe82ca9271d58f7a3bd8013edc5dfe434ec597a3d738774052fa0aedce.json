@@ -1,0 +1,280 @@
+{
+  "id": "ad89a0fe82ca9271d58f7a3bd8013edc5dfe434ec597a3d738774052fa0aedce",
+  "skillId": "ad89a0fe82ca9271d58f7a3bd8013edc5dfe434ec597a3d738774052fa0aedce",
+  "versionId": "ad89a0fe82ca9271d58f7a3bd8013edc5dfe434ec597a3d738774052fa0aedce",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:58:57.225Z",
+  "approvedAt": "2026-08-12T15:58:57.225Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:58:57.225Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Silk Electric.jpg",
+    "hash": "ad89a0fe82ca9271d58f7a3bd8013edc5dfe434ec597a3d738774052fa0aedce",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Silk Electric",
+    "artist": "Diana Ross",
+    "artworkUrl": "https://coverartarchive.org/release-group/b07b9a8e-b5f9-3f00-9bf3-d4a08d14682e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b07b9a8e-b5f9-3f00-9bf3-d4a08d14682e",
+    "releaseGroupId": "b07b9a8e-b5f9-3f00-9bf3-d4a08d14682e",
+    "recordingId": "6cd147ab-cab7-42a3-bd21-8b38696bfa04",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "So CloseDiana Ross",
+      "song": "So Close",
+      "performer": "Diana Ross",
+      "peakPosition": 40,
+      "firstChartDate": "1983-02-05",
+      "lastChartDate": "1983-04-09",
+      "appearances": [
+        {
+          "chartDate": "1983-02-05",
+          "position": 65
+        },
+        {
+          "chartDate": "1983-02-12",
+          "position": 60
+        },
+        {
+          "chartDate": "1983-02-19",
+          "position": 49
+        },
+        {
+          "chartDate": "1983-02-26",
+          "position": 45
+        },
+        {
+          "chartDate": "1983-03-05",
+          "position": 42
+        },
+        {
+          "chartDate": "1983-03-12",
+          "position": 42
+        },
+        {
+          "chartDate": "1983-03-19",
+          "position": 40
+        },
+        {
+          "chartDate": "1983-03-26",
+          "position": 40
+        },
+        {
+          "chartDate": "1983-04-02",
+          "position": 57
+        },
+        {
+          "chartDate": "1983-04-09",
+          "position": 88
+        }
+      ]
+    }
+  },
+  "dedupeText": "pop art portrait with halftone textures pop art halftone high contrast portrait 1980s aesthetic flat color blocks stipple texture massive dark hair silhouette vs bright flat skin tone vibrant lip and eye accents vs neutral face base halftone stipple patterns vs solid color blocks subject s three quarter gaze vs top right typographic cluster pop art portrait high contrast silhouette hair flat color skin screen print texture saturated makeup accents halftone textured typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Pop Art Portrait with Halftone Textures",
+      "category": "Graphic Illustration",
+      "medium": [
+        "Screen print",
+        "Mixed media",
+        "Digital illustration"
+      ],
+      "useCases": [
+        "Album cover design",
+        "Retro-modern editorial portrait",
+        "Fashion poster art"
+      ],
+      "retrievalTags": [
+        "pop art",
+        "halftone",
+        "high contrast portrait",
+        "1980s aesthetic",
+        "flat color blocks",
+        "stipple texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "High-contrast pop art portraits featuring flat skin tones, massive dark hair silhouettes, and vibrant accent colors on eyes and lips.",
+      "triggerTerms": [
+        "80s pop art screen print style",
+        "flat color portrait with halftone accents",
+        "high contrast silhouette hair"
+      ],
+      "excludeWhen": [
+        "photorealistic lighting is required",
+        "subtle gradients are needed",
+        "minimalist line art is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A stylized graphic portrait characterized by a large, textured black hair mass framing a flat-colored face with high-saturation makeup accents and a grainy, screen-printed texture throughout.",
+    "coreVisualRelationships": [
+      "Massive dark hair silhouette vs. bright flat skin tone",
+      "Vibrant lip and eye accents vs. neutral face base",
+      "Halftone stipple patterns vs. solid color blocks",
+      "Subject's three-quarter gaze vs. top-right typographic cluster"
+    ],
+    "coreInvariants": [
+      "High-contrast black hair mass",
+      "Flat, warm-toned skin (peach/tan)",
+      "Grainy or halftone texture overlay",
+      "Minimalist facial features defined by color rather than shadow"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies 80% of the frame, positioned slightly left of center with hair extending to the edges.",
+      "visualAnchor": "The saturated red lips and dark eyes create a central focal point within the face.",
+      "movementAndEyePath": "Eyes lead from the subject's gaze to the typographic element in the top right corner.",
+      "negativeSpace": "The lavender background provides a soft contrast to the heavy black hair mass."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (hair) and Peach (skin)",
+      "contrastColorRole": "Lavender (background)",
+      "accentColorRole": "Bright Red (lips) and Pink/Purple (eyeshadow)",
+      "saturationAndValueRelationship": "Extreme value contrast between hair and skin; high saturation on facial features.",
+      "paletteRestrictions": [
+        "Limited to 5-6 distinct colors",
+        "No smooth gradients",
+        "High-contrast black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Sans-serif and script hybrid",
+      "letterConstructionRules": [
+        "Main title uses thick, jagged, stippled brush strokes",
+        "Secondary text uses clean, wide-tracked sans-serif",
+        "Angular, aggressive script for the primary wordmark"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters filled with halftone dot patterns",
+        "Jagged edges to simulate hand-painted texture"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "expressive-script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "jagged",
+            "counters": "small",
+            "strokeCharacter": "textured brush"
+          },
+          "typesetting": {
+            "case": "mixed",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "medium",
+            "rotation": "slight upward tilt",
+            "warp": "none",
+            "overlap": "layered over background",
+            "relationshipToImage": "tucked into the hair silhouette"
+          },
+          "treatment": {
+            "fill": "halftone pattern",
+            "outline": "thin black",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "stipple",
+            "distortion": "hand-drawn jitter"
+          }
+        }
+      ],
+      "pairingStrategy": "Aggressive, textured script paired with clean, geometric sans-serif for contrast.",
+      "graphicDevices": [
+        "Halftone overlays",
+        "Stipple shading",
+        "Color-blocked makeup"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Halftone texture in text",
+          "Wide tracking in secondary text"
+        ],
+        "avoid": [
+          "Standard clean fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rough brush script",
+            "reason": "Matches the jagged, hand-painted feel of the main title",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Geometric Sans-Serif (e.g., Futura)",
+            "reason": "Provides a clean counterpoint for secondary information",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast pop art portrait of a woman with massive black hair, flat peach skin, red lips, and pink eyeshadow against a lavender background with a grainy screen-print texture.",
+        "overlayInstruction": "Apply a textured, stippled script title in the top right corner, using a halftone dot fill and jagged edges."
+      },
+      "verificationChecks": [
+        "Is the hair a solid, textured black mass?",
+        "Are the lips a vibrant, saturated red?",
+        "Does the text feature a halftone dot pattern?",
+        "Is the background a flat lavender color?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Hair volume",
+      "Skin tone warmth",
+      "Background color",
+      "Halftone dot density"
+    ],
+    "mustRedesign": [
+      "Avoid specific celebrity likeness",
+      "Do not use existing brand logos",
+      "Ensure text is original and not a copy of the source"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Visible screen-print grain",
+        "High-contrast color blocking",
+        "Stylized facial features"
+      ],
+      "avoid": [
+        "Soft airbrushed looks",
+        "Realistic skin textures",
+        "Clean digital gradients"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast separation between hair and face",
+      "Ensure halftone texture is visible in the text and shadows",
+      "Verify the three-quarter portrait angle",
+      "Confirm the limited color palette is maintained"
+    ],
+    "reuseFormula": "Pop Art Portrait = (High-Contrast Silhouette Hair + Flat Color Skin) * Screen-Print Texture + (Saturated Makeup Accents) + (Halftone Textured Typography)"
+  }
+}

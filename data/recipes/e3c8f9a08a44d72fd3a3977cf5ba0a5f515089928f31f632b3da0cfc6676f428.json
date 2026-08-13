@@ -1,0 +1,291 @@
+{
+  "id": "e3c8f9a08a44d72fd3a3977cf5ba0a5f515089928f31f632b3da0cfc6676f428",
+  "skillId": "e3c8f9a08a44d72fd3a3977cf5ba0a5f515089928f31f632b3da0cfc6676f428",
+  "versionId": "e3c8f9a08a44d72fd3a3977cf5ba0a5f515089928f31f632b3da0cfc6676f428",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:34:18.737Z",
+  "approvedAt": "2026-08-13T00:34:18.737Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:34:18.737Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "One in a Million You.jpg",
+    "hash": "e3c8f9a08a44d72fd3a3977cf5ba0a5f515089928f31f632b3da0cfc6676f428",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "One in a Million You",
+    "artist": "Larry Graham",
+    "artworkUrl": "https://coverartarchive.org/release-group/bd6830a7-8d7b-3151-8c27-deaf844398d4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/bd6830a7-8d7b-3151-8c27-deaf844398d4",
+    "releaseGroupId": "bd6830a7-8d7b-3151-8c27-deaf844398d4",
+    "recordingId": "dab00d66-7325-4bf6-8b23-817c1f5b15fd",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "When We Get MarriedLarry Graham",
+      "song": "When We Get Married",
+      "performer": "Larry Graham",
+      "peakPosition": 76,
+      "firstChartDate": "1980-10-25",
+      "lastChartDate": "1980-11-15",
+      "appearances": [
+        {
+          "chartDate": "1980-10-25",
+          "position": 88
+        },
+        {
+          "chartDate": "1980-11-01",
+          "position": 78
+        },
+        {
+          "chartDate": "1980-11-08",
+          "position": 76
+        },
+        {
+          "chartDate": "1980-11-15",
+          "position": 76
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro soul portrait with linear accents 1980s soul aesthetic red background white fedora linear graphic elements script typography portrait photography subject centered vertically and horizontally white clothing and hat contrasting against deep red background horizontal lines intersecting the upper background typographic hierarchy between formal title and expressive signature portrait solid color background horizontal graphic lines dual style typography geometric script",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Soul Portrait with Linear Accents",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Vintage-style posters",
+        "Artist branding"
+      ],
+      "retrievalTags": [
+        "1980s soul aesthetic",
+        "red background",
+        "white fedora",
+        "linear graphic elements",
+        "script typography",
+        "portrait photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered portrait of a male artist against a vibrant red backdrop featuring horizontal speed lines and contrasting script and sans-serif typography.",
+      "triggerTerms": [
+        "vintage soul album cover",
+        "red background with white lines",
+        "artist portrait with fedora"
+      ],
+      "excludeWhen": [
+        "modern minimalist photography",
+        "dark moody lighting",
+        "complex multi-subject scenes"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium-close portrait of a man wearing a white fedora and jacket, centered against a solid red field. The upper third of the composition is broken by thin, horizontal white lines and two distinct typographic styles: a wide-tracked sans-serif title and a decorative, flowing script signature.",
+    "coreVisualRelationships": [
+      "Subject centered vertically and horizontally",
+      "White clothing and hat contrasting against deep red background",
+      "Horizontal lines intersecting the upper background",
+      "Typographic hierarchy between formal title and expressive signature"
+    ],
+    "coreInvariants": [
+      "Solid red background",
+      "White fedora as a primary visual anchor",
+      "Thin horizontal white graphic lines",
+      "High-contrast lighting on the face"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered medium shot, subject occupies roughly 60% of the vertical space.",
+      "visualAnchor": "The white fedora hat at the center-top of the subject.",
+      "movementAndEyePath": "From the face to the white hat, then upward to the horizontal lines and typography in the upper third.",
+      "negativeSpace": "Ample red negative space on the left and right sides of the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant red background",
+      "contrastColorRole": "Crisp white for clothing, hat, and graphic lines",
+      "accentColorRole": "Gold jewelry and dark skin tones",
+      "saturationAndValueRelationship": "High saturation background with high value (white) foreground elements.",
+      "paletteRestrictions": [
+        "Limit to red, white, and natural skin/clothing tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric sans-serif and copperplate-style script",
+      "letterConstructionRules": [
+        "Title: Wide tracking, uniform stroke weight, all-caps",
+        "Signature: Fluid, interconnected loops, varying stroke thickness, sharp terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Extended swashes on capital letters in the script",
+        "Extreme letter spacing in the sans-serif title"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "pointed",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "tight"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over background lines",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "geometric",
+            "strokeCharacter": "monoline"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "center",
+            "tracking": "very-wide",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "header"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between rigid, spaced-out geometric sans and fluid, expressive script.",
+      "graphicDevices": [
+        "Horizontal white parallel lines behind the subject's head"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide tracking of title",
+          "Interconnected script loops",
+          "White color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Shadows on text",
+          "Vertical text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Bold (Wide Tracked)",
+            "reason": "Matches the geometric, clean look of the top title text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Shelley Volante Script",
+            "reason": "Captures the elegant, looping, and high-contrast nature of the signature.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a centered portrait of a man with a mustache wearing a white fedora and white jacket against a solid red background. Include five thin, parallel white horizontal lines in the upper third of the frame.",
+        "overlayInstruction": "Add a wide-tracked geometric sans-serif title in all-caps at the very top. Add a large, white, flowing script signature on the right side, overlapping the horizontal lines."
+      },
+      "verificationChecks": [
+        "Is the background a solid, vibrant red?",
+        "Are there thin white horizontal lines in the upper third?",
+        "Is the subject wearing a white fedora?",
+        "Is the top text extremely wide-tracked?",
+        "Is the signature text in a fluid, looping script?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color",
+      "Number of horizontal lines",
+      "Hat style",
+      "Script complexity"
+    ],
+    "mustRedesign": [
+      "Avoid using the specific artist's name or likeness",
+      "Do not copy the exact logo signature"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, high-contrast separation between subject and background",
+        "Precise alignment of horizontal lines",
+        "Legible but stylized script"
+      ],
+      "avoid": [
+        "Muddled colors",
+        "Blurry text",
+        "Off-center subject placement"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for color bleed between red and white",
+      "Ensure script loops do not obscure the face",
+      "Verify the horizontal lines are perfectly parallel",
+      "Confirm the sans-serif tracking is consistent"
+    ],
+    "reuseFormula": "Portrait + Solid Color Background + Horizontal Graphic Lines + Dual-Style Typography (Geometric & Script)"
+  }
+}

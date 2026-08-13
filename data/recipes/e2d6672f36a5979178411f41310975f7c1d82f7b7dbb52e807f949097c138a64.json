@@ -1,0 +1,279 @@
+{
+  "id": "e2d6672f36a5979178411f41310975f7c1d82f7b7dbb52e807f949097c138a64",
+  "skillId": "e2d6672f36a5979178411f41310975f7c1d82f7b7dbb52e807f949097c138a64",
+  "versionId": "e2d6672f36a5979178411f41310975f7c1d82f7b7dbb52e807f949097c138a64",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T10:08:50.201Z",
+  "approvedAt": "2026-08-12T10:08:50.201Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T10:08:50.201Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "So This Is Love.jpg",
+    "hash": "e2d6672f36a5979178411f41310975f7c1d82f7b7dbb52e807f949097c138a64",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "So This Is Love",
+    "artist": "The Castells",
+    "artworkUrl": "https://coverartarchive.org/release-group/91ca8962-015b-480f-95eb-385b4a2fe3ff/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/91ca8962-015b-480f-95eb-385b4a2fe3ff",
+    "releaseGroupId": "91ca8962-015b-480f-95eb-385b4a2fe3ff",
+    "recordingId": "4edc8c50-aff9-4cf1-b7e9-29cd6f644209",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Oh! What It Seemed To BeThe Castells",
+      "song": "Oh! What It Seemed To Be",
+      "performer": "The Castells",
+      "peakPosition": 91,
+      "firstChartDate": "1962-08-25",
+      "lastChartDate": "1962-09-01",
+      "appearances": [
+        {
+          "chartDate": "1962-08-25",
+          "position": 93
+        },
+        {
+          "chartDate": "1962-09-01",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century beach picnic album cover mid century modern beach picnic 1960s fashion condensed sans serif formal script vibrant summer palette bold block text anchored to the top edge script text layered over the horizon line subject group centered in the lower two thirds high contrast lighting emphasizing textures of sand and rock combine a sun drenched 1960s lifestyle photo with a header of vertically stretched condensed sans serif and a sub header of elegant copperplate script",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Beach Picnic Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Vintage music packaging",
+        "1960s lifestyle illustration",
+        "Retro summer promotional material"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "beach picnic",
+        "1960s fashion",
+        "condensed sans-serif",
+        "formal script",
+        "vibrant summer palette"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1960s-style album cover featuring a group beach picnic scene with high-contrast condensed display type and elegant script overlays.",
+      "triggerTerms": [
+        "1960s beach picnic aesthetic",
+        "vintage album cover typography",
+        "retro summer lifestyle photography"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "dark or moody beach scenes",
+        "flat vector illustrations"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A sun-drenched beach scene featuring five young adults in 1960s attire sitting on a blanket among large rocks, topped with bold, orange-red condensed sans-serif and a flowing red script.",
+    "coreVisualRelationships": [
+      "Bold block text anchored to the top edge",
+      "Script text layered over the horizon line",
+      "Subject group centered in the lower two-thirds",
+      "High-contrast lighting emphasizing textures of sand and rock"
+    ],
+    "coreInvariants": [
+      "Orange-red color for primary display typography",
+      "Presence of large, textured coastal rocks",
+      "1960s era-specific swimwear and casual shirts"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A group of five people occupies the central foreground and midground, scaled to fill the width between large flanking rocks.",
+      "visualAnchor": "The large, bright orange-red block text at the top serves as the primary anchor.",
+      "movementAndEyePath": "Eyes start at the bold top text, move down through the elegant script, and settle on the smiling faces of the group.",
+      "negativeSpace": "Minimal negative space; the frame is densely packed with figures, rocks, and ocean waves."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Naturalistic beach tones (sandy beige, rocky grey, ocean blue)",
+      "contrastColorRole": "Vibrant orange-red for typography and accents like the picnic bag",
+      "accentColorRole": "Yellow and lime green in the clothing of the central figures",
+      "saturationAndValueRelationship": "High saturation in the typography and clothing against a slightly desaturated, grainy photographic background.",
+      "paletteRestrictions": [
+        "Avoid neon or digital-first colors",
+        "Maintain a warm, sun-bleached film quality"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed grotesque and formal copperplate script",
+      "letterConstructionRules": [
+        "Primary text uses extremely tight tracking and high vertical stretch",
+        "Secondary text uses long, sweeping swashes on the 'S' and 'L'"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'S' in the script has an elongated top curve that underlines the preceding word"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "foreground-overlay"
+          },
+          "treatment": {
+            "fill": "orange-red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "vertical-stretch"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "tapered-swash",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "upper-mid-center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "partial-over-background",
+            "relationshipToImage": "floating-overlay"
+          },
+          "treatment": {
+            "fill": "dark-red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a rigid, industrial condensed sans-serif with a fluid, romantic script.",
+      "graphicDevices": [
+        "Circular logo emblem in the top right corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Verticality of the top text",
+          "Swash character of the script"
+        ],
+        "avoid": [
+          "Modern geometric sans-serifs",
+          "Casual brush scripts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Matches the heavy, condensed, and tall proportions of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Shelley Script or Snell Roundhand",
+            "reason": "Captures the formal, elegant swashes of the secondary text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 1960s-style photograph of a group of five young adults (three men, two women) having a picnic on a sandy beach. They are surrounded by large, dark, textured rocks. The ocean waves are visible in the background. The lighting should be bright and sunny with a vintage film grain. One woman is in a yellow swimsuit; the men wear colorful short-sleeve button-downs.",
+        "overlayInstruction": "Add the primary display text in a bold, orange-red, extra-condensed sans-serif at the very top. Below it, add the subtitle in a dark red, elegant formal script with long swashes, centered over the horizon line."
+      },
+      "verificationChecks": [
+        "Is the top text extra-condensed and orange-red?",
+        "Does the script text have elegant swashes?",
+        "Is the photographic style consistent with 1960s film?",
+        "Are the subjects positioned between large rocks?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the display text",
+      "Number of people in the picnic group",
+      "Intensity of the film grain"
+    ],
+    "mustRedesign": [
+      "Modern digital clothing styles",
+      "Flat, vector-style backgrounds",
+      "Lowercase display text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic mid-century photographic texture",
+        "Clear typographic hierarchy",
+        "Vibrant, warm color balance"
+      ],
+      "avoid": [
+        "Blurry or low-resolution textures",
+        "Clashing modern fonts",
+        "Overly dark shadows"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the orange-red text is legible against the sky.",
+      "Ensure the script text does not obscure the faces of the subjects.",
+      "Verify the 1960s fashion accuracy.",
+      "Confirm the presence of the large flanking rocks."
+    ],
+    "reuseFormula": "Combine a sun-drenched 1960s lifestyle photo with a header of vertically-stretched condensed sans-serif and a sub-header of elegant copperplate script."
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "id": "107e05f22d7f3bbb4be83566a90a23344181f47c15b4e5c6750cab82190f7139",
+  "skillId": "107e05f22d7f3bbb4be83566a90a23344181f47c15b4e5c6750cab82190f7139",
+  "versionId": "107e05f22d7f3bbb4be83566a90a23344181f47c15b4e5c6750cab82190f7139",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:19:15.483Z",
+  "approvedAt": "2026-08-13T05:19:15.483Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:19:15.483Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Shawn.jpg",
+    "hash": "107e05f22d7f3bbb4be83566a90a23344181f47c15b4e5c6750cab82190f7139",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Shawn",
+    "artist": "Shawn Mendes",
+    "artworkUrl": "https://coverartarchive.org/release-group/dec742bc-3dd4-4a92-9ba6-88af77aee7b8/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/dec742bc-3dd4-4a92-9ba6-88af77aee7b8",
+    "releaseGroupId": "dec742bc-3dd4-4a92-9ba6-88af77aee7b8",
+    "recordingId": "2fdcd6df-195c-41c0-9034-b2e025e4359c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Why Why WhyShawn Mendes",
+      "song": "Why Why Why",
+      "performer": "Shawn Mendes",
+      "peakPosition": 84,
+      "firstChartDate": "2024-08-24",
+      "lastChartDate": "2024-08-24",
+      "appearances": [
+        {
+          "chartDate": "2024-08-24",
+          "position": 84
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome intimate portraiture monochrome curly hair soft lighting film grain shirtless portrait shallow depth of field tattoos intimate gaze the dark high contrast texture of the hair against the mid tone skin the direct eye contact creating an intimate connection with the viewer the soft diffused light minimizing harsh shadows on the facial features the verticality of the background drapes echoing the subject s upright posture monochrome soft diffused lighting shallow depth of field textured curly hair direct gaze",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Intimate Portraiture",
+      "category": "Photography",
+      "medium": [
+        "Black and White Film Photography",
+        "Large Format Portraiture"
+      ],
+      "useCases": [
+        "Editorial artist profiles",
+        "Album cover art",
+        "Fashion photography",
+        "Cinematic character studies"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "curly hair",
+        "soft lighting",
+        "film grain",
+        "shirtless portrait",
+        "shallow depth of field",
+        "tattoos",
+        "intimate gaze"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A low-contrast, black-and-white portrait featuring a male subject with textured curly hair and a direct, intimate gaze against a soft-focus draped background.",
+      "triggerTerms": [
+        "monochrome film portrait",
+        "soft black and white male headshot",
+        "textured curly hair portrait",
+        "analog film aesthetic portrait"
+      ],
+      "excludeWhen": [
+        "high-contrast noir lighting is requested",
+        "vibrant colors are needed",
+        "sharp digital commercial look is required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, medium-close-up portrait in monochrome with a muted tonal range. The subject features dense, dark curly hair and light stubble, looking directly at the lens. The lighting is diffused, creating soft transitions between highlights and shadows on the skin. The background consists of out-of-focus vertical drapes with subtle linear markings, providing a shallow depth of field that isolates the subject.",
+    "coreVisualRelationships": [
+      "The dark, high-contrast texture of the hair against the mid-tone skin",
+      "The direct eye contact creating an intimate connection with the viewer",
+      "The soft, diffused light minimizing harsh shadows on the facial features",
+      "The verticality of the background drapes echoing the subject's upright posture"
+    ],
+    "coreInvariants": [
+      "Monochrome color palette",
+      "Soft-focus background",
+      "Direct eye contact",
+      "Visible film-like grain texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centered, occupying the lower two-thirds of the frame in a medium-close-up shot.",
+      "visualAnchor": "The eyes and the bridge of the nose serve as the central focal point.",
+      "movementAndEyePath": "The viewer's eye starts at the subject's gaze, moves upward to the textured hair, and then down to the shoulders and subtle tattoos.",
+      "negativeSpace": "The upper third of the frame is occupied by the soft-focus background, providing breathing room above the head."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-tone grays (skin and background)",
+      "contrastColorRole": "Deep blacks (hair and pupils)",
+      "accentColorRole": "Soft whites (specular highlights on skin and eyes)",
+      "saturationAndValueRelationship": "Zero saturation; value range is compressed to avoid harsh whites or absolute blacks, favoring a silvery, filmic quality.",
+      "paletteRestrictions": [
+        "Grayscale only",
+        "No high-contrast digital clipping"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Subtle film grain",
+        "Soft vignetting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a monochrome, medium-close-up portrait of a man with dark curly hair and light stubble, looking directly at the camera. Use soft, diffused lighting and a shallow depth of field against a draped, out-of-focus background. Apply a fine film grain texture.",
+        "overlayInstruction": "If adding text, use a minimalist, thin-weight serif or sans-serif font in a muted gray to maintain the intimate, analog aesthetic."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochrome?",
+        "Is the lighting soft and diffused without harsh shadows?",
+        "Is the hair texture clearly defined against the skin?",
+        "Is the background sufficiently blurred to isolate the subject?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of film grain",
+      "Depth of field (background blur)",
+      "Subject's facial expression",
+      "Presence of jewelry or tattoos"
+    ],
+    "mustRedesign": [
+      "Avoid harsh, high-contrast 'noir' lighting",
+      "Ensure the hair does not lose detail in the shadows",
+      "Maintain a soft, non-digital skin texture"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Natural skin texture with visible pores and stubble",
+        "Soft, silvery tonal range",
+        "Intimate, soulful expression"
+      ],
+      "avoid": [
+        "Over-sharpened digital edges",
+        "Pure white highlights that lose detail",
+        "Flat, featureless backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for natural hair-to-background transitions",
+      "Verify the eyes have subtle catchlights",
+      "Ensure the monochrome conversion is balanced across the mid-tones",
+      "Confirm the film grain is uniform and not distracting"
+    ],
+    "reuseFormula": "Monochrome + Soft Diffused Lighting + Shallow Depth of Field + Textured Curly Hair + Direct Gaze"
+  }
+}

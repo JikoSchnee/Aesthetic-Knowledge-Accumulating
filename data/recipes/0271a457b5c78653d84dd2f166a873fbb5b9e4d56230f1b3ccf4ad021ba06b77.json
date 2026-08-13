@@ -1,0 +1,272 @@
+{
+  "id": "0271a457b5c78653d84dd2f166a873fbb5b9e4d56230f1b3ccf4ad021ba06b77",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T13:44:47.103Z",
+  "approvedAt": "2026-08-11T13:44:47.103Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T13:44:47.103Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Movin’ With Nancy.jpg",
+    "hash": "0271a457b5c78653d84dd2f166a873fbb5b9e4d56230f1b3ccf4ad021ba06b77",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Movin’ With Nancy",
+    "artist": "Nancy Sinatra",
+    "artworkUrl": "https://coverartarchive.org/release-group/37ac83ed-d1bd-3047-a5a3-01e35a0dbf28/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/37ac83ed-d1bd-3047-a5a3-01e35a0dbf28",
+    "releaseGroupId": "37ac83ed-d1bd-3047-a5a3-01e35a0dbf28",
+    "recordingId": "cf980d9e-826c-4769-8f60-cba6ddb3857b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Drummer ManNancy Sinatra",
+      "song": "Drummer Man",
+      "performer": "Nancy Sinatra",
+      "peakPosition": 98,
+      "firstChartDate": "1969-09-20",
+      "lastChartDate": "1969-09-27",
+      "appearances": [
+        {
+          "chartDate": "1969-09-20",
+          "position": 98
+        },
+        {
+          "chartDate": "1969-09-27",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro cinematic portrait layout 1960s mod western hat rim lighting magenta typography high contrast blonde hair cinematic portrait the dark hat brim serves as a physical shelf for the primary display text warm rim lighting on the hair contrasts sharply against the absolute black background magenta text color echoes the subtle pink tones in the subject s lips and skin highlights combine a low key cinematic portrait with a dark silhouette element like a hat that serves as a structural base for bold single color display typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Cinematic Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vinyl Cover Art",
+        "Retro Poster Design",
+        "Editorial Portraiture"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "mod",
+        "western hat",
+        "rim lighting",
+        "magenta typography",
+        "high contrast",
+        "blonde hair",
+        "cinematic portrait"
+      ]
+    },
+    "visualDefinition": "A high-contrast, low-key portrait of a blonde woman wearing a dark wide-brimmed hat, characterized by dramatic rim lighting and a deep black background. The composition features bold, stylized magenta typography integrated into the negative space of the hat and upper corners.",
+    "coreVisualRelationships": [
+      "The dark hat brim serves as a physical shelf for the primary display text.",
+      "Warm rim lighting on the hair contrasts sharply against the absolute black background.",
+      "Magenta text color echoes the subtle pink tones in the subject's lips and skin highlights."
+    ],
+    "coreInvariants": [
+      "Deep black background with no visible environment.",
+      "Strong backlighting/rim lighting on the subject's hair.",
+      "Magenta as the sole accent color for all typographic elements."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered and occupies approximately 70% of the vertical frame, cropped from the chest up.",
+      "visualAnchor": "The subject's eyes and the bright highlights on the hair act as the primary anchors.",
+      "movementAndEyePath": "Starts at the eyes, moves up to the primary title on the hat brim, then to the secondary text block in the upper right.",
+      "negativeSpace": "Extensive use of black negative space in the background and the top third of the frame."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background and clothing) providing high contrast.",
+      "contrastColorRole": "Warm gold and cream (hair highlights and skin tones).",
+      "accentColorRole": "Magenta (all typography).",
+      "saturationAndValueRelationship": "High value contrast between the lit edges of the subject and the dark background; mid-saturation magenta for text.",
+      "paletteRestrictions": [
+        "Black",
+        "Magenta",
+        "Warm Blonde",
+        "Flesh Tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy slab serif and condensed sans-serif",
+      "letterConstructionRules": [
+        "Primary title uses extra-bold, high-contrast slab serifs with tight kerning.",
+        "Secondary text uses a tall, ultra-condensed sans-serif for vertical efficiency.",
+        "All text is rendered in a uniform magenta hue."
+      ],
+      "characterSpecificRedesigns": [
+        "The primary title features interlocking or touching characters to create a cohesive horizontal block."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Extra Bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Heavy slabs",
+            "corners": "Slightly rounded",
+            "counters": "Small",
+            "strokeCharacter": "Thick vertical, thin horizontal"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top left, resting on hat brim",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Slightly overlaps the hat",
+            "relationshipToImage": "Integrated into the subject's silhouette"
+          },
+          "treatment": {
+            "fill": "Magenta",
+            "outline": "Thin dark stroke",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Condensed Sans-Serif",
+          "anatomy": {
+            "width": "Ultra-condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Narrow",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Multi-line block",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Top right corner",
+            "scale": "Medium-small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Magenta",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a heavy, wide slab serif with a tall, narrow sans-serif.",
+      "graphicDevices": [
+        "Horizontal rule-like placement on the hat brim",
+        "Right-aligned text block for secondary information"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Magenta color",
+          "Uppercase styling",
+          "Condensed nature of secondary text"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Serif fonts for the secondary block",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Stymie Black or Rockwell",
+            "reason": "Matches the heavy slab serif display style.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact or Steelfish",
+            "reason": "Matches the ultra-condensed sans-serif secondary text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a cinematic portrait of a blonde woman with 1960s styling, wearing a black wide-brimmed western hat. Use low-key lighting with strong golden rim light on the hair. The background must be solid black. The subject should be centered, looking directly at the camera.",
+        "overlayInstruction": "Add a large magenta slab-serif title resting horizontally on the left side of the hat brim. Add a right-aligned block of magenta condensed sans-serif text in the top right corner."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Is the rim lighting on the hair prominent?",
+        "Is all text magenta?",
+        "Is the primary title resting on the hat brim?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's hair color",
+      "Accent color (magenta can be swapped for cyan or yellow)",
+      "Hat style",
+      "Text alignment"
+    ],
+    "mustRedesign": [
+      "Specific brand logos",
+      "Exact facial likeness of the original subject",
+      "Specific proprietary font names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic high-contrast lighting",
+        "Clean, sharp typographic edges",
+        "Balanced use of negative space"
+      ],
+      "avoid": [
+        "Muddled or grey backgrounds",
+        "Soft, low-contrast lighting",
+        "Multiple accent colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the magenta text is legible against the black.",
+      "Check that the rim light doesn't blow out the facial details.",
+      "Verify the slab serif font is sufficiently heavy.",
+      "Confirm the composition feels weighted towards the bottom center."
+    ],
+    "reuseFormula": "Combine a low-key cinematic portrait with a dark silhouette element (like a hat) that serves as a structural base for bold, single-color display typography."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:01:20.339Z"
+}

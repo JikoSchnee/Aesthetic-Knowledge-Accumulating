@@ -1,0 +1,287 @@
+{
+  "id": "6bbad9af539528e759b06e38465d2e19b4826b733b5b2f25c34a88a82289acfc",
+  "skillId": "6bbad9af539528e759b06e38465d2e19b4826b733b5b2f25c34a88a82289acfc",
+  "versionId": "6bbad9af539528e759b06e38465d2e19b4826b733b5b2f25c34a88a82289acfc",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T10:19:28.135Z",
+  "approvedAt": "2026-08-12T10:19:28.135Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T10:19:28.135Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "I Get Around.jpg",
+    "hash": "6bbad9af539528e759b06e38465d2e19b4826b733b5b2f25c34a88a82289acfc",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "I Get Around",
+    "artist": "K'Jon",
+    "artworkUrl": "https://coverartarchive.org/release-group/5b3134ac-91ee-41c8-835f-7d19d092999d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5b3134ac-91ee-41c8-835f-7d19d092999d",
+    "releaseGroupId": "5b3134ac-91ee-41c8-835f-7d19d092999d",
+    "recordingId": "109d7957-608a-476e-8724-38689bd2cea2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "On The OceanK'Jon",
+      "song": "On The Ocean",
+      "performer": "K'Jon",
+      "peakPosition": 96,
+      "firstChartDate": "2009-06-20",
+      "lastChartDate": "2009-06-27",
+      "appearances": [
+        {
+          "chartDate": "2009-06-20",
+          "position": 98
+        },
+        {
+          "chartDate": "2009-06-27",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban r b album cover layout r b urban script typography aviator sunglasses trench coat portrait photography subject occupies the right two thirds of the frame typography is anchored to the left third color palette balances warm skin tones with cool blue accents in the shirt and text reflections in sunglasses provide environmental context large background watermark creates depth behind the main text urban portrait large script logo wide tracked sans serif subtitle high key lighting",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban R&B Album Cover Layout",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Illustration",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Posters",
+        "Social Media Artist Profiles"
+      ],
+      "retrievalTags": [
+        "R&B",
+        "Urban",
+        "Script Typography",
+        "Aviator Sunglasses",
+        "Trench Coat",
+        "Portrait Photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A close-up urban portrait featuring a male subject in aviator sunglasses and a trench coat, paired with a large-scale script logo and secondary sans-serif title.",
+      "triggerTerms": [
+        "urban R&B portrait with script logo",
+        "man in aviators and trench coat album cover",
+        "blue script typography over beige background"
+      ],
+      "excludeWhen": [
+        "full-body shots are required",
+        "minimalist black and white photography is requested",
+        "heavy grunge or industrial textures are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium close-up of a man looking off-camera, wearing reflective aviator sunglasses and a light-colored trench coat. The background is a soft-focus urban environment. A large, stylized script name in blue with a drop shadow is positioned on the left, with a smaller sans-serif subtitle below it. A faint, oversized graphic watermark of the artist's initials sits in the background.",
+    "coreVisualRelationships": [
+      "Subject occupies the right two-thirds of the frame",
+      "Typography is anchored to the left third",
+      "Color palette balances warm skin tones with cool blue accents in the shirt and text",
+      "Reflections in sunglasses provide environmental context",
+      "Large background watermark creates depth behind the main text"
+    ],
+    "coreInvariants": [
+      "Reflective aviator sunglasses",
+      "Light-colored double-breasted trench coat",
+      "Stylized blue script for the primary name",
+      "Soft-focus outdoor urban background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is a medium close-up, positioned on the right side of the frame, looking toward the left.",
+      "visualAnchor": "The subject's face and the reflective sunglasses serve as the primary focal point.",
+      "movementAndEyePath": "The viewer's eye starts at the subject's face, follows his gaze to the left toward the script typography, and then down to the subtitle.",
+      "negativeSpace": "The left side of the frame provides negative space for the typography, filled with a subtle watermark."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Beige and cream (trench coat and background)",
+      "contrastColorRole": "Deep blue (script text and striped shirt)",
+      "accentColorRole": "Warm brown (sunglasses and subtitle text)",
+      "saturationAndValueRelationship": "High-key lighting with saturated blue accents against a muted, warm-toned background.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Maintain a balance of warm and cool tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script with high-contrast strokes",
+      "letterConstructionRules": [
+        "Fluid, continuous strokes",
+        "Large, sweeping flourishes on initial capitals",
+        "Consistent 45-degree slant",
+        "Tapered ends on terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'K' features a detached, stylized flourish",
+        "The 'J' has a deep, rounded descender"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "staggered",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "upper left",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "layered over background"
+          },
+          "treatment": {
+            "fill": "gradient blue",
+            "outline": "thin dark blue",
+            "shadow": "soft drop shadow",
+            "depth": "slight 3D effect",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "all caps",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "low"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "centered under script"
+          },
+          "treatment": {
+            "fill": "brown",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a fluid, organic script with a rigid, geometric sans-serif.",
+      "graphicDevices": [
+        "Large-scale background watermark of the artist's initials",
+        "Drop shadows for legibility"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The blue color of the script",
+          "The wide tracking of the subtitle"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Centering the text over the subject's face"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Great Vibes",
+            "reason": "Similar fluid script motion",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Montserrat Bold",
+            "reason": "Clean, geometric sans-serif for the subtitle",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a medium close-up of a man in a light beige trench coat and blue striped shirt, wearing aviator sunglasses, looking off-camera in a soft-focus urban setting. Include a very faint, large-scale beige watermark of stylized letters in the background.",
+        "overlayInstruction": "Add the primary name in a large, blue calligraphic script with a soft drop shadow in the upper left. Below it, add the title in a small, brown, all-caps sans-serif font with wide letter spacing."
+      },
+      "verificationChecks": [
+        "Is the script text blue with a drop shadow?",
+        "Is the subject wearing aviator sunglasses?",
+        "Is the subtitle in all-caps with wide tracking?",
+        "Is the background watermark present but subtle?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the script text",
+      "Subject's clothing style",
+      "Background urban environment",
+      "Watermark opacity"
+    ],
+    "mustRedesign": [
+      "Any specific artist logos",
+      "Exact facial features of the subject",
+      "Specific brand logos on clothing or sunglasses"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, professional photographic lighting",
+        "Legible typography against a busy background",
+        "Sophisticated urban fashion aesthetic"
+      ],
+      "avoid": [
+        "Cluttered layouts",
+        "Low-contrast text",
+        "Harsh, direct flash photography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the script text does not obscure the subject's face",
+      "Ensure the sunglasses reflections look natural",
+      "Verify the color harmony between the blue text and the blue shirt",
+      "Confirm the subtitle is perfectly aligned under the script"
+    ],
+    "reuseFormula": "Urban Portrait + Large Script Logo + Wide-Tracked Sans-Serif Subtitle + High-Key Lighting"
+  }
+}

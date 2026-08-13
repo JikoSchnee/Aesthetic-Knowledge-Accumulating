@@ -1,0 +1,272 @@
+{
+  "id": "7a421388d7760aa7ba13c3c86a50dbe7f0e84eb5fc23a1181801b8ee59ee6a6a",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T17:03:33.276Z",
+  "approvedAt": "2026-08-11T17:03:33.276Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T17:03:33.276Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The New Breed.jpg",
+    "hash": "7a421388d7760aa7ba13c3c86a50dbe7f0e84eb5fc23a1181801b8ee59ee6a6a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The New Breed",
+    "artist": "M.C. Breed",
+    "artworkUrl": "https://coverartarchive.org/release-group/a3dae64a-4989-3acb-9216-7b910a88e3b3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a3dae64a-4989-3acb-9216-7b910a88e3b3",
+    "releaseGroupId": "a3dae64a-4989-3acb-9216-7b910a88e3b3",
+    "recordingId": "59e7abac-49e8-444b-bb40-d4f343c38107",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Gotta Get MineM.C. Breed",
+      "song": "Gotta Get Mine",
+      "performer": "M.C. Breed",
+      "peakPosition": 96,
+      "firstChartDate": "1993-08-21",
+      "lastChartDate": "1993-08-28",
+      "appearances": [
+        {
+          "chartDate": "1993-08-21",
+          "position": 96
+        },
+        {
+          "chartDate": "1993-08-28",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban hip hop vertical block layout 90s hip hop vertical typography smoke effect color blocking streetwear portrait vertical text blocks acting as a structural pillar on the left third subject on the right third looking directly at the viewer atmospheric smoke softening the background behind the subject horizontal color bands in the text aligning with the vertical stack vertical block type atmospheric portrait color banding urban music aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Hip-Hop Vertical Block Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Digital Collage"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Streetwear Branding",
+        "Event Posters"
+      ],
+      "retrievalTags": [
+        "90s hip hop",
+        "vertical typography",
+        "smoke effect",
+        "color blocking",
+        "streetwear portrait"
+      ]
+    },
+    "visualDefinition": "A split-composition layout featuring a full-body portrait on the right and massive, vertically stacked block lettering on the left that spans the entire height of the frame. The portrait is set against a hazy, smoke-filled studio background, while the typography uses high-contrast color bands.",
+    "coreVisualRelationships": [
+      "Vertical text blocks acting as a structural pillar on the left third",
+      "Subject on the right third looking directly at the viewer",
+      "Atmospheric smoke softening the background behind the subject",
+      "Horizontal color bands in the text aligning with the vertical stack"
+    ],
+    "coreInvariants": [
+      "Vertical orientation of the primary display text",
+      "Split composition between graphic type and photographic subject",
+      "Muted, earthy color palette for the portrait side"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body male figure, standing, positioned in the right two-thirds of the frame, medium-large scale.",
+      "visualAnchor": "The massive vertical lettering on the left edge.",
+      "movementAndEyePath": "Starts at the top-left vertical text, moves down the stack, then shifts right to the subject's face and follows the body down.",
+      "negativeSpace": "The smoke-filled background provides a textured negative space that separates the subject from the graphic elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted browns and greys in the photographic area.",
+      "contrastColorRole": "Deep red and white in the typographic blocks.",
+      "accentColorRole": "Ochre/orange and dark forest green in the top and bottom bands.",
+      "saturationAndValueRelationship": "High saturation in the graphic left-side; low saturation and atmospheric haze on the right-side.",
+      "paletteRestrictions": [
+        "Avoid neon or pastel colors",
+        "Stick to earthy, industrial tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Extreme horizontal stretching",
+        "Zero letter spacing (touching or overlapping)",
+        "Vertical stacking of individual characters",
+        "Characters are cropped by the left edge of the frame"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are flattened to fill rectangular color blocks",
+        "Internal counters are minimized to maintain block-like appearance"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "ultra-expanded",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "0.8",
+            "lineBreakPattern": "one letter per line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "left-aligned, full height",
+            "scale": "massive",
+            "rotation": "0",
+            "warp": "horizontal stretch",
+            "overlap": "none",
+            "relationshipToImage": "foreground layer"
+          },
+          "treatment": {
+            "fill": "solid",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "aspect-ratio stretching"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "heavy slab",
+            "corners": "bracketed",
+            "counters": "open",
+            "strokeCharacter": "distressed"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "wide",
+            "leading": "1.0",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaying green header bar"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "stamped/distressed",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme contrast between ultra-bold geometric blocks and distressed traditional slab serifs.",
+      "graphicDevices": [
+        "Horizontal color bands",
+        "Rounded pill-shape container for small metadata text",
+        "Smoke/fog overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical stacking",
+          "Horizontal stretching",
+          "Color blocking"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Thin weights",
+          "Centered layouts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Provides the necessary weight and blocky structure for stretching.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Clarendon (Distressed)",
+            "reason": "Matches the secondary slab-serif aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A full-body portrait of a person in streetwear standing in a hazy, smoke-filled studio. The left third of the image should be reserved for solid vertical color bands (Ochre, Red, White, Red, Ochre). A dark green horizontal bar should sit at the top right.",
+        "overlayInstruction": "Add ultra-bold, horizontally stretched sans-serif letters vertically down the left color bands. Add a distressed slab-serif title in white on the top-right green bar."
+      },
+      "verificationChecks": [
+        "Is the text on the left stretched horizontally?",
+        "Is there a visible smoke effect behind the subject?",
+        "Are the color bands clearly defined?",
+        "Is the secondary text distressed/textured?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Smoke density",
+      "Color band hues",
+      "Subject pose",
+      "Stretch intensity of the vertical text"
+    ],
+    "mustRedesign": [
+      "Any specific artist logos",
+      "Parental advisory stickers",
+      "Specific brand logos on clothing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Gritty urban atmosphere",
+        "Strong geometric balance",
+        "Legible but highly stylized vertical type"
+      ],
+      "avoid": [
+        "Clean, minimalist corporate looks",
+        "Bright primary colors",
+        "Thin, elegant typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that vertical letters are correctly stacked",
+      "Ensure the smoke doesn't obscure the subject's face",
+      "Verify the color bands align with the letter heights",
+      "Confirm the top-right text has a stamped texture"
+    ],
+    "reuseFormula": "Vertical Block Type + Atmospheric Portrait + Color Banding = Urban Music Aesthetic"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:13:24.402Z"
+}

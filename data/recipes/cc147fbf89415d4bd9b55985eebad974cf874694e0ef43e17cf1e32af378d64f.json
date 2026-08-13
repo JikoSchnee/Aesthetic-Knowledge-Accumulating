@@ -1,0 +1,269 @@
+{
+  "id": "cc147fbf89415d4bd9b55985eebad974cf874694e0ef43e17cf1e32af378d64f",
+  "skillId": "cc147fbf89415d4bd9b55985eebad974cf874694e0ef43e17cf1e32af378d64f",
+  "versionId": "cc147fbf89415d4bd9b55985eebad974cf874694e0ef43e17cf1e32af378d64f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:38:38.847Z",
+  "approvedAt": "2026-08-12T15:38:38.847Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:38:38.847Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Sleepwalker.jpg",
+    "hash": "cc147fbf89415d4bd9b55985eebad974cf874694e0ef43e17cf1e32af378d64f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Sleepwalker",
+    "artist": "The Kinks",
+    "artworkUrl": "https://coverartarchive.org/release-group/b108dcfc-da3a-3d7a-b9b8-eb565fcd6f32/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b108dcfc-da3a-3d7a-b9b8-eb565fcd6f32",
+    "releaseGroupId": "b108dcfc-da3a-3d7a-b9b8-eb565fcd6f32",
+    "recordingId": "e6d1e2a9-1beb-41d1-a46e-cb06bda262b9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "SleepwalkerThe Kinks",
+      "song": "Sleepwalker",
+      "performer": "The Kinks",
+      "peakPosition": 48,
+      "firstChartDate": "1977-04-02",
+      "lastChartDate": "1977-05-14",
+      "appearances": [
+        {
+          "chartDate": "1977-04-02",
+          "position": 86
+        },
+        {
+          "chartDate": "1977-04-09",
+          "position": 73
+        },
+        {
+          "chartDate": "1977-04-16",
+          "position": 58
+        },
+        {
+          "chartDate": "1977-04-23",
+          "position": 54
+        },
+        {
+          "chartDate": "1977-04-30",
+          "position": 52
+        },
+        {
+          "chartDate": "1977-05-07",
+          "position": 48
+        },
+        {
+          "chartDate": "1977-05-14",
+          "position": 64
+        }
+      ]
+    }
+  },
+  "dedupeText": "theatrical noir portraiture high contrast noir mime makeup dramatic hand gesture black background cursive script 1970s rock aesthetic vertical tension between the upward looking face and the downward reaching hand extreme tonal contrast between pale skin makeup and the absolute black background integration of diagonal script with the angle of the reaching hand warm highlights on the cheek contrasting with cool white face paint theatrical profile suspended hand noir lighting integrated script",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Theatrical Noir Portraiture",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Hand-Lettering"
+      ],
+      "useCases": [
+        "Rock album covers",
+        "Theatrical posters",
+        "Dark dramatic editorial layouts"
+      ],
+      "retrievalTags": [
+        "high-contrast noir",
+        "mime makeup",
+        "dramatic hand gesture",
+        "black background",
+        "cursive script",
+        "1970s rock aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast theatrical composition featuring a pale, makeup-heavy face in profile emerging from total darkness beneath a suspended, expressive hand.",
+      "triggerTerms": [
+        "dramatic mime makeup portrait",
+        "theatrical hand reaching over face",
+        "noir profile on black background",
+        "cursive script over dark photography"
+      ],
+      "excludeWhen": [
+        "bright or colorful backgrounds are required",
+        "multiple subjects are needed",
+        "modern minimalist sans-serif typography is preferred"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A stark, low-key photograph where a subject with white greasepaint makeup looks upward in profile. A disembodied hand hovers above them, fingers splayed, creating a sense of puppetry or benediction. The entire scene is set against a deep matte black void, with text integrated into the upper left quadrant through flowing, interconnected script.",
+    "coreVisualRelationships": [
+      "Vertical tension between the upward-looking face and the downward-reaching hand",
+      "Extreme tonal contrast between pale skin/makeup and the absolute black background",
+      "Integration of diagonal script with the angle of the reaching hand",
+      "Warm highlights on the cheek contrasting with cool white face paint"
+    ],
+    "coreInvariants": [
+      "Absolute black background with no visible horizon or environment",
+      "Subject in sharp profile looking toward the left",
+      "Hand positioned in the upper right/center reaching toward the left"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Face occupies the lower left quadrant; hand occupies the upper center-right; typography occupies the upper left.",
+      "visualAnchor": "The bright, white-painted face in the lower left.",
+      "movementAndEyePath": "The eye starts at the face, follows the gaze upward to the hand, then moves left to the script.",
+      "negativeSpace": "Dominant; over 60% of the frame is pure black negative space."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background",
+      "contrastColorRole": "Stark white greasepaint and pale skin tones",
+      "accentColorRole": "Warm orange/peach blush on the cheek and subtle pink in the script",
+      "saturationAndValueRelationship": "High value contrast with very low overall saturation, except for localized warmth on the face.",
+      "paletteRestrictions": [
+        "Strictly limited to black, white, flesh tones, and a single warm accent color"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script",
+      "letterConstructionRules": [
+        "Continuous, fluid strokes mimicking a fountain pen",
+        "Variable line weight with thin upstrokes and thicker downstrokes",
+        "Long, dramatic descenders and ascenders that integrate into the composition",
+        "Diagonal orientation following the angle of the hand"
+      ],
+      "characterSpecificRedesigns": [
+        "Capital letters feature sharp, aggressive angles",
+        "Lowercase letters are rounded and loopy",
+        "Extended horizontal bars that underline other words"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed to normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "tapered",
+            "corners": "sharp on capitals, rounded on lowercase",
+            "counters": "open",
+            "strokeCharacter": "fluid, calligraphic"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "staggered",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "upper left",
+            "scale": "large",
+            "rotation": "-15 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "pale pink or off-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single expressive script style to maintain theatrical focus.",
+      "graphicDevices": [
+        "Underlining flourishes",
+        "Extended crossbars"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Diagonal slant",
+          "Interconnectedness of letters",
+          "High contrast between capitals and lowercase"
+        ],
+        "avoid": [
+          "Standard blocky sans-serifs",
+          "Perfectly vertical typesetting",
+          "Heavy drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Formal Calligraphy with aggressive flourishes",
+            "reason": "Matches the dramatic, slightly gothic rock tone",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "1970s Signature Script",
+            "reason": "Captures the era-specific hand-drawn branding style",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast noir photograph on a pure black background. In the lower left, show a person in profile with white mime makeup and a warm orange blush on the cheek, looking upward. In the upper right, show a pale hand reaching down and across toward the left, fingers splayed.",
+        "overlayInstruction": "Apply custom hand-lettered cursive script in the upper left quadrant. The script should be tilted diagonally to match the hand's angle, featuring thin, elegant strokes in a pale pinkish-white hue."
+      },
+      "verificationChecks": [
+        "Is the background absolute black without noise?",
+        "Does the makeup look like thick theatrical greasepaint?",
+        "Is the typography fluid and interconnected?",
+        "Is the vertical tension between the face and hand maintained?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the cheek blush",
+      "Angle of the profile gaze",
+      "Complexity of the script flourishes",
+      "Degree of hand splay"
+    ],
+    "mustRedesign": [
+      "Specific band names or album titles",
+      "Unique logo marks",
+      "Exact facial features of the original subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Deep, clean blacks",
+        "Sharp focus on the profile and hand",
+        "Elegant, non-mechanical script"
+      ],
+      "avoid": [
+        "Muddiness in the shadows",
+        "Generic computer fonts",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure black levels in the background",
+      "Ensure the script does not overlap the face or hand",
+      "Verify the profile is strictly side-view",
+      "Confirm the hand looks expressive and not distorted"
+    ],
+    "reuseFormula": "Theatrical Profile + Suspended Hand + Noir Lighting + Integrated Script"
+  }
+}

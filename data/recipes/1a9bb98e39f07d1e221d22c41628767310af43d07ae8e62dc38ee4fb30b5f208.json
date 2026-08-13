@@ -1,0 +1,292 @@
+{
+  "id": "1a9bb98e39f07d1e221d22c41628767310af43d07ae8e62dc38ee4fb30b5f208",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:22:34.315Z",
+  "approvedAt": "2026-08-11T08:22:34.315Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:22:34.315Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Be What You Are.jpg",
+    "hash": "1a9bb98e39f07d1e221d22c41628767310af43d07ae8e62dc38ee4fb30b5f208",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Be What You Are",
+    "artist": "The Staple Singers",
+    "artworkUrl": "https://coverartarchive.org/release-group/b698a3f7-a2d1-3bdf-8058-c9b457d24ae3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b698a3f7-a2d1-3bdf-8058-c9b457d24ae3",
+    "releaseGroupId": "b698a3f7-a2d1-3bdf-8058-c9b457d24ae3",
+    "recordingId": "d4071f7c-f21e-41b2-954f-7eaccd3dbc2c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Be What You AreThe Staple Singers",
+      "song": "Be What You Are",
+      "performer": "The Staple Singers",
+      "peakPosition": 66,
+      "firstChartDate": "1973-06-16",
+      "lastChartDate": "1973-07-21",
+      "appearances": [
+        {
+          "chartDate": "1973-06-16",
+          "position": 86
+        },
+        {
+          "chartDate": "1973-06-23",
+          "position": 72
+        },
+        {
+          "chartDate": "1973-06-30",
+          "position": 66
+        },
+        {
+          "chartDate": "1973-07-07",
+          "position": 66
+        },
+        {
+          "chartDate": "1973-07-14",
+          "position": 67
+        },
+        {
+          "chartDate": "1973-07-21",
+          "position": 73
+        }
+      ]
+    }
+  },
+  "dedupeText": "quad circular portrait collage with ornate filigree 1970s soul music circular vignettes white background ornate filigree serif typography arc text four circular portraits forming a central diamond cluster high contrast black typography against a vast white negative space subtle white on white decorative scrollwork framing the circular cutouts warm toned lush green background photography within each circle diamond pattern circular collage white on white filigree arched decorative serif header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Quad-Circular Portrait Collage with Ornate Filigree",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Typography"
+      ],
+      "useCases": [
+        "Vinyl Record Cover",
+        "Music Poster",
+        "Group Portrait Display"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "soul music",
+        "circular vignettes",
+        "white background",
+        "ornate filigree",
+        "serif typography",
+        "arc text"
+      ]
+    },
+    "visualDefinition": "A symmetrical composition featuring four circular photographic vignettes arranged in a diamond pattern, set against a stark white field. The circles are connected by delicate, embossed-style white filigree patterns. The top of the design features bold, stylized black serif typography with a secondary arced line of text below it.",
+    "coreVisualRelationships": [
+      "Four circular portraits forming a central diamond cluster",
+      "High-contrast black typography against a vast white negative space",
+      "Subtle white-on-white decorative scrollwork framing the circular cutouts",
+      "Warm-toned, lush green background photography within each circle"
+    ],
+    "coreInvariants": [
+      "Pure white background (#FFFFFF)",
+      "Circular masking for all subject photography",
+      "Symmetrical diamond arrangement of the four circles",
+      "Black display type at the top center"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four equal-sized circular portraits occupy the center of the frame in a 1-2-1 vertical diamond stack.",
+      "visualAnchor": "The top circular portrait featuring a figure in a vibrant red garment acts as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the bold black header, move down through the arced text, and then circulate through the four portraits in a clockwise or diamond pattern.",
+      "negativeSpace": "Extensive white negative space surrounds the central cluster, pushing all visual weight to the center and top."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White background providing a clean, minimalist canvas.",
+      "contrastColorRole": "Black for primary typography and dark photographic shadows.",
+      "accentColorRole": "Vibrant red, forest green, and earthy browns within the photographic circles.",
+      "saturationAndValueRelationship": "High saturation within the circular windows contrasted against a zero-saturation white environment.",
+      "paletteRestrictions": [
+        "Pure white background",
+        "Solid black text"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "High-contrast serif with flared terminals",
+      "letterConstructionRules": [
+        "Extreme weight contrast between thick and thin strokes",
+        "Sharp, dagger-like serifs and terminals",
+        "Tightly kerned characters with some overlapping elements",
+        "Curvilinear baseline for the secondary text line"
+      ],
+      "characterSpecificRedesigns": [
+        "S-curves with exaggerated, pointed terminals",
+        "Lowercase 'g' with a stylized, open descender",
+        "Uppercase 'S' and 'B' with decorative flourishes"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Decorative Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Pointed/Flared",
+            "corners": "Sharp",
+            "counters": "Small",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Center",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top Center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Slight character touching",
+            "relationshipToImage": "Header above the collage"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Decorative Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Pointed",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Center",
+            "tracking": "Normal",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Below Header",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "Arched/Convex",
+            "overlap": "None",
+            "relationshipToImage": "Bridge between header and portraits"
+          },
+          "treatment": {
+            "fill": "Solid Grey/Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "Arched path"
+          }
+        }
+      ],
+      "pairingStrategy": "Varying scales of the same decorative serif family, using path warping for hierarchy.",
+      "graphicDevices": [
+        "Circular masking",
+        "Embossed filigree",
+        "Arched text path"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast strokes",
+          "Pointed serifs",
+          "Arched baseline for the second line"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Modern geometric fonts",
+          "Drop shadows on text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the 70s decorative serif feel with flared terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Caslon Antique",
+            "reason": "Provides the high contrast and sharp serifs seen in the display type.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a pure white background. In the center, arrange four circular windows in a diamond pattern (one top, two middle, one bottom). Inside each circle, place a portrait of a person in 1970s attire against a lush green garden background. Add subtle, white-on-white embossed floral filigree connecting the circles.",
+        "overlayInstruction": "Add the primary title in a bold, high-contrast black decorative serif at the top center. Below it, add a subtitle in the same font style, but smaller and arced in a convex curve over the top portrait circle."
+      },
+      "verificationChecks": [
+        "Are the four circles perfectly aligned in a diamond?",
+        "Is the background pure white without texture?",
+        "Is the subtitle text properly arced?",
+        "Does the filigree remain subtle and low-contrast (white-on-white)?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of circular vignettes",
+      "Complexity of the filigree pattern",
+      "Degree of the text arc",
+      "Color of the display typography"
+    ],
+    "mustRedesign": [
+      "Specific faces of the individuals",
+      "Brand logos in the corners",
+      "Exact wording of the titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, high-contrast layout",
+        "Precise circular masking",
+        "Elegant 1970s-style decorative typography"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-resolution photography",
+        "Default system fonts like Arial or Times New Roman"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for symmetrical balance of the diamond cluster.",
+      "Ensure the white-on-white filigree is visible but not distracting.",
+      "Verify the typography has the characteristic 70s 'swash' or flared serif look.",
+      "Confirm the photography within circles has a consistent warm, vintage color grade."
+    ],
+    "reuseFormula": "Diamond-pattern circular collage + White-on-white filigree + Arched decorative serif header."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:03:25.800Z"
+}

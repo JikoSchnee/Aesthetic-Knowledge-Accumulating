@@ -1,0 +1,285 @@
+{
+  "id": "862a83bb67c7dfdec08aa60687bbc9e08696aa932608f68e94ec10e9f7f55138",
+  "skillId": "862a83bb67c7dfdec08aa60687bbc9e08696aa932608f68e94ec10e9f7f55138",
+  "versionId": "862a83bb67c7dfdec08aa60687bbc9e08696aa932608f68e94ec10e9f7f55138",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:52:52.361Z",
+  "approvedAt": "2026-08-12T06:52:52.361Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:52:52.361Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Hood Life Krisis Vol. 1.jpg",
+    "hash": "862a83bb67c7dfdec08aa60687bbc9e08696aa932608f68e94ec10e9f7f55138",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Hood Life Krisis Vol. 1",
+    "artist": "J.I The Prince Of N.Y",
+    "artworkUrl": "https://coverartarchive.org/release-group/63139bd4-6dac-4a17-8f03-6f0bed8c047b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/63139bd4-6dac-4a17-8f03-6f0bed8c047b",
+    "releaseGroupId": "63139bd4-6dac-4a17-8f03-6f0bed8c047b",
+    "recordingId": "a9ff848c-4b4a-4fde-968c-70eab4e4788e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Need MeJ.I The Prince Of N.Y",
+      "song": "Need Me",
+      "performer": "J.I The Prince Of N.Y",
+      "peakPosition": 95,
+      "firstChartDate": "2020-06-27",
+      "lastChartDate": "2020-07-04",
+      "appearances": [
+        {
+          "chartDate": "2020-06-27",
+          "position": 100
+        },
+        {
+          "chartDate": "2020-07-04",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban gritty hip hop album cover urban gritty streetwear apartment complex night photography street sign portrait low key lighting central figure dominates the foreground against a massive architectural backdrop street sign and traffic light provide horizontal and vertical framing elements high contrast between the bright white shirt and the dark shadowy environment textured overcast sky blends into the top of the building urban portrait monolithic architecture high contrast lighting street infrastructure framing",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Gritty Hip-Hop Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Digital Composite",
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Hip-hop album artwork",
+        "Urban streetwear branding",
+        "Social media promotional graphics"
+      ],
+      "retrievalTags": [
+        "urban",
+        "gritty",
+        "streetwear",
+        "apartment complex",
+        "night photography",
+        "street sign",
+        "portrait",
+        "low-key lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A gritty urban portrait featuring a central figure against a dark, towering apartment block with high-contrast lighting and street-level elements like traffic lights and signs.",
+      "triggerTerms": [
+        "urban hip-hop aesthetic",
+        "gritty city night portrait",
+        "towering apartment block background"
+      ],
+      "excludeWhen": [
+        "clean minimalist design",
+        "bright daylight scenes",
+        "nature-focused imagery"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central male figure in a white graphic t-shirt stands before a dark, monolithic brick apartment building at night. The scene is framed by street infrastructure, including a traffic light and a green street sign, with a heavy, textured sky overhead.",
+    "coreVisualRelationships": [
+      "Central figure dominates the foreground against a massive architectural backdrop",
+      "Street sign and traffic light provide horizontal and vertical framing elements",
+      "High contrast between the bright white shirt and the dark, shadowy environment",
+      "Textured, overcast sky blends into the top of the building"
+    ],
+    "coreInvariants": [
+      "Towering brick apartment building with repetitive window patterns",
+      "Low-key, high-contrast lighting scheme",
+      "Urban street furniture (traffic light, street sign) as framing devices"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central medium shot of a male figure, occupying the lower two-thirds of the vertical center.",
+      "visualAnchor": "The bright white t-shirt of the central figure acts as the primary focal point.",
+      "movementAndEyePath": "From the central figure, the eye moves up to the street sign, then follows the building's height into the dark sky.",
+      "negativeSpace": "Dense and dark, primarily in the upper corners and the shadows of the building."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Dark charcoal and deep brown (building and sky)",
+      "contrastColorRole": "Pure white (t-shirt and typography)",
+      "accentColorRole": "Green and amber (street sign and traffic light)",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast on the central subject.",
+      "paletteRestrictions": [
+        "Avoid vibrant primary colors except for functional street elements"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Heavy weight for display elements",
+        "Condensed proportions for street sign text",
+        "Clean, sharp terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Black",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "None",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top left corner",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over sky"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "caption",
+          "hierarchyLevel": 2,
+          "classification": "Condensed Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Closed",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Center",
+            "tracking": "Normal",
+            "leading": "None",
+            "lineBreakPattern": "Single line",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Inside street sign",
+            "scale": "Small",
+            "rotation": "Slightly angled to match sign",
+            "warp": "Perspective match",
+            "overlap": "Contained",
+            "relationshipToImage": "Integrated into prop"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy geometric sans for branding paired with condensed sans for environmental text.",
+      "graphicDevices": [
+        "Green street sign rectangle",
+        "Parental advisory badge in bottom right"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "High contrast white-on-dark"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and urban feel for display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Classic urban sans-serif with strong presence.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a dark, gritty urban scene at night featuring a massive brick apartment building. Include a traffic light and a green street sign in the mid-ground. Place a male figure in a white t-shirt in the center foreground.",
+        "overlayInstruction": "Add bold, white geometric sans-serif text in the top left corner. Add condensed white sans-serif text onto the green street sign, matching its perspective."
+      },
+      "verificationChecks": [
+        "Is the building dark and monolithic?",
+        "Is the white t-shirt the brightest point in the image?",
+        "Is the text clean and legible against the dark background?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Building height and window density",
+      "Intensity of the sky texture",
+      "Angle of the street sign"
+    ],
+    "mustRedesign": [
+      "Specific logos on the t-shirt",
+      "Specific artist initials",
+      "Exact street sign wording"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast lighting",
+        "Gritty, textured atmosphere",
+        "Clear central focal point"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Clean, new-looking buildings",
+        "Soft, pastel colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high contrast between subject and background",
+      "Ensure the sky texture is visible but not distracting",
+      "Verify the street sign perspective is correct",
+      "Confirm the typography is bold and legible"
+    ],
+    "reuseFormula": "Urban Portrait + Monolithic Architecture + High Contrast Lighting + Street Infrastructure Framing"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:55:16.967Z"
+}

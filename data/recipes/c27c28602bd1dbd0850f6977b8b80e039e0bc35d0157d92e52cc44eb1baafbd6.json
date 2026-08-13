@@ -1,0 +1,275 @@
+{
+  "id": "c27c28602bd1dbd0850f6977b8b80e039e0bc35d0157d92e52cc44eb1baafbd6",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T19:44:42.705Z",
+  "approvedAt": "2026-08-11T19:44:42.705Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T19:44:42.705Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The A Sides.jpg",
+    "hash": "c27c28602bd1dbd0850f6977b8b80e039e0bc35d0157d92e52cc44eb1baafbd6",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The A Sides",
+    "artist": "Bobby Darin",
+    "artworkUrl": "https://coverartarchive.org/release-group/b94a67f1-0fdf-4c98-8700-5fa5432b9631/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b94a67f1-0fdf-4c98-8700-5fa5432b9631",
+    "releaseGroupId": "b94a67f1-0fdf-4c98-8700-5fa5432b9631",
+    "recordingId": "4af4d72d-f313-4469-9be9-af48cb691712",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I Found A New BabyBobby Darin",
+      "song": "I Found A New Baby",
+      "performer": "Bobby Darin",
+      "peakPosition": 90,
+      "firstChartDate": "1962-12-15",
+      "lastChartDate": "1962-12-15",
+      "appearances": [
+        {
+          "chartDate": "1962-12-15",
+          "position": 90
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro pop compilation cover mid century modern geometric pattern gradient typography monochrome portrait 1960s pop triangular grid subject portrait anchored to the bottom right corner overlapping the footer geometric triangle grid at the top creating a dynamic header texture text elements clustered in the bottom left quadrant for balanced weight contrast between the stark black background and the bright yellow footer bar black background top geometric triangle header bottom solid color footer grayscale subject gradient condensed display type",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Pop Compilation Cover",
+      "category": "Album Art",
+      "medium": [
+        "Graphic Design",
+        "Digital Illustration",
+        "Photography"
+      ],
+      "useCases": [
+        "Music Streaming Thumbnails",
+        "Vinyl Record Sleeves",
+        "Retro-themed Event Posters"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "geometric pattern",
+        "gradient typography",
+        "monochrome portrait",
+        "1960s pop",
+        "triangular grid"
+      ]
+    },
+    "visualDefinition": "A high-contrast graphic composition featuring a grayscale portrait of a male vocalist set against a black background, framed by a vibrant geometric triangle pattern at the top and a solid yellow footer. The design uses a mix of bold display typography with color gradients and classic serif fonts.",
+    "coreVisualRelationships": [
+      "Subject portrait anchored to the bottom right corner, overlapping the footer.",
+      "Geometric triangle grid at the top creating a dynamic header texture.",
+      "Text elements clustered in the bottom left quadrant for balanced weight.",
+      "Contrast between the stark black background and the bright yellow footer bar."
+    ],
+    "coreInvariants": [
+      "Grayscale treatment for the human subject.",
+      "Triangular geometric pattern in the upper third.",
+      "Solid yellow horizontal bar at the very bottom.",
+      "Vertical color gradient applied to the primary display text."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale grayscale portrait positioned in the lower right, cropped at the shoulders and head.",
+      "visualAnchor": "The bright yellow footer bar and the large gradient display text.",
+      "movementAndEyePath": "Starts at the top-left badge, moves through the geometric pattern, down to the gradient text, and finishes on the subject's face.",
+      "negativeSpace": "Extensive black negative space in the center and left provides breathing room for the typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black background providing high contrast.",
+      "contrastColorRole": "Bright yellow footer and badge accents.",
+      "accentColorRole": "Magenta-to-yellow gradient within the geometric pattern and display type.",
+      "saturationAndValueRelationship": "High saturation in the accents against zero saturation in the grayscale portrait.",
+      "paletteRestrictions": [
+        "Pure Black",
+        "Process Yellow",
+        "Vivid Magenta",
+        "Grayscale"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "A mix of ultra-condensed sans-serif, high-contrast serif, and heavy grotesque faces.",
+      "letterConstructionRules": [
+        "Primary display text uses ultra-narrow vertical proportions with flat terminals.",
+        "Secondary text uses high-contrast transitional serif forms.",
+        "Footer text uses a heavy, wide-set geometric sans-serif."
+      ],
+      "characterSpecificRedesigns": [
+        "Vertical gradient applied across the entire word block of the primary display text."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "ultra-condensed sans-serif",
+          "anatomy": {
+            "width": "extra-compressed",
+            "weight": "bold",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "adjacent"
+          },
+          "treatment": {
+            "fill": "magenta-to-yellow vertical gradient",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "modern serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "ball or teardrop",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "adjacent"
+          },
+          "treatment": {
+            "fill": "yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Triadic contrast: ultra-condensed sans for impact, elegant serif for class, and heavy sans for utility.",
+      "graphicDevices": [
+        "Rounded rectangular badge with double border",
+        "Triangular tessellation pattern with varying opacity",
+        "Solid horizontal color block"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ultra-condensed width of display text",
+          "High contrast of the serif text",
+          "Vertical gradient direction"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Low-contrast sans-serifs for the subtitle",
+          "Horizontal gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Steelfish",
+            "reason": "Matches the ultra-condensed, bold display feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "Provides the high-contrast serif elegance for the subtitle.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the sturdy, functional feel of the footer text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a black square canvas. Add a horizontal yellow bar at the bottom (15% height). In the top 30%, place a geometric pattern of interlocking triangles in magenta and orange with varying transparency. Place a grayscale, high-contrast portrait of a 1950s-style male singer in the bottom right, overlapping the yellow bar. Add a gold-bordered rounded badge in the top left.",
+        "overlayInstruction": "Apply ultra-condensed sans-serif text in the lower left with a magenta-to-yellow vertical gradient. Below it, add a high-contrast serif subtitle in yellow. In the yellow footer, center a heavy black sans-serif font with wide tracking."
+      },
+      "verificationChecks": [
+        "Is the portrait strictly grayscale?",
+        "Does the display text have a vertical color gradient?",
+        "Is the footer bar solid yellow with black text?",
+        "Is the triangle pattern restricted to the top third?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Triangle pattern density",
+      "Gradient color stops",
+      "Portrait cropping",
+      "Footer bar height"
+    ],
+    "mustRedesign": [
+      "Specific artist likeness",
+      "Exact logo shapes in the top-left badge",
+      "Proprietary brand names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp geometric precision in the header",
+        "Clean typographic hierarchy",
+        "High-contrast color separation"
+      ],
+      "avoid": [
+        "Blurry edges on geometric shapes",
+        "Low-contrast text-to-background ratios",
+        "Muted or pastel color palettes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the gradient on the text flows from top to bottom.",
+      "Check that the portrait does not have any color tint.",
+      "Verify the badge in the top left is clearly defined and legible.",
+      "Confirm the footer text is perfectly centered horizontally."
+    ],
+    "reuseFormula": "Black background + Top geometric triangle header + Bottom solid color footer + Grayscale subject + Gradient condensed display type."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:21:45.408Z"
+}

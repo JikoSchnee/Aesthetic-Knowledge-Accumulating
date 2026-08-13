@@ -1,0 +1,283 @@
+{
+  "id": "5610b07c80a8548c84ed4e36364fddb5e40830f3e47fe542aa5feab2d7c78964",
+  "skillId": "5610b07c80a8548c84ed4e36364fddb5e40830f3e47fe542aa5feab2d7c78964",
+  "versionId": "5610b07c80a8548c84ed4e36364fddb5e40830f3e47fe542aa5feab2d7c78964",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:18:59.266Z",
+  "approvedAt": "2026-08-12T22:18:59.266Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:18:59.266Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "I Still Believe in You.jpg",
+    "hash": "5610b07c80a8548c84ed4e36364fddb5e40830f3e47fe542aa5feab2d7c78964",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "I Still Believe in You",
+    "artist": "Vince Gill",
+    "artworkUrl": "https://coverartarchive.org/release-group/40e2c01f-b9e4-3d1a-a9f5-0b0fe7194bac/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/40e2c01f-b9e4-3d1a-a9f5-0b0fe7194bac",
+    "releaseGroupId": "40e2c01f-b9e4-3d1a-a9f5-0b0fe7194bac",
+    "recordingId": "f451f0d5-9de2-445b-a36c-20b81e157cc1",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Tryin' To Get Over YouVince Gill",
+      "song": "Tryin' To Get Over You",
+      "performer": "Vince Gill",
+      "peakPosition": 88,
+      "firstChartDate": "1994-02-26",
+      "lastChartDate": "1994-03-05",
+      "appearances": [
+        {
+          "chartDate": "1994-02-26",
+          "position": 88
+        },
+        {
+          "chartDate": "1994-03-05",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "classic country album portrait layout 90s country aesthetic monochrome portrait extended serif typography high contrast black and white centered portrait red header text contrasts against the monochrome image subject s downward gaze creates a somber reflective mood high contrast lighting emphasizes hair texture and facial contours asymmetrical secondary text balances the centered subject monochrome portrait ultra wide red serif header bottom right italicized white subtitle",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Classic Country Album Portrait Layout",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album cover design",
+        "Artist promotional posters",
+        "Editorial portraiture"
+      ],
+      "retrievalTags": [
+        "90s country aesthetic",
+        "monochrome portrait",
+        "extended serif typography",
+        "high contrast black and white",
+        "centered portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome portrait with bold, wide-set red serif typography at the top and italicized white sans-serif at the bottom.",
+      "triggerTerms": [
+        "90s country album style",
+        "monochrome portrait with red header",
+        "extended serif display text"
+      ],
+      "excludeWhen": [
+        "vibrant multi-color photography is required",
+        "minimalist modern sans-serif layouts are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, high-contrast black and white portrait of a male subject looking downward, framed by a stark white background. The layout features a dominant red header in an ultra-wide serif font and a secondary white italicized title in the lower right corner.",
+    "coreVisualRelationships": [
+      "Red header text contrasts against the monochrome image",
+      "Subject's downward gaze creates a somber, reflective mood",
+      "High-contrast lighting emphasizes hair texture and facial contours",
+      "Asymmetrical secondary text balances the centered subject"
+    ],
+    "coreInvariants": [
+      "Monochrome subject photography",
+      "Ultra-wide serif header in bright red",
+      "White background or high-key lighting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered, occupying the middle and lower two-thirds of the frame in a medium close-up.",
+      "visualAnchor": "The subject's face and the bold red header text.",
+      "movementAndEyePath": "Starts at the red header, moves down to the subject's face, and follows the gaze toward the bottom right text.",
+      "negativeSpace": "Significant white space at the top and sides of the head to isolate the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Grayscale (subject and background)",
+      "contrastColorRole": "Bright Red (primary typography)",
+      "accentColorRole": "White (secondary typography and highlights)",
+      "saturationAndValueRelationship": "High value contrast between the subject's dark suit/hair and the white background; high saturation for the red text.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Mid-tone Grays",
+        "Vibrant Red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extended serif and humanist sans-serif",
+      "letterConstructionRules": [
+        "Header uses extreme horizontal expansion",
+        "Sharp, triangular serifs",
+        "Secondary text uses a condensed, slanted humanist skeleton"
+      ],
+      "characterSpecificRedesigns": [
+        "V and A in header have wide apertures",
+        "G has a prominent spur"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "extended-serif",
+          "anatomy": {
+            "width": "ultra-expanded",
+            "weight": "bold",
+            "contrast": "medium",
+            "xHeight": "low",
+            "terminals": "sharp-serif",
+            "corners": "acute",
+            "counters": "wide",
+            "strokeCharacter": "thick-to-thin"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating-above"
+          },
+          "treatment": {
+            "fill": "solid-red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "humanist-sans",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "angled",
+            "corners": "slightly-rounded",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom-right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over-image",
+            "relationshipToImage": "integrated"
+          },
+          "treatment": {
+            "fill": "solid-white",
+            "outline": "none",
+            "shadow": "subtle-drop",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "italicized"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of an expanded, traditional serif with a condensed, modern italicized sans-serif.",
+      "graphicDevices": [
+        "Small technical metadata box in bottom left corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extended width of the header",
+          "Red color for the header",
+          "Italicization of the subtitle"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Centered subtitle text",
+          "Low contrast photography"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Copperplate Gothic (Expanded)",
+            "reason": "Matches the wide, sharp serif feel of the header",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Gill Sans Bold Italic",
+            "reason": "Matches the humanist sans-serif structure of the subtitle",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white medium close-up portrait of a man in a suit looking down, set against a plain white studio background with ample head room.",
+        "overlayInstruction": "Add the primary name in a bold, ultra-expanded red serif font at the top center. Add the title in a bold, white italicized sans-serif font in the bottom right corner."
+      },
+      "verificationChecks": [
+        "Is the header text ultra-wide and red?",
+        "Is the main image monochrome?",
+        "Is the subject looking downward?",
+        "Is the subtitle italicized and placed in the bottom right?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject gender/age",
+      "Header color",
+      "Intensity of photographic contrast"
+    ],
+    "mustRedesign": [
+      "Any colorful background elements",
+      "Lowercase header text",
+      "Centered subtitle"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp photographic detail in hair and skin",
+        "Clean, legible typography",
+        "Balanced negative space"
+      ],
+      "avoid": [
+        "Blurry or low-resolution textures",
+        "Cluttered backgrounds",
+        "Muted or pastel header colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the red text is the most saturated element",
+      "Ensure the subject's eyes are cast downward",
+      "Verify the bottom-right text has a subtle drop shadow for legibility",
+      "Confirm the background is nearly pure white"
+    ],
+    "reuseFormula": "Monochrome Portrait + Ultra-Wide Red Serif Header + Bottom-Right Italicized White Subtitle"
+  }
+}

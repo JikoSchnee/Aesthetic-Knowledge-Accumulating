@@ -1,0 +1,315 @@
+{
+  "id": "d58ca79119b52d8cdf8e6e970b161e69b871abdc8494b8b47e0f1790916d17c3",
+  "skillId": "d58ca79119b52d8cdf8e6e970b161e69b871abdc8494b8b47e0f1790916d17c3",
+  "versionId": "d58ca79119b52d8cdf8e6e970b161e69b871abdc8494b8b47e0f1790916d17c3",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T03:23:10.782Z",
+  "approvedAt": "2026-08-12T03:23:10.782Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T03:23:10.782Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Southern Accents.jpg",
+    "hash": "d58ca79119b52d8cdf8e6e970b161e69b871abdc8494b8b47e0f1790916d17c3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Southern Accents",
+    "artist": "Tom Petty And The Heartbreakers",
+    "artworkUrl": "https://coverartarchive.org/release-group/8ce9a914-7016-37e9-ad80-659a07bd4783/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8ce9a914-7016-37e9-ad80-659a07bd4783",
+    "releaseGroupId": "8ce9a914-7016-37e9-ad80-659a07bd4783",
+    "recordingId": "50561cf9-9ac6-4054-beb0-f742d4469021",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Make It Better (Forget About Me)Tom Petty And The Heartbreakers",
+      "song": "Make It Better (Forget About Me)",
+      "performer": "Tom Petty And The Heartbreakers",
+      "peakPosition": 54,
+      "firstChartDate": "1985-06-08",
+      "lastChartDate": "1985-07-27",
+      "appearances": [
+        {
+          "chartDate": "1985-06-08",
+          "position": 85
+        },
+        {
+          "chartDate": "1985-06-15",
+          "position": 71
+        },
+        {
+          "chartDate": "1985-06-22",
+          "position": 62
+        },
+        {
+          "chartDate": "1985-06-29",
+          "position": 57
+        },
+        {
+          "chartDate": "1985-07-06",
+          "position": 54
+        },
+        {
+          "chartDate": "1985-07-13",
+          "position": 65
+        },
+        {
+          "chartDate": "1985-07-20",
+          "position": 69
+        },
+        {
+          "chartDate": "1985-07-27",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "rustic americana album layout parchment background framed oil painting italic serif scythe harvester wheat field 19th century realism textured paper centralized rectangular image inset within a textured border high contrast black typography against a warm tan background visual weight balanced between top aligned display text and bottom right metadata contrast between the smooth sky in the painting and the rough texture of the paper central inset painting fibrous parchment border underlined italic serif header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Rustic Americana Album Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Oil Painting",
+        "Parchment Texture",
+        "Serif Typography"
+      ],
+      "useCases": [
+        "Folk music album covers",
+        "Historical fiction book jackets",
+        "Art exhibition posters",
+        "Heritage brand identity"
+      ],
+      "retrievalTags": [
+        "parchment background",
+        "framed oil painting",
+        "italic serif",
+        "scythe harvester",
+        "wheat field",
+        "19th century realism",
+        "textured paper"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered rectangular landscape painting inset within a heavy-textured parchment border, featuring high-contrast italic serif typography and a horizontal rule.",
+      "triggerTerms": [
+        "framed painting on parchment",
+        "rustic wheat field oil painting",
+        "italic serif with horizontal rule",
+        "textured paper border layout"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "clean white backgrounds",
+        "sans-serif typography",
+        "vector illustrations"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A composition defined by a central rectangular window containing a realist oil painting of a rural laborer, surrounded by a wide margin of fibrous, tan-colored handmade paper. The typography is integrated into the margins using a classic, high-contrast italic serif, anchored by a thin horizontal line.",
+    "coreVisualRelationships": [
+      "Centralized rectangular image inset within a textured border",
+      "High-contrast black typography against a warm tan background",
+      "Visual weight balanced between top-aligned display text and bottom-right metadata",
+      "Contrast between the smooth sky in the painting and the rough texture of the paper"
+    ],
+    "coreInvariants": [
+      "Fibrous parchment texture with visible organic inclusions",
+      "Rectangular frame for the central artwork",
+      "Thin horizontal rule underlining the primary header"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The central painting occupies approximately 50% of the total area, centered horizontally and vertically.",
+      "visualAnchor": "The central figure in the painting acts as the primary focal point, supported by the bold header text.",
+      "movementAndEyePath": "Eyes start at the top header, move down to the central painting, and finish at the bottom-right subtitle.",
+      "negativeSpace": "Substantial margins of textured paper provide breathing room and a sense of historical artifact."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm tan/beige (parchment background)",
+      "contrastColorRole": "Deep black (typography and rule)",
+      "accentColorRole": "Golden yellow and sky blue (within the painting)",
+      "saturationAndValueRelationship": "Muted, earthy tones with high value contrast in the typography.",
+      "paletteRestrictions": [
+        "Avoid neon or synthetic colors",
+        "Limit to organic, earth-derived pigments"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional serif",
+      "letterConstructionRules": [
+        "Italicized for all text elements",
+        "Sharp, pointed serifs",
+        "High stroke contrast between thicks and thins",
+        "Tightly tracked display text"
+      ],
+      "characterSpecificRedesigns": [
+        "Stacked 'AND THE' in smaller scale between primary name components"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Transitional Serif Italic",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top margin",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separated by margin"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Transitional Serif Italic",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Bottom right margin",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separated by margin"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in different weights and cases for consistency.",
+      "graphicDevices": [
+        "Thin horizontal rule underlining the top header"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Italicization",
+          "High contrast",
+          "Sharp serifs"
+        ],
+        "avoid": [
+          "Sans-serifs",
+          "Slab serifs",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Baskerville Italic",
+            "reason": "Classic transitional serif with high contrast and sharp terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Caslon Italic",
+            "reason": "Provides the necessary historical weight and organic feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-resolution texture of handmade tan parchment paper with visible fibers. Inset a rectangular oil painting in the center depicting a 19th-century rural scene with a harvester in a wheat field under a blue sky.",
+        "overlayInstruction": "Add a thin black horizontal rule in the top margin. Above the rule, place large bold italic serif text in all caps. In the bottom right margin, place smaller title-case italic serif text."
+      },
+      "verificationChecks": [
+        "Is the parchment texture visible and organic?",
+        "Is the central painting rectangular and centered?",
+        "Is the top text underlined by a thin rule?",
+        "Is all text in a high-contrast italic serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Parchment fiber density",
+      "Painting subject matter",
+      "Header text weight",
+      "Margin width"
+    ],
+    "mustRedesign": [
+      "Avoid using modern digital gradients",
+      "Do not use clean, vector-style borders",
+      "Ensure the painting style is painterly, not photographic"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile paper quality",
+        "Classical typographic elegance",
+        "Balanced margins"
+      ],
+      "avoid": [
+        "Cluttered layouts",
+        "Bright white backgrounds",
+        "Low-contrast text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the 'AND THE' text is smaller and stacked if applicable",
+      "Ensure the rule line is perfectly horizontal and thin",
+      "Verify the painting has a distinct 'oil on canvas' texture",
+      "Confirm the parchment color is warm and aged"
+    ],
+    "reuseFormula": "Central Inset Painting + Fibrous Parchment Border + Underlined Italic Serif Header"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:44:17.018Z"
+}

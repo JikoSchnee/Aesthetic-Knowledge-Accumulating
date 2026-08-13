@@ -1,0 +1,299 @@
+{
+  "id": "e55f6bf60adbb24b7e4265b82bbf4b86d499aded2f6f9f529171f94a7cc1458a",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T07:02:13.333Z",
+  "approvedAt": "2026-08-11T07:02:13.333Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T07:02:13.333Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "And I Love Him.jpg",
+    "hash": "e55f6bf60adbb24b7e4265b82bbf4b86d499aded2f6f9f529171f94a7cc1458a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "And I Love Him",
+    "artist": "Esther Phillips",
+    "artworkUrl": "https://coverartarchive.org/release-group/6cf00617-dbc4-4892-9274-d5cc27010ae7/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6cf00617-dbc4-4892-9274-d5cc27010ae7",
+    "releaseGroupId": "6cf00617-dbc4-4892-9274-d5cc27010ae7",
+    "recordingId": "a888cedf-696b-4d79-9f4b-38dc732705e9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "And I Love HimEsther Phillips",
+      "song": "And I Love Him",
+      "performer": "Esther Phillips",
+      "peakPosition": 54,
+      "firstChartDate": "1965-05-08",
+      "lastChartDate": "1965-07-03",
+      "appearances": [
+        {
+          "chartDate": "1965-05-08",
+          "position": 88
+        },
+        {
+          "chartDate": "1965-05-15",
+          "position": 82
+        },
+        {
+          "chartDate": "1965-05-22",
+          "position": 78
+        },
+        {
+          "chartDate": "1965-05-29",
+          "position": 63
+        },
+        {
+          "chartDate": "1965-06-05",
+          "position": 57
+        },
+        {
+          "chartDate": "1965-06-12",
+          "position": 56
+        },
+        {
+          "chartDate": "1965-06-19",
+          "position": 55
+        },
+        {
+          "chartDate": "1965-06-26",
+          "position": 54
+        },
+        {
+          "chartDate": "1965-07-03",
+          "position": 58
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul album cover layout 1960s jazz soul portrait split screen sans serif serif high contrast vertical hierarchy from large title to smaller subtitle horizontal split between photographic subject and textual list color coded text alternating between gold and light blue thin white framing lines separating the lower quadrants black header large serif name split bottom square photo vertical list",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Album Cover Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Layout"
+      ],
+      "useCases": [
+        "Vinyl Record Art",
+        "Retro Poster Design",
+        "Editorial Layout"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "jazz",
+        "soul",
+        "portrait",
+        "split-screen",
+        "sans-serif",
+        "serif",
+        "high-contrast"
+      ]
+    },
+    "visualDefinition": "A high-contrast 1960s-style album cover featuring a split lower section with a square portrait on the left and a tracklist on the right, topped by a dominant black header containing centered typography.",
+    "coreVisualRelationships": [
+      "Vertical hierarchy from large title to smaller subtitle",
+      "Horizontal split between photographic subject and textual list",
+      "Color-coded text alternating between gold and light blue",
+      "Thin white framing lines separating the lower quadrants"
+    ],
+    "coreInvariants": [
+      "Solid black background for the top half",
+      "Square-cropped portrait with neutral studio background",
+      "Strictly centered alignment for the top text block"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Portrait occupies the bottom-left quadrant, approximately 45% of the total width.",
+      "visualAnchor": "The artist's name in large, light blue serif capitals.",
+      "movementAndEyePath": "Starts at the top center title, moves down to the artist name, then scans the portrait before reading the tracklist on the right.",
+      "negativeSpace": "Heavy use of solid black in the upper half creates a dramatic, stage-like focus."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Solid black background for depth and contrast.",
+      "contrastColorRole": "Light blue (Cyan) for the primary artist name and alternating list items.",
+      "accentColorRole": "Warm gold/yellow for the title and secondary list items.",
+      "saturationAndValueRelationship": "High value contrast between the bright text and the dark background; muted, naturalistic tones in the photograph.",
+      "paletteRestrictions": [
+        "No gradients",
+        "No neon colors",
+        "Limit to black, white, cyan, and gold"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric sans-serif and high-contrast transitional serif.",
+      "letterConstructionRules": [
+        "All-caps for primary and secondary titles",
+        "Title case for the third-level subtitle",
+        "Uniform stroke weight for sans-serif elements"
+      ],
+      "characterSpecificRedesigns": [
+        "Thin horizontal line underlining the main title",
+        "Tight tracking on the tracklist items"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "transitional serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "bracketed",
+            "counters": "open",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "above"
+          },
+          "treatment": {
+            "fill": "light blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "regular",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "circular",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "vertical list",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "bottom right",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "adjacent"
+          },
+          "treatment": {
+            "fill": "alternating gold and blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Serif for the name to convey elegance; Sans-serif for titles and lists to provide modern clarity.",
+      "graphicDevices": [
+        "Thin white border lines",
+        "Underline bar"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Color alternation in list",
+          "Split-screen layout",
+          "Black header"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Drop shadows",
+          "Centered tracklist"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Baskerville or Times New Roman",
+            "reason": "Matches the high-contrast serif look of the artist name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Condensed or Univers",
+            "reason": "Matches the utilitarian sans-serif used for the tracklist.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a split-screen layout with a solid black top half and a bottom half divided into two sections by thin white lines. The bottom-left section should contain a square studio portrait of a person with a 1960s hairstyle against a light grey background. The bottom-right section should be solid black.",
+        "overlayInstruction": "Add centered text in the top black area using a gold sans-serif for the top line and a large light blue serif for the second line. Add a vertical list of text in the bottom-right section, alternating colors between gold and light blue for each line."
+      },
+      "verificationChecks": [
+        "Is the artist name the largest text element?",
+        "Does the tracklist alternate colors line-by-line?",
+        "Is there a thin white border separating the portrait from the list?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Portrait subject",
+      "Specific hex codes for gold/blue",
+      "Number of tracks in the list"
+    ],
+    "mustRedesign": [
+      "Original artist name",
+      "Specific song titles",
+      "Record label logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean geometric division",
+        "High-contrast legibility",
+        "Mid-century color palette"
+      ],
+      "avoid": [
+        "Modern digital gradients",
+        "Messy alignment",
+        "Overlapping text and image"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the top text is perfectly centered.",
+      "Check that the white framing lines are thin and crisp.",
+      "Verify the serif font has high stroke contrast.",
+      "Confirm the portrait is a perfect square or near-square."
+    ],
+    "reuseFormula": "Black Header + Large Serif Name + Split Bottom (Square Photo | Vertical List)"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T07:32:40.847Z"
+}

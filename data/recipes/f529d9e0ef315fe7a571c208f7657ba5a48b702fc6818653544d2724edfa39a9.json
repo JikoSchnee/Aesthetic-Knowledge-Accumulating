@@ -1,0 +1,282 @@
+{
+  "id": "f529d9e0ef315fe7a571c208f7657ba5a48b702fc6818653544d2724edfa39a9",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T18:06:54.009Z",
+  "approvedAt": "2026-08-11T18:06:54.009Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T18:06:54.009Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "It Hurts to Be in Love.jpg",
+    "hash": "f529d9e0ef315fe7a571c208f7657ba5a48b702fc6818653544d2724edfa39a9",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "It Hurts to Be in Love",
+    "artist": "Dan Hartman",
+    "artworkUrl": "https://coverartarchive.org/release-group/c927d18f-8d49-495d-8b19-110b5f3c8cce/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c927d18f-8d49-495d-8b19-110b5f3c8cce",
+    "releaseGroupId": "c927d18f-8d49-495d-8b19-110b5f3c8cce",
+    "recordingId": "4cb5058a-1934-4d90-94a2-58d5207c4ffb",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Heaven In Your ArmsDan Hartman",
+      "song": "Heaven In Your Arms",
+      "performer": "Dan Hartman",
+      "peakPosition": 86,
+      "firstChartDate": "1981-04-11",
+      "lastChartDate": "1981-05-09",
+      "appearances": [
+        {
+          "chartDate": "1981-04-11",
+          "position": 93
+        },
+        {
+          "chartDate": "1981-04-18",
+          "position": 91
+        },
+        {
+          "chartDate": "1981-04-25",
+          "position": 86
+        },
+        {
+          "chartDate": "1981-05-02",
+          "position": 86
+        },
+        {
+          "chartDate": "1981-05-09",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast grainy portrait with neon script stipple grain high contrast monochrome diagonal composition neon script slab serif 80s synthpop aesthetic diagonal tilt of the subject creates dynamic tension against the horizontal top bar extreme stipple grain texture bridges the transition between deep blacks and bright whites teal script provides a vibrant color pop against the monochromatic background high contrast stipple portrait horizontal header bar diagonal script overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Grainy Portrait with Neon Script",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Airbrushing"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Poster",
+        "Retro 80s Aesthetic Branding"
+      ],
+      "retrievalTags": [
+        "stipple grain",
+        "high contrast monochrome",
+        "diagonal composition",
+        "neon script",
+        "slab serif",
+        "80s synthpop aesthetic"
+      ]
+    },
+    "visualDefinition": "A high-contrast, grainy black-and-white close-up portrait oriented diagonally, featuring a stark black border at the top containing white slab-serif text, and a secondary teal script title with a drop shadow placed in the upper right negative space.",
+    "coreVisualRelationships": [
+      "Diagonal tilt of the subject creates dynamic tension against the horizontal top bar.",
+      "Extreme stipple grain texture bridges the transition between deep blacks and bright whites.",
+      "Teal script provides a vibrant color pop against the monochromatic background."
+    ],
+    "coreInvariants": [
+      "Heavy stipple/film grain texture throughout the image.",
+      "Black header bar spanning the full width at the top.",
+      "High-contrast lighting that obscures details into solid black shapes."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up of a face, tilted approximately 45 degrees, filling the left and bottom two-thirds of the frame.",
+      "visualAnchor": "The eye in the center-left, which is the only sharp point of focus amidst the grain.",
+      "movementAndEyePath": "Starts at the top black bar, follows the diagonal line of the face down to the bottom left, then jumps to the teal script in the upper right.",
+      "negativeSpace": "Concentrated in the upper right quadrant, providing a canvas for the secondary typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black and White (Monochrome portrait and header bar)",
+      "contrastColorRole": "Teal/Cyan (Secondary script text)",
+      "accentColorRole": "Dark Blue (Drop shadow on script)",
+      "saturationAndValueRelationship": "High value contrast in the image; high saturation contrast between the monochrome base and the teal accent.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Teal",
+        "Dark Blue"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric slab serif and expressive brush script",
+      "letterConstructionRules": [
+        "Top text uses heavy, blocky slabs with wide tracking.",
+        "Script text uses a 30-degree upward slant with fluid, connected strokes."
+      ],
+      "characterSpecificRedesigns": [
+        "Script 'H' and 'L' feature elongated descenders and ascenders.",
+        "Slab serif 'A' has a wide stance."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt slabs",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "justified",
+            "tracking": "very wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "centered in top black bar",
+            "scale": "small to medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in separate header"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Brush Script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "medium",
+            "xHeight": "variable",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "tight",
+            "strokeCharacter": "hand-drawn brush"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "staggered three-line stack",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "upper right quadrant",
+            "scale": "large",
+            "rotation": "15 degrees upward",
+            "warp": "none",
+            "overlap": "over image grain",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "teal",
+            "outline": "none",
+            "shadow": "hard dark blue offset shadow",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "italicized slant"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme contrast between rigid, architectural slab serifs and fluid, organic brush script.",
+      "graphicDevices": [
+        "Solid black header bar",
+        "Heavy stipple grain overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide tracking of the top text",
+          "Teal color of the script",
+          "Diagonal orientation of the script"
+        ],
+        "avoid": [
+          "Sans-serif fonts for the header",
+          "Centering the script text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab serif weight and blunt terminals of the header.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral or Brush Script MT",
+            "reason": "Captures the 80s-style casual brush stroke and slant.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, black and white close-up portrait of a face tilted at a 45-degree angle. Apply a heavy stipple grain or mezzotint effect so the midtones are made of distinct black dots. Include a solid black horizontal bar at the very top of the frame.",
+        "overlayInstruction": "Add white uppercase slab-serif text inside the top black bar with extremely wide letter spacing. In the upper right negative space, add a three-line staggered teal brush script title tilted upwards, featuring a dark blue hard drop shadow."
+      },
+      "verificationChecks": [
+        "Is the grain texture prominent in the midtones?",
+        "Is the top text white on a black background?",
+        "Is the script text teal with a dark shadow?",
+        "Is the portrait tilted diagonally?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Grain density",
+      "Angle of the portrait tilt",
+      "Color of the script text",
+      "Width of the top black bar"
+    ],
+    "mustRedesign": [
+      "Specific facial features to avoid likeness",
+      "Exact wording of the text",
+      "Any specific artist logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Stark 80s high-contrast photography style",
+        "Clean, geometric header typography",
+        "Vibrant, saturated accent color for the script"
+      ],
+      "avoid": [
+        "Smooth gradients",
+        "Centered portraiture",
+        "Modern sans-serif typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the grain does not look like digital noise but like physical stippling.",
+      "Ensure the teal script is legible against the grainy background.",
+      "Verify the slab serif text is perfectly horizontal within the black bar.",
+      "Confirm the diagonal composition creates a sense of movement."
+    ],
+    "reuseFormula": "High-contrast stipple portrait + horizontal header bar + diagonal script overlay."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:27:05.420Z"
+}

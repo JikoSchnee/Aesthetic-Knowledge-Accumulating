@@ -1,0 +1,271 @@
+{
+  "id": "385baed43f4b72bef5ede49cd88915610e531d1837babfb6f87b2a78de401e95",
+  "skillId": "385baed43f4b72bef5ede49cd88915610e531d1837babfb6f87b2a78de401e95",
+  "versionId": "385baed43f4b72bef5ede49cd88915610e531d1837babfb6f87b2a78de401e95",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:28:32.492Z",
+  "approvedAt": "2026-08-13T00:28:32.492Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:28:32.492Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Life on a Rock.jpg",
+    "hash": "385baed43f4b72bef5ede49cd88915610e531d1837babfb6f87b2a78de401e95",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Life on a Rock",
+    "artist": "Kenny Chesney",
+    "artworkUrl": "https://coverartarchive.org/release-group/f511bb25-6b86-42c6-971e-28aa87381523/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f511bb25-6b86-42c6-971e-28aa87381523",
+    "releaseGroupId": "f511bb25-6b86-42c6-971e-28aa87381523",
+    "recordingId": "d96ee6e6-86c7-41f3-a4c2-78d4adf182ec",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "When I See This BarKenny Chesney",
+      "song": "When I See This Bar",
+      "performer": "Kenny Chesney",
+      "peakPosition": 84,
+      "firstChartDate": "2013-08-10",
+      "lastChartDate": "2013-09-21",
+      "appearances": [
+        {
+          "chartDate": "2013-08-10",
+          "position": 97
+        },
+        {
+          "chartDate": "2013-08-17",
+          "position": 96
+        },
+        {
+          "chartDate": "2013-08-24",
+          "position": 93
+        },
+        {
+          "chartDate": "2013-08-31",
+          "position": 89
+        },
+        {
+          "chartDate": "2013-09-07",
+          "position": 90
+        },
+        {
+          "chartDate": "2013-09-14",
+          "position": 84
+        },
+        {
+          "chartDate": "2013-09-21",
+          "position": 90
+        }
+      ]
+    }
+  },
+  "dedupeText": "island life scrapbook collage scrapbook beach collage handwritten sunset nautical weathered polaroid island lifestyle central large landscape photo anchored by smaller peripheral lifestyle vignettes hand lettered text overlapping the seams of the collage panels weathered paper textures and tape like borders separating distinct image zones warm sunset lighting in the center contrasting with cooler blue toned peripheral shots combine subject island lifestyle photos into a layout distressed scrapbook grid with element central sunset focal point and typography bold hand lettered overlays using a color warm sun bleached palette",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Island Life Scrapbook Collage",
+      "category": "Album Art",
+      "medium": [
+        "Mixed Media",
+        "Photography",
+        "Digital Collage",
+        "Hand-Lettering"
+      ],
+      "useCases": [
+        "Country Music Album Covers",
+        "Travel Journal Layouts",
+        "Nostalgic Summer Branding",
+        "Lifestyle Scrapbooking"
+      ],
+      "retrievalTags": [
+        "scrapbook",
+        "beach",
+        "collage",
+        "handwritten",
+        "sunset",
+        "nautical",
+        "weathered",
+        "polaroid",
+        "island lifestyle"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A multi-paneled scrapbook aesthetic featuring weathered photographic textures, handwritten notes, and a central sunset focal point.",
+      "triggerTerms": [
+        "scrapbook collage style",
+        "handwritten beach journal aesthetic",
+        "weathered island photography layout"
+      ],
+      "excludeWhen": [
+        "clean minimalist designs",
+        "high-tech futuristic themes",
+        "single-image layouts without borders"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A complex grid-based collage resembling a physical scrapbook, combining high-contrast sunset photography, candid lifestyle shots, and nautical symbols with prominent, expressive hand-lettered titles and vertical margin notes.",
+    "coreVisualRelationships": [
+      "Central large landscape photo anchored by smaller peripheral lifestyle vignettes",
+      "Hand-lettered text overlapping the seams of the collage panels",
+      "Weathered paper textures and tape-like borders separating distinct image zones",
+      "Warm sunset lighting in the center contrasting with cooler blue-toned peripheral shots"
+    ],
+    "coreInvariants": [
+      "Visible paper edges and distressed borders between all image panels",
+      "A mix of horizontal and vertical text orientations",
+      "High-contrast, warm-toned photographic processing"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A large central landscape photo of a person facing a sunset occupies the middle third; smaller square and rectangular photos frame the top, bottom, and sides.",
+      "visualAnchor": "The central sunset and the large-scale hand-lettered artist name directly above it.",
+      "movementAndEyePath": "Starts at the central sunset, moves upward to the main title, then spirals outward to the handwritten notes in the margins.",
+      "negativeSpace": "Minimal; the layout is densely packed with images and text, using paper textures as the only 'empty' space."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm golden yellows and oranges from the central sunset.",
+      "contrastColorRole": "Deep blues and teals from the ocean and sky in peripheral photos.",
+      "accentColorRole": "Vibrant reds and greens from specific subjects like the rooster and clothing.",
+      "saturationAndValueRelationship": "High saturation in focal points with a weathered, slightly faded value across the paper textures.",
+      "paletteRestrictions": [
+        "Avoid neon or synthetic colors",
+        "Maintain organic, sun-bleached tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Casual, expressive handwriting with varying stroke weights.",
+      "letterConstructionRules": [
+        "All-caps for main titles with irregular baseline",
+        "Slanted, cursive-influenced script for secondary notes",
+        "Visible ink-bleed and rough edges on all characters"
+      ],
+      "characterSpecificRedesigns": [
+        "The letter 'E' often features a longer middle bar",
+        "The letter 'Y' has a deep, sweeping descender"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "hand-drawn",
+          "anatomy": {
+            "width": "variable",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "marker-like"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "loose",
+            "leading": "tight",
+            "lineBreakPattern": "manual",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "center-top",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "slight arch",
+            "overlap": "on top of image borders",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "ink-on-paper",
+            "distortion": "organic jitter"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast large, bold marker-style titles with thin, scratchy pen-style marginalia.",
+      "graphicDevices": [
+        "Torn paper edges",
+        "Adhesive tape marks",
+        "Nautical skull and crossbones icon",
+        "Hand-drawn underlines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Handwritten feel",
+          "Irregular baseline",
+          "Ink texture"
+        ],
+        "avoid": [
+          "Perfectly geometric fonts",
+          "Clean digital sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rough Marker Script",
+            "reason": "Matches the bold, expressive energy of the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Casual Felt-Tip Handwriting",
+            "reason": "Appropriate for the marginal notes and lyrics.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a multi-panel collage of beach and island lifestyle photos with weathered paper borders, torn edges, and a central sunset landscape.",
+        "overlayInstruction": "Apply bold, black hand-lettered titles in the center and thin, scratchy handwritten notes in the vertical margins and bottom panels."
+      },
+      "verificationChecks": [
+        "Ensure text looks hand-drawn, not typed",
+        "Check that paper textures appear aged and tactile",
+        "Verify the central sunset is the primary light source"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of the collage panels",
+      "Amount of handwritten marginalia",
+      "Warmth of the color grade"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Proprietary logos or brand marks",
+      "Identifiable faces"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile scrapbook feel",
+        "Cohesive warm color story",
+        "Authentic-looking handwriting"
+      ],
+      "avoid": [
+        "Clean digital grids",
+        "Default system fonts",
+        "Uniformly bright lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Are the borders between images visibly distressed?",
+      "Does the main title overlap the image seams naturally?",
+      "Is the handwriting varied in scale and weight?",
+      "Does the central image maintain focal dominance?"
+    ],
+    "reuseFormula": "Combine [Subject: Island Lifestyle Photos] into a [Layout: Distressed Scrapbook Grid] with [Element: Central Sunset Focal Point] and [Typography: Bold Hand-Lettered Overlays] using a [Color: Warm Sun-Bleached Palette]."
+  }
+}

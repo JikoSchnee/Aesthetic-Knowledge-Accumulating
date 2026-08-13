@@ -1,0 +1,298 @@
+{
+  "id": "eda8a8ecd7f78ff5c5d2f2c0665b52fe97cbf06b3f949da3d2492104818a7c56",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T10:18:48.919Z",
+  "approvedAt": "2026-08-11T10:18:48.919Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T10:18:48.919Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "A Man and His Music.jpg",
+    "hash": "eda8a8ecd7f78ff5c5d2f2c0665b52fe97cbf06b3f949da3d2492104818a7c56",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "A Man and His Music",
+    "artist": "Frank Sinatra",
+    "artworkUrl": "https://coverartarchive.org/release-group/6dda357c-ac07-3d48-95ed-4b2589aac626/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6dda357c-ac07-3d48-95ed-4b2589aac626",
+    "releaseGroupId": "6dda357c-ac07-3d48-95ed-4b2589aac626",
+    "recordingId": "992c5472-5201-4b9e-b380-06784f11f0d7",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Call Me IrresponsibleFrank Sinatra",
+      "song": "Call Me Irresponsible",
+      "performer": "Frank Sinatra",
+      "peakPosition": 78,
+      "firstChartDate": "1963-04-06",
+      "lastChartDate": "1963-05-25",
+      "appearances": [
+        {
+          "chartDate": "1963-04-06",
+          "position": 95
+        },
+        {
+          "chartDate": "1963-04-13",
+          "position": 87
+        },
+        {
+          "chartDate": "1963-04-20",
+          "position": 87
+        },
+        {
+          "chartDate": "1963-04-27",
+          "position": 78
+        },
+        {
+          "chartDate": "1963-05-04",
+          "position": 81
+        },
+        {
+          "chartDate": "1963-05-11",
+          "position": 81
+        },
+        {
+          "chartDate": "1963-05-18",
+          "position": 78
+        },
+        {
+          "chartDate": "1963-05-25",
+          "position": 78
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century impasto portrait montage mid century modern painterly portrait stenciled typography montage sepia tones thick brushstrokes jazz era large central portrait acting as a container for smaller narrative vignettes high contrast black and white stenciled text against a textured warm background rough impasto textures in the background versus smoother high contrast photographic elements in the foreground vertical hierarchy moving from bold display text to fine metadata impasto portrait silhouette collage stencil typography earth tone palette",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Impasto Portrait Montage",
+      "category": "Album Art",
+      "medium": [
+        "Oil Painting",
+        "Impasto",
+        "Collage",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Retrospective Album Cover",
+        "Biographical Poster",
+        "Vintage Editorial Illustration"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "painterly portrait",
+        "stenciled typography",
+        "montage",
+        "sepia tones",
+        "thick brushstrokes",
+        "jazz era"
+      ]
+    },
+    "visualDefinition": "A large-scale impasto oil portrait of a male figure whose torso is composed of a collage of smaller, monochromatic performance snapshots. The style features heavy, visible brushwork and a warm, earthy palette contrasted by bold, left-aligned stenciled typography.",
+    "coreVisualRelationships": [
+      "Large central portrait acting as a container for smaller narrative vignettes",
+      "High-contrast black and white stenciled text against a textured, warm background",
+      "Rough impasto textures in the background versus smoother, high-contrast photographic elements in the foreground",
+      "Vertical hierarchy moving from bold display text to fine metadata"
+    ],
+    "coreInvariants": [
+      "Impasto oil painting texture",
+      "Collage-style integration of sub-images into the main figure's clothing",
+      "Left-aligned, blocky, stenciled display type",
+      "Warm sepia and ochre color palette"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A central, oversized head-and-shoulders portrait dominates the frame, filling approximately 80% of the vertical space.",
+      "visualAnchor": "The large, dark, stenciled name at the top left serves as the primary entry point.",
+      "movementAndEyePath": "Eyes move from the top-left text, down the left-aligned column, then across the face to the detailed collage elements in the suit.",
+      "negativeSpace": "The upper right quadrant provides textured negative space to balance the dense typography and collage on the left and bottom."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm ochre, cream, and burnt sienna in the background and skin tones.",
+      "contrastColorRole": "Deep black and dark umber for the primary typography and collage shadows.",
+      "accentColorRole": "Muted red and orange streaks within the tie and background textures.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the black text and the light, textured background.",
+      "paletteRestrictions": [
+        "Avoid bright primary colors",
+        "Limit to earthy, vintage tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy slab serif and stencil-style grotesque",
+      "letterConstructionRules": [
+        "Display text uses thick, blocky strokes with horizontal stencil gaps",
+        "Secondary text uses a condensed, high-contrast slab serif with stencil breaks",
+        "Metadata uses a clean, sans-serif grotesque for legibility"
+      ],
+      "characterSpecificRedesigns": [
+        "Horizontal breaks in vertical stems of 'A', 'M', and 'N'",
+        "Heavy, squared-off serifs on the secondary title lines"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "stencil-grotesque",
+          "anatomy": {
+            "width": "wide",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed with stencil gaps",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "single word",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floats over background texture"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "stencil cuts"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "stencil-slab-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "slab",
+            "corners": "sharp",
+            "counters": "open with stencil gaps",
+            "strokeCharacter": "thick and thin"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "multi-line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below primary display",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floats over background texture"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "stencil cuts"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a heavy, dark sans-serif stencil and a lighter, white slab-serif stencil.",
+      "graphicDevices": [
+        "Horizontal divider line separating text blocks",
+        "Collage masking within the subject's silhouette"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Left-aligned block layout",
+          "Stencil-cut aesthetic",
+          "High contrast between text colors"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Centered alignment",
+          "Clean, modern digital sans-serifs without texture"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Stainer Stencil",
+            "reason": "Matches the heavy, blocky display feel with horizontal breaks",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "City Bold",
+            "reason": "Provides the condensed slab-serif skeleton for the subtitle",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create an impasto oil painting of a man's head and shoulders. The background should be textured with cream and ochre brushstrokes. The man's suit and tie area should be a collage of various small, monochromatic, vintage-style performance photos and concert posters blended into the painting's texture.",
+        "overlayInstruction": "Add left-aligned, stenciled typography in the top left corner. The top line should be black and extremely bold. Below a thin horizontal line, add three lines of white stenciled slab-serif text. Below that, add smaller white sans-serif metadata text."
+      },
+      "verificationChecks": [
+        "Is the main portrait rendered with thick, visible impasto brushstrokes?",
+        "Are the smaller photos integrated into the suit silhouette?",
+        "Does the typography feature horizontal stencil breaks?",
+        "Is the color palette restricted to warm, vintage earth tones?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of the impasto texture",
+      "Number of collage elements in the suit",
+      "Width of the stencil gaps in the typography",
+      "Warmth of the color temperature"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Original brand logos or signatures",
+      "Exact wording of the biographical text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tangible oil paint texture",
+        "Mid-century graphic design balance",
+        "Seamless integration of collage and painting"
+      ],
+      "avoid": [
+        "Smooth digital gradients",
+        "Clean vector lines in the background",
+        "Modern neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is legible despite the stencil cuts",
+      "Check that the collage elements don't overwhelm the main portrait's form",
+      "Verify the impasto texture is consistent across the entire canvas",
+      "Confirm the left-aligned text block creates a strong vertical axis"
+    ],
+    "reuseFormula": "Impasto Portrait + Silhouette Collage + Stencil Typography + Earth Tone Palette"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:26:15.015Z"
+}

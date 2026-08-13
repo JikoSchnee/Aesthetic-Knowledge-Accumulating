@@ -1,0 +1,276 @@
+{
+  "id": "c1b6df7455d32b65066cce0f7f003846befa80a155bc4404194e8a965c7975c4",
+  "skillId": "c1b6df7455d32b65066cce0f7f003846befa80a155bc4404194e8a965c7975c4",
+  "versionId": "c1b6df7455d32b65066cce0f7f003846befa80a155bc4404194e8a965c7975c4",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:12:35.762Z",
+  "approvedAt": "2026-08-12T19:12:35.762Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:12:35.762Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Trouble in Paradise.jpg",
+    "hash": "c1b6df7455d32b65066cce0f7f003846befa80a155bc4404194e8a965c7975c4",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Trouble in Paradise",
+    "artist": "Randy Newman & Paul Simon",
+    "artworkUrl": "https://coverartarchive.org/release-group/0a5a18d0-c6e9-3404-8aa5-bb0738df1f2b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0a5a18d0-c6e9-3404-8aa5-bb0738df1f2b",
+    "releaseGroupId": "0a5a18d0-c6e9-3404-8aa5-bb0738df1f2b",
+    "recordingId": "d780aafc-db60-4876-bdab-eea4d2c3bec2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The BluesRandy Newman & Paul Simon",
+      "song": "The Blues",
+      "performer": "Randy Newman & Paul Simon",
+      "peakPosition": 51,
+      "firstChartDate": "1983-01-22",
+      "lastChartDate": "1983-03-12",
+      "appearances": [
+        {
+          "chartDate": "1983-01-22",
+          "position": 73
+        },
+        {
+          "chartDate": "1983-01-29",
+          "position": 65
+        },
+        {
+          "chartDate": "1983-02-05",
+          "position": 55
+        },
+        {
+          "chartDate": "1983-02-12",
+          "position": 51
+        },
+        {
+          "chartDate": "1983-02-19",
+          "position": 51
+        },
+        {
+          "chartDate": "1983-02-26",
+          "position": 51
+        },
+        {
+          "chartDate": "1983-03-05",
+          "position": 72
+        },
+        {
+          "chartDate": "1983-03-12",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "torn paper collage album cover torn paper edge heavy slab serif 80s aesthetic beach photography overcast lighting halftone texture the jagged torn edge creates a physical barrier between the graphic text and the photographic subject the heavy black typography anchors the top heavy composition muted blues and greens in the photo contrast with the stark black on white graphic header the subject s central position provides a stable vertical axis against the diagonal tear combine heavy slab serif typography torn paper header muted vintage photography for a retro editorial aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Torn Paper Collage Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Collage",
+        "Digital Illustration"
+      ],
+      "useCases": [
+        "Album Art",
+        "Editorial Layout",
+        "Poster Design",
+        "Vintage Branding"
+      ],
+      "retrievalTags": [
+        "torn paper edge",
+        "heavy slab serif",
+        "80s aesthetic",
+        "beach photography",
+        "overcast lighting",
+        "halftone texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A split-composition layout featuring a torn-paper upper section for heavy display type and a lower photographic section with a muted, vintage color palette.",
+      "triggerTerms": [
+        "torn paper header",
+        "heavy slab serif collage",
+        "vintage beach photography layout"
+      ],
+      "excludeWhen": [
+        "clean minimalist designs",
+        "modern high-saturation photography",
+        "sans-serif typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition divided by a diagonal, jagged 'torn paper' edge. The top section is a solid white field containing three lines of massive, black, ultra-bold slab serif text. The bottom section is a grainy, low-contrast photograph of a person in a tropical shirt standing by a car at a coastal location under a hazy, overcast sky.",
+    "coreVisualRelationships": [
+      "The jagged torn edge creates a physical barrier between the graphic text and the photographic subject.",
+      "The heavy black typography anchors the top-heavy composition.",
+      "Muted blues and greens in the photo contrast with the stark black-on-white graphic header.",
+      "The subject's central position provides a stable vertical axis against the diagonal tear."
+    ],
+    "coreInvariants": [
+      "Jagged, irregular torn paper texture on the bottom edge of the white block.",
+      "Ultra-bold, tightly tracked slab serif typography.",
+      "Muted, slightly desaturated photographic color grading."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The human subject is centered in the lower two-thirds of the frame, medium shot from the waist up.",
+      "visualAnchor": "The large-scale black typography in the top third acts as the primary visual anchor.",
+      "movementAndEyePath": "Eyes start at the heavy text, follow the torn edge downward, and land on the subject's face.",
+      "negativeSpace": "Significant white space in the top corners and around the central text block."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (background and header field)",
+      "contrastColorRole": "Black (typography)",
+      "accentColorRole": "Muted Cyan and Sage Green (photographic elements)",
+      "saturationAndValueRelationship": "High contrast in the graphic section; low saturation and mid-tone values in the photographic section.",
+      "paletteRestrictions": [
+        "No vibrant or neon colors",
+        "Avoid pure primary reds"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Ultra-bold slab serif with square terminals",
+      "letterConstructionRules": [
+        "Extremely thick strokes with minimal contrast",
+        "Large, blocky serifs",
+        "Tight letter spacing (kerning) causing characters to nearly touch",
+        "Uniform cap height across all lines"
+      ],
+      "characterSpecificRedesigns": [
+        "The bottom of the third line is partially obscured or 'torn' by the paper edge texture"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Ultra-black",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Slab",
+            "corners": "Sharp",
+            "counters": "Small",
+            "strokeCharacter": "Solid and heavy"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Three-line stack",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top left quadrant",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Clipped by torn edge",
+            "relationshipToImage": "Overlaid on white block above image"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Slight ink bleed/halftone",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single-family dominance; no secondary typeface used.",
+      "graphicDevices": [
+        "Torn paper edge texture",
+        "Grainy photographic film effect"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif style",
+          "Ultra-bold weight",
+          "Torn edge clipping"
+        ],
+        "avoid": [
+          "Sans-serif",
+          "Script",
+          "Clean vector edges on the tear"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Stymie Black",
+            "reason": "Matches the heavy slab serifs and blocky structure.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Provides the necessary geometric slab weight.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Memphis Extra Bold",
+            "reason": "Similar vintage slab serif feel with tight counters.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a vintage-style photograph of a man in a patterned short-sleeve shirt standing by a light blue classic car on a hazy beach road. Apply a grainy film texture and muted 1980s color grading. Leave the top 40% of the frame as a solid white block with a jagged, realistic torn-paper bottom edge that overlaps the photo.",
+        "overlayInstruction": "Typeset three lines of text in an ultra-bold slab serif font (like Stymie Black) in solid black. Align the text to the top left within the white block. Ensure the bottom line of text is partially clipped by the jagged torn edge of the white block."
+      },
+      "verificationChecks": [
+        "Is the paper edge jagged and realistic?",
+        "Is the typography ultra-bold slab serif?",
+        "Is the photo color-graded with a muted, vintage feel?",
+        "Does the text nearly touch due to tight tracking?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Tear angle",
+      "Photo grain intensity",
+      "Text alignment",
+      "Shirt pattern"
+    ],
+    "mustRedesign": [
+      "Avoid using the specific artist's face",
+      "Do not replicate the exact brand of the car"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Realistic paper texture",
+        "Heavy typographic weight",
+        "Cohesive vintage palette"
+      ],
+      "avoid": [
+        "Smooth digital gradients",
+        "Thin fonts",
+        "High-saturation digital colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the torn edge looks like physical paper.",
+      "Ensure the text is solid black without digital glow.",
+      "Verify the photo has a 1980s film aesthetic.",
+      "Confirm the composition is square."
+    ],
+    "reuseFormula": "Combine [Heavy Slab Serif Typography] + [Torn Paper Header] + [Muted Vintage Photography] for a retro-editorial aesthetic."
+  }
+}

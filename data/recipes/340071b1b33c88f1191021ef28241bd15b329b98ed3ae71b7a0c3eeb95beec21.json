@@ -1,0 +1,273 @@
+{
+  "id": "340071b1b33c88f1191021ef28241bd15b329b98ed3ae71b7a0c3eeb95beec21",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T13:23:19.237Z",
+  "approvedAt": "2026-08-11T13:23:19.237Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T13:23:19.237Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Both Sides Now.jpg",
+    "hash": "340071b1b33c88f1191021ef28241bd15b329b98ed3ae71b7a0c3eeb95beec21",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Both Sides Now",
+    "artist": "The Tokens",
+    "artworkUrl": "https://coverartarchive.org/release-group/68283a24-051d-43f7-a68c-93d78d61c4f9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/68283a24-051d-43f7-a68c-93d78d61c4f9",
+    "releaseGroupId": "68283a24-051d-43f7-a68c-93d78d61c4f9",
+    "recordingId": "542286ac-ca00-47ca-8e2a-e4f145109c24",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Don't Worry BabyThe Tokens",
+      "song": "Don't Worry Baby",
+      "performer": "The Tokens",
+      "peakPosition": 95,
+      "firstChartDate": "1970-03-07",
+      "lastChartDate": "1970-03-14",
+      "appearances": [
+        {
+          "chartDate": "1970-03-07",
+          "position": 95
+        },
+        {
+          "chartDate": "1970-03-14",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro folk pop album cover layout 1970s sepia tone psychedelic typography group portrait low contrast photography soft focus warm sepia toned photography against a cream colored background heavy interlocking display type contrasting with thin sans serif body text overlapping subjects creating depth through soft focus layering text placement following the negative space created by the subjects heads combine a warm toned group portrait with interlocking 70s display type and minimalist sans serif lists to create a vintage folk pop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Folk-Pop Album Cover Layout",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Offset Printing"
+      ],
+      "useCases": [
+        "Album Art",
+        "Retro Poster Design",
+        "Vintage Editorial Layout"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "sepia tone",
+        "psychedelic typography",
+        "group portrait",
+        "low-contrast photography",
+        "soft focus"
+      ]
+    },
+    "visualDefinition": "A vintage-inspired album cover featuring a trio of men in a soft-focus, warm-toned photograph. The composition uses a triangular arrangement of subjects with a dominant, stylized display typeface in the upper right and a clean tracklist in the upper left.",
+    "coreVisualRelationships": [
+      "Warm sepia-toned photography against a cream-colored background",
+      "Heavy, interlocking display type contrasting with thin sans-serif body text",
+      "Overlapping subjects creating depth through soft-focus layering",
+      "Text placement following the negative space created by the subjects' heads"
+    ],
+    "coreInvariants": [
+      "Muted, desaturated color palette",
+      "High-waisted, interlocking letterforms for the main title",
+      "Left-aligned vertical list for secondary information",
+      "Grainy, film-like photographic texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three men arranged in a pyramid; one in the foreground center, one to the right, and one slightly faded in the background top-center.",
+      "visualAnchor": "The bold, black display type in the upper right quadrant.",
+      "movementAndEyePath": "Starts at the bold title, moves down to the foreground faces, then sweeps left to the vertical tracklist.",
+      "negativeSpace": "Ample cream-colored space in the upper corners utilized for text placement."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cream/Off-white background and highlights.",
+      "contrastColorRole": "Deep brown and black for typography and shadows.",
+      "accentColorRole": "Warm sepia and tan mid-tones in the skin and clothing.",
+      "saturationAndValueRelationship": "Low saturation with a compressed value range, avoiding pure whites or deep blacks in the image area.",
+      "paletteRestrictions": [
+        "No vibrant primary colors",
+        "No high-contrast digital whites"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Extremely tight kerning with overlapping strokes",
+        "Rounded terminals and circular counters",
+        "Heavy weight with minimal internal negative space",
+        "Baseline shifts to allow letters to nest into one another"
+      ],
+      "characterSpecificRedesigns": [
+        "O and E characters are often tucked under the arms of T or K",
+        "S has a tight, circular curl"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Psychedelic Sans",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Ultra-black",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Rounded",
+            "corners": "Softened",
+            "counters": "Small/Circular",
+            "strokeCharacter": "Uniformly thick"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Negative",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked blocks",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Upper right",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Heavy",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Slight ink bleed",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light",
+            "contrast": "None",
+            "xHeight": "Medium",
+            "terminals": "Blunt",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Vertical list",
+            "density": "Low"
+          },
+          "composition": {
+            "position": "Upper left",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlaid on light background"
+          },
+          "treatment": {
+            "fill": "Dark Brown",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme weight contrast between a heavy, decorative display face and a light, functional sans-serif.",
+      "graphicDevices": [
+        "Soft vignetting",
+        "Film grain overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Overlapping letterforms",
+          "Sepia color grade",
+          "Pyramid composition"
+        ],
+        "avoid": [
+          "Modern digital sharpness",
+          "Serif fonts for the main title",
+          "Bright white backgrounds"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bauhaus Heavy or Blippo",
+            "reason": "Captures the rounded, thick geometric feel of the 70s display type.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Matches the clean, geometric secondary text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A soft-focus, grainy photograph of three men in 1970s attire (collared shirts, vests, glasses). The men are arranged in a triangular group portrait. The color palette is warm sepia and cream. The background is a plain, light-colored wall with soft shadows.",
+        "overlayInstruction": "Add a large, ultra-bold, interlocking geometric sans-serif title in the upper right corner in black. Add a vertical list of text in a small, light sans-serif font in the upper left corner in dark brown."
+      },
+      "verificationChecks": [
+        "Is the main title text overlapping and tightly packed?",
+        "Is the overall image tone warm and desaturated?",
+        "Are the subjects arranged in a clear hierarchy from foreground to background?",
+        "Is the film grain visible but not distracting?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the sepia tint",
+      "Amount of overlap in the display typography",
+      "Depth of field/blur on the background subjects",
+      "Density of the film grain"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the individuals",
+      "Exact wording of the tracklist and titles",
+      "Any specific brand logos or signatures"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s print aesthetic",
+        "Legible but highly stylized display type",
+        "Balanced distribution of text in negative space"
+      ],
+      "avoid": [
+        "High-definition digital clarity",
+        "Default system fonts",
+        "Cold or blue color temperatures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for interlocking letterforms in the display title.",
+      "Ensure the color palette remains strictly within warm tans and creams.",
+      "Verify that the secondary text is light and clean for contrast.",
+      "Confirm the photographic style has a soft, analog feel."
+    ],
+    "reuseFormula": "Combine a [warm-toned group portrait] with [interlocking 70s display type] and [minimalist sans-serif lists] to create a [vintage folk-pop aesthetic]."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:06:11.876Z"
+}

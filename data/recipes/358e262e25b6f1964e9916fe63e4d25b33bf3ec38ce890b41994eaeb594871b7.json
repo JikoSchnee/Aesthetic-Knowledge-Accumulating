@@ -1,0 +1,319 @@
+{
+  "id": "358e262e25b6f1964e9916fe63e4d25b33bf3ec38ce890b41994eaeb594871b7",
+  "skillId": "358e262e25b6f1964e9916fe63e4d25b33bf3ec38ce890b41994eaeb594871b7",
+  "versionId": "358e262e25b6f1964e9916fe63e4d25b33bf3ec38ce890b41994eaeb594871b7",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:56:09.671Z",
+  "approvedAt": "2026-08-12T17:56:09.671Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:56:09.671Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Southern Tracks and Fantasies.jpg",
+    "hash": "358e262e25b6f1964e9916fe63e4d25b33bf3ec38ce890b41994eaeb594871b7",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Southern Tracks and Fantasies",
+    "artist": "Paul Davis",
+    "artworkUrl": "https://coverartarchive.org/release-group/67ce9f44-4ed5-3263-b5a5-0996beb4b4a9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/67ce9f44-4ed5-3263-b5a5-0996beb4b4a9",
+    "releaseGroupId": "67ce9f44-4ed5-3263-b5a5-0996beb4b4a9",
+    "recordingId": "871fc9be-d356-4ec9-8d21-fbed18a3f562",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "SuperstarPaul Davis",
+      "song": "Superstar",
+      "performer": "Paul Davis",
+      "peakPosition": 35,
+      "firstChartDate": "1976-08-07",
+      "lastChartDate": "1976-10-02",
+      "appearances": [
+        {
+          "chartDate": "1976-08-07",
+          "position": 88
+        },
+        {
+          "chartDate": "1976-08-14",
+          "position": 76
+        },
+        {
+          "chartDate": "1976-08-21",
+          "position": 62
+        },
+        {
+          "chartDate": "1976-08-28",
+          "position": 52
+        },
+        {
+          "chartDate": "1976-09-04",
+          "position": 44
+        },
+        {
+          "chartDate": "1976-09-11",
+          "position": 40
+        },
+        {
+          "chartDate": "1976-09-18",
+          "position": 36
+        },
+        {
+          "chartDate": "1976-09-25",
+          "position": 35
+        },
+        {
+          "chartDate": "1976-10-02",
+          "position": 72
+        }
+      ]
+    }
+  },
+  "dedupeText": "southern fantasy album art style 1970s airbrush cowboy portrait rainbow graphic surreal americana soft focus landscape portrait figure overlapping a circular rainbow graphic surreal flora and insects in the foreground hazy atmospheric landscape in the upper right quadrant text contained within a curved banner at the top center 1970s airbrush portrait circular rainbow motif surreal flora extended geometric typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Southern Fantasy Album Art Style",
+      "category": "Illustration",
+      "medium": [
+        "Airbrush",
+        "Colored Pencil",
+        "Gouache"
+      ],
+      "useCases": [
+        "Album cover design",
+        "Vintage Americana posters",
+        "Soft-rock aesthetic branding"
+      ],
+      "retrievalTags": [
+        "1970s airbrush",
+        "cowboy portrait",
+        "rainbow graphic",
+        "surreal americana",
+        "soft focus landscape"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Produces a soft-focus 1970s airbrushed portrait featuring a central figure in a cowboy hat integrated with surreal elements like rainbows and stylized flora against a hazy landscape.",
+      "triggerTerms": [
+        "1970s airbrushed album art style",
+        "soft-focus surreal americana illustration",
+        "cowboy portrait with rainbow and flowers"
+      ],
+      "excludeWhen": [
+        "modern digital vector art",
+        "high-contrast photography",
+        "minimalist flat design"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central, detailed portrait of a bearded man in a wide-brimmed hat, rendered with soft textures and fine stippling, surrounded by a circular rainbow motif, surreal oversized flowers, and a hazy, pastoral background with a southern plantation house.",
+    "coreVisualRelationships": [
+      "Portrait figure overlapping a circular rainbow graphic",
+      "Surreal flora and insects in the foreground",
+      "Hazy, atmospheric landscape in the upper right quadrant",
+      "Text contained within a curved banner at the top center"
+    ],
+    "coreInvariants": [
+      "Soft, diffused lighting with no harsh shadows",
+      "Fine-grain texture resembling colored pencil over airbrush",
+      "Muted, earthy tones contrasted by a vibrant primary-color rainbow"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale portrait positioned slightly left of center, occupying the majority of the vertical space.",
+      "visualAnchor": "The man's face and beard, framed by the hat and the circular rainbow behind him.",
+      "movementAndEyePath": "From the top banner down to the face, following the curve of the rainbow to the flowers in the foreground.",
+      "negativeSpace": "Dense central composition with airy, light-colored negative space in the sky and clouds at the bottom."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Earthy browns and tans in the portrait and hat.",
+      "contrastColorRole": "Vibrant red, orange, yellow, green, and blue in the concentric rainbow rings.",
+      "accentColorRole": "Soft pinks and greens in the floral elements.",
+      "saturationAndValueRelationship": "High saturation in the graphic rainbow elements against low-saturation, high-value atmospheric backgrounds.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Avoid pure black in the illustration area"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric sans-serif and expressive script",
+      "letterConstructionRules": [
+        "Top name in wide, extended geometric sans-serif with uniform stroke weight",
+        "Banner text in a heavy, slab-serif block style following an upward arc",
+        "Secondary text in a fluid, slanted brush script"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' in the top name features a horizontal bar that extends to connect with adjacent letters",
+        "Script letters have long, tapering flourishes"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "extra-extended",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by border"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blocky",
+            "corners": "rounded",
+            "counters": "tight",
+            "strokeCharacter": "thick"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "curved",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "upper-center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "arc-up",
+            "overlap": "contained-in-banner",
+            "relationshipToImage": "layered-over-hat"
+          },
+          "treatment": {
+            "fill": "red-orange",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "warped-to-path"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between rigid geometric headers, heavy arched block type, and fluid organic script.",
+      "graphicDevices": [
+        "Arched ribbon banner",
+        "Thin white border frame",
+        "Geometric star accent"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extended width of the top name",
+          "Arc of the banner text",
+          "Slant of the script"
+        ],
+        "avoid": [
+          "Standard Helvetica",
+          "Modern digital calligraphy",
+          "Vertical orientation"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma Extended",
+            "reason": "Matches the wide geometric feel of the top display text",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Playbill",
+            "reason": "Approximates the heavy, condensed slab-serif in the banner",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Mistral",
+            "reason": "Captures the 70s brush script energy",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate an airbrushed illustration of a man with a beard and cowboy hat, a circular rainbow behind him, surreal flowers in the foreground, and a hazy southern landscape in the background, all within a white frame on a black field.",
+        "overlayInstruction": "Add extended geometric sans-serif text at the top, a curved orange banner with blocky text in the upper center, and a slanted brush script below the banner."
+      },
+      "verificationChecks": [
+        "Is the portrait texture soft and stippled?",
+        "Does the rainbow form a perfect circle behind the subject?",
+        "Is the top text significantly wider than it is tall?",
+        "Is the banner text following a clear upward arc?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's facial features",
+      "Landscape details",
+      "Flower species",
+      "Rainbow color sequence"
+    ],
+    "mustRedesign": [
+      "Specific artist signatures",
+      "Exact facial likeness of the original subject",
+      "Original brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft-focus airbrush texture",
+        "Balanced surreal composition",
+        "1970s color palette"
+      ],
+      "avoid": [
+        "Sharp digital edges",
+        "Flat vector colors",
+        "Modern sans-serif fonts like Arial"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for soft stippled texture in the skin and hat",
+      "Ensure the rainbow rings are concentric and vibrant",
+      "Verify the text is correctly placed in the top border and banner",
+      "Confirm the background landscape is hazy and atmospheric"
+    ],
+    "reuseFormula": "1970s airbrush portrait + circular rainbow motif + surreal flora + extended geometric typography"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": "4b9a932c5d0df9bf21b4e538ab7ff88cc552380528e57393b6c298c16b107dbe",
+  "skillId": "4b9a932c5d0df9bf21b4e538ab7ff88cc552380528e57393b6c298c16b107dbe",
+  "versionId": "4b9a932c5d0df9bf21b4e538ab7ff88cc552380528e57393b6c298c16b107dbe",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:18:32.585Z",
+  "approvedAt": "2026-08-13T05:18:32.585Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:18:32.585Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Nectar.jpg",
+    "hash": "4b9a932c5d0df9bf21b4e538ab7ff88cc552380528e57393b6c298c16b107dbe",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Nectar",
+    "artist": "Joji",
+    "artworkUrl": "https://coverartarchive.org/release-group/ee1588f0-ff93-429f-8e6a-7c350e02c52b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ee1588f0-ff93-429f-8e6a-7c350e02c52b",
+    "releaseGroupId": "ee1588f0-ff93-429f-8e6a-7c350e02c52b",
+    "recordingId": "580b4624-c288-4020-9e01-0af709a98604",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "RunJoji",
+      "song": "Run",
+      "performer": "Joji",
+      "peakPosition": 68,
+      "firstChartDate": "2020-02-22",
+      "lastChartDate": "2020-02-22",
+      "appearances": [
+        {
+          "chartDate": "2020-02-22",
+          "position": 68
+        }
+      ]
+    }
+  },
+  "dedupeText": "crimson chiaroscuro portrait red lighting chiaroscuro split lighting low key portrait grainy texture melancholic noir light vs shadow a hard vertical divide splitting the face color vs neutrality vibrant red skin tones against a desaturated dark background texture vs form heavy grain softening the sharp anatomical features subject vs space tight framing emphasizing psychological intimacy low key studio portrait subject hard red split lighting deep chiaroscuro heavy film grain dark charcoal background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Crimson Chiaroscuro Portrait",
+      "category": "Photography",
+      "medium": [
+        "Digital Photography",
+        "Studio Lighting"
+      ],
+      "useCases": [
+        "Album Art",
+        "Cinematic Character Study",
+        "Mood-driven Editorial",
+        "Social Media Profile"
+      ],
+      "retrievalTags": [
+        "red lighting",
+        "chiaroscuro",
+        "split lighting",
+        "low key portrait",
+        "grainy texture",
+        "melancholic",
+        "noir"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, low-key portrait featuring intense red directional lighting that obscures half the face in deep shadow with a heavy film grain texture.",
+      "triggerTerms": [
+        "red split lighting portrait",
+        "chiaroscuro red glow",
+        "melancholic low key red face",
+        "grainy red studio portrait"
+      ],
+      "excludeWhen": [
+        "bright or high-key lighting is required",
+        "multiple colors are needed",
+        "clean digital look without noise is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up portrait of a male subject where the left side of the face (viewer's left) is saturated in a deep, monochromatic red light, while the right side is cast in total black shadow. The image is characterized by a heavy, uniform digital noise or film grain and a flat, dark grey background.",
+    "coreVisualRelationships": [
+      "Light vs. Shadow: A hard vertical divide splitting the face",
+      "Color vs. Neutrality: Vibrant red skin tones against a desaturated dark background",
+      "Texture vs. Form: Heavy grain softening the sharp anatomical features",
+      "Subject vs. Space: Tight framing emphasizing psychological intimacy"
+    ],
+    "coreInvariants": [
+      "Monochromatic red key light",
+      "Deep black shadows (crushed blacks)",
+      "Heavy film grain/noise overlay",
+      "Direct eye contact from the illuminated eye"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Head and shoulders centered vertically; face occupies approximately 60% of the frame width.",
+      "visualAnchor": "The illuminated eye on the left side of the frame.",
+      "movementAndEyePath": "Starts at the bright red eye, moves down the bridge of the nose to the lips, then dissipates into the dark shadow on the right.",
+      "negativeSpace": "Substantial dark space surrounding the head, particularly on the right side where the subject merges with the background."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Red (Key light and skin highlights)",
+      "contrastColorRole": "Black (Shadows and hair)",
+      "accentColorRole": "Dark Charcoal (Background)",
+      "saturationAndValueRelationship": "High saturation in the red channel; very low value (darkness) across the entire image.",
+      "paletteRestrictions": [
+        "No blues or greens",
+        "No white highlights; brightest points must be red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Heavy film grain",
+        "Hard-edged shadow mask"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-key portrait of a man with a neutral expression. Apply a single strong red light source from the side to create a split-lighting effect. Ensure half the face is in total darkness. Add a heavy film grain texture over the entire image.",
+        "overlayInstruction": "If adding text, use a minimalist sans-serif font in a muted grey or thin white, placed in the negative space of the dark side to maintain the moody balance."
+      },
+      "verificationChecks": [
+        "Is the lighting strictly red on one side?",
+        "Is the shadow side deep black without visible detail?",
+        "Is there a consistent grain/noise across the image?",
+        "Is the background dark and non-distracting?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the red saturation",
+      "Density of the film grain",
+      "Angle of the split lighting (more or less shadow)",
+      "Subject's facial expression"
+    ],
+    "mustRedesign": [
+      "Avoid any secondary light sources or rim lights",
+      "Do not use natural skin tones; the light must be monochromatic red"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Hard chiaroscuro contrast",
+        "Uniform textural noise",
+        "Saturated red highlights"
+      ],
+      "avoid": [
+        "Soft, diffused lighting that fills shadows",
+        "Clean, noise-free digital gradients",
+        "Multi-colored lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 'crushed' blacks in the shadow side",
+      "Verify the red light does not bleed into a pink or orange hue",
+      "Ensure the grain does not obscure the primary eye",
+      "Confirm the background is a flat, dark neutral tone"
+    ],
+    "reuseFormula": "Low-key studio portrait + [Subject] + hard red split lighting + deep chiaroscuro + heavy film grain + dark charcoal background."
+  }
+}

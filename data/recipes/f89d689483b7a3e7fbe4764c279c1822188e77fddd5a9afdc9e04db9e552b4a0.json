@@ -1,0 +1,290 @@
+{
+  "id": "f89d689483b7a3e7fbe4764c279c1822188e77fddd5a9afdc9e04db9e552b4a0",
+  "skillId": "f89d689483b7a3e7fbe4764c279c1822188e77fddd5a9afdc9e04db9e552b4a0",
+  "versionId": "f89d689483b7a3e7fbe4764c279c1822188e77fddd5a9afdc9e04db9e552b4a0",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:36:54.621Z",
+  "approvedAt": "2026-08-12T18:36:54.621Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:36:54.621Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "You Can’t Keep a Good Man Down.jpg",
+    "hash": "f89d689483b7a3e7fbe4764c279c1822188e77fddd5a9afdc9e04db9e552b4a0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "You Can’t Keep a Good Man Down",
+    "artist": "Hank Ballard And The Midnighters",
+    "artworkUrl": "https://coverartarchive.org/release-group/d87cb8da-cac0-3058-ac71-b4666558a9ba/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d87cb8da-cac0-3058-ac71-b4666558a9ba",
+    "releaseGroupId": "d87cb8da-cac0-3058-ac71-b4666558a9ba",
+    "recordingId": "662253c7-f3b4-4d2b-9bb8-f667dbd8ae40",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Teardrops On Your LetterHank Ballard And The Midnighters",
+      "song": "Teardrops On Your Letter",
+      "performer": "Hank Ballard And The Midnighters",
+      "peakPosition": 87,
+      "firstChartDate": "1959-03-07",
+      "lastChartDate": "1959-03-21",
+      "appearances": [
+        {
+          "chartDate": "1959-03-07",
+          "position": 95
+        },
+        {
+          "chartDate": "1959-03-14",
+          "position": 93
+        },
+        {
+          "chartDate": "1959-03-21",
+          "position": 87
+        }
+      ]
+    }
+  },
+  "dedupeText": "cyanotype soul portrait layout cyanotype duotone 1960s soul monochrome blue outline typography staircase text alignment subject centered vertically with a slight upward gaze typography follows the diagonal line of the subject s shoulder high contrast between the cyan highlights and deep navy shadows text blocks balance the composition across opposite corners cyan duotone outline geometric sans staircase alignment vintage soul aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cyanotype Soul Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Duotone Print",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vintage soul album covers",
+        "Monochromatic editorial layouts",
+        "Retro music posters"
+      ],
+      "retrievalTags": [
+        "cyanotype",
+        "duotone",
+        "1960s soul",
+        "monochrome blue",
+        "outline typography",
+        "staircase text alignment"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A monochromatic cyan-tinted portrait featuring a central figure with dynamic, left-aligned outline typography that follows a diagonal descending path.",
+      "triggerTerms": [
+        "cyan duotone portrait",
+        "staircase outline text",
+        "vintage soul aesthetic",
+        "monochrome blue photography"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "modern minimalist sans-serif layouts are requested",
+        "landscape-only compositions"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast, monochromatic blue-tinted photograph of a man in a suit, set against a blurred forest background. The layout is defined by heavy outline typography in the upper left and a black rectangular tracklist block in the lower right.",
+    "coreVisualRelationships": [
+      "Subject centered vertically with a slight upward gaze",
+      "Typography follows the diagonal line of the subject's shoulder",
+      "High contrast between the cyan highlights and deep navy shadows",
+      "Text blocks balance the composition across opposite corners"
+    ],
+    "coreInvariants": [
+      "Monochromatic cyan/blue color palette",
+      "Outline-only display typography",
+      "High-contrast duotone effect"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium shot of a male figure, centered horizontally, occupying approximately 70% of the vertical frame.",
+      "visualAnchor": "The subject's face and the large outline text in the top-left corner.",
+      "movementAndEyePath": "Starts at the top-left text, follows the diagonal descent of the words to the subject's face, then moves down to the dark tracklist block.",
+      "negativeSpace": "The blurred forest background provides textured negative space that maintains the monochromatic theme."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cyan/Light Blue (Highlights and midtones)",
+      "contrastColorRole": "Deep Navy/Black (Shadows and tracklist background)",
+      "accentColorRole": "White (Typography outlines)",
+      "saturationAndValueRelationship": "High value contrast with limited hue variance; monochromatic duotone.",
+      "paletteRestrictions": [
+        "Strictly monochromatic blue scale",
+        "No warm tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight for outlines",
+        "Open counters",
+        "Tight letter spacing",
+        "No internal fill for display text"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'a' with a double-story structure",
+        "Rounded 'g' and 'b' bowls"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Slightly rounded",
+            "counters": "Large",
+            "strokeCharacter": "Outline"
+          },
+          "typesetting": {
+            "case": "Lowercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Single word per line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Top Left",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over background"
+          },
+          "treatment": {
+            "fill": "Transparent",
+            "outline": "Thin white",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "Medium",
+            "terminals": "Blunt",
+            "corners": "Sharp",
+            "counters": "Closed",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "Normal",
+            "lineBreakPattern": "Staircase/Diagonal",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Center Left",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Following shoulder line"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Outline geometric sans for primary branding paired with solid condensed sans for secondary messaging.",
+      "graphicDevices": [
+        "Solid black rectangular box for tracklist",
+        "Diagonal text alignment"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Outline style",
+          "Cyan duotone",
+          "Staircase alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Drop shadows",
+          "Multi-color palettes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic (Outline)",
+            "reason": "Matches the geometric, high-x-height lowercase structure.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Appropriate for the secondary uppercase staircase text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast monochromatic cyanotype-style photograph of a man in a 1960s suit against a blurred forest, ensuring deep navy shadows and bright cyan highlights.",
+        "overlayInstruction": "Apply white outline geometric sans-serif text in the top left. Add a diagonal 'staircase' of solid white uppercase text following the shoulder line. Place a black rectangle in the bottom right with small white sans-serif text."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochromatic blue?",
+        "Is the primary text outline-only?",
+        "Does the secondary text follow a diagonal descending path?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the cyan tint",
+      "Thickness of the text outlines",
+      "Angle of the staircase text alignment"
+    ],
+    "mustRedesign": [
+      "Any use of warm colors",
+      "Solid fills on the primary display text",
+      "Centered text alignments"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic duotone photographic look",
+        "Clean, sharp vector-style outlines",
+        "Balanced asymmetrical layout"
+      ],
+      "avoid": [
+        "Low-resolution halftone patterns",
+        "Default Arial or Times New Roman fonts",
+        "Muddy grey midtones"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for monochromatic consistency",
+      "Verify outline text legibility",
+      "Ensure staircase alignment is maintained",
+      "Confirm black box placement in lower right"
+    ],
+    "reuseFormula": "Cyan Duotone + Outline Geometric Sans + Staircase Alignment = Vintage Soul Aesthetic"
+  }
+}

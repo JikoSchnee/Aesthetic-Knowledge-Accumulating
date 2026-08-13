@@ -1,0 +1,257 @@
+{
+  "id": "d32b3e3317376caf175c4a81aed6aba09d40a8be1c8a08100fad7ebe07b82959",
+  "skillId": "d32b3e3317376caf175c4a81aed6aba09d40a8be1c8a08100fad7ebe07b82959",
+  "versionId": "d32b3e3317376caf175c4a81aed6aba09d40a8be1c8a08100fad7ebe07b82959",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:22:59.990Z",
+  "approvedAt": "2026-08-13T00:22:59.990Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:22:59.990Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Terraform.jpg",
+    "hash": "d32b3e3317376caf175c4a81aed6aba09d40a8be1c8a08100fad7ebe07b82959",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Terraform",
+    "artist": "Randy Vanwarmer",
+    "artworkUrl": "https://coverartarchive.org/release-group/b046479d-855d-4623-ac93-da93aa364afa/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b046479d-855d-4623-ac93-da93aa364afa",
+    "releaseGroupId": "b046479d-855d-4623-ac93-da93aa364afa",
+    "recordingId": "1a142141-823d-4006-9b2e-47f133d962eb",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Whatever You DecideRandy Vanwarmer",
+      "song": "Whatever You Decide",
+      "performer": "Randy Vanwarmer",
+      "peakPosition": 77,
+      "firstChartDate": "1980-08-02",
+      "lastChartDate": "1980-08-16",
+      "appearances": [
+        {
+          "chartDate": "1980-08-02",
+          "position": 87
+        },
+        {
+          "chartDate": "1980-08-09",
+          "position": 77
+        },
+        {
+          "chartDate": "1980-08-16",
+          "position": 77
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro futurist astronaut portrait astronaut space helmet earth from space retro sci fi 1980s aesthetic digital display font dark void the astronaut s helmet acts as the primary central anchor the earth is positioned directly above the helmet creating a vertical stack the dark void provides a high contrast backdrop for the white suit and blue text the internal visor lighting creates a focal point on the human face within the tech astronaut planet digital typography black void retro sci fi portrait",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro-Futurist Astronaut Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Airbrushing"
+      ],
+      "useCases": [
+        "Sci-fi book covers",
+        "Synthwave album art",
+        "Space-themed editorial layouts"
+      ],
+      "retrievalTags": [
+        "astronaut",
+        "space helmet",
+        "earth from space",
+        "retro sci-fi",
+        "1980s aesthetic",
+        "digital display font",
+        "dark void"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast 1980s sci-fi aesthetic featuring a central astronaut in a white suit against a black void, topped with a distant planet and tech-inspired typography.",
+      "triggerTerms": [
+        "retro astronaut portrait",
+        "80s space aesthetic",
+        "helmet visor reflection",
+        "segmented digital display text"
+      ],
+      "excludeWhen": [
+        "realistic modern NASA photography",
+        "bright daylight space scenes",
+        "minimalist flat vector art"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, medium-close-up portrait of an astronaut in a white EVA suit. The face is visible through a large glass visor, illuminated with soft internal lighting. Above the helmet, a realistic Earth hangs in the black void. The top edge features thin, blue, segmented digital-style typography.",
+    "coreVisualRelationships": [
+      "The astronaut's helmet acts as the primary central anchor.",
+      "The Earth is positioned directly above the helmet, creating a vertical stack.",
+      "The dark void provides a high-contrast backdrop for the white suit and blue text.",
+      "The internal visor lighting creates a focal point on the human face within the tech."
+    ],
+    "coreInvariants": [
+      "Deep black background with no visible stars",
+      "High-contrast white space suit",
+      "Segmented, thin-line blue typography at the top"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Astronaut occupies the lower two-thirds of the frame; Earth occupies the upper center.",
+      "visualAnchor": "The astronaut's face inside the circular visor.",
+      "movementAndEyePath": "From the face, upward to the Earth, then to the typography at the top edge.",
+      "negativeSpace": "Extensive black void surrounding the central vertical column of subjects."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background void)",
+      "contrastColorRole": "White (space suit and helmet)",
+      "accentColorRole": "Electric Blue (typography and Earth highlights)",
+      "saturationAndValueRelationship": "High value contrast between the subject and background; low saturation except for the blue accents.",
+      "paletteRestrictions": [
+        "Deep black",
+        "Pure white",
+        "Cyan-blue",
+        "Muted earth tones (brown/blue for the planet)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "geometric sans-serif",
+      "letterConstructionRules": [
+        "Letters are composed of thin, segmented horizontal and vertical lines",
+        "Mimics an early 80s digital LCD or LED display",
+        "Uniform stroke weight throughout",
+        "Open counters and no curves; all angles are 90 or 45 degrees"
+      ],
+      "characterSpecificRedesigns": [
+        "A is an open-bottom triangle with a crossbar",
+        "R has a detached leg",
+        "M and N use sharp diagonal segments"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "digital-display",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "hairline",
+            "contrast": "monolinear",
+            "xHeight": "equal to cap height",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "segmented"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "electric blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single-weight display face used for all text to maintain a technical, computer-readout feel.",
+      "graphicDevices": [
+        "Elliptical visor frame",
+        "Segmented line separators between words"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Segmented construction",
+          "Electric blue color",
+          "Top-edge placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Heavy bold weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Data 70",
+            "reason": "Captures the retro-computer aesthetic but requires thinning.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "LCD Dot Matrix",
+            "reason": "Matches the segmented, technical feel.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast image of an astronaut in a white suit against a pure black background. A realistic Earth should be floating directly above the astronaut's helmet. The astronaut's face should be visible through a clear visor with soft internal lighting.",
+        "overlayInstruction": "Add a single line of all-caps text at the very top edge. Use a thin, electric blue, segmented digital display font. Ensure wide tracking between letters."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Is the text segmented like a digital clock?",
+        "Is the Earth positioned centrally above the helmet?",
+        "Is the astronaut's face clearly visible through the visor?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Planet type (Mars, Moon, etc.)",
+      "Visor reflection intensity",
+      "Typography color",
+      "Suit patch details"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Specific album titles",
+      "Identifiable brand logos on the suit"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast lighting",
+        "Sharp, clean typography",
+        "Symmetrical central composition"
+      ],
+      "avoid": [
+        "Motion blur",
+        "Grainy low-light noise",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 1980s tech-noir lighting style",
+      "Verify typography is monolinear and segmented",
+      "Ensure the planet does not overlap the helmet",
+      "Confirm the face is the primary focal point"
+    ],
+    "reuseFormula": "Astronaut + Planet + Digital Typography + Black Void = Retro Sci-Fi Portrait"
+  }
+}

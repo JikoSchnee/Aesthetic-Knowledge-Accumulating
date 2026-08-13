@@ -1,0 +1,246 @@
+{
+  "id": "85ad774cf93487afb2323585f4450d662ee9aae89256bf35509610572c6c0d58",
+  "skillId": "85ad774cf93487afb2323585f4450d662ee9aae89256bf35509610572c6c0d58",
+  "versionId": "85ad774cf93487afb2323585f4450d662ee9aae89256bf35509610572c6c0d58",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:59:34.864Z",
+  "approvedAt": "2026-08-13T04:59:34.864Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:59:34.864Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Outlaw.jpg",
+    "hash": "85ad774cf93487afb2323585f4450d662ee9aae89256bf35509610572c6c0d58",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Outlaw",
+    "artist": "War",
+    "artworkUrl": "https://coverartarchive.org/release-group/94be19da-bf25-4dbe-90e2-4638f7c4c313/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/94be19da-bf25-4dbe-90e2-4638f7c4c313",
+    "releaseGroupId": "94be19da-bf25-4dbe-90e2-4638f7c4c313",
+    "recordingId": "cabacd5f-eee2-4131-83dd-87684758689b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "OutlawWar",
+      "song": "Outlaw",
+      "performer": "War",
+      "peakPosition": 94,
+      "firstChartDate": "1982-07-10",
+      "lastChartDate": "1982-07-24",
+      "appearances": [
+        {
+          "chartDate": "1982-07-10",
+          "position": 99
+        },
+        {
+          "chartDate": "1982-07-17",
+          "position": 98
+        },
+        {
+          "chartDate": "1982-07-24",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "outlaw band portrait style bandana masks group portrait low key lighting 70s funk aesthetic outlaw theme paisley patterns vibrant fabric colors against a desaturated dark background repetitive paisley patterns across multiple subjects triangular group stacking creating depth and density direct eye contact from subjects above the mask line group portrait multi colored bandana masks low key lighting geometric outlined typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Outlaw Band Portrait Style",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Band promotional posters",
+        "Streetwear brand lookbooks"
+      ],
+      "retrievalTags": [
+        "bandana masks",
+        "group portrait",
+        "low-key lighting",
+        "70s funk aesthetic",
+        "outlaw theme",
+        "paisley patterns"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A low-key group portrait featuring subjects with multi-colored paisley bandanas covering their faces, paired with bold outlined display typography in the upper corner.",
+      "triggerTerms": [
+        "group of men wearing colorful bandanas as masks",
+        "outlaw style band portrait",
+        "paisley bandana face covers",
+        "dark moody group photography with vibrant fabric accents"
+      ],
+      "excludeWhen": [
+        "clean corporate headshots",
+        "bright high-key lighting",
+        "minimalist photography without props"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, triangular group composition of several men against a dark background, where each individual wears a differently colored paisley bandana (green, red, purple, blue, yellow) as a mask, creating a high-contrast focal point against dark clothing and shadows.",
+    "coreVisualRelationships": [
+      "Vibrant fabric colors against a desaturated dark background",
+      "Repetitive paisley patterns across multiple subjects",
+      "Triangular group stacking creating depth and density",
+      "Direct eye contact from subjects above the mask line"
+    ],
+    "coreInvariants": [
+      "Subjects must wear bandanas covering the nose and mouth",
+      "Each bandana must be a distinct, saturated primary or secondary color",
+      "Lighting must be directional and moody, leaving the background in deep shadow"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A dense cluster of subjects filling the lower two-thirds of the frame, arranged in a tiered, overlapping formation.",
+      "visualAnchor": "The central figure in the foreground with a bright yellow bandana serves as the primary anchor.",
+      "movementAndEyePath": "The eye moves from the bright bandanas in the center outward to the dark edges, then up to the high-contrast typography in the top right.",
+      "negativeSpace": "Deep black negative space occupies the top left and provides a backdrop for the text in the top right."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and dark earth tones in clothing and background.",
+      "contrastColorRole": "Saturated primary colors (Red, Blue, Yellow) and secondary colors (Green, Purple) in the bandanas.",
+      "accentColorRole": "White for the graphic typography and highlights on the skin.",
+      "saturationAndValueRelationship": "High saturation in the small areas of fabric against a very low-value, low-saturation environment.",
+      "paletteRestrictions": [
+        "Avoid pastel colors",
+        "Avoid bright backgrounds"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Heavy stroke weight with rounded terminals",
+        "Primary title uses thick white outlines with hollow centers",
+        "Secondary title uses solid fills with a specific graphic strike-through on the 'O'"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'O' in the secondary text features a diagonal red slash or strike-through",
+        "The 'W' and 'A' in the primary title are tightly kerned to touch or overlap"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "wide",
+            "weight": "heavy",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "rounded",
+            "counters": "large",
+            "strokeCharacter": "monolinear outline"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single word",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floated over dark background"
+          },
+          "treatment": {
+            "fill": "none",
+            "outline": "thick white",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Stacked sans-serifs where the top is outlined and the bottom is solid for weight contrast.",
+      "graphicDevices": [
+        "Diagonal strike-through on circular characters",
+        "Outlined text blocks"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Outlined style for the main title",
+          "Geometric sans-serif skeleton"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic Bold",
+            "reason": "Matches the geometric circularity and heavy weight of the skeleton.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Provides the necessary geometric structure for the 'W' and 'A'.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A group portrait of seven men in a dark room, arranged in a tight cluster. Each man wears a different colored paisley bandana (green, red, purple, light blue, yellow, dark red) covering the lower half of his face. Low-key lighting, dark clothing, black background.",
+        "overlayInstruction": "Add two lines of text in the top right corner. The top line should be a large, heavy geometric sans-serif with a thick white outline and no fill. The bottom line should be a smaller, solid white geometric sans-serif with a red diagonal slash through the letter 'O'."
+      },
+      "verificationChecks": [
+        "Are the bandanas distinct colors?",
+        "Is the lighting moody and low-key?",
+        "Is the top text outlined and the bottom text solid?",
+        "Does the 'O' have a graphic strike-through?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Bandana colors",
+      "Number of subjects",
+      "Typography outline thickness"
+    ],
+    "mustRedesign": [
+      "Specific band logos",
+      "Exact facial features of the original subjects"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High contrast between bandanas and background",
+        "Sharp focus on the eyes of the subjects",
+        "Clean, bold geometric typography"
+      ],
+      "avoid": [
+        "Blurry fabric patterns",
+        "Flat, even lighting",
+        "Thin or decorative fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that all subjects have visible eyes above the masks",
+      "Ensure the paisley pattern is recognizable on the fabric",
+      "Verify the text is positioned in the upper right quadrant",
+      "Confirm the background is sufficiently dark to make the colors pop"
+    ],
+    "reuseFormula": "Group Portrait + Multi-colored Bandana Masks + Low-Key Lighting + Geometric Outlined Typography"
+  }
+}

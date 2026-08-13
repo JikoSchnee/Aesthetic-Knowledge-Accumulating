@@ -1,0 +1,266 @@
+{
+  "id": "6f25a82e5e4c116bad8c79e6688b40a6fc99c10612fc18f29ebdd3991123b962",
+  "skillId": "6f25a82e5e4c116bad8c79e6688b40a6fc99c10612fc18f29ebdd3991123b962",
+  "versionId": "6f25a82e5e4c116bad8c79e6688b40a6fc99c10612fc18f29ebdd3991123b962",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:02:59.498Z",
+  "approvedAt": "2026-08-12T22:02:59.498Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:02:59.498Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The High and the Mighty.jpg",
+    "hash": "6f25a82e5e4c116bad8c79e6688b40a6fc99c10612fc18f29ebdd3991123b962",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The High and the Mighty",
+    "artist": "Donnie Iris",
+    "artworkUrl": "https://coverartarchive.org/release-group/3fe8655b-2143-4e54-80a6-a02b90d44ec0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3fe8655b-2143-4e54-80a6-a02b90d44ec0",
+    "releaseGroupId": "3fe8655b-2143-4e54-80a6-a02b90d44ec0",
+    "recordingId": "8b810343-ebeb-46c7-a356-72aaa1f5a689",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Tough WorldDonnie Iris",
+      "song": "Tough World",
+      "performer": "Donnie Iris",
+      "peakPosition": 57,
+      "firstChartDate": "1982-10-23",
+      "lastChartDate": "1982-11-27",
+      "appearances": [
+        {
+          "chartDate": "1982-10-23",
+          "position": 83
+        },
+        {
+          "chartDate": "1982-10-30",
+          "position": 72
+        },
+        {
+          "chartDate": "1982-11-06",
+          "position": 64
+        },
+        {
+          "chartDate": "1982-11-13",
+          "position": 59
+        },
+        {
+          "chartDate": "1982-11-20",
+          "position": 57
+        },
+        {
+          "chartDate": "1982-11-27",
+          "position": 85
+        }
+      ]
+    }
+  },
+  "dedupeText": "giant musician over monochrome cityscape giant person cityscape monochrome background red suit 80s aesthetic forced perspective electric guitar condensed sans serif subject scale vs architectural scale saturated red vs desaturated grayscale central vertical alignment of the figure horizontal text placement at the top margin giant subject in vibrant color standing over monochrome environment with condensed sans serif header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Giant Musician Over Monochrome Cityscape",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Photo-composite",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Retro 80s album covers",
+        "Surrealist editorial layouts",
+        "New Wave music promotion"
+      ],
+      "retrievalTags": [
+        "giant person",
+        "cityscape",
+        "monochrome background",
+        "red suit",
+        "80s aesthetic",
+        "forced perspective",
+        "electric guitar",
+        "condensed sans-serif"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A surreal photo-composite featuring a vibrant, oversized subject standing amidst a desaturated, high-contrast monochrome urban skyline.",
+      "triggerTerms": [
+        "giant man in red suit over city",
+        "surreal 80s album cover style",
+        "monochrome cityscape with color subject"
+      ],
+      "excludeWhen": [
+        "realistic scale is required",
+        "natural lighting is necessary",
+        "modern minimalist photography is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central, oversized male figure in a saturated red suit and yellow shirt stands with hands on hips and a guitar slung over his back, towering over a black-and-white aerial view of a dense skyscraper-filled city. The composition uses a sharp color-to-monochrome contrast to separate the subject from the background.",
+    "coreVisualRelationships": [
+      "Subject scale vs. architectural scale",
+      "Saturated red vs. desaturated grayscale",
+      "Central vertical alignment of the figure",
+      "Horizontal text placement at the top margin"
+    ],
+    "coreInvariants": [
+      "Oversized central subject",
+      "Monochrome urban background",
+      "High-contrast color pop on the subject",
+      "Top-aligned typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centered and occupies approximately 60% of the vertical frame, appearing as a giant relative to the buildings.",
+      "visualAnchor": "The vibrant red suit acts as the primary visual anchor against the gray city.",
+      "movementAndEyePath": "Eyes start at the bright red subject, move up to the title text, then down into the detailed textures of the monochrome city.",
+      "negativeSpace": "Minimal; the frame is densely packed with architectural detail and the large subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Grayscale (background city)",
+      "contrastColorRole": "Vibrant Red (subject suit)",
+      "accentColorRole": "Yellow and Sky Blue (shirt and guitar strap)",
+      "saturationAndValueRelationship": "Extreme contrast between the 0% saturation background and 100% saturation subject.",
+      "paletteRestrictions": [
+        "Monochrome background",
+        "Primary color subject"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "condensed sans-serif",
+      "letterConstructionRules": [
+        "High x-height",
+        "Uniform stroke weight",
+        "Tight letter spacing",
+        "Geometric terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floats above subject"
+          },
+          "treatment": {
+            "fill": "salmon pink",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family with varying weights or secondary decorative line elements.",
+      "graphicDevices": [
+        "Horizontal rule with decorative nodes",
+        "Thin green border frame"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Uppercase styling",
+          "Salmon/pink color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Heavy drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Matches the clean, vertical, 80s editorial feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers Condensed",
+            "reason": "Provides the necessary geometric clarity and spacing.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white aerial photograph of a dense 1980s-era city skyline. Composite a giant man in a bright red suit, yellow shirt, and blue guitar strap standing in the middle of the city, towering over skyscrapers.",
+        "overlayInstruction": "Add uppercase condensed sans-serif text in salmon pink at the top center. Include a thin horizontal line with small circular nodes below the main title."
+      },
+      "verificationChecks": [
+        "Is the city strictly monochrome?",
+        "Is the subject's suit a vibrant, saturated red?",
+        "Is the text centered and condensed?",
+        "Is the scale of the person clearly 'giant' compared to the buildings?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject attire color",
+      "City density",
+      "Typography color",
+      "Guitar presence"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact building configurations to avoid copyright",
+      "Specific brand logos on the guitar"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp separation between color subject and gray background",
+        "Clean, legible top-aligned typography",
+        "Grainy film texture consistent with 1980s photography"
+      ],
+      "avoid": [
+        "Blurry edges on the subject cutout",
+        "Modern digital gradients",
+        "Low-contrast backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for clean masking around the subject's hair and guitar.",
+      "Ensure the text color does not vibrate too harshly against the sky.",
+      "Verify the 'giant' scale is maintained through perspective.",
+      "Confirm the background is fully desaturated."
+    ],
+    "reuseFormula": "Giant [Subject] in [Vibrant Color] standing over [Monochrome Environment] with [Condensed Sans-Serif] header."
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "id": "57dd8c97afea0f89bf4343716a431fb62aede149cebb64e89c61573956ebf57d",
+  "skillId": "57dd8c97afea0f89bf4343716a431fb62aede149cebb64e89c61573956ebf57d",
+  "versionId": "57dd8c97afea0f89bf4343716a431fb62aede149cebb64e89c61573956ebf57d",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:59:40.908Z",
+  "approvedAt": "2026-08-12T13:59:40.908Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:59:40.908Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Safe + Sound.jpg",
+    "hash": "57dd8c97afea0f89bf4343716a431fb62aede149cebb64e89c61573956ebf57d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Safe + Sound",
+    "artist": "DJ Quik",
+    "artworkUrl": "https://coverartarchive.org/release-group/29d20149-4313-35c8-8292-3e5bad19df22/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/29d20149-4313-35c8-8292-3e5bad19df22",
+    "releaseGroupId": "29d20149-4313-35c8-8292-3e5bad19df22",
+    "recordingId": "db303904-0ebc-43f7-8c93-f32e1ee5befb",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Safe + SoundDJ Quik",
+      "song": "Safe + Sound",
+      "performer": "DJ Quik",
+      "peakPosition": 81,
+      "firstChartDate": "1995-04-01",
+      "lastChartDate": "1995-06-03",
+      "appearances": [
+        {
+          "chartDate": "1995-04-01",
+          "position": 98
+        },
+        {
+          "chartDate": "1995-04-08",
+          "position": 83
+        },
+        {
+          "chartDate": "1995-04-15",
+          "position": 95
+        },
+        {
+          "chartDate": "1995-04-22",
+          "position": 83
+        },
+        {
+          "chartDate": "1995-04-29",
+          "position": 81
+        },
+        {
+          "chartDate": "1995-05-06",
+          "position": 86
+        },
+        {
+          "chartDate": "1995-05-13",
+          "position": 85
+        },
+        {
+          "chartDate": "1995-05-20",
+          "position": 82
+        },
+        {
+          "chartDate": "1995-05-27",
+          "position": 88
+        },
+        {
+          "chartDate": "1995-06-03",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban grunge collage cover grunge frame red brush strokes urban collage 90s hip hop aesthetic distressed texture central subject framed by a dominant red graphic border high contrast portrait against a busy textured background scratchy white text layered over a solid red frame juxtaposition of clean red color against desaturated urban textures urban collage painterly red frame scratched white typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Grunge Collage Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Digital Collage",
+        "Hand-drawn Illustration"
+      ],
+      "useCases": [
+        "Hip-hop album covers",
+        "Streetwear branding",
+        "Urban event posters"
+      ],
+      "retrievalTags": [
+        "grunge frame",
+        "red brush strokes",
+        "urban collage",
+        "90s hip hop aesthetic",
+        "distressed texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A gritty urban collage featuring a central portrait enclosed by a thick, hand-painted red border with distressed, scratchy white typography.",
+      "triggerTerms": [
+        "urban grunge collage",
+        "red painted frame border",
+        "distressed street art aesthetic"
+      ],
+      "excludeWhen": [
+        "clean minimalist designs",
+        "corporate professional layouts",
+        "soft pastel themes"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A multi-layered composition where a central profile portrait is framed by a thick, vibrant red border with rough, painterly edges. The background consists of a desaturated, high-contrast urban collage, while the typography appears as white, hand-scratched lettering that overlaps the red frame.",
+    "coreVisualRelationships": [
+      "Central subject framed by a dominant red graphic border",
+      "High-contrast portrait against a busy, textured background",
+      "Scratchy white text layered over a solid red frame",
+      "Juxtaposition of clean red color against desaturated urban textures"
+    ],
+    "coreInvariants": [
+      "Thick, hand-painted red rectangular frame with irregular edges",
+      "Distressed, scratchy white hand-lettering",
+      "Desaturated urban collage background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central profile portrait, medium shot, occupying the middle 60% of the frame.",
+      "visualAnchor": "The thick, vibrant red border acts as the primary visual anchor.",
+      "movementAndEyePath": "Eyes start at the red frame, move to the central portrait, then follow the white text at the top and bottom edges.",
+      "negativeSpace": "Minimal; the composition is dense with collage textures and graphic elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant Red (Frame)",
+      "contrastColorRole": "White (Typography)",
+      "accentColorRole": "Desaturated Blues and Grays (Background Collage)",
+      "saturationAndValueRelationship": "High saturation in the red frame contrasts with the low-saturation, high-contrast background imagery.",
+      "paletteRestrictions": [
+        "Primary Red",
+        "Pure White",
+        "Black",
+        "Desaturated Urban Tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Rough, hand-drawn sans-serif",
+      "letterConstructionRules": [
+        "Irregular stroke widths",
+        "Scratchy, distressed edges",
+        "Varying baseline and cap heights",
+        "Simulated dry-brush or etched effect"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters appear to be scratched into the surface",
+        "Overlapping strokes on crossbars"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "hand-drawn",
+          "anatomy": {
+            "width": "variable",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rough",
+            "corners": "sharp/irregular",
+            "counters": "open",
+            "strokeCharacter": "scratchy"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "loose"
+          },
+          "composition": {
+            "position": "top and bottom edges of the red frame",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "slight irregular jitter",
+            "overlap": "overlaps the red frame",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle black drop shadow",
+            "depth": "flat",
+            "texture": "distressed",
+            "distortion": "hand-drawn jitter"
+          }
+        }
+      ],
+      "pairingStrategy": "Single distressed hand-lettered style used for all text elements to maintain grit.",
+      "graphicDevices": [
+        "Thick painterly border",
+        "Collage background",
+        "Distressed textures"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Scratchy texture",
+          "Hand-drawn feel",
+          "White color"
+        ],
+        "avoid": [
+          "Clean digital fonts",
+          "Perfectly straight lines",
+          "Serif typefaces"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rough Brush Script",
+            "reason": "Captures the hand-painted, aggressive energy of the original.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Distressed Woodcut",
+            "reason": "Provides the necessary raw, textured edges.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a desaturated urban collage background with a central profile portrait of a person wearing a red cap. Overlay a thick, vibrant red hand-painted rectangular frame with rough, distressed edges.",
+        "overlayInstruction": "Add custom white hand-scratched uppercase lettering at the top and bottom, overlapping the red frame with a slight black drop shadow for legibility."
+      },
+      "verificationChecks": [
+        "Is the red frame thick and painterly?",
+        "Is the text white and scratchy?",
+        "Does the text overlap the red frame?",
+        "Is the background a desaturated urban collage?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Thickness of the red frame",
+      "Level of distress in the typography",
+      "Complexity of the background collage",
+      "Subject of the central portrait"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact text content",
+      "Specific background collage elements"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast urban grit",
+        "Vibrant red framing",
+        "Raw, hand-drawn typographic feel"
+      ],
+      "avoid": [
+        "Clean vector lines",
+        "Soft gradients",
+        "Standard system fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the red frame has visible brush stroke textures.",
+      "Verify the white text looks etched or scratched, not typed.",
+      "Check that the background collage remains desaturated to let the red pop.",
+      "Confirm the central portrait is clearly framed by the red graphic."
+    ],
+    "reuseFormula": "Urban Collage + Painterly Red Frame + Scratched White Typography"
+  }
+}

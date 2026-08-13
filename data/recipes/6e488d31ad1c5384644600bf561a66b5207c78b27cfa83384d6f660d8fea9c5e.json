@@ -1,0 +1,286 @@
+{
+  "id": "6e488d31ad1c5384644600bf561a66b5207c78b27cfa83384d6f660d8fea9c5e",
+  "skillId": "6e488d31ad1c5384644600bf561a66b5207c78b27cfa83384d6f660d8fea9c5e",
+  "versionId": "6e488d31ad1c5384644600bf561a66b5207c78b27cfa83384d6f660d8fea9c5e",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:56:11.896Z",
+  "approvedAt": "2026-08-13T04:56:11.896Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:56:11.896Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Another Night.jpg",
+    "hash": "6e488d31ad1c5384644600bf561a66b5207c78b27cfa83384d6f660d8fea9c5e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Another Night",
+    "artist": "Wilson Bros.",
+    "artworkUrl": "https://coverartarchive.org/release-group/f0a98c4d-189d-4e09-8866-6b214e515ab0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f0a98c4d-189d-4e09-8866-6b214e515ab0",
+    "releaseGroupId": "f0a98c4d-189d-4e09-8866-6b214e515ab0",
+    "recordingId": "26d2081f-69af-4e13-8c45-ecb0d1dd982d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Another NightWilson Bros.",
+      "song": "Another Night",
+      "performer": "Wilson Bros.",
+      "peakPosition": 94,
+      "firstChartDate": "1979-10-06",
+      "lastChartDate": "1979-10-13",
+      "appearances": [
+        {
+          "chartDate": "1979-10-06",
+          "position": 95
+        },
+        {
+          "chartDate": "1979-10-13",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban noir alleyway portrait noir alleyway brick wall staircase chiaroscuro urban 1970s style monochrome dramatic lighting figure centered against a vertical brick pillar diagonal lines of the staircase leading from bottom right to center high contrast between the bright doorway on the left and deep shadows on the right text block anchored in the top left corner with a distinct color accent urban noir chiaroscuro lighting brick texture boxed sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Noir Alleyway Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Black and White Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Cinematic Poster Design",
+        "Moody Editorial Layouts"
+      ],
+      "retrievalTags": [
+        "noir",
+        "alleyway",
+        "brick wall",
+        "staircase",
+        "chiaroscuro",
+        "urban",
+        "1970s style",
+        "monochrome",
+        "dramatic lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome urban scene featuring a solitary figure leaning against a brick wall in a dark alleyway with dramatic chiaroscuro lighting.",
+      "triggerTerms": [
+        "gritty urban noir photography",
+        "dramatic alleyway lighting",
+        "high contrast brick wall portrait"
+      ],
+      "excludeWhen": [
+        "bright colorful pop aesthetics",
+        "clean minimalist studio photography",
+        "nature or landscape settings"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A vertical composition dominated by deep shadows and harsh highlights, depicting a man in casual attire leaning against a brick pillar next to a concrete staircase. A single bright light source from a doorway creates long shadows and sharp textures on the brickwork.",
+    "coreVisualRelationships": [
+      "Figure centered against a vertical brick pillar",
+      "Diagonal lines of the staircase leading from bottom right to center",
+      "High contrast between the bright doorway on the left and deep shadows on the right",
+      "Text block anchored in the top left corner with a distinct color accent"
+    ],
+    "coreInvariants": [
+      "High-contrast black and white tonal range",
+      "Visible brick texture throughout the background",
+      "Dramatic side-lighting creating a silhouette effect on one side of the subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body figure positioned centrally, leaning against a vertical architectural element.",
+      "visualAnchor": "The bright, glowing doorway in the mid-ground left acts as the primary light source and anchor.",
+      "movementAndEyePath": "Eye starts at the top-left text block, moves down to the bright doorway, follows the figure's lean, and descends the diagonal stairs.",
+      "negativeSpace": "Extensive use of deep black negative space in the shadows of the alley and under the stairs."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and charcoal shadows",
+      "contrastColorRole": "Bright white and light grey highlights",
+      "accentColorRole": "Muted purple/magenta used exclusively for typography",
+      "saturationAndValueRelationship": "Desaturated monochrome image with a single high-saturation color block for text.",
+      "paletteRestrictions": [
+        "Grayscale for imagery",
+        "Single accent color for graphic elements"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Bold, condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight kerning",
+        "Flat terminals",
+        "High x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "contained within box",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "purple",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "contained within box",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "dark grey",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold condensed display paired with wide-tracked light subtitle within a framed box.",
+      "graphicDevices": [
+        "Rectangular frame with a thin border",
+        "Horizontal divider line between text tiers"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Top-left placement",
+          "Boxed layout",
+          "High-contrast sans-serif"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centering the text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Matches the bold, condensed, heavy-weight display style.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Wide",
+            "reason": "Matches the expanded, clean sans-serif subtitle style.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white photograph of a man in a white shirt and jeans leaning against a brick pillar in a dark alley. Include a bright light source from a doorway on the left and a concrete staircase on the right.",
+        "overlayInstruction": "Add a rectangular box in the top-left corner with a thin white border. Inside, place bold purple condensed sans-serif text on top and wide-tracked grey sans-serif text below it, separated by a thin line."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochrome except for the text box?",
+        "Is the lighting dramatic with deep shadows?",
+        "Is the text box positioned in the top-left corner?",
+        "Does the brick texture appear sharp and detailed?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the light source",
+      "Accent color of the typography",
+      "Subject's pose and clothing",
+      "Angle of the staircase"
+    ],
+    "mustRedesign": [
+      "Avoid using specific brand logos",
+      "Do not replicate the exact facial features of the subject",
+      "Ensure the text content is generic or user-specified"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Strong chiaroscuro effect",
+        "Sharp focus on brick textures",
+        "Clean, geometric typographic layout"
+      ],
+      "avoid": [
+        "Soft focus or blurry textures",
+        "Low contrast or muddy grays",
+        "Handwritten or decorative fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast tonal range",
+      "Verify the presence of the top-left boxed text",
+      "Ensure the brick wall and stairs create strong diagonal and vertical lines",
+      "Confirm the single accent color is applied only to the text"
+    ],
+    "reuseFormula": "Urban Noir + Chiaroscuro Lighting + Brick Texture + Boxed Sans-Serif Typography"
+  }
+}

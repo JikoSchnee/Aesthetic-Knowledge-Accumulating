@@ -1,0 +1,296 @@
+{
+  "id": "9a2e8f9a4e8b70a442f63495cc15126319d5632a376cf75ba7841e7a3d4b9ab9",
+  "skillId": "9a2e8f9a4e8b70a442f63495cc15126319d5632a376cf75ba7841e7a3d4b9ab9",
+  "versionId": "9a2e8f9a4e8b70a442f63495cc15126319d5632a376cf75ba7841e7a3d4b9ab9",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:13:15.131Z",
+  "approvedAt": "2026-08-12T15:13:15.131Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:13:15.131Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Step Up.jpg",
+    "hash": "9a2e8f9a4e8b70a442f63495cc15126319d5632a376cf75ba7841e7a3d4b9ab9",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Step Up",
+    "artist": "Petey Pablo",
+    "artworkUrl": "https://coverartarchive.org/release-group/a8470694-90b9-3f46-b1ae-9ef0bc99a835/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a8470694-90b9-3f46-b1ae-9ef0bc99a835",
+    "releaseGroupId": "a8470694-90b9-3f46-b1ae-9ef0bc99a835",
+    "recordingId": "33d46bbb-2af0-4f42-8cef-f8eb9435ef27",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Show Me The MoneyPetey Pablo",
+      "song": "Show Me The Money",
+      "performer": "Petey Pablo",
+      "peakPosition": 58,
+      "firstChartDate": "2006-09-02",
+      "lastChartDate": "2007-02-10",
+      "appearances": [
+        {
+          "chartDate": "2006-09-02",
+          "position": 58
+        },
+        {
+          "chartDate": "2006-09-09",
+          "position": 66
+        },
+        {
+          "chartDate": "2006-09-16",
+          "position": 83
+        },
+        {
+          "chartDate": "2007-02-03",
+          "position": 85
+        },
+        {
+          "chartDate": "2007-02-10",
+          "position": 88
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban dance romance poster urban dance golden hour lighting chalk lettering romantic tension street photography high contrast yellow intense golden backlighting defining the silhouettes of the central couple contrast between the warm glowing skin tones and the dark gritty urban textures dynamic diagonal tension between the leaning female figure and the upright male figure textured hand drawn typography overlapping the lower third of the subjects urban romance high contrast golden hour photography gritty cityscape textured chalk script typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Dance Romance Poster",
+      "category": "Entertainment",
+      "medium": [
+        "Photography",
+        "Digital Illustration",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Movie Posters",
+        "Dance Event Promotion",
+        "Romantic Drama Covers"
+      ],
+      "retrievalTags": [
+        "urban dance",
+        "golden hour lighting",
+        "chalk lettering",
+        "romantic tension",
+        "street photography",
+        "high contrast yellow"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, warm-toned composition featuring a central romantic couple in a dance pose with gritty urban backgrounds and chalk-textured display typography.",
+      "triggerTerms": [
+        "urban dance romance poster style",
+        "golden hour street dance aesthetic",
+        "chalk-drawn title over romantic couple"
+      ],
+      "excludeWhen": [
+        "minimalist flat design is requested",
+        "cool-toned or corporate aesthetics are needed",
+        "clean sans-serif typography is required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central male and female figure in a dynamic, intimate dance pose, bathed in intense golden-yellow light that creates high-contrast highlights and deep shadows. The background features a sun-drenched urban street with architectural arches, while the foreground is anchored by large, textured chalk-style lettering.",
+    "coreVisualRelationships": [
+      "Intense golden backlighting defining the silhouettes of the central couple",
+      "Contrast between the warm, glowing skin tones and the dark, gritty urban textures",
+      "Dynamic diagonal tension between the leaning female figure and the upright male figure",
+      "Textured, hand-drawn typography overlapping the lower third of the subjects"
+    ],
+    "coreInvariants": [
+      "Monochromatic yellow-to-orange color cast across the entire scene",
+      "High-contrast lighting that blows out highlights on skin and clothing",
+      "Rough, chalk-like texture on the primary display lettering"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The couple is centrally located, occupying the majority of the vertical frame from the waist up.",
+      "visualAnchor": "The point of near-contact between the two faces in the upper-center of the frame.",
+      "movementAndEyePath": "Eyes start at the faces, follow the curve of the female's back downward to the large title text, then sweep back up through the male's arm.",
+      "negativeSpace": "Minimal; the frame is densely packed with the subjects, urban architecture, and large-scale typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Golden Yellow (Primary wash and highlights)",
+      "contrastColorRole": "Deep Amber/Black (Shadows and urban details)",
+      "accentColorRole": "White (Chalk lettering and high-key highlights)",
+      "saturationAndValueRelationship": "Extremely high saturation in the yellow spectrum with crushed blacks for a dramatic, gritty look.",
+      "paletteRestrictions": [
+        "Avoid blues, greens, or cool purples",
+        "Limit palette to warm earth tones and high-key yellows"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script with a slight upward slant",
+      "letterConstructionRules": [
+        "Rough, jittery edges simulating chalk on pavement",
+        "Variable stroke width with visible dry-brush or chalk-dust artifacts",
+        "Connected lowercase letters with a large, sweeping initial capital"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'S' features a long, sweeping tail that underlines the subsequent letters",
+        "The 'U' and 'p' are tightly grouped with a heavy, textured underline"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "medium",
+            "xHeight": "high",
+            "terminals": "frayed",
+            "corners": "rounded-rough",
+            "counters": "open",
+            "strokeCharacter": "textured-chalk"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "staggered",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom-center",
+            "scale": "large",
+            "rotation": "5-degree-upward-tilt",
+            "warp": "none",
+            "overlap": "foreground-over-subjects",
+            "relationshipToImage": "anchors the base of the composition"
+          },
+          "treatment": {
+            "fill": "white-chalk",
+            "outline": "none",
+            "shadow": "subtle-dark-glow",
+            "depth": "flat",
+            "texture": "heavy-grain",
+            "distortion": "hand-drawn-jitter"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "handwritten",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "light",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "natural",
+            "corners": "soft",
+            "counters": "small",
+            "strokeCharacter": "thin-marker"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "justified-top",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top-edge",
+            "scale": "small",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "background",
+            "relationshipToImage": "frames the top of the heads"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Large, aggressive textured script paired with tiny, clean casual handwriting.",
+      "graphicDevices": [
+        "Heavy grain overlay",
+        "Light leaks and lens flare effects",
+        "Vignetted edges with a burnt-film look"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Chalk texture",
+          "Diagonal script orientation",
+          "White-on-dark-yellow contrast"
+        ],
+        "avoid": [
+          "Clean vector lines",
+          "Standard sans-serif fonts",
+          "Perfectly horizontal baselines"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rough Cursive Script",
+            "reason": "Matches the energy and texture of the street-dance theme",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Chalkboard Style Lettering",
+            "reason": "Captures the specific 'written on pavement' aesthetic",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast urban street scene at sunset with a couple in a dance embrace, using a heavy yellow/orange color grade and intense backlighting.",
+        "overlayInstruction": "Apply a large, white, chalk-textured script title across the bottom third, tilted slightly upward, with a smaller handwritten tagline at the very top."
+      },
+      "verificationChecks": [
+        "Is the color palette strictly warm (yellow/orange/brown)?",
+        "Does the main text have a visible chalk-like texture?",
+        "Is the lighting high-contrast with blown-out highlights?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the yellow color wash",
+      "Amount of chalk dust/texture in the lettering",
+      "Degree of blur in the urban background"
+    ],
+    "mustRedesign": [
+      "Any blue or cool-toned elements",
+      "Clean, non-textured typography",
+      "Static, non-dynamic poses"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Glow effect on skin highlights",
+        "Visible grit and grain",
+        "Integrated look between text and image"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Clean digital gradients",
+        "Standard system fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is legible despite the heavy texture",
+      "Verify the yellow tint doesn't obscure facial expressions",
+      "Check that the chalk underline doesn't cut off important visual details"
+    ],
+    "reuseFormula": "Urban Romance = (High-Contrast Golden Hour Photography + Gritty Cityscape) * (Textured Chalk Script Typography)"
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "id": "a9e3a85dca80e846292e21268d11a566e5afa59ae10c73f8e48fe7f09b1e2f3b",
+  "skillId": "a9e3a85dca80e846292e21268d11a566e5afa59ae10c73f8e48fe7f09b1e2f3b",
+  "versionId": "a9e3a85dca80e846292e21268d11a566e5afa59ae10c73f8e48fe7f09b1e2f3b",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T10:23:28.332Z",
+  "approvedAt": "2026-08-12T10:23:28.332Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T10:23:28.332Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Johnny Get Angry.jpg",
+    "hash": "a9e3a85dca80e846292e21268d11a566e5afa59ae10c73f8e48fe7f09b1e2f3b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Johnny Get Angry",
+    "artist": "Joanie Sommers",
+    "artworkUrl": "https://coverartarchive.org/release-group/0ee7cb56-e053-3758-9053-b84405f80e65/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0ee7cb56-e053-3758-9053-b84405f80e65",
+    "releaseGroupId": "0ee7cb56-e053-3758-9053-b84405f80e65",
+    "recordingId": "b06dd2ed-1ba2-4efe-b07e-d1c7b45ba974",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "One BoyJoanie Sommers",
+      "song": "One Boy",
+      "performer": "Joanie Sommers",
+      "peakPosition": 54,
+      "firstChartDate": "1960-07-02",
+      "lastChartDate": "1960-08-27",
+      "appearances": [
+        {
+          "chartDate": "1960-07-02",
+          "position": 91
+        },
+        {
+          "chartDate": "1960-07-09",
+          "position": 85
+        },
+        {
+          "chartDate": "1960-07-16",
+          "position": 79
+        },
+        {
+          "chartDate": "1960-07-23",
+          "position": 75
+        },
+        {
+          "chartDate": "1960-07-30",
+          "position": 68
+        },
+        {
+          "chartDate": "1960-08-06",
+          "position": 60
+        },
+        {
+          "chartDate": "1960-08-13",
+          "position": 54
+        },
+        {
+          "chartDate": "1960-08-20",
+          "position": 62
+        },
+        {
+          "chartDate": "1960-08-27",
+          "position": 70
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century pop vocal album cover mid century modern condensed sans serif striped shirt studio microphone color block layout 1960s pop top heavy photographic subject balanced by a heavy typographic base yellow title text overlapping the photographic background for depth horizontal blue bar acting as a container for the primary subject name warm skin tones and yellow text contrasting against the cool blue and black footer vintage photo top 2 3 yellow condensed title top left black footer bottom 1 3 blue bar with ultra condensed name",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Pop Vocal Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Offset Printing",
+        "Typography"
+      ],
+      "useCases": [
+        "Vintage music packaging",
+        "Retro 1960s editorial layouts",
+        "Nostalgic promotional posters"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "condensed sans-serif",
+        "striped shirt",
+        "studio microphone",
+        "color block layout",
+        "1960s pop"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A split-composition layout featuring a warm-toned studio photograph above a high-contrast color-blocked typographic footer.",
+      "triggerTerms": [
+        "1960s album cover style",
+        "condensed bold yellow typography",
+        "split horizontal layout with color bar",
+        "vintage studio portrait with microphone"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "monochromatic photography",
+        "script-heavy layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A two-part vertical composition where the top two-thirds features a warm, grainy photograph of a subject in a recording studio, and the bottom third consists of a black field with a blue horizontal bar containing ultra-condensed sans-serif text.",
+    "coreVisualRelationships": [
+      "Top-heavy photographic subject balanced by a heavy typographic base",
+      "Yellow title text overlapping the photographic background for depth",
+      "Horizontal blue bar acting as a container for the primary subject name",
+      "Warm skin tones and yellow text contrasting against the cool blue and black footer"
+    ],
+    "coreInvariants": [
+      "Horizontal split at the lower third of the frame",
+      "Ultra-condensed sans-serif typeface for the primary name",
+      "Warm, saturated 1960s-style photographic color grading"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is positioned in the upper right quadrant, leaning toward a microphone on the left.",
+      "visualAnchor": "The large, light blue nameplate in the bottom third serves as the primary visual anchor.",
+      "movementAndEyePath": "Eyes start at the yellow title (top left), move to the subject's face (top right), and drop to the large name (bottom).",
+      "negativeSpace": "Dense composition with minimal negative space; the black footer provides the only significant rest area."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm photographic tones (peach, brown, tan)",
+      "contrastColorRole": "Deep black and medium blue in the footer",
+      "accentColorRole": "Bright yellow for the secondary title text",
+      "saturationAndValueRelationship": "High saturation in the yellow and blue elements against a grainy, mid-tone photograph.",
+      "paletteRestrictions": [
+        "Must include a primary yellow",
+        "Must include a medium sky blue",
+        "Must include a solid black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Ultra-condensed grotesque sans-serif",
+      "letterConstructionRules": [
+        "Extremely high aspect ratio (tall and narrow)",
+        "Uniform stroke weight with minimal modulation",
+        "Flat terminals and tight apertures",
+        "Very tight letter spacing (tracking)"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'S' has very short horizontal curves to maintain the narrow profile",
+        "The 'O' is an elongated vertical oval"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "narrow",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom third",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "contained within blue bar",
+            "relationshipToImage": "separated by color block"
+          },
+          "treatment": {
+            "fill": "light blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "heavy",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over image",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Two weights/widths of the same condensed sans-serif family used in contrasting colors.",
+      "graphicDevices": [
+        "Horizontal color bar",
+        "Split-screen layout"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ultra-condensed width",
+          "Uppercase styling",
+          "Yellow and blue color palette"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered title text at the top"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed feel for the top title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Clean, condensed sans-serif that matches the mid-century aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Steelfish",
+            "reason": "Matches the ultra-narrow proportions of the bottom nameplate.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 1960s-style studio photograph of a woman in a blue and white striped shirt smiling next to a vintage condenser microphone. The bottom third of the image should be a solid black field with a horizontal blue bar across its center.",
+        "overlayInstruction": "Add the primary name in an ultra-condensed light blue sans-serif font inside the blue bar. Add the secondary title in a bold condensed yellow sans-serif font in the top left corner, stacked in two lines."
+      },
+      "verificationChecks": [
+        "Is the bottom text ultra-condensed?",
+        "Is the top text yellow and stacked?",
+        "Is there a clear horizontal split in the composition?",
+        "Does the photograph have a warm, vintage grain?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Width of the blue bar",
+      "Saturation of the yellow text",
+      "Subject of the photograph",
+      "Specific condensed font choice"
+    ],
+    "mustRedesign": [
+      "Do not use modern digital gradients",
+      "Do not use lowercase letters",
+      "Do not use thin or light font weights"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s color palette",
+        "Heavy typographic presence",
+        "Clear geometric partitioning"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Modern sans-serifs like Helvetica",
+        "Soft pastel colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the blue bar is perfectly horizontal",
+      "Ensure the yellow text is legible against the photo",
+      "Verify the ultra-condensed font is not distorted",
+      "Confirm the split-screen ratio is approximately 2:1"
+    ],
+    "reuseFormula": "Vintage Photo (Top 2/3) + Yellow Condensed Title (Top Left) + Black Footer (Bottom 1/3) + Blue Bar with Ultra-Condensed Name."
+  }
+}

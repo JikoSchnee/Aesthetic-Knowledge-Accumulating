@@ -1,0 +1,330 @@
+{
+  "id": "d345f101448b7234f55136880e7b6c083fbb111a71ee0d9ae1664ea60651a50a",
+  "skillId": "d345f101448b7234f55136880e7b6c083fbb111a71ee0d9ae1664ea60651a50a",
+  "versionId": "d345f101448b7234f55136880e7b6c083fbb111a71ee0d9ae1664ea60651a50a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:58:29.307Z",
+  "approvedAt": "2026-08-13T04:58:29.307Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:58:29.307Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Anywhere but Here.jpg",
+    "hash": "d345f101448b7234f55136880e7b6c083fbb111a71ee0d9ae1664ea60651a50a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Anywhere but Here",
+    "artist": "Chris Cagle",
+    "artworkUrl": "https://coverartarchive.org/release-group/9527e502-cf8e-31a8-82e9-d2de5169f102/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9527e502-cf8e-31a8-82e9-d2de5169f102",
+    "releaseGroupId": "9527e502-cf8e-31a8-82e9-d2de5169f102",
+    "recordingId": "61483b53-9a36-468c-ad01-d1100fb7ccc6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Miss Me BabyChris Cagle",
+      "song": "Miss Me Baby",
+      "performer": "Chris Cagle",
+      "peakPosition": 67,
+      "firstChartDate": "2005-10-29",
+      "lastChartDate": "2006-02-04",
+      "appearances": [
+        {
+          "chartDate": "2005-10-29",
+          "position": 95
+        },
+        {
+          "chartDate": "2005-11-12",
+          "position": 95
+        },
+        {
+          "chartDate": "2005-11-19",
+          "position": 90
+        },
+        {
+          "chartDate": "2005-11-26",
+          "position": 90
+        },
+        {
+          "chartDate": "2005-12-03",
+          "position": 80
+        },
+        {
+          "chartDate": "2005-12-10",
+          "position": 73
+        },
+        {
+          "chartDate": "2005-12-17",
+          "position": 67
+        },
+        {
+          "chartDate": "2005-12-24",
+          "position": 71
+        },
+        {
+          "chartDate": "2005-12-31",
+          "position": 69
+        },
+        {
+          "chartDate": "2006-01-07",
+          "position": 79
+        },
+        {
+          "chartDate": "2006-01-14",
+          "position": 81
+        },
+        {
+          "chartDate": "2006-01-21",
+          "position": 78
+        },
+        {
+          "chartDate": "2006-01-28",
+          "position": 82
+        },
+        {
+          "chartDate": "2006-02-04",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "modern country album cover aesthetic cowboy desert leather armchair condensed sans serif script typography low angle photography subject seated diagonally to create depth text anchored to the bottom right corner contrast between the warm leather tones and cool sky low angle perspective emphasizing the subject s boots and stature subject western rugged setting desert outdoor prop classic furniture typography condensed sans script overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Modern Country Album Cover Aesthetic",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Country music album art",
+        "Artist promotional posters",
+        "Western lifestyle branding"
+      ],
+      "retrievalTags": [
+        "cowboy",
+        "desert",
+        "leather armchair",
+        "condensed sans-serif",
+        "script typography",
+        "low-angle photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A rugged, low-angle portrait of a male figure in western attire seated in a leather chair within a vast desert landscape, featuring high-contrast condensed typography.",
+      "triggerTerms": [
+        "cowboy in leather chair desert",
+        "modern country album aesthetic",
+        "condensed block lettering with script subtitle"
+      ],
+      "excludeWhen": [
+        "urban settings",
+        "minimalist white backgrounds",
+        "serif-only typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered male subject in a white shirt and black cowboy hat sits relaxed in a brown leather wingback chair. The chair is placed on cracked desert earth under a clear blue-to-teal gradient sky. Large, white, condensed sans-serif text dominates the lower right quadrant, paired with a smaller handwritten script on a dark rectangular bar.",
+    "coreVisualRelationships": [
+      "Subject seated diagonally to create depth",
+      "Text anchored to the bottom right corner",
+      "Contrast between the warm leather tones and cool sky",
+      "Low-angle perspective emphasizing the subject's boots and stature"
+    ],
+    "coreInvariants": [
+      "Cracked earth ground texture",
+      "Condensed sans-serif display type with sharp corners",
+      "Leather armchair as a central prop in an outdoor setting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left and center-left, scaled to fill approximately 70% of the vertical frame.",
+      "visualAnchor": "The large condensed surname in the bottom right acts as the primary visual weight opposite the subject.",
+      "movementAndEyePath": "From the subject's face, down the leg to the boot, then rightward to the bold typography.",
+      "negativeSpace": "Open sky in the top right and expansive desert floor in the background provide breathing room."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Earth tones (brown, tan, ochre) from the chair and ground.",
+      "contrastColorRole": "Deep teal and blue in the sky gradient.",
+      "accentColorRole": "Crisp white in the shirt and primary typography.",
+      "saturationAndValueRelationship": "High value contrast between the white shirt/text and the dark leather/hat.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Limit to naturalistic desert hues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke width",
+        "Extremely tall x-height",
+        "Flat terminals",
+        "Tight apertures"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'G' and 'C' have very small openings",
+        "The 'A' has a high horizontal crossbar"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "very high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "layered over the background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "medium",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "handwritten"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom right, below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "contained within a dark bar",
+            "relationshipToImage": "anchored to the base of the display text"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a rigid, industrial condensed sans-serif with a fluid, personal script.",
+      "graphicDevices": [
+        "Dark brown rectangular background bar for the subtitle"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Uppercase display text",
+          "Right-aligned layout"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Wide letter spacing",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Agency FB",
+            "reason": "Matches the heavy, condensed, and authoritative feel of the primary name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral or Brush Script",
+            "reason": "Approximates the casual, handwritten feel of the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photo of a man in a cowboy hat and white shirt sitting in a brown leather armchair in a cracked desert landscape under a teal sky.",
+        "overlayInstruction": "Add large, white, extra-condensed uppercase sans-serif text in the bottom right. Below it, add a dark brown horizontal bar containing white script text."
+      },
+      "verificationChecks": [
+        "Is the display text extra-condensed?",
+        "Is the subtitle contained within a dark bar?",
+        "Is the perspective low-angle?",
+        "Is the ground texture cracked earth?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Sky color gradient",
+      "Chair leather wear level",
+      "Typography weight"
+    ],
+    "mustRedesign": [
+      "Avoid using specific artist names",
+      "Do not replicate exact logo placements"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clear legibility of condensed type",
+        "Realistic desert lighting",
+        "Balanced asymmetrical composition"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-resolution textures",
+        "Illegible script fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text does not obscure the subject's face",
+      "Ensure the horizon line is low in the frame",
+      "Verify the color contrast between text and background",
+      "Confirm the script text is centered within its bar"
+    ],
+    "reuseFormula": "Subject(Western/Rugged) + Setting(Desert/Outdoor) + Prop(Classic Furniture) + Typography(Condensed Sans + Script Overlay)"
+  }
+}

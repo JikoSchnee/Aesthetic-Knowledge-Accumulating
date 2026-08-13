@@ -1,0 +1,284 @@
+{
+  "id": "6c34bf8d8b62e0072e9b6d55477c0e6c5b5d0b860a0d99639e73fd8288880844",
+  "skillId": "6c34bf8d8b62e0072e9b6d55477c0e6c5b5d0b860a0d99639e73fd8288880844",
+  "versionId": "6c34bf8d8b62e0072e9b6d55477c0e6c5b5d0b860a0d99639e73fd8288880844",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:26:03.839Z",
+  "approvedAt": "2026-08-12T14:26:03.839Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:26:03.839Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Eurotrip: Music From the Motion Picture.jpg",
+    "hash": "6c34bf8d8b62e0072e9b6d55477c0e6c5b5d0b860a0d99639e73fd8288880844",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Eurotrip: Music From the Motion Picture",
+    "artist": "Lustra",
+    "artworkUrl": "https://coverartarchive.org/release-group/2a237536-44ce-336c-a66d-140037a4470b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/2a237536-44ce-336c-a66d-140037a4470b",
+    "releaseGroupId": "2a237536-44ce-336c-a66d-140037a4470b",
+    "recordingId": "f91299d0-7bba-4269-ad3e-b7ed6adfc5d6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Scotty Doesn't KnowLustra",
+      "song": "Scotty Doesn't Know",
+      "performer": "Lustra",
+      "peakPosition": 75,
+      "firstChartDate": "2006-07-29",
+      "lastChartDate": "2006-08-05",
+      "appearances": [
+        {
+          "chartDate": "2006-07-29",
+          "position": 75
+        },
+        {
+          "chartDate": "2006-08-05",
+          "position": 78
+        }
+      ]
+    }
+  },
+  "dedupeText": "early 2000s teen comedy soundtrack cover teen comedy ensemble cast travel theme blue sky sans serif typography collage bright colors ensemble cast clustered on the left third of the frame iconic landmarks scaled down and placed on the right horizon bold title graphic anchored at the bottom center text blocks balanced in the upper right and top horizontal bar ensemble cast on left blue sky background miniature landmarks on right road sign inspired title block at bottom center",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Early 2000s Teen Comedy Soundtrack Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design",
+        "Composite"
+      ],
+      "useCases": [
+        "Soundtrack album art",
+        "Movie promotional posters",
+        "Early 2000s nostalgic media"
+      ],
+      "retrievalTags": [
+        "teen comedy",
+        "ensemble cast",
+        "travel theme",
+        "blue sky",
+        "sans-serif typography",
+        "collage",
+        "bright colors"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A vibrant ensemble-based layout featuring a group of young adults against a bright blue sky with iconic landmarks and bold, centered title graphics.",
+      "triggerTerms": [
+        "early 2000s movie poster style",
+        "ensemble cast travel comedy",
+        "bright blue sky background with landmarks"
+      ],
+      "excludeWhen": [
+        "minimalist art is required",
+        "dark or moody themes are requested",
+        "single-subject portraits"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A group of five young adults in casual, colorful clothing (orange, green, red, maroon) are clustered on the left, looking toward the viewer. The background is a bright, slightly hazy blue sky transitioning to a low-horizon cityscape featuring miniature iconic European landmarks like the Eiffel Tower and Big Ben. A prominent title bar sits at the bottom center, styled like a road sign.",
+    "coreVisualRelationships": [
+      "Ensemble cast clustered on the left third of the frame",
+      "Iconic landmarks scaled down and placed on the right horizon",
+      "Bold title graphic anchored at the bottom center",
+      "Text blocks balanced in the upper right and top horizontal bar"
+    ],
+    "coreInvariants": [
+      "Bright blue sky background",
+      "High-key lighting on subjects",
+      "Primary and secondary color palette in clothing"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subjects occupy the left 60% of the frame, scaled from waist-up to full torso.",
+      "visualAnchor": "The rectangular title block at the bottom center acts as the primary anchor.",
+      "movementAndEyePath": "Eyes start at the pointing finger of the subject in green, move down to the central group, then right to the landmarks and text.",
+      "negativeSpace": "Open blue sky in the upper right quadrant provides breathing room for secondary text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Sky blue (background)",
+      "contrastColorRole": "White (text and title background)",
+      "accentColorRole": "Vibrant orange and red (clothing and title accents)",
+      "saturationAndValueRelationship": "High saturation and high value across all elements for a cheerful, energetic tone.",
+      "paletteRestrictions": [
+        "Avoid desaturated or muddy tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric and Humanist Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Wide apertures",
+        "Square or slightly rounded terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Title 'O' replaced with a circular 'No Parking' style road sign icon"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "foreground",
+            "relationshipToImage": "contained within a white rectangular box with a blue border"
+          },
+          "treatment": {
+            "fill": "red and orange gradient",
+            "outline": "thin dark blue",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "humanist sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "clear",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "horizontal bar"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "background",
+            "relationshipToImage": "floating over sky"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold display sans-serif for the title paired with a cleaner, more legible sans-serif for secondary information.",
+      "graphicDevices": [
+        "Road sign iconography",
+        "White rectangular title container",
+        "Subtle drop shadows on floating text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Wide tracking for top bar",
+          "Road sign motif in title"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Vertical text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the weight and geometric feel of the title text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gill Sans Bold",
+            "reason": "Appropriate for the humanist sans-serif metadata text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a bright blue sky with soft white clouds. On the left, place a group of 5 smiling young adults in colorful 2000s casual wear. On the right horizon, place small, slightly hazy icons of the Eiffel Tower, Leaning Tower of Pisa, and Big Ben.",
+        "overlayInstruction": "Add a white rectangular bar at the top with wide-tracked white sans-serif text. Place a large white box at the bottom center containing bold red/orange sans-serif text, replacing one letter with a red 'No Parking' circle-slash symbol."
+      },
+      "verificationChecks": [
+        "Is the sky a vibrant blue?",
+        "Is the title text bold and centered in a box?",
+        "Are the landmarks visible but secondary to the people?",
+        "Is the 'No Parking' symbol integrated into the title?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of people in the ensemble",
+      "Specific landmarks on the horizon",
+      "Color of the title text gradient"
+    ],
+    "mustRedesign": [
+      "Specific actor likenesses",
+      "Original movie title text",
+      "Copyrighted studio logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-energy, bright lighting",
+        "Clean, legible typography",
+        "Balanced ensemble composition"
+      ],
+      "avoid": [
+        "Dark shadows",
+        "Gritty textures",
+        "Cluttered background"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the title box is perfectly centered at the bottom.",
+      "Verify that the sky color is consistent and bright.",
+      "Check that the text in the top bar is evenly spaced.",
+      "Confirm the ensemble cast looks cohesive and cheerful."
+    ],
+    "reuseFormula": "Ensemble cast on left + blue sky background + miniature landmarks on right + road-sign inspired title block at bottom center."
+  }
+}

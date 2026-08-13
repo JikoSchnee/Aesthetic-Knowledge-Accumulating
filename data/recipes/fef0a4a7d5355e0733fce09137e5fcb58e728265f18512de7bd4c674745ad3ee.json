@@ -1,0 +1,299 @@
+{
+  "id": "fef0a4a7d5355e0733fce09137e5fcb58e728265f18512de7bd4c674745ad3ee",
+  "skillId": "fef0a4a7d5355e0733fce09137e5fcb58e728265f18512de7bd4c674745ad3ee",
+  "versionId": "fef0a4a7d5355e0733fce09137e5fcb58e728265f18512de7bd4c674745ad3ee",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:24:24.550Z",
+  "approvedAt": "2026-08-12T06:24:24.550Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:24:24.550Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Harder Than Hard.jpg",
+    "hash": "fef0a4a7d5355e0733fce09137e5fcb58e728265f18512de7bd4c674745ad3ee",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Harder Than Hard",
+    "artist": "Lil Baby",
+    "artworkUrl": "https://coverartarchive.org/release-group/0b81932f-e23e-4239-b393-12c0a93bd7d9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0b81932f-e23e-4239-b393-12c0a93bd7d9",
+    "releaseGroupId": "0b81932f-e23e-4239-b393-12c0a93bd7d9",
+    "recordingId": "6454eda0-f5df-4f80-afc2-164d66117ec7",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "My DawgLil Baby",
+      "song": "My Dawg",
+      "performer": "Lil Baby",
+      "peakPosition": 77,
+      "firstChartDate": "2017-12-30",
+      "lastChartDate": "2018-02-03",
+      "appearances": [
+        {
+          "chartDate": "2017-12-30",
+          "position": 77
+        },
+        {
+          "chartDate": "2018-01-06",
+          "position": 84
+        },
+        {
+          "chartDate": "2018-01-13",
+          "position": 84
+        },
+        {
+          "chartDate": "2018-01-20",
+          "position": 87
+        },
+        {
+          "chartDate": "2018-01-27",
+          "position": 90
+        },
+        {
+          "chartDate": "2018-02-03",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban double exposure hip hop cover double exposure urban collage monochrome portrait street photography overlay hip hop aesthetic subject silhouette acts as a container for urban collage high contrast monochrome subject against a textured neutral background right aligned stacked typographic hierarchy visual weight balanced between the subject s head and the currency stack urban double exposure high contrast portrait internal city collage right aligned distressed typography monochrome palette red accent",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Double Exposure Hip-Hop Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Digital Photography",
+        "Double Exposure",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Hip-hop album covers",
+        "Urban streetwear branding",
+        "Gritty documentary posters"
+      ],
+      "retrievalTags": [
+        "double exposure",
+        "urban collage",
+        "monochrome portrait",
+        "street photography overlay",
+        "hip-hop aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome portrait featuring a complex double-exposure collage of urban scenes within the subject's silhouette.",
+      "triggerTerms": [
+        "urban double exposure portrait",
+        "street collage silhouette",
+        "gritty hip-hop album art style"
+      ],
+      "excludeWhen": [
+        "clean minimalist designs",
+        "vibrant colorful pop art",
+        "nature-focused double exposures"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central, shirtless male figure in a high-contrast black and white portrait, where the torso and arms serve as a canvas for a dense, multi-layered collage of urban imagery including city streets, buildings, and vehicles. The background is a textured, light gray neutral space, and the subject holds a stack of currency to his ear.",
+    "coreVisualRelationships": [
+      "Subject silhouette acts as a container for urban collage",
+      "High-contrast monochrome subject against a textured neutral background",
+      "Right-aligned stacked typographic hierarchy",
+      "Visual weight balanced between the subject's head and the currency stack"
+    ],
+    "coreInvariants": [
+      "Double exposure effect restricted to the subject's body"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centrally framed torso and head, cropped at the waist, filling approximately 70% of the vertical space.",
+      "visualAnchor": "The subject's face and the stack of money held to the ear.",
+      "movementAndEyePath": "Starts at the face, moves down through the complex collage on the torso, then up to the right-aligned text block.",
+      "negativeSpace": "Light gray, distressed texture surrounding the upper body and head."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated grays and blacks for the portrait and collage.",
+      "contrastColorRole": "Bright white for highlights and jewelry.",
+      "accentColorRole": "Deep red for specific typographic elements to create focal points.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the dark subject and light background.",
+      "paletteRestrictions": [
+        "Monochrome base",
+        "Limited red accent"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy sans-serif and aggressive brush scripts",
+      "letterConstructionRules": [
+        "Top tier uses raw, energetic brush strokes with varying thickness",
+        "Middle tier uses heavy, blocky slab-serifs with distressed textures",
+        "Bottom tier uses condensed, clean sans-serifs for readability"
+      ],
+      "characterSpecificRedesigns": [
+        "Outlined block letters for secondary titles",
+        "Italicized emphasis on specific keywords"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "variable",
+            "weight": "heavy",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "tapered",
+            "corners": "sharp",
+            "counters": "tight",
+            "strokeCharacter": "painterly"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "manual",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "blocky",
+            "corners": "square",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "middle right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "none",
+            "outline": "red",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "distressed",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Aggressive script paired with industrial block fonts and clean condensed sans-serifs.",
+      "graphicDevices": [
+        "Distressed paper texture",
+        "Double exposure masking",
+        "Parental advisory explicit content label"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right-aligned stack",
+          "Red accent color",
+          "Distressed texture"
+        ],
+        "avoid": [
+          "Script fonts that are too elegant or cursive",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Road Rage",
+            "reason": "Matches the aggressive, brush-like energy of the top-level text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight for the blocky subtitle elements.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast monochrome portrait of a man holding a stack of money, with a complex urban collage (streets, buildings, cars) masked inside his torso. The background should be a light gray, textured wall.",
+        "overlayInstruction": "Apply a right-aligned stack of text in the upper right quadrant. Use a black brush script for the top line, a red-outlined block font for the middle, and a clean red sans-serif for the bottom line."
+      },
+      "verificationChecks": [
+        "Is the collage strictly contained within the subject's silhouette?",
+        "Is the text right-aligned and stacked?",
+        "Is the red accent used only for the lower typographic elements?",
+        "Is the overall image high-contrast monochrome?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of the urban collage",
+      "Intensity of the background texture",
+      "Weight of the typographic strokes"
+    ],
+    "mustRedesign": [
+      "Any elements that break the monochrome/red color scheme",
+      "Text that is not right-aligned"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Seamless double exposure blending",
+        "Gritty, high-contrast photographic quality",
+        "Clear typographic hierarchy"
+      ],
+      "avoid": [
+        "Soft, low-contrast lighting",
+        "Clean, digital-looking vector shapes",
+        "Vibrant multi-color palettes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for clear separation between subject and background",
+      "Ensure the collage details are visible but don't obscure the subject's form",
+      "Verify the 'Parental Advisory' style logo is in the bottom left corner",
+      "Confirm the red text is legible against the gray background"
+    ],
+    "reuseFormula": "Urban Double Exposure = (High-Contrast Portrait + Internal City Collage) * (Right-Aligned Distressed Typography + Monochrome Palette + Red Accent)"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:44:34.636Z"
+}

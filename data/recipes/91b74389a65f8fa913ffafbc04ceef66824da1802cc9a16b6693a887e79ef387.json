@@ -1,0 +1,334 @@
+{
+  "id": "91b74389a65f8fa913ffafbc04ceef66824da1802cc9a16b6693a887e79ef387",
+  "skillId": "91b74389a65f8fa913ffafbc04ceef66824da1802cc9a16b6693a887e79ef387",
+  "versionId": "91b74389a65f8fa913ffafbc04ceef66824da1802cc9a16b6693a887e79ef387",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:15:06.453Z",
+  "approvedAt": "2026-08-13T05:15:06.453Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:15:06.453Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Then and Now.jpg",
+    "hash": "91b74389a65f8fa913ffafbc04ceef66824da1802cc9a16b6693a887e79ef387",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Then and Now",
+    "artist": "David Cassidy",
+    "artworkUrl": "https://coverartarchive.org/release-group/b9b94dc6-c612-3c91-95fe-48fc7feecfc4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b9b94dc6-c612-3c91-95fe-48fc7feecfc4",
+    "releaseGroupId": "b9b94dc6-c612-3c91-95fe-48fc7feecfc4",
+    "recordingId": "3c341ff5-c3f5-4217-93c6-fe1a2c959b58",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Lyin' To MyselfDavid Cassidy",
+      "song": "Lyin' To Myself",
+      "performer": "David Cassidy",
+      "peakPosition": 27,
+      "firstChartDate": "1990-09-22",
+      "lastChartDate": "1991-01-05",
+      "appearances": [
+        {
+          "chartDate": "1990-09-22",
+          "position": 90
+        },
+        {
+          "chartDate": "1990-09-29",
+          "position": 75
+        },
+        {
+          "chartDate": "1990-10-06",
+          "position": 59
+        },
+        {
+          "chartDate": "1990-10-13",
+          "position": 57
+        },
+        {
+          "chartDate": "1990-10-20",
+          "position": 44
+        },
+        {
+          "chartDate": "1990-10-27",
+          "position": 36
+        },
+        {
+          "chartDate": "1990-11-03",
+          "position": 34
+        },
+        {
+          "chartDate": "1990-11-10",
+          "position": 29
+        },
+        {
+          "chartDate": "1990-11-17",
+          "position": 27
+        },
+        {
+          "chartDate": "1990-11-24",
+          "position": 27
+        },
+        {
+          "chartDate": "1990-12-01",
+          "position": 43
+        },
+        {
+          "chartDate": "1990-12-08",
+          "position": 52
+        },
+        {
+          "chartDate": "1990-12-15",
+          "position": 73
+        },
+        {
+          "chartDate": "1990-12-22",
+          "position": 87
+        },
+        {
+          "chartDate": "1990-12-29",
+          "position": 87
+        },
+        {
+          "chartDate": "1991-01-05",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "double exposure portrait album cover double exposure faded portrait nostalgic blue serif typography artist retrospective foreground subject is sharp and high contrast background subject is oversized and semi transparent cool blue color palette unifies the two time periods typography is anchored to the lower third of the frame layered portrait blue gradient high contrast serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Double Exposure Portrait Album Cover",
+      "category": "Music Photography",
+      "medium": [
+        "Studio Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Retrospective album covers",
+        "Biographical book jackets",
+        "Legacy artist promotions"
+      ],
+      "retrievalTags": [
+        "double exposure",
+        "faded portrait",
+        "nostalgic blue",
+        "serif typography",
+        "artist retrospective"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dual-portrait composition featuring a sharp foreground subject and a large, low-opacity background face to represent the passage of time.",
+      "triggerTerms": [
+        "then and now portrait",
+        "faded background face",
+        "double exposure legacy cover"
+      ],
+      "excludeWhen": [
+        "modern high-contrast neon styles",
+        "minimalist vector art",
+        "abstract non-representational covers"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A studio portrait of a man in the foreground with arms crossed, overlaid against a large, ethereal, low-contrast version of his younger self in the background, set against a cool blue gradient.",
+    "coreVisualRelationships": [
+      "Foreground subject is sharp and high-contrast",
+      "Background subject is oversized and semi-transparent",
+      "Cool blue color palette unifies the two time periods",
+      "Typography is anchored to the lower third of the frame"
+    ],
+    "coreInvariants": [
+      "Dual-subject layering with varying opacities",
+      "Cool-toned blue gradient background",
+      "Lower-third horizontal text alignment"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Primary subject is medium-shot, left-aligned; secondary subject is large-scale, right-aligned, and faded.",
+      "visualAnchor": "The sharp eyes and smile of the foreground subject.",
+      "movementAndEyePath": "From the sharp foreground face, across to the faded background face, then down to the white serif text.",
+      "negativeSpace": "Open blue space in the upper right and between the two figures."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cool blue gradient background",
+      "contrastColorRole": "Dark charcoal/brown of the foreground clothing",
+      "accentColorRole": "Bright white for the primary typography",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast in the foreground subject.",
+      "paletteRestrictions": [
+        "Monochromatic blue tones",
+        "Natural skin tones",
+        "Neutral darks"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical serif and modern sans-serif",
+      "letterConstructionRules": [
+        "Primary name in all-caps serif with high stroke contrast",
+        "Secondary text in lowercase sans-serif with thin weight"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "bracketed",
+            "counters": "open",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "lower third",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over subject",
+            "relationshipToImage": "anchored to the bottom"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "blunt",
+            "corners": "square",
+            "counters": "circular",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "above primary name",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over subject",
+            "relationshipToImage": "stacked"
+          },
+          "treatment": {
+            "fill": "semi-transparent white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a traditional high-contrast serif and a modern minimalist sans-serif.",
+      "graphicDevices": [
+        "Horizontal baseline alignment",
+        "Opacity layering"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps serif for the name",
+          "Lowercase sans-serif for the descriptor"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Heavy slab serifs",
+          "Distorted or grunge textures"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "Matches the high-contrast elegant serif style of the main name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Neue Ultra Light",
+            "reason": "Matches the thin, clean sans-serif used for the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a man in his 50s with dark hair and a dark sweater, arms crossed, positioned on the left. In the background, composite a large, low-opacity, ethereal face of the same man in his 20s on the right. Use a soft blue gradient background.",
+        "overlayInstruction": "Add the artist's name in a large, white, all-caps serif font in the lower third. Above it, add a descriptive phrase in a small, thin, lowercase sans-serif font."
+      },
+      "verificationChecks": [
+        "Is the background face significantly larger and more transparent than the foreground face?",
+        "Is the color palette dominated by cool blues?",
+        "Is the text placed in the lower third of the composition?",
+        "Does the serif font have high stroke contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Opacity of the background face",
+      "Intensity of the blue gradient",
+      "Tracking of the serif typography"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original artist",
+      "Any proprietary logos or branding marks"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Smooth gradient transitions",
+        "Clean, legible typography",
+        "Balanced dual-portrait composition"
+      ],
+      "avoid": [
+        "Harsh edges on the background face",
+        "Cluttered backgrounds",
+        "Low-contrast text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the foreground subject is the clear focal point.",
+      "Verify the 'then and now' visual metaphor is clear through the layering.",
+      "Check that the white text is legible against the dark clothing and blue background.",
+      "Confirm the serif font feels elegant and classical."
+    ],
+    "reuseFormula": "Layered Portrait + Blue Gradient + High-Contrast Serif Typography"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "id": "52b4a99b03c840e97bc25ac8035f7063abb909c0a67273a29cc3d684f7f422a0",
+  "skillId": "52b4a99b03c840e97bc25ac8035f7063abb909c0a67273a29cc3d684f7f422a0",
+  "versionId": "52b4a99b03c840e97bc25ac8035f7063abb909c0a67273a29cc3d684f7f422a0",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:47:22.622Z",
+  "approvedAt": "2026-08-12T06:47:22.622Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:47:22.622Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Paso a paso.jpg",
+    "hash": "52b4a99b03c840e97bc25ac8035f7063abb909c0a67273a29cc3d684f7f422a0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Paso a paso",
+    "artist": "Luis Fonsi",
+    "artworkUrl": "https://coverartarchive.org/release-group/ee5322ee-b7b0-3b91-a309-c55344a40c1c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ee5322ee-b7b0-3b91-a309-c55344a40c1c",
+    "releaseGroupId": "ee5322ee-b7b0-3b91-a309-c55344a40c1c",
+    "recordingId": "0442b9d6-9662-4d23-9092-18a8d59853fd",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Nada Es Para SiempreLuis Fonsi",
+      "song": "Nada Es Para Siempre",
+      "performer": "Luis Fonsi",
+      "peakPosition": 90,
+      "firstChartDate": "2005-08-27",
+      "lastChartDate": "2005-08-27",
+      "appearances": [
+        {
+          "chartDate": "2005-08-27",
+          "position": 90
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban underpass stencil album cover stencil typography urban underpass concrete pillar industrial lighting split composition overexposed highlights subject leaning against vertical pillar anchor typography integrated into the dark negative space of the underpass high key lighting on the left contrasting with low key industrial depth on the right horizontal lines of the parking lot and overpass leading the eye toward the subject urban portrait concrete pillar anchor dark underpass negative space stencil typography overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Underpass Stencil Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Pop Album Art",
+        "Urban Lifestyle Promotion",
+        "Cinematic Portraiture"
+      ],
+      "retrievalTags": [
+        "stencil typography",
+        "urban underpass",
+        "concrete pillar",
+        "industrial lighting",
+        "split composition",
+        "overexposed highlights"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A split-frame urban layout featuring a high-contrast portrait leaning against a pillar on the left and bold stencil typography over an industrial background on the right.",
+      "triggerTerms": [
+        "urban underpass portrait",
+        "stencil block lettering",
+        "industrial concrete background",
+        "split frame layout"
+      ],
+      "excludeWhen": [
+        "nature-focused themes",
+        "minimalist white backgrounds",
+        "handwritten script typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A vertical split composition where a male subject in casual-formal attire leans against a brightly lit concrete pillar on the left, while the right side features a dark, industrial underpass with massive, white stencil-cut typography layered over the structural shadows.",
+    "coreVisualRelationships": [
+      "Subject leaning against vertical pillar anchor",
+      "Typography integrated into the dark negative space of the underpass",
+      "High-key lighting on the left contrasting with low-key industrial depth on the right",
+      "Horizontal lines of the parking lot and overpass leading the eye toward the subject"
+    ],
+    "coreInvariants": [
+      "Stencil-style gaps in the primary display font",
+      "High-contrast lighting with blown-out highlights on the pillar",
+      "Industrial urban setting with concrete and asphalt textures"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left third of the frame, full-body portrait from knees up, leaning against a vertical pillar.",
+      "visualAnchor": "The vertical concrete pillar acts as the primary divider and anchor for the composition.",
+      "movementAndEyePath": "Eye starts at the bright subject on the left, moves right to the large white typography, then follows the perspective lines of the underpass into the background.",
+      "negativeSpace": "The dark, shadowed area of the underpass provides high-contrast negative space for the white text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and shadows in the underpass",
+      "contrastColorRole": "Bright white for typography and pillar highlights",
+      "accentColorRole": "Warm tan and denim blue from the subject's clothing",
+      "saturationAndValueRelationship": "High value contrast between the overexposed pillar and the underexposed background; low saturation overall with a gritty, cinematic tint.",
+      "paletteRestrictions": [
+        "Avoid vibrant primary colors",
+        "Maintain desaturated urban tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Bold, heavy weight",
+        "Uniform stroke width",
+        "Vertical stencil gaps (bridges) placed centrally in vertical and curved strokes",
+        "Tight kerning"
+      ],
+      "characterSpecificRedesigns": [
+        "O and U feature vertical breaks at the top and bottom centers",
+        "S features diagonal breaks in the spine"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Stencil Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Extra Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open via stencil gaps",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked words",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top right quadrant",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Overlays background imagery",
+            "relationshipToImage": "Floating in the dark space"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "Medium",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Closed",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Justified between display lines",
+            "tracking": "Very Wide",
+            "leading": "Auto",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Centered between display text blocks",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separator element"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Large stencil display font paired with a widely-tracked, smaller geometric sans-serif for contrast in scale and density.",
+      "graphicDevices": [
+        "Horizontal rule-like spacing created by the subtitle text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Stencil gaps",
+          "Uppercase display",
+          "Wide tracking on secondary text"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Italics",
+          "Soft rounded corners"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Stencil",
+            "reason": "Matches the geometric skeleton and bold weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Glaser Stencil",
+            "reason": "Provides the necessary industrial stencil aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate an urban scene with a man in a corduroy blazer and jeans leaning against a bright, overexposed concrete pillar on the left. The right side should show a dark, shadowed underpass with perspective lines from a parking lot and bridge structures.",
+        "overlayInstruction": "Overlay large white stencil-cut uppercase text in the top right dark area. Insert a smaller line of widely-spaced sans-serif text between the two main display words."
+      },
+      "verificationChecks": [
+        "Ensure the pillar is significantly brighter than the background",
+        "Check that stencil gaps are visible in the display text",
+        "Verify the split-frame balance between subject and text",
+        "Confirm the wide tracking on the subtitle text"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's pose",
+      "Intensity of the overexposure on the pillar",
+      "Specific stencil gap placement",
+      "Depth of the underpass background"
+    ],
+    "mustRedesign": [
+      "Avoid specific facial features of the original artist",
+      "Do not use the exact brand logos or specific album titles",
+      "Ensure the stencil gaps are clean and intentional, not weathered"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp contrast between text and background",
+        "Cinematic urban atmosphere",
+        "Balanced asymmetrical composition"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-resolution textures",
+        "Poorly aligned typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Is the text legible against the dark background?",
+      "Does the subject look naturally integrated with the pillar?",
+      "Are the stencil gaps consistent across all display letters?",
+      "Is the lighting direction consistent across the scene?"
+    ],
+    "reuseFormula": "Urban Portrait + Concrete Pillar Anchor + Dark Underpass Negative Space + Stencil Typography Overlay"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:55:14.151Z"
+}

@@ -1,0 +1,326 @@
+{
+  "id": "aa444d904a1d72f612847254663e5f7143bd93256d0aefe3e81e78ed60665fff",
+  "skillId": "aa444d904a1d72f612847254663e5f7143bd93256d0aefe3e81e78ed60665fff",
+  "versionId": "aa444d904a1d72f612847254663e5f7143bd93256d0aefe3e81e78ed60665fff",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:29:06.124Z",
+  "approvedAt": "2026-08-12T14:29:06.124Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:29:06.124Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Bowfinger: Music From the Motion Picture.jpg",
+    "hash": "aa444d904a1d72f612847254663e5f7143bd93256d0aefe3e81e78ed60665fff",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Bowfinger: Music From the Motion Picture",
+    "artist": "Johnny Rivers",
+    "artworkUrl": "https://coverartarchive.org/release-group/a3f163b8-ef2e-3199-bffa-fb92b46f4c3b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a3f163b8-ef2e-3199-bffa-fb92b46f4c3b",
+    "releaseGroupId": "a3f163b8-ef2e-3199-bffa-fb92b46f4c3b",
+    "recordingId": "1a0c864a-da11-4e11-a70f-42795ca66cda",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Secret Agent ManJohnny Rivers",
+      "song": "Secret Agent Man",
+      "performer": "Johnny Rivers",
+      "peakPosition": 3,
+      "firstChartDate": "1966-03-19",
+      "lastChartDate": "1966-05-28",
+      "appearances": [
+        {
+          "chartDate": "1966-03-19",
+          "position": 60
+        },
+        {
+          "chartDate": "1966-03-26",
+          "position": 22
+        },
+        {
+          "chartDate": "1966-04-02",
+          "position": 15
+        },
+        {
+          "chartDate": "1966-04-09",
+          "position": 7
+        },
+        {
+          "chartDate": "1966-04-16",
+          "position": 4
+        },
+        {
+          "chartDate": "1966-04-23",
+          "position": 3
+        },
+        {
+          "chartDate": "1966-04-30",
+          "position": 5
+        },
+        {
+          "chartDate": "1966-05-07",
+          "position": 6
+        },
+        {
+          "chartDate": "1966-05-14",
+          "position": 14
+        },
+        {
+          "chartDate": "1966-05-21",
+          "position": 24
+        },
+        {
+          "chartDate": "1966-05-28",
+          "position": 38
+        }
+      ]
+    }
+  },
+  "dedupeText": "comedy soundtrack cover layout ultra bold sans serif condensed typography buddy comedy vibrant 70s fashion white background centered title massive title dominates the top third of the frame central subjects overlap the bottom edge of the title secondary text columns balance the negative space on the left and right high saturation clothing contrasts against the neutral white background large condensed title high key buddy portrait flanking metadata columns",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Comedy Soundtrack Cover Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Layout",
+        "Typography"
+      ],
+      "useCases": [
+        "Soundtrack album art",
+        "Comedy film promotion",
+        "Buddy comedy poster design"
+      ],
+      "retrievalTags": [
+        "ultra-bold sans-serif",
+        "condensed typography",
+        "buddy comedy",
+        "vibrant 70s fashion",
+        "white background",
+        "centered title"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast comedy layout featuring two central characters in vibrant, mismatched attire against a clean white background with a massive, top-aligned condensed title.",
+      "triggerTerms": [
+        "ultra-bold condensed title layout",
+        "buddy comedy character portrait",
+        "vibrant retro fashion photography"
+      ],
+      "excludeWhen": [
+        "dark or moody atmospheric requests",
+        "minimalist typography",
+        "landscape-oriented compositions"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A bright, high-key studio portrait of two men in colorful, textured clothing (plaid and knit) positioned centrally against a stark white background, topped by a massive, red, ultra-bold condensed sans-serif title and flanked by secondary text lists.",
+    "coreVisualRelationships": [
+      "Massive title dominates the top third of the frame",
+      "Central subjects overlap the bottom edge of the title",
+      "Secondary text columns balance the negative space on the left and right",
+      "High-saturation clothing contrasts against the neutral white background"
+    ],
+    "coreInvariants": [
+      "Ultra-bold condensed sans-serif title spanning the full width",
+      "Clean white studio background",
+      "Vibrant, high-contrast color palette in subject wardrobe"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two central figures from the waist up, occupying the middle and bottom two-thirds of the frame.",
+      "visualAnchor": "The massive red title at the top serves as the primary anchor.",
+      "movementAndEyePath": "Eyes start at the large title, drop to the faces of the subjects, then move outward to the secondary text lists.",
+      "negativeSpace": "Significant white space around the subjects and between text blocks to maintain clarity."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (background) and Red (title)",
+      "contrastColorRole": "Yellow and Brown (wardrobe textures)",
+      "accentColorRole": "Blue (tie and denim)",
+      "saturationAndValueRelationship": "High saturation in the foreground elements against a high-value, low-saturation background.",
+      "paletteRestrictions": [
+        "Primary red for main text",
+        "High-key white background"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Extremely tight tracking",
+        "Tall x-height with minimal counters"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "-50",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "behind subjects",
+            "relationshipToImage": "header"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left and right justified columns",
+            "tracking": "normal",
+            "leading": "loose",
+            "lineBreakPattern": "list",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "mid-flanks",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "flanking text"
+          },
+          "treatment": {
+            "fill": "dark grey or black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Varying weights and scales of the same condensed sans-serif family.",
+      "graphicDevices": [
+        "Columnar text alignment",
+        "Subject-text layering"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed width",
+          "Uppercase styling",
+          "Red color for title"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Wide letter spacing"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy weight and condensed nature of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Haas Improved Condensed",
+            "reason": "Provides the clean, modern sans-serif look for secondary text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Excellent for the tall, condensed uppercase display feel.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key studio portrait of two men in 1970s-style vibrant clothing (one in a brown plaid jacket and yellow shirt, one in a red and yellow knit vest) against a pure white background, leaving the top third of the frame clear for text.",
+        "overlayInstruction": "Add a massive, ultra-bold condensed red sans-serif title in all caps across the top. Add two columns of smaller, bold condensed black sans-serif text on the left and right sides of the subjects."
+      },
+      "verificationChecks": [
+        "Is the title text ultra-bold and condensed?",
+        "Is the background pure white?",
+        "Are the subjects wearing high-contrast, colorful clothing?",
+        "Is the title positioned at the very top of the frame?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Title color",
+      "Subject clothing patterns",
+      "Secondary text column density"
+    ],
+    "mustRedesign": [
+      "Any low-contrast backgrounds",
+      "Serif or decorative fonts",
+      "Dark or muddy lighting"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp edges on typography",
+        "High-key lighting",
+        "Clear hierarchy between title and secondary text"
+      ],
+      "avoid": [
+        "Blurry subjects",
+        "Overlapping text that obscures legibility",
+        "Muted color palettes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the title is the largest element.",
+      "Ensure the white background is consistent and clean.",
+      "Verify that the red of the title is vibrant.",
+      "Confirm the subjects are centered and well-lit."
+    ],
+    "reuseFormula": "Large condensed title + high-key buddy portrait + flanking metadata columns."
+  }
+}

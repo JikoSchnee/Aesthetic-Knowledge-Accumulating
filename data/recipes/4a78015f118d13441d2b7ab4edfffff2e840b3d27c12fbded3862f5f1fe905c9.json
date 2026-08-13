@@ -1,0 +1,280 @@
+{
+  "id": "4a78015f118d13441d2b7ab4edfffff2e840b3d27c12fbded3862f5f1fe905c9",
+  "skillId": "4a78015f118d13441d2b7ab4edfffff2e840b3d27c12fbded3862f5f1fe905c9",
+  "versionId": "4a78015f118d13441d2b7ab4edfffff2e840b3d27c12fbded3862f5f1fe905c9",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:17:48.490Z",
+  "approvedAt": "2026-08-12T16:17:48.490Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:17:48.490Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "II.jpg",
+    "hash": "4a78015f118d13441d2b7ab4edfffff2e840b3d27c12fbded3862f5f1fe905c9",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "II",
+    "artist": "The Kinleys",
+    "artworkUrl": "https://coverartarchive.org/release-group/163dec4e-02df-33d0-bb4c-e6e1961c88ef/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/163dec4e-02df-33d0-bb4c-e6e1961c88ef",
+    "releaseGroupId": "163dec4e-02df-33d0-bb4c-e6e1961c88ef",
+    "recordingId": "5219689f-bca3-4aa3-abfd-171e44aaca44",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Somebody's Out There WatchingThe Kinleys",
+      "song": "Somebody's Out There Watching",
+      "performer": "The Kinleys",
+      "peakPosition": 64,
+      "firstChartDate": "1999-01-23",
+      "lastChartDate": "1999-03-20",
+      "appearances": [
+        {
+          "chartDate": "1999-01-23",
+          "position": 89
+        },
+        {
+          "chartDate": "1999-01-30",
+          "position": 86
+        },
+        {
+          "chartDate": "1999-02-06",
+          "position": 83
+        },
+        {
+          "chartDate": "1999-02-13",
+          "position": 73
+        },
+        {
+          "chartDate": "1999-02-20",
+          "position": 66
+        },
+        {
+          "chartDate": "1999-02-27",
+          "position": 66
+        },
+        {
+          "chartDate": "1999-03-06",
+          "position": 66
+        },
+        {
+          "chartDate": "1999-03-13",
+          "position": 64
+        },
+        {
+          "chartDate": "1999-03-20",
+          "position": 64
+        }
+      ]
+    }
+  },
+  "dedupeText": "late 90s country pop album aesthetic 90s country distressed serif blue sky background acoustic guitar female duo clock tower velvet texture subjects layered between foreground guitar and background sky typography overlapping the sky and subject s hair contrast between warm skin tones and cool blue background vertical alignment of standing subject balancing the horizontal text saturated sky distressed serif casual artist portrait 90s country aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Late 90s Country Pop Album Aesthetic",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Promotional Music Posters",
+        "Artist Branding"
+      ],
+      "retrievalTags": [
+        "90s country",
+        "distressed serif",
+        "blue sky background",
+        "acoustic guitar",
+        "female duo",
+        "clock tower",
+        "velvet texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A nostalgic late-90s music aesthetic featuring high-contrast photography of artists against a saturated blue sky with distressed, decorative serif typography.",
+      "triggerTerms": [
+        "90s country album cover",
+        "distressed white serif text",
+        "saturated blue sky backdrop",
+        "acoustic guitar portrait"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "flat vector illustrations",
+        "dark moody lighting"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A composite image featuring two female subjects in casual-chic attire (velvet and denim) positioned in a multi-layered outdoor setting. The background transitions from a deep blue, cloud-streaked sky to a blurred architectural element, with large-scale, weathered white typography anchored at the top.",
+    "coreVisualRelationships": [
+      "Subjects layered between foreground guitar and background sky",
+      "Typography overlapping the sky and subject's hair",
+      "Contrast between warm skin tones and cool blue background",
+      "Vertical alignment of standing subject balancing the horizontal text"
+    ],
+    "coreInvariants": [
+      "Distressed or weathered texture applied to all white typographic elements"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "One subject seated lower-left with a guitar; one subject standing mid-right, creating a diagonal visual flow.",
+      "visualAnchor": "The large, distressed white title text in the upper-left quadrant.",
+      "movementAndEyePath": "Starts at the large title, moves down to the seated guitarist, then follows the standing figure up to the sky.",
+      "negativeSpace": "The upper-right and center-left sky areas provide breathing room for the subjects and text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Saturated Cerulean Blue (Sky)",
+      "contrastColorRole": "Deep Charcoal and Denim (Lower half)",
+      "accentColorRole": "Golden Ochre (Velvet top)",
+      "saturationAndValueRelationship": "High saturation in the sky with high value contrast in the white lettering.",
+      "paletteRestrictions": [
+        "Cerulean",
+        "Ochre",
+        "White",
+        "Denim Blue",
+        "Charcoal"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Classical Serif",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Bracketed serifs",
+        "Intentional distressing and 'chipped paint' texture",
+        "Exaggerated initial capitals"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'K' and 's' feature ornate, scroll-like distressing on the terminals."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "decorative-serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "ornate/distressed",
+            "corners": "sharp but weathered",
+            "counters": "open",
+            "strokeCharacter": "variable with texture"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "staggered",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "subject-hair",
+            "relationshipToImage": "foreground-overlay"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle-drop",
+            "depth": "flat",
+            "texture": "weathered-grunge",
+            "distortion": "edge-erosion"
+          }
+        }
+      ],
+      "pairingStrategy": "Large distressed serif paired with smaller Roman numeral icons in the same style.",
+      "graphicDevices": [
+        "Weathered texture",
+        "Drop shadows",
+        "Layered compositing"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast serif",
+          "Distressed texture",
+          "White color"
+        ],
+        "avoid": [
+          "Clean sans-serif",
+          "Neon colors",
+          "Modern geometric fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Caslon Antique",
+            "reason": "Matches the weathered, historical serif feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Copperplate Gothic (distressed)",
+            "reason": "Similar weight and presence if modified.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast photograph of two women in 90s fashion (one seated with an acoustic guitar, one standing) against a saturated blue sky with wispy clouds and a blurred clock tower in the distance.",
+        "overlayInstruction": "Apply large, distressed white serif text in the upper left, ensuring the texture looks like chipped paint, and a matching Roman numeral 'II' in the bottom right."
+      },
+      "verificationChecks": [
+        "Is the sky a saturated cerulean?",
+        "Does the text have a weathered/chipped texture?",
+        "Are the subjects wearing 90s-era textures like velvet?",
+        "Is the guitar visible in the foreground?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Sky saturation level",
+      "Amount of typographic distressing",
+      "Subject poses",
+      "Architectural background element"
+    ],
+    "mustRedesign": [
+      "Avoid using specific artist likenesses",
+      "Avoid exact brand logos",
+      "Ensure the 'chipped' texture is randomized"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast lighting",
+        "Legible but weathered typography",
+        "Clear depth of field"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Clean digital fonts",
+        "Low-resolution textures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for distressed texture on all white text",
+      "Verify the blue sky is the dominant background color",
+      "Ensure the guitar is integrated naturally into the pose",
+      "Confirm the 'II' icon matches the main title style",
+      "Check that text overlaps the background elements correctly"
+    ],
+    "reuseFormula": "Saturated Sky + Distressed Serif + Casual Artist Portrait = 90s Country Aesthetic"
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "id": "cd08abf040154450da21daac56f2ec670242a42ce8ce4a427dd09a360a483bda",
+  "skillId": "cd08abf040154450da21daac56f2ec670242a42ce8ce4a427dd09a360a483bda",
+  "versionId": "cd08abf040154450da21daac56f2ec670242a42ce8ce4a427dd09a360a483bda",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:22:40.093Z",
+  "approvedAt": "2026-08-12T14:22:40.093Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:22:40.093Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "We’ve Got Tonight.jpg",
+    "hash": "cd08abf040154450da21daac56f2ec670242a42ce8ce4a427dd09a360a483bda",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "We’ve Got Tonight",
+    "artist": "Kenny Rogers",
+    "artworkUrl": "https://coverartarchive.org/release-group/3043b6be-7744-3766-b9e2-711248e77d78/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3043b6be-7744-3766-b9e2-711248e77d78",
+    "releaseGroupId": "3043b6be-7744-3766-b9e2-711248e77d78",
+    "recordingId": "a825d206-8285-47d8-a424-7b5f5a242439",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Scarlet FeverKenny Rogers",
+      "song": "Scarlet Fever",
+      "performer": "Kenny Rogers",
+      "peakPosition": 94,
+      "firstChartDate": "1983-08-20",
+      "lastChartDate": "1983-08-27",
+      "appearances": [
+        {
+          "chartDate": "1983-08-20",
+          "position": 94
+        },
+        {
+          "chartDate": "1983-08-27",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "classic country portrait layout sepia portrait condensed serif typography double border frame 1980s music aesthetic soft focus photography warm sepia tones contrasting with a stark black outer frame verticality of condensed typography echoing the subject s facial structure geometric rigidity of the double border containing the organic textures of hair and knitwear top left text placement balancing the subject s rightward gaze portrait sepia tone double gold border top left condensed serif typography classic artist cover",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Classic Country Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Artist promotional posters",
+        "Vintage-style editorial portraits"
+      ],
+      "retrievalTags": [
+        "sepia portrait",
+        "condensed serif typography",
+        "double border frame",
+        "1980s music aesthetic",
+        "soft focus photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A warm, sepia-toned close-up portrait framed by a double gold border with tall, condensed yellow serif typography in the upper left corner.",
+      "triggerTerms": [
+        "vintage country album style",
+        "sepia portrait with gold border",
+        "condensed serif display text on portrait"
+      ],
+      "excludeWhen": [
+        "modern high-contrast black and white is requested",
+        "minimalist sans-serif layouts are needed",
+        "landscape orientation is required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, slightly angled headshot of a male subject with a beard, rendered in warm sepia tones. The composition is enclosed in a black square frame featuring a thin double-line gold border. Typography is stacked in the top-left quadrant using a highly condensed, high-contrast serif font in a muted yellow hue.",
+    "coreVisualRelationships": [
+      "Warm sepia tones contrasting with a stark black outer frame",
+      "Verticality of condensed typography echoing the subject's facial structure",
+      "Geometric rigidity of the double border containing the organic textures of hair and knitwear",
+      "Top-left text placement balancing the subject's rightward gaze"
+    ],
+    "coreInvariants": [
+      "Double-line gold border",
+      "Sepia or warm monochromatic color palette",
+      "Condensed serif typography",
+      "Soft-focus studio lighting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Close-up head and shoulders, filling approximately 80% of the frame, angled slightly to the right.",
+      "visualAnchor": "The subject's eyes and the bright yellow display text in the upper left.",
+      "movementAndEyePath": "Starts at the bright text in the top left, moves down to the subject's eyes, and follows the beard line to the bottom right.",
+      "negativeSpace": "Minimal; limited to the corners around the head and the black border area."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Sepia/Cream (Subject and background)",
+      "contrastColorRole": "Black (Outer frame)",
+      "accentColorRole": "Muted Yellow (Typography and border lines)",
+      "saturationAndValueRelationship": "Low saturation with high value in the highlights; deep shadows provide form.",
+      "paletteRestrictions": [
+        "No vibrant primary colors",
+        "No cool blues or greens"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra condensed high-contrast serif",
+      "letterConstructionRules": [
+        "Extremely tall x-height",
+        "Thin horizontal serifs",
+        "Heavy vertical strokes",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "tall",
+            "terminals": "sharp",
+            "corners": "square",
+            "counters": "narrow",
+            "strokeCharacter": "uniform verticals"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked words",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on background"
+          },
+          "treatment": {
+            "fill": "muted yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used in different scales for title and artist name.",
+      "graphicDevices": [
+        "Double-line geometric border",
+        "Square frame"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed verticality",
+          "High contrast between thick and thin strokes"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "Wide letterforms"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Onyx",
+            "reason": "Matches the extreme condensation and high contrast serifs.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni Extra Condensed",
+            "reason": "Provides the necessary high-contrast vertical elegance.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a sepia-toned studio portrait of a man with a beard wearing a textured knit sweater, framed by a black square with a thin double gold line border.",
+        "overlayInstruction": "Add uppercase text in the top-left corner using a tall, condensed yellow serif font, stacking the words vertically."
+      },
+      "verificationChecks": [
+        "Is the image monochromatic sepia?",
+        "Is the border a double gold line?",
+        "Is the text condensed and high-contrast?",
+        "Is the text placed in the top-left corner?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject age/gender",
+      "Intensity of sepia tint",
+      "Thickness of the gold border lines",
+      "Exact shade of yellow for text"
+    ],
+    "mustRedesign": [
+      "Specific artist name and song titles",
+      "Any unique brand logos",
+      "Exact facial features of the original subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, flattering studio lighting",
+        "Clean, sharp border lines",
+        "Legible but tightly packed typography"
+      ],
+      "avoid": [
+        "Digital noise or pixelation",
+        "Modern neon colors",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for double-line border consistency",
+      "Verify sepia tone uniformity",
+      "Ensure text does not overlap the subject's main facial features",
+      "Confirm square aspect ratio"
+    ],
+    "reuseFormula": "Portrait + Sepia Tone + Double Gold Border + Top-Left Condensed Serif Typography = Classic Artist Cover"
+  }
+}

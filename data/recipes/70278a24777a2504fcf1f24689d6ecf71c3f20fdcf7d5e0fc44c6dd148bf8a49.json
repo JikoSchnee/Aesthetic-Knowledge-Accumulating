@@ -1,0 +1,227 @@
+{
+  "id": "70278a24777a2504fcf1f24689d6ecf71c3f20fdcf7d5e0fc44c6dd148bf8a49",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:34:42.414Z",
+  "approvedAt": "2026-08-11T09:34:42.414Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:34:42.414Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Colors.jpg",
+    "hash": "70278a24777a2504fcf1f24689d6ecf71c3f20fdcf7d5e0fc44c6dd148bf8a49",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Colors",
+    "artist": "YoungBoy Never Broke Again",
+    "artworkUrl": "https://coverartarchive.org/release-group/7ce6fe6f-cafa-4c36-b42a-0daded002cb8/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7ce6fe6f-cafa-4c36-b42a-0daded002cb8",
+    "releaseGroupId": "7ce6fe6f-cafa-4c36-b42a-0daded002cb8",
+    "recordingId": "0e330470-7e47-490a-8dd4-566f04ea2a41",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Bring It OnYoungBoy Never Broke Again",
+      "song": "Bring It On",
+      "performer": "YoungBoy Never Broke Again",
+      "peakPosition": 60,
+      "firstChartDate": "2022-02-05",
+      "lastChartDate": "2022-02-05",
+      "appearances": [
+        {
+          "chartDate": "2022-02-05",
+          "position": 60
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty urban expressionist album cover grunge streetwear graffiti high contrast distressed texture portrait urban aesthetic the diagonal line of the subject s arm creates a strong leading line toward the face the vibrant chaotic colors of the hoodie contrast sharply with the dark monochromatic background the rough distressed textures of the background mirror the raw expressive style of the central lettering combine a high contrast diagonal portrait with heavy grit textures and layered multi colored brush script to create an aggressive urban expressionist aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Urban Expressionist Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Digital Photography",
+        "Mixed Media Collage",
+        "Street Art Textures"
+      ],
+      "useCases": [
+        "Hip-Hop Album Artwork",
+        "Streetwear Brand Campaign",
+        "Urban Event Poster"
+      ],
+      "retrievalTags": [
+        "grunge",
+        "streetwear",
+        "graffiti",
+        "high-contrast",
+        "distressed texture",
+        "portrait",
+        "urban aesthetic"
+      ]
+    },
+    "visualDefinition": "A high-contrast, gritty portrait of a male figure in a beanie and a multi-colored, paint-splattered hoodie. The composition uses a dynamic diagonal lean, set against a dark, textured background with red accents and heavy digital grain. The typography is a layered, expressive script that mimics hand-painted graffiti.",
+    "coreVisualRelationships": [
+      "The diagonal line of the subject's arm creates a strong leading line toward the face.",
+      "The vibrant, chaotic colors of the hoodie contrast sharply with the dark, monochromatic background.",
+      "The rough, distressed textures of the background mirror the raw, expressive style of the central lettering."
+    ],
+    "coreInvariants": [
+      "High-grain digital noise and film scratch textures.",
+      "Dramatic, directional lighting on the face creating deep shadows.",
+      "A color palette dominated by black, white, and red, punctuated by a CMYK-style paint splatter."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is positioned in the upper right quadrant, leaning diagonally across the frame toward the bottom right.",
+      "visualAnchor": "The subject's eyes and the bridge of the nose serve as the primary focal point.",
+      "movementAndEyePath": "The eye follows the diagonal of the arm from the bottom right up to the face, then drops down to the central script logo.",
+      "negativeSpace": "Heavy black negative space in the bottom left and top left, filled with grit and grain to maintain tension."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and dark charcoal provide the foundation and shadows.",
+      "contrastColorRole": "Bright white and stark red provide high-impact highlights and background accents.",
+      "accentColorRole": "A spectrum of primary yellow, cyan, and magenta appears in the hoodie splatters.",
+      "saturationAndValueRelationship": "Extreme value contrast between deep blacks and blown-out whites; high saturation is localized only to the clothing and text.",
+      "paletteRestrictions": [
+        "Avoid soft gradients",
+        "Avoid pastel tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Expressive, fast-motion cursive script",
+      "letterConstructionRules": [
+        "Varying stroke weights mimicking a flat-edge brush or marker.",
+        "Long, aggressive swashes and tails on terminal characters.",
+        "Layered colors (red, white, yellow) to create a 3D depth effect."
+      ],
+      "characterSpecificRedesigns": [
+        "The initial 'C' is oversized and acts as a framing device.",
+        "The 's' features a long, horizontal underline swash."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "variable",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "tapered",
+            "corners": "sharp",
+            "counters": "tight",
+            "strokeCharacter": "painterly"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "stacked",
+            "density": "high"
+          },
+          "composition": {
+            "position": "lower center",
+            "scale": "large",
+            "rotation": "5 degrees counter-clockwise",
+            "warp": "none",
+            "overlap": "over subject",
+            "relationshipToImage": "integrated into the foreground"
+          },
+          "treatment": {
+            "fill": "multi-color layered",
+            "outline": "none",
+            "shadow": "subtle drop",
+            "depth": "stacked layers",
+            "texture": "dry brush",
+            "distortion": "motion blur"
+          }
+        }
+      ],
+      "pairingStrategy": "A secondary, smaller handwritten script is used for metadata to maintain the raw, personal aesthetic.",
+      "graphicDevices": [
+        "Halftone dot patterns in the background",
+        "Red paint drips",
+        "Film grain overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Diagonal orientation",
+          "Layered script colors",
+          "High-grain texture"
+        ],
+        "avoid": [
+          "Clean sans-serif fonts",
+          "Soft lighting",
+          "Minimalist white space"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Street Art Brush Script",
+            "reason": "Captures the raw, hand-painted energy of the central title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Distressed Marker Font",
+            "reason": "Matches the gritty, urban tone of the background elements.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in a black beanie and a vibrant, paint-splattered hoodie, leaning diagonally. Use high-contrast lighting, heavy film grain, and a dark background with red paint drips and halftone textures.",
+        "overlayInstruction": "Add custom, layered brush-script lettering in the lower center. Use a mix of red, white, and yellow for the text, ensuring the strokes look like wet paint with aggressive swashes."
+      },
+      "verificationChecks": [
+        "Is the grain texture visible across the entire image?",
+        "Does the text overlap the subject's clothing naturally?",
+        "Is the lighting on the face harsh and directional?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the red background accents",
+      "Density of the film grain",
+      "Color palette of the hoodie splatters"
+    ],
+    "mustRedesign": [
+      "The specific facial features of the subject",
+      "The exact wording of the text",
+      "Any specific brand logos on the clothing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Raw, unpolished urban energy",
+        "Strong diagonal composition",
+        "Tactile, gritty texture"
+      ],
+      "avoid": [
+        "Corporate cleanliness",
+        "Flat, digital-only look",
+        "Centered, static posing"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the diagonal lean creates a sense of movement.",
+      "Check that the red accents don't overpower the subject.",
+      "Verify the text layers look like physical paint rather than flat vectors.",
+      "Confirm the halftone patterns are subtle and integrated into the background."
+    ],
+    "reuseFormula": "Combine a high-contrast diagonal portrait with heavy grit textures and layered, multi-colored brush script to create an aggressive, urban-expressionist aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:46:36.049Z"
+}

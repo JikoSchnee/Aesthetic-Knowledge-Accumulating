@@ -1,0 +1,252 @@
+{
+  "id": "e7280faa32efb59e61e142e9569a17b69cda5673670d51fa8b803e43c7a3a49b",
+  "skillId": "e7280faa32efb59e61e142e9569a17b69cda5673670d51fa8b803e43c7a3a49b",
+  "versionId": "e7280faa32efb59e61e142e9569a17b69cda5673670d51fa8b803e43c7a3a49b",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:11:15.511Z",
+  "approvedAt": "2026-08-12T21:11:15.511Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:11:15.511Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Where We All Belong.jpg",
+    "hash": "e7280faa32efb59e61e142e9569a17b69cda5673670d51fa8b803e43c7a3a49b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Where We All Belong",
+    "artist": "The Marshall Tucker Band",
+    "artworkUrl": "https://coverartarchive.org/release-group/8cba07b0-2079-3a8a-be12-e66043288a96/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8cba07b0-2079-3a8a-be12-e66043288a96",
+    "releaseGroupId": "8cba07b0-2079-3a8a-be12-e66043288a96",
+    "recordingId": "f671a3f6-f433-41d3-8597-c341c09e2c10",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "This Ol' CowboyThe Marshall Tucker Band",
+      "song": "This Ol' Cowboy",
+      "performer": "The Marshall Tucker Band",
+      "peakPosition": 78,
+      "firstChartDate": "1975-04-26",
+      "lastChartDate": "1975-05-17",
+      "appearances": [
+        {
+          "chartDate": "1975-04-26",
+          "position": 95
+        },
+        {
+          "chartDate": "1975-05-03",
+          "position": 94
+        },
+        {
+          "chartDate": "1975-05-10",
+          "position": 84
+        },
+        {
+          "chartDate": "1975-05-17",
+          "position": 78
+        }
+      ]
+    }
+  },
+  "dedupeText": "pencil sketch album cover style pencil drawing monochrome sketch southern gothic hand lettered arc graphite texture central seated figure anchored by a horizontal wooden bench arched display text mirroring the curve of the figure s hat or background elements vertical window frame dividing the background into distinct panes foreground objects like a trash bin and watering can providing depth graphite sketch medium subject arched hand drawn typography monochrome palette thick grey border",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Pencil Sketch Album Cover Style",
+      "category": "Illustration",
+      "medium": [
+        "Graphite Pencil",
+        "Cross-hatching",
+        "Sketching"
+      ],
+      "useCases": [
+        "Folk or Southern Rock album art",
+        "Nostalgic editorial illustrations",
+        "Hand-drawn book covers"
+      ],
+      "retrievalTags": [
+        "pencil drawing",
+        "monochrome sketch",
+        "southern gothic",
+        "hand-lettered arc",
+        "graphite texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A monochromatic graphite pencil sketch featuring a central figure on a bench with arched, hand-drawn typography and high-texture cross-hatching.",
+      "triggerTerms": [
+        "graphite pencil sketch style",
+        "hand-drawn monochrome illustration",
+        "arched block lettering sketch"
+      ],
+      "excludeWhen": [
+        "clean digital vectors are required",
+        "full color photography is requested",
+        "modern minimalist sans-serif layouts are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A detailed graphite pencil illustration depicting an elderly man sitting on a wooden bench in front of a window. The style is characterized by visible pencil strokes, varying pressure for shading, and a monochromatic grey palette. The composition is framed by a thick grey border, with text following a curved path at the top.",
+    "coreVisualRelationships": [
+      "Central seated figure anchored by a horizontal wooden bench",
+      "Arched display text mirroring the curve of the figure's hat or background elements",
+      "Vertical window frame dividing the background into distinct panes",
+      "Foreground objects like a trash bin and watering can providing depth"
+    ],
+    "coreInvariants": [
+      "Monochromatic grey-scale graphite medium",
+      "Visible cross-hatching and stippling textures",
+      "Hand-drawn, slightly irregular letterforms"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The seated man is the central focal point, scaled to occupy the middle third of the vertical space.",
+      "visualAnchor": "The horizontal lines of the wooden bench provide a stable base for the composition.",
+      "movementAndEyePath": "The eye starts at the arched text at the top, follows the vertical lines of the window down to the seated figure, and rests on the foreground details.",
+      "negativeSpace": "The grey border acts as a containment field, while the window panes provide 'breathing room' within the dense sketch."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-tone grey graphite",
+      "contrastColorRole": "Paper white highlights",
+      "accentColorRole": "Deep charcoal shadows",
+      "saturationAndValueRelationship": "Zero saturation; value is determined entirely by pencil density and pressure.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Heavy slab-serif and blocky sans-serif",
+      "letterConstructionRules": [
+        "Letters are drawn with thick graphite outlines and filled with lighter shading",
+        "The primary text follows a distinct upward arc",
+        "Irregular widths and hand-drawn imperfections are preserved"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' characters have a wide stance",
+        "The 'R' has a curved leg that mimics the overall arc of the text"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "custom-slab",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "textured pencil"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "arched",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "arch",
+            "overlap": "none",
+            "relationshipToImage": "integrated into the sky/background area"
+          },
+          "treatment": {
+            "fill": "shaded graphite",
+            "outline": "dark pencil",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "pencil grain",
+            "distortion": "hand-drawn variance"
+          }
+        }
+      ],
+      "pairingStrategy": "A secondary, smaller block-style sans-serif is used for subtitles, placed horizontally to contrast the arched main title.",
+      "graphicDevices": [
+        "Thick solid grey outer border",
+        "Horizontal divider lines for secondary text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Arched orientation",
+          "Hand-drawn texture",
+          "Blocky proportions"
+        ],
+        "avoid": [
+          "Clean digital vectors",
+          "Perfect geometric symmetry",
+          "High-contrast modern serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Woodcut or Linocut fonts",
+            "reason": "Captures the raw, carved feel of the hand-drawn letters",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Rough Slab Serifs",
+            "reason": "Matches the heavy weight and blunt terminals",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a detailed graphite pencil sketch of an elderly man in a hat sitting on a wooden bench in front of a window, using cross-hatching and stippling in monochrome grey.",
+        "overlayInstruction": "Add hand-drawn, arched block lettering at the top, ensuring the texture matches the pencil medium of the background."
+      },
+      "verificationChecks": [
+        "Is the medium strictly monochromatic graphite?",
+        "Does the text follow a curved arc?",
+        "Is there a thick grey border framing the image?",
+        "Are pencil strokes and textures visible?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject matter of the sketch",
+      "Curvature of the text arc",
+      "Density of the cross-hatching"
+    ],
+    "mustRedesign": [
+      "Any use of color",
+      "Clean, non-textured fonts",
+      "Photorealistic textures"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic pencil-on-paper texture",
+        "Consistent grayscale value range",
+        "Hand-lettered appearance"
+      ],
+      "avoid": [
+        "Digital airbrushing",
+        "Smooth gradients",
+        "Perfectly straight computer-generated lines"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for visible pencil grain in the shaded areas",
+      "Ensure the text arc is symmetrical relative to the center",
+      "Verify the border is a solid, flat grey",
+      "Confirm the figure and background share the same illustrative style"
+    ],
+    "reuseFormula": "Graphite sketch medium + [Subject] + Arched hand-drawn [Typography] + Monochrome palette + Thick grey border."
+  }
+}

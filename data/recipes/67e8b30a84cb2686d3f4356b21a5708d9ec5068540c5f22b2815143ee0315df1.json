@@ -1,0 +1,239 @@
+{
+  "id": "67e8b30a84cb2686d3f4356b21a5708d9ec5068540c5f22b2815143ee0315df1",
+  "skillId": "67e8b30a84cb2686d3f4356b21a5708d9ec5068540c5f22b2815143ee0315df1",
+  "versionId": "67e8b30a84cb2686d3f4356b21a5708d9ec5068540c5f22b2815143ee0315df1",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:08:08.337Z",
+  "approvedAt": "2026-08-12T16:08:08.337Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:08:08.337Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Immunity.jpg",
+    "hash": "67e8b30a84cb2686d3f4356b21a5708d9ec5068540c5f22b2815143ee0315df1",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Immunity",
+    "artist": "Clairo",
+    "artworkUrl": "https://coverartarchive.org/release-group/fc97b087-221c-4ea4-9dd9-5277a52eb84a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/fc97b087-221c-4ea4-9dd9-5277a52eb84a",
+    "releaseGroupId": "fc97b087-221c-4ea4-9dd9-5277a52eb84a",
+    "recordingId": "5860a83e-3655-41eb-a5af-10abf2f7bb7d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "SofiaClairo",
+      "song": "Sofia",
+      "performer": "Clairo",
+      "peakPosition": 98,
+      "firstChartDate": "2020-10-24",
+      "lastChartDate": "2020-10-24",
+      "appearances": [
+        {
+          "chartDate": "2020-10-24",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "indie pop portrait with blackletter accent indie pop soft lighting blackletter minimalist portrait film grain muted tones subject positioned on the left third of the frame high contrast white typography against a neutral wall warm skin tones against cool toned white clothing soft photographic focus versus sharp graphic text soft focus portrait muted cream palette top right blackletter wordmark indie pop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Indie Pop Portrait with Blackletter Accent",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Typography"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portraiture",
+        "Lifestyle Branding"
+      ],
+      "retrievalTags": [
+        "indie pop",
+        "soft lighting",
+        "blackletter",
+        "minimalist portrait",
+        "film grain",
+        "muted tones"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A soft-focus, intimate portrait of a young woman with a high-contrast blackletter title in the upper corner.",
+      "triggerTerms": [
+        "soft indie portrait",
+        "blackletter title overlay",
+        "muted film aesthetic"
+      ],
+      "excludeWhen": [
+        "high-energy action shots",
+        "vibrant neon colors",
+        "modern sans-serif branding"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A candid-style portrait of a young woman looking downward, characterized by warm, diffused indoor lighting and a muted color palette. The composition is balanced by a decorative blackletter wordmark in the upper right and small, sharp typographic details on the subject's arm.",
+    "coreVisualRelationships": [
+      "Subject positioned on the left third of the frame",
+      "High-contrast white typography against a neutral wall",
+      "Warm skin tones against cool-toned white clothing",
+      "Soft photographic focus versus sharp graphic text"
+    ],
+    "coreInvariants": [
+      "Upper-right corner placement for the primary display text",
+      "Muted, desaturated color palette with warm undertones",
+      "Soft-focus photographic quality with visible film grain"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left half of the frame, cropped from the waist up.",
+      "visualAnchor": "The subject's face and the white blackletter text in the top right corner.",
+      "movementAndEyePath": "Eyes start at the subject's face, move down to the arm detail, then up to the title text.",
+      "negativeSpace": "Significant negative space on the right side, provided by a plain, off-white wall."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white and cream (background and clothing)",
+      "contrastColorRole": "Warm browns and skin tones (subject)",
+      "accentColorRole": "Pure white (typography) and small red/green details (shirt graphic)",
+      "saturationAndValueRelationship": "Low saturation with mid-to-high value, creating a soft, hazy atmosphere.",
+      "paletteRestrictions": [
+        "No neon colors",
+        "No high-saturation primaries"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Blackletter / Fraktur",
+      "letterConstructionRules": [
+        "Heavy vertical strokes with sharp, decorative serifs",
+        "Intricate, swirling flourishes on capital letters",
+        "Tight letter spacing with high stroke contrast"
+      ],
+      "characterSpecificRedesigns": [
+        "The initial 'I' features an elongated, decorative swash"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Blackletter",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Sharp/Spiky",
+            "corners": "Angled",
+            "counters": "Narrow",
+            "strokeCharacter": "Calligraphic"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top right corner",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over background"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Pairing a decorative, historical blackletter with a clean, utilitarian sans-serif for secondary details.",
+      "graphicDevices": [
+        "Small-scale sans-serif text used as a 'tattoo' element on the subject's arm"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Blackletter style",
+          "Top-right placement",
+          "White color"
+        ],
+        "avoid": [
+          "Standard serifs",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Old English Text MT",
+            "reason": "Matches the traditional blackletter structure and weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Fette Fraktur",
+            "reason": "Provides the necessary calligraphic density and sharp terminals.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus portrait of a young woman in a white t-shirt against a cream wall, using a 35mm film aesthetic with warm lighting.",
+        "overlayInstruction": "Apply the title text in a white blackletter font in the top right corner, and add small, sharp sans-serif initials on the subject's forearm."
+      },
+      "verificationChecks": [
+        "Is the title text in the top right corner?",
+        "Is the font a decorative blackletter?",
+        "Is the overall image lighting soft and warm?",
+        "Is the color palette muted and natural?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's pose",
+      "Specific blackletter font choice",
+      "Intensity of film grain",
+      "Warmth of the color temperature"
+    ],
+    "mustRedesign": [
+      "Avoid using modern, clean sans-serifs for the main title",
+      "Do not use harsh, direct flash lighting"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, cinematic film grain",
+        "Balanced negative space",
+        "Legible but decorative typography"
+      ],
+      "avoid": [
+        "Over-sharpened digital look",
+        "Cluttered backgrounds",
+        "Bright, saturated primary colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast white text in the upper right",
+      "Ensure the subject's expression is contemplative/soft",
+      "Verify the presence of film-like texture",
+      "Confirm the blackletter font has sharp, calligraphic details"
+    ],
+    "reuseFormula": "Soft-focus portrait + Muted cream palette + Top-right Blackletter wordmark = Indie Pop Aesthetic"
+  }
+}

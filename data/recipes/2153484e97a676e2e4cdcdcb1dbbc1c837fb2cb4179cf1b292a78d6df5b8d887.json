@@ -1,0 +1,267 @@
+{
+  "id": "2153484e97a676e2e4cdcdcb1dbbc1c837fb2cb4179cf1b292a78d6df5b8d887",
+  "skillId": "2153484e97a676e2e4cdcdcb1dbbc1c837fb2cb4179cf1b292a78d6df5b8d887",
+  "versionId": "2153484e97a676e2e4cdcdcb1dbbc1c837fb2cb4179cf1b292a78d6df5b8d887",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:50:53.109Z",
+  "approvedAt": "2026-08-12T06:50:53.109Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:50:53.109Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Things & Other Things.jpg",
+    "hash": "2153484e97a676e2e4cdcdcb1dbbc1c837fb2cb4179cf1b292a78d6df5b8d887",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Things & Other Things",
+    "artist": "Bobby Darin",
+    "artworkUrl": "https://coverartarchive.org/release-group/9f43f017-558f-3eca-b079-d9c63163c636/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9f43f017-558f-3eca-b079-d9c63163c636",
+    "releaseGroupId": "9f43f017-558f-3eca-b079-d9c63163c636",
+    "recordingId": "4520511b-0c75-418a-a315-f19e5c5232f1",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Nature BoyBobby Darin",
+      "song": "Nature Boy",
+      "performer": "Bobby Darin",
+      "peakPosition": 40,
+      "firstChartDate": "1961-06-10",
+      "lastChartDate": "1961-07-15",
+      "appearances": [
+        {
+          "chartDate": "1961-06-10",
+          "position": 84
+        },
+        {
+          "chartDate": "1961-06-17",
+          "position": 66
+        },
+        {
+          "chartDate": "1961-06-24",
+          "position": 51
+        },
+        {
+          "chartDate": "1961-07-01",
+          "position": 47
+        },
+        {
+          "chartDate": "1961-07-08",
+          "position": 40
+        },
+        {
+          "chartDate": "1961-07-15",
+          "position": 48
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century pop album layout mid century modern bold red borders extended sans serif portrait framing 1960s typography typographic block anchored to the top edge vertical red bars creating a pillar like frame white internal border separating the image from the red frame tight cropping on the subject s face square layout subject portrait black header block extended sans serif text red vertical pillars",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Pop Album Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Offset Print",
+        "Photography",
+        "Graphic Layout"
+      ],
+      "useCases": [
+        "Vintage album cover recreation",
+        "1960s music marketing",
+        "Retro portrait framing"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "bold red borders",
+        "extended sans-serif",
+        "portrait framing",
+        "1960s typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A three-tier typographic header atop a central portrait, framed by thick red vertical borders and thin white internal margins.",
+      "triggerTerms": [
+        "1960s pop album style",
+        "bold red vertical frame",
+        "extended sans-serif header block"
+      ],
+      "excludeWhen": [
+        "minimalist modern designs",
+        "script-dominant layouts",
+        "landscape-oriented photography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A structured square layout featuring a central photographic portrait contained within a white-bordered inner frame, flanked by two wide red vertical bars. The top section contains a black rectangular block housing three lines of high-contrast, extended sans-serif typography.",
+    "coreVisualRelationships": [
+      "Typographic block anchored to the top edge",
+      "Vertical red bars creating a pillar-like frame",
+      "White internal border separating the image from the red frame",
+      "Tight cropping on the subject's face"
+    ],
+    "coreInvariants": [
+      "Square aspect ratio",
+      "Primary red, black, and white color palette",
+      "Extended width typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale central portrait occupying the bottom two-thirds of the inner frame.",
+      "visualAnchor": "The black typographic header block at the top.",
+      "movementAndEyePath": "Top-down flow from the bold title text to the subject's eyes.",
+      "negativeSpace": "Minimal; the frame is densely packed with color and image."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant Red (borders)",
+      "contrastColorRole": "Black (header background)",
+      "accentColorRole": "Yellow (primary title text)",
+      "saturationAndValueRelationship": "High saturation red and yellow against high-contrast black and white.",
+      "paletteRestrictions": [
+        "Red",
+        "Black",
+        "White",
+        "Yellow",
+        "Cyan"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extended Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Extreme horizontal extension",
+        "Tight letter spacing",
+        "Squared-off terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Ampersand is a stylized cyan script flourish overlapping the main text block"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Extended Sans-Serif",
+          "anatomy": {
+            "width": "extra-extended",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "wide",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separate block above"
+          },
+          "treatment": {
+            "fill": "yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Varying scale and color of the same extended sans-serif family across three lines.",
+      "graphicDevices": [
+        "Cyan script ampersand",
+        "Black rectangular text container",
+        "White inner border"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extended width",
+          "Uppercase styling",
+          "Black background for text"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Italics",
+          "Thin strokes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma Bold Extended",
+            "reason": "Matches the squared, wide geometric feel of the era.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Eurostile Bold Extended",
+            "reason": "Provides the necessary horizontal weight and modern look.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square image with a central portrait of a man. Add thick red vertical borders on the left and right sides. Add a thin white border inside the red bars. Leave a black rectangular space at the top for text.",
+        "overlayInstruction": "Apply three lines of uppercase extended sans-serif text in the top black block. The middle line should be yellow and larger than the white lines above and below it. Add a small cyan script ampersand on the left side overlapping the middle and bottom lines."
+      },
+      "verificationChecks": [
+        "Is the text block at the very top?",
+        "Are the red borders vertical and thick?",
+        "Is the font significantly wider than it is tall?",
+        "Is the middle line of text yellow?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Width of red borders",
+      "Color of the primary title line",
+      "Subject of the central portrait"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Record label logos",
+      "Original photo likeness"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast color blocking",
+        "Clean geometric typography",
+        "Balanced square composition"
+      ],
+      "avoid": [
+        "Distressed textures",
+        "Gradient fills",
+        "Modern digital drop shadows"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the white border is consistent around the photo.",
+      "Check that the text is perfectly centered within the black block.",
+      "Verify the cyan ampersand is present as a decorative element.",
+      "Confirm the red bars reach both top and bottom edges."
+    ],
+    "reuseFormula": "Square layout + [Subject Portrait] + [Black Header Block] + [Extended Sans-Serif Text] + [Red Vertical Pillars]"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:55:11.267Z"
+}

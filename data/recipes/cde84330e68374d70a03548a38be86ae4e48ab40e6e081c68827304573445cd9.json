@@ -1,0 +1,302 @@
+{
+  "id": "cde84330e68374d70a03548a38be86ae4e48ab40e6e081c68827304573445cd9",
+  "skillId": "cde84330e68374d70a03548a38be86ae4e48ab40e6e081c68827304573445cd9",
+  "versionId": "cde84330e68374d70a03548a38be86ae4e48ab40e6e081c68827304573445cd9",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T01:59:19.456Z",
+  "approvedAt": "2026-08-13T01:59:19.456Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T01:59:19.456Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Sensitive Sound of Dionne Warwick.jpg",
+    "hash": "cde84330e68374d70a03548a38be86ae4e48ab40e6e081c68827304573445cd9",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Sensitive Sound of Dionne Warwick",
+    "artist": "Dionne Warwick",
+    "artworkUrl": "https://coverartarchive.org/release-group/34725457-7693-3583-89c9-6486010cc384/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/34725457-7693-3583-89c9-6486010cc384",
+    "releaseGroupId": "34725457-7693-3583-89c9-6486010cc384",
+    "recordingId": "a7777863-0b75-4084-9733-9cde3d261691",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "You Can Have HimDionne Warwick",
+      "song": "You Can Have Him",
+      "performer": "Dionne Warwick",
+      "peakPosition": 75,
+      "firstChartDate": "1965-03-13",
+      "lastChartDate": "1965-05-01",
+      "appearances": [
+        {
+          "chartDate": "1965-03-13",
+          "position": 95
+        },
+        {
+          "chartDate": "1965-03-20",
+          "position": 92
+        },
+        {
+          "chartDate": "1965-04-10",
+          "position": 88
+        },
+        {
+          "chartDate": "1965-04-17",
+          "position": 85
+        },
+        {
+          "chartDate": "1965-04-24",
+          "position": 77
+        },
+        {
+          "chartDate": "1965-05-01",
+          "position": 75
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul portrait layout 1960s sepia tone high contrast portrait serif typography cyan accent soft bokeh background soul music aesthetic subject to background contrast via depth of field warm sepia image vs cool cyan typography asymmetrical balance between subject mass and text block intimate lighting emphasizing facial contours high contrast sepia portrait right aligned cyan serif typography soft bokeh background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Portrait Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Offset Printing",
+        "Typography"
+      ],
+      "useCases": [
+        "Vinyl record cover art",
+        "Jazz or Soul music posters",
+        "Vintage editorial portraits",
+        "Nostalgic book covers"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "sepia tone",
+        "high contrast portrait",
+        "serif typography",
+        "cyan accent",
+        "soft bokeh background",
+        "soul music aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, sepia-toned close-up portrait with a soft-focus background and right-aligned, two-tone serif typography.",
+      "triggerTerms": [
+        "1960s soul album cover style",
+        "sepia high contrast portrait with cyan text",
+        "vintage jazz record aesthetic"
+      ],
+      "excludeWhen": [
+        "modern vibrant photography is needed",
+        "minimalist sans-serif layouts are requested",
+        "full-body action shots are required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, intimate portrait of a person in profile or three-quarter view, rendered in a warm sepia or duotone palette with deep shadows. The subject is positioned on the left, looking downward or away, while the right side features a blurred, atmospheric background and stacked, elegant serif typography in a contrasting cool color.",
+    "coreVisualRelationships": [
+      "Subject-to-background contrast via depth of field",
+      "Warm sepia image vs. cool cyan typography",
+      "Asymmetrical balance between subject mass and text block",
+      "Intimate lighting emphasizing facial contours"
+    ],
+    "coreInvariants": [
+      "High-contrast sepia or monochrome photography",
+      "Soft-focus, bokeh-heavy background",
+      "Right-aligned text block",
+      "Serif-based typographic hierarchy"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left two-thirds of the frame, scaled as a close-up headshot.",
+      "visualAnchor": "The subject's face, specifically the highlights on the nose and cheek.",
+      "movementAndEyePath": "Starts at the subject's face, follows their downward gaze, then moves to the text block in the upper right.",
+      "negativeSpace": "The right side of the frame acts as active negative space, filled with soft bokeh and text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep brown and sepia tones for the photographic image.",
+      "contrastColorRole": "Cream or off-white for the highlights and background glow.",
+      "accentColorRole": "Muted cyan or teal for the primary typography.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast in the subject's face.",
+      "paletteRestrictions": [
+        "No primary reds or greens",
+        "No neon colors",
+        "Limited to sepia, cream, and one accent hue"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional and modern serifs.",
+      "letterConstructionRules": [
+        "Vertical stress in the larger display type",
+        "Fine, elegant serifs",
+        "Italicized upper lines for contrast"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 1,
+          "classification": "Serif Italic",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "ball",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "over background bokeh"
+          },
+          "treatment": {
+            "fill": "cyan",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "display",
+          "hierarchyLevel": 2,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "rigid"
+          },
+          "typesetting": {
+            "case": "all caps",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "extra-tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "middle right, below subtitle",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "over background bokeh"
+          },
+          "treatment": {
+            "fill": "cyan",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Italicized script-like serif paired with a bold, condensed all-caps serif.",
+      "graphicDevices": [
+        "Small rectangular logo block in bottom right corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right alignment",
+          "Cyan color",
+          "Serif classification"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Centered text",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "High contrast and vertical stress match the display type.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Baskerville Italic",
+            "reason": "Elegant, traditional feel for the subtitle lines.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast sepia-toned portrait of a person in profile, looking down, with a very shallow depth of field creating a warm, glowing bokeh background on the right side.",
+        "overlayInstruction": "Add right-aligned cyan text in the upper right quadrant. Use a light serif italic for the first two lines and a bold condensed all-caps serif for the main name, stacked closely."
+      },
+      "verificationChecks": [
+        "Is the image sepia-toned with high contrast?",
+        "Is the text right-aligned and cyan?",
+        "Is the background sufficiently blurred?",
+        "Does the typography use a mix of italics and all-caps serifs?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of sepia tint",
+      "Subject's gaze direction",
+      "Cyan hue saturation",
+      "Amount of background bokeh"
+    ],
+    "mustRedesign": [
+      "Original artist name and specific logos",
+      "Exact facial features of the subject",
+      "Specific record label branding"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s film grain and texture",
+        "Elegant, non-distorted typography",
+        "Balanced asymmetrical composition"
+      ],
+      "avoid": [
+        "Digital-looking sharpness",
+        "Default system fonts",
+        "Flat lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for grain consistency across the image",
+      "Ensure text legibility against the bokeh",
+      "Verify the sepia tone isn't overly yellow or red",
+      "Confirm the right-alignment of all text elements"
+    ],
+    "reuseFormula": "High-contrast sepia portrait + right-aligned cyan serif typography + soft bokeh background."
+  }
+}

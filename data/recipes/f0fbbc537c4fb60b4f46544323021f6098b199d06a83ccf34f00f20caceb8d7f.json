@@ -1,0 +1,293 @@
+{
+  "id": "f0fbbc537c4fb60b4f46544323021f6098b199d06a83ccf34f00f20caceb8d7f",
+  "skillId": "f0fbbc537c4fb60b4f46544323021f6098b199d06a83ccf34f00f20caceb8d7f",
+  "versionId": "f0fbbc537c4fb60b4f46544323021f6098b199d06a83ccf34f00f20caceb8d7f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:15:30.427Z",
+  "approvedAt": "2026-08-12T23:15:30.427Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:15:30.427Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Triumph.jpg",
+    "hash": "f0fbbc537c4fb60b4f46544323021f6098b199d06a83ccf34f00f20caceb8d7f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Triumph",
+    "artist": "The Jacksons",
+    "artworkUrl": "https://coverartarchive.org/release-group/923ff7f6-c31d-3665-b506-d85336e9f731/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/923ff7f6-c31d-3665-b506-d85336e9f731",
+    "releaseGroupId": "923ff7f6-c31d-3665-b506-d85336e9f731",
+    "recordingId": "ddc08434-fca1-4fea-a08a-20cdd0c78cd9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Walk Right NowThe Jacksons",
+      "song": "Walk Right Now",
+      "performer": "The Jacksons",
+      "peakPosition": 73,
+      "firstChartDate": "1981-06-27",
+      "lastChartDate": "1981-07-18",
+      "appearances": [
+        {
+          "chartDate": "1981-06-27",
+          "position": 83
+        },
+        {
+          "chartDate": "1981-07-04",
+          "position": 73
+        },
+        {
+          "chartDate": "1981-07-11",
+          "position": 73
+        },
+        {
+          "chartDate": "1981-07-18",
+          "position": 89
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro futuristic soul group portrait glowing aura chrome lettering group portrait cosmic soul 80s aesthetic pyramidal arrangement of subjects blue glow acting as a silhouette separator chrome typography anchored at the top center high contrast between dark skin tones and bright highlights group portrait blue silhouette glow chrome display typography black background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro-Futuristic Soul Group Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Airbrush Illustration",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Promotional band posters",
+        "Retro 80s themed graphics"
+      ],
+      "retrievalTags": [
+        "glowing aura",
+        "chrome lettering",
+        "group portrait",
+        "cosmic soul",
+        "80s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A multi-figure group portrait featuring a soft blue outer glow against a dark background with high-contrast chrome display typography.",
+      "triggerTerms": [
+        "glowing blue aura portrait",
+        "chrome futuristic lettering",
+        "80s soul album aesthetic"
+      ],
+      "excludeWhen": [
+        "minimalist modern photography",
+        "bright daylight settings",
+        "flat vector illustrations"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight cluster of five male figures in a pyramid formation, illuminated by a soft, ethereal blue halo that separates their dark silhouettes from a deep black background, topped by a metallic, beveled logo.",
+    "coreVisualRelationships": [
+      "Pyramidal arrangement of subjects",
+      "Blue glow acting as a silhouette separator",
+      "Chrome typography anchored at the top center",
+      "High contrast between dark skin tones and bright highlights"
+    ],
+    "coreInvariants": [
+      "Soft blue outer glow around the collective group silhouette"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Five subjects arranged in a tight, overlapping cluster occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The central metallic logo at the top center acts as the primary anchor.",
+      "movementAndEyePath": "The eye starts at the bright chrome logo, moves down through the central face, and circles through the surrounding portraits.",
+      "negativeSpace": "Deep black void surrounding the glowing group and the logo."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background providing high contrast.",
+      "contrastColorRole": "Electric blue used for the outer glow and highlights.",
+      "accentColorRole": "Silver/Chrome for the metallic typography.",
+      "saturationAndValueRelationship": "Low saturation in the subjects (near monochromatic) contrasted with high-value blue light and metallic reflections.",
+      "paletteRestrictions": [
+        "Black",
+        "Electric Blue",
+        "Silver",
+        "Deep Navy"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Extended geometric sans-serif",
+      "letterConstructionRules": [
+        "Heavy horizontal emphasis",
+        "Beveled edges with internal gradients",
+        "Connected letterforms in the main title",
+        "Central decorative emblem integrated into the letter 'O'"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'O' is replaced or augmented by a circular cosmic eye/flame emblem",
+        "The 'J' and 'S' have elongated, sweeping terminals"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "decorative-chrome",
+          "anatomy": {
+            "width": "ultra-expanded",
+            "weight": "bold",
+            "contrast": "high-bevel",
+            "xHeight": "high",
+            "terminals": "sharp-flared",
+            "corners": "rounded-outer-sharp-inner",
+            "counters": "small-circular",
+            "strokeCharacter": "metallic-gradient"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating-above"
+          },
+          "treatment": {
+            "fill": "silver-gradient",
+            "outline": "thin-blue-glow",
+            "shadow": "none",
+            "depth": "beveled-3d",
+            "texture": "polished-chrome",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "square",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right-aligned-under-main-title",
+            "tracking": "widely-spaced",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "below-main-title-right",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "white-or-light-blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A heavy, complex metallic display face paired with a clean, widely-spaced minimalist sans-serif.",
+      "graphicDevices": [
+        "Outer glow",
+        "Chrome beveling",
+        "Central flame/eye icon"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Chrome texture",
+          "Beveled edges",
+          "Wide tracking for subtitles"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Handwritten styles",
+          "Warm colors in the text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma Bold Extended",
+            "reason": "Matches the geometric, wide-set feel of the base skeleton.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Eurostile Bold",
+            "reason": "Provides the necessary 80s futuristic structure.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a group portrait of five men in a pyramid formation against a black background, with a soft electric blue glow outlining the entire group silhouette.",
+        "overlayInstruction": "Add a large, chrome-textured, beveled geometric title at the top center with a decorative circular emblem in the middle, and a small, widely-spaced sans-serif subtitle below it to the right."
+      },
+      "verificationChecks": [
+        "Is the blue glow present around the group?",
+        "Does the main title have a metallic chrome effect?",
+        "Is the composition a tight pyramid of faces?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the blue glow",
+      "Number of subjects in the group",
+      "Complexity of the chrome beveling"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original subjects",
+      "Exact brand logos",
+      "Unique central eye emblem design"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Seamless blue aura integration",
+        "Convincing metallic texture on text",
+        "High-contrast studio lighting on faces"
+      ],
+      "avoid": [
+        "Flat, untextured text",
+        "Hard edges on the blue glow",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for chrome-like reflections in the typography",
+      "Ensure the blue glow does not bleed into the faces excessively",
+      "Verify the pyramid arrangement of the subjects",
+      "Confirm the background is pure black"
+    ],
+    "reuseFormula": "Group portrait + blue silhouette glow + chrome display typography + black background."
+  }
+}

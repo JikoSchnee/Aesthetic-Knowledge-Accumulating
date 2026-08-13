@@ -1,0 +1,309 @@
+{
+  "id": "7fd0a0d646b380d90cc8912bc6f8c8f1e7bc5a06aec5193aca7f97bc249940ec",
+  "skillId": "7fd0a0d646b380d90cc8912bc6f8c8f1e7bc5a06aec5193aca7f97bc249940ec",
+  "versionId": "7fd0a0d646b380d90cc8912bc6f8c8f1e7bc5a06aec5193aca7f97bc249940ec",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T11:45:43.132Z",
+  "approvedAt": "2026-08-12T11:45:43.132Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T11:45:43.132Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Playgirl.jpg",
+    "hash": "7fd0a0d646b380d90cc8912bc6f8c8f1e7bc5a06aec5193aca7f97bc249940ec",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Playgirl",
+    "artist": "Thee Prophets",
+    "artworkUrl": "https://coverartarchive.org/release-group/0484f2bc-8c9c-4ee1-91e4-3247f1ecd95b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0484f2bc-8c9c-4ee1-91e4-3247f1ecd95b",
+    "releaseGroupId": "0484f2bc-8c9c-4ee1-91e4-3247f1ecd95b",
+    "recordingId": "c54dce1c-0bf3-4a25-9a39-69785655dae2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "PlaygirlThee Prophets",
+      "song": "Playgirl",
+      "performer": "Thee Prophets",
+      "peakPosition": 49,
+      "firstChartDate": "1969-03-08",
+      "lastChartDate": "1969-04-26",
+      "appearances": [
+        {
+          "chartDate": "1969-03-08",
+          "position": 96
+        },
+        {
+          "chartDate": "1969-03-15",
+          "position": 85
+        },
+        {
+          "chartDate": "1969-03-22",
+          "position": 68
+        },
+        {
+          "chartDate": "1969-03-29",
+          "position": 63
+        },
+        {
+          "chartDate": "1969-04-05",
+          "position": 50
+        },
+        {
+          "chartDate": "1969-04-12",
+          "position": 49
+        },
+        {
+          "chartDate": "1969-04-19",
+          "position": 57
+        },
+        {
+          "chartDate": "1969-04-26",
+          "position": 65
+        }
+      ]
+    }
+  },
+  "dedupeText": "psychedelic pop circular frame album art rainbow circle psychedelic pop 1960s typography circular frame band portrait retro color palette concentric rainbow rings framing a central photographic subject arched typography mirroring the curvature of the circular frame high contrast white background emphasizing the saturated color rings symmetrical balance between top and bottom text arcs central subject concentric primary color rings arched bold sans serif typography 1960s pop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Psychedelic Pop Circular Frame Album Art",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Illustration",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Vinyl record cover design",
+        "Retro 1960s music posters",
+        "Vintage-style editorial layouts"
+      ],
+      "retrievalTags": [
+        "rainbow circle",
+        "psychedelic pop",
+        "1960s typography",
+        "circular frame",
+        "band portrait",
+        "retro color palette"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A central group portrait enclosed within a concentric multi-colored rainbow ring, featuring arched display typography following the outer curve.",
+      "triggerTerms": [
+        "1960s psychedelic pop album cover",
+        "concentric rainbow circle frame",
+        "arched vintage display type",
+        "retro band portrait in a circle"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "dark or moody aesthetics",
+        "designs without circular framing"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition featuring a central photographic subject framed by a thick, multi-colored concentric ring. The ring consists of primary and secondary colors (red, blue, orange, yellow). Bold, stylized typography arches along the top and bottom edges of the circle, creating a balanced, symmetrical layout typical of late 1960s pop culture.",
+    "coreVisualRelationships": [
+      "Concentric rainbow rings framing a central photographic subject",
+      "Arched typography mirroring the curvature of the circular frame",
+      "High-contrast white background emphasizing the saturated color rings",
+      "Symmetrical balance between top and bottom text arcs"
+    ],
+    "coreInvariants": [
+      "The circular rainbow frame must consist of at least four distinct color bands."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central photographic group, scaled to fit within the inner diameter of the circular frame.",
+      "visualAnchor": "The multi-colored concentric ring serves as the primary visual anchor.",
+      "movementAndEyePath": "Circular motion starting from the top arched text, following the ring down to the bottom text, and settling on the central portrait.",
+      "negativeSpace": "Significant white space in the corners outside the circle and within the circle behind the subjects."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White background for high-key contrast.",
+      "contrastColorRole": "Black for all typographic elements.",
+      "accentColorRole": "Saturated red, blue, orange, and yellow for the concentric rings.",
+      "saturationAndValueRelationship": "High saturation in the graphic rings contrasted against a neutral, brightly lit photograph.",
+      "paletteRestrictions": [
+        "Primary and secondary colors only for the rings",
+        "Pure black for text"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavyweight sans-serif and stylized display faces",
+      "letterConstructionRules": [
+        "Top text uses a heavy, slightly flared sans-serif with tight kerning.",
+        "Bottom text uses a condensed, high-contrast sans-serif.",
+        "All text is warped along a circular path."
+      ],
+      "characterSpecificRedesigns": [
+        "Terminals on the top display face are slightly angled to follow the radial axis."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "stylized-sans",
+          "anatomy": {
+            "width": "wide",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flared",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered-arc",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-arc",
+            "scale": "large",
+            "rotation": "radial",
+            "warp": "circular-path",
+            "overlap": "none",
+            "relationshipToImage": "framing"
+          },
+          "treatment": {
+            "fill": "solid-black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "condensed-sans",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "tight",
+            "strokeCharacter": "varied"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered-arc",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom-arc",
+            "scale": "small",
+            "rotation": "radial",
+            "warp": "circular-path",
+            "overlap": "none",
+            "relationshipToImage": "framing"
+          },
+          "treatment": {
+            "fill": "solid-black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy display face for the title paired with a condensed functional face for secondary information.",
+      "graphicDevices": [
+        "Concentric circles",
+        "Radial text paths",
+        "Decorative star/asterisk separator"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Circular path alignment",
+          "Concentric color ring order",
+          "High-key white background"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Pastel colors",
+          "Drop shadows on text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Antique Olive Nord",
+            "reason": "Matches the heavy weight and slight flare of the top display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact or Univers Condensed",
+            "reason": "Provides the necessary verticality and density for the bottom arc.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square image with a white background. In the center, place a group of people in 1960s attire. Surround them with a thick frame made of four concentric rings in red, blue, orange, and yellow.",
+        "overlayInstruction": "Apply black uppercase text along the top outer edge of the circle using a heavy flared sans-serif. Apply smaller black uppercase text along the bottom outer edge using a condensed sans-serif, separating items with bullets."
+      },
+      "verificationChecks": [
+        "Is the text perfectly aligned to the circular path?",
+        "Are the four color rings distinct and saturated?",
+        "Is the background pure white?",
+        "Is the central portrait contained within the inner ring?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of color rings",
+      "Color palette of the rings",
+      "Subject matter inside the circle",
+      "Arc angle of the typography"
+    ],
+    "mustRedesign": [
+      "Modern digital gradients",
+      "Lower-case typography",
+      "Transparent backgrounds"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean vector-like color rings",
+        "Precise radial typesetting",
+        "High-contrast legibility"
+      ],
+      "avoid": [
+        "Blurry edges on the rings",
+        "Overlapping text and rings",
+        "Muted or desaturated colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for text legibility along the curve.",
+      "Ensure the color rings are concentric and not eccentric.",
+      "Verify the white balance of the central image matches the background.",
+      "Confirm the decorative asterisk is centered between top words."
+    ],
+    "reuseFormula": "Central subject + Concentric primary-color rings + Arched bold sans-serif typography = 1960s Pop Aesthetic."
+  }
+}

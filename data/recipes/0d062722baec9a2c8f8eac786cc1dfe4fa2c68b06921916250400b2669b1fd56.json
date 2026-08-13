@@ -1,0 +1,242 @@
+{
+  "id": "0d062722baec9a2c8f8eac786cc1dfe4fa2c68b06921916250400b2669b1fd56",
+  "skillId": "0d062722baec9a2c8f8eac786cc1dfe4fa2c68b06921916250400b2669b1fd56",
+  "versionId": "0d062722baec9a2c8f8eac786cc1dfe4fa2c68b06921916250400b2669b1fd56",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:57:20.049Z",
+  "approvedAt": "2026-08-13T04:57:20.049Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:57:20.049Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Dirty Computer.jpg",
+    "hash": "0d062722baec9a2c8f8eac786cc1dfe4fa2c68b06921916250400b2669b1fd56",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Dirty Computer",
+    "artist": "Janelle Monae",
+    "artworkUrl": "https://coverartarchive.org/release-group/c3b6435c-2698-4909-9879-d80439e180fe/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c3b6435c-2698-4909-9879-d80439e180fe",
+    "releaseGroupId": "c3b6435c-2698-4909-9879-d80439e180fe",
+    "recordingId": "fd7c0edc-9517-4f63-92ad-19e1dff8b559",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Make Me FeelJanelle Monae",
+      "song": "Make Me Feel",
+      "performer": "Janelle Monae",
+      "peakPosition": 99,
+      "firstChartDate": "2018-03-10",
+      "lastChartDate": "2018-03-10",
+      "appearances": [
+        {
+          "chartDate": "2018-03-10",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "celestial jeweled portrait rhinestone mask halo lighting vertical typography afrofuturism jeweled veil gradient orb the circular halo acts as a frame for the head and shoulders the rhinestone mesh creates a complex texture that contrasts with the smooth skin vertical typography balances the central circular composition warm internal lighting on the face contrasts with the cool atmospheric background portrait jeweled mesh gradient orb backdrop vertical left aligned typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Celestial Jeweled Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Jewelry Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Fashion Editorial",
+        "Afrofuturist Visuals"
+      ],
+      "retrievalTags": [
+        "rhinestone mask",
+        "halo lighting",
+        "vertical typography",
+        "afrofuturism",
+        "jeweled veil",
+        "gradient orb"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered portrait featuring a subject in a complex rhinestone mesh veil against a vibrant, glowing circular halo with vertical side-aligned typography.",
+      "triggerTerms": [
+        "jeweled mesh face covering",
+        "glowing circular backdrop",
+        "vertical text on left margin",
+        "iridescent skin tones"
+      ],
+      "excludeWhen": [
+        "minimalist black and white photography",
+        "horizontal landscape layouts",
+        "sans-serif centered text"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast portrait of a person wearing an intricate, draped rhinestone headpiece that veils the face. The subject is framed by a large, glowing yellow-to-pink gradient orb, set against a textured, smoky blue-grey background. Text is oriented vertically along the left edge.",
+    "coreVisualRelationships": [
+      "The circular halo acts as a frame for the head and shoulders.",
+      "The rhinestone mesh creates a complex texture that contrasts with the smooth skin.",
+      "Vertical typography balances the central circular composition.",
+      "Warm internal lighting on the face contrasts with the cool atmospheric background."
+    ],
+    "coreInvariants": [
+      "Intricate rhinestone or crystal mesh draping over the face",
+      "Large glowing circular halo backdrop",
+      "Vertical text alignment along the left vertical axis"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered, medium close-up portrait from chest up.",
+      "visualAnchor": "The eyes visible through the rhinestone mesh.",
+      "movementAndEyePath": "From the glowing halo to the face, then down the draped jewels to the vertical text on the left.",
+      "negativeSpace": "Textured atmospheric space in the corners outside the central orb."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm yellow and pink gradient within the central orb.",
+      "contrastColorRole": "Cool muted blue and grey in the background.",
+      "accentColorRole": "High-key white specular highlights on the rhinestones.",
+      "saturationAndValueRelationship": "High saturation in the center fading to desaturated textures at the edges.",
+      "paletteRestrictions": [
+        "Yellow-to-magenta gradient",
+        "Deep teal/grey background",
+        "Warm skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric sans-serif and stylized display",
+      "letterConstructionRules": [
+        "Vertical orientation (rotated 90 degrees counter-clockwise)",
+        "High contrast between display title and metadata text",
+        "Elongated proportions for the main title"
+      ],
+      "characterSpecificRedesigns": [
+        "Custom stylized glyphs for the main title with sharp, angular terminals"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "stylized-display",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "angular",
+            "counters": "tight",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "left-center margin",
+            "scale": "medium",
+            "rotation": "-90deg",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated"
+          },
+          "treatment": {
+            "fill": "off-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A highly stylized, angular display face paired with a clean, minimal geometric sans-serif for secondary info.",
+      "graphicDevices": [
+        "Vertical text baseline",
+        "Small metadata text in the top left corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical orientation",
+          "Left-side placement",
+          "Angular display style"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Horizontal placement",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Custom Angular Display",
+            "reason": "Matches the sharp, futuristic aesthetic of the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura or Montserrat",
+            "reason": "Appropriate for the clean, geometric secondary metadata.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a person with iridescent skin wearing a complex rhinestone mesh veil. Place a large glowing yellow and pink circular orb behind the head. The background should be a smoky, textured blue-grey.",
+        "overlayInstruction": "Add vertical text along the left margin, rotated 90 degrees counter-clockwise. Use a stylized angular font for the main title and a small geometric sans-serif for the name at the bottom left."
+      },
+      "verificationChecks": [
+        "Is the text oriented vertically on the left?",
+        "Is the rhinestone mesh detailed and reflective?",
+        "Is the circular halo a smooth yellow-to-pink gradient?",
+        "Is the background textured and cool-toned?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of the rhinestone mesh",
+      "Color of the gradient orb",
+      "Intensity of the atmospheric smoke",
+      "Font weight of the vertical text"
+    ],
+    "mustRedesign": [
+      "Specific artist names or logos",
+      "Unique jewelry patterns that are trademarked",
+      "Exact proprietary font faces"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Realistic light refraction in the crystals",
+        "Smooth color transitions in the halo",
+        "Clear legibility of the vertical text"
+      ],
+      "avoid": [
+        "Flat, non-reflective 'dots' instead of crystals",
+        "Banded gradients in the orb",
+        "Cluttered backgrounds that obscure the silhouette"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the rhinestone veil follows the contours of the face.",
+      "Ensure the vertical text does not overlap the central subject.",
+      "Verify the glow from the orb interacts with the subject's shoulders.",
+      "Confirm the background texture is visible but not distracting."
+    ],
+    "reuseFormula": "Portrait + Jeweled Mesh + Gradient Orb Backdrop + Vertical Left-Aligned Typography"
+  }
+}

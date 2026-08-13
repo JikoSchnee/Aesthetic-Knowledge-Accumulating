@@ -1,0 +1,245 @@
+{
+  "id": "c6f57a5825ab36d2c48fa65c0ddee75115c208b6011f268d00712e609e007906",
+  "skillId": "c6f57a5825ab36d2c48fa65c0ddee75115c208b6011f268d00712e609e007906",
+  "versionId": "c6f57a5825ab36d2c48fa65c0ddee75115c208b6011f268d00712e609e007906",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:48:25.617Z",
+  "approvedAt": "2026-08-12T22:48:25.617Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:48:25.617Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Revival.jpg",
+    "hash": "c6f57a5825ab36d2c48fa65c0ddee75115c208b6011f268d00712e609e007906",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Revival",
+    "artist": "Eminem",
+    "artworkUrl": "https://coverartarchive.org/release-group/cfc62e61-686c-46cd-a453-608979646f71/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/cfc62e61-686c-46cd-a453-608979646f71",
+    "releaseGroupId": "cfc62e61-686c-46cd-a453-608979646f71",
+    "recordingId": "1a4a3a2a-ec42-4f6f-9a5b-b0afd0920604",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "UntouchableEminem",
+      "song": "Untouchable",
+      "performer": "Eminem",
+      "peakPosition": 86,
+      "firstChartDate": "2017-12-30",
+      "lastChartDate": "2017-12-30",
+      "appearances": [
+        {
+          "chartDate": "2017-12-30",
+          "position": 86
+        }
+      ]
+    }
+  },
+  "dedupeText": "patriotic melancholy album cover american flag translucent overlay desaturated red white blue hand silhouette heavy fabric texture underlined display type translucent flag fabric layered over a human silhouette diagonal folds in the fabric creating depth and shadow top right justified display text balanced by bottom right advisory label muted red and blue tones contrasting with stark white stars translucent subject weathered textile flag overlay extended bold sans serif underline bar",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Patriotic Melancholy Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Political Commentary Graphics",
+        "Social Justice Visuals"
+      ],
+      "retrievalTags": [
+        "American flag",
+        "translucent overlay",
+        "desaturated red white blue",
+        "hand silhouette",
+        "heavy fabric texture",
+        "underlined display type"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A desaturated, textured American flag draped over a human figure, featuring a translucent overlay effect and bold, underlined sans-serif typography in the upper right.",
+      "triggerTerms": [
+        "flag draped over person",
+        "translucent flag overlay",
+        "desaturated patriotic aesthetic",
+        "underlined bold sans-serif title"
+      ],
+      "excludeWhen": [
+        "vibrant or celebratory patriotic themes",
+        "clean vector flags",
+        "minimalist white backgrounds"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition featuring a close-up, high-texture American flag with visible fabric weave. The flag is semi-transparent, revealing a human hand or face pressed against it from behind. The color palette is muted and desaturated. A bold, blocky title sits in the top right corner, underlined by a thick red bar.",
+    "coreVisualRelationships": [
+      "Translucent flag fabric layered over a human silhouette",
+      "Diagonal folds in the fabric creating depth and shadow",
+      "Top-right justified display text balanced by bottom-right advisory label",
+      "Muted red and blue tones contrasting with stark white stars"
+    ],
+    "coreInvariants": [
+      "Visible textile weave and fabric grain",
+      "Desaturated color grading with a sepia or brown undertone",
+      "Semi-transparent layering effect between subject and flag"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The flag occupies the entire frame, while the human figure is centered behind the fabric at a 1:1 scale.",
+      "visualAnchor": "The human hand visible through the blue field of stars.",
+      "movementAndEyePath": "Eyes start at the central hand, move to the top-right title, and follow the diagonal folds down to the bottom-right label.",
+      "negativeSpace": "Minimal; the frame is filled with texture and fabric."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated navy blue and muted off-white stars.",
+      "contrastColorRole": "Deep shadows and dark brown tones from the figure behind.",
+      "accentColorRole": "Muted crimson red in the stripes and the title underline.",
+      "saturationAndValueRelationship": "Low saturation across all channels with high contrast in the shadows of the fabric folds.",
+      "paletteRestrictions": [
+        "No neon or vibrant primary colors",
+        "No pure white; use cream or light grey"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extended bold sans-serif",
+      "letterConstructionRules": [
+        "Heavy horizontal weight",
+        "Square terminals",
+        "Minimal kerning",
+        "Stretched or extended proportions"
+      ],
+      "characterSpecificRedesigns": [
+        "The letter 'A' lacks a horizontal crossbar, appearing as an inverted 'V'",
+        "The letter 'E' has shortened middle bars"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating-overlay"
+          },
+          "treatment": {
+            "fill": "off-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family with a thick horizontal graphic bar for emphasis.",
+      "graphicDevices": [
+        "Thick red horizontal underline",
+        "Rectangular advisory box in the bottom right"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extended width",
+          "Heavy weight",
+          "Underline bar"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma Bold Extended",
+            "reason": "Matches the square, wide, industrial feel of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Eurostile Black",
+            "reason": "Provides the necessary geometric structure and weight.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-resolution photograph of a weathered American flag with a visible linen texture. Use a double-exposure or translucent effect to show a person's hand and face pressed against the fabric from behind. Apply a desaturated, moody color grade with deep shadows in the folds.",
+        "overlayInstruction": "Add a bold, extended sans-serif title in the top right corner in off-white. Place a thick red horizontal bar directly underneath the text. Add a standard parental advisory label in the bottom right corner."
+      },
+      "verificationChecks": [
+        "Is the fabric texture clearly visible?",
+        "Is the human figure visible but obscured by the flag?",
+        "Is the title text extended and bold?",
+        "Is the color palette desaturated and somber?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Opacity of the flag overlay",
+      "Intensity of the fabric grain",
+      "Thickness of the red underline bar",
+      "Degree of color desaturation"
+    ],
+    "mustRedesign": [
+      "Avoid using specific brand logos",
+      "Do not replicate the exact facial features of the subject",
+      "Ensure the text is a generic placeholder"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile fabric quality",
+        "Somber, reflective mood",
+        "Clear typographic hierarchy"
+      ],
+      "avoid": [
+        "Plastic-looking textures",
+        "Bright, saturated primary colors",
+        "Centered, small typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the 'A' in the title is stylized without a crossbar.",
+      "Verify the red underline is perfectly horizontal and matches the text width.",
+      "Ensure the flag's stars are slightly distorted by the fabric folds.",
+      "Confirm the overall image has a square 1:1 aspect ratio."
+    ],
+    "reuseFormula": "Translucent [Subject] + Weathered [Textile/Flag] Overlay + Extended Bold Sans-Serif + Underline Bar"
+  }
+}

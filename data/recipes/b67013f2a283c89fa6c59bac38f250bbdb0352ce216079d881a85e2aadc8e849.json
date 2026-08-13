@@ -1,0 +1,305 @@
+{
+  "id": "b67013f2a283c89fa6c59bac38f250bbdb0352ce216079d881a85e2aadc8e849",
+  "skillId": "b67013f2a283c89fa6c59bac38f250bbdb0352ce216079d881a85e2aadc8e849",
+  "versionId": "b67013f2a283c89fa6c59bac38f250bbdb0352ce216079d881a85e2aadc8e849",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:38:20.698Z",
+  "approvedAt": "2026-08-12T21:38:20.698Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:38:20.698Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Standing on the Edge.jpg",
+    "hash": "b67013f2a283c89fa6c59bac38f250bbdb0352ce216079d881a85e2aadc8e849",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Standing on the Edge",
+    "artist": "Frankie Miller",
+    "artworkUrl": "https://coverartarchive.org/release-group/911ed0ac-8c2a-3d1f-af7b-2dc9fbb286fa/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/911ed0ac-8c2a-3d1f-af7b-2dc9fbb286fa",
+    "releaseGroupId": "911ed0ac-8c2a-3d1f-af7b-2dc9fbb286fa",
+    "recordingId": "10bfb999-02b6-4cf1-a9d3-bae85f46477b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "To Dream The DreamFrankie Miller",
+      "song": "To Dream The Dream",
+      "performer": "Frankie Miller",
+      "peakPosition": 62,
+      "firstChartDate": "1982-06-19",
+      "lastChartDate": "1982-07-24",
+      "appearances": [
+        {
+          "chartDate": "1982-06-19",
+          "position": 88
+        },
+        {
+          "chartDate": "1982-06-26",
+          "position": 81
+        },
+        {
+          "chartDate": "1982-07-03",
+          "position": 74
+        },
+        {
+          "chartDate": "1982-07-10",
+          "position": 64
+        },
+        {
+          "chartDate": "1982-07-17",
+          "position": 62
+        },
+        {
+          "chartDate": "1982-07-24",
+          "position": 79
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro rock portrait with graphic typography shag haircut red gradient background monogram logo studio portrait 80s aesthetic high contrast lighting subject centered with direct eye contact typography anchored to the top right corner foreground elements creating a horizontal visual break warm studio lighting highlighting hair texture studio portrait red gradient geometric monogram lockup",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Rock Portrait with Graphic Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Studio Lighting",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Classic Rock Album Covers",
+        "80s Music Promotion",
+        "Vintage Editorial Portraits"
+      ],
+      "retrievalTags": [
+        "shag haircut",
+        "red gradient background",
+        "monogram logo",
+        "studio portrait",
+        "80s aesthetic",
+        "high-contrast lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast studio portrait featuring a central subject against a vibrant red gradient, utilizing a distinct monogram-based typographic layout in the upper right quadrant.",
+      "triggerTerms": [
+        "80s rock portrait",
+        "red studio backdrop with vignette",
+        "monogram overlay typography",
+        "shaggy hair male portrait"
+      ],
+      "excludeWhen": [
+        "minimalist modern photography",
+        "outdoor natural lighting",
+        "flat vector illustration"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium close-up of a male subject with 1970s-80s shaggy hair, positioned centrally against a deep red background that transitions to black at the edges. The foreground features a stylized interaction with legs in high-heeled sandals, while the upper right corner is occupied by a multi-layered typographic lockup including a large monogram and secondary sans-serif text.",
+    "coreVisualRelationships": [
+      "Subject centered with direct eye contact",
+      "Typography anchored to the top-right corner",
+      "Foreground elements creating a horizontal visual break",
+      "Warm studio lighting highlighting hair texture"
+    ],
+    "coreInvariants": [
+      "Deep red to black radial gradient background",
+      "High-contrast rim lighting on the hair",
+      "Right-aligned typographic hierarchy"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the central 60% of the frame, medium shot from chest up.",
+      "visualAnchor": "The subject's face and the large white monogram in the top right.",
+      "movementAndEyePath": "From the subject's eyes to the monogram, then down through the foreground limbs.",
+      "negativeSpace": "Concentrated in the upper left and lower right corners to balance the text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant Red (Background)",
+      "contrastColorRole": "Black (Clothing and Vignette)",
+      "accentColorRole": "Cream/White (Primary Typography)",
+      "saturationAndValueRelationship": "High saturation in the background with deep shadows in the subject's clothing.",
+      "paletteRestrictions": [
+        "Crimson",
+        "Ebony",
+        "Cream",
+        "Skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Monogram uses oversized, heavy-weight characters",
+        "Secondary text uses wide tracking and thin strokes",
+        "Horizontal rule line bisects the monogram"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'F' and 'M' are vertically stacked and interlocking",
+        "Horizontal bar extends from the center of the monogram across the width of the secondary name"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered within lockup",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over background",
+            "relationshipToImage": "anchored to corner"
+          },
+          "treatment": {
+            "fill": "cream",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "display",
+          "hierarchyLevel": 2,
+          "classification": "monolinear sans",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "square",
+            "corners": "sharp",
+            "counters": "circular",
+            "strokeCharacter": "thin"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "very wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "adjacent to monogram",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "integrated with logo"
+          },
+          "treatment": {
+            "fill": "cream",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Scale contrast between a heavy monogram and light, airy secondary text.",
+      "graphicDevices": [
+        "Horizontal hairline rule",
+        "Color-blocked text (blue) for subtitle"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Monogram stacking",
+          "Wide tracking on secondary text",
+          "Horizontal rule"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Matches the geometric weight of the monogram",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Provides the correct 70s/80s geometric feel for the secondary text",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a man with a 1980s shaggy haircut wearing a black turtleneck, set against a deep red radial gradient background that fades to black at the edges. Include a foreground element of crossed legs in gold strappy heels.",
+        "overlayInstruction": "Apply a typographic lockup in the top right corner. Create a large cream-colored 'FM' monogram with a horizontal line cutting through the middle. Place the artist name in a thin, wide-tracked sans-serif font to the right of the monogram, and a blue subtitle below."
+      },
+      "verificationChecks": [
+        "Is the monogram the largest typographic element?",
+        "Does the background have a visible red-to-black gradient?",
+        "Is the secondary text tracking sufficiently wide?",
+        "Is the lighting high-contrast on the subject's hair?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue",
+      "Monogram characters",
+      "Hair length of subject",
+      "Subtitle color"
+    ],
+    "mustRedesign": [
+      "Specific artist name",
+      "Exact shoe design",
+      "Specific facial features"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean geometric typography",
+        "Smooth color gradients",
+        "Sharp focus on the face"
+      ],
+      "avoid": [
+        "Muddy colors",
+        "Cluttered backgrounds",
+        "Illegible overlapping text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for typographic alignment with the horizontal rule",
+      "Ensure the red background doesn't wash out skin tones",
+      "Verify the monogram is cream/off-white, not pure white",
+      "Confirm the 80s studio lighting aesthetic is maintained"
+    ],
+    "reuseFormula": "Studio Portrait + Red Gradient + Geometric Monogram Lockup"
+  }
+}

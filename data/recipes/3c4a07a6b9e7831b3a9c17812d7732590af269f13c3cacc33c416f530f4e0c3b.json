@@ -1,0 +1,267 @@
+{
+  "id": "3c4a07a6b9e7831b3a9c17812d7732590af269f13c3cacc33c416f530f4e0c3b",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T20:44:05.914Z",
+  "approvedAt": "2026-08-11T20:44:05.914Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T20:44:05.914Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "I Wanna Be Free.jpg",
+    "hash": "3c4a07a6b9e7831b3a9c17812d7732590af269f13c3cacc33c416f530f4e0c3b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "I Wanna Be Free",
+    "artist": "Loretta Lynn",
+    "artworkUrl": "https://coverartarchive.org/release-group/b500e096-6b70-4b8c-a2bb-eba02ce66400/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b500e096-6b70-4b8c-a2bb-eba02ce66400",
+    "releaseGroupId": "b500e096-6b70-4b8c-a2bb-eba02ce66400",
+    "recordingId": "d33af564-1170-4f5e-9631-f687bc5a6973",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I Wanna Be FreeLoretta Lynn",
+      "song": "I Wanna Be Free",
+      "performer": "Loretta Lynn",
+      "peakPosition": 94,
+      "firstChartDate": "1971-04-24",
+      "lastChartDate": "1971-05-01",
+      "appearances": [
+        {
+          "chartDate": "1971-04-24",
+          "position": 94
+        },
+        {
+          "chartDate": "1971-05-01",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage country portrait layout 1970s portrait warm tones western typography soft focus grainy texture subject occupies the right two thirds of the frame warm background color harmonizes with skin tones and hair highlights typography is nested in the negative space created by the subject s head and shoulder soft diffused lighting creates a gentle transition between subject and background portrait on right warm textured field on left ornate western display text script subtitle vintage country aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Country Portrait Layout",
+      "category": "Album Cover Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Analog Film"
+      ],
+      "useCases": [
+        "Music Packaging",
+        "Retro Editorial",
+        "Poster Design"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "portrait",
+        "warm tones",
+        "western typography",
+        "soft focus",
+        "grainy texture"
+      ]
+    },
+    "visualDefinition": "A close-up, slightly angled portrait of a woman with dark hair against a warm, textured yellow-orange background, featuring stylized decorative typography in the upper left corner.",
+    "coreVisualRelationships": [
+      "Subject occupies the right two-thirds of the frame",
+      "Warm background color harmonizes with skin tones and hair highlights",
+      "Typography is nested in the negative space created by the subject's head and shoulder",
+      "Soft, diffused lighting creates a gentle transition between subject and background"
+    ],
+    "coreInvariants": [
+      "Warm amber/honey color palette",
+      "Soft-focus analog photography style",
+      "Upper-left typographic alignment"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale head and shoulders portrait, positioned on the right, looking toward the left edge.",
+      "visualAnchor": "The subject's eyes and the bold, decorative title in the upper left.",
+      "movementAndEyePath": "From the subject's gaze on the right, across to the text on the left, then down the flowing hair.",
+      "negativeSpace": "Solid but textured warm field in the upper left provides a canvas for the primary text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm Ochre/Amber (Background and highlights)",
+      "contrastColorRole": "Deep Brown/Black (Hair and shadows)",
+      "accentColorRole": "Teal or Blue-Green (Text outline/fill)",
+      "saturationAndValueRelationship": "High saturation in the warm tones with low-to-medium value contrast for a soft, vintage feel.",
+      "paletteRestrictions": [
+        "Avoid cool blues except as small typographic accents",
+        "No harsh whites or neon colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Western-influenced decorative serif",
+      "letterConstructionRules": [
+        "Heavy vertical strokes with thin horizontal connectors",
+        "Exaggerated, curling swashes on ascenders and descenders",
+        "Interlocking or overlapping character placement"
+      ],
+      "characterSpecificRedesigns": [
+        "Capital letters feature ornate, whip-like tails",
+        "Lowercase letters are tightly kerned and nested"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "decorative-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "flared/swashed",
+            "corners": "rounded",
+            "counters": "small",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "staggered",
+            "density": "high"
+          },
+          "composition": {
+            "position": "upper-left quadrant",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "slight upward arc",
+            "overlap": "characters touch or overlap",
+            "relationshipToImage": "placed in negative space"
+          },
+          "treatment": {
+            "fill": "gradient or solid teal",
+            "outline": "thin white or cream",
+            "shadow": "soft drop shadow",
+            "depth": "flat with dimension through outline",
+            "texture": "none",
+            "distortion": "hand-drawn irregularities"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "light",
+            "contrast": "medium",
+            "xHeight": "low",
+            "terminals": "looped",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "low"
+          },
+          "composition": {
+            "position": "directly below display text",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "secondary element"
+          },
+          "treatment": {
+            "fill": "dark brown or black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Ornate, heavy decorative display paired with a delicate, flowing cursive script.",
+      "graphicDevices": [
+        "Keyline borders",
+        "Drop shadows on primary text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Swashed ascenders",
+          "Teal/Cream color contrast in text"
+        ],
+        "avoid": [
+          "Modern sans-serifs",
+          "Geometric precision"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Westward or Victorian display",
+            "reason": "Captures the heavy, ornate western aesthetic",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "1970s Psych-Rock lettering",
+            "reason": "Matches the organic, flowing curves of the era",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus 1970s style portrait of a woman with long dark hair, looking slightly off-camera. Use a warm amber-yellow textured background. Lighting should be soft and warm, reminiscent of 35mm film.",
+        "overlayInstruction": "Apply a large decorative western-style title in the upper left using teal with a white outline. Below it, add a smaller line of text in a delicate black script."
+      },
+      "verificationChecks": [
+        "Is the background a warm, textured yellow?",
+        "Does the primary text have ornate swashes?",
+        "Is the subject positioned on the right side of the frame?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background saturation",
+      "Typographic swash intensity",
+      "Subject's gaze direction"
+    ],
+    "mustRedesign": [
+      "Specific facial features to avoid likeness",
+      "Exact logo placements",
+      "Unique brand identifiers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Analog film grain texture",
+        "Warm color harmony",
+        "Hand-lettered feel for display text"
+      ],
+      "avoid": [
+        "Digital sharpness",
+        "Cold color palettes",
+        "Default system fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 1970s film aesthetic accuracy",
+      "Ensure text is legible but highly decorative",
+      "Verify the balance between subject and negative space",
+      "Confirm the teal/amber color contrast works effectively"
+    ],
+    "reuseFormula": "Portrait on right + Warm textured field on left + Ornate Western display text + Script subtitle = Vintage Country Aesthetic"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:07:05.531Z"
+}

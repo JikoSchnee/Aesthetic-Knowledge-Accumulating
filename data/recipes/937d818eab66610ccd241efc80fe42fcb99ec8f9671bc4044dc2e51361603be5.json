@@ -1,0 +1,281 @@
+{
+  "id": "937d818eab66610ccd241efc80fe42fcb99ec8f9671bc4044dc2e51361603be5",
+  "skillId": "937d818eab66610ccd241efc80fe42fcb99ec8f9671bc4044dc2e51361603be5",
+  "versionId": "937d818eab66610ccd241efc80fe42fcb99ec8f9671bc4044dc2e51361603be5",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:56:14.103Z",
+  "approvedAt": "2026-08-13T04:56:14.103Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:56:14.103Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Under the Mistletoe.jpg",
+    "hash": "937d818eab66610ccd241efc80fe42fcb99ec8f9671bc4044dc2e51361603be5",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Under the Mistletoe",
+    "artist": "Justin Bieber Duet With Mariah Carey",
+    "artworkUrl": "https://coverartarchive.org/release-group/5708e8f4-71a5-4f47-9b30-d36a0e3bdc56/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5708e8f4-71a5-4f47-9b30-d36a0e3bdc56",
+    "releaseGroupId": "5708e8f4-71a5-4f47-9b30-d36a0e3bdc56",
+    "recordingId": "8a703e67-0079-4ccb-aa5d-ab192e147b01",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "All I Want For Christmas Is You (SuperFestive!)Justin Bieber Duet With Mariah Carey",
+      "song": "All I Want For Christmas Is You (SuperFestive!)",
+      "performer": "Justin Bieber Duet With Mariah Carey",
+      "peakPosition": 86,
+      "firstChartDate": "2011-11-19",
+      "lastChartDate": "2011-11-19",
+      "appearances": [
+        {
+          "chartDate": "2011-11-19",
+          "position": 86
+        }
+      ]
+    }
+  },
+  "dedupeText": "holiday pop portrait with glitter typography glitter text snow bokeh leather jacket high key lighting red sparkle script overlay high contrast black leather against a bright white background red glitter texture providing a festive focal point against neutral tones soft snow bokeh overlaying the sharp studio portrait bold geometric sans serif paired with fluid handwritten script studio portrait high key white snow bokeh glitter display type overlaid script",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Holiday Pop Portrait with Glitter Typography",
+      "category": "Music Album Art",
+      "medium": [
+        "Studio Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Holiday album covers",
+        "Pop star promotional posters",
+        "Winter-themed celebrity portraits"
+      ],
+      "retrievalTags": [
+        "glitter text",
+        "snow bokeh",
+        "leather jacket",
+        "high-key lighting",
+        "red sparkle",
+        "script overlay"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-key studio portrait of a young male artist featuring a stark white background with snow bokeh and heavy red glitter display typography.",
+      "triggerTerms": [
+        "pop star holiday portrait",
+        "red glitter text on white background",
+        "snowy studio photography style"
+      ],
+      "excludeWhen": [
+        "dark or moody lighting is required",
+        "minimalist typography is requested",
+        "outdoor natural lighting is preferred"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, medium-close-up portrait of a young man in a black leather jacket against a bright white, snow-dusted background. The composition is anchored by large, bold, red glitter-textured block lettering at the bottom, overlaid with a white cursive script and a rough red underline.",
+    "coreVisualRelationships": [
+      "High-contrast black leather against a bright white background",
+      "Red glitter texture providing a festive focal point against neutral tones",
+      "Soft snow bokeh overlaying the sharp studio portrait",
+      "Bold geometric sans-serif paired with fluid, handwritten script"
+    ],
+    "coreInvariants": [
+      "Red glitter texture within the primary display type",
+      "High-key white background with subtle gray drop shadow behind the subject",
+      "Snowflake or bokeh particles layered over the entire scene"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered, occupying the top two-thirds of the frame from the chest up.",
+      "visualAnchor": "The large red glitter text at the bottom horizontal third.",
+      "movementAndEyePath": "Eyes start at the subject's face, move down to the vibrant red text, and follow the script across the bottom.",
+      "negativeSpace": "Significant white space surrounding the head and shoulders to emphasize the silhouette."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (background and highlights)",
+      "contrastColorRole": "Black (leather jacket and hair shadows)",
+      "accentColorRole": "Ruby Red (glitter text and underline)",
+      "saturationAndValueRelationship": "High value and high contrast; saturation is concentrated exclusively in the red graphic elements.",
+      "paletteRestrictions": [
+        "Monochromatic grayscale for the image",
+        "Vibrant red for the primary text"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy geometric sans-serif and casual brush script",
+      "letterConstructionRules": [
+        "Display type uses thick, uniform strokes with sharp corners",
+        "Script type mimics fast, hand-drawn white ink with varying pressure",
+        "Display type is filled with a multi-tonal red glitter pattern"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are tightly tracked to create a solid block of color",
+        "A rough, textured red brush stroke underlines the script"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "behind script",
+            "relationshipToImage": "foreground overlay"
+          },
+          "treatment": {
+            "fill": "red glitter texture",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "sparkle",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "variable",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "brush-like"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom center, overlapping display text",
+            "scale": "medium",
+            "rotation": "-2 degrees",
+            "warp": "slight arc",
+            "overlap": "on top of display text",
+            "relationshipToImage": "foreground overlay"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "hand-drawn"
+          }
+        }
+      ],
+      "pairingStrategy": "Superimposed contrast: heavy, textured geometric type behind light, fluid organic script.",
+      "graphicDevices": [
+        "Rough red brush stroke underline",
+        "White snow/sparkle bokeh overlay",
+        "Soft drop shadow behind the subject"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Glitter texture",
+          "Script overlap",
+          "High-key lighting"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Thin display weights",
+          "Dark backgrounds"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Ultra",
+            "reason": "Matches the heavy geometric sans-serif skeleton of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral or custom brush script",
+            "reason": "Captures the casual, handwritten feel of the secondary text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key studio portrait of a young man in a black leather jacket against a white background with a soft gray shadow. Apply a layer of white snow bokeh and sparkles over the entire image.",
+        "overlayInstruction": "Add large, bold sans-serif text in the bottom third with a red glitter texture. Overlap this with a white brush-script phrase and a rough red underline."
+      },
+      "verificationChecks": [
+        "Is the red text filled with a glitter/sparkle texture?",
+        "Does the white script overlap the red block letters?",
+        "Is the background pure white with visible snow particles?",
+        "Is the subject wearing a black leather jacket?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of snow bokeh",
+      "Color of the glitter texture",
+      "Subject's pose and expression",
+      "Thickness of the script font"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the celebrity",
+      "Exact brand logos on the jacket",
+      "Unique artist signatures"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, high-contrast studio lighting",
+        "Convincing glitter texture in typography",
+        "Balanced layering of text and image"
+      ],
+      "avoid": [
+        "Muddy or gray backgrounds",
+        "Low-resolution glitter patterns",
+        "Illegible script overlap"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the red glitter is vibrant and not dull.",
+      "Ensure the snow particles do not obscure the subject's eyes.",
+      "Verify the script text is clearly legible against the glitter background.",
+      "Confirm the high-key lighting maintains detail in the black jacket."
+    ],
+    "reuseFormula": "Studio Portrait + High-Key White + Snow Bokeh + [Glitter Display Type] + [Overlaid Script]"
+  }
+}

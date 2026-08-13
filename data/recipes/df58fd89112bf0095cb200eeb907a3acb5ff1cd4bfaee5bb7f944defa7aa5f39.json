@@ -1,0 +1,237 @@
+{
+  "id": "df58fd89112bf0095cb200eeb907a3acb5ff1cd4bfaee5bb7f944defa7aa5f39",
+  "skillId": "df58fd89112bf0095cb200eeb907a3acb5ff1cd4bfaee5bb7f944defa7aa5f39",
+  "versionId": "df58fd89112bf0095cb200eeb907a3acb5ff1cd4bfaee5bb7f944defa7aa5f39",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T20:57:08.904Z",
+  "approvedAt": "2026-08-12T20:57:08.904Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T20:57:08.904Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Love & Consequences.jpg",
+    "hash": "df58fd89112bf0095cb200eeb907a3acb5ff1cd4bfaee5bb7f944defa7aa5f39",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Love & Consequences",
+    "artist": "Gerald Levert",
+    "artworkUrl": "https://coverartarchive.org/release-group/02a14341-4751-379a-8eea-ab4ebf64731e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/02a14341-4751-379a-8eea-ab4ebf64731e",
+    "releaseGroupId": "02a14341-4751-379a-8eea-ab4ebf64731e",
+    "recordingId": "7fc5b725-74eb-40ca-94de-e160bb1b4a5f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Thinkin' Bout ItGerald Levert",
+      "song": "Thinkin' Bout It",
+      "performer": "Gerald Levert",
+      "peakPosition": 12,
+      "firstChartDate": "1998-09-05",
+      "lastChartDate": "1998-12-19",
+      "appearances": [
+        {
+          "chartDate": "1998-09-05",
+          "position": 19
+        },
+        {
+          "chartDate": "1998-09-12",
+          "position": 15
+        },
+        {
+          "chartDate": "1998-09-19",
+          "position": 12
+        },
+        {
+          "chartDate": "1998-09-26",
+          "position": 16
+        },
+        {
+          "chartDate": "1998-10-03",
+          "position": 15
+        },
+        {
+          "chartDate": "1998-10-10",
+          "position": 23
+        },
+        {
+          "chartDate": "1998-10-17",
+          "position": 20
+        },
+        {
+          "chartDate": "1998-10-24",
+          "position": 26
+        },
+        {
+          "chartDate": "1998-10-31",
+          "position": 33
+        },
+        {
+          "chartDate": "1998-11-07",
+          "position": 49
+        },
+        {
+          "chartDate": "1998-11-14",
+          "position": 52
+        },
+        {
+          "chartDate": "1998-11-21",
+          "position": 57
+        },
+        {
+          "chartDate": "1998-11-28",
+          "position": 59
+        },
+        {
+          "chartDate": "1998-12-05",
+          "position": 88
+        },
+        {
+          "chartDate": "1998-12-12",
+          "position": 100
+        },
+        {
+          "chartDate": "1998-12-19",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochromatic urban portraiture monochrome sunglasses jewelry close up urban high contrast low key lighting subject s face dominates the frame in a tight crop sunglasses act as a central visual anchor and reflective surface jewelry provides bright high contrast highlights against dark skin tones shallow depth of field blurs the background and foreground hands monochrome high contrast urban portrait sunglasses jewelry close up",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochromatic Urban Portraiture",
+      "category": "Photography",
+      "medium": [
+        "Digital Photography",
+        "Monochrome Filter",
+        "High-Contrast Lighting"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Fashion Editorial",
+        "Social Media Profile",
+        "Urban Lifestyle Branding"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "sunglasses",
+        "jewelry",
+        "close-up",
+        "urban",
+        "high contrast",
+        "low key lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Use this skill for high-contrast, monochromatic urban portraits featuring prominent accessories like sunglasses and jewelry with a shallow depth of field.",
+      "triggerTerms": [
+        "monochrome urban portrait",
+        "high contrast black and white photography",
+        "close-up with sunglasses and jewelry"
+      ],
+      "excludeWhen": [
+        "vibrant colors are required",
+        "full body shots are needed",
+        "natural outdoor lighting without shadows is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, high-contrast monochromatic close-up of a male subject wearing dark sunglasses and ornate jewelry, characterized by deep shadows and sharp highlights on skin texture and metallic surfaces.",
+    "coreVisualRelationships": [
+      "Subject's face dominates the frame in a tight crop",
+      "Sunglasses act as a central visual anchor and reflective surface",
+      "Jewelry provides bright, high-contrast highlights against dark skin tones",
+      "Shallow depth of field blurs the background and foreground hands"
+    ],
+    "coreInvariants": [
+      "Monochromatic color palette with a slight cool or neutral tint",
+      "High-contrast lighting that emphasizes skin texture and facial hair",
+      "Presence of reflective accessories like sunglasses and metallic chains"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up, subject's face tilted slightly, filling approximately 80% of the frame.",
+      "visualAnchor": "The dark, reflective lenses of the sunglasses.",
+      "movementAndEyePath": "From the sunglasses down to the mouth and then following the jewelry chains toward the bottom of the frame.",
+      "negativeSpace": "Minimal; the frame is densely packed with the subject's features and accessories."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and dark grays in shadows.",
+      "contrastColorRole": "Bright whites and light grays in highlights and jewelry.",
+      "accentColorRole": "Mid-tone grays defining skin texture.",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between deep blacks and bright highlights.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "High-contrast grain",
+        "Selective focus"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, monochromatic close-up portrait of a man with a beard, wearing dark sunglasses and heavy silver chains. Use low-key lighting to create deep shadows and sharp highlights on the skin and jewelry.",
+        "overlayInstruction": "If text is needed, apply bold, sans-serif typography in white with a slight outer glow to ensure legibility against the dark background."
+      },
+      "verificationChecks": [
+        "Ensure the image is strictly monochromatic.",
+        "Check for high contrast between the jewelry and the skin.",
+        "Verify the focus is sharp on the sunglasses and facial hair."
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the monochrome tint",
+      "Amount of film grain",
+      "Degree of background blur",
+      "Complexity of the jewelry"
+    ],
+    "mustRedesign": [
+      "Any colored elements must be converted to grayscale",
+      "Flat lighting must be replaced with high-contrast directional lighting"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp detail in skin texture",
+        "Distinct metallic sheen on jewelry",
+        "Deep, true blacks in the shadows"
+      ],
+      "avoid": [
+        "Middy, low-contrast gray tones",
+        "Blown-out highlights that lose detail in the jewelry",
+        "Soft, out-of-focus facial features"
+      ]
+    },
+    "postGenerationChecks": [
+      "Is the image high-contrast?",
+      "Are the sunglasses a focal point?",
+      "Is the jewelry rendered with metallic highlights?",
+      "Is the composition a tight close-up?",
+      "Is the color palette strictly monochromatic?"
+    ],
+    "reuseFormula": "monochrome + high-contrast + urban portrait + sunglasses + jewelry + close-up"
+  }
+}

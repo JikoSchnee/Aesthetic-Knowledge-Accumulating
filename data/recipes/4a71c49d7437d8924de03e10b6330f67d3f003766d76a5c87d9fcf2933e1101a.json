@@ -1,0 +1,288 @@
+{
+  "id": "4a71c49d7437d8924de03e10b6330f67d3f003766d76a5c87d9fcf2933e1101a",
+  "skillId": "4a71c49d7437d8924de03e10b6330f67d3f003766d76a5c87d9fcf2933e1101a",
+  "versionId": "4a71c49d7437d8924de03e10b6330f67d3f003766d76a5c87d9fcf2933e1101a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:10:46.797Z",
+  "approvedAt": "2026-08-12T14:10:46.797Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:10:46.797Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Hit Maker! Burt Bacharach Plays His Hits.jpg",
+    "hash": "4a71c49d7437d8924de03e10b6330f67d3f003766d76a5c87d9fcf2933e1101a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Hit Maker! Burt Bacharach Plays His Hits",
+    "artist": "Burt Bacharach",
+    "artworkUrl": "https://coverartarchive.org/release-group/6464094a-29a7-3c1c-9874-e3953b22432c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6464094a-29a7-3c1c-9874-e3953b22432c",
+    "releaseGroupId": "6464094a-29a7-3c1c-9874-e3953b22432c",
+    "recordingId": "705a46b7-bb06-44df-a32c-b21106820a55",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Saturday SunshineBurt Bacharach",
+      "song": "Saturday Sunshine",
+      "performer": "Burt Bacharach",
+      "peakPosition": 93,
+      "firstChartDate": "1963-07-27",
+      "lastChartDate": "1963-08-10",
+      "appearances": [
+        {
+          "chartDate": "1963-07-27",
+          "position": 97
+        },
+        {
+          "chartDate": "1963-08-03",
+          "position": 96
+        },
+        {
+          "chartDate": "1963-08-10",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century easy listening album cover mid century modern high contrast serif studio portrait warm red background 1960s fashion tightly tracked typography top heavy typographic header balancing the centered subject warm monochromatic background unifying the composition high contrast white display type against a dark saturated field bottom aligned text block acting as a visual base solid warm background centered 60s portrait overlapping white didot header yellow sans serif footer block",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Easy Listening Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Vintage vinyl record aesthetics",
+        "1960s lounge music branding",
+        "Retro editorial layouts"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "high-contrast serif",
+        "studio portrait",
+        "warm red background",
+        "1960s fashion",
+        "tightly tracked typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1960s-style album layout featuring a centered studio portrait against a solid warm backdrop with heavy, tightly-spaced display serifs at the top and a block of sans-serif track listings at the bottom.",
+      "triggerTerms": [
+        "1960s easy listening album cover",
+        "vintage lounge record style",
+        "tightly tracked high-contrast serif header"
+      ],
+      "excludeWhen": [
+        "modern minimalist digital interfaces",
+        "grunge or distressed textures",
+        "asymmetrical avant-garde layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered full-body studio portrait of a seated figure on a solid, warm-toned background, framed by a large-scale, high-contrast serif title at the top and a multi-line block of yellow sans-serif text at the bottom.",
+    "coreVisualRelationships": [
+      "Top-heavy typographic header balancing the centered subject",
+      "Warm monochromatic background unifying the composition",
+      "High-contrast white display type against a dark saturated field",
+      "Bottom-aligned text block acting as a visual base"
+    ],
+    "coreInvariants": [
+      "Tightly tracked display serif with overlapping characters",
+      "Solid, non-gradient studio backdrop",
+      "Centered subject with limbs creating diagonal lines"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered, full-body seated figure occupying the middle 50% of the vertical space.",
+      "visualAnchor": "The large-scale white serif title at the top edge.",
+      "movementAndEyePath": "Starts at the bold top header, moves down to the subject's face, follows the diagonal of the legs, and rests on the bottom text block.",
+      "negativeSpace": "Significant open space around the subject to emphasize the studio setting."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep terracotta red background",
+      "contrastColorRole": "Bright white for primary display typography",
+      "accentColorRole": "Muted yellow for secondary metadata text",
+      "saturationAndValueRelationship": "High saturation background with high value contrast in the typography.",
+      "paletteRestrictions": [
+        "Terracotta",
+        "White",
+        "Mustard Yellow",
+        "Magenta/Purple (subject clothing)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast modern serif and geometric sans-serif",
+      "letterConstructionRules": [
+        "Display type features extreme stroke contrast",
+        "Negative tracking causing character overlaps",
+        "Vertical stress in the ovals"
+      ],
+      "characterSpecificRedesigns": [
+        "Overlapping 'A' and 'Y' strokes",
+        "Tightly nested 'L' and 'A' pairs"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "Condensed to Normal",
+            "weight": "Bold",
+            "contrast": "Extreme",
+            "xHeight": "High",
+            "terminals": "Sharp/Hairline",
+            "corners": "Acute",
+            "counters": "Small",
+            "strokeCharacter": "Elegant and sharp"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight/touching",
+            "leading": "tight",
+            "lineBreakPattern": "two-line stack",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "character-to-character",
+            "relationshipToImage": "frames the top"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "Medium",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "multi-line block",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "anchors the bottom"
+          },
+          "treatment": {
+            "fill": "mustard yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast display serif for impact paired with a functional sans-serif for legibility.",
+      "graphicDevices": [
+        "Bullet points separating text items",
+        "Small logo/catalog number in top left corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Tight tracking of the header",
+          "High contrast of the serif strokes"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Wide letter spacing in the header"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Didot or Bodoni Poster",
+            "reason": "Matches the extreme stroke contrast and vertical stress.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic or Helvetica",
+            "reason": "Matches the clean, functional look of the bottom text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio photograph of a person in 1960s attire seated on a solid terracotta red floor and background. Ensure ample empty space at the top and bottom for text.",
+        "overlayInstruction": "Add the main title in a white, tightly-tracked Didot-style font at the top. Add a block of yellow sans-serif text at the bottom, centered and separated by bullets."
+      },
+      "verificationChecks": [
+        "Is the top text white and touching/overlapping?",
+        "Is the background a solid, warm red/terracotta?",
+        "Is the bottom text block yellow and centered?",
+        "Is the subject centered with clear negative space around them?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue",
+      "Subject pose",
+      "Number of lines in the bottom text block"
+    ],
+    "mustRedesign": [
+      "Any modern digital artifacts",
+      "Drop shadows on text",
+      "Gradient backgrounds"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typographic edges",
+        "Authentic 1960s color palette",
+        "Balanced vertical hierarchy"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast fonts for the header",
+        "Modern sans-serifs for the main title"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for character overlap in the header",
+      "Verify the yellow color of the bottom text",
+      "Ensure the subject is not obscured by typography",
+      "Confirm the absence of modern gradients"
+    ],
+    "reuseFormula": "Solid warm background + Centered 60s portrait + Overlapping white Didot header + Yellow sans-serif footer block."
+  }
+}

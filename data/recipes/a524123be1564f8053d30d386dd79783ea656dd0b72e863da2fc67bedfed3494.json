@@ -1,0 +1,261 @@
+{
+  "id": "a524123be1564f8053d30d386dd79783ea656dd0b72e863da2fc67bedfed3494",
+  "skillId": "a524123be1564f8053d30d386dd79783ea656dd0b72e863da2fc67bedfed3494",
+  "versionId": "a524123be1564f8053d30d386dd79783ea656dd0b72e863da2fc67bedfed3494",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:09:48.779Z",
+  "approvedAt": "2026-08-12T09:09:48.779Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:09:48.779Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Silver.jpg",
+    "hash": "a524123be1564f8053d30d386dd79783ea656dd0b72e863da2fc67bedfed3494",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Silver",
+    "artist": "Cliff Richard",
+    "artworkUrl": "https://coverartarchive.org/release-group/f8f8ff96-2888-437a-a1da-d37c3b4c75f6/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f8f8ff96-2888-437a-a1da-d37c3b4c75f6",
+    "releaseGroupId": "f8f8ff96-2888-437a-a1da-d37c3b4c75f6",
+    "recordingId": "41da8a3e-8330-4635-80b8-25bb59c70dd9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Never Say Die (Give A Little Bit More)Cliff Richard",
+      "song": "Never Say Die (Give A Little Bit More)",
+      "performer": "Cliff Richard",
+      "peakPosition": 73,
+      "firstChartDate": "1983-10-08",
+      "lastChartDate": "1983-11-19",
+      "appearances": [
+        {
+          "chartDate": "1983-10-08",
+          "position": 95
+        },
+        {
+          "chartDate": "1983-10-15",
+          "position": 92
+        },
+        {
+          "chartDate": "1983-10-22",
+          "position": 81
+        },
+        {
+          "chartDate": "1983-10-29",
+          "position": 76
+        },
+        {
+          "chartDate": "1983-11-05",
+          "position": 75
+        },
+        {
+          "chartDate": "1983-11-12",
+          "position": 73
+        },
+        {
+          "chartDate": "1983-11-19",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome portrait with overlaid script monochrome portrait large script overlay obi strip 80s aesthetic high contrast black and white large script title overlaps the subject s forehead and hair monochrome subject contrasts with a flat mid grey background vertical white sidebar obi strip provides a secondary information plane tight cropping focuses on the face and shoulders monochrome portrait large script overlay vertical info strip",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Portrait with Overlaid Script",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Custom Lettering"
+      ],
+      "useCases": [
+        "Music Packaging",
+        "Editorial Covers",
+        "Retro Poster Design"
+      ],
+      "retrievalTags": [
+        "monochrome portrait",
+        "large script overlay",
+        "obi strip",
+        "80s aesthetic",
+        "high contrast black and white"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome portrait featuring a massive, expressive script title that overlaps the subject's hair and forehead.",
+      "triggerTerms": [
+        "monochrome portrait with script overlay",
+        "large cursive title over face",
+        "80s vinyl cover style"
+      ],
+      "excludeWhen": [
+        "vibrant color photography is required",
+        "minimalist typography is needed",
+        "modern flat design is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, high-contrast black and white portrait of a man with textured hair, set against a neutral grey background. A large, fluid, black script word dominates the upper half of the composition, partially obscuring the subject's hair, while a secondary blocky serif font spans the very top edge.",
+    "coreVisualRelationships": [
+      "Large script title overlaps the subject's forehead and hair",
+      "Monochrome subject contrasts with a flat mid-grey background",
+      "Vertical white sidebar (obi strip) provides a secondary information plane",
+      "Tight cropping focuses on the face and shoulders"
+    ],
+    "coreInvariants": [
+      "High-contrast black and white photography",
+      "Fluid, continuous-stroke script for the main title",
+      "Centered subject composition"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered head-and-shoulders portrait, filling approximately 70% of the vertical frame.",
+      "visualAnchor": "The subject's eyes, which are positioned slightly above the horizontal midline.",
+      "movementAndEyePath": "From the bold script at the top, down to the subject's eyes, then to the vertical sidebar on the left.",
+      "negativeSpace": "Mid-grey background provides breathing room around the head and shoulders."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-grey background",
+      "contrastColorRole": "Deep black for hair, shadows, and typography",
+      "accentColorRole": "Pure white for the vertical sidebar and highlights",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between skin highlights and deep shadows.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script and heavy slab serif",
+      "letterConstructionRules": [
+        "Main title: Thick-to-thin brush strokes, continuous fluid motion, large loops on 'S' and 'l'.",
+        "Secondary title: Ultra-bold slab serif with high horizontal compression.",
+        "Sidebar: Clean, sans-serif and vertical Japanese characters."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'S' in the script is oversized and acts as a framing device for the left side of the head."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper-middle",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over-subject",
+            "relationshipToImage": "integrated-overlay"
+          },
+          "treatment": {
+            "fill": "solid-black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A fluid, organic script paired with a rigid, geometric slab serif for maximum formal contrast.",
+      "graphicDevices": [
+        "Vertical informational strip (obi) on the left edge"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Script overlap with hair",
+          "Monochrome palette",
+          "Vertical sidebar"
+        ],
+        "avoid": [
+          "Drop shadows on text",
+          "Bright colors",
+          "Thin, delicate fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Brush Script",
+            "reason": "To mimic the fluid, hand-drawn feel of the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact or Rockwell Extra Bold",
+            "reason": "To approximate the heavy slab serif at the top.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white portrait of a man with 80s-style textured hair against a flat grey background, leaving space at the top for text.",
+        "overlayInstruction": "Apply a large, black, hand-written style script title across the upper third, overlapping the hair, and a secondary bold slab-serif title at the very top edge."
+      },
+      "verificationChecks": [
+        "Is the script title large enough to overlap the hair?",
+        "Is the image strictly monochrome?",
+        "Is the vertical sidebar present on the left?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Portrait subject",
+      "Script word content",
+      "Background grey value"
+    ],
+    "mustRedesign": [
+      "Japanese text content",
+      "Specific artist name",
+      "Logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast photographic texture",
+        "Fluidity in the script lettering",
+        "Balanced grayscale values"
+      ],
+      "avoid": [
+        "Low-resolution grain",
+        "Color bleeding",
+        "Illegible script overlaps"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast skin tones",
+      "Ensure script does not obscure the eyes",
+      "Verify the vertical sidebar is clean and white",
+      "Confirm the slab serif at the top is horizontally compressed"
+    ],
+    "reuseFormula": "Monochrome Portrait + Large Script Overlay + Vertical Info Strip"
+  }
+}

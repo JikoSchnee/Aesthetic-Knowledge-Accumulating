@@ -1,0 +1,262 @@
+{
+  "id": "448669deda12b2e51118acfcbc28c953e7da208155da0c04584c776f5972a604",
+  "skillId": "448669deda12b2e51118acfcbc28c953e7da208155da0c04584c776f5972a604",
+  "versionId": "448669deda12b2e51118acfcbc28c953e7da208155da0c04584c776f5972a604",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T11:47:09.115Z",
+  "approvedAt": "2026-08-12T11:47:09.115Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T11:47:09.115Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Neon.jpg",
+    "hash": "448669deda12b2e51118acfcbc28c953e7da208155da0c04584c776f5972a604",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Neon",
+    "artist": "The Cyrkle",
+    "artworkUrl": "https://coverartarchive.org/release-group/b901d311-1934-3d6a-a8e9-d762a063c11f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b901d311-1934-3d6a-a8e9-d762a063c11f",
+    "releaseGroupId": "b901d311-1934-3d6a-a8e9-d762a063c11f",
+    "recordingId": "5dc00081-30ac-4c24-8e16-8b14ba34c1a3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Please Don't Ever Leave MeThe Cyrkle",
+      "song": "Please Don't Ever Leave Me",
+      "performer": "The Cyrkle",
+      "peakPosition": 59,
+      "firstChartDate": "1966-12-03",
+      "lastChartDate": "1966-12-31",
+      "appearances": [
+        {
+          "chartDate": "1966-12-03",
+          "position": 86
+        },
+        {
+          "chartDate": "1966-12-10",
+          "position": 61
+        },
+        {
+          "chartDate": "1966-12-17",
+          "position": 61
+        },
+        {
+          "chartDate": "1966-12-24",
+          "position": 59
+        },
+        {
+          "chartDate": "1966-12-31",
+          "position": 82
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro concentric halo portrait concentric circles glowing ring dark vignette retro sans serif 1960s pop central portrait neon glow concentric rings acting as a portal for the central subject high contrast between the dark background and the glowing halo top heavy typographic balance against the centered circular motif take a dark portrait frame it with color a b c concentric glowing rings and top it with color d heavy geometric sans serif text with negative tracking",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Concentric Halo Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vintage-style record covers",
+        "Psych-pop band posters",
+        "Retro 1960s editorial layouts"
+      ],
+      "retrievalTags": [
+        "concentric circles",
+        "glowing ring",
+        "dark vignette",
+        "retro sans-serif",
+        "1960s pop",
+        "central portrait",
+        "neon glow"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dark, atmospheric layout featuring a central subject framed by multiple concentric glowing rings of light, topped with bold, tightly-spaced retro typography.",
+      "triggerTerms": [
+        "concentric glowing halo",
+        "retro ring frame portrait",
+        "dark vignette with neon circles"
+      ],
+      "excludeWhen": [
+        "bright high-key backgrounds",
+        "modern minimalist flat design",
+        "complex collage elements"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition dominated by a deep black background. At the center, a group portrait is framed within a series of thin, concentric glowing rings in warm tones (yellow, orange, red). The typography is positioned at the top, featuring a heavy, geometric sans-serif with tight letter spacing and a slight overlap.",
+    "coreVisualRelationships": [
+      "Concentric rings acting as a portal for the central subject",
+      "High contrast between the dark background and the glowing halo",
+      "Top-heavy typographic balance against the centered circular motif"
+    ],
+    "coreInvariants": [
+      "Dark, near-black background",
+      "Concentric circular framing",
+      "Warm-toned glow effect"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered within the circular frame, occupying the lower two-thirds of the circle's interior.",
+      "visualAnchor": "The glowing concentric rings provide the primary structural anchor.",
+      "movementAndEyePath": "Eyes start at the bold top text, move down through the glowing rings to the central faces, and then circulate within the halo.",
+      "negativeSpace": "Extensive black negative space surrounding the central circular element and the top text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background and shadows)",
+      "contrastColorRole": "Yellow and Orange (glowing rings)",
+      "accentColorRole": "Green (primary title text)",
+      "saturationAndValueRelationship": "High value contrast between the black void and the saturated neon-like rings.",
+      "paletteRestrictions": [
+        "Deep black",
+        "Neon yellow",
+        "Bright orange",
+        "Muted green"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Heavy weight with thick strokes",
+        "Extremely tight tracking (touching or overlapping)",
+        "Squared-off terminals",
+        "Uniform stroke width"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters like 'C' and 'E' have very small apertures",
+        "Horizontal bars are thick and align across characters"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Black",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Slightly rounded",
+            "counters": "Small/Closed",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Negative",
+            "leading": "Tight",
+            "lineBreakPattern": "Two lines",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Characters touching",
+            "relationshipToImage": "Floating above the halo"
+          },
+          "treatment": {
+            "fill": "Solid color (Green/White)",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold display sans-serif paired with smaller, lighter sans-serif for secondary metadata.",
+      "graphicDevices": [
+        "Concentric multi-colored rings",
+        "Soft inner glow",
+        "Heavy vignette"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Tight letter spacing",
+          "Geometric weight",
+          "Concentric ring frame"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Thin strokes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Antique Olive Nord",
+            "reason": "Matches the heavy weight and tight apertures.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "ITC Bauhaus Heavy",
+            "reason": "Captures the geometric, retro-modernist feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a deep black square background. In the center, place a group of people in soft, low-key lighting. Surround them with three thin, concentric glowing rings in yellow, orange, and red, creating a halo effect with a soft outer glow.",
+        "overlayInstruction": "Add two lines of bold, uppercase geometric sans-serif text at the top center. The first line should be green and the second line white. Ensure the letters are spaced so tightly they almost touch."
+      },
+      "verificationChecks": [
+        "Are the rings concentric and glowing?",
+        "Is the background solid black?",
+        "Is the typography heavy and tightly spaced?",
+        "Is the subject centered within the rings?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the glowing rings",
+      "Number of concentric circles",
+      "Color of the display typography",
+      "Subject within the frame"
+    ],
+    "mustRedesign": [
+      "Specific band names or logos",
+      "Exact tracklist text",
+      "Original artist faces"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp concentric circles",
+        "High-contrast dark atmosphere",
+        "Heavy, impactful typography"
+      ],
+      "avoid": [
+        "Blurry or messy ring edges",
+        "Low-contrast gray backgrounds",
+        "Loose, airy kerning"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the rings are perfectly circular.",
+      "Verify the text is centered and at the top.",
+      "Ensure the glow effect does not wash out the central portrait.",
+      "Confirm the typography uses a heavy geometric weight."
+    ],
+    "reuseFormula": "Take a dark portrait, frame it with [Color A, B, C] concentric glowing rings, and top it with [Color D] heavy geometric sans-serif text with negative tracking."
+  }
+}

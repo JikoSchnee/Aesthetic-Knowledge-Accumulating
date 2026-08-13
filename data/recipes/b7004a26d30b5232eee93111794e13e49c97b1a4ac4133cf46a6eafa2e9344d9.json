@@ -1,0 +1,308 @@
+{
+  "id": "b7004a26d30b5232eee93111794e13e49c97b1a4ac4133cf46a6eafa2e9344d9",
+  "skillId": "b7004a26d30b5232eee93111794e13e49c97b1a4ac4133cf46a6eafa2e9344d9",
+  "versionId": "b7004a26d30b5232eee93111794e13e49c97b1a4ac4133cf46a6eafa2e9344d9",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:57:39.430Z",
+  "approvedAt": "2026-08-13T04:57:39.430Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:57:39.430Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Manorisms.jpg",
+    "hash": "b7004a26d30b5232eee93111794e13e49c97b1a4ac4133cf46a6eafa2e9344d9",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Manorisms",
+    "artist": "Wet Willie",
+    "artworkUrl": "https://coverartarchive.org/release-group/7c10af57-6f23-3e80-b9f0-b1a189c06b28/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7c10af57-6f23-3e80-b9f0-b1a189c06b28",
+    "releaseGroupId": "7c10af57-6f23-3e80-b9f0-b1a189c06b28",
+    "recordingId": "4bc67ead-45b2-4cd2-ac7a-4358df126fc8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Make You Feel Love AgainWet Willie",
+      "song": "Make You Feel Love Again",
+      "performer": "Wet Willie",
+      "peakPosition": 45,
+      "firstChartDate": "1978-04-08",
+      "lastChartDate": "1978-05-20",
+      "appearances": [
+        {
+          "chartDate": "1978-04-08",
+          "position": 78
+        },
+        {
+          "chartDate": "1978-04-15",
+          "position": 67
+        },
+        {
+          "chartDate": "1978-04-22",
+          "position": 56
+        },
+        {
+          "chartDate": "1978-04-29",
+          "position": 46
+        },
+        {
+          "chartDate": "1978-05-06",
+          "position": 45
+        },
+        {
+          "chartDate": "1978-05-13",
+          "position": 50
+        },
+        {
+          "chartDate": "1978-05-20",
+          "position": 89
+        }
+      ]
+    }
+  },
+  "dedupeText": "gothic manor album cover stone manor blackletter typography stormy sky sepia and blue gothic architecture low angle warm sepia sky vs cool blue gray stone architecture massive white display type vs detailed architectural texture single warm light source vs dark moody environment horizontal division between typographic header and photographic subject stone manor sepia storm sky blackletter header gothic atmosphere",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gothic Manor Album Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Illustration",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Rock album covers",
+        "Gothic novel jackets",
+        "Atmospheric landscape posters"
+      ],
+      "retrievalTags": [
+        "stone manor",
+        "blackletter typography",
+        "stormy sky",
+        "sepia and blue",
+        "gothic architecture",
+        "low angle"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A moody, low-angle shot of a stone manor house under a dramatic, sepia-toned stormy sky, featuring prominent white blackletter display type at the top.",
+      "triggerTerms": [
+        "gothic stone manor house",
+        "stormy sepia sky",
+        "blackletter title overlay",
+        "moody architectural landscape"
+      ],
+      "excludeWhen": [
+        "modern minimalist architecture is requested",
+        "bright sunny lighting is needed",
+        "sans-serif typography is required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A wide-angle, low-perspective view of a sprawling stone manor house with multiple gables and chimneys. The building is cast in cool blue-gray tones, contrasting sharply with a turbulent, warm sepia and ochre sky. A single window is illuminated with a warm yellow glow. Large, ornate white blackletter text dominates the upper third of the frame, separated from the image by a thin horizontal line and decorative dots.",
+    "coreVisualRelationships": [
+      "Warm sepia sky vs. cool blue-gray stone architecture",
+      "Massive white display type vs. detailed architectural texture",
+      "Single warm light source vs. dark, moody environment",
+      "Horizontal division between typographic header and photographic subject"
+    ],
+    "coreInvariants": [
+      "Stone manor house subject",
+      "Dramatic stormy sky texture",
+      "Blackletter display typography",
+      "Bicolor palette of sepia and blue-gray"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The manor house occupies the lower two-thirds of the frame, stretching horizontally across the entire width.",
+      "visualAnchor": "The large white blackletter text at the top acts as the primary anchor, followed by the illuminated window.",
+      "movementAndEyePath": "Eyes start at the bold white text, move down to the illuminated window, then scan the horizontal expanse of the manor.",
+      "negativeSpace": "The sky provides textured negative space that supports the large-scale typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Sepia/Ochre (Sky)",
+      "contrastColorRole": "Blue-Gray (Stone house)",
+      "accentColorRole": "Warm Yellow (Illuminated window)",
+      "saturationAndValueRelationship": "High value contrast between white text and dark sky; muted saturation across the landscape.",
+      "paletteRestrictions": [
+        "Sepia",
+        "Slate Blue",
+        "White",
+        "Golden Yellow"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Blackletter / Fraktur",
+      "letterConstructionRules": [
+        "Heavy vertical strokes",
+        "Sharp, angular terminals",
+        "Ornate swashes on capital letters",
+        "Consistent stroke width for main stems"
+      ],
+      "characterSpecificRedesigns": [
+        "Extended swashes on the first and last letters to frame the word"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Blackletter",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Spiky",
+            "corners": "Angular",
+            "counters": "Narrow",
+            "strokeCharacter": "Calligraphic"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Slightly overlaps sky",
+            "relationshipToImage": "Header"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "Subtle drop shadow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "Moderate",
+            "xHeight": "Medium",
+            "terminals": "Bracketed",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Classical"
+          },
+          "typesetting": {
+            "case": "All Caps",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Below main title",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Sub-header"
+          },
+          "treatment": {
+            "fill": "Off-white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Ornate Blackletter for the main title paired with a clean, spaced-out Serif for the subtitle.",
+      "graphicDevices": [
+        "Horizontal rule with decorative dots",
+        "Thin border around the entire composition"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Blackletter style",
+          "White color for text",
+          "Horizontal rule"
+        ],
+        "avoid": [
+          "Modern sans-serifs",
+          "Neon colors",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Old English Text MT",
+            "reason": "Matches the traditional gothic blackletter feel",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Fette Fraktur",
+            "reason": "Provides the necessary weight and angularity",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-angle photograph of a large, multi-gabled stone manor house at dusk. The house should be in cool blue-gray tones with one window glowing warm yellow. The sky above should be filled with dramatic, swirling clouds in sepia and ochre tones.",
+        "overlayInstruction": "Add a large white blackletter title at the top. Below it, add a thin horizontal line with small dots, and a centered subtitle in all-caps serif with wide tracking."
+      },
+      "verificationChecks": [
+        "Is the sky sepia-toned?",
+        "Is the house blue-gray stone?",
+        "Is the main text in a bold blackletter font?",
+        "Is there a single glowing window?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the sky color",
+      "Number of glowing windows",
+      "Complexity of the blackletter swashes",
+      "Width of the manor house"
+    ],
+    "mustRedesign": [
+      "Specific band name and album title",
+      "Unique architectural details of the specific house",
+      "Exact cloud formations"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic lighting contrast",
+        "Legible but ornate typography",
+        "Sense of scale and history"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Cartoonish textures",
+        "Cluttered foreground"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for color balance between sky and house",
+      "Ensure typography doesn't obscure key architectural features",
+      "Verify the 'glow' effect on the window looks natural",
+      "Confirm the blackletter font has sufficient weight"
+    ],
+    "reuseFormula": "Stone Manor + Sepia Storm Sky + Blackletter Header = Gothic Atmosphere"
+  }
+}

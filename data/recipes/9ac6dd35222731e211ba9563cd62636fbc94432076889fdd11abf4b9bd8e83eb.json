@@ -1,0 +1,239 @@
+{
+  "id": "9ac6dd35222731e211ba9563cd62636fbc94432076889fdd11abf4b9bd8e83eb",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:10:03.437Z",
+  "approvedAt": "2026-08-11T08:10:03.437Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:10:03.437Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Way I Am.jpg",
+    "hash": "9ac6dd35222731e211ba9563cd62636fbc94432076889fdd11abf4b9bd8e83eb",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Way I Am",
+    "artist": "Luke Combs",
+    "artworkUrl": "https://coverartarchive.org/release-group/8f93287a-bdfd-4c47-9d13-7f354d239b92/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8f93287a-bdfd-4c47-9d13-7f354d239b92",
+    "releaseGroupId": "8f93287a-bdfd-4c47-9d13-7f354d239b92",
+    "recordingId": "b62e8a95-4091-48fd-93cf-4545cfb9648c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Back In The SaddleLuke Combs",
+      "song": "Back In The Saddle",
+      "performer": "Luke Combs",
+      "peakPosition": 38,
+      "firstChartDate": "2025-08-09",
+      "lastChartDate": "2025-08-30",
+      "appearances": [
+        {
+          "chartDate": "2025-08-09",
+          "position": 38
+        },
+        {
+          "chartDate": "2025-08-16",
+          "position": 47
+        },
+        {
+          "chartDate": "2025-08-23",
+          "position": 47
+        },
+        {
+          "chartDate": "2025-08-30",
+          "position": 47
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty monochromatic portrait layout black and white high contrast film grain low key lighting bearded man contemplative minimalist typography light defines the subject s texture against an absolute black void the hand position creates a triangular base supporting the vertical gaze extreme wide tracking in the text balances the heavy visual weight of the portrait below low key monochromatic portrait heavy film grain top aligned wide tracked serif gritty minimalist cover art",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Monochromatic Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Post-Processing"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portraiture",
+        "Book Cover"
+      ],
+      "retrievalTags": [
+        "black and white",
+        "high contrast",
+        "film grain",
+        "low key lighting",
+        "bearded man",
+        "contemplative",
+        "minimalist typography"
+      ]
+    },
+    "visualDefinition": "A high-contrast, low-key monochromatic portrait of a bearded man in a baseball cap, featuring heavy film grain and a dramatic side-lit composition that fades into deep black negative space, topped with wide-tracked serif typography.",
+    "coreVisualRelationships": [
+      "Light defines the subject's texture against an absolute black void.",
+      "The hand position creates a triangular base supporting the vertical gaze.",
+      "Extreme wide tracking in the text balances the heavy visual weight of the portrait below."
+    ],
+    "coreInvariants": [
+      "Monochromatic desaturation",
+      "Heavy uniform film grain overlay",
+      "Chiaroscuro lighting style",
+      "Centered top-aligned typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up, centered horizontally, occupying the bottom two-thirds of the frame.",
+      "visualAnchor": "The subject's eyes and the bridge of the nose, highlighted by the primary light source.",
+      "movementAndEyePath": "Starts at the illuminated eyes, moves down the beard to the hand, then travels up to the small, centered text at the top.",
+      "negativeSpace": "Dominant black space surrounding the head and filling the top third of the canvas."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and absolute black (Background/Shadows)",
+      "contrastColorRole": "Mid-gray to off-white (Highlights/Skin texture)",
+      "accentColorRole": "Subtle silver-gray (Typography)",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast with a compressed mid-tone range to emphasize texture.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman Serif",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Sharp, bracketed serifs",
+        "Small caps or all caps execution",
+        "Extreme letter spacing (tracking)"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "Medium-High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Precise",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "500-800 units",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Very small relative to canvas",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Light gray",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "Slight grain integration",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used with extreme spacing to create a 'breathable' luxury feel against a dense image.",
+      "graphicDevices": [
+        "Heavy film grain",
+        "Vignetting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Serif style",
+          "Wide tracking",
+          "Small scale"
+        ],
+        "avoid": [
+          "Sans-serif",
+          "Bold weights",
+          "Tight kerning"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman or Garamond",
+            "reason": "Classic serif proportions that look elegant when tracked out.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Baskerville",
+            "reason": "High contrast strokes match the sharp lighting of the portrait.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A high-contrast black and white close-up portrait of a man with a beard and a baseball cap. Use low-key lighting coming from the side to highlight skin texture and facial features while leaving the rest in deep shadow. Apply a heavy, gritty film grain across the entire image. The top third should be mostly empty black space.",
+        "overlayInstruction": "Add a single line of text in the top center using a classic serif font. Set the text in all caps, very small size, with extremely wide tracking (letter spacing) so it spans about one-third of the width of the image."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochromatic?",
+        "Is the film grain visible and uniform?",
+        "Is the text centered and widely spaced?",
+        "Does the lighting create a dramatic chiaroscuro effect?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of film grain",
+      "Direction of the primary light source",
+      "Amount of tracking in the typography",
+      "Subject's head tilt and gaze direction"
+    ],
+    "mustRedesign": [
+      "Avoid any specific logos or branding",
+      "Do not replicate the specific facial features of the individual",
+      "Ensure the text content is generic or user-provided"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic contrast between light and shadow",
+        "Tactile texture through grain and lighting",
+        "Balanced minimalist layout"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Low-resolution grain (pixelation)",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for true black levels in the background.",
+      "Ensure the serif font is sharp and legible despite the small size.",
+      "Verify the grain does not obscure the eyes.",
+      "Confirm the composition feels weighted toward the bottom."
+    ],
+    "reuseFormula": "Low-key monochromatic portrait + heavy film grain + top-aligned wide-tracked serif = Gritty Minimalist Cover Art."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T08:12:40.423Z"
+}

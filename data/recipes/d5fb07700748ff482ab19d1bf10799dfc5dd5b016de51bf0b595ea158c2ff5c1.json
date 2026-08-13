@@ -1,0 +1,241 @@
+{
+  "id": "d5fb07700748ff482ab19d1bf10799dfc5dd5b016de51bf0b595ea158c2ff5c1",
+  "skillId": "d5fb07700748ff482ab19d1bf10799dfc5dd5b016de51bf0b595ea158c2ff5c1",
+  "versionId": "d5fb07700748ff482ab19d1bf10799dfc5dd5b016de51bf0b595ea158c2ff5c1",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:01:05.257Z",
+  "approvedAt": "2026-08-13T05:01:05.257Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:01:05.257Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Dichotomy.jpg",
+    "hash": "d5fb07700748ff482ab19d1bf10799dfc5dd5b016de51bf0b595ea158c2ff5c1",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Dichotomy",
+    "artist": "David Kushner",
+    "artworkUrl": "https://coverartarchive.org/release-group/1e51fb61-7092-4f75-96eb-a18b3a86c9b0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1e51fb61-7092-4f75-96eb-a18b3a86c9b0",
+    "releaseGroupId": "1e51fb61-7092-4f75-96eb-a18b3a86c9b0",
+    "recordingId": "cff039e2-7f30-4273-8923-66236a78c1ba",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Skin And BonesDavid Kushner",
+      "song": "Skin And Bones",
+      "performer": "David Kushner",
+      "peakPosition": 70,
+      "firstChartDate": "2024-02-03",
+      "lastChartDate": "2024-02-03",
+      "appearances": [
+        {
+          "chartDate": "2024-02-03",
+          "position": 70
+        }
+      ]
+    }
+  },
+  "dedupeText": "ethereal motion blur portrait motion blur red glow dark ambient chiasmus composition serif typography low key lighting abstract portrait vertical symmetry between the upper and lower blurred forms extreme contrast between the saturated red subject and the void like black background tension between the fluid organic blur and the sharp structured typography dark void mirrored motion blur red high contrast serif white bottom centered",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Ethereal Motion Blur Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Long Exposure Photography",
+        "Digital Post-Processing"
+      ],
+      "useCases": [
+        "Music cover art",
+        "Cinematic poster design",
+        "Experimental editorial photography"
+      ],
+      "retrievalTags": [
+        "motion blur",
+        "red glow",
+        "dark ambient",
+        "chiasmus composition",
+        "serif typography",
+        "low key lighting",
+        "abstract portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dark, moody composition featuring a vertically mirrored or stacked motion-blurred portrait in deep red tones against a pure black void.",
+      "triggerTerms": [
+        "motion blurred red portrait",
+        "dark ambient album cover style",
+        "long exposure face blur black background",
+        "cinematic red glow photography"
+      ],
+      "excludeWhen": [
+        "bright or colorful backgrounds are required",
+        "sharp facial features are necessary",
+        "vector illustration style is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central vertical column of glowing, deep-red motion-blurred human forms, appearing as two stacked or mirrored faces, emerging from an absolute black environment with high-contrast serif typography at the bottom.",
+    "coreVisualRelationships": [
+      "Vertical symmetry between the upper and lower blurred forms",
+      "Extreme contrast between the saturated red subject and the void-like black background",
+      "Tension between the fluid, organic blur and the sharp, structured typography"
+    ],
+    "coreInvariants": [
+      "Pure black background (#000000)",
+      "Horizontal motion blur streaks within the red forms",
+      "Bottom-centered typographic lockup"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered vertically, occupying the middle 70% of the frame.",
+      "visualAnchor": "The brightest point of the lower red blur acts as the primary focal point.",
+      "movementAndEyePath": "The eye moves vertically from the top blur down to the bottom blur, finally resting on the white text at the base.",
+      "negativeSpace": "Extensive black negative space surrounding the central column, creating a sense of isolation."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black background providing depth and contrast.",
+      "contrastColorRole": "Deep crimson and blood red for the subject matter.",
+      "accentColorRole": "Pure white for the typography.",
+      "saturationAndValueRelationship": "High saturation in the reds with very low value (darkness), contrasted by the high value of the white text.",
+      "paletteRestrictions": [
+        "Black",
+        "Deep Red",
+        "Orange-Red",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional serif",
+      "letterConstructionRules": [
+        "Sharp, pointed serifs",
+        "High stroke contrast between thick and thin lines",
+        "Open counters in circular letters like 'O' and 'C'"
+      ],
+      "characterSpecificRedesigns": [
+        "Enlarged initial letters for primary title",
+        "Tight kerning to create a unified block"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Bottom center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Anchors the composition at the base"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Scale-based hierarchy using the same serif family in different sizes.",
+      "graphicDevices": [
+        "Horizontal alignment bar implied by text baseline"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast serif style",
+          "White color",
+          "Bottom-center placement"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "Distorted or textured text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cormorant Garamond",
+            "reason": "Provides the necessary high contrast and elegant sharp serifs.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni",
+            "reason": "Extreme stroke contrast matches the dramatic lighting.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a vertical composition with a pure black background. In the center, place two vertically stacked, abstract human faces rendered with heavy horizontal motion blur in deep red and orange tones. The forms should look like long-exposure light paintings, glowing from within the darkness.",
+        "overlayInstruction": "Add a centered typographic lockup at the bottom using a high-contrast white serif font. The main title should be large and uppercase, with a smaller subtitle or artist name centered directly beneath it."
+      },
+      "verificationChecks": [
+        "Is the background absolute black?",
+        "Are the red forms sufficiently blurred to be abstract?",
+        "Is the text perfectly centered at the bottom?",
+        "Is the typography a high-contrast serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the red glow",
+      "Amount of horizontal motion blur",
+      "Vertical spacing between the two blurred forms",
+      "Font weight of the display text"
+    ],
+    "mustRedesign": [
+      "Avoid any recognizable facial features; keep it abstract",
+      "Do not use any colors other than red, orange, black, and white"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Seamless blending of red light into black void",
+        "Sharp, legible typography despite the dark theme",
+        "Balanced vertical symmetry"
+      ],
+      "avoid": [
+        "Visible grain or noise in the black areas",
+        "Muddy or brown tones in the red blur",
+        "Cluttered composition"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure black #000000 at the edges",
+      "Ensure no 'halos' around the text",
+      "Verify the motion blur is strictly horizontal",
+      "Confirm the text is not touching the red subject"
+    ],
+    "reuseFormula": "Dark Void + Mirrored Motion Blur [Red] + High-Contrast Serif [White, Bottom-Centered]"
+  }
+}

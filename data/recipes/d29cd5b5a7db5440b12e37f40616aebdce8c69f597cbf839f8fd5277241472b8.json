@@ -1,0 +1,251 @@
+{
+  "id": "d29cd5b5a7db5440b12e37f40616aebdce8c69f597cbf839f8fd5277241472b8",
+  "skillId": "d29cd5b5a7db5440b12e37f40616aebdce8c69f597cbf839f8fd5277241472b8",
+  "versionId": "d29cd5b5a7db5440b12e37f40616aebdce8c69f597cbf839f8fd5277241472b8",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:29:52.759Z",
+  "approvedAt": "2026-08-12T22:29:52.759Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:29:52.759Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Mister Twister.jpg",
+    "hash": "d29cd5b5a7db5440b12e37f40616aebdce8c69f597cbf839f8fd5277241472b8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Mister Twister",
+    "artist": "Chubby Checker",
+    "artworkUrl": "https://coverartarchive.org/release-group/37dd59a8-8075-40cf-b9ff-ccf8f09d44c9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/37dd59a8-8075-40cf-b9ff-ccf8f09d44c9",
+    "releaseGroupId": "37dd59a8-8075-40cf-b9ff-ccf8f09d44c9",
+    "recordingId": "e4e6fe68-605a-44d7-975c-d3c36f409232",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Twistin' U.S.A.Chubby Checker",
+      "song": "Twistin' U.S.A.",
+      "performer": "Chubby Checker",
+      "peakPosition": 68,
+      "firstChartDate": "1961-12-09",
+      "lastChartDate": "1961-12-23",
+      "appearances": [
+        {
+          "chartDate": "1961-12-09",
+          "position": 78
+        },
+        {
+          "chartDate": "1961-12-16",
+          "position": 68
+        },
+        {
+          "chartDate": "1961-12-23",
+          "position": 81
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century stencil portrait album cover stencil portrait mid century modern textured background high contrast retro typography vinyl record art high contrast subject against a medium value textured background solid horizontal footer bar grounding the vertical portrait textured grain unifying the graphic elements and the background limited color palette creating a vintage screen printed feel stencil portrait canvas texture geometric sans footer",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Stencil Portrait Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Screen Print",
+        "Stencil Art",
+        "Digital Illustration"
+      ],
+      "useCases": [
+        "Vintage-style music album covers",
+        "Retro artist promotional posters",
+        "Soul and Rock and Roll revival branding"
+      ],
+      "retrievalTags": [
+        "stencil portrait",
+        "mid-century modern",
+        "textured background",
+        "high contrast",
+        "retro typography",
+        "vinyl record art"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast stencil portrait of a male figure set against a textured, multi-tonal background with a bold lower-third typographic banner.",
+      "triggerTerms": [
+        "stencil portrait album cover",
+        "retro screen print style",
+        "high contrast mid-century graphic"
+      ],
+      "excludeWhen": [
+        "photorealistic portraits are required",
+        "modern minimalist flat design is requested",
+        "bright neon color palettes are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A stylized graphic portrait using a limited palette of dark maroon, cream, and muted blue, featuring a man in a suit rendered in a high-contrast stencil effect. The composition is anchored by a solid horizontal bar at the bottom containing sans-serif display text, all overlaid on a canvas-textured background with vertical color gradients.",
+    "coreVisualRelationships": [
+      "High-contrast subject against a medium-value textured background",
+      "Solid horizontal footer bar grounding the vertical portrait",
+      "Textured grain unifying the graphic elements and the background",
+      "Limited color palette creating a vintage screen-printed feel"
+    ],
+    "coreInvariants": [
+      "High-contrast stencil rendering of the facial features and hands",
+      "Heavy canvas or linen texture overlay across the entire image",
+      "Solid color banner at the bottom for primary typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centrally positioned male figure from the waist up, occupying approximately 70% of the vertical space.",
+      "visualAnchor": "The dark, solid mass of the suit and the horizontal maroon banner at the bottom.",
+      "movementAndEyePath": "Eyes start at the high-contrast face, move down the suit to the hands, and finally rest on the bold text in the footer.",
+      "negativeSpace": "The textured background surrounding the head and shoulders provides breathing room for the dense central figure."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep maroon/burgundy for the suit and footer bar.",
+      "contrastColorRole": "Cream/off-white for the highlights, skin tones, and text.",
+      "accentColorRole": "Muted slate blue and tan for background gradients and mid-tones.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the dark shadows and light highlights.",
+      "paletteRestrictions": [
+        "No vibrant or primary colors",
+        "Limited to earthy, desaturated tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Square proportions",
+        "Tight kerning"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "contained within banner",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "cream",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "slight grain",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single family used in two weights or sizes for hierarchy.",
+      "graphicDevices": [
+        "Horizontal solid banner",
+        "Square logo container in the bottom right",
+        "Canvas texture overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric sans-serif structure",
+          "Uppercase styling",
+          "Left alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Matches the geometric, wide, and authoritative presence of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat Bold",
+            "reason": "Provides a similar geometric structure and modern-retro feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast stencil-style portrait of a man in a suit, using a palette of deep maroon and cream. Place him against a textured, tan and blue vertical gradient background with a heavy canvas grain. Leave a solid maroon horizontal bar at the bottom.",
+        "overlayInstruction": "Add two lines of bold, uppercase geometric sans-serif text in cream color to the left side of the maroon banner. Add a small square logo box with a circular icon to the bottom right corner."
+      },
+      "verificationChecks": [
+        "Is the portrait rendered in a high-contrast stencil style?",
+        "Is the canvas texture visible across the entire image?",
+        "Is the text in the footer bold, uppercase, and sans-serif?",
+        "Is the color palette limited to maroon, cream, and muted background tones?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject pose",
+      "Background texture intensity",
+      "Banner color",
+      "Typography weight"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original artist",
+      "Proprietary record label logos",
+      "Exact wording of the artist and album title"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic screen-printed texture",
+        "Clear stencil-style shadow mapping",
+        "Balanced mid-century layout"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Sharp, non-textured edges",
+        "Modern thin-line typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the stencil effect doesn't lose the subject's recognizability.",
+      "Verify the texture doesn't obscure the legibility of the text.",
+      "Check that the color palette remains cohesive and vintage-inspired.",
+      "Confirm the horizontal banner is perfectly aligned at the bottom."
+    ],
+    "reuseFormula": "Stencil Portrait + Canvas Texture + Geometric Sans Footer"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "id": "6011a89b4203e2bf66ce8f2e9eea762e40da1e9ae6c1c5ee5dddc8fb1ef9c800",
+  "skillId": "6011a89b4203e2bf66ce8f2e9eea762e40da1e9ae6c1c5ee5dddc8fb1ef9c800",
+  "versionId": "6011a89b4203e2bf66ce8f2e9eea762e40da1e9ae6c1c5ee5dddc8fb1ef9c800",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:23:35.165Z",
+  "approvedAt": "2026-08-12T17:23:35.165Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:23:35.165Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Dignity.jpg",
+    "hash": "6011a89b4203e2bf66ce8f2e9eea762e40da1e9ae6c1c5ee5dddc8fb1ef9c800",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Dignity",
+    "artist": "Hilary Duff",
+    "artworkUrl": "https://coverartarchive.org/release-group/fde4efc7-7093-3c69-9ca9-3349a3c7ecd9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/fde4efc7-7093-3c69-9ca9-3349a3c7ecd9",
+    "releaseGroupId": "fde4efc7-7093-3c69-9ca9-3349a3c7ecd9",
+    "recordingId": "5091564e-8d80-41eb-99a4-9b161aadaf81",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "StrangerHilary Duff",
+      "song": "Stranger",
+      "performer": "Hilary Duff",
+      "peakPosition": 97,
+      "firstChartDate": "2007-08-04",
+      "lastChartDate": "2007-08-04",
+      "appearances": [
+        {
+          "chartDate": "2007-08-04",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "glamour portrait with warm gradient and serif typography close up portrait over the shoulder gaze warm glow smokey eye makeup copper gradient background elegant serif subject s gaze creates a direct connection with the viewer shoulder line leads the eye upward toward the face typography is anchored in the dark negative space of the bottom left corner warm skin tones harmonize with the copper background gradient combine a high fashion over the shoulder portrait with a dual tone warm cool gradient background and a serif script typographic lockup in the lower left quadrant",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Glamour Portrait with Warm Gradient and Serif Typography",
+      "category": "Music Photography",
+      "medium": [
+        "Studio Photography",
+        "Digital Retouching"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Beauty Editorial",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "close-up portrait",
+        "over-the-shoulder gaze",
+        "warm glow",
+        "smokey eye makeup",
+        "copper gradient background",
+        "elegant serif"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-glamour, tight-crop portrait featuring a warm copper-to-dark-blue gradient background and a sophisticated mix of bold serif and script typography.",
+      "triggerTerms": [
+        "glamour portrait over the shoulder",
+        "warm copper studio lighting",
+        "tight face crop album cover"
+      ],
+      "excludeWhen": [
+        "full body shots are required",
+        "minimalist high-key white backgrounds are requested",
+        "street photography style is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, three-quarter view portrait of a woman looking over her shoulder directly at the camera. The lighting is soft and warm, emphasizing smooth skin textures and metallic makeup. The background is a soft vertical gradient transitioning from a warm peach/copper at the top to a deep navy blue at the bottom left, providing a high-contrast anchor for the typography.",
+    "coreVisualRelationships": [
+      "Subject's gaze creates a direct connection with the viewer",
+      "Shoulder line leads the eye upward toward the face",
+      "Typography is anchored in the dark negative space of the bottom-left corner",
+      "Warm skin tones harmonize with the copper background gradient"
+    ],
+    "coreInvariants": [
+      "Tight facial framing",
+      "Over-the-shoulder pose",
+      "Warm/Cool color split in background",
+      "Direct eye contact"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale headshot occupying the right two-thirds of the frame, cropped at the crown and shoulder.",
+      "visualAnchor": "The subject's eyes, specifically the one closest to the center, serve as the primary focal point.",
+      "movementAndEyePath": "Starts at the eyes, moves down the bridge of the nose to the lips, follows the shoulder line, and rests on the typography in the bottom left.",
+      "negativeSpace": "Concentrated in the bottom-left quadrant, utilizing a dark gradient to make text legible."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm copper and peach tones in the skin and upper background.",
+      "contrastColorRole": "Deep navy blue in the bottom-left corner.",
+      "accentColorRole": "Sparkle from a diamond earring and glossy lip highlights.",
+      "saturationAndValueRelationship": "High value in the skin tones against a medium-to-low value background gradient.",
+      "paletteRestrictions": [
+        "Copper",
+        "Peach",
+        "Navy Blue",
+        "Warm Brown",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman serif and elegant cursive script.",
+      "letterConstructionRules": [
+        "Primary text uses high-contrast serifs with sharp terminals",
+        "Secondary text uses a fluid, connected script with decorative flourishes"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Semi-bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Modulated"
+          },
+          "typesetting": {
+            "case": "All-caps",
+            "alignment": "Left",
+            "tracking": "Wide",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Bottom-left",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Placed over dark background area"
+          },
+          "treatment": {
+            "fill": "Light grey/white",
+            "outline": "None",
+            "shadow": "Subtle drop shadow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Script",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Regular",
+            "contrast": "Medium",
+            "xHeight": "Low",
+            "terminals": "Swash",
+            "corners": "Rounded",
+            "counters": "Closed",
+            "strokeCharacter": "Calligraphic"
+          },
+          "typesetting": {
+            "case": "Title-case",
+            "alignment": "Left",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Directly below display text",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Centered under primary text"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a structured, authoritative serif and a delicate, personal script.",
+      "graphicDevices": [
+        "Horizontal alignment"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps serif for the main name",
+          "Script for the title",
+          "Left-aligned composition"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Brightly colored text",
+          "Centering the text over the face"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cinzel or Trajan",
+            "reason": "Captures the classical, high-contrast serif look of the primary name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Great Vibes or Edwardian Script",
+            "reason": "Provides the elegant, flowing cursive needed for the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a tight-crop studio portrait of a woman looking over her shoulder. Use warm, copper-toned lighting on the face and a background gradient that transitions from peach at the top to deep navy blue in the bottom-left corner. Ensure the bottom-left area is dark and relatively empty.",
+        "overlayInstruction": "Add the primary name in a white, all-caps high-contrast serif font in the bottom-left corner. Directly underneath, add the secondary title in a smaller, white elegant script font."
+      },
+      "verificationChecks": [
+        "Is the gaze directed at the camera?",
+        "Is the background gradient smooth and transitioning from warm to cool?",
+        "Is the text placed in the dark negative space for legibility?",
+        "Is the serif/script pairing maintained?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the copper lighting",
+      "Depth of the navy blue gradient",
+      "Tightness of the facial crop",
+      "Tracking width of the serif text"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original subject",
+      "Any trademarked logos",
+      "Exact original wording"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Smooth, airbrushed skin texture",
+        "Dramatic smokey eye makeup",
+        "Clean, professional typographic layout"
+      ],
+      "avoid": [
+        "Harsh shadows on the face",
+        "Cluttered backgrounds",
+        "Low-contrast text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for direct eye contact",
+      "Ensure the shoulder provides a leading line",
+      "Verify the color balance between warm skin and cool background",
+      "Confirm typography is legible and correctly paired"
+    ],
+    "reuseFormula": "Combine a high-fashion over-the-shoulder portrait with a dual-tone warm/cool gradient background and a serif/script typographic lockup in the lower-left quadrant."
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "id": "179b07f0af13df29f4cf4ca3ccb6dc0e2f26885276f43ec6b9dc42a694c57734",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T14:01:00.538Z",
+  "approvedAt": "2026-08-11T14:01:00.538Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T14:01:00.538Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "It’s Hard.jpg",
+    "hash": "179b07f0af13df29f4cf4ca3ccb6dc0e2f26885276f43ec6b9dc42a694c57734",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "It’s Hard",
+    "artist": "The Who",
+    "artworkUrl": "https://coverartarchive.org/release-group/67898886-90bd-3c37-a407-432e3680e872/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/67898886-90bd-3c37-a407-432e3680e872",
+    "releaseGroupId": "67898886-90bd-3c37-a407-432e3680e872",
+    "recordingId": "c26ed2b0-778d-4e96-a655-7c89e5d97942",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Eminence FrontThe Who",
+      "song": "Eminence Front",
+      "performer": "The Who",
+      "peakPosition": 68,
+      "firstChartDate": "1982-12-25",
+      "lastChartDate": "1983-01-29",
+      "appearances": [
+        {
+          "chartDate": "1982-12-25",
+          "position": 80
+        },
+        {
+          "chartDate": "1983-01-01",
+          "position": 80
+        },
+        {
+          "chartDate": "1983-01-08",
+          "position": 74
+        },
+        {
+          "chartDate": "1983-01-15",
+          "position": 68
+        },
+        {
+          "chartDate": "1983-01-22",
+          "position": 68
+        },
+        {
+          "chartDate": "1983-01-29",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro arcade perspective layout 8 bit typography one point perspective arcade aesthetic neon green lighting 1980s style low angle portraiture symmetry between the left and right figure groupings linear perspective created by ceiling light panels leading to the center contrast between the dark foreground figures and the glowing arcade screen color coordination between the neon green ceiling lights and the yellow green typography combine a one point perspective interior shot with a thick black frame and top aligned pixel typography to evoke an early 80s tech noir aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Arcade Perspective Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Poster Design",
+        "Editorial Layout"
+      ],
+      "retrievalTags": [
+        "8-bit typography",
+        "one-point perspective",
+        "arcade aesthetic",
+        "neon green lighting",
+        "1980s style",
+        "low-angle portraiture"
+      ]
+    },
+    "visualDefinition": "A symmetrical one-point perspective composition featuring four figures flanking a central arcade cabinet, framed by a thick black border with pixelated display-style typography at the top.",
+    "coreVisualRelationships": [
+      "Symmetry between the left and right figure groupings",
+      "Linear perspective created by ceiling light panels leading to the center",
+      "Contrast between the dark foreground figures and the glowing arcade screen",
+      "Color coordination between the neon green ceiling lights and the yellow-green typography"
+    ],
+    "coreInvariants": [
+      "Thick black outer frame",
+      "One-point perspective vanishing point at the center",
+      "Pixelated/8-bit font style",
+      "Muted, slightly grainy photographic texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four large-scale figures in the foreground and midground, two on each side, with a smaller central figure at an arcade machine.",
+      "visualAnchor": "The glowing arcade cabinet at the vanishing point.",
+      "movementAndEyePath": "Eyes start at the top typography, follow the diagonal ceiling lights down to the central machine, then move outward to the flanking portraits.",
+      "negativeSpace": "Heavy black framing around the central photographic window creates a claustrophobic, focused effect."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and dark shadows provide the foundation.",
+      "contrastColorRole": "Neon green ceiling lights provide a futuristic, artificial glow.",
+      "accentColorRole": "Yellow and orange-red gradients in the pixelated text.",
+      "saturationAndValueRelationship": "Low saturation in the photography contrasted with high-value, luminous green and yellow accents.",
+      "paletteRestrictions": [
+        "Black",
+        "Neon Green",
+        "Cyber Yellow",
+        "Muted Flesh Tones",
+        "Dark Navy"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Monospaced pixel grid",
+      "letterConstructionRules": [
+        "Square-based pixel blocks",
+        "Uniform stroke width based on a 5x7 or 7x9 grid",
+        "No curves; all diagonals and rounds are stepped pixels"
+      ],
+      "characterSpecificRedesigns": [
+        "Open counters in 'A' and 'R' are single pixel blocks",
+        "Terminals are flat and blocky"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "pixel-serif",
+          "anatomy": {
+            "width": "monospaced",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "blocky",
+            "corners": "90-degree steps",
+            "counters": "small square",
+            "strokeCharacter": "uniform pixel blocks"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "top center within the black border",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by black space"
+          },
+          "treatment": {
+            "fill": "horizontal gradient from orange-red to yellow-green",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean digital",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single pixel font used for all text to maintain a cohesive 8-bit computer aesthetic.",
+      "graphicDevices": [
+        "Thick black border",
+        "Linear perspective lines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Pixelated structure",
+          "Uppercase format",
+          "Wide letter spacing"
+        ],
+        "avoid": [
+          "Smooth curves",
+          "Serifs",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Arcade Classic",
+            "reason": "Matches the 80s gaming aesthetic perfectly.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Press Start 2P",
+            "reason": "Standard pixel font with similar blocky proportions.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A photograph of four men in dark suits and jackets standing in a dimly lit arcade hallway. The hallway has a white tiled ceiling with long, glowing neon green light panels that converge at a central vanishing point where a child plays a glowing arcade cabinet. The entire photo is framed by a thick black border.",
+        "overlayInstruction": "Add two sets of uppercase text in a pixelated 8-bit font at the top of the black border. The left text should have a red-to-orange gradient, and the right text should have a yellow-to-green gradient. Space the letters widely."
+      },
+      "verificationChecks": [
+        "Is the perspective centered on the arcade machine?",
+        "Is the text pixelated without any anti-aliasing on the edges?",
+        "Does the neon green light reflect on the figures' shoulders?",
+        "Is the black border thick and uniform?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the neon ceiling lights",
+      "Number of figures in the foreground",
+      "Gradient colors of the typography",
+      "Width of the black outer frame"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the figures",
+      "Any recognizable arcade game branding on the cabinet",
+      "Specific brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Strong one-point perspective",
+        "Authentic 8-bit font rendering",
+        "Atmospheric neon lighting"
+      ],
+      "avoid": [
+        "Modern high-definition digital clarity",
+        "Rounded or sans-serif typography",
+        "Asymmetrical layouts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is perfectly centered horizontally.",
+      "Ensure the ceiling lights create a clear 'V' shape pointing to the center.",
+      "Verify the gradient in the text is horizontal and smooth.",
+      "Confirm the photographic grain is subtle but present."
+    ],
+    "reuseFormula": "Combine a one-point perspective interior shot with a thick black frame and top-aligned pixel typography to evoke an early 80s tech-noir aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:03:43.317Z"
+}

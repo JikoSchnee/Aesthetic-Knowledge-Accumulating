@@ -1,0 +1,287 @@
+{
+  "id": "379ffb7be434e1dac954f0d8af1be05afe7d61b1f5d148d46677644bfad3ba96",
+  "skillId": "379ffb7be434e1dac954f0d8af1be05afe7d61b1f5d148d46677644bfad3ba96",
+  "versionId": "379ffb7be434e1dac954f0d8af1be05afe7d61b1f5d148d46677644bfad3ba96",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:45:20.206Z",
+  "approvedAt": "2026-08-12T12:45:20.206Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:45:20.206Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Golden Hour.jpg",
+    "hash": "379ffb7be434e1dac954f0d8af1be05afe7d61b1f5d148d46677644bfad3ba96",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Golden Hour",
+    "artist": "Kacey Musgraves",
+    "artworkUrl": "https://coverartarchive.org/release-group/56713bde-f9de-4097-bbe3-41d9d7af32c4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/56713bde-f9de-4097-bbe3-41d9d7af32c4",
+    "releaseGroupId": "56713bde-f9de-4097-bbe3-41d9d7af32c4",
+    "recordingId": "53c9d7d3-bdfb-4fc0-bb2a-1144ab406e97",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "RainbowKacey Musgraves",
+      "song": "Rainbow",
+      "performer": "Kacey Musgraves",
+      "peakPosition": 98,
+      "firstChartDate": "2019-02-23",
+      "lastChartDate": "2019-02-23",
+      "appearances": [
+        {
+          "chartDate": "2019-02-23",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "ethereal sky portrait with decorative fan vibrant blue sky lace fan lens flare ethereal portrait geometric sans serif wide tracking golden hour lighting subject positioned right of center against a minimalist sky coral fan providing a warm contrast to the cool blue background diagonal lens flares connecting the subject to the negative space typography anchored in the upper left quadrant for balance portrait saturated sky prop obscuration geometric sans serif prismatic flares",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Ethereal Sky Portrait with Decorative Fan",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Post-Processing"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Fashion Photography",
+        "Dreamy Portraiture"
+      ],
+      "retrievalTags": [
+        "vibrant blue sky",
+        "lace fan",
+        "lens flare",
+        "ethereal portrait",
+        "geometric sans-serif",
+        "wide tracking",
+        "golden hour lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast portrait featuring a subject partially obscured by a decorative fan against a vast, saturated blue sky with prismatic lens flares.",
+      "triggerTerms": [
+        "saturated blue sky portrait",
+        "lace fan obscuring face",
+        "prismatic light streaks",
+        "wide-tracked sans-serif typography"
+      ],
+      "excludeWhen": [
+        "indoor settings",
+        "muted or desaturated color palettes",
+        "busy urban backgrounds"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up portrait of a woman with dark hair, positioned on the right side of the frame, holding a bright coral-pink lace fan that covers the lower half of her face. The background is a solid, vibrant cerulean blue sky. Thin, prismatic light streaks and lens flares cut across the composition diagonally. The lighting is warm and soft, suggesting late afternoon sun.",
+    "coreVisualRelationships": [
+      "Subject positioned right-of-center against a minimalist sky",
+      "Coral fan providing a warm contrast to the cool blue background",
+      "Diagonal lens flares connecting the subject to the negative space",
+      "Typography anchored in the upper-left quadrant for balance"
+    ],
+    "coreInvariants": [
+      "Vibrant cerulean blue sky background",
+      "Subject partially obscured by a handheld prop",
+      "Prismatic light leak or flare effects"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is medium-close-up, occupying the right two-thirds of the frame vertically.",
+      "visualAnchor": "The bright coral fan acts as the primary focal point due to its color and central placement relative to the subject.",
+      "movementAndEyePath": "Eyes start at the subject's gaze, move down to the fan, then follow the lens flares toward the typography in the upper left.",
+      "negativeSpace": "Extensive negative space in the upper and left portions of the frame, filled with a uniform blue gradient."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cerulean Blue (Background)",
+      "contrastColorRole": "Coral Pink (Fan)",
+      "accentColorRole": "Prismatic White/Rainbow (Flares)",
+      "saturationAndValueRelationship": "High saturation in both the sky and the fan, with high value in the skin tones and flares.",
+      "paletteRestrictions": [
+        "Avoid muddy or earthy tones",
+        "Maintain high saturation in the blues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Open apertures",
+        "Circular 'O' and 'G' forms"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Wide",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Upper Left",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Extra Wide",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Directly below display text",
+            "scale": "Smaller than display",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Weight contrast within the same geometric family.",
+      "graphicDevices": [
+        "Prismatic lens flares",
+        "Soft focus on hair edges"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Wide tracking",
+          "Left alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Tight tracking"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Bold / Book",
+            "reason": "Matches the geometric structure and clean monolinear strokes.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat",
+            "reason": "Open-source alternative with similar geometric proportions.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Futura",
+            "reason": "Classic geometric sans that captures the clean, modern feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a woman with dark hair on the right side of the frame, holding a coral-pink lace fan over her mouth. The background is a clear, saturated cerulean blue sky. Add thin, diagonal prismatic light flares across the image.",
+        "overlayInstruction": "Add two lines of white, uppercase geometric sans-serif text in the upper left corner. The top line should be bold with wide tracking; the bottom line should be regular weight with extra-wide tracking."
+      },
+      "verificationChecks": [
+        "Is the sky a vibrant, saturated blue?",
+        "Is the text left-aligned in the upper-left quadrant?",
+        "Are there prismatic lens flares present?",
+        "Is the fan a contrasting coral or warm pink tone?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of lens flares",
+      "Saturation of the blue sky",
+      "Tracking width of the typography",
+      "Pattern detail on the fan"
+    ],
+    "mustRedesign": [
+      "Do not use specific artist names or album titles",
+      "Do not replicate the exact lace pattern of the fan",
+      "Do not copy the exact facial features of the subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, minimalist composition",
+        "High-quality photographic lighting",
+        "Precise, airy typography"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast lighting",
+        "Heavy or decorative fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text is legible against the blue background",
+      "Check that lens flares do not obscure the subject's eyes",
+      "Verify the color balance between the cool sky and warm fan",
+      "Confirm the wide tracking is consistent across both lines of text"
+    ],
+    "reuseFormula": "Portrait + Saturated Sky + Prop Obscuration + Geometric Sans-Serif + Prismatic Flares"
+  }
+}

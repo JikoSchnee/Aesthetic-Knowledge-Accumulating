@@ -1,0 +1,292 @@
+{
+  "id": "27034f7dfc9491a32db5ab0b8ede4c659e5e75409c36262ec2120b2c9221e719",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T19:37:43.588Z",
+  "approvedAt": "2026-08-11T19:37:43.588Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T19:37:43.588Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "That’s Rich.jpg",
+    "hash": "27034f7dfc9491a32db5ab0b8ede4c659e5e75409c36262ec2120b2c9221e719",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "That’s Rich",
+    "artist": "Charlie Rich",
+    "artworkUrl": "https://coverartarchive.org/release-group/ee366db8-1cc0-4795-ad23-b9070191dca6/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ee366db8-1cc0-4795-ad23-b9070191dca6",
+    "releaseGroupId": "ee366db8-1cc0-4795-ad23-b9070191dca6",
+    "recordingId": "74901cfc-338e-4a4c-8197-1d58645d5637",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I Don't See Me In Your Eyes AnymoreCharlie Rich",
+      "song": "I Don't See Me In Your Eyes Anymore",
+      "performer": "Charlie Rich",
+      "peakPosition": 47,
+      "firstChartDate": "1974-05-04",
+      "lastChartDate": "1974-06-08",
+      "appearances": [
+        {
+          "chartDate": "1974-05-04",
+          "position": 80
+        },
+        {
+          "chartDate": "1974-05-11",
+          "position": 70
+        },
+        {
+          "chartDate": "1974-05-18",
+          "position": 60
+        },
+        {
+          "chartDate": "1974-05-25",
+          "position": 53
+        },
+        {
+          "chartDate": "1974-06-01",
+          "position": 47
+        },
+        {
+          "chartDate": "1974-06-08",
+          "position": 49
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century crooner album cover 1960s pompadour striped shirt blue background sans serif typography studio lighting vinyl cover subject s warm skin tones and multi colored shirt contrast against the cool blue backdrop large white display text anchors the top left corner vertical stripes on the shirt lead the eye upward toward the face small scale tracklist text balances the large artist name studio portrait solid color backdrop bold condensed sans serif header secondary color sub header classic mid century album aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Crooner Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Studio Photography",
+        "Offset Lithography"
+      ],
+      "useCases": [
+        "Vintage-style record sleeve",
+        "Retro music poster",
+        "Mid-century portraiture"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "pompadour",
+        "striped shirt",
+        "blue background",
+        "sans-serif typography",
+        "studio lighting",
+        "vinyl cover"
+      ]
+    },
+    "visualDefinition": "A centered, close-up studio portrait of a man with styled silver-grey hair against a solid, textured deep blue background, featuring bold, multi-layered sans-serif typography at the top.",
+    "coreVisualRelationships": [
+      "Subject's warm skin tones and multi-colored shirt contrast against the cool blue backdrop",
+      "Large white display text anchors the top left corner",
+      "Vertical stripes on the shirt lead the eye upward toward the face",
+      "Small-scale tracklist text balances the large artist name"
+    ],
+    "coreInvariants": [
+      "Solid blue studio background with subtle vignetting",
+      "Subject wearing a vertical-striped collared shirt",
+      "High-contrast studio lighting on the face",
+      "Top-aligned typographic header"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered bust-up portrait, filling the lower two-thirds of the frame.",
+      "visualAnchor": "The subject's eyes and the large white sans-serif name at the top left.",
+      "movementAndEyePath": "Starts at the large white text, moves down to the face, then follows the shirt stripes back up.",
+      "negativeSpace": "Ample blue space in the upper third and around the head to accommodate text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep cerulean blue (background)",
+      "contrastColorRole": "White (primary text and hair highlights)",
+      "accentColorRole": "Golden yellow (secondary text) and multi-colored stripes (muted red, green, tan)",
+      "saturationAndValueRelationship": "High value contrast between white text and dark blue; moderate saturation in the shirt stripes.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Limit background to a single tonal family"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric and Grotesque sans-serifs",
+      "letterConstructionRules": [
+        "Uniform stroke weight for the main name",
+        "Tight letter spacing (tracking)",
+        "Tall x-height for the display font"
+      ],
+      "characterSpecificRedesigns": [
+        "None; standard mid-century geometric forms"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over negative space"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "above display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "top left corner"
+          },
+          "treatment": {
+            "fill": "golden yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold condensed white sans-serif paired with a smaller, wider yellow sans-serif for hierarchy.",
+      "graphicDevices": [
+        "Vertical divider line separating text blocks",
+        "Bullet points for list separation"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Color hierarchy (Yellow/White)",
+          "Tight tracking on the main name"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Matches the heavy, tall, and tight feel of the main name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers 67 Condensed Bold",
+            "reason": "Provides the clean, mid-century geometric look.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Appropriate for the secondary yellow text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a middle-aged man with silver-grey pompadour hair, smiling slightly, wearing a multi-colored vertical striped shirt (muted tones). The background should be a solid, slightly textured deep blue with subtle vignetting. Leave the top 30% of the image as clear blue space for text.",
+        "overlayInstruction": "Add the main artist name in large, white, bold condensed sans-serif uppercase at the top left. Above it, add a short title in smaller yellow sans-serif uppercase. To the right of the name, add a block of small yellow text separated by bullets."
+      },
+      "verificationChecks": [
+        "Is the main text white and condensed?",
+        "Is the background a solid blue?",
+        "Is the shirt striped?",
+        "Is the hair styled in a 1960s pompadour?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background blue shade",
+      "Shirt stripe colors",
+      "Hair color (silver vs. dark)",
+      "Text alignment (left vs. center)"
+    ],
+    "mustRedesign": [
+      "Logos and brand marks",
+      "Specific tracklist wording",
+      "Specific catalog numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean studio lighting",
+        "Sharp typographic hierarchy",
+        "Authentic mid-century color palette"
+      ],
+      "avoid": [
+        "Modern digital gradients",
+        "Overly saturated 'neon' blues",
+        "Casual or handwritten fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text is legible against the blue background",
+      "Check that the shirt stripes do not create a moiré effect",
+      "Verify the subject's expression is pleasant and professional",
+      "Confirm the top-heavy typographic layout is maintained"
+    ],
+    "reuseFormula": "Studio Portrait + Solid Color Backdrop + Bold Condensed Sans-Serif Header + Secondary Color Sub-header = Classic Mid-Century Album Aesthetic"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:04:58.394Z"
+}

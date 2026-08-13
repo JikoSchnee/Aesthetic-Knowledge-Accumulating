@@ -1,0 +1,285 @@
+{
+  "id": "c7981ea1b263329da7b4749d4b114142992589282c6a656d662247a048ba1bac",
+  "skillId": "c7981ea1b263329da7b4749d4b114142992589282c6a656d662247a048ba1bac",
+  "versionId": "c7981ea1b263329da7b4749d4b114142992589282c6a656d662247a048ba1bac",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:20:48.671Z",
+  "approvedAt": "2026-08-12T06:20:48.671Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:20:48.671Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "My Best Days.jpg",
+    "hash": "c7981ea1b263329da7b4749d4b114142992589282c6a656d662247a048ba1bac",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "My Best Days",
+    "artist": "Danny Gokey",
+    "artworkUrl": "https://coverartarchive.org/release-group/9cb87417-b52e-4a4f-937a-171cb9840139/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9cb87417-b52e-4a4f-937a-171cb9840139",
+    "releaseGroupId": "9cb87417-b52e-4a4f-937a-171cb9840139",
+    "recordingId": "29d9ac9c-6c37-499a-8281-e489535810bd",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "My Best Days Are Ahead Of MeDanny Gokey",
+      "song": "My Best Days Are Ahead Of Me",
+      "performer": "Danny Gokey",
+      "peakPosition": 82,
+      "firstChartDate": "2010-03-20",
+      "lastChartDate": "2010-03-20",
+      "appearances": [
+        {
+          "chartDate": "2010-03-20",
+          "position": 82
+        }
+      ]
+    }
+  },
+  "dedupeText": "modern country portrait layout male portrait shallow depth of field warm bokeh distressed serif typography plaid shirt black rimmed glasses country music aesthetic subject occupies the left two thirds of the frame warm background bokeh contrasts with the cool dark tones of the subject s jacket text is anchored in the negative space created by the background blur eye level is slightly above the horizontal midline portrait subject left warm bokeh background distressed slab serif top right clean sans serif bottom right",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Modern Country Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Artist promotional posters",
+        "Lifestyle magazine covers",
+        "Social media profile headers"
+      ],
+      "retrievalTags": [
+        "male portrait",
+        "shallow depth of field",
+        "warm bokeh",
+        "distressed serif typography",
+        "plaid shirt",
+        "black rimmed glasses",
+        "country music aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A close-up male portrait with a warm, golden-hour bokeh background and two-tier typography featuring a distressed serif and a clean sans-serif.",
+      "triggerTerms": [
+        "warm male portrait with bokeh",
+        "distressed slab serif album cover",
+        "country artist headshot layout",
+        "golden hour portrait with text overlay"
+      ],
+      "excludeWhen": [
+        "minimalist black and white photography is requested",
+        "full body shots are needed",
+        "high-contrast neon lighting is required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, slightly angled close-up of a man with short brown hair, beard, and black-framed glasses. The subject is positioned on the left, looking toward the camera. The background is a soft, horizontal bokeh of warm oranges and yellows. Typography is stacked in the upper right quadrant, utilizing a weathered, heavy serif for the primary name and a thin, clean sans-serif for the secondary title.",
+    "coreVisualRelationships": [
+      "Subject occupies the left two-thirds of the frame",
+      "Warm background bokeh contrasts with the cool dark tones of the subject's jacket",
+      "Text is anchored in the negative space created by the background blur",
+      "Eye level is slightly above the horizontal midline"
+    ],
+    "coreInvariants": [
+      "Shallow depth of field",
+      "Warm golden-hour color palette in background",
+      "Subject wearing dark outerwear over a patterned shirt",
+      "Text alignment to the right side"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale head and shoulders portrait, positioned off-center to the left, filling approximately 70% of the vertical space.",
+      "visualAnchor": "The subject's eyes and the bridge of the glasses act as the primary focal point.",
+      "movementAndEyePath": "Starts at the subject's face, moves right to the primary display text, then down to the subtitle.",
+      "negativeSpace": "Concentrated in the upper right and middle right, providing a clear area for typographic elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and dark grays in the subject's clothing.",
+      "contrastColorRole": "Warm ambers, yellows, and oranges in the background bokeh.",
+      "accentColorRole": "White and light gray highlights in the plaid shirt and text.",
+      "saturationAndValueRelationship": "High saturation in the background warm tones against low-saturation, dark-value foreground elements.",
+      "paletteRestrictions": [
+        "Avoid cool blues or greens in the background",
+        "Maintain high contrast between text and background"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy slab serif and condensed sans-serif",
+      "letterConstructionRules": [
+        "Primary text uses thick, blocky serifs with a weathered, stamped texture",
+        "Secondary text uses a clean, geometric, all-caps condensed sans-serif",
+        "Horizontal bars in the serif font are thick and consistent"
+      ],
+      "characterSpecificRedesigns": [
+        "Eroded edges on the serif characters to simulate a vintage or rustic feel"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "slab",
+            "corners": "slightly rounded/distressed",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over background"
+          },
+          "treatment": {
+            "fill": "dark brown/charcoal with texture",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "gritty/stamped",
+            "distortion": "weathered edges"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "light",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy distressed slab serif paired with a light, clean condensed sans-serif for contrast in weight and texture.",
+      "graphicDevices": [
+        "Subtle lens flare or light glint on the subtitle text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Stacked alignment",
+          "Distressed texture of the main name",
+          "Condensed nature of the subtitle"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Italics",
+          "Bright primary colors for text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold (Distressed)",
+            "reason": "Matches the heavy slab serif structure and weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "DIN Condensed",
+            "reason": "Provides the clean, modern contrast for the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a close-up portrait of a man with glasses and a beard, wearing a dark jacket over a plaid shirt, positioned on the left. The background should be a warm, golden-hour horizontal bokeh blur.",
+        "overlayInstruction": "Add two lines of large, distressed slab-serif text in the upper right. Below it, add a single line of thin, white, condensed sans-serif text with wide tracking."
+      },
+      "verificationChecks": [
+        "Is the subject positioned to the left?",
+        "Is the background a warm, horizontal bokeh?",
+        "Is the primary text distressed and slab-serif?",
+        "Is the subtitle clean, white, and condensed?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the background bokeh",
+      "Amount of distress on the primary font",
+      "Warmth of the color grade",
+      "Tightness of the portrait crop"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the individual",
+      "Unique clothing patterns",
+      "Specific brand logos on glasses or clothing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, professional lighting on the face",
+        "Clear typographic hierarchy",
+        "Cohesive warm/cool color contrast"
+      ],
+      "avoid": [
+        "Harsh shadows on the face",
+        "Cluttered backgrounds",
+        "Illegible text texture"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text does not overlap the subject's face",
+      "Verify the background blur is smooth and horizontal",
+      "Check that the distressed texture looks intentional, not like low-resolution noise"
+    ],
+    "reuseFormula": "Portrait subject (Left) + Warm Bokeh (Background) + Distressed Slab Serif (Top Right) + Clean Sans-Serif (Bottom Right)."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:44:11.172Z"
+}

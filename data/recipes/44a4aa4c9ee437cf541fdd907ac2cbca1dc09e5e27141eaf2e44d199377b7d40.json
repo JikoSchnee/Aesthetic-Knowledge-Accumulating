@@ -1,0 +1,246 @@
+{
+  "id": "44a4aa4c9ee437cf541fdd907ac2cbca1dc09e5e27141eaf2e44d199377b7d40",
+  "skillId": "44a4aa4c9ee437cf541fdd907ac2cbca1dc09e5e27141eaf2e44d199377b7d40",
+  "versionId": "44a4aa4c9ee437cf541fdd907ac2cbca1dc09e5e27141eaf2e44d199377b7d40",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:06:10.290Z",
+  "approvedAt": "2026-08-12T16:06:10.290Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:06:10.290Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "A Time to Love.jpg",
+    "hash": "44a4aa4c9ee437cf541fdd907ac2cbca1dc09e5e27141eaf2e44d199377b7d40",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "A Time to Love",
+    "artist": "Stevie Wonder",
+    "artworkUrl": "https://coverartarchive.org/release-group/300253f6-28c6-3bdb-8f45-ac88959e0bb8/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/300253f6-28c6-3bdb-8f45-ac88959e0bb8",
+    "releaseGroupId": "300253f6-28c6-3bdb-8f45-ac88959e0bb8",
+    "recordingId": "18034b12-0fa1-4b75-ae74-33d592552021",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "So What The FussStevie Wonder",
+      "song": "So What The Fuss",
+      "performer": "Stevie Wonder",
+      "peakPosition": 96,
+      "firstChartDate": "2005-04-09",
+      "lastChartDate": "2005-04-09",
+      "appearances": [
+        {
+          "chartDate": "2005-04-09",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "soulful portrait with distressed typographic backdrop distressed background stencil typography warm earth tones portrait with sunglasses textured wall hand drawn icons subject in dark silhouette against a bright busy background geometric chair back echoing the grid like structure of the background letters warm earth tones ochre rust contrasted by stark white graphic elements centralized vertical axis of the subject balanced by asymmetrical top right graphics central portrait distressed stencil background hand drawn white overlays warm earth tones",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soulful Portrait with Distressed Typographic Backdrop",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Editorial portraiture",
+        "Promotional posters for musicians"
+      ],
+      "retrievalTags": [
+        "distressed background",
+        "stencil typography",
+        "warm earth tones",
+        "portrait with sunglasses",
+        "textured wall",
+        "hand-drawn icons"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered portrait of a smiling subject in dark clothing against a high-contrast, textured background featuring large-scale stencil lettering and hand-drawn white symbols.",
+      "triggerTerms": [
+        "distressed stencil background portrait",
+        "warm ochre and rust textured backdrop",
+        "hand-drawn white icon overlay"
+      ],
+      "excludeWhen": [
+        "clean minimalist backgrounds are required",
+        "corporate professional headshots",
+        "cool-toned or pastel color palettes"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central figure in black attire sits behind a geometric wooden chair, framed by a background of large, weathered stencil letters in rust and gold. The composition is punctuated by bright white, hand-drawn symbols and text in the upper right quadrant.",
+    "coreVisualRelationships": [
+      "Subject in dark silhouette against a bright, busy background",
+      "Geometric chair back echoing the grid-like structure of the background letters",
+      "Warm earth tones (ochre, rust) contrasted by stark white graphic elements",
+      "Centralized vertical axis of the subject balanced by asymmetrical top-right graphics"
+    ],
+    "coreInvariants": [
+      "Large-scale distressed stencil lettering filling the background grid",
+      "Subject wearing dark sunglasses and a black garment",
+      "Warm, high-contrast lighting on the subject's face",
+      "Hand-drawn white heart and circular clock-like icons"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centrally positioned, occupying the middle and lower two-thirds of the frame in a medium-full shot.",
+      "visualAnchor": "The subject's face and smile, highlighted by warm lighting, serve as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the subject's face, move down to the geometric chair, then sweep across the large background letters before settling on the white icons in the top right.",
+      "negativeSpace": "Minimal; the frame is densely packed with texture and large-scale typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm ochre and gold tones provide the primary background light.",
+      "contrastColorRole": "Deep black and dark charcoal in the subject's clothing and shadows.",
+      "accentColorRole": "Rust red in the distressed lettering and stark white for the graphic icons.",
+      "saturationAndValueRelationship": "High contrast between the dark subject and the bright, saturated background; textures are emphasized through value shifts.",
+      "paletteRestrictions": [
+        "Earthy ochre",
+        "Rust red",
+        "Deep black",
+        "Stark white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Heavy block stencil and loose hand-drawn script",
+      "letterConstructionRules": [
+        "Background letters are massive, square-proportioned, and heavily distressed with 'grunge' textures.",
+        "Foreground icons and text are drawn with a uniform, medium-weight white stroke, appearing hand-rendered.",
+        "The circular icon uses a clock-face layout with radial text."
+      ],
+      "characterSpecificRedesigns": [
+        "Heart symbol used as a character replacement",
+        "Circular clock-like graphic containing internal text"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "hand-drawn",
+          "anatomy": {
+            "width": "variable",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "asymmetric",
+            "density": "loose"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "medium",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "over background",
+            "relationshipToImage": "floating overlay"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "hand-drawn wobble"
+          }
+        }
+      ],
+      "pairingStrategy": "Massive, weathered industrial stencils paired with light, personal hand-drawn doodles.",
+      "graphicDevices": [
+        "Distressed texture overlays",
+        "Stencil masks",
+        "Hand-drawn heart icon",
+        "Circular clock-face graphic"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The contrast between the heavy background letters and light foreground icons",
+          "The weathered, rusted texture of the background"
+        ],
+        "avoid": [
+          "Clean, modern sans-serifs",
+          "Perfectly aligned grid systems"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rough Stencil",
+            "reason": "To match the large-scale background lettering style.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Marker Script",
+            "reason": "To replicate the hand-drawn feel of the white icons.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in black sunglasses and black clothing sitting behind a geometric wooden chair. The background should be a wall of large, distressed, rust-colored stencil letters on an ochre surface.",
+        "overlayInstruction": "Add hand-drawn white icons and text in the upper right corner, including a heart and a circular clock-like graphic with text inside."
+      },
+      "verificationChecks": [
+        "Is the background texture sufficiently distressed?",
+        "Is the subject's clothing deep black to provide contrast?",
+        "Are the white icons clearly hand-drawn rather than digital fonts?",
+        "Does the chair have a distinct geometric pattern?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of background distressing",
+      "Warmth of the color palette",
+      "Complexity of the hand-drawn icons",
+      "Scale of the background stencil letters"
+    ],
+    "mustRedesign": [
+      "Specific artist names or album titles",
+      "Exact logo marks",
+      "Identifiable celebrity facial features"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast lighting on the subject",
+        "Rich, tactile texture in the background",
+        "Balanced asymmetry between subject and icons"
+      ],
+      "avoid": [
+        "Flat, untextured colors",
+        "Generic digital fonts",
+        "Low-contrast compositions"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the white icons are bright and legible against the background.",
+      "Check that the stencil letters look integrated into the wall texture.",
+      "Verify the subject's pose feels natural and centered.",
+      "Confirm the color palette remains in the warm earth-tone range."
+    ],
+    "reuseFormula": "Central portrait + Distressed Stencil Background + Hand-drawn White Overlays + Warm Earth Tones"
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "id": "2dfcd8031be1d724b5a43e037d64be5b68b52f164e52c50e5d00e0b3c97adf5d",
+  "skillId": "2dfcd8031be1d724b5a43e037d64be5b68b52f164e52c50e5d00e0b3c97adf5d",
+  "versionId": "2dfcd8031be1d724b5a43e037d64be5b68b52f164e52c50e5d00e0b3c97adf5d",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:03:30.638Z",
+  "approvedAt": "2026-08-12T14:03:30.638Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:03:30.638Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Born to Die.jpg",
+    "hash": "2dfcd8031be1d724b5a43e037d64be5b68b52f164e52c50e5d00e0b3c97adf5d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Born to Die",
+    "artist": "Grand Funk Railroad",
+    "artworkUrl": "https://coverartarchive.org/release-group/0071962b-4dbd-39c2-a95f-a6ad763c446a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0071962b-4dbd-39c2-a95f-a6ad763c446a",
+    "releaseGroupId": "0071962b-4dbd-39c2-a95f-a6ad763c446a",
+    "recordingId": "01536e03-ec9b-4bf0-afd7-cce5d96bf148",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "SallyGrand Funk Railroad",
+      "song": "Sally",
+      "performer": "Grand Funk Railroad",
+      "peakPosition": 69,
+      "firstChartDate": "1976-03-20",
+      "lastChartDate": "1976-04-10",
+      "appearances": [
+        {
+          "chartDate": "1976-03-20",
+          "position": 89
+        },
+        {
+          "chartDate": "1976-03-27",
+          "position": 79
+        },
+        {
+          "chartDate": "1976-04-03",
+          "position": 69
+        },
+        {
+          "chartDate": "1976-04-10",
+          "position": 69
+        }
+      ]
+    }
+  },
+  "dedupeText": "macabre formal portraiture caskets formal wear floral arrangements tiled wall symmetrical composition memento mori 70s rock aesthetic four fold vertical symmetry across the horizontal plane contrast between formal black tuxedos and pastel casket linings repetition of floral motifs at the head and foot of each unit juxtaposition of life men and death caskets wreaths symmetrical grid macabre subject formal attire floral framing",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Macabre Formal Portraiture",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Studio Lighting",
+        "Set Design"
+      ],
+      "useCases": [
+        "Dark comedy album covers",
+        "Theatrical promotional posters",
+        "Surrealist editorial photography"
+      ],
+      "retrievalTags": [
+        "caskets",
+        "formal wear",
+        "floral arrangements",
+        "tiled wall",
+        "symmetrical composition",
+        "memento mori",
+        "70s rock aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A symmetrical grid of four men in formal attire standing inside upright caskets against a tiled background, framed by floral wreaths.",
+      "triggerTerms": [
+        "upright caskets in a row",
+        "men in tuxedos in coffins",
+        "symmetrical funeral floral arrangements",
+        "tiled wall studio portrait"
+      ],
+      "excludeWhen": [
+        "a realistic funeral scene is requested",
+        "a single subject portrait is needed",
+        "modern minimalist design is required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A highly structured, symmetrical composition featuring four vertical caskets arranged in a row. Each casket contains a man in a tuxedo, with the top half showing the person and the bottom half reflecting a candle flame. The scene is bookended by floral sprays at the top and bottom of each casket, set against a grid-like tiled wall.",
+    "coreVisualRelationships": [
+      "Four-fold vertical symmetry across the horizontal plane",
+      "Contrast between formal black tuxedos and pastel casket linings",
+      "Repetition of floral motifs at the head and foot of each unit",
+      "Juxtaposition of life (men) and death (caskets/wreaths)"
+    ],
+    "coreInvariants": [
+      "Upright vertical orientation of the caskets",
+      "Grid-based background texture",
+      "Reflective lower panels on the caskets showing candle light"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four subjects of equal scale distributed evenly across the frame, occupying the central vertical band.",
+      "visualAnchor": "The four faces of the men, positioned at the upper-middle third of the composition.",
+      "movementAndEyePath": "A rhythmic horizontal scan across the four identical vertical units, moving from the top floral sprays down to the bottom wreaths.",
+      "negativeSpace": "The tiled wall provides a textured but neutral negative space that reinforces the grid structure."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted teal-grey (tiled background)",
+      "contrastColorRole": "Deep black (tuxedos and casket exteriors)",
+      "accentColorRole": "Pastel pink, yellow, and blue (casket linings and flowers)",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the dark suits and the glowing candle reflections.",
+      "paletteRestrictions": [
+        "Avoid vibrant primary colors",
+        "Maintain a slightly desaturated, vintage film look"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold slab serif or heavy block sans",
+      "letterConstructionRules": [
+        "Extremely tight tracking",
+        "High stroke weight",
+        "Low contrast between thick and thin strokes"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are compressed to fit the width of the casket row"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaying the top background tiles"
+          },
+          "treatment": {
+            "fill": "muted gold or olive",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "semi-transparent",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single heavy weight used for all text to maintain a monolithic block feel.",
+      "graphicDevices": [
+        "Grid lines from the background tiles",
+        "Rectangular framing of the casket lids"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Heavy weight",
+          "Tight tracking",
+          "Top-center placement"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Light weights",
+          "High-contrast serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy, blocky presence and tight spacing.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Provides the slab-serif feel seen in many 70s rock albums.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A wide shot of four men in black tuxedos standing inside four upright caskets. The caskets are lined with pastel fabrics (pink, cream, blue, yellow). Each casket has a large floral arrangement on top and a wreath at the bottom. The background is a wall of small square teal tiles. The bottom half of each casket is a dark reflective panel showing a single candle flame.",
+        "overlayInstruction": "Add bold, heavy block text in a muted olive-gold color at the top center, spanning the width of the four caskets. The text should be semi-transparent to blend with the tile texture."
+      },
+      "verificationChecks": [
+        "Are there exactly four caskets?",
+        "Is the composition perfectly symmetrical?",
+        "Does the text have a heavy, blocky appearance?",
+        "Are the floral arrangements present at both top and bottom?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects",
+      "Color of casket linings",
+      "Type of formal wear",
+      "Tile color and size"
+    ],
+    "mustRedesign": [
+      "Specific faces of the original band members",
+      "Original band and album names",
+      "Specific record label logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Strict vertical symmetry",
+        "Theatrical studio lighting",
+        "Consistent grid background"
+      ],
+      "avoid": [
+        "Candid or messy composition",
+        "Modern digital filters",
+        "Bright, saturated primary colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for four distinct vertical units",
+      "Verify the presence of candle reflections in the lower panels",
+      "Ensure the floral wreaths are symmetrical",
+      "Confirm the text is centered and heavy-weighted"
+    ],
+    "reuseFormula": "Symmetrical Grid + Macabre Subject + Formal Attire + Floral Framing"
+  }
+}

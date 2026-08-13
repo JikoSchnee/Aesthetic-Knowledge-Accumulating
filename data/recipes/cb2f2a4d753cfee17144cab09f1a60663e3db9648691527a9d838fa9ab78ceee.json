@@ -1,0 +1,264 @@
+{
+  "id": "cb2f2a4d753cfee17144cab09f1a60663e3db9648691527a9d838fa9ab78ceee",
+  "skillId": "cb2f2a4d753cfee17144cab09f1a60663e3db9648691527a9d838fa9ab78ceee",
+  "versionId": "cb2f2a4d753cfee17144cab09f1a60663e3db9648691527a9d838fa9ab78ceee",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:31:39.202Z",
+  "approvedAt": "2026-08-13T00:31:39.202Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:31:39.202Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Cry Like a Rainstorm - Howl Like the Wind.jpg",
+    "hash": "cb2f2a4d753cfee17144cab09f1a60663e3db9648691527a9d838fa9ab78ceee",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Cry Like a Rainstorm - Howl Like the Wind",
+    "artist": "Linda Ronstadt (Featuring Aaron Neville)",
+    "artworkUrl": "https://coverartarchive.org/release-group/7cd69d6e-36a8-35de-850b-1d339ed947df/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7cd69d6e-36a8-35de-850b-1d339ed947df",
+    "releaseGroupId": "7cd69d6e-36a8-35de-850b-1d339ed947df",
+    "recordingId": "c57e4cde-13b7-48ed-b6a6-f6b941c615a2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "When Something Is Wrong With My BabyLinda Ronstadt (Featuring Aaron Neville)",
+      "song": "When Something Is Wrong With My Baby",
+      "performer": "Linda Ronstadt (Featuring Aaron Neville)",
+      "peakPosition": 78,
+      "firstChartDate": "1990-05-12",
+      "lastChartDate": "1990-06-16",
+      "appearances": [
+        {
+          "chartDate": "1990-05-12",
+          "position": 96
+        },
+        {
+          "chartDate": "1990-05-19",
+          "position": 88
+        },
+        {
+          "chartDate": "1990-05-26",
+          "position": 85
+        },
+        {
+          "chartDate": "1990-06-02",
+          "position": 78
+        },
+        {
+          "chartDate": "1990-06-09",
+          "position": 89
+        },
+        {
+          "chartDate": "1990-06-16",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "late 80s pop portrait with angled tape overlays close up portrait bob haircut angled text strips 80s aesthetic high contrast face script lettering the dark hair frames the pale face to create a strong oval focal point diagonal text strips at the top left and bottom right create a dynamic counter balance the vibrant red lips serve as a secondary color anchor against the neutral skin and hair the warm yellow orange glow at the bottom edges provides a soft environmental contrast to the dark hair portrait subject hair style high contrast lighting diagonal color tape overlays color script typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Late 80s Pop Portrait with Angled Tape Overlays",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Editorial fashion spreads",
+        "Retro-themed posters"
+      ],
+      "retrievalTags": [
+        "close-up portrait",
+        "bob haircut",
+        "angled text strips",
+        "80s aesthetic",
+        "high contrast face",
+        "script lettering"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, tight-cropped facial portrait featuring dark hair and bold lips, overlaid with diagonal grey tape-like strips containing script typography.",
+      "triggerTerms": [
+        "angled tape text overlay",
+        "tight crop portrait bob haircut",
+        "80s pop album aesthetic"
+      ],
+      "excludeWhen": [
+        "full body shots are required",
+        "minimalist modern layouts are requested",
+        "sans-serif typography is the primary focus"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, extreme close-up of a face with a dark bob and bangs, characterized by high-key lighting on the skin and deep shadows in the hair, framed by diagonal grey banners with handwritten-style text at the top and bottom corners.",
+    "coreVisualRelationships": [
+      "The dark hair frames the pale face to create a strong oval focal point.",
+      "Diagonal text strips at the top-left and bottom-right create a dynamic counter-balance.",
+      "The vibrant red lips serve as a secondary color anchor against the neutral skin and hair.",
+      "The warm yellow-orange glow at the bottom edges provides a soft environmental contrast to the dark hair."
+    ],
+    "coreInvariants": [
+      "Tight facial crop cutting off the top of the head and shoulders.",
+      "Diagonal orientation of text banners.",
+      "High contrast between dark hair/eyes and pale skin."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The face is centered and fills approximately 80% of the frame vertically.",
+      "visualAnchor": "The eyes and red lips form a central vertical axis of interest.",
+      "movementAndEyePath": "The eye starts at the top-left text strip, moves down through the eyes to the lips, and exits through the bottom-right text strips.",
+      "negativeSpace": "Minimal negative space, primarily found in the small yellow-orange gradients at the lower corners."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pale cream/white for skin tones and deep black for hair.",
+      "contrastColorRole": "Medium grey for the text overlay strips.",
+      "accentColorRole": "Bold crimson red for the lips and primary text.",
+      "saturationAndValueRelationship": "High value contrast in the face; low saturation overall except for the lips and the warm yellow glow.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Limit to muted greys, blacks, and warm skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "cursive script",
+      "letterConstructionRules": [
+        "Fluid, connected strokes mimicking marker or brush pen",
+        "Slanted to the right",
+        "Variable line weight with visible pressure changes",
+        "Informal, non-geometric loops"
+      ],
+      "characterSpecificRedesigns": [
+        "Uppercase letters feature exaggerated flourishes",
+        "Lowercase 't' bars are long and sweeping"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "medium",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line per strip",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "top left and bottom right",
+            "scale": "large",
+            "rotation": "-10 to -15 degrees",
+            "warp": "none",
+            "overlap": "on top of hair and chin",
+            "relationshipToImage": "layered over subject"
+          },
+          "treatment": {
+            "fill": "crimson or white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast a large, bold red script with a smaller, thinner white script on separate banners.",
+      "graphicDevices": [
+        "Rough-edged grey rectangular strips resembling torn tape",
+        "Diagonal orientation for all text elements"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Diagonal angle",
+          "Script style",
+          "Grey banner background"
+        ],
+        "avoid": [
+          "Blocky sans-serif",
+          "Perfectly horizontal text",
+          "Drop shadows on text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Casual Brush Script",
+            "reason": "Matches the hand-drawn, informal feel of the original lettering.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Sign Painter Script",
+            "reason": "Provides the necessary fluid connections and variable stroke width.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast close-up portrait of a woman with a dark bob haircut and bangs, pale skin, and bright red lipstick. Use soft yellow lighting at the bottom corners and a dark background.",
+        "overlayInstruction": "Add three diagonal grey rectangular strips: one at the top left and two staggered at the bottom right. Place custom cursive script text inside these strips, using red for the top and white for the bottom."
+      },
+      "verificationChecks": [
+        "Is the face tightly cropped with the hair framing the features?",
+        "Are the text banners angled diagonally?",
+        "Is the typography a fluid script rather than a standard font?",
+        "Is there a strong contrast between the pale skin and dark hair?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Angle of the text strips",
+      "Intensity of the yellow glow",
+      "Thickness of the hair bob",
+      "Lipstick shade"
+    ],
+    "mustRedesign": [
+      "Exact facial features of the original artist",
+      "Specific brand logos",
+      "Original album title wording"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast lighting on the face",
+        "Authentic-looking 'tape' overlays",
+        "Cohesive 1980s color palette"
+      ],
+      "avoid": [
+        "Modern digital filters",
+        "Overly sharp or thin typography",
+        "Centering the text horizontally"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text does not obscure the eyes or mouth.",
+      "Check that the grey strips have slightly irregular, non-perfect edges.",
+      "Verify the script is legible despite the diagonal angle.",
+      "Confirm the hair texture appears dense and dark."
+    ],
+    "reuseFormula": "Portrait [Subject] + [Hair Style] + High Contrast Lighting + Diagonal [Color] Tape Overlays + [Color] Script Typography"
+  }
+}

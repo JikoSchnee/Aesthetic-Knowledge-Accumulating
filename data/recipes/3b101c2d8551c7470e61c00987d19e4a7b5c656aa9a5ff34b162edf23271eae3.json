@@ -1,0 +1,304 @@
+{
+  "id": "3b101c2d8551c7470e61c00987d19e4a7b5c656aa9a5ff34b162edf23271eae3",
+  "skillId": "3b101c2d8551c7470e61c00987d19e4a7b5c656aa9a5ff34b162edf23271eae3",
+  "versionId": "3b101c2d8551c7470e61c00987d19e4a7b5c656aa9a5ff34b162edf23271eae3",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T11:41:35.116Z",
+  "approvedAt": "2026-08-12T11:41:35.116Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T11:41:35.116Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "After the Show.jpg",
+    "hash": "3b101c2d8551c7470e61c00987d19e4a7b5c656aa9a5ff34b162edf23271eae3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "After the Show",
+    "artist": "Bruce Foster",
+    "artworkUrl": "https://coverartarchive.org/release-group/7871c2e3-eed3-4044-b952-b958d9578a1c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7871c2e3-eed3-4044-b952-b958d9578a1c",
+    "releaseGroupId": "7871c2e3-eed3-4044-b952-b958d9578a1c",
+    "recordingId": "fa6b8c99-a6de-4942-90e6-821c16d5e7af",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Platinum HeroesBruce Foster",
+      "song": "Platinum Heroes",
+      "performer": "Bruce Foster",
+      "peakPosition": 63,
+      "firstChartDate": "1977-07-02",
+      "lastChartDate": "1977-07-30",
+      "appearances": [
+        {
+          "chartDate": "1977-07-02",
+          "position": 85
+        },
+        {
+          "chartDate": "1977-07-09",
+          "position": 74
+        },
+        {
+          "chartDate": "1977-07-16",
+          "position": 74
+        },
+        {
+          "chartDate": "1977-07-23",
+          "position": 63
+        },
+        {
+          "chartDate": "1977-07-30",
+          "position": 63
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro backstage portrait layout 70s rock aesthetic backstage dressing room bold sans serif title electric guitar prop mirror reflection blue carpet musician portrait subject centered between vanity counters title spanning the top horizontal margin mirror reflection providing depth behind the subject diagonal guitar placement balancing the lower right quadrant seated portrait cluttered backstage setting bold outlined header overlapping script subtitle",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Backstage Portrait Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting",
+        "Print Media"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Music Poster Design",
+        "Editorial Portraiture",
+        "Vintage Promotional Material"
+      ],
+      "retrievalTags": [
+        "70s rock aesthetic",
+        "backstage dressing room",
+        "bold sans-serif title",
+        "electric guitar prop",
+        "mirror reflection",
+        "blue carpet",
+        "musician portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered musician portrait in a cluttered backstage dressing room featuring a large, bold, outlined header and a secondary script sub-title.",
+      "triggerTerms": [
+        "70s rock album cover",
+        "backstage dressing room portrait",
+        "bold blue outlined typography",
+        "musician sitting on chair with guitar"
+      ],
+      "excludeWhen": [
+        "minimalist modern layouts",
+        "outdoor nature photography",
+        "abstract digital art"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A full-body portrait of a subject seated backwards on a chair in a dressing room, framed by a large mirror and vanity. The composition is anchored by a heavy, blocky title at the top that spans the width of the frame, utilizing a high-contrast outline and a secondary cursive element overlapping the main text.",
+    "coreVisualRelationships": [
+      "Subject centered between vanity counters",
+      "Title spanning the top horizontal margin",
+      "Mirror reflection providing depth behind the subject",
+      "Diagonal guitar placement balancing the lower right quadrant"
+    ],
+    "coreInvariants": [
+      "Bold, heavy-weight sans-serif title",
+      "Contrasting outline on primary text",
+      "Dressing room setting with vanity and mirrors",
+      "High-angle or eye-level seated portrait"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central figure, seated, occupying the middle vertical third of the frame.",
+      "visualAnchor": "The large, blue, outlined title at the top edge.",
+      "movementAndEyePath": "Starts at the bold header, moves down to the subject's face, then follows the legs and guitar to the bottom corners.",
+      "negativeSpace": "Limited; the scene is dense with props like guitars, flowers, and vanity items."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blue (carpet and title fill)",
+      "contrastColorRole": "White and neutral tones (vanity, walls, subject's clothing)",
+      "accentColorRole": "Red (guitar and small props)",
+      "saturationAndValueRelationship": "High saturation in the primary blues and reds against a desaturated, brightly lit background.",
+      "paletteRestrictions": [
+        "Primary blue",
+        "Bright red",
+        "Cream/White",
+        "Black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke width",
+        "Tight kerning",
+        "Thick, high-contrast outer stroke",
+        "Squared-off terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Overlapping characters to create a continuous block of color"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminders": "straight",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "solid blue",
+            "outline": "thick white or light blue",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "overlapping display text",
+            "scale": "small",
+            "rotation": "-5 degrees",
+            "warp": "none",
+            "overlap": "foreground",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "thin white",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy geometric sans-serif paired with a fluid, slanted script for dynamic contrast.",
+      "graphicDevices": [
+        "Thick outlines",
+        "Text-on-text layering"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase blocky structure",
+          "Tight letter spacing",
+          "High-contrast outline"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Thin weights",
+          "Wide letter spacing"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the weight and geometric feel of the primary title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral or Brush Script",
+            "reason": "Approximates the informal, slanted secondary text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photograph of a male musician with 70s-style hair sitting backwards on a black chair in a cluttered backstage dressing room. Include a blue carpet, a vanity with mirrors, and an electric guitar leaning against a wall. Ensure bright, even indoor lighting.",
+        "overlayInstruction": "Add a large, uppercase, bold blue sans-serif title across the top with a thick white outline. Overlay a smaller red script subtitle at a slight angle, partially covering the main title."
+      },
+      "verificationChecks": [
+        "Is the main title uppercase and bold?",
+        "Does the title have a visible outline?",
+        "Is there a secondary script font overlapping the main text?",
+        "Is the subject centered in a dressing room environment?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the title fill and outline",
+      "Subject's pose and clothing style",
+      "Specific props in the dressing room (e.g., flowers, drinks)",
+      "Angle of the secondary script text"
+    ],
+    "mustRedesign": [
+      "Avoid specific celebrity likenesses",
+      "Do not use existing brand logos",
+      "Ensure the text content is original"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clear visual hierarchy between title and subject",
+        "Authentic 1970s interior color palette",
+        "Sharp, legible typography despite the outline"
+      ],
+      "avoid": [
+        "Modern digital filters",
+        "Clean, minimalist backgrounds",
+        "Low-contrast text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the title spans at least 80% of the width.",
+      "Verify the blue of the carpet matches the blue of the text.",
+      "Ensure the mirror reflection shows a plausible continuation of the room.",
+      "Confirm the guitar is a distinct visual element in the foreground."
+    ],
+    "reuseFormula": "Seated portrait + cluttered backstage setting + bold outlined header + overlapping script subtitle."
+  }
+}

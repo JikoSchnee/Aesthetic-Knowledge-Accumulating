@@ -1,0 +1,166 @@
+{
+  "id": "8f242a9e327282e7e1741653a0e6694c27595d8775bcd17141c8ba7bf0e95a75",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T07:51:29.553Z",
+  "approvedAt": "2026-08-11T07:51:29.553Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T07:51:29.553Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "MIXTAPE PLUTO.jpg",
+    "hash": "8f242a9e327282e7e1741653a0e6694c27595d8775bcd17141c8ba7bf0e95a75",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "MIXTAPE PLUTO",
+    "artist": "Future",
+    "artworkUrl": "https://coverartarchive.org/release-group/3a3eab5b-7b43-44e4-b716-abbca517a72d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3a3eab5b-7b43-44e4-b716-abbca517a72d",
+    "releaseGroupId": "3a3eab5b-7b43-44e4-b716-abbca517a72d",
+    "recordingId": "79336a73-b1ff-4f22-97a8-e49d0d6f9b61",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Aye Say GangFuture",
+      "song": "Aye Say Gang",
+      "performer": "Future",
+      "peakPosition": 80,
+      "firstChartDate": "2024-10-05",
+      "lastChartDate": "2024-10-05",
+      "appearances": [
+        {
+          "chartDate": "2024-10-05",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "neon gothic suburban nocturne liminal space magenta glow dark house eerie suburban gothic night photography high contrast extreme contrast between deep black shadows and luminous magenta portals rhythmic placement of glowing rectangles across the horizontal facade organic silhouettes of trees framing a rigid geometric structure low key lighting emphasizing brick texture and mailbox silhouette suburban gothic magenta portal void background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Neon Gothic Suburban Nocturne",
+      "category": "Surrealist Photography",
+      "medium": [
+        "Digital Composite",
+        "Long Exposure Photography",
+        "Photo-manipulation"
+      ],
+      "useCases": [
+        "Album Art",
+        "Horror Book Cover",
+        "Cinematic Concept Art"
+      ],
+      "retrievalTags": [
+        "liminal space",
+        "magenta glow",
+        "dark house",
+        "eerie",
+        "suburban gothic",
+        "night photography",
+        "high contrast"
+      ]
+    },
+    "visualDefinition": "A low-angle, high-contrast night scene of a brick suburban house shrouded in near-total darkness, where the windows and door emit an intense, saturated magenta-pink glow that spills onto the surrounding textures.",
+    "coreVisualRelationships": [
+      "Extreme contrast between deep black shadows and luminous magenta portals",
+      "Rhythmic placement of glowing rectangles across the horizontal facade",
+      "Organic silhouettes of trees framing a rigid geometric structure",
+      "Low-key lighting emphasizing brick texture and mailbox silhouette"
+    ],
+    "coreInvariants": [
+      "Pitch black sky and peripheral environment",
+      "Vibrant magenta/pink internal illumination",
+      "Visible brickwork texture on the house facade",
+      "Presence of a foreground mailbox as a scale reference"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The house is centered horizontally, occupying the middle third of the vertical frame, appearing small against the vast darkness.",
+      "visualAnchor": "The central glowing doorway acts as the primary focal point due to its size and brightness.",
+      "movementAndEyePath": "The eye jumps between the four glowing portals from left to right, then settles on the mailbox in the lower right foreground.",
+      "negativeSpace": "Dominant black negative space surrounds the house on all sides, creating a sense of isolation."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Black (#000000) for the environment and shadows.",
+      "contrastColorRole": "Vivid Magenta (#FF00FF) for the interior light sources.",
+      "accentColorRole": "Desaturated Dark Green (#1A1A0D) for the grass and foliage.",
+      "saturationAndValueRelationship": "Extreme value contrast; the magenta is highly saturated while the rest of the image is near-zero value.",
+      "paletteRestrictions": [
+        "No warm tones (yellows, oranges, reds)",
+        "No blue sky light",
+        "Strictly limited to black, magenta, and dark olive"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Soft outer glow effects",
+        "Heavy film grain or digital noise in shadows",
+        "Vignetting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a dark, moody night shot of a small brick house with a gabled roof. The sky and surroundings should be almost entirely black. The windows and door should be the only light sources, emitting a powerful, hazy pink-magenta light that illuminates the immediate brick edges.",
+        "overlayInstruction": "If adding text, use a thin, spaced-out sans-serif font in white or light grey, positioned in the upper or lower third of the black negative space."
+      },
+      "verificationChecks": [
+        "Is the magenta light the only significant color?",
+        "Is the brick texture visible despite the darkness?",
+        "Is the sky pure black without stars or clouds?",
+        "Does the mailbox provide a clear foreground element?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the magenta glow",
+      "Amount of visible foliage detail",
+      "Sharpness of the house silhouette",
+      "Presence of the mailbox"
+    ],
+    "mustRedesign": [
+      "Avoid any natural interior light (yellow/white)",
+      "Do not include streetlights or moon",
+      "Ensure the house does not look 'inviting' or 'cozy'"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Uncanny valley suburban feel",
+        "High-saturation light bleed",
+        "Deep, crushed blacks"
+      ],
+      "avoid": [
+        "Cartoonish colors",
+        "Visible interior furniture",
+        "Soft, romantic lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for haloing artifacts around the magenta light",
+      "Ensure the grass texture is subtle and dark",
+      "Verify the house is perfectly centered",
+      "Confirm the mailbox is silhouetted against the dark ground"
+    ],
+    "reuseFormula": "Suburban Gothic + Magenta Portal + Void Background"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T08:12:39.022Z"
+}

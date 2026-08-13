@@ -1,0 +1,242 @@
+{
+  "id": "5d93bfb8e18abce120f312278054ef5cba3957c3dcfd468bf05a16570cba5e98",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:16:25.056Z",
+  "approvedAt": "2026-08-11T09:16:25.056Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:16:25.056Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "11.jpg",
+    "hash": "5d93bfb8e18abce120f312278054ef5cba3957c3dcfd468bf05a16570cba5e98",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "11",
+    "artist": "The Smithereens",
+    "artworkUrl": "https://coverartarchive.org/release-group/3ab1f148-15ac-36c7-8df9-66bf1bcfb310/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3ab1f148-15ac-36c7-8df9-66bf1bcfb310",
+    "releaseGroupId": "3ab1f148-15ac-36c7-8df9-66bf1bcfb310",
+    "recordingId": "460a11ba-3f27-47d5-b637-e7ca889f67c7",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Blues Before And AfterThe Smithereens",
+      "song": "Blues Before And After",
+      "performer": "The Smithereens",
+      "peakPosition": 94,
+      "firstChartDate": "1990-05-05",
+      "lastChartDate": "1990-05-12",
+      "appearances": [
+        {
+          "chartDate": "1990-05-05",
+          "position": 94
+        },
+        {
+          "chartDate": "1990-05-12",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "graphic pop rock album cover bold typography high contrast red and white silhouette vertical text minimalist 1990s aesthetic massive red numerals acting as a frame for photographic subjects vertical text block counterbalancing the large numeric shapes horizontal strip of repetitive silhouettes at the bottom edge strict three color palette of red white and black combine one massive geometric numeral in a primary color with high contrast stenciled photography and a vertical block of condensed sans serif type for a bold 90s inspired graphic layout",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Graphic Pop-Rock Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Digital Illustration",
+        "Photography",
+        "Graphic Layout"
+      ],
+      "useCases": [
+        "Album Art",
+        "Concert Poster",
+        "Editorial Layout",
+        "Book Cover"
+      ],
+      "retrievalTags": [
+        "bold typography",
+        "high contrast",
+        "red and white",
+        "silhouette",
+        "vertical text",
+        "minimalist",
+        "1990s aesthetic"
+      ]
+    },
+    "visualDefinition": "A high-contrast graphic composition featuring a massive numeric motif in vibrant red against a white background, integrated with high-contrast black-and-white photography of figures and a vertical stack of bold, condensed typography.",
+    "coreVisualRelationships": [
+      "Massive red numerals acting as a frame for photographic subjects",
+      "Vertical text block counterbalancing the large numeric shapes",
+      "Horizontal strip of repetitive silhouettes at the bottom edge",
+      "Strict three-color palette of red, white, and black"
+    ],
+    "coreInvariants": [
+      "High-contrast black silhouettes with minimal mid-tone detail",
+      "Vibrant, flat red field for the primary graphic element",
+      "Stark white negative space",
+      "Vertical orientation of the main text block"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large numerals occupy 80% of the vertical space; photographic figures are scaled to fit within the lower half of the first numeral.",
+      "visualAnchor": "The large red '11' shape serves as the primary anchor, grounding all other elements.",
+      "movementAndEyePath": "Eye starts at the top left red shape, moves down to the figures, then travels up the vertical text on the right, finally settling on the bottom decorative strip.",
+      "negativeSpace": "White space is used as a functional border and to separate the large red shapes from the right-hand text block."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant Red (flat fill for large numerals)",
+      "contrastColorRole": "White (background and negative space)",
+      "accentColorRole": "Black (typography and photographic silhouettes)",
+      "saturationAndValueRelationship": "Extreme contrast between high-saturation red and neutral black/white.",
+      "paletteRestrictions": [
+        "Pure Red",
+        "Pure Black",
+        "Pure White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Extremely tight tracking",
+        "Squared-off counters"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are rotated 90 degrees clockwise to read vertically from top to bottom"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered-vertical",
+            "tracking": "very tight",
+            "leading": "tight",
+            "lineBreakPattern": "single-word-stack",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "right-aligned vertical column",
+            "scale": "large",
+            "rotation": "90 degrees clockwise",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "parallel to the vertical edge of the red graphic"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used in varying scales; large graphic numerals act as a secondary 'type' element.",
+      "graphicDevices": [
+        "Repetitive silhouette icons",
+        "Halftone-style photographic processing",
+        "Bleed-off-edge graphics"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical orientation",
+          "Extra-condensed width",
+          "Bold weight"
+        ],
+        "avoid": [
+          "Serifs",
+          "Script fonts",
+          "Wide letterforms"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed structure.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Compressed",
+            "reason": "Matches the clean, monolinear grotesque style.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Offers the correct verticality and clean terminals.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a white background with two massive, flat red '1' shapes side-by-side. Inside the bottom half of the first '1', place a high-contrast black and white photo of four men in suits, processed to look like a high-contrast stencil. At the very bottom, add a thin horizontal row of small black running-man silhouettes and a tiny stylized cityscape on the far right.",
+        "overlayInstruction": "Add a vertical column of text on the right side using a bold, extra-condensed sans-serif font. Rotate the text 90 degrees clockwise so it reads top-to-bottom. The text should be solid black and tightly spaced."
+      },
+      "verificationChecks": [
+        "Is the red vibrant and flat?",
+        "Is the text rotated 90 degrees clockwise?",
+        "Are the figures high-contrast black and white?",
+        "Is the layout strictly red, white, and black?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the large numerals",
+      "Number of figures in the photograph",
+      "Specific typeface for the vertical text",
+      "Iconography in the bottom strip"
+    ],
+    "mustRedesign": [
+      "Specific band logos",
+      "Record label logos",
+      "Identifiable faces of celebrities"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp edges on all graphic elements",
+        "High-contrast photographic thresholding",
+        "Perfect vertical alignment of text"
+      ],
+      "avoid": [
+        "Gradients",
+        "Drop shadows",
+        "Low-resolution textures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the vertical text does not overlap the red graphic.",
+      "Check that the figures are contained within the red shape's boundaries.",
+      "Verify the bottom strip is perfectly horizontal.",
+      "Confirm the red is a primary, saturated hue."
+    ],
+    "reuseFormula": "Combine one massive geometric numeral in a primary color with high-contrast stenciled photography and a vertical block of condensed sans-serif type for a bold, 90s-inspired graphic layout."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:46:23.860Z"
+}

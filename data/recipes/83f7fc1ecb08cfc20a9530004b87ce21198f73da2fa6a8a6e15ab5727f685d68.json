@@ -1,0 +1,266 @@
+{
+  "id": "83f7fc1ecb08cfc20a9530004b87ce21198f73da2fa6a8a6e15ab5727f685d68",
+  "skillId": "83f7fc1ecb08cfc20a9530004b87ce21198f73da2fa6a8a6e15ab5727f685d68",
+  "versionId": "83f7fc1ecb08cfc20a9530004b87ce21198f73da2fa6a8a6e15ab5727f685d68",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:05:26.466Z",
+  "approvedAt": "2026-08-12T21:05:26.466Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:05:26.466Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Songs for Lonesome Lovers.jpg",
+    "hash": "83f7fc1ecb08cfc20a9530004b87ce21198f73da2fa6a8a6e15ab5727f685d68",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Songs for Lonesome Lovers",
+    "artist": "The Ray Charles Singers",
+    "artworkUrl": "https://coverartarchive.org/release-group/ae7232b0-d1b9-3627-abb8-a18950415e3a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ae7232b0-d1b9-3627-abb8-a18950415e3a",
+    "releaseGroupId": "ae7232b0-d1b9-3627-abb8-a18950415e3a",
+    "recordingId": "4eb6b2cc-b26a-4e90-9f58-6f2a1178eab6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "This Is My PrayerThe Ray Charles Singers",
+      "song": "This Is My Prayer",
+      "performer": "The Ray Charles Singers",
+      "peakPosition": 72,
+      "firstChartDate": "1965-02-27",
+      "lastChartDate": "1965-03-20",
+      "appearances": [
+        {
+          "chartDate": "1965-02-27",
+          "position": 94
+        },
+        {
+          "chartDate": "1965-03-06",
+          "position": 82
+        },
+        {
+          "chartDate": "1965-03-13",
+          "position": 75
+        },
+        {
+          "chartDate": "1965-03-20",
+          "position": 72
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century modern pop art album cover mid century modern 1960s graphic design minimalist line art heart shaped faces bold color blocking swiss style typography command records aesthetic grid based symmetry within a central focal point high contrast between thin black line art and saturated color fields hierarchy established by large top aligned typography over a central graphic repetition of heart motifs with varied facial expressions geometric sans serif typography 2x2 grid of minimalist illustrations off white textured background mid century modern graphic style",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Modern Pop Art Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Ink Illustration",
+        "Screen Print",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vintage vinyl record packaging",
+        "Retro 1960s editorial layout",
+        "Minimalist character illustration series"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "1960s graphic design",
+        "minimalist line art",
+        "heart-shaped faces",
+        "bold color blocking",
+        "Swiss style typography",
+        "Command Records aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1960s minimalist layout featuring a central grid of four stylized, heart-shaped faces in vibrant primary and secondary colors with clean sans-serif typography.",
+      "triggerTerms": [
+        "mid-century modern album cover",
+        "1960s minimalist line art faces",
+        "grid of heart-shaped illustrations",
+        "bold color block grid with thin ink lines"
+      ],
+      "excludeWhen": [
+        "photorealistic portraits are required",
+        "complex 3D textures are needed",
+        "ornate or serif typography is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition featuring a large central black rounded-corner square containing a 2x2 grid of four vibrant color blocks. Each block contains a soft-edged, heart-shaped face rendered in a contrasting bright color with minimalist black ink line features. The top section contains wide-tracked sans-serif text on an off-white background.",
+    "coreVisualRelationships": [
+      "Grid-based symmetry within a central focal point",
+      "High contrast between thin black line art and saturated color fields",
+      "Hierarchy established by large top-aligned typography over a central graphic",
+      "Repetition of heart motifs with varied facial expressions"
+    ],
+    "coreInvariants": [
+      "Off-white/cream paper texture background",
+      "Rounded-corner black container for the central art",
+      "Minimalist 'one-line' style facial features",
+      "Vibrant, non-blended color blocks (red, pink, yellow, orange)"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central 2x2 grid occupies the lower two-thirds of the frame; typography occupies the top third.",
+      "visualAnchor": "The black rounded square containing the four colorful faces.",
+      "movementAndEyePath": "Eye starts at the bold top text, moves down to the high-contrast grid, and scans the four faces clockwise.",
+      "negativeSpace": "Ample off-white margins around the central graphic and between text lines."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white background and black structural elements.",
+      "contrastColorRole": "Saturated Red, Magenta, and Yellow for the grid blocks.",
+      "accentColorRole": "Orange and Pink for the internal heart shapes.",
+      "saturationAndValueRelationship": "High saturation within the central grid contrasting against a neutral, low-value background.",
+      "paletteRestrictions": [
+        "No gradients",
+        "Limited to 5-6 flat colors",
+        "No metallic or neon"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Large x-height",
+        "Circular 'o' and 'e' counters",
+        "Horizontal terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Wide tracking for secondary metadata",
+        "Tight but legible leading for main titles"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Two lines",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Stacked above"
+          },
+          "treatment": {
+            "fill": "Dark Gray/Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Slight ink bleed",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used with varying weights and tracking for hierarchy.",
+      "graphicDevices": [
+        "Rounded-corner square frame",
+        "Minimalist ink-drawn facial features",
+        "Bleeding-edge color shapes"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric sans-serif structure",
+          "Centered alignment",
+          "Clean, unadorned terminals"
+        ],
+        "avoid": [
+          "Serifs",
+          "Script fonts",
+          "Distressed or grunge textures"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Akzidenz-Grotesk",
+            "reason": "Captures the mid-century Swiss-style authority and weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Medium",
+            "reason": "Provides the clean, neutral geometric look typical of the era.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic",
+            "reason": "Offers a slightly more vintage, sturdy feel for the display text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate an off-white paper texture background. In the center, place a large black rounded-corner square. Inside that square, create a 2x2 grid of four colored blocks (Red, Magenta, Yellow, Orange). In each block, paint a soft-edged heart shape in a contrasting color. Draw minimalist black ink line faces (eyes, nose, mouth) inside each heart.",
+        "overlayInstruction": "Using a geometric sans-serif font like Akzidenz-Grotesk, typeset the main title in two centered lines at the top. Add metadata in smaller, wide-tracked text in the upper corners."
+      },
+      "verificationChecks": [
+        "Is the typography centered and sans-serif?",
+        "Are there four distinct faces in a 2x2 grid?",
+        "Is the background a warm off-white?",
+        "Are the facial features rendered as thin black lines?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color palette of the 2x2 grid",
+      "Facial expressions of the line art",
+      "Tracking and weight of the typography",
+      "Corner radius of the central black frame"
+    ],
+    "mustRedesign": [
+      "Specific artist names or record label logos",
+      "Exact copyrighted character illustrations",
+      "Specific catalog numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp geometric lines",
+        "Vibrant, flat color application",
+        "Balanced mid-century layout"
+      ],
+      "avoid": [
+        "Digital gradients",
+        "Drop shadows on text",
+        "Busy or cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text is perfectly centered horizontally.",
+      "Check that the black frame has consistent rounded corners.",
+      "Verify that the line art for the faces is thin and consistent.",
+      "Confirm the colors are saturated and do not bleed into the off-white background."
+    ],
+    "reuseFormula": "Geometric Sans-Serif Typography + [2x2 Grid of Minimalist Illustrations] + [Off-White Textured Background] = Mid-Century Modern Graphic Style"
+  }
+}

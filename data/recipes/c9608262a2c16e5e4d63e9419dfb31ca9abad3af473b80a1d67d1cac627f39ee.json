@@ -1,0 +1,244 @@
+{
+  "id": "c9608262a2c16e5e4d63e9419dfb31ca9abad3af473b80a1d67d1cac627f39ee",
+  "skillId": "c9608262a2c16e5e4d63e9419dfb31ca9abad3af473b80a1d67d1cac627f39ee",
+  "versionId": "c9608262a2c16e5e4d63e9419dfb31ca9abad3af473b80a1d67d1cac627f39ee",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:15:37.782Z",
+  "approvedAt": "2026-08-12T05:15:37.782Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:15:37.782Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "We All Got Together And ....jpg",
+    "hash": "c9608262a2c16e5e4d63e9419dfb31ca9abad3af473b80a1d67d1cac627f39ee",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "We All Got Together And ...",
+    "artist": "Tom T. Hall",
+    "artworkUrl": "https://coverartarchive.org/release-group/543ce62e-deaa-4aa2-b567-23f0eb8598c4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/543ce62e-deaa-4aa2-b567-23f0eb8598c4",
+    "releaseGroupId": "543ce62e-deaa-4aa2-b567-23f0eb8598c4",
+    "recordingId": "e2f96521-5847-480b-bea5-18852695acb0",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Me And JesusTom T. Hall",
+      "song": "Me And Jesus",
+      "performer": "Tom T. Hall",
+      "peakPosition": 98,
+      "firstChartDate": "1972-05-13",
+      "lastChartDate": "1972-05-20",
+      "appearances": [
+        {
+          "chartDate": "1972-05-13",
+          "position": 99
+        },
+        {
+          "chartDate": "1972-05-20",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage studio ensemble album cover recording studio vintage photography ensemble portrait curved typography 70s aesthetic typography follows the curve of the studio ceiling architecture subject figures are tiered vertically to fill the frame warm wood tones contrast with the cool green studio floor central figure in yellow acts as the primary visual anchor ensemble portrait 70s studio setting arched slab serif header vintage album aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Studio Ensemble Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Retro album art",
+        "Group portrait layouts",
+        "1970s editorial design"
+      ],
+      "retrievalTags": [
+        "recording studio",
+        "vintage photography",
+        "ensemble portrait",
+        "curved typography",
+        "70s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A multi-person group portrait set in a recording studio with arched, centered typography and a warm, analog film texture.",
+      "triggerTerms": [
+        "vintage studio group portrait",
+        "arched retro title layout",
+        "1970s country album aesthetic"
+      ],
+      "excludeWhen": [
+        "modern minimalist design",
+        "high-contrast digital photography",
+        "sans-serif geometric layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A wide-angle group photograph of musicians and staff in a wood-paneled recording studio, featuring a central arched typographic header in warm tones.",
+    "coreVisualRelationships": [
+      "Typography follows the curve of the studio ceiling architecture",
+      "Subject figures are tiered vertically to fill the frame",
+      "Warm wood tones contrast with the cool green studio floor",
+      "Central figure in yellow acts as the primary visual anchor"
+    ],
+    "coreInvariants": [
+      "Arched text path for the primary title",
+      "Wood-paneled background with vertical slats",
+      "Analog film grain and soft lighting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large ensemble cast distributed across the midground and foreground, filling 80% of the frame.",
+      "visualAnchor": "The man in the yellow shirt seated in the lower-center foreground.",
+      "movementAndEyePath": "Eyes start at the arched red title, move down through the central figures, and fan out to the peripheral group members.",
+      "negativeSpace": "Minimal; the composition is dense with figures and studio equipment."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm browns and tans from the wood paneling.",
+      "contrastColorRole": "Deep forest green from the studio carpeting.",
+      "accentColorRole": "Vibrant orange-red used for the primary title text.",
+      "saturationAndValueRelationship": "Muted, earthy saturation typical of 1970s color film stocks.",
+      "paletteRestrictions": [
+        "Avoid neon or high-chroma digital colors",
+        "Limit to earth tones and warm primaries"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif and rounded sans-serif",
+      "letterConstructionRules": [
+        "Primary title uses a thick, tightly kerned slab serif",
+        "Secondary text follows a concave arc",
+        "Tertiary text is set in a clean, light sans-serif"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters in the main title are slightly overlapped to create a cohesive unit"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "slightly rounded",
+            "counters": "tight",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "arch",
+            "overlap": "slight",
+            "relationshipToImage": "floating above subjects"
+          },
+          "treatment": {
+            "fill": "orange-red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "matte",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy display slab serif paired with a light, clean sans-serif for credits.",
+      "graphicDevices": [
+        "Arched text paths",
+        "Thin white separator lines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Arched layout",
+          "Slab serif weight",
+          "Warm color palette"
+        ],
+        "avoid": [
+          "Modern geometric sans",
+          "Drop shadows",
+          "Gradient fills"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cooper Black",
+            "reason": "Matches the soft, heavy 70s feel of the display text",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Provides the necessary slab serif weight and impact",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a wide-angle photograph of a large group of people in a 1970s recording studio with wood-paneled walls and green carpet, using warm analog film lighting.",
+        "overlayInstruction": "Apply the main title in a heavy orange-red slab serif following an upward arch at the top center. Place secondary credits in a white sans-serif following a downward curve below it."
+      },
+      "verificationChecks": [
+        "Text follows the specified arch paths",
+        "Color palette remains within earthy 70s tones",
+        "Typography does not obscure faces"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Curvature of the text arch",
+      "Number of people in the ensemble",
+      "Intensity of the film grain"
+    ],
+    "mustRedesign": [
+      "Any modern digital interface elements",
+      "Contemporary clothing styles",
+      "High-contrast digital sharpening"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film texture",
+        "Balanced group composition",
+        "Legible arched typography"
+      ],
+      "avoid": [
+        "Cluttered overlapping of text and faces",
+        "Anachronistic fonts",
+        "Over-saturated colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Is the text path a smooth arch?",
+      "Does the lighting feel consistent across the group?",
+      "Is the wood grain texture visible in the background?",
+      "Is the primary title the most prominent visual element?"
+    ],
+    "reuseFormula": "Ensemble portrait + 70s studio setting + arched slab-serif header = Vintage Album Aesthetic"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:44:13.027Z"
+}

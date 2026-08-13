@@ -1,0 +1,256 @@
+{
+  "id": "e2b85f0804f46ddff57c243da486b974e202ee73de43554935354e016bacadfe",
+  "skillId": "e2b85f0804f46ddff57c243da486b974e202ee73de43554935354e016bacadfe",
+  "versionId": "e2b85f0804f46ddff57c243da486b974e202ee73de43554935354e016bacadfe",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T02:33:44.569Z",
+  "approvedAt": "2026-08-13T02:33:44.569Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T02:33:44.569Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "China Girl.jpg",
+    "hash": "e2b85f0804f46ddff57c243da486b974e202ee73de43554935354e016bacadfe",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "China Girl",
+    "artist": "Van Stephenson",
+    "artworkUrl": "https://coverartarchive.org/release-group/9d313346-3bd2-4e48-b1c0-653f52777592/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9d313346-3bd2-4e48-b1c0-653f52777592",
+    "releaseGroupId": "9d313346-3bd2-4e48-b1c0-653f52777592",
+    "recordingId": "7dc59725-5144-4015-9705-b0b8699642b6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "You've Got A Good Love ComingVan Stephenson",
+      "song": "You've Got A Good Love Coming",
+      "performer": "Van Stephenson",
+      "peakPosition": 79,
+      "firstChartDate": "1981-09-12",
+      "lastChartDate": "1981-10-03",
+      "appearances": [
+        {
+          "chartDate": "1981-09-12",
+          "position": 89
+        },
+        {
+          "chartDate": "1981-09-19",
+          "position": 81
+        },
+        {
+          "chartDate": "1981-09-26",
+          "position": 79
+        },
+        {
+          "chartDate": "1981-10-03",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "80s soft rock chinoiserie album art 80s pop rock chinoiserie illustration portrait with landscape background geometric border typography warm earth tones central portrait overlapping a detailed landscape thick red outer frame containing all elements horizontal and vertical title bars intersecting at corners warm earth toned illustration contrasted against a solid red border centered portrait chinoiserie landscape geometric border bars red frame",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "80s Soft Rock Chinoiserie Album Art",
+      "category": "Album Cover",
+      "medium": [
+        "Oil Painting",
+        "Airbrush",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Art",
+        "Retro Poster Design",
+        "Vintage Editorial Illustration"
+      ],
+      "retrievalTags": [
+        "80s pop rock",
+        "chinoiserie illustration",
+        "portrait with landscape background",
+        "geometric border typography",
+        "warm earth tones"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered male portrait integrated into a stylized landscape with a thick red border and geometric title bars.",
+      "triggerTerms": [
+        "80s airbrushed portrait",
+        "chinoiserie landscape background",
+        "geometric title bar layout",
+        "warm sepia and red color palette"
+      ],
+      "excludeWhen": [
+        "modern minimalist photography is required",
+        "neon or high-contrast digital aesthetics are requested",
+        "sans-serif typography is the primary focus"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central realistic portrait of a man with dark feathered hair, framed by a landscape featuring bamboo, small birds, and a distant figure with a parasol. The entire scene is enclosed in a thick red outer border with a horizontal title bar at the top and vertical bars on the sides containing geometric sans-serif lettering.",
+    "coreVisualRelationships": [
+      "Central portrait overlapping a detailed landscape",
+      "Thick red outer frame containing all elements",
+      "Horizontal and vertical title bars intersecting at corners",
+      "Warm earth-toned illustration contrasted against a solid red border"
+    ],
+    "coreInvariants": [
+      "Thick solid red outer border",
+      "Geometric sans-serif typography in dedicated rectangular bars",
+      "Warm, sepia-influenced color palette for the central illustration"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large centered portrait occupying the middle 60% of the frame.",
+      "visualAnchor": "The subject's face and eyes, centered horizontally.",
+      "movementAndEyePath": "From the top horizontal title bar, down to the central face, then outward to the side vertical text bars.",
+      "negativeSpace": "Minimal; the frame is densely packed with illustration and graphic borders."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm browns and ochres (illustration)",
+      "contrastColorRole": "Deep red (outer border)",
+      "accentColorRole": "Pale yellow (text bars) and blue (birds)",
+      "saturationAndValueRelationship": "High saturation in the border; muted, painterly values in the central portrait.",
+      "paletteRestrictions": [
+        "Terracotta red",
+        "Burnt sienna",
+        "Pale parchment yellow",
+        "Cobalt blue accents"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Circular 'O' and 'C' shapes",
+        "Wide tracking",
+        "Strictly contained within rectangular bars"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' lacks a crossbar or has a very low one",
+        "The 'S' is highly geometric and compressed"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "None",
+            "lineBreakPattern": "Single line",
+            "density": "Spaced"
+          },
+          "composition": {
+            "position": "Top horizontal bar and side vertical bars",
+            "scale": "Medium",
+            "rotation": "0 degrees (top), 90 degrees (sides)",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Contained in separate graphic containers"
+          },
+          "treatment": {
+            "fill": "Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Solid",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used in different orientations (horizontal and vertical).",
+      "graphicDevices": [
+        "Rectangular containers for text",
+        "Thick framing border",
+        "Illustrative vignettes in corners"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric uppercase forms",
+          "Wide letter spacing",
+          "Placement within bars"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Overlapping text on the portrait"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Medium",
+            "reason": "Matches the geometric 80s aesthetic and uniform stroke weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Provides the necessary geometric circularity for the 'O' and 'C'.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a painterly 80s-style portrait of a man with feathered hair against a sepia-toned landscape with bamboo and birds, all within a thick red square frame that has empty yellow bars at the top and sides.",
+        "overlayInstruction": "Typeset the title in a black geometric sans-serif font like Futura, centered within the top horizontal bar and the side vertical bars."
+      },
+      "verificationChecks": [
+        "Is the red border thick and solid?",
+        "Are the text bars pale yellow and rectangular?",
+        "Is the font a clean, geometric sans-serif?",
+        "Is the central image a warm-toned illustration?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject of the portrait",
+      "Landscape elements (e.g., changing bamboo to pine)",
+      "Width of the red border"
+    ],
+    "mustRedesign": [
+      "Specific artist names or album titles",
+      "Exact facial features of the subject",
+      "Proprietary logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Airbrushed texture in the portrait",
+        "Strict geometric alignment of the border elements",
+        "Warm, cohesive color palette"
+      ],
+      "avoid": [
+        "Digital gradients",
+        "Messy or overlapping typography",
+        "Cool-toned color schemes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that text is perfectly centered in the bars",
+      "Ensure the red border is uniform on all sides",
+      "Verify the illustration has a painterly, non-photographic texture",
+      "Confirm the side text is rotated correctly"
+    ],
+    "reuseFormula": "Centered Portrait + Chinoiserie Landscape + Geometric Border Bars + Red Frame"
+  }
+}

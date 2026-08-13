@@ -1,0 +1,249 @@
+{
+  "id": "ddb8e710c8a8c9740234796f94bb812a12d8322ecd255b01ee2b57ddbfc7768d",
+  "skillId": "ddb8e710c8a8c9740234796f94bb812a12d8322ecd255b01ee2b57ddbfc7768d",
+  "versionId": "ddb8e710c8a8c9740234796f94bb812a12d8322ecd255b01ee2b57ddbfc7768d",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T11:46:29.290Z",
+  "approvedAt": "2026-08-12T11:46:29.290Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T11:46:29.290Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Charles Brown's Cool Christmas Blues.jpg",
+    "hash": "ddb8e710c8a8c9740234796f94bb812a12d8322ecd255b01ee2b57ddbfc7768d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Charles Brown's Cool Christmas Blues",
+    "artist": "Charles Brown",
+    "artworkUrl": "https://coverartarchive.org/release-group/17a92253-1591-3d7a-989e-55ac9fb07656/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/17a92253-1591-3d7a-989e-55ac9fb07656",
+    "releaseGroupId": "17a92253-1591-3d7a-989e-55ac9fb07656",
+    "recordingId": "c3028f03-e177-4708-815d-6235cbf8c025",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Please Come Home For ChristmasCharles Brown",
+      "song": "Please Come Home For Christmas",
+      "performer": "Charles Brown",
+      "peakPosition": 76,
+      "firstChartDate": "1961-12-23",
+      "lastChartDate": "1962-01-06",
+      "appearances": [
+        {
+          "chartDate": "1961-12-23",
+          "position": 85
+        },
+        {
+          "chartDate": "1961-12-30",
+          "position": 76
+        },
+        {
+          "chartDate": "1962-01-06",
+          "position": 76
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochromatic blues holiday album cover monochromatic blue circular portrait holly leaf pattern high contrast serif winter blues aesthetic circular portrait frame balanced by staggered text blocks high contrast white typography against a monochromatic blue field subtle botanical background pattern providing texture without competing with the subject tonal harmony between the portrait s lighting and the overall blue color scheme monochromatic blue base circular inset portrait staggered didone typography botanical texture overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochromatic Blues Holiday Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Digital Illustration",
+        "Photography",
+        "Graphic Layout"
+      ],
+      "useCases": [
+        "Music album artwork",
+        "Holiday event posters",
+        "Jazz and blues promotional materials"
+      ],
+      "retrievalTags": [
+        "monochromatic blue",
+        "circular portrait",
+        "holly leaf pattern",
+        "high-contrast serif",
+        "winter blues aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A monochromatic blue layout featuring a circular portrait inset against a background of subtle botanical patterns and staggered high-contrast serif typography.",
+      "triggerTerms": [
+        "monochromatic blue album cover",
+        "circular portrait with holly background",
+        "staggered serif text on blue"
+      ],
+      "excludeWhen": [
+        "vibrant multi-color palettes are required",
+        "modern sans-serif minimalist designs are requested",
+        "landscape-oriented photography is the primary focus"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition dominated by a deep cerulean blue palette. It features a circular portrait of a man in the upper right quadrant, framed by a thin light blue stroke. The background consists of a darker blue, low-contrast pattern of holly leaves and berries. Large, white, high-contrast serif text is arranged in a staggered, multi-line format across the left and bottom areas.",
+    "coreVisualRelationships": [
+      "Circular portrait frame balanced by staggered text blocks",
+      "High-contrast white typography against a monochromatic blue field",
+      "Subtle botanical background pattern providing texture without competing with the subject",
+      "Tonal harmony between the portrait's lighting and the overall blue color scheme"
+    ],
+    "coreInvariants": [
+      "Monochromatic blue color palette across all elements",
+      "Circular framing for the primary photographic subject",
+      "High-contrast Didone-style serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The primary subject is a portrait located in the upper right, occupying approximately one-third of the total area.",
+      "visualAnchor": "The circular portrait serves as the primary anchor, while the large 'Cool' text acts as a secondary focal point.",
+      "movementAndEyePath": "The eye starts at the top-left text, moves to the circular portrait, then follows the staggered text down to the bottom right.",
+      "negativeSpace": "Negative space is filled with a low-opacity holly leaf pattern to maintain visual interest without clutter."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cerulean blue background and mid-tones",
+      "contrastColorRole": "White for primary display typography",
+      "accentColorRole": "Light blue for the circular frame and subtle highlights",
+      "saturationAndValueRelationship": "High value contrast between text and background; low saturation variance within the blue tones.",
+      "paletteRestrictions": [
+        "Strictly monochromatic blue and white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast modern serif with vertical stress",
+      "letterConstructionRules": [
+        "Extreme contrast between thick and thin strokes",
+        "Unbracketed or lightly bracketed horizontal serifs",
+        "Ball terminals on lowercase characters like 'c' and 'r'"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Didone / Modern Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Ball terminals",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Elegant and vertical"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Left and Right staggered",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Manual breaks for visual rhythm",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Staggered across the canvas",
+            "scale": "Large to extra-large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Text wraps around the circular portrait"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used with varying scales to create hierarchy.",
+      "graphicDevices": [
+        "Circular frame",
+        "Botanical background pattern",
+        "Monochromatic tinting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High stroke contrast",
+          "Vertical axis",
+          "Ball terminals"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Slab serifs",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni",
+            "reason": "Matches the high contrast and vertical stress of the original typography.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Didot",
+            "reason": "Provides the elegant, modern serif look with sharp terminals.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a square monochromatic blue background with a subtle, dark blue pattern of holly leaves and berries. Place a circular portrait of a man in the upper right quadrant, framed with a thin light blue line. Apply a blue tint to the portrait to match the background.",
+        "overlayInstruction": "Add large white text in a high-contrast Didone serif font. Stagger the words across the left and bottom of the frame, ensuring the text flows around the circular portrait."
+      },
+      "verificationChecks": [
+        "Is the color palette strictly monochromatic blue and white?",
+        "Is the portrait contained within a circular frame?",
+        "Does the typography exhibit high stroke contrast?",
+        "Is the background pattern subtle enough to not distract from the text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Blue hue (from navy to cyan)",
+      "Background pattern density",
+      "Text staggering arrangement",
+      "Portrait frame thickness"
+    ],
+    "mustRedesign": [
+      "Specific artist names and album titles",
+      "Record label logos",
+      "Exact photographic likeness"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typographic edges",
+        "Balanced distribution of text and image",
+        "Consistent monochromatic toning"
+      ],
+      "avoid": [
+        "Clashing colors",
+        "Low-contrast text",
+        "Overly busy background patterns"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is legible against the background pattern.",
+      "Ensure the circular frame is perfectly round.",
+      "Verify that the blue tint on the portrait matches the background hue.",
+      "Confirm the typography uses a high-contrast serif style."
+    ],
+    "reuseFormula": "Monochromatic Blue Base + Circular Inset Portrait + Staggered Didone Typography + Botanical Texture Overlay"
+  }
+}

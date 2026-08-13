@@ -1,0 +1,358 @@
+{
+  "id": "907ed4eb04e83478cf7c8f79a9d385c150be435a687c4f9a00a5eefc58cae2ea",
+  "skillId": "907ed4eb04e83478cf7c8f79a9d385c150be435a687c4f9a00a5eefc58cae2ea",
+  "versionId": "907ed4eb04e83478cf7c8f79a9d385c150be435a687c4f9a00a5eefc58cae2ea",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:41:07.747Z",
+  "approvedAt": "2026-08-12T13:41:07.747Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:41:07.747Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Jackrabbit Slim.jpg",
+    "hash": "907ed4eb04e83478cf7c8f79a9d385c150be435a687c4f9a00a5eefc58cae2ea",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Jackrabbit Slim",
+    "artist": "Steve Forbert",
+    "artworkUrl": "https://coverartarchive.org/release-group/bdc65b23-3335-373d-84d5-6d7a5e57e5e2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/bdc65b23-3335-373d-84d5-6d7a5e57e5e2",
+    "releaseGroupId": "bdc65b23-3335-373d-84d5-6d7a5e57e5e2",
+    "recordingId": "cd76b33a-ead9-4805-8f08-64d6b11961ae",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Romeo's TuneSteve Forbert",
+      "song": "Romeo's Tune",
+      "performer": "Steve Forbert",
+      "peakPosition": 11,
+      "firstChartDate": "1979-12-01",
+      "lastChartDate": "1980-04-05",
+      "appearances": [
+        {
+          "chartDate": "1979-12-01",
+          "position": 84
+        },
+        {
+          "chartDate": "1979-12-08",
+          "position": 70
+        },
+        {
+          "chartDate": "1979-12-15",
+          "position": 56
+        },
+        {
+          "chartDate": "1979-12-22",
+          "position": 48
+        },
+        {
+          "chartDate": "1979-12-29",
+          "position": 48
+        },
+        {
+          "chartDate": "1980-01-05",
+          "position": 35
+        },
+        {
+          "chartDate": "1980-01-12",
+          "position": 31
+        },
+        {
+          "chartDate": "1980-01-19",
+          "position": 25
+        },
+        {
+          "chartDate": "1980-01-26",
+          "position": 21
+        },
+        {
+          "chartDate": "1980-02-02",
+          "position": 19
+        },
+        {
+          "chartDate": "1980-02-09",
+          "position": 16
+        },
+        {
+          "chartDate": "1980-02-16",
+          "position": 14
+        },
+        {
+          "chartDate": "1980-02-23",
+          "position": 11
+        },
+        {
+          "chartDate": "1980-03-01",
+          "position": 11
+        },
+        {
+          "chartDate": "1980-03-08",
+          "position": 22
+        },
+        {
+          "chartDate": "1980-03-15",
+          "position": 29
+        },
+        {
+          "chartDate": "1980-03-22",
+          "position": 38
+        },
+        {
+          "chartDate": "1980-03-29",
+          "position": 59
+        },
+        {
+          "chartDate": "1980-04-05",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "folk rock portrait album cover acoustic guitar leather jacket heavy sans serif red border high contrast portrait 1970s aesthetic the guitar neck creates a strong horizontal line across the lower third the red border echoes the red color of the bottom right text the dark clothing of the subject provides high contrast against the white negative space studio portrait stark white background thin red frame heavy condensed sans serif typography in opposite corners",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Folk-Rock Portrait Album Cover",
+      "category": "Music Photography",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design",
+        "Offset Print"
+      ],
+      "useCases": [
+        "Singer-songwriter album art",
+        "Indie rock promotional posters",
+        "Vintage-style music editorial"
+      ],
+      "retrievalTags": [
+        "acoustic guitar",
+        "leather jacket",
+        "heavy sans-serif",
+        "red border",
+        "high contrast portrait",
+        "1970s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast studio portrait of a musician with an acoustic guitar, framed by a thin red border and bold, blocky sans-serif typography.",
+      "triggerTerms": [
+        "musician holding acoustic guitar portrait",
+        "bold red border album layout",
+        "heavy sans-serif music cover"
+      ],
+      "excludeWhen": [
+        "requesting a minimalist modern digital look",
+        "requesting soft pastel colors",
+        "requesting serif typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, medium-shot portrait of a male musician in a dark leather jacket and green shirt, holding an acoustic guitar. The image is set against a stark white background and enclosed in a thin, solid red outer frame. Bold, black and red sans-serif text is positioned in opposite corners to create diagonal balance.",
+    "coreVisualRelationships": [
+      "The guitar neck creates a strong horizontal line across the lower third.",
+      "The red border echoes the red color of the bottom-right text.",
+      "The dark clothing of the subject provides high contrast against the white negative space."
+    ],
+    "coreInvariants": [
+      "Thin solid red border around the entire composition",
+      "High-contrast studio lighting with minimal background detail",
+      "Heavy, condensed sans-serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered medium shot, subject occupies approximately 70% of the vertical space.",
+      "visualAnchor": "The musician's face and the body of the acoustic guitar.",
+      "movementAndEyePath": "Starts at the top-left name, moves down to the subject's face, follows the guitar neck to the bottom-right title.",
+      "negativeSpace": "Significant white negative space surrounding the subject to emphasize the silhouette."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (background/negative space)",
+      "contrastColorRole": "Black (subject's jacket and top-left text)",
+      "accentColorRole": "Red (border and bottom-right text)",
+      "saturationAndValueRelationship": "High value contrast with saturated red accents against a neutral monochrome base.",
+      "paletteRestrictions": [
+        "Pure white",
+        "Deep black",
+        "Forest green",
+        "Primary red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Grotesque sans-serif",
+      "letterConstructionRules": [
+        "Heavy stroke weight",
+        "Tight letter spacing (kerning)",
+        "Flat terminals",
+        "Uniform stroke width"
+      ],
+      "characterSpecificRedesigns": [
+        "Condensed proportions for maximum impact"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "extra-bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom-right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Same typeface family used in different colors and sizes for hierarchy.",
+      "graphicDevices": [
+        "Thin red border frame",
+        "Quotation marks for title"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Heavy weight",
+          "Condensed width"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Wide letter spacing"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Matches the heavy, industrial grotesque feel of the era.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed structure.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Helvetica Compressed",
+            "reason": "Clean, modern, and high-impact for display use.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast studio portrait of a musician holding an acoustic guitar against a pure white background. The subject should wear a dark leather jacket over a green shirt. Surround the entire image with a thin, solid red border.",
+        "overlayInstruction": "Add bold, condensed sans-serif text in all-caps. Place the primary name in black at the top-left and the title in red at the bottom-right, using tight kerning."
+      },
+      "verificationChecks": [
+        "Is the red border present and consistent?",
+        "Is the text in the top-left black and the bottom-right red?",
+        "Is the background pure white with no environmental details?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Border thickness",
+      "Shirt color",
+      "Text placement (corners vs centered)",
+      "Intensity of shadow on the subject"
+    ],
+    "mustRedesign": [
+      "Avoid any specific brand logos on the guitar headstock",
+      "Do not replicate the specific facial features of the original subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp, clear focus on the subject",
+        "Clean, untextured white background",
+        "Perfectly aligned rectangular border"
+      ],
+      "avoid": [
+        "Blurry or soft-focus photography",
+        "Distorted or handwritten typography",
+        "Gradient backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the red border is not cropped off.",
+      "Ensure the guitar neck does not overlap the text.",
+      "Verify the typography is strictly sans-serif and bold.",
+      "Confirm the color of the bottom text matches the border color."
+    ],
+    "reuseFormula": "Studio Portrait + Stark White Background + Thin Red Frame + Heavy Condensed Sans-Serif Typography in Opposite Corners"
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "id": "354754d3eba1e21aeb76c6a63c5df3ea6cff77c697a73bb8055004fa4d37f8c3",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T10:33:10.070Z",
+  "approvedAt": "2026-08-11T10:33:10.070Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T10:33:10.070Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Another Night Time Flight.jpg",
+    "hash": "354754d3eba1e21aeb76c6a63c5df3ea6cff77c697a73bb8055004fa4d37f8c3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Another Night Time Flight",
+    "artist": "Blue",
+    "artworkUrl": "https://coverartarchive.org/release-group/2eaabe54-13a2-3995-83d7-2753ac4162f7/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/2eaabe54-13a2-3995-83d7-2753ac4162f7",
+    "releaseGroupId": "2eaabe54-13a2-3995-83d7-2753ac4162f7",
+    "recordingId": "b9b14365-15a7-42d0-b633-514aaf9a2fc0",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Capture Your HeartBlue",
+      "song": "Capture Your Heart",
+      "performer": "Blue",
+      "peakPosition": 88,
+      "firstChartDate": "1977-05-07",
+      "lastChartDate": "1977-06-04",
+      "appearances": [
+        {
+          "chartDate": "1977-05-07",
+          "position": 91
+        },
+        {
+          "chartDate": "1977-05-14",
+          "position": 88
+        },
+        {
+          "chartDate": "1977-05-21",
+          "position": 88
+        },
+        {
+          "chartDate": "1977-05-28",
+          "position": 91
+        },
+        {
+          "chartDate": "1977-06-04",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage rock album cover aesthetic 1970s rock band high contrast duotone geometric sans serif chrome furniture masked typography stacked vertical hierarchy from large display type to human subjects to foreground furniture color contrast between stark white background and deep blue black shadows interaction between flat graphic text and three dimensional photographic space reflective surfaces on the coffee table mirroring the subjects and glassware combine high contrast duotone group portrait geometric display type with masked texture minimalist white studio environment chrome mid century accents",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Rock Album Cover Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typography",
+        "Airbrushing"
+      ],
+      "useCases": [
+        "Album Art",
+        "Poster Design",
+        "Retro Branding"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "rock band",
+        "high contrast",
+        "duotone",
+        "geometric sans-serif",
+        "chrome furniture",
+        "masked typography"
+      ]
+    },
+    "visualDefinition": "A high-contrast, blue-tinted group portrait of four men in a 1970s lounge setting, featuring large geometric display type with a photographic sky fill and a secondary script element appearing as a neon-like physical prop.",
+    "coreVisualRelationships": [
+      "Stacked vertical hierarchy from large display type to human subjects to foreground furniture",
+      "Color contrast between stark white background and deep blue-black shadows",
+      "Interaction between flat graphic text and three-dimensional photographic space",
+      "Reflective surfaces on the coffee table mirroring the subjects and glassware"
+    ],
+    "coreInvariants": [
+      "High-contrast monochrome or duotone subject treatment",
+      "Minimalist white studio background with artificial vignetting",
+      "Geometric, heavy-weight display lettering at the top margin",
+      "Mid-century modern chrome and glass furniture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four subjects seated on a sofa in the middle ground, occupying the central horizontal band.",
+      "visualAnchor": "The large, sky-filled display type at the top center acts as the primary anchor.",
+      "movementAndEyePath": "Starts at the top display text, moves down through the subjects' faces, and settles on the reflective coffee table in the foreground.",
+      "negativeSpace": "Extensive white negative space surrounding the central cluster, creating a 'floating' effect."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure white background for stark isolation.",
+      "contrastColorRole": "Deep navy and black for shadows and clothing, creating a high-contrast duotone effect.",
+      "accentColorRole": "Cyan and sky blue appearing only within the letterforms and subtle highlights.",
+      "saturationAndValueRelationship": "Extreme value range with crushed blacks and blown-out whites; low overall saturation except for the blue sky mask.",
+      "paletteRestrictions": [
+        "White",
+        "Black",
+        "Navy Blue",
+        "Sky Blue"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Tight kerning with overlapping characters",
+        "Heavy black outlines for legibility against white",
+        "Internal masking of photographic textures (clouds/sky)",
+        "Uniform stroke width"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'L' and 'U' are tucked closely to minimize counter-space between letters."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "wide",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "touching",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "photographic-mask",
+            "outline": "thin-black",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "sky-gradient",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "variable",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "mixed",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "diagonal",
+            "density": "light"
+          },
+          "composition": {
+            "position": "lower-right-subject-area",
+            "scale": "medium",
+            "rotation": "-5-degrees",
+            "warp": "none",
+            "overlap": "integrated-into-scene",
+            "relationshipToImage": "physical-prop"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "soft-glow",
+            "depth": "3d",
+            "texture": "neon-tube",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy geometric sans for authority paired with a light, gestural script for movement.",
+      "graphicDevices": [
+        "Keyline borders",
+        "Photographic masking",
+        "Reflective floor/table plane"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Tight character spacing",
+          "Sky-blue fill",
+          "High-contrast duotone photography"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Warm color palettes",
+          "Busy backgrounds"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic Paneuropean Bold",
+            "reason": "Matches the geometric 70s aesthetic and tight kerning capability.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Provides the necessary geometric weight and sharp corners.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A high-contrast, blue-tinted photograph of four men in 70s attire sitting on a chrome-framed sofa behind a glass coffee table. The background is stark white. The lighting creates deep shadows. Include a white neon-style script sign resting on the table.",
+        "overlayInstruction": "Add large, bold, geometric uppercase text at the top. The text should have a thin black outline and be filled with a blue sky and white cloud texture. The letters should be tightly spaced and touching."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Does the display text contain a sky texture?",
+        "Is the photography high-contrast blue/black?",
+        "Are the chrome reflections visible on the table?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the blue tint",
+      "Thickness of the text outline",
+      "Density of the cloud texture in the mask",
+      "Amount of negative space at the margins"
+    ],
+    "mustRedesign": [
+      "Specific faces of the individuals",
+      "Original band logos",
+      "Exact wording of the titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp high-contrast edges",
+        "Clean geometric typography",
+        "Consistent duotone color grade"
+      ],
+      "avoid": [
+        "Muddled shadows",
+        "Low-resolution textures",
+        "Default font kerning"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text is legible against the sky mask",
+      "Check that the chrome furniture looks metallic",
+      "Verify the white background is clean and clinical",
+      "Confirm the script text looks like a physical object in the scene"
+    ],
+    "reuseFormula": "Combine [High-Contrast Duotone Group Portrait] + [Geometric Display Type with Masked Texture] + [Minimalist White Studio Environment] + [Chrome Mid-Century Accents]."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:06:18.185Z"
+}

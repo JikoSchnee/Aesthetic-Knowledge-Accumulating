@@ -1,0 +1,284 @@
+{
+  "id": "45a1616529e1c09860c7768659fc50a114d92941e747b9026b0247d05435441b",
+  "skillId": "45a1616529e1c09860c7768659fc50a114d92941e747b9026b0247d05435441b",
+  "versionId": "45a1616529e1c09860c7768659fc50a114d92941e747b9026b0247d05435441b",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:26:20.766Z",
+  "approvedAt": "2026-08-12T19:26:20.766Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:26:20.766Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Look to Your Heart.jpg",
+    "hash": "45a1616529e1c09860c7768659fc50a114d92941e747b9026b0247d05435441b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Look to Your Heart",
+    "artist": "Perry Como",
+    "artworkUrl": "https://coverartarchive.org/release-group/333fabb1-0dde-4410-aa64-6b0af69e5e4c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/333fabb1-0dde-4410-aa64-6b0af69e5e4c",
+    "releaseGroupId": "333fabb1-0dde-4410-aa64-6b0af69e5e4c",
+    "recordingId": "251b6745-af26-4c5f-9ec3-70b473a38932",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Father Of GirlsPerry Como",
+      "song": "The Father Of Girls",
+      "performer": "Perry Como",
+      "peakPosition": 92,
+      "firstChartDate": "1968-03-16",
+      "lastChartDate": "1968-03-23",
+      "appearances": [
+        {
+          "chartDate": "1968-03-16",
+          "position": 92
+        },
+        {
+          "chartDate": "1968-03-23",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century crooner portrait layout side profile black background mid century modern psychedelic typography dramatic lighting 1960s aesthetic subject gaze leading into the typographic block high contrast between the warm skin tones and the absolute black background juxtaposition of formal photography with playful psychedelic influenced display type portrait sideprofile leftaligned background solidblack typography rightaligned stacked mixedstyles",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Crooner Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Classic music album covers",
+        "Vintage-style editorial portraits",
+        "Retro promotional posters"
+      ],
+      "retrievalTags": [
+        "side profile",
+        "black background",
+        "mid-century modern",
+        "psychedelic typography",
+        "dramatic lighting",
+        "1960s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast side profile portrait emerging from a deep black void with a multi-layered typographic stack in the negative space.",
+      "triggerTerms": [
+        "side profile portrait on black background",
+        "retro stacked typography layout",
+        "vintage crooner album aesthetic"
+      ],
+      "excludeWhen": [
+        "full body shots are required",
+        "bright or colorful backgrounds are needed",
+        "modern minimalist sans-serif layouts are preferred"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up, side-profile photograph of a male subject positioned on the left, looking toward the right. The subject is lit with warm, directional light that emphasizes skin texture and hair detail, while the entire right half of the frame is a solid black negative space containing a vertically stacked typographic block with varying styles.",
+    "coreVisualRelationships": [
+      "Subject gaze leading into the typographic block",
+      "High contrast between the warm skin tones and the absolute black background",
+      "Juxtaposition of formal photography with playful, psychedelic-influenced display type"
+    ],
+    "coreInvariants": [
+      "Solid black background",
+      "Side profile orientation",
+      "Left-aligned subject",
+      "Right-aligned text block"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left 60% of the frame, cropped at the shoulder and top of the head.",
+      "visualAnchor": "The subject's eye and the bridge of the nose serve as the central focal point.",
+      "movementAndEyePath": "The viewer's eye starts at the subject's face, follows the gaze to the right, and descends through the stacked text.",
+      "negativeSpace": "Heavy use of solid black negative space on the right side to house the information."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (Background)",
+      "contrastColorRole": "Warm flesh tones and grey hair (Subject)",
+      "accentColorRole": "Pink, orange, and purple (Display typography)",
+      "saturationAndValueRelationship": "High value contrast between subject and background; moderate saturation in the accent typography.",
+      "paletteRestrictions": [
+        "Deep black",
+        "Warm beige",
+        "Muted pink",
+        "Burnt orange"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans and Heavy Script",
+      "letterConstructionRules": [
+        "Primary name in thin, wide geometric sans-serif",
+        "Title in heavy, interlocking psychedelic script with rounded terminals",
+        "Secondary text in small, clean sans-serif"
+      ],
+      "characterSpecificRedesigns": [
+        "Interlocking 'oo' and 'tt' in the script title",
+        "Exaggerated swashes on the capital letters of the title"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "wide",
+            "weight": "light",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "square",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "word-by-word",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Psychedelic Script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "ultra-bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "tight",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "titlecase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "ultra-tight",
+            "lineBreakPattern": "stacked",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "center right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "slight curve",
+            "overlap": "interlocking letters",
+            "relationshipToImage": "focal point of text block"
+          },
+          "treatment": {
+            "fill": "gradient or multi-color (pink/orange)",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "liquid"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme contrast between a clinical, thin sans-serif and a heavy, decorative script.",
+      "graphicDevices": [
+        "Vertical stacking",
+        "Color-coded text lines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The right-aligned layout",
+          "The high-contrast lighting of the portrait"
+        ],
+        "avoid": [
+          "Centering the text",
+          "Using modern digital gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Matches the geometric, thin uppercase name style",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Provides the heavy, retro feel for the title",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a close-up side profile portrait of a man with salt-and-pepper hair, lit from the side to emphasize texture, against a pure black background. The man should be on the left side of the frame looking right.",
+        "overlayInstruction": "Add a right-aligned text block in the black space. Top lines in thin white geometric sans-serif. Middle lines in a heavy, colorful 1960s-style script. Bottom lines in a small, white sans-serif list."
+      },
+      "verificationChecks": [
+        "Is the background absolute black?",
+        "Is the subject in a clear side profile?",
+        "Is the text right-aligned and stacked?",
+        "Does the title text use a heavy, rounded script?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject age and gender",
+      "Color of the display script",
+      "Density of the tracklist text"
+    ],
+    "mustRedesign": [
+      "Any specific artist names",
+      "Original record label logos",
+      "Specific song titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic chiaroscuro lighting",
+        "Sharp focus on facial features",
+        "Clean typographic hierarchy"
+      ],
+      "avoid": [
+        "Soft-focus backgrounds",
+        "Centered compositions",
+        "Default system fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the subject's gaze leads toward the text.",
+      "Check that the text does not overlap the subject's face.",
+      "Verify the black background is seamless and noise-free.",
+      "Confirm the script font has a 'hand-drawn' vintage quality."
+    ],
+    "reuseFormula": "Portrait(SideProfile, LeftAligned) + Background(SolidBlack) + Typography(RightAligned, Stacked, MixedStyles)"
+  }
+}

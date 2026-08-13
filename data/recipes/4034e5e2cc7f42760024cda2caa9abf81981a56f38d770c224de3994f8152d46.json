@@ -1,0 +1,291 @@
+{
+  "id": "4034e5e2cc7f42760024cda2caa9abf81981a56f38d770c224de3994f8152d46",
+  "skillId": "4034e5e2cc7f42760024cda2caa9abf81981a56f38d770c224de3994f8152d46",
+  "versionId": "4034e5e2cc7f42760024cda2caa9abf81981a56f38d770c224de3994f8152d46",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:53:49.344Z",
+  "approvedAt": "2026-08-12T09:53:49.344Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:53:49.344Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "nostalgia,ULTRA..jpg",
+    "hash": "4034e5e2cc7f42760024cda2caa9abf81981a56f38d770c224de3994f8152d46",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "nostalgia,ULTRA.",
+    "artist": "Frank Ocean",
+    "artworkUrl": "https://coverartarchive.org/release-group/c2dde373-d47b-45a9-8b7e-0a9f5f011ed4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c2dde373-d47b-45a9-8b7e-0a9f5f011ed4",
+    "releaseGroupId": "c2dde373-d47b-45a9-8b7e-0a9f5f011ed4",
+    "recordingId": "3c31f807-4a9f-4e6d-a23f-ee4cd9a49026",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "NovacaneFrank Ocean",
+      "song": "Novacane",
+      "performer": "Frank Ocean",
+      "peakPosition": 82,
+      "firstChartDate": "2011-07-23",
+      "lastChartDate": "2011-08-13",
+      "appearances": [
+        {
+          "chartDate": "2011-07-23",
+          "position": 82
+        },
+        {
+          "chartDate": "2011-07-30",
+          "position": 88
+        },
+        {
+          "chartDate": "2011-08-06",
+          "position": 89
+        },
+        {
+          "chartDate": "2011-08-13",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "vibrant automotive nostalgia cover orange car vintage coupe forest background serif and sans serif pairing low angle shot lo fi aesthetic vibrant orange subject against dark green background low angle perspective creating a grounded heroic stance text centered in the upper third of the frame natural ground texture contrasting with smooth car paint vibrant subject color subject dark environment heavy serif thin sans typographic header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vibrant Automotive Nostalgia Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Typography"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Automotive Lifestyle Posters",
+        "Retro-Modern Editorial Layouts"
+      ],
+      "retrievalTags": [
+        "orange car",
+        "vintage coupe",
+        "forest background",
+        "serif and sans-serif pairing",
+        "low angle shot",
+        "lo-fi aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast composition featuring a saturated orange vintage vehicle parked in a dark wooded area with a distinct dual-font typographic header.",
+      "triggerTerms": [
+        "orange vintage car in dark woods",
+        "nostalgic automotive photography",
+        "mixed serif and sans-serif album title"
+      ],
+      "excludeWhen": [
+        "clean studio car photography",
+        "bright daylight scenes",
+        "modern supercars"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A three-quarter view of a bright orange 1980s-style coupe positioned on a grassy verge against a dense, dark green forest backdrop. The lighting is moody, emphasizing the car's saturation against the shadows of the foliage.",
+    "coreVisualRelationships": [
+      "Vibrant orange subject against dark green background",
+      "Low-angle perspective creating a grounded, heroic stance",
+      "Text centered in the upper third of the frame",
+      "Natural ground texture contrasting with smooth car paint"
+    ],
+    "coreInvariants": [
+      "Saturated orange vehicle color",
+      "Dense, dark foliage background",
+      "Dual-style typographic header"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The car occupies the central horizontal band, scaled to fill approximately 60% of the width.",
+      "visualAnchor": "The bright orange body of the car acts as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the bright car, move up to the white text, then down to the grassy foreground.",
+      "negativeSpace": "The dark upper foliage provides a canvas for the title text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep forest green and shadows (Background)",
+      "contrastColorRole": "Vivid orange (Subject)",
+      "accentColorRole": "Pure white (Typography)",
+      "saturationAndValueRelationship": "High saturation on the subject with low value/high density in the background to create pop.",
+      "paletteRestrictions": [
+        "Orange",
+        "Dark Green",
+        "Black",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Mixed serif and sans-serif",
+      "letterConstructionRules": [
+        "First word in heavy, rounded slab serif",
+        "Second word in thin, wide-spaced geometric sans-serif",
+        "All lowercase for the first part, all uppercase for the second"
+      ],
+      "characterSpecificRedesigns": [
+        "Comma used as a stylistic bridge between the two font styles"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Black",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Blunt",
+            "corners": "Rounded",
+            "counters": "Small",
+            "strokeCharacter": "Thick"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "Overlaid on dark foliage"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Light",
+            "contrast": "None",
+            "xHeight": "Cap-height",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Thin"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top center, following serif text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "Overlaid on dark foliage"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme contrast in weight and style to denote a transition in mood.",
+      "graphicDevices": [
+        "Parental advisory badge in bottom right corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The lowercase/uppercase split",
+          "The heavy/thin weight contrast"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Italics",
+          "Centered vertical stacking"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cooper Black",
+            "reason": "Matches the heavy, rounded slab serif feel of the first word.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Matches the geometric, thin, and wide-spaced feel of the second word.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photograph of a saturated orange 1980s German coupe parked on a grassy patch in front of a dark, dense forest at dusk. Low angle shot.",
+        "overlayInstruction": "Add the title text in the upper third. Use a heavy rounded slab serif for the first word in lowercase, followed by a comma, then a thin geometric sans-serif for the second word in all caps. Add a standard parental advisory badge in the bottom right."
+      },
+      "verificationChecks": [
+        "Is the car a vibrant orange?",
+        "Is the background dark and leafy?",
+        "Does the text feature two distinct font weights?",
+        "Is the first word lowercase and the second word uppercase?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Car color",
+      "Forest density",
+      "Text content",
+      "Lighting mood"
+    ],
+    "mustRedesign": [
+      "Avoid using specific car brand logos",
+      "Do not replicate the exact 'nostalgia, ULTRA' wording if used for commercial purposes"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High color contrast between car and background",
+        "Sharp typographic clarity",
+        "Moody, cinematic lighting"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Desaturated colors",
+        "Cluttered foregrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the orange doesn't bleed into the green foliage",
+      "Ensure the thin font is legible against the background",
+      "Verify the low-angle perspective is maintained",
+      "Confirm the comma is present between the two font styles"
+    ],
+    "reuseFormula": "Vibrant [Subject Color] [Subject] + Dark [Environment] + [Heavy Serif/Thin Sans] Typographic Header"
+  }
+}

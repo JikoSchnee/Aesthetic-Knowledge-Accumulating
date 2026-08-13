@@ -1,0 +1,309 @@
+{
+  "id": "7f17aafcbf3fa7cd9928194e6e78c1dd58ff5f058a8cd9cbcc7ebba77a8689f3",
+  "skillId": "7f17aafcbf3fa7cd9928194e6e78c1dd58ff5f058a8cd9cbcc7ebba77a8689f3",
+  "versionId": "7f17aafcbf3fa7cd9928194e6e78c1dd58ff5f058a8cd9cbcc7ebba77a8689f3",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:33:06.170Z",
+  "approvedAt": "2026-08-13T00:33:06.170Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:33:06.170Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Coast to Coast.jpg",
+    "hash": "7f17aafcbf3fa7cd9928194e6e78c1dd58ff5f058a8cd9cbcc7ebba77a8689f3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Coast to Coast",
+    "artist": "Paul Shaffer",
+    "artworkUrl": "https://coverartarchive.org/release-group/53c5ec93-51b3-313b-92f6-ac2e7b9b70d0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/53c5ec93-51b3-313b-92f6-ac2e7b9b70d0",
+    "releaseGroupId": "53c5ec93-51b3-313b-92f6-ac2e7b9b70d0",
+    "recordingId": "ec136034-5dc6-46d3-99da-053b7af669d8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "When The Radio Is OnPaul Shaffer",
+      "song": "When The Radio Is On",
+      "performer": "Paul Shaffer",
+      "peakPosition": 81,
+      "firstChartDate": "1989-08-12",
+      "lastChartDate": "1989-09-30",
+      "appearances": [
+        {
+          "chartDate": "1989-08-12",
+          "position": 97
+        },
+        {
+          "chartDate": "1989-08-19",
+          "position": 90
+        },
+        {
+          "chartDate": "1989-08-26",
+          "position": 86
+        },
+        {
+          "chartDate": "1989-09-02",
+          "position": 82
+        },
+        {
+          "chartDate": "1989-09-09",
+          "position": 81
+        },
+        {
+          "chartDate": "1989-09-16",
+          "position": 83
+        },
+        {
+          "chartDate": "1989-09-23",
+          "position": 90
+        },
+        {
+          "chartDate": "1989-09-30",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "80s pop collage album art collage 80s aesthetic cutout sunglasses layered paper script typography hands at the top corners appear to hold the inner blue frame the map cutout acts as a window to the subject s eyes drop shadows create a physical depth between the white background and the blue card the subject s body is visible below the blue card creating a continuous figure layered paper collage script over sans pairing tactile shadows",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "80s Pop Collage Album Art",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Paper Collage",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Editorial Layout",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "collage",
+        "80s aesthetic",
+        "cutout",
+        "sunglasses",
+        "layered paper",
+        "script typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A layered paper collage aesthetic featuring a central portrait partially obscured by a textured cutout shape, framed by hands holding the composition.",
+      "triggerTerms": [
+        "layered paper collage portrait",
+        "cutout shape revealing face",
+        "hands holding a frame composition"
+      ],
+      "excludeWhen": [
+        "minimalist flat vector art",
+        "clean digital photography without physical texture",
+        "3D rendered environments"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A multi-layered composition where a central figure in sunglasses is viewed through a map-shaped cutout in a blue textured card, held by hands at the top, all set against a white background with a drop shadow effect.",
+    "coreVisualRelationships": [
+      "Hands at the top corners appear to hold the inner blue frame",
+      "The map cutout acts as a window to the subject's eyes",
+      "Drop shadows create a physical depth between the white background and the blue card",
+      "The subject's body is visible below the blue card, creating a continuous figure"
+    ],
+    "coreInvariants": [
+      "Textured blue card with a geographic cutout",
+      "Subject wearing dark round sunglasses",
+      "Visible hands interacting with the frame edges"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centered, occupying the middle two-thirds of the vertical space.",
+      "visualAnchor": "The eyes of the subject, framed by the cutout, serve as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the script text at the top, move down to the face in the cutout, and follow the hands to the bottom text.",
+      "negativeSpace": "Significant white space surrounds the central collage element, emphasizing the 'object' quality of the art."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White background providing a clean, gallery-like setting.",
+      "contrastColorRole": "Deep blue textured card providing a cool mid-tone.",
+      "accentColorRole": "Red accents in the bottom typography and warm skin tones.",
+      "saturationAndValueRelationship": "High contrast between the dark clothing/sunglasses and the bright white background.",
+      "paletteRestrictions": [
+        "Primary blue",
+        "Bright white",
+        "Deep black",
+        "Flesh tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script and geometric sans-serif",
+      "letterConstructionRules": [
+        "Top text: Fluid, connected script with varying line weight and long flourishes.",
+        "Bottom text: Wide-tracked, all-caps geometric sans-serif."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'P' and 'S' in the script have large, sweeping loops.",
+        "The bottom text uses a small red square as a separator."
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over-image",
+            "relationshipToImage": "floating above the collage"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "thin-red",
+            "shadow": "soft-drop",
+            "depth": "shallow",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "geometric",
+            "strokeCharacter": "monoline"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "very-wide",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "bottom-center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "anchored in the bottom margin"
+          },
+          "treatment": {
+            "fill": "blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of expressive, organic script with rigid, mechanical sans-serif.",
+      "graphicDevices": [
+        "Drop shadows",
+        "Textured paper grain",
+        "Red square separator"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Script style",
+          "Wide tracking of bottom text",
+          "Red outline on white script"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Italicized sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mistral or Brush Script",
+            "reason": "Captures the 80s casual script energy",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Matches the geometric sans-serif at the bottom",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a collage of a man in sunglasses behind a blue textured card with a USA-shaped cutout, held by hands against a white background with drop shadows.",
+        "overlayInstruction": "Add a large white script title with a red outline at the top, and a wide-tracked blue sans-serif subtitle at the bottom separated by a red square."
+      },
+      "verificationChecks": [
+        "Is the script text outlined in red?",
+        "Is the bottom text extremely wide-tracked?",
+        "Does the blue card have a visible paper texture?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Shape of the cutout",
+      "Color of the textured card",
+      "Script flourish length"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact geographic borders of the cutout",
+      "Specific brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Visible drop shadows for depth",
+        "Tactile paper texture",
+        "Clean white border"
+      ],
+      "avoid": [
+        "Flat 2D appearance",
+        "Digital-only gradients",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for drop shadow consistency",
+      "Verify the script text is legible against the background",
+      "Ensure the hands look like they are gripping the card",
+      "Confirm the wide tracking on the bottom text"
+    ],
+    "reuseFormula": "Layered-Paper-Collage + Script-Over-Sans-Pairing + Tactile-Shadows"
+  }
+}

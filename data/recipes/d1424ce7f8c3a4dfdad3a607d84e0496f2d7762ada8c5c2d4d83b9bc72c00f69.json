@@ -1,0 +1,237 @@
+{
+  "id": "d1424ce7f8c3a4dfdad3a607d84e0496f2d7762ada8c5c2d4d83b9bc72c00f69",
+  "skillId": "d1424ce7f8c3a4dfdad3a607d84e0496f2d7762ada8c5c2d4d83b9bc72c00f69",
+  "versionId": "d1424ce7f8c3a4dfdad3a607d84e0496f2d7762ada8c5c2d4d83b9bc72c00f69",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:37:55.466Z",
+  "approvedAt": "2026-08-12T19:37:55.466Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:37:55.466Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Before I Self Destruct.jpg",
+    "hash": "d1424ce7f8c3a4dfdad3a607d84e0496f2d7762ada8c5c2d4d83b9bc72c00f69",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Before I Self Destruct",
+    "artist": "50 Cent",
+    "artworkUrl": "https://coverartarchive.org/release-group/f79c54a1-080b-468a-9ddc-943a65bf77d1/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f79c54a1-080b-468a-9ddc-943a65bf77d1",
+    "releaseGroupId": "f79c54a1-080b-468a-9ddc-943a65bf77d1",
+    "recordingId": "bf447338-0d72-4e6d-add0-a98e16056387",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Invitation50 Cent",
+      "song": "The Invitation",
+      "performer": "50 Cent",
+      "peakPosition": 97,
+      "firstChartDate": "2009-12-05",
+      "lastChartDate": "2009-12-05",
+      "appearances": [
+        {
+          "chartDate": "2009-12-05",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "molten scar portrait molten lava skin cracked face texture dramatic portrait lighting stormy sky background glowing embers cinematic close up contrast between smooth human skin and jagged glowing volcanic textures tight framing focusing on the intensity of the eyes and facial expression cool toned background vs warm toned internal glow of the scars low angle perspective creating a sense of dominance and power combine subject portrait volcanic molten texture overlay stormy atmosphere high contrast low key lighting",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Molten Scar Portrait",
+      "category": "Digital Art / Album Cover",
+      "medium": [
+        "Digital Compositing",
+        "Photography",
+        "CGI Effects"
+      ],
+      "useCases": [
+        "Music Album Art",
+        "Cinematic Character Poster",
+        "Dark Fantasy Illustration"
+      ],
+      "retrievalTags": [
+        "molten lava skin",
+        "cracked face texture",
+        "dramatic portrait lighting",
+        "stormy sky background",
+        "glowing embers",
+        "cinematic close-up"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A tight, dramatic facial portrait featuring a high-contrast subject with realistic molten lava cracks and glowing embers integrated into the skin texture against a dark, stormy atmosphere.",
+      "triggerTerms": [
+        "molten lava facial scarring",
+        "cracked skin with glowing magma",
+        "dramatic low-key portrait with stormy background"
+      ],
+      "excludeWhen": [
+        "requesting bright, cheerful imagery",
+        "requesting full-body shots",
+        "requesting clean, unblemished skin"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A hyper-realistic close-up portrait of a man where one side of his face and forehead is consumed by deep, jagged fissures revealing glowing orange magma and charred, rocky skin textures, set against a turbulent, desaturated blue-grey sky.",
+    "coreVisualRelationships": [
+      "Contrast between smooth human skin and jagged, glowing volcanic textures",
+      "Tight framing focusing on the intensity of the eyes and facial expression",
+      "Cool-toned background vs. warm-toned internal glow of the scars",
+      "Low-angle perspective creating a sense of dominance and power"
+    ],
+    "coreInvariants": [
+      "Internal orange glow emanating from within the facial cracks"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up, centered face filling approximately 80% of the frame vertically.",
+      "visualAnchor": "The glowing molten scar on the upper right side of the face (viewer's right).",
+      "movementAndEyePath": "From the intense gaze of the eyes upward to the glowing forehead cracks, then down the side of the face following the lava flow.",
+      "negativeSpace": "Minimal, restricted to the upper corners showing a dark, cloudy sky."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated blue-grey (background and shadows)",
+      "contrastColorRole": "Deep blacks and dark browns (clothing and skin shadows)",
+      "accentColorRole": "Vibrant orange and fiery red (molten lava and embers)",
+      "saturationAndValueRelationship": "High value contrast between the dark skin/background and the luminous, highly saturated orange glow.",
+      "paletteRestrictions": [
+        "Avoid bright greens or purples",
+        "Maintain a moody, desaturated environment"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight kerning",
+        "Rectangular block layout"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "metadata",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "stacked",
+            "density": "high"
+          },
+          "composition": {
+            "position": "bottom-right corner",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay on dark clothing"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "black border box",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single-family block typography for utilitarian labeling.",
+      "graphicDevices": [
+        "Rectangular framing box for text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Blocky, condensed structure",
+          "White-on-black contrast"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Decorative flourishes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed feel for a warning label style.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Compressed",
+            "reason": "Clean, authoritative, and fits within a tight rectangular footprint.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-detail portrait of a man with a serious expression, featuring realistic cracked skin on the forehead and cheek that glows with internal orange magma. The background should be a dark, stormy sky with swirling blue-grey clouds.",
+        "overlayInstruction": "Add a small, white, condensed sans-serif text block inside a black rectangular frame in the bottom right corner."
+      },
+      "verificationChecks": [
+        "Is the lava glow luminous against the skin?",
+        "Is the framing a tight close-up on the face?",
+        "Is the background stormy and desaturated?",
+        "Is the text block positioned in the bottom right corner?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the molten glow",
+      "Extent of the facial scarring",
+      "Turbulence of the background clouds",
+      "Skin tone of the subject"
+    ],
+    "mustRedesign": [
+      "Avoid specific celebrity likenesses",
+      "Avoid specific trademarked logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Realistic integration of lava texture into skin pores",
+        "Cinematic lighting with clear rim light",
+        "High-resolution skin detail"
+      ],
+      "avoid": [
+        "Flat, cartoonish orange paint instead of glowing magma",
+        "Low-contrast lighting",
+        "Soft, blurry textures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for realistic subsurface scattering in the glowing areas",
+      "Ensure the eyes maintain a sharp, intense focus",
+      "Verify the text box does not obscure facial features",
+      "Confirm the color temperature contrast between blue and orange is maintained"
+    ],
+    "reuseFormula": "Combine [Subject Portrait] + [Volcanic/Molten Texture Overlay] + [Stormy Atmosphere] + [High-Contrast Low-Key Lighting]."
+  }
+}

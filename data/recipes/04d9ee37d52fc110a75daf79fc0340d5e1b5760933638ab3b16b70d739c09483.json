@@ -1,0 +1,290 @@
+{
+  "id": "04d9ee37d52fc110a75daf79fc0340d5e1b5760933638ab3b16b70d739c09483",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T19:52:55.374Z",
+  "approvedAt": "2026-08-11T19:52:55.374Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T19:52:55.374Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Harry.jpg",
+    "hash": "04d9ee37d52fc110a75daf79fc0340d5e1b5760933638ab3b16b70d739c09483",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Harry",
+    "artist": "Nilsson",
+    "artworkUrl": "https://coverartarchive.org/release-group/d109b3d4-d34e-337a-9e8e-85938de90ae4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d109b3d4-d34e-337a-9e8e-85938de90ae4",
+    "releaseGroupId": "d109b3d4-d34e-337a-9e8e-85938de90ae4",
+    "recordingId": "572e6ce3-ab45-4dc3-9bbe-294154c0f05d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I Guess The Lord Must Be In New York CityNilsson",
+      "song": "I Guess The Lord Must Be In New York City",
+      "performer": "Nilsson",
+      "peakPosition": 34,
+      "firstChartDate": "1969-11-01",
+      "lastChartDate": "1969-12-13",
+      "appearances": [
+        {
+          "chartDate": "1969-11-01",
+          "position": 83
+        },
+        {
+          "chartDate": "1969-11-08",
+          "position": 65
+        },
+        {
+          "chartDate": "1969-11-15",
+          "position": 44
+        },
+        {
+          "chartDate": "1969-11-22",
+          "position": 43
+        },
+        {
+          "chartDate": "1969-11-29",
+          "position": 34
+        },
+        {
+          "chartDate": "1969-12-06",
+          "position": 34
+        },
+        {
+          "chartDate": "1969-12-13",
+          "position": 58
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century sepia portrait album cover sepia vignette mid century boy portrait 1960s inline typography monochrome subject to background soft vignette transition text to subject spatial balance in upper third monochromatic sepia tonal range across all elements take a centered vintage style portrait apply a heavy sepia wash add a soft bottom vignette overlay high contrast inline serif typography in the upper right quadrant",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Sepia Portrait Album Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Lithography"
+      ],
+      "useCases": [
+        "Vinyl Record Covers",
+        "Vintage Book Jackets",
+        "Nostalgic Poster Design"
+      ],
+      "retrievalTags": [
+        "sepia",
+        "vignette",
+        "mid-century",
+        "boy portrait",
+        "1960s",
+        "inline typography",
+        "monochrome"
+      ]
+    },
+    "visualDefinition": "A centered, vignetted sepia-toned studio portrait of a young boy in formal attire, set against a neutral, textured background with decorative inline display typography in the upper right quadrant.",
+    "coreVisualRelationships": [
+      "Subject-to-background soft vignette transition",
+      "Text-to-subject spatial balance in upper third",
+      "Monochromatic sepia tonal range across all elements"
+    ],
+    "coreInvariants": [
+      "Soft-focus vignetted edges on the portrait",
+      "Uniform sepia/brown color palette",
+      "High-contrast inline display lettering"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered bust-up portrait, occupying approximately 60% of the vertical space.",
+      "visualAnchor": "The subject's eyes and the decorative display text in the upper right.",
+      "movementAndEyePath": "Starts at the subject's face, moves to the large display text at the top right, then to the smaller metadata in the corners.",
+      "negativeSpace": "Ample breathing room around the head, creating a sense of isolation and focus."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm sepia/beige background",
+      "contrastColorRole": "Dark brown shadows in the suit and hair",
+      "accentColorRole": "Mid-tone tan for skin and background texture",
+      "saturationAndValueRelationship": "Low saturation, high tonal range from cream highlights to deep chocolate shadows.",
+      "paletteRestrictions": [
+        "Strictly monochromatic sepia"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "High-contrast Didone or Modern Serif",
+      "letterConstructionRules": [
+        "Vertical strokes are composed of multiple parallel thin lines (inline style)",
+        "Terminals end in large, circular ball serifs or swash-like curls",
+        "Extreme contrast between thick vertical structures and thin horizontal connectors"
+      ],
+      "characterSpecificRedesigns": [
+        "R characters feature extended, curling tails",
+        "Y features a deep, symmetrical bowl with curled terminals"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Decorative Inline Serif",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Bold",
+            "contrast": "Extreme",
+            "xHeight": "High",
+            "terminals": "Ball serifs",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Multilinear inline"
+          },
+          "typesetting": {
+            "case": "All-caps",
+            "alignment": "Right-justified",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single word",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Upper right quadrant",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Dark brown with inline voids",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Sans-serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "Medium",
+            "terminals": "Blunt",
+            "corners": "Slightly rounded",
+            "counters": "Closed",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Corner-aligned",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Top corners",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Peripheral"
+          },
+          "treatment": {
+            "fill": "Dark brown",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Highly decorative display face paired with functional, minimalist sans-serif metadata.",
+      "graphicDevices": [
+        "Vignette",
+        "Paper grain texture"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Inline multilinear strokes",
+          "Ball terminals",
+          "Sepia tone"
+        ],
+        "avoid": [
+          "Modern digital gradients",
+          "Primary colors",
+          "Sans-serif display text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Caslon Open Face",
+            "reason": "Matches the inline multilinear structure and classic serif proportions.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Thorowgood",
+            "reason": "Captures the extreme contrast and Victorian-influenced ball terminals.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a sepia-toned studio portrait of a young boy in a 1960s suit and tie. The image should have a soft vignette at the bottom, fading into a textured beige paper background. The lighting should be soft and directional.",
+        "overlayInstruction": "Apply a large, all-caps title in the upper right using an inline decorative serif font with ball terminals. Add small sans-serif metadata text in the top left and top right corners. All text should be in a dark chocolate brown."
+      },
+      "verificationChecks": [
+        "Is the color palette strictly monochromatic sepia?",
+        "Does the main text feature the multilinear inline effect?",
+        "Is the portrait vignetted at the bottom edges?",
+        "Is the overall aesthetic consistent with 1960s lithography?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the sepia tint",
+      "Strength of the vignette",
+      "Complexity of the inline font decoration",
+      "Subject age and attire"
+    ],
+    "mustRedesign": [
+      "Modern logos",
+      "Specific brand names",
+      "Contemporary photographic sharpness"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic paper grain texture",
+        "Soft, non-digital tonal transitions",
+        "Period-accurate typography"
+      ],
+      "avoid": [
+        "High-saturation colors",
+        "Sharp digital cutouts",
+        "Drop shadows on text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for multilinear strokes in the display font.",
+      "Ensure the vignette is soft and not a hard circle.",
+      "Verify the sepia tone is warm and consistent across text and image.",
+      "Confirm the layout maintains the specific corner-weighted balance."
+    ],
+    "reuseFormula": "Take a centered vintage-style portrait + apply a heavy sepia wash + add a soft bottom vignette + overlay high-contrast inline serif typography in the upper right quadrant."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:01:39.160Z"
+}

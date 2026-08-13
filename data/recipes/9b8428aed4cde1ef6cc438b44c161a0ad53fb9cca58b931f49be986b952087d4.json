@@ -1,0 +1,284 @@
+{
+  "id": "9b8428aed4cde1ef6cc438b44c161a0ad53fb9cca58b931f49be986b952087d4",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T10:27:55.555Z",
+  "approvedAt": "2026-08-11T10:27:55.555Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T10:27:55.555Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "A Thousand Miles Left Behind.jpg",
+    "hash": "9b8428aed4cde1ef6cc438b44c161a0ad53fb9cca58b931f49be986b952087d4",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "A Thousand Miles Left Behind",
+    "artist": "Gloriana",
+    "artworkUrl": "https://coverartarchive.org/release-group/737e782a-942c-467a-b70d-59e948cbc8c5/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/737e782a-942c-467a-b70d-59e948cbc8c5",
+    "releaseGroupId": "737e782a-942c-467a-b70d-59e948cbc8c5",
+    "recordingId": "5d949750-4d51-444e-aa52-6cd5cb5d159b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Can't Shake YouGloriana",
+      "song": "Can't Shake You",
+      "performer": "Gloriana",
+      "peakPosition": 83,
+      "firstChartDate": "2013-05-25",
+      "lastChartDate": "2013-06-22",
+      "appearances": [
+        {
+          "chartDate": "2013-05-25",
+          "position": 83
+        },
+        {
+          "chartDate": "2013-06-01",
+          "position": 97
+        },
+        {
+          "chartDate": "2013-06-15",
+          "position": 98
+        },
+        {
+          "chartDate": "2013-06-22",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "rustic americana album cover western typography sepia tone woodland background distressed texture victorian flourishes musicians with instruments text heavy upper third balanced by photographic lower two thirds ornate victorian flourishes framing the primary and secondary titles high contrast white lettering against dark burgundy and textured backgrounds desaturated cool toned forest photography contrasting with warm burgundy header combine a color header block with spurred slab serif type an arched subtitle framed by victorian filigree and a desaturated textured photograph for a classic americana aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Rustic Americana Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Digital Illustration",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Country Music Album Art",
+        "Folk Band Promotional Poster",
+        "Vintage-Style Event Branding"
+      ],
+      "retrievalTags": [
+        "western typography",
+        "sepia tone",
+        "woodland background",
+        "distressed texture",
+        "victorian flourishes",
+        "musicians with instruments"
+      ]
+    },
+    "visualDefinition": "A three-tiered composition featuring a dark burgundy header with ornate western-style lettering, a central band of distressed subtitle text framed by filigree, and a desaturated, sepia-toned photograph of three musicians in a forest setting.",
+    "coreVisualRelationships": [
+      "Text-heavy upper third balanced by photographic lower two-thirds",
+      "Ornate Victorian flourishes framing the primary and secondary titles",
+      "High-contrast white lettering against dark burgundy and textured backgrounds",
+      "Desaturated, cool-toned forest photography contrasting with warm burgundy header"
+    ],
+    "coreInvariants": [
+      "Burgundy top border",
+      "Distressed, weathered paper texture overlays",
+      "Western slab-serif typography with spurs",
+      "Symmetrical filigree elements"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three musicians seated in the lower foreground, waist-up, occupying the bottom 60% of the frame.",
+      "visualAnchor": "The large, white, spurred slab-serif title in the top center.",
+      "movementAndEyePath": "Top-down: starting at the bold title, moving through the arched subtitle and filigree, resting on the musicians' faces and instruments.",
+      "negativeSpace": "Minimal; the composition is dense with texture, type, and foliage."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep burgundy (header background)",
+      "contrastColorRole": "Off-white/Cream (typography and highlights)",
+      "accentColorRole": "Muted forest greens and sepia browns (photograph)",
+      "saturationAndValueRelationship": "High value contrast in text; low saturation in the photographic elements to create a vintage feel.",
+      "paletteRestrictions": [
+        "Burgundy",
+        "Cream",
+        "Desaturated Olive",
+        "Charcoal"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Western Slab Serif",
+      "letterConstructionRules": [
+        "Heavy vertical strokes",
+        "Prominent mid-point spurs on stems",
+        "Angled, blocky serifs",
+        "Distressed, 'stamped' interior texture"
+      ],
+      "characterSpecificRedesigns": [
+        "Enlarged first and last letters for framing",
+        "Custom flourishes extending from the terminals of the main title"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Western Slab Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Medium",
+            "xHeight": "High",
+            "terminals": "Spurred",
+            "corners": "Chiseled",
+            "counters": "Small",
+            "strokeCharacter": "Weathered"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "None",
+            "warp": "None",
+            "overlap": "Slightly over the burgundy border",
+            "relationshipToImage": "Header"
+          },
+          "treatment": {
+            "fill": "Solid white with inner grit texture",
+            "outline": "Thin dark stroke",
+            "shadow": "Subtle drop shadow",
+            "depth": "Flat",
+            "texture": "Eroded",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Decorative Serif",
+          "anatomy": {
+            "width": "Variable",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Ball terminals",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Rough"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Arched",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Upper middle",
+            "scale": "Medium",
+            "rotation": "Arched path",
+            "warp": "Arc",
+            "overlap": "Over the forest background",
+            "relationshipToImage": "Floating above subjects"
+          },
+          "treatment": {
+            "fill": "Cream",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Distressed",
+            "distortion": "Arched"
+          }
+        }
+      ],
+      "pairingStrategy": "A heavy, spurred display face paired with a lighter, arched decorative serif for a 'Wild West' playbill aesthetic.",
+      "graphicDevices": [
+        "Symmetrical Victorian scrollwork",
+        "Horizontal divider lines with central peaks",
+        "Grunge/dust texture overlays"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Mid-stem spurs",
+          "Arched subtitle path",
+          "Burgundy header block"
+        ],
+        "avoid": [
+          "Modern sans-serifs",
+          "Clean, high-gloss finishes",
+          "Vibrant, saturated colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mesquite or Ironwood",
+            "reason": "Captures the spurred, western slab-serif aesthetic of the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Brotherhood Script or Victorian Serif",
+            "reason": "Matches the ornate, arched subtitle and filigree style.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A desaturated, sepia-toned photograph of three musicians (two men with guitars/banjos, one woman in center) in a dense, slightly out-of-focus forest. Add a solid dark burgundy bar across the top 20% of the frame. Apply a heavy 'old paper' or 'dust and scratches' texture across the entire image.",
+        "overlayInstruction": "Place a large, white, spurred western slab-serif title centered in the burgundy bar. Below it, add a secondary title in a cream-colored decorative serif, following an upward arch. Frame the secondary title with symmetrical Victorian-style line flourishes."
+      },
+      "verificationChecks": [
+        "Is the top bar a deep burgundy?",
+        "Does the main title have mid-stem spurs?",
+        "Is the subtitle arched?",
+        "Is the photography desaturated and textured?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the grunge texture",
+      "Curvature of the subtitle arch",
+      "Height of the burgundy header",
+      "Complexity of the filigree"
+    ],
+    "mustRedesign": [
+      "Specific band member likenesses",
+      "Original brand logos",
+      "Exact wording of the titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic weathered/vintage feel",
+        "Clear typographic hierarchy",
+        "Balanced symmetrical framing"
+      ],
+      "avoid": [
+        "Digital-looking gradients",
+        "Perfectly clean edges on type",
+        "Bright neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the spurs on the letters are consistent.",
+      "Ensure the texture doesn't obscure the legibility of the text.",
+      "Verify the sepia tone is consistent across the photographic section.",
+      "Confirm the filigree is horizontally symmetrical."
+    ],
+    "reuseFormula": "Combine a [Color] header block with [Spurred Slab Serif] type, an [Arched] subtitle framed by [Victorian Filigree], and a [Desaturated/Textured] photograph for a classic Americana aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:17:03.005Z"
+}

@@ -1,0 +1,326 @@
+{
+  "id": "cb85c2ddd3e1a25b06b82494aa3b0bb80a979fa96d7cd933fd2dd561e46187ba",
+  "skillId": "cb85c2ddd3e1a25b06b82494aa3b0bb80a979fa96d7cd933fd2dd561e46187ba",
+  "versionId": "cb85c2ddd3e1a25b06b82494aa3b0bb80a979fa96d7cd933fd2dd561e46187ba",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:33:20.419Z",
+  "approvedAt": "2026-08-12T21:33:20.419Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:33:20.419Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "On Time.jpg",
+    "hash": "cb85c2ddd3e1a25b06b82494aa3b0bb80a979fa96d7cd933fd2dd561e46187ba",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "On Time",
+    "artist": "Grand Funk Railroad",
+    "artworkUrl": "https://coverartarchive.org/release-group/8df10f49-e355-32fd-b36d-15c61c7eed7a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8df10f49-e355-32fd-b36d-15c61c7eed7a",
+    "releaseGroupId": "8df10f49-e355-32fd-b36d-15c61c7eed7a",
+    "recordingId": "1a1c7f07-5319-40be-bf1c-a48233a9c353",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Time MachineGrand Funk Railroad",
+      "song": "Time Machine",
+      "performer": "Grand Funk Railroad",
+      "peakPosition": 48,
+      "firstChartDate": "1969-09-27",
+      "lastChartDate": "1969-12-06",
+      "appearances": [
+        {
+          "chartDate": "1969-09-27",
+          "position": 91
+        },
+        {
+          "chartDate": "1969-10-04",
+          "position": 83
+        },
+        {
+          "chartDate": "1969-10-11",
+          "position": 73
+        },
+        {
+          "chartDate": "1969-10-18",
+          "position": 68
+        },
+        {
+          "chartDate": "1969-10-25",
+          "position": 50
+        },
+        {
+          "chartDate": "1969-11-01",
+          "position": 49
+        },
+        {
+          "chartDate": "1969-11-08",
+          "position": 48
+        },
+        {
+          "chartDate": "1969-11-15",
+          "position": 50
+        },
+        {
+          "chartDate": "1969-11-22",
+          "position": 52
+        },
+        {
+          "chartDate": "1969-11-29",
+          "position": 52
+        },
+        {
+          "chartDate": "1969-12-06",
+          "position": 66
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage rock trio portrait with heavy slab typography slab serif low key lighting band portrait vintage photography stamp effect high contrast 1960s rock subject heads form a triangular composition bold white text anchors the top right corner high contrast lighting separates subjects from the black void diagonal subtitle provides dynamic tension against horizontal main text combine low key trio portrait heavy slab serif display text diagonal framed subtitle high contrast lighting",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Rock Trio Portrait with Heavy Slab Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Classic rock album covers",
+        "Retro 1960s/70s band promotional material",
+        "Vintage music posters"
+      ],
+      "retrievalTags": [
+        "slab serif",
+        "low-key lighting",
+        "band portrait",
+        "vintage photography",
+        "stamp effect",
+        "high contrast",
+        "1960s rock"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast band portrait featuring heavy slab-serif typography and a secondary stamped-text element against a dark, moody background.",
+      "triggerTerms": [
+        "heavy slab serif album cover",
+        "low-key band portrait with props",
+        "vintage rock trio photography"
+      ],
+      "excludeWhen": [
+        "bright airy photography is required",
+        "modern minimalist sans-serif layouts are requested",
+        "landscape-only compositions"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A three-person group portrait emerging from deep shadows, holding thematic props like clocks and hats, topped with bold, white slab-serif text and a diagonal purple stamped subtitle.",
+    "coreVisualRelationships": [
+      "Subject heads form a triangular composition",
+      "Bold white text anchors the top right corner",
+      "High-contrast lighting separates subjects from the black void",
+      "Diagonal subtitle provides dynamic tension against horizontal main text"
+    ],
+    "coreInvariants": [
+      "Deep black background",
+      "Heavy slab-serif typeface",
+      "Low-key, directional lighting",
+      "Diagonal secondary text element"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three subjects positioned in the lower two-thirds of the frame; one standing left, two seated center and right.",
+      "visualAnchor": "The large white slab-serif text in the upper right quadrant.",
+      "movementAndEyePath": "Starts at the bright white text, moves down to the standing figure's face, across to the other two subjects, and back up through the diagonal stamp.",
+      "negativeSpace": "Extensive black negative space surrounding the subjects and between the text blocks."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background and shadows)",
+      "contrastColorRole": "White (primary text and highlights)",
+      "accentColorRole": "Deep red and muted blue (clothing), Purple (stamped text)",
+      "saturationAndValueRelationship": "High value contrast with low overall saturation except for specific clothing items.",
+      "paletteRestrictions": [
+        "Deep blacks",
+        "Pure white",
+        "Muted vintage tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif",
+      "letterConstructionRules": [
+        "Extremely thick strokes",
+        "Large, blocky rectangular serifs",
+        "Tight letter spacing",
+        "High x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "None; relies on standard heavy slab-serif characteristics"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Condensed to Normal",
+            "weight": "Black/Heavy",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Small",
+            "strokeCharacter": "Uniformly thick"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Two lines",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top right",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over negative space"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Center",
+            "tracking": "Normal",
+            "leading": "Single line",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Below primary text",
+            "scale": "Medium",
+            "rotation": "15 degrees clockwise",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Stamped appearance"
+          },
+          "treatment": {
+            "fill": "Purple",
+            "outline": "Purple rectangular border",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Slightly distressed/stamped",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Same typeface family with different weights, colors, and orientations.",
+      "graphicDevices": [
+        "Rectangular border around subtitle",
+        "Diagonal orientation for secondary text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif style",
+          "Heavy weight",
+          "Right-aligned primary text"
+        ],
+        "avoid": [
+          "Sans-serif",
+          "Script fonts",
+          "Centered primary text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab-serif structure and blocky serifs.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Stymie Black",
+            "reason": "Classic vintage slab serif with similar weight and proportion.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-key studio portrait of a three-man rock band from the late 1960s against a solid black background. One man stands on the left in a red vest holding a large pocket watch; two men sit to the right holding vintage props like a small model train and a straw hat. Use high-contrast lighting that leaves most of the background in total darkness.",
+        "overlayInstruction": "Add two lines of heavy white slab-serif text in the top right corner, right-aligned. Below that, add a single line of purple slab-serif text enclosed in a thin purple rectangular frame, rotated 15 degrees clockwise to look like a stamp."
+      },
+      "verificationChecks": [
+        "Is the background solid black?",
+        "Is the primary text a heavy slab serif?",
+        "Is the subtitle rotated and framed?",
+        "Is the lighting high-contrast and directional?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject props",
+      "Subtitle color",
+      "Rotation angle of the stamp",
+      "Specific clothing colors"
+    ],
+    "mustRedesign": [
+      "Specific band member faces",
+      "Original band name and album title",
+      "Prop details that match specific trademarked items"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Strong chiaroscuro lighting",
+        "Bold typographic presence",
+        "Vintage film grain texture"
+      ],
+      "avoid": [
+        "Modern digital clarity",
+        "Soft, even lighting",
+        "Thin or elegant fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Text is right-aligned and heavy",
+      "Background is deep black",
+      "Subjects are clearly separated by light",
+      "The stamp effect is diagonal",
+      "No modern elements are present"
+    ],
+    "reuseFormula": "Combine [Low-key Trio Portrait] + [Heavy Slab Serif Display Text] + [Diagonal Framed Subtitle] + [High Contrast Lighting]."
+  }
+}

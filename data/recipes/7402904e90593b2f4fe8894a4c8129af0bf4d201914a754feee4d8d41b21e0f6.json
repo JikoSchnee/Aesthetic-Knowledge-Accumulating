@@ -1,0 +1,276 @@
+{
+  "id": "7402904e90593b2f4fe8894a4c8129af0bf4d201914a754feee4d8d41b21e0f6",
+  "skillId": "7402904e90593b2f4fe8894a4c8129af0bf4d201914a754feee4d8d41b21e0f6",
+  "versionId": "7402904e90593b2f4fe8894a4c8129af0bf4d201914a754feee4d8d41b21e0f6",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:43:31.188Z",
+  "approvedAt": "2026-08-12T12:43:31.188Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:43:31.188Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Stream {Hurricane Of Change}.jpg",
+    "hash": "7402904e90593b2f4fe8894a4c8129af0bf4d201914a754feee4d8d41b21e0f6",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Stream {Hurricane Of Change}",
+    "artist": "The Alarm",
+    "artworkUrl": "https://coverartarchive.org/release-group/9dc4b805-5992-48c4-ad08-2d7a25849361/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9dc4b805-5992-48c4-ad08-2d7a25849361",
+    "releaseGroupId": "9dc4b805-5992-48c4-ad08-2d7a25849361",
+    "recordingId": "31587ef7-83d9-4f2b-a83e-1a2d735f3bca",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Rain In The SummertimeThe Alarm",
+      "song": "Rain In The Summertime",
+      "performer": "The Alarm",
+      "peakPosition": 71,
+      "firstChartDate": "1987-12-19",
+      "lastChartDate": "1988-02-06",
+      "appearances": [
+        {
+          "chartDate": "1987-12-19",
+          "position": 96
+        },
+        {
+          "chartDate": "1987-12-26",
+          "position": 81
+        },
+        {
+          "chartDate": "1988-01-02",
+          "position": 81
+        },
+        {
+          "chartDate": "1988-01-09",
+          "position": 72
+        },
+        {
+          "chartDate": "1988-01-16",
+          "position": 71
+        },
+        {
+          "chartDate": "1988-01-23",
+          "position": 71
+        },
+        {
+          "chartDate": "1988-01-30",
+          "position": 78
+        },
+        {
+          "chartDate": "1988-02-06",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast linocut album art high contrast black and white woodcut style silhouette guilloche border cross hatching monochrome landscape central figure silhouetted against a large circular negative space framing elements of organic scratchy tree limbs creating a natural arch horizontal division between a textured sky ground and a reflective water like foreground contrast between organic hand drawn lines and a geometric ornate label linocut style subject silhouetted against light source framed by organic texture color decorative label at base",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Linocut Album Art",
+      "category": "Graphic Illustration",
+      "medium": [
+        "Linocut",
+        "Woodblock Print",
+        "Digital Illustration",
+        "Engraving"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Book Jacket Design",
+        "Editorial Illustration",
+        "Poster Design"
+      ],
+      "retrievalTags": [
+        "high contrast",
+        "black and white",
+        "woodcut style",
+        "silhouette",
+        "guilloche border",
+        "cross-hatching",
+        "monochrome landscape"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A stark, high-contrast monochrome illustration featuring a central silhouette against a large circular light source, framed by expressive, hand-carved textures and a decorative guilloche-style label.",
+      "triggerTerms": [
+        "linocut style illustration",
+        "stark black and white woodblock",
+        "silhouette against full moon",
+        "engraved texture landscape"
+      ],
+      "excludeWhen": [
+        "photorealistic requests",
+        "full color vibrant designs",
+        "minimalist vector art without texture"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dramatic black and white composition utilizing heavy ink-like textures, cross-hatching, and negative space to define a figure standing before a massive moon, anchored by a detailed red decorative badge at the bottom.",
+    "coreVisualRelationships": [
+      "Central figure silhouetted against a large circular negative space",
+      "Framing elements of organic, scratchy tree limbs creating a natural arch",
+      "Horizontal division between a textured sky/ground and a reflective water-like foreground",
+      "Contrast between organic hand-drawn lines and a geometric, ornate label"
+    ],
+    "coreInvariants": [
+      "Strict monochrome palette for the main scene",
+      "Heavy use of hatching and cross-hatching for mid-tones",
+      "Circular focal point behind the subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A medium-full shot of a standing figure, centered horizontally, scaled to occupy the middle third of the vertical space.",
+      "visualAnchor": "The large white circular moon acts as the primary anchor, with the red decorative badge serving as a secondary weighted anchor at the bottom.",
+      "movementAndEyePath": "The eye starts at the central figure, moves upward to the framing trees, follows the circular moon, and descends to the detailed text badge.",
+      "negativeSpace": "The moon provides the primary area of negative space, creating a 'halo' effect that defines the subject's silhouette."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (ink) providing structure and shadow.",
+      "contrastColorRole": "White (paper) providing light and form definition.",
+      "accentColorRole": "Deep Red, reserved exclusively for the decorative label at the bottom.",
+      "saturationAndValueRelationship": "Extreme value contrast with zero mid-tone grays; all tonal variation is achieved through line density.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Deep Red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Serif",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Sharp, bracketed serifs",
+        "Small caps for secondary information"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "pointed",
+            "counters": "open",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "contained within badge",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "dark red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single serif family using case and scale to differentiate hierarchy.",
+      "graphicDevices": [
+        "Guilloche pattern border",
+        "Multi-lobed decorative badge",
+        "Horizontal rule lines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Serif classification",
+          "Wide tracking",
+          "Uppercase styling"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "Heavy bold weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "High contrast and sharp serifs match the classical feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Times New Roman Small Caps",
+            "reason": "Provides a traditional, authoritative look suitable for the badge.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white linocut illustration of a man silhouetted against a large white moon, surrounded by scratchy, textured trees and a reflective water foreground. Leave a clear space at the bottom center for a badge.",
+        "overlayInstruction": "Add a red ornate guilloche-style badge at the bottom center containing centered serif text in uppercase with wide tracking."
+      },
+      "verificationChecks": [
+        "Is the main image strictly black and white?",
+        "Is the texture achieved through hatching rather than gradients?",
+        "Is the red badge the only source of color?",
+        "Is the text centered and legible within the badge?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of tree branches",
+      "Pose of the central figure",
+      "Complexity of the guilloche badge",
+      "Intensity of the water reflections"
+    ],
+    "mustRedesign": [
+      "Any photographic elements",
+      "Smooth digital gradients",
+      "Modern sans-serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Hand-carved woodcut texture",
+        "Stark silhouette definition",
+        "Intricate decorative border work"
+      ],
+      "avoid": [
+        "Soft brushes",
+        "Airbrushed effects",
+        "Low-contrast grays"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for linocut-style 'chatter' marks in the black areas.",
+      "Ensure the moon is a perfect or near-perfect circle.",
+      "Verify the red badge has a distinct, fine-line geometric pattern.",
+      "Confirm the figure is fully silhouetted with minimal internal detail."
+    ],
+    "reuseFormula": "Linocut style + [Subject] + silhouetted against [Light Source] + framed by [Organic Texture] + [Color] decorative label at base."
+  }
+}

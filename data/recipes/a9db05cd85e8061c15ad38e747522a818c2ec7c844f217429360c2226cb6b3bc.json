@@ -1,0 +1,285 @@
+{
+  "id": "a9db05cd85e8061c15ad38e747522a818c2ec7c844f217429360c2226cb6b3bc",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T12:29:25.573Z",
+  "approvedAt": "2026-08-11T12:29:25.573Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T12:29:25.573Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Pratt & McClain featuring \"Happy Days\".jpg",
+    "hash": "a9db05cd85e8061c15ad38e747522a818c2ec7c844f217429360c2226cb6b3bc",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Pratt & McClain featuring \"Happy Days\"",
+    "artist": "Pratt & McClain",
+    "artworkUrl": "https://coverartarchive.org/release-group/12c10671-cbad-4c7b-b51a-0eb99755791f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/12c10671-cbad-4c7b-b51a-0eb99755791f",
+    "releaseGroupId": "12c10671-cbad-4c7b-b51a-0eb99755791f",
+    "recordingId": "5640bd8a-bc35-4293-a838-a9f2df37624d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Devil With A Blue DressPratt & McClain",
+      "song": "Devil With A Blue Dress",
+      "performer": "Pratt & McClain",
+      "peakPosition": 71,
+      "firstChartDate": "1976-07-17",
+      "lastChartDate": "1976-08-07",
+      "appearances": [
+        {
+          "chartDate": "1976-07-17",
+          "position": 87
+        },
+        {
+          "chartDate": "1976-07-24",
+          "position": 74
+        },
+        {
+          "chartDate": "1976-07-31",
+          "position": 71
+        },
+        {
+          "chartDate": "1976-08-07",
+          "position": 71
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro collegiate collage album cover 1970s collegiate woodgrain script lettering geometric collage varsity style tilted rectangular photo frame as the central focal point large scale script text overlapping the top geometric field vertical striped patterns anchoring the left side circular badge element containing secondary display text on the right layered geometric retro collage woodgrain texture tilted photo frame shadowed script typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Collegiate Collage Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Mixed Media",
+        "Photography",
+        "Vector Illustration"
+      ],
+      "useCases": [
+        "Album Art",
+        "Vintage Poster",
+        "Retro Branding"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "collegiate",
+        "woodgrain",
+        "script lettering",
+        "geometric collage",
+        "varsity style"
+      ]
+    },
+    "visualDefinition": "A complex 1970s-style collage featuring a central tilted photograph framed by geometric shapes, woodgrain textures, and bold script typography. The design uses a warm palette of orange, yellow, and brown contrasted against a bright cyan blue, incorporating collegiate motifs like stripes and circular badges.",
+    "coreVisualRelationships": [
+      "Tilted rectangular photo frame as the central focal point",
+      "Large-scale script text overlapping the top geometric field",
+      "Vertical striped patterns anchoring the left side",
+      "Circular badge element containing secondary display text on the right"
+    ],
+    "coreInvariants": [
+      "Woodgrain texture background",
+      "Cyan blue geometric wedge shape",
+      "Hard drop shadows on all typographic elements",
+      "White borders around the central photograph"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A central photograph of two figures is tilted approximately 15 degrees clockwise, occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The large orange script text at the top acts as the primary visual anchor.",
+      "movementAndEyePath": "The eye starts at the top-left script, follows the diagonal wedge down to the photo, and settles on the circular badge on the right.",
+      "negativeSpace": "The woodgrain texture serves as the active negative space, providing a warm organic contrast to the sharp geometric overlays."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm woodgrain brown and orange-toned script.",
+      "contrastColorRole": "Bright cyan blue used in the large geometric wedge.",
+      "accentColorRole": "Sun-yellow used in the circular badge and vertical stripes.",
+      "saturationAndValueRelationship": "High saturation in the graphics contrasts with the naturalistic, slightly desaturated tones of the central photograph.",
+      "paletteRestrictions": [
+        "Burnt orange",
+        "Cyan blue",
+        "Mustard yellow",
+        "Warm wood brown",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Fluid, upright 70s-style brush script and heavy slab serifs.",
+      "letterConstructionRules": [
+        "Script: Consistent stroke weight, high-angle connections, and long descenders.",
+        "Slab Serif: Heavy, blocky serifs with internal inline detailing."
+      ],
+      "characterSpecificRedesigns": [
+        "The ampersand is integrated into the flow of the script with a smaller scale.",
+        "Block letters feature a white inline stroke to create a 3D effect."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "smooth",
+            "counters": "open",
+            "strokeCharacter": "brush-like"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "overlaps blue wedge",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "orange",
+            "outline": "none",
+            "shadow": "hard black drop shadow",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "heavy",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "blocky",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "inline"
+          },
+          "typesetting": {
+            "case": "all caps",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "inside yellow circle",
+            "scale": "medium",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "contained",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "blue",
+            "outline": "white inline",
+            "shadow": "hard blue drop shadow",
+            "depth": "3D effect",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Fluid organic script paired with rigid, architectural slab serifs for a collegiate feel.",
+      "graphicDevices": [
+        "Woodgrain background",
+        "Diagonal cyan wedge",
+        "Yellow circle badge",
+        "Vertical racing stripes",
+        "Tilted photo frame"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Hard drop shadows",
+          "Tilted photo orientation",
+          "Woodgrain texture"
+        ],
+        "avoid": [
+          "Modern sans-serifs",
+          "Soft gradients",
+          "Minimalist white space"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mistral or Brush Script",
+            "reason": "Captures the fluid, casual energy of the primary display text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Rockwell Extra Bold or Stencil",
+            "reason": "Provides the heavy, collegiate slab-serif structure for the badge text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a 1970s-style collage background featuring a vertical woodgrain texture. Overlay a large cyan blue diagonal wedge from the top left. Add a yellow circle badge on the right and vertical yellow/blue stripes on the left. In the center, place a tilted rectangular photograph with a white border showing two men in 70s knitwear.",
+        "overlayInstruction": "Add large orange script lettering across the top blue wedge with a hard black drop shadow. Inside the yellow circle, add two lines of heavy blue slab-serif text with white inline details and a blue drop shadow."
+      },
+      "verificationChecks": [
+        "Is the central photo tilted?",
+        "Does the script text have a hard drop shadow?",
+        "Is the woodgrain texture visible in the background?",
+        "Are the colors vibrant and 70s-inspired?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Angle of the central photo",
+      "Color of the geometric wedge",
+      "Density of the woodgrain pattern",
+      "Thickness of the vertical stripes"
+    ],
+    "mustRedesign": [
+      "Specific faces in the photograph",
+      "Any brand-specific logos or crests on the clothing",
+      "Exact wording of the text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s color palette",
+        "Layered collage depth",
+        "Hand-drawn quality to the script"
+      ],
+      "avoid": [
+        "Clean digital vectors",
+        "Modern flat design",
+        "High-contrast neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the script text is legible despite the overlap.",
+      "Ensure the drop shadows are consistent in direction.",
+      "Verify the woodgrain doesn't overpower the foreground elements.",
+      "Confirm the collegiate 'badge' look is maintained."
+    ],
+    "reuseFormula": "Layered Geometric Retro Collage + Woodgrain Texture + Tilted Photo Frame + Shadowed Script Typography"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:18:46.021Z"
+}

@@ -1,0 +1,250 @@
+{
+  "id": "b3959101d41ccd5b6451938b16a8dc54898f4017c55333fdc92eb181a459351a",
+  "skillId": "b3959101d41ccd5b6451938b16a8dc54898f4017c55333fdc92eb181a459351a",
+  "versionId": "b3959101d41ccd5b6451938b16a8dc54898f4017c55333fdc92eb181a459351a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:15:05.273Z",
+  "approvedAt": "2026-08-12T14:15:05.273Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:15:05.273Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Sunshower.jpg",
+    "hash": "b3959101d41ccd5b6451938b16a8dc54898f4017c55333fdc92eb181a459351a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Sunshower",
+    "artist": "Thelma Houston",
+    "artworkUrl": "https://coverartarchive.org/release-group/0a6630c0-2b46-3b9b-85d7-c92f32470724/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0a6630c0-2b46-3b9b-85d7-c92f32470724",
+    "releaseGroupId": "0a6630c0-2b46-3b9b-85d7-c92f32470724",
+    "recordingId": "ece547b2-6e16-4841-9c20-9073b6aacc3e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Save The CountryThelma Houston",
+      "song": "Save The Country",
+      "performer": "Thelma Houston",
+      "peakPosition": 74,
+      "firstChartDate": "1970-01-31",
+      "lastChartDate": "1970-02-14",
+      "appearances": [
+        {
+          "chartDate": "1970-01-31",
+          "position": 98
+        },
+        {
+          "chartDate": "1970-02-07",
+          "position": 76
+        },
+        {
+          "chartDate": "1970-02-14",
+          "position": 74
+        }
+      ]
+    }
+  },
+  "dedupeText": "golden soul 1960s album cover monochromatic yellow swash serif 1960s soul bejeweled collar studio portrait warm glow subject color matching the background for a monochromatic effect high contrast dark typography against a bright yellow field textured fabric velvet or suede contrasting with sparkling jewelry subject positioned on the right third balanced by text on the left monochromatic color period studio portrait decorative serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Golden Soul 1960s Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Soul and R&B album art",
+        "Vintage 1960s music posters",
+        "Retro editorial layouts"
+      ],
+      "retrievalTags": [
+        "monochromatic yellow",
+        "swash serif",
+        "1960s soul",
+        "bejeweled collar",
+        "studio portrait",
+        "warm glow"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A monochromatic yellow studio portrait featuring a subject in a textured jumpsuit with bejeweled accents, paired with high-contrast swash serif typography.",
+      "triggerTerms": [
+        "1969 soul album aesthetic",
+        "monochromatic yellow studio portrait",
+        "vintage swash serif typography",
+        "bejeweled collar jumpsuit"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "multi-color palettes",
+        "sans-serif typography",
+        "outdoor natural lighting"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A warm, saturated yellow-on-yellow composition where the subject's clothing and the studio backdrop blend into a single tonal field, punctuated by dark hair and intricate bejeweled details on the collar and cuffs. The layout is anchored by left-aligned, decorative swash serif text.",
+    "coreVisualRelationships": [
+      "Subject color matching the background for a monochromatic effect",
+      "High-contrast dark typography against a bright yellow field",
+      "Textured fabric (velvet or suede) contrasting with sparkling jewelry",
+      "Subject positioned on the right third, balanced by text on the left"
+    ],
+    "coreInvariants": [
+      "Monochromatic yellow color scheme",
+      "High-contrast dark brown or black text",
+      "Studio lighting with a soft, warm glow"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is seated on the floor, positioned in the right two-thirds of the frame, scaled to full body height.",
+      "visualAnchor": "The subject's face and bejeweled collar serve as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the large display text on the left, move across the collar to the face, and follow the line of the legs down to the bottom right.",
+      "negativeSpace": "Significant negative space in the upper left and center left, occupied by typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Saturated mustard yellow (background and clothing)",
+      "contrastColorRole": "Dark espresso brown (typography and hair)",
+      "accentColorRole": "Multi-colored jewel tones (emeralds, rubies, and sapphires in the collar)",
+      "saturationAndValueRelationship": "High saturation yellow with low value contrast between subject and background, creating a 'floating' effect.",
+      "paletteRestrictions": [
+        "Avoid blues or greens except in small jewelry details",
+        "No white space"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "High-contrast transitional serif",
+      "letterConstructionRules": [
+        "Exaggerated swash terminals on uppercase letters",
+        "Interlocking or overlapping characters in display lines",
+        "Sharp, triangular serifs",
+        "High stroke contrast between thicks and thins"
+      ],
+      "characterSpecificRedesigns": [
+        "Uppercase 'T' and 'H' with extended horizontal bars",
+        "Uppercase 'S' with circular swash terminals"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Decorative Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Swash",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "All Caps",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked by word",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top left",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Slight character overlap",
+            "relationshipToImage": "Overlays the background"
+          },
+          "treatment": {
+            "fill": "Dark Brown",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Use a smaller, simpler version of the display serif for secondary metadata to maintain tonal consistency.",
+      "graphicDevices": [
+        "Tight kerning for a 1960s 'locked' look",
+        "Horizontal rules or small logos at the extreme corners"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Swash terminals",
+          "High contrast",
+          "Left alignment"
+        ],
+        "avoid": [
+          "Modern geometric sans",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the 1960s/70s decorative serif aesthetic perfectly",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Benguiat",
+            "reason": "Provides the correct period-accurate weight and flair",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A studio portrait of a person in a yellow velvet jumpsuit with a bejeweled collar, seated on a yellow floor against a yellow wall. The lighting should be warm and even, creating a monochromatic effect.",
+        "overlayInstruction": "Add large, dark brown display text in a decorative swash serif font to the top left area. Ensure tight tracking and interlocking characters."
+      },
+      "verificationChecks": [
+        "Is the background and clothing the same shade of yellow?",
+        "Does the typography feature exaggerated swashes?",
+        "Is the text left-aligned and dark against the yellow field?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the yellow saturation",
+      "Complexity of the swash terminals",
+      "Density of the jewels on the collar"
+    ],
+    "mustRedesign": [
+      "Specific artist names and logos",
+      "Exact jewelry patterns",
+      "Specific facial features"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Monochromatic yellow color field",
+        "High-contrast decorative serif typography",
+        "1960s studio lighting quality"
+      ],
+      "avoid": [
+        "Modern digital sharpness",
+        "Cool-toned lighting",
+        "Minimalist sans-serif fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the yellow is saturated and warm, not neon.",
+      "Check that the swash serif text is legible but highly decorative.",
+      "Verify the subject's pose feels relaxed and studio-staged.",
+      "Confirm the absence of white or neutral backgrounds."
+    ],
+    "reuseFormula": "Monochromatic [Color] + [Period] Studio Portrait + [Decorative Serif] Typography"
+  }
+}

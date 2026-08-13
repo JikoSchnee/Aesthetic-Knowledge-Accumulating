@@ -1,0 +1,297 @@
+{
+  "id": "7815287b2695bbc811232392d54baa12fd267e71f9079953cde2b0c435cbb291",
+  "skillId": "7815287b2695bbc811232392d54baa12fd267e71f9079953cde2b0c435cbb291",
+  "versionId": "7815287b2695bbc811232392d54baa12fd267e71f9079953cde2b0c435cbb291",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T02:26:06.303Z",
+  "approvedAt": "2026-08-13T02:26:06.303Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T02:26:06.303Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Golden Classics.jpg",
+    "hash": "7815287b2695bbc811232392d54baa12fd267e71f9079953cde2b0c435cbb291",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Golden Classics",
+    "artist": "Roy Hamilton",
+    "artworkUrl": "https://coverartarchive.org/release-group/b039af93-2ecc-4ba8-b834-d97f3d70c162/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b039af93-2ecc-4ba8-b834-d97f3d70c162",
+    "releaseGroupId": "b039af93-2ecc-4ba8-b834-d97f3d70c162",
+    "recordingId": "d281c2aa-fac9-46b2-8789-0464b3c8f34f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "You're Gonna Need MagicRoy Hamilton",
+      "song": "You're Gonna Need Magic",
+      "performer": "Roy Hamilton",
+      "peakPosition": 80,
+      "firstChartDate": "1961-04-29",
+      "lastChartDate": "1961-05-13",
+      "appearances": [
+        {
+          "chartDate": "1961-04-29",
+          "position": 93
+        },
+        {
+          "chartDate": "1961-05-06",
+          "position": 80
+        },
+        {
+          "chartDate": "1961-05-13",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul portrait album cover 1950s style 1960s style flat red background condensed sans serif waist up portrait suit and tie vinyl record aesthetic subject contrast against a vibrant flat color field top heavy typographic hierarchy balanced by right aligned body text formal portraiture lighting with soft shadows high contrast white on red graphic language solid background color formal portrait condensed sans serif header right aligned list mid century album aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Portrait Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Vintage music album artwork",
+        "Retro soul or jazz compilation covers",
+        "Mid-century editorial portraiture"
+      ],
+      "retrievalTags": [
+        "1950s style",
+        "1960s style",
+        "flat red background",
+        "condensed sans-serif",
+        "waist-up portrait",
+        "suit and tie",
+        "vinyl record aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A classic mid-century portrait layout featuring a subject in formal attire against a vibrant, flat color field with bold, condensed header typography.",
+      "triggerTerms": [
+        "vintage soul album cover style",
+        "flat red background portrait",
+        "condensed sans-serif header layout",
+        "mid-century music compilation aesthetic"
+      ],
+      "excludeWhen": [
+        "modern minimalist photography",
+        "complex textured backgrounds",
+        "serif-heavy typography",
+        "action-oriented photography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A waist-up portrait of a man in a dark suit and white shirt, positioned slightly off-center against a solid, saturated red background, framed by a prominent top-aligned header and a right-aligned tracklist in white condensed sans-serif.",
+    "coreVisualRelationships": [
+      "Subject contrast against a vibrant flat color field",
+      "Top-heavy typographic hierarchy balanced by right-aligned body text",
+      "Formal portraiture lighting with soft shadows",
+      "High-contrast white-on-red graphic language"
+    ],
+    "coreInvariants": [
+      "Solid, untextured background color",
+      "Condensed sans-serif typography",
+      "Formal attire (suit and tie)",
+      "Waist-up framing"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is positioned in the lower two-thirds of the frame, slightly left of center, scaled to waist-up height.",
+      "visualAnchor": "The subject's face and the bold white header text at the top.",
+      "movementAndEyePath": "Starts at the large header, moves down to the subject's face, then right to the tracklist text.",
+      "negativeSpace": "Significant negative space in the upper right and around the subject's head, filled by the flat background color."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Saturated red background",
+      "contrastColorRole": "White for all typography and shirt highlights",
+      "accentColorRole": "Deep black/charcoal for the suit and hair",
+      "saturationAndValueRelationship": "High saturation background with high value contrast in the text.",
+      "paletteRestrictions": [
+        "Primary red",
+        "Pure white",
+        "Deep black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Extremely narrow character widths",
+        "Flat terminals",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Squared-off curves on 'O' and 'C'",
+        "High crossbars on 'H' and 'A'"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "list",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "middle right",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in different weights and scales for hierarchy.",
+      "graphicDevices": [
+        "Horizontal divider line in the header"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed width",
+          "Uppercase styling",
+          "White color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Wide tracking"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy, condensed, sans-serif feel of the header.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers Ultra Condensed",
+            "reason": "Provides the clean, mid-century Swiss look for the body text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Captures the vintage American editorial vibe.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a waist-up portrait of a man in a black 1950s-style suit, white shirt, and black tie, looking towards the camera with a slight smile. The background must be a solid, vibrant, flat red color with no texture or gradients.",
+        "overlayInstruction": "Add a large, bold, white, extra-condensed sans-serif header across the top. Add a list of song titles in smaller, white, condensed sans-serif text, right-aligned in the middle-right section of the frame."
+      },
+      "verificationChecks": [
+        "Is the background a flat, solid red?",
+        "Is the header text uppercase and extra-condensed?",
+        "Is the subject wearing a formal suit and tie?",
+        "Is the secondary text right-aligned?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color",
+      "Subject's ethnicity/gender",
+      "Header text content",
+      "List alignment (left vs right)"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Record label logos",
+      "Specific song titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typographic edges",
+        "High-contrast color separation",
+        "Balanced negative space"
+      ],
+      "avoid": [
+        "Drop shadows on text",
+        "Gradient backgrounds",
+        "Casual or distressed fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for typographic legibility against the red background",
+      "Ensure the subject's head does not overlap the header text",
+      "Verify the suit color is a deep, solid black",
+      "Confirm the overall layout feels like a 1950s/60s vinyl record"
+    ],
+    "reuseFormula": "Solid background color + formal portrait + condensed sans-serif header + right-aligned list = Mid-century album aesthetic."
+  }
+}

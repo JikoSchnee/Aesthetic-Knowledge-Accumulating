@@ -1,0 +1,301 @@
+{
+  "id": "dfd18d069739bd205b9035bc684158fbe8f984d23ee3edb8f49b3d2ec068acfb",
+  "skillId": "dfd18d069739bd205b9035bc684158fbe8f984d23ee3edb8f49b3d2ec068acfb",
+  "versionId": "dfd18d069739bd205b9035bc684158fbe8f984d23ee3edb8f49b3d2ec068acfb",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:19:33.899Z",
+  "approvedAt": "2026-08-13T05:19:33.899Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:19:33.899Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Soup for One.jpg",
+    "hash": "dfd18d069739bd205b9035bc684158fbe8f984d23ee3edb8f49b3d2ec068acfb",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Soup for One",
+    "artist": "Carly Simon",
+    "artworkUrl": "https://coverartarchive.org/release-group/16f58e9a-75fd-4db4-8e61-05ab1da09871/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/16f58e9a-75fd-4db4-8e61-05ab1da09871",
+    "releaseGroupId": "16f58e9a-75fd-4db4-8e61-05ab1da09871",
+    "recordingId": "17dd7bce-d069-42d1-8f79-2765e18d946e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "WhyCarly Simon",
+      "song": "Why",
+      "performer": "Carly Simon",
+      "peakPosition": 74,
+      "firstChartDate": "1982-07-17",
+      "lastChartDate": "1982-08-21",
+      "appearances": [
+        {
+          "chartDate": "1982-07-17",
+          "position": 89
+        },
+        {
+          "chartDate": "1982-07-24",
+          "position": 86
+        },
+        {
+          "chartDate": "1982-07-31",
+          "position": 78
+        },
+        {
+          "chartDate": "1982-08-07",
+          "position": 74
+        },
+        {
+          "chartDate": "1982-08-14",
+          "position": 74
+        },
+        {
+          "chartDate": "1982-08-21",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban surrealist album cover surrealism cityscape 80s aesthetic floating bed bold typography metropolitan the hands act as a physical frame for the inner square artwork the dark water provides a heavy base for the floating bed subject the verticality of the skyscrapers contrasts with the horizontal bed the bold blue title anchors the top white section of the inner frame surreal subject urban backdrop framed by hands bold rounded header typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Surrealist Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Editorial Layout",
+        "Poster Design"
+      ],
+      "retrievalTags": [
+        "surrealism",
+        "cityscape",
+        "80s aesthetic",
+        "floating bed",
+        "bold typography",
+        "metropolitan"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A surrealist urban composition featuring a person rowing a bed across a body of water with a city skyline background, framed by hands holding the image.",
+      "triggerTerms": [
+        "surreal city rowing bed",
+        "hands holding square album cover",
+        "bold blue rounded title typography"
+      ],
+      "excludeWhen": [
+        "minimalist white space is required",
+        "natural landscape without urban elements"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square frame held by two hands with red nails, containing a surreal scene of a man rowing a bed like a boat on dark water against a New York-style skyline, topped with bold, stacked typography.",
+    "coreVisualRelationships": [
+      "The hands act as a physical frame for the inner square artwork",
+      "The dark water provides a heavy base for the floating bed subject",
+      "The verticality of the skyscrapers contrasts with the horizontal bed",
+      "The bold blue title anchors the top white section of the inner frame"
+    ],
+    "coreInvariants": [
+      "The central subject must be a bed used as a watercraft",
+      "The composition must be framed by hands holding the edges",
+      "The background must feature a dense metropolitan skyline"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The bed is centered in the lower third; the skyline occupies the middle third; text occupies the top third.",
+      "visualAnchor": "The man rowing the bed serves as the primary focal point.",
+      "movementAndEyePath": "Eyes move from the bold title at the top, down the skyline, to the surreal bed, then out to the framing hands.",
+      "negativeSpace": "The top white header provides breathing room for the dense typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blue and grey water/skyline tones",
+      "contrastColorRole": "Bright white header background",
+      "accentColorRole": "Vibrant blue title and red fingernails",
+      "saturationAndValueRelationship": "High contrast between the dark, moody lower half and the clean, bright upper half.",
+      "paletteRestrictions": [
+        "Deep Navy",
+        "Steel Grey",
+        "Pure White",
+        "Electric Blue",
+        "Crimson Red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric sans-serif and heavy rounded display",
+      "letterConstructionRules": [
+        "Title uses ultra-bold, rounded terminals with tight kerning",
+        "Secondary text uses a clean, high-contrast geometric sans-serif",
+        "All text is uppercase for impact"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'O' in the title is a perfect circle with a thick stroke"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "rounded-sans",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "ultra-black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "header-overlay"
+          },
+          "treatment": {
+            "fill": "solid-blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "square",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "multi-column-flow",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below-title",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "sub-header"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy rounded display font paired with a clean, functional geometric sans-serif for readability.",
+      "graphicDevices": [
+        "White rectangular header block",
+        "Photographic framing via hands"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Rounded terminals of the title",
+          "Uppercase styling",
+          "Tight tracking"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Lowercase letters"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Blippo Black",
+            "reason": "Matches the heavy, rounded, 70s/80s display aesthetic",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Appropriate for the geometric secondary text",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a surreal photo of a man in a suit rowing a vintage bed with oars across dark choppy water. In the background, a detailed 1980s New York City skyline. Frame the entire image as if it is a square vinyl record being held by two hands with red manicured nails against a dark background.",
+        "overlayInstruction": "Add a white rectangular block at the top of the square image. Place a large, bold, rounded blue title in the center of the white block. Below it, add two rows of black geometric sans-serif text listing names in uppercase."
+      },
+      "verificationChecks": [
+        "Is the bed clearly being rowed like a boat?",
+        "Are the hands framing the square image visible?",
+        "Is the title font heavy and rounded?",
+        "Is the skyline detailed and urban?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Skyline time of day",
+      "Nail polish color",
+      "Bed style",
+      "Title color"
+    ],
+    "mustRedesign": [
+      "Do not use existing artist names",
+      "Do not use specific movie titles",
+      "Ensure the bed looks like a physical object in the water"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Surreal but grounded photographic quality",
+        "Clean typographic hierarchy",
+        "Strong 1980s editorial feel"
+      ],
+      "avoid": [
+        "Cartoonish rendering",
+        "Cluttered text placement",
+        "Low-resolution textures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the bed's reflection or wake is visible in the water",
+      "Verify the hands are anatomically correct and holding the edges",
+      "Ensure the white header block is perfectly horizontal",
+      "Confirm the blue title is the most prominent text element"
+    ],
+    "reuseFormula": "Surreal Subject + Urban Backdrop + Framed by Hands + Bold Rounded Header Typography"
+  }
+}

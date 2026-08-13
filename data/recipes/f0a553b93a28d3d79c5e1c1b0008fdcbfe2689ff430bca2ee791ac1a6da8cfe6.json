@@ -1,0 +1,276 @@
+{
+  "id": "f0a553b93a28d3d79c5e1c1b0008fdcbfe2689ff430bca2ee791ac1a6da8cfe6",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T21:42:28.682Z",
+  "approvedAt": "2026-08-11T21:42:28.682Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T21:42:28.682Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "I’ll Be Me: Soundtrack.jpg",
+    "hash": "f0a553b93a28d3d79c5e1c1b0008fdcbfe2689ff430bca2ee791ac1a6da8cfe6",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "I’ll Be Me: Soundtrack",
+    "artist": "Glen Campbell",
+    "artworkUrl": "https://coverartarchive.org/release-group/fd2316ea-5c6a-4c9d-a60b-85b86175a818/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/fd2316ea-5c6a-4c9d-a60b-85b86175a818",
+    "releaseGroupId": "fd2316ea-5c6a-4c9d-a60b-85b86175a818",
+    "recordingId": "9f9bfa44-cc5c-44e1-85a2-fe6ff2dda6ac",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I'm Not Gonna Miss YouGlen Campbell",
+      "song": "I'm Not Gonna Miss You",
+      "performer": "Glen Campbell",
+      "peakPosition": 90,
+      "firstChartDate": "2014-11-01",
+      "lastChartDate": "2014-11-01",
+      "appearances": [
+        {
+          "chartDate": "2014-11-01",
+          "position": 90
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage grit portrait album cover sepia gritty slab serif portrait textured typography vintage high contrast grainy the large top text overlaps the subject s hair integrating the type into the scene the bottom text acts as a solid foundation spanning the full width of the frame the high contrast lighting on the face draws immediate focus to the eyes and skin texture high contrast portrait condensed slab serif top bold sans bottom sepia wash heavy grain overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Grit Portrait Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Documentary Poster",
+        "Biographical Media",
+        "Retro Editorial Layout"
+      ],
+      "retrievalTags": [
+        "sepia",
+        "gritty",
+        "slab serif",
+        "portrait",
+        "textured typography",
+        "vintage",
+        "high contrast",
+        "grainy"
+      ]
+    },
+    "visualDefinition": "A high-contrast, grainy sepia-toned close-up portrait of a man, framed by large, weathered slab-serif typography at the top and bottom. The image uses a desaturated, aged color palette with orange accents to create a sense of legacy and raw emotion.",
+    "coreVisualRelationships": [
+      "The large top text overlaps the subject's hair, integrating the type into the scene.",
+      "The bottom text acts as a solid foundation, spanning the full width of the frame.",
+      "The high-contrast lighting on the face draws immediate focus to the eyes and skin texture."
+    ],
+    "coreInvariants": [
+      "Heavy film grain and paper-like texture across the entire composition.",
+      "Sepia/olive-drab monochromatic base for the photography.",
+      "Slab-serif typeface with distressed, weathered edges."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up portrait centered horizontally, filling the middle two-thirds of the vertical space.",
+      "visualAnchor": "The subject's eyes, positioned slightly above the horizontal midline.",
+      "movementAndEyePath": "Starts at the large top title, moves down to the subject's eyes, then drops to the bold name at the bottom.",
+      "negativeSpace": "Minimal; the composition is densely packed with the face and large-scale typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated olive-sepia (background and skin tones).",
+      "contrastColorRole": "Off-white/cream (top text highlights and facial highlights).",
+      "accentColorRole": "Muted orange (bottom text and secondary metadata).",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast in the facial features and text.",
+      "paletteRestrictions": [
+        "No vibrant blues or greens",
+        "No pure blacks",
+        "No clean, digital gradients"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed Slab Serif",
+      "letterConstructionRules": [
+        "Heavy, blocky serifs with rectangular terminals.",
+        "Tall x-height and narrow character widths.",
+        "Distressed edges and internal 'salt and pepper' noise texture."
+      ],
+      "characterSpecificRedesigns": [
+        "Apostrophe in top text is a simple vertical rectangle.",
+        "G and C in bottom text have sharp, inward-pointing terminals."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Blunt/Slab",
+            "corners": "Slightly rounded/weathered",
+            "counters": "Narrow",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top edge",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Over hair",
+            "relationshipToImage": "Integrated"
+          },
+          "treatment": {
+            "fill": "Textured cream",
+            "outline": "None",
+            "shadow": "Subtle drop glow",
+            "depth": "Flat",
+            "texture": "Gritty/Distressed",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif / Slab Hybrid",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Heavy",
+            "contrast": "None",
+            "xHeight": "Cap-height",
+            "terminals": "Square",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Industrial"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified/Full-width",
+            "tracking": "Normal",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Solid"
+          },
+          "composition": {
+            "position": "Bottom edge",
+            "scale": "Medium-Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Foreground",
+            "relationshipToImage": "Base anchor"
+          },
+          "treatment": {
+            "fill": "Muted Orange",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean with slight grain",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a weathered, light-colored slab serif and a solid, saturated orange sans-serif.",
+      "graphicDevices": [
+        "Heavy film grain overlay",
+        "Vignetting around the edges",
+        "Texture masking on the top text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Slab serifs",
+          "Distressed texture"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Italics",
+          "Modern high-contrast serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold Condensed",
+            "reason": "Matches the heavy slab serif structure.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Suitable for the bottom heavy condensed text if serifs are removed.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Stymie Bold",
+            "reason": "Classic slab serif feel with similar terminal style.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a gritty, high-contrast sepia-toned portrait of a man with mid-length hair, looking directly at the camera. Apply heavy film grain and a subtle vignette. The lighting should emphasize skin texture and eyes.",
+        "overlayInstruction": "Add a large, condensed slab-serif title at the top in textured cream, overlapping the hair. Add a bold, condensed sans-serif name at the bottom in muted orange, spanning the width of the image. Add small metadata text in orange below the top title on the right."
+      },
+      "verificationChecks": [
+        "Is the top text weathered and textured?",
+        "Is the color palette strictly limited to sepia, cream, and orange?",
+        "Does the grain feel organic to the image rather than a digital filter?",
+        "Is the portrait centered and filling the frame?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the film grain",
+      "Specific shade of the orange accent",
+      "Amount of overlap between top text and hair",
+      "Level of distress on the typography"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact wording of the titles",
+      "Any specific studio logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile, paper-like texture",
+        "Strong vertical typographic alignment",
+        "Emotional, direct-gaze portraiture"
+      ],
+      "avoid": [
+        "Clean, smooth digital skin retouching",
+        "Bright, primary colors",
+        "Thin, delicate fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the slab serifs are thick and blocky.",
+      "Ensure the orange text is legible against the dark background.",
+      "Verify the grain is consistent across both image and text.",
+      "Confirm the portrait maintains a vintage, non-modern feel."
+    ],
+    "reuseFormula": "High-contrast portrait + Condensed Slab Serif (Top) + Bold Sans (Bottom) + Sepia Wash + Heavy Grain Overlay."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:26:24.680Z"
+}

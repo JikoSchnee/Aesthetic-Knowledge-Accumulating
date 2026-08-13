@@ -1,0 +1,284 @@
+{
+  "id": "ca88006b10a62f97b1aec43ff66eda699dca701c764b80b64e2d96c5e13b4338",
+  "skillId": "ca88006b10a62f97b1aec43ff66eda699dca701c764b80b64e2d96c5e13b4338",
+  "versionId": "ca88006b10a62f97b1aec43ff66eda699dca701c764b80b64e2d96c5e13b4338",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:56:50.875Z",
+  "approvedAt": "2026-08-12T14:56:50.875Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:56:50.875Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Let's Get It.jpg",
+    "hash": "ca88006b10a62f97b1aec43ff66eda699dca701c764b80b64e2d96c5e13b4338",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Let's Get It",
+    "artist": "Ca$h Out",
+    "artworkUrl": "https://coverartarchive.org/release-group/11c1d167-bcc6-4682-9310-ba445e775985/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/11c1d167-bcc6-4682-9310-ba445e775985",
+    "releaseGroupId": "11c1d167-bcc6-4682-9310-ba445e775985",
+    "recordingId": "79d67928-729d-4c14-8543-64ee0db7bab3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "She TwerkinCa$h Out",
+      "song": "She Twerkin",
+      "performer": "Ca$h Out",
+      "peakPosition": 98,
+      "firstChartDate": "2014-07-12",
+      "lastChartDate": "2014-08-02",
+      "appearances": [
+        {
+          "chartDate": "2014-07-12",
+          "position": 100
+        },
+        {
+          "chartDate": "2014-07-26",
+          "position": 98
+        },
+        {
+          "chartDate": "2014-08-02",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "double exposure urban silhouette collage silhouette double exposure urban collage hip hop aesthetic montage profile view silhouette acts as a container for internal narrative imagery high contrast between the dark silhouette edges and the white background juxtaposition of sharp vector typography and photographic collage vertical stacking of internal scenes within the human form profile silhouette urban montage fill stark white background polarized typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Double Exposure Urban Silhouette Collage",
+      "category": "Graphic Design",
+      "medium": [
+        "Digital Collage",
+        "Double Exposure Photography",
+        "Vector Typography"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Streetwear Branding",
+        "Urban Lifestyle Posters"
+      ],
+      "retrievalTags": [
+        "silhouette",
+        "double exposure",
+        "urban collage",
+        "hip hop aesthetic",
+        "montage",
+        "profile view"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A profile silhouette of a person filled with a complex montage of urban scenes and figures against a stark white background.",
+      "triggerTerms": [
+        "silhouette filled with urban collage",
+        "double exposure profile montage",
+        "street life silhouette art"
+      ],
+      "excludeWhen": [
+        "a simple single-image double exposure is requested",
+        "the background is not pure white",
+        "the silhouette is not in profile"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast composition featuring a dark profile silhouette of a man with dreadlocks, where the interior of the silhouette acts as a window into a multi-layered collage of street scenes, neon signs, and urban figures, set against a minimalist white void.",
+    "coreVisualRelationships": [
+      "Silhouette acts as a container for internal narrative imagery",
+      "High contrast between the dark silhouette edges and the white background",
+      "Juxtaposition of sharp vector typography and photographic collage",
+      "Vertical stacking of internal scenes within the human form"
+    ],
+    "coreInvariants": [
+      "The silhouette must be a side profile view",
+      "The background must remain a flat, solid white",
+      "Internal imagery must be a collage of multiple distinct scenes rather than one single photo"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large central silhouette occupying the middle two-thirds of the frame vertically.",
+      "visualAnchor": "The dark, defined profile of the face on the right side of the silhouette.",
+      "movementAndEyePath": "Eyes start at the top-left logo, move to the profile face, then scan down through the internal collage elements.",
+      "negativeSpace": "Extensive white space surrounding the central figure, creating a clean, modern look."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (background)",
+      "contrastColorRole": "Black (silhouette outlines and shadows)",
+      "accentColorRole": "Multicolor (internal collage elements including reds, yellows, and blues)",
+      "saturationAndValueRelationship": "High value background with varied saturation levels inside the silhouette.",
+      "paletteRestrictions": [
+        "Pure white background only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy slab serif and expressive script",
+      "letterConstructionRules": [
+        "Display text uses thick, blocky strokes with sharp serifs",
+        "Secondary text uses a fast, gestural handwriting style with long horizontal strokes",
+        "Integration of symbols (like currency signs) into the letterforms"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'S' in the primary display text is replaced or modified with a currency symbol"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "squared",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separate"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "light",
+            "contrast": "none",
+            "xHeight": "variable",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "gestural"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top-right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separate"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a heavy, industrial slab serif with a light, personal handwriting script.",
+      "graphicDevices": [
+        "Horizontal underline bars",
+        "Currency symbol integration"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The contrast between blocky and script styles",
+          "The top-corner placements"
+        ],
+        "avoid": [
+          "Standard sans-serif fonts",
+          "Centering the text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Stencil or Heavy Slab Serif",
+            "reason": "Matches the industrial, bold feel of the primary logo",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Signature Script",
+            "reason": "Matches the gestural, handwritten feel of the subtitle",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a profile silhouette of a man with dreadlocks against a pure white background. Fill the interior of the silhouette with a vertical collage of urban photography, including street lights, people, and city storefronts.",
+        "overlayInstruction": "Add a heavy, black slab-serif display font in the top-left corner and a light, black gestural script in the top-right corner."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Is the silhouette a clear profile view?",
+        "Is the internal imagery a collage of multiple scenes?",
+        "Are the two text styles contrasting in weight?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of the internal collage",
+      "Complexity of the silhouette hair texture",
+      "Weight of the display typography"
+    ],
+    "mustRedesign": [
+      "Specific brand logos",
+      "Identifiable faces within the collage",
+      "Specific trademarked text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean silhouette edges",
+        "High-resolution internal collage elements",
+        "Balanced negative space"
+      ],
+      "avoid": [
+        "Blurry double exposure transitions",
+        "Cluttered backgrounds",
+        "Low-contrast typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the silhouette is not transparent to the background",
+      "Check that the script text is legible despite its gestural nature",
+      "Verify the collage does not bleed outside the silhouette boundaries"
+    ],
+    "reuseFormula": "Profile Silhouette + Urban Montage Fill + Stark White Background + Polarized Typography"
+  }
+}

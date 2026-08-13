@@ -1,0 +1,281 @@
+{
+  "id": "c7d4d1a0618136f96bba9f2a9f2b2ea0005c3c76960cb1b2fc888d890a1d69a7",
+  "skillId": "c7d4d1a0618136f96bba9f2a9f2b2ea0005c3c76960cb1b2fc888d890a1d69a7",
+  "versionId": "c7d4d1a0618136f96bba9f2a9f2b2ea0005c3c76960cb1b2fc888d890a1d69a7",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:50:46.457Z",
+  "approvedAt": "2026-08-12T22:50:46.457Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:50:46.457Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Up on the Ridge.jpg",
+    "hash": "c7d4d1a0618136f96bba9f2a9f2b2ea0005c3c76960cb1b2fc888d890a1d69a7",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Up on the Ridge",
+    "artist": "Dierks Bentley",
+    "artworkUrl": "https://coverartarchive.org/release-group/adde7a3c-c75a-4662-96b9-988266e6dead/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/adde7a3c-c75a-4662-96b9-988266e6dead",
+    "releaseGroupId": "adde7a3c-c75a-4662-96b9-988266e6dead",
+    "recordingId": "1c4a1769-a3bc-4e20-9c87-01ac2fd989dd",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Up On The RidgeDierks Bentley",
+      "song": "Up On The Ridge",
+      "performer": "Dierks Bentley",
+      "peakPosition": 99,
+      "firstChartDate": "2010-07-24",
+      "lastChartDate": "2010-07-24",
+      "appearances": [
+        {
+          "chartDate": "2010-07-24",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "rustic americana album cover black and white photography orange typography distressed border acoustic guitar rustic porch serif lettering high contrast black and white subject against a dark textured background vibrant orange typography providing a singular focal point of color rough organic border texture framing the structured architectural lines of the porch horizontal rule at the bottom balancing the heavy typographic weight at the top grayscale portrait distressed border high contrast serif typography orange white split",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Rustic Americana Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Folk Music Promotion",
+        "Rustic Editorial Layout"
+      ],
+      "retrievalTags": [
+        "black and white photography",
+        "orange typography",
+        "distressed border",
+        "acoustic guitar",
+        "rustic porch",
+        "serif lettering"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A desaturated, high-contrast portrait of a musician with an acoustic guitar, framed by a heavy distressed border and accented with vibrant orange serif typography.",
+      "triggerTerms": [
+        "rustic black and white portrait",
+        "distressed film border",
+        "orange serif overlay",
+        "acoustic musician porch setting"
+      ],
+      "excludeWhen": [
+        "vibrant full-color photography is required",
+        "modern minimalist sans-serif layouts are requested",
+        "clean digital borders are preferred"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A monochromatic scene featuring a seated man playing an acoustic guitar on a weathered wooden porch, framed by a thick, irregular white distressed border. The composition is anchored by bold, burnt-orange lowercase typography at the top and elegant white serif text at the bottom, separated by a thin horizontal rule.",
+    "coreVisualRelationships": [
+      "High-contrast black and white subject against a dark, textured background",
+      "Vibrant orange typography providing a singular focal point of color",
+      "Rough, organic border texture framing the structured architectural lines of the porch",
+      "Horizontal rule at the bottom balancing the heavy typographic weight at the top"
+    ],
+    "coreInvariants": [
+      "Heavy, irregular white distressed border with 'torn paper' texture",
+      "Desaturated grayscale photographic base",
+      "Burnt-orange accent color for primary display text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The musician is centered horizontally, seated in a tattered armchair, occupying the middle two-thirds of the vertical frame.",
+      "visualAnchor": "The acoustic guitar and the musician's gaze directed to the left create a strong central anchor.",
+      "movementAndEyePath": "The eye starts at the orange name at the top, moves down to the musician's face, follows his gaze to the guitar, and settles on the white title text at the bottom.",
+      "negativeSpace": "Dark, shadowed areas on the left and right of the porch provide depth and focus the viewer on the central figure."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Grayscale (Black, White, and Mid-tones)",
+      "contrastColorRole": "Burnt Orange (Typography)",
+      "accentColorRole": "White (Border and Secondary Text)",
+      "saturationAndValueRelationship": "High value contrast in the photography with a single high-saturation accent in the top-right typography.",
+      "paletteRestrictions": [
+        "Monochrome photography",
+        "Burnt orange #E85D24",
+        "Pure white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classic Serif",
+      "letterConstructionRules": [
+        "Lowercase-only for primary display",
+        "High stroke contrast",
+        "Sharp, bracketed serifs",
+        "Slightly condensed proportions for the top text"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'y' in the top text features a long, elegant descender that breaks the baseline."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "bracketed",
+            "counters": "open",
+            "strokeCharacter": "tapered"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "staggered",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "partially over background window",
+            "relationshipToImage": "layered on top"
+          },
+          "treatment": {
+            "fill": "solid orange",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Old Style Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "regular",
+            "contrast": "moderate",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "wide",
+            "strokeCharacter": "consistent"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "center",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over musician's legs",
+            "relationshipToImage": "integrated into lower third"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a bold, colorful modern serif and a delicate, white traditional serif.",
+      "graphicDevices": [
+        "Thin horizontal rule",
+        "Distressed 'grunge' border frame"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase casing",
+          "Orange/White color split",
+          "High-contrast serif style"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Uppercase letters",
+          "Clean, vector borders"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Didot or Bodoni",
+            "reason": "Matches the high contrast and sharp serifs of the top display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Caslon or Garamond",
+            "reason": "Matches the classic, readable feel of the bottom subtitle text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white photograph of a man with curly hair and a beard, wearing a leather jacket, sitting in a tattered armchair on a rustic wooden porch while holding an acoustic guitar. Apply a heavy, irregular white distressed border that looks like torn paper or a chemical photo process.",
+        "overlayInstruction": "Add the primary name in a bold, burnt-orange serif font in the top right corner using lowercase letters. Add the title in a smaller, white serif font centered at the bottom, also in lowercase, with a thin white horizontal line positioned just below it."
+      },
+      "verificationChecks": [
+        "Is the border sufficiently distressed and irregular?",
+        "Is the top text specifically burnt-orange and lowercase?",
+        "Is the image strictly black and white except for the orange text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the border distress",
+      "Specific shade of orange",
+      "Musician's pose and instrument type"
+    ],
+    "mustRedesign": [
+      "Avoid using any specific artist names or logos",
+      "Ensure the border is not a clean rectangle"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic weathered/vintage texture",
+        "Sophisticated typographic hierarchy",
+        "Balanced desaturation"
+      ],
+      "avoid": [
+        "Generic 'sepia' filters",
+        "Default system fonts",
+        "Perfectly symmetrical borders"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the orange text is the only color element.",
+      "Verify the border has a 'torn' or 'eroded' appearance.",
+      "Ensure the horizontal rule at the bottom is thin and clean.",
+      "Confirm all text is lowercase as per the design style."
+    ],
+    "reuseFormula": "Grayscale Portrait + Distressed Border + High-Contrast Serif Typography (Orange/White Split)"
+  }
+}

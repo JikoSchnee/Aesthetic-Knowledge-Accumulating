@@ -1,0 +1,255 @@
+{
+  "id": "e448b54ba11532a6d961285e252a5171582fa74490b9d908a25d8b2654d5e4f0",
+  "skillId": "e448b54ba11532a6d961285e252a5171582fa74490b9d908a25d8b2654d5e4f0",
+  "versionId": "e448b54ba11532a6d961285e252a5171582fa74490b9d908a25d8b2654d5e4f0",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:49:56.663Z",
+  "approvedAt": "2026-08-12T23:49:56.663Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:49:56.663Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Do Me Right.jpg",
+    "hash": "e448b54ba11532a6d961285e252a5171582fa74490b9d908a25d8b2654d5e4f0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Do Me Right",
+    "artist": "Detroit Emeralds",
+    "artworkUrl": "https://coverartarchive.org/release-group/6a24426c-15c4-45c2-8858-f1cbded57750/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6a24426c-15c4-45c2-8858-f1cbded57750",
+    "releaseGroupId": "6a24426c-15c4-45c2-8858-f1cbded57750",
+    "recordingId": "0a51ae0c-cf51-45a2-8f17-fe467197099e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Wear This Ring (With Love)Detroit Emeralds",
+      "song": "Wear This Ring (With Love)",
+      "performer": "Detroit Emeralds",
+      "peakPosition": 91,
+      "firstChartDate": "1971-08-14",
+      "lastChartDate": "1971-09-04",
+      "appearances": [
+        {
+          "chartDate": "1971-08-14",
+          "position": 98
+        },
+        {
+          "chartDate": "1971-08-21",
+          "position": 95
+        },
+        {
+          "chartDate": "1971-08-28",
+          "position": 91
+        },
+        {
+          "chartDate": "1971-09-04",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "soul performance stage aesthetic soul music stage lighting warm glow diagonal typography retro jumpsuit performance photography warm orange stage light against deep black shadows diagonal text orientation mirroring the stage perspective repetition of performers creating depth and rhythm high contrast silhouettes defined by rim lighting stage lighting diagonal slab serif high contrast shadows",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soul Performance Stage Aesthetic",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vintage soul album covers",
+        "Live performance posters",
+        "70s retro music branding"
+      ],
+      "retrievalTags": [
+        "soul music",
+        "stage lighting",
+        "warm glow",
+        "diagonal typography",
+        "retro jumpsuit",
+        "performance photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast live performance scene featuring warm stage lighting and heavy diagonal block typography.",
+      "triggerTerms": [
+        "70s soul stage aesthetic",
+        "diagonal slab serif overlay",
+        "warm stage glow photography"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "cool-toned color palettes",
+        "horizontal text alignment"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dynamic live music scene captured with high-contrast lighting, featuring performers in warm-toned attire against a dark background, anchored by heavy, diagonally-oriented block lettering in the upper left.",
+    "coreVisualRelationships": [
+      "Warm orange stage light against deep black shadows",
+      "Diagonal text orientation mirroring the stage perspective",
+      "Repetition of performers creating depth and rhythm",
+      "High-contrast silhouettes defined by rim lighting"
+    ],
+    "coreInvariants": [
+      "Heavy slab-serif typography with a distinct outline",
+      "Warm orange and red color dominance in the subject",
+      "Deep black negative space in the lower left and background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Performers are positioned on the right half, scaled to full height, receding into the background.",
+      "visualAnchor": "The large, bright orange diagonal text in the top left corner.",
+      "movementAndEyePath": "The eye follows the diagonal text downward to the lead performer, then follows the line of backing singers into the depth of the stage.",
+      "negativeSpace": "Significant dark negative space in the bottom left and top right corners creates focus on the subjects."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background and shadows",
+      "contrastColorRole": "Vibrant orange and red stage lighting and costumes",
+      "accentColorRole": "Cyan or light blue outlines on the typography",
+      "saturationAndValueRelationship": "High saturation in the warm tones against zero-value blacks.",
+      "paletteRestrictions": [
+        "Warm oranges",
+        "Deep reds",
+        "Black",
+        "Cyan accent"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif",
+      "letterConstructionRules": [
+        "Thick, uniform strokes",
+        "Prominent rectangular serifs",
+        "Tight letter spacing",
+        "Strong external outline"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stepped",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "30 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "orange-red gradient",
+            "outline": "cyan thin stroke",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single heavy display face used for all primary information.",
+      "graphicDevices": [
+        "Diagonal text baseline",
+        "Color-contrast outlining"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Diagonal orientation",
+          "Slab serif weight",
+          "Cyan outline"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Horizontal alignment",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab serif weight and blunt terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Stymie Black",
+            "reason": "Provides the geometric slab feel characteristic of the era.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast photograph of a soul band performing on a dark stage, lit by warm orange spotlights creating rim light on red jumpsuits, with deep black shadows.",
+        "overlayInstruction": "Add three lines of heavy slab-serif text in the top left corner, rotated 30 degrees upwards, filled with orange and outlined in thin cyan."
+      },
+      "verificationChecks": [
+        "Is the text rotated diagonally?",
+        "Is the lighting high-contrast with warm highlights?",
+        "Does the typography have a thin cyan outline?",
+        "Is the background predominantly black?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Angle of text rotation",
+      "Intensity of the orange stage glow",
+      "Number of performers in the background"
+    ],
+    "mustRedesign": [
+      "Logos in the bottom corners",
+      "Specific facial features of the performers",
+      "Original brand names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast rim lighting",
+        "Heavy slab-serif typography",
+        "Warm/Cool color contrast between fill and outline"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Modern sans-serif fonts",
+        "Pastel colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that text is uppercase and slab-serif.",
+      "Ensure the orange glow feels like stage lighting.",
+      "Verify the diagonal alignment of the text block.",
+      "Confirm the presence of the cyan outline on the letters."
+    ],
+    "reuseFormula": "Stage lighting + Diagonal Slab Serif + High Contrast Shadows"
+  }
+}

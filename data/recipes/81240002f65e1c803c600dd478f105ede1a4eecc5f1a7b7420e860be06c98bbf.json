@@ -1,0 +1,290 @@
+{
+  "id": "81240002f65e1c803c600dd478f105ede1a4eecc5f1a7b7420e860be06c98bbf",
+  "skillId": "81240002f65e1c803c600dd478f105ede1a4eecc5f1a7b7420e860be06c98bbf",
+  "versionId": "81240002f65e1c803c600dd478f105ede1a4eecc5f1a7b7420e860be06c98bbf",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T11:37:08.704Z",
+  "approvedAt": "2026-08-12T11:37:08.704Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T11:37:08.704Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "I'll See You in My Dreams.jpg",
+    "hash": "81240002f65e1c803c600dd478f105ede1a4eecc5f1a7b7420e860be06c98bbf",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "I'll See You in My Dreams",
+    "artist": "Pat Boone",
+    "artworkUrl": "https://coverartarchive.org/release-group/b4669b06-af0c-4ba4-9868-40aade932acb/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b4669b06-af0c-4ba4-9868-40aade932acb",
+    "releaseGroupId": "b4669b06-af0c-4ba4-9868-40aade932acb",
+    "recordingId": "a8953c1b-4ab6-436e-a269-21dac12d6063",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Pictures In The FirePat Boone",
+      "song": "Pictures In The Fire",
+      "performer": "Pat Boone",
+      "peakPosition": 77,
+      "firstChartDate": "1962-02-10",
+      "lastChartDate": "1962-03-10",
+      "appearances": [
+        {
+          "chartDate": "1962-02-10",
+          "position": 98
+        },
+        {
+          "chartDate": "1962-02-24",
+          "position": 82
+        },
+        {
+          "chartDate": "1962-03-03",
+          "position": 80
+        },
+        {
+          "chartDate": "1962-03-10",
+          "position": 77
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century crooner album cover 1950s 1960s vinyl record serif typography blue and yellow scalloped photo edge primary yellow serif text dominates the top third secondary white sans serif text spans the width below the name a tilted rectangular photo anchor in the bottom right quadrant a vertical list of track titles aligned to the left of the photo solid color field high contrast serif header condensed sans serif subheader tilted scalloped edge inset photo",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Crooner Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Offset Print",
+        "Photography"
+      ],
+      "useCases": [
+        "Vintage music packaging",
+        "Retro poster design",
+        "Mid-century modern branding"
+      ],
+      "retrievalTags": [
+        "1950s",
+        "1960s",
+        "vinyl record",
+        "serif typography",
+        "blue and yellow",
+        "scalloped photo edge"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A classic mid-century album layout featuring a large-scale serif artist name, a secondary sans-serif title, and a tilted scalloped-edge portrait on a solid color field.",
+      "triggerTerms": [
+        "vintage record cover style",
+        "mid-century crooner aesthetic",
+        "scalloped edge photo frame"
+      ],
+      "excludeWhen": [
+        "modern minimalist requests",
+        "complex photographic backgrounds",
+        "digital-first UI designs"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A solid teal-blue background serves as the canvas for high-contrast yellow and white typography. A black-and-white portrait is inset within a white, scalloped-edge frame, tilted slightly to the right, creating a 'scrapbook' or 'snapshot' effect against the formal grid of the text.",
+    "coreVisualRelationships": [
+      "Primary yellow serif text dominates the top third",
+      "Secondary white sans-serif text spans the width below the name",
+      "A tilted rectangular photo anchor in the bottom right quadrant",
+      "A vertical list of track titles aligned to the left of the photo"
+    ],
+    "coreInvariants": [
+      "High-contrast yellow-on-blue primary text",
+      "Scalloped-edge white border on the inset photograph",
+      "Tilted orientation of the inset image relative to the horizontal text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The portrait is positioned in the lower right, occupying approximately 30% of the total area.",
+      "visualAnchor": "The large yellow artist name at the top acts as the primary entry point.",
+      "movementAndEyePath": "Eyes move from the top name, down to the title, then left to the tracklist, and finally right to the portrait.",
+      "negativeSpace": "Significant solid blue space around the tracklist prevents the layout from feeling cluttered."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Teal-blue background",
+      "contrastColorRole": "Bright yellow for primary text and tracklist",
+      "accentColorRole": "White for the album title and photo frame",
+      "saturationAndValueRelationship": "High saturation blue with high-value yellow and white for maximum legibility.",
+      "paletteRestrictions": [
+        "Limited to blue, yellow, white, and black-and-white photography"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "A mix of high-contrast transitional serifs and condensed grotesque sans-serifs.",
+      "letterConstructionRules": [
+        "Primary name uses thick vertical strokes and thin horizontal serifs",
+        "Secondary title uses uniform stroke weight with no serifs",
+        "Tracklist uses a condensed version of the sans-serif"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'P' and 'B' in the primary name have large, open counters",
+        "The 'S' in the title is highly compressed"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "bracketed",
+            "counters": "open",
+            "strokeCharacter": "thick-and-thin"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "above"
+          },
+          "treatment": {
+            "fill": "yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Condensed Sans-Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "square",
+            "counters": "closed",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "upper middle",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "above"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for the name paired with a neutral, condensed sans-serif for supporting information.",
+      "graphicDevices": [
+        "Scalloped-edge photo border",
+        "Black corner photo tabs"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow/Blue color contrast",
+          "Tilted photo frame"
+        ],
+        "avoid": [
+          "Modern sans-serifs like Helvetica",
+          "Drop shadows on text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni Poster",
+            "reason": "Matches the high-contrast serif weight of the primary name",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Matches the utilitarian feel of the secondary title",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a solid teal-blue background. In the lower right, place a black-and-white portrait of a man in a white suit, framed by a white border with scalloped edges and black corner tabs, tilted 5 degrees clockwise.",
+        "overlayInstruction": "Add the artist name in a large yellow high-contrast serif font at the top. Below it, add the album title in a white condensed sans-serif. List the tracks in a smaller yellow condensed sans-serif on the left side."
+      },
+      "verificationChecks": [
+        "Is the primary name yellow and serif?",
+        "Is the photo frame scalloped and tilted?",
+        "Is the background a solid, flat blue?",
+        "Is the tracklist aligned to the left of the photo?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "background color",
+      "photo tilt angle",
+      "serif font weight",
+      "scallop frequency on border"
+    ],
+    "mustRedesign": [
+      "Modern digital logos",
+      "Contemporary sans-serif fonts",
+      "Gradients in the background"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typographic edges",
+        "Authentic 1950s color palette",
+        "Distinct scalloped photo border"
+      ],
+      "avoid": [
+        "Blurry text",
+        "Overlapping elements",
+        "Neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the yellow text is legible against the blue",
+      "Ensure the photo border looks like a physical print",
+      "Verify the hierarchy: Name > Title > Tracks",
+      "Confirm no modern digital artifacts are present"
+    ],
+    "reuseFormula": "Solid color field + High-contrast serif header + Condensed sans-serif subheader + Tilted scalloped-edge inset photo."
+  }
+}

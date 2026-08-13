@@ -1,0 +1,285 @@
+{
+  "id": "beca056655589b34d9c07f12b46b9ee4baf4ec50520436ec0455f11624efc11b",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T19:27:18.701Z",
+  "approvedAt": "2026-08-11T19:27:18.701Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T19:27:18.701Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Water & Bridges.jpg",
+    "hash": "beca056655589b34d9c07f12b46b9ee4baf4ec50520436ec0455f11624efc11b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Water & Bridges",
+    "artist": "Kenny Rogers",
+    "artworkUrl": "https://coverartarchive.org/release-group/7309fcfe-4ebf-3678-91ad-2270aac5e9d5/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7309fcfe-4ebf-3678-91ad-2270aac5e9d5",
+    "releaseGroupId": "7309fcfe-4ebf-3678-91ad-2270aac5e9d5",
+    "recordingId": "d8bb68a6-b8a9-4bbd-9c39-222f7d74a788",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I Can't Unlove YouKenny Rogers",
+      "song": "I Can't Unlove You",
+      "performer": "Kenny Rogers",
+      "peakPosition": 93,
+      "firstChartDate": "2006-06-17",
+      "lastChartDate": "2006-07-15",
+      "appearances": [
+        {
+          "chartDate": "2006-06-17",
+          "position": 98
+        },
+        {
+          "chartDate": "2006-06-24",
+          "position": 95
+        },
+        {
+          "chartDate": "2006-07-01",
+          "position": 98
+        },
+        {
+          "chartDate": "2006-07-08",
+          "position": 93
+        },
+        {
+          "chartDate": "2006-07-15",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "architectural portrait album cover stone architecture man in white shirt textured walls chiseled typography warm lighting classical interior subject centered between architectural pillars textured stone background contrasting with smooth fabric warm earth tones unified across the environment and skin tones horizontal text blocks balancing the verticality of the columns architectural portrait chiseled display type earth tone palette textured negative space",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Architectural Portrait Album Cover",
+      "category": "Music Photography",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Editorial Portrait"
+      ],
+      "retrievalTags": [
+        "stone architecture",
+        "man in white shirt",
+        "textured walls",
+        "chiseled typography",
+        "warm lighting",
+        "classical interior"
+      ]
+    },
+    "visualDefinition": "A full-body portrait of a mature man standing in a classical stone corridor with textured, pitted walls. The lighting is warm and directional, creating soft shadows. The composition features a mix of organic human presence against rigid, geometric architectural elements, with text blocks placed in the negative space of the background.",
+    "coreVisualRelationships": [
+      "Subject centered between architectural pillars",
+      "Textured stone background contrasting with smooth fabric",
+      "Warm earth tones unified across the environment and skin tones",
+      "Horizontal text blocks balancing the verticality of the columns"
+    ],
+    "coreInvariants": [
+      "Pitted, porous stone texture on all architectural surfaces",
+      "High-key white shirt as the primary light reflector",
+      "Soft, diffused sunlight entering from the side",
+      "Distressed, chiseled-edge typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body male figure, centered horizontally, occupying the middle two-thirds of the vertical frame.",
+      "visualAnchor": "The subject's white shirt provides the highest contrast point and central anchor.",
+      "movementAndEyePath": "From the subject's face, down the vertical line of the body, then branching to the text blocks on the right and bottom-left.",
+      "negativeSpace": "The stone walls and floor provide ample textured negative space for typographic overlays."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm beige and tan (architectural stone)",
+      "contrastColorRole": "Deep indigo/navy (denim trousers)",
+      "accentColorRole": "Bright white (shirt and text highlights)",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the shirt and the background shadows.",
+      "paletteRestrictions": [
+        "Earth tones",
+        "Muted blues",
+        "Warm whites"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Serif and Sans-Serif mix",
+      "letterConstructionRules": [
+        "Irregular, chiseled edges suggesting stone carving",
+        "Variable stroke widths with organic tapering",
+        "Subtle drop shadows to separate text from textured background"
+      ],
+      "characterSpecificRedesigns": [
+        "Enlarged initial caps for the primary name",
+        "Lower-case sans-serif for secondary title with a horizontal line element"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "distressed-serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "Moderate",
+            "xHeight": "High",
+            "terminals": "Flared/Chiseled",
+            "corners": "Irregular",
+            "counters": "Open",
+            "strokeCharacter": "Rough"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked name",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Mid-right",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Slightly over background pillar",
+            "relationshipToImage": "Floating over texture"
+          },
+          "treatment": {
+            "fill": "White with subtle gradient",
+            "outline": "Thin dark glow",
+            "shadow": "Soft drop shadow",
+            "depth": "Flat",
+            "texture": "Slightly weathered",
+            "distortion": "Organic edge jitter"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "humanist-sans",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Regular",
+            "contrast": "Low",
+            "xHeight": "Medium",
+            "terminals": "Blunt",
+            "corners": "Rounded",
+            "counters": "Large",
+            "strokeCharacter": "Smooth"
+          },
+          "typesetting": {
+            "case": "Lowercase",
+            "alignment": "Left",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Two lines staggered",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Bottom-left",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Contained within a semi-transparent box",
+            "relationshipToImage": "Anchored to corner"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "A rough, chiseled display face paired with a clean, modern sans-serif for contrast.",
+      "graphicDevices": [
+        "Semi-transparent rectangular overlay behind secondary text",
+        "Horizontal divider line cutting through the ampersand"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Chiseled edge quality",
+          "Stacked right-aligned layout for name",
+          "Lowercase aesthetic for title"
+        ],
+        "avoid": [
+          "Perfectly clean vector edges",
+          "High-contrast modern serifs",
+          "Neon or bright primary colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Lithos or Trajan (distressed)",
+            "reason": "Captures the chiseled, stone-carved feel of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gill Sans or Myriad",
+            "reason": "Provides a clean, readable contrast for the secondary information.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A full-body shot of a mature man with grey hair and a goatee, wearing a crisp white button-down shirt and dark jeans, standing in a sunlit corridor made of heavily textured Travertine stone. A decorative ceramic urn is visible in the bottom right corner.",
+        "overlayInstruction": "Apply large, chiseled-edge white uppercase text to the right of the subject. Add a semi-transparent grey box in the bottom left containing two lines of lowercase sans-serif white text, separated by a thin horizontal line."
+      },
+      "verificationChecks": [
+        "Stone texture is visible through the semi-transparent box",
+        "Text edges appear slightly eroded or hand-carved",
+        "Lighting on the subject matches the direction of shadows in the architecture",
+        "White shirt is the brightest point in the image"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Stone texture intensity",
+      "Opacity of the text background box",
+      "Warmth of the color temperature",
+      "Degree of 'chisel' effect on the display font"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Unique brand logos",
+      "Exact phrasing of the original text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile stone texture",
+        "Balanced typographic weight",
+        "Naturalistic warm lighting"
+      ],
+      "avoid": [
+        "Flat, untextured walls",
+        "Overly saturated colors",
+        "Default, clean digital fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the man's pose feels relaxed and integrated into the space",
+      "Check that the text does not obscure the subject's face",
+      "Verify the stone texture looks consistent across pillars and walls",
+      "Confirm the drop shadows on text are subtle and natural"
+    ],
+    "reuseFormula": "Architectural Portrait + Chiseled Display Type + Earth Tone Palette + Textured Negative Space"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:21:25.885Z"
+}

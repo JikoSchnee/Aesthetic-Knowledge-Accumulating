@@ -1,0 +1,261 @@
+{
+  "id": "192dec2271ee25631aff4d21f286670f880c13722f249f4809087eb2fd1ef109",
+  "skillId": "192dec2271ee25631aff4d21f286670f880c13722f249f4809087eb2fd1ef109",
+  "versionId": "192dec2271ee25631aff4d21f286670f880c13722f249f4809087eb2fd1ef109",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:57:49.210Z",
+  "approvedAt": "2026-08-13T00:57:49.210Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:57:49.210Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Very Dionne.jpg",
+    "hash": "192dec2271ee25631aff4d21f286670f880c13722f249f4809087eb2fd1ef109",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Very Dionne",
+    "artist": "Dionne Warwick",
+    "artworkUrl": "https://coverartarchive.org/release-group/96b36c14-414c-3b6a-9198-aa8ea139df2d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/96b36c14-414c-3b6a-9198-aa8ea139df2d",
+    "releaseGroupId": "96b36c14-414c-3b6a-9198-aa8ea139df2d",
+    "recordingId": "232a72eb-a934-4a54-8842-0b72a45c9cad",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Who Gets The GuyDionne Warwick",
+      "song": "Who Gets The Guy",
+      "performer": "Dionne Warwick",
+      "peakPosition": 57,
+      "firstChartDate": "1971-03-20",
+      "lastChartDate": "1971-04-17",
+      "appearances": [
+        {
+          "chartDate": "1971-03-20",
+          "position": 74
+        },
+        {
+          "chartDate": "1971-03-27",
+          "position": 69
+        },
+        {
+          "chartDate": "1971-04-03",
+          "position": 63
+        },
+        {
+          "chartDate": "1971-04-10",
+          "position": 57
+        },
+        {
+          "chartDate": "1971-04-17",
+          "position": 78
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome mirror pop portrait 1970s aesthetic mirrored composition op art pattern monochrome fashion swash script typography high contrast studio lighting symmetry between the mirrored figures and the central vertical divide high contrast between the solid background blocks and the complex dress pattern integration of organic human form with rigid geometric backgrounds typographic placement in the upper right quadrant balancing the visual weight mirrored portrait op art pattern vertical stripe background 70s swash script retro soul aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Mirror Pop Portrait",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Studio Portraiture",
+        "Graphic Layout"
+      ],
+      "useCases": [
+        "Vinyl Record Cover Art",
+        "Fashion Editorial Layout",
+        "Retro Soul Music Poster"
+      ],
+      "retrievalTags": [
+        "1970s aesthetic",
+        "mirrored composition",
+        "op-art pattern",
+        "monochrome fashion",
+        "swash script typography",
+        "high contrast studio lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast mirrored portrait featuring a subject in a bold geometric pattern dress against a split black-and-white background with vintage swash typography.",
+      "triggerTerms": [
+        "mirrored studio portrait",
+        "op-art dress pattern",
+        "1970s soul album aesthetic",
+        "monochrome split background"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "modern minimalist sans-serif layouts are requested",
+        "outdoor natural lighting is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A symmetrical composition featuring a central vertical axis that mirrors a female subject wearing a floor-length, one-shoulder dress with a black-and-white distorted checkerboard pattern. The background is divided into vertical bands of solid black and white, creating a stark, graphic environment.",
+    "coreVisualRelationships": [
+      "Symmetry between the mirrored figures and the central vertical divide",
+      "High contrast between the solid background blocks and the complex dress pattern",
+      "Integration of organic human form with rigid geometric backgrounds",
+      "Typographic placement in the upper right quadrant balancing the visual weight"
+    ],
+    "coreInvariants": [
+      "Black and white color palette",
+      "Mirrored central composition",
+      "Distorted checkerboard or op-art textile pattern",
+      "One-shoulder gown silhouette"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two identical full-length figures mirrored along a central vertical line, occupying the middle 60% of the frame.",
+      "visualAnchor": "The central vertical black line acting as the mirror plane.",
+      "movementAndEyePath": "Starts at the mirrored faces, follows the vertical lines of the dress downward, then moves to the typography in the upper right.",
+      "negativeSpace": "Solid black outer panels and white inner panels create a rhythmic vertical striping."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure Black (background panels, dress pattern)",
+      "contrastColorRole": "Pure White (background panels, dress base)",
+      "accentColorRole": "None (strictly monochrome)",
+      "saturationAndValueRelationship": "Extreme value contrast with no mid-tones in the background; soft grayscale shading only on the subject's skin.",
+      "paletteRestrictions": [
+        "Strictly black and white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "High-contrast serif with heavy swashes",
+      "letterConstructionRules": [
+        "Extremely thick stems with thin hairlines",
+        "Exaggerated ball terminals and curly swashes on ascenders and descenders",
+        "Tight letter spacing with overlapping elements"
+      ],
+      "characterSpecificRedesigns": [
+        "Uppercase 'V' and 'D' featuring large, circular swash flourishes",
+        "Lowercase 'y' with a deep, looping descender"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Victorian-revival / Psych-script",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Black",
+            "contrast": "Extreme",
+            "xHeight": "High",
+            "terminals": "Ball terminals",
+            "corners": "Rounded",
+            "counters": "Small",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Upper right corner",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Letters touch or overlap slightly",
+            "relationshipToImage": "Placed over the solid black background panel"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single decorative typeface used for all display text to maintain 1970s period accuracy.",
+      "graphicDevices": [
+        "Vertical banding",
+        "Mirror effect",
+        "Op-art textile pattern"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast",
+          "Swash flourishes",
+          "Ball terminals"
+        ],
+        "avoid": [
+          "Modern sans-serifs",
+          "Geometric slab serifs",
+          "Thin scripts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the iconic 70s heavy serif look with decorative flourishes.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Benguiat",
+            "reason": "Provides the correct period-specific weight and curve style.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a monochrome studio portrait of a woman in a one-shoulder dress with a black and white distorted checkerboard pattern. Mirror the image vertically along a central axis. The background should consist of vertical stripes: black on the far left and right, and white in the center.",
+        "overlayInstruction": "Add title text in the upper right corner using a white, heavy-weight 1970s swash script font. Ensure the text is right-aligned and stacked."
+      },
+      "verificationChecks": [
+        "Is the composition perfectly symmetrical?",
+        "Is the dress pattern a high-contrast geometric print?",
+        "Is the typography in a vintage swash style?",
+        "Is the color palette strictly black and white?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Pattern density of the dress",
+      "Width of the vertical background stripes",
+      "Subject pose (while maintaining symmetry)",
+      "Typography swash intensity"
+    ],
+    "mustRedesign": [
+      "Any modern digital artifacts",
+      "Color elements",
+      "Sans-serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp, high-contrast edges",
+        "Perfect vertical symmetry",
+        "Authentic 1970s swash typography style"
+      ],
+      "avoid": [
+        "Low contrast grays",
+        "Asymmetrical layouts",
+        "Modern minimalist fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for perfect mirroring of the subject.",
+      "Ensure the typography is white against the black background.",
+      "Verify the dress pattern is clearly defined and high-contrast.",
+      "Confirm the background vertical stripes are straight and clean."
+    ],
+    "reuseFormula": "Mirrored Portrait + Op-Art Pattern + Vertical Stripe Background + 70s Swash Script = Retro Soul Aesthetic"
+  }
+}

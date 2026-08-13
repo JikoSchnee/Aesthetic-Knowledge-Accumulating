@@ -1,0 +1,311 @@
+{
+  "id": "cb57c97649b075ee080d7f3e228560569dd886dfcefb914a0e8d2bb1047032f6",
+  "skillId": "cb57c97649b075ee080d7f3e228560569dd886dfcefb914a0e8d2bb1047032f6",
+  "versionId": "cb57c97649b075ee080d7f3e228560569dd886dfcefb914a0e8d2bb1047032f6",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:31:00.398Z",
+  "approvedAt": "2026-08-12T15:31:00.398Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:31:00.398Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Sittin’ on Chrome.jpg",
+    "hash": "cb57c97649b075ee080d7f3e228560569dd886dfcefb914a0e8d2bb1047032f6",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Sittin’ on Chrome",
+    "artist": "Masta Ace Incorporated",
+    "artworkUrl": "https://coverartarchive.org/release-group/dd61dc6e-4177-3acf-acf7-65a3df959db3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/dd61dc6e-4177-3acf-acf7-65a3df959db3",
+    "releaseGroupId": "dd61dc6e-4177-3acf-acf7-65a3df959db3",
+    "recordingId": "fffc28c4-18b7-47fe-9d94-15e4bf13237a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sittin' On ChromeMasta Ace Incorporated",
+      "song": "Sittin' On Chrome",
+      "performer": "Masta Ace Incorporated",
+      "peakPosition": 84,
+      "firstChartDate": "1995-09-16",
+      "lastChartDate": "1995-11-04",
+      "appearances": [
+        {
+          "chartDate": "1995-09-16",
+          "position": 89
+        },
+        {
+          "chartDate": "1995-09-23",
+          "position": 89
+        },
+        {
+          "chartDate": "1995-09-30",
+          "position": 89
+        },
+        {
+          "chartDate": "1995-10-07",
+          "position": 84
+        },
+        {
+          "chartDate": "1995-10-14",
+          "position": 84
+        },
+        {
+          "chartDate": "1995-10-21",
+          "position": 99
+        },
+        {
+          "chartDate": "1995-10-28",
+          "position": 96
+        },
+        {
+          "chartDate": "1995-11-04",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban sepia car culture illustration sepia urban sprawl car culture graffiti lettering isometric perspective 90s hip hop aesthetic monochromatic illustration large scale graffiti text dominates the upper third overlapping the background scene a central large vehicle acts as the primary visual anchor in the lower middle ground monochromatic sepia tones unify the busy detailed line art into a cohesive texture monochromatic sepia isometric urban illustration graffiti overlay hip hop street aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Sepia Car Culture Illustration",
+      "category": "Album Art",
+      "medium": [
+        "Digital Illustration",
+        "Line Art",
+        "Sepia Wash"
+      ],
+      "useCases": [
+        "Hip-hop album covers",
+        "Streetwear branding",
+        "Urban lifestyle posters",
+        "Automotive culture graphics"
+      ],
+      "retrievalTags": [
+        "sepia",
+        "urban sprawl",
+        "car culture",
+        "graffiti lettering",
+        "isometric perspective",
+        "90s hip hop aesthetic",
+        "monochromatic illustration"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A monochromatic sepia-toned urban scene featuring a dense isometric arrangement of customized cars and figures with large-scale graffiti-style overlay text.",
+      "triggerTerms": [
+        "sepia urban car culture illustration",
+        "90s hip hop isometric street scene",
+        "graffiti tag over monochromatic city"
+      ],
+      "excludeWhen": [
+        "photorealistic urban photography is required",
+        "vibrant multi-color palettes are requested",
+        "clean minimalist layouts are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A complex, crowded urban scene rendered in a monochromatic sepia palette, utilizing an isometric-style perspective to show a traffic jam of customized vehicles and pedestrians, topped with expressive, hand-drawn graffiti lettering.",
+    "coreVisualRelationships": [
+      "Large-scale graffiti text dominates the upper third, overlapping the background scene.",
+      "A central large vehicle acts as the primary visual anchor in the lower-middle ground.",
+      "Monochromatic sepia tones unify the busy, detailed line art into a cohesive texture."
+    ],
+    "coreInvariants": [
+      "Monochromatic sepia color scheme",
+      "Dense, crowded composition with no clear horizon",
+      "Hand-drawn illustrative style with visible line work"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The scene is a dense tapestry of cars and people; the text is the largest element, scaled to span the entire width of the upper half.",
+      "visualAnchor": "A large, light-colored SUV or van positioned slightly right of center.",
+      "movementAndEyePath": "The eye moves from the bold top text down through the diagonal lines of the cars toward the bottom-right corner.",
+      "negativeSpace": "Minimal; the frame is intentionally packed to convey urban density."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm sepia tones (mid-tones) for the overall scene.",
+      "contrastColorRole": "Dark brown/black for line work and shadows.",
+      "accentColorRole": "Pale cream/off-white for highlights and text fill.",
+      "saturationAndValueRelationship": "Low saturation monochromatic range with high value contrast between the dark lines and light highlights.",
+      "paletteRestrictions": [
+        "No primary colors",
+        "Strictly monochromatic sepia/brown/cream"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Graffiti-style bubble and tag lettering",
+      "letterConstructionRules": [
+        "Thick, irregular strokes with a hand-drawn feel",
+        "Letters are tightly kerned and overlapping",
+        "Drip effects and soft rounded corners"
+      ],
+      "characterSpecificRedesigns": [
+        "Ascenders and descenders are exaggerated to fill space",
+        "Internal counters are small or non-existent"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script-graffiti",
+          "anatomy": {
+            "width": "wide",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded/dripping",
+            "corners": "soft",
+            "counters": "closed",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "two-line stack",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper half",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "slight upward arch",
+            "overlap": "overlaps background imagery",
+            "relationshipToImage": "foreground overlay"
+          },
+          "treatment": {
+            "fill": "pale cream",
+            "outline": "thin dark brown",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "organic hand-drawn"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "blackletter",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "angular",
+            "counters": "narrow",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "anchored at base"
+          },
+          "treatment": {
+            "fill": "dark brown",
+            "outline": "cream glow",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Expressive graffiti display text paired with a traditional blackletter/gothic subtitle for a 'street-meets-classic' look.",
+      "graphicDevices": [
+        "Drip effects on lettering",
+        "Isometric car illustrations",
+        "Halftone-like shading patterns"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Sepia tone",
+          "Graffiti style",
+          "Isometric perspective"
+        ],
+        "avoid": [
+          "Modern sans-serif fonts",
+          "Clean vector lines",
+          "Vibrant colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Graffiti Tag/Bubble",
+            "reason": "Matches the hand-drawn, urban aesthetic of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Old English / Blackletter",
+            "reason": "Matches the secondary text style often used in urban car culture.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a monochromatic sepia-toned illustration of a crowded city street filled with customized 90s-era cars and people in an isometric perspective. Use detailed line art with soft shading.",
+        "overlayInstruction": "Apply large, hand-drawn graffiti-style lettering in pale cream with a thin dark outline across the top half. Add a small blackletter subtitle at the bottom center."
+      },
+      "verificationChecks": [
+        "Is the color palette strictly monochromatic sepia?",
+        "Does the text have a hand-drawn graffiti quality?",
+        "Is the background scene dense and isometric?",
+        "Does the primary text overlap the background elements?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of the background crowd",
+      "Intensity of the sepia wash",
+      "Amount of 'drip' on the graffiti text"
+    ],
+    "mustRedesign": [
+      "Specific car logos or brand names",
+      "Parental advisory logos",
+      "Specific artist names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cohesive monochromatic sepia tone",
+        "Complex, layered urban composition",
+        "Authentic graffiti-style letterforms"
+      ],
+      "avoid": [
+        "Flat, untextured color fills",
+        "Generic computer-generated fonts",
+        "Sparse or empty backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Verify the sepia tone is consistent across all elements.",
+      "Ensure the graffiti text is legible despite its stylized form.",
+      "Check that the isometric perspective is maintained throughout the background.",
+      "Confirm the composition feels 'crowded' and urban."
+    ],
+    "reuseFormula": "Monochromatic Sepia + Isometric Urban Illustration + Graffiti Overlay = Hip Hop Street Aesthetic"
+  }
+}

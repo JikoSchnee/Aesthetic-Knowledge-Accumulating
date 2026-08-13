@@ -1,0 +1,245 @@
+{
+  "id": "7c033f98e2436cfb4da6bb6572e80f142d36583643e44dca676e1b6fea7e1946",
+  "skillId": "7c033f98e2436cfb4da6bb6572e80f142d36583643e44dca676e1b6fea7e1946",
+  "versionId": "7c033f98e2436cfb4da6bb6572e80f142d36583643e44dca676e1b6fea7e1946",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T10:58:30.681Z",
+  "approvedAt": "2026-08-12T10:58:30.681Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T10:58:30.681Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Under Wraps.jpg",
+    "hash": "7c033f98e2436cfb4da6bb6572e80f142d36583643e44dca676e1b6fea7e1946",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Under Wraps",
+    "artist": "Shaun Cassidy",
+    "artworkUrl": "https://coverartarchive.org/release-group/6039f703-3bc3-31cb-9fcd-9f55587f2715/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6039f703-3bc3-31cb-9fcd-9f55587f2715",
+    "releaseGroupId": "6039f703-3bc3-31cb-9fcd-9f55587f2715",
+    "recordingId": "e841ec85-3ebc-4991-92d0-32dd928b5c72",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Our NightShaun Cassidy",
+      "song": "Our Night",
+      "performer": "Shaun Cassidy",
+      "peakPosition": 80,
+      "firstChartDate": "1978-09-09",
+      "lastChartDate": "1978-09-23",
+      "appearances": [
+        {
+          "chartDate": "1978-09-09",
+          "position": 90
+        },
+        {
+          "chartDate": "1978-09-16",
+          "position": 80
+        },
+        {
+          "chartDate": "1978-09-23",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro pop portrait with plastic distortion 1970s pop plastic wrap effect soft focus portrait script typography hand pressed glass effect subject centered between two splayed hands refractive light streaks radiating from the corners script typography anchored to the top edge dark moody background contrasting with warm skin tones portrait plastic overlay pressed hands top script retro pop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Pop Portrait with Plastic Distortion",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Retro-themed editorial portraits",
+        "Promotional posters for solo artists"
+      ],
+      "retrievalTags": [
+        "1970s pop",
+        "plastic wrap effect",
+        "soft focus portrait",
+        "script typography",
+        "hand-pressed glass effect"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered male portrait viewed through a distorted, reflective plastic or glass surface with hands pressed against the barrier.",
+      "triggerTerms": [
+        "portrait behind distorted plastic",
+        "hands pressed against glass effect",
+        "retro pop album aesthetic",
+        "soft glow portrait with script header"
+      ],
+      "excludeWhen": [
+        "minimalist modern photography",
+        "high-contrast black and white",
+        "vector-only illustrations"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium-shot portrait of a subject positioned behind a translucent, wrinkled material that creates cyan-tinted light refractions and distortions. The subject's hands are splayed and pressed against the surface, creating a sense of depth and physical interaction with the frame's boundary.",
+    "coreVisualRelationships": [
+      "Subject centered between two splayed hands",
+      "Refractive light streaks radiating from the corners",
+      "Script typography anchored to the top edge",
+      "Dark, moody background contrasting with warm skin tones"
+    ],
+    "coreInvariants": [
+      "Translucent plastic-like distortion layer over the entire image",
+      "Hands pressed flat against the viewing plane",
+      "Soft-focus lighting on the central face"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central medium shot, head and shoulders, occupying the middle third of the frame.",
+      "visualAnchor": "The subject's eyes and the two splayed hands forming a triangular focal point.",
+      "movementAndEyePath": "From the top script text down to the face, then outward to the hands and the light refractions.",
+      "negativeSpace": "Deep shadows in the lower corners and around the subject's torso."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep navy and black background providing high contrast.",
+      "contrastColorRole": "Cyan and teal light refractions through the plastic surface.",
+      "accentColorRole": "Warm peach and tan skin tones with cream-colored typography.",
+      "saturationAndValueRelationship": "Low saturation in the environment with high value highlights on the hands and face.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Limit to muted 70s-era tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script",
+      "letterConstructionRules": [
+        "Fluid, connected strokes with varying thickness",
+        "High-ascenders and descenders",
+        "Brush-like terminals with a slight texture"
+      ],
+      "characterSpecificRedesigns": [
+        "Capital letters feature exaggerated loops",
+        "Lowercase 's' has a distinct sharp top curve"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating above subject"
+          },
+          "treatment": {
+            "fill": "cream-gradient",
+            "outline": "none",
+            "shadow": "subtle-drop",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Standalone script for a signature look.",
+      "graphicDevices": [
+        "Refractive light streaks",
+        "Plastic texture overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Cursive flow",
+          "Top-edge placement"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Blocky geometric types"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mistral",
+            "reason": "Captures the brush-stroke energy and retro feel.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Brush Script",
+            "reason": "Matches the casual, connected 70s pop aesthetic.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a person behind a wrinkled, reflective plastic sheet with their hands pressed against it, featuring cyan light refractions.",
+        "overlayInstruction": "Apply a cream-colored, hand-drawn cursive script across the top margin."
+      },
+      "verificationChecks": [
+        "Is the plastic distortion visible over the face?",
+        "Are the hands pressed flat against the frame?",
+        "Is the text in a fluid script style at the top?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of plastic wrinkles",
+      "Color of light refractions",
+      "Subject's expression"
+    ],
+    "mustRedesign": [
+      "Modern digital filters",
+      "Flat vector backgrounds"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Analog film grain",
+        "Realistic light refraction",
+        "Tactile sense of the plastic barrier"
+      ],
+      "avoid": [
+        "Clean, sharp digital edges",
+        "Uniform lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for realistic hand-to-surface contact shadows",
+      "Ensure script text does not obscure the eyes",
+      "Verify the cyan tint is localized to the plastic highlights",
+      "Confirm the overall 1970s color palette"
+    ],
+    "reuseFormula": "Portrait + Plastic Overlay + Pressed Hands + Top Script = Retro Pop Aesthetic"
+  }
+}

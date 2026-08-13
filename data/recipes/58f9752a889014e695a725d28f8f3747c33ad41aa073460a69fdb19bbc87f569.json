@@ -1,0 +1,262 @@
+{
+  "id": "58f9752a889014e695a725d28f8f3747c33ad41aa073460a69fdb19bbc87f569",
+  "skillId": "58f9752a889014e695a725d28f8f3747c33ad41aa073460a69fdb19bbc87f569",
+  "versionId": "58f9752a889014e695a725d28f8f3747c33ad41aa073460a69fdb19bbc87f569",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:07:07.195Z",
+  "approvedAt": "2026-08-12T13:07:07.195Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:07:07.195Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "In Black and White.jpg",
+    "hash": "58f9752a889014e695a725d28f8f3747c33ad41aa073460a69fdb19bbc87f569",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "In Black and White",
+    "artist": "Jenny Burton",
+    "artworkUrl": "https://coverartarchive.org/release-group/eac3bf90-500c-4b2e-aad8-7c77e16c4e65/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/eac3bf90-500c-4b2e-aad8-7c77e16c4e65",
+    "releaseGroupId": "eac3bf90-500c-4b2e-aad8-7c77e16c4e65",
+    "recordingId": "8166e959-68ed-42ea-af0d-4412aad4862a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Remember What You LikeJenny Burton",
+      "song": "Remember What You Like",
+      "performer": "Jenny Burton",
+      "peakPosition": 81,
+      "firstChartDate": "1984-01-28",
+      "lastChartDate": "1984-03-03",
+      "appearances": [
+        {
+          "chartDate": "1984-01-28",
+          "position": 93
+        },
+        {
+          "chartDate": "1984-02-04",
+          "position": 86
+        },
+        {
+          "chartDate": "1984-02-11",
+          "position": 85
+        },
+        {
+          "chartDate": "1984-02-18",
+          "position": 83
+        },
+        {
+          "chartDate": "1984-02-25",
+          "position": 81
+        },
+        {
+          "chartDate": "1984-03-03",
+          "position": 81
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome 80s pop portrait layout monochrome high contrast 80s hair geometric earrings wide tracking typography studio portrait diagonal subject orientation against a neutral studio background high contrast between deep black clothing and bright skin highlights symmetrical typographic framing at the vertical extremes textured spiky hair silhouette contrasting with smooth skin tones high contrast b w portrait diagonal pose extreme tracked geometric sans serif framing",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome 80s Pop Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Black and white photography",
+        "Studio lighting",
+        "Graphic design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Fashion editorial spreads",
+        "Retro-themed posters"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "high-contrast",
+        "80s hair",
+        "geometric earrings",
+        "wide tracking typography",
+        "studio portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast black and white studio portrait featuring a dynamic, tilted subject pose framed by ultra-wide tracked sans-serif typography at the top and bottom edges.",
+      "triggerTerms": [
+        "80s monochrome studio portrait",
+        "wide tracked sans-serif album layout",
+        "high contrast black and white fashion photography"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "candid or outdoor settings are requested",
+        "script or serif typography is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition featuring a close-up, high-contrast black and white portrait of a woman with voluminous, textured 80s hair. The subject is tilted diagonally, creating a dynamic line from the bottom left to the top right. The image is framed by two lines of bold, widely spaced sans-serif text positioned at the extreme top and bottom margins.",
+    "coreVisualRelationships": [
+      "Diagonal subject orientation against a neutral studio background",
+      "High contrast between deep black clothing and bright skin highlights",
+      "Symmetrical typographic framing at the vertical extremes",
+      "Textured, spiky hair silhouette contrasting with smooth skin tones"
+    ],
+    "coreInvariants": [
+      "Strict black and white color palette with no mid-tone color cast",
+      "Extreme letter-spacing (tracking) in all-caps typography",
+      "Subject's head tilted at approximately a 45-degree angle"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject occupies the central and lower-left regions, scaled to a medium-close-up portrait.",
+      "visualAnchor": "The subject's face and eyes, positioned in the upper-right quadrant of the central area.",
+      "movementAndEyePath": "The eye follows the diagonal tilt of the head from the bottom left shoulder up to the spiky hair, then moves to the horizontal text lines at the edges.",
+      "negativeSpace": "Significant neutral gray space in the upper-left and lower-right corners surrounding the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black (clothing and shadows)",
+      "contrastColorRole": "Bright white (highlights and typography)",
+      "accentColorRole": "Neutral mid-gray (background)",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between subject and background.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Geometric circular 'O' and 'C'",
+        "Sharp, unbracketed terminals",
+        "All-caps presentation"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "N/A (All Caps)",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "500-800 units",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Sparse"
+          },
+          "composition": {
+            "position": "Top and bottom margins",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Framing the subject"
+          },
+          "treatment": {
+            "fill": "Solid black or white depending on background",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for both top and bottom text to maintain symmetry.",
+      "graphicDevices": [
+        "Extreme letter spacing",
+        "Edge-to-edge horizontal alignment"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric sans-serif skeleton",
+          "Extreme tracking",
+          "All-caps"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Condensed fonts",
+          "Lowercase letters"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic Bold",
+            "reason": "Matches the geometric 80s aesthetic and circular letterforms.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Provides the necessary geometric weight and sharp terminals.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white studio portrait of a woman with 80s spiky hair, wearing a black top, tilted at a 45-degree angle against a plain gray background. Leave clear space at the very top and bottom edges.",
+        "overlayInstruction": "Add two lines of text in a bold geometric sans-serif font. One line at the top edge and one at the bottom edge. Set in all-caps with extreme tracking so the text spans the full width of the image."
+      },
+      "verificationChecks": [
+        "Is the image strictly black and white?",
+        "Is the text tracking extremely wide?",
+        "Is the subject tilted diagonally?",
+        "Is the font a bold geometric sans-serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Degree of head tilt",
+      "Intensity of hair texture",
+      "Specific tracking width",
+      "Background gray value"
+    ],
+    "mustRedesign": [
+      "Do not use color",
+      "Do not use script or serif fonts",
+      "Do not use standard character spacing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp focus on facial features",
+        "Clean, high-contrast lighting",
+        "Perfectly horizontal text alignment"
+      ],
+      "avoid": [
+        "Blurry hair textures",
+        "Low-contrast muddy grays",
+        "Crowded lettering"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that text does not overlap the subject's hair or body.",
+      "Ensure the black levels in the clothing are deep and solid.",
+      "Verify that the tracking is consistent across both lines of text.",
+      "Confirm the composition remains square."
+    ],
+    "reuseFormula": "High-contrast B&W portrait + diagonal pose + extreme-tracked geometric sans-serif framing."
+  }
+}

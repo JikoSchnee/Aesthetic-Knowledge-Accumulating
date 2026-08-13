@@ -1,0 +1,265 @@
+{
+  "id": "1be8a075e73c8f0bd7530609cd782404db6b1f52f68f606231b22df1b698e73f",
+  "skillId": "1be8a075e73c8f0bd7530609cd782404db6b1f52f68f606231b22df1b698e73f",
+  "versionId": "1be8a075e73c8f0bd7530609cd782404db6b1f52f68f606231b22df1b698e73f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T11:32:38.697Z",
+  "approvedAt": "2026-08-12T11:32:38.697Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T11:32:38.697Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Britney Jean.jpg",
+    "hash": "1be8a075e73c8f0bd7530609cd782404db6b1f52f68f606231b22df1b698e73f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Britney Jean",
+    "artist": "Britney Spears",
+    "artworkUrl": "https://coverartarchive.org/release-group/c378d06f-d3d0-45a1-924a-46a39e72a2fd/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c378d06f-d3d0-45a1-924a-46a39e72a2fd",
+    "releaseGroupId": "c378d06f-d3d0-45a1-924a-46a39e72a2fd",
+    "recordingId": "b0a9c96a-70c4-42d8-94a6-e2684da750de",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "PerfumeBritney Spears",
+      "song": "Perfume",
+      "performer": "Britney Spears",
+      "peakPosition": 76,
+      "firstChartDate": "2013-11-23",
+      "lastChartDate": "2014-01-18",
+      "appearances": [
+        {
+          "chartDate": "2013-11-23",
+          "position": 76
+        },
+        {
+          "chartDate": "2013-12-21",
+          "position": 79
+        },
+        {
+          "chartDate": "2013-12-28",
+          "position": 77
+        },
+        {
+          "chartDate": "2014-01-04",
+          "position": 90
+        },
+        {
+          "chartDate": "2014-01-11",
+          "position": 91
+        },
+        {
+          "chartDate": "2014-01-18",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome portrait with neon script overlay monochrome portrait neon heart handwritten script glow effect high contrast blonde hair texture monochrome subject vs vibrant neon overlay soft hair texture vs sharp neon light lines central eye level gaze vs lower third graphic anchor solid black background vs high key blonde hair highlights black and white portrait color a neon shape color b neon script overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Portrait with Neon Script Overlay",
+      "category": "Graphic Design / Photography",
+      "medium": [
+        "Black and White Photography",
+        "Digital Illustration",
+        "Neon Light Effect"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Promotional Music Poster",
+        "Social Media Profile Branding"
+      ],
+      "retrievalTags": [
+        "monochrome portrait",
+        "neon heart",
+        "handwritten script",
+        "glow effect",
+        "high contrast",
+        "blonde hair texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast black and white portrait featuring a central subject with a vibrant, glowing neon heart and script overlay on the lower foreground.",
+      "triggerTerms": [
+        "monochrome portrait with neon glow",
+        "neon heart script overlay",
+        "black and white photo with blue and pink neon"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "minimalist flat design without lighting effects is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, centered black and white headshot of a woman with wavy blonde hair, framed against a solid black background, featuring a luminous neon heart and cursive text in the lower third that casts a colored glow onto the subject's skin.",
+    "coreVisualRelationships": [
+      "Monochrome subject vs. vibrant neon overlay",
+      "Soft hair texture vs. sharp neon light lines",
+      "Central eye-level gaze vs. lower-third graphic anchor",
+      "Solid black background vs. high-key blonde hair highlights"
+    ],
+    "coreInvariants": [
+      "High-contrast black and white processing for the subject",
+      "Neon glow effect casting light onto the subject's arm/chest",
+      "Solid black negative space surrounding the head and shoulders"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered close-up portrait, head and shoulders filling the frame.",
+      "visualAnchor": "The glowing neon heart and script in the lower center.",
+      "movementAndEyePath": "Starts at the subject's eyes, moves down to the neon graphic, then follows the hair curves back up.",
+      "negativeSpace": "Deep black background provides high contrast for the blonde hair and neon glow."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black and white (subject and background)",
+      "contrastColorRole": "Electric blue (script text)",
+      "accentColorRole": "Vibrant pink/red (heart outline)",
+      "saturationAndValueRelationship": "Extreme saturation in the neon elements against zero saturation in the portrait.",
+      "paletteRestrictions": [
+        "Monochrome grayscale for the photo",
+        "Cyan/Blue neon",
+        "Magenta/Red neon"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive handwriting",
+      "letterConstructionRules": [
+        "Continuous monolinear stroke",
+        "Fluid, connected script",
+        "Simulated neon tube thickness",
+        "Rounded terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Extended descenders to mimic light trails",
+        "Integrated glow halo"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "variable",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "glowing tube"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "lower center",
+            "scale": "large",
+            "rotation": "slight upward tilt",
+            "warp": "none",
+            "overlap": "placed over the subject's arm",
+            "relationshipToImage": "integrated via light spill/glow"
+          },
+          "treatment": {
+            "fill": "white core",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "neon glow",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single script style paired with a geometric heart shape.",
+      "graphicDevices": [
+        "Neon heart outline with a 'tail' flourish",
+        "Outer glow/bloom effect",
+        "Color spill on subject skin"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Cursive flow",
+          "Neon tube aesthetic",
+          "Blue/Pink color contrast"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Blocky sans-serifs",
+          "Flat colors without glow"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Neon Script",
+            "reason": "Matches the light-tube aesthetic",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Handwritten Cursive",
+            "reason": "Captures the personal, informal feel of the lettering",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white portrait of a woman with wavy blonde hair against a black background, leaving the lower chest area clear for an overlay.",
+        "overlayInstruction": "Add a glowing neon heart in pink and a cursive script in electric blue over the lower center, ensuring the neon light 'spills' onto the subject's skin."
+      },
+      "verificationChecks": [
+        "Is the portrait strictly black and white?",
+        "Does the neon have a white core with a colored outer glow?",
+        "Is there visible light spill from the neon onto the subject?",
+        "Is the background pure black?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Neon color palette",
+      "Hair texture/wave intensity",
+      "Subject's pose/gaze",
+      "Script thickness"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Unique brand logos",
+      "Exact signature style"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Photorealistic hair texture",
+        "Convincing neon bloom effect",
+        "High-key lighting on the face"
+      ],
+      "avoid": [
+        "Muddy gray tones in the background",
+        "Flat, non-glowing text",
+        "Low-resolution hair strands"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high contrast between hair and background",
+      "Verify neon glow interaction with skin",
+      "Ensure script is legible despite the glow",
+      "Confirm monochrome subject integrity"
+    ],
+    "reuseFormula": "Black and white portrait + [Color A] neon shape + [Color B] neon script overlay."
+  }
+}

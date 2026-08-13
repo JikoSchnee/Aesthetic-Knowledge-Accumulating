@@ -1,0 +1,301 @@
+{
+  "id": "04c56681a8e013100752ae64159f713da9357a12a54a5d7f15e9990b630f177a",
+  "skillId": "04c56681a8e013100752ae64159f713da9357a12a54a5d7f15e9990b630f177a",
+  "versionId": "04c56681a8e013100752ae64159f713da9357a12a54a5d7f15e9990b630f177a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T10:48:31.446Z",
+  "approvedAt": "2026-08-12T10:48:31.446Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T10:48:31.446Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Collection.jpg",
+    "hash": "04c56681a8e013100752ae64159f713da9357a12a54a5d7f15e9990b630f177a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Collection",
+    "artist": "Walter Egan",
+    "artworkUrl": "https://coverartarchive.org/release-group/b26f6aed-9fb8-4fe0-8394-b973fdd8e8e6/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b26f6aed-9fb8-4fe0-8394-b973fdd8e8e6",
+    "releaseGroupId": "b26f6aed-9fb8-4fe0-8394-b973fdd8e8e6",
+    "recordingId": "c36b9413-84f4-4a0b-9a87-c5738a3add36",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Only The LuckyWalter Egan",
+      "song": "Only The Lucky",
+      "performer": "Walter Egan",
+      "peakPosition": 82,
+      "firstChartDate": "1977-06-11",
+      "lastChartDate": "1977-07-16",
+      "appearances": [
+        {
+          "chartDate": "1977-06-11",
+          "position": 99
+        },
+        {
+          "chartDate": "1977-06-18",
+          "position": 96
+        },
+        {
+          "chartDate": "1977-06-25",
+          "position": 89
+        },
+        {
+          "chartDate": "1977-07-02",
+          "position": 84
+        },
+        {
+          "chartDate": "1977-07-09",
+          "position": 82
+        },
+        {
+          "chartDate": "1977-07-16",
+          "position": 82
+        }
+      ]
+    }
+  },
+  "dedupeText": "quadratic grid anthology cover grid layout quadrant album art retro photography framed collage symmetrical 2x2 grid of internal images double stroke white border containing the grid high contrast white text against a black background individual red framing for each internal image grid based anthology layout with high contrast geometric typography and multi layered framing",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Quadratic Grid Anthology Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Digital Layout",
+        "Photography",
+        "Typography"
+      ],
+      "useCases": [
+        "Music compilation covers",
+        "Retrospective portfolio layouts",
+        "Multi-image product showcases"
+      ],
+      "retrievalTags": [
+        "grid layout",
+        "quadrant",
+        "album art",
+        "retro photography",
+        "framed collage"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A four-quadrant grid layout featuring distinct photographic panels enclosed within a double-line border on a dark background with bold sans-serif headers.",
+      "triggerTerms": [
+        "quadrant grid layout",
+        "four-panel anthology cover",
+        "framed photo collage with header and footer text"
+      ],
+      "excludeWhen": [
+        "single focal point images",
+        "asymmetrical layouts",
+        "minimalist designs without borders"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A structured 2x2 grid of rectangular images, each individually framed with a thin red border, all contained within a larger white-outlined square on a solid black field. Bold, wide-set sans-serif typography anchors the top and bottom of the composition.",
+    "coreVisualRelationships": [
+      "Symmetrical 2x2 grid of internal images",
+      "Double-stroke white border containing the grid",
+      "High-contrast white text against a black background",
+      "Individual red framing for each internal image"
+    ],
+    "coreInvariants": [
+      "Solid black background field",
+      "Thin red inner borders for each quadrant",
+      "Wide-tracked geometric sans-serif display type"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four equal-sized rectangular images arranged in a central square grid.",
+      "visualAnchor": "The top display text serves as the primary entry point, followed by the grid.",
+      "movementAndEyePath": "Z-pattern starting from the top header, through the four quadrants, ending at the footer text.",
+      "negativeSpace": "Heavy black margins surrounding the central framed grid."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black background providing high contrast.",
+      "contrastColorRole": "White for primary borders and typography.",
+      "accentColorRole": "Red for thin internal image borders.",
+      "saturationAndValueRelationship": "High value contrast between white text and black field; varied saturation within the internal photos.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Wide proportions",
+        "Open counters",
+        "Flat terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "circular",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by margin"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "circular",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "extra-wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by margin"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used with varying weights and tracking for hierarchy.",
+      "graphicDevices": [
+        "Double-line white square frame",
+        "Thin red rectangular frames for sub-images"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase geometric sans-serif",
+          "Wide tracking",
+          "White on black color scheme"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts for main headers",
+          "Tight kerning"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Matches the geometric construction and sharp terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham Wide",
+            "reason": "Provides the necessary width and modern clean aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a solid black background. In the center, place a 2x2 grid of four distinct rectangular photographs. Each photograph should have a thin red border. Surround the entire 2x2 grid with a thin white double-line square frame, leaving ample black space at the top and bottom.",
+        "overlayInstruction": "Add uppercase geometric sans-serif text in white. Place the primary title at the top center with wide tracking. Place the secondary title at the bottom center with extra-wide tracking."
+      },
+      "verificationChecks": [
+        "Is the background solid black?",
+        "Are there four distinct images in a 2x2 grid?",
+        "Does each image have a red border?",
+        "Is the text white, uppercase, and wide-tracked?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of grid items",
+      "Color of the inner borders",
+      "Tracking width of the typography"
+    ],
+    "mustRedesign": [
+      "Specific photographic content",
+      "Artist names or specific album titles",
+      "Logos or branding marks"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Perfect alignment of the 2x2 grid",
+        "Consistent stroke weight for the white outer frame",
+        "High-contrast legibility of the white text"
+      ],
+      "avoid": [
+        "Cluttered margins",
+        "Low-resolution internal images",
+        "Uneven spacing between grid elements"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the white frame is perfectly square.",
+      "Check that the red borders do not overlap.",
+      "Verify the text is centered horizontally.",
+      "Confirm the black background is uniform."
+    ],
+    "reuseFormula": "Grid-based anthology layout with high-contrast geometric typography and multi-layered framing."
+  }
+}

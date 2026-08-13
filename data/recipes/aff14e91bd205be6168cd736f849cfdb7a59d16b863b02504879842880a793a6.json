@@ -1,0 +1,293 @@
+{
+  "id": "aff14e91bd205be6168cd736f849cfdb7a59d16b863b02504879842880a793a6",
+  "skillId": "aff14e91bd205be6168cd736f849cfdb7a59d16b863b02504879842880a793a6",
+  "versionId": "aff14e91bd205be6168cd736f849cfdb7a59d16b863b02504879842880a793a6",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T10:13:31.820Z",
+  "approvedAt": "2026-08-12T10:13:31.820Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T10:13:31.820Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Living by the Days.jpg",
+    "hash": "aff14e91bd205be6168cd736f849cfdb7a59d16b863b02504879842880a793a6",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Living by the Days",
+    "artist": "Don Nix",
+    "artworkUrl": "https://coverartarchive.org/release-group/5c4e13bb-9990-4225-b230-de068f2cfcf1/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5c4e13bb-9990-4225-b230-de068f2cfcf1",
+    "releaseGroupId": "5c4e13bb-9990-4225-b230-de068f2cfcf1",
+    "recordingId": "1f571756-39c0-4123-a149-1ab4653749ba",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "OlenaDon Nix",
+      "song": "Olena",
+      "performer": "Don Nix",
+      "peakPosition": 94,
+      "firstChartDate": "1971-10-09",
+      "lastChartDate": "1971-10-23",
+      "appearances": [
+        {
+          "chartDate": "1971-10-09",
+          "position": 98
+        },
+        {
+          "chartDate": "1971-10-16",
+          "position": 97
+        },
+        {
+          "chartDate": "1971-10-23",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage oval portrait album aesthetic 1970s sepia halftone oval frame textured paper slab serif muted palette central oval anchor with vertical symmetry high contrast halftone texture against smooth background muted earth tones contrasting with thin red and blue type outlines stacked text balancing the top and bottom of the frame central oval halftone stacked slab serif type muted textured background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Oval Portrait Album Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Lithography",
+        "Halftone Print",
+        "Matte Paper"
+      ],
+      "useCases": [
+        "Folk-rock album covers",
+        "Vintage-style book jackets",
+        "Retro commemorative posters"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "sepia halftone",
+        "oval frame",
+        "textured paper",
+        "slab serif",
+        "muted palette"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered oval halftone portrait set against a textured, muted background with stacked slab-serif typography above and below.",
+      "triggerTerms": [
+        "vintage oval portrait layout",
+        "70s folk album aesthetic",
+        "halftone sepia cameo",
+        "textured matte paper background"
+      ],
+      "excludeWhen": [
+        "modern high-gloss photography is required",
+        "vibrant neon colors are requested",
+        "asymmetric layouts are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A symmetrical composition featuring a central vertical oval containing a high-contrast, sepia-toned halftone portrait. The oval is bordered by a thick cream-colored frame and set against a desaturated, textured mauve-beige background. Typography is vertically stacked and centered, using condensed slab-serifs with thin outlines.",
+    "coreVisualRelationships": [
+      "Central oval anchor with vertical symmetry",
+      "High-contrast halftone texture against smooth background",
+      "Muted earth tones contrasting with thin red and blue type outlines",
+      "Stacked text balancing the top and bottom of the frame"
+    ],
+    "coreInvariants": [
+      "Vertical oval frame",
+      "Halftone grain in the central image",
+      "Matte, non-reflective paper texture",
+      "Centered vertical alignment"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is a head-and-shoulders portrait contained within a central oval, occupying approximately 40% of the total height.",
+      "visualAnchor": "The central oval frame acts as the primary focal point.",
+      "movementAndEyePath": "Top-down vertical flow from the upper text, through the central portrait, to the lower text.",
+      "negativeSpace": "Generous margins on the left and right sides create a sense of formal isolation."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated mauve-beige background",
+      "contrastColorRole": "Deep sepia/brown halftone shadows",
+      "accentColorRole": "Muted red and dusty blue for typographic outlines",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast within the halftone portrait.",
+      "paletteRestrictions": [
+        "No pure blacks",
+        "No neon or high-chroma colors",
+        "Limited to earth tones and desaturated pastels"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed slab serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Short, blocky serifs",
+        "High x-height",
+        "Tight character spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Thin colored outlines around white or transparent fills"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked words",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separate"
+          },
+          "treatment": {
+            "fill": "transparent",
+            "outline": "thin red",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "stacked words",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separate"
+          },
+          "treatment": {
+            "fill": "transparent",
+            "outline": "thin blue",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Monochromatic font family with varying outline colors and weights.",
+      "graphicDevices": [
+        "Thick cream-colored oval border",
+        "Subtle paper grain texture overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif style",
+          "Condensed proportions",
+          "Stacked layout"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Sans-serif fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Condensed",
+            "reason": "Matches the blocky slab-serif structure and condensed width.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Playbill",
+            "reason": "Captures the vintage wood-type feel often used in 70s folk aesthetics.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a matte, textured mauve-beige background. In the center, place a vertical cream-colored oval frame. Inside the frame, place a high-contrast sepia-toned halftone portrait of a person with a beard and a hat.",
+        "overlayInstruction": "Add two blocks of centered, stacked uppercase text using a condensed slab-serif font. The top block should have a thin red outline; the bottom block should have a thin blue outline."
+      },
+      "verificationChecks": [
+        "Is the portrait contained within a clean oval frame?",
+        "Is the halftone texture visible in the portrait?",
+        "Are the text blocks centered and stacked vertically?",
+        "Is the color palette muted and desaturated?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue",
+      "Halftone grain size",
+      "Oval frame thickness",
+      "Typographic outline color"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact brand logos or catalog numbers",
+      "Specific song titles or artist names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s print texture",
+        "Balanced vertical symmetry",
+        "Legible but stylized slab-serif type"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Modern high-resolution photography",
+        "Overly bright primary colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the halftone effect doesn't obscure the subject's form.",
+      "Verify the paper texture is consistent across the background.",
+      "Check that the text outlines are thin and crisp.",
+      "Confirm the oval is perfectly centered horizontally."
+    ],
+    "reuseFormula": "Central oval halftone + stacked slab-serif type + muted textured background."
+  }
+}

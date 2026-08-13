@@ -1,0 +1,285 @@
+{
+  "id": "c4a62376c0e4bccf67135bc0051b57667b9ea2cf0a93be76618cc570e5ec4078",
+  "skillId": "c4a62376c0e4bccf67135bc0051b57667b9ea2cf0a93be76618cc570e5ec4078",
+  "versionId": "c4a62376c0e4bccf67135bc0051b57667b9ea2cf0a93be76618cc570e5ec4078",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:52:11.977Z",
+  "approvedAt": "2026-08-12T21:52:11.977Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:52:11.977Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Too Late to Worry - Too Blue to Cry.jpg",
+    "hash": "c4a62376c0e4bccf67135bc0051b57667b9ea2cf0a93be76618cc570e5ec4078",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Too Late to Worry - Too Blue to Cry",
+    "artist": "Glen Campbell",
+    "artworkUrl": "https://coverartarchive.org/release-group/80baf9f7-b457-4fd4-981c-1d69d7ff8586/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/80baf9f7-b457-4fd4-981c-1d69d7ff8586",
+    "releaseGroupId": "80baf9f7-b457-4fd4-981c-1d69d7ff8586",
+    "recordingId": "04191688-080a-46e9-8305-291d6977127a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Too Late To Worry - Too Blue To CryGlen Campbell",
+      "song": "Too Late To Worry - Too Blue To Cry",
+      "performer": "Glen Campbell",
+      "peakPosition": 76,
+      "firstChartDate": "1962-08-25",
+      "lastChartDate": "1962-09-01",
+      "appearances": [
+        {
+          "chartDate": "1962-08-25",
+          "position": 77
+        },
+        {
+          "chartDate": "1962-09-01",
+          "position": 76
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century country folk album cover mid century modern album art woodland photography sans serif display ornamental frame saturated green top heavy typographic hierarchy against a solid color field sharp white border separating the graphic header from the photographic footer contrast between flat graphic green and organic forest textures centrally aligned text within a decorative bracketed container split layout saturated green header bracketed text frame white bordered forest photo",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Country-Folk Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Offset Lithography",
+        "Color Photography",
+        "Typography"
+      ],
+      "useCases": [
+        "Vintage record sleeve design",
+        "Retro music marketing",
+        "1960s Americana aesthetic"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "album art",
+        "woodland photography",
+        "sans-serif display",
+        "ornamental frame",
+        "saturated green"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A split-layout album cover featuring a top typographic header block inside a decorative frame and a bottom rectangular photograph of a musician in a forest.",
+      "triggerTerms": [
+        "1960s country album cover",
+        "framed typography over forest photo",
+        "vintage green record sleeve layout"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "abstract art covers",
+        "digital-only single artwork without borders"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A two-part vertical composition with a vibrant green header section containing text enclosed in a bracketed ornamental frame, positioned above a white-bordered rectangular photograph of a man with a guitar in a sun-dappled evergreen forest.",
+    "coreVisualRelationships": [
+      "Top-heavy typographic hierarchy against a solid color field",
+      "Sharp white border separating the graphic header from the photographic footer",
+      "Contrast between flat graphic green and organic forest textures",
+      "Centrally aligned text within a decorative bracketed container"
+    ],
+    "coreInvariants": [
+      "Saturated green background for the top half",
+      "White rectangular frame around the photograph",
+      "Three-tier typographic hierarchy",
+      "Bracketed ornamental flourishes flanking the main text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Musician centered in the lower half, occupying roughly 40% of the total height.",
+      "visualAnchor": "The large, bold artist name in the upper third of the composition.",
+      "movementAndEyePath": "Top-down flow: Header text to artist name to tracklist to the central figure in the photograph.",
+      "negativeSpace": "Solid green margins at the top and sides provide breathing room for the text block."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Kelly Green (Background and Frame)",
+      "contrastColorRole": "White (Borders and Secondary Text)",
+      "accentColorRole": "Cyan-Blue (Primary Artist Name)",
+      "saturationAndValueRelationship": "High saturation green and blue against earthy browns and greens in the photo.",
+      "paletteRestrictions": [
+        "Limit to green, blue, yellow, and white for the graphic elements."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Grotesque Sans-Serif",
+      "letterConstructionRules": [
+        "Heavy weight for the primary name",
+        "Condensed width for the tracklist",
+        "Uniform stroke thickness in the display titles"
+      ],
+      "characterSpecificRedesigns": [
+        "None; standard mid-century grotesque forms."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "extra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in frame"
+          },
+          "treatment": {
+            "fill": "cyan-blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "condensed sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "tight",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "multi-line justified",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in frame"
+          },
+          "treatment": {
+            "fill": "yellow-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Varying weights and widths of the same sans-serif family.",
+      "graphicDevices": [
+        "Bracketed ornamental frame",
+        "Horizontal divider lines",
+        "White rectangular photo border"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The three-tier hierarchy",
+          "The bracketed frame shape"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Modern digital gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the weight and mid-century feel of the artist name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers Condensed",
+            "reason": "Matches the tight, clean look of the tracklist text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a split layout with a solid kelly green top half and a white-bordered rectangular photo of a man with a guitar in a pine forest in the bottom half. Include a thin white bracketed frame in the center of the green section.",
+        "overlayInstruction": "Add three levels of sans-serif text inside the bracketed frame: a bold yellow title, a very large cyan artist name, and a condensed yellow tracklist block."
+      },
+      "verificationChecks": [
+        "Is the green background saturated and flat?",
+        "Is the artist name the largest typographic element?",
+        "Is the photo contained within a distinct white border?",
+        "Are the ornamental brackets present on the sides of the text block?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background green hue",
+      "Artist name color",
+      "Forest density in the photograph",
+      "Thickness of the white borders"
+    ],
+    "mustRedesign": [
+      "Specific artist names and track titles",
+      "Corporate logos and catalog numbers",
+      "The specific face of the musician"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typographic alignment",
+        "Vibrant 1960s color saturation",
+        "Balanced split-screen composition"
+      ],
+      "avoid": [
+        "Blurry text",
+        "Low-contrast color pairings",
+        "Overly complex modern filters"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for centered alignment of all text elements.",
+      "Ensure the white border around the photo is uniform.",
+      "Verify the bracketed frame is symmetrical.",
+      "Confirm the color palette remains limited to the 1960s aesthetic."
+    ],
+    "reuseFormula": "Split-layout + Saturated Green Header + Bracketed Text Frame + White-Bordered Forest Photo"
+  }
+}

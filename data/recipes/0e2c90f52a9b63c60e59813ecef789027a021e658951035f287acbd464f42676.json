@@ -1,0 +1,249 @@
+{
+  "id": "0e2c90f52a9b63c60e59813ecef789027a021e658951035f287acbd464f42676",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:24:28.557Z",
+  "approvedAt": "2026-08-11T09:24:28.557Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:24:28.557Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Bossa Nova U.S.A..jpg",
+    "hash": "0e2c90f52a9b63c60e59813ecef789027a021e658951035f287acbd464f42676",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Bossa Nova U.S.A.",
+    "artist": "The Dave Brubeck Quartet",
+    "artworkUrl": "https://coverartarchive.org/release-group/6b988971-5e2b-37e0-a956-101d26472656/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6b988971-5e2b-37e0-a956-101d26472656",
+    "releaseGroupId": "6b988971-5e2b-37e0-a956-101d26472656",
+    "recordingId": "cb8e7d29-4a25-48fb-b2c2-cdbc8d8bf603",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Bossa Nova U.S.A.The Dave Brubeck Quartet",
+      "song": "Bossa Nova U.S.A.",
+      "performer": "The Dave Brubeck Quartet",
+      "peakPosition": 69,
+      "firstChartDate": "1963-01-05",
+      "lastChartDate": "1963-03-16",
+      "appearances": [
+        {
+          "chartDate": "1963-01-05",
+          "position": 83
+        },
+        {
+          "chartDate": "1963-02-02",
+          "position": 96
+        },
+        {
+          "chartDate": "1963-02-16",
+          "position": 96
+        },
+        {
+          "chartDate": "1963-02-23",
+          "position": 89
+        },
+        {
+          "chartDate": "1963-03-02",
+          "position": 78
+        },
+        {
+          "chartDate": "1963-03-09",
+          "position": 69
+        },
+        {
+          "chartDate": "1963-03-16",
+          "position": 69
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century jazz album cover aesthetic 1960s jazz high angle photography vintage convertible sans serif typography monochrome photography color blocked text the bright metallic car body acts as a massive visual anchor against the dark void of the ground the man s casual posture in the driver s seat creates a focal point within the geometric lines of the car the vibrant multi colored text at the top provides a modern energetic counterpoint to the classic desaturated image below high angle monochrome subject dark top third negative space multi colored bold sans serif header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Jazz Album Cover Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Retro Poster Design",
+        "Editorial Layout"
+      ],
+      "retrievalTags": [
+        "1960s jazz",
+        "high-angle photography",
+        "vintage convertible",
+        "sans-serif typography",
+        "monochrome photography",
+        "color-blocked text"
+      ]
+    },
+    "visualDefinition": "A high-angle, slightly desaturated monochrome photograph of a man sitting in a vintage convertible car, set against a dark, textured ground. The top third of the composition features bold, multi-colored sans-serif typography arranged in a horizontal block.",
+    "coreVisualRelationships": [
+      "The bright, metallic car body acts as a massive visual anchor against the dark void of the ground.",
+      "The man's casual posture in the driver's seat creates a focal point within the geometric lines of the car.",
+      "The vibrant, multi-colored text at the top provides a modern, energetic counterpoint to the classic, desaturated image below."
+    ],
+    "coreInvariants": [
+      "High-angle 'bird's eye' perspective on the vehicle.",
+      "Extreme contrast between the bright car and the dark, textured asphalt or grass.",
+      "Strict horizontal alignment of the header text block."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The car occupies the bottom two-thirds of the frame, angled slightly diagonally from left to right.",
+      "visualAnchor": "The white/silver hood and interior of the convertible.",
+      "movementAndEyePath": "Eyes start at the colorful text at the top, move down to the man's face, and then follow the length of the car toward the bottom right.",
+      "negativeSpace": "The top third of the image is a dark, textured field that serves as a canvas for the typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated silver and deep charcoal/black in the photographic element.",
+      "contrastColorRole": "Pure white for the primary artist name and secondary quartet text.",
+      "accentColorRole": "Sky blue, lime green, and muted red used for specific words in the title.",
+      "saturationAndValueRelationship": "High value contrast in the photo; high saturation contrast in the typography against the dark background.",
+      "paletteRestrictions": [
+        "Monochrome photo base",
+        "Primary-adjacent accent colors (Blue, Green, Red)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Grotesque sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight letter spacing (kerning)",
+        "All-caps presentation",
+        "Square-ish proportions with slightly rounded corners"
+      ],
+      "characterSpecificRedesigns": [
+        "None; relies on standard mid-century grotesque forms."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Normal to slightly condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High (All Caps)",
+            "terminals": "Flat",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Two-line block",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top left to top right",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Placed in the dark negative space above the subject."
+          },
+          "treatment": {
+            "fill": "Multi-colored (White, Blue, Green, Red)",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family with color-coding to differentiate hierarchy and mood.",
+      "graphicDevices": [
+        "Color blocking by word"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Bold weight",
+          "All-caps",
+          "Tight tracking"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Wide letter spacing"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the mid-century American grotesque aesthetic and weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Trade Gothic Bold Condensed",
+            "reason": "Provides the necessary impact and tight structure.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A high-angle, monochrome photo of a man in a 1960s convertible car parked on dark asphalt. The car is bright silver/white, creating high contrast. The top 30% of the image is dark, empty space.",
+        "overlayInstruction": "Add two lines of bold, all-caps sans-serif text in the top dark area. The first line should be a mix of white and three distinct colors (blue, green, red) for different words. The second line should be smaller and white, centered under the first part of the text."
+      },
+      "verificationChecks": [
+        "Is the photo high-angle?",
+        "Is the text all-caps and bold?",
+        "Are there at least four colors used in the typography?",
+        "Is the car the primary visual anchor?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Car color (though white/silver provides best contrast)",
+      "Specific accent colors in the text",
+      "Texture of the ground (grass vs. asphalt)"
+    ],
+    "mustRedesign": [
+      "Specific artist name",
+      "Specific album title",
+      "Any record label logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast monochrome photography",
+        "Clean, impactful mid-century typography",
+        "Balanced negative space at the top"
+      ],
+      "avoid": [
+        "Modern digital filters",
+        "Low-contrast imagery",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is perfectly horizontal.",
+      "Check that the man's face is clear but not the sole focus.",
+      "Verify the desaturated, vintage film look of the photo.",
+      "Confirm the typography does not overlap the car."
+    ],
+    "reuseFormula": "High-angle monochrome subject + Dark top-third negative space + Multi-colored bold sans-serif header."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:45:49.712Z"
+}

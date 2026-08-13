@@ -1,0 +1,288 @@
+{
+  "id": "ef5e81b91e7f2f4b5fa134af70b47a281cdcb08947fa44c96d7a7e1ec4361115",
+  "skillId": "ef5e81b91e7f2f4b5fa134af70b47a281cdcb08947fa44c96d7a7e1ec4361115",
+  "versionId": "ef5e81b91e7f2f4b5fa134af70b47a281cdcb08947fa44c96d7a7e1ec4361115",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:49:38.575Z",
+  "approvedAt": "2026-08-12T19:49:38.575Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:49:38.575Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Man.jpg",
+    "hash": "ef5e81b91e7f2f4b5fa134af70b47a281cdcb08947fa44c96d7a7e1ec4361115",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Man",
+    "artist": "Lorne Greene",
+    "artworkUrl": "https://coverartarchive.org/release-group/ec0b7ecd-8ea8-43e3-a972-aebe3f9e2c4d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ec0b7ecd-8ea8-43e3-a972-aebe3f9e2c4d",
+    "releaseGroupId": "ec0b7ecd-8ea8-43e3-a972-aebe3f9e2c4d",
+    "recordingId": "a6eb21c6-d554-45ca-bb68-b0be6d3b79d3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The ManLorne Greene",
+      "song": "The Man",
+      "performer": "Lorne Greene",
+      "peakPosition": 72,
+      "firstChartDate": "1965-01-30",
+      "lastChartDate": "1965-02-13",
+      "appearances": [
+        {
+          "chartDate": "1965-01-30",
+          "position": 81
+        },
+        {
+          "chartDate": "1965-02-06",
+          "position": 72
+        },
+        {
+          "chartDate": "1965-02-13",
+          "position": 72
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century western album cover layout 1960s slab serif steam locomotive suede jacket blue sky asymmetrical layout warm foreground subject vs cool blue background industrial machinery balanced by human presence heavy block typography anchored in the upper left quadrant diagonal line created by the subject s arm leading toward the center subject man in suede background steam engine blue sky typography heavy slab serif left aligned mid century western aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Western Album Cover Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Offset Printing",
+        "Typography"
+      ],
+      "useCases": [
+        "Vintage record sleeve design",
+        "Western-themed editorial layouts",
+        "Retro portrait photography with industrial backgrounds"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "slab serif",
+        "steam locomotive",
+        "suede jacket",
+        "blue sky",
+        "asymmetrical layout"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A mid-century masculine portrait layout featuring a subject in warm earth tones against a cool blue sky and industrial machinery, utilizing heavy slab-serif display type.",
+      "triggerTerms": [
+        "vintage western album cover",
+        "1960s portrait with steam engine",
+        "slab serif typography on blue background"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "high-contrast black and white photography",
+        "sans-serif dominant layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium shot of a man in a rust-colored suede jacket positioned in the foreground, offset to the right, with a vintage steam locomotive in the background to the left, all set against a clear blue sky with minimal foliage.",
+    "coreVisualRelationships": [
+      "Warm foreground subject vs. cool blue background",
+      "Industrial machinery balanced by human presence",
+      "Heavy block typography anchored in the upper left quadrant",
+      "Diagonal line created by the subject's arm leading toward the center"
+    ],
+    "coreInvariants": [
+      "Rust-orange or ochre jacket color",
+      "Clear, saturated blue sky background",
+      "Heavy slab-serif display typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is a medium-close-up, positioned in the right two-thirds of the frame, leaning forward.",
+      "visualAnchor": "The man's face and the bright rust-colored jacket serve as the primary anchors.",
+      "movementAndEyePath": "Eye starts at the bold text in the top left, moves down to the locomotive, then across to the subject's face and down his arm.",
+      "negativeSpace": "The upper left quadrant provides negative space for the primary typographic elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Sky blue (background)",
+      "contrastColorRole": "Rust orange (subject's jacket)",
+      "accentColorRole": "Yellow (secondary text)",
+      "saturationAndValueRelationship": "High saturation in the jacket and sky; mid-tones in the skin and locomotive.",
+      "paletteRestrictions": [
+        "Limited to earth tones, blue, and primary yellow/white for text"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif and condensed sans-serif",
+      "letterConstructionRules": [
+        "Thick, blocky serifs for display text",
+        "High stroke weight",
+        "Tight letter spacing for the main title"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "extra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt slab",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "flush left",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over sky"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "slab",
+            "corners": "sharp",
+            "counters": "medium",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below primary display",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over sky"
+          },
+          "treatment": {
+            "fill": "yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold white slab serif paired with a smaller yellow slab serif for emphasis.",
+      "graphicDevices": [
+        "Horizontal rule lines",
+        "Boxed text containers"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif style",
+          "Left alignment",
+          "Color contrast between white and yellow"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Centering the text",
+          "Modern geometric sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab serif weight and blunt terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Stymie Black",
+            "reason": "Provides the correct mid-century slab serif aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photograph of a man in a rust-colored suede jacket in the foreground, offset to the right. In the background to the left, place a vintage steam locomotive. The setting is outdoors under a clear blue sky with a few trees on the far right.",
+        "overlayInstruction": "Add bold slab-serif text in the upper left corner. The top line should be white and the second line should be yellow. Include thin horizontal lines and a small text block below the main titles."
+      },
+      "verificationChecks": [
+        "Is the jacket a warm rust/orange tone?",
+        "Is the text left-aligned in the upper left quadrant?",
+        "Is the sky a clear, saturated blue?",
+        "Is the locomotive visible but secondary to the man?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Jacket color",
+      "Locomotive type",
+      "Sky saturation",
+      "Text color pairing"
+    ],
+    "mustRedesign": [
+      "Logos and brand marks",
+      "Specific artist names",
+      "Track list content"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s color palette",
+        "Clear separation between subject and background",
+        "Heavy, authoritative typography"
+      ],
+      "avoid": [
+        "Digital gradients",
+        "Modern photographic filters",
+        "Thin or delicate fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the slab serif is sufficiently heavy.",
+      "Ensure the rust color of the jacket pops against the blue sky.",
+      "Verify the asymmetrical balance between the man and the train.",
+      "Confirm the text is legible against the sky background."
+    ],
+    "reuseFormula": "Subject(Man in Suede) + Background(Steam Engine + Blue Sky) + Typography(Heavy Slab Serif, Left-Aligned) = Mid-Century Western Aesthetic"
+  }
+}

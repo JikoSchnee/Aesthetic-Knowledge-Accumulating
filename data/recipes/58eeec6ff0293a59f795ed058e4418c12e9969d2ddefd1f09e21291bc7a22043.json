@@ -1,0 +1,254 @@
+{
+  "id": "58eeec6ff0293a59f795ed058e4418c12e9969d2ddefd1f09e21291bc7a22043",
+  "skillId": "58eeec6ff0293a59f795ed058e4418c12e9969d2ddefd1f09e21291bc7a22043",
+  "versionId": "58eeec6ff0293a59f795ed058e4418c12e9969d2ddefd1f09e21291bc7a22043",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:18:07.708Z",
+  "approvedAt": "2026-08-13T00:18:07.708Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:18:07.708Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Nightout.jpg",
+    "hash": "58eeec6ff0293a59f795ed058e4418c12e9969d2ddefd1f09e21291bc7a22043",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Nightout",
+    "artist": "Ellen Foley",
+    "artworkUrl": "https://coverartarchive.org/release-group/98adad1e-c515-3724-8de8-020acdc5ca67/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/98adad1e-c515-3724-8de8-020acdc5ca67",
+    "releaseGroupId": "98adad1e-c515-3724-8de8-020acdc5ca67",
+    "recordingId": "117f9a75-e917-4e26-a72e-7584b4e5a3fb",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "What's A Matter BabyEllen Foley",
+      "song": "What's A Matter Baby",
+      "performer": "Ellen Foley",
+      "peakPosition": 92,
+      "firstChartDate": "1979-11-17",
+      "lastChartDate": "1979-12-08",
+      "appearances": [
+        {
+          "chartDate": "1979-11-17",
+          "position": 92
+        },
+        {
+          "chartDate": "1979-11-24",
+          "position": 92
+        },
+        {
+          "chartDate": "1979-12-01",
+          "position": 92
+        },
+        {
+          "chartDate": "1979-12-08",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "noir interior portrait with red accents stark contrast noir lighting minimalist interior red typography 1970s aesthetic high key white deep shadows subject positioned in the lower left quadrant against a dark void vertical architectural line bisecting the frame into light and dark zones repetitive vertical lines of the radiator echoing the room s verticality small framed photo in the upper right balancing the heavy text in the upper left high contrast b w photography seated subject architectural split bold red condensed sans serif overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Noir Interior Portrait with Red Accents",
+      "category": "Photography",
+      "medium": [
+        "Black and White Film Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Editorial Fashion Layout",
+        "Cinematic Poster Design"
+      ],
+      "retrievalTags": [
+        "stark contrast",
+        "noir lighting",
+        "minimalist interior",
+        "red typography",
+        "1970s aesthetic",
+        "high-key white",
+        "deep shadows"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast black and white interior portrait featuring a seated subject against a void-like dark background, accented by bold red sans-serif typography in the upper corner.",
+      "triggerTerms": [
+        "noir interior portrait",
+        "stark b&w photography with red text",
+        "minimalist room with radiator and framed photo"
+      ],
+      "excludeWhen": [
+        "soft lighting is required",
+        "colorful backgrounds are needed",
+        "outdoor settings are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A monochromatic scene divided by sharp architectural lines, featuring a woman in a dark suit seated in a chair. The left side is dominated by a deep black void behind the subject, while the right side is a bright, high-key white room containing a vintage radiator and a small framed photograph. Bold red text is anchored in the top-left dark space.",
+    "coreVisualRelationships": [
+      "Subject positioned in the lower-left quadrant against a dark void",
+      "Vertical architectural line bisecting the frame into light and dark zones",
+      "Repetitive vertical lines of the radiator echoing the room's verticality",
+      "Small framed photo in the upper right balancing the heavy text in the upper left"
+    ],
+    "coreInvariants": [
+      "High-contrast black and white palette for the image",
+      "Vibrant red as the sole color for typography",
+      "Deep, detail-less black shadows contrasting with blown-out white walls"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is seated, medium-full shot, occupying the lower-left third of the frame.",
+      "visualAnchor": "The subject's face and the bold red text in the top-left corner.",
+      "movementAndEyePath": "Starts at the red text, moves down to the subject, then follows the floor line to the radiator on the right.",
+      "negativeSpace": "Extensive negative space provided by the black void behind the subject and the white wall on the right."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black and white photography (monochrome)",
+      "contrastColorRole": "Pure white for architectural highlights",
+      "accentColorRole": "Vivid red for all typographic elements",
+      "saturationAndValueRelationship": "Extreme value contrast with zero saturation in the image and high saturation in the text.",
+      "paletteRestrictions": [
+        "No mid-tone grays",
+        "No secondary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight letter spacing",
+        "Flat terminals",
+        "Tall x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "Horizontal bars are added as underlines or dividers between lines of text"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over dark void"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used in varying scales or with graphic dividers.",
+      "graphicDevices": [
+        "Horizontal rule/underline integrated with the text block"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Bold weight",
+          "Red color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Low-contrast colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy, condensed, and authoritative feel of the original.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Provides the necessary verticality and clean grotesque terminals.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white photo of a woman in a dark suit sitting on a chair. The left background is a pitch-black void; the right background is a bright white room with a vintage radiator and a small framed photo on the wall.",
+        "overlayInstruction": "Add bold, condensed red sans-serif text in the top-left corner. Use all caps and include a thin red horizontal line between the two lines of text."
+      },
+      "verificationChecks": [
+        "Is the image strictly black and white?",
+        "Is the text the only source of color (red)?",
+        "Is the composition split between a dark void and a bright room?",
+        "Is the font a bold, condensed sans-serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject pose",
+      "Specific room details (e.g., type of radiator)",
+      "Text content",
+      "Intensity of the red accent"
+    ],
+    "mustRedesign": [
+      "Avoid literal recreation of the specific person's face",
+      "Do not use the specific framed photo content",
+      "Ensure the red text is a generic placeholder"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp, clean edges between light and dark",
+        "Legible, high-impact typography",
+        "Cinematic noir atmosphere"
+      ],
+      "avoid": [
+        "Muddled gray tones",
+        "Soft focus",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure black and pure white levels",
+      "Verify text is top-left aligned",
+      "Ensure no other colors besides red are present",
+      "Confirm the subject is seated and facing the camera"
+    ],
+    "reuseFormula": "High-contrast B&W photography + Seated subject + Architectural split + Bold red condensed sans-serif overlay."
+  }
+}

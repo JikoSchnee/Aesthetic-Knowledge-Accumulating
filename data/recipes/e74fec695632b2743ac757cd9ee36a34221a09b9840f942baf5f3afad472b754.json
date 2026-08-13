@@ -1,0 +1,277 @@
+{
+  "id": "e74fec695632b2743ac757cd9ee36a34221a09b9840f942baf5f3afad472b754",
+  "skillId": "e74fec695632b2743ac757cd9ee36a34221a09b9840f942baf5f3afad472b754",
+  "versionId": "e74fec695632b2743ac757cd9ee36a34221a09b9840f942baf5f3afad472b754",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:22:19.615Z",
+  "approvedAt": "2026-08-12T16:22:19.615Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:22:19.615Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "El DeBarge.jpg",
+    "hash": "e74fec695632b2743ac757cd9ee36a34221a09b9840f942baf5f3afad472b754",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "El DeBarge",
+    "artist": "El DeBarge",
+    "artworkUrl": "https://coverartarchive.org/release-group/92eca5d1-5c9a-3f8d-b27e-71a745701e47/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/92eca5d1-5c9a-3f8d-b27e-71a745701e47",
+    "releaseGroupId": "92eca5d1-5c9a-3f8d-b27e-71a745701e47",
+    "recordingId": "beb67b67-57f2-4a89-ba69-ae80ff68b224",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "SomeoneEl DeBarge",
+      "song": "Someone",
+      "performer": "El DeBarge",
+      "peakPosition": 70,
+      "firstChartDate": "1986-12-27",
+      "lastChartDate": "1987-02-21",
+      "appearances": [
+        {
+          "chartDate": "1986-12-27",
+          "position": 90
+        },
+        {
+          "chartDate": "1987-01-03",
+          "position": 90
+        },
+        {
+          "chartDate": "1987-01-10",
+          "position": 85
+        },
+        {
+          "chartDate": "1987-01-17",
+          "position": 78
+        },
+        {
+          "chartDate": "1987-01-24",
+          "position": 71
+        },
+        {
+          "chartDate": "1987-01-31",
+          "position": 70
+        },
+        {
+          "chartDate": "1987-02-07",
+          "position": 78
+        },
+        {
+          "chartDate": "1987-02-14",
+          "position": 91
+        },
+        {
+          "chartDate": "1987-02-21",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "80s soul portrait with chiaroscuro lighting chiaroscuro 80s portrait serif typography low key lighting film grain high contrast subject face positioned on the left third with gaze directed toward the viewer typography balanced in the negative space on the right deep black background merging with the unlit side of the subject red accent color in the clothing providing a focal point at the base portrait low key side lit background solid black typography upper right serif right aligned 80s soul aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "80s Soul Portrait with Chiaroscuro Lighting",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "R&B album covers",
+        "Vintage music posters",
+        "Retro editorial portraits"
+      ],
+      "retrievalTags": [
+        "chiaroscuro",
+        "80s portrait",
+        "serif typography",
+        "low-key lighting",
+        "film grain",
+        "high contrast"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, low-key male portrait featuring dramatic side-lighting and classic serif typography positioned in the upper right corner.",
+      "triggerTerms": [
+        "80s soul album cover style",
+        "chiaroscuro male portrait",
+        "dramatic side-lit studio photography"
+      ],
+      "excludeWhen": [
+        "brightly lit environments",
+        "minimalist modern sans-serif layouts",
+        "outdoor natural light settings"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up portrait of a man with dark curly hair and a mustache, emerging from deep shadows. The lighting is directional, illuminating only half of the face and creating a stark contrast against a black background. The composition is anchored by a two-line serif text block in the upper right and a small technical logo in the bottom right.",
+    "coreVisualRelationships": [
+      "Subject face positioned on the left third with gaze directed toward the viewer",
+      "Typography balanced in the negative space on the right",
+      "Deep black background merging with the unlit side of the subject",
+      "Red accent color in the clothing providing a focal point at the base"
+    ],
+    "coreInvariants": [
+      "Heavy film grain texture",
+      "Hard-edged shadows",
+      "Warm skin tones against a cool black void"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale head and shoulders portrait occupying the left two-thirds of the frame.",
+      "visualAnchor": "The illuminated eye and bridge of the nose serve as the primary focal point.",
+      "movementAndEyePath": "From the bright side of the face, across the dark void to the text in the upper right, then down to the red shirt collar.",
+      "negativeSpace": "Extensive black negative space on the right side of the frame."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background and shadows)",
+      "contrastColorRole": "Warm tan/brown (skin tones)",
+      "accentColorRole": "Vibrant red (inner shirt)",
+      "saturationAndValueRelationship": "High value contrast with low overall saturation, except for the localized red accent.",
+      "paletteRestrictions": [
+        "Deep blacks",
+        "Warm ambers",
+        "Crimson red",
+        "Off-white typography"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional serif",
+      "letterConstructionRules": [
+        "Sharp, triangular serifs",
+        "Vertical stress",
+        "High stroke contrast between thicks and thins",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Uppercase 'EL' stacked above mixed-case surname",
+        "Small caps used for specific emphasis"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Bracketed",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Mixed Case",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Two lines, staggered",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Upper right corner",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Off-white with subtle orange drop-shadow",
+            "outline": "None",
+            "shadow": "Tight orange offset",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family with varying weights or cases.",
+      "graphicDevices": [
+        "Subtle orange drop shadow on text",
+        "Technical logo in bottom right corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High-contrast serif style",
+          "Right-aligned placement",
+          "Warm drop shadow"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Centered text",
+          "Neon colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman Bold",
+            "reason": "Matches the classic high-contrast serif structure and availability.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Century Schoolbook",
+            "reason": "Provides the sturdy, bracketed serifs seen in the reference.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-key studio portrait of a man with 80s styling, using a single hard light source from the side to create deep chiaroscuro shadows against a pure black background. Add heavy film grain.",
+        "overlayInstruction": "Typeset the name in a bold high-contrast serif font in the upper right corner, right-aligned, with a very thin orange-red drop shadow."
+      },
+      "verificationChecks": [
+        "Is the right side of the face completely in shadow?",
+        "Is the text right-aligned in the upper quadrant?",
+        "Is there a visible red accent near the bottom center?",
+        "Does the image have a grainy, analog film texture?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the red accent",
+      "Amount of film grain",
+      "Tightness of the text tracking",
+      "Ratio of light to shadow on the face"
+    ],
+    "mustRedesign": [
+      "Specific artist name",
+      "Proprietary 'Compact Disc' logo",
+      "Exact facial features of the individual"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic chiaroscuro lighting",
+        "Clean serif typography",
+        "Deep black levels"
+      ],
+      "avoid": [
+        "Soft, even lighting",
+        "Modern digital sharpness",
+        "Brightly colored backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the shadow side of the face is nearly black",
+      "Verify the text is a classic serif font",
+      "Check for the presence of a subtle warm drop shadow on text",
+      "Confirm the composition feels weighted to the left"
+    ],
+    "reuseFormula": "Portrait(Low-Key + Side-Lit) + Background(Solid Black) + Typography(Upper-Right + Serif + Right-Aligned) = 80s Soul Aesthetic"
+  }
+}

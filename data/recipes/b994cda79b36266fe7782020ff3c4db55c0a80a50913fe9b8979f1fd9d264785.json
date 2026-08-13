@@ -1,0 +1,242 @@
+{
+  "id": "b994cda79b36266fe7782020ff3c4db55c0a80a50913fe9b8979f1fd9d264785",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:13:24.574Z",
+  "approvedAt": "2026-08-11T15:13:24.574Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:13:24.574Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Philadelphia Freeway.jpg",
+    "hash": "b994cda79b36266fe7782020ff3c4db55c0a80a50913fe9b8979f1fd9d264785",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Philadelphia Freeway",
+    "artist": "Freeway Featuring Peedi Crakk",
+    "artworkUrl": "https://coverartarchive.org/release-group/68f69ccb-5c82-30b1-ae0e-277ab3beb943/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/68f69ccb-5c82-30b1-ae0e-277ab3beb943",
+    "releaseGroupId": "68f69ccb-5c82-30b1-ae0e-277ab3beb943",
+    "recordingId": "7834d3bc-8727-47d1-bda8-c00ae2294a6f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "FlipsideFreeway Featuring Peedi Crakk",
+      "song": "Flipside",
+      "performer": "Freeway Featuring Peedi Crakk",
+      "peakPosition": 95,
+      "firstChartDate": "2003-06-07",
+      "lastChartDate": "2003-06-21",
+      "appearances": [
+        {
+          "chartDate": "2003-06-07",
+          "position": 95
+        },
+        {
+          "chartDate": "2003-06-14",
+          "position": 98
+        },
+        {
+          "chartDate": "2003-06-21",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban gritty hip hop album cover hip hop gritty urban street photography collage highway sign motel early 2000s aesthetic extreme close up portrait juxtaposed with a wide angle mid ground vehicle textured map overlay providing a thematic background layer bold display typography integrated into a graphic highway shield distressed high contrast black and white borders framing the central color imagery urban portrait vintage car map overlay shield integrated heavy italic type distressed border gritty hip hop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Gritty Hip-Hop Album Cover",
+      "category": "Music Artwork",
+      "medium": [
+        "Photography",
+        "Digital Collage",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Streetwear Branding",
+        "Urban Event Poster"
+      ],
+      "retrievalTags": [
+        "hip-hop",
+        "gritty",
+        "urban",
+        "street photography",
+        "collage",
+        "highway sign",
+        "motel",
+        "early 2000s aesthetic"
+      ]
+    },
+    "visualDefinition": "A high-contrast, gritty urban collage featuring a close-up portrait of a man with a beard, a vintage sedan parked in front of a low-rise motel, and a background map overlay, all framed by a distressed border and bold, italicized typography integrated with a highway shield emblem.",
+    "coreVisualRelationships": [
+      "Extreme close-up portrait juxtaposed with a wide-angle mid-ground vehicle",
+      "Textured map overlay providing a thematic background layer",
+      "Bold display typography integrated into a graphic highway shield",
+      "Distressed, high-contrast black and white borders framing the central color imagery"
+    ],
+    "coreInvariants": [
+      "High-contrast lighting on the face",
+      "Desaturated or gritty color palette",
+      "Layered composition with map textures",
+      "Heavy, slanted sans-serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale portrait occupies the right two-thirds of the frame; vintage car occupies the left mid-ground.",
+      "visualAnchor": "The large, italicized display text and highway shield in the upper left corner.",
+      "movementAndEyePath": "Starts at the bold text/shield, moves down to the car, then sweeps right across the subject's face to the distressed bottom border.",
+      "negativeSpace": "Minimal; the composition is dense with textures, map lines, and overlapping elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated earth tones and skin tones in the photography.",
+      "contrastColorRole": "Deep blacks and bright whites in the borders and text outlines.",
+      "accentColorRole": "Deep burgundy/red within the highway shield graphic.",
+      "saturationAndValueRelationship": "High value contrast with low overall color saturation, creating a 'street' or 'gritty' feel.",
+      "paletteRestrictions": [
+        "Avoid neon or pastel colors",
+        "Stick to muted, industrial, or urban tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extra-bold, slanted geometric sans-serif",
+      "letterConstructionRules": [
+        "Heavy horizontal weight",
+        "Sharp, aggressive italicization",
+        "Thick white outlines around black fill",
+        "Tight kerning with slight overlaps"
+      ],
+      "characterSpecificRedesigns": [
+        "The initial letter is integrated into a custom highway shield graphic",
+        "Terminals are cut at sharp angles to match the slant"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "angled",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "large",
+            "rotation": "italicized",
+            "warp": "none",
+            "overlap": "over background map",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "thick white",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "slanted"
+          }
+        }
+      ],
+      "pairingStrategy": "Secondary text uses a clean, smaller sans-serif for geographic or metadata details.",
+      "graphicDevices": [
+        "Highway shield emblem",
+        "Distressed film-strip border",
+        "Topographical map overlay",
+        "Warning label block"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slant angle",
+          "Heavy outline",
+          "Integration with shield"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Thin weights",
+          "Script styles"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Provides the necessary weight and verticality for modification.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Eurostile Bold Extended Italic",
+            "reason": "Captures the wide, modern, aggressive stance.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a gritty urban collage. On the right, a close-up, high-contrast portrait of a man with a beard looking off-camera. On the left, a vintage 1970s sedan in front of a one-story motel. Overlay the entire scene with a faint, desaturated street map texture. Frame the image with a distressed, black-and-white grunge border.",
+        "overlayInstruction": "Place a large, bold, italicized sans-serif title across the top. The first letter should be enclosed in a burgundy and yellow highway shield. Add a black-and-white rectangular advisory label in the bottom left corner."
+      },
+      "verificationChecks": [
+        "Is the typography heavily slanted and outlined?",
+        "Does the map texture overlay the background elements?",
+        "Is the border distressed and high-contrast?",
+        "Is the highway shield integrated with the text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the map overlay",
+      "Level of distress on the borders",
+      "Specific car model (must remain vintage/urban)",
+      "Color of the highway shield"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact street names on the map",
+      "Proprietary logos or brand names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Gritty, high-contrast texture",
+        "Aggressive typographic presence",
+        "Sense of urban location"
+      ],
+      "avoid": [
+        "Clean, minimalist layouts",
+        "Bright, cheerful colors",
+        "Soft, blurry edges"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that text is legible despite the heavy outline.",
+      "Ensure the map lines do not obscure the subject's eyes.",
+      "Verify the car looks grounded in the scene.",
+      "Confirm the border looks like distressed film or paper."
+    ],
+    "reuseFormula": "Urban Portrait + Vintage Car + Map Overlay + Shield-Integrated Heavy Italic Type + Distressed Border = Gritty Hip-Hop Aesthetic"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:20:46.796Z"
+}

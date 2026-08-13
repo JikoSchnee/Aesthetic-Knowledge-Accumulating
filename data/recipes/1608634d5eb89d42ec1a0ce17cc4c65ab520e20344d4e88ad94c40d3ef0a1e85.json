@@ -1,0 +1,245 @@
+{
+  "id": "1608634d5eb89d42ec1a0ce17cc4c65ab520e20344d4e88ad94c40d3ef0a1e85",
+  "skillId": "1608634d5eb89d42ec1a0ce17cc4c65ab520e20344d4e88ad94c40d3ef0a1e85",
+  "versionId": "1608634d5eb89d42ec1a0ce17cc4c65ab520e20344d4e88ad94c40d3ef0a1e85",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:27:38.892Z",
+  "approvedAt": "2026-08-12T23:27:38.892Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:27:38.892Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Popular Monster.jpg",
+    "hash": "1608634d5eb89d42ec1a0ce17cc4c65ab520e20344d4e88ad94c40d3ef0a1e85",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Popular Monster",
+    "artist": "Falling In Reverse",
+    "artworkUrl": "https://coverartarchive.org/release-group/d14f7547-2dcf-4c74-800e-614723b2352b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d14f7547-2dcf-4c74-800e-614723b2352b",
+    "releaseGroupId": "d14f7547-2dcf-4c74-800e-614723b2352b",
+    "recordingId": "b86c2ce6-21e2-43c2-9989-d1050e94fce1",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Watch The World BurnFalling In Reverse",
+      "song": "Watch The World Burn",
+      "performer": "Falling In Reverse",
+      "peakPosition": 83,
+      "firstChartDate": "2023-02-18",
+      "lastChartDate": "2023-02-18",
+      "appearances": [
+        {
+          "chartDate": "2023-02-18",
+          "position": 83
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty mugshot portrait aesthetic mugshot police booking photo grainy texture harsh lighting tattoos mullet hairstyle parental advisory label subject centered against a flat textured background harsh frontal flash creating flat but high contrast features heavy film grain unified across subject and background small graphic element in the bottom right corner for compositional balance mugshot aesthetic harsh frontal flash heavy digital noise centered composition neutral gray background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Mugshot Portrait Aesthetic",
+      "category": "Photography",
+      "medium": [
+        "Digital Photography",
+        "Film Grain Overlay",
+        "Flash Photography"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Social Media Profile",
+        "Gritty Editorial Portrait"
+      ],
+      "retrievalTags": [
+        "mugshot",
+        "police booking photo",
+        "grainy texture",
+        "harsh lighting",
+        "tattoos",
+        "mullet hairstyle",
+        "parental advisory label"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Generates a raw, high-contrast booking-style portrait with heavy film grain and a neutral, textured background.",
+      "triggerTerms": [
+        "mugshot style portrait",
+        "grainy police booking photo",
+        "harsh flash headshot"
+      ],
+      "excludeWhen": [
+        "glamour photography",
+        "soft lighting",
+        "clean studio portraits",
+        "vibrant colors"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, medium close-up portrait featuring a subject with a direct, neutral gaze, characterized by harsh frontal lighting, heavy digital noise/grain, and a desaturated color palette against a textured gray wall.",
+    "coreVisualRelationships": [
+      "Subject centered against a flat, textured background",
+      "Harsh frontal flash creating flat but high-contrast features",
+      "Heavy film grain unified across subject and background",
+      "Small graphic element in the bottom right corner for compositional balance"
+    ],
+    "coreInvariants": [
+      "Heavy monochromatic film grain overlay",
+      "Neutral gray textured background",
+      "Direct eye contact with the camera"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Head and shoulders centered, filling approximately 70% of the vertical frame.",
+      "visualAnchor": "The subject's eyes, positioned slightly above the horizontal midline.",
+      "movementAndEyePath": "Direct engagement with the eyes, moving down to facial details and tattoos, ending at the bottom-right corner graphic.",
+      "negativeSpace": "Uniform gray space surrounding the head, emphasizing the silhouette."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated skin tones and dark hair against a neutral gray background.",
+      "contrastColorRole": "Deep blacks in the hair and shadows against the mid-tone gray wall.",
+      "accentColorRole": "Subtle muted reds and greens in neck tattoos.",
+      "saturationAndValueRelationship": "Low saturation with high value contrast; shadows are crushed and highlights are slightly blown by flash.",
+      "paletteRestrictions": [
+        "Desaturated",
+        "Muted",
+        "Neutral Grays"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "All-caps typesetting",
+        "High-contrast black and white box framing",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Bottom Right",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating overlay"
+          },
+          "treatment": {
+            "fill": "White text on black background",
+            "outline": "White border",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family with varying weights for hierarchical clarity.",
+      "graphicDevices": [
+        "Rectangular border",
+        "Solid black background block"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps",
+          "Black and white color scheme",
+          "Bottom-right placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Bright colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed feel for a warning label.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Bold Condensed",
+            "reason": "Standard utilitarian look suitable for institutional graphics.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a grainy, desaturated portrait of a person with a mullet and facial tattoos against a gray concrete wall, using harsh frontal flash lighting.",
+        "overlayInstruction": "Add a small, rectangular black-and-white advisory-style label in the bottom right corner using a bold, condensed sans-serif font."
+      },
+      "verificationChecks": [
+        "Is the grain texture visible across the entire image?",
+        "Is the lighting harsh and frontal?",
+        "Is the subject centered?",
+        "Is the graphic in the bottom right corner legible and high-contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of film grain",
+      "Subject's hairstyle and tattoos",
+      "Level of desaturation",
+      "Background texture roughness"
+    ],
+    "mustRedesign": [
+      "Any specific brand logos",
+      "Identifiable celebrity likenesses",
+      "Specific trademarked text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic film noise",
+        "Institutional/clinical lighting feel",
+        "Neutral color balance"
+      ],
+      "avoid": [
+        "Soft focus",
+        "Warm lighting",
+        "Dynamic camera angles"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for uniform grain distribution",
+      "Ensure no 'beauty' retouching is present",
+      "Verify the background is a flat, textured surface",
+      "Confirm the subject's expression is neutral or vacant"
+    ],
+    "reuseFormula": "Mugshot Aesthetic = (Harsh Frontal Flash + Heavy Digital Noise) * (Centered Composition + Neutral Gray Background)"
+  }
+}

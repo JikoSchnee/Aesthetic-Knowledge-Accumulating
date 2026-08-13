@@ -1,0 +1,245 @@
+{
+  "id": "ff7bfadc30f96297293ddf50865f9eef7072d7aa9f12af06cf2eacf6198795b6",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T00:56:08.259Z",
+  "approvedAt": "2026-08-12T00:56:08.259Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T00:56:08.259Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Dance By the Light of the Moon.jpg",
+    "hash": "ff7bfadc30f96297293ddf50865f9eef7072d7aa9f12af06cf2eacf6198795b6",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Dance By the Light of the Moon",
+    "artist": "The Olympics",
+    "artworkUrl": "https://coverartarchive.org/release-group/557e93e5-c5bd-4e3e-be7d-a5a7027f1421/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/557e93e5-c5bd-4e3e-be7d-a5a7027f1421",
+    "releaseGroupId": "557e93e5-c5bd-4e3e-be7d-a5a7027f1421",
+    "recordingId": "a885557b-d7b3-42d3-bb89-7701565a6fb2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Little PedroThe Olympics",
+      "song": "Little Pedro",
+      "performer": "The Olympics",
+      "peakPosition": 76,
+      "firstChartDate": "1961-03-25",
+      "lastChartDate": "1961-04-15",
+      "appearances": [
+        {
+          "chartDate": "1961-03-25",
+          "position": 98
+        },
+        {
+          "chartDate": "1961-04-01",
+          "position": 76
+        },
+        {
+          "chartDate": "1961-04-08",
+          "position": 76
+        },
+        {
+          "chartDate": "1961-04-15",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul ensemble album cover mid century modern 1960s typography vocal group halftone texture analog photography sans serif display contrast between the bright warm toned suits and the cool dark background interlocking relationship between large display text and small connector words dynamic staggered posing of the subjects creating a sense of movement tight cropping that emphasizes the group s unity and the bold header combine a dynamic group portrait in vintage formal wear with a top heavy color blocked interlocking display header in a condensed sans serif",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Ensemble Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Color Photography",
+        "Graphic Design",
+        "Offset Lithography"
+      ],
+      "useCases": [
+        "Vintage record sleeve design",
+        "Retro 1960s promotional poster",
+        "Soul/R&B music branding"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "1960s typography",
+        "vocal group",
+        "halftone texture",
+        "analog photography",
+        "sans-serif display"
+      ]
+    },
+    "visualDefinition": "A four-man vocal ensemble in matching light-colored suits posed dynamically against a dark, textured teal-green studio backdrop, featuring bold, multi-colored interlocking display typography at the top.",
+    "coreVisualRelationships": [
+      "Contrast between the bright, warm-toned suits and the cool, dark background",
+      "Interlocking relationship between large display text and small connector words",
+      "Dynamic, staggered posing of the subjects creating a sense of movement",
+      "Tight cropping that emphasizes the group's unity and the bold header"
+    ],
+    "coreInvariants": [
+      "Matching formal attire (suits and bowties)",
+      "Textured, non-uniform studio backdrop",
+      "High-contrast, saturated color palette for typography",
+      "Low-angle or eye-level perspective"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four subjects occupy the lower two-thirds of the frame, arranged in a diamond-like formation with varying heights.",
+      "visualAnchor": "The large, bright yellow and orange title text spanning the top edge.",
+      "movementAndEyePath": "Starts at the bold top-left text, follows the title across to the right, then drops down to the expressive faces and hands of the performers.",
+      "negativeSpace": "Deep teal-green space surrounding the subjects, providing high contrast for the light suits."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Dark teal-green (background)",
+      "contrastColorRole": "Light beige/grey (suits)",
+      "accentColorRole": "Vibrant yellow and orange (typography)",
+      "saturationAndValueRelationship": "High saturation in the header text against a muted, dark background; subjects are high-value (bright) to pop forward.",
+      "paletteRestrictions": [
+        "Teal-green",
+        "Mustard yellow",
+        "Burnt orange",
+        "Warm beige",
+        "Deep black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extra-bold condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight kerning with overlapping elements",
+        "Vertical stretching of primary words",
+        "Nested placement of smaller connector words within the height of primary words"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'O's are often perfectly circular or slightly squared",
+        "Terminals are flat and horizontal"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Extra-Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Slightly rounded",
+            "counters": "Narrow",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line with nested sub-lines",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top edge",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "High",
+            "relationshipToImage": "Overlays the background above the subjects"
+          },
+          "treatment": {
+            "fill": "Solid flat color",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "Vertical elongation"
+          }
+        }
+      ],
+      "pairingStrategy": "Large display sans-serif paired with smaller versions of the same style nested vertically.",
+      "graphicDevices": [
+        "Nested text blocks",
+        "Color-blocked words"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Interlocking layout",
+          "Yellow/Orange color split"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Matches the heavy weight and condensed nature of the primary words.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Champion Gothic",
+            "reason": "Offers the variety of widths needed for the nested layout.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A studio photograph of four Black men in matching 1960s light-grey suits and black bowties, posed in mid-dance movements. The background is a dark, textured teal-green wall with subtle vignetting. The lighting is soft but directional, creating clear highlights on the suits.",
+        "overlayInstruction": "Add bold, condensed sans-serif text across the top. Primary words should be large and alternating between yellow and orange. Smaller connector words should be stacked vertically to fit the height of the primary words, creating a solid block of text."
+      },
+      "verificationChecks": [
+        "Is the text interlocking and justified across the top?",
+        "Do the suits have a slight sheen typical of 1960s fabrics?",
+        "Is the background texture visible and dark teal?",
+        "Are the poses dynamic and expressive?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Suit color (within neutral range)",
+      "Background texture intensity",
+      "Specific dance poses",
+      "Typography color palette (must remain warm/bright)"
+    ],
+    "mustRedesign": [
+      "Original artist names and specific logos",
+      "Exact facial features of the performers",
+      "Specific record label insignias"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Analog film grain texture",
+        "High-impact interlocking typography",
+        "Dynamic group composition"
+      ],
+      "avoid": [
+        "Modern digital sharpness",
+        "Flat, featureless backgrounds",
+        "Default system fonts without manual kerning"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 1960s era-appropriate suit lapels and ties",
+      "Ensure the typography feels integrated and not like a modern sticker",
+      "Verify the skin tones are rendered naturally under studio lighting",
+      "Confirm the teal background has sufficient depth and variation"
+    ],
+    "reuseFormula": "Combine a dynamic group portrait in vintage formal wear with a top-heavy, color-blocked, interlocking display header in a condensed sans-serif."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:28:24.882Z"
+}

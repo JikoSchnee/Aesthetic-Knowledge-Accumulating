@@ -1,0 +1,265 @@
+{
+  "id": "3aebbca6de8725d68c42ad5898fa8c3239bdc1260122d82b0065f28b0c143b44",
+  "skillId": "3aebbca6de8725d68c42ad5898fa8c3239bdc1260122d82b0065f28b0c143b44",
+  "versionId": "3aebbca6de8725d68c42ad5898fa8c3239bdc1260122d82b0065f28b0c143b44",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:06:26.127Z",
+  "approvedAt": "2026-08-12T12:06:26.127Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:06:26.127Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Warmer Side of Cool.jpg",
+    "hash": "3aebbca6de8725d68c42ad5898fa8c3239bdc1260122d82b0065f28b0c143b44",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Warmer Side of Cool",
+    "artist": "Wang Chung",
+    "artworkUrl": "https://coverartarchive.org/release-group/cec2f2a3-14be-3736-904f-24ae2ceaaa8a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/cec2f2a3-14be-3736-904f-24ae2ceaaa8a",
+    "releaseGroupId": "cec2f2a3-14be-3736-904f-24ae2ceaaa8a",
+    "recordingId": "5f34ba32-bf04-431a-a53d-dd43fa86bff2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Praying To A New GodWang Chung",
+      "song": "Praying To A New God",
+      "performer": "Wang Chung",
+      "peakPosition": 63,
+      "firstChartDate": "1989-05-27",
+      "lastChartDate": "1989-07-08",
+      "appearances": [
+        {
+          "chartDate": "1989-05-27",
+          "position": 93
+        },
+        {
+          "chartDate": "1989-06-03",
+          "position": 81
+        },
+        {
+          "chartDate": "1989-06-10",
+          "position": 73
+        },
+        {
+          "chartDate": "1989-06-17",
+          "position": 64
+        },
+        {
+          "chartDate": "1989-06-24",
+          "position": 63
+        },
+        {
+          "chartDate": "1989-07-01",
+          "position": 78
+        },
+        {
+          "chartDate": "1989-07-08",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "surrealist collage album art collage surrealism photomontage kangaroo interior landscape juxtaposition interior room nested within abstract landscape textures foreground figures overlapping the central room scene textured blue elements framing the top and sides of the central image small scale typography centered in the top and bottom white margins surrealist collage subject a subject b in environment framed by texture with color lowercase sans serif typography in a white border",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Surrealist Collage Album Art",
+      "category": "Graphic Design",
+      "medium": [
+        "Photomontage",
+        "Digital Collage",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Editorial Illustration",
+        "Surrealist Poster Design"
+      ],
+      "retrievalTags": [
+        "collage",
+        "surrealism",
+        "photomontage",
+        "kangaroo",
+        "interior",
+        "landscape",
+        "juxtaposition"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A surrealist photomontage style that juxtaposes disparate elements like animals, interior rooms, and abstract textures within a white-bordered frame.",
+      "triggerTerms": [
+        "surrealist collage with white border",
+        "photomontage of interior and landscape",
+        "juxtaposed animal and human figures in a room"
+      ],
+      "excludeWhen": [
+        "a clean minimalist photograph is requested",
+        "a single-subject portrait without background elements is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A complex visual composition featuring a central interior room scene framed by textured, blue-toned landscape fragments, all contained within a thick white square border. The foreground features a child and a kangaroo in a relaxed, domestic setting, creating a dreamlike narrative through scale and context shifts.",
+    "coreVisualRelationships": [
+      "Interior room nested within abstract landscape textures",
+      "Foreground figures overlapping the central room scene",
+      "Textured blue elements framing the top and sides of the central image",
+      "Small-scale typography centered in the top and bottom white margins"
+    ],
+    "coreInvariants": [
+      "Thick white outer border framing the entire square composition",
+      "Juxtaposition of interior and exterior environments",
+      "Low-contrast, slightly desaturated color palette with blue dominance"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The child and kangaroo occupy the lower foreground at a large scale, while the interior room provides a mid-ground depth.",
+      "visualAnchor": "The central interior room with its symmetrical windows acts as the structural anchor.",
+      "movementAndEyePath": "The eye moves from the large foreground figures up into the interior room and then outward to the textured blue framing elements.",
+      "negativeSpace": "The thick white border provides significant negative space that isolates the complex collage."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted blue and grey tones in the landscape and interior textures.",
+      "contrastColorRole": "Warm skin tones and pinkish-red clothing on the child.",
+      "accentColorRole": "Small pops of red in the typography and interior details.",
+      "saturationAndValueRelationship": "Low saturation overall with a matte, printed texture appearance.",
+      "paletteRestrictions": [
+        "Avoid high-vibrancy neon colors",
+        "Maintain a desaturated, vintage print feel"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Lowercase only",
+        "Wide letter spacing (tracking)",
+        "Monolinear stroke weight"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "centered",
+            "tracking": "0.2em",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top and bottom margins",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "isolated in white border"
+          },
+          "treatment": {
+            "fill": "dark red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used for both top and bottom text for consistency.",
+      "graphicDevices": [
+        "White square border",
+        "Collage edges"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase typesetting",
+          "Wide tracking",
+          "Red color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Uppercase letters",
+          "Tight spacing"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Medium",
+            "reason": "Matches the geometric, monolinear sans-serif look.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Provides the necessary geometric lowercase forms.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square surrealist collage featuring a central interior room with windows, a child and a kangaroo in the foreground, and textured blue landscape elements framing the top. Surround the entire image with a thick white border.",
+        "overlayInstruction": "Add small, lowercase geometric sans-serif text in dark red, centered in the top and bottom white margins with wide letter spacing."
+      },
+      "verificationChecks": [
+        "Is the text lowercase and red?",
+        "Is there a thick white border around the collage?",
+        "Are the foreground figures a child and a kangaroo?",
+        "Is the tracking wide on the typography?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Foreground subjects",
+      "Interior room style",
+      "Framing texture color",
+      "Typography color"
+    ],
+    "mustRedesign": [
+      "Avoid using specific brand logos",
+      "Do not replicate the exact faces of the individuals"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Seamless but visible collage edges",
+        "Balanced surrealist composition",
+        "Clean, centered typography"
+      ],
+      "avoid": [
+        "Messy or jagged digital cutouts",
+        "Overly saturated colors",
+        "Cluttered margins"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for the presence of the white border",
+      "Verify the text is lowercase and centered",
+      "Ensure the collage elements overlap correctly",
+      "Confirm the color palette is muted and cohesive"
+    ],
+    "reuseFormula": "Surrealist Collage [Subject A] + [Subject B] in [Environment] framed by [Texture] with [Color] lowercase sans-serif typography in a white border."
+  }
+}

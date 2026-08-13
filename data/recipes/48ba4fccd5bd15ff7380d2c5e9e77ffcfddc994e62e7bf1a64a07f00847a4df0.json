@@ -1,0 +1,302 @@
+{
+  "id": "48ba4fccd5bd15ff7380d2c5e9e77ffcfddc994e62e7bf1a64a07f00847a4df0",
+  "skillId": "48ba4fccd5bd15ff7380d2c5e9e77ffcfddc994e62e7bf1a64a07f00847a4df0",
+  "versionId": "48ba4fccd5bd15ff7380d2c5e9e77ffcfddc994e62e7bf1a64a07f00847a4df0",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:03:14.792Z",
+  "approvedAt": "2026-08-12T15:03:14.792Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:03:14.792Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Back on the Street.jpg",
+    "hash": "48ba4fccd5bd15ff7380d2c5e9e77ffcfddc994e62e7bf1a64a07f00847a4df0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Back on the Street",
+    "artist": "Robert John",
+    "artworkUrl": "https://coverartarchive.org/release-group/21e58f39-65b2-4696-907f-ec2f9d582c3c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/21e58f39-65b2-4696-907f-ec2f9d582c3c",
+    "releaseGroupId": "21e58f39-65b2-4696-907f-ec2f9d582c3c",
+    "recordingId": "dc9bba84-8700-4d73-a961-17e20c97bffc",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "SherryRobert John",
+      "song": "Sherry",
+      "performer": "Robert John",
+      "peakPosition": 70,
+      "firstChartDate": "1980-10-25",
+      "lastChartDate": "1980-11-22",
+      "appearances": [
+        {
+          "chartDate": "1980-10-25",
+          "position": 82
+        },
+        {
+          "chartDate": "1980-11-01",
+          "position": 72
+        },
+        {
+          "chartDate": "1980-11-08",
+          "position": 70
+        },
+        {
+          "chartDate": "1980-11-15",
+          "position": 83
+        },
+        {
+          "chartDate": "1980-11-22",
+          "position": 83
+        }
+      ]
+    }
+  },
+  "dedupeText": "twilight coastal melancholy dusk beachfront phone booth glowing light solitary figure color block bars serif typography grainy film the glowing phone booth acts as the primary light source and visual anchor against the dark foreground horizontal color bars create a diagonal tension between the top left and bottom right corners the solitary figure provides a central narrative focus between the structural elements the deep blue sky contrasts with the warm yellow and red of the graphic overlays twilight photography glowing vertical anchor corner weighted color block typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Twilight Coastal Melancholy",
+      "category": "Album Cover Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Soft rock album covers",
+        "Cinematic twilight photography",
+        "Retro 1970s-1980s music packaging"
+      ],
+      "retrievalTags": [
+        "dusk",
+        "beachfront",
+        "phone booth",
+        "glowing light",
+        "solitary figure",
+        "color block bars",
+        "serif typography",
+        "grainy film"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A cinematic twilight scene featuring a solitary figure near a glowing phone booth with high-contrast color-blocked text bars.",
+      "triggerTerms": [
+        "twilight beach photography with glowing phone booth",
+        "retro album cover with horizontal color bars",
+        "melancholic dusk scene with high-contrast text overlays"
+      ],
+      "excludeWhen": [
+        "bright daylight scenes",
+        "minimalist modern sans-serif layouts",
+        "urban neon cityscapes"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A low-light, grainy photograph of a man in light-colored clothing leaning against a railing at dusk, anchored by a brightly illuminated vintage phone booth on the right and framed by two horizontal, semi-transparent color bars containing serif text.",
+    "coreVisualRelationships": [
+      "The glowing phone booth acts as the primary light source and visual anchor against the dark foreground.",
+      "Horizontal color bars create a diagonal tension between the top-left and bottom-right corners.",
+      "The solitary figure provides a central narrative focus between the structural elements.",
+      "The deep blue sky contrasts with the warm yellow and red of the graphic overlays."
+    ],
+    "coreInvariants": [
+      "Grainy film texture",
+      "Deep blue/purple twilight sky",
+      "High-contrast internal lighting from the phone booth",
+      "Horizontal text bars with high saturation"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A medium-full shot of a man positioned slightly left of center, leaning on a white railing.",
+      "visualAnchor": "A brightly lit, vertical phone booth on the far right edge of the frame.",
+      "movementAndEyePath": "The eye moves from the top-left yellow bar, down to the figure, across to the phone booth, and finally to the bottom-right red bar.",
+      "negativeSpace": "Large expanse of dark foreground asphalt and deep blue twilight sky."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep indigo and navy (sky and shadows)",
+      "contrastColorRole": "Bright white and yellow (phone booth light)",
+      "accentColorRole": "Vivid yellow and crimson red (text bars)",
+      "saturationAndValueRelationship": "High saturation in graphic elements versus low-value, moody photographic base.",
+      "paletteRestrictions": [
+        "Deep blue",
+        "Forest green",
+        "Bright yellow",
+        "Crimson red",
+        "Warm white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional serif",
+      "letterConstructionRules": [
+        "Sharp, bracketed serifs",
+        "Vertical stress",
+        "Moderate stroke contrast"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Square",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "on yellow bar",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "Dark green",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Square",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "bottom-right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "on red bar",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "Dark red/black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in different scales and colors.",
+      "graphicDevices": [
+        "Horizontal rectangular color blocks",
+        "Semi-transparent overlays"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Serif style",
+          "Color block placement",
+          "Uppercase styling"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Italics",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman",
+            "reason": "Classic high-contrast serif matching the era's standard.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Baskerville",
+            "reason": "Elegant serifs and vertical stress.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A grainy, low-light photograph of a man in a light suit leaning on a white fence at a beach at dusk. A glowing vintage phone booth stands on the right, casting a warm white light. The sky is a deep gradient of blue and purple.",
+        "overlayInstruction": "Add a horizontal yellow bar in the top-left corner with dark green serif text. Add a horizontal red bar in the bottom-right corner with dark red serif text. Both bars should be slightly translucent."
+      },
+      "verificationChecks": [
+        "Is the phone booth the brightest point in the image?",
+        "Are the color bars positioned in opposite corners?",
+        "Is the film grain visible in the dark areas?",
+        "Is the typography a classic serif in all caps?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the phone booth glow",
+      "Opacity of the color bars",
+      "Amount of film grain",
+      "Hue of the twilight sky"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the man",
+      "Brand logos on the phone booth",
+      "Exact wording of the text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic low-light atmosphere",
+        "Balanced asymmetrical composition",
+        "Retro 35mm film aesthetic"
+      ],
+      "avoid": [
+        "Clean digital look",
+        "Overly bright shadows",
+        "Modern minimalist typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high contrast between the phone booth and the surrounding darkness.",
+      "Ensure the color bars do not fully obscure the background details.",
+      "Verify the serif font has sharp, traditional terminals.",
+      "Confirm the man's clothing is light-colored to catch the ambient light."
+    ],
+    "reuseFormula": "Twilight photography + glowing vertical anchor + corner-weighted color-block typography."
+  }
+}

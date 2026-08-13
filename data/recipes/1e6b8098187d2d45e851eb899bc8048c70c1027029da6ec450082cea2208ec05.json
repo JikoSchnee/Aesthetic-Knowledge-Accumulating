@@ -1,0 +1,178 @@
+{
+  "id": "1e6b8098187d2d45e851eb899bc8048c70c1027029da6ec450082cea2208ec05",
+  "skillId": "1e6b8098187d2d45e851eb899bc8048c70c1027029da6ec450082cea2208ec05",
+  "versionId": "1e6b8098187d2d45e851eb899bc8048c70c1027029da6ec450082cea2208ec05",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:59:54.488Z",
+  "approvedAt": "2026-08-13T04:59:54.488Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:59:54.488Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "25.jpg",
+    "hash": "1e6b8098187d2d45e851eb899bc8048c70c1027029da6ec450082cea2208ec05",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "25",
+    "artist": "Adele",
+    "artworkUrl": "https://coverartarchive.org/release-group/5537624c-3d2f-4f5c-8099-df916082c85c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5537624c-3d2f-4f5c-8099-df916082c85c",
+    "releaseGroupId": "5537624c-3d2f-4f5c-8099-df916082c85c",
+    "recordingId": "cdc9f701-60b4-4e37-a94f-87d0e396f2bc",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "RemedyAdele",
+      "song": "Remedy",
+      "performer": "Adele",
+      "peakPosition": 87,
+      "firstChartDate": "2015-12-12",
+      "lastChartDate": "2015-12-12",
+      "appearances": [
+        {
+          "chartDate": "2015-12-12",
+          "position": 87
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochromatic soul portraiture extreme close up symmetrical face winged eyeliner low key lighting sepia monochrome intense gaze symmetry between the left and right facial features contrast between the sharp dark eyeliner and the soft skin tones isolation of the face against a void like black background direct eye contact creating an emotional connection with the viewer extreme close up symmetrical face winged eyeliner warm monochrome studio lighting black background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochromatic Soul Portraiture",
+      "category": "Portrait Photography",
+      "medium": [
+        "Digital Photography",
+        "Studio Lighting",
+        "Sepia Toning"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Editorial Profile",
+        "Cinematic Character Poster"
+      ],
+      "retrievalTags": [
+        "extreme close-up",
+        "symmetrical face",
+        "winged eyeliner",
+        "low-key lighting",
+        "sepia monochrome",
+        "intense gaze"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, extreme close-up portrait featuring a symmetrical facial composition with a desaturated, warm-toned monochromatic finish.",
+      "triggerTerms": [
+        "extreme close-up portrait",
+        "symmetrical face composition",
+        "warm monochrome photography",
+        "cat-eye makeup portrait"
+      ],
+      "excludeWhen": [
+        "full body shots are required",
+        "vibrant color palettes are needed",
+        "multiple subjects are present"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "An intimate, centered headshot focusing on the eyes and facial structure, utilizing soft studio lighting to define skin texture while maintaining a deep, dark background that isolates the subject.",
+    "coreVisualRelationships": [
+      "Symmetry between the left and right facial features",
+      "Contrast between the sharp, dark eyeliner and the soft skin tones",
+      "Isolation of the face against a void-like black background",
+      "Direct eye contact creating an emotional connection with the viewer"
+    ],
+    "coreInvariants": [
+      "Extreme close-up framing (chin to hairline)",
+      "Desaturated sepia or warm-grey color grade",
+      "Defined winged eyeliner and groomed eyebrows",
+      "Soft, diffused frontal lighting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The face is centered and fills approximately 80% of the frame vertically.",
+      "visualAnchor": "The eyes, positioned on the upper third horizontal line, serve as the primary focal point.",
+      "movementAndEyePath": "The viewer's eye starts at the bridge of the nose, moves outward to the eyes, and then follows the jawline.",
+      "negativeSpace": "Deep black negative space surrounds the head, particularly at the corners and bottom, to emphasize the facial silhouette."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-tone beige/cream for skin highlights",
+      "contrastColorRole": "Deep charcoal/black for shadows and background",
+      "accentColorRole": "Warm sepia tinting across the entire image",
+      "saturationAndValueRelationship": "Low saturation with a wide value range from pure black to soft white highlights.",
+      "paletteRestrictions": [
+        "No primary colors",
+        "No high-saturation hues",
+        "Strictly monochromatic or duotone"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Vignetting",
+        "Soft focus on hair edges"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate an extreme close-up portrait of a woman with symmetrical features, winged eyeliner, and a neutral expression. Use soft studio lighting and a deep black background. Apply a warm sepia monochromatic filter.",
+        "overlayInstruction": "If adding text, use a high-contrast serif font centered at the bottom or top, ensuring it does not overlap the primary facial features."
+      },
+      "verificationChecks": [
+        "Is the face perfectly centered?",
+        "Is the lighting soft enough to show skin texture without harsh highlights?",
+        "Is the background pure black?",
+        "Is the color grade a consistent warm monochrome?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the sepia tint",
+      "Thickness of the winged eyeliner",
+      "Degree of background vignetting",
+      "Sharpness of the iris detail"
+    ],
+    "mustRedesign": [
+      "Avoid any colorful elements",
+      "Do not use wide-angle lenses that distort facial proportions",
+      "Ensure the hair does not distract from the face"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Photorealistic skin texture",
+        "Perfectly balanced facial symmetry",
+        "Deep, rich black levels"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Over-smoothing of the skin",
+        "Distracting background elements"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for eye symmetry and catchlights",
+      "Verify the desaturation level is consistent",
+      "Ensure the framing is tight on the face",
+      "Confirm the absence of any color artifacts"
+    ],
+    "reuseFormula": "Extreme close-up + Symmetrical Face + Winged Eyeliner + Warm Monochrome + Studio Lighting + Black Background"
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "id": "9ee34ca4c1fa75d0710b6260f8668c2ad911025438a5f1e872021d0a2acb8330",
+  "skillId": "9ee34ca4c1fa75d0710b6260f8668c2ad911025438a5f1e872021d0a2acb8330",
+  "versionId": "9ee34ca4c1fa75d0710b6260f8668c2ad911025438a5f1e872021d0a2acb8330",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T20:33:58.405Z",
+  "approvedAt": "2026-08-12T20:33:58.405Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T20:33:58.405Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "McGriff Avenue.jpg",
+    "hash": "9ee34ca4c1fa75d0710b6260f8668c2ad911025438a5f1e872021d0a2acb8330",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "McGriff Avenue",
+    "artist": "Jimmy McGriff",
+    "artworkUrl": "https://coverartarchive.org/release-group/849d07f9-f6b9-4efa-bc9b-334fb31c1084/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/849d07f9-f6b9-4efa-bc9b-334fb31c1084",
+    "releaseGroupId": "849d07f9-f6b9-4efa-bc9b-334fb31c1084",
+    "recordingId": "03cdf219-61a8-42d6-97eb-927d9965485e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The WormJimmy McGriff",
+      "song": "The Worm",
+      "performer": "Jimmy McGriff",
+      "peakPosition": 97,
+      "firstChartDate": "1968-12-14",
+      "lastChartDate": "1968-12-14",
+      "appearances": [
+        {
+          "chartDate": "1968-12-14",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban jazz portrait layout urban portrait extended sans serif outdoor photography musician profile street background upper header text subject s diagonal lean balances the vertical lines of the railing horizontal text blocks anchor the top edge of the frame warm skin tones and gold cap contrast with the cool toned blurred background red header bar provides a distinct separation for primary branding urban portrait ultra wide header red gradient overlay shallow depth of field",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Jazz Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Jazz album covers",
+        "Musician promotional posters",
+        "Soul and Blues artist branding"
+      ],
+      "retrievalTags": [
+        "urban portrait",
+        "extended sans-serif",
+        "outdoor photography",
+        "musician profile",
+        "street background",
+        "upper header text"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A portrait-centric layout featuring a subject leaning against urban architecture with wide, horizontally-stretched typography positioned in the upper third.",
+      "triggerTerms": [
+        "extended sans-serif header",
+        "urban musician portrait",
+        "leaning pose on railing",
+        "blurred street background"
+      ],
+      "excludeWhen": [
+        "minimalist white backgrounds",
+        "centered vertical typography",
+        "abstract or non-representational art"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium-close portrait of a man in a black shirt and patterned kufi cap, leaning against a metal railing in an urban setting. The composition uses a shallow depth of field to blur the background greenery and street, while the top of the frame features a red gradient bar containing wide, futuristic sans-serif text.",
+    "coreVisualRelationships": [
+      "Subject's diagonal lean balances the vertical lines of the railing",
+      "Horizontal text blocks anchor the top edge of the frame",
+      "Warm skin tones and gold cap contrast with the cool-toned blurred background",
+      "Red header bar provides a distinct separation for primary branding"
+    ],
+    "coreInvariants": [
+      "Horizontally extended typography",
+      "Shallow depth of field",
+      "Urban architectural elements as props",
+      "Top-weighted text hierarchy"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the right two-thirds of the frame, leaning from right to left.",
+      "visualAnchor": "The subject's face and the gold patterned cap serve as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the high-contrast text at the top, move down to the face, and follow the arm along the railing.",
+      "negativeSpace": "The left side of the frame is open with a blurred bokeh effect of trees and a street."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and browns in the subject's clothing and skin.",
+      "contrastColorRole": "Muted greens and blues in the blurred background.",
+      "accentColorRole": "Vibrant red in the top gradient bar and gold in the headwear and secondary text.",
+      "saturationAndValueRelationship": "High saturation in the header and cap; low saturation and high value in the background bokeh.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Maintain naturalistic skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Ultra-wide, geometric sans-serif",
+      "letterConstructionRules": [
+        "Extreme horizontal scaling",
+        "Uniform stroke weight",
+        "Open apertures",
+        "Square-ish curves"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'M' has a shallow middle vertex",
+        "The 'G' has a simple bar terminal"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Extended Sans-Serif",
+          "anatomy": {
+            "width": "ultra-expanded",
+            "weight": "medium",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "slightly rounded",
+            "counters": "wide",
+            "strokeCharacter": "clean"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over red gradient bar",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "horizontal stretch"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Extended Sans-Serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "bold",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "very wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "below primary header",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "yellow-gold",
+            "outline": "thin black",
+            "shadow": "soft glow",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Monochromatic font family with varying weights, widths, and colors to distinguish hierarchy.",
+      "graphicDevices": [
+        "Horizontal red gradient bar at the top",
+        "Drop shadows on text for legibility against the background"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ultra-wide aspect ratio of letters",
+          "Upper-third placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Vertical text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma Extended",
+            "reason": "Matches the mid-century modern, wide geometric aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bank Gothic",
+            "reason": "Provides the square-ish, technical feel of the primary text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Eurostile Extended",
+            "reason": "Offers the clean, wide proportions seen in the display text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in a black shirt and a gold-patterned kufi cap, leaning on a brown metal railing. The background should be a soft-focus urban street with green trees and a blue-grey road. Leave the top 15% of the image for a red-to-transparent gradient bar.",
+        "overlayInstruction": "Apply ultra-wide white sans-serif text centered in the red bar. Below it, add smaller gold-colored sans-serif text with wide letter spacing and a thin black outline."
+      },
+      "verificationChecks": [
+        "Is the primary text horizontally stretched?",
+        "Is the background sufficiently blurred to create depth?",
+        "Is the red bar present at the top edge?",
+        "Is the subject leaning on a railing?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the top gradient bar",
+      "Pattern on the subject's headwear",
+      "Specific urban background (e.g., brick wall vs. park)",
+      "Width of the text expansion"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the individual",
+      "Any brand logos or specific album titles",
+      "Exact clothing embroidery patterns"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Legible wide typography",
+        "Professional bokeh effect",
+        "Clear separation between text and subject"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Narrow or condensed fonts",
+        "Centering the subject perfectly"
+      ]
+    },
+    "postGenerationChecks": [
+      "Text is centered horizontally",
+      "Subject is in sharp focus",
+      "Background bokeh is smooth",
+      "Red header bar is semi-transparent or gradient",
+      "Gold text has high tracking"
+    ],
+    "reuseFormula": "Urban Portrait + Ultra-Wide Header + Red Gradient Overlay + Shallow Depth of Field"
+  }
+}

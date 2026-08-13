@@ -1,0 +1,237 @@
+{
+  "id": "3bd532f2e4d289ba2cda7991096220d39700679069e4c1350f251c70c3cf2b88",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:26:26.097Z",
+  "approvedAt": "2026-08-11T09:26:26.097Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:26:26.097Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Lee Brice.jpg",
+    "hash": "3bd532f2e4d289ba2cda7991096220d39700679069e4c1350f251c70c3cf2b88",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Lee Brice",
+    "artist": "Lee Brice",
+    "artworkUrl": "https://coverartarchive.org/release-group/1262bff7-0435-4063-9e83-987b616bac15/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1262bff7-0435-4063-9e83-987b616bac15",
+    "releaseGroupId": "1262bff7-0435-4063-9e83-987b616bac15",
+    "recordingId": "b08964e5-73e9-4adc-b6fa-6600d0e9853d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "BoyLee Brice",
+      "song": "Boy",
+      "performer": "Lee Brice",
+      "peakPosition": 94,
+      "firstChartDate": "2017-06-10",
+      "lastChartDate": "2017-06-10",
+      "appearances": [
+        {
+          "chartDate": "2017-06-10",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "rustic portrait with echoing typography country music rustic weathered texture low key lighting echoed text fedora masculine the downward gaze of the subject creates a somber introspective mood the vertical text stack acts as a graphic counterweight to the subject s face the weathered texture on the typography mirrors the rugged materials of the clothing deep shadows on the left contrast with the bright textured text on the right combine a low key downward facing portrait with a vertical typographic stack that uses opacity decay and heavy distressing to create a weathered atmospheric composition",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Rustic Portrait with Echoing Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Promotional Poster",
+        "Editorial Portrait"
+      ],
+      "retrievalTags": [
+        "country music",
+        "rustic",
+        "weathered texture",
+        "low-key lighting",
+        "echoed text",
+        "fedora",
+        "masculine"
+      ]
+    },
+    "visualDefinition": "A close-up, low-key portrait of a man in a wide-brimmed hat, looking downward, paired with a vertical stack of repeated, weathered sans-serif text that fades in opacity as it moves away from the center.",
+    "coreVisualRelationships": [
+      "The downward gaze of the subject creates a somber, introspective mood.",
+      "The vertical text stack acts as a graphic counterweight to the subject's face.",
+      "The weathered texture on the typography mirrors the rugged materials of the clothing.",
+      "Deep shadows on the left contrast with the bright, textured text on the right."
+    ],
+    "coreInvariants": [
+      "Subject wearing a dark fedora or wide-brimmed hat.",
+      "Textured, distressed sans-serif typography.",
+      "Muted, desaturated color palette with cool blue and warm brown tones.",
+      "Repetition of the main display text with varying opacity."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject's face is positioned in the upper-left quadrant, cropped tightly to show the hat, eyes (in shadow), and beard.",
+      "visualAnchor": "The high-contrast, fully opaque text block in the center-right.",
+      "movementAndEyePath": "The eye starts at the hat brim, follows the downward gaze to the beard, then moves right to the sharpest text, and finally scans the faded text echoes above and below.",
+      "negativeSpace": "The dark, shadowed area of the jacket and the blurred background provide space for the text overlay."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and chocolate browns in the clothing and hat.",
+      "contrastColorRole": "Off-white for the textured typography and the inner shirt.",
+      "accentColorRole": "Muted teal or slate blue in the mid-tones of the jacket and background.",
+      "saturationAndValueRelationship": "Low saturation with high value contrast between the deep shadows and the bright, distressed text.",
+      "paletteRestrictions": [
+        "No vibrant or neon colors",
+        "Avoid pure blacks; use deep tinted grays"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Heavy weight with thick strokes",
+        "Square proportions",
+        "Flat terminals",
+        "Tight kerning"
+      ],
+      "characterSpecificRedesigns": [
+        "Heavy distressing and stipple-like erosion applied to all glyphs",
+        "Small numerical superscript or subscript integrated into the main block"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "two-word stack",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "center-right",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "partial over subject",
+            "relationshipToImage": "integrated texture"
+          },
+          "treatment": {
+            "fill": "white with grit texture",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "distressed/eroded",
+            "distortion": "opacity fading on repeated elements"
+          }
+        }
+      ],
+      "pairingStrategy": "Single-family repetition with varying transparency and grit levels.",
+      "graphicDevices": [
+        "Vertical repetition",
+        "Opacity gradients",
+        "Film grain overlay",
+        "Stipple texture"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Heavy weight",
+          "Geometric structure",
+          "Distressed texture"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Clean, vector-perfect edges"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Strong geometric presence and modern feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat Bold",
+            "reason": "Similar open counters and heavy weight.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Trade Gothic Bold Condensed",
+            "reason": "For a more industrial, rugged look.",
+            "confidence": "low"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a moody, low-key portrait of a man with a beard wearing a dark brown fedora and a rugged work jacket. The lighting should be dramatic, casting the eyes in shadow as he looks down. The color palette should be muted browns and teals with a grainy, cinematic texture.",
+        "overlayInstruction": "Add a vertical stack of two-word text in a bold, distressed sans-serif font on the right side. The central instance should be bright white and opaque. Repeat the text above and below the center, gradually decreasing the opacity and increasing the grit/erosion as it moves toward the edges."
+      },
+      "verificationChecks": [
+        "Is the text distressed and weathered?",
+        "Does the text fade in opacity vertically?",
+        "Is the subject's gaze directed downward?",
+        "Is the lighting low-key with deep shadows?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the weathered texture",
+      "Number of text repetitions",
+      "Depth of the shadows on the face",
+      "Coolness vs. warmth of the color grade"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the individual",
+      "Any brand logos on the clothing",
+      "Exact wording of the text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic grain",
+        "Introspective mood",
+        "Tactile, gritty texture on type"
+      ],
+      "avoid": [
+        "Bright, saturated colors",
+        "High-key, flat lighting",
+        "Clean, digital-looking fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text does not obscure the main facial features.",
+      "Ensure the grain texture is consistent across both image and type.",
+      "Verify the 'echo' effect of the text feels intentional and balanced.",
+      "Confirm the color palette remains within the muted brown/teal range."
+    ],
+    "reuseFormula": "Combine a low-key, downward-facing portrait with a vertical typographic stack that uses opacity decay and heavy distressing to create a weathered, atmospheric composition."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:46:10.750Z"
+}

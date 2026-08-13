@@ -1,0 +1,287 @@
+{
+  "id": "9f54b588bbe4595a89dccd989afe24796890affba7a56caa33f0e03cf4fe3803",
+  "skillId": "9f54b588bbe4595a89dccd989afe24796890affba7a56caa33f0e03cf4fe3803",
+  "versionId": "9f54b588bbe4595a89dccd989afe24796890affba7a56caa33f0e03cf4fe3803",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:35:38.123Z",
+  "approvedAt": "2026-08-12T18:35:38.123Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:35:38.123Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "George Maharis Sings!.jpg",
+    "hash": "9f54b588bbe4595a89dccd989afe24796890affba7a56caa33f0e03cf4fe3803",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "George Maharis Sings!",
+    "artist": "George Maharis",
+    "artworkUrl": "https://coverartarchive.org/release-group/203e7499-38dd-423a-bf7d-447c43931d77/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/203e7499-38dd-423a-bf7d-447c43931d77",
+    "releaseGroupId": "203e7499-38dd-423a-bf7d-447c43931d77",
+    "recordingId": "1d869bf8-c60c-4118-8a82-dbbaf3fcfc63",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Teach Me TonightGeorge Maharis",
+      "song": "Teach Me Tonight",
+      "performer": "George Maharis",
+      "peakPosition": 25,
+      "firstChartDate": "1962-04-21",
+      "lastChartDate": "1962-06-30",
+      "appearances": [
+        {
+          "chartDate": "1962-04-21",
+          "position": 98
+        },
+        {
+          "chartDate": "1962-04-28",
+          "position": 89
+        },
+        {
+          "chartDate": "1962-05-05",
+          "position": 66
+        },
+        {
+          "chartDate": "1962-05-12",
+          "position": 61
+        },
+        {
+          "chartDate": "1962-05-19",
+          "position": 47
+        },
+        {
+          "chartDate": "1962-05-26",
+          "position": 38
+        },
+        {
+          "chartDate": "1962-06-02",
+          "position": 31
+        },
+        {
+          "chartDate": "1962-06-09",
+          "position": 26
+        },
+        {
+          "chartDate": "1962-06-16",
+          "position": 26
+        },
+        {
+          "chartDate": "1962-06-23",
+          "position": 25
+        },
+        {
+          "chartDate": "1962-06-30",
+          "position": 48
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century crooner album cover 1960s album art sans serif teal background textured portrait asymmetric layout subject positioned off center to the right to balance text on the left high contrast between the dark coat and the bright white shirt collar text colors cyan orange white pop against the muted teal background grainy film texture unifies the subject and the background vintage portrait grainy teal background stacked bold sans serif tight kerning",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Crooner Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Offset Lithography",
+        "Typography"
+      ],
+      "useCases": [
+        "Vinyl record packaging",
+        "Retro music posters",
+        "Mid-century modern branding",
+        "Vintage celebrity portraiture"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "album art",
+        "sans-serif",
+        "teal background",
+        "textured portrait",
+        "asymmetric layout"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1960s-style portrait composition featuring a textured, cool-toned background and tight, multi-colored sans-serif typography in the upper corner.",
+      "triggerTerms": [
+        "mid-century album cover style",
+        "vintage crooner aesthetic",
+        "1960s sans-serif typography layout"
+      ],
+      "excludeWhen": [
+        "modern high-definition photography is required",
+        "minimalist white-space designs",
+        "serif or script-heavy layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium close-up portrait of a smiling man in a dark textured coat and white collared shirt, set against a grainy teal-green background with bold, stacked sans-serif text in the upper left corner.",
+    "coreVisualRelationships": [
+      "Subject positioned off-center to the right to balance text on the left",
+      "High contrast between the dark coat and the bright white shirt collar",
+      "Text colors (cyan, orange, white) pop against the muted teal background",
+      "Grainy film texture unifies the subject and the background"
+    ],
+    "coreInvariants": [
+      "Grainy, matte finish",
+      "Tight, stacked sans-serif typography",
+      "Teal-to-black color palette",
+      "Warm skin tones contrasting with cool background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is a medium-shot portrait, occupying the right two-thirds of the frame.",
+      "visualAnchor": "The subject's smile and eyes serve as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the bold text in the top left, move down to the subject's face, and follow the line of the white shirt collar.",
+      "negativeSpace": "The upper left quadrant is used as active negative space for typographic elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep teal-green background with grainy texture.",
+      "contrastColorRole": "Black textured coat and white shirt collar.",
+      "accentColorRole": "Cyan and orange-red used for primary text lines.",
+      "saturationAndValueRelationship": "Muted, low-saturation background allows high-value white and saturated text accents to stand out.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Avoid clean gradients",
+        "Maintain film grain"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric and grotesque sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight letter spacing (kerning)",
+        "Closed apertures",
+        "Straight-cut terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'g' with a closed loop",
+        "Lowercase 's' with tight curves",
+        "Exclamation point integrated as a graphic element"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked-by-word",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floated-over-background"
+          },
+          "treatment": {
+            "fill": "cyan-and-orange",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family with varying colors and weights for hierarchy.",
+      "graphicDevices": [
+        "Large white exclamation point/teardrop shape as a punctuation graphic"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "tight tracking",
+          "stacked layout",
+          "bold sans-serif weight"
+        ],
+        "avoid": [
+          "serif fonts",
+          "wide letter spacing",
+          "centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the mid-century grotesque weight and tight spacing.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Bold",
+            "reason": "Provides the clean, geometric structure typical of the era.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man with dark wavy hair, smiling, wearing a black wool coat and a white collared shirt, set against a grainy, dark teal textured studio background. Apply a 1960s film stock effect.",
+        "overlayInstruction": "Add three lines of bold sans-serif text in the top-left corner. Line 1 in cyan, Line 2 in orange-red, Line 3 in white. Use tight leading and tracking. Include a large white teardrop-shaped exclamation mark to the right of the text."
+      },
+      "verificationChecks": [
+        "Text is stacked in the top-left corner",
+        "Background has a visible grainy texture",
+        "Subject is wearing a dark, heavy-textured coat",
+        "Color palette includes cyan, orange, and teal"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue (teal to navy)",
+      "Text color palette",
+      "Subject's expression",
+      "Grain intensity"
+    ],
+    "mustRedesign": [
+      "Avoid modern digital sharpness",
+      "Do not use contemporary sans-serifs like Roboto",
+      "Ensure the coat texture is visible and not a flat black"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s print texture",
+        "Tight typographic lockup",
+        "Balanced asymmetric composition"
+      ],
+      "avoid": [
+        "Drop shadows on text",
+        "High-gloss digital finish",
+        "Centered portraiture"
+      ]
+    },
+    "postGenerationChecks": [
+      "Is the grain consistent across the image?",
+      "Is the text tracking tight enough to feel vintage?",
+      "Does the white collar provide a strong visual break?",
+      "Is the teal background sufficiently muted?"
+    ],
+    "reuseFormula": "Vintage Portrait + Grainy Teal Background + Stacked Bold Sans-Serif + Tight Kerning"
+  }
+}

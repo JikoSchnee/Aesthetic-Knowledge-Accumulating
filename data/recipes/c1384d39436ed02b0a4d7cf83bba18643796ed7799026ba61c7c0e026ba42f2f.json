@@ -1,0 +1,314 @@
+{
+  "id": "c1384d39436ed02b0a4d7cf83bba18643796ed7799026ba61c7c0e026ba42f2f",
+  "skillId": "c1384d39436ed02b0a4d7cf83bba18643796ed7799026ba61c7c0e026ba42f2f",
+  "versionId": "c1384d39436ed02b0a4d7cf83bba18643796ed7799026ba61c7c0e026ba42f2f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T20:56:26.940Z",
+  "approvedAt": "2026-08-12T20:56:26.940Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T20:56:26.940Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Too Many Rivers.jpg",
+    "hash": "c1384d39436ed02b0a4d7cf83bba18643796ed7799026ba61c7c0e026ba42f2f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Too Many Rivers",
+    "artist": "Brenda Lee",
+    "artworkUrl": "https://coverartarchive.org/release-group/fc75e323-d323-4fd0-87e4-e398156ddefb/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/fc75e323-d323-4fd0-87e4-e398156ddefb",
+    "releaseGroupId": "fc75e323-d323-4fd0-87e4-e398156ddefb",
+    "recordingId": "060fa69b-c0e9-4361-9887-aedf7b6ed8ef",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "ThinkBrenda Lee",
+      "song": "Think",
+      "performer": "Brenda Lee",
+      "peakPosition": 25,
+      "firstChartDate": "1964-03-07",
+      "lastChartDate": "1964-05-02",
+      "appearances": [
+        {
+          "chartDate": "1964-03-07",
+          "position": 88
+        },
+        {
+          "chartDate": "1964-03-14",
+          "position": 60
+        },
+        {
+          "chartDate": "1964-03-21",
+          "position": 43
+        },
+        {
+          "chartDate": "1964-03-28",
+          "position": 32
+        },
+        {
+          "chartDate": "1964-04-04",
+          "position": 26
+        },
+        {
+          "chartDate": "1964-04-11",
+          "position": 25
+        },
+        {
+          "chartDate": "1964-04-18",
+          "position": 25
+        },
+        {
+          "chartDate": "1964-04-25",
+          "position": 31
+        },
+        {
+          "chartDate": "1964-05-02",
+          "position": 43
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century vocalist album cover bouffant hairstyle 1960s fashion cyan background slab serif typography studio portrait mid century modern subject offset to the right to balance left aligned text high contrast between white dress and saturated blue background yellow accent text providing a warm focal point against cool tones soft studio lighting creating gentle shadows on the subject s face studio portrait solid cyan background left aligned slab serif typography 1960s fashion styling",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Vocalist Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Studio Photography",
+        "Offset Lithography"
+      ],
+      "useCases": [
+        "Vintage vinyl record art",
+        "1960s pop culture retrospectives",
+        "Retro music marketing"
+      ],
+      "retrievalTags": [
+        "bouffant hairstyle",
+        "1960s fashion",
+        "cyan background",
+        "slab serif typography",
+        "studio portrait",
+        "mid-century modern"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A studio portrait of a female vocalist with a 1960s bouffant hairstyle against a solid cyan-blue background, featuring left-aligned stacked typography in contrasting yellow and white.",
+      "triggerTerms": [
+        "1960s album cover aesthetic",
+        "vintage pop singer portrait",
+        "bouffant hair studio photo"
+      ],
+      "excludeWhen": [
+        "modern digital photography style",
+        "minimalist 21st-century layouts",
+        "outdoor natural lighting"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A three-quarter length studio portrait of a woman with voluminous 1960s hair and a white lace dress, positioned on the right side of a flat, saturated blue field. The left side is reserved for clean, blocky typography that uses color to differentiate hierarchy.",
+    "coreVisualRelationships": [
+      "Subject offset to the right to balance left-aligned text",
+      "High contrast between white dress and saturated blue background",
+      "Yellow accent text providing a warm focal point against cool tones",
+      "Soft studio lighting creating gentle shadows on the subject's face"
+    ],
+    "coreInvariants": [
+      "Solid, non-gradient cyan background",
+      "Voluminous bouffant hairstyle",
+      "Left-aligned text block in the upper-left quadrant"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the right two-thirds of the frame, three-quarter length view.",
+      "visualAnchor": "The subject's face and hair serve as the primary anchor, balanced by the text block.",
+      "movementAndEyePath": "Eyes start at the subject's face, move left to the title text, then down to the tracklist.",
+      "negativeSpace": "Significant open blue space in the upper left and lower left quadrants."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Saturated Cyan (Background)",
+      "contrastColorRole": "White (Dress and Primary Name)",
+      "accentColorRole": "Lemon Yellow (Title Text)",
+      "saturationAndValueRelationship": "High saturation background with high-value (bright) subject and text elements.",
+      "paletteRestrictions": [
+        "Cyan",
+        "White",
+        "Lemon Yellow",
+        "Natural skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed slab serif and wide grotesque",
+      "letterConstructionRules": [
+        "Title uses ultra-condensed, heavy slab serifs",
+        "Name uses wide, high-contrast slab serifs with bracketed terminals",
+        "Tracklist uses small, geometric sans-serif"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Ultra-Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Blocky",
+            "corners": "Sharp",
+            "counters": "Narrow",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Upper left",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Medium",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Bracketed",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Directly below title",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between ultra-condensed yellow display type and wide white secondary type.",
+      "graphicDevices": [
+        "Small corner logo",
+        "Bottom-left technical metadata"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Left alignment",
+          "Color coding (Yellow/White)",
+          "Slab serif style"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Centered text",
+          "Serif-less modernism"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Schneidler Mediaeval",
+            "reason": "Captures the wide, bracketed slab serif look of the name text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Approximates the ultra-condensed weight of the title text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A studio photograph of a woman with a large 1960s bouffant hairstyle wearing a white sleeveless lace dress, standing against a solid, vibrant cyan-blue background. The woman is positioned on the right side of the frame, looking towards the camera with a smile.",
+        "overlayInstruction": "Add left-aligned text in the upper-left quadrant. The top line should be in a bold, ultra-condensed yellow slab serif. The second line should be in a wide, white slab serif. A small list of tracks in yellow sans-serif should appear below the main name."
+      },
+      "verificationChecks": [
+        "Is the background a solid cyan?",
+        "Is the hair styled in a 1960s bouffant?",
+        "Is the text left-aligned and color-coded yellow and white?",
+        "Is the subject positioned to the right?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color saturation",
+      "Hair volume",
+      "Dress texture (lace vs. satin)",
+      "Text color palette"
+    ],
+    "mustRedesign": [
+      "Original artist name and specific track titles",
+      "Specific record label logos",
+      "Exact facial features of the original subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean studio lighting",
+        "Sharp typographic edges",
+        "Authentic 1960s hair silhouette"
+      ],
+      "avoid": [
+        "Digital noise",
+        "Modern sans-serif fonts like Helvetica",
+        "Gradient backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Verify text does not overlap the subject's face",
+      "Ensure the blue background is uniform and flat",
+      "Check that the yellow text is legible against the blue",
+      "Confirm the 1960s period-accurate styling"
+    ],
+    "reuseFormula": "Studio Portrait + Solid Cyan Background + Left-Aligned Slab Serif Typography + 1960s Fashion Styling"
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "id": "f0d2403cecb2e63a78603cf10f1f90ac4bf198dada2bcf738e3e1776ad09a277",
+  "skillId": "f0d2403cecb2e63a78603cf10f1f90ac4bf198dada2bcf738e3e1776ad09a277",
+  "versionId": "f0d2403cecb2e63a78603cf10f1f90ac4bf198dada2bcf738e3e1776ad09a277",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:05:44.464Z",
+  "approvedAt": "2026-08-12T15:05:44.464Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:05:44.464Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Young Love.jpg",
+    "hash": "f0d2403cecb2e63a78603cf10f1f90ac4bf198dada2bcf738e3e1776ad09a277",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Young Love",
+    "artist": "Mat Kearney",
+    "artworkUrl": "https://coverartarchive.org/release-group/36eb9a1a-cc41-4759-8c76-684067b49239/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/36eb9a1a-cc41-4759-8c76-684067b49239",
+    "releaseGroupId": "36eb9a1a-cc41-4759-8c76-684067b49239",
+    "recordingId": "7c25f712-b723-423f-a5da-572b8b05f35f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Ships In The NightMat Kearney",
+      "song": "Ships In The Night",
+      "performer": "Mat Kearney",
+      "peakPosition": 87,
+      "firstChartDate": "2011-08-20",
+      "lastChartDate": "2011-08-20",
+      "appearances": [
+        {
+          "chartDate": "2011-08-20",
+          "position": 87
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast pop indie album cover high contrast neon background black and white subject condensed sans serif indie pop aesthetic flat color harsh flash monochrome subject vs vibrant flat color background hard edged drop shadow vs flat background plane horizontal stripes on clothing vs vertical orientation of typography tight framing within a square composition high contrast monochrome subject flat neon background stacked condensed sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Pop-Indie Album Cover",
+      "category": "Graphic Design / Music Branding",
+      "medium": [
+        "Digital Photography",
+        "Graphic Illustration",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Gig Posters",
+        "Editorial Portraits",
+        "Social Media Branding"
+      ],
+      "retrievalTags": [
+        "high-contrast",
+        "neon background",
+        "black and white subject",
+        "condensed sans-serif",
+        "indie pop aesthetic",
+        "flat color",
+        "harsh flash"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast aesthetic featuring a black-and-white subject against a vibrant, flat neon background with bold, stacked condensed typography.",
+      "triggerTerms": [
+        "neon green background with black and white portrait",
+        "high contrast indie album cover style",
+        "flat color background with harsh flash photography",
+        "stacked condensed sans-serif typography on vibrant color"
+      ],
+      "excludeWhen": [
+        "soft lighting is required",
+        "naturalistic color palettes are needed",
+        "complex textured backgrounds are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered black-and-white portrait of a man in a striped shirt and flat cap, rendered with high-contrast lighting and a hard drop shadow against a solid, vibrant lime-green background, framed by a thin black border and anchored by bold, left-aligned condensed text.",
+    "coreVisualRelationships": [
+      "Monochrome subject vs. vibrant flat-color background",
+      "Hard-edged drop shadow vs. flat background plane",
+      "Horizontal stripes on clothing vs. vertical orientation of typography",
+      "Tight framing within a square composition"
+    ],
+    "coreInvariants": [
+      "Solid neon-lime background color",
+      "High-contrast black and white subject treatment",
+      "Hard black drop shadow",
+      "Thin black outer border"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered vertically, slightly offset to the right, occupying approximately 70% of the vertical frame.",
+      "visualAnchor": "The high-contrast face and the bold typography in the top-left corner.",
+      "movementAndEyePath": "Eyes start at the bold text, move to the subject's face, follow the stripes down to the hands/object, and return to the background color.",
+      "negativeSpace": "Significant flat negative space on the right and bottom, balanced by text on the top-left."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant Lime Green (#C0FF00) as the flat background.",
+      "contrastColorRole": "Pure Black (#000000) for shadows, borders, and primary text.",
+      "accentColorRole": "Pure White (#FFFFFF) for secondary text and highlights on the subject.",
+      "saturationAndValueRelationship": "Extreme saturation in the background vs. zero saturation in the subject.",
+      "paletteRestrictions": [
+        "No gradients",
+        "No mid-tone colors in the background",
+        "Strictly monochrome subject"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Extremely narrow width",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "-2%",
+            "leading": "90%",
+            "lineBreakPattern": "stacked-words",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in negative space"
+          },
+          "treatment": {
+            "fill": "black and white alternating by line",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family using color to distinguish hierarchy between lines.",
+      "graphicDevices": [
+        "Thin black square frame",
+        "Hard drop shadow behind subject"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extra-condensed width",
+          "Uppercase styling",
+          "Tight leading"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Wide tracking"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed feel.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Clean, condensed, and modern for an indie aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Champion Gothic",
+            "reason": "Offers various condensed widths with a vintage-modern feel.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white portrait of a man in a striped shirt and flat cap against a solid, flat neon-lime green background. Apply a hard black drop shadow to the man. Include a thin black border around the entire square frame.",
+        "overlayInstruction": "Add four lines of stacked, left-aligned, extra-condensed sans-serif text in the top-left corner. The first two lines should be black, and the bottom two lines should be white."
+      },
+      "verificationChecks": [
+        "Is the background a single flat neon color?",
+        "Is the subject strictly black and white?",
+        "Is the text extra-condensed and stacked?",
+        "Is there a hard drop shadow behind the subject?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue",
+      "Subject clothing pattern",
+      "Text color alternation",
+      "Border thickness"
+    ],
+    "mustRedesign": [
+      "Do not use the specific person's likeness",
+      "Do not use the specific brand name or album title",
+      "Do not use copyrighted logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast thresholding on the subject",
+        "Perfectly flat background color",
+        "Sharp, clean typography"
+      ],
+      "avoid": [
+        "Soft shadows",
+        "Gradient backgrounds",
+        "Low-contrast imagery"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for color bleed between subject and background",
+      "Ensure text is legible against the neon background",
+      "Verify the square aspect ratio and black border",
+      "Confirm the shadow is hard-edged and not feathered"
+    ],
+    "reuseFormula": "High-Contrast Monochrome Subject + Flat Neon Background + Stacked Condensed Sans-Serif Typography"
+  }
+}

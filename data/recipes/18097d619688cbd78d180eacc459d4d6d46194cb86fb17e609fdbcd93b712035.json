@@ -1,0 +1,317 @@
+{
+  "id": "18097d619688cbd78d180eacc459d4d6d46194cb86fb17e609fdbcd93b712035",
+  "skillId": "18097d619688cbd78d180eacc459d4d6d46194cb86fb17e609fdbcd93b712035",
+  "versionId": "18097d619688cbd78d180eacc459d4d6d46194cb86fb17e609fdbcd93b712035",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:26:45.764Z",
+  "approvedAt": "2026-08-12T21:26:45.764Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:26:45.764Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Way Past Midnight.jpg",
+    "hash": "18097d619688cbd78d180eacc459d4d6d46194cb86fb17e609fdbcd93b712035",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Way Past Midnight",
+    "artist": "Henry Lee Summer",
+    "artworkUrl": "https://coverartarchive.org/release-group/3ff960fa-6aa7-3b62-9f0c-a3b6a506842e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3ff960fa-6aa7-3b62-9f0c-a3b6a506842e",
+    "releaseGroupId": "3ff960fa-6aa7-3b62-9f0c-a3b6a506842e",
+    "recordingId": "9e1dcd07-de2f-42fc-bfae-0af17eda2a07",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Till Somebody Loves YouHenry Lee Summer",
+      "song": "Till Somebody Loves You",
+      "performer": "Henry Lee Summer",
+      "peakPosition": 51,
+      "firstChartDate": "1991-08-10",
+      "lastChartDate": "1991-10-12",
+      "appearances": [
+        {
+          "chartDate": "1991-08-10",
+          "position": 93
+        },
+        {
+          "chartDate": "1991-08-17",
+          "position": 71
+        },
+        {
+          "chartDate": "1991-08-24",
+          "position": 64
+        },
+        {
+          "chartDate": "1991-08-31",
+          "position": 57
+        },
+        {
+          "chartDate": "1991-09-07",
+          "position": 52
+        },
+        {
+          "chartDate": "1991-09-14",
+          "position": 51
+        },
+        {
+          "chartDate": "1991-09-21",
+          "position": 51
+        },
+        {
+          "chartDate": "1991-09-28",
+          "position": 57
+        },
+        {
+          "chartDate": "1991-10-05",
+          "position": 74
+        },
+        {
+          "chartDate": "1991-10-12",
+          "position": 89
+        }
+      ]
+    }
+  },
+  "dedupeText": "nocturnal warmth portrait warm lighting high contrast portrait hand drawn typography 80s rock aesthetic amber glow close up face warm amber skin tones against a void like black background stark white typography providing high contrast balance diagonal tension between top left and bottom right text blocks soft focus on hair contrasting with sharp facial features high contrast amber portrait condensed block header gestural script footer",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Nocturnal Warmth Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Dramatic editorial portraits",
+        "Vintage rock aesthetic posters"
+      ],
+      "retrievalTags": [
+        "warm lighting",
+        "high contrast portrait",
+        "hand-drawn typography",
+        "80s rock aesthetic",
+        "amber glow",
+        "close-up face"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, warm-toned portrait featuring a mix of condensed block lettering and expressive hand-drawn script.",
+      "triggerTerms": [
+        "amber glow portrait",
+        "80s rock album style",
+        "warm high-contrast face",
+        "hand-drawn white script on black"
+      ],
+      "excludeWhen": [
+        "clean corporate photography is required",
+        "bright daylight scenes are requested",
+        "minimalist sans-serif typography is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, three-quarter view portrait of a man with feathered hair, bathed in intense amber and orange light against a deep black background, featuring stark white typography in opposite corners.",
+    "coreVisualRelationships": [
+      "Warm amber skin tones against a void-like black background",
+      "Stark white typography providing high-contrast balance",
+      "Diagonal tension between top-left and bottom-right text blocks",
+      "Soft focus on hair contrasting with sharp facial features"
+    ],
+    "coreInvariants": [
+      "Intense orange-to-red color cast on the subject's face",
+      "Deep black negative space on the right side",
+      "White text with irregular, hand-crafted edges"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject's face occupies the left two-thirds of the frame in a large-scale close-up.",
+      "visualAnchor": "The brightly lit bridge of the nose and eyes serve as the primary focal point.",
+      "movementAndEyePath": "The eye moves from the top-left block text, down the bridge of the nose, to the bottom-right script.",
+      "negativeSpace": "Heavy black negative space in the bottom right quadrant provides a canvas for the secondary text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background and shadows",
+      "contrastColorRole": "Vibrant amber and orange midtones on the skin",
+      "accentColorRole": "Pure white for all typographic elements",
+      "saturationAndValueRelationship": "High saturation in the warm tones with extreme value contrast between the subject and the background.",
+      "paletteRestrictions": [
+        "No cool tones (blues/greens)",
+        "No mid-tone grays"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Condensed sans-serif and casual brush script",
+      "letterConstructionRules": [
+        "Top text: Tall, condensed, irregular block letters with varying widths.",
+        "Bottom text: Loose, gestural hand-drawn script with uneven baselines.",
+        "All strokes appear slightly distressed or hand-painted."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'S' in the primary name is significantly enlarged to act as a visual anchor.",
+        "The 'y' and 'g' in the script have elongated, expressive descenders."
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "custom-condensed",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "slightly rounded",
+            "counters": "tight",
+            "strokeCharacter": "rugged"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over dark hair"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "slight paper grain",
+            "distortion": "organic jitter"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "variable",
+            "weight": "medium",
+            "contrast": "medium",
+            "xHeight": "variable",
+            "terminals": "tapered",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "mixed",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "loose",
+            "lineBreakPattern": "staggered",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom-right",
+            "scale": "small-medium",
+            "rotation": "5 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in black negative space"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "ink-on-paper",
+            "distortion": "hand-drawn variance"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between rigid, condensed block forms and fluid, organic handwriting.",
+      "graphicDevices": [
+        "Text stacking",
+        "Corner-to-corner diagonal layout"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions of the top text",
+          "Hand-drawn feel of the bottom text",
+          "Pure white color"
+        ],
+        "avoid": [
+          "Perfectly clean digital fonts",
+          "Serif typefaces",
+          "Centered alignments"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact Label",
+            "reason": "Captures the condensed, rugged block feel of the top text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Rough Brush Script",
+            "reason": "Mimics the casual, handwritten quality of the bottom text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a close-up portrait of a man with 80s-style feathered hair, lit with a strong amber and orange key light from the side, with the other side of the frame falling into deep black shadow.",
+        "overlayInstruction": "Add white, hand-drawn condensed block lettering in the top-left corner and a loose, white brush-script title in the bottom-right corner."
+      },
+      "verificationChecks": [
+        "Is the lighting predominantly amber/orange?",
+        "Is the background pure black in the shadows?",
+        "Are there two distinct styles of white typography?",
+        "Is the composition balanced diagonally?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the orange light",
+      "Amount of hair detail",
+      "Thickness of the script strokes"
+    ],
+    "mustRedesign": [
+      "Avoid using standard Arial or Helvetica",
+      "Do not use blue or cool-toned lighting",
+      "Ensure text is not centered"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast chiaroscuro lighting",
+        "Organic, non-digital typographic texture",
+        "Warm, monochromatic-leaning color palette"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Clean vector lines",
+        "Pastel colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high contrast between skin and background",
+      "Verify typography is pure white",
+      "Ensure the 'S' in the top text is larger than surrounding letters",
+      "Confirm the bottom text has a 'hand-written' appearance"
+    ],
+    "reuseFormula": "High-contrast amber portrait + condensed block header + gestural script footer."
+  }
+}

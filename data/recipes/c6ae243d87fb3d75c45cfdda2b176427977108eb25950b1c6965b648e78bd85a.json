@@ -1,0 +1,310 @@
+{
+  "id": "c6ae243d87fb3d75c45cfdda2b176427977108eb25950b1c6965b648e78bd85a",
+  "skillId": "c6ae243d87fb3d75c45cfdda2b176427977108eb25950b1c6965b648e78bd85a",
+  "versionId": "c6ae243d87fb3d75c45cfdda2b176427977108eb25950b1c6965b648e78bd85a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T20:23:18.535Z",
+  "approvedAt": "2026-08-12T20:23:18.535Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T20:23:18.535Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Contagious.jpg",
+    "hash": "c6ae243d87fb3d75c45cfdda2b176427977108eb25950b1c6965b648e78bd85a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Contagious",
+    "artist": "Tag",
+    "artworkUrl": "https://coverartarchive.org/release-group/191bd742-00e6-4bbd-b485-c0ceee4b1710/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/191bd742-00e6-4bbd-b485-c0ceee4b1710",
+    "releaseGroupId": "191bd742-00e6-4bbd-b485-c0ceee4b1710",
+    "recordingId": "42389b7e-e7bd-4b02-a0a8-ba27896d0fbd",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Way I FeelTag",
+      "song": "The Way I Feel",
+      "performer": "Tag",
+      "peakPosition": 63,
+      "firstChartDate": "1992-07-04",
+      "lastChartDate": "1992-08-22",
+      "appearances": [
+        {
+          "chartDate": "1992-07-04",
+          "position": 96
+        },
+        {
+          "chartDate": "1992-07-11",
+          "position": 83
+        },
+        {
+          "chartDate": "1992-07-18",
+          "position": 76
+        },
+        {
+          "chartDate": "1992-07-25",
+          "position": 64
+        },
+        {
+          "chartDate": "1992-08-01",
+          "position": 64
+        },
+        {
+          "chartDate": "1992-08-08",
+          "position": 63
+        },
+        {
+          "chartDate": "1992-08-15",
+          "position": 75
+        },
+        {
+          "chartDate": "1992-08-22",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "90s pop album cover aesthetic 90s aesthetic double exposure silhouette serif typography warm lighting pop music silhouette on the left facing the portrait on the right warm peach background unifying the two subjects typography placed in the upper right and lower left corners contrast between the flat dark silhouette and the dimensional portrait combine silhouette profile warm portrait peach gradient red serif typography to recreate the 90s pop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "90s Pop Album Cover Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Typography"
+      ],
+      "useCases": [
+        "Music album art",
+        "Editorial portraiture",
+        "Retro-themed marketing"
+      ],
+      "retrievalTags": [
+        "90s aesthetic",
+        "double exposure",
+        "silhouette",
+        "serif typography",
+        "warm lighting",
+        "pop music"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Use this skill for 1990s-style album covers featuring a high-contrast silhouette profile paired with a naturalistic, warm-toned portrait.",
+      "triggerTerms": [
+        "90s pop album cover",
+        "silhouette and portrait composite",
+        "warm gradient background with serif text"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "high-tech futuristic themes",
+        "black and white only requests"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A composite image featuring a large, high-contrast dark silhouette on the left and a soft-focus, warm-lit portrait of a woman on the right, set against a peach-to-yellow gradient background with bold serif typography.",
+    "coreVisualRelationships": [
+      "Silhouette on the left facing the portrait on the right",
+      "Warm peach background unifying the two subjects",
+      "Typography placed in the upper right and lower left corners",
+      "Contrast between the flat dark silhouette and the dimensional portrait"
+    ],
+    "coreInvariants": [
+      "High-contrast dark silhouette profile",
+      "Warm peach/yellow gradient background",
+      "Serif typography in red and black"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A large silhouette occupies the left third; a medium-shot portrait occupies the right two-thirds.",
+      "visualAnchor": "The woman's face in the portrait, specifically her eyes.",
+      "movementAndEyePath": "From the large red text in the top right, down to the portrait's face, then across to the silhouette and bottom text.",
+      "negativeSpace": "The gradient background provides breathing room between the two main subjects."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Peach and yellow gradient background",
+      "contrastColorRole": "Dark brown/black silhouette and shadows",
+      "accentColorRole": "Vibrant red for primary typography",
+      "saturationAndValueRelationship": "High saturation in the background and accents; natural skin tones in the portrait.",
+      "paletteRestrictions": [
+        "Peach",
+        "Yellow",
+        "Red",
+        "Dark Brown",
+        "Navy Blue"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classic serif and condensed sans-serif",
+      "letterConstructionRules": [
+        "Primary text uses a high-contrast serif with sharp terminals",
+        "Secondary text uses a wide-tracked, condensed sans-serif"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 't' in the primary text has a prominent crossbar",
+        "Lowercase 'a' in the primary text is a double-story form"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "bracketed",
+            "counters": "open",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single word",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over portrait hair",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "square",
+            "counters": "tight",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "very wide",
+            "leading": "none",
+            "lineBreakPattern": "single word",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom left",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over silhouette and background",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "black with red accent",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for branding paired with a wide-tracked sans-serif for secondary information.",
+      "graphicDevices": [
+        "Color-blocked letters within words",
+        "Overlapping text on hair"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase serif for main title",
+          "Wide tracking for bottom text"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Heavy drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman Bold",
+            "reason": "Matches the classic high-contrast serif look of the 90s",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers Condensed",
+            "reason": "Matches the clean, condensed sans-serif for the bottom text",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a composite image with a dark, high-contrast silhouette profile on the left and a warm-toned portrait of a woman with curly hair on the right, against a peach-to-yellow gradient background.",
+        "overlayInstruction": "Add lowercase serif text in red at the top right and wide-tracked condensed sans-serif text at the bottom left, ensuring one letter in the bottom text is red."
+      },
+      "verificationChecks": [
+        "Is the silhouette on the left high-contrast?",
+        "Is the background a warm peach/yellow gradient?",
+        "Is the top right text a bold red serif?",
+        "Is the bottom text wide-tracked?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Silhouette intensity",
+      "Background gradient colors",
+      "Portrait lighting warmth",
+      "Typography color"
+    ],
+    "mustRedesign": [
+      "Any modern digital artifacts",
+      "Generic sans-serif for the main title",
+      "Cold or blue-heavy color palettes"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft-focus portrait quality",
+        "Distinct 90s graphic layout",
+        "Balanced composite of silhouette and face"
+      ],
+      "avoid": [
+        "Overly sharp digital edges",
+        "Cluttered backgrounds",
+        "Modern minimalist fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for the red accent letter in the bottom text",
+      "Ensure the silhouette does not obscure the portrait's face",
+      "Verify the peach gradient is smooth",
+      "Confirm the serif font has high contrast"
+    ],
+    "reuseFormula": "Combine [Silhouette Profile] + [Warm Portrait] + [Peach Gradient] + [Red Serif Typography] to recreate the 90s pop aesthetic."
+  }
+}

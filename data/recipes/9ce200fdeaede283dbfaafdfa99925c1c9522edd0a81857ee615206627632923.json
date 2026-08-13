@@ -1,0 +1,316 @@
+{
+  "id": "9ce200fdeaede283dbfaafdfa99925c1c9522edd0a81857ee615206627632923",
+  "skillId": "9ce200fdeaede283dbfaafdfa99925c1c9522edd0a81857ee615206627632923",
+  "versionId": "9ce200fdeaede283dbfaafdfa99925c1c9522edd0a81857ee615206627632923",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:08:25.496Z",
+  "approvedAt": "2026-08-12T09:08:25.496Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:08:25.496Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Never Let Her Go.jpg",
+    "hash": "9ce200fdeaede283dbfaafdfa99925c1c9522edd0a81857ee615206627632923",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Never Let Her Go",
+    "artist": "David Gates",
+    "artworkUrl": "https://coverartarchive.org/release-group/006e29df-1ccd-3dd4-aee2-3ad5f735cd5e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/006e29df-1ccd-3dd4-aee2-3ad5f735cd5e",
+    "releaseGroupId": "006e29df-1ccd-3dd4-aee2-3ad5f735cd5e",
+    "recordingId": "dacff198-e4fc-4e12-a652-877ed517d103",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Never Let Her GoDavid Gates",
+      "song": "Never Let Her Go",
+      "performer": "David Gates",
+      "peakPosition": 29,
+      "firstChartDate": "1975-01-18",
+      "lastChartDate": "1975-03-22",
+      "appearances": [
+        {
+          "chartDate": "1975-01-18",
+          "position": 94
+        },
+        {
+          "chartDate": "1975-01-25",
+          "position": 81
+        },
+        {
+          "chartDate": "1975-02-01",
+          "position": 60
+        },
+        {
+          "chartDate": "1975-02-08",
+          "position": 49
+        },
+        {
+          "chartDate": "1975-02-15",
+          "position": 40
+        },
+        {
+          "chartDate": "1975-02-22",
+          "position": 32
+        },
+        {
+          "chartDate": "1975-03-01",
+          "position": 30
+        },
+        {
+          "chartDate": "1975-03-08",
+          "position": 29
+        },
+        {
+          "chartDate": "1975-03-15",
+          "position": 34
+        },
+        {
+          "chartDate": "1975-03-22",
+          "position": 71
+        }
+      ]
+    }
+  },
+  "dedupeText": "soft rock portrait album cover sepia tones warm studio lighting serif typography 70s soft rock intimate portrait low key photography subject s face and hands are the primary highlights against a dark shadowed torso typography is anchored to the top margin spanning the width of the frame warm directional lighting creates a soft glow on the subject s features and the background texture a secondary focal point is created by a small circular framed photo on a table to the left warm studio portrait top aligned high contrast serif wide tracked subtitle",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soft Rock Portrait Album Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Studio Lighting",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "1970s style singer-songwriter album covers",
+        "Nostalgic portraiture with warm lighting",
+        "Vintage vinyl record aesthetics"
+      ],
+      "retrievalTags": [
+        "sepia tones",
+        "warm studio lighting",
+        "serif typography",
+        "70s soft rock",
+        "intimate portrait",
+        "low key photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A warm, low-key studio portrait featuring a central subject in dark clothing against a dark background, topped with elegant, high-contrast serif display typography.",
+      "triggerTerms": [
+        "70s singer-songwriter album style",
+        "warm sepia studio portrait",
+        "elegant serif header over dark photo"
+      ],
+      "excludeWhen": [
+        "bright high-key lighting is required",
+        "modern sans-serif minimalist design is requested",
+        "outdoor natural light photography is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A moody, intimate studio portrait of a man seated in a dark environment, characterized by warm amber and brown tones, with a small framed photo as a secondary prop, and large, pale yellow serif text positioned at the top edge.",
+    "coreVisualRelationships": [
+      "Subject's face and hands are the primary highlights against a dark, shadowed torso.",
+      "Typography is anchored to the top margin, spanning the width of the frame.",
+      "Warm, directional lighting creates a soft glow on the subject's features and the background texture.",
+      "A secondary focal point is created by a small circular framed photo on a table to the left."
+    ],
+    "coreInvariants": [
+      "Low-key lighting with deep shadows in the lower half of the frame.",
+      "Warm, monochromatic-leaning color palette of browns, ambers, and pale yellows.",
+      "Top-aligned, large-scale serif display text."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centrally positioned, captured from the waist up, leaning slightly forward.",
+      "visualAnchor": "The subject's face and the large pale yellow text at the top.",
+      "movementAndEyePath": "Starts at the bright text, moves down to the subject's face, follows the arm down to the hand, and circles back to the small framed photo.",
+      "negativeSpace": "Extensive dark negative space surrounding the subject, particularly in the lower and side regions."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep umber and dark brown (background and clothing).",
+      "contrastColorRole": "Warm amber and skin tones (highlights on face and hands).",
+      "accentColorRole": "Pale yellow/cream (typography).",
+      "saturationAndValueRelationship": "Low saturation with high value contrast between the text/highlights and the deep shadows.",
+      "paletteRestrictions": [
+        "Avoid cool blues or greens",
+        "Avoid neon or high-saturation primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman serif",
+      "letterConstructionRules": [
+        "High stroke contrast between thick and thin lines",
+        "Sharp, bracketed serifs",
+        "Open counters in the 'D' and 'A'",
+        "Horizontal crossbar on 'A' is positioned low"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'V' and 'A' in the name are tightly kerned to overlap slightly or touch."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "pointed",
+            "counters": "large",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaying the dark background at the top"
+          },
+          "treatment": {
+            "fill": "pale yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "pointed",
+            "counters": "open",
+            "strokeCharacter": "thin"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "very wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "directly below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Large, tightly spaced display serif paired with a smaller, widely tracked version of the same or similar serif font.",
+      "graphicDevices": [
+        "Wide letter spacing for the secondary text line"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast serif style",
+          "Pale yellow color for main title",
+          "Wide tracking for subtitle"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "Heavy drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman or Caslon",
+            "reason": "Classic high-contrast serif structure matches the 70s aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni",
+            "reason": "Extreme contrast between thick and thin strokes for a more dramatic look.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-key studio portrait of a man in a dark shirt, seated in a dark room with warm amber lighting hitting his face and hands. Include a small circular framed photo on a table with a patterned cloth to the left. The top 20% of the image should be dark and relatively clear for text.",
+        "overlayInstruction": "Add large uppercase serif text in pale yellow at the very top. Below it, add a second line of text in white, smaller font size, with very wide letter spacing."
+      },
+      "verificationChecks": [
+        "Is the main text pale yellow and serif?",
+        "Is the subtitle widely tracked?",
+        "Is the lighting warm and low-key?",
+        "Is the background dark enough for the text to pop?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the amber glow",
+      "Tracking width of the subtitle",
+      "Scale of the main title text"
+    ],
+    "mustRedesign": [
+      "Do not use the specific name 'David Gates'",
+      "Do not use the specific title 'Never Let Her Go'",
+      "Do not replicate the specific face of the artist"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Warm, nostalgic 1970s film grain look",
+        "Elegant, high-contrast typography",
+        "Balanced low-key lighting"
+      ],
+      "avoid": [
+        "Digital sharpness",
+        "Modern flat design",
+        "Cool-toned lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is centered and top-aligned.",
+      "Ensure the color palette remains in the warm brown/amber range.",
+      "Verify that the subtitle tracking is significantly wider than the main title.",
+      "Confirm the subject's face is the primary photographic focus."
+    ],
+    "reuseFormula": "Warm Studio Portrait + Top-Aligned High-Contrast Serif + Wide-Tracked Subtitle"
+  }
+}

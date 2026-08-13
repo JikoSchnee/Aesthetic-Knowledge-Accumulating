@@ -1,0 +1,296 @@
+{
+  "id": "cfccd980f4712c759e0216319e645920818a46905a78a4f0894ed6057dce3f09",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:56:22.951Z",
+  "approvedAt": "2026-08-11T15:56:22.951Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:56:22.951Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Jasper County.jpg",
+    "hash": "cfccd980f4712c759e0216319e645920818a46905a78a4f0894ed6057dce3f09",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Jasper County",
+    "artist": "Trisha Yearwood",
+    "artworkUrl": "https://coverartarchive.org/release-group/62598a57-69d6-3d81-b801-f12563d07bea/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/62598a57-69d6-3d81-b801-f12563d07bea",
+    "releaseGroupId": "62598a57-69d6-3d81-b801-f12563d07bea",
+    "recordingId": "cac981c3-5d04-4249-8336-42b6fe3901a3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Georgia RainTrisha Yearwood",
+      "song": "Georgia Rain",
+      "performer": "Trisha Yearwood",
+      "peakPosition": 78,
+      "firstChartDate": "2005-08-06",
+      "lastChartDate": "2005-10-08",
+      "appearances": [
+        {
+          "chartDate": "2005-08-06",
+          "position": 97
+        },
+        {
+          "chartDate": "2005-08-20",
+          "position": 98
+        },
+        {
+          "chartDate": "2005-08-27",
+          "position": 96
+        },
+        {
+          "chartDate": "2005-09-03",
+          "position": 97
+        },
+        {
+          "chartDate": "2005-09-10",
+          "position": 93
+        },
+        {
+          "chartDate": "2005-09-17",
+          "position": 91
+        },
+        {
+          "chartDate": "2005-09-24",
+          "position": 78
+        },
+        {
+          "chartDate": "2005-10-01",
+          "position": 78
+        },
+        {
+          "chartDate": "2005-10-08",
+          "position": 83
+        }
+      ]
+    }
+  },
+  "dedupeText": "country music album cover aesthetic blonde woman outdoor portrait bokeh background serif typography script font soft lighting country music subject gaze directed toward the viewer from a profile body position text block positioned in the upper right negative space of the background warm golden hour lighting contrasting with dark clothing sharp facial features against a heavily blurred bokeh environment portrait subject on left shallow depth of field right aligned triadic typography country folk album aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Country Music Album Cover Aesthetic",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Album Art",
+        "Artist Promotional Material",
+        "Editorial Portraiture"
+      ],
+      "retrievalTags": [
+        "blonde woman",
+        "outdoor portrait",
+        "bokeh background",
+        "serif typography",
+        "script font",
+        "soft lighting",
+        "country music"
+      ]
+    },
+    "visualDefinition": "A soft-focus outdoor portrait of a blonde woman looking over her shoulder, set against a sun-drenched, blurred natural background with a three-tiered typographic lockup on the right.",
+    "coreVisualRelationships": [
+      "Subject gaze directed toward the viewer from a profile body position",
+      "Text block positioned in the upper-right negative space of the background",
+      "Warm, golden-hour lighting contrasting with dark clothing",
+      "Sharp facial features against a heavily blurred bokeh environment"
+    ],
+    "coreInvariants": [
+      "Over-the-shoulder pose",
+      "High-key natural lighting",
+      "Triadic text hierarchy (Display, Sub-display, Script)",
+      "Shallow depth of field"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left two-thirds of the frame, medium close-up scale.",
+      "visualAnchor": "The subject's eyes, specifically the one closest to the camera, framed by blonde hair.",
+      "movementAndEyePath": "Starts at the subject's face, follows the line of the shoulder down, then moves right to the typographic block.",
+      "negativeSpace": "Significant blurred green and yellow space on the right side used for text placement."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm yellows and greens in the background providing a soft, natural glow.",
+      "contrastColorRole": "Deep black of the subject's garment providing a solid base.",
+      "accentColorRole": "Deep burgundy/red for the script text and subtle makeup tones.",
+      "saturationAndValueRelationship": "High value, low-to-medium saturation background with high contrast on the subject.",
+      "paletteRestrictions": [
+        "Avoid harsh artificial colors",
+        "Maintain organic earth tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical serif and formal cursive script",
+      "letterConstructionRules": [
+        "All-caps for primary name",
+        "High-contrast stroke weights in serifs",
+        "Fluid, connected strokes for the script element"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "N/A (All Caps)",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Classical"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "upper right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "white and black",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Script",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Light",
+            "contrast": "Medium",
+            "xHeight": "High",
+            "terminals": "Flourished",
+            "corners": "Rounded",
+            "counters": "Looping",
+            "strokeCharacter": "Calligraphic"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "burgundy",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a rigid, authoritative serif with a soft, personal script.",
+      "graphicDevices": [
+        "Subtle drop shadows for legibility against bright background"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right alignment",
+          "Color contrast between text lines"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Centered alignment"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Baskerville or Caslon",
+            "reason": "Classical serif feel for the main name",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Edwardian Script or Snell Roundhand",
+            "reason": "Elegant, flowing script for the secondary title",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus portrait of a blonde woman in a black top, looking over her shoulder in a sunlit park with heavy bokeh. The right side should be bright and relatively empty.",
+        "overlayInstruction": "Add right-aligned text in the upper right quadrant. Use a white serif for the first line, a black serif for the second line, and a burgundy script for the third line."
+      },
+      "verificationChecks": [
+        "Is the subject looking over their shoulder?",
+        "Is the background sufficiently blurred to allow text legibility?",
+        "Are there three distinct lines of text with varying styles?",
+        "Is the lighting warm and natural?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Hair color",
+      "Background environment (forest vs field)",
+      "Script text color",
+      "Subject's gaze intensity"
+    ],
+    "mustRedesign": [
+      "Specific facial features to avoid likeness",
+      "Unique script flourishes",
+      "Exact background tree placement"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, flattering skin tones",
+        "Legible typography over bright areas",
+        "Balanced asymmetrical composition"
+      ],
+      "avoid": [
+        "Harsh shadows on the face",
+        "Cluttered backgrounds",
+        "Modernist or geometric fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for natural hair texture",
+      "Verify text alignment is flush right",
+      "Ensure the bokeh circles are soft and not distracting",
+      "Confirm the color palette remains warm and organic"
+    ],
+    "reuseFormula": "Portrait subject on left + shallow depth of field + right-aligned triadic typography = Country/Folk album aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:23:11.552Z"
+}

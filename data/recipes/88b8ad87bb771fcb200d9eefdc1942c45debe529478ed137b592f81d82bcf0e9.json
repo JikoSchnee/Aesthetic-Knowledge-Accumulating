@@ -1,0 +1,305 @@
+{
+  "id": "88b8ad87bb771fcb200d9eefdc1942c45debe529478ed137b592f81d82bcf0e9",
+  "skillId": "88b8ad87bb771fcb200d9eefdc1942c45debe529478ed137b592f81d82bcf0e9",
+  "versionId": "88b8ad87bb771fcb200d9eefdc1942c45debe529478ed137b592f81d82bcf0e9",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:55:53.135Z",
+  "approvedAt": "2026-08-12T13:55:53.135Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:55:53.135Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "C'mon and Swim.jpg",
+    "hash": "88b8ad87bb771fcb200d9eefdc1942c45debe529478ed137b592f81d82bcf0e9",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "C'mon and Swim",
+    "artist": "Bobby Freeman",
+    "artworkUrl": "https://coverartarchive.org/release-group/751a3857-5dbd-45e0-93cc-921ae9f70788/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/751a3857-5dbd-45e0-93cc-921ae9f70788",
+    "releaseGroupId": "751a3857-5dbd-45e0-93cc-921ae9f70788",
+    "recordingId": "a3c1f690-30fd-4be5-88fd-d658a584ddc1",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "S-W-I-MBobby Freeman",
+      "song": "S-W-I-M",
+      "performer": "Bobby Freeman",
+      "peakPosition": 56,
+      "firstChartDate": "1964-10-31",
+      "lastChartDate": "1964-12-05",
+      "appearances": [
+        {
+          "chartDate": "1964-10-31",
+          "position": 87
+        },
+        {
+          "chartDate": "1964-11-07",
+          "position": 72
+        },
+        {
+          "chartDate": "1964-11-14",
+          "position": 67
+        },
+        {
+          "chartDate": "1964-11-21",
+          "position": 67
+        },
+        {
+          "chartDate": "1964-11-28",
+          "position": 56
+        },
+        {
+          "chartDate": "1964-12-05",
+          "position": 56
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul grid album cover mid century modern soul music grid layout vibrant orange and blue dance instruction sans serif display high contrast color blocking between orange blue and white hierarchical grid separating the lead performer from the ensemble repetition of dark studio backgrounds across all photographic panels juxtaposition of heavy display type with smaller functional metadata solid header vertical sidebar multi panel photographic grid mid century instructional album aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Grid Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Offset Lithography",
+        "Studio Photography"
+      ],
+      "useCases": [
+        "Vinyl record packaging",
+        "Retro music festival posters",
+        "1960s dance culture editorial"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "soul music",
+        "grid layout",
+        "vibrant orange and blue",
+        "dance instruction",
+        "sans-serif display"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A multi-panel grid layout featuring a large primary subject and smaller action sequences framed by bold color blocks and heavy sans-serif typography.",
+      "triggerTerms": [
+        "1960s soul album aesthetic",
+        "multi-panel dance grid",
+        "vibrant orange header blue sidebar",
+        "heavy block sans-serif title"
+      ],
+      "excludeWhen": [
+        "minimalist modern layouts",
+        "monochromatic designs",
+        "fluid organic shapes"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A structured 1960s graphic layout divided into three main zones: a horizontal orange header with heavy blue and purple text, a central white-bordered grid containing one large portrait and six smaller action shots against dark backgrounds, and a vertical blue sidebar containing tracklist information and a spiral logo.",
+    "coreVisualRelationships": [
+      "High-contrast color blocking between orange, blue, and white",
+      "Hierarchical grid separating the lead performer from the ensemble",
+      "Repetition of dark studio backgrounds across all photographic panels",
+      "Juxtaposition of heavy display type with smaller functional metadata"
+    ],
+    "coreInvariants": [
+      "White gutter lines between all photographic panels",
+      "Subject isolation against deep black backgrounds",
+      "Primary color palette of vibrant orange and cyan-blue"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Primary subject occupies the large left-hand vertical rectangle; secondary subjects occupy a 2x3 grid to the right.",
+      "visualAnchor": "The large orange header block at the top containing the main title.",
+      "movementAndEyePath": "Top-left title leads to the main portrait, then scans the grid to the right, finishing on the blue sidebar tracklist.",
+      "negativeSpace": "White borders act as structural negative space to define the grid."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant Orange (Header Background)",
+      "contrastColorRole": "Cyan Blue (Sidebar and Title Text)",
+      "accentColorRole": "Purple (Secondary Header Text and Logo)",
+      "saturationAndValueRelationship": "High saturation primaries against low-value black photographic backgrounds.",
+      "paletteRestrictions": [
+        "Orange",
+        "Cyan",
+        "Purple",
+        "Black",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Heavy weight with minimal stroke contrast",
+        "Tight letter spacing in display roles",
+        "Square-ish proportions for capital letters"
+      ],
+      "characterSpecificRedesigns": [
+        "Hyphens in title are elongated to match stroke thickness"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "two-line stack",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in color block"
+          },
+          "treatment": {
+            "fill": "solid blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "grotesque sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "horizontal",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "sturdy"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "loose",
+            "lineBreakPattern": "list",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "right sidebar",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in blue sidebar"
+          },
+          "treatment": {
+            "fill": "solid yellow-gold",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy display sans-serif paired with a lighter, more legible grotesque for lists.",
+      "graphicDevices": [
+        "Spiral concentric circle logo",
+        "White grid lines",
+        "Solid color blocks"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Heavy weight of main title",
+          "Color-coded zones"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Gradient fills"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the sturdy, mid-century grotesque feel of the sidebar text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Captures the density and weight of the main header title.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a grid layout with a large vertical rectangle on the left and a 2x3 grid of smaller rectangles on the right, all with white borders. Fill the top with a solid orange header and the far right with a solid blue vertical bar. Populate the rectangles with studio photography of dancers against black backgrounds.",
+        "overlayInstruction": "Apply heavy blue sans-serif uppercase text to the orange header. Add a list of yellow-gold uppercase text to the blue sidebar. Place a purple and pink spiral logo in the top right corner."
+      },
+      "verificationChecks": [
+        "Is the grid defined by clear white gutters?",
+        "Are the subjects isolated against a dark background?",
+        "Is the header text significantly heavier than the sidebar text?",
+        "Are the orange and blue blocks solid and vibrant?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Grid dimensions",
+      "Header height",
+      "Sidebar width",
+      "Primary and secondary color hues"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Original song titles",
+      "Record label logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean grid alignment",
+        "High-contrast color blocking",
+        "Consistent photographic lighting across panels"
+      ],
+      "avoid": [
+        "Blurry grid lines",
+        "Muted or pastel colors",
+        "Overlapping text and images"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that text is legible against the color blocks.",
+      "Ensure the grid is perfectly symmetrical in its spacing.",
+      "Verify the '1960s soul' aesthetic is maintained through font choice.",
+      "Confirm the main subject is clearly the focal point."
+    ],
+    "reuseFormula": "Solid Header + Vertical Sidebar + Multi-Panel Photographic Grid = Mid-Century Instructional Album Aesthetic"
+  }
+}

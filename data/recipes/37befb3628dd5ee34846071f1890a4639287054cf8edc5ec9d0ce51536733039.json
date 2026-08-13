@@ -1,0 +1,271 @@
+{
+  "id": "37befb3628dd5ee34846071f1890a4639287054cf8edc5ec9d0ce51536733039",
+  "skillId": "37befb3628dd5ee34846071f1890a4639287054cf8edc5ec9d0ce51536733039",
+  "versionId": "37befb3628dd5ee34846071f1890a4639287054cf8edc5ec9d0ce51536733039",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:34:19.899Z",
+  "approvedAt": "2026-08-12T21:34:19.899Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:34:19.899Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Back to Oakland.jpg",
+    "hash": "37befb3628dd5ee34846071f1890a4639287054cf8edc5ec9d0ce51536733039",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Back to Oakland",
+    "artist": "Tower Of Power",
+    "artworkUrl": "https://coverartarchive.org/release-group/773f470d-ce13-36c1-b40d-5601a8adbfbf/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/773f470d-ce13-36c1-b40d-5601a8adbfbf",
+    "releaseGroupId": "773f470d-ce13-36c1-b40d-5601a8adbfbf",
+    "recordingId": "b93b05d9-dd86-4a95-a156-8ebef1b554e4",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Time Will TellTower Of Power",
+      "song": "Time Will Tell",
+      "performer": "Tower Of Power",
+      "peakPosition": 69,
+      "firstChartDate": "1974-04-27",
+      "lastChartDate": "1974-06-01",
+      "appearances": [
+        {
+          "chartDate": "1974-04-27",
+          "position": 93
+        },
+        {
+          "chartDate": "1974-05-04",
+          "position": 85
+        },
+        {
+          "chartDate": "1974-05-11",
+          "position": 79
+        },
+        {
+          "chartDate": "1974-05-18",
+          "position": 76
+        },
+        {
+          "chartDate": "1974-05-25",
+          "position": 69
+        },
+        {
+          "chartDate": "1974-06-01",
+          "position": 72
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban highway bridge album cover suspension bridge highway sign vintage photography urban transit deckle edge border 70s aesthetic the highway sign acts as a foreground anchor against the receding bridge perspective the white bridge towers provide vertical contrast to the horizontal highway lanes the deckle edge border creates a physical printed photo feel the dark green of the sign contrasts with the blue water and sky vintage urban bridge highway sign overlay deckle edge frame",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Highway Bridge Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Music Album Art",
+        "Retro Travel Posters",
+        "Urban Landscape Photography"
+      ],
+      "retrievalTags": [
+        "suspension bridge",
+        "highway sign",
+        "vintage photography",
+        "urban transit",
+        "deckle edge border",
+        "70s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A vintage-style urban landscape featuring a prominent green highway overhead sign as the primary typographic vessel against a busy bridge backdrop.",
+      "triggerTerms": [
+        "highway sign overlay",
+        "vintage bridge photography",
+        "deckle edge photo frame",
+        "70s urban transit aesthetic"
+      ],
+      "excludeWhen": [
+        "modern high-definition photography is required",
+        "minimalist flat design is requested",
+        "nature-only landscapes without infrastructure"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-angle perspective of a multi-lane suspension bridge filled with vintage cars, framed by a rough deckle-edge border. A large, dark green highway directional sign is positioned in the upper right quadrant, serving as the main area for text.",
+    "coreVisualRelationships": [
+      "The highway sign acts as a foreground anchor against the receding bridge perspective.",
+      "The white bridge towers provide vertical contrast to the horizontal highway lanes.",
+      "The deckle-edge border creates a physical 'printed photo' feel.",
+      "The dark green of the sign contrasts with the blue water and sky."
+    ],
+    "coreInvariants": [
+      "Large green rectangular highway sign",
+      "Suspension bridge with white towers",
+      "Rough, torn-paper white border",
+      "Vintage 1970s film grain and color grading"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The highway sign is large and positioned in the top right; the bridge spans from the left mid-ground into the distance.",
+      "visualAnchor": "The highway sign's support pole and green face.",
+      "movementAndEyePath": "Eyes start at the high-contrast text on the sign, follow the bridge's curve downward and to the left, then back up the suspension cables.",
+      "negativeSpace": "The black outer margin surrounding the deckle-edged photo."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blue and muted grey (water and road)",
+      "contrastColorRole": "Forest green (highway sign)",
+      "accentColorRole": "White (bridge towers and text)",
+      "saturationAndValueRelationship": "Muted, low-saturation tones typical of 1970s color film with high-contrast white highlights.",
+      "paletteRestrictions": [
+        "Avoid neon or vibrant modern digital colors",
+        "Limit to earthy greens, blues, and greys"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Rounded terminals",
+        "High legibility for distance viewing",
+        "Wide apertures"
+      ],
+      "characterSpecificRedesigns": [
+        "Slightly softened corners to mimic reflective highway signage"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Rounded",
+            "corners": "Softened",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Left-aligned",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Two lines",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Centered on the green sign face",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Integrated as part of the physical sign"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Slight grain",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used for all informational text on the sign.",
+      "graphicDevices": [
+        "Directional arrow icon",
+        "Shield-shaped route marker",
+        "White border on green sign"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Sans-serif style",
+          "White-on-green color scheme",
+          "Highway sign context"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Modern digital-looking typefaces"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Highway Gothic (Series D or E)",
+            "reason": "Authentic US road sign typeface",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Interstate",
+            "reason": "Modernized version of highway signage fonts",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Overpass",
+            "reason": "Open-source alternative with similar geometric properties",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a vintage 1970s color photograph of a suspension bridge with white towers and heavy traffic. Include a large blank green highway sign in the upper right. Frame the entire image with a white deckle-edge torn paper border against a black background.",
+        "overlayInstruction": "Using a Highway Gothic font, typeset the desired text in white on the green sign face. Add a white directional arrow and a small shield icon to the left of the text."
+      },
+      "verificationChecks": [
+        "Is the text contained within the green sign?",
+        "Does the photo have a visible film grain and 70s color cast?",
+        "Is the deckle-edge border present?",
+        "Is the font a clean, bold sans-serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Text on the sign",
+      "Density of traffic",
+      "Time of day (lighting)",
+      "Width of the deckle-edge border"
+    ],
+    "mustRedesign": [
+      "Specific brand logos",
+      "Exact wording from the original image",
+      "Identifiable modern car models"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic vintage film texture",
+        "Correct highway signage proportions",
+        "Consistent perspective between sign and bridge"
+      ],
+      "avoid": [
+        "Clean digital edges",
+        "Modern font choices like Helvetica or Arial",
+        "Oversaturated colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Verify the sign looks physically mounted in the scene.",
+      "Check that the deckle edge doesn't look like a simple white rectangle.",
+      "Ensure the cars look like 1960s-70s models.",
+      "Confirm the text is legible and properly spaced on the sign."
+    ],
+    "reuseFormula": "Vintage Urban Bridge + Highway Sign Overlay + Deckle Edge Frame"
+  }
+}

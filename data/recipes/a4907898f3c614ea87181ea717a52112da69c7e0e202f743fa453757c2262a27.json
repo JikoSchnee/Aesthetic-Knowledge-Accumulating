@@ -1,0 +1,238 @@
+{
+  "id": "a4907898f3c614ea87181ea717a52112da69c7e0e202f743fa453757c2262a27",
+  "skillId": "a4907898f3c614ea87181ea717a52112da69c7e0e202f743fa453757c2262a27",
+  "versionId": "a4907898f3c614ea87181ea717a52112da69c7e0e202f743fa453757c2262a27",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T02:55:22.506Z",
+  "approvedAt": "2026-08-13T02:55:22.506Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T02:55:22.506Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Finally Over It.jpg",
+    "hash": "a4907898f3c614ea87181ea717a52112da69c7e0e202f743fa453757c2262a27",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Finally Over It",
+    "artist": "Summer Walker",
+    "artworkUrl": "https://coverartarchive.org/release-group/fb69d698-6822-4b62-8883-872087067761/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/fb69d698-6822-4b62-8883-872087067761",
+    "releaseGroupId": "fb69d698-6822-4b62-8883-872087067761",
+    "recordingId": "5e745f07-46f7-4055-a53f-44cff9e10506",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "fmt|summer walker",
+      "song": "FMT",
+      "performer": "Summer Walker",
+      "peakPosition": 79,
+      "firstChartDate": "2025-11-29",
+      "lastChartDate": "2025-11-29",
+      "appearances": [
+        {
+          "chartDate": "2025-11-29",
+          "position": 79
+        }
+      ]
+    }
+  },
+  "dedupeText": "bridal portrait with falling petals wedding dress falling white petals gothic architecture high contrast portrait script typography puff sleeves contrast between bright white garments and dark architectural shadows dynamic movement of blurred white petals against static subjects vertical hierarchy with script text at the top and advisory label at the bottom triangular composition formed by the two subjects and the bouquet cinematic portrait high contrast lighting ornate script overlay dynamic particle elements",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Bridal Portrait with Falling Petals",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Fashion Photography",
+        "Cinematic Portraiture"
+      ],
+      "retrievalTags": [
+        "wedding dress",
+        "falling white petals",
+        "gothic architecture",
+        "high contrast portrait",
+        "script typography",
+        "puff sleeves"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A cinematic bridal portrait featuring a central figure in a voluminous white gown against a dark architectural background with dynamic falling petals.",
+      "triggerTerms": [
+        "cinematic bridal portrait with falling petals",
+        "dramatic wedding dress photography",
+        "gothic arch background with white script"
+      ],
+      "excludeWhen": [
+        "casual outdoor photography",
+        "bright minimalist studio shots",
+        "modern sans-serif layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast, moody portrait of a bride in an ornate white gown with puff sleeves and a tulle skirt, standing next to a seated man in a white suit, set against a dark stone doorway with white petals suspended in mid-air.",
+    "coreVisualRelationships": [
+      "Contrast between bright white garments and dark architectural shadows",
+      "Dynamic movement of blurred white petals against static subjects",
+      "Vertical hierarchy with script text at the top and advisory label at the bottom",
+      "Triangular composition formed by the two subjects and the bouquet"
+    ],
+    "coreInvariants": [
+      "Voluminous white bridal textures",
+      "Dark, recessed architectural background",
+      "Suspended white petal elements"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The bride is the primary vertical anchor on the right; the seated man provides a horizontal base on the left.",
+      "visualAnchor": "The white bouquet held by the bride acts as the central focal point.",
+      "movementAndEyePath": "Eyes move from the top script down to the bride's face, following the gown's volume to the seated man, then to the advisory label.",
+      "negativeSpace": "Deep shadows in the doorway provide negative space that makes the white clothing pop."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and brown shadows in the background architecture.",
+      "contrastColorRole": "Pure white in the bridal gown, suit, and falling petals.",
+      "accentColorRole": "Warm skin tones and subtle green stems in the bouquet.",
+      "saturationAndValueRelationship": "High value contrast with low overall color saturation, leaning toward a monochromatic feel with warm undertones.",
+      "paletteRestrictions": [
+        "Avoid bright primary colors",
+        "Maintain deep blacks in shadows"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Elegant Spencerian script",
+      "letterConstructionRules": [
+        "High-contrast strokes with thin hair lines and thick swells",
+        "Elongated, looping ascenders and descenders",
+        "Interlocking flourishes between words"
+      ],
+      "characterSpecificRedesigns": [
+        "Capital letters feature oversized, circular flourishes",
+        "The 'y' descender loops back to underline the word"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "light",
+            "contrast": "extreme",
+            "xHeight": "low",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over dark background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle-glow",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Pair the ornate script with a rigid, blocky sans-serif for technical labels to create a formal vs. functional contrast.",
+      "graphicDevices": [
+        "Parental Advisory label in bottom left corner",
+        "Floating petal overlays"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Script style",
+          "White color",
+          "Top-center placement"
+        ],
+        "avoid": [
+          "Heavy bold fonts",
+          "Modern geometric sans-serifs for the title"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Edwardian Script",
+            "reason": "Matches the high-contrast calligraphic loops",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bickham Script",
+            "reason": "Provides similar formal flourishes and elegance",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a cinematic photo of a bride in a massive white tulle gown and a man in a white suit, posed in a dark stone gothic doorway with white petals falling around them.",
+        "overlayInstruction": "Add a white, elegant Spencerian script title at the top center and a standard black and white parental advisory label in the bottom left corner."
+      },
+      "verificationChecks": [
+        "Is the script white and highly flourished?",
+        "Is the background dark enough to make the white gown pop?",
+        "Are the falling petals blurred to suggest motion?",
+        "Is the advisory label placed in the bottom left?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of falling petals",
+      "Volume of the bridal gown",
+      "Complexity of the script flourishes"
+    ],
+    "mustRedesign": [
+      "Specific faces of the individuals",
+      "Exact brand logos",
+      "Specific jewelry designs"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-end editorial lighting",
+        "Crisp white textures against deep shadows",
+        "Elegant, legible script"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Cartoonish petal effects",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high contrast between subjects and background",
+      "Ensure script is centered and legible",
+      "Verify the presence of motion-blurred petals",
+      "Confirm the white suit and dress are not overexposed"
+    ],
+    "reuseFormula": "Cinematic Portrait + High Contrast Lighting + Ornate Script Overlay + Dynamic Particle Elements"
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "id": "8f6afe2dcebe7e13bd5819dff90605a64391e1a15bc53a645b7db0308882b8eb",
+  "skillId": "8f6afe2dcebe7e13bd5819dff90605a64391e1a15bc53a645b7db0308882b8eb",
+  "versionId": "8f6afe2dcebe7e13bd5819dff90605a64391e1a15bc53a645b7db0308882b8eb",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:58:05.543Z",
+  "approvedAt": "2026-08-12T22:58:05.543Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:58:05.543Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Ocean Eyes.jpg",
+    "hash": "8f6afe2dcebe7e13bd5819dff90605a64391e1a15bc53a645b7db0308882b8eb",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Ocean Eyes",
+    "artist": "Owl City",
+    "artworkUrl": "https://coverartarchive.org/release-group/6fa35df1-a08e-42f5-aeb2-ae590ba9fd6b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6fa35df1-a08e-42f5-aeb2-ae590ba9fd6b",
+    "releaseGroupId": "6fa35df1-a08e-42f5-aeb2-ae590ba9fd6b",
+    "recordingId": "66d06634-417c-4d77-872f-3102b243a278",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Vanilla TwilightOwl City",
+      "song": "Vanilla Twilight",
+      "performer": "Owl City",
+      "peakPosition": 72,
+      "firstChartDate": "2009-11-07",
+      "lastChartDate": "2010-03-27",
+      "appearances": [
+        {
+          "chartDate": "2009-11-07",
+          "position": 95
+        },
+        {
+          "chartDate": "2010-01-09",
+          "position": 72
+        },
+        {
+          "chartDate": "2010-01-16",
+          "position": 90
+        },
+        {
+          "chartDate": "2010-03-13",
+          "position": 99
+        },
+        {
+          "chartDate": "2010-03-27",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "coastal horizon album cover layout coastal horizon distressed border geometric sans serif blue and white architectural landmark horizontal banding creates a clear hierarchy between text and image the blue tones of the sky and sea harmonize with the navy typography the verticality of the architectural subject contrasts with the horizontal layout bands distressed edges provide a tactile weathered frame to the clean digital elements horizontal banding distressed border geometric sans serif coastal photography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Coastal Horizon Album Cover Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Digital Photography",
+        "Vector Typography",
+        "Distressed Masking"
+      ],
+      "useCases": [
+        "Album Art",
+        "Travel Poster",
+        "Promotional Banner"
+      ],
+      "retrievalTags": [
+        "coastal",
+        "horizon",
+        "distressed border",
+        "geometric sans-serif",
+        "blue and white",
+        "architectural landmark"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A three-tiered horizontal layout featuring a central architectural subject against a seascape, framed by distressed white borders and bold geometric typography.",
+      "triggerTerms": [
+        "distressed white border frame",
+        "three-tier horizontal layout",
+        "bold geometric sans-serif header",
+        "coastal architectural photography"
+      ],
+      "excludeWhen": [
+        "minimalist single-color backgrounds",
+        "hand-drawn illustrations",
+        "serif-only typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition divided into horizontal bands: a top section with large-scale display type, a middle band for secondary text, and a large bottom section featuring a coastal landscape with a prominent architectural structure. The entire image is enclosed in a rough, distressed white border.",
+    "coreVisualRelationships": [
+      "Horizontal banding creates a clear hierarchy between text and image.",
+      "The blue tones of the sky and sea harmonize with the navy typography.",
+      "The verticality of the architectural subject contrasts with the horizontal layout bands.",
+      "Distressed edges provide a tactile, weathered frame to the clean digital elements."
+    ],
+    "coreInvariants": [
+      "Rough, distressed white border masking the outer edges.",
+      "Horizontal color-blocked bands for text placement.",
+      "High-contrast geometric sans-serif typography."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Architectural landmark positioned in the lower-left quadrant, scaled to occupy roughly one-third of the vertical space.",
+      "visualAnchor": "The large, bold display text in the top third of the composition.",
+      "movementAndEyePath": "Top-down flow from the primary header to the secondary text, landing on the architectural subject and following the horizon line.",
+      "negativeSpace": "Significant open sky and sea area in the lower two-thirds to balance the heavy typography above."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Sky blue and ocean teal (background and atmosphere)",
+      "contrastColorRole": "Navy blue (primary and secondary typography)",
+      "accentColorRole": "White (borders and text background bands)",
+      "saturationAndValueRelationship": "High-value, medium-saturation blues paired with high-contrast dark navy and pure white.",
+      "paletteRestrictions": [
+        "Monochromatic blue scale",
+        "Pure white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Ultra-bold weight with minimal counters",
+        "Square-off terminals and sharp corners",
+        "Uniform stroke width",
+        "Modified 'I' with horizontal bars"
+      ],
+      "characterSpecificRedesigns": [
+        "The letter 'I' is rendered as a simple vertical bar with top and bottom crossbars, resembling a Roman numeral or a structural beam."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "ultra-bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "very small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed on a light blue band"
+          },
+          "treatment": {
+            "fill": "navy blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Humanist Sans-Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "middle center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed on a white band"
+          },
+          "treatment": {
+            "fill": "medium blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between ultra-bold geometric display type and wide-tracked lowercase humanist sans-serif.",
+      "graphicDevices": [
+        "Horizontal color bands",
+        "Distressed 'grunge' border mask"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Horizontal banding",
+          "Distressed border",
+          "Navy/White/Blue color scheme"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Drop shadows on text",
+          "Clean, sharp borders"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Ultra",
+            "reason": "Matches the heavy geometric weight and square feel of the primary header.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Provides the necessary geometric purity for the display role.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a coastal landscape with a modern white architectural landmark on the left, a blue sea, and a cloudy sky. Apply a distressed, rough white border mask around the entire square frame. Add a light blue horizontal band at the top and a white horizontal band in the middle.",
+        "overlayInstruction": "Place large navy blue geometric sans-serif text in the top light blue band. Place medium-sized medium-blue lowercase sans-serif text with wide tracking in the middle white band."
+      },
+      "verificationChecks": [
+        "Is the border distressed and white?",
+        "Are there distinct horizontal bands for text?",
+        "Is the primary text ultra-bold and navy blue?",
+        "Is the architectural subject positioned in the lower half?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Distress level of the border",
+      "Width of the horizontal text bands",
+      "Position of the architectural subject (left vs right)",
+      "Saturation of the blue palette"
+    ],
+    "mustRedesign": [
+      "Any specific brand logos",
+      "Identifiable celebrity faces",
+      "Specific trademarked building details"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean horizontal alignment",
+        "Legible high-contrast typography",
+        "Consistent blue-toned color grading"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-resolution textures",
+        "Mismatched font weights"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the distressed border does not obscure the text.",
+      "Verify the navy blue text is clearly legible against the light blue band.",
+      "Check that the horizon line is level.",
+      "Confirm the 'I' in the display text has the specific crossbar modification."
+    ],
+    "reuseFormula": "Horizontal Banding + Distressed Border + Geometric Sans-Serif + Coastal Photography"
+  }
+}

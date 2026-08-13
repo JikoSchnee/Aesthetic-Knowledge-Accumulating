@@ -1,0 +1,300 @@
+{
+  "id": "e2bb684d5d090bf2efb449c7ebd28bf112d4489b8bcd07dbc6a41721886220d8",
+  "skillId": "e2bb684d5d090bf2efb449c7ebd28bf112d4489b8bcd07dbc6a41721886220d8",
+  "versionId": "e2bb684d5d090bf2efb449c7ebd28bf112d4489b8bcd07dbc6a41721886220d8",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:14:22.280Z",
+  "approvedAt": "2026-08-12T22:14:22.280Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:14:22.280Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Don't Be Concerned.jpg",
+    "hash": "e2bb684d5d090bf2efb449c7ebd28bf112d4489b8bcd07dbc6a41721886220d8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Don't Be Concerned",
+    "artist": "Bob Lind",
+    "artworkUrl": "https://coverartarchive.org/release-group/091f73b4-bd51-425c-b11e-ec4bb8dd7918/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/091f73b4-bd51-425c-b11e-ec4bb8dd7918",
+    "releaseGroupId": "091f73b4-bd51-425c-b11e-ec4bb8dd7918",
+    "recordingId": "0194b390-33c6-46a2-b030-c0ef2f427fa8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Truly Julie's Blues (I'll Be There)Bob Lind",
+      "song": "Truly Julie's Blues (I'll Be There)",
+      "performer": "Bob Lind",
+      "peakPosition": 65,
+      "firstChartDate": "1966-05-07",
+      "lastChartDate": "1966-06-04",
+      "appearances": [
+        {
+          "chartDate": "1966-05-07",
+          "position": 91
+        },
+        {
+          "chartDate": "1966-05-14",
+          "position": 85
+        },
+        {
+          "chartDate": "1966-05-21",
+          "position": 81
+        },
+        {
+          "chartDate": "1966-05-28",
+          "position": 72
+        },
+        {
+          "chartDate": "1966-06-04",
+          "position": 65
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century folk revival album cover 1960s folk music sans serif typography rounded frame black border acoustic guitar the bold blue title dominates the upper third of the black border the white rounded frame creates a sharp window effect for the subject the subject s gaze is directed away from the camera creating a contemplative mood the background within the photo frame features organic abstract shapes in muted tones a subject portrait inside a color rounded corner frame set against a color background with font style typography stacked at the top",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Folk Revival Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Offset Printing",
+        "Graphic Layout"
+      ],
+      "useCases": [
+        "Music album artwork",
+        "Vintage-style poster design",
+        "Retro editorial layout"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "folk music",
+        "sans-serif typography",
+        "rounded frame",
+        "black border",
+        "acoustic guitar"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A retro album layout featuring a central portrait within a rounded white frame, set against a solid black background with bold, stacked sans-serif typography.",
+      "triggerTerms": [
+        "vintage folk album cover",
+        "rounded corner photo frame",
+        "bold blue sans-serif title",
+        "black border layout"
+      ],
+      "excludeWhen": [
+        "modern minimalist digital styles",
+        "ornate decorative borders",
+        "hand-drawn illustrations"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A structured composition where a central photographic portrait is encased in a white, rounded-corner rectangular frame. The frame is surrounded by a thick black border that serves as the canvas for high-contrast, stacked sans-serif text at the top.",
+    "coreVisualRelationships": [
+      "The bold blue title dominates the upper third of the black border.",
+      "The white rounded frame creates a sharp window effect for the subject.",
+      "The subject's gaze is directed away from the camera, creating a contemplative mood.",
+      "The background within the photo frame features organic, abstract shapes in muted tones."
+    ],
+    "coreInvariants": [
+      "Thick black outer border containing all typography.",
+      "White inner frame with significantly rounded top corners.",
+      "Primary title in a heavy, sky-blue sans-serif font."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The musician with an acoustic guitar is centered in the lower two-thirds of the frame.",
+      "visualAnchor": "The large, bright blue artist name at the top center.",
+      "movementAndEyePath": "Eyes start at the blue title, move down to the white frame, and follow the musician's gaze toward the left.",
+      "negativeSpace": "Heavy use of solid black in the margins to focus attention on the central image."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background/border)",
+      "contrastColorRole": "White (frame and secondary text)",
+      "accentColorRole": "Sky Blue (primary title)",
+      "saturationAndValueRelationship": "High contrast between the black background and the bright blue/white elements; the photo uses muted, earthy tones.",
+      "paletteRestrictions": [
+        "Solid black",
+        "Pure white",
+        "Sky blue",
+        "Muted olive and ochre"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric and Grotesque sans-serifs",
+      "letterConstructionRules": [
+        "Heavy weight for the main title",
+        "Uniform stroke width",
+        "Tight letter spacing",
+        "All-caps for primary and secondary headers"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "above frame"
+          },
+          "treatment": {
+            "fill": "sky blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "very top",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "above title"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Stacked sans-serifs of varying weights and colors to create a clear hierarchy.",
+      "graphicDevices": [
+        "Rounded-corner rectangular frame",
+        "Solid color blocks"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps styling",
+          "Blue/White/Black color scheme",
+          "Rounded frame corners"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Helvetica Inserat",
+            "reason": "Matches the heavy, bold presence of the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Provides the necessary mid-century grotesque feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man with an acoustic guitar, looking off-camera, set against a background of abstract organic shapes in olive and blue. Place this image inside a white frame with rounded top corners, all centered on a solid black background.",
+        "overlayInstruction": "Add the main title in a heavy sky-blue sans-serif font above the frame. Add a smaller white sans-serif subtitle at the very top and a third line of italicized white text just above the frame's top edge."
+      },
+      "verificationChecks": [
+        "Is the main title sky blue?",
+        "Are the top corners of the white frame rounded?",
+        "Is the background outside the frame solid black?",
+        "Is the typography all sans-serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the main title",
+      "Curvature of the frame corners",
+      "Subject of the central photograph"
+    ],
+    "mustRedesign": [
+      "Any logos or specific brand marks",
+      "Specific artist names or song titles",
+      "The exact abstract pattern in the photo background"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp edges on the frame",
+        "High-contrast legibility",
+        "Balanced vertical stacking of text"
+      ],
+      "avoid": [
+        "Blurry text",
+        "Overlapping elements",
+        "Modern gradients"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the white frame has a consistent border width.",
+      "Verify the blue title is the largest typographic element.",
+      "Check that the subject is properly centered within the rounded frame.",
+      "Confirm the black background is a flat, solid color."
+    ],
+    "reuseFormula": "A [Subject] portrait inside a [Color] rounded-corner frame, set against a [Color] background with [Font Style] typography stacked at the top."
+  }
+}

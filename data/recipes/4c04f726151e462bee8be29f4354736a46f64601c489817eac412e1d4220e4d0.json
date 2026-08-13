@@ -1,0 +1,242 @@
+{
+  "id": "4c04f726151e462bee8be29f4354736a46f64601c489817eac412e1d4220e4d0",
+  "skillId": "4c04f726151e462bee8be29f4354736a46f64601c489817eac412e1d4220e4d0",
+  "versionId": "4c04f726151e462bee8be29f4354736a46f64601c489817eac412e1d4220e4d0",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T11:14:50.825Z",
+  "approvedAt": "2026-08-12T11:14:50.825Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T11:14:50.825Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "mainstream sellout.jpg",
+    "hash": "4c04f726151e462bee8be29f4354736a46f64601c489817eac412e1d4220e4d0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "mainstream sellout",
+    "artist": "Machine Gun Kelly",
+    "artworkUrl": "https://coverartarchive.org/release-group/4d5f0303-9153-4875-af3c-4f9d97ae89d3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/4d5f0303-9153-4875-af3c-4f9d97ae89d3",
+    "releaseGroupId": "4d5f0303-9153-4875-af3c-4f9d97ae89d3",
+    "recordingId": "42fc305d-0721-4377-81ac-9fb3e3343ec7",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "PapercutsMachine Gun Kelly",
+      "song": "Papercuts",
+      "performer": "Machine Gun Kelly",
+      "peakPosition": 79,
+      "firstChartDate": "2021-08-28",
+      "lastChartDate": "2021-08-28",
+      "appearances": [
+        {
+          "chartDate": "2021-08-28",
+          "position": 79
+        }
+      ]
+    }
+  },
+  "dedupeText": "pop punk splatter aesthetic punk rock pink splatter white brick wall distorted fruit grunge typography high contrast photography central figure anchored between floating foreground and background elements vibrant pink accents contrasting against a monochrome black white and grey base vertical paint drips echoing the verticality of the central figure motion blur on peripheral objects creating a sense of chaotic action combine a high contrast studio portrait with a limited palette b w 1 neon color dynamic floating debris and distressed block typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Pop-Punk Splatter Aesthetic",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Alternative Fashion Editorial",
+        "Streetwear Branding"
+      ],
+      "retrievalTags": [
+        "punk rock",
+        "pink splatter",
+        "white brick wall",
+        "distorted fruit",
+        "grunge typography",
+        "high contrast photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast studio portrait featuring a central figure amidst dynamic, floating objects and vibrant pink liquid splatters against a neutral industrial background.",
+      "triggerTerms": [
+        "pink paint splatter on white brick",
+        "floating pink tomatoes",
+        "pop-punk aesthetic photography",
+        "grunge stencil typography"
+      ],
+      "excludeWhen": [
+        "clean minimalist corporate designs",
+        "soft pastel wedding photography",
+        "traditional landscape art"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central musician figure in a wide stance holding a guitar, surrounded by motion-blurred pink tomatoes and vertical pink paint drips on a white brick wall, grounded by a dark wet floor with smashed debris.",
+    "coreVisualRelationships": [
+      "Central figure anchored between floating foreground and background elements",
+      "Vibrant pink accents contrasting against a monochrome black, white, and grey base",
+      "Vertical paint drips echoing the verticality of the central figure",
+      "Motion blur on peripheral objects creating a sense of chaotic action"
+    ],
+    "coreInvariants": [
+      "Vibrant pink liquid splatter and drips",
+      "White brick wall background",
+      "High-contrast lighting with deep blacks and bright whites"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body central figure, medium-long shot, occupying the vertical center of the frame.",
+      "visualAnchor": "The dark matte guitar held at the center of the composition.",
+      "movementAndEyePath": "Circular motion from the blurred foreground tomatoes leading inward to the central figure, then upward to the top-right typography.",
+      "negativeSpace": "Balanced white brick wall space in the upper quadrants to allow for typographic elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (background wall) and Black (clothing and floor)",
+      "contrastColorRole": "Vibrant Magenta/Pink (splatters, hair, and fruit)",
+      "accentColorRole": "Grey (shadows and floor reflections)",
+      "saturationAndValueRelationship": "High saturation in the pink elements against a desaturated, high-value background.",
+      "paletteRestrictions": [
+        "Strictly limited to Black, White, Grey, and a single shade of vibrant Pink"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy sans-serif and stencil-style block lettering",
+      "letterConstructionRules": [
+        "Ultra-bold weight with minimal kerning",
+        "Intentional distressing and 'bleeding' edges",
+        "Integration of graphic symbols (like an 'A' in a circle) into letterforms"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters replaced or overlaid with punk-style iconography",
+        "Text contained within rectangular 'tape' or 'sticker' blocks with rough edges"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Extra-Bold Sans-Serif",
+          "anatomy": {
+            "width": "compressed",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "staggered",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "partial over background drips",
+            "relationshipToImage": "layered over the wall"
+          },
+          "treatment": {
+            "fill": "solid black and pink",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "distressed/grunge",
+            "distortion": "stencil-bleed"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy block display text paired with a secondary 'stamped' or 'taped' sub-header.",
+      "graphicDevices": [
+        "Rectangular background blocks for text",
+        "Anarchy symbol integration",
+        "Dripping paint effects"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Heavy weight",
+          "Distressed edges",
+          "Tight tracking"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Clean/Corporate finishes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Provides the necessary vertical compression and heavy weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Stencil Std",
+            "reason": "Captures the raw, industrial punk aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A man with pink hair in a white t-shirt and black jeans stands in a wide stance holding a black guitar against a white brick wall. Vibrant pink paint is splattered on the wall and floor. Several pink tomatoes are frozen in mid-air with motion blur.",
+        "overlayInstruction": "Apply heavy, distressed black and pink block typography in the top right corner, using a stencil-like effect for the secondary line."
+      },
+      "verificationChecks": [
+        "Is the pink color consistent across hair, splatter, and fruit?",
+        "Does the typography look distressed and integrated into the scene?",
+        "Is there a clear sense of depth between the blurred foreground and sharp background?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of pink splatters",
+      "Amount of motion blur on floating objects",
+      "Distress level of the typography"
+    ],
+    "mustRedesign": [
+      "Any specific artist logos",
+      "Specific guitar brand markings",
+      "Exact facial features of the subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast lighting",
+        "Dynamic sense of motion",
+        "Gritty, punk-rock texture"
+      ],
+      "avoid": [
+        "Soft lighting",
+        "Clean, centered typography",
+        "Naturalistic fruit colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the pink is a vibrant magenta, not a soft pastel.",
+      "Ensure the brick wall texture is visible through the paint drips.",
+      "Verify the typography has a 'stamped' or 'stencil' quality.",
+      "Confirm the floor has a reflective, wet appearance."
+    ],
+    "reuseFormula": "Combine a high-contrast studio portrait with a limited palette (B&W + 1 neon color), dynamic floating debris, and distressed block typography."
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "id": "2139e3a5c3b6b68f07ec6ee5570fe18b415856166973613016f85aa8fb78cbc9",
+  "libraryType": "photo",
+  "batchId": "7793b57b-d710-4ec2-9d9c-56730858372b",
+  "status": "approved",
+  "providerModel": "google/gemini-2.5-flash",
+  "createdAt": "2026-08-07T09:34:44.375Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-2.5-flash",
+  "typographyUpdatedAt": "2026-08-07T09:34:44.376Z",
+  "source": {
+    "kind": "album_cover",
+    "filename": "Morgan Wallen — I’m The Problem.jpg",
+    "hash": "2139e3a5c3b6b68f07ec6ee5570fe18b415856166973613016f85aa8fb78cbc9",
+    "provider": "iTunes Search API",
+    "albumId": "1802103958",
+    "title": "I’m The Problem",
+    "artist": "Morgan Wallen",
+    "genre": "Country · Music",
+    "year": "2025",
+    "sourceUrl": "https://music.apple.com/us/album/im-the-problem/1802103958",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/ef/26/1eef2600-29f4-5423-3052-26874afd2947/25UMGIM46050.rgb.jpg/600x600bb.jpg"
+  },
+  "dedupeText": "album cover with illustrated portrait portrait man sketchy painted country music vintage paper textured background handwritten text parental advisory the man s profile dominates the central and right portions of the image creating a strong focal point the textured background provides a rustic aged feel that complements the sketch like portrait the vertical text on the left acts as a counterpoint to the horizontal gaze of the subject balancing the composition the parental advisory label serves as a small contrasting graphic element in the bottom right generate a digitally painted portrait of a person in profile with a sketchy textured quality place this portrait against a warm aged parchment like background add custom lettered hand drawn text vertically on the left side and a parental advisory graphic in the bottom right corner maintain a muted earthy color palette",
+  "duplicateCandidates": [],
+  "duplicateDecision": "not_required",
+  "recipe": {
+    "metadata": {
+      "title": "Album Cover with Illustrated Portrait",
+      "category": "album cover",
+      "medium": [
+        "digital painting",
+        "sketch",
+        "mixed media"
+      ],
+      "useCases": [
+        "album art",
+        "digital music platforms",
+        "promotional material"
+      ],
+      "retrievalTags": [
+        "portrait",
+        "man",
+        "sketchy",
+        "painted",
+        "country music",
+        "vintage paper",
+        "textured background",
+        "handwritten text",
+        "parental advisory"
+      ]
+    },
+    "visualDefinition": "A digitally painted and sketched portrait of a man in profile, looking left, set against a textured, parchment-like background. The artwork has a rough, hand-drawn quality with visible brushstrokes and pencil lines. Handwritten-style text is vertically aligned on the left side, and a 'Parental Advisory' label is in the bottom right corner.",
+    "coreVisualRelationships": [
+      "The man's profile dominates the central and right portions of the image, creating a strong focal point.",
+      "The textured background provides a rustic, aged feel that complements the sketch-like portrait.",
+      "The vertical text on the left acts as a counterpoint to the horizontal gaze of the subject, balancing the composition.",
+      "The 'Parental Advisory' label serves as a small, contrasting graphic element in the bottom right."
+    ],
+    "coreInvariants": [
+      "The subject is a man in profile, looking left, with a distinct hairstyle and facial hair.",
+      "The artwork style is a blend of digital painting and sketching, characterized by visible brushstrokes and pencil lines.",
+      "The background has a warm, aged, and textured appearance, resembling parchment or old paper.",
+      "The overall color palette is earthy and muted, with warm browns, beiges, and skin tones.",
+      "Text is vertically oriented on the left side, appearing hand-drawn or handwritten."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The man's head and shoulders occupy the central and right two-thirds of the image, scaled to be prominent but allowing space for text on the left.",
+      "visualAnchor": "The man's face, particularly his eye and nose, serves as the primary visual anchor.",
+      "movementAndEyePath": "The eye is drawn from the textured background to the man's face, then follows his gaze to the left, where the vertical text is encountered, creating a circular path.",
+      "negativeSpace": "The textured background on the left and above the man's head functions as negative space, allowing the subject and text to stand out. The space around the 'Parental Advisory' label also acts as negative space."
+    },
+    "colorSystem": {
+      "dominantColorRole": "The dominant colors are warm beiges and light browns from the background, providing a vintage and earthy base.",
+      "contrastColorRole": "Darker browns and blacks in the man's hair, beard, and the outlines of the sketch provide contrast against the lighter skin tones and background.",
+      "accentColorRole": "Subtle hints of orange-brown in the background texture and within the text area serve as minor accent colors, adding warmth.",
+      "saturationAndValueRelationship": "The overall saturation is moderate to low, contributing to a muted, naturalistic feel. Values range from light beige in the background to dark brown/black in the hair and text, creating depth without high contrast.",
+      "paletteRestrictions": [
+        "Avoid bright, highly saturated colors.",
+        "Maintain an earthy, warm, and slightly desaturated palette.",
+        "Limit the use of cool tones."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "The letters are based on a sans-serif structure, but with significant organic variation and a hand-drawn quality.",
+      "letterConstructionRules": [
+        "Each character is individually drawn, exhibiting slight inconsistencies in stroke width and baseline.",
+        "Strokes have a rough, textured edge, mimicking pencil or charcoal.",
+        "Letters are generally upright but show minor leaning or wobble.",
+        "The 'I' in 'I'M' is a simple vertical stroke with a slight serif-like flourish at the top and bottom."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'M' has a slightly wider stance and uneven vertical strokes.",
+        "The 'A's have a slightly open apex and varying crossbar heights.",
+        "The 'R's have a distinctive, almost handwritten loop in the bowl.",
+        "The 'S' has a more angular, less fluid curve than typical sans-serifs."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "handwritten sans-serif",
+          "anatomy": {
+            "width": "normal to slightly condensed",
+            "weight": "medium",
+            "contrast": "low (monoline appearance with slight variation)",
+            "xHeight": "moderate to high",
+            "terminals": "blunt, slightly rounded, or rough",
+            "corners": "slightly rounded or irregular",
+            "counters": "open, irregular",
+            "strokeCharacter": "textured, pencil-like, slightly uneven"
+          },
+          "typesetting": {
+            "case": "all caps",
+            "alignment": "left-aligned within its vertical column",
+            "tracking": "loose",
+            "leading": "tight, characters are stacked vertically",
+            "lineBreakPattern": "each word on its own line, stacked vertically",
+            "density": "sparse, due to vertical orientation and loose tracking"
+          },
+          "composition": {
+            "position": "left side of the image, vertically oriented",
+            "scale": "large enough to be legible but not overpower the portrait",
+            "rotation": "-90 degrees (reads bottom-up)",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "positioned alongside the subject, creating a vertical compositional element that balances the horizontal gaze"
+          },
+          "treatment": {
+            "fill": "dark brown/black, solid",
+            "outline": "none (implied by stroke texture)",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "subtle rough edges, mimicking pencil or charcoal",
+            "distortion": "slight organic wobble"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "monoline",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed, geometric",
+            "strokeCharacter": "clean, uniform"
+          },
+          "typesetting": {
+            "case": "all caps",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "two lines, 'PARENTAL ADVISORY' above 'EXPLICIT CONTENT'",
+            "density": "dense"
+          },
+          "composition": {
+            "position": "bottom right corner",
+            "scale": "small, secondary element",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "a distinct, separate graphic element placed in the corner"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrasting a rustic, custom-lettered style with a clean, geometric, and functional warning label.",
+      "graphicDevices": [
+        "The 'Parental Advisory' label is a standard, recognizable graphic device."
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The hand-drawn, slightly irregular quality of the main text.",
+          "The vertical orientation and stacking of words for the main text.",
+          "The all-caps, bold, geometric style of the 'Parental Advisory' text.",
+          "The black background and white text of the 'Parental Advisory' label."
+        ],
+        "avoid": [
+          "Perfectly uniform, machine-generated fonts for the main text.",
+          "Script or highly decorative fonts for the main text.",
+          "Altering the standard 'Parental Advisory' graphic."
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "handwritten sans-serif",
+            "reason": "To replicate the organic, personal feel of the main text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "charcoal or pencil sketch font",
+            "reason": "To capture the textured, rough edges of the letterforms.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "geometric sans-serif (for Parental Advisory)",
+            "reason": "To match the clean, institutional look of the warning label.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a digitally painted and sketched portrait of a man in profile, looking left, with visible brushstrokes and pencil lines. The background should be a warm, aged, and textured parchment-like surface. Ensure the overall color palette is earthy and muted, with warm browns, beiges, and skin tones. Leave a clear vertical strip on the left side for text and a small rectangular area in the bottom right for a graphic label.",
+        "overlayInstruction": "Overlay the main text 'MORGAN WALLEN I'M THE PROBLEM' (or similar content) on the left side, oriented vertically and reading bottom-up. The text should be custom-lettered in a hand-drawn, slightly irregular sans-serif style with dark brown/black fill and rough edges. In the bottom right corner, overlay a 'Parental Advisory Explicit Content' label, using a standard black rectangle with white, bold, geometric sans-serif text."
+      },
+      "verificationChecks": [
+        "Is the main text clearly hand-drawn in appearance, not a standard font?",
+        "Is the main text vertically oriented and readable from bottom-up?",
+        "Is the 'Parental Advisory' label an exact replica of the standard graphic?",
+        "Are the color palettes of the text and background consistent with the original's muted, earthy tones?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's facial features and expression (while maintaining profile view)",
+      "Specific texture and brushstroke patterns in the background and portrait",
+      "Exact shade of warm beige/brown for the background",
+      "Subtle variations in the hand-drawn text's irregularities"
+    ],
+    "mustRedesign": [
+      "The specific wording of the main text and the 'Parental Advisory' label (due to copyright/trademark)."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "A convincing blend of digital painting and sketching techniques.",
+        "A warm, vintage, and slightly rustic aesthetic.",
+        "Clear legibility of the custom-lettered text despite its hand-drawn nature.",
+        "A balanced composition with the portrait as the primary focus."
+      ],
+      "avoid": [
+        "Overly smooth or photorealistic rendering.",
+        "Bright, artificial, or clashing colors.",
+        "Generic, untextured backgrounds.",
+        "Text that appears perfectly typeset or lacks organic variation."
+      ]
+    },
+    "postGenerationChecks": [
+      "Does the portrait maintain a consistent artistic style (sketchy/painted)?",
+      "Is the background texture present and contributing to the aged feel?",
+      "Is the custom-lettered text visually distinct from a standard font?",
+      "Is the 'Parental Advisory' graphic correctly rendered and positioned?",
+      "Are the overall colors muted and warm, avoiding high saturation?",
+      "Is the composition balanced, with the portrait, text, and label all contributing without clashing?"
+    ],
+    "reuseFormula": "Generate a digitally painted portrait of a person in profile with a sketchy, textured quality. Place this portrait against a warm, aged, parchment-like background. Add custom-lettered, hand-drawn text vertically on the left side, and a 'Parental Advisory' graphic in the bottom right corner. Maintain a muted, earthy color palette."
+  },
+  "embeddingStatus": "ready",
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T01:25:53.458Z",
+  "indexStatus": "hybrid_searchable",
+  "approvedAt": "2026-08-07T10:05:54.895Z"
+}

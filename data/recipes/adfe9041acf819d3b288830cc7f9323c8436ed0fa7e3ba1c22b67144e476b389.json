@@ -1,0 +1,315 @@
+{
+  "id": "adfe9041acf819d3b288830cc7f9323c8436ed0fa7e3ba1c22b67144e476b389",
+  "skillId": "adfe9041acf819d3b288830cc7f9323c8436ed0fa7e3ba1c22b67144e476b389",
+  "versionId": "adfe9041acf819d3b288830cc7f9323c8436ed0fa7e3ba1c22b67144e476b389",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:02:56.458Z",
+  "approvedAt": "2026-08-12T17:02:56.458Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:02:56.458Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Stay Awhile / I Only Want to Be With You.jpg",
+    "hash": "adfe9041acf819d3b288830cc7f9323c8436ed0fa7e3ba1c22b67144e476b389",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Stay Awhile / I Only Want to Be With You",
+    "artist": "Dusty Springfield",
+    "artworkUrl": "https://coverartarchive.org/release-group/af11e053-1589-3d9d-a7e6-fe659721fbb3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/af11e053-1589-3d9d-a7e6-fe659721fbb3",
+    "releaseGroupId": "af11e053-1589-3d9d-a7e6-fe659721fbb3",
+    "recordingId": "bdddaad3-87bf-44c8-bca5-c0e3ce1e92e8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Stay AwhileDusty Springfield",
+      "song": "Stay Awhile",
+      "performer": "Dusty Springfield",
+      "peakPosition": 38,
+      "firstChartDate": "1964-03-28",
+      "lastChartDate": "1964-05-09",
+      "appearances": [
+        {
+          "chartDate": "1964-03-28",
+          "position": 80
+        },
+        {
+          "chartDate": "1964-04-04",
+          "position": 75
+        },
+        {
+          "chartDate": "1964-04-11",
+          "position": 62
+        },
+        {
+          "chartDate": "1964-04-18",
+          "position": 51
+        },
+        {
+          "chartDate": "1964-04-25",
+          "position": 44
+        },
+        {
+          "chartDate": "1964-05-02",
+          "position": 39
+        },
+        {
+          "chartDate": "1964-05-09",
+          "position": 38
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century mod pop album layout mid century modern rounded rectangles beehive hairstyle denim fashion 1960s typography split panel layout symmetrical balance between the image capsule and the text capsule overlapping circular badge breaking the rigid frame of the left capsule contrast between the warm cream background and the cool teal blue interior panels hierarchical scale from the large top header down to the fine print tracklist split capsule layout 1960s studio portrait condensed sans serif header high contrast serif titles cream teal magenta palette",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Mod Pop Album Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Offset Lithography",
+        "Graphic Illustration",
+        "Studio Photography"
+      ],
+      "useCases": [
+        "Vintage vinyl record cover design",
+        "1960s retro editorial layouts",
+        "Music industry marketing collateral"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "rounded rectangles",
+        "beehive hairstyle",
+        "denim fashion",
+        "1960s typography",
+        "split-panel layout"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1960s pop aesthetic featuring a split-panel composition with rounded-corner frames, vibrant color blocking, and a mix of condensed sans-serif and high-contrast serif typography.",
+      "triggerTerms": [
+        "1960s album cover style",
+        "rounded rectangle frame layout",
+        "retro pop music aesthetic",
+        "vintage teal and magenta color scheme"
+      ],
+      "excludeWhen": [
+        "modern minimalist requests",
+        "grunge or distressed textures",
+        "3D rendered environments"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A structured layout divided into two primary vertical rounded-corner capsules against a cream background. The left capsule contains a studio portrait of a subject in denim, while the right capsule features a solid teal background with centered typography. A large display header sits at the top, and a circular badge overlaps the top-left corner of the image frame.",
+    "coreVisualRelationships": [
+      "Symmetrical balance between the image capsule and the text capsule",
+      "Overlapping circular badge breaking the rigid frame of the left capsule",
+      "Contrast between the warm cream background and the cool teal/blue interior panels",
+      "Hierarchical scale from the large top header down to the fine-print tracklist"
+    ],
+    "coreInvariants": [
+      "Rounded-corner rectangular frames with thin black outlines",
+      "Cream or off-white outer border/background",
+      "Subject in a high-key studio setting with a solid color floor/backdrop"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered within the left rounded capsule, shown from the waist up in a kneeling pose.",
+      "visualAnchor": "The large magenta display text at the top acts as the primary anchor.",
+      "movementAndEyePath": "Top header to left image, then to the circular badge, then across to the teal text panel, ending at the bottom logo area.",
+      "negativeSpace": "Substantial cream-colored margins around the central capsules provide breathing room."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cream (Background)",
+      "contrastColorRole": "Teal (Right Panel) and Denim Blue (Left Image)",
+      "accentColorRole": "Magenta (Header and Badge)",
+      "saturationAndValueRelationship": "High saturation accents against a muted, low-value cream base.",
+      "paletteRestrictions": [
+        "Teal",
+        "Magenta",
+        "Cream",
+        "Denim Blue",
+        "Black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed Sans-Serif and High-Contrast Serif",
+      "letterConstructionRules": [
+        "Display text is ultra-condensed with tight tracking",
+        "Secondary titles use high-contrast serifs with vertical stress",
+        "Body text is all-caps sans-serif"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "condensed sans-serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "above frames"
+          },
+          "treatment": {
+            "fill": "magenta",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "modern serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "ball or teardrop",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "center of right panel",
+            "scale": "medium-large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "inside teal panel"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Condensed bold sans-serif for impact paired with elegant high-contrast serifs for sophistication.",
+      "graphicDevices": [
+        "Rounded rectangle frames with double outlines",
+        "Circular badge with magenta border",
+        "Horizontal divider lines with diamond ornaments",
+        "Interlocking colored rings at the bottom"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions of the header",
+          "High contrast of the serif titles",
+          "All-caps formatting for tracklists"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Geometric sans-serifs like Futura",
+          "Lower-case display text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Matches the ultra-condensed, bold display header style.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "Captures the high-contrast, vertical stress of the secondary titles.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Suitable for the all-caps sans-serif body text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a cream-colored background with two vertical rounded-corner capsules. The left capsule contains a 1960s-style studio portrait of a woman with a blonde beehive hairstyle wearing a denim shirt against a blue backdrop. The right capsule is solid teal. Add a circular white badge overlapping the top-left of the image capsule.",
+        "overlayInstruction": "Add ultra-condensed magenta sans-serif text at the top. Inside the teal panel, add centered white high-contrast serif text for the main title and smaller all-caps sans-serif text for the list below. Add magenta serif text inside the circular badge."
+      },
+      "verificationChecks": [
+        "Are the frames rounded rectangles with thin outlines?",
+        "Is the header text ultra-condensed and magenta?",
+        "Is the right panel solid teal with centered white text?",
+        "Does a circular badge overlap the left image frame?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the right panel (e.g., orange, yellow)",
+      "Subject pose and attire in the left panel",
+      "Accent color for the header and badge"
+    ],
+    "mustRedesign": [
+      "Specific artist names and song titles",
+      "Corporate logos (Philips, etc.)",
+      "Specific catalog numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp edges on all geometric frames",
+        "High-contrast typography",
+        "Balanced split-screen composition"
+      ],
+      "avoid": [
+        "Modern digital gradients",
+        "Drop shadows on text",
+        "Hand-drawn or messy borders"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the rounded corners of the capsules are consistent.",
+      "Check that the circular badge is perfectly round and overlaps the frame.",
+      "Verify the typography hierarchy: Header > Title > List.",
+      "Confirm the color palette remains within the 1960s retro spectrum."
+    ],
+    "reuseFormula": "Split-capsule layout + 1960s studio portrait + condensed sans-serif header + high-contrast serif titles + cream/teal/magenta palette."
+  }
+}

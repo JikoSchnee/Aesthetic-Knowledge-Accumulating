@@ -1,0 +1,248 @@
+{
+  "id": "262c9048c4f6866a435f4247129df0f7ebde7a48ec636359a12f87d67bb0c2e4",
+  "skillId": "262c9048c4f6866a435f4247129df0f7ebde7a48ec636359a12f87d67bb0c2e4",
+  "versionId": "262c9048c4f6866a435f4247129df0f7ebde7a48ec636359a12f87d67bb0c2e4",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:41:29.714Z",
+  "approvedAt": "2026-08-13T00:41:29.714Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:41:29.714Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Memphis Queen.jpg",
+    "hash": "262c9048c4f6866a435f4247129df0f7ebde7a48ec636359a12f87d67bb0c2e4",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Memphis Queen",
+    "artist": "Carla Thomas",
+    "artworkUrl": "https://coverartarchive.org/release-group/faf805ce-41aa-301d-9414-aa11b980e770/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/faf805ce-41aa-301d-9414-aa11b980e770",
+    "releaseGroupId": "faf805ce-41aa-301d-9414-aa11b980e770",
+    "recordingId": "60c740c5-a2cd-4006-932e-16b4c4d596ff",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Where Do I GoCarla Thomas",
+      "song": "Where Do I Go",
+      "performer": "Carla Thomas",
+      "peakPosition": 86,
+      "firstChartDate": "1968-10-19",
+      "lastChartDate": "1968-10-26",
+      "appearances": [
+        {
+          "chartDate": "1968-10-19",
+          "position": 86
+        },
+        {
+          "chartDate": "1968-10-26",
+          "position": 86
+        }
+      ]
+    }
+  },
+  "dedupeText": "soul diva portrait album cover bouffant hairstyle psychedelic lettering soul music vintage portrait pink and brown palette the hair volume creates a circular frame for the face the text follows the curve of the hair s upper boundary the pink of the clothing matches the highlights in the typography the dark background provides high contrast for the subject s skin and hair texture vintage soul portrait tight bouffant headshot dark mottled background arched psychedelic bubble typography heavy drop shadow",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soul Diva Portrait Album Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Airbrushing"
+      ],
+      "useCases": [
+        "Vintage soul music covers",
+        "1960s-70s R&B aesthetic",
+        "Retro portraiture with psychedelic typography"
+      ],
+      "retrievalTags": [
+        "bouffant hairstyle",
+        "psychedelic lettering",
+        "soul music",
+        "vintage portrait",
+        "pink and brown palette"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A tight, centered portrait of a woman with a voluminous 1960s bouffant hairstyle, featuring vibrant psychedelic display typography across the top.",
+      "triggerTerms": [
+        "vintage soul album cover style",
+        "psychedelic bubble lettering",
+        "1960s bouffant portrait"
+      ],
+      "excludeWhen": [
+        "modern minimalist photography",
+        "sans-serif typography",
+        "full-body shots"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up studio portrait of a Black woman with a large, textured bouffant hairstyle, set against a dark, atmospheric background with a burst of light behind the head. The top of the frame is occupied by stylized, colorful display text with a heavy drop shadow.",
+    "coreVisualRelationships": [
+      "The hair volume creates a circular frame for the face",
+      "The text follows the curve of the hair's upper boundary",
+      "The pink of the clothing matches the highlights in the typography",
+      "The dark background provides high contrast for the subject's skin and hair texture"
+    ],
+    "coreInvariants": [
+      "Voluminous, textured bouffant hairstyle as the primary visual mass",
+      "Psychedelic display typography with high-contrast outlines",
+      "Tight head-and-shoulders framing"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centered and fills approximately 70% of the vertical frame.",
+      "visualAnchor": "The subject's eyes and the large mass of the hair.",
+      "movementAndEyePath": "From the vibrant text at the top, down through the hair texture to the subject's face, ending at the pink garment.",
+      "negativeSpace": "Dark, mottled background concentrated in the lower corners and behind the hair."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep browns and blacks in the hair and background.",
+      "contrastColorRole": "Vibrant magenta/pink in the clothing and text.",
+      "accentColorRole": "Gold in the jewelry and text outlines.",
+      "saturationAndValueRelationship": "High saturation in the pinks against low-value, earthy tones.",
+      "paletteRestrictions": [
+        "Avoid neon greens or blues",
+        "Stick to warm earth tones and magenta"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "psychedelic bubble",
+      "letterConstructionRules": [
+        "Thick, rounded strokes with minimal counters",
+        "Interlocking or tightly kerned characters",
+        "Heavy drop shadows creating a 3D effect",
+        "Curvilinear baselines"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters like 'A' and 'O' have tiny, circular counters",
+        "Terminals are rounded and bulbous"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "psychedelic",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "ultra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "minimal",
+            "strokeCharacter": "monolinear-thick"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "slight-arch",
+            "overlap": "none",
+            "relationshipToImage": "layered over background, following hair contour"
+          },
+          "treatment": {
+            "fill": "gradient-pink-to-purple",
+            "outline": "cyan-and-white",
+            "shadow": "deep-purple-drop",
+            "depth": "extrude",
+            "texture": "smooth",
+            "distortion": "liquid-bubble"
+          }
+        }
+      ],
+      "pairingStrategy": "Single dominant display face with small technical metadata in a sans-serif.",
+      "graphicDevices": [
+        "Heavy drop shadows",
+        "Multi-layered outlines",
+        "Curved baseline"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Bubble-like roundness",
+          "Tight kerning",
+          "Vibrant pink fill"
+        ],
+        "avoid": [
+          "Thin serifs",
+          "Straight baselines",
+          "Modern geometric fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bell Bottom Laser",
+            "reason": "Captures the 70s psychedelic bubble aesthetic",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Dauphin",
+            "reason": "Similar rounded, heavy display characteristics",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a Black woman with a very large, curly 1960s bouffant hairstyle, wearing a pink top with gold trim and large hoop earrings, against a dark mottled background with a soft light halo behind her head.",
+        "overlayInstruction": "Apply custom psychedelic bubble lettering in a magenta-to-purple gradient with a cyan outline and a heavy dark drop shadow, arched across the top of the frame."
+      },
+      "verificationChecks": [
+        "Is the hair the most prominent visual element?",
+        "Does the text have a 3D bubble effect?",
+        "Is the color palette dominated by brown and magenta?",
+        "Is the framing a tight headshot?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Hair volume",
+      "Text arch intensity",
+      "Background light burst intensity",
+      "Saturation of the pink garment"
+    ],
+    "mustRedesign": [
+      "Avoid modern digital sharpness; maintain a soft, film-grain texture",
+      "Ensure typography does not use standard modern sans-serifs"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s hair texture",
+        "Hand-drawn feel to the typography",
+        "Soft studio lighting"
+      ],
+      "avoid": [
+        "Flat vector illustrations",
+        "Modern high-fashion lighting",
+        "Digital-only gradients"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for interlocking letterforms",
+      "Verify the drop shadow direction on text",
+      "Ensure the hair texture is detailed and not a flat shape",
+      "Confirm the pink color is vibrant and saturated",
+      "Check that the background is sufficiently dark to make the subject pop"
+    ],
+    "reuseFormula": "Vintage Soul Portrait = (Tight Bouffant Headshot + Dark Mottled Background) + (Arched Psychedelic Bubble Typography * Heavy Drop Shadow)"
+  }
+}

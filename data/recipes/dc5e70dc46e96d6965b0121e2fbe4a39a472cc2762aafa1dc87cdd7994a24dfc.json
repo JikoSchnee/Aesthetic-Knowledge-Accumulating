@@ -1,0 +1,287 @@
+{
+  "id": "dc5e70dc46e96d6965b0121e2fbe4a39a472cc2762aafa1dc87cdd7994a24dfc",
+  "skillId": "dc5e70dc46e96d6965b0121e2fbe4a39a472cc2762aafa1dc87cdd7994a24dfc",
+  "versionId": "dc5e70dc46e96d6965b0121e2fbe4a39a472cc2762aafa1dc87cdd7994a24dfc",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:31:16.413Z",
+  "approvedAt": "2026-08-12T14:31:16.413Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:31:16.413Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Fastlife.jpg",
+    "hash": "dc5e70dc46e96d6965b0121e2fbe4a39a472cc2762aafa1dc87cdd7994a24dfc",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Fastlife",
+    "artist": "Joe Jonas",
+    "artworkUrl": "https://coverartarchive.org/release-group/57ede52e-64de-417a-872d-5b9059e7672a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/57ede52e-64de-417a-872d-5b9059e7672a",
+    "releaseGroupId": "57ede52e-64de-417a-872d-5b9059e7672a",
+    "recordingId": "540991e9-3415-40e9-a474-706b22bf0919",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "See No MoreJoe Jonas",
+      "song": "See No More",
+      "performer": "Joe Jonas",
+      "peakPosition": 92,
+      "firstChartDate": "2011-07-02",
+      "lastChartDate": "2011-07-02",
+      "appearances": [
+        {
+          "chartDate": "2011-07-02",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic motion portrait album cover motion blur cinematic lighting geometric sans serif urban night centered portrait subject sharpness versus background motion blur warm background tones versus cool dark clothing large white display text versus smaller lime green subtitle symmetrical composition anchored by the subject s gaze centered portrait horizontal motion blur background layered geometric sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Motion Portrait Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Digital Photography",
+        "Long Exposure Effects",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Posters",
+        "Artist Branding"
+      ],
+      "retrievalTags": [
+        "motion blur",
+        "cinematic lighting",
+        "geometric sans-serif",
+        "urban night",
+        "centered portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered male portrait against a high-speed motion-blurred urban background with clean, layered geometric typography.",
+      "triggerTerms": [
+        "cinematic motion blur portrait",
+        "urban light trails background",
+        "modern geometric sans-serif album cover"
+      ],
+      "excludeWhen": [
+        "requesting a minimalist white background",
+        "requesting vintage or distressed textures",
+        "requesting serif typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A sharp, centered medium-close-up portrait of a man with dark hair and stubble, set against a vibrant orange and red background featuring horizontal light trails. The subject wears dark clothing, providing a high-contrast base for large, white geometric text that overlaps his chest.",
+    "coreVisualRelationships": [
+      "Subject sharpness versus background motion blur",
+      "Warm background tones versus cool dark clothing",
+      "Large white display text versus smaller lime green subtitle",
+      "Symmetrical composition anchored by the subject's gaze"
+    ],
+    "coreInvariants": [
+      "Horizontal light trails in the background",
+      "Centered vertical axis for subject and text",
+      "High-contrast white geometric sans-serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered medium-close-up, filling the vertical frame from head to mid-torso.",
+      "visualAnchor": "The subject's eyes and the large white display text across the chest.",
+      "movementAndEyePath": "From the subject's face down to the large white text, then to the smaller green text below.",
+      "negativeSpace": "Minimal; the frame is filled with the subject and active motion blur."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep orange and red (background motion)",
+      "contrastColorRole": "Black and dark navy (subject clothing)",
+      "accentColorRole": "Lime green (subtitle text)",
+      "saturationAndValueRelationship": "High saturation in the background with high value contrast between the white text and dark clothing.",
+      "paletteRestrictions": [
+        "Warm background",
+        "Dark subject core",
+        "White and lime green text"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Perfectly circular 'O'",
+        "Sharp, pointed 'A' and 'N'",
+        "Uniform stroke weight",
+        "Open counters"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light to Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Large/Circular",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "Tight",
+            "lineBreakPattern": "Two words",
+            "density": "Open"
+          },
+          "composition": {
+            "position": "Lower third, overlapping subject",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Over subject clothing",
+            "relationshipToImage": "Foreground layer"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Circular",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Extra Wide",
+            "leading": "Normal",
+            "lineBreakPattern": "Single word",
+            "density": "Sparse"
+          },
+          "composition": {
+            "position": "Directly below display text",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Over subject clothing",
+            "relationshipToImage": "Foreground layer"
+          },
+          "treatment": {
+            "fill": "Lime Green",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Monochromatic typeface family with color and scale contrast.",
+      "graphicDevices": [
+        "Horizontal light streaks",
+        "Vignetting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric circularity",
+          "Wide tracking",
+          "Uppercase format"
+        ],
+        "avoid": [
+          "Serifs",
+          "Italics",
+          "Heavy weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Matches the geometric circularity and sharp apexes.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham Light",
+            "reason": "Provides a modern, clean geometric feel with similar proportions.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Captures the extreme geometric nature of the 'O' and 'A'.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a sharp, centered portrait of a man with dark hair and stubble wearing a dark jacket over a plaid shirt. The background should be a long-exposure urban scene with vibrant orange and red horizontal light trails.",
+        "overlayInstruction": "Add two lines of centered, uppercase geometric sans-serif text. The top line should be large and white, spanning the width of the chest. The bottom line should be smaller, lime green, and have very wide tracking."
+      },
+      "verificationChecks": [
+        "Is the background motion blur horizontal?",
+        "Is the main text white and geometric?",
+        "Is the subtitle lime green with wide tracking?",
+        "Is the subject centered and sharp?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background light trail color",
+      "Subject clothing style",
+      "Typography tracking width",
+      "Accent color for subtitle"
+    ],
+    "mustRedesign": [
+      "Any handwritten or script fonts",
+      "Vertical light trails",
+      "Off-center subject placement"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-speed motion effect in background",
+        "Perfectly centered typography",
+        "Clean, sharp edges on all letters"
+      ],
+      "avoid": [
+        "Blurry text",
+        "Low-contrast text-to-background ratios",
+        "Cluttered background elements"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the 'O' in the display text is a perfect circle.",
+      "Ensure the lime green text is legible against the dark clothing.",
+      "Verify the subject's face is in sharp focus compared to the background.",
+      "Confirm the light trails appear to move horizontally behind the subject."
+    ],
+    "reuseFormula": "Centered Portrait + Horizontal Motion Blur Background + Layered Geometric Sans-Serif Typography"
+  }
+}

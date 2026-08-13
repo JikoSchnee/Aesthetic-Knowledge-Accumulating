@@ -1,0 +1,305 @@
+{
+  "id": "b947b9de5890c99a0473e878353c162237053aee7f64fb80ecfb7aa7c3bc223e",
+  "skillId": "b947b9de5890c99a0473e878353c162237053aee7f64fb80ecfb7aa7c3bc223e",
+  "versionId": "b947b9de5890c99a0473e878353c162237053aee7f64fb80ecfb7aa7c3bc223e",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:09:16.817Z",
+  "approvedAt": "2026-08-12T15:09:16.817Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:09:16.817Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Classics, Volume 1.jpg",
+    "hash": "b947b9de5890c99a0473e878353c162237053aee7f64fb80ecfb7aa7c3bc223e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Classics, Volume 1",
+    "artist": "Delbert McClinton",
+    "artworkUrl": "https://coverartarchive.org/release-group/0eed20dd-dac6-3362-913d-1663589f0d16/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0eed20dd-dac6-3362-913d-1663589f0d16",
+    "releaseGroupId": "0eed20dd-dac6-3362-913d-1663589f0d16",
+    "recordingId": "13db8716-029c-4cd2-aca4-77b790f5da0b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Shotgun RiderDelbert McClinton",
+      "song": "Shotgun Rider",
+      "performer": "Delbert McClinton",
+      "peakPosition": 70,
+      "firstChartDate": "1981-03-28",
+      "lastChartDate": "1981-05-02",
+      "appearances": [
+        {
+          "chartDate": "1981-03-28",
+          "position": 89
+        },
+        {
+          "chartDate": "1981-04-04",
+          "position": 80
+        },
+        {
+          "chartDate": "1981-04-11",
+          "position": 70
+        },
+        {
+          "chartDate": "1981-04-18",
+          "position": 70
+        },
+        {
+          "chartDate": "1981-04-25",
+          "position": 92
+        },
+        {
+          "chartDate": "1981-05-02",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "americana landscape album cover square layout black border extended sans serif rural landscape power lines portrait photography 1970s aesthetic central photographic square nested within a thick black border subject positioned right of center looking toward the viewer vanishing point of the road and power lines leading into the distance typography aligned to the top and bottom edges of the black frame square central photo thick black frame extended sans serif headers americana album aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Americana Landscape Album Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Country Music Album Covers",
+        "Vintage Americana Branding",
+        "Folk Music Promotional Material"
+      ],
+      "retrievalTags": [
+        "square layout",
+        "black border",
+        "extended sans-serif",
+        "rural landscape",
+        "power lines",
+        "portrait photography",
+        "1970s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A square composition featuring a central portrait against a rural landscape, framed by a thick black border with wide, extended sans-serif typography at the top and bottom.",
+      "triggerTerms": [
+        "square album cover with black frame",
+        "extended sans-serif typography border",
+        "rural landscape portrait with power lines"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs without borders",
+        "abstract art covers",
+        "designs requiring serif or script fonts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central photographic square depicting a man in a work shirt standing in a hilly, rural landscape with power lines, all contained within a thick black outer frame. The frame hosts bold, horizontally-extended sans-serif text in cream and yellow tones.",
+    "coreVisualRelationships": [
+      "Central photographic square nested within a thick black border",
+      "Subject positioned right-of-center looking toward the viewer",
+      "Vanishing point of the road and power lines leading into the distance",
+      "Typography aligned to the top and bottom edges of the black frame"
+    ],
+    "coreInvariants": [
+      "Thick black outer border framing the central image",
+      "Horizontally extended sans-serif typeface",
+      "Desaturated, earthy color palette in the photograph"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium shot of a male figure, positioned in the right foreground, occupying approximately 60% of the vertical frame height.",
+      "visualAnchor": "The subject's face and the bold cream-colored text at the top.",
+      "movementAndEyePath": "Eyes start at the top text, move down to the subject's face, follow the power lines into the landscape, and finish at the bottom text.",
+      "negativeSpace": "Significant negative space provided by the thick black border and the open sky in the photograph."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (border and frame)",
+      "contrastColorRole": "Cream (top typography)",
+      "accentColorRole": "Yellow (bottom typography)",
+      "saturationAndValueRelationship": "High contrast between the black frame and the desaturated, naturalistic tones of the central photograph.",
+      "paletteRestrictions": [
+        "Black",
+        "Cream",
+        "Mustard Yellow",
+        "Dusty Blue",
+        "Earth Tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extended Sans-Serif",
+      "letterConstructionRules": [
+        "Extreme horizontal extension",
+        "Uniform stroke weight",
+        "Square-ish proportions",
+        "Open counters"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Extended Sans-Serif",
+          "anatomy": {
+            "width": "Extra-wide",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Slightly rounded",
+            "counters": "Wide",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Open"
+          },
+          "composition": {
+            "position": "Top border",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separated by border"
+          },
+          "treatment": {
+            "fill": "Cream",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Extended Sans-Serif",
+          "anatomy": {
+            "width": "Extra-wide",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Slightly rounded",
+            "counters": "Wide",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified/Wide-spaced",
+            "tracking": "Extra-wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Sparse"
+          },
+          "composition": {
+            "position": "Bottom border",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separated by border"
+          },
+          "treatment": {
+            "fill": "Yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Monochromatic typeface family with variations in color and tracking to distinguish hierarchy.",
+      "graphicDevices": [
+        "Thick black rectangular frame",
+        "Square image inset"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extended width of the font",
+          "Uppercase styling",
+          "Black border"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Condensed fonts",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma Bold Extended",
+            "reason": "Matches the square, wide proportions and uniform stroke weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Eurostile Bold Extended",
+            "reason": "Provides the necessary geometric, wide-set appearance.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square photograph of a man in a light-colored work shirt standing in a rural, hilly landscape with a dirt road and power lines under a blue sky with light clouds. Place this square image inside a thick black border.",
+        "overlayInstruction": "Add uppercase text in an extended sans-serif font. The top text should be cream-colored and bold. The bottom text should be yellow, slightly smaller, and very widely tracked."
+      },
+      "verificationChecks": [
+        "Is the image square and centered within a black frame?",
+        "Is the typography horizontally extended?",
+        "Is the top text cream and the bottom text yellow?",
+        "Does the photograph feature a rural landscape with power lines?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject of the photograph",
+      "Landscape type",
+      "Specific colors of the text",
+      "Width of the black border"
+    ],
+    "mustRedesign": [
+      "Any use of serif fonts",
+      "Removal of the black border",
+      "Overlapping text on the central image"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clear separation between image and border",
+        "Legible, wide-tracked typography",
+        "Balanced square composition"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Neon colors",
+        "Modern digital filters"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the font is not condensed.",
+      "Ensure the black border is uniform on all sides.",
+      "Verify the subject is not obscured by text.",
+      "Confirm the color palette remains earthy and desaturated."
+    ],
+    "reuseFormula": "Square central photo + thick black frame + extended sans-serif headers = Americana Album Aesthetic"
+  }
+}

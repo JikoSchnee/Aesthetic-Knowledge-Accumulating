@@ -1,0 +1,288 @@
+{
+  "id": "8381f330a575e5241352c332c75883c200e4f573082c5f028b32bb4177139720",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T23:07:39.451Z",
+  "approvedAt": "2026-08-11T23:07:39.451Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T23:07:39.451Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Something for Everybody.jpg",
+    "hash": "8381f330a575e5241352c332c75883c200e4f573082c5f028b32bb4177139720",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Something for Everybody",
+    "artist": "Elvis Presley",
+    "artworkUrl": "https://coverartarchive.org/release-group/d6090b20-bee8-38e1-bb25-8c4ee0a52204/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d6090b20-bee8-38e1-bb25-8c4ee0a52204",
+    "releaseGroupId": "d6090b20-bee8-38e1-bb25-8c4ee0a52204",
+    "recordingId": "063b68b9-2b4a-47cf-bd09-a060cc32071e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "JudyElvis Presley",
+      "song": "Judy",
+      "performer": "Elvis Presley",
+      "peakPosition": 78,
+      "firstChartDate": "1967-09-09",
+      "lastChartDate": "1967-10-07",
+      "appearances": [
+        {
+          "chartDate": "1967-09-09",
+          "position": 89
+        },
+        {
+          "chartDate": "1967-09-16",
+          "position": 88
+        },
+        {
+          "chartDate": "1967-09-23",
+          "position": 82
+        },
+        {
+          "chartDate": "1967-09-30",
+          "position": 78
+        },
+        {
+          "chartDate": "1967-10-07",
+          "position": 78
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century pop portrait album cover 1960s rock and roll duo tone split screen pompadour halftone ephemera warm toned portrait vs cool pink background panel organic facial features vs rigid geometric text blocks large scale portrait vs small scale informational typography smooth skin textures vs grainy printed paper effects combine a subject portrait with color side panel condensed sans list large script signature",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Pop Portrait Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Offset Printing",
+        "Graphic Layout"
+      ],
+      "useCases": [
+        "Vinyl Record Packaging",
+        "Retro Poster Design",
+        "Music Marketing",
+        "Vintage Editorial Layout"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "Rock and Roll",
+        "Duo-tone",
+        "Split-screen",
+        "Pompadour",
+        "Halftone",
+        "Ephemera"
+      ]
+    },
+    "visualDefinition": "A split-composition album cover featuring a high-contrast close-up portrait of a male singer with dark, slicked-back hair on the left, and a vibrant pink vertical panel on the right containing a tracklist and graphic stickers.",
+    "coreVisualRelationships": [
+      "Warm-toned portrait vs. cool pink background panel",
+      "Organic facial features vs. rigid geometric text blocks",
+      "Large-scale portrait vs. small-scale informational typography",
+      "Smooth skin textures vs. grainy, printed paper effects"
+    ],
+    "coreInvariants": [
+      "Vertical split at approximately 60/40 ratio",
+      "High-contrast lighting on the face with deep shadows",
+      "Presence of a secondary color block (pink) on the right",
+      "Script-style signature branding in the lower right corner"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The portrait occupies the entire left two-thirds, cropped tightly from chest to top of hair.",
+      "visualAnchor": "The subject's eyes and the bright pink panel on the right act as dual anchors.",
+      "movementAndEyePath": "Starts at the subject's face, moves right to the tracklist, then down to the script signature.",
+      "negativeSpace": "Minimal; the composition is densely packed with image and information."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm flesh tones and deep blacks in the portrait.",
+      "contrastColorRole": "Vibrant magenta-pink for the right-side panel.",
+      "accentColorRole": "Bright yellow for the promotional sticker block.",
+      "saturationAndValueRelationship": "High saturation in the pink and yellow blocks contrasts with the naturalistic but high-contrast values of the photo.",
+      "paletteRestrictions": [
+        "Avoid neon; use mid-century process inks",
+        "Limit to 4-5 primary colors plus black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Mix of geometric sans-serif, condensed bold sans, and expressive script.",
+      "letterConstructionRules": [
+        "Tracklist uses condensed, heavy-weight sans-serif with tight leading",
+        "Signature uses a thick, fluid, brush-like script with a 45-degree slant",
+        "Secondary info uses wide, italicized sans-serif"
+      ],
+      "characterSpecificRedesigns": [
+        "Script 'E' in signature is oversized and looping",
+        "Numbers in tracklist are slightly larger than the text"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "wide",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "brush-stroke"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "n/a",
+            "lineBreakPattern": "single-word",
+            "density": "high"
+          },
+          "composition": {
+            "position": "bottom-right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on pink panel"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "numbered-list",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "center-right",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "on-grey-box",
+            "relationshipToImage": "contained in inset box"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "ink-bleed",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a functional, rigid sans-serif for information and a flamboyant script for personality.",
+      "graphicDevices": [
+        "Inset grey rectangle for tracklist",
+        "Bright yellow 'sticker' overlay",
+        "Hand-drawn star icons scattered in the background",
+        "Film strip icon for soundtrack reference"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Split-screen layout",
+          "Script signature style",
+          "Condensed sans-serif tracklist"
+        ],
+        "avoid": [
+          "Modern digital gradients",
+          "Clean vector lines",
+          "Minimalist white space"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Matches the heavy, functional feel of the tracklist.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral or Brush Script",
+            "reason": "Approximates the fluid, mid-century signature style.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 1960s style studio portrait of a man with a pompadour hairstyle, lit with warm key light and deep shadows. The right 40% of the image should be a solid vibrant pink panel. Add a grey rectangular overlay and a yellow rectangular overlay on the pink panel.",
+        "overlayInstruction": "Add a numbered list in a bold condensed sans-serif inside the grey box. Add a large, white, thick brush-script name in the bottom right corner. Add small hand-drawn stars around the grey box."
+      },
+      "verificationChecks": [
+        "Is the portrait high-contrast and warm-toned?",
+        "Is the pink panel vibrant and distinct?",
+        "Is the script signature large and fluid?",
+        "Are the tracklist numbers clearly legible?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Portrait subject gender/age",
+      "Primary panel color (e.g., blue instead of pink)",
+      "Sticker color (e.g., orange instead of yellow)",
+      "Density of background star icons"
+    ],
+    "mustRedesign": [
+      "Specific artist names and song titles",
+      "Corporate logos and record label branding",
+      "Specific film studio credits"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s print texture",
+        "High-contrast studio lighting",
+        "Balanced split-screen layout"
+      ],
+      "avoid": [
+        "Flat digital colors",
+        "Modern sans-serif fonts like Helvetica",
+        "Low-resolution imagery"
+      ]
+    },
+    "postGenerationChecks": [
+      "Verify the split-screen ratio is approximately 60/40.",
+      "Ensure the yellow 'sticker' looks like a physical overlay.",
+      "Check that the script signature has a hand-drawn quality.",
+      "Confirm the portrait lighting mimics vintage film photography."
+    ],
+    "reuseFormula": "Combine a [Subject] portrait with [Color] side-panel + [Condensed Sans] list + [Large Script] signature."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:14:30.539Z"
+}

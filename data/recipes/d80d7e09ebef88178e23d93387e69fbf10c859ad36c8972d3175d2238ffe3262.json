@@ -1,0 +1,263 @@
+{
+  "id": "d80d7e09ebef88178e23d93387e69fbf10c859ad36c8972d3175d2238ffe3262",
+  "skillId": "d80d7e09ebef88178e23d93387e69fbf10c859ad36c8972d3175d2238ffe3262",
+  "versionId": "d80d7e09ebef88178e23d93387e69fbf10c859ad36c8972d3175d2238ffe3262",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:05:31.272Z",
+  "approvedAt": "2026-08-12T13:05:31.272Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:05:31.272Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Night in the Ruts.jpg",
+    "hash": "d80d7e09ebef88178e23d93387e69fbf10c859ad36c8972d3175d2238ffe3262",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Night in the Ruts",
+    "artist": "Aerosmith",
+    "artworkUrl": "https://coverartarchive.org/release-group/5aad45b5-1b5c-3764-9386-dd3efcc6a16d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5aad45b5-1b5c-3764-9386-dd3efcc6a16d",
+    "releaseGroupId": "5aad45b5-1b5c-3764-9386-dd3efcc6a16d",
+    "recordingId": "2d84d629-2d0d-4dcf-a813-958864fa39ee",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Remember (Walking In The Sand)Aerosmith",
+      "song": "Remember (Walking In The Sand)",
+      "performer": "Aerosmith",
+      "peakPosition": 67,
+      "firstChartDate": "1980-01-12",
+      "lastChartDate": "1980-02-16",
+      "appearances": [
+        {
+          "chartDate": "1980-01-12",
+          "position": 84
+        },
+        {
+          "chartDate": "1980-01-19",
+          "position": 73
+        },
+        {
+          "chartDate": "1980-01-26",
+          "position": 71
+        },
+        {
+          "chartDate": "1980-02-02",
+          "position": 69
+        },
+        {
+          "chartDate": "1980-02-09",
+          "position": 67
+        },
+        {
+          "chartDate": "1980-02-16",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty subterranean monochrome album art coal miners cave entrance monochrome dripping paint text 19th century industrial subterranean high contrast figures centered within the dark void of a cave entrance rough rock texture framing the subjects high contrast white text against dark stone leading lines from mine tracks in the foreground high contrast b w photography subterranean setting hand painted dripping typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Subterranean Monochrome Album Art",
+      "category": "Music Photography",
+      "medium": [
+        "Black and white photography",
+        "Hand-painted lettering"
+      ],
+      "useCases": [
+        "Hard rock album covers",
+        "Historical industrial themes",
+        "Gritty cinematic posters"
+      ],
+      "retrievalTags": [
+        "coal miners",
+        "cave entrance",
+        "monochrome",
+        "dripping paint text",
+        "19th century industrial",
+        "subterranean",
+        "high contrast"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast black and white scene featuring a group of figures in a dark cave or mine with rough, hand-painted dripping typography applied directly to the rock surface.",
+      "triggerTerms": [
+        "gritty monochrome mine scene",
+        "dripping white paint text on rock",
+        "19th century coal miners photography"
+      ],
+      "excludeWhen": [
+        "clean modern aesthetics",
+        "vibrant colors",
+        "digital vector typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A group of five men dressed as 19th-century miners stand at the mouth of a dark, jagged rock tunnel. The scene is captured in high-contrast monochrome, emphasizing the rough textures of the stone and the soot-covered clothing. Large, white, hand-painted letters with visible drips are positioned across the upper rock face.",
+    "coreVisualRelationships": [
+      "Figures centered within the dark void of a cave entrance",
+      "Rough rock texture framing the subjects",
+      "High-contrast white text against dark stone",
+      "Leading lines from mine tracks in the foreground"
+    ],
+    "coreInvariants": [
+      "High-contrast black and white palette",
+      "Dripping, hand-painted white lettering",
+      "Jagged, textured rock surfaces"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A group of five miners at medium scale, centered horizontally in the lower two-thirds of the frame.",
+      "visualAnchor": "The dark, arched opening of the mine shaft behind the figures.",
+      "movementAndEyePath": "From the large text at the top left, down to the central figures, and along the tracks toward the viewer.",
+      "negativeSpace": "Deep black shadows within the cave and the heavy texture of the surrounding rock walls."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and black for shadows and rock depth.",
+      "contrastColorRole": "Mid-tone grays for clothing and rock highlights.",
+      "accentColorRole": "Pure white for the hand-painted text and direct lighting highlights.",
+      "saturationAndValueRelationship": "Zero saturation; extreme value range from crushed blacks to blown-out white highlights.",
+      "paletteRestrictions": [
+        "Monochrome only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Rough, irregular sans-serif capitals",
+      "letterConstructionRules": [
+        "Varying stroke thickness suggesting a brush or finger application",
+        "Vertical drips extending from the bottom of characters",
+        "Irregular baseline following the rock contour"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters like 'A' and 'M' have elongated, uneven legs",
+        "Drips are most prominent on horizontal strokes"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "distressed-hand-painted",
+          "anatomy": {
+            "width": "variable",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high (all caps)",
+            "terminals": "blunt and dripping",
+            "corners": "rounded/irregular",
+            "counters": "tight",
+            "strokeCharacter": "viscous paint"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered-arc",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "curved",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top left and right quadrants",
+            "scale": "large",
+            "rotation": "slight arc",
+            "warp": "conforms to rock surface",
+            "overlap": "none",
+            "relationshipToImage": "painted onto the background element"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "dripping paint",
+            "distortion": "naturalistic drip"
+          }
+        }
+      ],
+      "pairingStrategy": "Single expressive hand-painted style used for all text elements to maintain environmental immersion.",
+      "graphicDevices": [
+        "Paint drips",
+        "Mine tracks",
+        "Wooden barrels"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Dripping effect",
+          "Hand-painted feel",
+          "High contrast"
+        ],
+        "avoid": [
+          "Clean edges",
+          "Perfectly straight baselines",
+          "Digital glow"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Street art brush scripts",
+            "reason": "Captures the raw, manual application of paint.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Distressed horror fonts",
+            "reason": "Mimics the dripping, uneven nature of the strokes.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A high-contrast black and white photograph of 19th-century miners standing at a dark cave entrance with mine tracks in the foreground.",
+        "overlayInstruction": "Apply large, hand-painted white capital letters with vertical paint drips across the upper rock face, following the natural curve of the cave ceiling."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochrome?",
+        "Do the letters have visible paint drips?",
+        "Is the rock texture highly detailed and gritty?",
+        "Are the figures dressed in period-appropriate industrial gear?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of paint drips",
+      "Number of figures",
+      "Contrast level of the monochrome",
+      "Curvature of the text baseline"
+    ],
+    "mustRedesign": [
+      "Any modern safety equipment",
+      "Clean, digital-looking fonts",
+      "Color elements"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile rock texture",
+        "Authentic dripping paint appearance",
+        "Deep, immersive shadows"
+      ],
+      "avoid": [
+        "Flat gray tones",
+        "Smooth surfaces",
+        "Uniform letter shapes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for vertical paint drips on all text",
+      "Ensure no color artifacts are present",
+      "Verify the text appears to be 'on' the rock, not floating",
+      "Confirm the historical accuracy of the miners' attire"
+    ],
+    "reuseFormula": "High-contrast B&W photography + Subterranean setting + Hand-painted dripping typography"
+  }
+}

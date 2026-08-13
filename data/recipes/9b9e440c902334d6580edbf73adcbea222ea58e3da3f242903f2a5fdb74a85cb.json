@@ -1,0 +1,240 @@
+{
+  "id": "9b9e440c902334d6580edbf73adcbea222ea58e3da3f242903f2a5fdb74a85cb",
+  "skillId": "9b9e440c902334d6580edbf73adcbea222ea58e3da3f242903f2a5fdb74a85cb",
+  "versionId": "9b9e440c902334d6580edbf73adcbea222ea58e3da3f242903f2a5fdb74a85cb",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:24:16.581Z",
+  "approvedAt": "2026-08-12T13:24:16.581Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:24:16.581Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Secret of Us.jpg",
+    "hash": "9b9e440c902334d6580edbf73adcbea222ea58e3da3f242903f2a5fdb74a85cb",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Secret of Us",
+    "artist": "Gracie Abrams",
+    "artworkUrl": "https://coverartarchive.org/release-group/b6923fdb-2f07-49f0-9adc-3dc2275af0da/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b6923fdb-2f07-49f0-9adc-3dc2275af0da",
+    "releaseGroupId": "b6923fdb-2f07-49f0-9adc-3dc2275af0da",
+    "recordingId": "9b9c0b60-7fe6-49b8-9033-913a22898ba7",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "RiskGracie Abrams",
+      "song": "Risk",
+      "performer": "Gracie Abrams",
+      "peakPosition": 94,
+      "firstChartDate": "2024-07-06",
+      "lastChartDate": "2024-07-06",
+      "appearances": [
+        {
+          "chartDate": "2024-07-06",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro script portrait cover close up portrait retro script typography yellow text on white indie pop aesthetic high key lighting typography overlapping the subject s hair to create depth high contrast between yellow text and dark hair symmetrical facial placement against a neutral void warm skin tones balanced by a cool white background studio portrait high key white background overlapping retro script title",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Script Portrait Cover",
+      "category": "Album Art",
+      "medium": [
+        "Studio Photography",
+        "Digital Typography"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Editorial Magazine Covers",
+        "Social Media Profile Branding"
+      ],
+      "retrievalTags": [
+        "close-up portrait",
+        "retro script typography",
+        "yellow text on white",
+        "indie pop aesthetic",
+        "high-key lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-key studio portrait featuring a centered subject with bold, yellow retro-script typography overlapping the top of the head.",
+      "triggerTerms": [
+        "retro script title over portrait",
+        "yellow outlined cursive text",
+        "high-key studio headshot with typography"
+      ],
+      "excludeWhen": [
+        "full body shots",
+        "dark moody lighting",
+        "minimalist sans-serif layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, centered facial portrait against a stark white background, characterized by soft studio lighting and a prominent yellow script title that arches across the upper third of the frame, partially obscuring the subject's hair.",
+    "coreVisualRelationships": [
+      "Typography overlapping the subject's hair to create depth",
+      "High-contrast between yellow text and dark hair",
+      "Symmetrical facial placement against a neutral void",
+      "Warm skin tones balanced by a cool white background"
+    ],
+    "coreInvariants": [
+      "Yellow fill with dark thin outline for display text",
+      "High-key white background with no visible horizon line",
+      "Subject looking off-camera to create narrative tension"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered close-up headshot, filling approximately 80% of the vertical frame.",
+      "visualAnchor": "The subject's eyes, positioned at the horizontal midline.",
+      "movementAndEyePath": "Starts at the bold yellow title, moves down to the subject's gaze, and follows the direction of the look toward the right edge.",
+      "negativeSpace": "Clean white space surrounding the head, concentrated at the top corners."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (Background)",
+      "contrastColorRole": "Dark Brown/Black (Hair and Eyes)",
+      "accentColorRole": "Bright Yellow (Typography)",
+      "saturationAndValueRelationship": "High-value background with high-saturation accent text.",
+      "paletteRestrictions": [
+        "Pure white background",
+        "Lemon yellow text",
+        "Natural skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Retro 1970s-style heavy script",
+      "letterConstructionRules": [
+        "Thick, rounded brush-like strokes",
+        "Connected cursive lowercase",
+        "High-contrast between thick and thin strokes",
+        "Tight kerning with overlapping swashes"
+      ],
+      "characterSpecificRedesigns": [
+        "Capital letters feature exaggerated loops",
+        "Lowercase 'f' has a long, descending tail"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "tight",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "foreground, overlapping hair",
+            "relationshipToImage": "integrated overlay"
+          },
+          "treatment": {
+            "fill": "bright yellow",
+            "outline": "thin dark brown",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single dominant script font used for maximum impact.",
+      "graphicDevices": [
+        "Thin dark stroke around text to ensure legibility against white"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow color",
+          "Script style",
+          "Top-center placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Neon effects",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mistral or similar heavy scripts",
+            "reason": "Captures the fluid, retro brush feel",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Candy Script",
+            "reason": "Matches the thick, rounded, 70s aesthetic",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key studio portrait of a person with dark hair against a pure white background, looking slightly to the side.",
+        "overlayInstruction": "Add a large, centered title in a bold yellow retro script with a thin dark outline across the top third of the image, overlapping the hair."
+      },
+      "verificationChecks": [
+        "Is the text yellow with a thin dark outline?",
+        "Is the background pure white?",
+        "Does the text overlap the subject's hair?",
+        "Is the subject centered in a close-up crop?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's gaze direction",
+      "Typography color",
+      "Hair color of the subject"
+    ],
+    "mustRedesign": [
+      "Avoid using generic sans-serif fonts",
+      "Do not use busy or textured backgrounds"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean studio lighting",
+        "Legible but stylized script",
+        "High-contrast color pop"
+      ],
+      "avoid": [
+        "Low-resolution textures",
+        "Cluttered compositions",
+        "Muted or pastel text colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is not obscured by the face, only the hair.",
+      "Ensure the yellow is vibrant and not mustard-toned.",
+      "Verify the outline on the text is thin and consistent.",
+      "Confirm the subject's expression is neutral or contemplative."
+    ],
+    "reuseFormula": "Studio Portrait + High-Key White Background + Overlapping Retro Script Title"
+  }
+}

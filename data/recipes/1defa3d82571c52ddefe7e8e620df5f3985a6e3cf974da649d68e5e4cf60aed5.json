@@ -1,0 +1,319 @@
+{
+  "id": "1defa3d82571c52ddefe7e8e620df5f3985a6e3cf974da649d68e5e4cf60aed5",
+  "skillId": "1defa3d82571c52ddefe7e8e620df5f3985a6e3cf974da649d68e5e4cf60aed5",
+  "versionId": "1defa3d82571c52ddefe7e8e620df5f3985a6e3cf974da649d68e5e4cf60aed5",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:20:46.385Z",
+  "approvedAt": "2026-08-12T09:20:46.385Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:20:46.385Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Nightwalker.jpg",
+    "hash": "1defa3d82571c52ddefe7e8e620df5f3985a6e3cf974da649d68e5e4cf60aed5",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Nightwalker",
+    "artist": "Gino Vannelli",
+    "artworkUrl": "https://coverartarchive.org/release-group/124cb407-f2c1-3822-afdf-e6d337346033/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/124cb407-f2c1-3822-afdf-e6d337346033",
+    "releaseGroupId": "124cb407-f2c1-3822-afdf-e6d337346033",
+    "recordingId": "0a6f0869-ec5e-4794-a3a1-b10f83b3687a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "NightwalkerGino Vannelli",
+      "song": "Nightwalker",
+      "performer": "Gino Vannelli",
+      "peakPosition": 41,
+      "firstChartDate": "1981-07-04",
+      "lastChartDate": "1981-09-05",
+      "appearances": [
+        {
+          "chartDate": "1981-07-04",
+          "position": 83
+        },
+        {
+          "chartDate": "1981-07-11",
+          "position": 71
+        },
+        {
+          "chartDate": "1981-07-18",
+          "position": 61
+        },
+        {
+          "chartDate": "1981-07-25",
+          "position": 51
+        },
+        {
+          "chartDate": "1981-08-01",
+          "position": 45
+        },
+        {
+          "chartDate": "1981-08-08",
+          "position": 41
+        },
+        {
+          "chartDate": "1981-08-15",
+          "position": 41
+        },
+        {
+          "chartDate": "1981-08-22",
+          "position": 50
+        },
+        {
+          "chartDate": "1981-08-29",
+          "position": 81
+        },
+        {
+          "chartDate": "1981-09-05",
+          "position": 88
+        }
+      ]
+    }
+  },
+  "dedupeText": "nocturnal motion blur album art motion blur city lights nocturnal long exposure 1980s aesthetic neon glow ghostly figures sharp foreground subject vs blurred background figures warm yellow light trails vs cool blue shadows vertical human forms vs horizontal light streaks text placement in upper corners balancing the composition nocturnal urban motion high contrast serif expressive red script",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Nocturnal Motion Blur Album Art",
+      "category": "Music Photography",
+      "medium": [
+        "Long exposure photography",
+        "Color film",
+        "Graphic design"
+      ],
+      "useCases": [
+        "Album cover design",
+        "Cinematic poster",
+        "Urban nightlife editorial"
+      ],
+      "retrievalTags": [
+        "motion blur",
+        "city lights",
+        "nocturnal",
+        "long exposure",
+        "1980s aesthetic",
+        "neon glow",
+        "ghostly figures"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast nocturnal urban scene featuring heavy motion blur and glowing city lights with ghostly, translucent figures walking through a street.",
+      "triggerTerms": [
+        "motion blurred city street",
+        "long exposure urban night",
+        "glowing neon bokeh background",
+        "ghostly translucent figures walking"
+      ],
+      "excludeWhen": [
+        "sharp focus is required",
+        "daylight scenes",
+        "minimalist white backgrounds"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A vibrant, high-contrast night scene characterized by extreme motion blur and light trails. The composition features a central figure in relatively sharper focus compared to surrounding 'ghost' figures who appear as translucent yellow and white streaks. The background is a wash of warm yellow and orange city lights against deep blue and black shadows, creating a sense of kinetic energy and urban isolation.",
+    "coreVisualRelationships": [
+      "Sharp foreground subject vs. blurred background figures",
+      "Warm yellow light trails vs. cool blue shadows",
+      "Vertical human forms vs. horizontal light streaks",
+      "Text placement in upper corners balancing the composition"
+    ],
+    "coreInvariants": [
+      "Heavy motion blur on secondary figures",
+      "High saturation in light sources",
+      "Deep black shadows in the lower third"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Primary subject is positioned slightly left of center, full-body scale, walking toward the viewer.",
+      "visualAnchor": "The primary subject's dark silhouette against the bright, blurred background.",
+      "movementAndEyePath": "Eye starts at the primary subject, follows the light trails to the right, then moves up to the contrasting typography in the corners.",
+      "negativeSpace": "Deep black shadows in the bottom right and top left corners provide breathing room for text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blue and black shadows providing the foundation.",
+      "contrastColorRole": "Vibrant yellow and orange light trails creating the motion effect.",
+      "accentColorRole": "Bright red for specific typographic elements.",
+      "saturationAndValueRelationship": "High saturation in the highlights (yellows/reds) against low-value, high-contrast darks.",
+      "paletteRestrictions": [
+        "Avoid muted pastels",
+        "Avoid flat lighting"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Serif and Script",
+      "letterConstructionRules": [
+        "Primary text uses a high-contrast serif with thin hairlines",
+        "Secondary text uses a fluid, connected brush script",
+        "Script text features a slight upward slant"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'g' and 'v' in serif are tightly spaced",
+        "Script 'n' and 'w' have elongated, expressive tails"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "Top left",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "Overlays dark background area"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "Script",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "Low",
+            "terminals": "Tapered",
+            "corners": "Rounded",
+            "counters": "Small",
+            "strokeCharacter": "Hand-drawn brush"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "Top right",
+            "scale": "Large",
+            "rotation": "5 degrees upward",
+            "warp": "slight arc",
+            "overlap": "none",
+            "relationshipToImage": "Overlays blurred light area"
+          },
+          "treatment": {
+            "fill": "Red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "organic brush",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for formal structure paired with an expressive script for kinetic energy.",
+      "graphicDevices": [
+        "Motion blur trails",
+        "Light bokeh"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase serif styling",
+          "Red script color",
+          "Corner-weighted layout"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Centered text",
+          "Heavy block shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "Matches the high-contrast serif anatomy of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral or Brush Script",
+            "reason": "Captures the fluid, handwritten energy of the secondary text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a long-exposure urban night scene with a man in a black shirt walking toward the camera. Surround him with ghostly, motion-blurred figures in yellow and white. Use a background of glowing city lights and neon signs with heavy bokeh. Ensure the bottom third is mostly dark shadow.",
+        "overlayInstruction": "Add lowercase serif text in white to the top left corner. Add a red, hand-drawn script title to the top right corner with a slight upward tilt."
+      },
+      "verificationChecks": [
+        "Is the motion blur significant enough to create 'ghost' figures?",
+        "Is the color contrast between the red script and yellow background maintained?",
+        "Is the primary subject the only element with recognizable facial features?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of motion blur",
+      "Saturation of yellow light trails",
+      "Angle of the script text",
+      "Density of background bokeh"
+    ],
+    "mustRedesign": [
+      "Do not use specific artist names",
+      "Do not replicate exact logo shapes",
+      "Ensure the background city elements are generic and not identifiable landmarks"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic film grain",
+        "Authentic-looking long exposure light streaks",
+        "High dynamic range between shadows and highlights"
+      ],
+      "avoid": [
+        "Digital-looking motion filters",
+        "Uniform lighting",
+        "Perfectly sharp background elements"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the red script is legible against the bright background.",
+      "Ensure the motion blur feels directional and consistent.",
+      "Verify that the serif text is crisp and high-contrast.",
+      "Confirm the composition feels balanced between the two text blocks."
+    ],
+    "reuseFormula": "Nocturnal Urban Motion + High Contrast Serif + Expressive Red Script"
+  }
+}

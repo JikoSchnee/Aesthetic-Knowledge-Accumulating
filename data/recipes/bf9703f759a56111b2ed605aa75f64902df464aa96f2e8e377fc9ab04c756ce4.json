@@ -1,0 +1,267 @@
+{
+  "id": "bf9703f759a56111b2ed605aa75f64902df464aa96f2e8e377fc9ab04c756ce4",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T06:39:32.724Z",
+  "approvedAt": "2026-08-11T06:39:32.724Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T06:39:32.724Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Red.jpg",
+    "hash": "bf9703f759a56111b2ed605aa75f64902df464aa96f2e8e377fc9ab04c756ce4",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Red",
+    "artist": "Taylor Swift",
+    "artworkUrl": "https://coverartarchive.org/release-group/a73cecde-0923-40ad-aad1-e8c24ba6c3d2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a73cecde-0923-40ad-aad1-e8c24ba6c3d2",
+    "releaseGroupId": "a73cecde-0923-40ad-aad1-e8c24ba6c3d2",
+    "recordingId": "7fad175c-f7dd-4b1a-b338-d60bff61afce",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "All Too WellTaylor Swift",
+      "song": "All Too Well",
+      "performer": "Taylor Swift",
+      "peakPosition": 80,
+      "firstChartDate": "2012-11-10",
+      "lastChartDate": "2012-11-10",
+      "appearances": [
+        {
+          "chartDate": "2012-11-10",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic portrait with bold condensed typography cinematic lighting chiaroscuro condensed sans serif vintage film grain muted palette bold red accent profile portrait the vibrant red of the lips mirrors the primary title text color the harsh shadow line from the hat brim creates a geometric division across the face the verticality of the condensed font echoes the vertical flow of the hair strands combine a high contrast shadow play portrait with a bottom weighted color coordinated condensed typographic block",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Portrait with Bold Condensed Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Fashion Layout",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "cinematic lighting",
+        "chiaroscuro",
+        "condensed sans-serif",
+        "vintage film grain",
+        "muted palette",
+        "bold red accent",
+        "profile portrait"
+      ]
+    },
+    "visualDefinition": "A high-contrast cinematic portrait of a woman in a wide-brimmed hat, where the upper face is cast in deep shadow, emphasizing vibrant red lips and blonde hair. The composition is anchored by large, stacked, condensed sans-serif typography in the lower-left corner.",
+    "coreVisualRelationships": [
+      "The vibrant red of the lips mirrors the primary title text color.",
+      "The harsh shadow line from the hat brim creates a geometric division across the face.",
+      "The verticality of the condensed font echoes the vertical flow of the hair strands."
+    ],
+    "coreInvariants": [
+      "Deep shadow obscuring the eyes",
+      "Vivid red focal point on the lips",
+      "Muted, desaturated background tones",
+      "Bottom-left justified typography block"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Close-up profile, slightly off-center to the right, filling the upper two-thirds of the frame.",
+      "visualAnchor": "The bright red lips serve as the central visual anchor, leading the eye down to the bold text.",
+      "movementAndEyePath": "Eye starts at the shadowed face, moves down to the red lips, and finally rests on the large block of text in the lower left.",
+      "negativeSpace": "The shadowed area under the hat and the blurred background provide breathing room for the subject's features."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted beige and desaturated browns in the hair and background.",
+      "contrastColorRole": "Deep near-black shadows providing structural depth.",
+      "accentColorRole": "Crimson red used exclusively for the lips and the primary title text.",
+      "saturationAndValueRelationship": "Low overall saturation with a high-value, high-saturation pop in the red elements.",
+      "paletteRestrictions": [
+        "Avoid bright blues or greens",
+        "Limit to earthy tones, blacks, and one specific red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed, heavy-weight sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke width",
+        "Flat terminals",
+        "Extremely tight apertures",
+        "Tall x-height with minimal descenders"
+      ],
+      "characterSpecificRedesigns": [
+        "Squared-off curves in 'R' and 'D'",
+        "Straight vertical stems"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "narrow",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "0.9em",
+            "lineBreakPattern": "single word",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over the lower torso/hair area"
+          },
+          "treatment": {
+            "fill": "crimson red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium-bold",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "1.0em",
+            "lineBreakPattern": "horizontal line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "directly below display text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "anchors the bottom edge"
+          },
+          "treatment": {
+            "fill": "off-white / cream",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Same-family variation using color and scale to differentiate hierarchy.",
+      "graphicDevices": [
+        "Stacked text block"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed width",
+          "Uppercase styling",
+          "Left alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Wide letter spacing"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Tungsten",
+            "reason": "Provides the necessary verticality and weight for the display role.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Classic condensed sans-serif that matches the clean, modern-vintage look.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a cinematic close-up portrait of a woman with long blonde hair wearing a wide-brimmed hat. Use harsh top-down lighting so the hat casts a deep shadow over her eyes, leaving only her nose and vibrant red lips visible. Apply a vintage film grain and a muted, warm color grade.",
+        "overlayInstruction": "Add a two-line text block in the bottom-left corner. The top line should be a large, bold, extra-condensed sans-serif in crimson red. The second line should be a medium-sized condensed sans-serif in off-white, left-aligned with the first line."
+      },
+      "verificationChecks": [
+        "Is the top half of the face in deep shadow?",
+        "Are the lips a vibrant, saturated red?",
+        "Is the text block left-justified in the bottom corner?",
+        "Is the primary title text red and the secondary text off-white?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of film grain",
+      "Exact shade of red",
+      "Tightness of the portrait crop",
+      "Degree of shadow opacity over the eyes"
+    ],
+    "mustRedesign": [
+      "Specific facial features to avoid likeness",
+      "Exact wording of the text",
+      "Any specific brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic chiaroscuro lighting",
+        "Clean, professional typographic alignment",
+        "Cohesive color link between lips and text"
+      ],
+      "avoid": [
+        "Soft, even lighting",
+        "Cluttered backgrounds",
+        "Default system fonts like Arial or Helvetica"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the red of the text matches the red of the lips.",
+      "Check that the shadow line from the hat is sharp and deliberate.",
+      "Verify that the text does not obscure the main facial features (lips/nose).",
+      "Confirm the overall mood is moody and cinematic."
+    ],
+    "reuseFormula": "Combine a high-contrast shadow-play portrait with a bottom-weighted, color-coordinated condensed typographic block."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T07:32:06.216Z"
+}

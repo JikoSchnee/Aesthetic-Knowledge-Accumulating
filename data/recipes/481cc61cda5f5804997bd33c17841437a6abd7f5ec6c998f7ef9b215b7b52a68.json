@@ -1,0 +1,282 @@
+{
+  "id": "481cc61cda5f5804997bd33c17841437a6abd7f5ec6c998f7ef9b215b7b52a68",
+  "skillId": "481cc61cda5f5804997bd33c17841437a6abd7f5ec6c998f7ef9b215b7b52a68",
+  "versionId": "481cc61cda5f5804997bd33c17841437a6abd7f5ec6c998f7ef9b215b7b52a68",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:58:05.123Z",
+  "approvedAt": "2026-08-12T12:58:05.123Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:58:05.123Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "If Somebody Loves You.jpg",
+    "hash": "481cc61cda5f5804997bd33c17841437a6abd7f5ec6c998f7ef9b215b7b52a68",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "If Somebody Loves You",
+    "artist": "The Dave Clark Five",
+    "artworkUrl": "https://coverartarchive.org/release-group/25d5ceb7-182c-47c0-92a1-3f6aee2d1db0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/25d5ceb7-182c-47c0-92a1-3f6aee2d1db0",
+    "releaseGroupId": "25d5ceb7-182c-47c0-92a1-3f6aee2d1db0",
+    "recordingId": "5ab55cc0-bbe3-4c41-9d88-07535ddf761a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Red And BlueThe Dave Clark Five",
+      "song": "Red And Blue",
+      "performer": "The Dave Clark Five",
+      "peakPosition": 89,
+      "firstChartDate": "1967-11-18",
+      "lastChartDate": "1967-11-25",
+      "appearances": [
+        {
+          "chartDate": "1967-11-18",
+          "position": 90
+        },
+        {
+          "chartDate": "1967-11-25",
+          "position": 89
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage folk rock ensemble portrait cloaked figures symmetrical composition vintage photography heavy sans serif script typography band portrait symmetrical arrangement of figures around a central axis contrast between dark heavy fabric and pale skin tones geometric framing provided by the pavilion structure primary color contrast between yellow top text and white bottom text symmetrical group portrait heavy cloaks pavilion framing bold condensed sans serif brush script pairing",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Folk-Rock Ensemble Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Retro music packaging",
+        "1960s-style editorial layouts",
+        "Theatrical group portraits"
+      ],
+      "retrievalTags": [
+        "cloaked figures",
+        "symmetrical composition",
+        "vintage photography",
+        "heavy sans-serif",
+        "script typography",
+        "band portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A symmetrical group portrait featuring figures in heavy dark cloaks arranged within a geometric architectural structure, paired with bold yellow display type and white script.",
+      "triggerTerms": [
+        "cloaked group portrait",
+        "symmetrical band photo with children",
+        "1960s folk rock album aesthetic"
+      ],
+      "excludeWhen": [
+        "modern minimalist photography is requested",
+        "bright high-key lighting is needed",
+        "single subject portraits"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central male figure surrounded by other men and children, all draped in heavy, dark olive-green cloaks. They are positioned inside a wooden gazebo or pavilion with visible rafters. The lighting is soft and natural, creating a moody, theatrical atmosphere. The layout features a large, bold, yellow sans-serif title at the top and a white, slanted script title at the bottom.",
+    "coreVisualRelationships": [
+      "Symmetrical arrangement of figures around a central axis",
+      "Contrast between dark, heavy fabric and pale skin tones",
+      "Geometric framing provided by the pavilion structure",
+      "Primary color contrast between yellow top text and white bottom text"
+    ],
+    "coreInvariants": [
+      "Heavy dark olive-green cloaks concealing the bodies of all subjects",
+      "Symmetrical placement of adult men and children",
+      "Wooden pavilion ceiling rafters converging toward the center"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central figure is slightly larger and lower, with other figures tiered upward and outward in a V-shape.",
+      "visualAnchor": "The central man's face and the child directly in front of him.",
+      "movementAndEyePath": "Eyes move from the bold yellow title down the central axis to the script text, then outward to the flanking figures.",
+      "negativeSpace": "Limited; the composition is densely packed with the heavy fabric of the cloaks."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Dark olive green (cloaks)",
+      "contrastColorRole": "Warm wood tones (pavilion) and pale skin tones",
+      "accentColorRole": "Bright yellow (top text) and white (bottom text)",
+      "saturationAndValueRelationship": "Low saturation in the image balanced by high-value, high-saturation typography.",
+      "paletteRestrictions": [
+        "Olive green",
+        "Earth tones",
+        "Mustard yellow",
+        "Pure white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy condensed sans-serif and upright brush script",
+      "letterConstructionRules": [
+        "Top text: Extra-bold, condensed, flat-sided caps",
+        "Bottom text: Fluid, connected script with a slight rightward slant and thick-to-thin modulation"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "extra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "three lines",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on background"
+          },
+          "treatment": {
+            "fill": "mustard yellow",
+            "outline": "thin black",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "medium",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "two lines",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "medium-large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over subjects",
+            "relationshipToImage": "overlaid on cloaks"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "thin black drop shadow",
+            "shadow": "soft black",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High contrast between a rigid, industrial sans-serif and a soft, organic script.",
+      "graphicDevices": [
+        "Thin black outlines on text for legibility"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow color for top text",
+          "White color for bottom text",
+          "Condensed nature of top font"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Modern geometric sans-serifs",
+          "Thin scripts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Matches the heavy, condensed, flat-sided aesthetic of the top text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Brush Script or Kaufmann",
+            "reason": "Captures the mid-century calligraphic feel of the bottom text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a symmetrical photograph of a group of men and children in a wooden pavilion, all wearing heavy dark olive-green cloaks that cover their bodies, leaving only their faces visible.",
+        "overlayInstruction": "Add a three-line centered title in bold yellow condensed sans-serif at the top, and a two-line centered title in white brush script at the bottom with a subtle black drop shadow."
+      },
+      "verificationChecks": [
+        "Is the composition symmetrical?",
+        "Are the subjects wearing heavy dark cloaks?",
+        "Is the top text yellow and condensed?",
+        "Is the bottom text white script?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects",
+      "Color of the cloaks",
+      "Specific architectural style of the pavilion"
+    ],
+    "mustRedesign": [
+      "Do not use the specific band name or album title",
+      "Do not replicate the exact faces of the individuals"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Theatrical, moody lighting",
+        "Heavy fabric texture in the cloaks",
+        "Clear typographic hierarchy"
+      ],
+      "avoid": [
+        "Bright, cheerful colors in the photography",
+        "Modern digital-looking fonts",
+        "Asymmetrical layouts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for symmetrical balance of figures",
+      "Ensure text is legible against the dark background",
+      "Verify the 'V' shape arrangement of the subjects",
+      "Confirm the presence of both yellow sans-serif and white script"
+    ],
+    "reuseFormula": "Symmetrical group portrait + heavy cloaks + pavilion framing + (Bold Condensed Sans-Serif / Brush Script pairing)"
+  }
+}

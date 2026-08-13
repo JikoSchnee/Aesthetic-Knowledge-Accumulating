@@ -1,0 +1,273 @@
+{
+  "id": "9eae6482ffd66058c5083003ac4047f9f2de6cfd85eca2f8073550d2a1dd5085",
+  "skillId": "9eae6482ffd66058c5083003ac4047f9f2de6cfd85eca2f8073550d2a1dd5085",
+  "versionId": "9eae6482ffd66058c5083003ac4047f9f2de6cfd85eca2f8073550d2a1dd5085",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:18:01.435Z",
+  "approvedAt": "2026-08-12T13:18:01.435Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:18:01.435Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Hawks.jpg",
+    "hash": "9eae6482ffd66058c5083003ac4047f9f2de6cfd85eca2f8073550d2a1dd5085",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Hawks",
+    "artist": "Hawks",
+    "artworkUrl": "https://coverartarchive.org/release-group/adae8a8f-9a80-492d-a478-c254310e5f6c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/adae8a8f-9a80-492d-a478-c254310e5f6c",
+    "releaseGroupId": "adae8a8f-9a80-492d-a478-c254310e5f6c",
+    "recordingId": "4ffedde7-48db-4341-82e4-d7595b8b134d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Right AwayHawks",
+      "song": "Right Away",
+      "performer": "Hawks",
+      "peakPosition": 63,
+      "firstChartDate": "1981-03-14",
+      "lastChartDate": "1981-04-25",
+      "appearances": [
+        {
+          "chartDate": "1981-03-14",
+          "position": 81
+        },
+        {
+          "chartDate": "1981-03-21",
+          "position": 71
+        },
+        {
+          "chartDate": "1981-03-28",
+          "position": 64
+        },
+        {
+          "chartDate": "1981-04-04",
+          "position": 63
+        },
+        {
+          "chartDate": "1981-04-11",
+          "position": 65
+        },
+        {
+          "chartDate": "1981-04-18",
+          "position": 78
+        },
+        {
+          "chartDate": "1981-04-25",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "vibrant feather collage with heavy sans serif feathers saturated yellow bold typography high contrast shadow play minimalist composition high contrast interaction between saturated subject colors and a bright yellow background sharp directional shadows creating a sense of depth and physical presence heavy typographic weight balancing the organic wispy textures of the feathers asymmetrical arrangement of feathers leading the eye from the center to the corners saturated background primary subject sharp shadow heavy sans serif wordmark",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vibrant Feather Collage with Heavy Sans-Serif",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Collage",
+        "Graphic Layout"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Poster Design",
+        "Editorial Illustration"
+      ],
+      "retrievalTags": [
+        "feathers",
+        "saturated yellow",
+        "bold typography",
+        "high contrast",
+        "shadow play",
+        "minimalist composition"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast composition featuring saturated primary-colored feathers against a bright yellow background with heavy, top-aligned black typography.",
+      "triggerTerms": [
+        "saturated feather collage",
+        "bold black display type on yellow",
+        "primary color feathers with harsh shadows"
+      ],
+      "excludeWhen": [
+        "soft pastel palettes are required",
+        "delicate serif typography is needed",
+        "realistic nature photography without graphic manipulation is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square graphic layout dominated by a vibrant yellow field, featuring four distinct feathers in red, blue, purple, and black/magenta, each casting a sharp, dark shadow. A heavy, black, sans-serif wordmark is positioned in the top-left corner, partially cropped by the frame.",
+    "coreVisualRelationships": [
+      "High-contrast interaction between saturated subject colors and a bright yellow background",
+      "Sharp, directional shadows creating a sense of depth and physical presence",
+      "Heavy typographic weight balancing the organic, wispy textures of the feathers",
+      "Asymmetrical arrangement of feathers leading the eye from the center to the corners"
+    ],
+    "coreInvariants": [
+      "Saturated yellow background field",
+      "Sharp, dark drop shadows for all subjects",
+      "Heavy black sans-serif display type in the top-left corner"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Feathers are distributed across the center and right quadrants, varying in scale from medium to large.",
+      "visualAnchor": "The large red feather in the center-left acts as the primary focal point due to its size and central placement.",
+      "movementAndEyePath": "The eye starts at the bold black text in the top-left, moves down the red feather, across to the blue feather, and up to the smaller purple feather.",
+      "negativeSpace": "Significant yellow negative space surrounds the subjects, emphasizing their color and form."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant Yellow (Background)",
+      "contrastColorRole": "Black (Typography and Shadows)",
+      "accentColorRole": "Primary Red, Cobalt Blue, and Magenta (Feathers)",
+      "saturationAndValueRelationship": "Extremely high saturation across all hues with deep black values for contrast.",
+      "paletteRestrictions": [
+        "No pastels",
+        "No gradients in the background",
+        "Pure black for shadows and type"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke thickness",
+        "Tight letter spacing (kerning)",
+        "Flat terminals",
+        "Large x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Black/Extra-Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Small/Tight",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left corner",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "partially cropped by top and left edges",
+            "relationshipToImage": "Overlays the background, clear of main subjects"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single heavy weight for maximum impact; no secondary typeface.",
+      "graphicDevices": [
+        "Hard-edged shadows",
+        "Thin black border frame"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extra-bold weight",
+          "Geometric construction",
+          "Tight tracking"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Light weights",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Matches the geometric skeleton and heavy presence.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Provides the necessary visual weight and blocky feel.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Offers the required density and vertical presence.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a flat, saturated yellow background. Place four feathers (red, blue, purple, and black with magenta edges) in an asymmetrical cluster. Each feather must cast a sharp, dark, directional shadow to the upper right.",
+        "overlayInstruction": "Add a single word in the top-left corner using an extra-bold geometric sans-serif font in solid black. The text should be tightly kerned and positioned so the tops of the letters are slightly cropped by the frame edge."
+      },
+      "verificationChecks": [
+        "Is the background a solid, vibrant yellow?",
+        "Are the shadows sharp and dark rather than soft?",
+        "Is the typography extra-bold and black?",
+        "Are the feathers in primary/saturated colors?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Feather colors",
+      "Shadow direction",
+      "Text placement (top-left vs bottom-right)",
+      "Background saturation level"
+    ],
+    "mustRedesign": [
+      "Do not use thin or serif fonts",
+      "Do not use soft, diffused lighting",
+      "Do not use muted or earth-tone palettes"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High color saturation",
+        "Graphic clarity",
+        "Strong typographic weight"
+      ],
+      "avoid": [
+        "Blurry textures",
+        "Low contrast",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is solid black and extra-bold.",
+      "Ensure the yellow background is uniform and bright.",
+      "Verify that each feather has a distinct, sharp shadow.",
+      "Confirm the composition feels balanced but asymmetrical."
+    ],
+    "reuseFormula": "Saturated Background + Primary Subject + Sharp Shadow + Heavy Sans-Serif Wordmark"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": "708693b13b9b9e3e13ad01bbf272ee7e5fb9ae063f54fa7ae0fc2d5793dfadd1",
+  "skillId": "708693b13b9b9e3e13ad01bbf272ee7e5fb9ae063f54fa7ae0fc2d5793dfadd1",
+  "versionId": "708693b13b9b9e3e13ad01bbf272ee7e5fb9ae063f54fa7ae0fc2d5793dfadd1",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:57:16.057Z",
+  "approvedAt": "2026-08-13T00:57:16.057Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:57:16.057Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Basic Rock.jpg",
+    "hash": "708693b13b9b9e3e13ad01bbf272ee7e5fb9ae063f54fa7ae0fc2d5793dfadd1",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Basic Rock",
+    "artist": "The Woolies",
+    "artworkUrl": "https://coverartarchive.org/release-group/a9abca2f-6651-4582-bb77-a30fb9ec555d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a9abca2f-6651-4582-bb77-a30fb9ec555d",
+    "releaseGroupId": "a9abca2f-6651-4582-bb77-a30fb9ec555d",
+    "recordingId": "8519fda6-dda3-4ac1-bc24-1a96f41aa9f0",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Who Do You LoveThe Woolies",
+      "song": "Who Do You Love",
+      "performer": "The Woolies",
+      "peakPosition": 95,
+      "firstChartDate": "1967-03-11",
+      "lastChartDate": "1967-03-25",
+      "appearances": [
+        {
+          "chartDate": "1967-03-11",
+          "position": 97
+        },
+        {
+          "chartDate": "1967-03-18",
+          "position": 97
+        },
+        {
+          "chartDate": "1967-03-25",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome quadrant portrait grid quadrant grid monochrome 1960s style mop top hair close up portrait film grain high contrast equal 2x2 grid distribution consistent lighting across all four panels uniform head to frame ratio shared monochrome tonal range quadrant grid portrait monochrome v1",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Quadrant Portrait Grid",
+      "category": "Photography",
+      "medium": [
+        "Black and White Film Photography",
+        "Studio Portraiture"
+      ],
+      "useCases": [
+        "Album cover art",
+        "Editorial band profiles",
+        "Vintage-style social media grids",
+        "Documentary film posters"
+      ],
+      "retrievalTags": [
+        "quadrant grid",
+        "monochrome",
+        "1960s style",
+        "mop-top hair",
+        "close-up portrait",
+        "film grain",
+        "high contrast"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A four-panel monochrome grid featuring tight, high-contrast headshots with a 1960s mod aesthetic.",
+      "triggerTerms": [
+        "quadrant portrait grid",
+        "black and white band headshots",
+        "vintage 2x2 photo layout"
+      ],
+      "excludeWhen": [
+        "color photography is required",
+        "full-body shots are needed",
+        "asymmetric layouts are preferred"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition divided into four equal quadrants by thin white gutters, each containing a high-contrast black and white portrait of a different individual looking toward the camera.",
+    "coreVisualRelationships": [
+      "Equal 2x2 grid distribution",
+      "Consistent lighting across all four panels",
+      "Uniform head-to-frame ratio",
+      "Shared monochrome tonal range"
+    ],
+    "coreInvariants": [
+      "Thin white internal grid lines",
+      "High-contrast black and white processing",
+      "Tight cropping on facial features"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four subjects centered within their respective quadrants, scaled to fill approximately 80% of the vertical space.",
+      "visualAnchor": "The central intersection of the white grid lines.",
+      "movementAndEyePath": "Z-pattern scanning from top-left to bottom-right quadrant.",
+      "negativeSpace": "Minimal negative space, primarily dark backgrounds behind the subjects' heads."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and shadows",
+      "contrastColorRole": "Bright white highlights and grid lines",
+      "accentColorRole": "Mid-tone grays for skin texture",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast with crushed blacks.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Thin white grid separator"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 2x2 grid of four distinct black and white portraits of men with 1960s hairstyles, using high-contrast studio lighting and dark backgrounds.",
+        "overlayInstruction": "If text is needed, place it in a clean sans-serif font centered over the grid lines or at the very bottom margin."
+      },
+      "verificationChecks": [
+        "Ensure grid lines are perfectly straight and thin",
+        "Check that all four portraits have matching contrast levels",
+        "Verify no color information is present"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Gutter width",
+      "Film grain intensity",
+      "Subject gaze direction",
+      "Contrast ratio"
+    ],
+    "mustRedesign": [
+      "Any modern digital artifacts",
+      "Color elements",
+      "Uneven quadrant sizing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic film-like grain",
+        "Sharp focus on eyes",
+        "Balanced tonal distribution across all four panels"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Digital over-sharpening",
+        "Inconsistent head sizes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Are there exactly four quadrants?",
+      "Is the image strictly monochrome?",
+      "Is the grid centered?",
+      "Do the subjects share a similar era-specific style?"
+    ],
+    "reuseFormula": "quadrant-grid-portrait-monochrome-v1"
+  }
+}

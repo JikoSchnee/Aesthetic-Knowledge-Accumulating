@@ -1,0 +1,232 @@
+{
+  "id": "b2b5ab5b9135fad535e3c9a3986ea6e7365c8e9559d0c35d68ed0073cdb0c409",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T06:42:20.141Z",
+  "approvedAt": "2026-08-11T06:42:20.141Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T06:42:20.141Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "COWBOY CARTER.jpg",
+    "hash": "b2b5ab5b9135fad535e3c9a3986ea6e7365c8e9559d0c35d68ed0073cdb0c409",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "COWBOY CARTER",
+    "artist": "Beyonce",
+    "artworkUrl": "https://coverartarchive.org/release-group/fa566e7b-254a-4fab-8aa5-ebcb7592d7f2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/fa566e7b-254a-4fab-8aa5-ebcb7592d7f2",
+    "releaseGroupId": "fa566e7b-254a-4fab-8aa5-ebcb7592d7f2",
+    "recordingId": "3cd7f392-cf14-4e86-a8fc-eaee832b31e4",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Alliigator TearsBeyonce",
+      "song": "Alliigator Tears",
+      "performer": "Beyonce",
+      "peakPosition": 52,
+      "firstChartDate": "2024-04-13",
+      "lastChartDate": "2024-04-13",
+      "appearances": [
+        {
+          "chartDate": "2024-04-13",
+          "position": 52
+        }
+      ]
+    }
+  },
+  "dedupeText": "patriotic equestrian portrait equestrian white horse cowboy hat sash flag americana black background long hair western the rider s long flowing hair mimics the horizontal movement of the flag and the horse s tail the bright white of the horse and rider s boots anchors the center against the deep black void the diagonal line of the sash creates a counter rhythm to the horizontal motion of the horse subject rider type on animal type background solid color void action high speed motion key prop flowing fabric flag lighting high contrast studio spotlight",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Patriotic Equestrian Portrait",
+      "category": "Editorial Photography",
+      "medium": [
+        "Studio Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Fashion Editorial"
+      ],
+      "retrievalTags": [
+        "equestrian",
+        "white horse",
+        "cowboy hat",
+        "sash",
+        "flag",
+        "americana",
+        "black background",
+        "long hair",
+        "western"
+      ]
+    },
+    "visualDefinition": "A high-contrast studio portrait of a rider on a white horse against a void-black background. The rider wears a patriotic-themed bodysuit and a sash with bold typography, holding a large striped flag. The composition is defined by the dynamic motion of the horse's gallop and the dramatic, wind-swept flow of the rider's extremely long hair and the flag's fabric.",
+    "coreVisualRelationships": [
+      "The rider's long, flowing hair mimics the horizontal movement of the flag and the horse's tail.",
+      "The bright white of the horse and rider's boots anchors the center against the deep black void.",
+      "The diagonal line of the sash creates a counter-rhythm to the horizontal motion of the horse."
+    ],
+    "coreInvariants": [
+      "Pitch-black background with no visible horizon line.",
+      "A white horse in a mid-gallop pose.",
+      "High-key lighting on the subject with deep shadows in the recesses."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centrally located, occupying the middle two-thirds of the frame horizontally.",
+      "visualAnchor": "The rider's face and the white cowboy hat, positioned at the vertical center-top.",
+      "movementAndEyePath": "Leading from the horse's head on the left, across the rider's body, following the hair and flag to the right edge.",
+      "negativeSpace": "Extensive black negative space surrounding the subject, focusing all attention on the central action."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure black (background) and stark white (horse, hair, boots).",
+      "contrastColorRole": "Deep blue and vibrant red (clothing and flag).",
+      "accentColorRole": "Gold fringe on the flag and silver metallic details on the saddle.",
+      "saturationAndValueRelationship": "High value contrast between the subject and background; high saturation in the red and blue elements.",
+      "paletteRestrictions": [
+        "Red",
+        "White",
+        "Blue",
+        "Black",
+        "Silver/Gold"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy, condensed slab-serif or blocky sans-serif.",
+      "letterConstructionRules": [
+        "Extra bold weight",
+        "High verticality",
+        "Uniform stroke width",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are warped to follow the curve and folds of the fabric sash."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "Slab-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Black",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Blunt",
+            "corners": "Sharp",
+            "counters": "Small",
+            "strokeCharacter": "Rigid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered on sash",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Diagonal across the rider's torso",
+            "scale": "Large enough to span the chest",
+            "rotation": "Approx 30 degrees",
+            "warp": "Follows fabric contour",
+            "overlap": "Placed on top of the sash texture",
+            "relationshipToImage": "Integrated into the costume"
+          },
+          "treatment": {
+            "fill": "Solid black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "Perspective warp"
+          }
+        }
+      ],
+      "pairingStrategy": "Single heavy display face for maximum impact.",
+      "graphicDevices": [
+        "Textile sash",
+        "Fringed flag edges"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Heavy weight",
+          "Condensed width",
+          "Uppercase"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Light weights",
+          "Serifs with high contrast"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed profile.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Captures the western slab-serif aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A white horse galloping in a studio setting against a pure black background. A rider in a red, white, and blue western outfit with a white cowboy hat and extremely long flowing white hair. The rider holds a large flag with red and white stripes. The ground is dark dirt with a spotlight effect.",
+        "overlayInstruction": "Add a white sash across the rider's chest. Place bold, black, condensed slab-serif text on the sash, warping the letters to follow the folds and diagonal orientation of the fabric."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Does the hair flow horizontally to imply motion?",
+        "Is the text warped to look like it is printed on the sash?",
+        "Is the horse's coat a clean, bright white?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Length of the hair",
+      "Intensity of the flag's movement",
+      "Specific pattern of the bodysuit",
+      "Angle of the horse's gallop"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the rider",
+      "Exact brand logos on the saddle",
+      "Specific wording on the sash"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic studio lighting",
+        "Sense of high-speed motion",
+        "Clean, high-contrast separation between subject and background"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Soft, diffused lighting that flattens the form",
+        "Static, unmoving hair or fabric"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the flag's stripes are distinct and not blurred into a solid color.",
+      "Check that the rider's hair does not obscure the face.",
+      "Verify the text on the sash is legible despite the warp.",
+      "Confirm the horse's hooves are interacting realistically with the dirt ground."
+    ],
+    "reuseFormula": "Subject: [Rider Type] on [Animal Type] + Background: [Solid Color Void] + Action: [High Speed Motion] + Key Prop: [Flowing Fabric/Flag] + Lighting: [High Contrast Studio Spotlight]"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T07:31:48.671Z"
+}

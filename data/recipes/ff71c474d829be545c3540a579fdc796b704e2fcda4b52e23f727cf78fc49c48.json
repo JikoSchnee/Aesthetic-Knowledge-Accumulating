@@ -1,0 +1,305 @@
+{
+  "id": "ff71c474d829be545c3540a579fdc796b704e2fcda4b52e23f727cf78fc49c48",
+  "skillId": "ff71c474d829be545c3540a579fdc796b704e2fcda4b52e23f727cf78fc49c48",
+  "versionId": "ff71c474d829be545c3540a579fdc796b704e2fcda4b52e23f727cf78fc49c48",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T20:28:37.904Z",
+  "approvedAt": "2026-08-12T20:28:37.904Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T20:28:37.904Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Daddy's Little Girl.jpg",
+    "hash": "ff71c474d829be545c3540a579fdc796b704e2fcda4b52e23f727cf78fc49c48",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Daddy's Little Girl",
+    "artist": "Al Martino",
+    "artworkUrl": "https://coverartarchive.org/release-group/9841ee37-13e8-4e37-99bf-685732932548/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9841ee37-13e8-4e37-99bf-685732932548",
+    "releaseGroupId": "9841ee37-13e8-4e37-99bf-685732932548",
+    "recordingId": "4c4209f2-7ec8-4fce-80f4-4ebd815088e5",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Wheel Of HurtAl Martino",
+      "song": "The Wheel Of Hurt",
+      "performer": "Al Martino",
+      "peakPosition": 59,
+      "firstChartDate": "1966-10-15",
+      "lastChartDate": "1966-12-03",
+      "appearances": [
+        {
+          "chartDate": "1966-10-15",
+          "position": 99
+        },
+        {
+          "chartDate": "1966-10-22",
+          "position": 77
+        },
+        {
+          "chartDate": "1966-10-29",
+          "position": 74
+        },
+        {
+          "chartDate": "1966-11-05",
+          "position": 73
+        },
+        {
+          "chartDate": "1966-11-12",
+          "position": 63
+        },
+        {
+          "chartDate": "1966-11-19",
+          "position": 62
+        },
+        {
+          "chartDate": "1966-11-26",
+          "position": 59
+        },
+        {
+          "chartDate": "1966-12-03",
+          "position": 72
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century crooner album cover mid century modern vinyl record crooner warm lighting serif typography portrait photography subject centered with head slightly tilted text blocks flanking the subject s head warm golden background contrasting with dark suit soft studio lighting creating gentle facial shadows warm portrait flanking serif type golden background mid century crooner aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Crooner Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Vintage music packaging",
+        "Retro portraiture",
+        "1960s editorial layout"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "vinyl record",
+        "crooner",
+        "warm lighting",
+        "serif typography",
+        "portrait photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A warm, close-up male portrait with asymmetrical text blocks and a golden-hour color palette typical of 1960s vocal pop albums.",
+      "triggerTerms": [
+        "vintage album cover portrait",
+        "1960s crooner aesthetic",
+        "warm sepia-toned studio portrait"
+      ],
+      "excludeWhen": [
+        "modern minimalist design",
+        "high-contrast black and white photography",
+        "sans-serif dominant layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, smiling male portrait in a suit, framed by a warm, glowing background with text justified to the left and right margins in a classic serif style.",
+    "coreVisualRelationships": [
+      "Subject centered with head slightly tilted",
+      "Text blocks flanking the subject's head",
+      "Warm golden background contrasting with dark suit",
+      "Soft studio lighting creating gentle facial shadows"
+    ],
+    "coreInvariants": [
+      "Warm amber and gold color cast",
+      "Tight head-and-shoulders framing",
+      "High-waisted text placement in upper quadrants"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale central portrait occupying the middle 70% of the frame.",
+      "visualAnchor": "The subject's eyes and smile at the center-right of the composition.",
+      "movementAndEyePath": "From the top-left artist name, across the face to the tracklist on the right, then down to the suit.",
+      "negativeSpace": "Golden-hued background areas in the upper corners used for typographic placement."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm ochre and gold background tones.",
+      "contrastColorRole": "Dark charcoal and deep brown of the suit and tie.",
+      "accentColorRole": "Crisp white for primary typography.",
+      "saturationAndValueRelationship": "Low saturation with high warmth; values range from deep shadows in the suit to bright highlights on the forehead.",
+      "paletteRestrictions": [
+        "Avoid cool blues or neon colors",
+        "Limit to earth tones and warm highlights"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classic transitional serif",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Vertical stress",
+        "Sharp, bracketed serifs"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Top left",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlays background"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Traditional"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked list",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Top right",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlays background"
+          },
+          "treatment": {
+            "fill": "Dark brown / Bronze",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold white display serif paired with smaller, darker body serif for hierarchical contrast.",
+      "graphicDevices": [
+        "Rectangular logo box in top left corner",
+        "Circular emblem in middle right"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Serif classification",
+          "Left/Right asymmetrical layout"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Centered text blocks"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman Bold",
+            "reason": "Matches the classic transitional serif look of the era.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Century Schoolbook",
+            "reason": "Provides the necessary weight and legibility for the display text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a warm, golden-hour studio portrait of a smiling man in a dark suit and tie, centered with soft lighting and a blurred amber background.",
+        "overlayInstruction": "Add bold white serif text in the top left and a stacked list of dark brown serif text in the top right."
+      },
+      "verificationChecks": [
+        "Is the portrait centered?",
+        "Is the color palette predominantly warm gold and dark charcoal?",
+        "Are the fonts classic serifs?",
+        "Is the text layout asymmetrical?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Warmth of the background glow",
+      "Weight of the display serif",
+      "Tightness of the portrait crop"
+    ],
+    "mustRedesign": [
+      "Modern digital filters",
+      "Flat vector illustrations",
+      "Geometric sans-serif typefaces"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft film-grain texture",
+        "Authentic 1960s studio lighting",
+        "Balanced typographic margins"
+      ],
+      "avoid": [
+        "Over-sharpened digital look",
+        "Clashing cool tones",
+        "Centered text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for warm color balance",
+      "Verify serif font legibility",
+      "Ensure subject's expression is warm and inviting",
+      "Confirm asymmetrical text placement"
+    ],
+    "reuseFormula": "Warm Portrait + Flanking Serif Type + Golden Background = Mid-Century Crooner Aesthetic"
+  }
+}

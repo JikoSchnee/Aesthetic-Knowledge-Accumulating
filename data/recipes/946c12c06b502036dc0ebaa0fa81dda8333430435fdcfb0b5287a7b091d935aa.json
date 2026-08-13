@@ -1,0 +1,295 @@
+{
+  "id": "946c12c06b502036dc0ebaa0fa81dda8333430435fdcfb0b5287a7b091d935aa",
+  "skillId": "946c12c06b502036dc0ebaa0fa81dda8333430435fdcfb0b5287a7b091d935aa",
+  "versionId": "946c12c06b502036dc0ebaa0fa81dda8333430435fdcfb0b5287a7b091d935aa",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:31:18.463Z",
+  "approvedAt": "2026-08-12T14:31:18.463Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:31:18.463Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Hello, I’m Johnny Cash.jpg",
+    "hash": "946c12c06b502036dc0ebaa0fa81dda8333430435fdcfb0b5287a7b091d935aa",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Hello, I’m Johnny Cash",
+    "artist": "Johnny Cash",
+    "artworkUrl": "https://coverartarchive.org/release-group/98cfdc81-c6d5-31be-a63c-ee3ec1a707ec/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/98cfdc81-c6d5-31be-a63c-ee3ec1a707ec",
+    "releaseGroupId": "98cfdc81-c6d5-31be-a63c-ee3ec1a707ec",
+    "recordingId": "38c6007e-b2e1-48cf-b9b5-cd9b28246d9c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "See Ruby FallJohnny Cash",
+      "song": "See Ruby Fall",
+      "performer": "Johnny Cash",
+      "peakPosition": 75,
+      "firstChartDate": "1969-11-08",
+      "lastChartDate": "1969-11-22",
+      "appearances": [
+        {
+          "chartDate": "1969-11-08",
+          "position": 100
+        },
+        {
+          "chartDate": "1969-11-15",
+          "position": 87
+        },
+        {
+          "chartDate": "1969-11-22",
+          "position": 75
+        }
+      ]
+    }
+  },
+  "dedupeText": "classic country portrait album cover extreme close up low angle portrait rugged texture twilight blue heavy sans serif typography right aligned text block the low angle perspective emphasizes the subject s chin and jawline against the sky the cool blue background provides a stark contrast to the warm textured skin tones the right aligned text block follows the curve of the subject s head deep shadows in the eye sockets and facial creases create a sense of gravitas low angle textured portrait twilight blue backdrop right aligned heavy sans serif type",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Classic Country Portrait Album Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vintage-style album covers",
+        "Biographical book jackets",
+        "Documentary posters",
+        "Classic Americana branding"
+      ],
+      "retrievalTags": [
+        "extreme close-up",
+        "low angle portrait",
+        "rugged texture",
+        "twilight blue",
+        "heavy sans-serif typography",
+        "right-aligned text block"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, low-angle facial portrait with a cool blue background and heavy, right-aligned sans-serif display type.",
+      "triggerTerms": [
+        "rugged close-up portrait",
+        "low angle face photography",
+        "vintage country album style",
+        "heavy sans-serif right-aligned text"
+      ],
+      "excludeWhen": [
+        "full body shots are required",
+        "bright or warm color palettes are needed",
+        "centered typography is preferred"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "An extreme close-up of a weathered male face, shot from a low angle against a deep blue twilight sky, featuring bold white sans-serif typography tucked into the upper right corner.",
+    "coreVisualRelationships": [
+      "The low-angle perspective emphasizes the subject's chin and jawline against the sky.",
+      "The cool blue background provides a stark contrast to the warm, textured skin tones.",
+      "The right-aligned text block follows the curve of the subject's head.",
+      "Deep shadows in the eye sockets and facial creases create a sense of gravitas."
+    ],
+    "coreInvariants": [
+      "Extreme low-angle facial perspective",
+      "Deep blue monochromatic background",
+      "High-contrast skin texture",
+      "Right-aligned sans-serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The face occupies approximately 70% of the frame, positioned slightly off-center to the left.",
+      "visualAnchor": "The subject's eyes and the deep shadow of the brow ridge.",
+      "movementAndEyePath": "Starts at the eyes, moves down the textured face to the jaw, then up to the bold text in the top right.",
+      "negativeSpace": "Concentrated in the upper left and lower right corners, primarily consisting of the blue sky."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep twilight blue (background)",
+      "contrastColorRole": "Warm, desaturated skin tones (subject)",
+      "accentColorRole": "Pure white (typography)",
+      "saturationAndValueRelationship": "High value contrast between the white text and dark shadows; low saturation in the skin tones.",
+      "paletteRestrictions": [
+        "Avoid vibrant greens or yellows",
+        "Limit to blues, blacks, and natural skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric and Grotesque sans-serif",
+      "letterConstructionRules": [
+        "Heavy weight with minimal stroke contrast",
+        "Tight letter spacing (tracking)",
+        "Square-ish proportions for display text"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "short phrases",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in negative space of sky"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "list",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "mid right",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "stacked vertically below display text"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Weight contrast within the same sans-serif family.",
+      "graphicDevices": [
+        "Small logo/catalog number block in top left corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right alignment",
+          "Heavy weight of display text",
+          "White color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the rugged, classic American feel of the display type.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and tight spacing for the display role.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Helvetica Neue Bold Condensed",
+            "reason": "Suitable for the secondary list text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-angle, extreme close-up portrait of a man with weathered skin and a serious expression. The lighting should be dramatic with deep shadows. The background is a solid, dark twilight blue sky. Leave the top right quadrant clear for text.",
+        "overlayInstruction": "Add bold, white, right-aligned sans-serif text in the top right corner. The main title should be in a heavy black weight, with a list of items below it in a medium weight condensed font."
+      },
+      "verificationChecks": [
+        "Is the camera angle low, looking up at the face?",
+        "Is the background a consistent deep blue?",
+        "Is the text strictly right-aligned?",
+        "Is the skin texture highly detailed and rugged?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject age and gender",
+      "Intensity of the blue background",
+      "Weight of the display typography",
+      "Amount of facial shadow"
+    ],
+    "mustRedesign": [
+      "Specific artist names or song titles",
+      "Record label logos",
+      "Catalog numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-resolution skin texture",
+        "Clean, sharp typographic edges",
+        "Consistent low-angle perspective"
+      ],
+      "avoid": [
+        "Soft focus on the face",
+        "Warm-colored backgrounds",
+        "Centered or left-aligned text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text does not overlap the main facial features.",
+      "Check that the blue background is not overly saturated.",
+      "Verify the low-angle perspective is maintained.",
+      "Confirm the typography is solid white without effects."
+    ],
+    "reuseFormula": "Low-angle textured portrait + twilight blue backdrop + right-aligned heavy sans-serif type."
+  }
+}

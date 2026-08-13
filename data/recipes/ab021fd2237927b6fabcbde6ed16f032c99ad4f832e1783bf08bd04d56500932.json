@@ -1,0 +1,308 @@
+{
+  "id": "ab021fd2237927b6fabcbde6ed16f032c99ad4f832e1783bf08bd04d56500932",
+  "skillId": "ab021fd2237927b6fabcbde6ed16f032c99ad4f832e1783bf08bd04d56500932",
+  "versionId": "ab021fd2237927b6fabcbde6ed16f032c99ad4f832e1783bf08bd04d56500932",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:09:56.883Z",
+  "approvedAt": "2026-08-12T12:09:56.883Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:09:56.883Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Like Mann.jpg",
+    "hash": "ab021fd2237927b6fabcbde6ed16f032c99ad4f832e1783bf08bd04d56500932",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Like Mann",
+    "artist": "Carl Mann",
+    "artworkUrl": "https://coverartarchive.org/release-group/9767a4bf-10b0-46be-9252-08dfaf6204d9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9767a4bf-10b0-46be-9252-08dfaf6204d9",
+    "releaseGroupId": "9767a4bf-10b0-46be-9252-08dfaf6204d9",
+    "recordingId": "2565a4ff-65ea-4d1e-879c-e1355d95ea73",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "PretendCarl Mann",
+      "song": "Pretend",
+      "performer": "Carl Mann",
+      "peakPosition": 57,
+      "firstChartDate": "1959-10-24",
+      "lastChartDate": "1959-12-05",
+      "appearances": [
+        {
+          "chartDate": "1959-10-24",
+          "position": 72
+        },
+        {
+          "chartDate": "1959-10-31",
+          "position": 66
+        },
+        {
+          "chartDate": "1959-11-07",
+          "position": 66
+        },
+        {
+          "chartDate": "1959-11-14",
+          "position": 64
+        },
+        {
+          "chartDate": "1959-11-21",
+          "position": 57
+        },
+        {
+          "chartDate": "1959-11-28",
+          "position": 71
+        },
+        {
+          "chartDate": "1959-12-05",
+          "position": 81
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century modernist record cover 1950s rockabilly geometric typography high contrast portrait primary colors asymmetrical layout portrait gaze directed toward the primary typographic focal point overlapping letterforms creating depth through color transparency effects contrast between organic photographic textures and sharp geometric lines asymmetrical balance between the heavy portrait and the airy tall type high contrast grayscale portrait solid black field vertically stretched primary colored overlapping geometric type",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Modernist Record Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Offset Print"
+      ],
+      "useCases": [
+        "Vintage album art",
+        "Retro poster design",
+        "Mid-century typography layouts"
+      ],
+      "retrievalTags": [
+        "1950s",
+        "rockabilly",
+        "geometric typography",
+        "high contrast portrait",
+        "primary colors",
+        "asymmetrical layout"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast black background featuring a grayscale portrait and vertically elongated, overlapping primary-colored geometric lettering.",
+      "triggerTerms": [
+        "mid-century record cover style",
+        "overlapping tall geometric letters",
+        "high contrast grayscale portrait on black"
+      ],
+      "excludeWhen": [
+        "minimalist modern digital aesthetics",
+        "soft pastel color palettes",
+        "centered symmetrical layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dynamic composition on a solid black field where a low-angle grayscale portrait of a man occupies the bottom-left, looking upward toward a cluster of extremely tall, thin, overlapping letters in red, green, blue, and yellow.",
+    "coreVisualRelationships": [
+      "Portrait gaze directed toward the primary typographic focal point",
+      "Overlapping letterforms creating depth through color transparency effects",
+      "Contrast between organic photographic textures and sharp geometric lines",
+      "Asymmetrical balance between the heavy portrait and the airy, tall type"
+    ],
+    "coreInvariants": [
+      "Solid black background",
+      "Primary color palette for the main display text",
+      "Vertically stretched letterforms"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Grayscale portrait in the bottom-left quadrant, scaled to approximately one-third of the frame.",
+      "visualAnchor": "The large, multi-colored overlapping word in the top-right quadrant.",
+      "movementAndEyePath": "Starts at the portrait's face, follows the gaze upward to the colorful display text, then down to the secondary white text block.",
+      "negativeSpace": "Extensive black negative space surrounding the elements, emphasizing the high-contrast edges."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background)",
+      "contrastColorRole": "White (portrait and secondary text)",
+      "accentColorRole": "Red, Green, Blue, Yellow (primary display text)",
+      "saturationAndValueRelationship": "High saturation primary colors against a zero-value black background.",
+      "paletteRestrictions": [
+        "Pure black",
+        "Pure white",
+        "Vibrant primary red, green, blue, and yellow"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Geometric sans-serif",
+      "letterConstructionRules": [
+        "Extreme vertical elongation (approx 10:1 height-to-width ratio)",
+        "Uniform stroke weight",
+        "Sharp, unbracketed terminals",
+        "Overlapping strokes with simulated transparency or color blending"
+      ],
+      "characterSpecificRedesigns": [
+        "M and N characters share vertical stems to create a zigzag pattern",
+        "A has a high crossbar to maintain verticality"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "medium",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "straight"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight-overlapping",
+            "leading": "none",
+            "lineBreakPattern": "single word",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "vertical stretch",
+            "overlap": "heavy",
+            "relationshipToImage": "floats above"
+          },
+          "treatment": {
+            "fill": "solid primary colors",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "grotesque sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "blunt",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "sturdy"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "horizontal line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "center right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "adjacent"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme contrast between vertically distorted display lettering and stable, functional grotesque sans-serifs.",
+      "graphicDevices": [
+        "Overlapping color planes",
+        "Bullet points for list items",
+        "High-contrast halftone-style photography"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical elongation of the main title",
+          "Primary color palette",
+          "Black background"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Matches the sturdy, mid-century feel of the secondary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Custom Vector Path",
+            "reason": "Necessary to achieve the extreme vertical distortion and overlapping of the main title.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast grayscale portrait of a man in 1950s attire, positioned in the bottom-left corner looking up and right, set against a solid black background.",
+        "overlayInstruction": "Create custom vector lettering for the main title using ultra-tall, thin strokes in red, green, blue, and yellow, overlapping them in the top right. Add secondary white grotesque sans-serif text in a horizontal block below the title."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Are the tall letters overlapping with primary colors?",
+        "Is the portrait grayscale and high-contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Portrait subject",
+      "Primary color sequence",
+      "Degree of vertical elongation",
+      "Secondary text content"
+    ],
+    "mustRedesign": [
+      "Specific artist name and song titles",
+      "Record label logos or catalog numbers",
+      "Exact facial features of the original subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp geometric edges on type",
+        "Deep black levels",
+        "Clear primary color separation"
+      ],
+      "avoid": [
+        "Blurry edges",
+        "Gradient backgrounds",
+        "Modern digital filters"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the tall letters do not touch the portrait.",
+      "Ensure the white text is legible against the black.",
+      "Verify the primary colors are vibrant and not muddy.",
+      "Confirm the portrait gaze aligns with the display text."
+    ],
+    "reuseFormula": "High-contrast grayscale portrait + solid black field + vertically stretched primary-colored overlapping geometric type."
+  }
+}

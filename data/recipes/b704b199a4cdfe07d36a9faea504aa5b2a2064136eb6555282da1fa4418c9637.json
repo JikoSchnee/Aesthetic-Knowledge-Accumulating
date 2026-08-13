@@ -1,0 +1,265 @@
+{
+  "id": "b704b199a4cdfe07d36a9faea504aa5b2a2064136eb6555282da1fa4418c9637",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T16:16:19.414Z",
+  "approvedAt": "2026-08-11T16:16:19.414Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T16:16:19.414Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Magic.jpg",
+    "hash": "b704b199a4cdfe07d36a9faea504aa5b2a2064136eb6555282da1fa4418c9637",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Magic",
+    "artist": "Bruce Springsteen",
+    "artworkUrl": "https://coverartarchive.org/release-group/5af7998f-9b53-3ebb-8f09-ebfbca703a59/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5af7998f-9b53-3ebb-8f09-ebfbca703a59",
+    "releaseGroupId": "5af7998f-9b53-3ebb-8f09-ebfbca703a59",
+    "recordingId": "3f7019a0-4b55-46d5-bf2e-024fc93df4ef",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Girls In Their Summer ClothesBruce Springsteen",
+      "song": "Girls In Their Summer Clothes",
+      "performer": "Bruce Springsteen",
+      "peakPosition": 95,
+      "firstChartDate": "2008-02-02",
+      "lastChartDate": "2008-02-02",
+      "appearances": [
+        {
+          "chartDate": "2008-02-02",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty sepia portrait album cover sepia high contrast weathered texture condensed sans serif slab serif gritty portrait vintage paper the dark shadowed face contrasts sharply with the bright textured background the heavy dark red typography anchors the bottom third of the composition the grain of the paper texture unifies the photographic subject and the graphic elements combine a high contrast low saturation portrait with heavy industrial typography and a vintage paper overlay to create a gritty timeless aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Sepia Portrait Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Digital Print"
+      ],
+      "useCases": [
+        "Album Art",
+        "Editorial Portraiture",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "sepia",
+        "high contrast",
+        "weathered texture",
+        "condensed sans-serif",
+        "slab serif",
+        "gritty portrait",
+        "vintage paper"
+      ]
+    },
+    "visualDefinition": "A high-contrast, close-up portrait of a man with a weathered expression, set against a textured, off-white background. The image uses a monochromatic sepia-toned palette with deep shadows and a grainy, aged paper texture overlay. Typography is layered over the subject's chest area, combining a heavy condensed sans-serif with a lighter slab serif.",
+    "coreVisualRelationships": [
+      "The dark, shadowed face contrasts sharply with the bright, textured background.",
+      "The heavy, dark red typography anchors the bottom third of the composition.",
+      "The grain of the paper texture unifies the photographic subject and the graphic elements."
+    ],
+    "coreInvariants": [
+      "High-contrast lighting with deep shadows on one side of the face.",
+      "Off-white, aged paper texture with subtle brown speckling.",
+      "Two-tone color scheme: dark umber/red and cream/sepia."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered close-up portrait, head and shoulders, filling the top two-thirds of the frame.",
+      "visualAnchor": "The subject's eyes and the heavy block lettering at the bottom.",
+      "movementAndEyePath": "From the intense gaze of the subject down to the bold primary text, then to the smaller secondary text.",
+      "negativeSpace": "Ample textured negative space around the head and shoulders, providing a canvas for the typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cream/Off-white background with aged paper texture.",
+      "contrastColorRole": "Deep umber/black for shadows and hair.",
+      "accentColorRole": "Dark brick red for the primary display typography.",
+      "saturationAndValueRelationship": "Low saturation, high contrast; values range from deep blacks to bright, warm whites.",
+      "paletteRestrictions": [
+        "Monochromatic sepia tones",
+        "Muted brick red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed industrial sans-serif and classical slab serif.",
+      "letterConstructionRules": [
+        "Primary text uses ultra-condensed, heavy-weight strokes with flat terminals.",
+        "Secondary text uses a medium-weight slab serif with bracketed serifs."
+      ],
+      "characterSpecificRedesigns": [
+        "None; standard glyph forms used for clarity and impact."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom left quadrant",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "on subject's shirt",
+            "relationshipToImage": "integrated"
+          },
+          "treatment": {
+            "fill": "dark brick red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "subtle grain",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "slab",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "varied"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "above second line of primary text",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "on subject's shirt",
+            "relationshipToImage": "integrated"
+          },
+          "treatment": {
+            "fill": "muted orange-brown",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High contrast pairing of a modern, industrial condensed sans with a traditional slab serif.",
+      "graphicDevices": [
+        "Aged paper texture overlay",
+        "Vignetting in corners"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed width of primary text",
+          "Sepia color palette",
+          "High-contrast lighting"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Vibrant colors",
+          "Clean, modern digital backgrounds"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Matches the heavy, condensed industrial feel of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Clarendon or Rockwell",
+            "reason": "Provides the appropriate slab-serif contrast for the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, sepia-toned portrait of a middle-aged man with messy dark hair and a weathered face. Use dramatic lighting with one side of the face in deep shadow. Apply a heavy aged-paper texture with brown speckles and yellowed edges across the entire frame.",
+        "overlayInstruction": "Add two lines of text in the bottom left. The first line and third line should be a large, ultra-condensed bold sans-serif in dark brick red. A second, smaller line in a slab-serif font should be placed between or above the main text blocks in a muted orange-brown."
+      },
+      "verificationChecks": [
+        "Is the lighting high-contrast and sepia-toned?",
+        "Does the background have a visible aged paper texture?",
+        "Is the primary text ultra-condensed and bold?",
+        "Is the color palette restricted to earth tones and dark red?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the paper texture",
+      "Degree of sepia tinting",
+      "Tightness of the portrait crop",
+      "Specific shade of the red typography"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact wording of the text",
+      "Any specific artist logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Gritty, analog feel",
+        "Strong typographic hierarchy",
+        "Dramatic chiaroscuro lighting"
+      ],
+      "avoid": [
+        "Smooth digital gradients",
+        "Bright primary colors",
+        "Thin, delicate fonts for the main title"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the texture does not obscure the legibility of the text.",
+      "Check that the sepia tone is consistent across the image.",
+      "Verify the high-contrast shadows maintain detail in the dark areas.",
+      "Confirm the typography feels integrated into the shirt texture."
+    ],
+    "reuseFormula": "Combine a high-contrast, low-saturation portrait with heavy industrial typography and a vintage paper overlay to create a gritty, timeless aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:20:26.976Z"
+}

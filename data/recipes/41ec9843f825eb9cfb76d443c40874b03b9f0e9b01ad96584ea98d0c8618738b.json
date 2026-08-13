@@ -1,0 +1,287 @@
+{
+  "id": "41ec9843f825eb9cfb76d443c40874b03b9f0e9b01ad96584ea98d0c8618738b",
+  "skillId": "41ec9843f825eb9cfb76d443c40874b03b9f0e9b01ad96584ea98d0c8618738b",
+  "versionId": "41ec9843f825eb9cfb76d443c40874b03b9f0e9b01ad96584ea98d0c8618738b",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:08:30.202Z",
+  "approvedAt": "2026-08-13T05:08:30.202Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:08:30.202Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Nothing Matters Without Love.jpg",
+    "hash": "41ec9843f825eb9cfb76d443c40874b03b9f0e9b01ad96584ea98d0c8618738b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Nothing Matters Without Love",
+    "artist": "Seduction",
+    "artworkUrl": "https://coverartarchive.org/release-group/8bffae30-ee3a-340b-bdf3-27a19c5b4eca/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8bffae30-ee3a-340b-bdf3-27a19c5b4eca",
+    "releaseGroupId": "8bffae30-ee3a-340b-bdf3-27a19c5b4eca",
+    "recordingId": "434ba305-ad04-4aa8-847d-a1466159f436",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "BreakdownSeduction",
+      "song": "Breakdown",
+      "performer": "Seduction",
+      "peakPosition": 82,
+      "firstChartDate": "1990-10-06",
+      "lastChartDate": "1990-10-27",
+      "appearances": [
+        {
+          "chartDate": "1990-10-06",
+          "position": 98
+        },
+        {
+          "chartDate": "1990-10-13",
+          "position": 88
+        },
+        {
+          "chartDate": "1990-10-20",
+          "position": 82
+        },
+        {
+          "chartDate": "1990-10-27",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "late 80s pop r b album cover 80s pop glamour photography trio portrait warm sand tones serif typography gold jewelry high volume hair triangular arrangement of subjects contrast between white clothing and warm tan background large scale script title overlapping the subjects symmetrical balance between top and bottom text blocks warm studio lighting trio reclining pose white gold styling wide tracked serif footer",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Late 80s Pop R&B Album Cover",
+      "category": "Music Photography",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Editorial Fashion Spread"
+      ],
+      "retrievalTags": [
+        "80s pop",
+        "glamour photography",
+        "trio portrait",
+        "warm sand tones",
+        "serif typography",
+        "gold jewelry",
+        "high-volume hair"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A warm-toned studio portrait of three women in white attire against a sandy backdrop, featuring a large stylized script title and a clean serif subtitle.",
+      "triggerTerms": [
+        "80s R&B album aesthetic",
+        "glamour trio portrait in white",
+        "warm sand studio lighting"
+      ],
+      "excludeWhen": [
+        "modern minimalist photography",
+        "dark moody lighting",
+        "sans-serif only layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-glamour studio composition featuring three women posed dynamically on a sandy surface. The lighting is warm and diffused, emphasizing gold jewelry and white fabric. The layout uses a large, expressive script for the primary title at the top and a spaced-out serif for the secondary text at the bottom.",
+    "coreVisualRelationships": [
+      "Triangular arrangement of subjects",
+      "Contrast between white clothing and warm tan background",
+      "Large-scale script title overlapping the subjects",
+      "Symmetrical balance between top and bottom text blocks"
+    ],
+    "coreInvariants": [
+      "Warm, monochromatic sand-colored background",
+      "Subjects wearing white fabric wraps or swimwear",
+      "Prominent gold and pearl statement jewelry"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three subjects occupy the central and lower two-thirds of the frame in a tiered, reclining arrangement.",
+      "visualAnchor": "The woman on the right with high-volume hair acts as the vertical anchor.",
+      "movementAndEyePath": "The eye starts at the large 'S' in the top left, follows the title across, drops to the central figures, and rests on the bottom text.",
+      "negativeSpace": "Open space at the top and bottom edges provides room for typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm beige/sand background",
+      "contrastColorRole": "Bright white clothing",
+      "accentColorRole": "Gold jewelry and red-orange drop shadows",
+      "saturationAndValueRelationship": "High value, low to medium saturation with warm undertones.",
+      "paletteRestrictions": [
+        "Avoid cool blues or greens",
+        "Limit to earth tones, white, and gold"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Calligraphic script and classical serif",
+      "letterConstructionRules": [
+        "Title features an oversized initial 'S' with a long tail",
+        "Script letters are thin, upright, and widely spaced",
+        "Subtitle uses a high-contrast serif with wide tracking"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'S' is elongated vertically to act as a framing element"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "light",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "monolinear script"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "centered",
+            "tracking": "very wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top third",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "slight overlap with hair",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "gold/yellow gradient",
+            "outline": "thin red-orange",
+            "shadow": "soft drop shadow",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "sharp",
+            "corners": "acute",
+            "counters": "closed",
+            "strokeCharacter": "thick-to-thin"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "centered",
+            "tracking": "extra wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "bottom margin",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separate"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Expressive, large-scale script paired with a formal, widely-spaced serif for stability.",
+      "graphicDevices": [
+        "Drop shadows on title text",
+        "Wide letter spacing"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Oversized initial letter",
+          "Wide tracking in subtitle"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Heavy bold weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mistral or similar casual script",
+            "reason": "Captures the upright, thin calligraphic feel of the title",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "Provides the high-contrast serif look for the subtitle",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A studio photograph of three women with 80s-style voluminous hair, wearing white fabric wraps and gold jewelry, reclining on a sandy floor against a beige wall. Warm, soft lighting.",
+        "overlayInstruction": "Add a large, thin, yellow script title at the top with wide spacing and a red drop shadow. Add a small, all-caps black serif subtitle at the bottom with very wide tracking."
+      },
+      "verificationChecks": [
+        "Is the initial 'S' significantly larger than other letters?",
+        "Is the subtitle text widely spaced?",
+        "Is the color palette strictly warm tones and white?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects",
+      "Intensity of the warm lighting",
+      "Script stroke weight"
+    ],
+    "mustRedesign": [
+      "Modern digital filters",
+      "Minimalist sans-serif type",
+      "Cool-toned color grading"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, glamorous skin retouching",
+        "Cohesive warm-toned environment",
+        "Elegant, airy typographic layout"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Cluttered backgrounds",
+        "Tight kerning"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the script title does not obscure faces",
+      "Ensure the sand texture is visible but not distracting",
+      "Verify the gold jewelry has a metallic sheen",
+      "Confirm the subtitle is perfectly centered"
+    ],
+    "reuseFormula": "Warm studio lighting + trio reclining pose + white/gold styling + wide-tracked serif footer."
+  }
+}

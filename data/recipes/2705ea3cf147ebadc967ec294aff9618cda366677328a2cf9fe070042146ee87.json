@@ -1,0 +1,313 @@
+{
+  "id": "2705ea3cf147ebadc967ec294aff9618cda366677328a2cf9fe070042146ee87",
+  "skillId": "2705ea3cf147ebadc967ec294aff9618cda366677328a2cf9fe070042146ee87",
+  "versionId": "2705ea3cf147ebadc967ec294aff9618cda366677328a2cf9fe070042146ee87",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:01:23.139Z",
+  "approvedAt": "2026-08-12T14:01:23.139Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:01:23.139Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "First.jpg",
+    "hash": "2705ea3cf147ebadc967ec294aff9618cda366677328a2cf9fe070042146ee87",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "First",
+    "artist": "David Gates",
+    "artworkUrl": "https://coverartarchive.org/release-group/66b2f9eb-6161-3125-b3a9-cde1817dfee9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/66b2f9eb-6161-3125-b3a9-cde1817dfee9",
+    "releaseGroupId": "66b2f9eb-6161-3125-b3a9-cde1817dfee9",
+    "recordingId": "f2476286-7de4-4a12-8306-c6b7a74a0373",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sail Around The WorldDavid Gates",
+      "song": "Sail Around The World",
+      "performer": "David Gates",
+      "peakPosition": 50,
+      "firstChartDate": "1973-10-20",
+      "lastChartDate": "1973-12-08",
+      "appearances": [
+        {
+          "chartDate": "1973-10-20",
+          "position": 77
+        },
+        {
+          "chartDate": "1973-10-27",
+          "position": 67
+        },
+        {
+          "chartDate": "1973-11-03",
+          "position": 64
+        },
+        {
+          "chartDate": "1973-11-10",
+          "position": 52
+        },
+        {
+          "chartDate": "1973-11-17",
+          "position": 50
+        },
+        {
+          "chartDate": "1973-11-24",
+          "position": 50
+        },
+        {
+          "chartDate": "1973-12-01",
+          "position": 54
+        },
+        {
+          "chartDate": "1973-12-08",
+          "position": 67
+        }
+      ]
+    }
+  },
+  "dedupeText": "soft focus 70s portrait album cover 1970s soft focus pastel blue interlocking typography framed portrait warm lighting warm toned central portrait vs cool toned pastel border thin white frame separating the image from the background interlocking typography overlapping the top edge of the image frame centered vertical alignment of text and subject square framed portrait pastel border interlocking hairline typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soft Focus 70s Portrait Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Custom Lettering"
+      ],
+      "useCases": [
+        "Vintage-style album art",
+        "Soft-focus portraiture",
+        "Retro editorial layouts"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "soft focus",
+        "pastel blue",
+        "interlocking typography",
+        "framed portrait",
+        "warm lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered, square-framed portrait with warm, soft-focus lighting set against a wide pastel border featuring interlocking, thin-stroke custom lettering.",
+      "triggerTerms": [
+        "70s soft focus portrait",
+        "interlocking thin line typography",
+        "pastel blue border frame",
+        "warm sunlit close-up"
+      ],
+      "excludeWhen": [
+        "high-contrast modern photography",
+        "bold sans-serif typography",
+        "dark or neon color palettes"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition featuring a warm-toned, close-up portrait of a smiling man with curly hair, encased in a thin white frame and surrounded by a large, pale blue border. The typography is characterized by thin, white, interlocking circular forms that overlap the top of the image frame.",
+    "coreVisualRelationships": [
+      "Warm-toned central portrait vs. cool-toned pastel border",
+      "Thin white frame separating the image from the background",
+      "Interlocking typography overlapping the top edge of the image frame",
+      "Centered vertical alignment of text and subject"
+    ],
+    "coreInvariants": [
+      "Pale blue outer border",
+      "Soft-focus, warm-lit photography",
+      "Interlocking circular letterforms"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered close-up portrait occupying approximately 60% of the total area.",
+      "visualAnchor": "The subject's eyes and smile, centered within the white frame.",
+      "movementAndEyePath": "From the central face upward to the interlocking title text, then down to the subtitle at the bottom.",
+      "negativeSpace": "Substantial pale blue border providing a calm, airy frame around the central content."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pale pastel blue (background border)",
+      "contrastColorRole": "Warm skin tones and brown hair (central subject)",
+      "accentColorRole": "White (typography and thin frame)",
+      "saturationAndValueRelationship": "Low saturation background with high-value, warm-toned central highlights.",
+      "paletteRestrictions": [
+        "Pastel blue",
+        "Warm amber/brown",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Geometric circular sans-serif",
+      "letterConstructionRules": [
+        "Extremely thin, uniform stroke weight",
+        "Circular geometry for rounded characters",
+        "Interlocking and overlapping glyphs",
+        "Open counters and elongated descenders/ascenders"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters like 'd' and 'g' feature overlapping loops",
+        "The 'S' in the bottom text has a stylized, elongated curve"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-stylized",
+          "anatomy": {
+            "width": "wide",
+            "weight": "hairline",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "round",
+            "counters": "large/circular",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "centered",
+            "tracking": "tight/overlapping",
+            "leading": "tight",
+            "lineBreakPattern": "two-line stack",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "overlaps image frame",
+            "relationshipToImage": "integrated"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "geometric-stylized",
+          "anatomy": {
+            "width": "normal",
+            "weight": "hairline",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "round",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separate"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Consistent stroke weight across two different scales and cases.",
+      "graphicDevices": [
+        "Thin white border frame",
+        "Overlapping text elements"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Hairline stroke weight",
+          "Interlocking loops",
+          "Pastel blue background"
+        ],
+        "avoid": [
+          "Heavy weights",
+          "Serifs",
+          "High-contrast colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic (Extra Light)",
+            "reason": "Geometric circular basis similar to the custom lettering.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Herb Lubalin style lettering",
+            "reason": "The interlocking and overlapping nature is characteristic of this era's design.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus, warm-lit portrait of a man with curly hair, centered within a square white frame, all surrounded by a wide, solid pastel blue border.",
+        "overlayInstruction": "Add custom hairline-weight white lettering at the top center, ensuring the loops of the letters interlock and slightly overlap the top of the white frame. Add a smaller, spaced-out uppercase word in the same hairline style at the bottom center."
+      },
+      "verificationChecks": [
+        "Is the blue border a soft pastel shade?",
+        "Do the top letters interlock and overlap the image frame?",
+        "Is the portrait lighting warm and soft-focus?",
+        "Is the stroke weight of all text consistently hairline?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Border color",
+      "Subject of the portrait",
+      "Degree of text overlap",
+      "Text tracking"
+    ],
+    "mustRedesign": [
+      "Modern high-definition sharpness",
+      "Bold or heavy typography",
+      "Complex background textures"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, diffused lighting",
+        "Balanced negative space in the border",
+        "Clean, geometric interlocking of letters"
+      ],
+      "avoid": [
+        "Cluttered compositions",
+        "Harsh shadows",
+        "Disconnected text elements"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for interlocking letter loops",
+      "Verify the thin white frame is present",
+      "Ensure the blue border is uniform and pastel",
+      "Confirm the portrait has a 1970s soft-focus quality"
+    ],
+    "reuseFormula": "Square framed portrait + pastel border + interlocking hairline typography."
+  }
+}

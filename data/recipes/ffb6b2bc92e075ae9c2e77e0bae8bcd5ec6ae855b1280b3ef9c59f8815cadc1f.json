@@ -1,0 +1,303 @@
+{
+  "id": "ffb6b2bc92e075ae9c2e77e0bae8bcd5ec6ae855b1280b3ef9c59f8815cadc1f",
+  "skillId": "ffb6b2bc92e075ae9c2e77e0bae8bcd5ec6ae855b1280b3ef9c59f8815cadc1f",
+  "versionId": "ffb6b2bc92e075ae9c2e77e0bae8bcd5ec6ae855b1280b3ef9c59f8815cadc1f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:13:33.486Z",
+  "approvedAt": "2026-08-12T05:13:33.486Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:13:33.486Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Naked.jpg",
+    "hash": "ffb6b2bc92e075ae9c2e77e0bae8bcd5ec6ae855b1280b3ef9c59f8815cadc1f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Naked",
+    "artist": "Kissing The Pink",
+    "artworkUrl": "https://coverartarchive.org/release-group/1b1dcd4b-390b-385e-809b-3165805c3409/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1b1dcd4b-390b-385e-809b-3165805c3409",
+    "releaseGroupId": "1b1dcd4b-390b-385e-809b-3165805c3409",
+    "recordingId": "52784c1c-611a-41c9-b082-8a42d19d7c6f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Maybe This DayKissing The Pink",
+      "song": "Maybe This Day",
+      "performer": "Kissing The Pink",
+      "peakPosition": 87,
+      "firstChartDate": "1983-08-06",
+      "lastChartDate": "1983-09-03",
+      "appearances": [
+        {
+          "chartDate": "1983-08-06",
+          "position": 95
+        },
+        {
+          "chartDate": "1983-08-13",
+          "position": 92
+        },
+        {
+          "chartDate": "1983-08-20",
+          "position": 87
+        },
+        {
+          "chartDate": "1983-08-27",
+          "position": 87
+        },
+        {
+          "chartDate": "1983-09-03",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "surrealist clinical collage cover surrealism clinical monochrome vertical sidebar distressed typography uncanny collage stark white vertical sidebar vs dark desaturated imagery geometric sans serif header vs organic distressed vertical text clinical interior setting vs uncanny surreal character elements high contrast foreground figure vs receding perspective of seated figures surreal clinical scene white vertical sidebar geometric header distressed vertical script",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Surrealist Clinical Collage Cover",
+      "category": "Album Art",
+      "medium": [
+        "Mixed Media",
+        "Collage",
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Experimental music packaging",
+        "Surrealist editorial layout",
+        "Avant-garde poster design"
+      ],
+      "retrievalTags": [
+        "surrealism",
+        "clinical",
+        "monochrome",
+        "vertical sidebar",
+        "distressed typography",
+        "uncanny",
+        "collage"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A surrealist composition featuring a clinical or institutional setting with uncanny figures, defined by a stark white vertical sidebar containing contrasting typographic styles.",
+      "triggerTerms": [
+        "surreal clinical collage",
+        "uncanny institutional photography",
+        "vertical white sidebar layout",
+        "distressed vertical lettering"
+      ],
+      "excludeWhen": [
+        "vibrant colorful pop art is requested",
+        "clean corporate layouts are needed",
+        "naturalistic landscape photography is required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A haunting, desaturated scene of children and a nurse in a sterile room, framed by a prominent white vertical margin on the left. The imagery is grainy and surreal, featuring figures in sunglasses and a distorted portrait on the wall, while the sidebar hosts a mix of geometric block lettering and rough, hand-drawn vertical text.",
+    "coreVisualRelationships": [
+      "Stark white vertical sidebar vs. dark desaturated imagery",
+      "Geometric sans-serif header vs. organic distressed vertical text",
+      "Clinical interior setting vs. uncanny, surreal character elements",
+      "High-contrast foreground figure vs. receding perspective of seated figures"
+    ],
+    "coreInvariants": [
+      "A solid white vertical sidebar occupying approximately 25% of the left-hand width."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A large, expressive figure in the bottom right foreground; smaller, repetitive seated figures receding into the background.",
+      "visualAnchor": "The white vertical sidebar on the left acts as the primary structural anchor.",
+      "movementAndEyePath": "Eyes start at the top-left typography, move down the vertical text, then sweep across the foreground figure to the background elements.",
+      "negativeSpace": "Heavy use of negative space within the white sidebar to emphasize the text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted olive and sepia tones for the photographic scene.",
+      "contrastColorRole": "Pure white for the sidebar and highlights.",
+      "accentColorRole": "Deep black for the geometric typography and shadows.",
+      "saturationAndValueRelationship": "Low saturation throughout the image, relying on value contrast between the white sidebar and the dark floor/shadows.",
+      "paletteRestrictions": [
+        "Desaturated greens",
+        "Sepia",
+        "Black",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric sans-serif and rough brush script",
+      "letterConstructionRules": [
+        "Header text uses heavy, wide geometric blocks with horizontal bar motifs.",
+        "Vertical text uses a distressed, chalk-like or dry-brush texture with irregular edges."
+      ],
+      "characterSpecificRedesigns": [
+        "Horizontal bars integrated into the letterforms of the top header.",
+        "Vertical text is rotated 90 degrees counter-clockwise and stacked."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "ultra-wide",
+            "weight": "heavy",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top left sidebar",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in sidebar"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "distressed-script",
+          "anatomy": {
+            "width": "variable",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "variable",
+            "terminals": "frayed",
+            "corners": "irregular",
+            "counters": "open",
+            "strokeCharacter": "textured"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "center",
+            "tracking": "loose",
+            "leading": "normal",
+            "lineBreakPattern": "vertical-stack",
+            "density": "low"
+          },
+          "composition": {
+            "position": "center left sidebar",
+            "scale": "medium",
+            "rotation": "270",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in sidebar"
+          },
+          "treatment": {
+            "fill": "muted blue-grey",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "dry-brush",
+            "distortion": "jittered"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of rigid, clean geometry with organic, textured chaos.",
+      "graphicDevices": [
+        "Horizontal triple-bar motifs",
+        "Vertical layout orientation",
+        "Grainy photographic texture"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical orientation of the secondary text",
+          "Geometric weight of the header",
+          "White sidebar container"
+        ],
+        "avoid": [
+          "Clean, modern scripts",
+          "Serif fonts",
+          "Centering the text over the image"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma or Eurostile Bold Extended",
+            "reason": "Matches the heavy geometric block feel of the header.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Rough dry-brush script",
+            "reason": "Matches the textured, hand-drawn vertical text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a surreal, grainy, desaturated olive-toned photograph of a clinical room with children sitting on stools, including one expressive child in the foreground and a nurse in the background, leaving a blank white vertical strip on the left 25% of the frame.",
+        "overlayInstruction": "In the white sidebar, place a heavy geometric black sans-serif title at the top with horizontal bar accents, and a textured, blue-grey distressed script running vertically down the center of the sidebar."
+      },
+      "verificationChecks": [
+        "Is the left sidebar pure white?",
+        "Is the vertical text textured and rotated?",
+        "Is the main image desaturated and grainy?",
+        "Does the header text feature geometric block shapes?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Width of the sidebar",
+      "Intensity of the image grain",
+      "Color of the vertical script",
+      "Subject matter of the surreal scene"
+    ],
+    "mustRedesign": [
+      "Any specific logos or brand marks",
+      "Identifiable faces of real people",
+      "Specific copyrighted artwork on the wall"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Uncanny, surreal atmosphere",
+        "Stark typographic contrast",
+        "Grainy, analog photographic feel"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Standard centered layouts",
+        "Bright primary colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the white sidebar is not overlapping the main subject.",
+      "Verify the vertical text is legible but distressed.",
+      "Check that the color palette remains muted and institutional.",
+      "Confirm the geometric header is heavy and dominant."
+    ],
+    "reuseFormula": "Surreal Clinical Scene + White Vertical Sidebar + (Geometric Header / Distressed Vertical Script)"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:44:35.482Z"
+}

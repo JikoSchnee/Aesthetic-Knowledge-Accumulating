@@ -1,0 +1,288 @@
+{
+  "id": "d8dbf622ded662c386d0a9561c41a50929e23a13a5383a7e118d69167d09d2eb",
+  "skillId": "d8dbf622ded662c386d0a9561c41a50929e23a13a5383a7e118d69167d09d2eb",
+  "versionId": "d8dbf622ded662c386d0a9561c41a50929e23a13a5383a7e118d69167d09d2eb",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:18:58.359Z",
+  "approvedAt": "2026-08-12T15:18:58.359Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:18:58.359Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Historias de un capricornio.jpg",
+    "hash": "d8dbf622ded662c386d0a9561c41a50929e23a13a5383a7e118d69167d09d2eb",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Historias de un capricornio",
+    "artist": "Arcangel x Sech",
+    "artworkUrl": "https://coverartarchive.org/release-group/6d928eac-f434-482b-af9c-ddb27d077262/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6d928eac-f434-482b-af9c-ddb27d077262",
+    "releaseGroupId": "6d928eac-f434-482b-af9c-ddb27d077262",
+    "recordingId": "a2faa2ce-c826-4818-8769-2227fb7b817f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sigues Con ElArcangel x Sech",
+      "song": "Sigues Con El",
+      "performer": "Arcangel x Sech",
+      "peakPosition": 78,
+      "firstChartDate": "2020-04-25",
+      "lastChartDate": "2020-06-13",
+      "appearances": [
+        {
+          "chartDate": "2020-04-25",
+          "position": 78
+        },
+        {
+          "chartDate": "2020-05-23",
+          "position": 92
+        },
+        {
+          "chartDate": "2020-06-13",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage polaroid birthday snapshot polaroid frame 1980s aesthetic birthday banner handwritten script faded film instant photo subject centered within a square frame text banner arcing over the subjects heads handwritten script balanced against a mechanical date stamp muted warm color palette against a stark white border square photo thick white border arched cutout banner bottom margin script nostalgic polaroid aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Polaroid Birthday Snapshot",
+      "category": "Photography",
+      "medium": [
+        "Instant Film",
+        "Analog Photography",
+        "Mixed Media Lettering"
+      ],
+      "useCases": [
+        "Nostalgic album art",
+        "Vintage memory-themed social media posts",
+        "Retro family event invitations"
+      ],
+      "retrievalTags": [
+        "polaroid frame",
+        "1980s aesthetic",
+        "birthday banner",
+        "handwritten script",
+        "faded film",
+        "instant photo"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A square instant-film aesthetic featuring a faded, low-contrast family portrait with a white border, date stamp, and cursive bottom-margin text.",
+      "triggerTerms": [
+        "vintage polaroid style",
+        "faded 80s family photo",
+        "instant film border with date stamp"
+      ],
+      "excludeWhen": [
+        "high-definition modern photography is required",
+        "clean minimalist digital layouts are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square-format instant photograph with a thick white border, featuring a slightly desaturated and grainy image of a mother and child at a birthday party, complete with a physical cutout banner and handwritten notes on the frame.",
+    "coreVisualRelationships": [
+      "Subject centered within a square frame",
+      "Text banner arcing over the subjects' heads",
+      "Handwritten script balanced against a mechanical date stamp",
+      "Muted, warm color palette against a stark white border"
+    ],
+    "coreInvariants": [
+      "Square image aspect ratio within a rectangular white border",
+      "Visible film grain and low dynamic range",
+      "Date stamp located in the bottom-left corner"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Mother and child are centrally located, occupying the lower two-thirds of the image area.",
+      "visualAnchor": "The child's white birthday hat serves as the central vertical anchor.",
+      "movementAndEyePath": "Eyes move from the subjects upward to the arched banner, then down to the handwritten text on the border.",
+      "negativeSpace": "Significant empty wall space above the banner and around the subjects within the photo area."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted off-white and beige (background and border)",
+      "contrastColorRole": "Teal/Blue (mother's shirt) providing the primary color pop",
+      "accentColorRole": "Multi-colored banner letters (red, brown, blue)",
+      "saturationAndValueRelationship": "Low saturation with raised blacks, typical of aged instant film.",
+      "paletteRestrictions": [
+        "Avoid neon or high-chroma digital colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Varies between blocky cutouts and fluid cursive",
+      "letterConstructionRules": [
+        "Banner letters are irregular, blocky, and appear to be cut from different materials",
+        "Bottom text is a continuous, thin-stroke cursive script with high slant",
+        "Date stamp uses a monospaced, mechanical sans-serif"
+      ],
+      "characterSpecificRedesigns": [
+        "Banner 'A' and 'E' have heavy, uneven strokes",
+        "Cursive 'H' and 'C' have exaggerated, sweeping flourishes"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "decorative-cutout",
+          "anatomy": {
+            "width": "wide",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "irregular",
+            "counters": "small",
+            "strokeCharacter": "textured"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered-arc",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "loose"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "arched",
+            "warp": "arc-up",
+            "overlap": "none",
+            "relationshipToImage": "integrated-prop"
+          },
+          "treatment": {
+            "fill": "multi-color-texture",
+            "outline": "none",
+            "shadow": "subtle-drop",
+            "depth": "flat",
+            "texture": "paper-grain",
+            "distortion": "physical-cutout"
+          }
+        },
+        {
+          "role": "caption",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "light",
+            "contrast": "medium",
+            "xHeight": "low",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "bottom-margin",
+            "scale": "medium",
+            "rotation": "horizontal",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "on-border"
+          },
+          "treatment": {
+            "fill": "dark-grey",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "ink-bleed",
+            "distortion": "handwritten"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between physical, chunky banner letters and elegant, thin-line handwriting.",
+      "graphicDevices": [
+        "Polaroid frame",
+        "Date stamp box",
+        "Film grain overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Arched banner layout",
+          "Bottom-left date stamp position",
+          "Cursive script on the bottom border"
+        ],
+        "avoid": [
+          "Perfectly clean vector lines",
+          "Modern geometric sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rough block cutout",
+            "reason": "Matches the DIY feel of the birthday banner",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Elegant signature script",
+            "reason": "Mimics the handwritten note on the photo border",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a faded, grainy 1980s square photo of a mother holding a child in a party setting, featuring a teal shirt and a white party hat, framed by a thick white polaroid border.",
+        "overlayInstruction": "Add an arched banner of multi-colored cutout letters above the subjects. Place a small mechanical date stamp in the bottom-left corner and a thin, flowing cursive script across the bottom white margin."
+      },
+      "verificationChecks": [
+        "Is the image square within a rectangular border?",
+        "Is the banner arched correctly?",
+        "Is the date stamp in the bottom-left corner?",
+        "Does the bottom text look like handwriting?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject matter of the photo",
+      "Color of the banner letters",
+      "Specific date on the stamp",
+      "Content of the handwritten note"
+    ],
+    "mustRedesign": [
+      "Any modern digital logos",
+      "High-contrast sharp edges",
+      "Perfectly straight, non-arched banner text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic film grain",
+        "Muted 80s color palette",
+        "Physicality in the banner letters"
+      ],
+      "avoid": [
+        "Digital sharpness",
+        "Pure white/black values",
+        "Standard computer fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for square aspect ratio of the inner photo",
+      "Ensure the white border is wider at the bottom",
+      "Verify the 'faded' look of the colors",
+      "Confirm the text is not perfectly aligned"
+    ],
+    "reuseFormula": "Square photo + thick white border + arched cutout banner + bottom-margin script = Nostalgic Polaroid Aesthetic"
+  }
+}

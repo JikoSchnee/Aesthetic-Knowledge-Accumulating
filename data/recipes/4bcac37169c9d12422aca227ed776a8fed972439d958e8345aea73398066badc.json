@@ -1,0 +1,299 @@
+{
+  "id": "4bcac37169c9d12422aca227ed776a8fed972439d958e8345aea73398066badc",
+  "skillId": "4bcac37169c9d12422aca227ed776a8fed972439d958e8345aea73398066badc",
+  "versionId": "4bcac37169c9d12422aca227ed776a8fed972439d958e8345aea73398066badc",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:44:05.249Z",
+  "approvedAt": "2026-08-12T05:44:05.249Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:44:05.249Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Mister Larry Verne.jpg",
+    "hash": "4bcac37169c9d12422aca227ed776a8fed972439d958e8345aea73398066badc",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Mister Larry Verne",
+    "artist": "Larry Verne",
+    "artworkUrl": "https://coverartarchive.org/release-group/b4f2a7f8-153d-4241-9382-7e9b516e33c8/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b4f2a7f8-153d-4241-9382-7e9b516e33c8",
+    "releaseGroupId": "b4f2a7f8-153d-4241-9382-7e9b516e33c8",
+    "recordingId": "a3413fd6-f6e2-40ad-933b-f6421726c068",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Mister LivingstonLarry Verne",
+      "song": "Mister Livingston",
+      "performer": "Larry Verne",
+      "peakPosition": 75,
+      "firstChartDate": "1960-12-17",
+      "lastChartDate": "1960-12-31",
+      "appearances": [
+        {
+          "chartDate": "1960-12-17",
+          "position": 99
+        },
+        {
+          "chartDate": "1960-12-24",
+          "position": 77
+        },
+        {
+          "chartDate": "1960-12-31",
+          "position": 75
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century novelty album montage 1960s kitsch novelty music character collage high contrast photography bold serif typography theatrical costumes large central anchor portrait vs smaller peripheral figures vibrant primary colored text vs deep black background theatrical costume variety unified by consistent lighting overlap of text and character figures to create depth character montage 1 large anchor portrait 5 small costumed cutouts solid black background heavy serif title yellow italic subtitle cyan",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Novelty Album Montage",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting",
+        "Collage"
+      ],
+      "useCases": [
+        "Vinyl record cover art",
+        "Retro comedy show posters",
+        "Theatrical character montages",
+        "Vintage-style promotional flyers"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "kitsch",
+        "novelty music",
+        "character collage",
+        "high-contrast photography",
+        "bold serif typography",
+        "theatrical costumes"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A multi-character montage featuring a central large portrait surrounded by smaller figures in diverse historical costumes against a solid black background.",
+      "triggerTerms": [
+        "1960s novelty album cover style",
+        "character costume montage",
+        "bold yellow serif title on black",
+        "theatrical character collage"
+      ],
+      "excludeWhen": [
+        "minimalist modern layouts",
+        "naturalistic outdoor lighting",
+        "abstract compositions"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dense, high-contrast collage of a single male performer portraying multiple characters. A large, warm-toned headshot anchors the bottom center, while smaller full-body figures in costumes (Roman, Explorer, Cowboy, etc.) are distributed across a pitch-black field. Bold, colorful typography overlaps the imagery, creating a vibrant, kitschy 1960s aesthetic.",
+    "coreVisualRelationships": [
+      "Large central anchor portrait vs. smaller peripheral figures",
+      "Vibrant primary-colored text vs. deep black background",
+      "Theatrical costume variety unified by consistent lighting",
+      "Overlap of text and character figures to create depth"
+    ],
+    "coreInvariants": [
+      "Solid black background",
+      "High-contrast, directional studio lighting",
+      "Multi-role character performance theme",
+      "Bold, heavy-weight serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large headshot at bottom center (approx. 40% height); five smaller full-body figures arranged in a semi-circle above and around it.",
+      "visualAnchor": "The large, smiling face at the bottom center with warm, golden-hour studio lighting.",
+      "movementAndEyePath": "Starts at the large yellow title at the top, moves clockwise through the costumed figures, and settles on the large central portrait.",
+      "negativeSpace": "Deep black negative space fills the gaps between figures, emphasizing the cutout effect."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background)",
+      "contrastColorRole": "Yellow (primary title and skin tones)",
+      "accentColorRole": "Cyan and Magenta (secondary text and costume details)",
+      "saturationAndValueRelationship": "High saturation in text and costumes against a zero-value black background.",
+      "paletteRestrictions": [
+        "Pure black background",
+        "Primary yellow",
+        "Cyan",
+        "Magenta"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy, high-contrast transitional serif",
+      "letterConstructionRules": [
+        "Extremely thick vertical strokes",
+        "Thin horizontal hairlines",
+        "Sharp, bracketed serifs",
+        "Large x-height for readability against black"
+      ],
+      "characterSpecificRedesigns": [
+        "Dot on 'i' is often a perfect circle",
+        "Terminal of 'r' is a heavy teardrop shape"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Black",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Teardrop",
+            "corners": "Sharp",
+            "counters": "Small",
+            "strokeCharacter": "Modulated"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlaps background and top of figures",
+            "relationshipToImage": "Foreground"
+          },
+          "treatment": {
+            "fill": "Solid yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Slab Serif / Heavy Italic",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Extra Bold",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Blunt",
+            "corners": "Slightly rounded",
+            "counters": "Tight",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Title case",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Top right",
+            "scale": "Medium",
+            "rotation": "Italicized",
+            "warp": "None",
+            "overlap": "Floating in negative space",
+            "relationshipToImage": "Foreground"
+          },
+          "treatment": {
+            "fill": "Cyan",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for the main title paired with a heavy, slanted sans or slab for the secondary name.",
+      "graphicDevices": [
+        "Cutout photography edges",
+        "Small identifying captions next to each character"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow/Cyan/Magenta color scheme",
+          "High-contrast serif style",
+          "Black background"
+        ],
+        "avoid": [
+          "Modernist sans-serifs",
+          "Pastel colors",
+          "Gradient backgrounds"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Century Schoolbook Bold",
+            "reason": "Captures the heavy serif weight and mid-century editorial feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Cooper Black",
+            "reason": "Alternative for a more playful, novelty-focused weight.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a collage of one man in five different historical costumes (Roman soldier, explorer, etc.) scattered across a solid black background, with one large close-up portrait of the same man at the bottom center.",
+        "overlayInstruction": "Apply a large yellow serif title at the top and a cyan slanted subtitle on the right. Add small identifying labels in magenta and yellow next to each costumed figure."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Is the main title in a heavy yellow serif?",
+        "Is there a large central portrait at the bottom?",
+        "Are the costumed figures clearly separated from the background?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of costumed characters",
+      "Specific costume themes",
+      "Primary title color",
+      "Scale of the central portrait"
+    ],
+    "mustRedesign": [
+      "Specific brand logos",
+      "Exact facial features of the original performer",
+      "Specific historical names used in captions"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp cutout edges on figures",
+        "High-contrast studio lighting",
+        "Vibrant, saturated text colors"
+      ],
+      "avoid": [
+        "Soft focus",
+        "Muted or earthy color palettes",
+        "Overlapping figures that obscure faces"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for solid black background without noise",
+      "Ensure text is legible and high-contrast",
+      "Verify the hierarchy between the large portrait and small figures",
+      "Confirm the 1960s novelty aesthetic is maintained"
+    ],
+    "reuseFormula": "Character Montage = (1 Large Anchor Portrait + 5 Small Costumed Cutouts) / Solid Black Background + (Heavy Serif Title [Yellow] + Italic Subtitle [Cyan])"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:12.997Z"
+}

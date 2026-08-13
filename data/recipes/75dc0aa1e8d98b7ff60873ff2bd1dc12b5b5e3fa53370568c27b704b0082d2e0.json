@@ -1,0 +1,243 @@
+{
+  "id": "75dc0aa1e8d98b7ff60873ff2bd1dc12b5b5e3fa53370568c27b704b0082d2e0",
+  "skillId": "75dc0aa1e8d98b7ff60873ff2bd1dc12b5b5e3fa53370568c27b704b0082d2e0",
+  "versionId": "75dc0aa1e8d98b7ff60873ff2bd1dc12b5b5e3fa53370568c27b704b0082d2e0",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T11:48:18.722Z",
+  "approvedAt": "2026-08-12T11:48:18.722Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T11:48:18.722Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Pure Love.jpg",
+    "hash": "75dc0aa1e8d98b7ff60873ff2bd1dc12b5b5e3fa53370568c27b704b0082d2e0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Pure Love",
+    "artist": "Ronnie Milsap",
+    "artworkUrl": "https://coverartarchive.org/release-group/acd1c7fd-911e-35d4-9563-9d8a7079afe0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/acd1c7fd-911e-35d4-9563-9d8a7079afe0",
+    "releaseGroupId": "acd1c7fd-911e-35d4-9563-9d8a7079afe0",
+    "recordingId": "b22c87a5-b70a-44b7-b594-3f7aab542bb0",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Please Don't Tell Me How The Story EndsRonnie Milsap",
+      "song": "Please Don't Tell Me How The Story Ends",
+      "performer": "Ronnie Milsap",
+      "peakPosition": 95,
+      "firstChartDate": "1974-09-14",
+      "lastChartDate": "1974-09-21",
+      "appearances": [
+        {
+          "chartDate": "1974-09-14",
+          "position": 95
+        },
+        {
+          "chartDate": "1974-09-21",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro psychedelic country album cover 1970s bubble lettering soft focus portrait warm lighting psychedelic typography country music aesthetic typography is stacked in the upper left balancing the subject s head on the right warm orange and yellow light on the face contrasts with the deep black background the rounded organic shapes of the letters echo the soft blurred edges of the photographic portrait small metadata text is tucked into the top right corner for professional balance combine soft focus portrait warm earth tones bubble typography high contrast outlines to recreate this 70s aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Psychedelic Country Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Vintage Poster Design",
+        "Retro Branding",
+        "Music Promotion"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "bubble lettering",
+        "soft focus portrait",
+        "warm lighting",
+        "psychedelic typography",
+        "country music aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Use this skill for creating 1970s-style album covers featuring soft-focus portraits with high-contrast, bubble-style psychedelic typography.",
+      "triggerTerms": [
+        "70s album cover style",
+        "bubble font music poster",
+        "warm glow portrait with retro text"
+      ],
+      "excludeWhen": [
+        "modern minimalist requests",
+        "high-definition sharp photography",
+        "sans-serif corporate layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A warm, soft-focus portrait of a man in sunglasses set against a dark background, featuring prominent, rounded bubble-style typography in the upper left quadrant.",
+    "coreVisualRelationships": [
+      "Typography is stacked in the upper left, balancing the subject's head on the right.",
+      "Warm orange and yellow light on the face contrasts with the deep black background.",
+      "The rounded, organic shapes of the letters echo the soft, blurred edges of the photographic portrait.",
+      "Small metadata text is tucked into the top right corner for professional balance."
+    ],
+    "coreInvariants": [
+      "High-contrast bubble lettering with thick outlines and internal highlights."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large, close-up portrait occupying the right two-thirds of the frame, angled slightly upward.",
+      "visualAnchor": "The bright, warm glow on the subject's face and the large yellow title text.",
+      "movementAndEyePath": "Starts at the bold title in the top left, moves down to the tracklist, then sweeps right to the subject's face.",
+      "negativeSpace": "Deep black negative space in the upper left and bottom right provides breathing room for text and creates a moody atmosphere."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background for high contrast.",
+      "contrastColorRole": "Warm amber and golden yellow for the subject's skin and primary title text.",
+      "accentColorRole": "Pale blue and white highlights within the secondary typography.",
+      "saturationAndValueRelationship": "High saturation in the warm tones against a zero-value black background.",
+      "paletteRestrictions": [
+        "Avoid cool greens or purples; stick to a warm 1970s earth-tone palette."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Ultra-bold, rounded sans-serif with extreme weight.",
+      "letterConstructionRules": [
+        "Letters must have a 'bubble' appearance with no sharp corners.",
+        "Primary title features a thick black outline and a secondary white inner glow.",
+        "Secondary title uses a 'pill' shape for each letter with a blue-to-white gradient fill."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'O' and 'U' characters are nearly circular.",
+        "The 'E' has extremely short, rounded horizontal bars."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "psychedelic bubble",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "fully rounded",
+            "counters": "minimal",
+            "strokeCharacter": "monolinear but bulbous"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "upper left",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "layered over dark background"
+          },
+          "treatment": {
+            "fill": "golden yellow",
+            "outline": "thick black",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "organic swelling"
+          }
+        }
+      ],
+      "pairingStrategy": "Pair bold, illustrative display type with a small, clean sans-serif for metadata and tracklists.",
+      "graphicDevices": [
+        "Thick outlines",
+        "Internal highlights",
+        "Soft-focus lens flare"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Bubble shape",
+          "Warm color palette",
+          "Soft-focus photography"
+        ],
+        "avoid": [
+          "Sharp geometric fonts",
+          "Modern digital filters",
+          "White backgrounds"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Blippo or Cooper Black",
+            "reason": "Provides the necessary 70s weight and roundness.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Pinto Flare",
+            "reason": "Captures the psychedelic display quality.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus, warm-toned portrait of a man with sunglasses against a dark, moody background with subtle light leaks.",
+        "overlayInstruction": "Apply large, custom-drawn bubble lettering in the upper left corner with thick outlines and a golden-yellow fill."
+      },
+      "verificationChecks": [
+        "Is the typography sufficiently rounded and 'bubbly'?",
+        "Does the lighting on the subject feel warm and nostalgic?",
+        "Is the text placement balanced against the subject's face?",
+        "Are the outlines on the display text thick and high-contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the warm glow",
+      "Thickness of the text outlines",
+      "Subject's head tilt angle"
+    ],
+    "mustRedesign": [
+      "Avoid using modern digital sans-serifs for the main title.",
+      "Ensure the portrait is not overly sharp or high-definition."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film grain and soft focus.",
+        "Hand-drawn feel to the bubble lettering."
+      ],
+      "avoid": [
+        "Clean vector lines",
+        "Cold color temperatures",
+        "Modern flat design"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 1970s color accuracy (yellows/oranges).",
+      "Verify the 'bubble' font has no sharp edges.",
+      "Ensure the background is deep black to make the text pop.",
+      "Confirm the portrait has a soft, hazy quality."
+    ],
+    "reuseFormula": "Combine [Soft Focus Portrait] + [Warm Earth Tones] + [Bubble Typography] + [High Contrast Outlines] to recreate this 70s aesthetic."
+  }
+}

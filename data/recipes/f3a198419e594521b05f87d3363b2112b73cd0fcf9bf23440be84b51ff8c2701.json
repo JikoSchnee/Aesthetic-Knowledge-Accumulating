@@ -1,0 +1,282 @@
+{
+  "id": "f3a198419e594521b05f87d3363b2112b73cd0fcf9bf23440be84b51ff8c2701",
+  "skillId": "f3a198419e594521b05f87d3363b2112b73cd0fcf9bf23440be84b51ff8c2701",
+  "versionId": "f3a198419e594521b05f87d3363b2112b73cd0fcf9bf23440be84b51ff8c2701",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:47:11.254Z",
+  "approvedAt": "2026-08-13T00:47:11.254Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:47:11.254Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Blush.jpg",
+    "hash": "f3a198419e594521b05f87d3363b2112b73cd0fcf9bf23440be84b51ff8c2701",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Blush",
+    "artist": "Lani Hall",
+    "artworkUrl": "https://coverartarchive.org/release-group/cd82f9b3-6c9c-4997-bf37-64e836eacf31/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/cd82f9b3-6c9c-4997-bf37-64e836eacf31",
+    "releaseGroupId": "cd82f9b3-6c9c-4997-bf37-64e836eacf31",
+    "recordingId": "2a3e2b95-5ffc-4761-9d72-064d1a4c58e3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Where's Your Angel?Lani Hall",
+      "song": "Where's Your Angel?",
+      "performer": "Lani Hall",
+      "peakPosition": 88,
+      "firstChartDate": "1981-03-21",
+      "lastChartDate": "1981-04-04",
+      "appearances": [
+        {
+          "chartDate": "1981-03-21",
+          "position": 90
+        },
+        {
+          "chartDate": "1981-03-28",
+          "position": 88
+        },
+        {
+          "chartDate": "1981-04-04",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "vibrant pink studio portrait layout 80s aesthetic pink gradient background high contrast serif crouching portrait minimalist typography subject centered vertically and horizontally title text spanning the full width of the top margin color harmony between the pink background and the subject s neutral clothing high contrast between white typography and saturated background saturated gradient centered subject top edge high contrast serif 80s editorial layout",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vibrant Pink Studio Portrait Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Layout"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Editorial Magazine Spread",
+        "Promotional Music Poster"
+      ],
+      "retrievalTags": [
+        "80s aesthetic",
+        "pink gradient background",
+        "high-contrast serif",
+        "crouching portrait",
+        "minimalist typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered studio portrait against a saturated pink gradient with high-contrast serif display text spanning the top edge.",
+      "triggerTerms": [
+        "pink gradient studio portrait",
+        "80s pop album cover style",
+        "centered crouching figure with top-aligned serif text"
+      ],
+      "excludeWhen": [
+        "natural outdoor lighting is required",
+        "busy or textured backgrounds are needed",
+        "sans-serif modernism is the primary goal"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, full-body crouching female figure with voluminous dark hair, set against a vibrant magenta-to-light-pink vertical gradient. The composition is anchored by a large, white, high-contrast serif title at the top and a smaller italicized subtitle on the left, accented by a horizontal rule.",
+    "coreVisualRelationships": [
+      "Subject centered vertically and horizontally",
+      "Title text spanning the full width of the top margin",
+      "Color harmony between the pink background and the subject's neutral clothing",
+      "High contrast between white typography and saturated background"
+    ],
+    "coreInvariants": [
+      "Vibrant pink gradient background",
+      "High-contrast serif display font",
+      "Crouching subject pose",
+      "Minimalist graphic accents like thin horizontal lines"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered, occupying the middle 70% of the vertical frame in a crouching pose.",
+      "visualAnchor": "The subject's face and the large white title text at the top.",
+      "movementAndEyePath": "Top-down flow from the bold title to the subject's face, then following the limbs down to the base.",
+      "negativeSpace": "Ample negative space on the left and right sides of the subject, filled with a smooth pink gradient."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Magenta/Pink (Background)",
+      "contrastColorRole": "White (Primary Typography)",
+      "accentColorRole": "Black (Subject's pants and hair)",
+      "saturationAndValueRelationship": "High saturation in the background with a value gradient from dark at the top to light at the bottom.",
+      "paletteRestrictions": [
+        "Monochromatic pink background",
+        "Neutral subject tones (black, white, grey)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Modern Serif",
+      "letterConstructionRules": [
+        "High stroke contrast between thick and thin lines",
+        "Sharp, horizontal serifs",
+        "Tall x-height for the display text"
+      ],
+      "characterSpecificRedesigns": [
+        "Tight kerning to allow the text to span the full width"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "Condensed to Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified/Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top edge",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating above subject"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Italic Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Rounded",
+            "corners": "Soft",
+            "counters": "Closed",
+            "strokeCharacter": "Cursive-leaning"
+          },
+          "typesetting": {
+            "case": "Lowercase",
+            "alignment": "Left",
+            "tracking": "Normal",
+            "leading": "Normal",
+            "lineBreakPattern": "Single word",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Middle left",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Adjacent to subject"
+          },
+          "treatment": {
+            "fill": "Dark Grey/Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast bold uppercase serif paired with a delicate lowercase italic serif.",
+      "graphicDevices": [
+        "Thin horizontal rule under the subtitle"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast serif style",
+          "Top-aligned placement"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Centered subtitles"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Didot or Bodoni",
+            "reason": "Matches the high-contrast vertical stress and sharp serifs of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Baskerville Italic",
+            "reason": "Provides a classic, elegant feel for the secondary lowercase text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a woman with voluminous 80s hair in a crouching pose, wearing a neutral grey top and black pants, against a vibrant magenta-to-light-pink vertical gradient background.",
+        "overlayInstruction": "Add a large uppercase title in a white Didot-style font across the top edge. Add a small lowercase italicized subtitle on the middle-left side with a thin horizontal line underneath it."
+      },
+      "verificationChecks": [
+        "Is the background a smooth pink gradient?",
+        "Is the title text high-contrast serif and white?",
+        "Is the subject centered and crouching?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue (e.g., blue or teal instead of pink)",
+      "Subject's hair style",
+      "Weight of the display font"
+    ],
+    "mustRedesign": [
+      "Avoid using specific celebrity likenesses",
+      "Do not replicate existing brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typography",
+        "Smooth color transitions in the gradient",
+        "Balanced negative space"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast text-to-background ratios",
+        "Pixelated edges on the subject"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for text legibility against the gradient",
+      "Ensure the subject's pose feels natural and centered",
+      "Verify the horizontal rule is perfectly straight",
+      "Confirm the 80s editorial aesthetic is maintained"
+    ],
+    "reuseFormula": "Saturated Gradient + Centered Subject + Top-Edge High-Contrast Serif = 80s Editorial Layout"
+  }
+}

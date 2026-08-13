@@ -1,0 +1,283 @@
+{
+  "id": "16237544d80b989bb12cc0cd69c11825316022473f4accf46d0cc7b70b0656f3",
+  "skillId": "16237544d80b989bb12cc0cd69c11825316022473f4accf46d0cc7b70b0656f3",
+  "versionId": "16237544d80b989bb12cc0cd69c11825316022473f4accf46d0cc7b70b0656f3",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:15:34.587Z",
+  "approvedAt": "2026-08-12T12:15:34.587Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:15:34.587Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Beach Music Classics and Love Songs.jpg",
+    "hash": "16237544d80b989bb12cc0cd69c11825316022473f4accf46d0cc7b70b0656f3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Beach Music Classics and Love Songs",
+    "artist": "O.C. Smith",
+    "artworkUrl": "https://coverartarchive.org/release-group/04fe92da-e0d4-4a91-8975-280a5be59bf4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/04fe92da-e0d4-4a91-8975-280a5be59bf4",
+    "releaseGroupId": "04fe92da-e0d4-4a91-8975-280a5be59bf4",
+    "recordingId": "acdb1212-1f8c-41ad-b961-090ce3992ad3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Primrose LaneO.C. Smith",
+      "song": "Primrose Lane",
+      "performer": "O.C. Smith",
+      "peakPosition": 86,
+      "firstChartDate": "1970-05-30",
+      "lastChartDate": "1970-06-13",
+      "appearances": [
+        {
+          "chartDate": "1970-05-30",
+          "position": 99
+        },
+        {
+          "chartDate": "1970-06-06",
+          "position": 86
+        },
+        {
+          "chartDate": "1970-06-13",
+          "position": 86
+        }
+      ]
+    }
+  },
+  "dedupeText": "soulful portrait album cover monochrome portrait script typography sepia tone mid century soul leather jacket soft focus background subject occupies the left two thirds of the frame top aligned display text spans the horizontal width right aligned secondary text balances the subject s visual weight soft focus background creates depth behind the sharp foreground subject artist portrait top script right aligned italic serif sepia filter",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soulful Portrait Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Digital Layout"
+      ],
+      "useCases": [
+        "Classic Soul Album Art",
+        "Retrospective Music Compilation",
+        "Artist Portraiture"
+      ],
+      "retrievalTags": [
+        "monochrome portrait",
+        "script typography",
+        "sepia tone",
+        "mid-century soul",
+        "leather jacket",
+        "soft focus background"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered monochrome portrait of a male artist in a leather jacket, framed by elegant script typography at the top and right-aligned serif text.",
+      "triggerTerms": [
+        "classic soul album cover style",
+        "monochrome artist portrait with script",
+        "sepia toned music compilation layout"
+      ],
+      "excludeWhen": [
+        "vibrant multi-color designs",
+        "modern minimalist sans-serif layouts",
+        "abstract or non-representational art"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast, sepia-toned photographic portrait of a man with an afro and glasses, wearing a leather jacket, positioned on the left, with large script text across the top and smaller italicized text stacked on the right.",
+    "coreVisualRelationships": [
+      "Subject occupies the left two-thirds of the frame",
+      "Top-aligned display text spans the horizontal width",
+      "Right-aligned secondary text balances the subject's visual weight",
+      "Soft-focus background creates depth behind the sharp foreground subject"
+    ],
+    "coreInvariants": [
+      "Monochromatic sepia or warm-grey color palette",
+      "High-contrast lighting on the subject's face",
+      "Combination of large script and smaller italicized serif fonts"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium close-up portrait, slightly off-center to the left, filling the vertical height from waist to head.",
+      "visualAnchor": "The subject's face and glasses, providing the primary focal point.",
+      "movementAndEyePath": "Starts at the large top text, moves down to the subject's face, then follows the right-aligned text block downward.",
+      "negativeSpace": "Soft, blurred background on the right side provides breathing room for the secondary text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm grey/sepia mid-tones in the photograph",
+      "contrastColorRole": "Deep charcoal/black for typography and shadows",
+      "accentColorRole": "Bright highlights on the leather jacket and face",
+      "saturationAndValueRelationship": "Low saturation with high value contrast between shadows and highlights.",
+      "paletteRestrictions": [
+        "Monochrome only",
+        "No primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Elegant script and transitional serif",
+      "letterConstructionRules": [
+        "Display text uses a fluid, connected script with high stroke contrast",
+        "Secondary text uses a traditional italicized serif with moderate weight"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "flourished",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaying background"
+          },
+          "treatment": {
+            "fill": "solid dark brown",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "bracketed",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "italic"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "multi-line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "middle-right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaying background"
+          },
+          "treatment": {
+            "fill": "solid dark brown",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Script for the artist name paired with an italic serif for the album title to evoke a classic, sophisticated feel.",
+      "graphicDevices": [
+        "None"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Script style for the top line",
+          "Italicized serif for the right block"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Bold blocky fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mistral or Brush Script",
+            "reason": "Captures the fluid, calligraphic feel of the display text",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Times New Roman Italic or Garamond Italic",
+            "reason": "Matches the traditional, elegant serif structure of the subtitle",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a sepia-toned, high-contrast photograph of a man with an afro and glasses wearing a leather jacket, positioned on the left side of a square frame with a blurred, light-colored background on the right.",
+        "overlayInstruction": "Add the artist name in a large, dark brown script font across the top. Add the album title in a medium-sized, dark brown italicized serif font, right-aligned in the middle-right section of the frame."
+      },
+      "verificationChecks": [
+        "Is the image monochromatic/sepia?",
+        "Is the script text at the top larger than the serif text?",
+        "Is the secondary text right-aligned?",
+        "Is the subject clearly positioned on the left?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the sepia tone",
+      "Subject's expression",
+      "Specific script font choice"
+    ],
+    "mustRedesign": [
+      "Any modern digital artifacts",
+      "Vibrant colors",
+      "Sans-serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clear photographic grain",
+        "Elegant typographic hierarchy",
+        "Balanced composition between subject and text"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast imagery",
+        "Overly decorative borders"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for correct sepia tonal range",
+      "Verify text alignment (top-center and middle-right)",
+      "Ensure the subject's face is the sharpest point of the image",
+      "Confirm the script and serif fonts do not clash"
+    ],
+    "reuseFormula": "Artist Portrait + Top Script + Right-Aligned Italic Serif + Sepia Filter"
+  }
+}

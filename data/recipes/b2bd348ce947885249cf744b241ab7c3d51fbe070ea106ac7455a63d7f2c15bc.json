@@ -1,0 +1,239 @@
+{
+  "id": "b2bd348ce947885249cf744b241ab7c3d51fbe070ea106ac7455a63d7f2c15bc",
+  "skillId": "b2bd348ce947885249cf744b241ab7c3d51fbe070ea106ac7455a63d7f2c15bc",
+  "versionId": "b2bd348ce947885249cf744b241ab7c3d51fbe070ea106ac7455a63d7f2c15bc",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:15:04.503Z",
+  "approvedAt": "2026-08-13T05:15:04.503Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:15:04.503Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Shakespeare Stole My Baby.jpg",
+    "hash": "b2bd348ce947885249cf744b241ab7c3d51fbe070ea106ac7455a63d7f2c15bc",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Shakespeare Stole My Baby",
+    "artist": "Eye To Eye",
+    "artworkUrl": "https://coverartarchive.org/release-group/589a34de-0464-45c9-a205-bb40fabc7e09/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/589a34de-0464-45c9-a205-bb40fabc7e09",
+    "releaseGroupId": "589a34de-0464-45c9-a205-bb40fabc7e09",
+    "recordingId": "96e1305d-7b1e-4c3c-9995-fd76f0ce704e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "LuckyEye To Eye",
+      "song": "Lucky",
+      "performer": "Eye To Eye",
+      "peakPosition": 88,
+      "firstChartDate": "1983-10-29",
+      "lastChartDate": "1983-11-05",
+      "appearances": [
+        {
+          "chartDate": "1983-10-29",
+          "position": 90
+        },
+        {
+          "chartDate": "1983-11-05",
+          "position": 88
+        }
+      ]
+    }
+  },
+  "dedupeText": "torn paper collage graphic torn paper 80s graphic design geometric abstraction layered textures bold sans serif vertical torn edges create a rhythmic division of the canvas heavy blue typography overlaps the salmon and black background zones horizontal grey bars provide a geometric counterpoint to vertical rips high contrast between the organic paper edges and rigid font geometry vertical torn strips ultra bold stacked sans geometric accents",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Torn Paper Collage Graphic",
+      "category": "Graphic Design",
+      "medium": [
+        "Mixed Media",
+        "Collage",
+        "Digital Illustration"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Poster Design",
+        "Editorial Layout"
+      ],
+      "retrievalTags": [
+        "torn paper",
+        "80s graphic design",
+        "geometric abstraction",
+        "layered textures",
+        "bold sans-serif"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A layered collage style featuring vertical torn paper edges, high-contrast color blocking, and heavy geometric typography.",
+      "triggerTerms": [
+        "torn paper edge collage",
+        "vertical paper rip texture",
+        "80s geometric layout"
+      ],
+      "excludeWhen": [
+        "smooth gradients are required",
+        "organic watercolor styles",
+        "minimalist white space"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A multi-layered composition defined by vertical strips of torn paper with visible white deckle edges, dividing the frame into distinct color zones of salmon, grey, and black, topped with heavy block lettering.",
+    "coreVisualRelationships": [
+      "Vertical torn edges create a rhythmic division of the canvas",
+      "Heavy blue typography overlaps the salmon and black background zones",
+      "Horizontal grey bars provide a geometric counterpoint to vertical rips",
+      "High contrast between the organic paper edges and rigid font geometry"
+    ],
+    "coreInvariants": [
+      "Visible white fibrous texture along the torn paper edges"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large display text occupies the top right quadrant; vertical paper strips dominate the left third.",
+      "visualAnchor": "The large, blue, stacked block text in the upper right.",
+      "movementAndEyePath": "Eyes follow the vertical rips downward, then move right to the bold text and horizontal bars.",
+      "negativeSpace": "The central salmon-colored paper strip acts as the primary field for secondary information."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Salmon pink background strip",
+      "contrastColorRole": "Deep black right-hand panel",
+      "accentColorRole": "Muted sky blue for primary typography",
+      "saturationAndValueRelationship": "Desaturated mid-tones (salmon, grey, blue) contrasted against a high-value black.",
+      "paletteRestrictions": [
+        "Salmon",
+        "Charcoal Grey",
+        "Matte Black",
+        "Sky Blue"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Ultra-heavy weight with minimal counters",
+        "Square-ended terminals",
+        "Uniform stroke width"
+      ],
+      "characterSpecificRedesigns": [
+        "Extremely tight apertures in 'E' and 'A'",
+        "Horizontal bars in 'E' are nearly touching"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "minuscule",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "crosses background boundary",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "solid blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Pair ultra-bold display headers with condensed, high-contrast serif sub-captions.",
+      "graphicDevices": [
+        "Horizontal rule lines",
+        "Torn paper texture overlays",
+        "Color blocking"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Weight of the display font",
+          "Torn edge texture"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Matches the heavy, condensed, and blocky nature of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Antique Olive Nord",
+            "reason": "Captures the 80s geometric weight and character.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a collage of vertical torn paper strips in salmon, grey, and black. Ensure the torn edges show white fibrous texture. Add horizontal grey bars in the lower right.",
+        "overlayInstruction": "Typeset the primary text in an ultra-bold blue geometric sans-serif, stacked in the top right. Add secondary text in a condensed serif font above the horizontal bars."
+      },
+      "verificationChecks": [
+        "Are the paper edges visibly torn with white texture?",
+        "Is the blue text ultra-heavy and stacked?",
+        "Is the color palette limited to salmon, grey, black, and blue?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Width of the torn paper strips",
+      "Color of the primary display text",
+      "Number of horizontal accent bars"
+    ],
+    "mustRedesign": [
+      "Avoid using exact brand logos",
+      "Do not replicate specific artist names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile torn paper texture",
+        "Strong vertical composition",
+        "Bold typographic presence"
+      ],
+      "avoid": [
+        "Clean, straight digital cuts",
+        "Thin, airy typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for white deckle edges on all rips",
+      "Verify text overlaps the color boundary",
+      "Ensure horizontal bars are perfectly straight",
+      "Confirm the blue is desaturated"
+    ],
+    "reuseFormula": "Vertical Torn Strips + Ultra-Bold Stacked Sans + Geometric Accents"
+  }
+}

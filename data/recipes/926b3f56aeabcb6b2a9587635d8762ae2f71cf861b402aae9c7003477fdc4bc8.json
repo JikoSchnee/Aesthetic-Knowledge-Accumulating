@@ -1,0 +1,275 @@
+{
+  "id": "926b3f56aeabcb6b2a9587635d8762ae2f71cf861b402aae9c7003477fdc4bc8",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:33:55.857Z",
+  "approvedAt": "2026-08-11T09:33:55.857Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:33:55.857Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Blind to Reason.jpg",
+    "hash": "926b3f56aeabcb6b2a9587635d8762ae2f71cf861b402aae9c7003477fdc4bc8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Blind to Reason",
+    "artist": "Grayson Hugh",
+    "artworkUrl": "https://coverartarchive.org/release-group/bf82dc4c-d3bc-3e9c-9e4e-a6774122e1f5/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/bf82dc4c-d3bc-3e9c-9e4e-a6774122e1f5",
+    "releaseGroupId": "bf82dc4c-d3bc-3e9c-9e4e-a6774122e1f5",
+    "recordingId": "8ff8f345-b333-4a78-9e4e-218ca207344d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Bring It All BackGrayson Hugh",
+      "song": "Bring It All Back",
+      "performer": "Grayson Hugh",
+      "peakPosition": 87,
+      "firstChartDate": "1989-10-28",
+      "lastChartDate": "1989-11-18",
+      "appearances": [
+        {
+          "chartDate": "1989-10-28",
+          "position": 99
+        },
+        {
+          "chartDate": "1989-11-04",
+          "position": 93
+        },
+        {
+          "chartDate": "1989-11-11",
+          "position": 87
+        },
+        {
+          "chartDate": "1989-11-18",
+          "position": 89
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast noir portrait cover high contrast chiaroscuro noir monochrome portrait minimalist typography 80s soul aesthetic dramatic lighting extreme value contrast between skin and background diagonal tension between the eye and the jawline delicate serif typography against heavy photographic shadows high contrast chiaroscuro portrait minimalist two tier typography serif wide sans muted primary metallic color accents",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Noir Portrait Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Cover",
+        "Editorial Portraiture",
+        "Poster Design"
+      ],
+      "retrievalTags": [
+        "high contrast",
+        "chiaroscuro",
+        "noir",
+        "monochrome portrait",
+        "minimalist typography",
+        "80s soul aesthetic",
+        "dramatic lighting"
+      ]
+    },
+    "visualDefinition": "A stark, high-contrast black and white portrait of a man with dark hair and a mustache, where the highlights are blown out to pure white and shadows are deep black. The face is angled, creating a dramatic diagonal composition with typography layered across the upper third.",
+    "coreVisualRelationships": [
+      "Extreme value contrast between skin and background",
+      "Diagonal tension between the eye and the jawline",
+      "Delicate serif typography against heavy photographic shadows"
+    ],
+    "coreInvariants": [
+      "Blown-out highlights on the face",
+      "Deep, crushed blacks in the hair and background",
+      "Horizontal text placement in the upper left quadrant"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Close-up portrait occupying the right two-thirds of the frame, angled downward.",
+      "visualAnchor": "The dark, detailed eye and eyebrow in the upper right.",
+      "movementAndEyePath": "Starts at the eye, follows the bridge of the nose down to the mustache, then moves up to the typography in the top left.",
+      "negativeSpace": "Heavy black negative space on the left side and bottom edge."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure black for background and shadows",
+      "contrastColorRole": "Pure white for skin highlights",
+      "accentColorRole": "Muted magenta and gold for typography",
+      "saturationAndValueRelationship": "Extreme value range with zero mid-tones in the skin; low saturation in accents.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Muted Magenta",
+        "Pale Gold"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Serif and Sans-Serif",
+      "letterConstructionRules": [
+        "Display text uses a high-contrast serif with thin hairlines",
+        "Subtitle text uses a wide-tracked, all-caps geometric sans-serif"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "All-caps",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "None",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top left",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Partially over face",
+            "relationshipToImage": "Layered over the transition between shadow and highlight"
+          },
+          "treatment": {
+            "fill": "Muted Magenta",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Circular",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "All-caps",
+            "alignment": "Left",
+            "tracking": "Very wide",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Sparse"
+          },
+          "composition": {
+            "position": "Directly below display text",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Over shadow",
+            "relationshipToImage": "Anchored to the left margin"
+          },
+          "treatment": {
+            "fill": "Pale Gold",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for name paired with wide-spaced sans-serif for title.",
+      "graphicDevices": [
+        "Horizontal rule-like spacing"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps styling",
+          "Wide tracking on the secondary line",
+          "High contrast serif for the primary line"
+        ],
+        "avoid": [
+          "Heavy weights",
+          "Script fonts",
+          "Centered alignment"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Didot or Bodoni Light",
+            "reason": "Matches the high-contrast, elegant serif look of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura or Gotham Wide",
+            "reason": "Matches the geometric, wide-tracked subtitle style.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white portrait of a man with a mustache, looking down. Use extreme chiaroscuro lighting so the left side of the frame is pure black and the right side of his face is blown out to pure white. The image should have a grainy, film-noir texture.",
+        "overlayInstruction": "Add two lines of text in the top left. The top line should be a large, elegant serif in muted magenta. The second line should be a small, wide-tracked geometric sans-serif in pale gold."
+      },
+      "verificationChecks": [
+        "Is the contrast extreme enough to lose detail in the highlights?",
+        "Is the text alignment left-justified?",
+        "Is the tracking on the second line significantly wider than the first?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the film grain",
+      "Specific hue of the magenta accent",
+      "Degree of facial tilt"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original person",
+      "Original brand logos",
+      "Exact kerning of the original typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Stark black and white balance",
+        "Sophisticated typographic hierarchy",
+        "Dramatic mood"
+      ],
+      "avoid": [
+        "Grey mid-tones",
+        "Cluttered backgrounds",
+        "Default system fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure black background consistency",
+      "Ensure text is legible against the high-contrast background",
+      "Verify the diagonal composition of the face",
+      "Confirm the two-color typographic palette"
+    ],
+    "reuseFormula": "High-contrast chiaroscuro portrait + Minimalist two-tier typography (Serif/Wide-Sans) + Muted primary/metallic color accents."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:46:50.948Z"
+}

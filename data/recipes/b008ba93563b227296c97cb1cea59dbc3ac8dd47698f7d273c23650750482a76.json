@@ -1,0 +1,281 @@
+{
+  "id": "b008ba93563b227296c97cb1cea59dbc3ac8dd47698f7d273c23650750482a76",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T21:04:01.846Z",
+  "approvedAt": "2026-08-11T21:04:01.846Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T21:04:01.846Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Morning After.jpg",
+    "hash": "b008ba93563b227296c97cb1cea59dbc3ac8dd47698f7d273c23650750482a76",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Morning After",
+    "artist": "Maureen McGovern",
+    "artworkUrl": "https://coverartarchive.org/release-group/da6782ca-b3bf-3067-81fb-85e6b73bde6a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/da6782ca-b3bf-3067-81fb-85e6b73bde6a",
+    "releaseGroupId": "da6782ca-b3bf-3067-81fb-85e6b73bde6a",
+    "recordingId": "e30501e7-fc1d-440c-972e-4bc0a32fae7e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I Won't Last A Day Without YouMaureen McGovern",
+      "song": "I Won't Last A Day Without You",
+      "performer": "Maureen McGovern",
+      "peakPosition": 89,
+      "firstChartDate": "1973-10-13",
+      "lastChartDate": "1973-11-10",
+      "appearances": [
+        {
+          "chartDate": "1973-10-13",
+          "position": 95
+        },
+        {
+          "chartDate": "1973-10-20",
+          "position": 91
+        },
+        {
+          "chartDate": "1973-10-27",
+          "position": 89
+        },
+        {
+          "chartDate": "1973-11-03",
+          "position": 92
+        },
+        {
+          "chartDate": "1973-11-10",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "soft focus 1970s portrait album cover 1970s soft focus profile portrait warm lighting floral illustration vintage typography sepia tones warm skin tones against a dark moody background delicate floral accents balancing the heavy profile composition contrast between structured serif type and fluid script lettering framed composition using a textured parchment like border soft focus profile warm sepia border floral accent serif script typographic pairing",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soft Focus 1970s Portrait Album Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vinyl Record Sleeves",
+        "Nostalgic Poster Art",
+        "Retro Editorial Layouts"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "soft focus",
+        "profile portrait",
+        "warm lighting",
+        "floral illustration",
+        "vintage typography",
+        "sepia tones"
+      ]
+    },
+    "visualDefinition": "A soft-focus profile portrait of a woman with long blonde hair, framed by a warm, sepia-toned border featuring delicate floral illustrations and elegant script typography.",
+    "coreVisualRelationships": [
+      "Warm skin tones against a dark, moody background",
+      "Delicate floral accents balancing the heavy profile composition",
+      "Contrast between structured serif type and fluid script lettering",
+      "Framed composition using a textured, parchment-like border"
+    ],
+    "coreInvariants": [
+      "Soft-focus photographic quality",
+      "Warm, amber-heavy color palette",
+      "Side-profile orientation of the subject",
+      "Top-right and top-left typographic placement"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale profile portrait occupying the central and right two-thirds of the frame, looking toward the left.",
+      "visualAnchor": "The subject's face in profile, specifically the eye and bridge of the nose.",
+      "movementAndEyePath": "Starts at the top-right script, moves down the subject's hair to the shoulder, then sweeps up the left side through the floral illustration to the title text.",
+      "negativeSpace": "Deep shadows behind the subject's face provide high-contrast negative space for the title text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm amber and sepia tones in the border and hair.",
+      "contrastColorRole": "Deep charcoal and dark brown in the background shadows.",
+      "accentColorRole": "Soft pink and muted green in the floral illustration.",
+      "saturationAndValueRelationship": "Low saturation with high value in highlights; deep, crushed blacks in the shadows.",
+      "paletteRestrictions": [
+        "Avoid bright primary colors",
+        "Avoid neon or high-chroma digital hues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classic 1970s serif and formal copperplate script.",
+      "letterConstructionRules": [
+        "Title uses high-contrast serifs with ball terminals",
+        "Artist name uses a fluid, slanted script with ornate swashes on capitals",
+        "Tight letter spacing for the serif block"
+      ],
+      "characterSpecificRedesigns": [
+        "Extended swashes on the 'M' and 'G' in the script",
+        "Overlapping characters in the serif block to create a compact unit"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed-slanted",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "swashed",
+            "corners": "rounded",
+            "counters": "narrow",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top-right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over border"
+          },
+          "treatment": {
+            "fill": "dark brown",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "extreme",
+            "xHeight": "high",
+            "terminals": "ball",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "thick-thin"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "very-tight",
+            "lineBreakPattern": "stacked",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in negative space"
+          },
+          "treatment": {
+            "fill": "pale pink",
+            "outline": "none",
+            "shadow": "soft-glow",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for the title paired with a delicate, formal script for the artist name.",
+      "graphicDevices": [
+        "Floral vine illustration",
+        "Textured border frame",
+        "Soft vignette"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The stacked layout of the serif text",
+          "The ornate swashes of the script"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Modern geometric styles"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the 70s serif aesthetic with ball terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Shelley Allegro",
+            "reason": "Provides the necessary calligraphic script elegance.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus 1970s style profile portrait of a blonde woman looking left, set against a dark background. Frame the image with a warm, sepia-toned parchment border. Add a small, hand-painted style pink flower with green leaves in the top-left corner.",
+        "overlayInstruction": "Add the artist name in the top right using a dark brown calligraphic script. Add the album title in the top left, stacked vertically, using a high-contrast pink serif font with tight tracking."
+      },
+      "verificationChecks": [
+        "Is the lighting warm and nostalgic?",
+        "Is the portrait in a clear side-profile?",
+        "Are the two font styles distinct and era-appropriate?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Flower color and species",
+      "Intensity of the sepia border",
+      "Hair color of the subject",
+      "Specific script swash length"
+    ],
+    "mustRedesign": [
+      "Any modern digital sharpness",
+      "Clean, minimalist white backgrounds",
+      "Contemporary sans-serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Grainy, film-like texture",
+        "Warm, glowing highlights on the skin",
+        "Ornate, decorative framing"
+      ],
+      "avoid": [
+        "Flat, vector-style illustrations",
+        "High-definition digital clarity",
+        "Cold or blue-toned lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is legible against the background",
+      "Check that the floral element looks integrated, not pasted on",
+      "Verify the soft-focus effect doesn't obscure the subject's profile features"
+    ],
+    "reuseFormula": "Soft-focus profile + warm sepia border + floral accent + serif/script typographic pairing."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:19:33.599Z"
+}

@@ -1,0 +1,244 @@
+{
+  "id": "f6844f57ca2a6566c067f5bad8ef0762ae76d51daaf8ecb2075a89b92fd1a815",
+  "skillId": "f6844f57ca2a6566c067f5bad8ef0762ae76d51daaf8ecb2075a89b92fd1a815",
+  "versionId": "f6844f57ca2a6566c067f5bad8ef0762ae76d51daaf8ecb2075a89b92fd1a815",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:31:56.253Z",
+  "approvedAt": "2026-08-12T16:31:56.253Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:31:56.253Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "We Are Not Alone.jpg",
+    "hash": "f6844f57ca2a6566c067f5bad8ef0762ae76d51daaf8ecb2075a89b92fd1a815",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "We Are Not Alone",
+    "artist": "Breaking Benjamin",
+    "artworkUrl": "https://coverartarchive.org/release-group/9a03d313-0580-3f71-ae10-0e0996db3faa/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9a03d313-0580-3f71-ae10-0e0996db3faa",
+    "releaseGroupId": "9a03d313-0580-3f71-ae10-0e0996db3faa",
+    "recordingId": "6e1a86fa-4806-42f2-ac99-ee32b46bd3f8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sooner Or LaterBreaking Benjamin",
+      "song": "Sooner Or Later",
+      "performer": "Breaking Benjamin",
+      "peakPosition": 99,
+      "firstChartDate": "2005-04-02",
+      "lastChartDate": "2005-04-09",
+      "appearances": [
+        {
+          "chartDate": "2005-04-02",
+          "position": 99
+        },
+        {
+          "chartDate": "2005-04-09",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "desaturated somber portrait layout desaturated blue somber portrait clenched hands low key lighting serif typography monochromatic palette vignette subject centered against a void like black background hands acting as a textural and emotional focal point in the lower half typography balanced across the top margin to frame the head cool blue highlights contrasting with deep neutral shadows take a high contrast portrait apply heavy blue desaturation place white serif text at the top margin surround with black negative space",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Desaturated Somber Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Post-Processing"
+      ],
+      "useCases": [
+        "Alternative Rock Album Covers",
+        "Melancholic Editorial Layouts",
+        "Cinematic Character Posters"
+      ],
+      "retrievalTags": [
+        "desaturated blue",
+        "somber portrait",
+        "clenched hands",
+        "low-key lighting",
+        "serif typography",
+        "monochromatic palette",
+        "vignette"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A desaturated, blue-toned close-up portrait featuring a central subject with hands covering the face, framed by a stark black background and top-aligned serif text.",
+      "triggerTerms": [
+        "desaturated blue somber portrait",
+        "clenched hands covering face photography",
+        "low-key blue monochromatic lighting"
+      ],
+      "excludeWhen": [
+        "vibrant colors are required",
+        "multiple subjects are needed",
+        "sans-serif or modern display fonts are preferred"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast, low-key photograph of a bald figure from the chest up, with hands tightly clasped over the lower face. The image is processed with a heavy blue-grey desaturation, leaving deep black shadows and cool highlights. Text is positioned at the very top edge, spanning the width.",
+    "coreVisualRelationships": [
+      "Subject centered against a void-like black background",
+      "Hands acting as a textural and emotional focal point in the lower half",
+      "Typography balanced across the top margin to frame the head",
+      "Cool blue highlights contrasting with deep neutral shadows"
+    ],
+    "coreInvariants": [
+      "Desaturated blue-grey color grade",
+      "Symmetrical or near-symmetrical central composition",
+      "Top-aligned horizontal text placement"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central, medium close-up, filling approximately 70% of the vertical frame.",
+      "visualAnchor": "The interlocking fingers and knuckles in the center-foreground.",
+      "movementAndEyePath": "Starts at the top text, moves down the smooth curve of the head, and rests on the textured detail of the hands.",
+      "negativeSpace": "Heavy black negative space surrounding the subject on the left, right, and top edges."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background and shadows.",
+      "contrastColorRole": "Desaturated steel blue for skin highlights and midtones.",
+      "accentColorRole": "Pure white for the typography.",
+      "saturationAndValueRelationship": "Extremely low saturation; high value contrast between the subject and the background.",
+      "paletteRestrictions": [
+        "No warm tones (reds, oranges, yellows)",
+        "No high-chroma colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical serif with moderate stroke contrast.",
+      "letterConstructionRules": [
+        "Sharp, bracketed serifs",
+        "Open counters in lowercase letters",
+        "Vertical stress"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Old Style Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "regular",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "consistent"
+          },
+          "typesetting": {
+            "case": "mixed-case and all-caps",
+            "alignment": "justified-spread",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "small to medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separate from subject, placed in negative space"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used in different cases (lowercase for primary, uppercase for secondary) to create hierarchy.",
+      "graphicDevices": [
+        "Vignetting",
+        "High-pass skin texture enhancement"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Serif style",
+          "Top-aligned placement",
+          "White color"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Bold weights",
+          "Center-justified blocks"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Garamond",
+            "reason": "Classical proportions and elegant serifs match the somber tone.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Minion Pro",
+            "reason": "Highly legible at smaller sizes with a professional, clean serif look.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A high-contrast, desaturated blue-grey photograph of a man's head and shoulders against a black background, with his hands clasped over his face. Focus on skin texture and cool highlights.",
+        "overlayInstruction": "Add a single line of white serif text at the very top of the frame, using lowercase for the first half and all-caps for the second half, spaced to the left and right corners respectively."
+      },
+      "verificationChecks": [
+        "Is the color palette strictly desaturated blue and black?",
+        "Is the text placed at the extreme top edge?",
+        "Are the hands the primary textural element?",
+        "Is the background a solid, deep black?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the blue tint",
+      "Amount of skin texture detail",
+      "Tracking/spacing of the top text"
+    ],
+    "mustRedesign": [
+      "Any specific tattoos or logos on the hands",
+      "Specific facial features if they are identifiable"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic low-key lighting",
+        "Clean, sharp serif typography",
+        "Consistent cool-toned color grading"
+      ],
+      "avoid": [
+        "Muddy shadows",
+        "Warm skin tones",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure black background without noise",
+      "Verify text is legible against the dark top edge",
+      "Ensure the blue tint is uniform across the subject",
+      "Confirm the hands are correctly rendered with realistic interlocking fingers"
+    ],
+    "reuseFormula": "Take a high-contrast portrait + apply heavy blue desaturation + place white serif text at the top margin + surround with black negative space."
+  }
+}

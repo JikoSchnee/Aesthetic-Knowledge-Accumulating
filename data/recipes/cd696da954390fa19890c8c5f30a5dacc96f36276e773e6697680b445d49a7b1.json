@@ -1,0 +1,289 @@
+{
+  "id": "cd696da954390fa19890c8c5f30a5dacc96f36276e773e6697680b445d49a7b1",
+  "skillId": "cd696da954390fa19890c8c5f30a5dacc96f36276e773e6697680b445d49a7b1",
+  "versionId": "cd696da954390fa19890c8c5f30a5dacc96f36276e773e6697680b445d49a7b1",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:40:09.811Z",
+  "approvedAt": "2026-08-12T21:40:09.811Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:40:09.811Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Herbie Mann String Album.jpg",
+    "hash": "cd696da954390fa19890c8c5f30a5dacc96f36276e773e6697680b445d49a7b1",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Herbie Mann String Album",
+    "artist": "Herbie Mann",
+    "artworkUrl": "https://coverartarchive.org/release-group/14433d23-7de2-498d-8986-ef1ddf4004b2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/14433d23-7de2-498d-8986-ef1ddf4004b2",
+    "releaseGroupId": "14433d23-7de2-498d-8986-ef1ddf4004b2",
+    "recordingId": "d8fa88c5-ccbb-4a79-ace1-8f6267d36708",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "To Sir, With LoveHerbie Mann",
+      "song": "To Sir, With Love",
+      "performer": "Herbie Mann",
+      "peakPosition": 93,
+      "firstChartDate": "1967-10-21",
+      "lastChartDate": "1967-10-21",
+      "appearances": [
+        {
+          "chartDate": "1967-10-21",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century jazz portrait layout 1960s jazz vinyl cover script typography low key lighting pinstripe suit textured background asymmetrical layout the subject s diagonal posture leads the eye from the bottom left to the face the gold script title contrasts against the dark teal black background the horizontal instrument provides a stabilizing line across the middle of the frame the secondary text block balances the weight of the primary title seated subject low key lighting dark textured background script title top left sans serif list top right",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Jazz Portrait Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typography",
+        "Print Design"
+      ],
+      "useCases": [
+        "Album cover design",
+        "Editorial portraiture",
+        "Vintage-style promotional posters",
+        "Jazz-inspired branding"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "jazz",
+        "vinyl cover",
+        "script typography",
+        "low-key lighting",
+        "pinstripe suit",
+        "textured background",
+        "asymmetrical layout"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A sophisticated 1960s jazz aesthetic featuring a seated subject in low-key lighting with high-contrast script and sans-serif typography.",
+      "triggerTerms": [
+        "vintage jazz album cover",
+        "mid-century portrait with script title",
+        "low-key studio portrait with pinstripe suit",
+        "textured dark background portrait"
+      ],
+      "excludeWhen": [
+        "modern minimalist photography",
+        "bright high-key lighting",
+        "sans-serif only layouts",
+        "outdoor natural light photography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A seated male figure in a pinstripe suit holding a musical instrument, set against a dark, heavily textured studio backdrop. The composition is balanced by large, elegant gold script in the upper left and a block of white sans-serif text in the upper right, creating a triangular visual path.",
+    "coreVisualRelationships": [
+      "The subject's diagonal posture leads the eye from the bottom left to the face.",
+      "The gold script title contrasts against the dark teal/black background.",
+      "The horizontal instrument provides a stabilizing line across the middle of the frame.",
+      "The secondary text block balances the weight of the primary title."
+    ],
+    "coreInvariants": [
+      "Low-key, dramatic studio lighting",
+      "Heavily vignetted or dark textured background",
+      "High-contrast pinstripe texture on clothing",
+      "Asymmetrical typographic placement"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered but angled, occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The subject's face and the bright red tie serve as the central focal point.",
+      "movementAndEyePath": "Eye starts at the gold script (top left), moves to the face, then follows the instrument to the right-hand text block.",
+      "negativeSpace": "Significant dark negative space in the upper corners allows for legible typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and dark teal (background and shadows)",
+      "contrastColorRole": "Warm gold (primary title) and white (secondary text)",
+      "accentColorRole": "Bright red (necktie) and warm wood tones (chair)",
+      "saturationAndValueRelationship": "Low-value background with high-saturation accents in the center and high-value text.",
+      "paletteRestrictions": [
+        "Avoid bright primary colors except for small accents",
+        "Maintain a dark, moody value range"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast formal script and geometric sans-serif",
+      "letterConstructionRules": [
+        "Main title uses a flowing, connected script with dramatic swashes",
+        "Secondary text uses a clean, all-caps grotesque sans-serif",
+        "Tight line spacing for the secondary text block"
+      ],
+      "characterSpecificRedesigns": [
+        "Extended swashes on 'H' and 'S' in the script title",
+        "Tight kerning in the sans-serif block"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "ball and swash",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "staggered",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "upper left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floated over dark background"
+          },
+          "treatment": {
+            "fill": "gold/yellow",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "all caps",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "very tight",
+            "lineBreakPattern": "list",
+            "density": "high"
+          },
+          "composition": {
+            "position": "upper right",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floated over dark background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of an expressive, organic script with a rigid, functional sans-serif.",
+      "graphicDevices": [
+        "Vignetting",
+        "Textured overlays",
+        "Small rectangular logo block at bottom center"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Script/Sans-serif contrast",
+          "Left/Right text balance",
+          "Gold/White color split"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Centered text",
+          "Modern digital gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Shelley Volante Script",
+            "reason": "Captures the high-contrast swash elegance of the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the dense, bold sans-serif block on the right.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a man in a pinstripe suit seated in a wooden chair, holding a silver flute horizontally. Use low-key lighting with a dark, textured teal and charcoal background. Ensure the upper corners are dark and empty for text placement.",
+        "overlayInstruction": "Apply a large gold script title in the upper left corner. Place a right-aligned list of tracks in a bold white sans-serif font in the upper right corner. Add a small orange and yellow rectangular logo at the bottom center."
+      },
+      "verificationChecks": [
+        "Is the script title legible against the background?",
+        "Is the right-hand text block properly right-aligned?",
+        "Does the lighting on the subject feel dramatic and directional?",
+        "Is the color of the tie a distinct red accent?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's instrument",
+      "Script color (gold vs silver)",
+      "Background texture intensity",
+      "Suit pattern"
+    ],
+    "mustRedesign": [
+      "Any modern digital interface elements",
+      "Clean, flat vector backgrounds",
+      "Lower-case sans-serif text blocks"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Film-grain texture",
+        "Dramatic chiaroscuro lighting",
+        "Balanced asymmetrical typography"
+      ],
+      "avoid": [
+        "Over-saturation",
+        "Default system fonts",
+        "High-key lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 1960s era-appropriate clothing and grooming.",
+      "Ensure typography does not overlap the subject's face.",
+      "Verify the 'gold' color looks metallic rather than flat yellow.",
+      "Confirm the background has visible painterly or photographic texture."
+    ],
+    "reuseFormula": "Seated subject + low-key lighting + dark textured background + [Script Title (Top Left)] + [Sans-Serif List (Top Right)]"
+  }
+}

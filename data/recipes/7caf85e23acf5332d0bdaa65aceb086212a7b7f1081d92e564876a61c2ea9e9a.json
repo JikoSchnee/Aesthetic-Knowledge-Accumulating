@@ -1,0 +1,255 @@
+{
+  "id": "7caf85e23acf5332d0bdaa65aceb086212a7b7f1081d92e564876a61c2ea9e9a",
+  "skillId": "7caf85e23acf5332d0bdaa65aceb086212a7b7f1081d92e564876a61c2ea9e9a",
+  "versionId": "7caf85e23acf5332d0bdaa65aceb086212a7b7f1081d92e564876a61c2ea9e9a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:28:00.803Z",
+  "approvedAt": "2026-08-12T17:28:00.803Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:28:00.803Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Strip Me.jpg",
+    "hash": "7caf85e23acf5332d0bdaa65aceb086212a7b7f1081d92e564876a61c2ea9e9a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Strip Me",
+    "artist": "Natasha Bedingfield",
+    "artworkUrl": "https://coverartarchive.org/release-group/061d831f-f9b5-405b-85fc-61c6223d1a4f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/061d831f-f9b5-405b-85fc-61c6223d1a4f",
+    "releaseGroupId": "061d831f-f9b5-405b-85fc-61c6223d1a4f",
+    "recordingId": "6eddcdf3-702b-4abf-924d-8ce51d5bc0a8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Strip MeNatasha Bedingfield",
+      "song": "Strip Me",
+      "performer": "Natasha Bedingfield",
+      "peakPosition": 91,
+      "firstChartDate": "2010-11-06",
+      "lastChartDate": "2010-12-25",
+      "appearances": [
+        {
+          "chartDate": "2010-11-06",
+          "position": 95
+        },
+        {
+          "chartDate": "2010-11-27",
+          "position": 99
+        },
+        {
+          "chartDate": "2010-12-04",
+          "position": 100
+        },
+        {
+          "chartDate": "2010-12-25",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "tribal avant garde album cover tribal makeup feathered collar geometric typography vertical line overlay desaturated portrait handwritten background vertical lines from the eye echoing the vertical strokes in the typography feathered texture contrasting with the sharp metallic necklace desaturated skin tones against high contrast black and white graphic elements handwritten background script providing a soft texture behind the sharp foreground subject desaturated portrait tribal face paint vertical eye lines geometric inline typography handwritten texture background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Tribal Avant-Garde Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Pop album artwork",
+        "Editorial fashion spreads",
+        "Theatrical promotional posters"
+      ],
+      "retrievalTags": [
+        "tribal makeup",
+        "feathered collar",
+        "geometric typography",
+        "vertical line overlay",
+        "desaturated portrait",
+        "handwritten background"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A desaturated high-fashion portrait featuring tribal-inspired makeup, feathered textures, and heavy geometric typography with vertical line motifs.",
+      "triggerTerms": [
+        "tribal pop aesthetic",
+        "feathered collar portrait",
+        "vertical line eye makeup",
+        "geometric inline typography"
+      ],
+      "excludeWhen": [
+        "minimalist clean photography is required",
+        "vibrant high-saturation color palettes are requested",
+        "traditional serif typography is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, desaturated female portrait with gold and white tribal face paint, characterized by five long black vertical lines descending from one eye. The subject wears a voluminous white feathered collar and a metallic spiked necklace, set against a background of faint handwritten script and smoky textures.",
+    "coreVisualRelationships": [
+      "Vertical lines from the eye echoing the vertical strokes in the typography",
+      "Feathered texture contrasting with the sharp metallic necklace",
+      "Desaturated skin tones against high-contrast black and white graphic elements",
+      "Handwritten background script providing a soft texture behind the sharp foreground subject"
+    ],
+    "coreInvariants": [
+      "Five parallel vertical black lines extending from the lower eyelid to the bottom of the frame"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central medium close-up portrait, filling approximately 70% of the vertical frame.",
+      "visualAnchor": "The subject's eyes, specifically the one with the vertical line graphic.",
+      "movementAndEyePath": "Starts at the eyes, follows the vertical lines downward, then moves to the top-right typographic block.",
+      "negativeSpace": "Minimal; the frame is densely packed with feathers, hair, and background script."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated cream and pale skin tones (Background/Subject)",
+      "contrastColorRole": "Deep black (Graphic lines and typography shadows)",
+      "accentColorRole": "Metallic gold and silver (Face paint and jewelry)",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the black graphics and white highlights.",
+      "paletteRestrictions": [
+        "Monochromatic base",
+        "Muted gold accents",
+        "No primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Heavy use of vertical inline patterns",
+        "Extreme geometric shapes (circular 'O', triangular 'A')",
+        "Uniform stroke weight with internal decorative stripping"
+      ],
+      "characterSpecificRedesigns": [
+        "A is rendered as a solid triangle with an inline gap",
+        "E features elongated horizontal bars with vertical hatching"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Display",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Heavy",
+            "contrast": "High (via inline texture)",
+            "xHeight": "Cap-height only",
+            "terminals": "Sheared",
+            "corners": "Sharp",
+            "counters": "Geometric",
+            "strokeCharacter": "Multilinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top right corner",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Slightly over hair",
+            "relationshipToImage": "Layered on top"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "Soft drop shadow",
+            "depth": "Flat",
+            "texture": "Vertical inline stripes",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Geometric display face paired with a clean, thin sans-serif for secondary info and messy handwriting for texture.",
+      "graphicDevices": [
+        "Vertical parallel lines",
+        "Handwritten script texture",
+        "Smoky vignettes"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric 'A' shape",
+          "Inline vertical stripes"
+        ],
+        "avoid": [
+          "Standard Arial or Helvetica",
+          "Serif fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Display with custom inline",
+            "reason": "Matches the geometric skeleton and wide proportions.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Art Deco Geometric",
+            "reason": "Captures the stylized 'A' and 'N' structures.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a desaturated portrait of a woman with blonde hair, wearing a white feathered collar and metallic spiked necklace. Apply gold and white tribal paint to the face. Add a background of faint, messy white handwritten script and grey smoke.",
+        "overlayInstruction": "Apply five solid black vertical lines from the left eye to the bottom edge. Place large, geometric, inline-textured uppercase text in the top right corner."
+      },
+      "verificationChecks": [
+        "Are there exactly five vertical lines from the eye?",
+        "Is the typography right-aligned and geometric?",
+        "Is the color palette desaturated with gold accents?",
+        "Is the background script legible as texture but not as primary content?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of background script",
+      "Length of vertical eye lines",
+      "Feather volume",
+      "Typography texture pattern"
+    ],
+    "mustRedesign": [
+      "Specific artist name and album title text",
+      "Any identifiable brand logos",
+      "Exact facial features of the subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-fashion editorial lighting",
+        "Sharp graphic-to-photo integration",
+        "Consistent geometric language"
+      ],
+      "avoid": [
+        "Cluttered or illegible text placement",
+        "Low-contrast muddy colors",
+        "Generic 'tribal' tropes without modern fashion context"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 5 distinct vertical lines",
+      "Verify geometric 'A' shape in text",
+      "Ensure feathered texture is crisp",
+      "Confirm desaturated color profile",
+      "Check right-aligned text hierarchy"
+    ],
+    "reuseFormula": "Desaturated Portrait + Tribal Face Paint + Vertical Eye Lines + Geometric Inline Typography + Handwritten Texture Background"
+  }
+}

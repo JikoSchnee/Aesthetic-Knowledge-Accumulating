@@ -1,0 +1,268 @@
+{
+  "id": "cee478c26a8df6cd903c9c8e043e350816242df1dd6d2440954f3e83909ea121",
+  "skillId": "cee478c26a8df6cd903c9c8e043e350816242df1dd6d2440954f3e83909ea121",
+  "versionId": "cee478c26a8df6cd903c9c8e043e350816242df1dd6d2440954f3e83909ea121",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:19:14.076Z",
+  "approvedAt": "2026-08-12T13:19:14.076Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:19:14.076Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Right Here and Now.jpg",
+    "hash": "cee478c26a8df6cd903c9c8e043e350816242df1dd6d2440954f3e83909ea121",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Right Here and Now",
+    "artist": "Bill Medley",
+    "artworkUrl": "https://coverartarchive.org/release-group/a259d5a8-1e4c-4906-9ed6-540c9c55b67a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a259d5a8-1e4c-4906-9ed6-540c9c55b67a",
+    "releaseGroupId": "a259d5a8-1e4c-4906-9ed6-540c9c55b67a",
+    "recordingId": "3b29c7fd-027c-47b5-abec-85b90f8af0c6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Right Here And NowBill Medley",
+      "song": "Right Here And Now",
+      "performer": "Bill Medley",
+      "peakPosition": 58,
+      "firstChartDate": "1982-10-02",
+      "lastChartDate": "1982-11-20",
+      "appearances": [
+        {
+          "chartDate": "1982-10-02",
+          "position": 80
+        },
+        {
+          "chartDate": "1982-10-09",
+          "position": 69
+        },
+        {
+          "chartDate": "1982-10-16",
+          "position": 61
+        },
+        {
+          "chartDate": "1982-10-23",
+          "position": 58
+        },
+        {
+          "chartDate": "1982-10-30",
+          "position": 58
+        },
+        {
+          "chartDate": "1982-11-06",
+          "position": 58
+        },
+        {
+          "chartDate": "1982-11-13",
+          "position": 87
+        },
+        {
+          "chartDate": "1982-11-20",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "noir portrait with venetian blind shadows monochrome venetian blind shadows chiaroscuro 80s noir geometric light minimalist typography geometric shadow patterns contrasting with organic facial features deep black foreground merging into a textured grey background top aligned horizontal text balancing the verticality of the subject monochrome portrait venetian blind shadow pattern top aligned geometric sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Noir Portrait with Venetian Blind Shadows",
+      "category": "Photography",
+      "medium": [
+        "Black and White Photography",
+        "Studio Lighting"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Cinematic Portraiture",
+        "Editorial Fashion Photography"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "venetian blind shadows",
+        "chiaroscuro",
+        "80s noir",
+        "geometric light",
+        "minimalist typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast black and white portrait featuring dramatic geometric shadows from window blinds cast across a dark background.",
+      "triggerTerms": [
+        "venetian blind shadow pattern",
+        "monochrome studio portrait",
+        "chiaroscuro lighting",
+        "80s minimalist album cover"
+      ],
+      "excludeWhen": [
+        "vibrant colors are required",
+        "outdoor natural lighting is requested",
+        "soft diffused lighting without shadows is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered monochrome portrait of a man in a dark shirt, positioned against a wall where the left side is dominated by sharp, horizontal light-and-shadow stripes from a window blind, while the right side features a soft, vignetted glow.",
+    "coreVisualRelationships": [
+      "Geometric shadow patterns contrasting with organic facial features",
+      "Deep black foreground merging into a textured grey background",
+      "Top-aligned horizontal text balancing the verticality of the subject"
+    ],
+    "coreInvariants": [
+      "Strict black and white color palette",
+      "Horizontal blind shadow motif on the left third",
+      "Subject's torso fading into total blackness at the bottom"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium-close up portrait, centered horizontally, occupying the middle and lower two-thirds of the frame.",
+      "visualAnchor": "The subject's eyes and the sharp contrast of the blind shadows.",
+      "movementAndEyePath": "Eyes start at the high-contrast shadows on the left, move to the subject's face, then up to the header text.",
+      "negativeSpace": "Heavy use of deep blacks in the lower half and soft grey gradients on the right."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and black for shadows and clothing.",
+      "contrastColorRole": "Pure white for the typography and highlights in the shadow pattern.",
+      "accentColorRole": "Mid-tone greys for skin texture and background gradients.",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between light stripes and dark voids.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Open counters",
+        "Geometric 'O' and 'G'",
+        "Sharp apex on 'A' and 'M'"
+      ],
+      "characterSpecificRedesigns": [
+        "Wide tracking between all characters"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "0.2em",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top margin",
+            "scale": "Small relative to frame",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating above the photographic field"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for both name and title, separated by a middle dot.",
+      "graphicDevices": [
+        "Middle dot separator",
+        "Horizontal alignment along the top edge"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Wide letter spacing",
+          "Geometric construction"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Tight kerning"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Medium",
+            "reason": "Matches the geometric 'M' and 'O' shapes and uniform weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Captures the 70s/80s geometric aesthetic and wide tracking potential.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a black and white portrait of a man in a black button-down shirt. The lighting should feature sharp horizontal venetian blind shadows on the left wall and a soft light fall-off on the right wall. The bottom of the image should fade into solid black.",
+        "overlayInstruction": "Add a single line of white geometric sans-serif text in all caps at the very top. Use wide tracking and a middle dot to separate the two halves of the text."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochrome?",
+        "Are the blind shadows sharp and horizontal?",
+        "Is the text centered at the top with wide spacing?",
+        "Does the subject's clothing blend into the dark bottom background?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of the blind shadows",
+      "Width of the letter tracking",
+      "Intensity of the background vignette"
+    ],
+    "mustRedesign": [
+      "Any use of color",
+      "Tight, overlapping typography",
+      "Naturalistic or cluttered backgrounds"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast chiaroscuro effect",
+        "Clean, minimalist layout",
+        "Sharp geometric shadow definition"
+      ],
+      "avoid": [
+        "Blurry shadow edges",
+        "Low-contrast gray-on-gray looks",
+        "Decorative or handwritten fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for clean separation between the white text and the dark background.",
+      "Ensure the shadow lines are parallel and consistent.",
+      "Verify the subject's gaze is directed forward.",
+      "Confirm the absence of any color tint (pure grayscale)."
+    ],
+    "reuseFormula": "Monochrome Portrait + Venetian Blind Shadow Pattern + Top-Aligned Geometric Sans-Serif Typography"
+  }
+}

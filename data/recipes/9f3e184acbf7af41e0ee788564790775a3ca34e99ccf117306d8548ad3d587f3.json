@@ -1,0 +1,277 @@
+{
+  "id": "9f3e184acbf7af41e0ee788564790775a3ca34e99ccf117306d8548ad3d587f3",
+  "skillId": "9f3e184acbf7af41e0ee788564790775a3ca34e99ccf117306d8548ad3d587f3",
+  "versionId": "9f3e184acbf7af41e0ee788564790775a3ca34e99ccf117306d8548ad3d587f3",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:27:18.380Z",
+  "approvedAt": "2026-08-12T09:27:18.380Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:27:18.380Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Palabras del silencio.jpg",
+    "hash": "9f3e184acbf7af41e0ee788564790775a3ca34e99ccf117306d8548ad3d587f3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Palabras del silencio",
+    "artist": "Luis Fonsi",
+    "artworkUrl": "https://coverartarchive.org/release-group/5f7c25fb-8c31-313a-9a77-09e7510fbf50/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5f7c25fb-8c31-313a-9a77-09e7510fbf50",
+    "releaseGroupId": "5f7c25fb-8c31-313a-9a77-09e7510fbf50",
+    "recordingId": "4119b949-8f72-4e1a-b333-3159442215ab",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "No Me Doy Por VencidoLuis Fonsi",
+      "song": "No Me Doy Por Vencido",
+      "performer": "Luis Fonsi",
+      "peakPosition": 92,
+      "firstChartDate": "2008-09-20",
+      "lastChartDate": "2008-12-27",
+      "appearances": [
+        {
+          "chartDate": "2008-09-20",
+          "position": 98
+        },
+        {
+          "chartDate": "2008-09-27",
+          "position": 92
+        },
+        {
+          "chartDate": "2008-10-04",
+          "position": 100
+        },
+        {
+          "chartDate": "2008-10-18",
+          "position": 100
+        },
+        {
+          "chartDate": "2008-10-25",
+          "position": 97
+        },
+        {
+          "chartDate": "2008-11-01",
+          "position": 97
+        },
+        {
+          "chartDate": "2008-12-06",
+          "position": 97
+        },
+        {
+          "chartDate": "2008-12-20",
+          "position": 99
+        },
+        {
+          "chartDate": "2008-12-27",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "textured portrait album cover close up portrait handwritten script overlay damask pattern olive green tones block typography textured background dramatic lighting subject occupies the left two thirds of the frame while typography anchors the right middle the background texture overlaps the subject s edges to create depth high contrast lighting on the face against a mid tone textured environment portrait layered texture damask script block typography introspective artist cover",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Textured Portrait Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Artist Promotional Posters",
+        "Editorial Portraiture",
+        "Book Covers"
+      ],
+      "retrievalTags": [
+        "close-up portrait",
+        "handwritten script overlay",
+        "damask pattern",
+        "olive green tones",
+        "block typography",
+        "textured background",
+        "dramatic lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dramatic close-up male portrait integrated into a complex textured background featuring damask motifs and layered handwritten script.",
+      "triggerTerms": [
+        "textured portrait with script overlay",
+        "olive green album cover style",
+        "layered damask and handwriting background"
+      ],
+      "excludeWhen": [
+        "minimalist clean backgrounds are required",
+        "vibrant high-saturation colors are requested",
+        "full-body shots are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, centered close-up of a male face with intense eye contact, set against a background that blends ornate damask patterns with white cursive handwriting. The color palette is dominated by desaturated olive, sepia, and charcoal tones, creating a moody, introspective atmosphere.",
+    "coreVisualRelationships": [
+      "Subject occupies the left two-thirds of the frame while typography anchors the right middle.",
+      "The background texture overlaps the subject's edges to create depth.",
+      "High-contrast lighting on the face against a mid-tone textured environment."
+    ],
+    "coreInvariants": [
+      "Tight facial cropping",
+      "Layered script and damask background",
+      "Muted olive-green color grading",
+      "Right-aligned block typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale, centered-left close-up portrait, cropped at the forehead and shoulders.",
+      "visualAnchor": "The subject's eyes and the dark rectangular block behind the primary text.",
+      "movementAndEyePath": "From the subject's eyes to the right-side text block, then down through the background script.",
+      "negativeSpace": "Minimal; the frame is filled with texture and facial features."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Olive green and sepia (background and skin tones)",
+      "contrastColorRole": "Dark charcoal/black (clothing and text block)",
+      "accentColorRole": "Off-white (handwritten script and typography)",
+      "saturationAndValueRelationship": "Low saturation with a focus on value contrast between the dark hair/clothing and the lighter skin/background.",
+      "paletteRestrictions": [
+        "No primary colors",
+        "No high-saturation neon"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Heavy weight for primary name",
+        "Medium weight for secondary title",
+        "All-caps throughout",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Double dots used as decorative separators after the first name"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "-2%",
+            "leading": "90%",
+            "lineBreakPattern": "Stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Middle right",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Inside dark block",
+            "relationshipToImage": "Overlays background texture"
+          },
+          "treatment": {
+            "fill": "Off-white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family with varying weights for hierarchy.",
+      "graphicDevices": [
+        "Dark rectangular text box",
+        "Layered cursive script texture",
+        "Faded damask wallpaper motif"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps geometric sans-serif",
+          "Right-side placement",
+          "Dark background block for text"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts for the main title",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Matches the clean, geometric, and authoritative feel of the primary name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat",
+            "reason": "A widely available geometric sans that replicates the proportions.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a close-up portrait of a man with dark hair and intense expression. Apply a desaturated olive-green color grade. Overlay the background with a faded damask pattern and white, semi-transparent handwritten cursive script that weaves behind and slightly over the subject's edges.",
+        "overlayInstruction": "Place a dark charcoal rectangular block on the middle right. Typeset the primary name in a bold geometric sans-serif inside the block. Below the block, typeset the album title in a medium-weight version of the same font in white."
+      },
+      "verificationChecks": [
+        "Is the portrait tight and centered-left?",
+        "Does the background contain both damask and script layers?",
+        "Is the color palette muted olive and sepia?",
+        "Is the primary text in a dark block on the right?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of the background script",
+      "Intensity of the olive color grade",
+      "Tightness of the facial crop"
+    ],
+    "mustRedesign": [
+      "Specific artist likeness",
+      "Exact handwritten text content",
+      "Specific brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Seamless blending of subject and background texture",
+        "Legible but integrated typography",
+        "Consistent moody lighting"
+      ],
+      "avoid": [
+        "Harsh cut-outs of the subject",
+        "Overly bright or saturated colors",
+        "Cluttered typography that obscures the face"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for smooth transitions between the subject's hair and the background texture.",
+      "Ensure the handwritten script looks like an overlay rather than random noise.",
+      "Verify the geometric sans-serif is bold and all-caps.",
+      "Confirm the olive-green tone is consistent across the image."
+    ],
+    "reuseFormula": "Portrait + Layered Texture (Damask + Script) + Block Typography = Introspective Artist Cover"
+  }
+}

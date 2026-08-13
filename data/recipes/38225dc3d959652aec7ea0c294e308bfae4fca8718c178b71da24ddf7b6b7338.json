@@ -1,0 +1,321 @@
+{
+  "id": "38225dc3d959652aec7ea0c294e308bfae4fca8718c178b71da24ddf7b6b7338",
+  "skillId": "38225dc3d959652aec7ea0c294e308bfae4fca8718c178b71da24ddf7b6b7338",
+  "versionId": "38225dc3d959652aec7ea0c294e308bfae4fca8718c178b71da24ddf7b6b7338",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:03:03.920Z",
+  "approvedAt": "2026-08-12T19:03:03.920Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:03:03.920Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Break of Hearts.jpg",
+    "hash": "38225dc3d959652aec7ea0c294e308bfae4fca8718c178b71da24ddf7b6b7338",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Break of Hearts",
+    "artist": "Katrina And The Waves",
+    "artworkUrl": "https://coverartarchive.org/release-group/d83d941a-46bc-30cf-b079-b23ab784069e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d83d941a-46bc-30cf-b079-b23ab784069e",
+    "releaseGroupId": "d83d941a-46bc-30cf-b079-b23ab784069e",
+    "recordingId": "8bd3f910-d659-457c-a4b9-1aa3e4db4df8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "That's The WayKatrina And The Waves",
+      "song": "That's The Way",
+      "performer": "Katrina And The Waves",
+      "peakPosition": 16,
+      "firstChartDate": "1989-07-22",
+      "lastChartDate": "1989-10-07",
+      "appearances": [
+        {
+          "chartDate": "1989-07-22",
+          "position": 86
+        },
+        {
+          "chartDate": "1989-07-29",
+          "position": 65
+        },
+        {
+          "chartDate": "1989-08-05",
+          "position": 49
+        },
+        {
+          "chartDate": "1989-08-12",
+          "position": 42
+        },
+        {
+          "chartDate": "1989-08-19",
+          "position": 35
+        },
+        {
+          "chartDate": "1989-08-26",
+          "position": 27
+        },
+        {
+          "chartDate": "1989-09-02",
+          "position": 24
+        },
+        {
+          "chartDate": "1989-09-09",
+          "position": 21
+        },
+        {
+          "chartDate": "1989-09-16",
+          "position": 16
+        },
+        {
+          "chartDate": "1989-09-23",
+          "position": 29
+        },
+        {
+          "chartDate": "1989-09-30",
+          "position": 48
+        },
+        {
+          "chartDate": "1989-10-07",
+          "position": 83
+        }
+      ]
+    }
+  },
+  "dedupeText": "torn paper collage portrait torn paper edge monochrome portrait high contrast vertical strips 80s rock aesthetic grainy texture vertical segmentation via irregular white borders high contrast monochrome tonal range rhythmic repetition of human subjects across panels textural interplay between smooth skin and rough paper edges vertical panels torn paper dividers high contrast b w condensed sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Torn Paper Collage Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Collage",
+        "Halftone Print"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Editorial fashion spreads",
+        "Gritty promotional posters"
+      ],
+      "retrievalTags": [
+        "torn paper edge",
+        "monochrome portrait",
+        "high contrast",
+        "vertical strips",
+        "80s rock aesthetic",
+        "grainy texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A vertical collage of high-contrast monochrome portraits separated by jagged, white torn-paper edges.",
+      "triggerTerms": [
+        "torn paper strip collage",
+        "jagged paper edge portrait",
+        "vertical monochrome panels"
+      ],
+      "excludeWhen": [
+        "smooth digital transitions are required",
+        "vibrant multi-color palettes are requested",
+        "clean minimalist layouts without texture are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A multi-panel composition featuring individual portraits divided by vertical, irregular white borders that mimic the texture of ripped paper. The imagery is rendered in a grainy, high-contrast black and white style with deep shadows and bright highlights.",
+    "coreVisualRelationships": [
+      "Vertical segmentation via irregular white borders",
+      "High-contrast monochrome tonal range",
+      "Rhythmic repetition of human subjects across panels",
+      "Textural interplay between smooth skin and rough paper edges"
+    ],
+    "coreInvariants": [
+      "Jagged white vertical dividers with visible paper fiber texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four vertical panels of varying widths, each containing a medium-shot portrait of a different individual.",
+      "visualAnchor": "The central-right panel featuring a direct-gaze portrait provides the primary focal point.",
+      "movementAndEyePath": "The eye moves horizontally across the vertical strips, guided by the high-contrast white 'tears' that separate the figures.",
+      "negativeSpace": "Deep black shadows within the portraits act as negative space, contrasting with the bright white torn edges."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and charcoal grays for shadows and backgrounds.",
+      "contrastColorRole": "Pure white for the torn paper edges and highlights.",
+      "accentColorRole": "Mid-tone grays for skin textures and clothing details.",
+      "saturationAndValueRelationship": "Zero saturation; extreme value contrast between the black voids and white dividers.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed sans-serif and heavy geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight letter spacing",
+        "High x-height for condensed forms"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single line",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floated over dark background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "heavy"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "solid"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floated over dark background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between ultra-condensed lowercase and wide, heavy uppercase.",
+      "graphicDevices": [
+        "Torn paper texture",
+        "Film grain overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed width of the primary text",
+          "Heavy weight of the secondary text"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Italics"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Helvetica Compressed",
+            "reason": "Matches the high-density condensed look of the primary display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Extra Bold or Gill Sans Ultra Bold",
+            "reason": "Matches the geometric, heavy uppercase secondary text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white image of four people in vertical panels, separated by jagged, white torn-paper edges. Apply a heavy film grain and halftone texture.",
+        "overlayInstruction": "Add white sans-serif text in the top corners: an extra-condensed lowercase font on the left and a heavy geometric uppercase font on the right."
+      },
+      "verificationChecks": [
+        "Are the paper edges jagged and white?",
+        "Is the image strictly monochrome?",
+        "Is there a visible grain or halftone texture?",
+        "Are the vertical panels distinct?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of vertical panels",
+      "Width of the torn paper borders",
+      "Intensity of the film grain",
+      "Subject poses"
+    ],
+    "mustRedesign": [
+      "Smooth digital gradients",
+      "Color elements",
+      "Clean, straight dividers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile paper-tear texture",
+        "Extreme tonal contrast",
+        "Consistent grain across all panels"
+      ],
+      "avoid": [
+        "Blurry edges",
+        "Low-contrast grays",
+        "Modern digital filters"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for paper fiber detail on the white edges",
+      "Ensure no color bleed or chromatic aberration",
+      "Verify text is legible against the dark background",
+      "Confirm the vertical rhythm of the composition"
+    ],
+    "reuseFormula": "Vertical Panels + Torn Paper Dividers + High Contrast B&W + Condensed Sans-Serif Typography"
+  }
+}

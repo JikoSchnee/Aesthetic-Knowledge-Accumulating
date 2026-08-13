@@ -1,0 +1,286 @@
+{
+  "id": "e68ea6ceca590344474e7bf064ccbd6fb2fa4fec5572ca482c80d9fa54c5f917",
+  "skillId": "e68ea6ceca590344474e7bf064ccbd6fb2fa4fec5572ca482c80d9fa54c5f917",
+  "versionId": "e68ea6ceca590344474e7bf064ccbd6fb2fa4fec5572ca482c80d9fa54c5f917",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:41:37.273Z",
+  "approvedAt": "2026-08-12T21:41:37.273Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:41:37.273Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Jamul.jpg",
+    "hash": "e68ea6ceca590344474e7bf064ccbd6fb2fa4fec5572ca482c80d9fa54c5f917",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Jamul",
+    "artist": "Jamul",
+    "artworkUrl": "https://coverartarchive.org/release-group/80b80df8-8019-4a56-a829-c293f001eb06/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/80b80df8-8019-4a56-a829-c293f001eb06",
+    "releaseGroupId": "80b80df8-8019-4a56-a829-c293f001eb06",
+    "recordingId": "603144f0-0087-4048-84f7-a26f0d441cf9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Tobacco RoadJamul",
+      "song": "Tobacco Road",
+      "performer": "Jamul",
+      "peakPosition": 93,
+      "firstChartDate": "1970-05-09",
+      "lastChartDate": "1970-05-16",
+      "appearances": [
+        {
+          "chartDate": "1970-05-09",
+          "position": 93
+        },
+        {
+          "chartDate": "1970-05-16",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage high contrast rock album cover high contrast halftone yellow header bold sans serif 1970s rock monochrome portrait bold yellow header vs monochrome photographic base massive display type vs small metadata text high contrast lighting on subjects vs flat background color horizontal division between graphic and photographic zones yellow header block bold condensed sans serif high contrast grainy monochrome photo 70s rock aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage High-Contrast Rock Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Screen Printing",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Poster Design",
+        "Retro Editorial Layouts"
+      ],
+      "retrievalTags": [
+        "high contrast",
+        "halftone",
+        "yellow header",
+        "bold sans-serif",
+        "1970s rock",
+        "monochrome portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A split-composition layout featuring a bold yellow header with massive black typography above a high-contrast, grainy monochrome group portrait.",
+      "triggerTerms": [
+        "vintage rock album layout",
+        "high contrast black and white band photo",
+        "yellow header with bold black text"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "full-color photography",
+        "delicate serif typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A two-tier vertical composition where the top third is a solid yellow block containing ultra-bold, condensed black lettering, and the bottom two-thirds is a high-contrast, grainy black-and-white photograph of figures in profile and three-quarter views.",
+    "coreVisualRelationships": [
+      "Bold yellow header vs. monochrome photographic base",
+      "Massive display type vs. small metadata text",
+      "High-contrast lighting on subjects vs. flat background color",
+      "Horizontal division between graphic and photographic zones"
+    ],
+    "coreInvariants": [
+      "Solid yellow header block occupying the top 30-35% of the frame",
+      "High-contrast, grainy black and white photographic treatment",
+      "Ultra-bold, condensed sans-serif display type"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subjects are arranged in a horizontal line across the bottom two-thirds, shown from the waist up.",
+      "visualAnchor": "The massive black display text in the yellow header.",
+      "movementAndEyePath": "Eye starts at the large header, moves down to the high-contrast faces, and finally to the small names at the bottom edge.",
+      "negativeSpace": "Minimal; the composition is densely packed with type and figures."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Yellow (Header background)",
+      "contrastColorRole": "Black (Typography and shadows)",
+      "accentColorRole": "White (Photographic highlights)",
+      "saturationAndValueRelationship": "High saturation yellow paired with extreme value contrast in the monochrome image.",
+      "paletteRestrictions": [
+        "Yellow",
+        "Black",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Tight apertures",
+        "Minimal letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within yellow header"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "justified across bottom",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom edge",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed on yellow footer strip"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in extreme scale contrast.",
+      "graphicDevices": [
+        "Solid color blocks",
+        "High-contrast photographic grain"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed width",
+          "Heavy weight",
+          "Uppercase styling"
+        ],
+        "avoid": [
+          "Serifs",
+          "Italics",
+          "Light weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy weight and condensed proportions of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Provides the necessary vintage sans-serif feel with high density.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a two-part vertical layout. The top 30% is a solid vibrant yellow block. The bottom 70% is a high-contrast, grainy black and white photograph of four men in 1970s attire (hats, vests, long hair) standing in a row. The photo should have deep blacks and blown-out white highlights.",
+        "overlayInstruction": "Add a large, black, ultra-bold condensed sans-serif title in the top yellow block, centered. Add small, black, bold condensed sans-serif names along the very bottom edge on a thin yellow strip."
+      },
+      "verificationChecks": [
+        "Is the header solid yellow?",
+        "Is the photograph high-contrast monochrome?",
+        "Is the main text massive and condensed?",
+        "Are the names at the bottom legible but small?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Header height",
+      "Photographic grain intensity",
+      "Yellow hue saturation"
+    ],
+    "mustRedesign": [
+      "Specific faces of the individuals",
+      "Any specific logos or catalog numbers",
+      "Exact wording of the names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Harsh black and white contrast in the photo",
+        "Perfectly flat yellow color field",
+        "Tight letter spacing in the header"
+      ],
+      "avoid": [
+        "Soft gradients",
+        "Modern digital sharpness",
+        "Wide letter spacing"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the yellow header is not muddy.",
+      "Ensure the black and white photo has no gray mid-tones.",
+      "Verify the text is perfectly centered in the yellow block.",
+      "Confirm the bottom names are aligned to the bottom edge."
+    ],
+    "reuseFormula": "Yellow header block + Bold Condensed Sans-Serif + High-Contrast Grainy Monochrome Photo = 70s Rock Aesthetic"
+  }
+}

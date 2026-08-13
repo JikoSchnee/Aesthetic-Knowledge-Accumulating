@@ -1,0 +1,250 @@
+{
+  "id": "65247d788b77ccda6df0188dfccb2c069d47cb8240f852b993f64e81d8238bcc",
+  "skillId": "65247d788b77ccda6df0188dfccb2c069d47cb8240f852b993f64e81d8238bcc",
+  "versionId": "65247d788b77ccda6df0188dfccb2c069d47cb8240f852b993f64e81d8238bcc",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:29:51.819Z",
+  "approvedAt": "2026-08-13T00:29:51.819Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:29:51.819Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Fridayy.jpg",
+    "hash": "65247d788b77ccda6df0188dfccb2c069d47cb8240f852b993f64e81d8238bcc",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Fridayy",
+    "artist": "Fridayy",
+    "artworkUrl": "https://coverartarchive.org/release-group/1935874d-f35e-4563-a400-c01db0024a2c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1935874d-f35e-4563-a400-c01db0024a2c",
+    "releaseGroupId": "1935874d-f35e-4563-a400-c01db0024a2c",
+    "recordingId": "ca0c7349-b076-49c3-987f-6a9f9bd386a8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "When It Comes To YouFridayy",
+      "song": "When It Comes To You",
+      "performer": "Fridayy",
+      "peakPosition": 97,
+      "firstChartDate": "2024-01-20",
+      "lastChartDate": "2024-02-03",
+      "appearances": [
+        {
+          "chartDate": "2024-01-20",
+          "position": 98
+        },
+        {
+          "chartDate": "2024-02-03",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban street portrait with expressive script urban street city bokeh brush script red balloon low angle portrait film grain street photography subject centered in the lower two thirds of the frame large scale typography acting as a halo or backdrop for the subject s head high contrast between the vibrant red elements and the muted grainy city tones linear perspective of the street receding into a soft bokeh background urban portrait low angle textured brush script film grain single color accent",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Street Portrait with Expressive Script",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Illustration",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Hip-hop album covers",
+        "Urban lifestyle branding",
+        "Streetwear marketing"
+      ],
+      "retrievalTags": [
+        "urban street",
+        "city bokeh",
+        "brush script",
+        "red balloon",
+        "low angle portrait",
+        "film grain",
+        "street photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered urban portrait featuring a low-angle perspective of a subject in a city street, overlaid with large, expressive, textured brush lettering.",
+      "triggerTerms": [
+        "urban street portrait with large red brush script",
+        "low angle city street photography with textured lettering",
+        "hip hop album cover with red balloon and city bokeh"
+      ],
+      "excludeWhen": [
+        "clean minimalist corporate designs",
+        "nature-focused photography",
+        "sans-serif typography layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, low-angle portrait of a man in a white tank top sitting in the middle of a city street, flanked by a single red balloon, with a large, textured red brush-stroke title floating behind his head against a blurred urban background.",
+    "coreVisualRelationships": [
+      "Subject centered in the lower two-thirds of the frame",
+      "Large-scale typography acting as a halo or backdrop for the subject's head",
+      "High contrast between the vibrant red elements and the muted, grainy city tones",
+      "Linear perspective of the street receding into a soft bokeh background"
+    ],
+    "coreInvariants": [
+      "Heavy film grain and vintage color grading",
+      "Textured, rough-edged brush stroke typography",
+      "Low-angle, wide-aperture photography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centrally located, seated, occupying the middle and lower foreground.",
+      "visualAnchor": "The subject's face and the large red script title.",
+      "movementAndEyePath": "Starts at the subject's face, moves up to the large red script, then follows the balloon string to the left.",
+      "negativeSpace": "The upper third of the image is occupied by the blurred city buildings and the large title."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted urban grays and browns (background)",
+      "contrastColorRole": "Bright white (tank top and street markings)",
+      "accentColorRole": "Vibrant crimson red (typography and balloon)",
+      "saturationAndValueRelationship": "High saturation in the red accents against a desaturated, grainy background.",
+      "paletteRestrictions": [
+        "Red",
+        "White",
+        "Gray",
+        "Denim Blue"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Expressive cursive script",
+      "letterConstructionRules": [
+        "Thick, aggressive brush strokes",
+        "Visible dry-brush texture and splatters",
+        "Irregular, organic baseline",
+        "High verticality in ascenders"
+      ],
+      "characterSpecificRedesigns": [
+        "Oversized initial and terminal characters to frame the subject"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed to normal",
+            "weight": "heavy",
+            "contrast": "high",
+            "xHeight": "variable",
+            "terminals": "frayed/brushed",
+            "corners": "rough",
+            "counters": "tight",
+            "strokeCharacter": "painterly"
+          },
+          "typesetting": {
+            "case": "mixed-case script",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper center",
+            "scale": "large",
+            "rotation": "slight upward tilt",
+            "warp": "none",
+            "overlap": "behind subject's head",
+            "relationshipToImage": "integrated backdrop"
+          },
+          "treatment": {
+            "fill": "solid red with texture",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "dry brush",
+            "distortion": "natural hand-drawn jitter"
+          }
+        }
+      ],
+      "pairingStrategy": "Single dominant expressive script paired with small, functional sans-serif metadata.",
+      "graphicDevices": [
+        "Film grain overlay",
+        "Light leaks",
+        "Red balloon as a secondary focal point"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Brush texture",
+          "Red color",
+          "Script style"
+        ],
+        "avoid": [
+          "Clean vector lines",
+          "Geometric sans-serifs for display",
+          "Neon effects"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Street Brush",
+            "reason": "Captures the raw, textured energy of the original lettering.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Rough Cursive",
+            "reason": "Maintains the connected, expressive flow of the script.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A low-angle, grainy photograph of a man in a white tank top sitting in the middle of a New York City street. A single red balloon floats to his left. The background is a blurred city perspective with warm light leaks.",
+        "overlayInstruction": "Apply a large, textured red brush-script title across the top half of the image, positioned slightly behind the subject's head. Add a small 'Parental Advisory' logo in the bottom right corner."
+      },
+      "verificationChecks": [
+        "Is the red script textured and painterly?",
+        "Is the perspective low-angle and centered?",
+        "Is there a visible film grain across the entire image?",
+        "Does the text sit behind the subject's head?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of film grain",
+      "Scale of the red balloon",
+      "Color of the brush script",
+      "Depth of field in the background"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact brand logos on clothing",
+      "Specific street signage text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic dry-brush texture in typography",
+        "Consistent film-style grain",
+        "Strong central symmetry"
+      ],
+      "avoid": [
+        "Plastic-looking digital gradients",
+        "Perfectly smooth vector edges",
+        "Overly bright, modern color palettes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the red script does not obscure the subject's face.",
+      "Check that the film grain doesn't muddy the white tank top too much.",
+      "Verify the red of the balloon matches the red of the typography."
+    ],
+    "reuseFormula": "Urban Portrait + Low Angle + Textured Brush Script + Film Grain + Single Color Accent"
+  }
+}

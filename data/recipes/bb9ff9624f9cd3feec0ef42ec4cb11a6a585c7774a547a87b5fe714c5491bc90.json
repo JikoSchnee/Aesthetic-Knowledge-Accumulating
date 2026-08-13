@@ -1,0 +1,256 @@
+{
+  "id": "bb9ff9624f9cd3feec0ef42ec4cb11a6a585c7774a547a87b5fe714c5491bc90",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T19:54:23.161Z",
+  "approvedAt": "2026-08-11T19:54:23.161Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T19:54:23.161Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Donny.jpg",
+    "hash": "bb9ff9624f9cd3feec0ef42ec4cb11a6a585c7774a547a87b5fe714c5491bc90",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Donny",
+    "artist": "Donny Osmond",
+    "artworkUrl": "https://coverartarchive.org/release-group/61b16e23-ba65-49cb-80dc-09a3eabb3610/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/61b16e23-ba65-49cb-80dc-09a3eabb3610",
+    "releaseGroupId": "61b16e23-ba65-49cb-80dc-09a3eabb3610",
+    "recordingId": "0541b4ab-ed0c-4a0e-88a4-a98270df3291",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I Have A DreamDonny Osmond",
+      "song": "I Have A Dream",
+      "performer": "Donny Osmond",
+      "peakPosition": 50,
+      "firstChartDate": "1975-02-15",
+      "lastChartDate": "1975-03-29",
+      "appearances": [
+        {
+          "chartDate": "1975-02-15",
+          "position": 89
+        },
+        {
+          "chartDate": "1975-02-22",
+          "position": 79
+        },
+        {
+          "chartDate": "1975-03-01",
+          "position": 75
+        },
+        {
+          "chartDate": "1975-03-08",
+          "position": 65
+        },
+        {
+          "chartDate": "1975-03-15",
+          "position": 59
+        },
+        {
+          "chartDate": "1975-03-22",
+          "position": 56
+        },
+        {
+          "chartDate": "1975-03-29",
+          "position": 50
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro pop portrait with diagonal graphic 1970s pop music argyle sweater diagonal typography soft focus portrait warm studio lighting subject centered vertically with a slight lean to the right diagonal text element counterbalancing the subject s posture high contrast between white clothing and dark background warm directional lighting creating soft shadows on the face combine a warm toned 70s studio portrait with a bold 45 degree diagonal graphic element in the upper quadrant to create a retro pop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Pop Portrait with Diagonal Graphic",
+      "category": "Album Art",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Vintage Style Poster",
+        "Retro Editorial Layout"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "pop music",
+        "argyle sweater",
+        "diagonal typography",
+        "soft focus portrait",
+        "warm studio lighting"
+      ]
+    },
+    "visualDefinition": "A medium-shot studio portrait of a smiling male figure in 1970s attire, set against a dark, moody background with a prominent, stylized diagonal text element in the upper left corner.",
+    "coreVisualRelationships": [
+      "Subject centered vertically with a slight lean to the right",
+      "Diagonal text element counterbalancing the subject's posture",
+      "High contrast between white clothing and dark background",
+      "Warm, directional lighting creating soft shadows on the face"
+    ],
+    "coreInvariants": [
+      "Argyle pattern vest in red and black",
+      "White dress shirt with a white bow tie",
+      "Dark, voluminous 1970s hairstyle",
+      "Green diagonal graphic bar behind the main text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the central two-thirds of the frame, from waist up.",
+      "visualAnchor": "The subject's face and bright white bow tie.",
+      "movementAndEyePath": "Starts at the diagonal text in the top left, follows the angle down to the subject's face, then down the white shirt sleeves.",
+      "negativeSpace": "Deep brown/black negative space surrounds the subject, emphasizing the studio lighting effect."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep brown and black background for mood and depth.",
+      "contrastColorRole": "Bright white in the shirt, pants, and bow tie for high visibility.",
+      "accentColorRole": "Kelly green in the graphic element and red in the argyle pattern.",
+      "saturationAndValueRelationship": "Low saturation in the background with high value contrast in the subject's clothing.",
+      "paletteRestrictions": [
+        "Forest green",
+        "Crimson red",
+        "Stark white",
+        "Deep umber"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Script-influenced sans-serif",
+      "letterConstructionRules": [
+        "Letters are slanted at a 45-degree angle",
+        "Strokes are of uniform thickness with rounded ends",
+        "Horizontal 'speed lines' or striations cut through the letters",
+        "White fill with a thick green drop shadow/extrusion"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are integrated into a thick green diagonal banner",
+        "The 'D' has a large open counter",
+        "The 'Y' has a long, straight descender following the diagonal axis"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "custom-script-display",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Rounded",
+            "corners": "Softened",
+            "counters": "Open",
+            "strokeCharacter": "Tubular"
+          },
+          "typesetting": {
+            "case": "Mixed-case",
+            "alignment": "Left-aligned on a diagonal",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top left corner",
+            "scale": "Large",
+            "rotation": "45 degrees",
+            "warp": "None",
+            "overlap": "Overlays the background",
+            "relationshipToImage": "Independent graphic element"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "Thick green 3D extrusion",
+            "depth": "Deep",
+            "texture": "Clean vector",
+            "distortion": "Sheared"
+          }
+        }
+      ],
+      "pairingStrategy": "Single dominant custom graphic; no secondary text.",
+      "graphicDevices": [
+        "Diagonal green bar with white border lines",
+        "3D extrusion effect on lettering"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Diagonal orientation",
+          "Green and white color scheme",
+          "Horizontal striations through the letters"
+        ],
+        "avoid": [
+          "Standard horizontal typesetting",
+          "Serif fonts",
+          "Thin strokes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Blippo or Bauhaus style",
+            "reason": "Rounded, geometric 70s feel",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Custom vector script",
+            "reason": "To capture the specific slanted, striated look",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A studio portrait of a man with dark 70s hair, wearing a white shirt, white bow tie, and a red/black argyle vest, standing against a dark brown gradient background with warm lighting.",
+        "overlayInstruction": "Add a large diagonal text element in the top left corner at a 45-degree angle. The text should be white with horizontal lines through it, sitting on a thick green 3D extruded bar."
+      },
+      "verificationChecks": [
+        "Is the text angled exactly at 45 degrees?",
+        "Does the argyle pattern use red and black diamonds?",
+        "Is the lighting soft and warm on the subject's face?",
+        "Is the green color a vibrant Kelly green?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's pose",
+      "Intensity of the green extrusion",
+      "Density of the argyle pattern",
+      "Warmth of the studio lighting"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Any brand logos in the corners",
+      "Exact wording of the text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s studio lighting",
+        "Clean, sharp vector graphic for the text",
+        "Balanced diagonal composition"
+      ],
+      "avoid": [
+        "Modern digital sharpness",
+        "Flat, unlit backgrounds",
+        "Standard horizontal fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the white bow tie is a focal point",
+      "Check that the green diagonal does not touch the subject",
+      "Verify the 70s hair volume is maintained",
+      "Confirm the background is a dark, warm gradient"
+    ],
+    "reuseFormula": "Combine a warm-toned 70s studio portrait with a bold, 45-degree diagonal graphic element in the upper quadrant to create a retro pop aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:21:00.914Z"
+}

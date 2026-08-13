@@ -1,0 +1,269 @@
+{
+  "id": "7bfb778a1b9d10f2ec19be55a4a1c4835083d59561ddde38619091a569cac503",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:13:27.178Z",
+  "approvedAt": "2026-08-11T15:13:27.178Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:13:27.178Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Bobby Tarantino.jpg",
+    "hash": "7bfb778a1b9d10f2ec19be55a4a1c4835083d59561ddde38619091a569cac503",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Bobby Tarantino",
+    "artist": "Logic",
+    "artworkUrl": "https://coverartarchive.org/release-group/a08b2ff1-e367-4ee2-bb65-d860a5e2c31e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a08b2ff1-e367-4ee2-bb65-d860a5e2c31e",
+    "releaseGroupId": "a08b2ff1-e367-4ee2-bb65-d860a5e2c31e",
+    "recordingId": "055e8a4a-eefe-4afb-8f1d-b91541e0a0be",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "FlexicutionLogic",
+      "song": "Flexicution",
+      "performer": "Logic",
+      "peakPosition": 100,
+      "firstChartDate": "2016-07-23",
+      "lastChartDate": "2016-07-23",
+      "appearances": [
+        {
+          "chartDate": "2016-07-23",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage pulp illustration album cover retro pulp distressed paper texture cinematic lighting streetwear portrait vintage vinyl aesthetic subject centered within a teal armchair against a dark moody interior bright red header bar contrasting with yellow display typography heavy distressing including corner scuffs and surface scratches unifying the composition strong directional light creating sharp shadows and highlights on the figure s clothing pulp style digital painting primary color blocking distressed paper overlay geometric display typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Pulp Illustration Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Digital Painting",
+        "Gouache Illustration",
+        "Distressed Print Effect"
+      ],
+      "useCases": [
+        "Album Artwork",
+        "Poster Design",
+        "Editorial Illustration"
+      ],
+      "retrievalTags": [
+        "retro pulp",
+        "distressed paper texture",
+        "cinematic lighting",
+        "streetwear portrait",
+        "vintage vinyl aesthetic"
+      ]
+    },
+    "visualDefinition": "A high-contrast digital painting mimicking a vintage pulp paperback or worn vinyl sleeve. It features a central male figure in a seated, confrontational pose, illuminated by dramatic side-lighting through blinds, set against a deep teal and red color palette with heavy textural weathering.",
+    "coreVisualRelationships": [
+      "Subject centered within a teal armchair against a dark, moody interior",
+      "Bright red header bar contrasting with yellow display typography",
+      "Heavy distressing, including corner scuffs and surface scratches, unifying the composition",
+      "Strong directional light creating sharp shadows and highlights on the figure's clothing"
+    ],
+    "coreInvariants": [
+      "Worn paper texture with white edge scuffing",
+      "High-contrast gouache-style brushwork",
+      "Primary color blocking (Red header, Teal furniture, Yellow text)"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central medium shot of a seated figure, occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The figure's face and the bright yellow text in the red header.",
+      "movementAndEyePath": "From the bold header text down to the subject's face, following the light across the torso to the red trousers.",
+      "negativeSpace": "Dark, cluttered background elements (plants, posters) recede into deep shadows to emphasize the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Teal (furniture and shadows)",
+      "contrastColorRole": "Bold Red (header bar and trousers)",
+      "accentColorRole": "Mustard Yellow (typography and highlights)",
+      "saturationAndValueRelationship": "High value contrast between lit skin/clothing and deep background shadows; high saturation in the primary color blocks.",
+      "paletteRestrictions": [
+        "Teal",
+        "Crimson",
+        "Mustard",
+        "Off-white",
+        "Deep Charcoal"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Square proportions",
+        "Tight kerning",
+        "Sharp, unbracketed corners"
+      ],
+      "characterSpecificRedesigns": [
+        "None; focus is on the distressed texture applied over the glyphs"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top third, within red bar",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlays the background header color"
+          },
+          "treatment": {
+            "fill": "Mustard Yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Distressed/Scuffed",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Script",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Curled",
+            "corners": "Rounded",
+            "counters": "Closed",
+            "strokeCharacter": "Fluid"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Centered",
+            "tracking": "Normal",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top center, above display text",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in header"
+          },
+          "treatment": {
+            "fill": "Dark Charcoal",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold geometric sans-serif for impact paired with a delicate, dark script for a 'presented by' credit feel.",
+      "graphicDevices": [
+        "Solid color header bar",
+        "Faux-crease lines",
+        "Corner wear/scuffing"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase geometric weight",
+          "Yellow-on-red color scheme"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Drop shadows",
+          "Clean, modern digital gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Bold or Montserrat",
+            "reason": "Provides the necessary geometric weight and modern-retro balance.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Classic geometric choice that fits the vintage pulp aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A digital painting of a young man in a white t-shirt and red trousers sitting in a teal armchair. Use gouache-style brushes. Lighting should be dramatic side-light through window blinds. The top 20% of the image should be a solid red bar. Apply a heavy distressed paper texture with white scuffs on the corners and edges.",
+        "overlayInstruction": "Add large, mustard-yellow geometric sans-serif text centered in the red bar. Add a small dark script line above it. Apply a subtle 'scratched' texture overlay to the yellow text to match the background weathering."
+      },
+      "verificationChecks": [
+        "Is the header bar a solid red?",
+        "Does the text have a weathered, scuffed appearance?",
+        "Is the lighting on the figure consistent with window blinds?",
+        "Are the corners of the image showing 'paper wear'?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of paper distressing",
+      "Subject's clothing color",
+      "Background clutter density",
+      "Font weight of the display text"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact titles or names",
+      "Specific background posters or logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Hand-painted gouache texture",
+        "Convincing vintage paper weathering",
+        "Strong primary color contrast"
+      ],
+      "avoid": [
+        "Clean vector lines",
+        "Soft airbrushed gradients",
+        "Modern digital glow effects"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the yellow text is perfectly centered in the red bar.",
+      "Verify the teal of the chair is deep and desaturated.",
+      "Check that the white scuff marks look like physical paper damage.",
+      "Confirm the script text is legible but secondary."
+    ],
+    "reuseFormula": "Pulp-style digital painting + Primary color blocking + Distressed paper overlay + Geometric display typography."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:13:35.268Z"
+}

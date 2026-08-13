@@ -1,0 +1,231 @@
+{
+  "id": "11b47e8fd7017bbd5e76632dddb242c01984eb2f305eb79f9b892f10e288c675",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:19:03.874Z",
+  "approvedAt": "2026-08-11T09:19:03.874Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:19:03.874Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Suicide Squad: The Album.jpg",
+    "hash": "11b47e8fd7017bbd5e76632dddb242c01984eb2f305eb79f9b892f10e288c675",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Suicide Squad: The Album",
+    "artist": "Panic! At The Disco",
+    "artworkUrl": "https://coverartarchive.org/release-group/ce3b8474-969e-4b4c-ba02-421c68bd65dc/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ce3b8474-969e-4b4c-ba02-421c68bd65dc",
+    "releaseGroupId": "ce3b8474-969e-4b4c-ba02-421c68bd65dc",
+    "recordingId": "6a068c51-2040-4eb6-b4ae-a1f4096307fa",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Bohemian RhapsodyPanic! At The Disco",
+      "song": "Bohemian Rhapsody",
+      "performer": "Panic! At The Disco",
+      "peakPosition": 64,
+      "firstChartDate": "2016-08-27",
+      "lastChartDate": "2016-08-27",
+      "appearances": [
+        {
+          "chartDate": "2016-08-27",
+          "position": 64
+        }
+      ]
+    }
+  },
+  "dedupeText": "grungy comic skull collage grunge skull stencil splatter urban comic book textured vibrant skulls act as a framing device for the central text high contrast dark silhouettes against a bright textured background radial symmetry in character placement creates a focal vortex distressed textures unify disparate character designs circular framing distressed typography urban splatter texture",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Grungy Comic Skull Collage",
+      "category": "Graphic Design",
+      "medium": [
+        "Digital Illustration",
+        "Stencil Art",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Poster Design",
+        "Streetwear Graphics"
+      ],
+      "retrievalTags": [
+        "grunge",
+        "skull",
+        "stencil",
+        "splatter",
+        "urban",
+        "comic book",
+        "textured",
+        "vibrant"
+      ]
+    },
+    "visualDefinition": "A high-energy, chaotic collage of stylized character skulls arranged in a circular perimeter around central typography. The aesthetic combines street-art stencils with vibrant, textured gradients and heavy ink splatters on a weathered, parchment-like background.",
+    "coreVisualRelationships": [
+      "Skulls act as a framing device for the central text",
+      "High-contrast dark silhouettes against a bright, textured background",
+      "Radial symmetry in character placement creates a focal vortex",
+      "Distressed textures unify disparate character designs"
+    ],
+    "coreInvariants": [
+      "Heavy ink splatter and spray paint textures",
+      "Stylized skull motifs with character-specific accessories",
+      "A warm, textured yellow-to-pink gradient background",
+      "Rough, distressed edges on all graphic elements"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central large-scale typography surrounded by smaller, equally-weighted character icons.",
+      "visualAnchor": "The large, two-line title text in the center.",
+      "movementAndEyePath": "Circular path following the skulls around the perimeter, leading inward to the central text.",
+      "negativeSpace": "Minimal; the composition is dense with splatters and icons, using the yellow background as a textured void."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm yellow and peach background with heavy texture.",
+      "contrastColorRole": "Deep black and dark purple for the primary skull silhouettes.",
+      "accentColorRole": "Vibrant green, red, and teal used for character details and secondary text.",
+      "saturationAndValueRelationship": "High saturation in the accents against a muted, grimy background value.",
+      "paletteRestrictions": [
+        "Avoid clean whites",
+        "Use only weathered, desaturated primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy, condensed sans-serif",
+      "letterConstructionRules": [
+        "Thick, uniform stroke weights",
+        "Rough, eroded edges simulating woodblock or stencil printing",
+        "Tight kerning with slight baseline shifts for a jittery feel"
+      ],
+      "characterSpecificRedesigns": [
+        "Integration of a small skull icon into the counter of a central letter",
+        "Distressed 'eroded' cutouts within the letterforms"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "distressed-sans",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "extra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "slightly rounded/eroded",
+            "counters": "small",
+            "strokeCharacter": "textured"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "two-line stack",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "center",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "slight overlap with background splatters",
+            "relationshipToImage": "central focus"
+          },
+          "treatment": {
+            "fill": "dark red/brown gradient",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "grungy/eroded",
+            "distortion": "weathered"
+          }
+        }
+      ],
+      "pairingStrategy": "A mix of heavy display sans for the title and smaller, cleaner sans-serifs for metadata to maintain legibility.",
+      "graphicDevices": [
+        "Ink splatters",
+        "Halftone dots",
+        "Stencil spray effects",
+        "Distressed paper texture"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Eroded texture",
+          "Heavy weight"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Clean geometric sans",
+          "Serif fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Knockout (Distressed)",
+            "reason": "Provides the necessary weight and condensed profile.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Stencil fonts",
+            "reason": "Matches the urban/street art aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a collage of 10-12 stylized, character-themed skulls arranged in a circle. Use a vibrant, grungy color palette with heavy ink splatters and a weathered yellow/pink background. Leave the center open.",
+        "overlayInstruction": "Apply a large, two-line condensed sans-serif title in the center with a distressed, eroded texture and a dark red gradient fill."
+      },
+      "verificationChecks": [
+        "Is the texture consistent across text and icons?",
+        "Do the splatters overlap the elements naturally?",
+        "Is the central text the clear hierarchy leader?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Skull character themes",
+      "Background gradient colors",
+      "Intensity of ink splatters",
+      "Degree of font erosion"
+    ],
+    "mustRedesign": [
+      "Specific character logos",
+      "Exact skull facial features",
+      "Original brand-specific icons"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast urban grit",
+        "Dynamic circular composition",
+        "Tactile weathered texture"
+      ],
+      "avoid": [
+        "Clean digital vectors",
+        "Solid, untextured colors",
+        "Symmetrical perfection"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 'dirty' texture on all edges",
+      "Ensure color vibrancy is maintained despite the grunge",
+      "Verify central text legibility against the busy background"
+    ],
+    "reuseFormula": "Circular framing + Distressed Typography + Urban Splatter Texture"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:45:51.969Z"
+}

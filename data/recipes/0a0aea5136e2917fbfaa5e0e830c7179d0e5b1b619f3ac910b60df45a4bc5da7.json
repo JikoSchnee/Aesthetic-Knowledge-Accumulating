@@ -1,0 +1,285 @@
+{
+  "id": "0a0aea5136e2917fbfaa5e0e830c7179d0e5b1b619f3ac910b60df45a4bc5da7",
+  "skillId": "0a0aea5136e2917fbfaa5e0e830c7179d0e5b1b619f3ac910b60df45a4bc5da7",
+  "versionId": "0a0aea5136e2917fbfaa5e0e830c7179d0e5b1b619f3ac910b60df45a4bc5da7",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T02:32:15.627Z",
+  "approvedAt": "2026-08-13T02:32:15.627Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T02:32:15.627Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Monkey Island.jpg",
+    "hash": "0a0aea5136e2917fbfaa5e0e830c7179d0e5b1b619f3ac910b60df45a4bc5da7",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Monkey Island",
+    "artist": "Geils",
+    "artworkUrl": "https://coverartarchive.org/release-group/82c79476-2280-3f67-bc66-ffb733fc419a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/82c79476-2280-3f67-bc66-ffb733fc419a",
+    "releaseGroupId": "82c79476-2280-3f67-bc66-ffb733fc419a",
+    "recordingId": "5128ec9d-54d3-485e-9f29-4cec4a0c667d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "You're The Only OneGeils",
+      "song": "You're The Only One",
+      "performer": "Geils",
+      "peakPosition": 83,
+      "firstChartDate": "1977-08-20",
+      "lastChartDate": "1977-09-03",
+      "appearances": [
+        {
+          "chartDate": "1977-08-20",
+          "position": 83
+        },
+        {
+          "chartDate": "1977-08-27",
+          "position": 83
+        },
+        {
+          "chartDate": "1977-09-03",
+          "position": 88
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast grainy silhouette portrait stark silhouette high contrast black and white film grain texture italic serif typography negative space composition dominant central silhouette vs peripheral secondary figures stark black shapes vs textured white negative space large display typography vs small metadata text sharp figure outlines vs coarse film grain texture high contrast silhouette heavy film grain slanted transitional serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Grainy Silhouette Portrait",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Screen Print",
+        "Halftone Lithography"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Noir Poster Design",
+        "Minimalist Editorial Illustration"
+      ],
+      "retrievalTags": [
+        "stark silhouette",
+        "high contrast black and white",
+        "film grain texture",
+        "italic serif typography",
+        "negative space composition"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Generates stark, high-contrast black and white compositions featuring deep black silhouettes against a textured white background with sharp italic serif typography.",
+      "triggerTerms": [
+        "stark black and white silhouette",
+        "grainy noir portrait",
+        "high contrast halftone aesthetic"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "soft gradients are needed",
+        "modern sans-serif branding is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A minimalist, high-contrast graphic style defined by a central, large-scale black silhouette of a figure in profile, surrounded by smaller, partially visible figures, all set against a heavily grained white field with elegant, slanted serif type.",
+    "coreVisualRelationships": [
+      "Dominant central silhouette vs. peripheral secondary figures",
+      "Stark black shapes vs. textured white negative space",
+      "Large display typography vs. small metadata text",
+      "Sharp figure outlines vs. coarse film grain texture"
+    ],
+    "coreInvariants": [
+      "Strict monochromatic black and white palette",
+      "Heavy film grain or halftone noise throughout",
+      "Total loss of detail in shadow areas (pure black)"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A primary silhouette occupies the center-right, scaled to nearly the full height of the frame.",
+      "visualAnchor": "The large, dark mass of the central figure's torso and head.",
+      "movementAndEyePath": "Eyes start at the large top-left typography, move down the central silhouette, and settle on the smaller faces in the lower corners.",
+      "negativeSpace": "Expansive white space on the left and right edges, treated with heavy grain to prevent flatness."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure Black (#000000) for all subjects and text.",
+      "contrastColorRole": "Textured White (#FFFFFF) for the background field.",
+      "accentColorRole": "None",
+      "saturationAndValueRelationship": "Binary value system with no mid-tones except those created by grain density.",
+      "paletteRestrictions": [
+        "Black and White only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional serif with extreme slant.",
+      "letterConstructionRules": [
+        "Italicized or slanted at approximately 15 degrees",
+        "High stroke contrast between thicks and thins",
+        "Sharp, bracketed serifs",
+        "Tight letter spacing with occasional touch-points"
+      ],
+      "characterSpecificRedesigns": [
+        "Uppercase 'G' with a deep, curved bowl",
+        "Uppercase 'S' with sharp, pointed terminals"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top Left",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Sharp",
+            "counters": "Small",
+            "strokeCharacter": "Traditional"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Bottom Right",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Consistent use of the same serif family in different scales and weights.",
+      "graphicDevices": [
+        "Heavy film grain overlay",
+        "High-contrast thresholding"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Italic slant",
+          "High stroke contrast",
+          "Serif style"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Low contrast slabs",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni Italic",
+            "reason": "Matches the high contrast and sharp serifs.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Didot Bold Italic",
+            "reason": "Provides the necessary elegance and vertical stress.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white image featuring a large central silhouette of a man in profile. Add two smaller, grainy faces in the lower corners. Apply a heavy film grain or halftone texture to the entire white background.",
+        "overlayInstruction": "Add large, bold, italicized serif text in the top left corner and small, matching serif text in the bottom right corner, both in solid black."
+      },
+      "verificationChecks": [
+        "Is the image strictly black and white?",
+        "Is there a heavy grain texture visible in the white areas?",
+        "Is the typography slanted and high-contrast serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Grain density",
+      "Silhouette scale",
+      "Typography slant angle"
+    ],
+    "mustRedesign": [
+      "Any mid-tone gray gradients",
+      "Modern sans-serif typefaces",
+      "Clean, digital-looking backgrounds"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Stark binary contrast",
+        "Visible film grain",
+        "Balanced negative space"
+      ],
+      "avoid": [
+        "Blurry edges",
+        "Low-resolution artifacts",
+        "Cluttered compositions"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure black shadows without detail",
+      "Verify the italic angle of the display text",
+      "Ensure the grain is uniform across the white field",
+      "Confirm the peripheral figures do not distract from the main silhouette"
+    ],
+    "reuseFormula": "High-contrast silhouette + heavy film grain + slanted transitional serif typography."
+  }
+}

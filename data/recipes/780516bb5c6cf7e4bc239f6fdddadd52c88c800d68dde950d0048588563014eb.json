@@ -1,0 +1,257 @@
+{
+  "id": "780516bb5c6cf7e4bc239f6fdddadd52c88c800d68dde950d0048588563014eb",
+  "skillId": "780516bb5c6cf7e4bc239f6fdddadd52c88c800d68dde950d0048588563014eb",
+  "versionId": "780516bb5c6cf7e4bc239f6fdddadd52c88c800d68dde950d0048588563014eb",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T11:22:59.585Z",
+  "approvedAt": "2026-08-12T11:22:59.585Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T11:22:59.585Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Painting Pictures.jpg",
+    "hash": "780516bb5c6cf7e4bc239f6fdddadd52c88c800d68dde950d0048588563014eb",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Painting Pictures",
+    "artist": "Kodak Black",
+    "artworkUrl": "https://coverartarchive.org/release-group/e8fbb50c-1bc5-4f0d-b336-28046155e093/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e8fbb50c-1bc5-4f0d-b336-28046155e093",
+    "releaseGroupId": "e8fbb50c-1bc5-4f0d-b336-28046155e093",
+    "recordingId": "b809e069-44f7-4e7a-b72c-9b9cb1b4d839",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Patty CakeKodak Black",
+      "song": "Patty Cake",
+      "performer": "Kodak Black",
+      "peakPosition": 76,
+      "firstChartDate": "2017-08-26",
+      "lastChartDate": "2017-09-09",
+      "appearances": [
+        {
+          "chartDate": "2017-08-26",
+          "position": 76
+        },
+        {
+          "chartDate": "2017-09-02",
+          "position": 86
+        },
+        {
+          "chartDate": "2017-09-09",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban graffiti illustration album art graffiti wall cartoon portrait orange and black hand drawn lettering street art aesthetic character in foreground interacting with a canvas dense graffiti background contrasting with solid top header repetitive orange linework on dark charcoal walls central easel acting as a secondary focal point combine a solid color header with a dark textured background filled with hand drawn scribbles in the header color place a stylized character in the foreground with high contrast accents like gold to create an urban hip hop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Graffiti Illustration Album Art",
+      "category": "Illustration",
+      "medium": [
+        "Digital Illustration",
+        "Graffiti Art",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Hip-hop album covers",
+        "Streetwear brand graphics",
+        "Urban lifestyle posters"
+      ],
+      "retrievalTags": [
+        "graffiti wall",
+        "cartoon portrait",
+        "orange and black",
+        "hand-drawn lettering",
+        "street art aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A vibrant urban illustration featuring a stylized character in front of a wall densely covered in hand-drawn graffiti and scribbles.",
+      "triggerTerms": [
+        "graffiti wall background",
+        "hand-drawn urban illustration",
+        "scribble art style",
+        "cartoon character with gold teeth"
+      ],
+      "excludeWhen": [
+        "clean minimalist designs",
+        "photorealistic portraits",
+        "corporate branding"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A flat-style cartoon character with prominent gold teeth and jewelry sits in the foreground, positioned against a dark corner wall that is completely saturated with orange hand-drawn tags, lyrics, and symbols. The top third of the composition is a solid, vibrant orange block.",
+    "coreVisualRelationships": [
+      "Character in foreground interacting with a canvas",
+      "Dense graffiti background contrasting with solid top header",
+      "Repetitive orange linework on dark charcoal walls",
+      "Central easel acting as a secondary focal point"
+    ],
+    "coreInvariants": [
+      "High-contrast orange and charcoal color palette",
+      "Hand-drawn, non-uniform scribble texture across the background",
+      "Stylized character with simplified geometric features"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The main character is in the lower-left foreground, scaled to occupy about one-third of the width, while the easel is centered.",
+      "visualAnchor": "The character's bright yellow gold teeth and the white canvas in the center.",
+      "movementAndEyePath": "Eyes move from the solid orange header down to the large text, then follow the graffiti patterns to the character and the central canvas.",
+      "negativeSpace": "Minimal; the solid orange top bar provides the only significant area of visual rest."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant Orange (background accents and header)",
+      "contrastColorRole": "Charcoal/Dark Grey (wall surfaces)",
+      "accentColorRole": "Bright Yellow (gold jewelry and teeth)",
+      "saturationAndValueRelationship": "High saturation orange against low-value dark grey creates a glowing, neon-like effect for the graffiti.",
+      "paletteRestrictions": [
+        "Orange",
+        "Charcoal",
+        "White",
+        "Yellow",
+        "Red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Hand-drawn block letters and cursive scripts",
+      "letterConstructionRules": [
+        "Inconsistent stroke widths",
+        "Wobbly, hand-drawn outlines",
+        "Letters often outlined in orange with no fill",
+        "Varying scales and orientations to mimic street tags"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters integrated into banners or underlined with jagged strokes"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "hand-drawn",
+          "anatomy": {
+            "width": "variable",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "irregular",
+            "counters": "open",
+            "strokeCharacter": "marker-like"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "loose",
+            "leading": "tight",
+            "lineBreakPattern": "manual",
+            "density": "high"
+          },
+          "composition": {
+            "position": "upper right quadrant",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "layered over the wall texture"
+          },
+          "treatment": {
+            "fill": "none",
+            "outline": "orange stroke",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "hand-drawn",
+            "distortion": "organic"
+          }
+        }
+      ],
+      "pairingStrategy": "Layering large outlined block letters with smaller, dense cursive 'tags' to create a chaotic urban texture.",
+      "graphicDevices": [
+        "Banners",
+        "Crosses",
+        "Scribbled underlines",
+        "Repetitive text patterns"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Hand-drawn feel",
+          "Outline-only style for large text",
+          "Orange color"
+        ],
+        "avoid": [
+          "Clean sans-serifs",
+          "Perfectly straight lines",
+          "Standard digital fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Graffiti Tag Style",
+            "reason": "Matches the street art aesthetic of the background",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Marker Sketch",
+            "reason": "Mimics the raw, unpolished look of the scribbles",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a digital illustration of a dark charcoal room corner with a solid orange top border. Fill the walls with dense, orange hand-drawn graffiti, scribbles, and symbols. Place a cartoon character with gold teeth in the lower left and a white canvas on an easel in the center.",
+        "overlayInstruction": "Add large, hand-drawn orange outlined block lettering in the upper right area. Scatter smaller cursive tags and repetitive text patterns across the remaining wall space to complete the graffiti effect."
+      },
+      "verificationChecks": [
+        "Is the top bar a solid, flat orange?",
+        "Does the graffiti look hand-drawn rather than typeset?",
+        "Is the contrast between the orange lines and charcoal wall high?",
+        "Are the gold teeth a prominent visual anchor?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of graffiti",
+      "Character pose",
+      "Primary accent color",
+      "Text content of the tags"
+    ],
+    "mustRedesign": [
+      "Any specific logos or brand-identifying marks",
+      "The specific facial features of the character to avoid likeness issues",
+      "The exact wording of the background tags"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Raw, street-art energy",
+        "Vibrant color contrast",
+        "Intentional 'messy' texture"
+      ],
+      "avoid": [
+        "Clean vector lines",
+        "Symmetrical layouts",
+        "Muted or pastel colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the orange text is legible against the dark background",
+      "Check that the character's gold teeth are bright yellow",
+      "Verify the 'corner' perspective of the walls is maintained",
+      "Confirm the top orange bar is perfectly horizontal and solid",
+      "Ensure no real-world logos are present"
+    ],
+    "reuseFormula": "Combine a [solid color header] with a [dark textured background] filled with [hand-drawn scribbles in the header color]. Place a [stylized character] in the foreground with [high-contrast accents like gold] to create an urban hip-hop aesthetic."
+  }
+}

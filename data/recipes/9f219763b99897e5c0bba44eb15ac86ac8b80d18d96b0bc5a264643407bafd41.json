@@ -1,0 +1,279 @@
+{
+  "id": "9f219763b99897e5c0bba44eb15ac86ac8b80d18d96b0bc5a264643407bafd41",
+  "skillId": "9f219763b99897e5c0bba44eb15ac86ac8b80d18d96b0bc5a264643407bafd41",
+  "versionId": "9f219763b99897e5c0bba44eb15ac86ac8b80d18d96b0bc5a264643407bafd41",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:00:01.685Z",
+  "approvedAt": "2026-08-12T06:00:01.685Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:00:01.685Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "He Don't Love You, Like I Love You.jpg",
+    "hash": "9f219763b99897e5c0bba44eb15ac86ac8b80d18d96b0bc5a264643407bafd41",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "He Don't Love You, Like I Love You",
+    "artist": "Tony Orlando & Dawn",
+    "artworkUrl": "https://coverartarchive.org/release-group/f7759708-7af3-46cb-a88a-63d0407724ed/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f7759708-7af3-46cb-a88a-63d0407724ed",
+    "releaseGroupId": "f7759708-7af3-46cb-a88a-63d0407724ed",
+    "recordingId": "75390f10-6dc8-4664-9926-257867011959",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Mornin' BeautifulTony Orlando & Dawn",
+      "song": "Mornin' Beautiful",
+      "performer": "Tony Orlando & Dawn",
+      "peakPosition": 14,
+      "firstChartDate": "1975-06-21",
+      "lastChartDate": "1975-08-23",
+      "appearances": [
+        {
+          "chartDate": "1975-06-21",
+          "position": 82
+        },
+        {
+          "chartDate": "1975-06-28",
+          "position": 72
+        },
+        {
+          "chartDate": "1975-07-05",
+          "position": 48
+        },
+        {
+          "chartDate": "1975-07-12",
+          "position": 34
+        },
+        {
+          "chartDate": "1975-07-19",
+          "position": 24
+        },
+        {
+          "chartDate": "1975-07-26",
+          "position": 20
+        },
+        {
+          "chartDate": "1975-08-02",
+          "position": 18
+        },
+        {
+          "chartDate": "1975-08-09",
+          "position": 14
+        },
+        {
+          "chartDate": "1975-08-16",
+          "position": 14
+        },
+        {
+          "chartDate": "1975-08-23",
+          "position": 45
+        }
+      ]
+    }
+  },
+  "dedupeText": "seventies studio portrait with script header 1970s photography high key background trio portrait monoline script wooden chair prop earth tones central figure framed by wooden chair geometry symmetrical flanking of secondary subjects typography spanning the top horizontal margin high contrast subjects against a pure white void studio trio high key white monoline script header framing prop",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Seventies Studio Portrait with Script Header",
+      "category": "Album Art",
+      "medium": [
+        "Studio Photography",
+        "Custom Lettering"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Editorial Fashion Layouts",
+        "Retro Promotional Posters"
+      ],
+      "retrievalTags": [
+        "1970s photography",
+        "high-key background",
+        "trio portrait",
+        "monoline script",
+        "wooden chair prop",
+        "earth tones"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-key studio trio portrait featuring a central figure behind a wooden chair frame, topped with wide-spanning monoline script.",
+      "triggerTerms": [
+        "seventies studio trio portrait",
+        "monoline script header over white background",
+        "central figure behind wooden chair frame"
+      ],
+      "excludeWhen": [
+        "outdoor natural lighting is requested",
+        "busy or textured backgrounds are needed",
+        "modern digital sans-serif typography is required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A clean, high-key studio composition featuring three individuals. The central figure is framed by the back of a rustic wooden chair, while two flanking figures lean in from the sides. The top of the frame is dominated by a wide, flowing monoline script that spans the entire width of the image.",
+    "coreVisualRelationships": [
+      "Central figure framed by wooden chair geometry",
+      "Symmetrical flanking of secondary subjects",
+      "Typography spanning the top horizontal margin",
+      "High-contrast subjects against a pure white void"
+    ],
+    "coreInvariants": [
+      "Pure white high-key background",
+      "Rustic wooden chair back used as a framing device",
+      "Monolinear cursive script spanning the top edge"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three subjects in a tight cluster; central male figure at 60% height, flanking female figures at 40% height.",
+      "visualAnchor": "The dark clothing of the central figure and the vertical lines of the wooden chair.",
+      "movementAndEyePath": "Starts at the wide script at the top, moves down to the central face, then outward to the flanking subjects.",
+      "negativeSpace": "Extensive white space surrounding the subjects and behind the script."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (Background)",
+      "contrastColorRole": "Black and Dark Brown (Clothing and Hair)",
+      "accentColorRole": "Mustard Yellow and Tan (Clothing and Wood)",
+      "saturationAndValueRelationship": "High value contrast with muted, earthy saturation in the subjects.",
+      "paletteRestrictions": [
+        "Pure white background",
+        "Earth tones: ochre, tan, dark brown"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Monolinear cursive script",
+      "letterConstructionRules": [
+        "Extremely wide horizontal tracking",
+        "Consistent thin stroke weight",
+        "Fluid, connected lowercase letters with elongated ascenders and descenders",
+        "Large, sweeping capital initials"
+      ],
+      "characterSpecificRedesigns": [
+        "T and O are oversized and gestural",
+        "D has a long, trailing horizontal tail"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "ultra-expanded",
+            "weight": "hairline",
+            "contrast": "none",
+            "xHeight": "low",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "mixed",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "large width, small height",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floats in negative space above subjects"
+          },
+          "treatment": {
+            "fill": "dark grey",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Pair the large script with a tiny, all-caps sans-serif subtitle centered directly beneath it.",
+      "graphicDevices": [
+        "Rustic wooden chair frame"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Monolinear weight",
+          "Horizontal span",
+          "Cursive connectivity"
+        ],
+        "avoid": [
+          "Bold weights",
+          "High-contrast calligraphy",
+          "Vertical stacking"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Signature-style script",
+            "reason": "Captures the personal, hand-drawn feel of the header.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral (lightened)",
+            "reason": "Similar casual, connected flow but requires significant thinning.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A studio portrait of three people against a pure white background. A man in a black shirt sits behind a simple wooden chair frame. A woman in a yellow shirt leans on the left, and another woman in a white shirt leans on the right. High-key lighting, 1970s style.",
+        "overlayInstruction": "Add a wide, thin monolinear cursive script across the top 15% of the image in dark grey. Add a very small, centered line of all-caps sans-serif text immediately below the script."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Does the script span nearly the full width of the canvas?",
+        "Is the central figure framed by the chair back?",
+        "Is the stroke weight of the script consistent and thin?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject clothing colors",
+      "Script width",
+      "Chair wood finish"
+    ],
+    "mustRedesign": [
+      "Any modern digital interface elements",
+      "Heavy drop shadows on text",
+      "Vibrant neon colors"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean high-key separation",
+        "Fluid typographic rhythm",
+        "Balanced trio symmetry"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Thick blocky fonts",
+        "Harsh flash shadows"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the script does not overlap the subjects' heads.",
+      "Ensure the wooden chair looks rustic and unpolished.",
+      "Verify the white background is blown out to pure white (#FFFFFF).",
+      "Confirm the typography is monolinear without thick/thin variation."
+    ],
+    "reuseFormula": "Studio Trio + High-Key White + Monoline Script Header + Framing Prop"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:51.439Z"
+}

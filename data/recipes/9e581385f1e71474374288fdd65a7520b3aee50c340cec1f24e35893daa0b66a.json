@@ -1,0 +1,263 @@
+{
+  "id": "9e581385f1e71474374288fdd65a7520b3aee50c340cec1f24e35893daa0b66a",
+  "skillId": "9e581385f1e71474374288fdd65a7520b3aee50c340cec1f24e35893daa0b66a",
+  "versionId": "9e581385f1e71474374288fdd65a7520b3aee50c340cec1f24e35893daa0b66a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:14:06.244Z",
+  "approvedAt": "2026-08-13T00:14:06.244Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:14:06.244Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Youngblood.jpg",
+    "hash": "9e581385f1e71474374288fdd65a7520b3aee50c340cec1f24e35893daa0b66a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Youngblood",
+    "artist": "Carl Wilson",
+    "artworkUrl": "https://coverartarchive.org/release-group/bdfa1260-b550-4063-956d-c4e93db09a5a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/bdfa1260-b550-4063-956d-c4e93db09a5a",
+    "releaseGroupId": "bdfa1260-b550-4063-956d-c4e93db09a5a",
+    "recordingId": "e27702f1-6a69-452c-88da-cc6852d77293",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "What You Do To MeCarl Wilson",
+      "song": "What You Do To Me",
+      "performer": "Carl Wilson",
+      "peakPosition": 72,
+      "firstChartDate": "1983-05-14",
+      "lastChartDate": "1983-06-18",
+      "appearances": [
+        {
+          "chartDate": "1983-05-14",
+          "position": 89
+        },
+        {
+          "chartDate": "1983-05-21",
+          "position": 80
+        },
+        {
+          "chartDate": "1983-05-28",
+          "position": 75
+        },
+        {
+          "chartDate": "1983-06-04",
+          "position": 72
+        },
+        {
+          "chartDate": "1983-06-11",
+          "position": 81
+        },
+        {
+          "chartDate": "1983-06-18",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "classic portrait with script typography close up portrait bearded man soft studio lighting black background elegant script 1980s aesthetic centered composition subject centered horizontally and vertically typography anchored to top corners high contrast between subject skin tones and black background soft focus transition from facial features to hair and clothing centered portrait black void corner script classic professional profile",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Classic Portrait with Script Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Studio Lighting",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Author portraits",
+        "Editorial profile features"
+      ],
+      "retrievalTags": [
+        "close-up portrait",
+        "bearded man",
+        "soft studio lighting",
+        "black background",
+        "elegant script",
+        "1980s aesthetic",
+        "centered composition"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A tight, centered headshot of a bearded subject against a deep black background, framed by elegant script typography in the upper corners.",
+      "triggerTerms": [
+        "tight headshot with script corners",
+        "bearded man studio portrait black background",
+        "classic 80s soft focus album cover"
+      ],
+      "excludeWhen": [
+        "full body shots are required",
+        "bright or colorful backgrounds are needed",
+        "modern sans-serif typography is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, high-detail portrait of a man with a beard and medium-length hair, wearing a dark turtleneck. The lighting is soft and directional, creating gentle highlights on the forehead and nose while the rest of the figure fades into a solid black void. Elegant, white cursive script is positioned symmetrically in the top left and top right corners.",
+    "coreVisualRelationships": [
+      "Subject centered horizontally and vertically",
+      "Typography anchored to top corners",
+      "High contrast between subject skin tones and black background",
+      "Soft focus transition from facial features to hair and clothing"
+    ],
+    "coreInvariants": [
+      "Solid black background with no visible horizon or floor",
+      "Symmetrical corner placement for text elements"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The face occupies the central 60% of the frame, cropped tightly at the shoulders.",
+      "visualAnchor": "The eyes of the subject serve as the primary focal point.",
+      "movementAndEyePath": "Eyes lead to the forehead, then outward to the script in the corners, then down to the beard and texture of the sweater.",
+      "negativeSpace": "Extensive black negative space surrounds the head, emphasizing the subject's presence."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background and dark clothing",
+      "contrastColorRole": "Warm skin tones and light brown hair",
+      "accentColorRole": "Pure white for the corner typography",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the face and the background.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Flesh tones",
+        "Earth browns"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Formal Spencerian or Copperplate script",
+      "letterConstructionRules": [
+        "High stroke contrast between thick downstrokes and thin upstrokes",
+        "Extensive decorative swashes on capital letters",
+        "Connected lowercase letters with fluid transitions"
+      ],
+      "characterSpecificRedesigns": [
+        "Extended swashes on initial capitals to fill corner space"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "oval",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top corners",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over negative space"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single script face used for both name and title for formal consistency.",
+      "graphicDevices": [
+        "Corner anchoring"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Cursive flow",
+          "High contrast strokes",
+          "White color"
+        ],
+        "avoid": [
+          "Blocky fonts",
+          "Sans-serifs",
+          "Centered text over the face"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bickham Script",
+            "reason": "Matches the formal, high-contrast calligraphic style.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Shelley Allegro",
+            "reason": "Provides similar decorative swashes and elegant weight.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-detail studio portrait of a man with a beard and medium-length hair, wearing a black turtleneck, centered against a solid black background with soft, warm lighting on the face.",
+        "overlayInstruction": "Add white formal script text in the top left and top right corners, ensuring the text is small and elegant."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Is the subject perfectly centered?",
+        "Is the typography placed only in the top corners?",
+        "Is the script font high-contrast and elegant?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject age",
+      "Beard length",
+      "Script complexity",
+      "Lighting warmth"
+    ],
+    "mustRedesign": [
+      "Any text that obscures the facial features",
+      "Non-black backgrounds",
+      "Modern or geometric fonts"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, professional studio lighting",
+        "Clean, legible script",
+        "Deep, noise-free black background"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Cluttered backgrounds",
+        "Low-contrast typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for symmetrical text placement",
+      "Verify skin tones look natural under soft light",
+      "Ensure no background elements are visible",
+      "Confirm script has calligraphic quality"
+    ],
+    "reuseFormula": "Centered Portrait + Black Void + Corner Script = Classic Professional Profile"
+  }
+}

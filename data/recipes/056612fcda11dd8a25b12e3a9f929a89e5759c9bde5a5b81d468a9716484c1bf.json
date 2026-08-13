@@ -1,0 +1,286 @@
+{
+  "id": "056612fcda11dd8a25b12e3a9f929a89e5759c9bde5a5b81d468a9716484c1bf",
+  "skillId": "056612fcda11dd8a25b12e3a9f929a89e5759c9bde5a5b81d468a9716484c1bf",
+  "versionId": "056612fcda11dd8a25b12e3a9f929a89e5759c9bde5a5b81d468a9716484c1bf",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:34:56.556Z",
+  "approvedAt": "2026-08-12T16:34:56.556Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:34:56.556Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "16 Original Hits.jpg",
+    "hash": "056612fcda11dd8a25b12e3a9f929a89e5759c9bde5a5b81d468a9716484c1bf",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "16 Original Hits",
+    "artist": "Booker T. & The MG's",
+    "artworkUrl": "https://coverartarchive.org/release-group/ea548717-266b-45d3-b969-035a6c2012d3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ea548717-266b-45d3-b969-035a6c2012d3",
+    "releaseGroupId": "ea548717-266b-45d3-b969-035a6c2012d3",
+    "recordingId": "7b24e80f-a613-4a02-9e1f-eead3a298c73",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Soul DressingBooker T. & The MG's",
+      "song": "Soul Dressing",
+      "performer": "Booker T. & The MG's",
+      "peakPosition": 95,
+      "firstChartDate": "1964-08-15",
+      "lastChartDate": "1964-08-22",
+      "appearances": [
+        {
+          "chartDate": "1964-08-15",
+          "position": 98
+        },
+        {
+          "chartDate": "1964-08-22",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul compilation layout 1960s soul music duotone condensed sans serif asymmetrical grid color block top heavy display typography balanced by a large photographic subject vertical blue divider line separating the text column from the image alternating color rhythm in the main title text high contrast duotone image processing against a solid color background grid header white sidebar white content duotone type display condensed sans list bold italic sans detail vertical divider line",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Compilation Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Print",
+        "Album Art"
+      ],
+      "useCases": [
+        "Retro music compilation covers",
+        "Vintage editorial layouts",
+        "Mid-century modern marketing materials"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "soul music",
+        "duotone",
+        "condensed sans-serif",
+        "asymmetrical grid",
+        "color block"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A multi-panel layout featuring a large duotone photograph, a white header for display type, and a vertical sidebar for track listings.",
+      "triggerTerms": [
+        "1960s soul album cover style",
+        "asymmetrical three-panel layout",
+        "condensed sans-serif display type with alternating colors"
+      ],
+      "excludeWhen": [
+        "modern minimalist digital interfaces",
+        "maximalist psychedelic designs",
+        "centered symmetrical layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A structured grid-based composition divided into three distinct zones: a top horizontal white bar for the main title, a left vertical white column for secondary text, and a large rectangular duotone image area on the right.",
+    "coreVisualRelationships": [
+      "Top-heavy display typography balanced by a large photographic subject",
+      "Vertical blue divider line separating the text column from the image",
+      "Alternating color rhythm in the main title text",
+      "High-contrast duotone image processing against a solid color background"
+    ],
+    "coreInvariants": [
+      "The use of a vertical divider line between the left text column and the main image area."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The primary subject is a group portrait occupying the bottom-right two-thirds of the frame, scaled to fill the yellow-tinted rectangle.",
+      "visualAnchor": "The large, condensed display title at the top left serves as the primary entry point.",
+      "movementAndEyePath": "Eyes move from the large title at the top, down the left-hand list, and finally across to the group portrait on the right.",
+      "negativeSpace": "Significant white space in the top header and left column provides breathing room for the dense photographic area."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (background for text areas)",
+      "contrastColorRole": "Yellow (duotone base for the image area)",
+      "accentColorRole": "Sky Blue (divider line and alternating text color)",
+      "saturationAndValueRelationship": "High-value, low-saturation backgrounds contrasted with high-contrast black-and-white photographic elements.",
+      "paletteRestrictions": [
+        "White",
+        "Black",
+        "Yellow",
+        "Sky Blue",
+        "Dark Orange"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed Sans-Serif",
+      "letterConstructionRules": [
+        "High x-height",
+        "Narrow proportions",
+        "Uniform stroke weight",
+        "Straight-sided verticals"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif Condensed",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by white space"
+          },
+          "treatment": {
+            "fill": "alternating blue and orange",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif Oblique",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "loose",
+            "lineBreakPattern": "list",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "left-column",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by vertical line"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Condensed display sans-serif paired with a bold italicized sans-serif for lists.",
+      "graphicDevices": [
+        "Vertical divider line",
+        "Circular badge/logo container",
+        "Horizontal rule separating header"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Alternating color pattern in title",
+          "Left-column list alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered titles"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Alternate Gothic",
+            "reason": "Matches the narrow, high-impact display style of the header.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Condensed Italic",
+            "reason": "Matches the sturdy, functional feel of the sidebar list.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a three-panel layout: a white top horizontal bar, a white left vertical column, and a large yellow-tinted rectangular area on the right. Place a high-contrast black and white group portrait inside the yellow area. Add a thin blue vertical line between the left column and the yellow area.",
+        "overlayInstruction": "Add large condensed sans-serif text in the top bar, alternating colors between blue and orange for each word. In the left column, add a list of text in bold italicized black sans-serif, centered within the column."
+      },
+      "verificationChecks": [
+        "Is the title text condensed and multi-colored?",
+        "Is there a clear vertical blue divider line?",
+        "Is the image area a duotone yellow/black?",
+        "Is the left-hand text italicized and uppercase?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the duotone tint",
+      "Width of the left text column",
+      "Color of the alternating title text"
+    ],
+    "mustRedesign": [
+      "Specific brand logos in the top right circle",
+      "Exact track list wording",
+      "Specific artist names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean grid separation",
+        "High-contrast duotone effect",
+        "Balanced use of white space"
+      ],
+      "avoid": [
+        "Overlapping text and image",
+        "Low-contrast color pairings",
+        "Cluttered margins"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the vertical divider line is perfectly straight.",
+      "Check that the duotone image maintains clear facial features.",
+      "Verify the alternating color pattern in the header is consistent.",
+      "Confirm the sidebar text is centered within its white column."
+    ],
+    "reuseFormula": "Grid(Header:White, Sidebar:White, Content:Duotone) + Type(Display:Condensed_Sans, List:Bold_Italic_Sans) + Detail(Vertical_Divider_Line)"
+  }
+}

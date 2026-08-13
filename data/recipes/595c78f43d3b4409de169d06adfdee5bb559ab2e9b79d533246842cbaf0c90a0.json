@@ -1,0 +1,296 @@
+{
+  "id": "595c78f43d3b4409de169d06adfdee5bb559ab2e9b79d533246842cbaf0c90a0",
+  "skillId": "595c78f43d3b4409de169d06adfdee5bb559ab2e9b79d533246842cbaf0c90a0",
+  "versionId": "595c78f43d3b4409de169d06adfdee5bb559ab2e9b79d533246842cbaf0c90a0",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T10:26:59.509Z",
+  "approvedAt": "2026-08-12T10:26:59.509Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T10:26:59.509Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "As Long as I Have You.jpg",
+    "hash": "595c78f43d3b4409de169d06adfdee5bb559ab2e9b79d533246842cbaf0c90a0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "As Long as I Have You",
+    "artist": "Garnet Mimms",
+    "artworkUrl": "https://coverartarchive.org/release-group/e1e37882-4cbf-3979-8958-a8692d389088/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e1e37882-4cbf-3979-8958-a8692d389088",
+    "releaseGroupId": "e1e37882-4cbf-3979-8958-a8692d389088",
+    "recordingId": "0733c660-14dd-4e24-a672-833b5ff5280c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "One GirlGarnet Mimms",
+      "song": "One Girl",
+      "performer": "Garnet Mimms",
+      "peakPosition": 67,
+      "firstChartDate": "1964-05-16",
+      "lastChartDate": "1964-06-06",
+      "appearances": [
+        {
+          "chartDate": "1964-05-16",
+          "position": 82
+        },
+        {
+          "chartDate": "1964-05-23",
+          "position": 78
+        },
+        {
+          "chartDate": "1964-05-30",
+          "position": 67
+        },
+        {
+          "chartDate": "1964-06-06",
+          "position": 67
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul album cover layout 1960s condensed sans serif split field layout portrait photography high contrast typography horizontal division between white text field and dark photographic field scale contrast between massive header text and smaller tracklist text color coordination between secondary header text and subject s clothing accents tight vertical stacking of display typography split field layout white header 25 dark photo 75 ultra condensed grotesque sans serif primary accent color pairing",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Album Cover Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Offset Print",
+        "Photography"
+      ],
+      "useCases": [
+        "Vintage music packaging",
+        "Retro editorial layouts",
+        "Soul and R&B aesthetic posters"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "condensed sans-serif",
+        "split-field layout",
+        "portrait photography",
+        "high-contrast typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A split-field layout featuring a white header with ultra-condensed sans-serif typography above a large-scale, low-key portrait.",
+      "triggerTerms": [
+        "1960s soul album cover style",
+        "condensed block lettering header",
+        "split white header and dark photo"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "bright high-key photography",
+        "serif-dominant layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A classic 1960s record sleeve composition characterized by a stark white top banner containing heavy, condensed sans-serif text in two colors, positioned above a square-format, dark-background portrait of a smiling subject.",
+    "coreVisualRelationships": [
+      "Horizontal division between white text field and dark photographic field",
+      "Scale contrast between massive header text and smaller tracklist text",
+      "Color coordination between secondary header text and subject's clothing accents",
+      "Tight vertical stacking of display typography"
+    ],
+    "coreInvariants": [
+      "Ultra-condensed sans-serif display type",
+      "White background for the top third of the composition",
+      "Dark, low-key lighting for the photographic subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered in the bottom two-thirds, appearing from the chest up at a large scale.",
+      "visualAnchor": "The primary artist name in the top left corner acts as the heaviest visual weight.",
+      "movementAndEyePath": "Eyes start at the large dark text, drop to the red sub-header, then move to the subject's face before scanning the right-aligned tracklist.",
+      "negativeSpace": "The white header provides breathing room for the dense typography, while the dark background isolates the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (typography and photographic background)",
+      "contrastColorRole": "White (header background and small metadata text)",
+      "accentColorRole": "Muted Red (secondary header and subject's scarf)",
+      "saturationAndValueRelationship": "High value contrast in the header; low value, high saturation accents in the lower field.",
+      "paletteRestrictions": [
+        "Limited to black, white, and one primary accent color"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed grotesque sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Extremely narrow proportions",
+        "Minimal inter-character spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "G and S have very tight apertures",
+        "M and N have vertical sides with no flare"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "0.9em",
+            "lineBreakPattern": "flush left",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in white banner"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "square",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "1.0em",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below primary display",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in white banner"
+          },
+          "treatment": {
+            "fill": "muted red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Monochromatic sans-serif family using weight and color for hierarchy.",
+      "graphicDevices": [
+        "Horizontal rule-like alignment of text blocks",
+        "Bullet points for list separation"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ultra-condensed proportions",
+          "Uppercase styling",
+          "Left-aligned header"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered header text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed feel for the primary header.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Champion Gothic",
+            "reason": "Offers the specific mid-century wood-type inspired condensed look.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Matches the grotesque sans-serif skeleton of the era.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-key studio portrait of a person smiling, with a dark textured background. Leave the top 25% of the image as a solid white rectangular banner.",
+        "overlayInstruction": "In the white banner, place large ultra-condensed black sans-serif text in the top left. Below it, place medium-sized red condensed sans-serif text. On the right side of the banner, place a multi-line list of text in small black sans-serif."
+      },
+      "verificationChecks": [
+        "Is the top banner solid white?",
+        "Is the primary text ultra-condensed?",
+        "Is the portrait lighting low-key with a dark background?",
+        "Is the secondary text color coordinated with the subject's clothing?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Accent color (red can be swapped for blue or gold)",
+      "Subject expression",
+      "Number of lines in the tracklist"
+    ],
+    "mustRedesign": [
+      "Any modern digital gradients",
+      "Lower-case display text",
+      "Overlapping text on the subject's face"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean horizontal division",
+        "High-impact condensed typography",
+        "Authentic 1960s print texture"
+      ],
+      "avoid": [
+        "Blurry text",
+        "Modern geometric sans-serifs like Futura",
+        "Bright, flat lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the white banner is perfectly horizontal.",
+      "Ensure the black text is significantly larger than the red text.",
+      "Verify the subject is centered and looking slightly off-camera.",
+      "Confirm no text bleeds into the photographic area."
+    ],
+    "reuseFormula": "Split-field layout [White Header 25% / Dark Photo 75%] + Ultra-Condensed Grotesque Sans-Serif + Primary/Accent Color Pairing."
+  }
+}

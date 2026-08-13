@@ -1,0 +1,303 @@
+{
+  "id": "fb7e6d624f7b4c3d455b320fb842f33da60f0f987a420ac870dc117b7c57fe57",
+  "skillId": "fb7e6d624f7b4c3d455b320fb842f33da60f0f987a420ac870dc117b7c57fe57",
+  "versionId": "fb7e6d624f7b4c3d455b320fb842f33da60f0f987a420ac870dc117b7c57fe57",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:45:26.340Z",
+  "approvedAt": "2026-08-12T17:45:26.340Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:45:26.340Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Sniper and Other Love Songs.jpg",
+    "hash": "fb7e6d624f7b4c3d455b320fb842f33da60f0f987a420ac870dc117b7c57fe57",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Sniper and Other Love Songs",
+    "artist": "Harry Chapin",
+    "artworkUrl": "https://coverartarchive.org/release-group/a49aeed9-ad1e-3fcc-b23a-b5bc38d22d10/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a49aeed9-ad1e-3fcc-b23a-b5bc38d22d10",
+    "releaseGroupId": "a49aeed9-ad1e-3fcc-b23a-b5bc38d22d10",
+    "recordingId": "5c88a944-9568-4acc-b210-9e3e107269e8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sunday Morning SunshineHarry Chapin",
+      "song": "Sunday Morning Sunshine",
+      "performer": "Harry Chapin",
+      "peakPosition": 75,
+      "firstChartDate": "1972-10-21",
+      "lastChartDate": "1972-11-25",
+      "appearances": [
+        {
+          "chartDate": "1972-10-21",
+          "position": 89
+        },
+        {
+          "chartDate": "1972-10-28",
+          "position": 85
+        },
+        {
+          "chartDate": "1972-11-04",
+          "position": 80
+        },
+        {
+          "chartDate": "1972-11-11",
+          "position": 78
+        },
+        {
+          "chartDate": "1972-11-18",
+          "position": 75
+        },
+        {
+          "chartDate": "1972-11-25",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "seventies folk rock portrait cover 1970s aesthetic warm orange gradient swash lettering grainy portrait photography folk rock style warm monochromatic color harmony between subject lighting and background typographic hierarchy where the swash title dominates the upper third text over image integration where body copy sits within the dark values of the hair horizontal rule separating the top metadata from the main visual field take a warm toned portrait apply heavy film grain add a large yellow swash serif title overlay white serif body text 70s folk aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Seventies Folk-Rock Portrait Cover",
+      "category": "Album Art",
+      "medium": [
+        "Color Photography",
+        "Graphic Design",
+        "Custom Lettering"
+      ],
+      "useCases": [
+        "Vintage-style record covers",
+        "Singer-songwriter promotional posters",
+        "Retro editorial portraits"
+      ],
+      "retrievalTags": [
+        "1970s aesthetic",
+        "warm orange gradient",
+        "swash lettering",
+        "grainy portrait photography",
+        "folk rock style"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A warm, orange-toned portrait layout featuring a central subject with a large swash-heavy display title and a block of serif body text overlaid on the subject's hair.",
+      "triggerTerms": [
+        "1970s folk album style",
+        "warm orange portrait with swash typography",
+        "retro singer-songwriter cover layout"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "high-contrast black and white photography",
+        "sans-serif dominant layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up, slightly grainy color portrait of a man with dark curly hair, set against a vibrant orange-to-red gradient background. The composition is anchored by a large, yellow, custom-lettered name with dramatic swashes and a block of white serif text positioned above the subject's forehead.",
+    "coreVisualRelationships": [
+      "Warm monochromatic color harmony between subject lighting and background",
+      "Typographic hierarchy where the swash title dominates the upper third",
+      "Text-over-image integration where body copy sits within the dark values of the hair",
+      "Horizontal rule separating the top metadata from the main visual field"
+    ],
+    "coreInvariants": [
+      "Vibrant orange-red background color",
+      "Grainy film texture",
+      "Yellow swash-style display lettering",
+      "White serif body text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Head-and-shoulders portrait centered horizontally, filling the bottom two-thirds of the frame.",
+      "visualAnchor": "The large yellow display name spanning the width of the upper-middle section.",
+      "movementAndEyePath": "Starts at the bold yellow title, moves down through the white text block to the subject's face, and finally to the metadata at the top and bottom corners.",
+      "negativeSpace": "The upper third is largely negative space filled with the orange gradient and primary typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant orange-red gradient background and warm skin tones.",
+      "contrastColorRole": "Dark brown and black in the hair and shadows of the portrait.",
+      "accentColorRole": "Bright yellow for the primary display typography.",
+      "saturationAndValueRelationship": "High saturation in the background with mid-range values; typography uses high-value yellow and white for legibility.",
+      "paletteRestrictions": [
+        "Warm tones only",
+        "No cool blues or greens except in minor clothing details"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Serif with extreme decorative swashes",
+      "letterConstructionRules": [
+        "Thick-to-thin stroke modulation",
+        "Extended terminals that curl into large circular swashes",
+        "Interlocking or overlapping characters in the display title"
+      ],
+      "characterSpecificRedesigns": [
+        "Capital H with a descending swash tail",
+        "Capital C with an elongated upper curve",
+        "Terminals ending in rounded ball-like shapes"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "decorative-serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "swash",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "titlecase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper-middle",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating above subject"
+          },
+          "treatment": {
+            "fill": "solid yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "transitional-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "regular",
+            "contrast": "medium",
+            "xHeight": "standard",
+            "terminals": "bracketed",
+            "corners": "sharp",
+            "counters": "clear",
+            "strokeCharacter": "traditional"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "multi-line-block",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "centered over hair",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over-image",
+            "relationshipToImage": "overlaid on dark hair"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Highly decorative custom display paired with a clean, legible classic serif for information.",
+      "graphicDevices": [
+        "Horizontal double-line rule",
+        "Corner-aligned metadata text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Swash terminals",
+          "Yellow-on-orange color scheme",
+          "Centered alignment"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Modern digital gradients",
+          "Clean, noise-free images"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the 70s decorative serif feel with similar swash potential.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Times New Roman",
+            "reason": "Appropriate for the utilitarian serif body text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a grainy, 1970s-style film portrait of a man with curly hair against a warm orange-red gradient background. Leave the top third of the frame clear for text.",
+        "overlayInstruction": "Add a large yellow title in a decorative swash serif font across the middle. Place a centered block of white serif body text directly below the title, overlapping the top of the subject's hair."
+      },
+      "verificationChecks": [
+        "Is the background a warm orange-red gradient?",
+        "Does the main title feature prominent decorative swashes?",
+        "Is the body text centered and white?",
+        "Is there a horizontal rule near the top edge?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color intensity",
+      "Amount of film grain",
+      "Complexity of typographic swashes",
+      "Subject's expression"
+    ],
+    "mustRedesign": [
+      "Specific artist name and album title",
+      "Record label logos",
+      "Specific catalog numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film texture",
+        "Seamless integration of text over dark image areas",
+        "Balanced warm color palette"
+      ],
+      "avoid": [
+        "Overly sharp digital edges",
+        "Default modern fonts like Arial or Helvetica",
+        "Cool-toned lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the yellow text is legible against the orange background.",
+      "Verify the white text is readable over the dark hair.",
+      "Check that the swashes do not obscure the subject's face.",
+      "Confirm the overall 'vintage vinyl' feel is maintained."
+    ],
+    "reuseFormula": "Take a warm-toned portrait + apply heavy film grain + add a large yellow swash-serif title + overlay white serif body text = 70s Folk Aesthetic."
+  }
+}

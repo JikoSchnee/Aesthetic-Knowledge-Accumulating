@@ -1,0 +1,313 @@
+{
+  "id": "244b63004138c3f7a85861477d7f95213b806197eb38937535def5134770efae",
+  "skillId": "244b63004138c3f7a85861477d7f95213b806197eb38937535def5134770efae",
+  "versionId": "244b63004138c3f7a85861477d7f95213b806197eb38937535def5134770efae",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:21:13.745Z",
+  "approvedAt": "2026-08-12T14:21:13.745Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:21:13.745Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Another Step.jpg",
+    "hash": "244b63004138c3f7a85861477d7f95213b806197eb38937535def5134770efae",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Another Step",
+    "artist": "Kim Wilde",
+    "artworkUrl": "https://coverartarchive.org/release-group/8b60162f-b9ba-37e6-8a20-6b777ff1b4f2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8b60162f-b9ba-37e6-8a20-6b777ff1b4f2",
+    "releaseGroupId": "8b60162f-b9ba-37e6-8a20-6b777ff1b4f2",
+    "recordingId": "79361bf5-7725-4033-bbc0-8622b12415c3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Say You Really Want MeKim Wilde",
+      "song": "Say You Really Want Me",
+      "performer": "Kim Wilde",
+      "peakPosition": 44,
+      "firstChartDate": "1987-07-18",
+      "lastChartDate": "1987-09-05",
+      "appearances": [
+        {
+          "chartDate": "1987-07-18",
+          "position": 89
+        },
+        {
+          "chartDate": "1987-07-25",
+          "position": 73
+        },
+        {
+          "chartDate": "1987-08-01",
+          "position": 65
+        },
+        {
+          "chartDate": "1987-08-08",
+          "position": 55
+        },
+        {
+          "chartDate": "1987-08-15",
+          "position": 44
+        },
+        {
+          "chartDate": "1987-08-22",
+          "position": 53
+        },
+        {
+          "chartDate": "1987-08-29",
+          "position": 69
+        },
+        {
+          "chartDate": "1987-09-05",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "80s new wave portrait with geometric accents 1980s aesthetic denim jacket spiky hair geometric lines grainy texture pastel typography subject centered vertically with hair breaking the top third thin diagonal and vertical lines cutting through negative space typography anchored to the top left corner high contrast between dark denim and bright facial highlights 80s portrait grainy grey background ultra condensed peach type thin geometric accents",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "80s New Wave Portrait with Geometric Accents",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Airbrushing"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Retro fashion editorial",
+        "80s themed posters"
+      ],
+      "retrievalTags": [
+        "1980s aesthetic",
+        "denim jacket",
+        "spiky hair",
+        "geometric lines",
+        "grainy texture",
+        "pastel typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast 80s portrait featuring a central subject in denim, framed by thin geometric lines and tall, condensed pastel typography.",
+      "triggerTerms": [
+        "80s new wave album style",
+        "spiky hair portrait with geometric lines",
+        "condensed sans-serif over denim jacket"
+      ],
+      "excludeWhen": [
+        "modern minimalist photography",
+        "flat vector illustration",
+        "high-resolution digital clean look"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A grainy, high-contrast portrait of a woman with voluminous spiky hair wearing a denim jacket, set against a neutral grey background punctuated by thin, vibrant geometric lines and tall, peach-toned condensed lettering.",
+    "coreVisualRelationships": [
+      "Subject centered vertically with hair breaking the top third",
+      "Thin diagonal and vertical lines cutting through negative space",
+      "Typography anchored to the top left corner",
+      "High contrast between dark denim and bright facial highlights"
+    ],
+    "coreInvariants": [
+      "Grainy film texture across the entire composition",
+      "Thin, single-pixel-width geometric accent lines",
+      "Tall, ultra-condensed display typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium shot, centered horizontally, occupying the bottom two-thirds of the frame.",
+      "visualAnchor": "The subject's eyes and the spiky texture of the hair.",
+      "movementAndEyePath": "From the large display text at the top, down the vertical red line, to the subject's face, and finally to the small subtitle.",
+      "negativeSpace": "Significant open space on the left and right of the head, filled with a soft grey gradient and grain."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cool grey and muted blue denim tones.",
+      "contrastColorRole": "High-key white highlights on the face.",
+      "accentColorRole": "Peach-pink typography and a single vibrant red vertical line.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast in the portrait lighting.",
+      "paletteRestrictions": [
+        "Muted denim blue",
+        "Peach-pink",
+        "Neutral grey",
+        "Vibrant red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Ultra-condensed sans-serif",
+      "letterConstructionRules": [
+        "Extremely high aspect ratio (tall and narrow)",
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Tight letter spacing for the main title"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating above subject"
+          },
+          "treatment": {
+            "fill": "peach-pink",
+            "outline": "thin black",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "bracketed",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "very wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "directly below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "peach-pink",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a dense, modern condensed sans-serif with a widely-spaced, traditional lowercase serif.",
+      "graphicDevices": [
+        "Thin vertical red line on the left",
+        "Thin diagonal blue line at the top right",
+        "Thin horizontal green/white line at the bottom right"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ultra-condensed proportions",
+          "Peach-pink color",
+          "Wide tracking for the subtitle"
+        ],
+        "avoid": [
+          "Bold or heavy weights",
+          "Script fonts",
+          "Centered alignments"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Steelfish or Impact (Condensed)",
+            "reason": "Matches the tall, narrow display proportions.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni or Times New Roman (Italic/Lowercase)",
+            "reason": "Matches the high-contrast serif subtitle style.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a grainy, high-contrast portrait of a person with 80s spiky hair wearing a denim jacket against a grey background. Include a thin vertical red line on the left and a thin diagonal blue line in the top right corner.",
+        "overlayInstruction": "Add the main title in an ultra-condensed peach-pink sans-serif at the top left. Below it, add a subtitle in a widely-spaced, lowercase peach-pink serif."
+      },
+      "verificationChecks": [
+        "Is the grain texture visible across the image?",
+        "Is the display text ultra-condensed and peach-colored?",
+        "Are the thin geometric lines present and sharp?",
+        "Is the denim jacket texture clearly defined?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Hair volume and texture",
+      "Color of the geometric accent lines",
+      "Intensity of the film grain",
+      "Wash of the denim jacket"
+    ],
+    "mustRedesign": [
+      "Modern digital smoothness",
+      "Standard width typography",
+      "Vibrant, saturated background colors"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 80s film grain",
+        "Precise, thin geometric line work",
+        "Balanced use of peach and grey"
+      ],
+      "avoid": [
+        "Blurry or low-quality grain",
+        "Thick, clumsy lines",
+        "Overly bright neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the red line is perfectly vertical.",
+      "Ensure the peach text has a subtle dark outline for legibility.",
+      "Verify the hair texture is sharp despite the grain.",
+      "Confirm the subtitle tracking is significantly wider than the title."
+    ],
+    "reuseFormula": "80s Portrait + Grainy Grey Background + Ultra-Condensed Peach Type + Thin Geometric Accents"
+  }
+}

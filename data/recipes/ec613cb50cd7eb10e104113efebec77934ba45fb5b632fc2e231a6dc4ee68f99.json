@@ -1,0 +1,290 @@
+{
+  "id": "ec613cb50cd7eb10e104113efebec77934ba45fb5b632fc2e231a6dc4ee68f99",
+  "skillId": "ec613cb50cd7eb10e104113efebec77934ba45fb5b632fc2e231a6dc4ee68f99",
+  "versionId": "ec613cb50cd7eb10e104113efebec77934ba45fb5b632fc2e231a6dc4ee68f99",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T02:45:38.526Z",
+  "approvedAt": "2026-08-13T02:45:38.526Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T02:45:38.526Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "shot in the dark.jpg",
+    "hash": "ec613cb50cd7eb10e104113efebec77934ba45fb5b632fc2e231a6dc4ee68f99",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "shot in the dark",
+    "artist": "Ashley Cooke",
+    "artworkUrl": "https://coverartarchive.org/release-group/e557e0a0-2168-4089-97c4-9ee55f23188a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e557e0a0-2168-4089-97c4-9ee55f23188a",
+    "releaseGroupId": "e557e0a0-2168-4089-97c4-9ee55f23188a",
+    "recordingId": "ab61cc9d-4691-4f95-b8ad-890c11921e57",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Your PlaceAshley Cooke",
+      "song": "Your Place",
+      "performer": "Ashley Cooke",
+      "peakPosition": 80,
+      "firstChartDate": "2024-06-08",
+      "lastChartDate": "2024-06-29",
+      "appearances": [
+        {
+          "chartDate": "2024-06-08",
+          "position": 95
+        },
+        {
+          "chartDate": "2024-06-15",
+          "position": 87
+        },
+        {
+          "chartDate": "2024-06-22",
+          "position": 87
+        },
+        {
+          "chartDate": "2024-06-29",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "country music album cover portrait vintage car interior country singer portrait warm natural lighting wide sans serif typography tan leather upholstery rhinestone mesh top subject framed by the car s interior pillars and headrests warm tan leather tones contrasting with blue denim and cool exterior light text centered horizontally in the upper third of the frame soft focus on the background landscape visible through windows vintage car interior centered extended sans serif warm earth tones",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Country Music Album Cover Portrait",
+      "category": "Music Photography",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "vintage car interior",
+        "country singer portrait",
+        "warm natural lighting",
+        "wide sans-serif typography",
+        "tan leather upholstery",
+        "rhinestone mesh top"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered portrait of a female artist inside a vintage car with tan leather interiors and top-aligned wide sans-serif text.",
+      "triggerTerms": [
+        "vintage car interior portrait",
+        "country album cover style",
+        "tan leather car seats aesthetic"
+      ],
+      "excludeWhen": [
+        "requesting dark or moody lighting",
+        "requesting urban or futuristic settings",
+        "requesting script or serif typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium close-up portrait of a blonde woman leaning over the front passenger seat of a vintage car, featuring warm earth tones, natural sunlight, and bold, wide-set white typography at the top center.",
+    "coreVisualRelationships": [
+      "Subject framed by the car's interior pillars and headrests",
+      "Warm tan leather tones contrasting with blue denim and cool exterior light",
+      "Text centered horizontally in the upper third of the frame",
+      "Soft focus on the background landscape visible through windows"
+    ],
+    "coreInvariants": [
+      "Vintage tan leather car interior with perforated headliner",
+      "Subject wearing a shimmering rhinestone-embellished mesh top",
+      "Top-aligned, centered, wide-set sans-serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centrally located, leaning forward from the back seat over a brown leather headrest.",
+      "visualAnchor": "The subject's face and the large brown leather headrest in the foreground.",
+      "movementAndEyePath": "Eyes start at the bold white text at the top, move down to the subject's face, and follow the curve of the arm and headrest.",
+      "negativeSpace": "The upper corners and the bright outdoor scenery visible through the car windows."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm tan and brown (car interior and skin tones)",
+      "contrastColorRole": "Bright white (typography and outdoor light)",
+      "accentColorRole": "Blue (denim jeans)",
+      "saturationAndValueRelationship": "High-key lighting with warm, saturated browns and desaturated, bright backgrounds.",
+      "paletteRestrictions": [
+        "Earth tones",
+        "White",
+        "Denim blue"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extended geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Extreme horizontal width",
+        "Square-ish proportions in rounded characters"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Extra-wide",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Center",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlays the car headliner"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Extra-wide",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Center",
+            "tracking": "Wide",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Directly below display text",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlays the car headliner"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Weight and scale contrast within the same extended sans-serif family.",
+      "graphicDevices": [
+        "Horizontal alignment"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extended width",
+          "Uppercase styling",
+          "White color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Condensed fonts",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma Bold Extended",
+            "reason": "Matches the square, wide geometric structure of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Eurostile Bold Extended",
+            "reason": "Provides the necessary horizontal stretch and modern feel.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-quality photograph of a blonde woman in a rhinestone-studded tan mesh top, leaning over the brown leather headrest of a vintage car's front seat. The interior should be tan/brown leather with a perforated ceiling. Natural sunlight should come from the side windows.",
+        "overlayInstruction": "Add two lines of centered, white, extra-wide sans-serif text at the top. The first line should be bold and large; the second line should be smaller with wider letter spacing."
+      },
+      "verificationChecks": [
+        "Is the text centered and top-aligned?",
+        "Is the car interior tan leather?",
+        "Is the typography an extended sans-serif?",
+        "Is the subject wearing a rhinestone mesh top?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject hair color",
+      "Car interior color (within earth tones)",
+      "Text content",
+      "Lighting intensity"
+    ],
+    "mustRedesign": [
+      "Logos",
+      "Specific artist likeness",
+      "Original brand markings on the car"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typography",
+        "Realistic leather textures",
+        "Balanced warm lighting"
+      ],
+      "avoid": [
+        "Blurry text",
+        "Mismatched lighting between subject and car",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is perfectly horizontal and centered.",
+      "Ensure the rhinestone texture on the clothing is visible and detailed.",
+      "Verify the car interior looks like a vintage model from the 70s or 80s.",
+      "Confirm the color palette remains dominated by warm browns and white."
+    ],
+    "reuseFormula": "Vintage Car Interior + Centered Extended Sans-Serif + Warm Earth Tones"
+  }
+}

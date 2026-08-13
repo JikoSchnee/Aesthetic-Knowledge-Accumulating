@@ -1,0 +1,314 @@
+{
+  "id": "03248d62bedead4caa6b24651f0616720ef3f3f8c41605197408ee76e232df7f",
+  "skillId": "03248d62bedead4caa6b24651f0616720ef3f3f8c41605197408ee76e232df7f",
+  "versionId": "03248d62bedead4caa6b24651f0616720ef3f3f8c41605197408ee76e232df7f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:03:09.193Z",
+  "approvedAt": "2026-08-12T23:03:09.193Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:03:09.193Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Jus' a Taste of the Kid.jpg",
+    "hash": "03248d62bedead4caa6b24651f0616720ef3f3f8c41605197408ee76e232df7f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Jus' a Taste of the Kid",
+    "artist": "Bill Amesbury",
+    "artworkUrl": "https://coverartarchive.org/release-group/3a6fce3e-75eb-33e5-aa4d-33512a3d694f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3a6fce3e-75eb-33e5-aa4d-33512a3d694f",
+    "releaseGroupId": "3a6fce3e-75eb-33e5-aa4d-33512a3d694f",
+    "recordingId": "05e4d69f-dcf8-4064-b4ae-edfd96fec465",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Virginia (Touch Me Like You Do)Bill Amesbury",
+      "song": "Virginia (Touch Me Like You Do)",
+      "performer": "Bill Amesbury",
+      "peakPosition": 59,
+      "firstChartDate": "1974-02-16",
+      "lastChartDate": "1974-04-13",
+      "appearances": [
+        {
+          "chartDate": "1974-02-16",
+          "position": 90
+        },
+        {
+          "chartDate": "1974-02-23",
+          "position": 86
+        },
+        {
+          "chartDate": "1974-03-02",
+          "position": 81
+        },
+        {
+          "chartDate": "1974-03-09",
+          "position": 77
+        },
+        {
+          "chartDate": "1974-03-16",
+          "position": 67
+        },
+        {
+          "chartDate": "1974-03-23",
+          "position": 64
+        },
+        {
+          "chartDate": "1974-03-30",
+          "position": 61
+        },
+        {
+          "chartDate": "1974-04-06",
+          "position": 59
+        },
+        {
+          "chartDate": "1974-04-13",
+          "position": 65
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage soft focus portrait with overlapping serif typography soft focus tight kerning slab serif lens flare 70s aesthetic portrait photography tight facial crop filling the lower two thirds of the frame heavy display type anchored to the top margin diagonal prismatic flare cutting across the subject s forehead muted warm skin tones against a dark indistinct background combine a soft focus vintage portrait with a diagonal light leak and top aligned overlapping slab serif display type",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Soft-Focus Portrait with Overlapping Serif Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "1970s retro album covers",
+        "Soft-focus portraiture",
+        "Vintage editorial layouts"
+      ],
+      "retrievalTags": [
+        "soft focus",
+        "tight kerning",
+        "slab serif",
+        "lens flare",
+        "70s aesthetic",
+        "portrait photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A tight, soft-focus facial portrait featuring heavy, overlapping slab-serif display type at the top edge and a diagonal prismatic lens flare.",
+      "triggerTerms": [
+        "70s soft focus portrait",
+        "overlapping slab serif header",
+        "prismatic diagonal light leak"
+      ],
+      "excludeWhen": [
+        "modern high-contrast photography is required",
+        "minimalist sans-serif layouts are requested",
+        "full-body shots are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up, high-key portrait of a person with soft, diffused lighting and a prominent diagonal rainbow-hued light leak. The top of the frame is dominated by large, bold, orange-red slab-serif text where characters physically touch or overlap, underlined by a thin horizontal rule containing secondary metadata.",
+    "coreVisualRelationships": [
+      "Tight facial crop filling the lower two-thirds of the frame",
+      "Heavy display type anchored to the top margin",
+      "Diagonal prismatic flare cutting across the subject's forehead",
+      "Muted, warm skin tones against a dark, indistinct background"
+    ],
+    "coreInvariants": [
+      "Overlapping character spacing in the primary display text",
+      "Soft-focus photographic texture with low micro-contrast",
+      "Horizontal rule separating primary and secondary text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up portrait centered horizontally, filling the frame from the bottom to the upper-third.",
+      "visualAnchor": "The large, bold display text at the top of the composition.",
+      "movementAndEyePath": "Eyes start at the bold header, follow the diagonal light leak down to the subject's eyes, then rest on the central facial features.",
+      "negativeSpace": "Minimal; the frame is densely packed with the subject and typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm, desaturated skin tones (beige/cream)",
+      "contrastColorRole": "Dark brown/black background shadows",
+      "accentColorRole": "Vibrant orange-red for typography and prismatic rainbow hues in the flare",
+      "saturationAndValueRelationship": "High-value, low-saturation portraiture contrasted with high-saturation, medium-value typography.",
+      "paletteRestrictions": [
+        "Avoid neon or digital-looking colors",
+        "Stick to 1970s earth tones and warm reds"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif with rectangular terminals",
+      "letterConstructionRules": [
+        "Extremely tight tracking causing glyphs to overlap",
+        "Consistent stroke weight with minimal modulation",
+        "Large, blocky serifs"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' and 'M' overlap at the base",
+        "The 'S' and 'B' touch at their widest curves"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt slab",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "negative",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "touching characters",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "solid orange-red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "slab",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "directly below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within horizontal bars"
+          },
+          "treatment": {
+            "fill": "light teal or cream",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Uniform slab-serif family used at contrasting scales and weights.",
+      "graphicDevices": [
+        "Horizontal rule/bar framing the subtitle",
+        "Diagonal prismatic light leak"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Overlapping character spacing",
+          "Slab serif style",
+          "Top-heavy layout"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Wide letter spacing",
+          "Clean, sharp digital edges"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Lubalin Graph Bold",
+            "reason": "Matches the heavy slab-serif geometry and 70s feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Provides the necessary weight and blocky serifs.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus, high-key portrait of a person with 1970s hair, featuring a diagonal rainbow prismatic lens flare across the upper half and a dark, blurry background.",
+        "overlayInstruction": "Add large, bold slab-serif uppercase text at the top edge in orange-red with touching/overlapping kerning. Below it, add a thin horizontal bar containing smaller condensed slab-serif text."
+      },
+      "verificationChecks": [
+        "Ensure the primary text characters are touching or overlapping.",
+        "Verify the presence of a diagonal prismatic light leak.",
+        "Check that the portrait has a soft, diffused, vintage photographic quality.",
+        "Confirm the typography is anchored to the top margin."
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the lens flare",
+      "Degree of character overlap",
+      "Warmth of the color palette",
+      "Tightness of the facial crop"
+    ],
+    "mustRedesign": [
+      "Avoid modern digital sharpness",
+      "Do not use standard default kerning",
+      "Ensure the light leak looks organic, not a hard gradient"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film grain and soft focus",
+        "Heavy, physical-feeling typography",
+        "Balanced high-key lighting"
+      ],
+      "avoid": [
+        "Plastic-looking skin retouching",
+        "Vector-perfect clean lines in the flare",
+        "Modern sans-serif typefaces"
+      ]
+    },
+    "postGenerationChecks": [
+      "Is the text color a warm orange-red?",
+      "Does the light leak have a prismatic/rainbow effect?",
+      "Is the portrait crop tight on the face?",
+      "Are the serifs on the display type prominent and blocky?",
+      "Is there a horizontal rule separating the text levels?"
+    ],
+    "reuseFormula": "Combine a soft-focus vintage portrait with a diagonal light leak and top-aligned, overlapping slab-serif display type."
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "id": "a426337559b8c4c5471c3ddce4a724c23dd90e455d49147a120cd24468bb2b0d",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T00:08:37.911Z",
+  "approvedAt": "2026-08-12T00:08:37.911Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T00:08:37.911Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Voodoo.jpg",
+    "hash": "a426337559b8c4c5471c3ddce4a724c23dd90e455d49147a120cd24468bb2b0d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Voodoo",
+    "artist": "D'Angelo Featuring Method Man And Redman",
+    "artworkUrl": "https://coverartarchive.org/release-group/9605c075-c64c-366b-ad7f-ec98523fc162/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9605c075-c64c-366b-ad7f-ec98523fc162",
+    "releaseGroupId": "9605c075-c64c-366b-ad7f-ec98523fc162",
+    "recordingId": "f585b7ce-aa92-4c0f-ab31-9b1666211139",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Left & RightD'Angelo Featuring Method Man And Redman",
+      "song": "Left & Right",
+      "performer": "D'Angelo Featuring Method Man And Redman",
+      "peakPosition": 70,
+      "firstChartDate": "1999-12-11",
+      "lastChartDate": "2000-01-08",
+      "appearances": [
+        {
+          "chartDate": "1999-12-11",
+          "position": 93
+        },
+        {
+          "chartDate": "1999-12-18",
+          "position": 77
+        },
+        {
+          "chartDate": "1999-12-25",
+          "position": 75
+        },
+        {
+          "chartDate": "2000-01-01",
+          "position": 70
+        },
+        {
+          "chartDate": "2000-01-08",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "neo soul gritty portraiture monochrome portrait textured paper blackletter industrial typography halftone grain burnt orange contrast between the organic smooth skin of the subject and the harsh mechanical texture of the background vertical tension created by the left aligned color block and stacked text juxtaposition of traditional blackletter script with modern monospaced digital numerals monochrome portrait gritty halftone vertical earth tone sidebar anachronistic type pairing gothic industrial",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Neo-Soul Gritty Portraiture",
+      "category": "Album Art",
+      "medium": [
+        "Black and white photography",
+        "Graphic design",
+        "Halftone print"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Editorial portraiture",
+        "Streetwear branding"
+      ],
+      "retrievalTags": [
+        "monochrome portrait",
+        "textured paper",
+        "blackletter",
+        "industrial typography",
+        "halftone grain",
+        "burnt orange"
+      ]
+    },
+    "visualDefinition": "A high-contrast, black-and-white shirtless male portrait set against a gritty, textured background, framed by a vertical burnt-orange sidebar containing layered, industrial, and gothic typography.",
+    "coreVisualRelationships": [
+      "Contrast between the organic, smooth skin of the subject and the harsh, mechanical texture of the background.",
+      "Vertical tension created by the left-aligned color block and stacked text.",
+      "Juxtaposition of traditional Blackletter script with modern, monospaced digital numerals."
+    ],
+    "coreInvariants": [
+      "High-contrast monochrome subject",
+      "Visible halftone or film grain texture",
+      "Burnt orange or terracotta accent panel",
+      "Vertical orientation of primary text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is positioned in the right two-thirds of the frame, waist-up, looking directly at the viewer.",
+      "visualAnchor": "The subject's face and the vertical orange bar on the left.",
+      "movementAndEyePath": "Eyes start at the subject's face, move down to the torso, then shift left to the vertical text block and up to the top numeric string.",
+      "negativeSpace": "Dense and textured; the background acts as a gritty atmospheric void rather than empty space."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated black and white for the photographic subject.",
+      "contrastColorRole": "Deep burnt orange (terracotta) for the vertical graphic panel.",
+      "accentColorRole": "Pure white for the top-level numerals and large gothic lettering.",
+      "saturationAndValueRelationship": "High value contrast in the portrait; low saturation in the accent color to maintain a vintage, earthy feel.",
+      "paletteRestrictions": [
+        "No vibrant primaries",
+        "No gradients",
+        "Strictly monochrome + one earthy accent"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "A mix of Blackletter, heavy Sans-Serif, and Monospaced Digital.",
+      "letterConstructionRules": [
+        "Primary display text is vertically stacked and rotated 90 degrees.",
+        "Secondary text is placed inside a thin-lined rectangular frame.",
+        "Top-level metadata uses wide-tracked monospaced numerals."
+      ],
+      "characterSpecificRedesigns": [
+        "Blackletter glyphs are outlined and layered over the orange block.",
+        "Sans-serif characters are heavily bolded with tight kerning."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Blackletter / Gothic",
+          "anatomy": {
+            "width": "Narrow",
+            "weight": "Heavy",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Spiked",
+            "corners": "Angular",
+            "counters": "Tight",
+            "strokeCharacter": "Calligraphic"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Center",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Vertical stack",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Far left vertical bar",
+            "scale": "Large",
+            "rotation": "90 degrees counter-clockwise",
+            "warp": "None",
+            "overlap": "Overlays the orange panel",
+            "relationshipToImage": "Framing element"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "Black",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "Extended",
+            "weight": "Black",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Blunt",
+            "corners": "Slightly rounded",
+            "counters": "Small",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Center",
+            "tracking": "Wide",
+            "leading": "Normal",
+            "lineBreakPattern": "Vertical stack",
+            "density": "Solid"
+          },
+          "composition": {
+            "position": "Inside framed box on left",
+            "scale": "Medium",
+            "rotation": "90 degrees counter-clockwise",
+            "warp": "None",
+            "overlap": "Contained",
+            "relationshipToImage": "Secondary identifier"
+          },
+          "treatment": {
+            "fill": "Dark Charcoal",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Anachronistic pairing of medieval gothic script with industrial, modern sans-serifs.",
+      "graphicDevices": [
+        "Thin double-line rectangular borders",
+        "Vertical color blocking",
+        "Halftone screen overlay",
+        "Monospaced digital header"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical text orientation",
+          "The specific burnt orange hue",
+          "High-contrast B&W photography"
+        ],
+        "avoid": [
+          "Script or cursive fonts",
+          "Bright neon colors",
+          "Clean, high-resolution digital finishes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Old English Text MT",
+            "reason": "Matches the gothic display style for the primary vertical text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Provides the necessary weight and industrial feel for the secondary text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "OCR-A",
+            "reason": "Matches the monospaced digital look of the top numerals.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A high-contrast black and white photograph of a muscular man, waist-up, centered-right. The background is a dark, gritty wall with visible film grain and halftone texture. On the far left, a solid vertical bar of burnt orange (hex #A04020) occupies 20% of the width.",
+        "overlayInstruction": "Add a vertical stack of white Blackletter text rotated 90 degrees CCW on the far left. To its right, add a thin black rectangular frame containing bold, wide-tracked sans-serif text, also rotated 90 degrees CCW. Across the very top, place a line of white monospaced numerals with wide spacing."
+      },
+      "verificationChecks": [
+        "Is the portrait high-contrast monochrome?",
+        "Is the orange bar a desaturated, earthy tone?",
+        "Are the text elements vertically oriented?",
+        "Is there a visible halftone or paper texture across the whole image?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the halftone grain",
+      "Width of the orange sidebar",
+      "Subject's pose and lighting contrast",
+      "Specific font weight of the sans-serif block"
+    ],
+    "mustRedesign": [
+      "Any specific artist names or logos",
+      "The 'Parental Advisory' label (replace with generic warning if needed)",
+      "Specific copyright text strings"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Gritty, tactile texture",
+        "Strong vertical compositional lines",
+        "Moody, soulful atmosphere"
+      ],
+      "avoid": [
+        "Glossy or plastic textures",
+        "Horizontal text layouts",
+        "Soft, low-contrast lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the Blackletter text is legible despite the rotation.",
+      "Ensure the halftone effect doesn't obscure the subject's facial features.",
+      "Verify the orange color isn't too bright or 'neon'.",
+      "Confirm the vertical alignment of all text elements is precise."
+    ],
+    "reuseFormula": "Monochrome Portrait + Gritty Halftone + Vertical Earth-Tone Sidebar + Anachronistic Type Pairing (Gothic/Industrial)"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:18:00.494Z"
+}

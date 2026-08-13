@@ -1,0 +1,261 @@
+{
+  "id": "22a78b4c8e7f0564bea9f4bd454de024209c7e1b57dc31bb3fd020baa22bc911",
+  "skillId": "22a78b4c8e7f0564bea9f4bd454de024209c7e1b57dc31bb3fd020baa22bc911",
+  "versionId": "22a78b4c8e7f0564bea9f4bd454de024209c7e1b57dc31bb3fd020baa22bc911",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:50:48.575Z",
+  "approvedAt": "2026-08-12T12:50:48.575Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:50:48.575Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "We'll Sing in the Sunshine.jpg",
+    "hash": "22a78b4c8e7f0564bea9f4bd454de024209c7e1b57dc31bb3fd020baa22bc911",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "We'll Sing in the Sunshine",
+    "artist": "Helen Reddy",
+    "artworkUrl": "https://coverartarchive.org/release-group/8c0bb5d1-2003-4324-8b2f-d658f25eea79/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8c0bb5d1-2003-4324-8b2f-d658f25eea79",
+    "releaseGroupId": "8c0bb5d1-2003-4324-8b2f-d658f25eea79",
+    "recordingId": "abc23fa2-1ed2-4f20-828f-29ac8b9527ff",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Ready Or NotHelen Reddy",
+      "song": "Ready Or Not",
+      "performer": "Helen Reddy",
+      "peakPosition": 73,
+      "firstChartDate": "1978-07-15",
+      "lastChartDate": "1978-08-12",
+      "appearances": [
+        {
+          "chartDate": "1978-07-15",
+          "position": 89
+        },
+        {
+          "chartDate": "1978-07-22",
+          "position": 79
+        },
+        {
+          "chartDate": "1978-07-29",
+          "position": 74
+        },
+        {
+          "chartDate": "1978-08-05",
+          "position": 73
+        },
+        {
+          "chartDate": "1978-08-12",
+          "position": 73
+        }
+      ]
+    }
+  },
+  "dedupeText": "soft focus 1970s studio portraiture 1970s portrait soft focus warm studio lighting script typography terracotta palette mottled backdrop warm skin tones and orange clothing contrasting against a cool blue grey background soft focus diffusion softening the edges of the subject and hair hand resting on chin pose creating a triangular compositional base symmetrical placement of script text in the upper third soft focus 1970s portrait mottled cool backdrop warm terracotta lighting corner aligned white script",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soft-Focus 1970s Studio Portraiture",
+      "category": "Photography",
+      "medium": [
+        "Color film photography",
+        "Studio lighting",
+        "Soft-focus lens filter"
+      ],
+      "useCases": [
+        "Vintage album cover design",
+        "Retro celebrity editorial",
+        "Nostalgic portrait photography"
+      ],
+      "retrievalTags": [
+        "1970s portrait",
+        "soft focus",
+        "warm studio lighting",
+        "script typography",
+        "terracotta palette",
+        "mottled backdrop"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Produces a warm, soft-focus studio portrait with a mottled blue-grey background and elegant script typography in the upper corners.",
+      "triggerTerms": [
+        "1970s soft-focus studio portrait",
+        "warm terracotta lighting",
+        "mottled blue-grey backdrop",
+        "vintage script album cover"
+      ],
+      "excludeWhen": [
+        "high-contrast modern photography",
+        "sharp digital clarity",
+        "minimalist sans-serif layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium close-up portrait of a smiling subject with feathered hair, illuminated by warm, diffused light against a textured, cool-toned studio backdrop. The composition is balanced by delicate, white script lettering positioned at the top left and right edges.",
+    "coreVisualRelationships": [
+      "Warm skin tones and orange clothing contrasting against a cool blue-grey background",
+      "Soft-focus diffusion softening the edges of the subject and hair",
+      "Hand-resting-on-chin pose creating a triangular compositional base",
+      "Symmetrical placement of script text in the upper third"
+    ],
+    "coreInvariants": [
+      "Mottled, non-uniform studio backdrop",
+      "Warm, low-contrast lighting",
+      "Thin, elegant script typography",
+      "Soft-focus lens effect"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered, medium shot from the chest up, filling approximately 70% of the frame.",
+      "visualAnchor": "The subject's face and smile, highlighted by the warmest light.",
+      "movementAndEyePath": "Eyes move from the subject's face to the hand gesture, then upward to the script text in the corners.",
+      "negativeSpace": "The upper corners and sides provide breathing room with a textured, painterly quality."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Terracotta and warm orange (clothing and skin tones)",
+      "contrastColorRole": "Muted blue-grey (background)",
+      "accentColorRole": "White (typography and highlights)",
+      "saturationAndValueRelationship": "Medium saturation with a compressed value range to maintain a soft, hazy look.",
+      "paletteRestrictions": [
+        "Avoid harsh blacks",
+        "Avoid neon or primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Spencerian-influenced cursive",
+      "letterConstructionRules": [
+        "High-contrast stroke weight",
+        "Elongated, flourishing swashes on initial and terminal characters",
+        "Slanted axis (approx 15-20 degrees)",
+        "Connected lowercase letters with looped ascenders"
+      ],
+      "characterSpecificRedesigns": [
+        "Capital letters feature large, circular flourishes",
+        "Terminal 'y' or 'e' extends into a long, decorative underline or tail"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "light",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "narrow",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "left and right justified to corners",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top corners",
+            "scale": "small to medium",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over background"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single script style used for both name and title to maintain elegance.",
+      "graphicDevices": [
+        "Subtle vignette",
+        "Grainy film texture"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Cursive connectivity",
+          "Thin stroke weight",
+          "White color"
+        ],
+        "avoid": [
+          "Bold weights",
+          "Sans-serif fonts",
+          "Modern geometric scripts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Edwardian Script",
+            "reason": "Matches the formal, high-contrast cursive style",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Snell Roundhand",
+            "reason": "Captures the elegant, flowing 70s aesthetic",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus studio portrait of a person with 1970s feathered hair, wearing an orange textured top, against a mottled blue-grey backdrop with warm lighting.",
+        "overlayInstruction": "Add white, elegant script lettering in the top-left and top-right corners using a thin, flourishing cursive font."
+      },
+      "verificationChecks": [
+        "Is the lighting warm and diffused?",
+        "Is the background mottled and cool-toned?",
+        "Is the typography thin, white, and script-based?",
+        "Is there a visible soft-focus/hazy effect?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the soft-focus effect",
+      "Warmth of the terracotta color palette",
+      "Complexity of the script flourishes"
+    ],
+    "mustRedesign": [
+      "Modern digital sharpness",
+      "Flat, solid color backgrounds",
+      "Heavy block typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Painterly, mottled background texture",
+        "Luminous skin tones",
+        "Delicate, legible script"
+      ],
+      "avoid": [
+        "Blown-out highlights",
+        "Overly saturated digital colors",
+        "Cluttered compositions"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 1970s film grain texture",
+      "Ensure script does not overlap the subject's face",
+      "Verify the soft-focus does not obscure facial features",
+      "Confirm the color contrast between orange and blue-grey"
+    ],
+    "reuseFormula": "Soft-focus 1970s portrait + mottled cool backdrop + warm terracotta lighting + corner-aligned white script."
+  }
+}

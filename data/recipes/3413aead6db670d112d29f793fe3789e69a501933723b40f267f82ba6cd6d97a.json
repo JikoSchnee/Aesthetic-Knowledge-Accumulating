@@ -1,0 +1,333 @@
+{
+  "id": "3413aead6db670d112d29f793fe3789e69a501933723b40f267f82ba6cd6d97a",
+  "skillId": "3413aead6db670d112d29f793fe3789e69a501933723b40f267f82ba6cd6d97a",
+  "versionId": "3413aead6db670d112d29f793fe3789e69a501933723b40f267f82ba6cd6d97a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:38:41.159Z",
+  "approvedAt": "2026-08-12T18:38:41.159Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:38:41.159Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Mission to Please.jpg",
+    "hash": "3413aead6db670d112d29f793fe3789e69a501933723b40f267f82ba6cd6d97a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Mission to Please",
+    "artist": "The Isley Brothers",
+    "artworkUrl": "https://coverartarchive.org/release-group/5b146cc5-8ab5-39f4-883c-fb91f38951a3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5b146cc5-8ab5-39f4-883c-fb91f38951a3",
+    "releaseGroupId": "5b146cc5-8ab5-39f4-883c-fb91f38951a3",
+    "recordingId": "3f7729bf-4534-433e-9e4e-bf0996a7277f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "TearsThe Isley Brothers",
+      "song": "Tears",
+      "performer": "The Isley Brothers",
+      "peakPosition": 55,
+      "firstChartDate": "1997-01-11",
+      "lastChartDate": "1997-03-22",
+      "appearances": [
+        {
+          "chartDate": "1997-01-11",
+          "position": 96
+        },
+        {
+          "chartDate": "1997-01-18",
+          "position": 92
+        },
+        {
+          "chartDate": "1997-01-25",
+          "position": 72
+        },
+        {
+          "chartDate": "1997-02-01",
+          "position": 68
+        },
+        {
+          "chartDate": "1997-02-08",
+          "position": 63
+        },
+        {
+          "chartDate": "1997-02-15",
+          "position": 55
+        },
+        {
+          "chartDate": "1997-02-22",
+          "position": 60
+        },
+        {
+          "chartDate": "1997-03-01",
+          "position": 65
+        },
+        {
+          "chartDate": "1997-03-08",
+          "position": 70
+        },
+        {
+          "chartDate": "1997-03-15",
+          "position": 78
+        },
+        {
+          "chartDate": "1997-03-22",
+          "position": 87
+        }
+      ]
+    }
+  },
+  "dedupeText": "classic r b album cover layout 90s r b luxury car suit and tie studio lighting high key background condensed sans serif central figure anchored by a vertical cane symmetrical flanking of secondary figures on car fenders horizontal typographic lines framing the top and bottom thirds high contrast metallic textures against a flat white void high key studio photography metallic formal wear extra condensed lowercase sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Classic R&B Album Cover Layout",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Posters",
+        "Artist Branding"
+      ],
+      "retrievalTags": [
+        "90s R&B",
+        "luxury car",
+        "suit and tie",
+        "studio lighting",
+        "high-key background",
+        "condensed sans-serif"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-key studio portrait featuring multiple subjects in formal attire posed around a luxury vehicle with clean, top-aligned condensed typography.",
+      "triggerTerms": [
+        "R&B group album cover",
+        "men in suits with luxury car",
+        "high-key studio photography with red accents",
+        "condensed sans-serif title over white background"
+      ],
+      "excludeWhen": [
+        "gritty or dark urban settings",
+        "hand-drawn or illustrative styles",
+        "minimalist single-subject portraits"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A clean, bright studio composition where three men in vibrant, metallic-sheen suits are posed symmetrically around a classic silver luxury car against a pure white background, framed by bold red and blue condensed typography.",
+    "coreVisualRelationships": [
+      "Central figure anchored by a vertical cane",
+      "Symmetrical flanking of secondary figures on car fenders",
+      "Horizontal typographic lines framing the top and bottom thirds",
+      "High-contrast metallic textures against a flat white void"
+    ],
+    "coreInvariants": [
+      "Pure white high-key background",
+      "Metallic or satin-finish formal suits",
+      "Classic silver luxury vehicle as a central prop"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three subjects occupy the center and mid-ground; the central figure is largest and positioned slightly forward.",
+      "visualAnchor": "The central figure's dark suit and vertical cane provide a stable focal point.",
+      "movementAndEyePath": "Eyes start at the red top-aligned text, move down to the central figure, then outward to the flanking figures and the car, ending at the bottom-right boxed text.",
+      "negativeSpace": "Extensive white negative space surrounds the subjects, pushing the focus inward."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (Background)",
+      "contrastColorRole": "Black and Silver (Subjects and Car)",
+      "accentColorRole": "Red and Royal Blue (Typography and Ties)",
+      "saturationAndValueRelationship": "High-value background with high-saturation accents in clothing and text.",
+      "paletteRestrictions": [
+        "Pure white background",
+        "Metallic silver",
+        "Deep red",
+        "Royal blue"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Extremely narrow character widths",
+        "Tight letter spacing",
+        "Flat terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'i' with square tittle",
+        "Lowercase 't' with short crossbar"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floats above subjects"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "italic lowercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "below main title",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "aligned with horizontal rule"
+          },
+          "treatment": {
+            "fill": "slate blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Varying weights and styles (italic vs. upright) of the same condensed sans-serif family.",
+      "graphicDevices": [
+        "Thin horizontal rules",
+        "Rectangular framing box for secondary text",
+        "Small silhouette icon"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase casing",
+          "Extra-condensed width",
+          "Red primary color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Wide tracking",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed structure.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Univers Ultra Condensed",
+            "reason": "Matches the clean, modern sans-serif geometry.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Compressed",
+            "reason": "Offers the neutral but bold presence required for the header.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key studio photograph of three men in metallic blue, black, and silver suits posed around a classic silver 1950s luxury convertible. The background must be pure, seamless white with soft shadows on the floor.",
+        "overlayInstruction": "Add extra-condensed sans-serif text in lowercase. The main title should be bold red at the top. A secondary italicized line in blue should sit below it, separated by a thin grey horizontal rule. A third text element should be placed in the bottom right inside a thin blue rectangular box."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Is the main title red and extra-condensed?",
+        "Are the subjects wearing metallic-finish suits?",
+        "Is there a thin horizontal rule separating the title lines?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Suit colors",
+      "Car model",
+      "Typography accent color",
+      "Number of subjects"
+    ],
+    "mustRedesign": [
+      "Logos",
+      "Specific artist likenesses",
+      "Brand emblems on the car"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean studio lighting",
+        "Sharp typographic alignment",
+        "High-contrast color separation"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-resolution textures",
+        "Default wide fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure white background without gradients",
+      "Verify text is lowercase as specified",
+      "Ensure metallic sheen is visible on clothing",
+      "Confirm the car is silver/chrome",
+      "Check that the cane is perfectly vertical"
+    ],
+    "reuseFormula": "High-key studio photography + metallic formal wear + extra-condensed lowercase sans-serif typography."
+  }
+}

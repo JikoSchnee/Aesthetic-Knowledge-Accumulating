@@ -1,0 +1,284 @@
+{
+  "id": "89714d763db1aee64f4ece9325b292454d480246991801a5c9dfbcd72260c48b",
+  "skillId": "89714d763db1aee64f4ece9325b292454d480246991801a5c9dfbcd72260c48b",
+  "versionId": "89714d763db1aee64f4ece9325b292454d480246991801a5c9dfbcd72260c48b",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:56:49.278Z",
+  "approvedAt": "2026-08-12T18:56:49.278Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:56:49.278Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "My World 2.0.jpg",
+    "hash": "89714d763db1aee64f4ece9325b292454d480246991801a5c9dfbcd72260c48b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "My World 2.0",
+    "artist": "Justin Bieber",
+    "artworkUrl": "https://coverartarchive.org/release-group/eb68ecd6-fb1e-483a-9cda-b595fb4664a7/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/eb68ecd6-fb1e-483a-9cda-b595fb4664a7",
+    "releaseGroupId": "eb68ecd6-fb1e-483a-9cda-b595fb4664a7",
+    "recordingId": "bd647298-42ef-451e-a3b4-e730bb51ad28",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "That Should Be MeJustin Bieber",
+      "song": "That Should Be Me",
+      "performer": "Justin Bieber",
+      "peakPosition": 92,
+      "firstChartDate": "2010-04-10",
+      "lastChartDate": "2010-04-10",
+      "appearances": [
+        {
+          "chartDate": "2010-04-10",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "pop icon album cover layout monochrome portrait geometric sans serif vignette pop music aesthetic tight tracking centered typography subject s torso and head occupy the vertical center primary text acts as a horizontal belt across the subject s chest secondary text is nested directly below the primary text with right alignment vignette focuses light on the subject s face and the central text block monochrome portrait geometric sans serif overlay tight tracking center right hierarchy",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Pop Icon Album Cover Layout",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Posters",
+        "Social Media Artist Profiles"
+      ],
+      "retrievalTags": [
+        "monochrome portrait",
+        "geometric sans-serif",
+        "vignette",
+        "pop music aesthetic",
+        "tight tracking",
+        "centered typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome portrait with bold, geometric sans-serif typography layered across the center of the subject.",
+      "triggerTerms": [
+        "monochrome pop portrait",
+        "bold centered sans-serif overlay",
+        "vignetted studio photography"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "minimalist white space is needed",
+        "handwritten or script fonts are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A desaturated, high-contrast studio portrait of a male subject in a dynamic lean, featuring a heavy vignette and two-tier bold typography that spans the horizontal width of the frame.",
+    "coreVisualRelationships": [
+      "Subject's torso and head occupy the vertical center",
+      "Primary text acts as a horizontal belt across the subject's chest",
+      "Secondary text is nested directly below the primary text with right-alignment",
+      "Vignette focuses light on the subject's face and the central text block"
+    ],
+    "coreInvariants": [
+      "Monochrome or desaturated color palette",
+      "Geometric sans-serif typography with tight letter spacing",
+      "Subject looking directly at the camera"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered, slightly leaning forward, filling approximately 80% of the vertical frame.",
+      "visualAnchor": "The subject's face and the large white primary text.",
+      "movementAndEyePath": "Eyes start at the subject's face, move down to the bold white text, then to the smaller colored subtitle.",
+      "negativeSpace": "Heavy dark vignette in the corners creates a spotlight effect on the center."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Grayscale/Desaturated tones for the background and subject.",
+      "contrastColorRole": "Pure white for the primary display text.",
+      "accentColorRole": "Muted purple or deep violet for the subtitle text.",
+      "saturationAndValueRelationship": "High value contrast between the white text and the dark clothing of the subject.",
+      "paletteRestrictions": [
+        "No vibrant primary colors",
+        "Limited to one accent hue"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Circular 'O' and 'G' forms",
+        "Straight-cut terminals",
+        "Extremely tight tracking (kerning)"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'J' has a short hook",
+        "The 'R' has a straight diagonal leg"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "-50",
+            "leading": "1.0",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Center-middle",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Overlays subject",
+            "relationshipToImage": "Foreground"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Black",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Small",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right-aligned to primary text",
+            "tracking": "-20",
+            "leading": "0.8",
+            "lineBreakPattern": "Single line",
+            "density": "Very Heavy"
+          },
+          "composition": {
+            "position": "Below primary text, right-justified",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Overlays subject",
+            "relationshipToImage": "Foreground"
+          },
+          "treatment": {
+            "fill": "Muted Purple",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Same typeface family with different weights and colors for hierarchy.",
+      "graphicDevices": [
+        "Heavy radial vignette"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric structure",
+          "Tight tracking",
+          "Uppercase styling"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Wide letter spacing",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Matches the geometric proportions and clean terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Provides the circular geometry and heavy weight.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Montserrat Bold",
+            "reason": "A widely available alternative with similar geometric bones.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, desaturated monochrome studio portrait of a male subject wearing a vest, leaning forward against a light gray background with a heavy dark vignette in the corners.",
+        "overlayInstruction": "Add two lines of uppercase geometric sans-serif text across the center. The top line should be large, bold, and white with very tight tracking. The second line should be smaller, extra bold, and muted purple, aligned to the right edge of the top line."
+      },
+      "verificationChecks": [
+        "Is the text centered horizontally?",
+        "Is the tracking tight enough that letters almost touch?",
+        "Is the image desaturated or monochrome?",
+        "Is the vignette strong enough to darken the corners significantly?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Accent color for the subtitle",
+      "Intensity of the vignette",
+      "Subject's pose and attire"
+    ],
+    "mustRedesign": [
+      "Avoid using specific artist names or logos",
+      "Ensure the text is not a direct copy of existing album titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typography",
+        "Professional studio lighting effect",
+        "Balanced horizontal text placement"
+      ],
+      "avoid": [
+        "Blurry text",
+        "Low-contrast portraits",
+        "Default font tracking"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the white text is legible against the subject",
+      "Verify the purple accent color is desaturated to match the mood",
+      "Ensure the subject's face is the brightest part of the photo",
+      "Confirm the geometric sans-serif has no serifs or decorative elements"
+    ],
+    "reuseFormula": "Monochrome Portrait + Geometric Sans-Serif Overlay + Tight Tracking + Center-Right Hierarchy"
+  }
+}

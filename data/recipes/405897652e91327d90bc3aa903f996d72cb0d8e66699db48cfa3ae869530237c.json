@@ -1,0 +1,307 @@
+{
+  "id": "405897652e91327d90bc3aa903f996d72cb0d8e66699db48cfa3ae869530237c",
+  "skillId": "405897652e91327d90bc3aa903f996d72cb0d8e66699db48cfa3ae869530237c",
+  "versionId": "405897652e91327d90bc3aa903f996d72cb0d8e66699db48cfa3ae869530237c",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:01:35.317Z",
+  "approvedAt": "2026-08-12T06:01:35.317Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:01:35.317Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Brief Replies.jpg",
+    "hash": "405897652e91327d90bc3aa903f996d72cb0d8e66699db48cfa3ae869530237c",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Brief Replies",
+    "artist": "Ten Wheel Drive With Genya Ravan",
+    "artworkUrl": "https://coverartarchive.org/release-group/b5326191-d9cc-4459-b173-fb7eb637b6d8/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b5326191-d9cc-4459-b173-fb7eb637b6d8",
+    "releaseGroupId": "b5326191-d9cc-4459-b173-fb7eb637b6d8",
+    "recordingId": "21d014b2-9858-4fc5-b8ef-de379650d568",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Morning Much BetterTen Wheel Drive With Genya Ravan",
+      "song": "Morning Much Better",
+      "performer": "Ten Wheel Drive With Genya Ravan",
+      "peakPosition": 74,
+      "firstChartDate": "1970-07-25",
+      "lastChartDate": "1970-09-05",
+      "appearances": [
+        {
+          "chartDate": "1970-07-25",
+          "position": 98
+        },
+        {
+          "chartDate": "1970-08-01",
+          "position": 89
+        },
+        {
+          "chartDate": "1970-08-08",
+          "position": 89
+        },
+        {
+          "chartDate": "1970-08-15",
+          "position": 81
+        },
+        {
+          "chartDate": "1970-08-22",
+          "position": 76
+        },
+        {
+          "chartDate": "1970-08-29",
+          "position": 74
+        },
+        {
+          "chartDate": "1970-09-05",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "kinetic motion blur album cover motion blur long exposure kinetic photography stacked typography 70s aesthetic vibrant colors horizontal motion trails vs static black background vibrant primary colored figure vs yellow and white typography dense typographic block anchored to the top right corner repetitive rhythmic patterns in the blurred subject kinetic motion blur stacked geometric sans high contrast black",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Kinetic Motion Blur Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Long Exposure",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Experimental Jazz Album Art",
+        "Psychedelic Rock Visuals",
+        "Modern Dance Posters"
+      ],
+      "retrievalTags": [
+        "motion blur",
+        "long exposure",
+        "kinetic photography",
+        "stacked typography",
+        "70s aesthetic",
+        "vibrant colors"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dynamic composition featuring a long-exposure photographic subject with horizontal motion trails and tightly stacked, multi-weight sans-serif typography in the upper right corner.",
+      "triggerTerms": [
+        "kinetic motion blur photography",
+        "stacked sans-serif typography",
+        "long exposure figure trails"
+      ],
+      "excludeWhen": [
+        "static portraits",
+        "minimalist white backgrounds",
+        "serif-only typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dark, high-contrast image where a central figure is rendered as a series of overlapping, blurred frames suggesting rapid horizontal movement. The figure wears colorful, patterned clothing that creates painterly streaks of red, blue, and purple against a solid black background. The top right quadrant contains a dense block of text with varying weights and colors.",
+    "coreVisualRelationships": [
+      "Horizontal motion trails vs. static black background",
+      "Vibrant primary-colored figure vs. yellow and white typography",
+      "Dense typographic block anchored to the top right corner",
+      "Repetitive rhythmic patterns in the blurred subject"
+    ],
+    "coreInvariants": [
+      "Horizontal motion blur effect on the subject",
+      "Solid black background for high contrast",
+      "Right-aligned, multi-weight typographic stack"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The blurred figure occupies the bottom two-thirds of the frame, stretching horizontally across the entire width.",
+      "visualAnchor": "The sharp, bright yellow text block in the upper right corner acts as the primary focal point.",
+      "movementAndEyePath": "The eye follows the horizontal motion of the figure from left to right, then moves upward to the dense text block.",
+      "negativeSpace": "The top left quadrant is dominated by solid black negative space, balancing the heavy text on the right."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (Background)",
+      "contrastColorRole": "Yellow (Primary Typography)",
+      "accentColorRole": "Red, Blue, and Purple (Subject Motion Trails)",
+      "saturationAndValueRelationship": "High saturation in the subject and text against a zero-value black background.",
+      "paletteRestrictions": [
+        "Solid black background",
+        "Bright yellow",
+        "Pure white",
+        "Vibrant primary-secondary mix for blur"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Tight letter spacing (kerning)",
+        "Extreme vertical stacking with minimal leading",
+        "Mixing of bold and light weights within the same block"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "flush-left",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "closed",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "titlecase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "underlined"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold geometric sans-serif paired with a delicate, slanted script for contrast.",
+      "graphicDevices": [
+        "Horizontal rule (underline) beneath the script text",
+        "Tight vertical stacking of text lines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow color for bold text",
+          "Right-side alignment",
+          "Tight leading"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Centered text",
+          "Wide letter spacing"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Bold",
+            "reason": "Matches the clean, geometric sans-serif structure of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral",
+            "reason": "Provides a similar informal, slanted script feel for the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a long-exposure photograph of a person in colorful patterned clothing moving horizontally across a black background, creating vibrant motion trails.",
+        "overlayInstruction": "Add a block of right-aligned text in the top right corner. Use a bold yellow sans-serif for the main title and a white script font for the subtitle, separated by a thin white horizontal line."
+      },
+      "verificationChecks": [
+        "Is the background solid black?",
+        "Is the motion blur horizontal and rhythmic?",
+        "Is the text block tightly stacked in the upper right?",
+        "Is there a clear contrast between the yellow and white text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of motion blur",
+      "Color palette of the subject's clothing",
+      "Specific font weights in the typographic stack"
+    ],
+    "mustRedesign": [
+      "Avoid using specific brand logos in the corners",
+      "Ensure the motion blur does not obscure the face entirely"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast black background",
+        "Legible but dense typography",
+        "Fluid, painterly motion trails"
+      ],
+      "avoid": [
+        "Digital-looking motion filters",
+        "Low-resolution textures",
+        "Cluttered layouts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for horizontal alignment of motion trails",
+      "Verify the yellow color is vibrant and saturated",
+      "Ensure the script text is legible against the black",
+      "Confirm the typographic hierarchy is maintained"
+    ],
+    "reuseFormula": "Kinetic Motion Blur + Stacked Geometric Sans + High Contrast Black"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:05.496Z"
+}

@@ -1,0 +1,228 @@
+{
+  "id": "6f694ad84f9a951e60569a49c6c1a9e5a54f5bf092fa495f7029f849e6672120",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T11:50:21.180Z",
+  "approvedAt": "2026-08-11T11:50:21.180Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T11:50:21.180Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Magna Carta… Holy Grail.jpg",
+    "hash": "6f694ad84f9a951e60569a49c6c1a9e5a54f5bf092fa495f7029f849e6672120",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Magna Carta… Holy Grail",
+    "artist": "JAY-Z",
+    "artworkUrl": "https://coverartarchive.org/release-group/ec8d1e4a-2413-407a-8192-f3cdcf1d5dad/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ec8d1e4a-2413-407a-8192-f3cdcf1d5dad",
+    "releaseGroupId": "ec8d1e4a-2413-407a-8192-f3cdcf1d5dad",
+    "recordingId": "a18d973a-e316-49e5-9b6b-d036a9f26359",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "CrownJAY-Z",
+      "song": "Crown",
+      "performer": "JAY-Z",
+      "peakPosition": 100,
+      "firstChartDate": "2013-07-27",
+      "lastChartDate": "2013-07-27",
+      "appearances": [
+        {
+          "chartDate": "2013-07-27",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "classical brutalist overlay statue monochrome brutalist typography redaction bar classical sculpture film grain juxtaposition of ancient marble textures against sharp digital geometry bold horizontal dominance of the central graphic over the verticality of the figures high grain film texture unifying the disparate elements of stone and ink classical sculpture brutalist typography redaction bar heavy film grain high impact monochrome cover art",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Classical Brutalist Overlay",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Streetwear Branding",
+        "Editorial Poster"
+      ],
+      "retrievalTags": [
+        "statue",
+        "monochrome",
+        "brutalist typography",
+        "redaction bar",
+        "classical sculpture",
+        "film grain"
+      ]
+    },
+    "visualDefinition": "A high-contrast black and white photograph of two classical marble statues, partially obscured by a massive, centered typographic block that features a horizontal 'redaction' bar cutting through the middle of the characters.",
+    "coreVisualRelationships": [
+      "Juxtaposition of ancient marble textures against sharp digital geometry",
+      "Bold horizontal dominance of the central graphic over the verticality of the figures",
+      "High-grain film texture unifying the disparate elements of stone and ink"
+    ],
+    "coreInvariants": [
+      "Strict grayscale palette",
+      "Heavy film grain or noise",
+      "Solid black horizontal bar intersecting the text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two statues occupy the frame from the waist up, positioned side-by-side with heads tilted in opposite directions.",
+      "visualAnchor": "The central black typographic block acts as the primary focal point and structural anchor.",
+      "movementAndEyePath": "The eye starts at the heavy black bar, moves outward to the legible letter fragments, then explores the statues' faces in the background.",
+      "negativeSpace": "Minimal; the composition is tight and claustrophobic, with the background being a flat, textured wall."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-tone grays from the marble and background.",
+      "contrastColorRole": "Deep black for the graphic overlay.",
+      "accentColorRole": "Bright white highlights on the statue's musculature.",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between the black ink and the stone.",
+      "paletteRestrictions": [
+        "No color",
+        "No pure digital white (must have grain)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Extreme horizontal expansion",
+        "Interrupted by a solid black bar at the x-height center"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are sliced horizontally through the middle",
+        "The slice is replaced by a continuous black rectangle that spans the width of the text block"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed/small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "dead center",
+            "scale": "80% of width",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "foreground",
+            "relationshipToImage": "obstructive"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean edges",
+            "distortion": "horizontal slicing"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for maximum impact; no secondary type.",
+      "graphicDevices": [
+        "Redaction bar",
+        "Heavy film grain overlay",
+        "High-contrast lighting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Horizontal bar",
+          "Monochrome",
+          "Statue subject"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Thin lines",
+          "Soft lighting"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Provides the necessary weight and verticality to survive the horizontal slice.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Antique Olive Nord",
+            "reason": "Offers a unique geometric weight that feels both modern and classical.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, grainy black and white photograph of two classical Roman marble statues from the chest up, standing side-by-side against a neutral wall. The lighting should be dramatic, highlighting the stone texture.",
+        "overlayInstruction": "Place a large, bold, black geometric sans-serif word in the center. Draw a solid black horizontal rectangle across the middle of the word, thick enough to obscure the center of the letters while leaving the tops and bottoms visible."
+      },
+      "verificationChecks": [
+        "Is the image strictly black and white?",
+        "Is the grain texture visible across the entire image?",
+        "Does the black bar perfectly align with the center of the text?",
+        "Are the statues' features still visible above and below the text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Grain intensity",
+      "Thickness of the redaction bar",
+      "Statue pose/subject",
+      "Text width"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the statues to avoid likeness issues",
+      "The specific word used in the text",
+      "Any specific museum background details"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Brutalist graphic feel",
+        "Authentic film-look grain",
+        "Sharp typographic edges"
+      ],
+      "avoid": [
+        "Smooth digital gradients",
+        "Drop shadows",
+        "Colorful elements"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for any color artifacts in the grayscale",
+      "Ensure the text is centered and level",
+      "Verify the grain doesn't blur the sharp edges of the black bar",
+      "Confirm the statues look like carved stone, not living people"
+    ],
+    "reuseFormula": "Classical sculpture + Brutalist typography + Redaction bar + Heavy film grain = High-impact monochrome cover art."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:12:22.242Z"
+}

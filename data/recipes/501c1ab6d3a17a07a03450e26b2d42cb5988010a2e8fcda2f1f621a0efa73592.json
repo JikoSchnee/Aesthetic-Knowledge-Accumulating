@@ -1,0 +1,285 @@
+{
+  "id": "501c1ab6d3a17a07a03450e26b2d42cb5988010a2e8fcda2f1f621a0efa73592",
+  "skillId": "501c1ab6d3a17a07a03450e26b2d42cb5988010a2e8fcda2f1f621a0efa73592",
+  "versionId": "501c1ab6d3a17a07a03450e26b2d42cb5988010a2e8fcda2f1f621a0efa73592",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:25:49.162Z",
+  "approvedAt": "2026-08-12T13:25:49.162Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:25:49.162Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Come Swing With Me!.jpg",
+    "hash": "501c1ab6d3a17a07a03450e26b2d42cb5988010a2e8fcda2f1f621a0efa73592",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Come Swing With Me!",
+    "artist": "Frank Sinatra",
+    "artworkUrl": "https://coverartarchive.org/release-group/6a5725e6-b6fc-3d6d-af58-c3fb25115796/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6a5725e6-b6fc-3d6d-af58-c3fb25115796",
+    "releaseGroupId": "6a5725e6-b6fc-3d6d-af58-c3fb25115796",
+    "recordingId": "83a0487d-7515-4af1-ba9e-0987dd8bb44f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "River, Stay 'Way From My DoorFrank Sinatra",
+      "song": "River, Stay 'Way From My Door",
+      "performer": "Frank Sinatra",
+      "peakPosition": 82,
+      "firstChartDate": "1960-05-28",
+      "lastChartDate": "1960-06-04",
+      "appearances": [
+        {
+          "chartDate": "1960-05-28",
+          "position": 82
+        },
+        {
+          "chartDate": "1960-06-04",
+          "position": 85
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century swing album layout 1950s typography fedora portrait swing music aesthetic high contrast serif teal and black palette text heavy top third balanced by a large scale subject in the bottom two thirds horizontal rules framing the secondary credits to create a shelf effect color coordination between the secondary text and the cool tones of the background subject s gaze directed away from the camera to create a candid approachable feel combine a candid mid century portrait with a top weighted three tier serif typographic stack separated by horizontal rules",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Swing Album Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Vintage jazz album covers",
+        "Retro music posters",
+        "Mid-century editorial layouts"
+      ],
+      "retrievalTags": [
+        "1950s typography",
+        "fedora portrait",
+        "swing music aesthetic",
+        "high-contrast serif",
+        "teal and black palette"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A classic mid-century music layout featuring a candid portrait with tiered typography and horizontal rule dividers.",
+      "triggerTerms": [
+        "1950s swing album style",
+        "vintage portrait with tiered serif text",
+        "retro music cover layout"
+      ],
+      "excludeWhen": [
+        "modern minimalist requests",
+        "sans-serif dominant designs",
+        "abstract art covers"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A candid, medium-close-up portrait of a man in a fedora and suit, positioned against a neutral studio background. The top third of the frame is dedicated to a structured typographic stack featuring a large serif name, a secondary script-like or slab-serif title in a contrasting color, and smaller credits separated by thin horizontal lines.",
+    "coreVisualRelationships": [
+      "Text-heavy top third balanced by a large-scale subject in the bottom two-thirds",
+      "Horizontal rules framing the secondary credits to create a 'shelf' effect",
+      "Color coordination between the secondary text and the cool tones of the background",
+      "Subject's gaze directed away from the camera to create a candid, approachable feel"
+    ],
+    "coreInvariants": [
+      "Thin horizontal rule lines",
+      "Tiered hierarchy of three distinct font sizes",
+      "Neutral, slightly warm-toned photographic background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the lower 70% of the frame, slightly off-center to the right, in a medium-close-up profile view.",
+      "visualAnchor": "The subject's face and fedora act as the primary anchor, with the bold teal title serving as the secondary anchor.",
+      "movementAndEyePath": "Eyes start at the large top name, drop to the teal title, then follow the subject's gaze toward the right edge of the frame.",
+      "negativeSpace": "Significant negative space in the upper background allows for clear legibility of the multi-line text block."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/cream background and neutral grey-beige studio tones.",
+      "contrastColorRole": "Deep black for the primary name and the subject's suit/hat.",
+      "accentColorRole": "Muted teal or cyan for the secondary title text.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the dark clothing and light background.",
+      "paletteRestrictions": [
+        "Cream",
+        "Teal",
+        "Black",
+        "Slate Grey"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional serif and slab-serif",
+      "letterConstructionRules": [
+        "Primary name uses a tall, high-contrast serif with vertical stress",
+        "Secondary title uses a lower-contrast, slightly rounded slab-serif or heavy transitional serif",
+        "Credits use a small, wide-set serif"
+      ],
+      "characterSpecificRedesigns": [
+        "None; relies on standard mid-century metal type proportions"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "bracketed",
+            "counters": "open",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "1.0",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over background negative space"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "square",
+            "counters": "wide",
+            "strokeCharacter": "sturdy"
+          },
+          "typesetting": {
+            "case": "sentence case",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "1.2",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below primary name",
+            "scale": "medium-large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "centered"
+          },
+          "treatment": {
+            "fill": "teal",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrasting a high-contrast black serif with a low-contrast colored slab-serif for visual separation.",
+      "graphicDevices": [
+        "Thin horizontal rules",
+        "Bordered corner logos",
+        "Rounded corner frame for the main image"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Tiered hierarchy",
+          "Horizontal rules",
+          "Teal/Black color contrast"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Bright neon colors",
+          "Centered subject"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "Matches the high-contrast serif used for the primary name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Clarendon",
+            "reason": "Captures the sturdy, mid-century feel of the secondary title.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a candid 1950s-style portrait of a man in a dark suit and fedora, laughing and looking to the side. The background should be a neutral, light-colored studio wall with soft shadows and a few vertical poles visible. Frame the image with a thin black line and rounded corners.",
+        "overlayInstruction": "Add three levels of text at the top. Level 1: Large black serif name. Level 2: Medium teal slab-serif title. Level 3: Small black serif credits between two thin horizontal lines. Center all text."
+      },
+      "verificationChecks": [
+        "Is the primary name in a high-contrast serif?",
+        "Are there horizontal rules framing the bottom credit line?",
+        "Is the title text teal?",
+        "Is the subject wearing a fedora and looking away from the camera?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's expression",
+      "Accent color (teal can be swapped for red or gold)",
+      "Thickness of horizontal rules"
+    ],
+    "mustRedesign": [
+      "Specific record label logos",
+      "Handwritten numbers in the corner",
+      "Artist-specific facial features"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean mid-century typesetting",
+        "Balanced tiered hierarchy",
+        "Soft, vintage photographic grain"
+      ],
+      "avoid": [
+        "Digital-looking gradients",
+        "Modern sans-serifs",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for three distinct text sizes",
+      "Ensure horizontal rules are perfectly straight",
+      "Verify the teal color is muted, not neon",
+      "Confirm the subject is in a classic 1950s suit/hat"
+    ],
+    "reuseFormula": "Combine a candid mid-century portrait with a top-weighted, three-tier serif typographic stack separated by horizontal rules."
+  }
+}

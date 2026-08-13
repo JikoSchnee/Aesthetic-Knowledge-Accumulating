@@ -1,0 +1,277 @@
+{
+  "id": "d7bd77344ecf9d85de14ca78b5513abb78c91faacaca85025895fb493e9a322f",
+  "skillId": "d7bd77344ecf9d85de14ca78b5513abb78c91faacaca85025895fb493e9a322f",
+  "versionId": "d7bd77344ecf9d85de14ca78b5513abb78c91faacaca85025895fb493e9a322f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:58:14.796Z",
+  "approvedAt": "2026-08-13T04:58:14.796Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:58:14.796Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Mountains.jpg",
+    "hash": "d7bd77344ecf9d85de14ca78b5513abb78c91faacaca85025895fb493e9a322f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Mountains",
+    "artist": "Lonestar",
+    "artworkUrl": "https://coverartarchive.org/release-group/483179cc-e640-3a80-9d57-bac9cbb87f34/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/483179cc-e640-3a80-9d57-bac9cbb87f34",
+    "releaseGroupId": "483179cc-e640-3a80-9d57-bac9cbb87f34",
+    "recordingId": "f747992d-2b71-44a5-acfc-c8a0c895d931",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "MountainsLonestar",
+      "song": "Mountains",
+      "performer": "Lonestar",
+      "peakPosition": 77,
+      "firstChartDate": "2006-09-09",
+      "lastChartDate": "2006-12-23",
+      "appearances": [
+        {
+          "chartDate": "2006-09-09",
+          "position": 92
+        },
+        {
+          "chartDate": "2006-09-16",
+          "position": 96
+        },
+        {
+          "chartDate": "2006-10-28",
+          "position": 99
+        },
+        {
+          "chartDate": "2006-11-04",
+          "position": 89
+        },
+        {
+          "chartDate": "2006-11-11",
+          "position": 93
+        },
+        {
+          "chartDate": "2006-11-18",
+          "position": 85
+        },
+        {
+          "chartDate": "2006-11-25",
+          "position": 87
+        },
+        {
+          "chartDate": "2006-12-02",
+          "position": 82
+        },
+        {
+          "chartDate": "2006-12-09",
+          "position": 82
+        },
+        {
+          "chartDate": "2006-12-16",
+          "position": 77
+        },
+        {
+          "chartDate": "2006-12-23",
+          "position": 84
+        }
+      ]
+    }
+  },
+  "dedupeText": "country rock band album cover country music male group blue sky distressed denim outdoor portrait block typography framed text men positioned at varying depths to create a sense of camaraderie high contrast blue sky against the neutral tones of the clothing and foreground text block anchored to the lower right overlapping the subjects legs group portrait high key sky background framed distressed block typography country rock aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Country Rock Band Album Cover",
+      "category": "Music Photography",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Band Poster",
+        "Music Streaming Thumbnail"
+      ],
+      "retrievalTags": [
+        "country music",
+        "male group",
+        "blue sky",
+        "distressed denim",
+        "outdoor portrait",
+        "block typography",
+        "framed text"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A group portrait of four men in casual attire standing on a metallic surface against a bright blue cloudy sky, featuring a bold two-tone framed text block in the lower right.",
+      "triggerTerms": [
+        "country band album cover style",
+        "group of men standing on a bus roof",
+        "distressed block lettering over blue sky"
+      ],
+      "excludeWhen": [
+        "requesting a single person portrait",
+        "indoor studio photography",
+        "minimalist or thin typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A mid-shot group portrait of four men standing in a staggered line on a white, weathered metallic surface. The background is a vibrant blue sky with soft white clouds. The lighting is bright and even, suggesting an outdoor daylight setting. A rectangular white frame contains two lines of heavy, distressed sans-serif text in the bottom right quadrant.",
+    "coreVisualRelationships": [
+      "Men positioned at varying depths to create a sense of camaraderie",
+      "High-contrast blue sky against the neutral tones of the clothing and foreground",
+      "Text block anchored to the lower right, overlapping the subjects' legs"
+    ],
+    "coreInvariants": [
+      "Bright blue sky with scattered clouds",
+      "Casual denim and t-shirt styling",
+      "Heavy block typography inside a thin white border"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four men occupy the center and left-middle ground, scaled from waist-up to full-body depending on depth.",
+      "visualAnchor": "The man on the far left in light denim acts as the primary vertical anchor, while the text box anchors the bottom right.",
+      "movementAndEyePath": "The eye moves from the faces of the men left-to-right, then drops down to the bold text block.",
+      "negativeSpace": "The upper third of the image is dedicated to the expansive sky."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Sky blue (background)",
+      "contrastColorRole": "Dark navy and charcoal (clothing)",
+      "accentColorRole": "Earthy brown (text) and white (frame/text)",
+      "saturationAndValueRelationship": "High saturation in the sky, medium saturation in the clothing, high value in the white text elements.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Maintain natural skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold, wide sans-serif with distressed edges",
+      "letterConstructionRules": [
+        "Heavy weight with minimal contrast",
+        "Square proportions",
+        "Rough, weathered texture applied to the fill"
+      ],
+      "characterSpecificRedesigns": [
+        "Distressed 'eroded' effect on all glyph edges"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab-influenced Sans-Serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "slightly rounded/distressed",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom right",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "over subjects",
+            "relationshipToImage": "contained within a white rectangular stroke"
+          },
+          "treatment": {
+            "fill": "white (top line), brown (bottom line)",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "distressed/grunge",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family with color variation for hierarchy.",
+      "graphicDevices": [
+        "Thin white rectangular border framing the text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extra-bold weight",
+          "Distressed texture",
+          "Two-tone color split"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Serif fonts",
+          "Clean, sharp edges"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact with grunge texture",
+            "reason": "Matches the heavy weight and presence",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Blackout",
+            "reason": "Provides the necessary blocky, industrial feel",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A group of four men in their 30s-40s, dressed in casual country-rock attire (jeans, t-shirts), standing on the white roof of a bus or trailer. The background is a wide, bright blue sky with soft clouds. Natural daylight.",
+        "overlayInstruction": "Add a thin white rectangular frame in the bottom right corner. Inside the frame, place two lines of large, extra-bold, distressed sans-serif text. The top line should be white and the bottom line should be an earthy brown."
+      },
+      "verificationChecks": [
+        "Is the text contained within a thin white frame?",
+        "Is the sky a vibrant, saturated blue?",
+        "Does the text have a weathered, distressed texture?",
+        "Are there four men in the composition?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of band members",
+      "Color of the bottom text line",
+      "Cloud density in the sky"
+    ],
+    "mustRedesign": [
+      "Specific band logos",
+      "Exact facial features of the original subjects",
+      "Specific graphic prints on t-shirts"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clear, bright outdoor lighting",
+        "Heavy, impactful typography",
+        "Balanced group composition"
+      ],
+      "avoid": [
+        "Low-resolution textures",
+        "Thin, illegible fonts",
+        "Dark, moody lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text box does not obscure the faces",
+      "Check that the distressed texture on the font looks intentional",
+      "Verify the two-tone color scheme of the text"
+    ],
+    "reuseFormula": "Group portrait + high-key sky background + framed distressed block typography = Country/Rock aesthetic."
+  }
+}

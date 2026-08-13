@@ -1,0 +1,254 @@
+{
+  "id": "6d554a3ad02ae8f7c1b3dcdc14a4687d5e266d873f6a31d817377152efd9be18",
+  "skillId": "6d554a3ad02ae8f7c1b3dcdc14a4687d5e266d873f6a31d817377152efd9be18",
+  "versionId": "6d554a3ad02ae8f7c1b3dcdc14a4687d5e266d873f6a31d817377152efd9be18",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:06:29.542Z",
+  "approvedAt": "2026-08-12T23:06:29.542Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:06:29.542Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Dreams 2 Reality.jpg",
+    "hash": "6d554a3ad02ae8f7c1b3dcdc14a4687d5e266d873f6a31d817377152efd9be18",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Dreams 2 Reality",
+    "artist": "Realestk",
+    "artworkUrl": "https://coverartarchive.org/release-group/b3d61cda-b144-403f-99ad-03bc470d06c2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b3d61cda-b144-403f-99ad-03bc470d06c2",
+    "releaseGroupId": "b3d61cda-b144-403f-99ad-03bc470d06c2",
+    "recordingId": "83b8cdf7-6450-413b-b260-0267f8db77ee",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "WFMRealestk",
+      "song": "WFM",
+      "performer": "Realestk",
+      "peakPosition": 67,
+      "firstChartDate": "2021-10-23",
+      "lastChartDate": "2021-11-13",
+      "appearances": [
+        {
+          "chartDate": "2021-10-23",
+          "position": 75
+        },
+        {
+          "chartDate": "2021-10-30",
+          "position": 67
+        },
+        {
+          "chartDate": "2021-11-06",
+          "position": 78
+        },
+        {
+          "chartDate": "2021-11-13",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "cyanotic low key portrait cyan lighting low key portrait silhouette grainy texture rim lighting mystery nocturnal cyan backlight vs deep black foreground textured wall surface vs soft hair silhouette sharp rim light vs obscured facial details central vertical subject vs horizontal background glow low key portrait cyan backlight heavy grain obscured face",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cyanotic Low-Key Portrait",
+      "category": "Photography",
+      "medium": [
+        "Digital Photography",
+        "Cinematic Lighting"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Cinematic Poster",
+        "Moody Profile Image"
+      ],
+      "retrievalTags": [
+        "cyan lighting",
+        "low-key portrait",
+        "silhouette",
+        "grainy texture",
+        "rim lighting",
+        "mystery",
+        "nocturnal"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, low-key portrait featuring a central figure in deep shadow with a vibrant cyan backlight creating a sharp rim light effect.",
+      "triggerTerms": [
+        "cyan rim lighting",
+        "shadowed face portrait",
+        "moody blue backlighting",
+        "grainy cinematic low-key"
+      ],
+      "excludeWhen": [
+        "brightly lit environments",
+        "warm color palettes",
+        "clear facial features are required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central human silhouette with long wavy hair and sunglasses, almost entirely obscured by shadow. The subject is defined by a strong, cool-toned cyan glow emanating from behind, casting a sharp rim light on the hair and forehead against a textured, dark wall.",
+    "coreVisualRelationships": [
+      "Cyan backlight vs. deep black foreground",
+      "Textured wall surface vs. soft hair silhouette",
+      "Sharp rim light vs. obscured facial details",
+      "Central vertical subject vs. horizontal background glow"
+    ],
+    "coreInvariants": [
+      "Cyan/Teal color temperature",
+      "Heavy film grain texture",
+      "Obscured eyes/face",
+      "High contrast ratio"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered medium close-up, occupying the middle 60% of the frame.",
+      "visualAnchor": "The bright cyan glow behind the head, drawing focus to the silhouette's edge.",
+      "movementAndEyePath": "Eyes start at the bright cyan halo, follow the rim light down the hair, and settle into the dark center of the face.",
+      "negativeSpace": "Large areas of deep black in the lower half and corners emphasize the central light source."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Black (Shadows)",
+      "contrastColorRole": "Vibrant Cyan (Backlight)",
+      "accentColorRole": "Muted Teal (Midtones on wall)",
+      "saturationAndValueRelationship": "High value contrast between the light source and subject; saturation is concentrated in the cyan highlights.",
+      "paletteRestrictions": [
+        "No warm tones (reds, oranges, yellows)",
+        "Strictly monochromatic cyan and black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight kerning",
+        "All-caps for metadata"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "metadata",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Closed",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Compact",
+            "lineBreakPattern": "Stacked",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Bottom Right",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlay on dark area"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family with varying weights for metadata blocks.",
+      "graphicDevices": [
+        "Small rectangular framing for metadata icons"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "All-caps styling"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Helvetica Compressed",
+            "reason": "Matches the dense, bold metadata aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers Ultra Condensed",
+            "reason": "Provides a clean, modern look for technical labels.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-key portrait of a person with long wavy hair and sunglasses, centered. Use a strong cyan backlight to create a rim light effect. The face should be almost entirely in shadow. Add heavy film grain and a textured dark wall background.",
+        "overlayInstruction": "Add a small, white, condensed sans-serif metadata block in the bottom right corner, ensuring it is legible against the dark foreground."
+      },
+      "verificationChecks": [
+        "Is the face primarily in shadow?",
+        "Is the backlight specifically cyan/teal?",
+        "Is there visible film grain across the image?",
+        "Is the text small and positioned in the bottom right?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of cyan glow",
+      "Amount of film grain",
+      "Subject hair texture",
+      "Wall texture detail"
+    ],
+    "mustRedesign": [
+      "Any visible facial features in the deep shadows",
+      "Warm light sources",
+      "Smooth, digital-clean surfaces without grain"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Strong rim lighting",
+        "Atmospheric cyan mood",
+        "Heavy textural grain"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Over-exposure of the face",
+        "Vibrant multi-color palettes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the cyan light does not wash out the silhouette's edge.",
+      "Verify the grain is uniform and not blotchy.",
+      "Check that the sunglasses are visible only by their silhouette/rim.",
+      "Confirm the background wall has subtle vertical texture."
+    ],
+    "reuseFormula": "Low-key portrait + Cyan Backlight + Heavy Grain + Obscured Face"
+  }
+}

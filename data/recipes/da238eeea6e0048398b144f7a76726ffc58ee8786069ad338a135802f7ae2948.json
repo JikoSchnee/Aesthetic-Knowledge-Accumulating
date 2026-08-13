@@ -1,0 +1,278 @@
+{
+  "id": "da238eeea6e0048398b144f7a76726ffc58ee8786069ad338a135802f7ae2948",
+  "skillId": "da238eeea6e0048398b144f7a76726ffc58ee8786069ad338a135802f7ae2948",
+  "versionId": "da238eeea6e0048398b144f7a76726ffc58ee8786069ad338a135802f7ae2948",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:33:46.160Z",
+  "approvedAt": "2026-08-12T05:33:46.160Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:33:46.160Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Back. Forward.jpg",
+    "hash": "da238eeea6e0048398b144f7a76726ffc58ee8786069ad338a135802f7ae2948",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Back. Forward",
+    "artist": "B.J. Thomas",
+    "artworkUrl": "https://coverartarchive.org/release-group/26192323-fe9f-4bf8-8433-b892610119fa/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/26192323-fe9f-4bf8-8433-b892610119fa",
+    "releaseGroupId": "26192323-fe9f-4bf8-8433-b892610119fa",
+    "recordingId": "984273ed-4e19-46d6-8501-6ef38fbacece",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Mighty Clouds Of JoyB.J. Thomas",
+      "song": "Mighty Clouds Of Joy",
+      "performer": "B.J. Thomas",
+      "peakPosition": 34,
+      "firstChartDate": "1971-07-03",
+      "lastChartDate": "1971-09-04",
+      "appearances": [
+        {
+          "chartDate": "1971-07-03",
+          "position": 73
+        },
+        {
+          "chartDate": "1971-07-10",
+          "position": 61
+        },
+        {
+          "chartDate": "1971-07-17",
+          "position": 53
+        },
+        {
+          "chartDate": "1971-07-24",
+          "position": 46
+        },
+        {
+          "chartDate": "1971-07-31",
+          "position": 43
+        },
+        {
+          "chartDate": "1971-08-07",
+          "position": 42
+        },
+        {
+          "chartDate": "1971-08-14",
+          "position": 36
+        },
+        {
+          "chartDate": "1971-08-21",
+          "position": 34
+        },
+        {
+          "chartDate": "1971-08-28",
+          "position": 34
+        },
+        {
+          "chartDate": "1971-09-04",
+          "position": 41
+        }
+      ]
+    }
+  },
+  "dedupeText": "pastoral portrait album cover pastoral landscape wide spaced sans serif back view portrait grassy field soft focus photography horizontal rule central figure anchored by a low horizon line symmetrical typographic framing at top and bottom edges soft diffused lighting creating a nostalgic atmosphere horizontal rules separating text from the photographic field pastoral photography wide tracked geometric sans serif horizontal rule framing",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Pastoral Portrait Album Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album cover design",
+        "Folk or country music branding",
+        "Nostalgic 1980s aesthetic layouts"
+      ],
+      "retrievalTags": [
+        "pastoral landscape",
+        "wide-spaced sans-serif",
+        "back-view portrait",
+        "grassy field",
+        "soft focus photography",
+        "horizontal rule"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered back-view portrait in a grassy field framed by wide-tracked, thin sans-serif typography and horizontal rules.",
+      "triggerTerms": [
+        "pastoral landscape portrait",
+        "wide-spaced header and footer text",
+        "back-view figure in field"
+      ],
+      "excludeWhen": [
+        "high-contrast urban settings",
+        "minimalist flat vector art",
+        "dynamic action shots"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A soft-focus photograph of a person seen from behind, standing in a lush green field under a pale blue sky, framed by thin horizontal lines and extremely wide-tracked sans-serif text at the top and bottom.",
+    "coreVisualRelationships": [
+      "Central figure anchored by a low horizon line",
+      "Symmetrical typographic framing at top and bottom edges",
+      "Soft, diffused lighting creating a nostalgic atmosphere",
+      "Horizontal rules separating text from the photographic field"
+    ],
+    "coreInvariants": [
+      "Extreme letter spacing (tracking) in all display text",
+      "Thin horizontal rule lines underlining top text and overlining bottom text",
+      "Back-view orientation of the central subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-length figure centered vertically and horizontally, occupying the middle third of the frame.",
+      "visualAnchor": "The central figure's white shirt provides a high-value anchor against the green field.",
+      "movementAndEyePath": "Eyes start at the top header, move down the central figure, and rest on the bottom footer text.",
+      "negativeSpace": "Significant negative space provided by the sky and the expansive grassy foreground."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted green (field) and pale blue (sky)",
+      "contrastColorRole": "Off-white (subject's clothing)",
+      "accentColorRole": "Pale yellow/gold (bottom typography)",
+      "saturationAndValueRelationship": "Low saturation with a hazy, high-key value range in the sky and mid-tones in the grass.",
+      "paletteRestrictions": [
+        "Natural earth tones",
+        "Desaturated blues",
+        "Muted gold"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Open counters",
+        "Monolinear construction"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monoline"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "500-800 units",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top and bottom margins",
+            "scale": "small to medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by horizontal rules"
+          },
+          "treatment": {
+            "fill": "solid",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used with color variation (white/grey top, gold bottom).",
+      "graphicDevices": [
+        "Thin horizontal rules",
+        "Wide tracking"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extreme tracking",
+          "Horizontal rules",
+          "Uppercase sans-serif"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Tight kerning",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Medium",
+            "reason": "Geometric clarity matches the 80s aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gill Sans",
+            "reason": "Clean proportions suitable for wide tracking.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus photograph of a person from behind standing in a tall grassy field under a hazy blue sky.",
+        "overlayInstruction": "Add thin horizontal rules at the top and bottom. Place uppercase sans-serif text with extreme tracking above the top rule and below the bottom rule."
+      },
+      "verificationChecks": [
+        "Is the text tracking extremely wide?",
+        "Are there thin horizontal rules framing the image?",
+        "Is the subject viewed from the back?",
+        "Is the color palette muted and pastoral?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of the grass",
+      "Color of the horizontal rules",
+      "Specific sans-serif weight"
+    ],
+    "mustRedesign": [
+      "Handwritten signatures or marker overlays",
+      "Specific artist names or titles",
+      "Brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, airy typographic layout",
+        "Soft, nostalgic photographic quality",
+        "Balanced symmetry"
+      ],
+      "avoid": [
+        "Cluttered foregrounds",
+        "High-contrast harsh lighting",
+        "Modern digital sharpness"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text does not touch the horizontal rules",
+      "Verify the horizon line is roughly at the vertical center",
+      "Check that the tracking is consistent across both text blocks"
+    ],
+    "reuseFormula": "Pastoral photography + Wide-tracked geometric sans-serif + Horizontal rule framing."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:44:18.223Z"
+}

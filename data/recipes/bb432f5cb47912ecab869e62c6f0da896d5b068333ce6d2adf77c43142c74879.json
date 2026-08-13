@@ -1,0 +1,252 @@
+{
+  "id": "bb432f5cb47912ecab869e62c6f0da896d5b068333ce6d2adf77c43142c74879",
+  "skillId": "bb432f5cb47912ecab869e62c6f0da896d5b068333ce6d2adf77c43142c74879",
+  "versionId": "bb432f5cb47912ecab869e62c6f0da896d5b068333ce6d2adf77c43142c74879",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:43:38.496Z",
+  "approvedAt": "2026-08-12T16:43:38.496Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:43:38.496Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Rest of Our Life.jpg",
+    "hash": "bb432f5cb47912ecab869e62c6f0da896d5b068333ce6d2adf77c43142c74879",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Rest of Our Life",
+    "artist": "Tim McGraw & Faith Hill",
+    "artworkUrl": "https://coverartarchive.org/release-group/6f9fb612-f9ce-4855-a37d-9b979435b64a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6f9fb612-f9ce-4855-a37d-9b979435b64a",
+    "releaseGroupId": "6f9fb612-f9ce-4855-a37d-9b979435b64a",
+    "recordingId": "ea44c1e4-7e2d-4199-a7ef-51618bbd047e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Speak To A GirlTim McGraw & Faith Hill",
+      "song": "Speak To A Girl",
+      "performer": "Tim McGraw & Faith Hill",
+      "peakPosition": 61,
+      "firstChartDate": "2017-04-15",
+      "lastChartDate": "2017-04-22",
+      "appearances": [
+        {
+          "chartDate": "2017-04-15",
+          "position": 61
+        },
+        {
+          "chartDate": "2017-04-22",
+          "position": 70
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast silhouette portrait layout silhouette high contrast black and white negative space minimalist typography profile view intimate portrait figure ground reversal between black silhouettes and white void symmetrical text placement at extreme vertical margins contrast between organic human profiles and geometric text alignment tension created by the narrow gap between the two dark forms high contrast silhouette central negative space void widely tracked red sans serif text at margins",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Silhouette Portrait Layout",
+      "category": "Graphic Design / Photography",
+      "medium": [
+        "High-contrast photography",
+        "Digital layout"
+      ],
+      "useCases": [
+        "Album cover art",
+        "Romantic event posters",
+        "Minimalist editorial spreads",
+        "Cinematic promotional graphics"
+      ],
+      "retrievalTags": [
+        "silhouette",
+        "high contrast",
+        "black and white",
+        "negative space",
+        "minimalist typography",
+        "profile view",
+        "intimate portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A stark black-and-white composition featuring two silhouettes facing each other with a central void of white negative space and small, widely-tracked red sans-serif text.",
+      "triggerTerms": [
+        "high contrast silhouette profile",
+        "black and white negative space portrait",
+        "minimalist red typography on black"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "detailed facial features are necessary",
+        "busy or textured backgrounds are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A vertical or square composition where two dark silhouettes (one from the top, one from the bottom) reach toward each other, creating a dynamic 'S' or 'Z' shaped channel of pure white negative space between them. The silhouettes are almost entirely black, with minimal highlights on hair or clothing textures, and are framed by small, centered, widely-spaced red text at the top and bottom margins.",
+    "coreVisualRelationships": [
+      "Figure-ground reversal between black silhouettes and white void",
+      "Symmetrical text placement at extreme vertical margins",
+      "Contrast between organic human profiles and geometric text alignment",
+      "Tension created by the narrow gap between the two dark forms"
+    ],
+    "coreInvariants": [
+      "Pure black (#000000) and pure white (#FFFFFF) primary palette",
+      "Small-scale, widely-tracked sans-serif typography in red",
+      "Profiles facing inward toward the center of the frame"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two large-scale silhouettes occupying the top-right and bottom-left quadrants, nearly meeting in the center.",
+      "visualAnchor": "The central white negative space channel that draws the eye between the two profiles.",
+      "movementAndEyePath": "The eye follows the curve of the top silhouette down to the center, then follows the bottom silhouette's profile, punctuated by the text at the margins.",
+      "negativeSpace": "Dominant white negative space acting as a separator and a shape in its own right."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (silhouettes and shadows)",
+      "contrastColorRole": "White (background and negative space)",
+      "accentColorRole": "Red (typography)",
+      "saturationAndValueRelationship": "Extreme value contrast with zero mid-tones; high saturation for the small text accents.",
+      "paletteRestrictions": [
+        "Strictly black, white, and a single accent color (red)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Open counters",
+        "Clean, unadorned terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "very wide (approx 300-500 units)",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top and bottom margins, centered horizontally",
+            "scale": "small relative to frame",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over solid black areas of the silhouettes"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used for both top and bottom text to maintain minimalist consistency.",
+      "graphicDevices": [
+        "Extreme tracking",
+        "High-contrast thresholding"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide tracking",
+          "Uppercase styling",
+          "Red color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Tight kerning"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Medium",
+            "reason": "Geometric clarity and clean uppercase forms.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham Book",
+            "reason": "Modern, balanced proportions that work well with wide tracking.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Montserrat",
+            "reason": "Accessible geometric sans that maintains legibility at small scales.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white image of two people in profile, one coming from the top and one from the bottom, facing each other. The image should be thresholded so there are no grays, only pure black silhouettes against a pure white background, creating a curved white path between them.",
+        "overlayInstruction": "Add two lines of text in a small, red, geometric sans-serif font. Set the text in all caps with very wide tracking. Center one line at the top margin and the other at the bottom margin, ensuring they are placed over the black silhouette areas."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Are the silhouettes pure black with minimal detail?",
+        "Is the text red and widely tracked?",
+        "Is the text centered at the top and bottom margins?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Width of the white negative space channel",
+      "Amount of texture/detail visible in the hair/clothing",
+      "Specific shade of red for the text",
+      "Tracking width of the typography"
+    ],
+    "mustRedesign": [
+      "Any grayscale gradients or mid-tones in the silhouettes",
+      "Tight letter spacing",
+      "Centered text that overlaps the white negative space"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Stark binary contrast",
+        "Balanced negative space",
+        "Clean, legible minimalist typography"
+      ],
+      "avoid": [
+        "Visual clutter",
+        "Low-contrast silhouettes",
+        "Default font tracking"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure black/white thresholding",
+      "Verify text is centered and red",
+      "Ensure tracking is significantly wider than standard",
+      "Confirm silhouettes create a clear 'S' or 'Z' flow",
+      "Check that no text is obscured by the white background"
+    ],
+    "reuseFormula": "High-contrast silhouette + central negative space void + widely-tracked red sans-serif text at margins."
+  }
+}

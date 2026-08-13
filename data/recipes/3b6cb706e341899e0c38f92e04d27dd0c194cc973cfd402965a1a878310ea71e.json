@@ -1,0 +1,308 @@
+{
+  "id": "3b6cb706e341899e0c38f92e04d27dd0c194cc973cfd402965a1a878310ea71e",
+  "skillId": "3b6cb706e341899e0c38f92e04d27dd0c194cc973cfd402965a1a878310ea71e",
+  "versionId": "3b6cb706e341899e0c38f92e04d27dd0c194cc973cfd402965a1a878310ea71e",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:11:59.137Z",
+  "approvedAt": "2026-08-12T12:11:59.137Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:11:59.137Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Moods of Marvin Gaye.jpg",
+    "hash": "3b6cb706e341899e0c38f92e04d27dd0c194cc973cfd402965a1a878310ea71e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Moods of Marvin Gaye",
+    "artist": "Marvin Gaye",
+    "artworkUrl": "https://coverartarchive.org/release-group/c3726949-bc72-3266-8807-3fe3428e9ac4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c3726949-bc72-3266-8807-3fe3428e9ac4",
+    "releaseGroupId": "c3726949-bc72-3266-8807-3fe3428e9ac4",
+    "recordingId": "e34f79d9-aa28-480f-832e-78c137203ba2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Pretty Little BabyMarvin Gaye",
+      "song": "Pretty Little Baby",
+      "performer": "Marvin Gaye",
+      "peakPosition": 25,
+      "firstChartDate": "1965-07-10",
+      "lastChartDate": "1965-08-21",
+      "appearances": [
+        {
+          "chartDate": "1965-07-10",
+          "position": 66
+        },
+        {
+          "chartDate": "1965-07-17",
+          "position": 49
+        },
+        {
+          "chartDate": "1965-07-24",
+          "position": 37
+        },
+        {
+          "chartDate": "1965-07-31",
+          "position": 30
+        },
+        {
+          "chartDate": "1965-08-07",
+          "position": 27
+        },
+        {
+          "chartDate": "1965-08-14",
+          "position": 25
+        },
+        {
+          "chartDate": "1965-08-21",
+          "position": 33
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul album cover layout halftone sans serif mid century album art portrait color block typography large scale typography flanking the central portrait high contrast subject against a dark textured background white horizontal banner at the top for technical metadata vertical list of secondary text balanced against primary titles halftone portrait condensed sans serif top banner square layout",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Album Cover Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Offset Printing",
+        "Typography"
+      ],
+      "useCases": [
+        "Vintage vinyl record packaging",
+        "Retro music posters",
+        "1960s soul and R&B aesthetic branding"
+      ],
+      "retrievalTags": [
+        "halftone",
+        "sans-serif",
+        "mid-century",
+        "album art",
+        "portrait",
+        "color block typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A classic 1960s record cover featuring a high-contrast halftone portrait with bold, condensed sans-serif typography and a top-aligned stereo banner.",
+      "triggerTerms": [
+        "vintage soul album cover",
+        "1960s halftone portrait layout",
+        "condensed sans-serif music poster"
+      ],
+      "excludeWhen": [
+        "modern minimalist digital designs",
+        "vector-only illustrations",
+        "script-heavy typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition featuring a grainy, high-contrast portrait of a male subject in a white cardigan, framed by large, condensed sans-serif text in the upper corners and a list of tracks on the left. The image has a distinct CMYK halftone texture and a white header bar with a 'STEREO' label.",
+    "coreVisualRelationships": [
+      "Large-scale typography flanking the central portrait",
+      "High-contrast subject against a dark, textured background",
+      "White horizontal banner at the top for technical metadata",
+      "Vertical list of secondary text balanced against primary titles"
+    ],
+    "coreInvariants": [
+      "Visible halftone dot pattern across the entire image",
+      "Condensed, heavy-weight sans-serif typeface for primary titles",
+      "Square 1:1 aspect ratio typical of vinyl records"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centered and occupies approximately 70% of the frame, shown from the waist up.",
+      "visualAnchor": "The subject's face and the bright yellow text in the top right corner.",
+      "movementAndEyePath": "Starts at the top right title, moves to the subject's face, then down to the tracklist on the left.",
+      "negativeSpace": "Minimal; the frame is filled with the subject and dense typographic blocks."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted purple and magenta tones in the halftone shadows.",
+      "contrastColorRole": "Bright yellow for the primary artist name.",
+      "accentColorRole": "Teal or cyan for the tracklist and secondary titles.",
+      "saturationAndValueRelationship": "High value contrast between the white cardigan and dark background; saturated primary colors for text.",
+      "paletteRestrictions": [
+        "Limited to a simulated 4-color process palette",
+        "Avoid clean, solid digital gradients"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Extremely tight apertures",
+        "High x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "flush left",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right and top left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on background"
+          },
+          "treatment": {
+            "fill": "solid color",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "vertical list",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "middle left",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on subject's shoulder"
+          },
+          "treatment": {
+            "fill": "solid color",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Monochromatic typeface family using scale and color to differentiate hierarchy.",
+      "graphicDevices": [
+        "Top horizontal banner with infinity-style icons",
+        "Halftone screen texture",
+        "Small logo in bottom right corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed sans-serif style",
+          "Uppercase typesetting",
+          "Halftone texture"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Lowercase letters",
+          "Clean vector lines"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy, condensed, and bold nature of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Provides the mid-century industrial sans-serif feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, grainy halftone portrait of a man in a white knit cardigan against a dark background. Include a white horizontal bar at the very top.",
+        "overlayInstruction": "Add bold, extra-condensed sans-serif text in the top corners (yellow on the right, grey on the left). Add a vertical list of smaller teal text on the left side."
+      },
+      "verificationChecks": [
+        "Is the halftone texture visible?",
+        "Is the text condensed and uppercase?",
+        "Is there a white banner at the top?",
+        "Is the color palette limited to CMYK-style tones?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Halftone dot size",
+      "Primary text color",
+      "Subject pose",
+      "Background density"
+    ],
+    "mustRedesign": [
+      "Modern high-resolution photography",
+      "Digital gradients",
+      "Script or serif typefaces"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s print texture",
+        "Strong typographic hierarchy",
+        "Balanced square composition"
+      ],
+      "avoid": [
+        "Clean, flat digital colors",
+        "Overly spaced lettering",
+        "Modern photographic lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Verify halftone screen is applied to the image.",
+      "Ensure text is flush left and tightly packed.",
+      "Check that the top banner is perfectly horizontal.",
+      "Confirm the color of the artist name is a vibrant yellow.",
+      "Ensure no modern digital artifacts are present."
+    ],
+    "reuseFormula": "Halftone Portrait + Condensed Sans-Serif + Top Banner + Square Layout"
+  }
+}

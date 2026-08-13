@@ -1,0 +1,273 @@
+{
+  "id": "fb73110404a619e0283c0a919ecf5d02543abfaf82e20376131e2f59e2b35297",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:11:00.854Z",
+  "approvedAt": "2026-08-11T15:11:00.854Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:11:00.854Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Unbroken.jpg",
+    "hash": "fb73110404a619e0283c0a919ecf5d02543abfaf82e20376131e2f59e2b35297",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Unbroken",
+    "artist": "Demi Lovato",
+    "artworkUrl": "https://coverartarchive.org/release-group/1c43f3cb-e590-47e3-a974-b6e92145ef1c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1c43f3cb-e590-47e3-a974-b6e92145ef1c",
+    "releaseGroupId": "1c43f3cb-e590-47e3-a974-b6e92145ef1c",
+    "recordingId": "55d8d929-fa13-4550-ae64-4954747ec6c1",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Fix A HeartDemi Lovato",
+      "song": "Fix A Heart",
+      "performer": "Demi Lovato",
+      "peakPosition": 69,
+      "firstChartDate": "2011-10-08",
+      "lastChartDate": "2011-10-08",
+      "appearances": [
+        {
+          "chartDate": "2011-10-08",
+          "position": 69
+        }
+      ]
+    }
+  },
+  "dedupeText": "sun drenched pop portrait warm lighting lens flare fur texture geometric overlay sans serif typography close up portrait warm golden light vs cool white geometric shapes soft organic hair fur textures vs sharp typographic lines subject s direct gaze vs asymmetrical layout dark hair and makeup vs high key background high key portrait diagonal geometric overlay warm light leak geometric sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Sun-Drenched Pop Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Post-Processing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Editorial Fashion Layouts",
+        "Promotional Posters"
+      ],
+      "retrievalTags": [
+        "warm lighting",
+        "lens flare",
+        "fur texture",
+        "geometric overlay",
+        "sans-serif typography",
+        "close-up portrait"
+      ]
+    },
+    "visualDefinition": "A high-key, warm-toned portrait of a woman with long dark hair, wearing a textured faux-fur garment. The image features a strong golden-yellow light leak from the right and a sharp geometric white triangular overlay on the left, creating a modern, high-contrast composition.",
+    "coreVisualRelationships": [
+      "Warm golden light vs. cool white geometric shapes",
+      "Soft organic hair/fur textures vs. sharp typographic lines",
+      "Subject's direct gaze vs. asymmetrical layout",
+      "Dark hair and makeup vs. high-key background"
+    ],
+    "coreInvariants": [
+      "Golden-yellow lens flare effect on the right side",
+      "White triangular graphic element in the upper left",
+      "Subject wearing a textured, light-colored fur or shag coat",
+      "High-contrast dark lipstick and defined eyebrows"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered horizontally, framed from the chest up, filling approximately 80% of the vertical space.",
+      "visualAnchor": "The subject's face, specifically the dark eyes and lips, serves as the primary focal point.",
+      "movementAndEyePath": "Eyes move from the top-left text, down the diagonal of the white triangle to the face, then across the light flare to the bottom text.",
+      "negativeSpace": "High-key white space in the upper left and bright flare in the lower right provide breathing room for text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm golden-yellow (light leak and highlights)",
+      "contrastColorRole": "Pure white (geometric shape and background)",
+      "accentColorRole": "Deep burgundy/brown (hair, lips, and typography)",
+      "saturationAndValueRelationship": "High value (bright) with selective high saturation in the yellow flare; low saturation in the skin tones.",
+      "paletteRestrictions": [
+        "Avoid cool blues or greens",
+        "Maintain high-key brightness"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Open apertures",
+        "Circular 'O' and 'D' shapes",
+        "Sharp, unbracketed terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Wide tracking for the secondary title",
+        "Tight but non-touching kerning for the primary name"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Medium",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Large/Open",
+            "strokeCharacter": "Clean"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified/Spread",
+            "tracking": "Normal",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Solid"
+          },
+          "composition": {
+            "position": "Bottom edge",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays subject's torso",
+            "relationshipToImage": "Anchors the base of the composition"
+          },
+          "treatment": {
+            "fill": "Dark brown/Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Solid",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Clean"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top left corner",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays white geometric shape",
+            "relationshipToImage": "Balances the top of the frame"
+          },
+          "treatment": {
+            "fill": "Dark brown/Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Solid",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in different scales and tracking values for hierarchy.",
+      "graphicDevices": [
+        "Diagonal white color block in upper left",
+        "Soft-edged yellow gradient overlay on right"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric uppercase structure",
+          "High-contrast dark color against light background"
+        ],
+        "avoid": [
+          "Serifs",
+          "Script fonts",
+          "Distressed textures"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham",
+            "reason": "Matches the clean, geometric, and modern feel of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat",
+            "reason": "Provides the same circular geometry and clean terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura",
+            "reason": "Classic geometric choice that fits the uppercase aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key portrait of a woman with long dark hair and dark lipstick, wearing a white faux-fur coat. Apply a sharp white diagonal triangle in the top left corner and a soft golden-yellow sun flare/light leak coming from the right side. The overall background should be bright and slightly overexposed.",
+        "overlayInstruction": "Using a geometric sans-serif font like Montserrat, add the primary name in large uppercase at the bottom, and the title in smaller uppercase with wide tracking in the top left corner. Use a deep chocolate brown or black for the text color."
+      },
+      "verificationChecks": [
+        "Is the light flare distinctly yellow/golden?",
+        "Is the top-left triangle sharp and pure white?",
+        "Is the typography a clean, modern sans-serif?",
+        "Does the subject have high-contrast makeup (dark lips/eyes)?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the yellow light leak",
+      "Angle of the white geometric overlay",
+      "Tracking/letter-spacing of the top text",
+      "Texture density of the fur garment"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the celebrity",
+      "Any trademarked logos or specific brand names",
+      "Exact jewelry designs"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, high-key lighting",
+        "Sharp typographic execution",
+        "Balanced asymmetrical composition"
+      ],
+      "avoid": [
+        "Muddy or grey shadows",
+        "Low-resolution textures",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text is legible against the background",
+      "Check that the yellow flare doesn't obscure the eyes",
+      "Verify the white triangle has a clean, hard edge",
+      "Confirm the color palette remains warm and bright"
+    ],
+    "reuseFormula": "High-key portrait + diagonal geometric overlay + warm light leak + geometric sans-serif typography"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:27:53.681Z"
+}

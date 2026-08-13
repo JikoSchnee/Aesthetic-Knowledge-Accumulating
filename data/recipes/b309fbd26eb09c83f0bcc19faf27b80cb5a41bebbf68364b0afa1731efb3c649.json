@@ -1,0 +1,272 @@
+{
+  "id": "b309fbd26eb09c83f0bcc19faf27b80cb5a41bebbf68364b0afa1731efb3c649",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T01:17:40.595Z",
+  "approvedAt": "2026-08-12T01:17:40.595Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T01:17:40.595Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Dobie Gray Sings for \"In\" Crowders That Go \"Go Go\".jpg",
+    "hash": "b309fbd26eb09c83f0bcc19faf27b80cb5a41bebbf68364b0afa1731efb3c649",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Dobie Gray Sings for \"In\" Crowders That Go \"Go Go\"",
+    "artist": "Dobie Gray",
+    "artworkUrl": "https://coverartarchive.org/release-group/b99dd534-3986-486b-872e-10041deb6e05/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b99dd534-3986-486b-872e-10041deb6e05",
+    "releaseGroupId": "b99dd534-3986-486b-872e-10041deb6e05",
+    "recordingId": "ae5468b6-361a-487a-a66b-21b741467160",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Look At MeDobie Gray",
+      "song": "Look At Me",
+      "performer": "Dobie Gray",
+      "peakPosition": 91,
+      "firstChartDate": "1963-01-12",
+      "lastChartDate": "1963-01-19",
+      "appearances": [
+        {
+          "chartDate": "1963-01-12",
+          "position": 91
+        },
+        {
+          "chartDate": "1963-01-19",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century go go collage album cover mid century modern go go dancers psychedelic typography collage labels outdoor photography 1960s fashion high contrast black header block against a naturalistic photographic background dynamic scatter of rectangular text labels creating a sense of movement juxtaposition of playful hand drawn display type with rigid sans serif labels interaction between the dancers poses and the floating text elements combine a solid black header with condensed heavy type and a vintage outdoor photo scattered with colorful angled text banners",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Go-Go Collage Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Collage",
+        "Offset Lithography"
+      ],
+      "useCases": [
+        "Vintage Music Packaging",
+        "Retro Poster Design",
+        "1960s Pop Culture Branding"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "go-go dancers",
+        "psychedelic typography",
+        "collage labels",
+        "outdoor photography",
+        "1960s fashion"
+      ]
+    },
+    "visualDefinition": "A vibrant 1960s-style album cover featuring a group of dancers in a wooded outdoor setting, overlaid with a dense arrangement of colorful, angled text banners and a heavy, stylized typographic header.",
+    "coreVisualRelationships": [
+      "High-contrast black header block against a naturalistic photographic background",
+      "Dynamic scatter of rectangular text labels creating a sense of movement",
+      "Juxtaposition of playful, hand-drawn display type with rigid sans-serif labels",
+      "Interaction between the dancers' poses and the floating text elements"
+    ],
+    "coreInvariants": [
+      "A solid black upper third for primary display text",
+      "A desaturated, slightly grainy outdoor photograph in the lower two-thirds",
+      "Multiple colorful rectangular banners angled at roughly 15-30 degrees"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A group of 6-7 dancers occupies the center ground, scaled to fill the width of the photographic section.",
+      "visualAnchor": "The large, pale yellow display text in the top right quadrant acts as the primary focal point.",
+      "movementAndEyePath": "The eye starts at the top left, follows the large header to the right, then zig-zags down through the scattered colorful banners following the dancers' limbs.",
+      "negativeSpace": "Minimal; the composition is densely packed with text and figures."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (header background) and Pale Yellow (primary display text).",
+      "contrastColorRole": "Forest greens and earthy browns in the background photo.",
+      "accentColorRole": "A palette of 1960s 'mod' colors: coral, teal, sky blue, and salmon for the floating banners.",
+      "saturationAndValueRelationship": "High saturation in the graphic elements contrasting with the muted, vintage-processed photographic values.",
+      "paletteRestrictions": [
+        "Avoid neon or digital-first colors; stick to offset-ink equivalents."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Extra-bold, condensed sans-serif and slab-serif hybrids.",
+      "letterConstructionRules": [
+        "Top-left text: Playful, irregular widths with rounded terminals and tight kerning.",
+        "Top-right text: Tall, condensed, high-contrast slab serif with sharp, heavy serifs.",
+        "Banners: Clean, bold sans-serif with uniform stroke weight."
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'i' with large circular dots",
+        "Exaggerated, heavy horizontal bars on 'E' and 'F'",
+        "Tightly nested 'O' and 'G' characters"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "custom-slab",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "black",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "tapered verticals"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in black block"
+          },
+          "treatment": {
+            "fill": "solid pale yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "caption",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "square",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "scattered",
+            "scale": "small",
+            "rotation": "15 to 30 degrees",
+            "warp": "none",
+            "overlap": "over photo",
+            "relationshipToImage": "floating labels"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold, illustrative display type paired with functional, clean sans-serif for secondary information.",
+      "graphicDevices": [
+        "Rectangular color blocks (banners)",
+        "Solid black header bar",
+        "Thin horizontal rope or wire element in the photo"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The angle of the banners",
+          "The black header block",
+          "The condensed nature of the main title"
+        ],
+        "avoid": [
+          "Modern digital gradients",
+          "Thin, delicate fonts",
+          "Clean, high-resolution photography"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Captures the condensed, heavy weight of the main display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Appropriate for the secondary banners.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a vintage 1960s-style photograph of a group of young people in mod fashion dancing in a sun-dappled forest clearing. The photo should have a slightly faded, grainy texture with a solid black rectangular bar covering the top 30% of the frame.",
+        "overlayInstruction": "Add large, condensed, pale yellow slab-serif text in the black bar. Scatter multiple colorful rectangular banners (teal, coral, blue) across the photo area, each containing white bold sans-serif text angled at 20 degrees."
+      },
+      "verificationChecks": [
+        "Is the top section a solid black block?",
+        "Are the colorful banners angled rather than horizontal?",
+        "Is the main title text condensed and heavy?",
+        "Does the photo have a 1960s film aesthetic?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Banner colors",
+      "Density of the text labels",
+      "Specific angle of the banners",
+      "Amount of film grain in the photograph"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Exact song titles",
+      "Original record label logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s color palette",
+        "Balanced typographic chaos",
+        "Vintage print texture"
+      ],
+      "avoid": [
+        "Clean vector edges",
+        "Modern sans-serifs like Helvetica or Arial",
+        "High-dynamic-range photography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no text is perfectly horizontal in the lower section.",
+      "Verify the black header is a clean, solid geometric shape.",
+      "Check that the dancers' clothing reflects 1960s mod styles.",
+      "Confirm the color palette avoids modern neon hues."
+    ],
+    "reuseFormula": "Combine a solid black header with condensed heavy type and a vintage outdoor photo scattered with colorful, angled text banners."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:29:18.231Z"
+}

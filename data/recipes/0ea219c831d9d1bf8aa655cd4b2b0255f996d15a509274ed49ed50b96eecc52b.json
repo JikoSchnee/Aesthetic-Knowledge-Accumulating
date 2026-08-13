@@ -1,0 +1,290 @@
+{
+  "id": "0ea219c831d9d1bf8aa655cd4b2b0255f996d15a509274ed49ed50b96eecc52b",
+  "skillId": "0ea219c831d9d1bf8aa655cd4b2b0255f996d15a509274ed49ed50b96eecc52b",
+  "versionId": "0ea219c831d9d1bf8aa655cd4b2b0255f996d15a509274ed49ed50b96eecc52b",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:54:26.050Z",
+  "approvedAt": "2026-08-12T06:54:26.050Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:54:26.050Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "BETTER THAN YOU.jpg",
+    "hash": "0ea219c831d9d1bf8aa655cd4b2b0255f996d15a509274ed49ed50b96eecc52b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "BETTER THAN YOU",
+    "artist": "DaBaby & YoungBoy Never Broke Again",
+    "artworkUrl": "https://coverartarchive.org/release-group/7937297e-8d42-4de9-8fe3-eb072f70e8b6/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7937297e-8d42-4de9-8fe3-eb072f70e8b6",
+    "releaseGroupId": "7937297e-8d42-4de9-8fe3-eb072f70e8b6",
+    "recordingId": "3e5fe93f-2b1b-4dae-a6a8-9ba92194d1b5",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Neighborhood SuperstarDaBaby & YoungBoy Never Broke Again",
+      "song": "Neighborhood Superstar",
+      "performer": "DaBaby & YoungBoy Never Broke Again",
+      "peakPosition": 89,
+      "firstChartDate": "2022-03-19",
+      "lastChartDate": "2022-03-19",
+      "appearances": [
+        {
+          "chartDate": "2022-03-19",
+          "position": 89
+        }
+      ]
+    }
+  },
+  "dedupeText": "claymation concert album cover clay figures diorama concert stage heavy sans serif low key lighting tactile texture tactile clay figures against a dark shadowy background large scale header text dominating the upper horizontal band foreground audience silhouettes framing the mid ground stage action high contrast color split in the main title text tactile claymation low key stage lighting heavy condensed sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Claymation Concert Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Claymation",
+        "Stop-motion photography",
+        "Digital typography"
+      ],
+      "useCases": [
+        "Hip-hop album covers",
+        "Alternative music posters",
+        "Tactile character design"
+      ],
+      "retrievalTags": [
+        "clay figures",
+        "diorama",
+        "concert stage",
+        "heavy sans-serif",
+        "low-key lighting",
+        "tactile texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dark, low-key diorama featuring tactile claymation figures on a stage with bold, heavy-weight sans-serif typography at the top.",
+      "triggerTerms": [
+        "claymation diorama style",
+        "tactile clay figures on stage",
+        "heavy blocky sans-serif header"
+      ],
+      "excludeWhen": [
+        "clean vector illustrations are needed",
+        "bright high-key lighting is required",
+        "realistic human photography is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dark, atmospheric scene depicting two clay-sculpted figures performing on a stage with a drum kit, viewed from the perspective of a clay-sculpted audience. The lighting is dramatic and directional, highlighting the fingerprints and rough textures of the clay. The top third of the composition is reserved for high-contrast, heavy-weight block typography.",
+    "coreVisualRelationships": [
+      "Tactile clay figures against a dark, shadowy background",
+      "Large-scale header text dominating the upper horizontal band",
+      "Foreground audience silhouettes framing the mid-ground stage action",
+      "High-contrast color split in the main title text"
+    ],
+    "coreInvariants": [
+      "Visible clay fingerprints and sculpting marks on all characters"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two central clay figures at mid-scale, positioned left and right of a central drum kit.",
+      "visualAnchor": "The large, two-tone title text at the top of the frame.",
+      "movementAndEyePath": "From the bold title at the top, down to the illuminated clay performers, then to the dark audience silhouettes at the bottom.",
+      "negativeSpace": "Extensive dark negative space in the upper mid-section and background to create depth."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and black for background and shadows.",
+      "contrastColorRole": "Bright white for secondary text and highlights.",
+      "accentColorRole": "Vibrant red for primary title emphasis.",
+      "saturationAndValueRelationship": "Low saturation overall with high-value highlights on the clay surfaces and high-saturation red in the typography.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Red",
+        "Earth tones for clay"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold, condensed geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke thickness",
+        "Tight kerning",
+        "Square terminals",
+        "Minimalist geometric forms"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Black",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Small/Closed",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlays dark background"
+          },
+          "treatment": {
+            "fill": "Two-tone (Red and White)",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Sans-serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified to edges",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Below main title",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "White or Red",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Monochromatic weight variation of a single heavy sans-serif family.",
+      "graphicDevices": [
+        "Color-blocked text segments",
+        "Parental advisory style badge in corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Heavy weight",
+          "Condensed width",
+          "Uppercase styling"
+        ],
+        "avoid": [
+          "Serifs",
+          "Script fonts",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy, condensed, and high-impact feel of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Haettenschweiler",
+            "reason": "Provides the necessary verticality and tight spacing.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Anton",
+            "reason": "A modern web-safe alternative with similar proportions.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a dark, low-key diorama scene featuring two clay-sculpted figures on a stage with a drum kit. The figures should have visible fingerprints and a tactile, handmade quality. The foreground should show the silhouettes of a clay audience. Leave the top 30% of the image as dark, empty space for text.",
+        "overlayInstruction": "Add heavy, condensed uppercase sans-serif text in the top third. The main title should be split into two colors: bright red for the first half and white for the second. Add secondary artist names below in smaller bold sans-serif."
+      },
+      "verificationChecks": [
+        "Is the clay texture visible on the figures?",
+        "Is the lighting low-key and dramatic?",
+        "Is the typography heavy, condensed, and uppercase?",
+        "Is the top title split between red and white?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Clay figure poses",
+      "Stage equipment details",
+      "Text color split point",
+      "Audience density"
+    ],
+    "mustRedesign": [
+      "Smooth, plastic-looking surfaces",
+      "Light, airy backgrounds",
+      "Thin or elegant serif fonts"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Visible sculpting marks",
+        "High-contrast typography",
+        "Dramatic directional lighting"
+      ],
+      "avoid": [
+        "Flat 2D illustrations",
+        "Clean digital renders without texture",
+        "Centered, small text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for fingerprint textures on clay surfaces",
+      "Verify the 'Impact' style font weight",
+      "Ensure the foreground audience is silhouetted",
+      "Confirm the red/white color split in the header",
+      "Check for a dark, moody atmosphere"
+    ],
+    "reuseFormula": "Tactile Claymation + Low-Key Stage Lighting + Heavy Condensed Sans-Serif Typography"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:55:08.321Z"
+}

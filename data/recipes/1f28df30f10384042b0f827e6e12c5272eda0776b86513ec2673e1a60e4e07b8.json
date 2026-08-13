@@ -1,0 +1,245 @@
+{
+  "id": "1f28df30f10384042b0f827e6e12c5272eda0776b86513ec2673e1a60e4e07b8",
+  "skillId": "1f28df30f10384042b0f827e6e12c5272eda0776b86513ec2673e1a60e4e07b8",
+  "versionId": "1f28df30f10384042b0f827e6e12c5272eda0776b86513ec2673e1a60e4e07b8",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:05:37.970Z",
+  "approvedAt": "2026-08-12T05:05:37.970Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:05:37.970Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Man on the Moon II: The Legend of Mr. Rager.jpg",
+    "hash": "1f28df30f10384042b0f827e6e12c5272eda0776b86513ec2673e1a60e4e07b8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Man on the Moon II: The Legend of Mr. Rager",
+    "artist": "Kid Cudi",
+    "artworkUrl": "https://coverartarchive.org/release-group/b7717649-9d68-4665-aa4a-6f4ba7b7e0ea/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b7717649-9d68-4665-aa4a-6f4ba7b7e0ea",
+    "releaseGroupId": "b7717649-9d68-4665-aa4a-6f4ba7b7e0ea",
+    "recordingId": "484573c8-98be-45a0-b984-f100e731e61f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "MarijuanaKid Cudi",
+      "song": "Marijuana",
+      "performer": "Kid Cudi",
+      "peakPosition": 54,
+      "firstChartDate": "2010-11-27",
+      "lastChartDate": "2010-11-27",
+      "appearances": [
+        {
+          "chartDate": "2010-11-27",
+          "position": 54
+        }
+      ]
+    }
+  },
+  "dedupeText": "cosmic interior portrait starfield window wood paneled room man in suit sitting distressed paper texture melancholic surrealism figure centered against a luminous cosmic backdrop warm wood tones contrasting with cool starfield light heavy vertical and horizontal distressing over a dark composition formal attire juxtaposed with an infinite celestial environment subject man in suit setting dark wood room backdrop cosmic window overlay distressed paper texture melancholic surrealism",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cosmic Interior Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Cinematic Poster",
+        "Surreal Editorial Photography"
+      ],
+      "retrievalTags": [
+        "starfield window",
+        "wood paneled room",
+        "man in suit sitting",
+        "distressed paper texture",
+        "melancholic surrealism"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered portrait of a seated figure in a formal suit against a window looking out into a dense, glowing starfield within a dark, wood-paneled room.",
+      "triggerTerms": [
+        "starfield window background",
+        "man in suit sitting in dark room",
+        "distressed vintage paper texture overlay",
+        "surreal cosmic interior"
+      ],
+      "excludeWhen": [
+        "bright daylight scenes",
+        "minimalist modern interiors",
+        "clean digital vector art"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central male figure in a dark suit sits on a chair, head bowed, positioned in front of a large rectangular window that reveals a brilliant, dense field of stars and nebulae instead of a terrestrial view. The room is dark with rich wood paneling, and the entire image is covered in a heavy, distressed texture resembling a worn, folded vinyl record sleeve.",
+    "coreVisualRelationships": [
+      "Figure centered against a luminous cosmic backdrop",
+      "Warm wood tones contrasting with cool starfield light",
+      "Heavy vertical and horizontal distressing over a dark composition",
+      "Formal attire juxtaposed with an infinite celestial environment"
+    ],
+    "coreInvariants": [
+      "The window must contain a dense starfield with visible lens flares",
+      "The room must feature dark, classical wood wainscoting",
+      "The overall image must have white scratch and fold textures"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centrally located, occupying the lower two-thirds of the vertical axis, scaled to appear grounded within the room.",
+      "visualAnchor": "The bright, glowing starfield in the window serves as the primary light source and visual anchor.",
+      "movementAndEyePath": "The eye starts at the bright window, moves down to the subject's bowed head, and follows the vertical lines of the suit and chair to the floor.",
+      "negativeSpace": "Deep shadows in the corners and the dark wood paneling provide heavy negative space that compresses the central subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep browns and blacks from the wood and suit provide the foundation.",
+      "contrastColorRole": "Bright gold, white, and cyan from the starfield provide high-value contrast.",
+      "accentColorRole": "Warm amber highlights on the wood and the subject's skin.",
+      "saturationAndValueRelationship": "High contrast between the dark, low-saturation room and the high-saturation, high-value cosmic window.",
+      "paletteRestrictions": [
+        "Avoid bright primary colors outside the starfield",
+        "Maintain a dark, moody value range"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "High-contrast black and white block",
+        "Tight kerning"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "metadata",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Closed",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Compact",
+            "lineBreakPattern": "Stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Bottom Left",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Contained within a white rectangular border"
+          },
+          "treatment": {
+            "fill": "Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single-family sans-serif used in varying weights for informational clarity.",
+      "graphicDevices": [
+        "Rectangular border box",
+        "Solid black background for text block"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The rectangular framing of the text",
+          "The bottom-left corner placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script or decorative fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed structure for a warning label aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Bold Condensed",
+            "reason": "Offers a clean, authoritative look that matches standard industry labeling.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Maintains the sturdy, blocky feel required for the corner metadata.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a dark, wood-paneled room with a central window showing a dense, glowing starfield. Place a man in a dark suit sitting on a chair in the center, looking down. Apply a heavy distressed paper texture with white scratches and fold marks.",
+        "overlayInstruction": "Add a small white rectangular box in the bottom left corner. Inside the box, typeset metadata in a bold, condensed black sans-serif font."
+      },
+      "verificationChecks": [
+        "Is the starfield the brightest element?",
+        "Is the figure centered and grounded?",
+        "Is the distressed texture visible across the entire frame?",
+        "Is the text block positioned in the bottom left corner?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of the starfield",
+      "Intensity of the paper distressing",
+      "Warmth of the wood paneling"
+    ],
+    "mustRedesign": [
+      "Avoid specific celebrity likenesses",
+      "Do not use existing trademarked logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic lighting",
+        "Authentic-looking vintage paper wear",
+        "Rich, deep shadow detail"
+      ],
+      "avoid": [
+        "Flat, untextured digital gradients",
+        "Cartoonish star shapes",
+        "Clean, modern furniture"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for realistic wood grain texture",
+      "Ensure the starfield has varied star sizes and colors",
+      "Verify the distressing doesn't obscure the subject's face",
+      "Confirm the text box is perfectly rectangular"
+    ],
+    "reuseFormula": "Subject [Man in Suit] + Setting [Dark Wood Room] + Backdrop [Cosmic Window] + Overlay [Distressed Paper Texture] = Melancholic Surrealism"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:42:50.946Z"
+}

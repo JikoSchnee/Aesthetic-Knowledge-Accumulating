@@ -1,0 +1,236 @@
+{
+  "id": "c72c619b299d876872fcd9ea4bbaca35fb28aa207ceea54aee632a1141daaf96",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:45:24.123Z",
+  "approvedAt": "2026-08-11T08:45:24.123Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:45:24.123Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "What a Party!.jpg",
+    "hash": "c72c619b299d876872fcd9ea4bbaca35fb28aa207ceea54aee632a1141daaf96",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "What a Party!",
+    "artist": "Fats Domino",
+    "artworkUrl": "https://coverartarchive.org/release-group/c8e33460-e30d-4938-8c69-c4aa796c4ed0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c8e33460-e30d-4938-8c69-c4aa796c4ed0",
+    "releaseGroupId": "c8e33460-e30d-4938-8c69-c4aa796c4ed0",
+    "recordingId": "17f596f0-7709-4173-8382-deea5cbf1310",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Before I Grow Too OldFats Domino",
+      "song": "Before I Grow Too Old",
+      "performer": "Fats Domino",
+      "peakPosition": 84,
+      "firstChartDate": "1960-05-07",
+      "lastChartDate": "1960-05-14",
+      "appearances": [
+        {
+          "chartDate": "1960-05-07",
+          "position": 93
+        },
+        {
+          "chartDate": "1960-05-14",
+          "position": 84
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century mosaic collage album art mosaic grid mid century modern monochrome photography geometric abstraction 1960s graphic design fragmented subject vs solid black negative space monochrome photographic textures vs flat saturated color blocks irregular hand cut grid alignment vs rigid typographic headers high contrast lighting on the subject vs the matte finish of the tiles fragmented subject irregular rectangular grid accent colors condensed bold sans serif headers black background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Mosaic Collage Album Art",
+      "category": "Graphic Design",
+      "medium": [
+        "Collage",
+        "Photography",
+        "Offset Print"
+      ],
+      "useCases": [
+        "Vinyl Record Covers",
+        "Jazz Festival Posters",
+        "Retro Editorial Layouts"
+      ],
+      "retrievalTags": [
+        "mosaic",
+        "grid",
+        "mid-century modern",
+        "monochrome photography",
+        "geometric abstraction",
+        "1960s graphic design"
+      ]
+    },
+    "visualDefinition": "A black-and-white photographic portrait of a musician fragmented into a loose, irregular grid of white and colored rectangular tiles, set against a deep black background with bold, condensed sans-serif typography at the top.",
+    "coreVisualRelationships": [
+      "Fragmented subject vs. solid black negative space",
+      "Monochrome photographic textures vs. flat, saturated color blocks",
+      "Irregular, hand-cut grid alignment vs. rigid typographic headers",
+      "High-contrast lighting on the subject vs. the matte finish of the tiles"
+    ],
+    "coreInvariants": [
+      "Deep black background",
+      "Irregular mosaic grid of rectangular paper scraps",
+      "Limited palette of saturated accent tiles (magenta, cyan, lime, purple)",
+      "Monochrome halftone photographic content within the tiles"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centered but fragmented, with the primary focal point (the face) located in the lower-left quadrant.",
+      "visualAnchor": "The large, laughing face in the lower-left provides the strongest emotional and visual anchor.",
+      "movementAndEyePath": "Eyes move from the bold red and pink text at the top, down through the scattered colored tiles, settling on the detailed photographic fragments at the bottom.",
+      "negativeSpace": "Heavy black negative space surrounds the central mosaic, pushing the composition inward."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (Background)",
+      "contrastColorRole": "White (Primary tile color and photographic highlights)",
+      "accentColorRole": "Magenta, Cyan, Lime Green, and Deep Purple (Scattered tiles)",
+      "saturationAndValueRelationship": "High-value white and high-saturation accents pop against a zero-value black field.",
+      "paletteRestrictions": [
+        "No gradients",
+        "No earth tones",
+        "Pure black background only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed, heavy-weight sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke width",
+        "Flat terminals",
+        "Extremely tight letter spacing",
+        "Tall x-height with minimal descenders"
+      ],
+      "characterSpecificRedesigns": [
+        "Blocky, rectangular 'O' and 'D' shapes",
+        "Narrow apertures in 'A' and 'P'"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "justified-to-edges",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left and top-right corners",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating above the mosaic"
+          },
+          "treatment": {
+            "fill": "solid color (magenta and red)",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Monochromatic font usage with color variation to distinguish between artist and title.",
+      "graphicDevices": [
+        "Irregular grid",
+        "Paper-cut edges",
+        "Halftone screen texture"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Uppercase styling",
+          "Heavy weight"
+        ],
+        "avoid": [
+          "Serifs",
+          "Script fonts",
+          "Wide tracking"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Matches the heavy, condensed, mid-century display aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Champion Gothic",
+            "reason": "Provides the necessary wood-type feel with modern precision.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a high-contrast black and white photograph of a jazz musician playing an instrument. Fragment the image into a loose, non-uniform grid of rectangular tiles. Place these tiles on a solid black background. Randomly replace approximately 10% of the tiles with flat blocks of magenta, cyan, lime green, and purple. Ensure the edges of the tiles look like cut paper with slight misalignments.",
+        "overlayInstruction": "Add two strings of text at the top corners using an extra-condensed bold sans-serif font. The left string should be magenta and the right string should be bright red. Ensure the text is large and uppercase."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Are the tiles slightly misaligned to create a hand-made feel?",
+        "Is the photography strictly monochrome?",
+        "Are the accent colors flat and saturated?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of the tile grid",
+      "Frequency of colored accent tiles",
+      "Subject of the monochrome photograph",
+      "Specific accent colors used"
+    ],
+    "mustRedesign": [
+      "Specific artist names and titles",
+      "Record label logos and identifiers",
+      "Signature marks in the corner"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast visual impact",
+        "Authentic mid-century collage texture",
+        "Bold, legible display typography"
+      ],
+      "avoid": [
+        "Digital-looking clean grids",
+        "Gradient fills",
+        "Soft shadows"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for halftone texture in photographic tiles",
+      "Ensure no text is overlapping the mosaic",
+      "Verify the 'cut paper' edge quality of the rectangles",
+      "Confirm the color palette is limited to the specified accents"
+    ],
+    "reuseFormula": "Fragmented [Subject] + Irregular Rectangular Grid + [Accent Colors] + Condensed Bold Sans-Serif Headers + Black Background."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:07:47.307Z"
+}

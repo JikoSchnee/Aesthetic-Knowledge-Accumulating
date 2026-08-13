@@ -1,0 +1,306 @@
+{
+  "id": "e15ec028a973bbd3da24c219f853b1425731c55a062607c729fe3a72077b95e8",
+  "skillId": "e15ec028a973bbd3da24c219f853b1425731c55a062607c729fe3a72077b95e8",
+  "versionId": "e15ec028a973bbd3da24c219f853b1425731c55a062607c729fe3a72077b95e8",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:40:31.207Z",
+  "approvedAt": "2026-08-12T23:40:31.207Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:40:31.207Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Fast & Furious 6: Original Motion Picture Soundtrack.jpg",
+    "hash": "e15ec028a973bbd3da24c219f853b1425731c55a062607c729fe3a72077b95e8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Fast & Furious 6: Original Motion Picture Soundtrack",
+    "artist": "2 Chainz & Wiz Khalifa",
+    "artworkUrl": "https://coverartarchive.org/release-group/8771a1d7-eb3e-4406-8244-c60e672ff2ec/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8771a1d7-eb3e-4406-8244-c60e672ff2ec",
+    "releaseGroupId": "8771a1d7-eb3e-4406-8244-c60e672ff2ec",
+    "recordingId": "d3251d25-a210-4d35-acac-122f9d7fe6c2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "We Own It (Fast & Furious)2 Chainz & Wiz Khalifa",
+      "song": "We Own It (Fast & Furious)",
+      "performer": "2 Chainz & Wiz Khalifa",
+      "peakPosition": 16,
+      "firstChartDate": "2013-06-08",
+      "lastChartDate": "2013-07-20",
+      "appearances": [
+        {
+          "chartDate": "2013-06-08",
+          "position": 61
+        },
+        {
+          "chartDate": "2013-06-15",
+          "position": 16
+        },
+        {
+          "chartDate": "2013-06-22",
+          "position": 28
+        },
+        {
+          "chartDate": "2013-06-29",
+          "position": 55
+        },
+        {
+          "chartDate": "2013-07-06",
+          "position": 71
+        },
+        {
+          "chartDate": "2013-07-13",
+          "position": 75
+        },
+        {
+          "chartDate": "2013-07-20",
+          "position": 86
+        }
+      ]
+    }
+  },
+  "dedupeText": "action ensemble cinematic poster ensemble cast action movie metallic typography urban skyline muscle cars cinematic lighting characters arranged in a shallow v formation to create depth vehicles positioned behind characters to frame the central group bright hazy sky contrasting with dark textured asphalt ground large scale typography overlapping the lower third of the image ensemble cast heroic vehicles urban skyline 3d metallic typography action cinematic aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Action Ensemble Cinematic Poster",
+      "category": "Entertainment",
+      "medium": [
+        "Digital Photography",
+        "Composite Imaging",
+        "3D Typography"
+      ],
+      "useCases": [
+        "Movie Soundtrack Covers",
+        "Action Film Promotion",
+        "Automotive Event Posters"
+      ],
+      "retrievalTags": [
+        "ensemble cast",
+        "action movie",
+        "metallic typography",
+        "urban skyline",
+        "muscle cars",
+        "cinematic lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Use for high-octane action media featuring an ensemble cast standing in front of vehicles with heavy metallic 3D title treatments.",
+      "triggerTerms": [
+        "action ensemble cast",
+        "metallic 3D movie title",
+        "cinematic car poster"
+      ],
+      "excludeWhen": [
+        "minimalist designs",
+        "hand-drawn illustrations",
+        "soft romantic themes"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A wide-angle cinematic composition featuring a diverse group of characters in heroic stances, flanked by high-performance vehicles against a bright urban skyline, anchored by massive chrome-textured typography in the foreground.",
+    "coreVisualRelationships": [
+      "Characters arranged in a shallow V-formation to create depth",
+      "Vehicles positioned behind characters to frame the central group",
+      "Bright, hazy sky contrasting with dark, textured asphalt ground",
+      "Large-scale typography overlapping the lower third of the image"
+    ],
+    "coreInvariants": [
+      "Chrome or brushed metal texture on primary title text",
+      "Low-angle perspective on characters to emphasize scale",
+      "High-contrast lighting with strong rim highlights on figures"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Ensemble cast occupies the middle ground, scaled to fill the horizontal width; title text dominates the bottom foreground.",
+      "visualAnchor": "The central character and the large metallic '6' in the bottom left-center.",
+      "movementAndEyePath": "Eyes start at the bright sky, move down through the character faces, and settle on the heavy metallic title at the bottom.",
+      "negativeSpace": "Open sky in the top third provides breathing room for secondary metadata text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cool grays and blues in the sky and asphalt",
+      "contrastColorRole": "Deep blacks and shadows in character clothing and car tires",
+      "accentColorRole": "Saturated red and blue from the featured vehicles",
+      "saturationAndValueRelationship": "High value in the background sky, low value in the foreground ground, with punchy saturation on the cars.",
+      "paletteRestrictions": [
+        "Avoid pastel or neon colors",
+        "Maintain a gritty, desaturated urban palette"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extra-bold italic sans-serif",
+      "letterConstructionRules": [
+        "Heavy horizontal shearing for a sense of speed",
+        "Deep 3D extrusion with a downward perspective",
+        "Beveled edges with high-specular chrome reflections"
+      ],
+      "characterSpecificRedesigns": [
+        "The numeral is significantly larger than the text, acting as a secondary anchor"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "oblique",
+            "corners": "slightly rounded",
+            "counters": "tight",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "0.8em",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "perspective tilt",
+            "overlap": "foreground",
+            "relationshipToImage": "anchors the bottom third"
+          },
+          "treatment": {
+            "fill": "chrome gradient",
+            "outline": "thin dark stroke",
+            "shadow": "heavy drop shadow",
+            "depth": "3D extrusion",
+            "texture": "brushed metal",
+            "distortion": "italic shear"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "background",
+            "relationshipToImage": "placed in the sky area"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "italic"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy 3D display type paired with a clean, wide-tracked sans-serif for secondary info.",
+      "graphicDevices": [
+        "Horizontal lens flare",
+        "Ground-level smoke/haze",
+        "Motion blur on background elements"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Italic slant",
+          "Metallic texture",
+          "3D depth"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Thin weights",
+          "Vertical orientation"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact Italic",
+            "reason": "Provides the necessary weight and aggressive stance",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Eurostile Bold Extended Italic",
+            "reason": "Matches the modern, automotive aesthetic",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a cinematic wide shot of an ensemble cast standing heroically in front of a red muscle car and a blue sports car on a dark asphalt road. The background should feature a bright, hazy London-style skyline under a daylight sky. Use low-angle lighting with strong rim highlights on the characters.",
+        "overlayInstruction": "Apply a large, 3D metallic chrome title in an extra-bold italic sans-serif font across the bottom third. Add a secondary line of black, wide-tracked sans-serif text at the very top center."
+      },
+      "verificationChecks": [
+        "Is the title text metallic and 3D?",
+        "Are the characters in a heroic ensemble pose?",
+        "Is the horizon line placed to allow for sky text?",
+        "Does the lighting feel cinematic and high-contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of characters in the ensemble",
+      "Color of the featured vehicles",
+      "Specific city skyline in the background",
+      "Intensity of the chrome reflection"
+    ],
+    "mustRedesign": [
+      "Avoid using specific actor likenesses",
+      "Do not use existing film franchise logos",
+      "Ensure the 'Parental Advisory' style mark is genericized"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Realistic 3D lighting on text",
+        "Seamless compositing of characters into the environment",
+        "Consistent perspective between characters and cars"
+      ],
+      "avoid": [
+        "Flat, 2D text",
+        "Cartoonish character proportions",
+        "Cluttered background that obscures the cast"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the 3D text perspective matches the ground plane",
+      "Verify that the chrome texture has realistic environment reflections",
+      "Ensure the ensemble cast is balanced across the frame",
+      "Confirm the top metadata text is legible against the sky"
+    ],
+    "reuseFormula": "Ensemble Cast + Heroic Vehicles + Urban Skyline + 3D Metallic Typography = Action Cinematic Aesthetic"
+  }
+}

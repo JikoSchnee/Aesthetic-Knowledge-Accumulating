@@ -1,0 +1,287 @@
+{
+  "id": "b7a542e29b97e834e279b487443424c6441578a7a74931fa8297d1bb294d64c9",
+  "skillId": "b7a542e29b97e834e279b487443424c6441578a7a74931fa8297d1bb294d64c9",
+  "versionId": "b7a542e29b97e834e279b487443424c6441578a7a74931fa8297d1bb294d64c9",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:06:52.663Z",
+  "approvedAt": "2026-08-12T18:06:52.663Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:06:52.663Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Feelings.jpg",
+    "hash": "b7a542e29b97e834e279b487443424c6441578a7a74931fa8297d1bb294d64c9",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Feelings",
+    "artist": "Morris Albert",
+    "artworkUrl": "https://coverartarchive.org/release-group/1fa612c7-b307-3c58-9b61-28042979e8af/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1fa612c7-b307-3c58-9b61-28042979e8af",
+    "releaseGroupId": "1fa612c7-b307-3c58-9b61-28042979e8af",
+    "recordingId": "44d6e91d-5eff-4221-93a0-fa1eb526d3ba",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sweet Loving ManMorris Albert",
+      "song": "Sweet Loving Man",
+      "performer": "Morris Albert",
+      "peakPosition": 93,
+      "firstChartDate": "1976-02-07",
+      "lastChartDate": "1976-02-14",
+      "appearances": [
+        {
+          "chartDate": "1976-02-07",
+          "position": 93
+        },
+        {
+          "chartDate": "1976-02-14",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro soft rock album cover 70s soft rock lens flare multi line lettering dark vignette acoustic guitar portrait central figure emerging from deep shadow high contrast between dark background and bright white guitar body geometric typography anchored at the top center diagonal light streaks creating a sense of movement low key portrait multi line geometric display type starburst flares heavy vignette 70s soft rock aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Soft Rock Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Custom Lettering",
+        "Airbrushing"
+      ],
+      "useCases": [
+        "Vintage music packaging",
+        "1970s aesthetic branding",
+        "Nostalgic portraiture"
+      ],
+      "retrievalTags": [
+        "70s soft rock",
+        "lens flare",
+        "multi-line lettering",
+        "dark vignette",
+        "acoustic guitar portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A moody 1970s-style portrait featuring a central figure with an acoustic guitar, characterized by heavy dark vignettes, dramatic lens flares, and multi-line geometric custom lettering.",
+      "triggerTerms": [
+        "70s singer-songwriter album style",
+        "multi-line inline typography",
+        "starburst lens flare portrait"
+      ],
+      "excludeWhen": [
+        "modern high-key lighting is required",
+        "minimalist flat design is requested",
+        "sans-serif digital typography is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A low-key portrait of a musician holding an acoustic guitar, set against a near-black background with intense, multi-pointed starburst lens flares emanating from reflective points on the clothing and instrument. The composition is topped with stylized, multi-line geometric lettering.",
+    "coreVisualRelationships": [
+      "Central figure emerging from deep shadow",
+      "High contrast between dark background and bright white guitar body",
+      "Geometric typography anchored at the top center",
+      "Diagonal light streaks creating a sense of movement"
+    ],
+    "coreInvariants": [
+      "Heavy dark vignette obscuring the background",
+      "Multi-line inline stroke effect on primary display text",
+      "Cross-shaped lens flares with long, thin rays"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium shot of a male figure, centered horizontally, occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The bright white body of the acoustic guitar in the lower left quadrant.",
+      "movementAndEyePath": "Eyes start at the bright guitar, follow the lens flare rays upward to the subject's face, and finally to the stylized text at the top.",
+      "negativeSpace": "Extensive dark, textured negative space surrounding the subject on all sides."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and black background tones",
+      "contrastColorRole": "Off-white and pale pink on the guitar and skin tones",
+      "accentColorRole": "Warm gold and tan in the typography and hair highlights",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast in specific highlights.",
+      "paletteRestrictions": [
+        "Muted earth tones",
+        "Deep blacks",
+        "Desaturated skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Geometric Art Deco",
+      "letterConstructionRules": [
+        "Characters are composed of multiple parallel thin lines (inline effect)",
+        "Heavy emphasis on verticality and sharp angles",
+        "The 'M' and 'A' feature exaggerated, elongated strokes that interlock"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'M' uses four parallel diagonal lines to form its legs",
+        "The 'A' is a sharp triangle with horizontal striations"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "custom-geometric",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high-inline",
+            "xHeight": "tall",
+            "terminals": "sharp",
+            "corners": "angular",
+            "counters": "open",
+            "strokeCharacter": "multi-line"
+          },
+          "typesetting": {
+            "case": "mixed-case-look",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "0.8",
+            "lineBreakPattern": "stacked-interlocking",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "vertical-stacking",
+            "relationshipToImage": "floating-above-subject"
+          },
+          "treatment": {
+            "fill": "gradient-tan",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "light",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "rounded",
+            "counters": "wide",
+            "strokeCharacter": "monoline"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "very-wide",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "low"
+          },
+          "composition": {
+            "position": "top-center-above-display",
+            "scale": "small",
+            "rotation": "arc",
+            "warp": "arch",
+            "overlap": "none",
+            "relationshipToImage": "header"
+          },
+          "treatment": {
+            "fill": "off-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Highly decorative geometric display text paired with a widely spaced, arched minimalist sans-serif.",
+      "graphicDevices": [
+        "Multi-line inline strokes",
+        "Arched text path",
+        "Interlocking letterforms"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Multi-line stroke effect",
+          "Geometric 'M' and 'A' shapes",
+          "Wide tracking on the top line"
+        ],
+        "avoid": [
+          "Standard blocky sans-serifs",
+          "Script fonts",
+          "Modern digital gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Akzidenz-Grotesk Extended",
+            "reason": "For the arched subtitle text skeleton",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Prisma",
+            "reason": "For the multi-line inline display effect",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-key portrait of a man with 70s-style wavy hair holding an acoustic guitar. Use a dark, textured background with heavy vignetting. Add 4-6 bright, multi-pointed starburst lens flares on the guitar strings and the man's shirt buttons.",
+        "overlayInstruction": "Apply custom multi-line geometric lettering for the main name in the top center. Above it, place a secondary title in a wide-tracked, light sans-serif font following a gentle upward arch."
+      },
+      "verificationChecks": [
+        "Is the main text composed of multiple parallel lines?",
+        "Are there prominent starburst lens flares?",
+        "Is the background nearly black with a visible texture?",
+        "Is the guitar the brightest object in the lower half?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of lens flares",
+      "Curvature of the arched text",
+      "Number of lines in the inline typography",
+      "Depth of the vignette"
+    ],
+    "mustRedesign": [
+      "Modern digital logos",
+      "Specific artist likeness",
+      "Contemporary font faces"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Analog film grain texture",
+        "Soft-focus edges on the subject",
+        "Hand-drawn quality to the multi-line text"
+      ],
+      "avoid": [
+        "Crisp digital vectors",
+        "High-saturation neon colors",
+        "Flat, even lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the 'M' and 'A' in the display text are stylized and interlocking.",
+      "Ensure the lens flares have long, thin, distinct rays.",
+      "Verify the background is dark enough to make the white guitar pop.",
+      "Confirm the top text follows a curved path."
+    ],
+    "reuseFormula": "Low-key portrait + multi-line geometric display type + starburst flares + heavy vignette = 70s soft rock aesthetic."
+  }
+}

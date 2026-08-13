@@ -1,0 +1,274 @@
+{
+  "id": "c1010d6f8d0a206ced2fd5094338ea1281cfb5b5221ff94fc3f965ced561f2a4",
+  "skillId": "c1010d6f8d0a206ced2fd5094338ea1281cfb5b5221ff94fc3f965ced561f2a4",
+  "versionId": "c1010d6f8d0a206ced2fd5094338ea1281cfb5b5221ff94fc3f965ced561f2a4",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:20:00.668Z",
+  "approvedAt": "2026-08-12T19:20:00.668Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:20:00.668Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Alone At Prom.jpg",
+    "hash": "c1010d6f8d0a206ced2fd5094338ea1281cfb5b5221ff94fc3f965ced561f2a4",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Alone At Prom",
+    "artist": "Tory Lanez",
+    "artworkUrl": "https://coverartarchive.org/release-group/1dd5048f-e3a7-4080-86ae-357565b2eba9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1dd5048f-e3a7-4080-86ae-357565b2eba9",
+    "releaseGroupId": "1dd5048f-e3a7-4080-86ae-357565b2eba9",
+    "recordingId": "52a0345e-497d-479e-99ca-f869f45dfefc",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Color VioletTory Lanez",
+      "song": "The Color Violet",
+      "performer": "Tory Lanez",
+      "peakPosition": 63,
+      "firstChartDate": "2023-01-14",
+      "lastChartDate": "2023-03-11",
+      "appearances": [
+        {
+          "chartDate": "2023-01-14",
+          "position": 87
+        },
+        {
+          "chartDate": "2023-01-21",
+          "position": 70
+        },
+        {
+          "chartDate": "2023-01-28",
+          "position": 71
+        },
+        {
+          "chartDate": "2023-02-04",
+          "position": 63
+        },
+        {
+          "chartDate": "2023-02-11",
+          "position": 66
+        },
+        {
+          "chartDate": "2023-02-18",
+          "position": 67
+        },
+        {
+          "chartDate": "2023-02-25",
+          "position": 77
+        },
+        {
+          "chartDate": "2023-03-04",
+          "position": 84
+        },
+        {
+          "chartDate": "2023-03-11",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "nostalgic prom night candid prom vintage lighting motion blur balloons stage performance retro aesthetic warm glow warm stage light vs deep foreground shadows static performer vs blurred audience movement soft balloon textures vs dark silhouettes central stage action vs peripheral motion low light stage photography subject color cast heavy grain motion blur crowd",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Nostalgic Prom Night Candid",
+      "category": "Photography",
+      "medium": [
+        "Digital Photography",
+        "Film Simulation"
+      ],
+      "useCases": [
+        "Album Art",
+        "Editorial Storytelling",
+        "Event Promotion"
+      ],
+      "retrievalTags": [
+        "prom",
+        "vintage lighting",
+        "motion blur",
+        "balloons",
+        "stage performance",
+        "retro aesthetic",
+        "warm glow"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A low-light, high-grain candid shot of a formal event featuring a central performer and a cluster of balloons under warm stage lighting.",
+      "triggerTerms": [
+        "vintage prom aesthetic",
+        "warm stage glow with motion blur",
+        "candid formal event photography"
+      ],
+      "excludeWhen": [
+        "clean studio lighting is required",
+        "sharp focus on all subjects is necessary",
+        "modern high-definition look is desired"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast, grainy image capturing a performer on a stage at a formal dance. The scene is dominated by deep shadows in the foreground and a warm, amber-orange glow from stage lights. A bunch of pale balloons acts as a secondary focal point next to the performer, while the foreground audience is rendered in silhouette with significant motion blur.",
+    "coreVisualRelationships": [
+      "Warm stage light vs. deep foreground shadows",
+      "Static performer vs. blurred audience movement",
+      "Soft balloon textures vs. dark silhouettes",
+      "Central stage action vs. peripheral motion"
+    ],
+    "coreInvariants": [
+      "Heavy film grain",
+      "Amber and orange color cast",
+      "Motion blur on peripheral figures",
+      "Low-key lighting with high contrast"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The performer is positioned slightly off-center in the upper mid-ground, scaled to be recognizable but integrated into the environment.",
+      "visualAnchor": "The cluster of illuminated balloons and the bright stage light in the upper left corner.",
+      "movementAndEyePath": "The eye starts at the bright light source, moves to the balloons and performer, then follows the motion blur of the crowd toward the right.",
+      "negativeSpace": "Extensive dark negative space in the bottom half and right side, creating a sense of depth and atmosphere."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and dark brown shadows providing the base.",
+      "contrastColorRole": "Warm amber and orange stage lighting.",
+      "accentColorRole": "Pale pink and cream from the balloons.",
+      "saturationAndValueRelationship": "High saturation in the warm highlights; very low value in the shadows with crushed blacks.",
+      "paletteRestrictions": [
+        "No cool blues",
+        "No bright greens",
+        "No clinical white light"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "High legibility",
+        "Compact tracking for metadata"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "metadata",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Stacked",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Bottom center",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlay on dark area"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "Black box background",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single utilitarian typeface to avoid distracting from the atmospheric image.",
+      "graphicDevices": [
+        "Rectangular framing for metadata"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "High contrast (white on black)"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Handwritten styles"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic",
+            "reason": "Provides a classic, utilitarian look that fits metadata conventions.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers",
+            "reason": "Neutral and legible at small scales.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-light photograph of a 1970s prom stage with a singer in a tuxedo, a bunch of balloons, and a crowd in silhouette. Apply heavy grain, motion blur to the crowd, and a strong orange stage light from the left.",
+        "overlayInstruction": "Place a small, centered white sans-serif text block inside a black rectangle at the bottom edge of the frame."
+      },
+      "verificationChecks": [
+        "Is the grain texture prominent?",
+        "Is the lighting predominantly amber/orange?",
+        "Is the foreground crowd blurred and silhouetted?",
+        "Is the text small and centered at the bottom?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of motion blur",
+      "Density of film grain",
+      "Saturation of the orange light",
+      "Number of balloons"
+    ],
+    "mustRedesign": [
+      "Avoid sharp, modern digital clarity",
+      "Do not use balanced, even lighting",
+      "Redesign any recognizable faces to maintain a candid, blurred feel"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Atmospheric depth through shadow",
+        "Authentic film-like grain",
+        "Warm, nostalgic color palette"
+      ],
+      "avoid": [
+        "Over-exposure in shadows",
+        "Artificial-looking digital noise",
+        "Static, posed appearance"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high contrast between stage and crowd",
+      "Ensure the orange glow feels directional",
+      "Verify the presence of motion blur in the foreground",
+      "Confirm the mood is nostalgic and slightly melancholic"
+    ],
+    "reuseFormula": "Low-light stage photography + [Subject] + [Color Cast] + Heavy Grain + Motion Blur Crowd."
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "id": "cd9e2d4149548c34bbab607053eb16e5151537be3fe87928fc7d08c31baf9265",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T07:33:20.908Z",
+  "approvedAt": "2026-08-11T07:33:20.908Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T07:33:20.908Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "lovestrong..jpg",
+    "hash": "cd9e2d4149548c34bbab607053eb16e5151537be3fe87928fc7d08c31baf9265",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "lovestrong.",
+    "artist": "Christina Perri",
+    "artworkUrl": "https://coverartarchive.org/release-group/b104f901-89c5-4ddc-b0ae-ad11850f2b3d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b104f901-89c5-4ddc-b0ae-ad11850f2b3d",
+    "releaseGroupId": "b104f901-89c5-4ddc-b0ae-ad11850f2b3d",
+    "recordingId": "b4a2841d-e209-4d80-a953-b81863fb563d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "ArmsChristina Perri",
+      "song": "Arms",
+      "performer": "Christina Perri",
+      "peakPosition": 94,
+      "firstChartDate": "2011-04-02",
+      "lastChartDate": "2011-09-10",
+      "appearances": [
+        {
+          "chartDate": "2011-04-02",
+          "position": 94
+        },
+        {
+          "chartDate": "2011-09-10",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "indie pop monochromatic portrait monochrome typewriter font tattoos suspenders indie aesthetic desaturated portrait photography the dark hair and suspenders contrast sharply against the light skin and white tank top the typewriter text balances the visual weight of the subject s leaning pose the tattoos on the subject s arms provide a fine line texture that complements the gritty typography monochrome studio portrait off center composition distressed typewriter typography in negative space",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Indie-Pop Monochromatic Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Editing",
+        "Typewriter Typography"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portrait",
+        "Lifestyle Branding"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "typewriter font",
+        "tattoos",
+        "suspenders",
+        "indie aesthetic",
+        "desaturated",
+        "portrait photography"
+      ]
+    },
+    "visualDefinition": "A high-contrast, desaturated black-and-white portrait of a woman with dark hair and a blonde streak, wearing a white tank top and suspenders. The subject is positioned off-center against a neutral, slightly textured studio background, with vintage typewriter-style text placed in the upper-left negative space.",
+    "coreVisualRelationships": [
+      "The dark hair and suspenders contrast sharply against the light skin and white tank top.",
+      "The typewriter text balances the visual weight of the subject's leaning pose.",
+      "The tattoos on the subject's arms provide a fine-line texture that complements the gritty typography."
+    ],
+    "coreInvariants": [
+      "Monochromatic color palette with a slight warm or cool tint.",
+      "Typewriter-style typography with ink-bleed or stamp-like imperfections.",
+      "Subject with visible tattoos and a specific 'indie' fashion style (suspenders, tank top)."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is medium-shot, positioned on the right two-thirds of the frame, leaning slightly toward the center.",
+      "visualAnchor": "The subject's face and the high-contrast dark hair/blonde streak.",
+      "movementAndEyePath": "Eyes start at the face, move down the arm with tattoos, and finish at the text in the upper-left corner.",
+      "negativeSpace": "Significant open space on the left side of the frame to accommodate typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-gray background providing a neutral canvas.",
+      "contrastColorRole": "Deep blacks in the hair, suspenders, and text for definition.",
+      "accentColorRole": "Bright whites in the tank top and hair streak for highlights.",
+      "saturationAndValueRelationship": "Zero saturation; high value range from pure white highlights to deep black shadows.",
+      "paletteRestrictions": [
+        "No vibrant colors",
+        "No high-gloss finishes"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Slab-serif typewriter",
+      "letterConstructionRules": [
+        "Monospaced proportions",
+        "Rough, irregular edges simulating physical ink on paper",
+        "Small-scale slab serifs"
+      ],
+      "characterSpecificRedesigns": [
+        "Lower-case 'l' and 't' have distinct typewriter-style crossbars and tails",
+        "Periods are heavy and slightly irregular"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif / Typewriter",
+          "anatomy": {
+            "width": "Monospaced",
+            "weight": "Medium-bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Blunt slab",
+            "corners": "Slightly rounded/distressed",
+            "counters": "Open",
+            "strokeCharacter": "Inky and textured"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single word or short phrase",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Upper left quadrant",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Placed in negative space"
+          },
+          "treatment": {
+            "fill": "Solid black with texture",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Ink-bleed",
+            "distortion": "Slight mechanical misalignment"
+          }
+        }
+      ],
+      "pairingStrategy": "Single-family variation using different weights or sizes of the same typewriter face.",
+      "graphicDevices": [
+        "Textured background grain",
+        "Subtle vignetting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase styling",
+          "Typewriter aesthetic",
+          "Left alignment"
+        ],
+        "avoid": [
+          "Clean sans-serifs",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Courier Prime Rough",
+            "reason": "Captures the distressed typewriter look with modern legibility.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "American Typewriter",
+            "reason": "Classic slab-serif typewriter structure.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a monochromatic studio portrait of a woman with dark hair and a blonde streak, wearing a white tank top and black suspenders, leaning against a plain gray wall. Ensure visible fine-line tattoos on her arms.",
+        "overlayInstruction": "Add two lines of lowercase typewriter-style text in the upper left corner using a black ink-bleed effect."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochromatic?",
+        "Is the text in the upper-left corner lowercase?",
+        "Does the subject have the characteristic blonde hair streak?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the film grain",
+      "Placement of the text (left vs right negative space)",
+      "Subject's pose and expression"
+    ],
+    "mustRedesign": [
+      "Specific tattoo designs to avoid copyright",
+      "Exact facial features of the artist",
+      "Specific brand logos on clothing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast black and white balance",
+        "Authentic typewriter texture",
+        "Clear negative space for text"
+      ],
+      "avoid": [
+        "Overly smooth digital skin retouching",
+        "Modern geometric fonts",
+        "Busy backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for monospaced typewriter alignment",
+      "Verify the presence of the blonde hair streak",
+      "Ensure the suspenders are clearly defined against the tank top",
+      "Confirm the text is entirely lowercase"
+    ],
+    "reuseFormula": "Monochrome Studio Portrait + Off-Center Composition + Distressed Typewriter Typography in Negative Space."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T07:36:45.042Z"
+}

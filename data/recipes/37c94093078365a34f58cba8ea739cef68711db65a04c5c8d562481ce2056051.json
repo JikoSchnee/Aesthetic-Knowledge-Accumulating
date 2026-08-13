@@ -1,0 +1,312 @@
+{
+  "id": "37c94093078365a34f58cba8ea739cef68711db65a04c5c8d562481ce2056051",
+  "skillId": "37c94093078365a34f58cba8ea739cef68711db65a04c5c8d562481ce2056051",
+  "versionId": "37c94093078365a34f58cba8ea739cef68711db65a04c5c8d562481ce2056051",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:16:51.823Z",
+  "approvedAt": "2026-08-12T22:16:51.823Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:16:51.823Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Zootopia.jpg",
+    "hash": "37c94093078365a34f58cba8ea739cef68711db65a04c5c8d562481ce2056051",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Zootopia",
+    "artist": "Shakira",
+    "artworkUrl": "https://coverartarchive.org/release-group/1a37a7c9-acff-41d5-b9f8-33898c678f92/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1a37a7c9-acff-41d5-b9f8-33898c678f92",
+    "releaseGroupId": "1a37a7c9-acff-41d5-b9f8-33898c678f92",
+    "recordingId": "f8fdb48a-85f8-4dbe-a026-800e0ea7218c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Try EverythingShakira",
+      "song": "Try Everything",
+      "performer": "Shakira",
+      "peakPosition": 63,
+      "firstChartDate": "2016-03-26",
+      "lastChartDate": "2016-07-16",
+      "appearances": [
+        {
+          "chartDate": "2016-03-26",
+          "position": 66
+        },
+        {
+          "chartDate": "2016-04-02",
+          "position": 63
+        },
+        {
+          "chartDate": "2016-04-09",
+          "position": 86
+        },
+        {
+          "chartDate": "2016-04-16",
+          "position": 65
+        },
+        {
+          "chartDate": "2016-04-23",
+          "position": 75
+        },
+        {
+          "chartDate": "2016-04-30",
+          "position": 74
+        },
+        {
+          "chartDate": "2016-07-02",
+          "position": 70
+        },
+        {
+          "chartDate": "2016-07-09",
+          "position": 87
+        },
+        {
+          "chartDate": "2016-07-16",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "anthropomorphic urban crowd poster anthropomorphic animals urban city street crowded composition 3d character design vibrant metropolis foreground street pole and signal framing the left side dense crowd of diverse animals receding into a deep city perspective tall stylized urban architecture lining the street bright natural daylighting with soft shadows urban animal crowd high angle perspective custom rounded display type vibrant 3d animation style",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Anthropomorphic Urban Crowd Poster",
+      "category": "Entertainment",
+      "medium": [
+        "3D Digital Animation",
+        "Digital Illustration"
+      ],
+      "useCases": [
+        "Movie Soundtrack Covers",
+        "Animated Feature Posters",
+        "Character-Dense Promotional Art"
+      ],
+      "retrievalTags": [
+        "anthropomorphic animals",
+        "urban city street",
+        "crowded composition",
+        "3D character design",
+        "vibrant metropolis"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A densely packed urban scene featuring a diverse cast of anthropomorphic animals in a vibrant, modern city setting with high-angle perspective.",
+      "triggerTerms": [
+        "anthropomorphic animal city crowd",
+        "vibrant 3D animated metropolis",
+        "dense character-filled street scene"
+      ],
+      "excludeWhen": [
+        "requesting realistic wildlife photography",
+        "minimalist compositions",
+        "dark or gritty urban environments"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A bustling, high-detail 3D animated scene of a city street populated by various animal species in human clothing, featuring a prominent street sign and a crosswalk signal in the foreground.",
+    "coreVisualRelationships": [
+      "Foreground street pole and signal framing the left side",
+      "Dense crowd of diverse animals receding into a deep city perspective",
+      "Tall, stylized urban architecture lining the street",
+      "Bright, natural daylighting with soft shadows"
+    ],
+    "coreInvariants": [
+      "Anthropomorphic animals of varying scales (giraffes to rodents) coexisting",
+      "Modern urban infrastructure adapted for animal use",
+      "Vibrant, saturated color palette with high detail in fur and fabric textures"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A massive crowd of characters occupies the lower two-thirds, with larger characters in the mid-ground and smaller ones in the foreground.",
+      "visualAnchor": "The green rectangular street sign and yellow pedestrian signal on the left.",
+      "movementAndEyePath": "The eye starts at the foreground signal, follows the crowd into the center, and then moves upward along the tall buildings toward the sky.",
+      "negativeSpace": "Limited to the bright sky at the top center and small gaps between buildings."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm earth tones and vibrant primary colors from character clothing.",
+      "contrastColorRole": "Cool blues and greys from the asphalt and glass buildings.",
+      "accentColorRole": "Bright yellow and green from the traffic signals and signs.",
+      "saturationAndValueRelationship": "High saturation throughout with bright, even values to maintain a cheerful tone.",
+      "paletteRestrictions": [
+        "Avoid monochromatic or desaturated schemes"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Geometric sans-serif with playful, organic modifications",
+      "letterConstructionRules": [
+        "Thick, uniform stroke weights",
+        "Rounded terminals and corners",
+        "Interlocking or overlapping characters",
+        "Custom ligatures and stylized 'O's"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'Z' features a sharp, dynamic diagonal",
+        "The 'O's are perfectly circular with thick strokes",
+        "The 'A' has a low crossbar"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "custom-decorative",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top center inside a green sign",
+            "scale": "large",
+            "rotation": "slight upward tilt",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within a graphic element"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "square",
+            "counters": "geometric",
+            "strokeCharacter": "clean"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "small",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaying foreground characters"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "soft outer glow",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A highly stylized, custom display mark paired with a clean, wide-tracked geometric sans-serif for secondary information.",
+      "graphicDevices": [
+        "Rectangular green street sign with white border",
+        "Yellow pedestrian signal box with pixelated icon"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Rounded terminals",
+          "Tight letter spacing",
+          "White-on-green color scheme for the sign"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Thin stroke weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Provides the geometric foundation for the secondary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Custom Rounded Sans",
+            "reason": "Approximates the playful, thick-stroke feel of the main title.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 3D animated urban street scene filled with a diverse crowd of anthropomorphic animals in clothing. Include a green rectangular street sign and a yellow traffic signal on a pole in the left foreground. Ensure bright daylight and deep perspective.",
+        "overlayInstruction": "Add the main title in a custom, bold, rounded white sans-serif inside the green sign. Place secondary metadata text in a clean, wide-tracked white geometric sans-serif at the bottom center."
+      },
+      "verificationChecks": [
+        "Is the main title contained within the green sign?",
+        "Are the animals diverse in species and scale?",
+        "Is the lighting bright and consistent with a sunny day?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Animal species diversity",
+      "Density of the crowd",
+      "Time of day (lighting)",
+      "City architecture style"
+    ],
+    "mustRedesign": [
+      "Any specific copyrighted character designs",
+      "Exact studio logos",
+      "Specific brand parodies"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-quality 3D render look",
+        "Clear character silhouettes despite the crowd",
+        "Legible typography against busy backgrounds"
+      ],
+      "avoid": [
+        "Flat 2D illustrations",
+        "Muted or muddy colors",
+        "Sparse or empty street scenes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for character clipping or anatomical errors",
+      "Ensure the street sign perspective matches the scene",
+      "Verify that the text is legible and correctly centered",
+      "Confirm the color palette is vibrant and saturated"
+    ],
+    "reuseFormula": "Urban Animal Crowd + High-Angle Perspective + Custom Rounded Display Type + Vibrant 3D Animation Style"
+  }
+}

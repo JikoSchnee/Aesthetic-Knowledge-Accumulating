@@ -1,0 +1,259 @@
+{
+  "id": "4731990c1f39b08b296bd088e45572591018ead42515f930c322023fc8f48239",
+  "skillId": "4731990c1f39b08b296bd088e45572591018ead42515f930c322023fc8f48239",
+  "versionId": "4731990c1f39b08b296bd088e45572591018ead42515f930c322023fc8f48239",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:10:50.195Z",
+  "approvedAt": "2026-08-13T05:10:50.195Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:10:50.195Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Raindancing.jpg",
+    "hash": "4731990c1f39b08b296bd088e45572591018ead42515f930c322023fc8f48239",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Raindancing",
+    "artist": "Alison Moyet",
+    "artworkUrl": "https://coverartarchive.org/release-group/67bbeec0-3b89-3015-a126-3ba4be306d01/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/67bbeec0-3b89-3015-a126-3ba4be306d01",
+    "releaseGroupId": "67bbeec0-3b89-3015-a126-3ba4be306d01",
+    "recordingId": "ee80b790-ebef-468c-8d0a-a670350dae65",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Love ResurrectionAlison Moyet",
+      "song": "Love Resurrection",
+      "performer": "Alison Moyet",
+      "peakPosition": 82,
+      "firstChartDate": "1985-07-20",
+      "lastChartDate": "1985-08-10",
+      "appearances": [
+        {
+          "chartDate": "1985-07-20",
+          "position": 89
+        },
+        {
+          "chartDate": "1985-07-27",
+          "position": 86
+        },
+        {
+          "chartDate": "1985-08-03",
+          "position": 82
+        },
+        {
+          "chartDate": "1985-08-10",
+          "position": 90
+        }
+      ]
+    }
+  },
+  "dedupeText": "ethereal rain streaked portrait raindrops glass pane ethereal portrait blue tint high key condensed sans serif soft focus subject is layered behind a textured water on glass foreground high key facial highlights blend into the misty background typography is anchored horizontally across the forehead area of the subject cool blue tones unify the background and foreground textures high key blue portrait water on glass texture centered condensed lowercase sans serif",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Ethereal Rain-Streaked Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Atmospheric Editorial Layouts",
+        "Melancholic Poster Design"
+      ],
+      "retrievalTags": [
+        "raindrops",
+        "glass pane",
+        "ethereal portrait",
+        "blue tint",
+        "high-key",
+        "condensed sans-serif",
+        "soft focus"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-key, blue-toned portrait viewed through a rain-streaked glass pane with centered condensed typography.",
+      "triggerTerms": [
+        "rainy window portrait",
+        "ethereal blue high-key face",
+        "condensed lowercase typography on glass"
+      ],
+      "excludeWhen": [
+        "vibrant multi-color palettes are required",
+        "sharp, high-contrast facial features are needed",
+        "serif or decorative script fonts are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A pale, ethereal face emerges from a misty, blue-tinted background, obscured by a foreground layer of water droplets on glass. The composition is dominated by soft, high-key lighting and a cool monochromatic palette, with a single line of condensed, lowercase text positioned in the upper third.",
+    "coreVisualRelationships": [
+      "Subject is layered behind a textured water-on-glass foreground",
+      "High-key facial highlights blend into the misty background",
+      "Typography is anchored horizontally across the forehead area of the subject",
+      "Cool blue tones unify the background and foreground textures"
+    ],
+    "coreInvariants": [
+      "Visible water droplets and condensation texture across the entire frame",
+      "Monochromatic or near-monochromatic blue color cast",
+      "High-key exposure that washes out facial details into white"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The face is centrally located, filling approximately 60% of the frame vertically, appearing slightly out of focus.",
+      "visualAnchor": "The eyes of the subject, though softened, serve as the primary focal point behind the water texture.",
+      "movementAndEyePath": "The eye starts at the sharp typography, moves down to the subject's eyes, and then follows the vertical streaks of the raindrops.",
+      "negativeSpace": "The edges of the frame consist of dense blue mist and water droplets, creating a vignette effect that pushes focus inward."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Powder blue and sky blue provide the overall atmospheric tone.",
+      "contrastColorRole": "Pure white is used for the high-key highlights of the face and the secondary text.",
+      "accentColorRole": "Pale yellow-gold is used for the primary name text to provide a subtle warm contrast.",
+      "saturationAndValueRelationship": "Low saturation with very high value (brightness), creating a washed-out, dreamy effect.",
+      "paletteRestrictions": [
+        "Avoid deep blacks or high-contrast shadows",
+        "Limit palette to cool blues, whites, and one muted warm accent"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "extra-condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Extremely narrow proportions",
+        "Flat or slightly rounded terminals",
+        "Lowercase only for a modern, soft feel"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'a' is a single-story construction",
+        "The 't' has a minimal crossbar"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "slightly rounded",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "upper center",
+            "scale": "small to medium",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "placed over the subject's forehead area",
+            "relationshipToImage": "floating on the surface of the glass"
+          },
+          "treatment": {
+            "fill": "solid pale gold and white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family with color-based hierarchy to distinguish name from title.",
+      "graphicDevices": [
+        "Color blocking within a single line of text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "extra-condensed width",
+          "lowercase format",
+          "monolinear stroke"
+        ],
+        "avoid": [
+          "serifs",
+          "italicization",
+          "wide tracking"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Univers Ultra Condensed",
+            "reason": "Matches the clean, narrow, and modern sans-serif aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Similar width but would require significant weight reduction.",
+            "confidence": "low"
+          },
+          {
+            "nameOrCategory": "Alternate Gothic No. 2",
+            "reason": "Provides the necessary verticality and condensed structure.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key, soft-focus portrait of a woman with pale skin and light hair, tinted in a monochromatic powder blue. Overlay the entire image with a realistic texture of water droplets and condensation as if seen through a window pane.",
+        "overlayInstruction": "Typeset the text in a single line using an extra-condensed sans-serif font in all lowercase. Position it in the upper center. Use a pale muted gold for the first half and white for the second half."
+      },
+      "verificationChecks": [
+        "Is the text entirely lowercase?",
+        "Is the image dominated by a cool blue, high-key tone?",
+        "Are the water droplets sharp while the face is soft?",
+        "Is the font extra-condensed?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "density of water droplets",
+      "intensity of the blue tint",
+      "opacity of the facial features",
+      "color of the text accent"
+    ],
+    "mustRedesign": [
+      "Any high-contrast black shadows",
+      "Uppercase lettering",
+      "Ornate or serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Seamless integration of water texture and portrait",
+        "Legible but integrated typography",
+        "Consistent monochromatic blue atmosphere"
+      ],
+      "avoid": [
+        "Artificial-looking digital rain filters",
+        "Clashing warm colors",
+        "Heavy drop shadows on text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the face does not look 'pasted on' but emerges from the mist.",
+      "Ensure the water droplets vary in size and include some vertical streaks.",
+      "Verify the text is centered and uses the specified color split.",
+      "Confirm the overall mood is melancholic and ethereal."
+    ],
+    "reuseFormula": "High-key blue portrait + water-on-glass texture + centered condensed lowercase sans-serif."
+  }
+}

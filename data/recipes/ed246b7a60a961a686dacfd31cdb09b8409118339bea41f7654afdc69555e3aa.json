@@ -1,0 +1,237 @@
+{
+  "id": "ed246b7a60a961a686dacfd31cdb09b8409118339bea41f7654afdc69555e3aa",
+  "skillId": "ed246b7a60a961a686dacfd31cdb09b8409118339bea41f7654afdc69555e3aa",
+  "versionId": "ed246b7a60a961a686dacfd31cdb09b8409118339bea41f7654afdc69555e3aa",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:50:23.754Z",
+  "approvedAt": "2026-08-12T14:50:23.754Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:50:23.754Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Too Good To Be True.jpg",
+    "hash": "ed246b7a60a961a686dacfd31cdb09b8409118339bea41f7654afdc69555e3aa",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Too Good To Be True",
+    "artist": "Rick Ross & Meek Mill",
+    "artworkUrl": "https://coverartarchive.org/release-group/86d5d73d-b3f7-48c5-bccc-6422412bf8ac/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/86d5d73d-b3f7-48c5-bccc-6422412bf8ac",
+    "releaseGroupId": "86d5d73d-b3f7-48c5-bccc-6422412bf8ac",
+    "recordingId": "20bfe069-01aa-4784-a01f-832afa635cf4",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Shaq & KobeRick Ross & Meek Mill",
+      "song": "Shaq & Kobe",
+      "performer": "Rick Ross & Meek Mill",
+      "peakPosition": 83,
+      "firstChartDate": "2023-10-14",
+      "lastChartDate": "2023-10-14",
+      "appearances": [
+        {
+          "chartDate": "2023-10-14",
+          "position": 83
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome hip hop portrait with red display type black and white photography bold red sans serif hip hop aesthetic dual portrait high contrast luxury streetwear high contrast grayscale subjects against a neutral gray background vibrant red typography providing the only color pop symmetrical distribution of text blocks around the subjects interaction between foreground figures and background aligned text high contrast bw portrait bold red geometric sans serif perimeter layout",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Hip-Hop Portrait with Red Display Type",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Editorial Portraiture",
+        "Streetwear Branding"
+      ],
+      "retrievalTags": [
+        "black and white photography",
+        "bold red sans-serif",
+        "hip-hop aesthetic",
+        "dual portrait",
+        "high contrast",
+        "luxury streetwear"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast black and white dual portrait featuring bold, blood-red sans-serif typography distributed across the composition.",
+      "triggerTerms": [
+        "monochrome portrait with red text",
+        "hip hop album cover style",
+        "bold red sans-serif overlay"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "delicate or script typography is requested",
+        "single subject centered compositions"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "Two male figures in high-contrast grayscale, wearing luxury streetwear and accessories, framed by large-scale, flat red sans-serif lettering that occupies the corners and center-ground.",
+    "coreVisualRelationships": [
+      "High-contrast grayscale subjects against a neutral gray background",
+      "Vibrant red typography providing the only color pop",
+      "Symmetrical distribution of text blocks around the subjects",
+      "Interaction between foreground figures and background-aligned text"
+    ],
+    "coreInvariants": [
+      "Desaturated monochrome subject photography",
+      "Pure red (#CC0000 range) typography",
+      "Heavyweight sans-serif font with wide tracking"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two subjects side-by-side, waist-up, filling the lower two-thirds of the frame.",
+      "visualAnchor": "The central red text block and the subjects' eyewear.",
+      "movementAndEyePath": "Z-pattern starting from top-left text, through the faces, to the bottom-left text.",
+      "negativeSpace": "Minimal, primarily in the upper center and around the edges of the figures."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Grayscale (Black, White, Mid-gray)",
+      "contrastColorRole": "Deep Red",
+      "accentColorRole": "Pure White (highlights and advisory logo)",
+      "saturationAndValueRelationship": "High value contrast in subjects; flat, high-saturation red for text.",
+      "paletteRestrictions": [
+        "No secondary colors",
+        "No gradients in typography"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Square terminals",
+        "Wide proportions"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "justified-grid",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "fragmented",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "perimeter-distributed",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "behind-subject-shoulders",
+            "relationshipToImage": "integrated-overlay"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used in varying positions for rhythmic impact.",
+      "graphicDevices": [
+        "Parental advisory badge in bottom right corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Red color",
+          "Wide tracking"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Italics",
+          "Lower case"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Neue Bold Extended",
+            "reason": "Matches the clean, authoritative geometric structure.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Provides a similar industrial, bold weight.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white photograph of two men in luxury streetwear, one with hands in prayer, both wearing sunglasses, against a plain gray studio background.",
+        "overlayInstruction": "Add bold, uppercase red sans-serif text in the corners and center, using wide tracking and a geometric font like Helvetica Bold."
+      },
+      "verificationChecks": [
+        "Is the image strictly black and white except for the red text?",
+        "Is the text distributed across the corners and center?",
+        "Is the font a heavy, wide sans-serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Text color",
+      "Subject poses",
+      "Background gray value"
+    ],
+    "mustRedesign": [
+      "Any specific brand logos on clothing",
+      "Specific facial features of the original artists"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp photographic detail",
+        "Deep blacks in clothing",
+        "Clean, aliased edges on typography"
+      ],
+      "avoid": [
+        "Blurry textures",
+        "Muted reds",
+        "Thin font weights"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that text does not obscure primary facial features.",
+      "Ensure the red is vibrant and consistent across all words.",
+      "Verify the parental advisory logo is present in the bottom right.",
+      "Confirm the background is a flat, neutral gray."
+    ],
+    "reuseFormula": "High-contrast BW portrait + Bold Red Geometric Sans-Serif + Perimeter Layout"
+  }
+}

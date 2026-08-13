@@ -1,0 +1,239 @@
+{
+  "id": "9f6465e8ffc3bc3c947ab0e17676f5cfcb14855434d3cf75817696103c9fc140",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:56:15.470Z",
+  "approvedAt": "2026-08-11T08:56:15.470Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:56:15.470Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Lou Christie Strikes Again.jpg",
+    "hash": "9f6465e8ffc3bc3c947ab0e17676f5cfcb14855434d3cf75817696103c9fc140",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Lou Christie Strikes Again",
+    "artist": "Lou Christie",
+    "artworkUrl": "https://coverartarchive.org/release-group/166a2cd7-2340-4c88-8ed2-d394d31ca330/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/166a2cd7-2340-4c88-8ed2-d394d31ca330",
+    "releaseGroupId": "166a2cd7-2340-4c88-8ed2-d394d31ca330",
+    "recordingId": "1d429d1e-d0f6-47e9-910b-8143f7c475d7",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Big TimeLou Christie",
+      "song": "Big Time",
+      "performer": "Lou Christie",
+      "peakPosition": 95,
+      "firstChartDate": "1966-03-19",
+      "lastChartDate": "1966-03-19",
+      "appearances": [
+        {
+          "chartDate": "1966-03-19",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century pop album cover aesthetic 1960s pop music condensed sans serif lightning bolt dramatic portrait cyan and blue halftone texture solid header bar vs textured photographic lower section verticality of the background drapes mirroring the condensed letterforms graphic lightning bolt acting as a visual separator for the main title solid color header ultra condensed white display type central graphic icon portrait against vertical textures",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Pop Album Cover Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Offset Printing"
+      ],
+      "useCases": [
+        "Album Art",
+        "Retro Poster Design",
+        "Vintage Editorial Layout"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "pop music",
+        "condensed sans-serif",
+        "lightning bolt",
+        "dramatic portrait",
+        "cyan and blue",
+        "halftone texture"
+      ]
+    },
+    "visualDefinition": "A mid-century modern album cover featuring a high-contrast male portrait against a draped fabric background, topped by a solid color header containing ultra-condensed typography bisected by a graphic lightning bolt.",
+    "coreVisualRelationships": [
+      "Solid header bar vs. textured photographic lower section",
+      "Verticality of the background drapes mirroring the condensed letterforms",
+      "Graphic lightning bolt acting as a visual separator for the main title"
+    ],
+    "coreInvariants": [
+      "Ultra-condensed sans-serif typography",
+      "Solid blue header occupying the top 20-25% of the frame",
+      "A central graphic icon (lightning bolt) breaking the header text",
+      "Soft-focus, vertically-oriented fabric backdrop"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale head-and-shoulders portrait centered in the lower three-quarters of the frame.",
+      "visualAnchor": "The solid blue header bar provides a heavy horizontal anchor at the top.",
+      "movementAndEyePath": "Eye starts at the bright white text in the header, follows the lightning bolt down to the subject's face, then follows the vertical lines of the background.",
+      "negativeSpace": "The solid header acts as a controlled negative space for the display type."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Medium cerulean blue in the header and background drapes.",
+      "contrastColorRole": "Pure white for the primary display typography.",
+      "accentColorRole": "Pale yellow or cream for the lightning bolt graphic.",
+      "saturationAndValueRelationship": "High saturation in the blues; high value contrast between white text and blue background.",
+      "paletteRestrictions": [
+        "Cerulean blue",
+        "Teal-green",
+        "White",
+        "Pale Yellow",
+        "Natural skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Ultra-condensed grotesque sans-serif",
+      "letterConstructionRules": [
+        "Extreme vertical elongation",
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Tight internal counters"
+      ],
+      "characterSpecificRedesigns": [
+        "The letter 'S' has very shallow curves to maintain the narrow width",
+        "The 'G' has a high, simple crossbar"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "high"
+          },
+          "composition": {
+            "position": "centered within the blue header",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by color block"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for the main title, paired with a small, wide sans-serif for metadata in the corner.",
+      "graphicDevices": [
+        "Jagged lightning bolt icon",
+        "Solid rectangular header block",
+        "Vertical fabric folds"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ultra-condensed proportions",
+          "Uppercase styling",
+          "White-on-blue color scheme"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Wide letter spacing"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact Condensed",
+            "reason": "Matches the heavy weight and narrow profile",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Steelfish",
+            "reason": "Captures the extreme verticality and 1960s feel",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Provides the clean, modern sans-serif structure",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A portrait of a man with 1960s styled hair against a backdrop of vertical teal and blue fabric drapes. The top 20% of the image should be a solid, flat cerulean blue rectangle.",
+        "overlayInstruction": "Add a large, white, ultra-condensed sans-serif title in uppercase across the blue header. Place a pale yellow jagged lightning bolt graphic in the center of the header, splitting the text into two halves."
+      },
+      "verificationChecks": [
+        "Is the header a solid, flat color block?",
+        "Is the text extremely narrow and tall?",
+        "Does the lightning bolt visually divide the text?",
+        "Is the portrait lighting soft but directional?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Header color",
+      "Lightning bolt color",
+      "Subject pose",
+      "Background drape color"
+    ],
+    "mustRedesign": [
+      "Original artist name",
+      "Original album title",
+      "Record label logo in the top right corner"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typographic edges",
+        "Authentic 1960s photographic grain",
+        "Balanced vertical composition"
+      ],
+      "avoid": [
+        "Digital gradients in the header",
+        "Modern distressed textures",
+        "Low-contrast text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the lightning bolt does not overlap the subject's head.",
+      "Check that the text is perfectly centered vertically within the blue bar.",
+      "Verify the background drapes have a soft, out-of-focus quality.",
+      "Confirm the typography is exclusively uppercase."
+    ],
+    "reuseFormula": "Solid color header + Ultra-condensed white display type + Central graphic icon + Portrait against vertical textures."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:07:22.898Z"
+}

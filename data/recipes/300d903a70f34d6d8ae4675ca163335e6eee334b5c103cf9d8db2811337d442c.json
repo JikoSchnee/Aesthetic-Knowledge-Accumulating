@@ -1,0 +1,320 @@
+{
+  "id": "300d903a70f34d6d8ae4675ca163335e6eee334b5c103cf9d8db2811337d442c",
+  "skillId": "300d903a70f34d6d8ae4675ca163335e6eee334b5c103cf9d8db2811337d442c",
+  "versionId": "300d903a70f34d6d8ae4675ca163335e6eee334b5c103cf9d8db2811337d442c",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T02:12:03.489Z",
+  "approvedAt": "2026-08-13T02:12:03.489Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T02:12:03.489Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Turn It Upside Down.jpg",
+    "hash": "300d903a70f34d6d8ae4675ca163335e6eee334b5c103cf9d8db2811337d442c",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Turn It Upside Down",
+    "artist": "Spin Doctors",
+    "artworkUrl": "https://coverartarchive.org/release-group/e4a84de6-b7b8-3c7c-a971-2f72d6c7a350/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e4a84de6-b7b8-3c7c-a971-2f72d6c7a350",
+    "releaseGroupId": "e4a84de6-b7b8-3c7c-a971-2f72d6c7a350",
+    "recordingId": "635bdf86-4a34-465a-90b1-91833c6f3baa",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "You Let Your Heart Go Too FastSpin Doctors",
+      "song": "You Let Your Heart Go Too Fast",
+      "performer": "Spin Doctors",
+      "peakPosition": 42,
+      "firstChartDate": "1994-07-16",
+      "lastChartDate": "1994-09-17",
+      "appearances": [
+        {
+          "chartDate": "1994-07-16",
+          "position": 78
+        },
+        {
+          "chartDate": "1994-07-23",
+          "position": 57
+        },
+        {
+          "chartDate": "1994-07-30",
+          "position": 49
+        },
+        {
+          "chartDate": "1994-08-06",
+          "position": 42
+        },
+        {
+          "chartDate": "1994-08-13",
+          "position": 42
+        },
+        {
+          "chartDate": "1994-08-20",
+          "position": 48
+        },
+        {
+          "chartDate": "1994-08-27",
+          "position": 51
+        },
+        {
+          "chartDate": "1994-09-03",
+          "position": 61
+        },
+        {
+          "chartDate": "1994-09-10",
+          "position": 69
+        },
+        {
+          "chartDate": "1994-09-17",
+          "position": 79
+        }
+      ]
+    }
+  },
+  "dedupeText": "radial collage with central sphere radial composition collage central sphere blue textured background 90s alternative aesthetic rotational symmetry radial symmetry of figures around a central anchor contrast between the warm earthy sphere and the cool fragmented blue background repetition of yellow rectangular signs held by each figure textural contrast between photographic cutouts and paper mosaic background radial collage central textured anchor fragmented mosaic background peripheral signage",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Radial Collage with Central Sphere",
+      "category": "Graphic Design",
+      "medium": [
+        "Photographic Collage",
+        "Mixed Media",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Editorial Illustration",
+        "Poster Design"
+      ],
+      "retrievalTags": [
+        "radial composition",
+        "collage",
+        "central sphere",
+        "blue textured background",
+        "90s alternative aesthetic",
+        "rotational symmetry"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A radial collage featuring four figures standing on a central textured sphere against a fragmented blue background.",
+      "triggerTerms": [
+        "radial collage of people",
+        "figures standing on a small planet",
+        "fragmented blue paper background",
+        "central textured sphere composition"
+      ],
+      "excludeWhen": [
+        "a clean minimalist layout is required",
+        "a single focal point without radial elements is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition featuring a central, earthy-textured sphere. Four distinct human figures are positioned at 90-degree intervals around the sphere, appearing to stand on its surface. The background consists of overlapping, rectangular fragments of light blue paper, creating a mosaic effect. Each figure holds a small yellow rectangular sign with black text. The central text is horizontally aligned across the sphere.",
+    "coreVisualRelationships": [
+      "Radial symmetry of figures around a central anchor",
+      "Contrast between the warm, earthy sphere and the cool, fragmented blue background",
+      "Repetition of yellow rectangular signs held by each figure",
+      "Textural contrast between photographic cutouts and paper-mosaic background"
+    ],
+    "coreInvariants": [
+      "Central spherical anchor point",
+      "Four-way radial orientation of subjects",
+      "Fragmented, tiled background texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A large textured sphere occupies the center; four figures are scaled to appear as if standing on its circumference, oriented towards the four cardinal directions.",
+      "visualAnchor": "The central brown, textured sphere.",
+      "movementAndEyePath": "The eye starts at the central sphere and moves outward along the four figures in a circular motion, following the radial symmetry.",
+      "negativeSpace": "The fragmented blue background provides active negative space that supports the central cluster."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Light blue (background mosaic)",
+      "contrastColorRole": "Earthy brown (central sphere)",
+      "accentColorRole": "Bright yellow (signs)",
+      "saturationAndValueRelationship": "High value, medium saturation blue background contrasts with the low value, high texture brown center.",
+      "paletteRestrictions": [
+        "Sky blue",
+        "Ochre brown",
+        "Lemon yellow",
+        "Black",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Slab Serif",
+      "letterConstructionRules": [
+        "Lowercase letters for the main title",
+        "Heavy slab serifs with rounded terminals",
+        "Integration of a spiral or 'at' symbol within the letter 'o'",
+        "Uppercase, blocky sans-serif for the peripheral signs"
+      ],
+      "characterSpecificRedesigns": [
+        "The letter 'o' is replaced or modified with a concentric spiral graphic."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt slab",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "centered on sphere",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "on top of sphere",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "caption",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "heavy",
+            "contrast": "none",
+            "xHeight": "full caps",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "tight",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single word",
+            "density": "high"
+          },
+          "composition": {
+            "position": "on yellow signs",
+            "scale": "small",
+            "rotation": "variable (matches sign angle)",
+            "warp": "none",
+            "overlap": "contained within signs",
+            "relationshipToImage": "integrated"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold slab serif for the main title paired with heavy condensed sans-serif for secondary labels.",
+      "graphicDevices": [
+        "Yellow rectangular placards",
+        "Spiral graphic element",
+        "Paper-cut mosaic texture"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif style",
+          "Spiral 'o' modification",
+          "Yellow sign placement"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Thin serifs",
+          "Gradient fills on text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Clarendon Bold",
+            "reason": "Matches the heavy slab serif structure and rounded feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Suitable for the heavy, condensed uppercase text on the signs.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a collage background using overlapping rectangular fragments of light blue paper. In the center, place a large, circular sphere with a rough, earthy, brown-and-tan texture. Position four photographic cutouts of people standing on the sphere at 90-degree intervals (top, bottom, left, right), each holding a small yellow rectangular sign.",
+        "overlayInstruction": "Add the main title in a white slab-serif font across the center of the sphere, replacing the 'o' with a spiral symbol. Add black uppercase condensed sans-serif text onto each of the four yellow signs, rotating the text to match the orientation of each sign."
+      },
+      "verificationChecks": [
+        "Is the background composed of visible blue paper fragments?",
+        "Are there four figures oriented radially around the center?",
+        "Is the central text white and slab-serif?",
+        "Does the 'o' in the central text feature a spiral design?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Texture of the central sphere",
+      "Number of figures around the sphere",
+      "Color of the background mosaic",
+      "Content of the text on the signs"
+    ],
+    "mustRedesign": [
+      "Specific faces of the individuals",
+      "Any trademarked logos",
+      "Exact brand names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Visible collage/cut-out edges",
+        "Consistent radial orientation",
+        "High-contrast yellow signs"
+      ],
+      "avoid": [
+        "Smooth digital gradients",
+        "Perfectly blended edges",
+        "Standard centered portraiture"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the radial symmetry is maintained.",
+      "Verify the background has a fragmented, tiled appearance.",
+      "Check that the text on the signs is oriented correctly relative to the figures.",
+      "Confirm the central sphere has a distinct earthy texture."
+    ],
+    "reuseFormula": "Radial collage + central textured anchor + fragmented mosaic background + peripheral signage."
+  }
+}

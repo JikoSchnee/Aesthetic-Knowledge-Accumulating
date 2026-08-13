@@ -1,0 +1,246 @@
+{
+  "id": "ffbbc5bdbd5454d8bbd0a654ea960880778c4ae17fd2605f84cffbdc5e448fe4",
+  "skillId": "ffbbc5bdbd5454d8bbd0a654ea960880778c4ae17fd2605f84cffbdc5e448fe4",
+  "versionId": "ffbbc5bdbd5454d8bbd0a654ea960880778c4ae17fd2605f84cffbdc5e448fe4",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:43:05.208Z",
+  "approvedAt": "2026-08-12T14:43:05.208Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:43:05.208Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Ultraviolence.jpg",
+    "hash": "ffbbc5bdbd5454d8bbd0a654ea960880778c4ae17fd2605f84cffbdc5e448fe4",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Ultraviolence",
+    "artist": "Lana Del Rey",
+    "artworkUrl": "https://coverartarchive.org/release-group/9d9b3ac3-e630-4644-92c7-fb14d4d68d86/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9d9b3ac3-e630-4644-92c7-fb14d4d68d86",
+    "releaseGroupId": "9d9b3ac3-e630-4644-92c7-fb14d4d68d86",
+    "recordingId": "678359f6-1ac4-456f-abda-0535381e1041",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Shades Of CoolLana Del Rey",
+      "song": "Shades Of Cool",
+      "performer": "Lana Del Rey",
+      "peakPosition": 79,
+      "firstChartDate": "2014-06-14",
+      "lastChartDate": "2014-06-14",
+      "appearances": [
+        {
+          "chartDate": "2014-06-14",
+          "position": 79
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic noir album cover monochrome film grain vintage car condensed sans serif melancholy noir aesthetic subject in white t shirt contrasting against dark foliage background metallic car reflections mirroring the monochromatic tonal range bold white typography anchored to the bottom center soft diffused lighting creating a cinematic nostalgic atmosphere monochrome portrait vintage car condensed sans serif overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Noir Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Black and White Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Indie Pop Album Art",
+        "Vintage Cinematic Poster",
+        "Melancholic Editorial Layout"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "film grain",
+        "vintage car",
+        "condensed sans-serif",
+        "melancholy",
+        "noir aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast black and white portrait featuring a central subject by a vintage car with bold, condensed typography anchored at the bottom.",
+      "triggerTerms": [
+        "noir cinematic album cover",
+        "monochrome vintage car portrait",
+        "condensed white typography on dark background"
+      ],
+      "excludeWhen": [
+        "vibrant color palettes are required",
+        "modern minimalist sans-serif is requested",
+        "high-key lighting without shadows is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A moody, monochromatic composition featuring a woman in a white t-shirt standing beside a classic car, characterized by heavy film grain, soft focus, and a stark white condensed title overlaying the lower third.",
+    "coreVisualRelationships": [
+      "Subject in white t-shirt contrasting against dark foliage background",
+      "Metallic car reflections mirroring the monochromatic tonal range",
+      "Bold white typography anchored to the bottom center",
+      "Soft, diffused lighting creating a cinematic, nostalgic atmosphere"
+    ],
+    "coreInvariants": [
+      "High-contrast black and white tonal range",
+      "Visible film grain texture",
+      "Condensed, tall sans-serif display type"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium shot of a female subject, slightly off-center to the right, occupying the vertical height of the frame.",
+      "visualAnchor": "The subject's face and the large-scale white text at the bottom.",
+      "movementAndEyePath": "From the subject's eyes down to the hands on the car door, ending at the bold title text.",
+      "negativeSpace": "Dark, out-of-focus foliage in the upper left quadrant provides breathing room for the advisory badge."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-tone grays and deep blacks in the background and car.",
+      "contrastColorRole": "Bright white for the subject's shirt and the primary typography.",
+      "accentColorRole": "Silver and chrome highlights on the vehicle.",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between the white shirt/text and the dark background.",
+      "paletteRestrictions": [
+        "Strictly grayscale"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed, tall sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "High aspect ratio (tall and narrow)",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "foreground",
+            "relationshipToImage": "Overlays the subject's torso and the car"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for impact; secondary metadata uses a standard block sans-serif in a boxed layout.",
+      "graphicDevices": [
+        "Rectangular advisory box in the top left corner",
+        "Heavy film grain overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed width",
+          "Uppercase styling",
+          "White color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Wide tracking"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Steelfish",
+            "reason": "Matches the tall, condensed, and bold nature of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides a similar heavy, condensed feel though slightly wider.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Classic condensed sans-serif that fits the aesthetic.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a black and white, grainy photograph of a woman in a white v-neck t-shirt standing next to a vintage 1980s luxury sedan. The background should be dark, out-of-focus trees and a brick wall. The lighting should be soft and cinematic.",
+        "overlayInstruction": "Add a large, bold, extra-condensed white sans-serif title in all caps across the bottom third of the image. Add a small black and white rectangular advisory badge in the top left corner."
+      },
+      "verificationChecks": [
+        "Is the image strictly black and white?",
+        "Is the film grain visible and consistent?",
+        "Is the text centered and extra-condensed?",
+        "Does the subject wear a plain white shirt?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Grain intensity",
+      "Contrast levels",
+      "Car model",
+      "Subject pose"
+    ],
+    "mustRedesign": [
+      "Any color elements",
+      "Modern digital sharpness",
+      "Wide or serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic film-like texture",
+        "High-contrast monochrome balance",
+        "Clean, bold typographic integration"
+      ],
+      "avoid": [
+        "Low-resolution artifacts",
+        "Artificial-looking HDR",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for zero color saturation",
+      "Verify text is not cut off by edges",
+      "Ensure grain does not obscure facial features",
+      "Confirm the car looks period-accurate to the late 20th century"
+    ],
+    "reuseFormula": "Monochrome Portrait + Vintage Car + Condensed Sans-Serif Overlay"
+  }
+}

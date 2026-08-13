@@ -1,0 +1,302 @@
+{
+  "id": "7c872fc2140f96bc843dabb0a717836ee80f809a6ef020aeef79834a7ce5c2c0",
+  "skillId": "7c872fc2140f96bc843dabb0a717836ee80f809a6ef020aeef79834a7ce5c2c0",
+  "versionId": "7c872fc2140f96bc843dabb0a717836ee80f809a6ef020aeef79834a7ce5c2c0",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:16:34.529Z",
+  "approvedAt": "2026-08-13T00:16:34.529Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:16:34.529Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Chicago 16.jpg",
+    "hash": "7c872fc2140f96bc843dabb0a717836ee80f809a6ef020aeef79834a7ce5c2c0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Chicago 16",
+    "artist": "Chicago",
+    "artworkUrl": "https://coverartarchive.org/release-group/8c7a17ee-4100-3b24-9ad7-aa5c4d43b40c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8c7a17ee-4100-3b24-9ad7-aa5c4d43b40c",
+    "releaseGroupId": "8c7a17ee-4100-3b24-9ad7-aa5c4d43b40c",
+    "recordingId": "e34d9131-c239-4905-84ad-df3286054447",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "What You're MissingChicago",
+      "song": "What You're Missing",
+      "performer": "Chicago",
+      "peakPosition": 81,
+      "firstChartDate": "1983-01-29",
+      "lastChartDate": "1983-02-26",
+      "appearances": [
+        {
+          "chartDate": "1983-01-29",
+          "position": 81
+        },
+        {
+          "chartDate": "1983-02-05",
+          "position": 81
+        },
+        {
+          "chartDate": "1983-02-12",
+          "position": 90
+        },
+        {
+          "chartDate": "1983-02-19",
+          "position": 91
+        },
+        {
+          "chartDate": "1983-02-26",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "magnified microchip minimalist cover magnifying glass circuit board white background macro detail minimalist high key diagonal composition diagonal alignment of the magnifying glass handle stark contrast between the white background and the detailed lens interior magnification effect distorting the edges of the circuit board integration of typography within the magnified subject area minimalist object magnified detail high key background integrated typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Magnified Microchip Minimalist Cover",
+      "category": "Album Art",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design",
+        "Macro Photography"
+      ],
+      "useCases": [
+        "Tech-themed album covers",
+        "Minimalist editorial layouts",
+        "Corporate technology branding"
+      ],
+      "retrievalTags": [
+        "magnifying glass",
+        "circuit board",
+        "white background",
+        "macro detail",
+        "minimalist",
+        "high-key",
+        "diagonal composition"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-key minimalist composition featuring a magnifying glass revealing intricate circuit board details against a stark white void.",
+      "triggerTerms": [
+        "magnifying glass over microchip",
+        "minimalist tech macro photography",
+        "white space with central magnifying glass"
+      ],
+      "excludeWhen": [
+        "complex backgrounds are required",
+        "dark or moody lighting is requested",
+        "organic or natural subjects are the focus"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central magnifying glass with a chrome and black handle is positioned diagonally on a pure white field. The lens magnifies a small section of a computer circuit board, showing gold traces and black components, with a stylized script logo integrated into the circuitry. The overall lighting is bright and even, creating a clean, clinical aesthetic.",
+    "coreVisualRelationships": [
+      "diagonal alignment of the magnifying glass handle",
+      "stark contrast between the white background and the detailed lens interior",
+      "magnification effect distorting the edges of the circuit board",
+      "integration of typography within the magnified subject area"
+    ],
+    "coreInvariants": [
+      "pure white high-key background",
+      "chrome and black magnifying glass hardware",
+      "visible circuitry traces within the lens"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The magnifying glass is the central subject, occupying the middle third of the frame at a 45-degree angle.",
+      "visualAnchor": "The circular lens of the magnifying glass acts as the primary focal point.",
+      "movementAndEyePath": "The eye follows the handle from the bottom left toward the lens in the center, then moves to the top left corner where secondary text resides.",
+      "negativeSpace": "Extensive white negative space surrounds the central object, emphasizing precision and clarity."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (background and negative space)",
+      "contrastColorRole": "Black (handle and circuit components)",
+      "accentColorRole": "Gold/Yellow (circuit traces and logo fill)",
+      "saturationAndValueRelationship": "High value, low saturation overall, with localized high saturation within the lens.",
+      "paletteRestrictions": [
+        "Pure white",
+        "Chrome silver",
+        "Matte black",
+        "Circuit gold"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif and Script",
+      "letterConstructionRules": [
+        "Top-left text uses a clean, light-weight geometric sans-serif with open counters.",
+        "Internal lens text uses a thick-stroked, interlocking script with heavy outlines.",
+        "The script is integrated into the circuitry pattern."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'C' in the script is oversized and acts as a container for the rest of the word.",
+        "Sans-serif 'g' has a modern open-loop descender."
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "clean"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top-left corner",
+            "scale": "medium",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "detached"
+          },
+          "treatment": {
+            "fill": "grey",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "variable",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "closed",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "centered",
+            "tracking": "overlapping",
+            "leading": "n/a",
+            "lineBreakPattern": "n/a",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "inside lens",
+            "scale": "large",
+            "rotation": "slight upward tilt",
+            "warp": "spherical distortion",
+            "overlap": "integrated with circuitry",
+            "relationshipToImage": "embedded"
+          },
+          "treatment": {
+            "fill": "pale yellow",
+            "outline": "thick black",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "lens magnification"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a clinical, modern sans-serif and a decorative, retro-style script.",
+      "graphicDevices": [
+        "Magnification distortion",
+        "Circuit board patterns",
+        "High-key lighting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Light weight of the top-left text",
+          "Heavy outline of the script text",
+          "Integration of script into the circuitry"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Distressed or grunge textures",
+          "Heavy shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic Light",
+            "reason": "Matches the geometric, clean aesthetic of the top-left text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Custom Sport Script",
+            "reason": "Provides the necessary weight and interlocking flow for the lens logo.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key studio photograph of a magnifying glass with a chrome handle lying diagonally on a pure white surface. The lens should show a magnified view of a complex computer circuit board with gold traces.",
+        "overlayInstruction": "Add light grey geometric sans-serif text in the top-left corner. Inside the magnifying glass lens, overlay a bold script logo with a thick black outline and pale yellow fill, ensuring it appears distorted by the lens curvature."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Is the magnifying glass handle at a diagonal angle?",
+        "Does the lens show a magnified circuit board?",
+        "Is the script logo integrated into the circuitry inside the lens?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "circuit board complexity",
+      "magnification strength",
+      "angle of the magnifying glass",
+      "color of the circuit traces"
+    ],
+    "mustRedesign": [
+      "specific brand logos",
+      "exact circuit layout",
+      "proprietary font files"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp focus on the lens contents",
+        "Seamless white background",
+        "Realistic chrome reflections"
+      ],
+      "avoid": [
+        "Visible background seams",
+        "Blurry circuitry",
+        "Cluttered composition"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for lens distortion accuracy",
+      "Verify high-key lighting consistency",
+      "Ensure typography alignment matches the layout",
+      "Confirm no artifacts in the white negative space"
+    ],
+    "reuseFormula": "Minimalist Object + Magnified Detail + High-Key Background + Integrated Typography"
+  }
+}

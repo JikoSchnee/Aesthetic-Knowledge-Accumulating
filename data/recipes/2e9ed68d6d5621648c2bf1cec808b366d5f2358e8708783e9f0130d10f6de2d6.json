@@ -1,0 +1,281 @@
+{
+  "id": "2e9ed68d6d5621648c2bf1cec808b366d5f2358e8708783e9f0130d10f6de2d6",
+  "skillId": "2e9ed68d6d5621648c2bf1cec808b366d5f2358e8708783e9f0130d10f6de2d6",
+  "versionId": "2e9ed68d6d5621648c2bf1cec808b366d5f2358e8708783e9f0130d10f6de2d6",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:46:48.455Z",
+  "approvedAt": "2026-08-13T00:46:48.455Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:46:48.455Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Fifty Shades of Grey: Original Motion Picture Soundtrack.jpg",
+    "hash": "2e9ed68d6d5621648c2bf1cec808b366d5f2358e8708783e9f0130d10f6de2d6",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Fifty Shades of Grey: Original Motion Picture Soundtrack",
+    "artist": "The Weeknd",
+    "artworkUrl": "https://coverartarchive.org/release-group/85852629-ce4c-4bb8-8d4a-50299d56a06c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/85852629-ce4c-4bb8-8d4a-50299d56a06c",
+    "releaseGroupId": "85852629-ce4c-4bb8-8d4a-50299d56a06c",
+    "recordingId": "f2b37483-6591-4490-9a96-92f4c69fc561",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Where You BelongThe Weeknd",
+      "song": "Where You Belong",
+      "performer": "The Weeknd",
+      "peakPosition": 95,
+      "firstChartDate": "2015-02-28",
+      "lastChartDate": "2015-02-28",
+      "appearances": [
+        {
+          "chartDate": "2015-02-28",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome cinematic romance cover black and white low key lighting cinematic intimate portrait serif typography dramatic shadows high contrast relationship between subject highlights and deep black negative space intimate proximity between subjects creating a central focal point horizontal typographic anchor balancing the verticality of the subjects texture contrast between soft skin hair and fabric intimate monochrome portrait low key lighting high contrast serif typography cinematic romance aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Cinematic Romance Cover",
+      "category": "Entertainment",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Movie Posters",
+        "Book Covers",
+        "Promotional Banners"
+      ],
+      "retrievalTags": [
+        "black and white",
+        "low key lighting",
+        "cinematic",
+        "intimate portrait",
+        "serif typography",
+        "dramatic shadows"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome composition featuring an intimate close-up of two figures against a void-like black background with elegant, wide-tracked serif typography.",
+      "triggerTerms": [
+        "low-key monochrome romance",
+        "dramatic chiaroscuro portrait",
+        "cinematic black and white album cover"
+      ],
+      "excludeWhen": [
+        "vibrant colors are required",
+        "bright high-key lighting is needed",
+        "casual or playful themes are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dramatic, low-key black and white photograph of a couple in an intimate embrace, emerging from a deep black void. The lighting is directional, creating sharp highlights on skin and hair while losing the background to total darkness. The typography is anchored at the bottom, using a sophisticated serif for the main title and a clean sans-serif for secondary information.",
+    "coreVisualRelationships": [
+      "High-contrast relationship between subject highlights and deep black negative space",
+      "Intimate proximity between subjects creating a central focal point",
+      "Horizontal typographic anchor balancing the verticality of the subjects",
+      "Texture contrast between soft skin, hair, and fabric"
+    ],
+    "coreInvariants": [
+      "Strict monochrome palette",
+      "Total black background (hex #000000)",
+      "Bottom-aligned centered text block"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subjects are centered and tightly cropped, occupying the upper two-thirds of the frame.",
+      "visualAnchor": "The main title text at the bottom serves as the structural base for the image.",
+      "movementAndEyePath": "The eye starts at the faces of the subjects, follows the curve of the embrace downward, and rests on the bold typography.",
+      "negativeSpace": "Extensive use of black negative space surrounding the subjects to create a sense of isolation and focus."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background for depth and drama.",
+      "contrastColorRole": "Pure white for typography and highlights.",
+      "accentColorRole": "Mid-tone greys for skin texture and fabric detail.",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman serif with high stroke contrast.",
+      "letterConstructionRules": [
+        "Vertical stress",
+        "Sharp, fine serifs",
+        "Wide proportions",
+        "Consistent cap height"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "acute",
+            "counters": "open",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom 15%",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "circular",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "extra-wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom 5%",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "light grey",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for the title paired with a wide-tracked, small-scale sans-serif for metadata.",
+      "graphicDevices": [
+        "Subtle gradient fade at the bottom of the image to ensure text legibility."
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High stroke contrast in serif",
+          "Wide tracking in subtitle",
+          "All-caps casing"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Heavy slab serifs",
+          "Tight letter spacing"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Didot or Bodoni",
+            "reason": "Provides the necessary high contrast and elegance for the display title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham or Montserrat",
+            "reason": "Clean geometric forms for the wide-tracked subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, low-key black and white photograph of a couple in an intimate embrace. Use a single light source from the side to create dramatic highlights on their faces and shoulders, while the rest of the scene fades into a pure black background. Leave the bottom 20% of the frame clear for text.",
+        "overlayInstruction": "Add the main title in a large, white, high-contrast serif font (all caps) centered near the bottom. Below it, add a secondary line of text in a small, grey, geometric sans-serif font with extra-wide tracking."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Is the image strictly monochrome?",
+        "Is the main title font a high-contrast serif?",
+        "Is the subtitle tracking significantly wider than the title?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the highlights",
+      "Tracking width of the typography",
+      "Proximity of the two subjects",
+      "Vertical position of the text block"
+    ],
+    "mustRedesign": [
+      "Do not use any color",
+      "Do not include background elements like furniture or walls",
+      "Do not use lowercase letters in the typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp focus on the subjects' faces",
+        "Clean, legible typography",
+        "Smooth grayscale gradients"
+      ],
+      "avoid": [
+        "Digital noise or heavy grain",
+        "Cluttered backgrounds",
+        "Low-contrast text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no color cast is present in the grayscale.",
+      "Check that the text is perfectly centered horizontally.",
+      "Verify that the black background is deep and uniform.",
+      "Confirm the serif font has sharp, distinct terminals."
+    ],
+    "reuseFormula": "Intimate monochrome portrait + low-key lighting + high-contrast serif typography = Cinematic Romance Aesthetic."
+  }
+}

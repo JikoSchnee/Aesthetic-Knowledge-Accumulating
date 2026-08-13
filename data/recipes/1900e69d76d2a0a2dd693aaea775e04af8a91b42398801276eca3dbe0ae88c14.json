@@ -1,0 +1,246 @@
+{
+  "id": "1900e69d76d2a0a2dd693aaea775e04af8a91b42398801276eca3dbe0ae88c14",
+  "skillId": "1900e69d76d2a0a2dd693aaea775e04af8a91b42398801276eca3dbe0ae88c14",
+  "versionId": "1900e69d76d2a0a2dd693aaea775e04af8a91b42398801276eca3dbe0ae88c14",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:57:30.871Z",
+  "approvedAt": "2026-08-12T09:57:30.871Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:57:30.871Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Eloise.jpg",
+    "hash": "1900e69d76d2a0a2dd693aaea775e04af8a91b42398801276eca3dbe0ae88c14",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Eloise",
+    "artist": "Eloise Laws",
+    "artworkUrl": "https://coverartarchive.org/release-group/988e86b4-efb7-402d-8d37-aa822be6d873/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/988e86b4-efb7-402d-8d37-aa822be6d873",
+    "releaseGroupId": "988e86b4-efb7-402d-8d37-aa822be6d873",
+    "recordingId": "70a3fc21-404b-4f5b-a498-730f589d1a43",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Number OneEloise Laws",
+      "song": "Number One",
+      "performer": "Eloise Laws",
+      "peakPosition": 97,
+      "firstChartDate": "1978-03-18",
+      "lastChartDate": "1978-03-25",
+      "appearances": [
+        {
+          "chartDate": "1978-03-18",
+          "position": 99
+        },
+        {
+          "chartDate": "1978-03-25",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage soul portrait with high contrast serif vintage soul striped shirt high contrast serif soft focus portrait warm film grain 1970s aesthetic subject s raised arms frame the face and lead the eye upward vertical stripes on the shirt contrast with the organic curves of the face warm skin tones are balanced by the cool neutral background typography is placed in the negative space created by the raised arm vintage portrait high contrast serif tight kerning warm film grain",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Soul Portrait with High-Contrast Serif",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vinyl record covers",
+        "Retro editorial layouts",
+        "70s-inspired fashion photography"
+      ],
+      "retrievalTags": [
+        "vintage soul",
+        "striped shirt",
+        "high-contrast serif",
+        "soft focus portrait",
+        "warm film grain",
+        "1970s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A warm, film-grain portrait of a smiling subject with arms raised, paired with a tight-kerning, high-contrast display serif in the upper corner.",
+      "triggerTerms": [
+        "70s soul album cover style",
+        "warm film portrait with bold serif typography",
+        "striped shirt portrait with soft lighting"
+      ],
+      "excludeWhen": [
+        "modern minimalist digital photography is required",
+        "sans-serif typography is requested",
+        "high-action sports photography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up, slightly low-angle portrait of a woman with eyes closed and a joyful expression, wearing a vertical-striped button-down shirt. The lighting is soft and warm, characteristic of 1970s film, with a neutral, slightly textured background. A bold, high-contrast serif logo sits in the top right corner.",
+    "coreVisualRelationships": [
+      "Subject's raised arms frame the face and lead the eye upward",
+      "Vertical stripes on the shirt contrast with the organic curves of the face",
+      "Warm skin tones are balanced by the cool, neutral background",
+      "Typography is placed in the negative space created by the raised arm"
+    ],
+    "coreInvariants": [
+      "Vertical striped pattern on clothing",
+      "High-contrast display serif typography",
+      "Soft, warm film-like color grading"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered and fills the majority of the frame from the waist up.",
+      "visualAnchor": "The subject's face and smile serve as the primary focal point.",
+      "movementAndEyePath": "The eye follows the vertical lines of the shirt up to the face, then follows the raised arms to the typography in the top right.",
+      "negativeSpace": "Minimal negative space, primarily located in the upper corners around the arms and head."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm brown and tan skin tones",
+      "contrastColorRole": "Cool grey-white background",
+      "accentColorRole": "Deep reddish-brown for typography and shirt stripes",
+      "saturationAndValueRelationship": "Muted saturation with a focus on mid-tones and soft highlights.",
+      "paletteRestrictions": [
+        "Avoid neon or overly vibrant digital colors",
+        "Stick to earth tones and desaturated pastels"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast Didone or transitional serif",
+      "letterConstructionRules": [
+        "Extreme contrast between thick and thin strokes",
+        "Ball terminals on lowercase letters",
+        "Very tight letter spacing (kerning) where characters almost touch"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'e' with a slanted crossbar",
+        "Lowercase 'l' with a distinct top serif"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Ball",
+            "corners": "Sharp",
+            "counters": "Closed",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "solid dark brown",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single bold display face used for impact against a detailed photographic background.",
+      "graphicDevices": [
+        "Tight kerning",
+        "Corner placement"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast",
+          "Ball terminals",
+          "Tight spacing"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Wide tracking",
+          "Modern geometric styles"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Benguiat",
+            "reason": "Captures the 70s serif aesthetic and tight spacing",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Pistilli Roman",
+            "reason": "Matches the extreme contrast and ball terminals",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 1970s style film portrait of a person with a joyful expression, eyes closed, arms raised above head, wearing a vertical-striped button-down shirt. Use warm lighting and soft grain.",
+        "overlayInstruction": "Add a single word in the top right corner using a bold, high-contrast serif font in dark brown, with very tight kerning."
+      },
+      "verificationChecks": [
+        "Is the typography high-contrast serif?",
+        "Is the kerning tight enough that letters nearly touch?",
+        "Does the image have a warm, vintage film quality?",
+        "Is the subject wearing a striped shirt?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject ethnicity",
+      "Shirt stripe color",
+      "Typography color",
+      "Background texture"
+    ],
+    "mustRedesign": [
+      "Modern digital sharpness",
+      "Clean sans-serif fonts",
+      "Bright, saturated primary colors"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 70s film grain",
+        "High-contrast typographic weight",
+        "Soft, directional lighting"
+      ],
+      "avoid": [
+        "Plastic-looking skin retouching",
+        "Default system fonts",
+        "Flat, even lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast serif typography in the top right",
+      "Ensure the shirt has vertical stripes",
+      "Verify the warm, vintage color palette",
+      "Confirm the joyful, eyes-closed expression"
+    ],
+    "reuseFormula": "Vintage Portrait + High-Contrast Serif + Tight Kerning + Warm Film Grain"
+  }
+}

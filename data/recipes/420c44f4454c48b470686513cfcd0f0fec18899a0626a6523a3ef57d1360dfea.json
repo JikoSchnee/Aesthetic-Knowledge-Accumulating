@@ -1,0 +1,275 @@
+{
+  "id": "420c44f4454c48b470686513cfcd0f0fec18899a0626a6523a3ef57d1360dfea",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:45:35.368Z",
+  "approvedAt": "2026-08-11T15:45:35.368Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:45:35.368Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Eminem: The Coup de Grace Mix.jpg",
+    "hash": "420c44f4454c48b470686513cfcd0f0fec18899a0626a6523a3ef57d1360dfea",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Eminem: The Coup de Grace Mix",
+    "artist": "Eminem & JID",
+    "artworkUrl": "https://coverartarchive.org/release-group/900fa831-cb84-4638-93bc-99f0b71ad794/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/900fa831-cb84-4638-93bc-99f0b71ad794",
+    "releaseGroupId": "900fa831-cb84-4638-93bc-99f0b71ad794",
+    "recordingId": "4a46227e-d6e6-4c7a-96b4-e8cb4faa0a86",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "FuelEminem & JID",
+      "song": "Fuel",
+      "performer": "Eminem & JID",
+      "peakPosition": 21,
+      "firstChartDate": "2024-07-27",
+      "lastChartDate": "2024-09-28",
+      "appearances": [
+        {
+          "chartDate": "2024-07-27",
+          "position": 21
+        },
+        {
+          "chartDate": "2024-08-03",
+          "position": 65
+        },
+        {
+          "chartDate": "2024-09-28",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome hip hop portrait layout black and white low key lighting wide angle distortion heavy sans serif urban portrait dramatic shadows extreme foreground hands framing the central face high contrast white text against a solid black rectangular base vertical curtain folds in the background echoing the vertical strokes of the font low key lighting creating deep shadows on the subject s clothing and background combine a wide angle monochromatic portrait with a heavy geometric footer block for a gritty urban aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Hip-Hop Portrait Layout",
+      "category": "Music Cover Art",
+      "medium": [
+        "Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover",
+        "Podcast Thumbnail",
+        "Event Poster"
+      ],
+      "retrievalTags": [
+        "black and white",
+        "low key lighting",
+        "wide angle distortion",
+        "heavy sans-serif",
+        "urban portrait",
+        "dramatic shadows"
+      ]
+    },
+    "visualDefinition": "A high-contrast, black-and-white portrait of a male figure with a beard, positioned centrally with hands reaching toward the camera in a wide-angle perspective. The lower third features a solid black block containing bold, white, geometric typography.",
+    "coreVisualRelationships": [
+      "Extreme foreground hands framing the central face",
+      "High-contrast white text against a solid black rectangular base",
+      "Vertical curtain folds in the background echoing the vertical strokes of the font",
+      "Low-key lighting creating deep shadows on the subject's clothing and background"
+    ],
+    "coreInvariants": [
+      "Monochromatic color palette",
+      "Wide-angle lens distortion on hands",
+      "Solid black horizontal bar for text grounding",
+      "Centered subject composition"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered vertically and horizontally; hands are scaled larger due to proximity to lens.",
+      "visualAnchor": "The large, bold white display text in the lower center.",
+      "movementAndEyePath": "Eyes start at the face, follow the reaching arms outward to the hands, then drop to the heavy text block at the bottom.",
+      "negativeSpace": "Deep black shadows in the background and lower half provide high contrast for the white elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black for background and clothing shadows.",
+      "contrastColorRole": "Pure white for typography and highlights on skin.",
+      "accentColorRole": "Mid-tone grays for skin texture and fabric highlights.",
+      "saturationAndValueRelationship": "Zero saturation; extreme value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "Strictly grayscale"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Ultra-bold weight",
+        "Square proportions",
+        "Uniform stroke width",
+        "Minimalist, blocky terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Mirroring of specific glyphs to create symmetry",
+        "Removal of internal counters in some characters to increase blockiness"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "extra-extended",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed/minimal",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "1.0",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "lower-middle",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over a black rectangular mask"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Extended Sans-Serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "1.5",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over dark background"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Varying weights and widths of the same geometric sans-serif family.",
+      "graphicDevices": [
+        "Solid black rectangular overlay",
+        "Wide-angle lens effect"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Monochrome palette",
+          "Geometric blocky font style",
+          "Symmetry in layout"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Soft lighting",
+          "Vibrant colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma or Eurostile Bold Extended",
+            "reason": "Matches the square, technical, and bold aesthetic of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and verticality for the main title.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A high-contrast black and white photo of a man with a beard wearing a dark jacket, reaching his hands toward the camera lens. The background is a dark, vertically pleated curtain. Use low-key lighting to emphasize shadows.",
+        "overlayInstruction": "Add a solid black rectangle across the lower third. Place a large, ultra-bold, white geometric sans-serif title in the center of the rectangle. Below the rectangle, add two lines of centered, white, extended sans-serif text with wide tracking."
+      },
+      "verificationChecks": [
+        "Is the image strictly black and white?",
+        "Are the hands significantly larger than the face due to perspective?",
+        "Is the main text blocky and geometric?",
+        "Is there a clear black bar behind the primary text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject expression",
+      "Background texture (curtain vs. brick)",
+      "Width of the black text bar",
+      "Tracking of the subtitle text"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Any unique artist logos",
+      "Specific mirrored glyphs that form a brand identity"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp focus on the face",
+        "Deep, true blacks",
+        "Clean, crisp edges on typography"
+      ],
+      "avoid": [
+        "Blurry hands",
+        "Gray-toned 'muddy' blacks",
+        "Thin or decorative fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no color artifacts are present.",
+      "Verify the text is legible against the black background.",
+      "Check that the wide-angle distortion feels intentional and dramatic.",
+      "Confirm the composition is centered."
+    ],
+    "reuseFormula": "Combine a wide-angle monochromatic portrait with a heavy geometric footer block for a gritty, urban aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:07:44.443Z"
+}

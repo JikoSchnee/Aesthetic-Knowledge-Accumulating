@@ -1,0 +1,288 @@
+{
+  "id": "843d7458580716a4161919437b1c655f9cb4286fb9cd2b75a6e5aea21fbc8e9f",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:33:39.604Z",
+  "approvedAt": "2026-08-11T09:33:39.604Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:33:39.604Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "I’m So Lonesome I Could Cry.jpg",
+    "hash": "843d7458580716a4161919437b1c655f9cb4286fb9cd2b75a6e5aea21fbc8e9f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "I’m So Lonesome I Could Cry",
+    "artist": "B.J. Thomas",
+    "artworkUrl": "https://coverartarchive.org/release-group/34ce26ca-5ffb-4c57-b440-5ad5c2955604/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/34ce26ca-5ffb-4c57-b440-5ad5c2955604",
+    "releaseGroupId": "34ce26ca-5ffb-4c57-b440-5ad5c2955604",
+    "recordingId": "da8c48dc-5bb1-495b-970e-76a14d1d438c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Bring Back The TimeB.J. Thomas",
+      "song": "Bring Back The Time",
+      "performer": "B.J. Thomas",
+      "peakPosition": 75,
+      "firstChartDate": "1966-07-30",
+      "lastChartDate": "1966-08-20",
+      "appearances": [
+        {
+          "chartDate": "1966-07-30",
+          "position": 82
+        },
+        {
+          "chartDate": "1966-08-06",
+          "position": 78
+        },
+        {
+          "chartDate": "1966-08-13",
+          "position": 78
+        },
+        {
+          "chartDate": "1966-08-20",
+          "position": 75
+        }
+      ]
+    }
+  },
+  "dedupeText": "melancholic mid century portrait layout 1960s melancholy suit and tie red background bold sans serif tight crop dramatic lighting subject s downward gaze vs upward right text placement vibrant red backdrop vs neutral grey suit tones tight framing of the face vs expansive negative space on the left bold blocky typography vs the soft organic curves of the face studio portrait solid color backdrop right aligned bold grotesque typography mid century melancholic aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Melancholic Mid-Century Portrait Layout",
+      "category": "Album Cover Art",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vintage-style music packaging",
+        "Editorial portraiture",
+        "Retro poster design"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "melancholy",
+        "suit and tie",
+        "red background",
+        "bold sans-serif",
+        "tight crop",
+        "dramatic lighting"
+      ]
+    },
+    "visualDefinition": "A tight, high-contrast studio portrait of a man in a grey suit leaning his head on his hand, set against a vibrant solid red background. The composition features heavy right-aligned typography in the upper quadrant, creating a tension between the emotional subject and the structured graphic elements.",
+    "coreVisualRelationships": [
+      "Subject's downward gaze vs. upward-right text placement",
+      "Vibrant red backdrop vs. neutral grey suit tones",
+      "Tight framing of the face vs. expansive negative space on the left",
+      "Bold, blocky typography vs. the soft, organic curves of the face"
+    ],
+    "coreInvariants": [
+      "Solid, saturated red background",
+      "Subject in a grey suit with a white shirt and dark tie",
+      "Hand-to-face melancholic pose",
+      "Right-aligned, sans-serif block typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left two-thirds of the frame, cropped at the chest and top of the head.",
+      "visualAnchor": "The subject's eyes and the hand supporting the chin.",
+      "movementAndEyePath": "Starts at the subject's face, follows the line of the arm down, then moves up to the bold text in the top right corner.",
+      "negativeSpace": "Minimal; the red background serves as a flat stage for the subject and text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Saturated Red (Background)",
+      "contrastColorRole": "Cool Grey (Suit)",
+      "accentColorRole": "Bright White (Typography and Shirt Cuffs)",
+      "saturationAndValueRelationship": "High saturation background with high value contrast in the subject's clothing and skin tones.",
+      "paletteRestrictions": [
+        "Vermilion red",
+        "Charcoal grey",
+        "Pure white",
+        "Deep black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold, condensed grotesque sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight letter spacing (kerning)",
+        "Square terminals",
+        "High x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "Tightened apertures on 'C' and 'S'",
+        "Short descenders"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Extra-Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Slightly rounded",
+            "counters": "Small",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Flush right",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top right corner",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over background"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Multi-line block",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Directly below display text",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over background"
+          },
+          "treatment": {
+            "fill": "Yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Monochromatic font family using weight and color (white and yellow) to distinguish hierarchy.",
+      "graphicDevices": [
+        "Right-aligned text block",
+        "Solid color field"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extra-bold weight",
+          "Condensed width",
+          "Right alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy, condensed, and flat-terminal look of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Inserat",
+            "reason": "Provides the necessary mid-century grotesque feel with tight spacing.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Captures the vintage advertising aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A studio portrait of a man in a 1960s grey suit, white shirt, and dark tie. He is leaning his head on his hand with a sad expression, looking down. The background is a solid, vibrant vermilion red. High-contrast lighting with soft shadows on the face.",
+        "overlayInstruction": "Add three levels of right-aligned text in the top right corner. The top line should be the largest in white extra-bold condensed sans-serif. The second section should be medium-sized in yellow bold condensed sans-serif. The third section should be a smaller block of white text in the same font style."
+      },
+      "verificationChecks": [
+        "Is the background a solid, vibrant red?",
+        "Is the text strictly right-aligned?",
+        "Does the man's pose convey melancholy?",
+        "Are the fonts heavy, condensed sans-serifs?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue",
+      "Suit color",
+      "Subject's specific expression",
+      "Typography color palette"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the individual",
+      "Any logos or record label branding",
+      "Exact tracklist wording"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast studio lighting",
+        "Clean, flat color background",
+        "Tight, impactful typographic lockup"
+      ],
+      "avoid": [
+        "Gradient backgrounds",
+        "Loose, airy typography",
+        "Smiling or neutral expressions"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 1960s era-appropriate clothing details (cufflinks, tie width).",
+      "Ensure the red background is uniform without texture.",
+      "Verify the text does not overlap the subject's face.",
+      "Confirm the right-alignment is perfectly vertical."
+    ],
+    "reuseFormula": "Studio Portrait + Solid Color Backdrop + Right-Aligned Bold Grotesque Typography = Mid-Century Melancholic Aesthetic"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:46:45.505Z"
+}

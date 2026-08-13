@@ -1,0 +1,289 @@
+{
+  "id": "844c7550a5e23d7cdbd72a689961d3b0776e52e8fbddaba104cac1f092cf4416",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:16:41.977Z",
+  "approvedAt": "2026-08-11T09:16:41.977Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:16:41.977Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Tha Carter IV.jpg",
+    "hash": "844c7550a5e23d7cdbd72a689961d3b0776e52e8fbddaba104cac1f092cf4416",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Tha Carter IV",
+    "artist": "Lil Wayne",
+    "artworkUrl": "https://coverartarchive.org/release-group/75fb59d5-4880-4f39-a447-5e0f81bf4448/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/75fb59d5-4880-4f39-a447-5e0f81bf4448",
+    "releaseGroupId": "75fb59d5-4880-4f39-a447-5e0f81bf4448",
+    "recordingId": "1fc78cbb-cf3d-42d2-bc0e-0c8f0c32d09b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Blunt BlowinLil Wayne",
+      "song": "Blunt Blowin",
+      "performer": "Lil Wayne",
+      "peakPosition": 33,
+      "firstChartDate": "2011-09-17",
+      "lastChartDate": "2012-01-14",
+      "appearances": [
+        {
+          "chartDate": "2011-09-17",
+          "position": 33
+        },
+        {
+          "chartDate": "2011-09-24",
+          "position": 71
+        },
+        {
+          "chartDate": "2011-10-01",
+          "position": 80
+        },
+        {
+          "chartDate": "2011-10-08",
+          "position": 95
+        },
+        {
+          "chartDate": "2012-01-07",
+          "position": 72
+        },
+        {
+          "chartDate": "2012-01-14",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "juxtaposed portrait album cover graduation portrait childhood photo tattoo overlay sans serif typography teal and purple palette juxtaposition contrast between innocent childhood attire and mature facial markings balance between the central subject and the left aligned text block harmonious color relationship between the teal gown and the muted purple background combine a nostalgic childhood milestone photo with modern edgy subcultural markers and minimalist high contrast typography for a past meets present aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Juxtaposed Portrait Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Album Cover",
+        "Promotional Poster",
+        "Social Media Graphic"
+      ],
+      "retrievalTags": [
+        "graduation portrait",
+        "childhood photo",
+        "tattoo overlay",
+        "sans-serif typography",
+        "teal and purple palette",
+        "juxtaposition"
+      ]
+    },
+    "visualDefinition": "A studio-style childhood graduation portrait featuring a young boy in a teal cap and gown, modified with adult-style facial and neck tattoos, set against a soft-focus purple and blue textured backdrop with left-aligned minimalist typography.",
+    "coreVisualRelationships": [
+      "Contrast between innocent childhood attire and mature facial markings",
+      "Balance between the central subject and the left-aligned text block",
+      "Harmonious color relationship between the teal gown and the muted purple background"
+    ],
+    "coreInvariants": [
+      "Teal graduation cap and gown",
+      "Black bow tie",
+      "Subtle facial and neck tattoos",
+      "Soft-focus studio backdrop",
+      "Left-aligned sans-serif text stack"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered horizontally, framed from the chest up, occupying approximately 60% of the frame width.",
+      "visualAnchor": "The subject's eyes and the dark black bow tie serve as the primary focal points.",
+      "movementAndEyePath": "The eye starts at the subject's face, moves left to the typography, and then down the teal gown.",
+      "negativeSpace": "Ample negative space on the left side accommodates the text block against the textured background."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Teal (gown and cap) provides the primary color weight.",
+      "contrastColorRole": "Black (bow tie and tattoos) provides sharp definition.",
+      "accentColorRole": "White (text and shirt collar) provides high-legibility highlights.",
+      "saturationAndValueRelationship": "Muted saturation in the background allows the saturated teal of the gown to stand out.",
+      "paletteRestrictions": [
+        "Teal",
+        "Muted Purple",
+        "Black",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric and Humanist Sans-Serif",
+      "letterConstructionRules": [
+        "Clean, uniform stroke weights for the primary name",
+        "Thin, light weights for secondary information",
+        "Large, bold Roman numerals for the series indicator"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'l' characters are elongated and simplified",
+        "Roman numeral 'IV' uses thick, high-contrast strokes"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "middle-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in negative space"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Humanist Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "N/A",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Closed",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "high"
+          },
+          "composition": {
+            "position": "below primary text",
+            "scale": "extra-large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "high contrast against background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between black geometric sans and white high-contrast Roman numerals.",
+      "graphicDevices": [
+        "Vertical stacking",
+        "Left alignment"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Left alignment",
+          "Color contrast between text lines",
+          "Sans-serif style"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham or Montserrat",
+            "reason": "Provides the clean geometric look for the name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Optima or Trajan (Sans version)",
+            "reason": "Provides the high-contrast look for the Roman numerals.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a young boy in a teal graduation cap and gown with a black bow tie, featuring subtle facial and neck tattoos, against a soft-focus purple and blue textured background. Leave the left third of the image relatively clear.",
+        "overlayInstruction": "Add a left-aligned stack of text in the left negative space. Use a black geometric sans-serif for the top two lines, a thin white sans-serif for the third line, and a large white high-contrast Roman numeral for the bottom line."
+      },
+      "verificationChecks": [
+        "Is the text left-aligned?",
+        "Are the tattoos subtle and integrated into the skin texture?",
+        "Is the teal gown the primary color pop?",
+        "Is the Roman numeral significantly larger than the other text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue",
+      "Tattoo density",
+      "Gown color",
+      "Text tracking"
+    ],
+    "mustRedesign": [
+      "Specific tattoo patterns to avoid intellectual property issues",
+      "Exact facial features of the child",
+      "Specific brand logos on the graduation tassel"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean typographic hierarchy",
+        "Realistic skin texture integration for tattoos",
+        "Balanced studio lighting"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast text",
+        "Cartoonish tattoo overlays"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for legibility of white text against the background",
+      "Ensure the cap and gown color is a consistent teal",
+      "Verify the left alignment of the text stack",
+      "Confirm the subject's expression is a slight, closed-mouth smile"
+    ],
+    "reuseFormula": "Combine a nostalgic childhood milestone photo with modern, edgy subcultural markers and minimalist, high-contrast typography for a 'past-meets-present' aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:46:46.219Z"
+}

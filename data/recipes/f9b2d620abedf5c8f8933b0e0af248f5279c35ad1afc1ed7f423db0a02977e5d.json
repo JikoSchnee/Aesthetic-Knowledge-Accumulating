@@ -1,0 +1,263 @@
+{
+  "id": "f9b2d620abedf5c8f8933b0e0af248f5279c35ad1afc1ed7f423db0a02977e5d",
+  "skillId": "f9b2d620abedf5c8f8933b0e0af248f5279c35ad1afc1ed7f423db0a02977e5d",
+  "versionId": "f9b2d620abedf5c8f8933b0e0af248f5279c35ad1afc1ed7f423db0a02977e5d",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:03:06.747Z",
+  "approvedAt": "2026-08-12T06:03:06.747Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:03:06.747Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Barbra Joan Streisand.jpg",
+    "hash": "f9b2d620abedf5c8f8933b0e0af248f5279c35ad1afc1ed7f423db0a02977e5d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Barbra Joan Streisand",
+    "artist": "Barbra Streisand",
+    "artworkUrl": "https://coverartarchive.org/release-group/57aa20c9-f4e4-302c-868e-e46b448383ca/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/57aa20c9-f4e4-302c-868e-e46b448383ca",
+    "releaseGroupId": "57aa20c9-f4e4-302c-868e-e46b448383ca",
+    "recordingId": "76d74225-f5ec-4607-baa5-b269036bcbf5",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "MotherBarbra Streisand",
+      "song": "Mother",
+      "performer": "Barbra Streisand",
+      "peakPosition": 79,
+      "firstChartDate": "1971-10-16",
+      "lastChartDate": "1971-11-13",
+      "appearances": [
+        {
+          "chartDate": "1971-10-16",
+          "position": 90
+        },
+        {
+          "chartDate": "1971-10-23",
+          "position": 86
+        },
+        {
+          "chartDate": "1971-10-30",
+          "position": 81
+        },
+        {
+          "chartDate": "1971-11-06",
+          "position": 79
+        },
+        {
+          "chartDate": "1971-11-13",
+          "position": 86
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast chiaroscuro portrait layout chiaroscuro high contrast monochrome centered portrait negative space 1970s aesthetic geometric sans serif grainy texture subject face as a bright focal point against absolute black thin wide tracked typography balancing the heavy visual weight of the portrait vertical alignment of text and facial features soft grainy texture throughout the mid tones chiaroscuro portrait top aligned thin sans serif expansive black negative space",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Chiaroscuro Portrait Layout",
+      "category": "Graphic Design / Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Monochrome Print"
+      ],
+      "useCases": [
+        "Vintage-style album covers",
+        "Dramatic editorial portraits",
+        "Minimalist poster design",
+        "High-contrast fashion photography"
+      ],
+      "retrievalTags": [
+        "chiaroscuro",
+        "high contrast",
+        "monochrome",
+        "centered portrait",
+        "negative space",
+        "1970s aesthetic",
+        "geometric sans serif",
+        "grainy texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A minimalist, high-contrast monochrome portrait layout featuring a central subject emerging from deep black negative space with thin, geometric typography at the top.",
+      "triggerTerms": [
+        "chiaroscuro portrait with top-aligned thin sans-serif",
+        "high-contrast monochrome album cover style",
+        "subject emerging from black negative space"
+      ],
+      "excludeWhen": [
+        "vibrant color is required",
+        "complex multi-image collages are requested",
+        "heavy, bold typography is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A stark, high-contrast black and white portrait where the subject's face is the primary light source against an expansive black background. The composition is vertically oriented with a large amount of negative space at the top and bottom, featuring a single line of delicate, wide-tracked geometric sans-serif text centered at the top edge.",
+    "coreVisualRelationships": [
+      "Subject face as a bright focal point against absolute black",
+      "Thin, wide-tracked typography balancing the heavy visual weight of the portrait",
+      "Vertical alignment of text and facial features",
+      "Soft, grainy texture throughout the mid-tones"
+    ],
+    "coreInvariants": [
+      "High-contrast monochrome palette",
+      "Expansive black negative space",
+      "Top-aligned, centered typography",
+      "Grainy, film-like texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject's face is centered horizontally and positioned in the upper-middle third of the frame, scaled to occupy approximately 25% of the total area.",
+      "visualAnchor": "The brightly lit face serves as the primary anchor, while the thin text at the top provides a secondary, stabilizing anchor.",
+      "movementAndEyePath": "The eye starts at the bright face, moves upward to the text, and then follows the subject's hair or clothing downward into the darkness.",
+      "negativeSpace": "Dominant; approximately 70% of the frame is solid black or deep shadow."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black (background and shadows)",
+      "contrastColorRole": "Creamy white (highlights on face and text)",
+      "accentColorRole": "Warm grey (mid-tones and grain)",
+      "saturationAndValueRelationship": "Zero saturation; extreme value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "Monochrome only",
+        "No pure whites; use slightly off-white or cream for highlights"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Extremely thin stroke weight",
+        "Perfectly circular 'O' and 'G' shapes",
+        "High x-height",
+        "Open counters"
+      ],
+      "characterSpecificRedesigns": [
+        "Wide tracking between all characters"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Hairline or Thin",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Large and open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Center",
+            "tracking": "200-300 units",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Small (approx 2-3% of height)",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Off-white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used for all text elements to maintain minimalism.",
+      "graphicDevices": [
+        "Small corner-aligned logo/metadata block (optional)"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Thin weight",
+          "Wide tracking",
+          "Top-center alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Bold weights",
+          "Tight kerning"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic Extra Light",
+            "reason": "Matches the 1970s geometric aesthetic and thin stroke weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Provides the necessary geometric skeleton and circular forms.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast monochrome portrait of a subject centered in the frame. The lighting should be dramatic chiaroscuro, with the face brightly lit and the rest of the body fading into a solid black background. Apply a subtle film grain texture.",
+        "overlayInstruction": "Add a single line of text in the top center using a thin, wide-tracked geometric sans-serif font in an off-white color. Ensure the text is small and does not crowd the top edge."
+      },
+      "verificationChecks": [
+        "Is the background solid black?",
+        "Is the text thin and widely spaced?",
+        "Is the portrait high-contrast monochrome?",
+        "Is the text centered at the top?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject pose",
+      "Amount of grain",
+      "Text tracking width",
+      "Vertical position of the face"
+    ],
+    "mustRedesign": [
+      "Any specific artist names or logos",
+      "Exact facial features of the original subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Deep, rich blacks without digital noise",
+        "Sharp, clean typography",
+        "Balanced negative space"
+      ],
+      "avoid": [
+        "Low-contrast grey-on-grey",
+        "Cluttered backgrounds",
+        "Heavy or decorative fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for true black levels in the background",
+      "Verify text legibility at small scale",
+      "Ensure grain is uniform and not distracting",
+      "Confirm horizontal centering of all elements"
+    ],
+    "reuseFormula": "Chiaroscuro Portrait + Top-Aligned Thin Sans-Serif + Expansive Black Negative Space"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:44:32.045Z"
+}

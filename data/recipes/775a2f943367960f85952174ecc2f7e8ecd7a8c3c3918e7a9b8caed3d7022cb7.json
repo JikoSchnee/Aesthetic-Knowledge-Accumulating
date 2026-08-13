@@ -1,0 +1,313 @@
+{
+  "id": "775a2f943367960f85952174ecc2f7e8ecd7a8c3c3918e7a9b8caed3d7022cb7",
+  "skillId": "775a2f943367960f85952174ecc2f7e8ecd7a8c3c3918e7a9b8caed3d7022cb7",
+  "versionId": "775a2f943367960f85952174ecc2f7e8ecd7a8c3c3918e7a9b8caed3d7022cb7",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:28:45.661Z",
+  "approvedAt": "2026-08-12T17:28:45.661Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:28:45.661Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "A Wolf in Sheep’s Clothing.jpg",
+    "hash": "775a2f943367960f85952174ecc2f7e8ecd7a8c3c3918e7a9b8caed3d7022cb7",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "A Wolf in Sheep’s Clothing",
+    "artist": "Black Sheep",
+    "artworkUrl": "https://coverartarchive.org/release-group/665b56fc-bc01-3fdc-9edc-bcdb8516427a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/665b56fc-bc01-3fdc-9edc-bcdb8516427a",
+    "releaseGroupId": "665b56fc-bc01-3fdc-9edc-bcdb8516427a",
+    "recordingId": "04a7009f-b77e-46dc-abf6-cccb16d6a0b5",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Strobelite HoneyBlack Sheep",
+      "song": "Strobelite Honey",
+      "performer": "Black Sheep",
+      "peakPosition": 80,
+      "firstChartDate": "1992-07-04",
+      "lastChartDate": "1992-08-29",
+      "appearances": [
+        {
+          "chartDate": "1992-07-04",
+          "position": 90
+        },
+        {
+          "chartDate": "1992-07-11",
+          "position": 97
+        },
+        {
+          "chartDate": "1992-07-18",
+          "position": 92
+        },
+        {
+          "chartDate": "1992-07-25",
+          "position": 80
+        },
+        {
+          "chartDate": "1992-08-01",
+          "position": 83
+        },
+        {
+          "chartDate": "1992-08-08",
+          "position": 94
+        },
+        {
+          "chartDate": "1992-08-22",
+          "position": 91
+        },
+        {
+          "chartDate": "1992-08-29",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "golden era hip hop album cover layout 90s hip hop monochrome photography slab serif boxed typography sheep sepia tone typographic block anchored to the top left corner figures positioned centrally within a repetitive texture of sheep high contrast black and white text boxes against a sepia background red horizontal bar providing a singular color accent at the base of the text block sepia photo top left boxed slab serif stack red accent bar",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Golden Era Hip-Hop Album Cover Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Layout"
+      ],
+      "useCases": [
+        "Album Art",
+        "Editorial Layout",
+        "Poster Design"
+      ],
+      "retrievalTags": [
+        "90s hip hop",
+        "monochrome photography",
+        "slab serif",
+        "boxed typography",
+        "sheep",
+        "sepia tone"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast layout featuring a sepia-toned photographic subject integrated into a field of repetitive textures, anchored by a heavy, multi-tiered typographic block in the upper left.",
+      "triggerTerms": [
+        "90s hip hop album cover style",
+        "boxed slab serif typography",
+        "sepia monochrome photography with red accent"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "vibrant multi-color palettes",
+        "sans-serif only layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A sepia-toned photograph of two figures emerging from a flock of sheep, featuring a prominent three-tiered typographic lockup in the top-left corner using heavy slab serifs and a red horizontal bar.",
+    "coreVisualRelationships": [
+      "Typographic block anchored to the top-left corner",
+      "Figures positioned centrally within a repetitive texture of sheep",
+      "High-contrast black and white text boxes against a sepia background",
+      "Red horizontal bar providing a singular color accent at the base of the text block"
+    ],
+    "coreInvariants": [
+      "Heavy slab-serif typeface for primary text",
+      "Inverted color boxing (white on black, black on white)",
+      "Sepia-toned photographic filter",
+      "Red accent bar for secondary text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two central figures at medium-long shot, surrounded by sheep that fill the lower two-thirds of the frame.",
+      "visualAnchor": "The large, high-contrast 'BLACK SHEEP' typographic block in the upper left.",
+      "movementAndEyePath": "Starts at the bold text block, moves down to the figures, and then spreads across the texture of the sheep flock.",
+      "negativeSpace": "Minimal; the frame is densely packed with the flock and the large text block."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Sepia/Cream (Background and photographic mid-tones)",
+      "contrastColorRole": "Black and White (Typographic boxes and figure clothing)",
+      "accentColorRole": "Bright Red (Secondary text bar)",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast in the typographic elements.",
+      "paletteRestrictions": [
+        "Sepia",
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold condensed slab serif",
+      "letterConstructionRules": [
+        "Heavy rectangular serifs",
+        "Uniform stroke weight",
+        "Condensed proportions",
+        "Strict vertical stress"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Black",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Blunt/Slab",
+            "corners": "Sharp",
+            "counters": "Narrow",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered within boxes",
+            "tracking": "Tight",
+            "leading": "None",
+            "lineBreakPattern": "Stacked boxes",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top Left",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlaid on background"
+          },
+          "treatment": {
+            "fill": "Inverted (Black on White / White on Black)",
+            "outline": "Thick border on top box",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "Medium",
+            "terminals": "Straight",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Centered",
+            "tracking": "Normal",
+            "leading": "None",
+            "lineBreakPattern": "Single line",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Below primary text",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Contained within red bar"
+          },
+          "treatment": {
+            "fill": "Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-impact slab serif for branding paired with a functional condensed sans-serif for titles.",
+      "graphicDevices": [
+        "Thick black rectangular frames",
+        "Solid red horizontal banner",
+        "Inverted color blocks"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif style",
+          "Boxed layout",
+          "Red accent bar"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Thin weights",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab serif and blunt terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Alternative for the condensed, heavy feel if slab serifs are unavailable.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a sepia-toned photograph of two men in dark clothing standing in a dense field of sheep. The sheep should fill the foreground and midground with a repetitive woolly texture.",
+        "overlayInstruction": "Add a three-tiered typographic block in the top left. The top tier is a white box with a black border containing bold slab-serif text. The middle tier is a solid black box with white slab-serif text. The bottom tier is a solid red bar with small black sans-serif text."
+      },
+      "verificationChecks": [
+        "Is the text block anchored to the top left?",
+        "Are the primary fonts heavy slab serifs?",
+        "Is the image sepia-toned?",
+        "Is there a red bar at the bottom of the text stack?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Sepia intensity",
+      "Red bar height",
+      "Text box border thickness",
+      "Sheep density"
+    ],
+    "mustRedesign": [
+      "Avoid using modern digital gradients",
+      "Do not use thin or elegant serif fonts",
+      "Ensure the red is a flat, solid color"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast typographic boxing",
+        "Consistent sepia color grading",
+        "Clear visual hierarchy between the text block and the photo"
+      ],
+      "avoid": [
+        "Blurry text edges",
+        "Low-contrast text-on-image placement",
+        "Modern sans-serif dominance"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the top box has a visible black outline.",
+      "Verify the middle box is solid black with white text.",
+      "Ensure the red bar is perfectly horizontal and contains legible text.",
+      "Confirm the photographic subject is centered relative to the sheep flock."
+    ],
+    "reuseFormula": "Sepia Photo + [Top-Left Boxed Slab Serif Stack] + [Red Accent Bar]"
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "id": "f9fe739d4883e4397a329090744ffaaf7dfe7642b5ab50600835890aa5d1d333",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T19:55:32.558Z",
+  "approvedAt": "2026-08-11T19:55:32.558Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T19:55:32.558Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "I Miss You So.jpg",
+    "hash": "f9fe739d4883e4397a329090744ffaaf7dfe7642b5ab50600835890aa5d1d333",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "I Miss You So",
+    "artist": "Fats Domino",
+    "artworkUrl": "https://coverartarchive.org/release-group/3393d795-c804-4b35-8b90-3ebb18dad69f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3393d795-c804-4b35-8b90-3ebb18dad69f",
+    "releaseGroupId": "3393d795-c804-4b35-8b90-3ebb18dad69f",
+    "recordingId": "f9a853c3-48a5-47f4-9fa1-d2c41b4c716b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I Hear You KnockingFats Domino",
+      "song": "I Hear You Knocking",
+      "performer": "Fats Domino",
+      "peakPosition": 67,
+      "firstChartDate": "1961-12-02",
+      "lastChartDate": "1961-12-09",
+      "appearances": [
+        {
+          "chartDate": "1961-12-02",
+          "position": 67
+        },
+        {
+          "chartDate": "1961-12-09",
+          "position": 77
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century jazz album graphic 1950s 1960s painterly abstract background piano script typography condensed sans serif color block subject positioned left of center balanced by the large diagonal mass of the piano on the right a horizontal blue header bar containing script text contrasts with the verticality of the figure textured visible brushstrokes in the background blocks create a sense of depth and movement painterly figure stylized instrument tri color block background script condensed type pairing",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Jazz Album Graphic",
+      "category": "Album Art",
+      "medium": [
+        "Gouache Painting",
+        "Graphic Design",
+        "Screen Print"
+      ],
+      "useCases": [
+        "Vintage Record Cover",
+        "Retro Music Poster",
+        "Mid-century Modern Illustration"
+      ],
+      "retrievalTags": [
+        "1950s",
+        "1960s",
+        "painterly",
+        "abstract background",
+        "piano",
+        "script typography",
+        "condensed sans-serif",
+        "color block"
+      ]
+    },
+    "visualDefinition": "A mid-century modern album cover featuring a painterly illustration of a male musician in a light blue suit standing next to a stylized grand piano. The background is composed of large, textured color blocks in ochre, vibrant orange, and a sky-blue header bar.",
+    "coreVisualRelationships": [
+      "Subject positioned left-of-center balanced by the large diagonal mass of the piano on the right.",
+      "A horizontal blue header bar containing script text contrasts with the verticality of the figure.",
+      "Textured, visible brushstrokes in the background blocks create a sense of depth and movement."
+    ],
+    "coreInvariants": [
+      "Three-color background split (Yellow-Ochre, Orange-Red, Sky-Blue).",
+      "Stylized, brown grand piano with white outline highlights.",
+      "Musician in a light blue suit with visible painterly texture."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-length figure on the left third, scaled to approximately 60% of vertical height.",
+      "visualAnchor": "The dark, solid mass of the grand piano on the right.",
+      "movementAndEyePath": "Starts at the script title in the blue bar, moves down to the artist name, then follows the musician's gaze toward the piano.",
+      "negativeSpace": "Large open areas of flat color in the background blocks provide breathing room for the typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Ochre and Burnt Orange (Background warmth)",
+      "contrastColorRole": "Sky Blue (Header bar and suit)",
+      "accentColorRole": "Black (Artist name and shoes)",
+      "saturationAndValueRelationship": "High saturation in the orange block contrasts with the muted, earthy ochre and the bright, clean blue header.",
+      "paletteRestrictions": [
+        "Sky Blue",
+        "Mustard Yellow",
+        "Cadmium Orange",
+        "Chocolate Brown",
+        "Black",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Script and Condensed Sans-Serif",
+      "letterConstructionRules": [
+        "Title uses a fluid, monolinear cursive script with long, sweeping flourishes on the 'I' and 'S'.",
+        "Artist name uses a heavy, extra-condensed sans-serif with flat terminals and tight tracking."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'I' in the script title is elongated into a horizontal oval flourish.",
+        "The 'S' in the script has a large, looping descender/ascender tail."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "extended",
+            "weight": "light",
+            "contrast": "none",
+            "xHeight": "low",
+            "terminals": "rounded",
+            "corners": "smooth",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "titlecase",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top center in blue bar",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within header"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "below blue bar, centered",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floats over background blocks"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High contrast between fluid, organic script and rigid, industrial condensed sans-serif.",
+      "graphicDevices": [
+        "Horizontal color band",
+        "Textured brushstroke overlays",
+        "Minimalist line art for piano details"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The horizontal blue bar",
+          "The script's monolinear weight",
+          "The condensed nature of the secondary text"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Modern digital gradients",
+          "Clean, vector-perfect edges on the illustration"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mistral or Kaufmann",
+            "reason": "Captures the mid-century script energy",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Impact or Alternate Gothic",
+            "reason": "Matches the condensed, heavy sans-serif style",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A painterly mid-century illustration of a man in a light blue suit standing by a brown grand piano. The background consists of a large mustard yellow block on the left and a vibrant orange block on the right, with a solid sky-blue horizontal bar across the top. Use visible gouache brushstrokes and white line-art highlights on the piano.",
+        "overlayInstruction": "Add a white monolinear script title centered in the blue bar. Below the blue bar, add a black, extra-condensed bold sans-serif name centered horizontally."
+      },
+      "verificationChecks": [
+        "Is the blue bar at the top solid and distinct?",
+        "Does the suit have painterly texture rather than flat color?",
+        "Is the script title monolinear and fluid?",
+        "Is the secondary text heavily condensed?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background block colors",
+      "Suit color",
+      "Script flourish length",
+      "Brushstroke intensity"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the musician",
+      "Record label logos and catalog numbers",
+      "Specific signature in the bottom right"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Hand-painted gouache texture",
+        "Mid-century color palette",
+        "Clean typographic hierarchy"
+      ],
+      "avoid": [
+        "Photorealistic rendering",
+        "Drop shadows on text",
+        "Neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the piano is stylized with white outlines.",
+      "Verify the script text is white and the condensed text is black.",
+      "Check that the background colors are separated into distinct blocks.",
+      "Confirm the painterly texture is visible across the entire illustration."
+    ],
+    "reuseFormula": "Painterly Figure + Stylized Instrument + Tri-Color Block Background + Script/Condensed Type Pairing"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:27:42.319Z"
+}

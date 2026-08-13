@@ -1,0 +1,331 @@
+{
+  "id": "5b5dbee04167127feea12f9b018ba1aa348f92a6e404b844413e9ead1c86be84",
+  "skillId": "5b5dbee04167127feea12f9b018ba1aa348f92a6e404b844413e9ead1c86be84",
+  "versionId": "5b5dbee04167127feea12f9b018ba1aa348f92a6e404b844413e9ead1c86be84",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:32:38.214Z",
+  "approvedAt": "2026-08-12T05:32:38.214Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:32:38.214Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Highway Music: Stuck In Traffic.jpg",
+    "hash": "5b5dbee04167127feea12f9b018ba1aa348f92a6e404b844413e9ead1c86be84",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Highway Music: Stuck In Traffic",
+    "artist": "DJ Luke Nasty",
+    "artworkUrl": "https://coverartarchive.org/release-group/138035e0-9c12-4390-b001-18ce5c370ab7/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/138035e0-9c12-4390-b001-18ce5c370ab7",
+    "releaseGroupId": "138035e0-9c12-4390-b001-18ce5c370ab7",
+    "recordingId": "18d58695-8bf0-4fbf-8972-91367d7c271c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Might BeDJ Luke Nasty",
+      "song": "Might Be",
+      "performer": "DJ Luke Nasty",
+      "peakPosition": 78,
+      "firstChartDate": "2016-03-05",
+      "lastChartDate": "2016-05-07",
+      "appearances": [
+        {
+          "chartDate": "2016-03-05",
+          "position": 85
+        },
+        {
+          "chartDate": "2016-03-12",
+          "position": 80
+        },
+        {
+          "chartDate": "2016-03-19",
+          "position": 78
+        },
+        {
+          "chartDate": "2016-03-26",
+          "position": 82
+        },
+        {
+          "chartDate": "2016-04-02",
+          "position": 84
+        },
+        {
+          "chartDate": "2016-04-09",
+          "position": 83
+        },
+        {
+          "chartDate": "2016-04-16",
+          "position": 78
+        },
+        {
+          "chartDate": "2016-04-23",
+          "position": 83
+        },
+        {
+          "chartDate": "2016-04-30",
+          "position": 79
+        },
+        {
+          "chartDate": "2016-05-07",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban highway traffic album cover car interior dashboard traffic jam neon pink glow urban night rearview mirror steering wheel hazy atmosphere foreground dashboard framing the lower third of the composition midground traffic line creating a horizontal barrier background haze and smoke obscuring the horizon neon pink glow from the title reflecting on the windshield area pov car interior traffic jam hazy night neon typography overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Highway Traffic Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Digital Composite",
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Hip-hop album artwork",
+        "Mixtape cover",
+        "Urban lifestyle branding",
+        "Automotive-themed promotional graphics"
+      ],
+      "retrievalTags": [
+        "car interior",
+        "dashboard",
+        "traffic jam",
+        "neon pink glow",
+        "urban night",
+        "rearview mirror",
+        "steering wheel",
+        "hazy atmosphere"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A first-person perspective from a car dashboard looking out at a dense traffic jam under a hazy, neon-lit urban sky.",
+      "triggerTerms": [
+        "POV car dashboard view",
+        "traffic jam at night",
+        "neon pink title glow",
+        "hazy urban atmosphere"
+      ],
+      "excludeWhen": [
+        "daylight scenes",
+        "rural landscapes",
+        "clean minimalist layouts",
+        "overhead drone shots"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A cinematic, low-angle POV shot from inside a vehicle's cabin, featuring a detailed dashboard and steering wheel in the foreground, looking through the windshield at a line of cars with glowing red taillights, all enveloped in a smoky, purple-tinted haze with vibrant neon typography floating in the upper third.",
+    "coreVisualRelationships": [
+      "Foreground dashboard framing the lower third of the composition",
+      "Midground traffic line creating a horizontal barrier",
+      "Background haze and smoke obscuring the horizon",
+      "Neon pink glow from the title reflecting on the windshield area"
+    ],
+    "coreInvariants": [
+      "First-person driver's seat perspective",
+      "Red taillight glow from cars ahead",
+      "Desaturated cool-toned interior vs. warm neon accents"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The dashboard and steering wheel occupy the bottom 40%, while the traffic jam fills the center, and typography dominates the top 30%.",
+      "visualAnchor": "The central car's bright red taillights and the large glowing title text.",
+      "movementAndEyePath": "Eyes start at the steering wheel, move up to the red taillights, and finally rest on the glowing neon title.",
+      "negativeSpace": "Dark, hazy areas in the upper corners and the shadowed cabin interior."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blues and grays for the car interior and night sky.",
+      "contrastColorRole": "Bright red for vehicle taillights.",
+      "accentColorRole": "Vibrant neon pink for the main title glow.",
+      "saturationAndValueRelationship": "High contrast between the dark, desaturated interior and the luminous, saturated light sources.",
+      "paletteRestrictions": [
+        "Avoid bright greens or yellows",
+        "Limit daylight blues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed sans-serif and high-contrast serif",
+      "letterConstructionRules": [
+        "Main title uses heavy, italicized, condensed sans-serif with an inner glow",
+        "Secondary text uses wide-tracked, extended sans-serif",
+        "Artist name uses a high-contrast modern serif with thin hairlines"
+      ],
+      "characterSpecificRedesigns": [
+        "Outer glow effect on the main title to simulate neon light",
+        "Extreme horizontal tracking on the subtitle"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "two-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over haze"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "italicized"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "low",
+            "terminals": "square",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monoline"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "very wide",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "below main title",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaying dark band"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between heavy condensed italics and wide-spaced extended blocks.",
+      "graphicDevices": [
+        "Horizontal divider lines",
+        "Neon outer glow",
+        "Hanging object from rearview mirror"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Italicized slant of main title",
+          "Wide tracking of subtitle",
+          "Neon pink glow"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Handwritten styles",
+          "Rounded corners"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Anton",
+            "reason": "For the heavy condensed display title",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "For the high-contrast serif artist name",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Bank Gothic",
+            "reason": "For the extended technical-looking subtitle",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a POV shot from a car's interior dashboard looking at a line of cars in a traffic jam at night. Include heavy smoke/haze and glowing red taillights. The color palette should be dark blue and gray with magenta/pink atmospheric lighting.",
+        "overlayInstruction": "Add a large, two-line condensed italicized title in the upper center with a vibrant pink outer glow. Add a wide-spaced extended sans-serif subtitle below it. Place a high-contrast serif artist name above the main title."
+      },
+      "verificationChecks": [
+        "Is the perspective from the driver's seat?",
+        "Does the title have a pink neon glow?",
+        "Are the taillights of the cars in front glowing red?",
+        "Is the atmosphere hazy or smoky?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the pink glow",
+      "Density of the traffic",
+      "Amount of smoke/haze",
+      "Complexity of the dashboard details"
+    ],
+    "mustRedesign": [
+      "Specific car logos",
+      "Specific brand names on the dashboard",
+      "The hanging clothing item (replace with generic air freshener or dice)"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic lighting",
+        "Legible neon typography",
+        "Realistic dashboard textures"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Cartoonish car models",
+        "Cluttered typography that obscures the center"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure typography is centered and balanced",
+      "Check that the pink glow doesn't wash out the white text",
+      "Verify the perspective feels immersive",
+      "Confirm the red taillights are the primary light source in the midground"
+    ],
+    "reuseFormula": "POV Car Interior + Traffic Jam + Hazy Night + Neon Typography Overlay"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:18.827Z"
+}

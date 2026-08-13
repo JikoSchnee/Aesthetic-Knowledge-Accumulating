@@ -1,0 +1,318 @@
+{
+  "id": "ede749f7e9ba2c998c6ae0025a9ebcf163cf55a59fbd965665a62061a57a323b",
+  "skillId": "ede749f7e9ba2c998c6ae0025a9ebcf163cf55a59fbd965665a62061a57a323b",
+  "versionId": "ede749f7e9ba2c998c6ae0025a9ebcf163cf55a59fbd965665a62061a57a323b",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:39:27.794Z",
+  "approvedAt": "2026-08-12T14:39:27.794Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:39:27.794Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Seven Letters.jpg",
+    "hash": "ede749f7e9ba2c998c6ae0025a9ebcf163cf55a59fbd965665a62061a57a323b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Seven Letters",
+    "artist": "Ben E. King",
+    "artworkUrl": "https://coverartarchive.org/release-group/e9536c35-b5bb-3dac-a04e-35bf3daf877c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e9536c35-b5bb-3dac-a04e-35bf3daf877c",
+    "releaseGroupId": "e9536c35-b5bb-3dac-a04e-35bf3daf877c",
+    "recordingId": "64bb1203-102d-47cd-89ad-6e5140d414c7",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Seven LettersBen E. King",
+      "song": "Seven Letters",
+      "performer": "Ben E. King",
+      "peakPosition": 45,
+      "firstChartDate": "1964-12-19",
+      "lastChartDate": "1965-01-30",
+      "appearances": [
+        {
+          "chartDate": "1964-12-19",
+          "position": 78
+        },
+        {
+          "chartDate": "1964-12-26",
+          "position": 63
+        },
+        {
+          "chartDate": "1965-01-02",
+          "position": 55
+        },
+        {
+          "chartDate": "1965-01-09",
+          "position": 52
+        },
+        {
+          "chartDate": "1965-01-16",
+          "position": 45
+        },
+        {
+          "chartDate": "1965-01-23",
+          "position": 52
+        },
+        {
+          "chartDate": "1965-01-30",
+          "position": 53
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century illustrated desk stationery 1960s illustration desk flat lay slab serif typography watercolor texture hand drawn ink outlines stationery envelopes inkwell central cluster of white and yellow stationery against a vibrant green background writing tools pen pencil inkwell anchored at the bottom of the frame heavy black typography contrasting with the light cream outer border hand drawn line work providing a tactile human quality to geometric shapes combine subject desk objects with style 1960s ink and watercolor framed by layout cream border with slab serif header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Illustrated Desk Stationery",
+      "category": "Graphic Illustration",
+      "medium": [
+        "Ink drawing",
+        "Watercolor wash",
+        "Screen print"
+      ],
+      "useCases": [
+        "Vintage-style album covers",
+        "Editorial illustrations for correspondence",
+        "Retro book jackets",
+        "Nostalgic stationery branding"
+      ],
+      "retrievalTags": [
+        "1960s illustration",
+        "desk flat lay",
+        "slab serif typography",
+        "watercolor texture",
+        "hand-drawn ink outlines",
+        "stationery",
+        "envelopes",
+        "inkwell"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1960s-style flat-lay illustration featuring hand-drawn stationery items with ink outlines and watercolor washes, framed by a desk blotter and topped with heavy slab-serif display type.",
+      "triggerTerms": [
+        "vintage desk flat lay illustration",
+        "mid-century watercolor stationery art",
+        "ink outlined envelopes and pens",
+        "retro slab serif album cover style"
+      ],
+      "excludeWhen": [
+        "photorealistic desk setups are required",
+        "modern minimalist vector art is needed",
+        "3D rendered objects are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A top-down, slightly angled illustration of a green desk blotter with brown leather corners, scattered with white and yellow envelopes, lined paper, a fountain pen, a pencil, and a blue inkwell. The style uses thin, slightly irregular black ink outlines filled with textured, non-uniform color washes. The composition is framed by a cream-colored border containing bold, typewriter-inspired slab serif text at the top and bottom.",
+    "coreVisualRelationships": [
+      "Central cluster of white and yellow stationery against a vibrant green background",
+      "Writing tools (pen, pencil, inkwell) anchored at the bottom of the frame",
+      "Heavy black typography contrasting with the light cream outer border",
+      "Hand-drawn line work providing a tactile, human quality to geometric shapes"
+    ],
+    "coreInvariants": [
+      "Thin black ink outlines for all objects",
+      "Visible watercolor or screen-print texture in color fills",
+      "Cream-colored outer margin framing the central green blotter",
+      "Slab serif typography with distinct typewriter-like slab feet"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The stationery cluster occupies the upper-middle center; writing tools are scaled smaller at the bottom.",
+      "visualAnchor": "The green desk blotter acts as the primary stage for all illustrated elements.",
+      "movementAndEyePath": "Eyes start at the large display text at the top, move down through the pile of letters, and settle on the inkwell and pen at the bottom.",
+      "negativeSpace": "Generous cream-colored margins around the central green rectangle create a clean, framed look."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Kelly green (desk blotter background)",
+      "contrastColorRole": "Cream (outer border and stationery paper)",
+      "accentColorRole": "Cobalt blue (inkwell), Mustard yellow (lined paper), and Pink (envelope lining)",
+      "saturationAndValueRelationship": "High saturation for the green and blue, contrasted against low-saturation cream and white.",
+      "paletteRestrictions": [
+        "Avoid neon or digital-perfect gradients",
+        "Limit to a primary-adjacent palette with vintage desaturation"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Slab Serif / Typewriter hybrid",
+      "letterConstructionRules": [
+        "Heavy, rectangular slab serifs",
+        "Consistent stroke weight (monolinear)",
+        "Open counters and wide apertures",
+        "Slightly irregular spacing mimicking manual typesetting"
+      ],
+      "characterSpecificRedesigns": [
+        "Uppercase letters have prominent, flat horizontal serifs",
+        "Lowercase 'e' has a horizontal crossbar and wide curve"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Slab",
+            "corners": "Sharp",
+            "counters": "Large",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Mixed",
+            "alignment": "Center",
+            "tracking": "Wide",
+            "leading": "Tight",
+            "lineBreakPattern": "Two lines",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top center within cream border",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separated by border"
+          },
+          "treatment": {
+            "fill": "Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Slightly grainy",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Monospace / Slab",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "Medium",
+            "terminals": "Slab",
+            "corners": "Sharp",
+            "counters": "Small",
+            "strokeCharacter": "Thin"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Center",
+            "tracking": "Normal",
+            "leading": "None",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Bottom center within cream border",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separated by border"
+          },
+          "treatment": {
+            "fill": "Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Large bold slab serif for title paired with a smaller, lighter version for metadata.",
+      "graphicDevices": [
+        "Rectangular framing",
+        "Corner reinforcement motifs",
+        "Hand-drawn linework"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif style",
+          "Monolinear stroke weight",
+          "Wide tracking"
+        ],
+        "avoid": [
+          "Script fonts",
+          "High-contrast Didone fonts",
+          "Sans-serif fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Courier Prime Bold",
+            "reason": "Captures the typewriter slab aesthetic with modern clarity.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Rockwell",
+            "reason": "Provides the heavy, geometric slab serifs seen in the display text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "American Typewriter",
+            "reason": "Matches the mid-century editorial feel of the original.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a hand-drawn illustration of a green desk blotter with brown leather corners on a cream background. On the blotter, include a messy pile of white and yellow envelopes, a piece of blue-lined paper, a fountain pen, a pencil, and a blue glass inkwell. Use thin black ink outlines and watercolor-style color fills with visible paper texture.",
+        "overlayInstruction": "Add two lines of large, bold slab-serif text in black at the top center of the cream border. Add one line of small, light slab-serif metadata text at the bottom center."
+      },
+      "verificationChecks": [
+        "Does the text use a slab-serif font?",
+        "Is there a cream-colored border around the green blotter?",
+        "Are the objects outlined in thin black ink?",
+        "Is the color application textured like watercolor or screen print?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Blotter color",
+      "Stationery arrangement",
+      "Text content",
+      "Corner detail style"
+    ],
+    "mustRedesign": [
+      "Specific logo in the top left corner",
+      "Artist signature in the bottom right of the illustration",
+      "Exact catalog number at the bottom"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Hand-drawn ink outline quality",
+        "Textured color washes",
+        "Balanced flat-lay composition"
+      ],
+      "avoid": [
+        "Perfectly straight digital lines",
+        "Smooth digital gradients",
+        "Modern sans-serif typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the green blotter has brown corner accents.",
+      "Ensure the typography is centered and uses slab serifs.",
+      "Verify the presence of a fountain pen and inkwell.",
+      "Confirm the background has a subtle paper-like texture."
+    ],
+    "reuseFormula": "Combine [Subject: Desk Objects] with [Style: 1960s Ink and Watercolor] framed by [Layout: Cream Border with Slab Serif Header]."
+  }
+}

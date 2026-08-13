@@ -1,0 +1,287 @@
+{
+  "id": "c6ed39367bbd91f7fa3f62056c99373168907a9c03120baafebe144a89e010c8",
+  "skillId": "c6ed39367bbd91f7fa3f62056c99373168907a9c03120baafebe144a89e010c8",
+  "versionId": "c6ed39367bbd91f7fa3f62056c99373168907a9c03120baafebe144a89e010c8",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:10:03.333Z",
+  "approvedAt": "2026-08-12T19:10:03.333Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:10:03.333Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "There I Sing / Swing It Again.jpg",
+    "hash": "c6ed39367bbd91f7fa3f62056c99373168907a9c03120baafebe144a89e010c8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "There I Sing / Swing It Again",
+    "artist": "Vaughn Monroe",
+    "artworkUrl": "https://coverartarchive.org/release-group/78b7b106-3829-3141-a832-3212bae9361f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/78b7b106-3829-3141-a832-3212bae9361f",
+    "releaseGroupId": "78b7b106-3829-3141-a832-3212bae9361f",
+    "recordingId": "e6def905-e86b-4dcc-97fe-9729cf694b50",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Battle Of New OrleansVaughn Monroe",
+      "song": "The Battle Of New Orleans",
+      "performer": "Vaughn Monroe",
+      "peakPosition": 87,
+      "firstChartDate": "1959-05-23",
+      "lastChartDate": "1959-06-13",
+      "appearances": [
+        {
+          "chartDate": "1959-05-23",
+          "position": 87
+        },
+        {
+          "chartDate": "1959-06-13",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century crooner album cover 1950s style magenta tint halftone texture outer glow sans serif display crooner portrait subject centered and slightly cropped at the waist magenta background providing high color contrast to warm skin tones soft white halo separating the subject from the busy background texture top aligned primary text with secondary italicized text immediately below combine a warm toned central portrait soft white halo magenta tinted textured background top heavy white sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Crooner Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vintage music compilation covers",
+        "Nostalgic portrait layouts",
+        "Retro jazz or swing promotional posters"
+      ],
+      "retrievalTags": [
+        "1950s style",
+        "magenta tint",
+        "halftone texture",
+        "outer glow",
+        "sans-serif display",
+        "crooner portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A nostalgic mid-century portrait layout featuring a central male figure with a soft outer glow against a textured, magenta-tinted floral background.",
+      "triggerTerms": [
+        "vintage crooner album aesthetic",
+        "magenta duotone floral background",
+        "retro portrait with soft white glow",
+        "1950s music compilation layout"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "high-contrast black and white photography",
+        "flat vector illustrations"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central, warm-toned male portrait in a suit, isolated by a soft white outer glow from a grainy, magenta-saturated background of tall grass or flowers, topped with clean white sans-serif and serif typography.",
+    "coreVisualRelationships": [
+      "Subject centered and slightly cropped at the waist",
+      "Magenta background providing high color contrast to warm skin tones",
+      "Soft white halo separating the subject from the busy background texture",
+      "Top-aligned primary text with secondary italicized text immediately below"
+    ],
+    "coreInvariants": [
+      "Magenta-tinted floral/grass background",
+      "Soft white outer glow on the subject",
+      "Grainy, film-like texture across the entire image"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium close-up portrait, centered horizontally, occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The subject's face, highlighted by the white glow and central placement.",
+      "movementAndEyePath": "Starts at the large top text, moves down to the face, then to the secondary text and bottom badge.",
+      "negativeSpace": "Limited; the background is densely textured with magenta foliage."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Magenta (background foliage and bottom badge)",
+      "contrastColorRole": "White (typography and subject glow)",
+      "accentColorRole": "Warm browns and skin tones (subject)",
+      "saturationAndValueRelationship": "High saturation in the background magenta; high value in the white text and glow.",
+      "paletteRestrictions": [
+        "Magenta",
+        "White",
+        "Warm Brown",
+        "Deep Charcoal"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Clean geometric sans-serif and transitional serif",
+      "letterConstructionRules": [
+        "Primary text is all-caps with uniform stroke weight",
+        "Secondary text is title-case italics with moderate contrast"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "regular",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "bracketed",
+            "corners": "rounded",
+            "counters": "closed",
+            "strokeCharacter": "modulated"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "below primary text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "italicized"
+          }
+        }
+      ],
+      "pairingStrategy": "Geometric sans-serif for impact paired with a traditional italic serif for elegance.",
+      "graphicDevices": [
+        "Magenta pill-shaped badge at bottom left",
+        "Soft white outer glow around subject"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps top text",
+          "Italicized subtitle",
+          "White color for main text"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Blackletter",
+          "Neon colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gill Sans Bold",
+            "reason": "Matches the clean, mid-century geometric sans-serif look of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Times New Roman Italic",
+            "reason": "Provides the classic, readable serif contrast for the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in a 1950s suit, centered, with a soft white outer glow. The background should be a dense texture of tall grass or flowers heavily tinted in magenta with a grainy, vintage film texture.",
+        "overlayInstruction": "Apply large, all-caps white sans-serif text at the top. Below it, add a smaller line of white italicized serif text. Place a magenta oval badge in the bottom left corner with white script-like serif text inside."
+      },
+      "verificationChecks": [
+        "Is the background magenta-tinted foliage?",
+        "Does the subject have a soft white halo?",
+        "Is the top text all-caps and white?",
+        "Is there a magenta badge in the bottom left?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the magenta tint",
+      "Width of the white outer glow",
+      "Grain/noise level",
+      "Font weight of the primary text"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact wording of the text",
+      "Specific logos or branding marks"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Visible film grain texture",
+        "Distinct magenta/white/brown color palette",
+        "Clear typographic hierarchy"
+      ],
+      "avoid": [
+        "Clean, high-resolution digital look",
+        "Modern sans-serifs like Helvetica",
+        "Flat, untextured backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the magenta tint does not bleed into the subject's skin tones excessively.",
+      "Verify the white glow effectively separates the subject from the background.",
+      "Check that the text remains legible against the textured background.",
+      "Confirm the vintage grain is consistent across the entire composition."
+    ],
+    "reuseFormula": "Combine a warm-toned central portrait + soft white halo + magenta-tinted textured background + top-heavy white sans-serif typography."
+  }
+}

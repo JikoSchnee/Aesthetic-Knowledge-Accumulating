@@ -1,0 +1,284 @@
+{
+  "id": "ec23c0a82f1bd42bbb4b2c31911ecb2ecdbf2ccc5f92c4ee5a36202912585668",
+  "skillId": "ec23c0a82f1bd42bbb4b2c31911ecb2ecdbf2ccc5f92c4ee5a36202912585668",
+  "versionId": "ec23c0a82f1bd42bbb4b2c31911ecb2ecdbf2ccc5f92c4ee5a36202912585668",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T11:53:30.025Z",
+  "approvedAt": "2026-08-12T11:53:30.025Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T11:53:30.025Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Let Them Talk.jpg",
+    "hash": "ec23c0a82f1bd42bbb4b2c31911ecb2ecdbf2ccc5f92c4ee5a36202912585668",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Let Them Talk",
+    "artist": "Hugh Laurie",
+    "artworkUrl": "https://coverartarchive.org/release-group/8c1e5993-332a-42bd-92f2-5f6c57fdd1c3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8c1e5993-332a-42bd-92f2-5f6c57fdd1c3",
+    "releaseGroupId": "8c1e5993-332a-42bd-92f2-5f6c57fdd1c3",
+    "recordingId": "cafc2c60-26fe-465b-97d1-e60d0310e26e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Police Dog BluesHugh Laurie",
+      "song": "Police Dog Blues",
+      "performer": "Hugh Laurie",
+      "peakPosition": 58,
+      "firstChartDate": "2011-09-24",
+      "lastChartDate": "2011-10-01",
+      "appearances": [
+        {
+          "chartDate": "2011-09-24",
+          "position": 58
+        },
+        {
+          "chartDate": "2011-10-01",
+          "position": 74
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast asymmetric portrait with interlocking block typography extreme close up monochrome portrait interlocking text asymmetric composition desaturated palette dramatic lighting extreme right side facial crop vs left side negative space desaturated skin tones vs muted earth tone typography sharp eye focus vs soft beard texture geometric block text vs organic facial contours asymmetric portrait negative space interlocking block typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Asymmetric Portrait with Interlocking Block Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Editorial Portraiture",
+        "Book Jackets"
+      ],
+      "retrievalTags": [
+        "extreme close-up",
+        "monochrome portrait",
+        "interlocking text",
+        "asymmetric composition",
+        "desaturated palette",
+        "dramatic lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dramatic, high-contrast portrait cropped to one side of the face, paired with a three-tiered interlocking block typographic layout in the negative space.",
+      "triggerTerms": [
+        "extreme asymmetric portrait crop",
+        "interlocking block lettering layout",
+        "desaturated face with dark negative space"
+      ],
+      "excludeWhen": [
+        "full-face centered portraits",
+        "brightly colored backgrounds",
+        "script or serif typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A stark, desaturated close-up of a male face occupying the right half of the frame, with the left half consisting of deep black negative space containing a three-line typographic stack where the letters interlock and overlap vertically.",
+    "coreVisualRelationships": [
+      "Extreme right-side facial crop vs. left-side negative space",
+      "Desaturated skin tones vs. muted earth-tone typography",
+      "Sharp eye focus vs. soft beard texture",
+      "Geometric block text vs. organic facial contours"
+    ],
+    "coreInvariants": [
+      "The subject's right eye must be the primary focal point on the right vertical third.",
+      "Typography must be stacked in three distinct horizontal tiers with vertical overlap.",
+      "The background must be a solid, dark, textured black."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up of the right side of a face, scaled to fill the entire vertical height of the frame.",
+      "visualAnchor": "The subject's eye, positioned in the upper right quadrant.",
+      "movementAndEyePath": "Starts at the eye, moves down the facial texture, then shifts left to the typographic block.",
+      "negativeSpace": "Dominant black void on the left half of the composition."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background and shadows.",
+      "contrastColorRole": "Desaturated, high-key skin tones (near-monochrome).",
+      "accentColorRole": "Muted ochre and teal for the primary title text.",
+      "saturationAndValueRelationship": "Low saturation across all elements; high value contrast between the face and the background.",
+      "paletteRestrictions": [
+        "No vibrant or neon colors",
+        "Limited to black, white, ochre, and teal"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy geometric sans-serif",
+      "letterConstructionRules": [
+        "Thick, uniform stroke weights",
+        "Tight kerning with zero letter spacing",
+        "Vertical interlocking where descenders of one line touch or overlap ascenders of the next"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'L' and 'E' in the second line are tucked into the 'T' of the first line",
+        "The 'A' and 'L' in the third line are merged or tightly overlapped"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "extremely tight",
+            "lineBreakPattern": "word-per-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "lower left quadrant",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "vertical interlocking",
+            "relationshipToImage": "placed in negative space"
+          },
+          "treatment": {
+            "fill": "solid color (ochre/teal)",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "humanist sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "clean"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "directly above display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in negative space"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a light, spaced-out secondary font and a heavy, interlocking primary font.",
+      "graphicDevices": [
+        "Color blocking by line",
+        "Vertical stacking"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Interlocking layout",
+          "Heavy weight",
+          "Uppercase"
+        ],
+        "avoid": [
+          "Serifs",
+          "Italics",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Black",
+            "reason": "Provides the necessary geometric weight and clean terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Strong geometric foundation for interlocking.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, desaturated portrait of a man's face, cropped so only the right half is visible. The left half should be a solid, slightly textured black background.",
+        "overlayInstruction": "Add three lines of text in the black area. The top line in small white sans-serif. The bottom two lines in large, heavy, interlocking block letters, using ochre for the middle line and teal for the bottom line."
+      },
+      "verificationChecks": [
+        "Is the face cropped to the right side?",
+        "Is the background solid black?",
+        "Do the large letters interlock vertically?",
+        "Is the color palette restricted to ochre, teal, white, and black?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Facial expression",
+      "Specific accent colors",
+      "Degree of text overlap"
+    ],
+    "mustRedesign": [
+      "Any centered facial compositions",
+      "Script or decorative fonts",
+      "Bright, saturated background colors"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp focus on the eye",
+        "Clean, heavy typographic edges",
+        "Deep, true blacks in the negative space"
+      ],
+      "avoid": [
+        "Muddy shadows",
+        "Blurry text edges",
+        "Generic centered layouts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the eye is positioned in the upper right third.",
+      "Ensure the text does not touch the facial features.",
+      "Verify the interlocking nature of the block letters.",
+      "Confirm the desaturated, near-monochrome skin tone."
+    ],
+    "reuseFormula": "Asymmetric Portrait + Negative Space + Interlocking Block Typography"
+  }
+}

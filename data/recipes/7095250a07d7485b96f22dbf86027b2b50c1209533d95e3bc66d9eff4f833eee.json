@@ -1,0 +1,244 @@
+{
+  "id": "7095250a07d7485b96f22dbf86027b2b50c1209533d95e3bc66d9eff4f833eee",
+  "skillId": "7095250a07d7485b96f22dbf86027b2b50c1209533d95e3bc66d9eff4f833eee",
+  "versionId": "7095250a07d7485b96f22dbf86027b2b50c1209533d95e3bc66d9eff4f833eee",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:16:52.852Z",
+  "approvedAt": "2026-08-12T19:16:52.852Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:16:52.852Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "What the Hell Happened to Me?.jpg",
+    "hash": "7095250a07d7485b96f22dbf86027b2b50c1209533d95e3bc66d9eff4f833eee",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "What the Hell Happened to Me?",
+    "artist": "Adam Sandler",
+    "artworkUrl": "https://coverartarchive.org/release-group/5de0229a-36fa-34b7-9d38-a5709870b33b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5de0229a-36fa-34b7-9d38-a5709870b33b",
+    "releaseGroupId": "5de0229a-36fa-34b7-9d38-a5709870b33b",
+    "recordingId": "368212d2-c7cd-4c59-ba9c-eaed0cf881da",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Chanukah SongAdam Sandler",
+      "song": "The Chanukah Song",
+      "performer": "Adam Sandler",
+      "peakPosition": 80,
+      "firstChartDate": "1999-01-02",
+      "lastChartDate": "1999-01-09",
+      "appearances": [
+        {
+          "chartDate": "1999-01-02",
+          "position": 80
+        },
+        {
+          "chartDate": "1999-01-09",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage home snapshot album cover 90s aesthetic vintage polaroid childhood photo bold sans serif flash photography curtain background subject centered vertically against a repetitive curtain texture high contrast red text against muted desaturated background tones flash lit foreground subject with soft dark shadows on the floor grainy film texture unifying the image and text elements vintage snapshot bold red sans serif overlay square format",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Home Snapshot Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Layout"
+      ],
+      "useCases": [
+        "Comedy album art",
+        "Nostalgic social media posts",
+        "Retro-themed promotional graphics"
+      ],
+      "retrievalTags": [
+        "90s aesthetic",
+        "vintage polaroid",
+        "childhood photo",
+        "bold sans-serif",
+        "flash photography",
+        "curtain background"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A lo-fi, nostalgic aesthetic featuring a flash-lit childhood snapshot with bold, flat red typography overlaid on the top and bottom.",
+      "triggerTerms": [
+        "90s home video style",
+        "vintage family photo aesthetic",
+        "flash photography with heavy grain",
+        "bold red block lettering on photo"
+      ],
+      "excludeWhen": [
+        "professional studio portraits",
+        "modern high-resolution photography",
+        "minimalist white space layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition centered on a grainy, flash-lit photograph of a child in blue pajamas holding a toy against a backdrop of vertical white curtains. The image is framed by bold, sans-serif red text at the top and bottom, creating a DIY, nostalgic feel.",
+    "coreVisualRelationships": [
+      "Subject centered vertically against a repetitive curtain texture",
+      "High-contrast red text against muted, desaturated background tones",
+      "Flash-lit foreground subject with soft, dark shadows on the floor",
+      "Grainy film texture unifying the image and text elements"
+    ],
+    "coreInvariants": [
+      "Square aspect ratio",
+      "Heavy film grain and slight color desaturation",
+      "Harsh direct flash lighting",
+      "Bold red sans-serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body child subject centered, occupying approximately 60% of the vertical height.",
+      "visualAnchor": "The child's face and the toy train held in the center.",
+      "movementAndEyePath": "Eye starts at the top red text, moves down to the subject's face, then to the toy, and finally to the bottom text.",
+      "negativeSpace": "Vertical curtain folds provide a textured but neutral negative space on the left and right."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted teal and off-white (pajamas and curtains)",
+      "contrastColorRole": "Deep red (typography)",
+      "accentColorRole": "Black and white (advisory label in corner)",
+      "saturationAndValueRelationship": "Low saturation in the photograph contrasted with high-value, high-saturation red text.",
+      "paletteRestrictions": [
+        "Desaturated blues",
+        "Creamy whites",
+        "Primary red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy, condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Squared-off terminals",
+        "Tight kerning"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left and Center",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Manual breaks for visual balance",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top left and bottom center",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Slightly overlapping background elements",
+            "relationshipToImage": "Overlaid"
+          },
+          "treatment": {
+            "fill": "Solid red",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used in different positions for consistency.",
+      "graphicDevices": [
+        "Parental advisory style label in bottom right corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Bold weight",
+          "Red color",
+          "Uppercase styling"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy, condensed, and bold nature of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Provides a similar classic, bold sans-serif feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a grainy, 1970s-style flash photograph of a toddler in teal pajamas holding a toy train, standing in front of white vertical curtains.",
+        "overlayInstruction": "Apply bold, uppercase red sans-serif text at the top left and bottom center. Add a black and white rectangular advisory label in the bottom right corner."
+      },
+      "verificationChecks": [
+        "Is the photo grainy and flash-lit?",
+        "Is the text bold red and uppercase?",
+        "Is the composition square?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject of the photo",
+      "Color of the pajamas",
+      "Specific text content"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the child",
+      "Exact brand logos on the toy",
+      "Original artist names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic film grain",
+        "Harsh flash lighting look",
+        "Flat, non-stylized typography"
+      ],
+      "avoid": [
+        "Modern digital filters",
+        "Drop shadows on text",
+        "Gradient fills"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the grain doesn't obscure the text legibility.",
+      "Verify the red color is vibrant against the muted background.",
+      "Check that the flash shadow is consistent with the light source."
+    ],
+    "reuseFormula": "Vintage Snapshot + Bold Red Sans-Serif Overlay + Square Format"
+  }
+}

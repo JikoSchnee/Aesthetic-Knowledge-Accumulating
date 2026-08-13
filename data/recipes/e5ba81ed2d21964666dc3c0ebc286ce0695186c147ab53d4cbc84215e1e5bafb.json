@@ -1,0 +1,283 @@
+{
+  "id": "e5ba81ed2d21964666dc3c0ebc286ce0695186c147ab53d4cbc84215e1e5bafb",
+  "skillId": "e5ba81ed2d21964666dc3c0ebc286ce0695186c147ab53d4cbc84215e1e5bafb",
+  "versionId": "e5ba81ed2d21964666dc3c0ebc286ce0695186c147ab53d4cbc84215e1e5bafb",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:05:34.108Z",
+  "approvedAt": "2026-08-12T12:05:34.108Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:05:34.108Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Thrill of It All.jpg",
+    "hash": "e5ba81ed2d21964666dc3c0ebc286ce0695186c147ab53d4cbc84215e1e5bafb",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Thrill of It All",
+    "artist": "Sam Smith",
+    "artworkUrl": "https://coverartarchive.org/release-group/b09b9056-bb1c-41ca-9d3a-0be3b2b73064/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b09b9056-bb1c-41ca-9d3a-0be3b2b73064",
+    "releaseGroupId": "b09b9056-bb1c-41ca-9d3a-0be3b2b73064",
+    "recordingId": "7c67ec7f-2f63-4d72-9a39-740a073a4ae9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "PraySam Smith",
+      "song": "Pray",
+      "performer": "Sam Smith",
+      "peakPosition": 55,
+      "firstChartDate": "2017-10-28",
+      "lastChartDate": "2017-10-28",
+      "appearances": [
+        {
+          "chartDate": "2017-10-28",
+          "position": 55
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast monochrome portrait layout monochrome close up portrait stark lighting minimalist typography high contrast grainy texture subject centered horizontally with eyes as the primary focal point high key white background contrasting with deep shadows in the subject s features symmetrical typographic placement balancing the top edge of the frame tight cropping that emphasizes facial expression and texture high contrast b w portrait pure white background wide tracked geometric sans serif in top corners",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Monochrome Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Black and white photography",
+        "Digital typesetting"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Editorial portraiture",
+        "Minimalist promotional posters"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "close-up portrait",
+        "stark lighting",
+        "minimalist typography",
+        "high contrast",
+        "grainy texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A stark, high-contrast black and white close-up portrait with minimalist sans-serif typography positioned at the top corners against a pure white background.",
+      "triggerTerms": [
+        "monochrome close-up portrait",
+        "stark black and white headshot",
+        "minimalist corner typography"
+      ],
+      "excludeWhen": [
+        "vibrant color palettes are required",
+        "busy or environmental backgrounds are needed",
+        "centered or decorative display type is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, centered headshot in grayscale featuring sharp detail and visible skin texture, set against a blown-out white background with wide-tracked sans-serif text placed in the upper left and right margins.",
+    "coreVisualRelationships": [
+      "Subject centered horizontally with eyes as the primary focal point",
+      "High-key white background contrasting with deep shadows in the subject's features",
+      "Symmetrical typographic placement balancing the top edge of the frame",
+      "Tight cropping that emphasizes facial expression and texture"
+    ],
+    "coreInvariants": [
+      "Pure white background (#FFFFFF) with no environmental detail",
+      "Grayscale color mode with high tonal contrast",
+      "Wide letter-spacing in all-caps typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered, large-scale headshot occupying approximately 80% of the vertical frame.",
+      "visualAnchor": "The subject's eyes, positioned slightly above the horizontal midline.",
+      "movementAndEyePath": "From the eyes to the top-left text, across to the top-right text, then down to the facial texture.",
+      "negativeSpace": "Significant white space surrounding the head and at the top corners where text resides."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure white background for stark isolation.",
+      "contrastColorRole": "Deep blacks and mid-tone grays within the subject's hair and shadows.",
+      "accentColorRole": "None; strictly achromatic.",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between the subject and the background.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Open counters",
+        "Geometric proportions"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "metadata",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "0.2em",
+            "leading": "1.2em",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top-left corner",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by negative space"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "0.2em",
+            "leading": "1.2em",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top-right corner",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by negative space"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for both corner elements to maintain symmetry.",
+      "graphicDevices": [
+        "None"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase case",
+          "Wide tracking",
+          "Geometric sans-serif style"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Tight kerning"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Medium",
+            "reason": "Matches the geometric clarity and modern feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat",
+            "reason": "Open-source alternative with similar geometric proportions.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura",
+            "reason": "Classic geometric sans that fits the minimalist aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, black and white close-up portrait of a person centered against a pure white background. Ensure sharp focus on skin texture and eyes.",
+        "overlayInstruction": "Add two strings of text in a geometric sans-serif font, all caps, with wide tracking. Place one string in the top-left corner and the other in the top-right corner, ensuring they are small and balanced."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Is the image strictly grayscale?",
+        "Is the text all-caps with wide tracking?",
+        "Is the portrait centered and tightly cropped?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject expression",
+      "Grain intensity",
+      "Tracking width",
+      "Shadow depth"
+    ],
+    "mustRedesign": [
+      "Any color elements",
+      "Centered text",
+      "Environmental backgrounds"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp facial detail",
+        "Clean typographic margins",
+        "Balanced tonal range"
+      ],
+      "avoid": [
+        "Muddy grays in the background",
+        "Cluttered compositions",
+        "Low-resolution textures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure white background isolation",
+      "Verify wide tracking in typography",
+      "Ensure no color artifacts are present",
+      "Confirm symmetrical corner placement of text"
+    ],
+    "reuseFormula": "High-contrast B&W portrait + pure white background + wide-tracked geometric sans-serif in top corners."
+  }
+}

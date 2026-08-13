@@ -1,0 +1,230 @@
+{
+  "id": "3fa86c49a33f56588332fad12cfc9cf590569507c62a5b80e6899405cc58be37",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:24:59.608Z",
+  "approvedAt": "2026-08-11T15:24:59.608Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:24:59.608Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Experiment.jpg",
+    "hash": "3fa86c49a33f56588332fad12cfc9cf590569507c62a5b80e6899405cc58be37",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Experiment",
+    "artist": "Kane Brown",
+    "artworkUrl": "https://coverartarchive.org/release-group/eb40eee2-24b4-423f-a993-096a9fbcf1ea/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/eb40eee2-24b4-423f-a993-096a9fbcf1ea",
+    "releaseGroupId": "eb40eee2-24b4-423f-a993-096a9fbcf1ea",
+    "recordingId": "f5177961-244f-4a93-b0ae-09e22d324b6f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "For My DaughterKane Brown",
+      "song": "For My Daughter",
+      "performer": "Kane Brown",
+      "peakPosition": 90,
+      "firstChartDate": "2019-11-16",
+      "lastChartDate": "2019-11-16",
+      "appearances": [
+        {
+          "chartDate": "2019-11-16",
+          "position": 90
+        }
+      ]
+    }
+  },
+  "dedupeText": "modern portrait album cover profile portrait monochromatic background geometric sans serif high contrast lighting modern country pop aesthetic red jacket against a deep blue field for maximum color pop subject s upward gaze directing the eye toward the top aligned text thin airy typography balancing the solid weight of the central portrait vertical divider line separating two distinct text blocks profile subject in primary color clothing solid contrasting background hairline geometric header text with minimal graphic accents",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Modern Portrait Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Photography",
+        "Digital Typography"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "profile portrait",
+        "monochromatic background",
+        "geometric sans serif",
+        "high contrast lighting",
+        "modern country",
+        "pop aesthetic"
+      ]
+    },
+    "visualDefinition": "A clean, high-contrast profile portrait of a man looking upward, set against a solid deep blue background. The subject wears a vibrant red jacket, creating a primary color contrast. The typography is a thin, wide-spaced geometric sans-serif with subtle technical modifications, positioned at the top of the frame.",
+    "coreVisualRelationships": [
+      "Red jacket against a deep blue field for maximum color pop",
+      "Subject's upward gaze directing the eye toward the top-aligned text",
+      "Thin, airy typography balancing the solid weight of the central portrait",
+      "Vertical divider line separating two distinct text blocks"
+    ],
+    "coreInvariants": [
+      "Solid, non-gradient blue background",
+      "Profile view of the subject facing left",
+      "High-key lighting on the face with deep shadows on the back of the head"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered horizontally, occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The subject's face and the red collar of the jacket.",
+      "movementAndEyePath": "Starts at the red jacket, moves up the profile of the face to the eyes, then follows the gaze to the title text at the top.",
+      "negativeSpace": "Ample blue space surrounding the head and text to create a clean, modern feel."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep cerulean blue background",
+      "contrastColorRole": "Vibrant scarlet red jacket",
+      "accentColorRole": "Warm skin tones and white text",
+      "saturationAndValueRelationship": "High saturation in the red and blue, with high value contrast between the skin and the background.",
+      "paletteRestrictions": [
+        "Primary blue",
+        "Primary red",
+        "Neutral skin tones",
+        "Pure white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Ultra-light stroke weight",
+        "Wide, square proportions",
+        "Open apertures",
+        "Strategic removal of small segments (e.g., crossbars) replaced by small red square accents"
+      ],
+      "characterSpecificRedesigns": [
+        "Crossbars of 'A' and 'E' replaced with small red geometric dots",
+        "Vertical stems of 'K' and 'N' are detached or stylized"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Hairline",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Sheared",
+            "corners": "Sharp",
+            "counters": "Large/Open",
+            "strokeCharacter": "Technical"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "None",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top 15% of frame",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "Minimal geometric gaps"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family with a vertical pipe separator for structural balance.",
+      "graphicDevices": [
+        "Vertical divider line",
+        "Small red square accents within letterforms"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Hairline weight",
+          "Wide tracking",
+          "Uppercase format"
+        ],
+        "avoid": [
+          "Serifs",
+          "Heavy weights",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Thin or Ultra Light",
+            "reason": "Provides the necessary geometric skeleton and wide proportions.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bank Gothic Light",
+            "reason": "Captures the squareness and technical feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A high-resolution profile portrait of a man with a fade haircut and a red jacket, looking upwards against a solid, flat cerulean blue background. Lighting should be sharp and directional from the front-left.",
+        "overlayInstruction": "Add two blocks of uppercase text in a hairline geometric sans-serif at the top. Separate the blocks with a thin white vertical line. Replace the crossbars of 'A' and 'E' with tiny red squares."
+      },
+      "verificationChecks": [
+        "Is the background a solid, non-textured blue?",
+        "Is the text weight thin enough to appear 'hairline'?",
+        "Does the subject's gaze lead directly to the text?",
+        "Are the red accents in the letters small and perfectly square?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background blue hue",
+      "Jacket color",
+      "Subject's ethnicity",
+      "Text tracking width"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the artist",
+      "Exact tattoo designs",
+      "Specific brand logos on clothing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, minimalist composition",
+        "Sharp photographic focus",
+        "Precise typographic alignment"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast text",
+        "Soft or blurry edges on the subject"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the vertical line is perfectly centered between text blocks.",
+      "Check that the red jacket is the most saturated element in the image.",
+      "Verify that the text is perfectly horizontal and aligned at the top.",
+      "Confirm the subject's profile is sharp against the blue background."
+    ],
+    "reuseFormula": "Profile subject in primary color clothing + solid contrasting background + hairline geometric header text with minimal graphic accents."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:07:26.935Z"
+}

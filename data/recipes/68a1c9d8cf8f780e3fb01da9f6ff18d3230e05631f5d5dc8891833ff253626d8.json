@@ -1,0 +1,308 @@
+{
+  "id": "68a1c9d8cf8f780e3fb01da9f6ff18d3230e05631f5d5dc8891833ff253626d8",
+  "skillId": "68a1c9d8cf8f780e3fb01da9f6ff18d3230e05631f5d5dc8891833ff253626d8",
+  "versionId": "68a1c9d8cf8f780e3fb01da9f6ff18d3230e05631f5d5dc8891833ff253626d8",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:40:49.960Z",
+  "approvedAt": "2026-08-12T17:40:49.960Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:40:49.960Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Premonition.jpg",
+    "hash": "68a1c9d8cf8f780e3fb01da9f6ff18d3230e05631f5d5dc8891833ff253626d8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Premonition",
+    "artist": "Survivor",
+    "artworkUrl": "https://coverartarchive.org/release-group/ae05057c-b2a5-3314-868b-60aa94778628/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ae05057c-b2a5-3314-868b-60aa94778628",
+    "releaseGroupId": "ae05057c-b2a5-3314-868b-60aa94778628",
+    "recordingId": "cac575b0-d015-4563-8779-c3b84064c6e3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Summer NightsSurvivor",
+      "song": "Summer Nights",
+      "performer": "Survivor",
+      "peakPosition": 62,
+      "firstChartDate": "1982-02-20",
+      "lastChartDate": "1982-04-10",
+      "appearances": [
+        {
+          "chartDate": "1982-02-20",
+          "position": 90
+        },
+        {
+          "chartDate": "1982-02-27",
+          "position": 80
+        },
+        {
+          "chartDate": "1982-03-06",
+          "position": 70
+        },
+        {
+          "chartDate": "1982-03-13",
+          "position": 67
+        },
+        {
+          "chartDate": "1982-03-20",
+          "position": 64
+        },
+        {
+          "chartDate": "1982-03-27",
+          "position": 62
+        },
+        {
+          "chartDate": "1982-04-03",
+          "position": 62
+        },
+        {
+          "chartDate": "1982-04-10",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "80s rock album cover with dramatic lighting dramatic chiaroscuro leather jackets neon script wide tracking sans serif purple vignette band portrait high contrast lighting on leather textures against a soft purple gradient expressive red script overlapping a rigid horizontal line of yellow text repetitive hand gestures creating a rhythmic horizontal pattern across the center deep black shadows blending the figures into the lower half of the frame dramatic studio portrait leather textures purple atmospheric vignette dual style typography script wide sans",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "80s Rock Album Cover with Dramatic Lighting",
+      "category": "Music Photography and Graphic Design",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design",
+        "Airbrushed Background"
+      ],
+      "useCases": [
+        "Album Art",
+        "Band Promotional Material",
+        "Retro 80s Themed Posters"
+      ],
+      "retrievalTags": [
+        "dramatic chiaroscuro",
+        "leather jackets",
+        "neon script",
+        "wide tracking sans-serif",
+        "purple vignette",
+        "band portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast group portrait featuring figures in leather jackets against a dark purple-vignetted background, topped with a vibrant red script logo and widely spaced yellow typography.",
+      "triggerTerms": [
+        "80s rock band portrait",
+        "dramatic shadow lighting leather jackets",
+        "purple glow background band photo"
+      ],
+      "excludeWhen": [
+        "bright daylight photography",
+        "minimalist modern design",
+        "pastel color palettes"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A row of five men in black leather jackets posed with hands framing their eyes, set against a dark, moody purple and black background with sharp, directional lighting creating deep shadows. The composition is anchored by a large, expressive red script at the top and a secondary line of ultra-wide tracked yellow text.",
+    "coreVisualRelationships": [
+      "High-contrast lighting on leather textures against a soft purple gradient",
+      "Expressive red script overlapping a rigid horizontal line of yellow text",
+      "Repetitive hand gestures creating a rhythmic horizontal pattern across the center",
+      "Deep black shadows blending the figures into the lower half of the frame"
+    ],
+    "coreInvariants": [
+      "Chiaroscuro lighting emphasizing facial features and leather highlights",
+      "Deep purple atmospheric vignette",
+      "Horizontal alignment of subjects"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Five figures arranged horizontally across the mid-ground, waist-up, occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The bright red script logo at the top center acts as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the red script, drop to the yellow text, then scan left-to-right across the illuminated faces and hands.",
+      "negativeSpace": "Heavy black negative space at the bottom and top corners to focus attention on the subjects and typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and dark purple for atmosphere and shadow.",
+      "contrastColorRole": "Bright red for the primary logo and pale yellow for the secondary text.",
+      "accentColorRole": "Cool white highlights on leather and skin tones.",
+      "saturationAndValueRelationship": "High value contrast between the dark background and the sharp, bright highlights on the subjects.",
+      "paletteRestrictions": [
+        "Deep Purple",
+        "True Black",
+        "Vibrant Red",
+        "Pale Yellow"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "A mix of expressive brush script and geometric sans-serif.",
+      "letterConstructionRules": [
+        "Script: Fluid, continuous strokes with varying thickness and long descenders.",
+        "Sans-serif: Monolinear, geometric, and extremely wide proportions."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'S' in the script has a large, sweeping top curve.",
+        "The 'r' and 'v' in the script are tightly connected with sharp angles."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "tight",
+            "strokeCharacter": "brush-like"
+          },
+          "typesetting": {
+            "case": "titlecase",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "n/a",
+            "lineBreakPattern": "single-line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "overlaps secondary text",
+            "relationshipToImage": "floating above subjects"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "display",
+          "hierarchyLevel": 2,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "extreme",
+            "leading": "n/a",
+            "lineBreakPattern": "single-line",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "upper third",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "underneath script",
+            "relationshipToImage": "horizontal divider"
+          },
+          "treatment": {
+            "fill": "pale yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Expressive, organic script contrasted against rigid, widely-spaced geometric sans-serif.",
+      "graphicDevices": [
+        "Horizontal text line acting as a spatial divider",
+        "Vignetted lighting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extreme tracking of the sans-serif text",
+          "Vibrant red color of the script"
+        ],
+        "avoid": [
+          "Standard kerning",
+          "Serif fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mistral or custom brush script",
+            "reason": "Matches the fluid, energetic feel of the top logo.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Bank Gothic or Microgramma",
+            "reason": "Matches the wide, geometric structure of the secondary text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of five men in black leather jackets standing in a row. Use dramatic side-lighting to create deep shadows and bright highlights on the leather. The background should be a dark purple vignette fading to black at the edges.",
+        "overlayInstruction": "Add a large red brush-style script logo at the top center. Below it, add a line of uppercase yellow geometric sans-serif text with extremely wide tracking that spans the width of the frame."
+      },
+      "verificationChecks": [
+        "Is the lighting high-contrast with visible leather texture?",
+        "Is the purple background a soft, atmospheric glow?",
+        "Is the yellow text extremely widely spaced?",
+        "Does the red script overlap the yellow text slightly?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the purple glow",
+      "Number of figures in the row",
+      "Tracking width of the secondary text"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the band members",
+      "Original band logo shapes",
+      "Exact text content"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic chiaroscuro lighting",
+        "80s-style color palette (purple, red, yellow)",
+        "Clean, wide-tracked typography"
+      ],
+      "avoid": [
+        "Flat, even lighting",
+        "Modern minimalist sans-serifs with tight kerning",
+        "Bright, multi-colored backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the leather jackets have distinct specular highlights.",
+      "Check that the red script is legible but expressive.",
+      "Verify the purple vignette doesn't overpower the subjects.",
+      "Confirm the yellow text is perfectly horizontal and centered."
+    ],
+    "reuseFormula": "Dramatic Studio Portrait + Leather Textures + Purple Atmospheric Vignette + Dual-Style Typography (Script/Wide-Sans)"
+  }
+}

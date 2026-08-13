@@ -1,0 +1,284 @@
+{
+  "id": "be1174c16554f56f65f580f9388ffebf286c5431bd0e2c8195e459f554cb7476",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T01:14:10.680Z",
+  "approvedAt": "2026-08-12T01:14:10.680Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T01:14:10.680Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Songs From Big Sur.jpg",
+    "hash": "be1174c16554f56f65f580f9388ffebf286c5431bd0e2c8195e459f554cb7476",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Songs From Big Sur",
+    "artist": "Bobby Darin",
+    "artworkUrl": "https://coverartarchive.org/release-group/e72ac294-f1d5-3237-98e6-19891a2b8a02/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e72ac294-f1d5-3237-98e6-19891a2b8a02",
+    "releaseGroupId": "e72ac294-f1d5-3237-98e6-19891a2b8a02",
+    "recordingId": "433331d7-ba8c-4a0c-989a-8d988198b473",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Long Line RiderBobby Darin",
+      "song": "Long Line Rider",
+      "performer": "Bobby Darin",
+      "peakPosition": 79,
+      "firstChartDate": "1969-02-08",
+      "lastChartDate": "1969-02-22",
+      "appearances": [
+        {
+          "chartDate": "1969-02-08",
+          "position": 81
+        },
+        {
+          "chartDate": "1969-02-15",
+          "position": 81
+        },
+        {
+          "chartDate": "1969-02-22",
+          "position": 79
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage duo tone folk album cover 1970s folk music slab serif double exposure high contrast blue and gold vintage photography subject to landscape double exposure primary blue and gold color contrast horizontal banding separating main image from footer text large scale display type against dark background combine a high contrast blue tinted portrait with a dark landscape overlay anchored by bold yellow slab serif typography and a red horizontal footer",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Duo-Tone Folk Album Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Duo-tone Print"
+      ],
+      "useCases": [
+        "Music Packaging",
+        "Poster Design",
+        "Retro Editorial Layout"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "folk music",
+        "slab serif",
+        "double exposure",
+        "high contrast",
+        "blue and gold",
+        "vintage photography"
+      ]
+    },
+    "visualDefinition": "A high-contrast, duo-tone composition featuring a male musician with a guitar overlaid on a dark landscape. The aesthetic utilizes a primary deep blue palette with a horizontal red-tinted band at the bottom, topped with bold, yellow slab-serif typography.",
+    "coreVisualRelationships": [
+      "Subject-to-landscape double exposure",
+      "Primary blue and gold color contrast",
+      "Horizontal banding separating main image from footer text",
+      "Large-scale display type against dark background"
+    ],
+    "coreInvariants": [
+      "High-contrast monochrome treatment of the portrait",
+      "Deep indigo/navy blue dominance",
+      "Heavy slab-serif font with tight leading",
+      "Horizontal red gradient band at the base"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Musician positioned on the left third, medium shot, slightly angled toward the center.",
+      "visualAnchor": "The bright yellow display text in the upper right quadrant.",
+      "movementAndEyePath": "Starts at the portrait, moves to the large name text, then down through the landscape to the footer text.",
+      "negativeSpace": "Deep blue shadows and dark landscape provide significant breathing room for the yellow text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Navy Blue (Background and Shadows)",
+      "contrastColorRole": "Golden Yellow (Primary Typography)",
+      "accentColorRole": "Crimson Red (Lower Horizontal Band)",
+      "saturationAndValueRelationship": "High value contrast between the yellow text and dark blue background; low saturation in the photographic elements.",
+      "paletteRestrictions": [
+        "Navy Blue",
+        "Golden Yellow",
+        "Crimson Red",
+        "Off-White/Light Blue highlights"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extended Slab Serif",
+      "letterConstructionRules": [
+        "Heavy, blocky serifs",
+        "Low stroke contrast",
+        "Wide, horizontal proportions",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Extended",
+            "weight": "Bold/Black",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Square/Slab",
+            "corners": "Sharp",
+            "counters": "Small",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Very Tight",
+            "lineBreakPattern": "Two lines",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top Right",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over dark background"
+          },
+          "treatment": {
+            "fill": "Solid Yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Extended",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Slab",
+            "corners": "Sharp",
+            "counters": "Small",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Normal",
+            "leading": "Auto",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Bottom Center",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlaid on red band"
+          },
+          "treatment": {
+            "fill": "Solid Yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in different scales and weights.",
+      "graphicDevices": [
+        "Horizontal color banding",
+        "Duo-tone photographic filter"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif style",
+          "Extended width",
+          "Yellow-on-blue color scheme"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "High-contrast serifs like Didot"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab serifs and geometric structure.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Clarendon Wide",
+            "reason": "Captures the vintage 70s folk/country aesthetic.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Egyptian Slate Bold",
+            "reason": "Provides the necessary horizontal weight and slab terminals.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a high-contrast duo-tone image in deep navy blue. On the left, a man with a mustache sings into a microphone while holding a guitar. The background is a dark, silhouetted landscape of hills. At the bottom, add a horizontal band with a dark red gradient.",
+        "overlayInstruction": "Add bold, extended slab-serif text in golden yellow. Place the primary name in the top right corner with tight leading. Place the secondary title centered in the red band at the bottom."
+      },
+      "verificationChecks": [
+        "Is the primary color deep navy blue?",
+        "Is the text a bold, yellow slab-serif?",
+        "Is there a red band at the bottom?",
+        "Is the portrait high-contrast and integrated with the landscape?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the blue duo-tone",
+      "Width of the red bottom band",
+      "Tracking of the display typography",
+      "Opacity of the landscape overlay"
+    ],
+    "mustRedesign": [
+      "Specific artist likeness",
+      "Original album title text",
+      "Record label logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s print feel",
+        "Strong legibility of yellow text on dark blue",
+        "Cohesive duo-tone color palette"
+      ],
+      "avoid": [
+        "Modern digital gradients",
+        "Clean, high-resolution full-color photography",
+        "Thin or delicate fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the yellow text is not vibrating against the blue.",
+      "Check that the red band does not overwhelm the composition.",
+      "Verify the slab serifs are thick and blocky.",
+      "Confirm the portrait has a grainy, vintage texture."
+    ],
+    "reuseFormula": "Combine a high-contrast blue-tinted portrait with a dark landscape overlay, anchored by bold yellow slab-serif typography and a red horizontal footer."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:29:23.662Z"
+}

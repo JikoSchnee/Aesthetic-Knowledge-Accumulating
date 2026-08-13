@@ -1,0 +1,255 @@
+{
+  "id": "a4b915c0d2f84978108601afa75e5e2dd52239af8c91532fef11f2c1eca6b0e1",
+  "skillId": "a4b915c0d2f84978108601afa75e5e2dd52239af8c91532fef11f2c1eca6b0e1",
+  "versionId": "a4b915c0d2f84978108601afa75e5e2dd52239af8c91532fef11f2c1eca6b0e1",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:38:01.168Z",
+  "approvedAt": "2026-08-12T09:38:01.168Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:38:01.168Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Tremaine.jpg",
+    "hash": "a4b915c0d2f84978108601afa75e5e2dd52239af8c91532fef11f2c1eca6b0e1",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Tremaine",
+    "artist": "Trey Songz",
+    "artworkUrl": "https://coverartarchive.org/release-group/ad6915d5-2873-422d-96a2-50c81ec7f626/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ad6915d5-2873-422d-96a2-50c81ec7f626",
+    "releaseGroupId": "ad6915d5-2873-422d-96a2-50c81ec7f626",
+    "recordingId": "af195d81-6146-4479-813e-acbd0d7c8e7e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Nobody Else But YouTrey Songz",
+      "song": "Nobody Else But You",
+      "performer": "Trey Songz",
+      "peakPosition": 92,
+      "firstChartDate": "2017-06-24",
+      "lastChartDate": "2017-07-08",
+      "appearances": [
+        {
+          "chartDate": "2017-06-24",
+          "position": 99
+        },
+        {
+          "chartDate": "2017-07-01",
+          "position": 92
+        },
+        {
+          "chartDate": "2017-07-08",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "atmospheric portrait with wide spaced sans serif foggy background desaturated portrait wide tracking geometric sans serif overcast lighting subject depth vs misty background flatness intricate shirt pattern vs minimalist typography horizontal text line vs vertical subject posture cool toned desaturation vs warm skin undertones misty portrait geometric sans extreme tracking atmospheric minimalism",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Atmospheric Portrait with Wide-Spaced Sans-Serif",
+      "category": "Music Album Cover",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Album Art",
+        "Editorial Fashion Spread",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "foggy background",
+        "desaturated portrait",
+        "wide tracking",
+        "geometric sans-serif",
+        "overcast lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A desaturated, moody portrait featuring a central subject against a misty, low-contrast background with ultra-wide-spaced geometric typography spanning the horizontal center.",
+      "triggerTerms": [
+        "misty portrait with wide-spaced text",
+        "desaturated urban fog aesthetic",
+        "minimalist centered typography overlay"
+      ],
+      "excludeWhen": [
+        "vibrant high-contrast colors are required",
+        "dense text blocks are needed",
+        "sharp, clear background details are essential"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium-shot portrait of a male subject in a patterned open shirt, set against a heavily diffused, foggy background. The color palette is muted and cool-toned, with a clean, white geometric sans-serif title positioned horizontally across the mid-section of the frame using extreme letter-spacing.",
+    "coreVisualRelationships": [
+      "Subject depth vs. misty background flatness",
+      "Intricate shirt pattern vs. minimalist typography",
+      "Horizontal text line vs. vertical subject posture",
+      "Cool-toned desaturation vs. warm skin undertones"
+    ],
+    "coreInvariants": [
+      "Extreme horizontal tracking (letter-spacing)",
+      "Misty, low-contrast background bokeh",
+      "Centered horizontal text alignment at chest level",
+      "Desaturated, matte color grading"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centrally located, captured from the waist up, occupying approximately 60% of the vertical frame.",
+      "visualAnchor": "The subject's direct gaze and the high-contrast white text spanning the width of the image.",
+      "movementAndEyePath": "Eyes start at the subject's face, move down to the patterned shirt, then scan horizontally across the wide-spaced text.",
+      "negativeSpace": "Extensive negative space provided by the foggy, overcast sky and background."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted greys and desaturated blues in the background and shadows.",
+      "contrastColorRole": "Pure white for the typography and highlights.",
+      "accentColorRole": "Warm brown and tan tones in the skin and shirt pattern.",
+      "saturationAndValueRelationship": "Low saturation overall with a compressed value range in the background to simulate fog.",
+      "paletteRestrictions": [
+        "No high-chroma primaries",
+        "No deep blacks; shadows are lifted and matte"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Monolinear stroke weight",
+        "Perfectly circular 'O' and 'G' skeletons (if applicable)",
+        "Sharp, unbracketed terminals",
+        "Equal width distribution across the frame"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' has a centered horizontal bar",
+        "The 'E' has equal length horizontal strokes"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Medium-wide",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "800-1000 units",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Very airy"
+          },
+          "composition": {
+            "position": "Middle-third horizontal",
+            "scale": "Small to medium point size relative to frame",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays the subject",
+            "relationshipToImage": "Floating foreground element"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used with extreme spacing to create a graphic line effect.",
+      "graphicDevices": [
+        "Atmospheric depth through fog"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric skeleton",
+          "Uppercase format",
+          "Extreme tracking"
+        ],
+        "avoid": [
+          "Serifs",
+          "Script fonts",
+          "Condensed widths"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Medium",
+            "reason": "Classic geometric proportions and clean lines.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham Medium",
+            "reason": "Modern, balanced sans-serif with excellent legibility at wide tracking.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat",
+            "reason": "Geometric open-source alternative with similar weight and structure.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a male subject in an open patterned shirt, standing in a thick, desaturated fog that obscures the background landscape. Apply a matte, low-contrast color grade.",
+        "overlayInstruction": "Add a single line of uppercase text in a geometric sans-serif font across the center of the image. Set tracking to at least 800 to span the full width of the frame in white."
+      },
+      "verificationChecks": [
+        "Text is perfectly horizontal and centered.",
+        "Letter spacing is wide enough to touch both edges of the frame.",
+        "Background is sufficiently misty to make white text pop.",
+        "Color palette remains desaturated and cool."
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Fog density",
+      "Shirt pattern complexity",
+      "Typography tracking width",
+      "Color temperature (cool vs neutral)"
+    ],
+    "mustRedesign": [
+      "Avoid using specific brand logos on clothing",
+      "Do not use high-contrast black shadows",
+      "Ensure text is not crowded"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Atmospheric depth through layering",
+        "Clean, legible geometric typography",
+        "Balanced horizontal composition"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Vibrant or neon colors",
+        "Tight kerning"
+      ]
+    },
+    "postGenerationChecks": [
+      "Is the text color pure white?",
+      "Is the background detail sufficiently blurred/foggy?",
+      "Is the subject's skin tone natural despite the desaturation?",
+      "Does the text span the majority of the image width?"
+    ],
+    "reuseFormula": "Misty Portrait + Geometric Sans + Extreme Tracking = Atmospheric Minimalism"
+  }
+}

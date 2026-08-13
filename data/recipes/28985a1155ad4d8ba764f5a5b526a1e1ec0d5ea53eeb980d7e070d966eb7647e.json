@@ -1,0 +1,261 @@
+{
+  "id": "28985a1155ad4d8ba764f5a5b526a1e1ec0d5ea53eeb980d7e070d966eb7647e",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T14:50:22.828Z",
+  "approvedAt": "2026-08-11T14:50:22.828Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T14:50:22.828Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Crazy Ex‐Girlfriend.jpg",
+    "hash": "28985a1155ad4d8ba764f5a5b526a1e1ec0d5ea53eeb980d7e070d966eb7647e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Crazy Ex‐Girlfriend",
+    "artist": "Miranda Lambert",
+    "artworkUrl": "https://coverartarchive.org/release-group/70f1a6a6-1e5a-32d4-ad11-0c72c1e6d2ac/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/70f1a6a6-1e5a-32d4-ad11-0c72c1e6d2ac",
+    "releaseGroupId": "70f1a6a6-1e5a-32d4-ad11-0c72c1e6d2ac",
+    "recordingId": "b49ab40c-bb42-480f-a396-7af09568c357",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Famous In A Small TownMiranda Lambert",
+      "song": "Famous In A Small Town",
+      "performer": "Miranda Lambert",
+      "peakPosition": 87,
+      "firstChartDate": "2007-10-06",
+      "lastChartDate": "2007-11-24",
+      "appearances": [
+        {
+          "chartDate": "2007-10-06",
+          "position": 95
+        },
+        {
+          "chartDate": "2007-10-13",
+          "position": 93
+        },
+        {
+          "chartDate": "2007-10-20",
+          "position": 94
+        },
+        {
+          "chartDate": "2007-10-27",
+          "position": 98
+        },
+        {
+          "chartDate": "2007-11-03",
+          "position": 93
+        },
+        {
+          "chartDate": "2007-11-10",
+          "position": 87
+        },
+        {
+          "chartDate": "2007-11-17",
+          "position": 88
+        },
+        {
+          "chartDate": "2007-11-24",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "rustic country music album cover country music rustic distressed western portrait grunge barbed wire chains subject framed by vertical industrial textures warm skin tones contrasting with cold rusted metal typographic badge overlapping the subject s lower torso vertical barbed wire line separating the portrait from a textured red field combine a high contrast portrait with industrial textures chains wire and anchor the composition with a heavy western style illustrative typographic badge in a corner",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Rustic Country Music Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Illustration",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "country music",
+        "rustic",
+        "distressed",
+        "western",
+        "portrait",
+        "grunge",
+        "barbed wire",
+        "chains"
+      ]
+    },
+    "visualDefinition": "A medium close-up portrait of a female artist with blonde hair, set against a gritty, industrial background of rusted chains and barbed wire. The composition is split between a photographic subject and a complex, illustrative typographic badge in the lower right.",
+    "coreVisualRelationships": [
+      "Subject framed by vertical industrial textures",
+      "Warm skin tones contrasting with cold, rusted metal",
+      "Typographic badge overlapping the subject's lower torso",
+      "Vertical barbed wire line separating the portrait from a textured red field"
+    ],
+    "coreInvariants": [
+      "Distressed, weathered textures on all surfaces",
+      "Western-inspired illustrative flourishes",
+      "High-contrast lighting on the face",
+      "Earthy, desaturated color palette"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered horizontally, occupying the top two-thirds of the frame at a medium scale.",
+      "visualAnchor": "The subject's eyes serve as the primary anchor, with the ornate typographic badge as the secondary anchor.",
+      "movementAndEyePath": "Eye starts at the face, moves down the vertical lines of the chains, and settles on the illustrative badge in the bottom right.",
+      "negativeSpace": "Minimal; the frame is densely packed with textures and industrial elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm browns and muted golds in the hair and clothing.",
+      "contrastColorRole": "Deep blacks and rusted iron grays in the background chains.",
+      "accentColorRole": "Bold red used for secondary text and a textured vertical panel on the right.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast in the facial highlights and deep shadows.",
+      "paletteRestrictions": [
+        "Avoid bright neons",
+        "Avoid clean white backgrounds",
+        "Limit to earthy tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Condensed Serif and Slab Serif",
+      "letterConstructionRules": [
+        "Arched baselines for primary text",
+        "Distressed, eroded edges on all glyphs",
+        "Varying weights between primary and secondary lines"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are warped to fit within ribbon and scroll illustrations"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Condensed Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "medium",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "slightly rounded",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "arched",
+            "overlap": "on top of subject",
+            "relationshipToImage": "contained within a badge"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "black",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "weathered",
+            "distortion": "arched"
+          }
+        }
+      ],
+      "pairingStrategy": "Condensed white serif for the name paired with a bold red slab serif for the title, both housed in a vintage scroll graphic.",
+      "graphicDevices": [
+        "Western-style scrolls",
+        "Filigree flourishes",
+        "Crossed pistols icon",
+        "Barbed wire divider"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Arched layout",
+          "Distressed texture",
+          "Ribbon container"
+        ],
+        "avoid": [
+          "Clean modern sans-serifs",
+          "Drop shadows",
+          "Gradient fills"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Clarendon Condensed",
+            "reason": "Provides the necessary slab-serif weight and western feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mesquite",
+            "reason": "Captures the decorative, wood-block aesthetic of the era.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a blonde woman in a gold jacket against a background of rusted chains and a red textured wall with barbed wire, leaving the bottom right corner clear for a graphic overlay.",
+        "overlayInstruction": "Apply a distressed, western-style badge in the bottom right featuring arched text on scrolls, filigree, and a small icon of crossed pistols."
+      },
+      "verificationChecks": [
+        "Is the text properly arched within the scrolls?",
+        "Does the texture of the badge match the grit of the background?",
+        "Is the barbed wire line sharp and distinct?",
+        "Are the skin tones natural despite the heavy background texture?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of rust",
+      "Hair color of subject",
+      "Color of the right-side panel",
+      "Complexity of the scrollwork"
+    ],
+    "mustRedesign": [
+      "Specific artist likeness",
+      "Exact brand logos",
+      "Specific wording of the title"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Gritty industrial texture",
+        "Western illustrative style",
+        "High-contrast portraiture"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Minimalist layouts",
+        "Modern fashion aesthetics"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no text is illegible due to distressing",
+      "Verify the badge does not obscure the subject's face",
+      "Check for consistent lighting between subject and background",
+      "Confirm the barbed wire looks integrated into the scene"
+    ],
+    "reuseFormula": "Combine a high-contrast portrait with industrial textures (chains/wire) and anchor the composition with a heavy, western-style illustrative typographic badge in a corner."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:05:11.749Z"
+}

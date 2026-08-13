@@ -1,0 +1,277 @@
+{
+  "id": "eb53ae76a40446493f8b4dd59bfdc704aed14be9f382ab403defadd4e65e6aa5",
+  "skillId": "eb53ae76a40446493f8b4dd59bfdc704aed14be9f382ab403defadd4e65e6aa5",
+  "versionId": "eb53ae76a40446493f8b4dd59bfdc704aed14be9f382ab403defadd4e65e6aa5",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:10:18.910Z",
+  "approvedAt": "2026-08-12T06:10:18.910Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:10:18.910Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "American Dream.jpg",
+    "hash": "eb53ae76a40446493f8b4dd59bfdc704aed14be9f382ab403defadd4e65e6aa5",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "American Dream",
+    "artist": "Mike Jones",
+    "artworkUrl": "https://coverartarchive.org/release-group/e2f42e80-5904-3579-bd35-332ed533a356/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e2f42e80-5904-3579-bd35-332ed533a356",
+    "releaseGroupId": "e2f42e80-5904-3579-bd35-332ed533a356",
+    "recordingId": "8011ba9d-76bd-45cb-a179-86da24c80f1b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Mr. JonesMike Jones",
+      "song": "Mr. Jones",
+      "performer": "Mike Jones",
+      "peakPosition": 92,
+      "firstChartDate": "2007-01-27",
+      "lastChartDate": "2007-01-27",
+      "appearances": [
+        {
+          "chartDate": "2007-01-27",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "patriotic hip hop album cover hip hop patriotic american flag performer script typography high contrast urban music subject in dark clothing contrasting with a bright desaturated background diagonal body positioning creating a sense of movement and energy layered typography with a small serif header and a large script footer symbolic background elements like stars and stripes integrated into the atmosphere urban portrait desaturated national symbol slab serif header bold script title",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Patriotic Hip-Hop Album Cover",
+      "category": "Music Artwork",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Posters",
+        "Music Social Media Assets"
+      ],
+      "retrievalTags": [
+        "hip hop",
+        "patriotic",
+        "american flag",
+        "performer",
+        "script typography",
+        "high contrast",
+        "urban music"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast urban portrait featuring a performer against a desaturated flag background with layered script and serif typography.",
+      "triggerTerms": [
+        "urban patriotic album cover",
+        "hip hop artist with flag background",
+        "script and serif music branding"
+      ],
+      "excludeWhen": [
+        "minimalist photography",
+        "bright pastel colors",
+        "classical music themes"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dynamic low-angle portrait of a male artist singing into a microphone, set against a faded, semi-transparent American flag. The composition uses a dark foreground figure to create depth against a bright, hazy background, anchored by a large, stylized script title in the lower third.",
+    "coreVisualRelationships": [
+      "Subject in dark clothing contrasting with a bright, desaturated background",
+      "Diagonal body positioning creating a sense of movement and energy",
+      "Layered typography with a small serif header and a large script footer",
+      "Symbolic background elements like stars and stripes integrated into the atmosphere"
+    ],
+    "coreInvariants": [
+      "High-contrast lighting on the subject's face and hands",
+      "Desaturated color palette with dominant blues and whites",
+      "A mix of formal serif and expressive script fonts"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centrally located, leaning diagonally from the top right toward the center, filling approximately 60% of the frame.",
+      "visualAnchor": "The large script title at the bottom serves as the primary visual anchor.",
+      "movementAndEyePath": "The eye follows the diagonal line of the artist's body from the top right down to the microphone and then to the large script text at the bottom.",
+      "negativeSpace": "The upper left quadrant contains the most negative space, occupied by the hazy flag pattern."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and dark blues in the subject's clothing and shadows.",
+      "contrastColorRole": "Bright whites and light grays in the background and highlights.",
+      "accentColorRole": "Muted red and blue tones within the flag and the title's drop shadow.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the subject and the background.",
+      "paletteRestrictions": [
+        "Avoid vibrant or neon colors",
+        "Maintain a desaturated, gritty feel"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "A combination of a wide-tracked slab serif and a heavy, slanted formal script.",
+      "letterConstructionRules": [
+        "Header: All-caps, high-contrast slab serif with wide tracking.",
+        "Title: Thick-stroke script with connected lowercase and ornate uppercase swashes."
+      ],
+      "characterSpecificRedesigns": [
+        "The script 'A' and 'D' feature extended flourishes that wrap around adjacent letters."
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "overlaps subject",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "dark blue",
+            "shadow": "soft drop shadow",
+            "depth": "layered",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "bold",
+            "contrast": "medium",
+            "xHeight": "high",
+            "terminals": "slab",
+            "corners": "sharp",
+            "counters": "wide",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "very wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "background"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a rigid, authoritative serif and a fluid, personal script.",
+      "graphicDevices": [
+        "Halftone star pattern at the bottom edge",
+        "Faded flag overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide tracking in header",
+          "Thick outline on script text"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Thin scripts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Clarendon",
+            "reason": "Matches the bold, slab-serif feel of the header.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Shelley Allegro",
+            "reason": "Provides the ornate, formal script quality for the title.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast photo of a male performer in a black durag and shirt, singing into a microphone. The background should be a desaturated, hazy American flag with a bright light source from the left.",
+        "overlayInstruction": "Add the artist name at the top in a wide-tracked slab serif. Add the main title at the bottom in a large, bold script with a white fill and a thick dark blue outline, slightly overlapping the subject."
+      },
+      "verificationChecks": [
+        "Is the header text wide-tracked?",
+        "Does the script text have a thick outline?",
+        "Is the background flag desaturated?",
+        "Is the lighting high-contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Flag opacity",
+      "Script outline thickness",
+      "Subject's diagonal angle"
+    ],
+    "mustRedesign": [
+      "Avoid using exact artist likeness",
+      "Do not copy specific brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clear hierarchy between header and title",
+        "Dramatic lighting on the subject"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for legible text against the background",
+      "Ensure the halftone pattern at the bottom is subtle",
+      "Verify the diagonal composition feels balanced",
+      "Confirm the color palette remains desaturated"
+    ],
+    "reuseFormula": "Urban Portrait + Desaturated National Symbol + (Slab Serif Header / Bold Script Title)"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:44:25.890Z"
+}

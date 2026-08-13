@@ -1,0 +1,281 @@
+{
+  "id": "3eaf7ae931dcd2febf639262f083396aa637dd87e861f95a7848e5bd17ef5482",
+  "skillId": "3eaf7ae931dcd2febf639262f083396aa637dd87e861f95a7848e5bd17ef5482",
+  "versionId": "3eaf7ae931dcd2febf639262f083396aa637dd87e861f95a7848e5bd17ef5482",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:09:46.644Z",
+  "approvedAt": "2026-08-13T05:09:46.644Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:09:46.644Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Remington.jpg",
+    "hash": "3eaf7ae931dcd2febf639262f083396aa637dd87e861f95a7848e5bd17ef5482",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Remington",
+    "artist": "Granger Smith",
+    "artworkUrl": "https://coverartarchive.org/release-group/6a27e90e-009a-4410-a842-edf2fd3f824c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6a27e90e-009a-4410-a842-edf2fd3f824c",
+    "releaseGroupId": "6a27e90e-009a-4410-a842-edf2fd3f824c",
+    "recordingId": "2baa4795-7d7b-4d58-82dd-a4e919a551cf",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "If The Boot FitsGranger Smith",
+      "song": "If The Boot Fits",
+      "performer": "Granger Smith",
+      "peakPosition": 80,
+      "firstChartDate": "2017-01-28",
+      "lastChartDate": "2017-02-18",
+      "appearances": [
+        {
+          "chartDate": "2017-01-28",
+          "position": 100
+        },
+        {
+          "chartDate": "2017-02-11",
+          "position": 80
+        },
+        {
+          "chartDate": "2017-02-18",
+          "position": 84
+        }
+      ]
+    }
+  },
+  "dedupeText": "country music album cover aesthetic country music denim shirt camo hat weathered wood stencil typography rustic portrait subject positioned left of center to balance right aligned typography texture of the denim and wood mirrored in the distressed fill of the display type warm desaturated color palette unifying the subject and background rustic portrait weathered wood textured stencil type script subtitle",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Country Music Album Cover Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Posters",
+        "Social Media Banners"
+      ],
+      "retrievalTags": [
+        "country music",
+        "denim shirt",
+        "camo hat",
+        "weathered wood",
+        "stencil typography",
+        "rustic portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A rustic, masculine portrait layout featuring a subject in denim against weathered wood with heavy, textured stencil-style display type.",
+      "triggerTerms": [
+        "country music album cover style",
+        "weathered wood background portrait",
+        "textured stencil typography layout"
+      ],
+      "excludeWhen": [
+        "clean minimalist corporate designs",
+        "bright neon pop aesthetics",
+        "high-fashion studio photography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium close-up portrait of a man in a denim shirt and camouflage cap, positioned off-center against a horizontal weathered wood backdrop, featuring large-scale textured block lettering and a secondary script subtitle.",
+    "coreVisualRelationships": [
+      "Subject positioned left-of-center to balance right-aligned typography",
+      "Texture of the denim and wood mirrored in the distressed fill of the display type",
+      "Warm, desaturated color palette unifying the subject and background"
+    ],
+    "coreInvariants": [
+      "Horizontal weathered wood grain background",
+      "Distressed or stenciled texture within the primary display font",
+      "Desaturated, warm-toned color grading"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left two-thirds of the frame, medium close-up scale from chest up.",
+      "visualAnchor": "The subject's face and the large-scale block lettering on the right.",
+      "movementAndEyePath": "Starts at the subject's eyes, moves right to the large display text, then down to the script subtitle.",
+      "negativeSpace": "The right-hand side of the wooden background serves as the canvas for the typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted blues and browns from denim and wood.",
+      "contrastColorRole": "Dark charcoal or black for the primary textured text.",
+      "accentColorRole": "Off-white or cream for the script subtitle.",
+      "saturationAndValueRelationship": "Low saturation with a warm, vintage-inspired tint; medium contrast.",
+      "paletteRestrictions": [
+        "Avoid vibrant primary colors",
+        "Limit to earth tones and denim blues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy, condensed sans-serif and elegant script.",
+      "letterConstructionRules": [
+        "Primary text uses a thick, blocky stencil-like skeleton with a distressed mesh texture fill.",
+        "Secondary text uses a fluid, slanted brush script with high contrast."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'G' and 'S' in the display type have sharp, squared-off terminals.",
+        "The script 'R' features a long, sweeping tail."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif-stencil",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "two-line stack",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over background wood"
+          },
+          "treatment": {
+            "fill": "distressed-mesh-texture",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "weathered",
+            "distortion": "grit"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "tapered",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "titlecase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over background wood"
+          },
+          "treatment": {
+            "fill": "solid-white",
+            "outline": "none",
+            "shadow": "subtle-drop",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a heavy, masculine industrial block font with a refined, elegant script.",
+      "graphicDevices": [
+        "Distressed texture overlays",
+        "Vignetting around the edges"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right-aligned text block",
+          "Distressed texture in the main title"
+        ],
+        "avoid": [
+          "Centered typography",
+          "Clean, modern sans-serifs without texture"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Stencil Std",
+            "reason": "Provides the necessary weight and blocky structure for the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral or Brush Script",
+            "reason": "Captures the fluid, hand-written feel of the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in a denim shirt and camo cap against a horizontal weathered wood wall, using warm, desaturated tones.",
+        "overlayInstruction": "Add large, right-aligned block text with a distressed mesh texture in the upper right, followed by a white script subtitle below it."
+      },
+      "verificationChecks": [
+        "Is the main text right-aligned?",
+        "Does the main text have a distressed texture?",
+        "Is the background weathered wood?",
+        "Is the color palette warm and desaturated?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the wood grain",
+      "Amount of distress in the typography",
+      "Warmth of the color grade"
+    ],
+    "mustRedesign": [
+      "Do not use specific artist names or logos",
+      "Do not replicate the exact camouflage pattern"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic weathered wood texture",
+        "Legible but heavily distressed display type",
+        "Cohesive warm-toned color grading"
+      ],
+      "avoid": [
+        "Plastic-looking skin textures",
+        "Perfectly clean, digital-looking fonts",
+        "High-saturation blues"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text texture matches the rustic theme",
+      "Ensure the subject's lighting matches the background",
+      "Verify the script font is legible against the wood grain"
+    ],
+    "reuseFormula": "Rustic Portrait + Weathered Wood + Textured Stencil Type + Script Subtitle"
+  }
+}

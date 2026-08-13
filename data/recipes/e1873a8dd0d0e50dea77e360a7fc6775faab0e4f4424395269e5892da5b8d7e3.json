@@ -1,0 +1,292 @@
+{
+  "id": "e1873a8dd0d0e50dea77e360a7fc6775faab0e4f4424395269e5892da5b8d7e3",
+  "skillId": "e1873a8dd0d0e50dea77e360a7fc6775faab0e4f4424395269e5892da5b8d7e3",
+  "versionId": "e1873a8dd0d0e50dea77e360a7fc6775faab0e4f4424395269e5892da5b8d7e3",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:29:58.434Z",
+  "approvedAt": "2026-08-12T09:29:58.434Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:29:58.434Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Emergency.jpg",
+    "hash": "e1873a8dd0d0e50dea77e360a7fc6775faab0e4f4424395269e5892da5b8d7e3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Emergency",
+    "artist": "Melissa Manchester",
+    "artworkUrl": "https://coverartarchive.org/release-group/cfcb64c5-d07e-4c44-a5ff-ac261257f994/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/cfcb64c5-d07e-4c44-a5ff-ac261257f994",
+    "releaseGroupId": "cfcb64c5-d07e-4c44-a5ff-ac261257f994",
+    "recordingId": "88cc3037-5542-49e1-899f-a92ef557e2de",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "No One Can Love You More Than MeMelissa Manchester",
+      "song": "No One Can Love You More Than Me",
+      "performer": "Melissa Manchester",
+      "peakPosition": 78,
+      "firstChartDate": "1983-10-29",
+      "lastChartDate": "1983-11-19",
+      "appearances": [
+        {
+          "chartDate": "1983-10-29",
+          "position": 91
+        },
+        {
+          "chartDate": "1983-11-05",
+          "position": 85
+        },
+        {
+          "chartDate": "1983-11-12",
+          "position": 79
+        },
+        {
+          "chartDate": "1983-11-19",
+          "position": 78
+        }
+      ]
+    }
+  },
+  "dedupeText": "spotlight silhouette pop album cover spotlight silhouette leather fashion high contrast 80s aesthetic theatrical lighting subject centered within a circular light field hard edged shadow mimicking the subject s pose extreme contrast between the white spotlight and black negative space symmetrical typographic placement at the top corners subject in attire circular spotlight offset shadow corner serif text bottom wide sans text",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Spotlight Silhouette Pop Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Concert Posters",
+        "Editorial Fashion Layouts"
+      ],
+      "retrievalTags": [
+        "spotlight",
+        "silhouette",
+        "leather fashion",
+        "high-contrast",
+        "80s aesthetic",
+        "theatrical lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast theatrical composition featuring a central figure in a circular spotlight with a sharp, offset shadow against a black background.",
+      "triggerTerms": [
+        "circular spotlight portrait",
+        "theatrical shadow silhouette",
+        "high-contrast leather fashion photography"
+      ],
+      "excludeWhen": [
+        "natural outdoor lighting is required",
+        "soft pastel color palettes are requested",
+        "busy or textured backgrounds are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central female figure in black leather attire stands within a large, bright circular spotlight. The lighting creates a hard-edged, slightly offset shadow against the back of the spotlight circle, while the surrounding frame is deep black. Typography is placed at the extreme top and bottom edges.",
+    "coreVisualRelationships": [
+      "Subject centered within a circular light field",
+      "Hard-edged shadow mimicking the subject's pose",
+      "Extreme contrast between the white spotlight and black negative space",
+      "Symmetrical typographic placement at the top corners"
+    ],
+    "coreInvariants": [
+      "Circular spotlight as the primary framing device",
+      "Deep black void surrounding the central light",
+      "Sharp, distinct shadow cast directly behind the subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body subject centered vertically and horizontally within the spotlight circle.",
+      "visualAnchor": "The bright white circular spotlight against the black background.",
+      "movementAndEyePath": "Eyes start at the bright center, move to the subject's face, follow the outstretched arms to the top corners, and drop to the bottom text.",
+      "negativeSpace": "Dominant black negative space framing the central circle."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background and clothing)",
+      "contrastColorRole": "White (spotlight and top typography)",
+      "accentColorRole": "Red (bottom typography)",
+      "saturationAndValueRelationship": "Extreme value contrast with low saturation, focusing on monochromatic tones with a single warm accent.",
+      "paletteRestrictions": [
+        "Pure black",
+        "Pure white",
+        "Deep red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast serif and wide sans-serif",
+      "letterConstructionRules": [
+        "Top text uses a Didone-style serif with extreme stroke contrast",
+        "Bottom text uses a wide, geometric sans-serif with heavy tracking"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Didone Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Narrow",
+            "strokeCharacter": "Vertical"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified to corners",
+            "tracking": "Normal",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top left and top right corners",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in black negative space"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Extreme",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Sparse"
+          },
+          "composition": {
+            "position": "Bottom center",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in black negative space below the spotlight"
+          },
+          "treatment": {
+            "fill": "Red",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for elegance at the top, wide sans-serif for modern impact at the bottom.",
+      "graphicDevices": [
+        "Circular mask",
+        "Hard-edged drop shadow"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extreme tracking on bottom text",
+          "Corner placement of top text",
+          "High-contrast serif style"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Centering the top text",
+          "Low-contrast serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "Matches the high-contrast vertical strokes of the top display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic (Wide)",
+            "reason": "Matches the geometric, wide-set nature of the bottom text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a full-body studio portrait of a person in black leather clothing, centered inside a large, bright white circular spotlight. The background outside the circle must be pure black. A sharp, dark shadow of the person should be cast onto the white circle, slightly offset to the right.",
+        "overlayInstruction": "Add white high-contrast serif text in the top left and top right corners. Add red wide-spaced geometric sans-serif text centered at the very bottom."
+      },
+      "verificationChecks": [
+        "Is the spotlight a perfect circle?",
+        "Is the background outside the circle pure black?",
+        "Is the bottom text red and extremely tracked?",
+        "Is there a sharp shadow cast within the spotlight?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject pose",
+      "Spotlight diameter",
+      "Shadow offset distance",
+      "Bottom text color"
+    ],
+    "mustRedesign": [
+      "Specific facial features",
+      "Original artist names",
+      "Unique clothing seam patterns"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp focus on the subject",
+        "Clean circular light boundary",
+        "Deep, noise-free black levels"
+      ],
+      "avoid": [
+        "Gradient backgrounds",
+        "Soft-edged shadows",
+        "Cluttered compositions"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure black negative space",
+      "Verify the shadow matches the subject's pose",
+      "Ensure typography is aligned to the edges",
+      "Confirm the spotlight is a clean geometric circle"
+    ],
+    "reuseFormula": "Subject in [Attire] + [Circular Spotlight] + [Offset Shadow] + [Corner Serif Text] + [Bottom Wide Sans Text]"
+  }
+}

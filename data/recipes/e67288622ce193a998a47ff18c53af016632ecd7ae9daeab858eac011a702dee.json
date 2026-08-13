@@ -1,0 +1,258 @@
+{
+  "id": "e67288622ce193a998a47ff18c53af016632ecd7ae9daeab858eac011a702dee",
+  "skillId": "e67288622ce193a998a47ff18c53af016632ecd7ae9daeab858eac011a702dee",
+  "versionId": "e67288622ce193a998a47ff18c53af016632ecd7ae9daeab858eac011a702dee",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:53:04.777Z",
+  "approvedAt": "2026-08-12T22:53:04.777Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:53:04.777Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "A Touch of Today.jpg",
+    "hash": "e67288622ce193a998a47ff18c53af016632ecd7ae9daeab858eac011a702dee",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "A Touch of Today",
+    "artist": "Nancy Wilson",
+    "artworkUrl": "https://coverartarchive.org/release-group/5a61068a-150f-3e8d-952f-2aa4ffc463c7/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5a61068a-150f-3e8d-952f-2aa4ffc463c7",
+    "releaseGroupId": "5a61068a-150f-3e8d-952f-2aa4ffc463c7",
+    "recordingId": "85b49c7c-1ff5-43f9-8c2d-27a119202f37",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Uptight (Everything's Alright)Nancy Wilson",
+      "song": "Uptight (Everything's Alright)",
+      "performer": "Nancy Wilson",
+      "peakPosition": 84,
+      "firstChartDate": "1966-07-16",
+      "lastChartDate": "1966-08-06",
+      "appearances": [
+        {
+          "chartDate": "1966-07-16",
+          "position": 91
+        },
+        {
+          "chartDate": "1966-07-23",
+          "position": 85
+        },
+        {
+          "chartDate": "1966-07-30",
+          "position": 85
+        },
+        {
+          "chartDate": "1966-08-06",
+          "position": 84
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul portrait layout 1960s jazz soul portrait grotesque typography tight tracking soft focus bouffant text block anchored to the left vertical axis subject s gaze directed toward the viewer contrast between soft photographic textures and sharp typographic edges warm skin tones against a cool toned out of focus background portrait on right dense grotesque block on left soft 60s grain mid century soul aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Portrait Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Album cover art",
+        "Vintage magazine editorial",
+        "Retro poster design"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "jazz",
+        "soul",
+        "portrait",
+        "grotesque typography",
+        "tight tracking",
+        "soft focus",
+        "bouffant"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A classic 1960s album cover aesthetic featuring a high-contrast close-up portrait with bold, tightly-packed sans-serif typography justified to the left.",
+      "triggerTerms": [
+        "1960s soul album cover",
+        "vintage jazz portrait layout",
+        "tightly tracked grotesque font",
+        "soft grain portrait"
+      ],
+      "excludeWhen": [
+        "modern minimalist requests",
+        "high-saturation neon designs",
+        "script-heavy layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition featuring a warm-toned, soft-focus portrait of a person with a 1960s bouffant hairstyle, positioned slightly off-center. The left side is dominated by large, bold, white sans-serif text with extremely tight letter and line spacing, creating a block-like typographic texture against the background.",
+    "coreVisualRelationships": [
+      "Text block anchored to the left vertical axis",
+      "Subject's gaze directed toward the viewer",
+      "Contrast between soft photographic textures and sharp typographic edges",
+      "Warm skin tones against a cool-toned, out-of-focus background"
+    ],
+    "coreInvariants": [
+      "Square aspect ratio",
+      "Tight typographic leading and tracking",
+      "Soft-focus photographic style with visible grain",
+      "Left-justified text alignment"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium close-up portrait, subject occupies the right two-thirds of the frame.",
+      "visualAnchor": "The subject's eyes and the large-scale title text on the left.",
+      "movementAndEyePath": "Starts at the bold title on the left, moves right to the subject's face, then down to the smaller tracklist text.",
+      "negativeSpace": "Minimal; the frame is filled with the subject and dense typographic blocks."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm flesh tones and deep black hair",
+      "contrastColorRole": "Bright white for primary typography",
+      "accentColorRole": "Muted blue and grey background tones",
+      "saturationAndValueRelationship": "High value contrast in text; moderate saturation in the portrait with soft, diffused lighting.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Limit to naturalistic skin tones and primary white/black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Grotesque sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Closed apertures",
+        "Straight-sided verticals",
+        "Circular curves in 'o' and 'c'"
+      ],
+      "characterSpecificRedesigns": [
+        "Extremely tight tracking causing letters to nearly touch",
+        "Reduced leading for a compact vertical block"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Horizontal",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked words",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top left",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Slightly over background",
+            "relationshipToImage": "Overlays the subject's shoulder/background"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used in varying weights and scales for hierarchy.",
+      "graphicDevices": [
+        "Thin horizontal rules separating metadata"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Tight tracking",
+          "Left alignment",
+          "Sans-serif classification"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Wide letter spacing",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Bold",
+            "reason": "Matches the mid-century grotesque aesthetic and clean lines.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Akzidenz-Grotesk",
+            "reason": "Provides the authentic 1960s commercial feel.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square, soft-focus 1960s style portrait of a person with a bouffant hairstyle, wearing a white textured sweater, positioned on the right side of the frame with a muted blue-grey background.",
+        "overlayInstruction": "Apply bold white grotesque sans-serif text to the left side. Use extremely tight tracking and leading. The main title should be large at the top left, followed by a smaller list of text below it, all left-aligned."
+      },
+      "verificationChecks": [
+        "Is the text left-aligned?",
+        "Is the tracking tight enough that letters almost touch?",
+        "Is the portrait soft-focus with a vintage grain?",
+        "Is the composition square?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Portrait subject",
+      "Background color",
+      "Text content",
+      "Font weight"
+    ],
+    "mustRedesign": [
+      "Modern digital sharpness",
+      "Centered text layouts",
+      "Vibrant contemporary color grading"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s film grain",
+        "Dense typographic block feel",
+        "Soft diffused lighting"
+      ],
+      "avoid": [
+        "Plastic-looking skin retouching",
+        "Default digital font spacing",
+        "Drop shadows on text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Verify text does not obscure the subject's eyes",
+      "Check for consistent grain across image and text",
+      "Ensure the white text is legible against the background",
+      "Confirm the square aspect ratio"
+    ],
+    "reuseFormula": "Portrait on right + Dense Grotesque block on left + Soft 60s Grain = Mid-Century Soul Aesthetic"
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "id": "7b185ba9ae7f2b2ed947436815f86862e96f805c5a741b53c8284c2db07b2830",
+  "skillId": "7b185ba9ae7f2b2ed947436815f86862e96f805c5a741b53c8284c2db07b2830",
+  "versionId": "7b185ba9ae7f2b2ed947436815f86862e96f805c5a741b53c8284c2db07b2830",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T02:51:24.420Z",
+  "approvedAt": "2026-08-13T02:51:24.420Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T02:51:24.420Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "KARMA.jpg",
+    "hash": "7b185ba9ae7f2b2ed947436815f86862e96f805c5a741b53c8284c2db07b2830",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "KARMA",
+    "artist": "Stray Kids",
+    "artworkUrl": "https://coverartarchive.org/release-group/e2a3d6eb-2011-4f29-9e10-11e2e6f7b3f3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e2a3d6eb-2011-4f29-9e10-11e2e6f7b3f3",
+    "releaseGroupId": "e2a3d6eb-2011-4f29-9e10-11e2e6f7b3f3",
+    "recordingId": "1751e2f5-d82c-49ca-99b3-164c863160b6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "ceremony|stray kids",
+      "song": "Ceremony",
+      "performer": "Stray Kids",
+      "peakPosition": 52,
+      "firstChartDate": "2025-09-06",
+      "lastChartDate": "2025-09-06",
+      "appearances": [
+        {
+          "chartDate": "2025-09-06",
+          "position": 52
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban k pop group album cover boy band urban fashion high contrast typography pyramidal composition streetwear monochrome background subjects overlap the background typography to create a 3d layering effect high contrast black and white elements anchor the colorful textured streetwear a central vertical axis is formed by the tiered arrangement of the group members tiered group portrait massive background typography high contrast urban aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban K-Pop Group Album Cover",
+      "category": "Music Entertainment",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design",
+        "Studio Portraiture"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "boy band",
+        "urban fashion",
+        "high-contrast typography",
+        "pyramidal composition",
+        "streetwear",
+        "monochrome background"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A multi-subject group portrait featuring high-contrast urban fashion against a stark white background with massive, geometric display typography integrated behind the subjects.",
+      "triggerTerms": [
+        "K-pop group album cover style",
+        "pyramidal group portrait with large background text",
+        "urban streetwear editorial photography"
+      ],
+      "excludeWhen": [
+        "a single subject is requested",
+        "a natural outdoor setting is required",
+        "soft, low-contrast lighting is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dynamic group of eight young men in eclectic urban fashion arranged in a tiered, pyramidal formation. The lighting is bright and flat, casting minimal shadows against a pure white void. A massive, black, geometric sans-serif title dominates the upper third, partially obscured by the subjects to create depth.",
+    "coreVisualRelationships": [
+      "Subjects overlap the background typography to create a 3D layering effect.",
+      "High-contrast black and white elements anchor the colorful, textured streetwear.",
+      "A central vertical axis is formed by the tiered arrangement of the group members."
+    ],
+    "coreInvariants": [
+      "Pure white background with no environmental details."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Eight subjects arranged in three tiers (top, middle, bottom) filling the lower two-thirds of the frame.",
+      "visualAnchor": "The central figure in the middle tier and the massive black lettering at the top.",
+      "movementAndEyePath": "Starts at the large top text, moves down through the central column of faces, and fans out to the peripheral members.",
+      "negativeSpace": "Stark white space at the top corners and between the large letterforms."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (Background)",
+      "contrastColorRole": "Black (Typography and Outerwear)",
+      "accentColorRole": "Electric Blue, Pink, and Yellow (Fashion Accents)",
+      "saturationAndValueRelationship": "High-value background with high-saturation clothing accents against neutral black and white bases.",
+      "paletteRestrictions": [
+        "Pure white background",
+        "Solid black graphic elements"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Extreme vertical elongation",
+        "Uniform stroke width",
+        "Angular, 45-degree chamfered corners on 'K', 'A', and 'M'",
+        "Closed counters with minimal internal space"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' features a high horizontal bar and a pointed apex.",
+        "The 'R' has a sharp, diagonal leg meeting the vertical stem at a high point."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Black",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Angled",
+            "counters": "Small",
+            "strokeCharacter": "Rigid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top third",
+            "scale": "Massive",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Behind subjects",
+            "relationshipToImage": "Background layer"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "Vertical stretch"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Humanist Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "Medium",
+            "terminals": "Straight",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Clean"
+          },
+          "typesetting": {
+            "case": "Mixed Case",
+            "alignment": "Centered",
+            "tracking": "Normal",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Bottom margin",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlay on white bar"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme scale contrast between a massive, stylized display font and a small, legible metadata font.",
+      "graphicDevices": [
+        "White horizontal footer bar"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Verticality of the display text",
+          "Angular corners"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Soft rounded edges"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Provides the necessary vertical weight and condensed structure.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Custom geometric block lettering",
+            "reason": "To achieve the specific 45-degree chamfered corners.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a group of eight young men in diverse urban streetwear (jackets, beanies, chains) arranged in a tiered pyramid sitting on a white bench against a pure white background. Leave the top third of the frame empty for text.",
+        "overlayInstruction": "Add a massive, vertically stretched, black geometric sans-serif title in the top third, ensuring the heads of the top-row subjects overlap the bottom of the letters. Add a small line of bold sans-serif text centered at the very bottom."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Does the top text appear behind the subjects' heads?",
+        "Are the corners of the display text angular and sharp?",
+        "Is the group arranged in a clear tiered formation?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects",
+      "Accent colors in clothing",
+      "Specific display text wording"
+    ],
+    "mustRedesign": [
+      "Any specific band logos",
+      "Identifiable facial features of specific celebrities",
+      "Proprietary brand marks on clothing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast studio lighting",
+        "Clean, sharp edges on typography",
+        "Balanced pyramidal composition"
+      ],
+      "avoid": [
+        "Drop shadows on text",
+        "Gradients in the background",
+        "Cluttered or messy clothing textures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the display text is vertically elongated.",
+      "Ensure the white background is consistent and blown out.",
+      "Verify the subjects are layered in front of the large text.",
+      "Confirm the bottom metadata text is legible and centered."
+    ],
+    "reuseFormula": "Tiered Group Portrait + Massive Background Typography + High-Contrast Urban Aesthetic"
+  }
+}

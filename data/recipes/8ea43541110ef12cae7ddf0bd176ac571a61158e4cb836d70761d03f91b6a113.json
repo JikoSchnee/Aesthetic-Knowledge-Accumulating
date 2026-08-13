@@ -1,0 +1,167 @@
+{
+  "id": "8ea43541110ef12cae7ddf0bd176ac571a61158e4cb836d70761d03f91b6a113",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T12:19:01.286Z",
+  "approvedAt": "2026-08-11T12:19:01.286Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T12:19:01.286Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "So Close to What.jpg",
+    "hash": "8ea43541110ef12cae7ddf0bd176ac571a61158e4cb836d70761d03f91b6a113",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "So Close to What",
+    "artist": "Tate McRae",
+    "artworkUrl": "https://coverartarchive.org/release-group/3607f069-61cb-4e4a-b450-863ad0cf7f95/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3607f069-61cb-4e4a-b450-863ad0cf7f95",
+    "releaseGroupId": "3607f069-61cb-4e4a-b450-863ad0cf7f95",
+    "recordingId": "d60cebc2-43b5-43be-8816-b137d7fa7c5c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Dear GodTate McRae",
+      "song": "Dear God",
+      "performer": "Tate McRae",
+      "peakPosition": 44,
+      "firstChartDate": "2025-03-08",
+      "lastChartDate": "2025-03-15",
+      "appearances": [
+        {
+          "chartDate": "2025-03-08",
+          "position": 44
+        },
+        {
+          "chartDate": "2025-03-15",
+          "position": 71
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic projection portraiture projection double exposure effect warm lighting cinematic portrait grainy texture monochromatic background scale contrast between the small foreground figure and the giant background projection color harmony between the warm skin tones and the neutral desaturated background texture interplay between the sharp foreground subject and the grainy diffused projection combine a sharp low angle foreground subject with a massive desaturated soft focus projection of the same subject s profile unified by a warm grainy cinematic color grade",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Projection Portraiture",
+      "category": "Fashion Photography",
+      "medium": [
+        "Digital Photography",
+        "Projection Mapping",
+        "Studio Lighting"
+      ],
+      "useCases": [
+        "Album Art",
+        "Editorial Fashion Spread",
+        "Cinematic Poster"
+      ],
+      "retrievalTags": [
+        "projection",
+        "double exposure effect",
+        "warm lighting",
+        "cinematic",
+        "portrait",
+        "grainy texture",
+        "monochromatic background"
+      ]
+    },
+    "visualDefinition": "A dual-layered composition featuring a foreground subject in a dynamic, low-seated pose against a large-scale, soft-focus projection of their own face in profile, creating a sense of introspection and scale contrast.",
+    "coreVisualRelationships": [
+      "Scale contrast between the small foreground figure and the giant background projection",
+      "Color harmony between the warm skin tones and the neutral, desaturated background",
+      "Texture interplay between the sharp foreground subject and the grainy, diffused projection"
+    ],
+    "coreInvariants": [
+      "Warm, golden-hour skin highlights",
+      "Heavy film grain or digital noise texture",
+      "Soft-focus background projection",
+      "Low-angle perspective"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The foreground subject is centered at the bottom third, occupying about 20% of the vertical space; the background face occupies 80% of the frame.",
+      "visualAnchor": "The foreground subject's bright white clothing and the sharp highlight on the background nose/forehead.",
+      "movementAndEyePath": "The eye starts at the foreground figure, follows the vertical line of the hair up to the projected face, and rests on the profile silhouette.",
+      "negativeSpace": "Deep shadows in the background corners provide breathing room for the central projection."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm beige and tan skin tones providing the primary palette.",
+      "contrastColorRole": "Deep charcoal and muted olive-grey in the background shadows.",
+      "accentColorRole": "Bright white from the foreground clothing and specular highlights on the floor.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the highlights and the deep, grainy shadows.",
+      "paletteRestrictions": [
+        "Avoid vibrant primary colors",
+        "Limit to earth tones and desaturated neutrals"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Heavy film grain",
+        "Light leak simulation",
+        "Soft-focus projection blur"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a cinematic studio shot of a woman sitting on a reflective floor in a white outfit. Behind her, a massive, soft-focus projection of her own face in profile fills the wall. Use warm, golden lighting and heavy film grain.",
+        "overlayInstruction": "If adding text, use a minimalist, wide-tracked sans-serif in white, placed in the upper corners or lower center to avoid obscuring the facial features of the projection."
+      },
+      "verificationChecks": [
+        "Is the background projection sufficiently blurred?",
+        "Does the grain feel organic to the image?",
+        "Is the scale difference between the two figures clear?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the film grain",
+      "Warmth of the color temperature",
+      "Sharpness of the foreground subject",
+      "Opacity of the background projection"
+    ],
+    "mustRedesign": [
+      "Any specific brand logos on clothing",
+      "Identifiable jewelry designs",
+      "Specific facial features of the original subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic depth of field",
+        "Cohesive warm color grading",
+        "Balanced scale between foreground and background"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "High-saturation colors",
+        "Clean, digital-looking surfaces without texture"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for realistic light interaction on the floor",
+      "Ensure the projection doesn't look like a simple digital overlay",
+      "Verify the grain is consistent across the entire frame",
+      "Confirm the profile of the projection is legible"
+    ],
+    "reuseFormula": "Combine a sharp, low-angle foreground subject with a massive, desaturated, soft-focus projection of the same subject's profile, unified by a warm, grainy, cinematic color grade."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:15:35.434Z"
+}

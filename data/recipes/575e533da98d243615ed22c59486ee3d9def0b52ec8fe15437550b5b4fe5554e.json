@@ -1,0 +1,301 @@
+{
+  "id": "575e533da98d243615ed22c59486ee3d9def0b52ec8fe15437550b5b4fe5554e",
+  "skillId": "575e533da98d243615ed22c59486ee3d9def0b52ec8fe15437550b5b4fe5554e",
+  "versionId": "575e533da98d243615ed22c59486ee3d9def0b52ec8fe15437550b5b4fe5554e",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:07:26.135Z",
+  "approvedAt": "2026-08-12T06:07:26.135Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:07:26.135Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Free.jpg",
+    "hash": "575e533da98d243615ed22c59486ee3d9def0b52ec8fe15437550b5b4fe5554e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Free",
+    "artist": "Rick Astley",
+    "artworkUrl": "https://coverartarchive.org/release-group/8d69860f-3de7-38c6-8ab1-a66f7bbb2c5b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8d69860f-3de7-38c6-8ab1-a66f7bbb2c5b",
+    "releaseGroupId": "8d69860f-3de7-38c6-8ab1-a66f7bbb2c5b",
+    "recordingId": "87648433-d46c-42f3-b092-3d16a1e9ddc2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Move Right OutRick Astley",
+      "song": "Move Right Out",
+      "performer": "Rick Astley",
+      "peakPosition": 81,
+      "firstChartDate": "1991-06-22",
+      "lastChartDate": "1991-07-20",
+      "appearances": [
+        {
+          "chartDate": "1991-06-22",
+          "position": 85
+        },
+        {
+          "chartDate": "1991-06-29",
+          "position": 85
+        },
+        {
+          "chartDate": "1991-07-06",
+          "position": 81
+        },
+        {
+          "chartDate": "1991-07-13",
+          "position": 83
+        },
+        {
+          "chartDate": "1991-07-20",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast duotone portrait layout duotone high contrast stark shadows minimalist portrait bold sans serif tan and black posterized figure ground relationship defined by extreme tonal contrast asymmetrical balance between the subject s head and the negative space typographic weight mirroring the density of the black shadows text placement anchoring the top left and bottom right corners high contrast posterization solid neutral background extended geometric sans serif typography in opposing corners",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Duotone Portrait Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Screen Print",
+        "Digital Illustration",
+        "Graphic Poster"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Minimalist Event Poster",
+        "Editorial Portrait Illustration"
+      ],
+      "retrievalTags": [
+        "duotone",
+        "high contrast",
+        "stark shadows",
+        "minimalist portrait",
+        "bold sans-serif",
+        "tan and black",
+        "posterized"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A stark, two-tone graphic portrait style featuring heavy black shadows against a solid warm neutral background with bold, wide-set typography.",
+      "triggerTerms": [
+        "high contrast duotone portrait",
+        "stark black and tan graphic",
+        "posterized portrait with bold sans-serif"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "soft gradients or realistic skin tones are needed",
+        "delicate serif typography is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A graphic composition centered on a high-contrast, posterized portrait where all mid-tones are removed, leaving only solid black shadows and a single background color. The subject is framed from the chest up, with typography placed in the corners to balance the asymmetrical weight of the figure.",
+    "coreVisualRelationships": [
+      "Figure-ground relationship defined by extreme tonal contrast",
+      "Asymmetrical balance between the subject's head and the negative space",
+      "Typographic weight mirroring the density of the black shadows",
+      "Text placement anchoring the top-left and bottom-right corners"
+    ],
+    "coreInvariants": [
+      "Strict two-color palette (black and one warm neutral)",
+      "Complete absence of gradients or halftones",
+      "Heavy, blocky sans-serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is slightly off-center, occupying the right two-thirds of the frame from the chest up.",
+      "visualAnchor": "The high-contrast face and eyes serve as the primary focal point.",
+      "movementAndEyePath": "The eye moves from the top-left text, down the diagonal of the subject's arm and face, to the large text at the bottom right.",
+      "negativeSpace": "Solid background color provides breathing room in the upper left and around the head."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm tan/beige background",
+      "contrastColorRole": "Solid black for shadows and figure",
+      "accentColorRole": "None",
+      "saturationAndValueRelationship": "Low saturation background with maximum value contrast against black.",
+      "paletteRestrictions": [
+        "Strictly two colors",
+        "No gradients"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extended, heavy geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Wide horizontal proportions",
+        "Square terminals",
+        "Minimal kerning"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "extra-extended",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small/closed",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single word",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "anchored to bottom edge"
+          },
+          "treatment": {
+            "fill": "solid background color",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "horizontal",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in negative space"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in different scales and colors to create hierarchy.",
+      "graphicDevices": [
+        "Posterization effect",
+        "Corner-aligned text blocks"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extended width",
+          "Heavy weight",
+          "Uppercase styling"
+        ],
+        "avoid": [
+          "Condensed fonts",
+          "Serif fonts",
+          "Light weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma Bold Extended",
+            "reason": "Matches the wide, square geometric feel of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Eurostile Black Extended",
+            "reason": "Provides the necessary horizontal presence and blocky structure.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, two-tone posterized portrait of a man in a black shirt against a solid tan background. The image should have no gradients, only solid black and solid tan areas.",
+        "overlayInstruction": "Add bold, extended sans-serif text in the top-left corner in black, and larger extended sans-serif text in the bottom-right corner in the background tan color, knocked out of the black shirt area."
+      },
+      "verificationChecks": [
+        "Is the palette limited to exactly two colors?",
+        "Is the portrait high-contrast with no mid-tones?",
+        "Is the typography extended and heavy?",
+        "Is the bottom text knocked out of the black shadow area?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue",
+      "Subject pose",
+      "Text content",
+      "Level of shadow detail"
+    ],
+    "mustRedesign": [
+      "Any photographic gradients",
+      "Thin or serif typography",
+      "Centered text layouts"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Stark graphic separation between light and dark",
+        "Balanced corner-to-corner composition",
+        "Clean, sharp edges on all shapes"
+      ],
+      "avoid": [
+        "Blurry edges",
+        "Visible skin texture",
+        "Default font widths"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for any stray gray pixels or gradients.",
+      "Ensure text is perfectly horizontal and aligned to corners.",
+      "Verify the 'knockout' effect on the bottom text is clean.",
+      "Confirm the subject's features are recognizable despite the high contrast."
+    ],
+    "reuseFormula": "High-contrast posterization + solid neutral background + extended geometric sans-serif typography in opposing corners."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:17.895Z"
+}

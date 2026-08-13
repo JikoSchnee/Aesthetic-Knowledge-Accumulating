@@ -1,0 +1,337 @@
+{
+  "id": "082fe337f0e1ff305e063d822df3254e34d14dcb72414770c4b0e9688f81225f",
+  "skillId": "082fe337f0e1ff305e063d822df3254e34d14dcb72414770c4b0e9688f81225f",
+  "versionId": "082fe337f0e1ff305e063d822df3254e34d14dcb72414770c4b0e9688f81225f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:17:25.885Z",
+  "approvedAt": "2026-08-12T05:17:25.885Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:17:25.885Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "La vida... es un ratico.jpg",
+    "hash": "082fe337f0e1ff305e063d822df3254e34d14dcb72414770c4b0e9688f81225f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "La vida... es un ratico",
+    "artist": "Juanes",
+    "artworkUrl": "https://coverartarchive.org/release-group/26375a15-957f-40f3-b388-e708128e21c7/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/26375a15-957f-40f3-b388-e708128e21c7",
+    "releaseGroupId": "26375a15-957f-40f3-b388-e708128e21c7",
+    "recordingId": "3f1d5d3c-fd86-41c4-ade5-fdfe97bf5f8c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Me EnamoraJuanes",
+      "song": "Me Enamora",
+      "performer": "Juanes",
+      "peakPosition": 69,
+      "firstChartDate": "2007-09-29",
+      "lastChartDate": "2008-01-05",
+      "appearances": [
+        {
+          "chartDate": "2007-09-29",
+          "position": 99
+        },
+        {
+          "chartDate": "2007-10-06",
+          "position": 86
+        },
+        {
+          "chartDate": "2007-10-13",
+          "position": 94
+        },
+        {
+          "chartDate": "2007-10-20",
+          "position": 96
+        },
+        {
+          "chartDate": "2007-11-03",
+          "position": 87
+        },
+        {
+          "chartDate": "2007-11-10",
+          "position": 69
+        },
+        {
+          "chartDate": "2007-11-17",
+          "position": 75
+        },
+        {
+          "chartDate": "2007-11-24",
+          "position": 81
+        },
+        {
+          "chartDate": "2007-12-01",
+          "position": 82
+        },
+        {
+          "chartDate": "2007-12-08",
+          "position": 82
+        },
+        {
+          "chartDate": "2007-12-15",
+          "position": 81
+        },
+        {
+          "chartDate": "2007-12-22",
+          "position": 89
+        },
+        {
+          "chartDate": "2007-12-29",
+          "position": 97
+        },
+        {
+          "chartDate": "2008-01-05",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty portrait with ephemera overlay high contrast portrait chiaroscuro lighting torn ticket stub vintage ephemera gritty texture male portrait dramatic contrast between the dark shadowed side of the face and the bright neutral background juxtaposition of organic skin texture with the weathered fibrous texture of torn paper vertical alignment of the ticket stub balancing the off center gaze of the subject dramatic portrait vintage ephemera overlay distressed stamped typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Portrait with Ephemera Overlay",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Collage",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Editorial portraits",
+        "Travel-themed posters"
+      ],
+      "retrievalTags": [
+        "high-contrast portrait",
+        "chiaroscuro lighting",
+        "torn ticket stub",
+        "vintage ephemera",
+        "gritty texture",
+        "male portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, close-up male portrait featuring dramatic chiaroscuro lighting paired with a vertical, torn vintage ticket stub overlay on the right side.",
+      "triggerTerms": [
+        "gritty portrait with torn ticket",
+        "chiaroscuro male face with ephemera",
+        "vintage travel stub overlay"
+      ],
+      "excludeWhen": [
+        "clean minimalist photography is required",
+        "bright, even lighting is requested",
+        "no graphic overlays are wanted"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, dramatic close-up of a man's face in deep shadow on one side, contrasted against a bright background, with a weathered, torn paper ticket containing distressed typography positioned vertically along the right edge.",
+    "coreVisualRelationships": [
+      "Dramatic contrast between the dark, shadowed side of the face and the bright, neutral background.",
+      "Juxtaposition of organic skin texture with the weathered, fibrous texture of torn paper.",
+      "Vertical alignment of the ticket stub balancing the off-center gaze of the subject."
+    ],
+    "coreInvariants": [
+      "High-contrast chiaroscuro lighting splitting the face.",
+      "A torn, vertical paper element on the right third of the frame.",
+      "Visible skin grain and stubble texture."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The face is centered and tightly cropped, filling approximately 80% of the vertical frame.",
+      "visualAnchor": "The subject's lit eye and the vertical ticket stub act as dual anchors.",
+      "movementAndEyePath": "The viewer's eye starts at the lit eye, moves down the shadowed jawline, and then jumps to the colorful ticket stub on the right.",
+      "negativeSpace": "Minimal negative space, primarily located in the upper right and lower left corners behind the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and shadows define the form.",
+      "contrastColorRole": "Bright, cool-toned white background.",
+      "accentColorRole": "Warm yellows, reds, and blues found on the vintage ticket stub.",
+      "saturationAndValueRelationship": "High value contrast in the portrait; moderate saturation in the graphic elements to suggest age.",
+      "paletteRestrictions": [
+        "Desaturated skin tones",
+        "Weathered paper yellows",
+        "Stamp-ink reds"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed sans-serif and slab-serif forms.",
+      "letterConstructionRules": [
+        "Distressed and weathered edges to simulate old printing.",
+        "Varying weights between display and metadata text.",
+        "Vertical orientation for serial numbers."
+      ],
+      "characterSpecificRedesigns": [
+        "Ink-bleed effects on corners",
+        "Faded centers of strokes"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "condensed sans-serif",
+          "anatomy": {
+            "width": "narrow",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded/distressed",
+            "counters": "tight",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single word",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top of ticket",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within paper overlay"
+          },
+          "treatment": {
+            "fill": "dark grey/black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "distressed ink",
+            "distortion": "weathering"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "monospaced or slab-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "mechanical"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "vertical",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "right edge of ticket",
+            "scale": "small",
+            "rotation": "90",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within paper overlay"
+          },
+          "treatment": {
+            "fill": "red or orange ink",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "stamped",
+            "distortion": "faded"
+          }
+        }
+      ],
+      "pairingStrategy": "High-impact condensed display type paired with small, technical-looking metadata stamps.",
+      "graphicDevices": [
+        "Torn paper edges",
+        "Circular rubber stamps",
+        "Illustrative icons (e.g., bird silhouette)",
+        "Vertical serial numbers"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical orientation of the ticket",
+          "Torn bottom edge",
+          "High-contrast lighting"
+        ],
+        "avoid": [
+          "Clean, modern digital fonts",
+          "Perfectly straight paper edges",
+          "Soft, diffused lighting"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Alternate Gothic",
+            "reason": "Matches the condensed, bold display feel of the primary name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Courier or Stamped Typewriter",
+            "reason": "Captures the mechanical, serial-number aesthetic of the ticket metadata.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, close-up portrait of a man with dramatic chiaroscuro lighting, one side of the face in deep shadow, against a bright off-white background. Include a vertical torn paper ticket stub on the right side with a weathered texture and a small bird icon, but no text.",
+        "overlayInstruction": "Add distressed, condensed sans-serif text in black at the top of the ticket, and vertical red stamped serial numbers along the right edge of the ticket."
+      },
+      "verificationChecks": [
+        "Is the lighting high-contrast chiaroscuro?",
+        "Is the ticket stub torn and weathered?",
+        "Is the text distressed to look like old ink?",
+        "Is the portrait tightly cropped on the face?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the shadow",
+      "Color of the ticket stub",
+      "Amount of distressing on the paper",
+      "Subject's expression"
+    ],
+    "mustRedesign": [
+      "Avoid using modern, clean vector graphics for the ticket.",
+      "Do not use flat, even lighting on the face."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Visible paper fiber on the torn edge",
+        "Deep, rich blacks in the shadows",
+        "Authentic-looking ink distress"
+      ],
+      "avoid": [
+        "Plastic-looking skin",
+        "Perfectly straight digital lines",
+        "Generic 'grunge' filters that look repetitive"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the shadow doesn't lose all detail in the hair.",
+      "Ensure the ticket stub looks like a separate physical layer.",
+      "Verify the text alignment follows the ticket's orientation.",
+      "Confirm the background is bright enough to pop the subject."
+    ],
+    "reuseFormula": "Dramatic Portrait + Vintage Ephemera Overlay + Distressed Stamped Typography"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:42:39.587Z"
+}

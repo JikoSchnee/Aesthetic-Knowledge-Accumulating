@@ -1,0 +1,284 @@
+{
+  "id": "18a82b29259e5d545525e80cd5a30ab184ba793a23ec9aba8e185f8eb9e3be72",
+  "skillId": "18a82b29259e5d545525e80cd5a30ab184ba793a23ec9aba8e185f8eb9e3be72",
+  "versionId": "18a82b29259e5d545525e80cd5a30ab184ba793a23ec9aba8e185f8eb9e3be72",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:37:20.581Z",
+  "approvedAt": "2026-08-12T17:37:20.581Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:37:20.581Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Dive Deeper.jpg",
+    "hash": "18a82b29259e5d545525e80cd5a30ab184ba793a23ec9aba8e185f8eb9e3be72",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Dive Deeper",
+    "artist": "Jade Anderson",
+    "artworkUrl": "https://coverartarchive.org/release-group/cdc1e248-b814-47cf-b216-4cd9546eff5c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/cdc1e248-b814-47cf-b216-4cd9546eff5c",
+    "releaseGroupId": "cdc1e248-b814-47cf-b216-4cd9546eff5c",
+    "recordingId": "b5299e62-f96a-4f44-9b2d-98de4a60c2c5",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "SugarhighJade Anderson",
+      "song": "Sugarhigh",
+      "performer": "Jade Anderson",
+      "peakPosition": 96,
+      "firstChartDate": "2002-05-25",
+      "lastChartDate": "2002-06-01",
+      "appearances": [
+        {
+          "chartDate": "2002-05-25",
+          "position": 96
+        },
+        {
+          "chartDate": "2002-06-01",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome portrait with metallic accent typography monochrome portrait metallic typography close up face soft lighting serif font beveled text monochrome background vs saturated metallic foreground text soft facial features vs sharp geometric typographic edges vertical arm placement framing the left side of the face dark shadowed background focusing attention on the lit facial plane monochrome close up portrait beveled metallic serif typography bottom right alignment",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Portrait with Metallic Accent Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Beauty editorial",
+        "High-fashion promotional material"
+      ],
+      "retrievalTags": [
+        "monochrome portrait",
+        "metallic typography",
+        "close-up face",
+        "soft lighting",
+        "serif font",
+        "beveled text"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome close-up portrait featuring a subject with soft skin textures and sharp metallic-effect typography layered over the lower third.",
+      "triggerTerms": [
+        "monochrome portrait with orange metallic text",
+        "beveled serif typography on black and white photo",
+        "close-up fashion photography with text overlay"
+      ],
+      "excludeWhen": [
+        "vibrant color photography is required",
+        "minimalist sans-serif layouts are requested",
+        "landscape orientation is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, intimate black-and-white portrait of a woman, characterized by soft-focus skin and high-contrast lighting that emphasizes the eyes and lips. The composition is anchored by a large, beveled metallic-orange serif title in the bottom right corner, contrasted against a smaller white serif subtitle.",
+    "coreVisualRelationships": [
+      "Monochrome background vs. saturated metallic foreground text",
+      "Soft facial features vs. sharp, geometric typographic edges",
+      "Vertical arm placement framing the left side of the face",
+      "Dark, shadowed background focusing attention on the lit facial plane"
+    ],
+    "coreInvariants": [
+      "Black and white photographic base",
+      "Beveled 3D effect on primary text",
+      "Tight facial cropping",
+      "High-contrast lighting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The face occupies approximately 70% of the frame, positioned slightly off-center to the left with a hand framing the jawline.",
+      "visualAnchor": "The eyes serve as the primary focal point, while the large orange text in the bottom right provides a secondary visual weight.",
+      "movementAndEyePath": "The viewer's eye starts at the subject's eyes, moves down the bridge of the nose to the lips, and then follows the diagonal line to the text in the bottom right.",
+      "negativeSpace": "Deep shadows on the right side of the frame and the dark background provide negative space for text placement."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Grayscale (shades of black, white, and silver-gray) for the photographic base.",
+      "contrastColorRole": "Deep black for shadows and background depth.",
+      "accentColorRole": "Metallic orange/copper with highlights for the primary typography.",
+      "saturationAndValueRelationship": "High value contrast in the face; zero saturation in the image vs. high saturation in the text.",
+      "paletteRestrictions": [
+        "No primary colors except for the orange text accent",
+        "No color in the photographic subject"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical serif with high stroke contrast",
+      "letterConstructionRules": [
+        "Primary text uses a large x-height and sharp, bracketed serifs",
+        "Secondary text is significantly smaller with a lighter weight",
+        "Primary text features a 3D bevel and inner glow effect"
+      ],
+      "characterSpecificRedesigns": [
+        "The initial 'j' in the primary text is oversized and descends below the baseline to create a hook-like anchor"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Bracketed",
+            "counters": "Open",
+            "strokeCharacter": "Modulated"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Auto",
+            "lineBreakPattern": "Stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Bottom right",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays subject's shoulder",
+            "relationshipToImage": "Foreground"
+          },
+          "treatment": {
+            "fill": "Metallic orange gradient",
+            "outline": "Thin gold stroke",
+            "shadow": "Drop shadow for depth",
+            "depth": "Beveled/Embossed",
+            "texture": "Polished metal",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Bracketed",
+            "counters": "Open",
+            "strokeCharacter": "Modulated"
+          },
+          "typesetting": {
+            "case": "Title case",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Above primary text",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays dark background",
+            "relationshipToImage": "Foreground"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Size and color contrast between two weights of the same or similar serif family.",
+      "graphicDevices": [
+        "Bevel and emboss layer styles",
+        "Inner glow on text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Serif classification",
+          "Beveled effect",
+          "Orange/White color contrast"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Flat colors for the primary title",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman Bold",
+            "reason": "Provides the classic serif skeleton suitable for high-contrast treatments.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Georgia",
+            "reason": "Offers a slightly larger x-height and robust serifs for the beveled effect.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white close-up portrait of a woman's face, with her hand resting against her cheek, soft lighting on the skin, and a dark, shadowed background on the right side.",
+        "overlayInstruction": "Add a large, beveled metallic orange serif title in the bottom right corner. Above it, add a smaller, flat white serif subtitle. Ensure the orange text has a 3D embossed appearance."
+      },
+      "verificationChecks": [
+        "Is the photo strictly monochrome?",
+        "Does the primary text have a 3D metallic orange effect?",
+        "Is the composition a tight facial crop?",
+        "Are the fonts serif-based?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the bevel effect",
+      "Saturation of the orange text",
+      "Tightness of the facial crop",
+      "Balance of shadows vs. highlights"
+    ],
+    "mustRedesign": [
+      "Avoid using any specific artist names or album titles",
+      "Do not replicate exact jewelry designs"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Smooth skin gradients in monochrome",
+        "Legible but stylized 3D typography",
+        "Intimate eye contact in the portrait"
+      ],
+      "avoid": [
+        "Grainy or low-resolution textures",
+        "Flat, unstyled text for the main title",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast lighting on the face",
+      "Verify the orange text is beveled and metallic",
+      "Ensure the subtitle is white and smaller than the main title",
+      "Confirm the image is black and white except for the text"
+    ],
+    "reuseFormula": "Monochrome Close-up Portrait + Beveled Metallic Serif Typography + Bottom-Right Alignment"
+  }
+}

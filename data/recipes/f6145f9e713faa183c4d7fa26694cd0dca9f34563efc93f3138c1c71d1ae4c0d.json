@@ -1,0 +1,209 @@
+{
+  "id": "f6145f9e713faa183c4d7fa26694cd0dca9f34563efc93f3138c1c71d1ae4c0d",
+  "skillId": "f6145f9e713faa183c4d7fa26694cd0dca9f34563efc93f3138c1c71d1ae4c0d",
+  "versionId": "f6145f9e713faa183c4d7fa26694cd0dca9f34563efc93f3138c1c71d1ae4c0d",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:15:52.929Z",
+  "approvedAt": "2026-08-13T05:15:52.929Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:15:52.929Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Made in England.jpg",
+    "hash": "f6145f9e713faa183c4d7fa26694cd0dca9f34563efc93f3138c1c71d1ae4c0d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Made in England",
+    "artist": "Elton John",
+    "artworkUrl": "https://coverartarchive.org/release-group/ebd01e91-117b-30af-b4a5-df18880d125a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ebd01e91-117b-30af-b4a5-df18880d125a",
+    "releaseGroupId": "ebd01e91-117b-30af-b4a5-df18880d125a",
+    "recordingId": "2b452174-95f4-4229-a068-628308cb1118",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Made In EnglandElton John",
+      "song": "Made In England",
+      "performer": "Elton John",
+      "peakPosition": 52,
+      "firstChartDate": "1995-07-15",
+      "lastChartDate": "1995-09-16",
+      "appearances": [
+        {
+          "chartDate": "1995-07-15",
+          "position": 76
+        },
+        {
+          "chartDate": "1995-07-22",
+          "position": 65
+        },
+        {
+          "chartDate": "1995-07-29",
+          "position": 54
+        },
+        {
+          "chartDate": "1995-08-05",
+          "position": 53
+        },
+        {
+          "chartDate": "1995-08-12",
+          "position": 52
+        },
+        {
+          "chartDate": "1995-08-19",
+          "position": 52
+        },
+        {
+          "chartDate": "1995-08-26",
+          "position": 56
+        },
+        {
+          "chartDate": "1995-09-02",
+          "position": 68
+        },
+        {
+          "chartDate": "1995-09-09",
+          "position": 75
+        },
+        {
+          "chartDate": "1995-09-16",
+          "position": 86
+        }
+      ]
+    }
+  },
+  "dedupeText": "soft focus studio portrait with warm lighting warm studio lighting soft focus portrait turtleneck round wire glasses neutral gradient background subject centered horizontally warm highlights contrasting with dark clothing soft focus transition between subject and background eye level camera angle soft studio portrait centered subject warm key light muted gradient background shallow depth of field",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soft-Focus Studio Portrait with Warm Lighting",
+      "category": "Portrait Photography",
+      "medium": [
+        "Photography",
+        "Studio Lighting"
+      ],
+      "useCases": [
+        "Professional headshots",
+        "Album cover art",
+        "Editorial profile photography"
+      ],
+      "retrievalTags": [
+        "warm studio lighting",
+        "soft focus portrait",
+        "turtleneck",
+        "round wire glasses",
+        "neutral gradient background"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered, medium close-up portrait featuring soft, warm directional lighting and a shallow depth of field against a muted gradient background.",
+      "triggerTerms": [
+        "warm studio portrait",
+        "soft focus headshot",
+        "low-contrast editorial portrait"
+      ],
+      "excludeWhen": [
+        "high-contrast noir lighting is requested",
+        "sharp architectural backgrounds are needed",
+        "vibrant neon color palettes are required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A head-and-shoulders portrait of a man with reddish-brown hair and round spectacles, wearing a dark turtleneck. The lighting is soft and warm, coming from the upper right, creating gentle shadows and a subtle glow on the skin. The background is a non-distracting, dark grey-to-brown gradient.",
+    "coreVisualRelationships": [
+      "subject centered horizontally",
+      "warm highlights contrasting with dark clothing",
+      "soft focus transition between subject and background",
+      "eye level camera angle"
+    ],
+    "coreInvariants": [
+      "round wire-rimmed glasses",
+      "dark turtleneck collar",
+      "warm, diffused key light"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject occupies the central 60% of the frame in a medium close-up shot.",
+      "visualAnchor": "The eyes, framed by round glasses, serve as the primary focal point.",
+      "movementAndEyePath": "The viewer's eye starts at the face, follows the light down the bridge of the nose, and rests on the dark silhouette of the shoulders.",
+      "negativeSpace": "Balanced negative space on either side of the head provides a sense of calm and focus."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm skin tones and reddish-brown hair (mid-tones)",
+      "contrastColorRole": "Deep black/charcoal of the turtleneck (shadows)",
+      "accentColorRole": "Golden-yellow highlights from the studio lamp",
+      "saturationAndValueRelationship": "Low saturation overall with a compressed value range to maintain a soft, film-like quality.",
+      "paletteRestrictions": [
+        "No primary blues",
+        "No harsh white highlights",
+        "No neon or synthetic colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "vignetting",
+        "soft-focus lens effect"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus studio portrait of a man with reddish-brown hair and round glasses wearing a black turtleneck against a dark gradient background with warm side-lighting.",
+        "overlayInstruction": "If text is required, use a clean, light-weight serif font in a muted cream color, positioned in the lower third or upper corner to avoid obscuring the face."
+      },
+      "verificationChecks": [
+        "Ensure lighting is diffused and warm",
+        "Check that the background is a smooth gradient",
+        "Verify the subject is centered and looking forward"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "intensity of the warm light",
+      "depth of field/background blur",
+      "hair color saturation",
+      "frame tightness"
+    ],
+    "mustRedesign": [
+      "harsh shadows",
+      "busy backgrounds",
+      "cool-toned fluorescent lighting"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Natural skin texture under soft light",
+        "Seamless background gradient",
+        "Clear reflection in the glasses"
+      ],
+      "avoid": [
+        "Over-sharpening",
+        "Blown-out highlights",
+        "Digital noise in dark areas"
+      ]
+    },
+    "postGenerationChecks": [
+      "Is the lighting direction consistent across the face?",
+      "Are the glasses symmetrical and properly seated?",
+      "Is the transition between the hair and background soft?",
+      "Does the turtleneck maintain a solid, dark value without losing all detail?"
+    ],
+    "reuseFormula": "Soft Studio Portrait = (Centered Subject + Warm Key Light) / (Muted Gradient Background + Shallow Depth of Field)"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "id": "0703982cd3f2e92e0f937098c218b12d0d9d8e80c5d6f26164005b0852f07699",
+  "skillId": "0703982cd3f2e92e0f937098c218b12d0d9d8e80c5d6f26164005b0852f07699",
+  "versionId": "0703982cd3f2e92e0f937098c218b12d0d9d8e80c5d6f26164005b0852f07699",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:11:17.178Z",
+  "approvedAt": "2026-08-12T17:11:17.178Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:11:17.178Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Jody Watley.jpg",
+    "hash": "0703982cd3f2e92e0f937098c218b12d0d9d8e80c5d6f26164005b0852f07699",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Jody Watley",
+    "artist": "Jody Watley",
+    "artworkUrl": "https://coverartarchive.org/release-group/38746ff1-78b2-3bd5-8c0f-c78148ae8d94/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/38746ff1-78b2-3bd5-8c0f-c78148ae8d94",
+    "releaseGroupId": "38746ff1-78b2-3bd5-8c0f-c78148ae8d94",
+    "recordingId": "c1405bfd-ee43-43c8-add6-95312174869f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Still A ThrillJody Watley",
+      "song": "Still A Thrill",
+      "performer": "Jody Watley",
+      "peakPosition": 56,
+      "firstChartDate": "1987-06-20",
+      "lastChartDate": "1987-08-01",
+      "appearances": [
+        {
+          "chartDate": "1987-06-20",
+          "position": 88
+        },
+        {
+          "chartDate": "1987-06-27",
+          "position": 76
+        },
+        {
+          "chartDate": "1987-07-04",
+          "position": 66
+        },
+        {
+          "chartDate": "1987-07-11",
+          "position": 56
+        },
+        {
+          "chartDate": "1987-07-18",
+          "position": 59
+        },
+        {
+          "chartDate": "1987-07-25",
+          "position": 67
+        },
+        {
+          "chartDate": "1987-08-01",
+          "position": 87
+        }
+      ]
+    }
+  },
+  "dedupeText": "80s pop portrait with script overlay monochrome portrait red script lettering voluminous hair knit texture 80s aesthetic soft focus red script against monochrome background soft skin tones against coarse knit texture dark voluminous hair framing a lit face asymmetrical composition with text balancing the subject monochrome portrait voluminous texture vibrant red script overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "80s Pop Portrait with Script Overlay",
+      "category": "Music Photography",
+      "medium": [
+        "Film Photography",
+        "Hand-lettering",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album cover art",
+        "Editorial fashion spreads",
+        "Retro-style promotional posters"
+      ],
+      "retrievalTags": [
+        "monochrome portrait",
+        "red script lettering",
+        "voluminous hair",
+        "knit texture",
+        "80s aesthetic",
+        "soft focus"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome portrait featuring a subject with voluminous hair and textured clothing, overlaid with vibrant red gestural script.",
+      "triggerTerms": [
+        "80s pop album cover style",
+        "monochrome portrait with red script",
+        "voluminous messy hair photography",
+        "textured knit sweater portrait"
+      ],
+      "excludeWhen": [
+        "clean minimalist modernism is required",
+        "full color photography is requested",
+        "sans-serif typography is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A black and white studio portrait of a woman with large, textured hair and a chunky knit sweater, positioned off-center with a soft-focus background. A bright red, fluid hand-written script is placed in the upper left corner, creating a sharp color contrast against the desaturated image.",
+    "coreVisualRelationships": [
+      "Red script against monochrome background",
+      "Soft skin tones against coarse knit texture",
+      "Dark voluminous hair framing a lit face",
+      "Asymmetrical composition with text balancing the subject"
+    ],
+    "coreInvariants": [
+      "Vibrant red color for the script text",
+      "Monochrome or sepia-toned photographic base",
+      "Subject with high-volume, textured hair"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is positioned on the right two-thirds of the frame, medium-close shot from the waist up.",
+      "visualAnchor": "The subject's eyes and the bright red script in the top left corner.",
+      "movementAndEyePath": "Eyes start at the red script, move down the subject's hair to the face, and follow the curve of the shoulder.",
+      "negativeSpace": "Significant negative space on the left side, occupied primarily by the graphic text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Grayscale/Monochrome (background and subject)",
+      "contrastColorRole": "Bright Red (typography)",
+      "accentColorRole": "Deep Black (hair shadows)",
+      "saturationAndValueRelationship": "High value contrast in the portrait; high saturation contrast in the text.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Mid-tone Grey",
+        "Vivid Red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "cursive script",
+      "letterConstructionRules": [
+        "Fluid, continuous strokes",
+        "Variable line weight mimicking a felt-tip marker",
+        "Connected lowercase letters with exaggerated ascenders",
+        "Slightly jittery, organic edges"
+      ],
+      "characterSpecificRedesigns": [
+        "Dots over 'i' or 'j' rendered as small expressive splashes",
+        "Extended horizontal terminals on the final letters"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed to normal",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "gestural"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "slight overlap with hair",
+            "relationshipToImage": "floating overlay"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "slight ink bleed",
+            "distortion": "hand-drawn irregularity"
+          }
+        }
+      ],
+      "pairingStrategy": "Standalone expressive script to contrast with photographic realism.",
+      "graphicDevices": [
+        "Ink splatter dots",
+        "Underlining swash"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Red color",
+          "Hand-drawn feel",
+          "Cursive connectivity"
+        ],
+        "avoid": [
+          "Formal calligraphy",
+          "Geometric sans-serifs",
+          "Blocky serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Marker Script",
+            "reason": "Captures the casual, energetic feel of the original lettering.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "80s Casual Brush",
+            "reason": "Matches the era-specific aesthetic of pop music branding.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a monochrome, grainy film-style portrait of a woman with very large, messy dark hair wearing a chunky knit sweater, looking over her shoulder against a neutral studio wall.",
+        "overlayInstruction": "Overlay a bright red, hand-written marker-style script in the top left corner, ensuring the strokes look fluid and organic."
+      },
+      "verificationChecks": [
+        "Is the text bright red?",
+        "Is the portrait monochrome?",
+        "Does the hair have significant volume and texture?",
+        "Is the script hand-drawn in appearance?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Hair volume",
+      "Sweater knit coarseness",
+      "Script thickness",
+      "Red saturation"
+    ],
+    "mustRedesign": [
+      "Any specific brand logos",
+      "Exact signature of the artist",
+      "Specific facial features of the celebrity"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast monochrome photography",
+        "Fluid, energetic script",
+        "80s fashion silhouette"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Perfectly groomed hair",
+        "Standard system fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the red text is the only color element.",
+      "Ensure the sweater texture is visible and tactile.",
+      "Verify the script does not look like a standard computer font.",
+      "Confirm the composition is weighted to the right."
+    ],
+    "reuseFormula": "Monochrome Portrait + Voluminous Texture + Vibrant Red Script Overlay"
+  }
+}

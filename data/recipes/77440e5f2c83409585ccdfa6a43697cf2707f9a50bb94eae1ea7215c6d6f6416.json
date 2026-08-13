@@ -1,0 +1,276 @@
+{
+  "id": "77440e5f2c83409585ccdfa6a43697cf2707f9a50bb94eae1ea7215c6d6f6416",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:10:51.925Z",
+  "approvedAt": "2026-08-11T09:10:51.925Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:10:51.925Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "More Life.jpg",
+    "hash": "77440e5f2c83409585ccdfa6a43697cf2707f9a50bb94eae1ea7215c6d6f6416",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "More Life",
+    "artist": "Drake",
+    "artworkUrl": "https://coverartarchive.org/release-group/d039390b-2452-4a5c-9b2b-32e5e80f15e0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d039390b-2452-4a5c-9b2b-32e5e80f15e0",
+    "releaseGroupId": "d039390b-2452-4a5c-9b2b-32e5e80f15e0",
+    "recordingId": "f4d006a6-54b6-494a-93ec-bfdb52e5dc2b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "BlemDrake",
+      "song": "Blem",
+      "performer": "Drake",
+      "peakPosition": 38,
+      "firstChartDate": "2017-04-08",
+      "lastChartDate": "2017-04-29",
+      "appearances": [
+        {
+          "chartDate": "2017-04-08",
+          "position": 38
+        },
+        {
+          "chartDate": "2017-04-15",
+          "position": 48
+        },
+        {
+          "chartDate": "2017-04-22",
+          "position": 78
+        },
+        {
+          "chartDate": "2017-04-29",
+          "position": 84
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage portrait music cover vintage portrait 70s aesthetic wicker chair bold sans serif script typography black background analog photography high contrast between the central warm toned photo and the stark black void juxtaposition of heavy industrial sans serif and delicate formal script symmetrical vertical alignment of all elements along the center axis solid black square canvas centered vintage square photo bold extended sans serif header blue formal script footer white",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Portrait Music Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Streaming Cover",
+        "Vinyl Jacket Design",
+        "Poster Art"
+      ],
+      "retrievalTags": [
+        "vintage portrait",
+        "70s aesthetic",
+        "wicker chair",
+        "bold sans-serif",
+        "script typography",
+        "black background",
+        "analog photography"
+      ]
+    },
+    "visualDefinition": "A centered, square vintage photograph of a man in formal attire sitting in a wicker chair, framed by a solid black border with bold blue block text at the top and elegant white script at the bottom.",
+    "coreVisualRelationships": [
+      "High contrast between the central warm-toned photo and the stark black void",
+      "Juxtaposition of heavy industrial sans-serif and delicate formal script",
+      "Symmetrical vertical alignment of all elements along the center axis"
+    ],
+    "coreInvariants": [
+      "Solid black background",
+      "Square central image frame",
+      "Blue primary title color",
+      "White secondary text color"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is contained within a central square occupying approximately 50% of the total canvas height.",
+      "visualAnchor": "The central photograph acts as the primary anchor, supported by the heavy blue title above.",
+      "movementAndEyePath": "Vertical descent from the bold blue title, through the central portrait, to the script text at the base.",
+      "negativeSpace": "Extensive black negative space surrounds the central content, creating a 'frame' effect."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background for high-contrast isolation.",
+      "contrastColorRole": "Warm sepia and tan tones within the central photograph.",
+      "accentColorRole": "Vibrant medium-blue for the primary display text.",
+      "saturationAndValueRelationship": "High value contrast between white/blue text and black background; low saturation in the vintage photo.",
+      "paletteRestrictions": [
+        "Pure Black",
+        "Cobalt Blue",
+        "Warm White",
+        "Vintage Sepia"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extended heavy sans-serif and formal copperplate script.",
+      "letterConstructionRules": [
+        "Upper text must be all-caps, ultra-bold, and horizontally extended.",
+        "Lower text must be title-case, slanted script with high stroke contrast."
+      ],
+      "characterSpecificRedesigns": [
+        "None; relies on standard font characteristics."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extra-extended",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top third",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by negative space"
+          },
+          "treatment": {
+            "fill": "solid blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "rounded/flourished",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom third",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by negative space"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme contrast pairing: industrial geometric sans-serif with traditional formal script.",
+      "graphicDevices": [
+        "Square photo frame",
+        "Solid color field"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Blue color for top text",
+          "Script style for bottom text",
+          "Centered alignment"
+        ],
+        "avoid": [
+          "Serif fonts for the top title",
+          "Modern minimalist sans for the bottom text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Black Extended",
+            "reason": "Matches the weight and horizontal stretch of the top title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Snell Roundhand",
+            "reason": "Matches the formal, high-contrast script of the bottom text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square vintage 1970s-style photograph of a man with a mustache in a tuxedo sitting in a large wicker peacock chair, holding a pen and paper. Place this square image in the center of a solid black 1:1 canvas.",
+        "overlayInstruction": "Add a large, bold, extended blue sans-serif title at the top. Add a medium-sized white formal script subtitle at the bottom. Ensure all text is perfectly centered horizontally."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Is the top text blue and the bottom text white?",
+        "Is the central photo a perfect square?",
+        "Are the fonts contrasting in style (heavy vs. script)?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the top text",
+      "Subject of the central photograph",
+      "Specific script font style"
+    ],
+    "mustRedesign": [
+      "Parental Advisory logo must be removed or replaced with generic placeholder",
+      "Specific facial features of the subject to avoid likeness issues"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 70s film grain in the photo",
+        "Perfectly balanced vertical symmetry",
+        "High-impact color contrast"
+      ],
+      "avoid": [
+        "Digital-looking gradients",
+        "Low-resolution textures",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for horizontal centering of all elements",
+      "Verify the blue color is vibrant and not muted",
+      "Ensure the script text is legible against the black",
+      "Confirm the vintage photo has a warm, aged color grade"
+    ],
+    "reuseFormula": "Solid black square canvas + centered vintage square photo + bold extended sans-serif header (Blue) + formal script footer (White)."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:46:38.277Z"
+}

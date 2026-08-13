@@ -1,0 +1,297 @@
+{
+  "id": "6ff21d7bac7d7aab5ee00f6b6331907ab82d11c425272ed3eb5982ebacffbfb8",
+  "skillId": "6ff21d7bac7d7aab5ee00f6b6331907ab82d11c425272ed3eb5982ebacffbfb8",
+  "versionId": "6ff21d7bac7d7aab5ee00f6b6331907ab82d11c425272ed3eb5982ebacffbfb8",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:56:48.345Z",
+  "approvedAt": "2026-08-13T04:56:48.345Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:56:48.345Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Shakin’ Things Up.jpg",
+    "hash": "6ff21d7bac7d7aab5ee00f6b6331907ab82d11c425272ed3eb5982ebacffbfb8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Shakin’ Things Up",
+    "artist": "Lorrie Morgan",
+    "artworkUrl": "https://coverartarchive.org/release-group/d6cff30e-368e-3216-8ea2-cc0f2b1c63e2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d6cff30e-368e-3216-8ea2-cc0f2b1c63e2",
+    "releaseGroupId": "d6cff30e-368e-3216-8ea2-cc0f2b1c63e2",
+    "recordingId": "2c3c959c-9409-4735-ac16-0045bc9a9bfc",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Go AwayLorrie Morgan",
+      "song": "Go Away",
+      "performer": "Lorrie Morgan",
+      "peakPosition": 85,
+      "firstChartDate": "1997-10-04",
+      "lastChartDate": "1997-11-08",
+      "appearances": [
+        {
+          "chartDate": "1997-10-04",
+          "position": 95
+        },
+        {
+          "chartDate": "1997-10-11",
+          "position": 94
+        },
+        {
+          "chartDate": "1997-10-18",
+          "position": 94
+        },
+        {
+          "chartDate": "1997-10-25",
+          "position": 87
+        },
+        {
+          "chartDate": "1997-11-01",
+          "position": 85
+        },
+        {
+          "chartDate": "1997-11-08",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "polka dot portrait layout polka dot pattern vertical typography 90s aesthetic drop shadow text outdoor portrait pattern matching between subject s clothing and display typography vertical orientation of primary text contrasting with horizontal secondary text subject s pose leaning into the frame from the right soft diffused outdoor lighting with a shallow depth of field subject in patterned clothing typography masked with same pattern high key lighting vertical horizontal text contrast",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Polka Dot Portrait Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Editorial Fashion Layout",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "polka dot pattern",
+        "vertical typography",
+        "90s aesthetic",
+        "drop shadow text",
+        "outdoor portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A vertical text-heavy layout featuring a subject wearing a pattern that is mirrored within the display typography.",
+      "triggerTerms": [
+        "polka dot fill typography",
+        "vertical stacked name layout",
+        "90s country album aesthetic"
+      ],
+      "excludeWhen": [
+        "minimalist modern designs",
+        "horizontal-only text requirements",
+        "dark moody lighting"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A bright, high-key portrait of a blonde woman in a polka-dot dress, leaning against a wall, with large vertical text on the left that shares the dress's pattern and smaller horizontal text across the center.",
+    "coreVisualRelationships": [
+      "Pattern matching between subject's clothing and display typography",
+      "Vertical orientation of primary text contrasting with horizontal secondary text",
+      "Subject's pose leaning into the frame from the right",
+      "Soft, diffused outdoor lighting with a shallow depth of field"
+    ],
+    "coreInvariants": [
+      "Polka dot pattern fill in the primary vertical text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the right two-thirds of the frame, full torso view, leaning against a vertical surface.",
+      "visualAnchor": "The large vertical text on the left acts as a heavy visual anchor balancing the subject.",
+      "movementAndEyePath": "Eyes start at the large vertical text, move to the subject's face, then down to the horizontal title text.",
+      "negativeSpace": "Bright, out-of-focus background provides airy negative space between the text and the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White and light blue (background and highlights)",
+      "contrastColorRole": "Black (polka dots and shadows)",
+      "accentColorRole": "Yellow (secondary horizontal text)",
+      "saturationAndValueRelationship": "High value, bright exposure with high contrast in the patterns.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Yellow",
+        "Light Blue"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif and Slab Serif",
+      "letterConstructionRules": [
+        "Primary text is vertically stacked and rotated 90 degrees counter-clockwise",
+        "Primary text uses a polka dot pattern fill matching the subject's dress",
+        "Secondary text is a bold slab serif with a drop shadow"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters in primary text are clipped to a uniform width to form a vertical column"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "circular",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "vertical stack",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "left third",
+            "scale": "large",
+            "rotation": "-90 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "polka dot pattern",
+            "outline": "thin black",
+            "shadow": "soft drop shadow",
+            "depth": "flat",
+            "texture": "patterned",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "slab serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "heavy slabs",
+            "corners": "square",
+            "counters": "open",
+            "strokeCharacter": "sturdy"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "center horizontal",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "partial over subject",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "solid yellow",
+            "outline": "thin black",
+            "shadow": "hard drop shadow",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a large, patterned sans-serif and a small, solid-colored slab serif.",
+      "graphicDevices": [
+        "Drop shadows for legibility against busy backgrounds",
+        "Pattern masking"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical orientation of the main name",
+          "Polka dot fill",
+          "Yellow accent color for the title"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Thin hair-line strokes",
+          "Centered horizontal layouts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Provides the geometric circular counters needed for the vertical text skeleton.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Rockwell Bold",
+            "reason": "Matches the sturdy slab serif characteristics of the horizontal subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key outdoor portrait of a blonde woman in a black and white polka dot dress leaning against a white wall in a sunlit alleyway.",
+        "overlayInstruction": "Apply large vertical text on the left with a polka dot fill and a soft shadow. Add a horizontal yellow slab-serif title across the middle with a hard black drop shadow."
+      },
+      "verificationChecks": [
+        "Does the text pattern match the dress pattern?",
+        "Is the primary text rotated 90 degrees vertically?",
+        "Is the yellow text legible against the background?",
+        "Is the lighting bright and high-key?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Pattern scale in the text",
+      "Color of the horizontal subtitle",
+      "Subject pose and background location"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact brand logos or trademarks",
+      "Specific artist names"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean pattern masking within typography",
+        "Effective use of drop shadows for depth",
+        "Balanced asymmetrical composition"
+      ],
+      "avoid": [
+        "Low-resolution pattern textures",
+        "Clashing patterns between text and clothing",
+        "Muddy or dark color palettes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the vertical text is aligned to the left margin.",
+      "Ensure the polka dots in the text are sharp and distinct.",
+      "Verify the yellow text has a visible black drop shadow.",
+      "Confirm the subject is positioned on the right side of the frame."
+    ],
+    "reuseFormula": "Subject in patterned clothing + Typography masked with same pattern + High-key lighting + Vertical/Horizontal text contrast."
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "id": "09082f25961c90b759c9188bc7e31477d6402e7904989488e657d93efc32bba7",
+  "skillId": "09082f25961c90b759c9188bc7e31477d6402e7904989488e657d93efc32bba7",
+  "versionId": "09082f25961c90b759c9188bc7e31477d6402e7904989488e657d93efc32bba7",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T10:31:16.791Z",
+  "approvedAt": "2026-08-12T10:31:16.791Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T10:31:16.791Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Home Again.jpg",
+    "hash": "09082f25961c90b759c9188bc7e31477d6402e7904989488e657d93efc32bba7",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Home Again",
+    "artist": "New Edition",
+    "artworkUrl": "https://coverartarchive.org/release-group/7014dba8-b3a9-3623-8f67-e973bd2917a4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7014dba8-b3a9-3623-8f67-e973bd2917a4",
+    "releaseGroupId": "7014dba8-b3a9-3623-8f67-e973bd2917a4",
+    "recordingId": "fd6fba9c-8982-41e9-84f8-a8f6f43a613e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "One More DayNew Edition",
+      "song": "One More Day",
+      "performer": "New Edition",
+      "peakPosition": 61,
+      "firstChartDate": "1997-06-07",
+      "lastChartDate": "1997-08-09",
+      "appearances": [
+        {
+          "chartDate": "1997-06-07",
+          "position": 74
+        },
+        {
+          "chartDate": "1997-06-14",
+          "position": 69
+        },
+        {
+          "chartDate": "1997-06-21",
+          "position": 66
+        },
+        {
+          "chartDate": "1997-06-28",
+          "position": 66
+        },
+        {
+          "chartDate": "1997-07-05",
+          "position": 62
+        },
+        {
+          "chartDate": "1997-07-12",
+          "position": 61
+        },
+        {
+          "chartDate": "1997-07-19",
+          "position": 74
+        },
+        {
+          "chartDate": "1997-07-26",
+          "position": 88
+        },
+        {
+          "chartDate": "1997-08-02",
+          "position": 97
+        },
+        {
+          "chartDate": "1997-08-09",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochromatic group portrait with high contrast red typography 90s r b aesthetic monochrome photography red serif typography group portrait high key lighting luxury interior high contrast red typography against a grayscale photographic background horizontal alignment of subjects creating a mid ground band foreground texture of a fur rug grounding the high key environment vertical architectural elements in the background providing depth high key monochrome photography bold red serif overlay horizontal group staging",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochromatic Group Portrait with High-Contrast Red Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Editorial Fashion Spreads",
+        "Promotional Group Posters"
+      ],
+      "retrievalTags": [
+        "90s R&B aesthetic",
+        "monochrome photography",
+        "red serif typography",
+        "group portrait",
+        "high key lighting",
+        "luxury interior"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-key monochromatic group portrait featuring subjects in white attire against a white background, bisected by large-scale vibrant red serif typography.",
+      "triggerTerms": [
+        "monochrome group portrait with red text overlay",
+        "90s high-key fashion photography style",
+        "white-on-white interior photography with bold red serif"
+      ],
+      "excludeWhen": [
+        "vibrant multi-colored backgrounds are required",
+        "minimalist sans-serif typography is requested",
+        "outdoor natural lighting is the primary focus"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A desaturated, nearly grayscale photograph of a group of men in white suits sitting in a white room, featuring a polar bear rug in the foreground. The composition is anchored by a large, bright red serif title that spans the upper third of the frame, creating a sharp color contrast against the neutral scene.",
+    "coreVisualRelationships": [
+      "High-contrast red typography against a grayscale photographic background",
+      "Horizontal alignment of subjects creating a mid-ground band",
+      "Foreground texture of a fur rug grounding the high-key environment",
+      "Vertical architectural elements in the background providing depth"
+    ],
+    "coreInvariants": [
+      "The primary title text must be a saturated red color.",
+      "The photographic background must be desaturated or monochromatic.",
+      "The subjects must wear clothing that matches the high-key white environment."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Six subjects are arranged horizontally across the center and lower half of the frame, scaled to fill the width of the composition.",
+      "visualAnchor": "The large red serif typography in the upper third serves as the primary visual anchor.",
+      "movementAndEyePath": "The eye starts at the vibrant red text, moves down to the faces of the subjects, and settles on the textured rug in the foreground.",
+      "negativeSpace": "High-key white space in the upper background and within the subjects' clothing creates a sense of luxury and openness."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White/Grayscale (Background and Subjects)",
+      "contrastColorRole": "Black (Sunglasses, shadows, and secondary text)",
+      "accentColorRole": "Vibrant Red (Primary Display Typography)",
+      "saturationAndValueRelationship": "Extreme contrast between the desaturated, high-value background and the high-saturation, medium-value red text.",
+      "paletteRestrictions": [
+        "Pure Red",
+        "Grayscale",
+        "High-key White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional serif",
+      "letterConstructionRules": [
+        "Sharp, bracketed serifs",
+        "High stroke contrast between thicks and thins",
+        "Vertical stress in rounded characters"
+      ],
+      "characterSpecificRedesigns": [
+        "Extended horizontal crossbars on capital letters to span the width of the frame"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal to slightly expanded",
+            "weight": "Medium-bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "None",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Upper third",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays background architectural elements",
+            "relationshipToImage": "Floating foreground layer"
+          },
+          "treatment": {
+            "fill": "Solid Red",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Blunt",
+            "corners": "Square",
+            "counters": "Tight",
+            "strokeCharacter": "Blocky"
+          },
+          "typesetting": {
+            "case": "All Caps",
+            "alignment": "Right-aligned under primary text",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Right side, below primary title",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Integrated with mid-ground"
+          },
+          "treatment": {
+            "fill": "Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for the main title paired with a heavier, condensed serif for the subtitle to create a clear hierarchy.",
+      "graphicDevices": [
+        "Thin horizontal rule line",
+        "Hexagonal logo badge in the upper right corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Red color of the main title",
+          "Serif classification",
+          "High-key monochromatic background"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "Low-contrast color pairings"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman Bold",
+            "reason": "Matches the classic high-contrast serif look of the 90s.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni",
+            "reason": "Provides the extreme stroke contrast seen in the display text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key, monochromatic photograph of a group of men in white suits sitting on a white sofa in a luxury white room with a fur rug in the foreground.",
+        "overlayInstruction": "Add a large, vibrant red serif title across the upper third of the image. Add a smaller, black, all-caps condensed serif subtitle aligned to the right below the main title."
+      },
+      "verificationChecks": [
+        "Is the main title text bright red?",
+        "Is the background photograph desaturated or monochromatic?",
+        "Is the typography a high-contrast serif?",
+        "Are the subjects wearing white in a white environment?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects in the group",
+      "Specific shade of red for the typography",
+      "Texture of the foreground rug"
+    ],
+    "mustRedesign": [
+      "Avoid using specific brand logos or names",
+      "Ensure the faces of the subjects are generic and not based on specific celebrities"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, high-key lighting",
+        "Sharp typographic edges",
+        "Balanced horizontal composition"
+      ],
+      "avoid": [
+        "Muddiness in the grayscale tones",
+        "Blurry or low-resolution textures",
+        "Clashing colors in the background"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the red text is the most saturated element in the frame.",
+      "Verify that the white clothing does not disappear into the white background.",
+      "Ensure the serif font has sharp, distinct terminals.",
+      "Confirm the composition feels balanced despite the large text overlay."
+    ],
+    "reuseFormula": "High-key monochrome photography + Bold Red Serif Overlay + Horizontal Group Staging"
+  }
+}

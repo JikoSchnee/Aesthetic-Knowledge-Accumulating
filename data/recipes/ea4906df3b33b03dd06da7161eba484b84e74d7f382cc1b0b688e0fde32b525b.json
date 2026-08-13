@@ -1,0 +1,210 @@
+{
+  "id": "ea4906df3b33b03dd06da7161eba484b84e74d7f382cc1b0b688e0fde32b525b",
+  "skillId": "ea4906df3b33b03dd06da7161eba484b84e74d7f382cc1b0b688e0fde32b525b",
+  "versionId": "ea4906df3b33b03dd06da7161eba484b84e74d7f382cc1b0b688e0fde32b525b",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:10:00.065Z",
+  "approvedAt": "2026-08-12T16:10:00.065Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:10:00.065Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Horizon.jpg",
+    "hash": "ea4906df3b33b03dd06da7161eba484b84e74d7f382cc1b0b688e0fde32b525b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Horizon",
+    "artist": "Carpenters",
+    "artworkUrl": "https://coverartarchive.org/release-group/33e96e78-0caf-347c-aa2f-6119ba792be0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/33e96e78-0caf-347c-aa2f-6119ba792be0",
+    "releaseGroupId": "33e96e78-0caf-347c-aa2f-6119ba792be0",
+    "recordingId": "0bfe78ef-37ec-4579-b7ec-108d931cc72a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "SolitaireCarpenters",
+      "song": "Solitaire",
+      "performer": "Carpenters",
+      "peakPosition": 17,
+      "firstChartDate": "1975-08-02",
+      "lastChartDate": "1975-10-04",
+      "appearances": [
+        {
+          "chartDate": "1975-08-02",
+          "position": 76
+        },
+        {
+          "chartDate": "1975-08-09",
+          "position": 65
+        },
+        {
+          "chartDate": "1975-08-16",
+          "position": 40
+        },
+        {
+          "chartDate": "1975-08-23",
+          "position": 30
+        },
+        {
+          "chartDate": "1975-08-30",
+          "position": 26
+        },
+        {
+          "chartDate": "1975-09-06",
+          "position": 21
+        },
+        {
+          "chartDate": "1975-09-13",
+          "position": 18
+        },
+        {
+          "chartDate": "1975-09-20",
+          "position": 17
+        },
+        {
+          "chartDate": "1975-09-27",
+          "position": 36
+        },
+        {
+          "chartDate": "1975-10-04",
+          "position": 58
+        }
+      ]
+    }
+  },
+  "dedupeText": "soft focus 1970s portraiture 1970s aesthetic soft glow hazy lighting vintage fashion foliage background grainy film subjects centered against a dense organic background soft light diffusion creating a dreamlike atmosphere complementary textures between knit clothing and leafy foliage 1970s portrait soft focus lens white knitwear fern background warm film grain",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soft Focus 1970s Portraiture",
+      "category": "Photography",
+      "medium": [
+        "Film Photography",
+        "Soft Focus Lens",
+        "Natural Lighting"
+      ],
+      "useCases": [
+        "Vintage album cover art",
+        "Retro lifestyle editorial",
+        "Nostalgic portraiture"
+      ],
+      "retrievalTags": [
+        "1970s aesthetic",
+        "soft glow",
+        "hazy lighting",
+        "vintage fashion",
+        "foliage background",
+        "grainy film"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Generates a hazy, soft-focus portrait of a man and woman in 1970s attire against a dense green foliage background with a warm, diffused glow.",
+      "triggerTerms": [
+        "1970s soft focus portrait",
+        "hazy vintage film aesthetic",
+        "diffused warm light photography"
+      ],
+      "excludeWhen": [
+        "sharp modern digital photography is required",
+        "urban or minimalist backgrounds are requested",
+        "high contrast lighting is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium shot of two figures, a man and a woman, positioned in front of lush green ferns and leaves. The image is characterized by a heavy soft-focus effect that creates a glowing halo around the subjects, particularly where light hits their white clothing. The color palette is dominated by natural greens, warm skin tones, and bright whites, all unified by a yellow-tinted vintage film grain.",
+    "coreVisualRelationships": [
+      "subjects centered against a dense organic background",
+      "soft light diffusion creating a dreamlike atmosphere",
+      "complementary textures between knit clothing and leafy foliage"
+    ],
+    "coreInvariants": [
+      "heavy soft-focus diffusion filter effect",
+      "warm, yellow-tinted color grading",
+      "1970s era-specific clothing silhouettes"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two subjects in a medium-close-up, occupying the central two-thirds of the frame.",
+      "visualAnchor": "The bright white shirts of the subjects serve as the primary light source and anchor.",
+      "movementAndEyePath": "The eye moves from the woman's tilted head on the left to the man's direct gaze on the right, framed by the surrounding greenery.",
+      "negativeSpace": "Minimal negative space, filled with dense, out-of-focus foliage."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep forest green background providing contrast for the subjects.",
+      "contrastColorRole": "Bright white clothing reflecting the diffused light.",
+      "accentColorRole": "Warm amber and yellow highlights in the skin and hair.",
+      "saturationAndValueRelationship": "Low contrast with high brightness in the highlights; colors are muted by the hazy overlay.",
+      "paletteRestrictions": [
+        "Avoid neon or synthetic modern colors",
+        "Limit to earthy tones and whites"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Soft glow bloom",
+        "Film grain texture"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a medium shot of a man and woman in 1970s knitwear standing in front of a dense wall of ferns. Apply a heavy soft-focus filter and warm film grain.",
+        "overlayInstruction": "If text is needed, use a thin, tracked-out serif font in a muted cream color, placed at the top or bottom margin."
+      },
+      "verificationChecks": [
+        "Is there a visible soft-focus glow around the subjects?",
+        "Does the clothing reflect 1970s styles like wide collars or knit textures?",
+        "Is the background composed of dense, out-of-focus greenery?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "intensity of the soft-focus glow",
+      "density of the foliage background",
+      "warmth of the color temperature"
+    ],
+    "mustRedesign": [
+      "modern digital sharpness",
+      "contemporary clothing styles",
+      "stark, high-contrast shadows"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dreamlike, hazy atmosphere",
+        "Authentic 1970s film texture",
+        "Soft light bloom on white surfaces"
+      ],
+      "avoid": [
+        "Over-saturation",
+        "Digital noise instead of film grain",
+        "Sharp edges on subjects"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for the characteristic 'halo' effect on the white shirts.",
+      "Ensure the skin tones are warm and diffused.",
+      "Verify the background is a lush, dark green wall of plants.",
+      "Confirm the overall image has a vintage matte finish."
+    ],
+    "reuseFormula": "1970s portrait + soft focus lens + white knitwear + fern background + warm film grain"
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "id": "e6e7b46b66112a57d7b866e933c54043783042abeb9994e3289e86e26e2c59aa",
+  "skillId": "e6e7b46b66112a57d7b866e933c54043783042abeb9994e3289e86e26e2c59aa",
+  "versionId": "e6e7b46b66112a57d7b866e933c54043783042abeb9994e3289e86e26e2c59aa",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:55:59.866Z",
+  "approvedAt": "2026-08-12T18:55:59.866Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:55:59.866Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "MH.jpg",
+    "hash": "e6e7b46b66112a57d7b866e933c54043783042abeb9994e3289e86e26e2c59aa",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "MH",
+    "artist": "Marques Houston",
+    "artworkUrl": "https://coverartarchive.org/release-group/011e8edf-482d-3d3c-a30a-aafbf21bac21/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/011e8edf-482d-3d3c-a30a-aafbf21bac21",
+    "releaseGroupId": "011e8edf-482d-3d3c-a30a-aafbf21bac21",
+    "recordingId": "74bc8430-81bd-433c-875c-611a431b5975",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "That GirlMarques Houston",
+      "song": "That Girl",
+      "performer": "Marques Houston",
+      "peakPosition": 63,
+      "firstChartDate": "2003-03-08",
+      "lastChartDate": "2003-04-19",
+      "appearances": [
+        {
+          "chartDate": "2003-03-08",
+          "position": 64
+        },
+        {
+          "chartDate": "2003-03-15",
+          "position": 63
+        },
+        {
+          "chartDate": "2003-03-22",
+          "position": 63
+        },
+        {
+          "chartDate": "2003-03-29",
+          "position": 74
+        },
+        {
+          "chartDate": "2003-04-05",
+          "position": 79
+        },
+        {
+          "chartDate": "2003-04-12",
+          "position": 82
+        },
+        {
+          "chartDate": "2003-04-19",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban r b portrait with distressed vertical typography urban r b distressed font vertical text warm lighting streetwear 2000s aesthetic warm golden hour skin tones contrasting with the cool white background strip vertical text alignment echoing the vertical lines of the background architecture subject s forward leaning posture creating a diagonal tension against the rigid vertical text column heavy distressed block lettering paired with delicate fluid script overlay urban portrait warm grading vertical distressed serif script overlay white gutter layout",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban R&B Portrait with Distressed Vertical Typography",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Distressed Typography"
+      ],
+      "useCases": [
+        "Album covers",
+        "Streetwear branding",
+        "Urban lifestyle editorial",
+        "Artist promotional posters"
+      ],
+      "retrievalTags": [
+        "urban",
+        "R&B",
+        "distressed font",
+        "vertical text",
+        "warm lighting",
+        "streetwear",
+        "2000s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A warm-toned urban portrait featuring a subject in streetwear with a prominent vertical column of distressed, high-contrast typography on a clean white background strip.",
+      "triggerTerms": [
+        "vertical distressed block lettering",
+        "urban portrait warm lighting",
+        "streetwear album cover style"
+      ],
+      "excludeWhen": [
+        "minimalist modern sans-serif layouts",
+        "cool-toned corporate photography",
+        "landscape orientation focus"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium shot of a male subject in a green baseball cap and white polo, leaning forward against a sun-drenched brick wall. The right side of the frame is a stark white vertical band containing heavy, black, distressed serif text rotated 90 degrees clockwise, overlaid with a thin silver script signature.",
+    "coreVisualRelationships": [
+      "Warm, golden-hour skin tones contrasting with the cool white background strip",
+      "Vertical text alignment echoing the vertical lines of the background architecture",
+      "Subject's forward-leaning posture creating a diagonal tension against the rigid vertical text column",
+      "Heavy distressed block lettering paired with delicate, fluid script overlay"
+    ],
+    "coreInvariants": [
+      "Vertical text orientation on the right third",
+      "Distressed/eroded texture on the primary display font",
+      "Warm, high-saturation color grading on the subject",
+      "Clean white negative space for typographic clarity"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left two-thirds of the frame, medium-close scale, leaning into the center.",
+      "visualAnchor": "The subject's face and the green cap act as the primary anchor, with the vertical text block as the secondary anchor.",
+      "movementAndEyePath": "Eyes start at the subject's face, follow the arm down to the hands, then move up the vertical text column on the right.",
+      "negativeSpace": "A distinct white vertical gutter on the right side provides breathing room for the typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm ochre and terracotta (brick wall and skin tones)",
+      "contrastColorRole": "Pure white (background strip and polo shirt)",
+      "accentColorRole": "Forest green (cap and shirt trim)",
+      "saturationAndValueRelationship": "High saturation in the subject area with high value/brightness in the background strip.",
+      "paletteRestrictions": [
+        "Limit to warm earth tones, white, and one primary accent color like green or blue."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold slab serif with condensed proportions",
+      "letterConstructionRules": [
+        "Vertical stacking via 90-degree clockwise rotation",
+        "Heavy erosion/distress patterns applied to the fill",
+        "High contrast between thick and thin strokes"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are distressed to look like weathered woodblock or stencil prints"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "distressed-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "black",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "slab",
+            "corners": "sharp but eroded",
+            "counters": "small",
+            "strokeCharacter": "weathered"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single-column",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "right-aligned vertical strip",
+            "scale": "large",
+            "rotation": "90 degrees clockwise",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed on white negative space"
+          },
+          "treatment": {
+            "fill": "solid black with texture",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "grunge/eroded",
+            "distortion": "weathering"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "wide",
+            "weight": "thin",
+            "contrast": "low",
+            "xHeight": "variable",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "mixed",
+            "alignment": "center",
+            "tracking": "loose",
+            "leading": "n/a",
+            "lineBreakPattern": "n/a",
+            "density": "light"
+          },
+          "composition": {
+            "position": "centered over the display text",
+            "scale": "medium",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "over display text",
+            "relationshipToImage": "floating overlay"
+          },
+          "treatment": {
+            "fill": "silver/light grey",
+            "outline": "thin dark grey",
+            "shadow": "soft drop shadow",
+            "depth": "slight",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Aggressive, textured slab serif paired with a light, airy monoline script for contrast.",
+      "graphicDevices": [
+        "Vertical white border",
+        "Textured overlays"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical orientation",
+          "Distressed texture",
+          "High-contrast serif skeleton"
+        ],
+        "avoid": [
+          "Clean sans-serifs",
+          "Horizontal-only layouts",
+          "Neon colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mesquite or Ironwood",
+            "reason": "Captures the heavy, condensed slab-serif feel with woodblock roots.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bleeding Cowboys",
+            "reason": "Provides the necessary distressed and weathered aesthetic.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Mistral or Brush Script",
+            "reason": "Approximates the fluid, handwritten signature overlay.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in urban streetwear leaning against a sunlit brick wall, leaving the right 30% of the image as a solid white vertical strip.",
+        "overlayInstruction": "Add vertical, 90-degree rotated distressed slab-serif text in black on the white strip. Overlay a thin silver script signature horizontally across the center of the vertical text."
+      },
+      "verificationChecks": [
+        "Is the text rotated 90 degrees clockwise?",
+        "Does the text have a visible weathered/distressed texture?",
+        "Is the subject lighting warm and golden?",
+        "Is there a clear white vertical gutter on the right?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "accent color",
+      "distress level of font",
+      "subject pose",
+      "brick wall texture"
+    ],
+    "mustRedesign": [
+      "Do not use the specific name 'Marques Houston'",
+      "Do not replicate the specific 'MH' signature logo"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast vertical typography",
+        "Warm urban color grading",
+        "Clean white typographic gutter"
+      ],
+      "avoid": [
+        "Low-resolution textures",
+        "Default system fonts",
+        "Cool/blue lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the vertical text is legible despite the distress.",
+      "Ensure the script overlay doesn't completely obscure the primary text.",
+      "Verify the white strip is pure white and not tinted by the image's warmth.",
+      "Confirm the subject's gaze or posture leads toward the typography."
+    ],
+    "reuseFormula": "Urban Portrait + Warm Grading + [Vertical Distressed Serif] + [Script Overlay] + White Gutter Layout"
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "id": "9166680cd8ce35315efe2bd9ac63662e00db09295698ac16276040fb9db6a899",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T14:13:55.957Z",
+  "approvedAt": "2026-08-11T14:13:55.957Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T14:13:55.957Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Ivory.jpg",
+    "hash": "9166680cd8ce35315efe2bd9ac63662e00db09295698ac16276040fb9db6a899",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Ivory",
+    "artist": "Omar Apollo",
+    "artworkUrl": "https://coverartarchive.org/release-group/4e9d2da7-6a0a-4433-af20-296c35d0fda5/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/4e9d2da7-6a0a-4433-af20-296c35d0fda5",
+    "releaseGroupId": "4e9d2da7-6a0a-4433-af20-296c35d0fda5",
+    "recordingId": "c79c4a4a-5070-43d8-b1e9-dbaecc6cdfb3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "EvergreenOmar Apollo",
+      "song": "Evergreen",
+      "performer": "Omar Apollo",
+      "peakPosition": 51,
+      "firstChartDate": "2022-10-01",
+      "lastChartDate": "2022-11-12",
+      "appearances": [
+        {
+          "chartDate": "2022-10-01",
+          "position": 62
+        },
+        {
+          "chartDate": "2022-10-08",
+          "position": 53
+        },
+        {
+          "chartDate": "2022-10-15",
+          "position": 51
+        },
+        {
+          "chartDate": "2022-10-22",
+          "position": 60
+        },
+        {
+          "chartDate": "2022-10-29",
+          "position": 77
+        },
+        {
+          "chartDate": "2022-11-05",
+          "position": 88
+        },
+        {
+          "chartDate": "2022-11-12",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochromatic chiaroscuro portrait black and white chiaroscuro shirtless male portrait grainy texture wide tracking typography dramatic lighting balance between the bright neutral background and the dark shadowed subject horizontal alignment of text against the verticality of the human form contrast between the smooth skin texture and the coarse digital film grain overlay combine a high contrast b w portrait with a heavy grain overlay and wide tracked geometric sans serif typography for a classic indie pop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochromatic Chiaroscuro Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Post-Processing"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portraiture",
+        "Minimalist Poster Design"
+      ],
+      "retrievalTags": [
+        "black and white",
+        "chiaroscuro",
+        "shirtless male portrait",
+        "grainy texture",
+        "wide tracking typography",
+        "dramatic lighting"
+      ]
+    },
+    "visualDefinition": "A high-contrast, monochromatic portrait of a shirtless man with arms crossed, featuring a heavy film grain and a dramatic split-lighting effect that casts one side of the face and torso into deep shadow. The composition is centered and minimalist, with a single word of widely-spaced sans-serif text spanning the chest.",
+    "coreVisualRelationships": [
+      "Balance between the bright, neutral background and the dark, shadowed subject",
+      "Horizontal alignment of text against the verticality of the human form",
+      "Contrast between the smooth skin texture and the coarse digital film grain overlay"
+    ],
+    "coreInvariants": [
+      "Monochromatic color palette (grayscale)",
+      "Extreme wide tracking on the display text",
+      "Chiaroscuro lighting casting a hard shadow down the center of the subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central, medium-close-up shot from the waist up, occupying approximately 60% of the frame width.",
+      "visualAnchor": "The subject's eyes, specifically the one caught in the light, providing a focal point for the viewer.",
+      "movementAndEyePath": "Starts at the illuminated eye, moves down the neck to the text on the chest, then follows the arms crossed at the bottom.",
+      "negativeSpace": "Ample, textured gray space surrounding the subject, creating a sense of isolation and focus."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-tone gray background with a subtle warm tint.",
+      "contrastColorRole": "Deep charcoal and black for shadows and hair.",
+      "accentColorRole": "Pure white for the typography and highlights on the skin.",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between the lit skin and the shadowed side.",
+      "paletteRestrictions": [
+        "Strictly grayscale",
+        "No vibrant colors",
+        "No pure digital blacks (must have grain)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Monolinear construction",
+        "Circular 'O' and sharp 'V' and 'Y' vertices"
+      ],
+      "characterSpecificRedesigns": [
+        "None; standard geometric forms used for maximum legibility against complex skin textures"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "1000+ units (extremely wide)",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Sparse"
+          },
+          "composition": {
+            "position": "Center chest",
+            "scale": "Small relative to frame, but high impact due to tracking",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Placed directly over the subject's torso",
+            "relationshipToImage": "Integrated through light/dark interaction; white text pops against dark shadows"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used to maintain minimalist aesthetic.",
+      "graphicDevices": [
+        "Heavy film grain overlay",
+        "Vignetting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase case",
+          "Extreme tracking",
+          "Geometric sans-serif style"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Tight kerning"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Provides the necessary geometric weight and clarity.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Classic geometric shapes that match the 'O' and 'V' forms.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat Bold",
+            "reason": "A modern alternative with similar geometric proportions.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a monochromatic portrait of a man with slicked-back hair, shirtless, arms crossed. Use chiaroscuro lighting with a hard shadow dividing the face and torso vertically. Apply a heavy, vintage film grain and a neutral gray textured background.",
+        "overlayInstruction": "Add a single word in all-caps geometric sans-serif (like Gotham Bold) across the center of the chest. Set the tracking to be extremely wide so the letters span the width of the torso. Ensure the text is pure white."
+      },
+      "verificationChecks": [
+        "Is the lighting split exactly down the middle of the subject?",
+        "Is the film grain visible across both the subject and the background?",
+        "Is the text tracking wide enough to create significant gaps between letters?",
+        "Is the image strictly grayscale?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the film grain",
+      "Width of the text tracking",
+      "Hardness of the shadow edge on the face",
+      "Subject's pose (arms crossed vs. arms at sides)"
+    ],
+    "mustRedesign": [
+      "Any colorful elements",
+      "Tight letter spacing",
+      "Serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast chiaroscuro lighting",
+        "Authentic-looking film grain",
+        "Balanced minimalist composition"
+      ],
+      "avoid": [
+        "Low-resolution textures",
+        "Soft, muddy shadows",
+        "Default font kerning"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is perfectly centered horizontally.",
+      "Ensure the grain does not obscure the subject's features too much.",
+      "Verify that the white text is legible against both the light and dark parts of the skin.",
+      "Confirm the absence of any color cast."
+    ],
+    "reuseFormula": "Combine a high-contrast B&W portrait with a heavy grain overlay and wide-tracked geometric sans-serif typography for a classic indie-pop aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:15:54.666Z"
+}

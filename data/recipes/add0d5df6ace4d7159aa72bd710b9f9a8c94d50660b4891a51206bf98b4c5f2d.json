@@ -1,0 +1,290 @@
+{
+  "id": "add0d5df6ace4d7159aa72bd710b9f9a8c94d50660b4891a51206bf98b4c5f2d",
+  "skillId": "add0d5df6ace4d7159aa72bd710b9f9a8c94d50660b4891a51206bf98b4c5f2d",
+  "versionId": "add0d5df6ace4d7159aa72bd710b9f9a8c94d50660b4891a51206bf98b4c5f2d",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:56:15.102Z",
+  "approvedAt": "2026-08-13T04:56:15.102Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:56:15.102Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Faith: A Holiday Album.jpg",
+    "hash": "add0d5df6ace4d7159aa72bd710b9f9a8c94d50660b4891a51206bf98b4c5f2d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Faith: A Holiday Album",
+    "artist": "Kenny G",
+    "artworkUrl": "https://coverartarchive.org/release-group/44a64edf-32d4-3de4-9565-f252ac17a401/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/44a64edf-32d4-3de4-9565-f252ac17a401",
+    "releaseGroupId": "44a64edf-32d4-3de4-9565-f252ac17a401",
+    "recordingId": "5da2fecf-8518-4598-815d-b92243bbdfcf",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Auld Lang SyneKenny G",
+      "song": "Auld Lang Syne",
+      "performer": "Kenny G",
+      "peakPosition": 7,
+      "firstChartDate": "1999-12-25",
+      "lastChartDate": "2000-01-22",
+      "appearances": [
+        {
+          "chartDate": "1999-12-25",
+          "position": 89
+        },
+        {
+          "chartDate": "2000-01-01",
+          "position": 54
+        },
+        {
+          "chartDate": "2000-01-08",
+          "position": 7
+        },
+        {
+          "chartDate": "2000-01-15",
+          "position": 8
+        },
+        {
+          "chartDate": "2000-01-22",
+          "position": 66
+        }
+      ]
+    }
+  },
+  "dedupeText": "warm candlelit portrait album cover candlelight warm glow musician portrait serif typography holiday theme soft lighting central subject framed by a dense field of candles in the lower third large scale display text overlapping the subject s head warm yellow candle light contrasting with dark clothing symmetrical balance with the subject as the vertical axis warm studio portrait candle field mixed serif script typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Warm Candlelit Portrait Album Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Studio Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Holiday album covers",
+        "Classical or Jazz musician portraits",
+        "Warm atmospheric promotional posters"
+      ],
+      "retrievalTags": [
+        "candlelight",
+        "warm glow",
+        "musician portrait",
+        "serif typography",
+        "holiday theme",
+        "soft lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered musician portrait surrounded by a dense foreground and background of glowing pillar candles, utilizing a warm sepia-toned palette and elegant mixed-serif typography.",
+      "triggerTerms": [
+        "musician surrounded by glowing candles",
+        "warm candlelit holiday portrait",
+        "soft glow studio photography with instrument"
+      ],
+      "excludeWhen": [
+        "high-contrast neon lighting is requested",
+        "minimalist flat vector styles are needed",
+        "outdoor natural light settings are required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central figure sits cross-legged holding a vertical woodwind instrument, framed by a sea of lit pillar candles of varying heights. The lighting is dominated by the warm, yellow-orange glow of the flames, creating a soft, intimate atmosphere against a neutral, warm-grey studio background.",
+    "coreVisualRelationships": [
+      "Central subject framed by a dense field of candles in the lower third",
+      "Large-scale display text overlapping the subject's head",
+      "Warm yellow candle light contrasting with dark clothing",
+      "Symmetrical balance with the subject as the vertical axis"
+    ],
+    "coreInvariants": [
+      "Warm, monochromatic-leaning color temperature dominated by candle glow",
+      "Shallow depth of field with blurred candles in the immediate foreground",
+      "Subject holding a vertical musical instrument centrally"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered, medium-full shot of a seated figure occupying the middle two-thirds of the frame.",
+      "visualAnchor": "The musician's face and the vertical line of the instrument.",
+      "movementAndEyePath": "From the large top text down to the subject's face, following the instrument down to the candle field, and finally to the bottom metadata text.",
+      "negativeSpace": "Neutral warm-grey space in the upper corners around the display typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm yellow and orange from candle flames and reflections.",
+      "contrastColorRole": "Deep black or dark brown of the subject's sweater.",
+      "accentColorRole": "Deep burgundy for the script subtitle.",
+      "saturationAndValueRelationship": "High saturation in the yellows/oranges; low value in the central subject; high value in the white display text.",
+      "paletteRestrictions": [
+        "Avoid cool blues or greens",
+        "Maintain a warm, sepia-adjacent tonal range"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans and Elegant Script",
+      "letterConstructionRules": [
+        "Display name uses ultra-light, wide geometric strokes",
+        "Subtitle uses a fluid, high-contrast formal script",
+        "Bottom text uses a wide-tracked, bold serif"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "hairline",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "square",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "widest",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "behind and over subject hair",
+            "relationshipToImage": "integrated"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "formal script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "ball terminals",
+            "corners": "rounded",
+            "counters": "closed",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "titlecase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "middle left",
+            "scale": "medium",
+            "rotation": "-5 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "dark burgundy",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of ultra-modern thin sans-serif with traditional romantic script.",
+      "graphicDevices": [
+        "Layered depth with text behind and in front of subject elements"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ultra-thin weight of the top text",
+          "Wide tracking of the bottom text"
+        ],
+        "avoid": [
+          "Heavy bold fonts for the main name",
+          "Modern slab serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Thin or Futura Light",
+            "reason": "Matches the geometric, wide, and thin display style",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Snell Roundhand or Bickham Script",
+            "reason": "Captures the elegant, high-contrast script feel",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a musician with long curly hair, wearing a black sweater, sitting cross-legged and holding a saxophone. Surround the subject with dozens of lit cream-colored pillar candles of varying heights, creating a warm yellow glow. Background should be a soft, warm neutral grey.",
+        "overlayInstruction": "Add the artist name in a large, ultra-thin white geometric sans-serif at the top. Add the album title in a dark burgundy formal script on the middle left. Add the description text at the bottom in a bold, wide-tracked serif font."
+      },
+      "verificationChecks": [
+        "Is the top text ultra-thin and wide?",
+        "Are there candles in both the foreground and background?",
+        "Is the overall color temperature warm and golden?",
+        "Is the subject centered and holding an instrument?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of candles",
+      "Instrument type",
+      "Subject hair style",
+      "Script color"
+    ],
+    "mustRedesign": [
+      "Avoid using specific celebrity likenesses",
+      "Do not use existing brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, diffused lighting from the candles",
+        "Clean, elegant typographic hierarchy",
+        "Balanced symmetrical composition"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Cluttered or messy candle placement",
+        "Illegible thin fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the thin white text is legible against the background",
+      "Ensure the candle flames look natural and glowing",
+      "Verify the script text has a high-contrast calligraphic feel",
+      "Confirm the subject's pose is centered and stable"
+    ],
+    "reuseFormula": "Warm Studio Portrait + Candle Field + Mixed Serif/Script Typography"
+  }
+}

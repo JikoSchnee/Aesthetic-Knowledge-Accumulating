@@ -1,0 +1,283 @@
+{
+  "id": "d578a1798da855a5ef447f33ddab401869d6b8e0dba7091c5b04cb0caafaa8f1",
+  "skillId": "d578a1798da855a5ef447f33ddab401869d6b8e0dba7091c5b04cb0caafaa8f1",
+  "versionId": "d578a1798da855a5ef447f33ddab401869d6b8e0dba7091c5b04cb0caafaa8f1",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:57:15.159Z",
+  "approvedAt": "2026-08-13T04:57:15.159Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:57:15.159Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Cyan.jpg",
+    "hash": "d578a1798da855a5ef447f33ddab401869d6b8e0dba7091c5b04cb0caafaa8f1",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Cyan",
+    "artist": "Three Dog Night",
+    "artworkUrl": "https://coverartarchive.org/release-group/0cc45d28-3ede-363f-825f-b8e556ee0b8e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0cc45d28-3ede-363f-825f-b8e556ee0b8e",
+    "releaseGroupId": "0cc45d28-3ede-363f-825f-b8e556ee0b8e",
+    "recordingId": "1d376ef4-5efc-416a-8af5-90e58b00380f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Let Me Serenade YouThree Dog Night",
+      "song": "Let Me Serenade You",
+      "performer": "Three Dog Night",
+      "peakPosition": 17,
+      "firstChartDate": "1973-10-27",
+      "lastChartDate": "1974-01-12",
+      "appearances": [
+        {
+          "chartDate": "1973-10-27",
+          "position": 84
+        },
+        {
+          "chartDate": "1973-11-03",
+          "position": 72
+        },
+        {
+          "chartDate": "1973-11-10",
+          "position": 62
+        },
+        {
+          "chartDate": "1973-11-17",
+          "position": 32
+        },
+        {
+          "chartDate": "1973-11-24",
+          "position": 26
+        },
+        {
+          "chartDate": "1973-12-01",
+          "position": 17
+        },
+        {
+          "chartDate": "1973-12-08",
+          "position": 17
+        },
+        {
+          "chartDate": "1973-12-15",
+          "position": 29
+        },
+        {
+          "chartDate": "1973-12-22",
+          "position": 34
+        },
+        {
+          "chartDate": "1973-12-29",
+          "position": 41
+        },
+        {
+          "chartDate": "1974-01-05",
+          "position": 49
+        },
+        {
+          "chartDate": "1974-01-12",
+          "position": 78
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro group portrait with stylized display type vintage photography group portrait stylized sans serif cloudy sky background 70s fashion tiered human subjects against a natural sky background high contrast white clothing against blue and grey sky tones top aligned typography framing the upper composition symmetrical balance with a central visual anchor tiered group portrait 70s fashion cloudy sky backdrop top aligned ultra expanded geometric sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Group Portrait with Stylized Display Type",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Band promotional material",
+        "1970s retro aesthetic design",
+        "Group portrait layout"
+      ],
+      "retrievalTags": [
+        "vintage photography",
+        "group portrait",
+        "stylized sans-serif",
+        "cloudy sky background",
+        "70s fashion"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Use this skill for multi-person group portraits featuring a tiered arrangement against a natural sky backdrop with high-contrast stylized display typography at the top edge.",
+      "triggerTerms": [
+        "70s band portrait",
+        "tiered group photography",
+        "stylized retro display type",
+        "cloudy sky backdrop"
+      ],
+      "excludeWhen": [
+        "minimalist modern photography",
+        "single subject portraits",
+        "urban or indoor settings"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tiered group portrait of seven men in 1970s attire, positioned against a soft, cloudy blue sky. The composition is anchored by a central figure in a white vest, with others arranged in two rows. The top edge features stylized, high-contrast sans-serif typography with a distinct horizontal emphasis.",
+    "coreVisualRelationships": [
+      "Tiered human subjects against a natural sky background",
+      "High-contrast white clothing against blue and grey sky tones",
+      "Top-aligned typography framing the upper composition",
+      "Symmetrical balance with a central visual anchor"
+    ],
+    "coreInvariants": [
+      "Tiered arrangement of subjects",
+      "Cloudy sky background",
+      "Stylized display typography at the top margin"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Seven subjects arranged in two rows (four in back, three in front), filling the lower two-thirds of the frame.",
+      "visualAnchor": "The central figure in the back row wearing a white vest and dark shirt.",
+      "movementAndEyePath": "Eyes move from the central anchor outward to the flanking subjects, then upward to the typography.",
+      "negativeSpace": "The upper third of the frame is primarily negative space occupied by the sky and text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (clothing and clouds)",
+      "contrastColorRole": "Blue/Grey (sky background)",
+      "accentColorRole": "Warm skin tones and hair colors",
+      "saturationAndValueRelationship": "High value (bright) clothing against a medium-value, low-saturation background.",
+      "paletteRestrictions": [
+        "Avoid neon or overly saturated modern colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Extended geometric sans-serif",
+      "letterConstructionRules": [
+        "Extreme horizontal expansion",
+        "Uniform stroke weight",
+        "Rounded corners on outer edges",
+        "Stencil-like gaps or high-contrast internal negative space"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters feature a 'tubular' or 'pill-shaped' internal structure",
+        "Horizontal bars are emphasized over vertical stems"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "stylized-geometric",
+          "anatomy": {
+            "width": "ultra-expanded",
+            "weight": "bold",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "rounded",
+            "counters": "narrow-horizontal",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "justified-to-edges",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-edge",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay-on-sky"
+          },
+          "treatment": {
+            "fill": "dark-grey-to-black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "horizontal-stretch"
+          }
+        }
+      ],
+      "pairingStrategy": "Single decorative face used for all text elements to maintain retro-futuristic consistency.",
+      "graphicDevices": [
+        "Top-aligned text placement"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Horizontal expansion",
+          "Rounded geometric forms"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Vertical/condensed fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma Bold Extended",
+            "reason": "Matches the wide, geometric, 70s tech aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Eurostile Bold Extended",
+            "reason": "Provides the necessary square-round geometric structure.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a group portrait of seven men in 1970s fashion (white suits, vests, patterned shirts) arranged in two rows against a soft blue and white cloudy sky. Leave the top 20% of the image clear for text.",
+        "overlayInstruction": "Add custom vector lettering at the top left and top right corners using an ultra-expanded, rounded geometric sans-serif style in dark grey."
+      },
+      "verificationChecks": [
+        "Is the text ultra-expanded horizontally?",
+        "Are the subjects arranged in a tiered group formation?",
+        "Is the background a soft, cloudy sky?",
+        "Is the clothing primarily white or light-colored?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects",
+      "Sky color intensity",
+      "Text color",
+      "Clothing style (within 70s era)"
+    ],
+    "mustRedesign": [
+      "Modern clothing styles",
+      "Urban backgrounds",
+      "Standard-width typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tiered group composition",
+        "Soft-focus sky background",
+        "Ultra-wide display type"
+      ],
+      "avoid": [
+        "Harsh digital lighting",
+        "Cluttered backgrounds",
+        "Thin or serif fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 70s era-appropriate hair and fashion",
+      "Ensure text does not overlap subject heads",
+      "Verify the horizontal stretch of the typography",
+      "Confirm the tiered row arrangement of the group",
+      "Ensure the sky background is soft and not distracting"
+    ],
+    "reuseFormula": "Tiered group portrait + 70s fashion + cloudy sky backdrop + [Top-aligned ultra-expanded geometric sans-serif typography]"
+  }
+}

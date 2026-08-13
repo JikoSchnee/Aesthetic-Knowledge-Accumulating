@@ -1,0 +1,275 @@
+{
+  "id": "4fd68caf6bf564004a706b3cafe6226a4d2f5a5b355b0380e60f10eb244c1664",
+  "skillId": "4fd68caf6bf564004a706b3cafe6226a4d2f5a5b355b0380e60f10eb244c1664",
+  "versionId": "4fd68caf6bf564004a706b3cafe6226a4d2f5a5b355b0380e60f10eb244c1664",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:59:57.576Z",
+  "approvedAt": "2026-08-12T18:59:57.576Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:59:57.576Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Ritchie Valens.jpg",
+    "hash": "4fd68caf6bf564004a706b3cafe6226a4d2f5a5b355b0380e60f10eb244c1664",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Ritchie Valens",
+    "artist": "Ritchie Valens",
+    "artworkUrl": "https://coverartarchive.org/release-group/bd6672a6-cba2-3a38-be7b-80e91621db8d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/bd6672a6-cba2-3a38-be7b-80e91621db8d",
+    "releaseGroupId": "bd6672a6-cba2-3a38-be7b-80e91621db8d",
+    "recordingId": "8bf157a6-289d-40a7-8948-a51d0b9a0e07",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "That's My Little SuzieRitchie Valens",
+      "song": "That's My Little Suzie",
+      "performer": "Ritchie Valens",
+      "peakPosition": 55,
+      "firstChartDate": "1959-04-04",
+      "lastChartDate": "1959-05-23",
+      "appearances": [
+        {
+          "chartDate": "1959-04-04",
+          "position": 98
+        },
+        {
+          "chartDate": "1959-04-11",
+          "position": 77
+        },
+        {
+          "chartDate": "1959-04-18",
+          "position": 60
+        },
+        {
+          "chartDate": "1959-04-25",
+          "position": 55
+        },
+        {
+          "chartDate": "1959-05-02",
+          "position": 64
+        },
+        {
+          "chartDate": "1959-05-09",
+          "position": 55
+        },
+        {
+          "chartDate": "1959-05-16",
+          "position": 70
+        },
+        {
+          "chartDate": "1959-05-23",
+          "position": 82
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century rock and roll album cover bokeh background slab serif 1950s rock and roll portrait confetti vintage vinyl subject positioned right aligned looking toward the left typography overlapping the blurred background on the left high key lighting on the subject contrasting with the saturated background diagonal guitar neck leading the eye from bottom left to center vintage portrait multicolored bokeh outlined slab serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Rock and Roll Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Offset Printing",
+        "Typography"
+      ],
+      "useCases": [
+        "Vintage music promotion",
+        "Retro 1950s aesthetic branding",
+        "Nostalgic portraiture with bokeh"
+      ],
+      "retrievalTags": [
+        "bokeh background",
+        "slab serif",
+        "1950s",
+        "rock and roll",
+        "portrait",
+        "confetti",
+        "vintage vinyl"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A mid-century portrait layout featuring a smiling subject against a dense, multicolored bokeh background with heavy, outlined slab-serif typography.",
+      "triggerTerms": [
+        "1950s album cover style",
+        "multicolored bokeh portrait",
+        "heavy outlined slab serif text",
+        "vintage rock and roll aesthetic"
+      ],
+      "excludeWhen": [
+        "modern minimalist design is required",
+        "flat vector illustrations are requested",
+        "high-contrast black and white photography is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium-close portrait of a smiling man holding a guitar, positioned on the right third of the frame, set against a vibrant, out-of-focus background of red, blue, and white light circles. Bold, italicized slab-serif text is layered over the left and center of the image.",
+    "coreVisualRelationships": [
+      "Subject positioned right-aligned looking toward the left",
+      "Typography overlapping the blurred background on the left",
+      "High-key lighting on the subject contrasting with the saturated background",
+      "Diagonal guitar neck leading the eye from bottom left to center"
+    ],
+    "coreInvariants": [
+      "Dense, circular multicolored bokeh background",
+      "Heavy black outlines on all display text",
+      "Italicized slab-serif font with high horizontal weight"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the right 40% of the frame, scaled from waist to head.",
+      "visualAnchor": "The subject's face and smile serve as the primary focal point.",
+      "movementAndEyePath": "Eye starts at the face, moves down the guitar strap to the hands, then across the bold text on the left.",
+      "negativeSpace": "The left side of the frame is filled with bokeh, providing a textured canvas for the typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cream and white (subject's clothing and text fill)",
+      "contrastColorRole": "Black (text outlines and guitar strap)",
+      "accentColorRole": "Red, blue, and gold (bokeh lights and guitar details)",
+      "saturationAndValueRelationship": "High saturation in the background bokeh with high value/brightness on the subject and text.",
+      "paletteRestrictions": [
+        "Avoid neon or digital-looking gradients",
+        "Stick to primary-adjacent vintage tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold slab serif with an italic slant",
+      "letterConstructionRules": [
+        "Heavy horizontal serifs",
+        "Thick, uniform stroke weight",
+        "Strong italic lean to the right",
+        "Prominent black outer stroke"
+      ],
+      "characterSpecificRedesigns": [
+        "Open counters in 'A' and 'R' to maintain legibility despite heavy weight"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blocky",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "word-based",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "middle-left",
+            "scale": "large",
+            "rotation": "0deg",
+            "warp": "none",
+            "overlap": "over background",
+            "relationshipToImage": "layered over the bokeh field"
+          },
+          "treatment": {
+            "fill": "cream",
+            "outline": "thick black",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "italicized"
+          }
+        }
+      ],
+      "pairingStrategy": "Single-family dominance with varying scale for secondary metadata.",
+      "graphicDevices": [
+        "Heavy outlines",
+        "Bokeh light effects",
+        "Rectangular logo box in corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Italic slant",
+          "Slab serifs",
+          "Heavy outline"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Thin strokes",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold Italic",
+            "reason": "Matches the heavy slab-serif structure and vintage feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Stymie Black Italic",
+            "reason": "Provides the geometric slab-serif look common in mid-century print.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a smiling man in a 1950s cardigan holding a guitar, positioned on the right side of the frame. The background should be a dense, vibrant field of red, blue, and white bokeh light circles.",
+        "overlayInstruction": "Add two lines of large, uppercase, italicized slab-serif text on the left side. The text should have a cream fill and a thick black outline."
+      },
+      "verificationChecks": [
+        "Is the text italicized?",
+        "Does the text have a thick black outline?",
+        "Is the background composed of multicolored bokeh?",
+        "Is the subject right-aligned?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Bokeh color palette",
+      "Subject's expression",
+      "Text outline thickness",
+      "Italic angle"
+    ],
+    "mustRedesign": [
+      "Modern digital fonts",
+      "Flat, solid-color backgrounds",
+      "Centered subject compositions"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1950s print texture",
+        "High-contrast between text and background",
+        "Warm, nostalgic lighting"
+      ],
+      "avoid": [
+        "Low-resolution bokeh",
+        "Thin or un-outlined text",
+        "Desaturated colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for heavy slab-serif typography",
+      "Verify the presence of a thick black outline on text",
+      "Ensure the background is out-of-focus light circles",
+      "Confirm the subject is holding a musical instrument",
+      "Check that the text is left-aligned and italicized"
+    ],
+    "reuseFormula": "Vintage Portrait + Multicolored Bokeh + Outlined Slab Serif Typography"
+  }
+}

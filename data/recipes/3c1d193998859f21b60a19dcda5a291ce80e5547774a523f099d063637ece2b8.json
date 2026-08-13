@@ -1,0 +1,273 @@
+{
+  "id": "3c1d193998859f21b60a19dcda5a291ce80e5547774a523f099d063637ece2b8",
+  "skillId": "3c1d193998859f21b60a19dcda5a291ce80e5547774a523f099d063637ece2b8",
+  "versionId": "3c1d193998859f21b60a19dcda5a291ce80e5547774a523f099d063637ece2b8",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:45:36.533Z",
+  "approvedAt": "2026-08-12T14:45:36.533Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:45:36.533Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Dangerous Age.jpg",
+    "hash": "3c1d193998859f21b60a19dcda5a291ce80e5547774a523f099d063637ece2b8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Dangerous Age",
+    "artist": "Bad Company",
+    "artworkUrl": "https://coverartarchive.org/release-group/f6951824-db55-3c60-8218-d1cc66a3f3a2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f6951824-db55-3c60-8218-d1cc66a3f3a2",
+    "releaseGroupId": "f6951824-db55-3c60-8218-d1cc66a3f3a2",
+    "recordingId": "8e81432e-ee32-4527-b595-75c636c5e0b2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Shake It UpBad Company",
+      "song": "Shake It Up",
+      "performer": "Bad Company",
+      "peakPosition": 82,
+      "firstChartDate": "1989-04-22",
+      "lastChartDate": "1989-06-10",
+      "appearances": [
+        {
+          "chartDate": "1989-04-22",
+          "position": 93
+        },
+        {
+          "chartDate": "1989-04-29",
+          "position": 82
+        },
+        {
+          "chartDate": "1989-05-06",
+          "position": 90
+        },
+        {
+          "chartDate": "1989-05-13",
+          "position": 88
+        },
+        {
+          "chartDate": "1989-05-20",
+          "position": 88
+        },
+        {
+          "chartDate": "1989-05-27",
+          "position": 91
+        },
+        {
+          "chartDate": "1989-06-03",
+          "position": 99
+        },
+        {
+          "chartDate": "1989-06-10",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage sepia portrait with graphic header sepia vintage portrait fedora grainy texture condensed typography horizontal bars retro photography the dark hat anchors the top of the central figure the typographic block in the top right balances the subject s leftward lean the smoke trail provides a delicate diagonal movement toward the center the sepia palette unifies the photographic and graphic elements vintage sepia portrait condensed sans serif horizontal rule accents",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Sepia Portrait with Graphic Header",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Sepia Toning"
+      ],
+      "useCases": [
+        "Rock album covers",
+        "Vintage-style editorial layouts",
+        "Nostalgic poster design"
+      ],
+      "retrievalTags": [
+        "sepia",
+        "vintage portrait",
+        "fedora",
+        "grainy texture",
+        "condensed typography",
+        "horizontal bars",
+        "retro photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A sepia-toned vintage portrait of a child in adult clothing, featuring a top-right justified typographic block with horizontal rule accents.",
+      "triggerTerms": [
+        "sepia vintage portrait",
+        "grainy retro photography",
+        "condensed sans-serif header with bars"
+      ],
+      "excludeWhen": [
+        "modern high-definition photography is required",
+        "vibrant multi-color palettes are needed",
+        "minimalist white-space layouts are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A grainy, sepia-toned photograph of a young child wearing a dark fedora and suspenders, holding a cigarette. The image has a soft-focus, aged quality. In the top right corner, a stacked typographic block uses condensed sans-serif fonts separated by thick horizontal lines.",
+    "coreVisualRelationships": [
+      "The dark hat anchors the top of the central figure",
+      "The typographic block in the top right balances the subject's leftward lean",
+      "The smoke trail provides a delicate diagonal movement toward the center",
+      "The sepia palette unifies the photographic and graphic elements"
+    ],
+    "coreInvariants": [
+      "Sepia-toned monochromatic color scheme with slight green/yellow tint",
+      "Heavy film grain and soft-focus edges",
+      "Top-right justified typographic stack with horizontal rules"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The child is centrally located, captured from the waist up, filling approximately 70% of the vertical frame.",
+      "visualAnchor": "The dark, wide-brimmed fedora acts as the primary visual anchor.",
+      "movementAndEyePath": "The eye starts at the hat, moves down to the face and hands, follows the smoke trail, and ends at the graphic header in the top right.",
+      "negativeSpace": "The background is a mottled, textured sepia void that provides high contrast for the subject's white shirt."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Sepia/Ochre (background and mid-tones)",
+      "contrastColorRole": "Deep Brown/Black (hat, suspenders, and graphic bars)",
+      "accentColorRole": "Off-white (shirt and smoke)",
+      "saturationAndValueRelationship": "Low saturation with a compressed value range, emphasizing texture over color depth.",
+      "paletteRestrictions": [
+        "Monochromatic sepia",
+        "No primary colors",
+        "No pure whites"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Extremely narrow proportions",
+        "Flat terminals",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'O' is an elongated vertical oval",
+        "The 'A' has a high crossbar"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "solid",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Varying weights and widths of the same condensed sans-serif family, separated by geometric bars.",
+      "graphicDevices": [
+        "Thick horizontal rules",
+        "Rectangular framing for sub-text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Horizontal bar accents",
+          "Top-right justification"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered alignment"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed feel for the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Haettenschweiler",
+            "reason": "Matches the ultra-condensed, flat-terminal look of the secondary text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a sepia-toned, grainy vintage photograph of a child in a fedora and suspenders against a textured, dark background. Ensure soft focus and a 19th-century aesthetic.",
+        "overlayInstruction": "Add three levels of condensed sans-serif text in the top right corner. Separate the levels with thick horizontal bars. Use dark brown or black for the text and bars."
+      },
+      "verificationChecks": [
+        "Is the image monochromatic sepia?",
+        "Is the text justified to the top right?",
+        "Are there horizontal bars between text lines?",
+        "Is the grain texture visible across the entire image?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of sepia tint",
+      "Amount of film grain",
+      "Thickness of horizontal graphic bars"
+    ],
+    "mustRedesign": [
+      "Modern digital clarity",
+      "Vibrant colors",
+      "Centered typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic vintage grain",
+        "Consistent sepia toning",
+        "Strict typographic alignment"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Default system fonts like Arial",
+        "High-contrast white highlights"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for sepia consistency",
+      "Verify condensed font proportions",
+      "Ensure horizontal bars are perfectly level",
+      "Confirm grain texture is not pixelated"
+    ],
+    "reuseFormula": "Vintage Sepia Portrait + Condensed Sans-Serif + Horizontal Rule Accents"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "id": "11710325f3622e0188f775317a4cffbe41ba80c542c07b974d2feff4c264f814",
+  "skillId": "11710325f3622e0188f775317a4cffbe41ba80c542c07b974d2feff4c264f814",
+  "versionId": "11710325f3622e0188f775317a4cffbe41ba80c542c07b974d2feff4c264f814",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T02:39:37.131Z",
+  "approvedAt": "2026-08-13T02:39:37.131Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T02:39:37.131Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Young Love & Saturday Nights.jpg",
+    "hash": "11710325f3622e0188f775317a4cffbe41ba80c542c07b974d2feff4c264f814",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Young Love & Saturday Nights",
+    "artist": "Chris Young",
+    "artworkUrl": "https://coverartarchive.org/release-group/f74e962b-a1c1-412e-9f65-69f0ef90aac7/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f74e962b-a1c1-412e-9f65-69f0ef90aac7",
+    "releaseGroupId": "f74e962b-a1c1-412e-9f65-69f0ef90aac7",
+    "recordingId": "43449bc5-c29a-4bb2-917f-563147877408",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Young Love & Saturday NightsChris Young",
+      "song": "Young Love & Saturday Nights",
+      "performer": "Chris Young",
+      "peakPosition": 94,
+      "firstChartDate": "2024-09-14",
+      "lastChartDate": "2024-09-14",
+      "appearances": [
+        {
+          "chartDate": "2024-09-14",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty urban portrait album cover crumpled paper texture urban grit full body portrait condensed sans serif typography monochromatic palette street poster aesthetic subject to background integration via shared texture and grain typographic weight balancing the visual mass of the subject vertical division between the clean subject area and the textured text area full body subject on left crumpled paper texture right aligned stacked condensed sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Urban Portrait Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Photography",
+        "Digital Collage",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Country Music Album Art",
+        "Promotional Tour Poster",
+        "Artist Social Media Banner"
+      ],
+      "retrievalTags": [
+        "crumpled paper texture",
+        "urban grit",
+        "full-body portrait",
+        "condensed sans-serif typography",
+        "monochromatic palette",
+        "street poster aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A full-body male portrait set against a high-contrast, crumpled paper background with large-scale, stacked condensed typography.",
+      "triggerTerms": [
+        "crumpled paper background portrait",
+        "stacked condensed sans-serif text layout",
+        "gritty urban music cover style"
+      ],
+      "excludeWhen": [
+        "minimalist clean backgrounds are required",
+        "landscape orientation is needed",
+        "soft or pastel color palettes are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A full-length portrait of a man in dark clothing positioned on the left, balanced by heavy, right-aligned stacked typography. The entire scene is unified by a distressed, wrinkled paper texture with visible creases and subtle ink smudges.",
+    "coreVisualRelationships": [
+      "Subject-to-background integration via shared texture and grain",
+      "Typographic weight balancing the visual mass of the subject",
+      "Vertical division between the clean subject area and the textured text area"
+    ],
+    "coreInvariants": [
+      "Crumpled paper texture overlaying all elements",
+      "High-contrast monochromatic or desaturated color scheme",
+      "Tight, stacked vertical typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body figure standing on the left third, scaled to nearly the full height of the frame.",
+      "visualAnchor": "The subject's face and the large-scale display text on the right.",
+      "movementAndEyePath": "Starts at the subject's face, moves down the body, then sweeps across to the large text block on the right.",
+      "negativeSpace": "Utilized as a textured canvas rather than empty space, providing breathing room between the subject and the text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/light grey textured background",
+      "contrastColorRole": "Deep black for subject clothing and secondary text",
+      "accentColorRole": "White for primary display text",
+      "saturationAndValueRelationship": "Low saturation with high tonal contrast between light background and dark subject.",
+      "paletteRestrictions": [
+        "Greyscale",
+        "Desaturated earth tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Extremely tight apertures",
+        "Tall x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "Ampersand styled to match the condensed weight of the letters"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "word-by-word",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "right-aligned, mid-to-top",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "adjacent to subject"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "distressed/weathered",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "very heavy"
+          },
+          "composition": {
+            "position": "bottom-right corner",
+            "scale": "medium-large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "anchoring the bottom right"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "subtle grain",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Varying weights and colors of the same condensed sans-serif family.",
+      "graphicDevices": [
+        "Vertical seam or fold line separating the image into two halves",
+        "Crumpled paper texture overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed width",
+          "Right alignment",
+          "Stacked layout"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Wide letter spacing"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary weight and condensed feel for the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Champion Gothic",
+            "reason": "Offers a variety of condensed weights suitable for the hierarchy.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Classic condensed sans-serif that matches the urban aesthetic.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a full-body portrait of a man in a black t-shirt and black jeans standing against a light grey background with heavy crumpled paper textures, creases, and subtle distressed ink marks.",
+        "overlayInstruction": "Add right-aligned, stacked, extra-condensed sans-serif text on the right side. Use white for the top block and black for the bottom block. Apply a subtle weathered texture to the text to match the background."
+      },
+      "verificationChecks": [
+        "Is the paper texture visible across both the subject and the background?",
+        "Is the text right-aligned and stacked vertically?",
+        "Is there a clear tonal contrast between the white and black text blocks?",
+        "Does the subject occupy the left third of the frame?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of paper wrinkles",
+      "Subject pose",
+      "Text color contrast",
+      "Vertical seam placement"
+    ],
+    "mustRedesign": [
+      "Transcribed artist names or song titles",
+      "Specific brand logos",
+      "Identifiable celebrity likeness"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile paper texture",
+        "Strong vertical typographic hierarchy",
+        "Balanced asymmetrical composition"
+      ],
+      "avoid": [
+        "Clean, digital-looking gradients",
+        "Centered text",
+        "Low-contrast text-to-background relationships"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the texture doesn't obscure the subject's face.",
+      "Check that the text is legible despite the distress effects.",
+      "Verify the right-alignment of all text blocks.",
+      "Confirm the monochromatic/desaturated color harmony."
+    ],
+    "reuseFormula": "Full-body subject on left + Crumpled paper texture + Right-aligned stacked condensed sans-serif typography."
+  }
+}

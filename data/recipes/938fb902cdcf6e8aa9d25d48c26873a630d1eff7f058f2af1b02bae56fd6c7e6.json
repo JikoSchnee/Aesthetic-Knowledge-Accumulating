@@ -1,0 +1,322 @@
+{
+  "id": "938fb902cdcf6e8aa9d25d48c26873a630d1eff7f058f2af1b02bae56fd6c7e6",
+  "skillId": "938fb902cdcf6e8aa9d25d48c26873a630d1eff7f058f2af1b02bae56fd6c7e6",
+  "versionId": "938fb902cdcf6e8aa9d25d48c26873a630d1eff7f058f2af1b02bae56fd6c7e6",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:43:17.975Z",
+  "approvedAt": "2026-08-12T23:43:17.975Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:43:17.975Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Fired Up.jpg",
+    "hash": "938fb902cdcf6e8aa9d25d48c26873a630d1eff7f058f2af1b02bae56fd6c7e6",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Fired Up",
+    "artist": "Randy Houser",
+    "artworkUrl": "https://coverartarchive.org/release-group/d44f9505-840f-40ae-b06c-77563bd60f43/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d44f9505-840f-40ae-b06c-77563bd60f43",
+    "releaseGroupId": "d44f9505-840f-40ae-b06c-77563bd60f43",
+    "recordingId": "c96b306e-372f-4e22-8f05-79e3b15b1bda",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "We WentRandy Houser",
+      "song": "We Went",
+      "performer": "Randy Houser",
+      "peakPosition": 60,
+      "firstChartDate": "2015-11-21",
+      "lastChartDate": "2016-04-02",
+      "appearances": [
+        {
+          "chartDate": "2015-11-21",
+          "position": 100
+        },
+        {
+          "chartDate": "2016-01-16",
+          "position": 98
+        },
+        {
+          "chartDate": "2016-01-23",
+          "position": 92
+        },
+        {
+          "chartDate": "2016-01-30",
+          "position": 93
+        },
+        {
+          "chartDate": "2016-02-06",
+          "position": 90
+        },
+        {
+          "chartDate": "2016-02-13",
+          "position": 72
+        },
+        {
+          "chartDate": "2016-02-20",
+          "position": 72
+        },
+        {
+          "chartDate": "2016-02-27",
+          "position": 72
+        },
+        {
+          "chartDate": "2016-03-05",
+          "position": 71
+        },
+        {
+          "chartDate": "2016-03-12",
+          "position": 63
+        },
+        {
+          "chartDate": "2016-03-19",
+          "position": 60
+        },
+        {
+          "chartDate": "2016-03-26",
+          "position": 75
+        },
+        {
+          "chartDate": "2016-04-02",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "country artist album cover layout acoustic guitar denim jacket slab serif typography warm lighting candid portrait rustic interior subject s gaze directed away from the camera toward the light source guitar body acting as a foreground anchor and diagonal lead in text block positioned in the upper right quadrant to balance the subject s weight on the left candid musician portrait acoustic guitar foreground right aligned slab serif typography country album aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Country Artist Album Cover Layout",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Country music album art",
+        "Artist promotional posters",
+        "Singer-songwriter social media banners"
+      ],
+      "retrievalTags": [
+        "acoustic guitar",
+        "denim jacket",
+        "slab serif typography",
+        "warm lighting",
+        "candid portrait",
+        "rustic interior"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A warm, candid portrait of a musician with an acoustic guitar, featuring bold slab-serif display type and a secondary modern sans-serif subtitle.",
+      "triggerTerms": [
+        "country music album cover style",
+        "musician leaning on acoustic guitar",
+        "warm rustic portrait with bold slab serif"
+      ],
+      "excludeWhen": [
+        "minimalist black and white photography is requested",
+        "electronic or futuristic music themes are needed",
+        "vertical book cover layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium shot of a smiling man in a denim jacket leaning his arms over the body of an acoustic guitar, set against a warm indoor background with a green wall accent. The composition uses a right-aligned typographic block with high-contrast slab-serif lettering.",
+    "coreVisualRelationships": [
+      "Subject's gaze directed away from the camera toward the light source",
+      "Guitar body acting as a foreground anchor and diagonal lead-in",
+      "Text block positioned in the upper right quadrant to balance the subject's weight on the left"
+    ],
+    "coreInvariants": [
+      "Warm, naturalistic lighting with soft highlights on the face",
+      "Denim and wood textures providing a rustic feel",
+      "Two-tier typographic hierarchy with distinct font styles"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left two-thirds of the frame, medium-close-up scale.",
+      "visualAnchor": "The bright orange-yellow body of the acoustic guitar in the lower left.",
+      "movementAndEyePath": "Eye starts at the guitar, moves up the subject's arms to the face, then follows the gaze to the text block on the right.",
+      "negativeSpace": "The green wall on the right provides a flat surface for text legibility."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm wood tones and denim blue (subject and guitar)",
+      "contrastColorRole": "Muted sage green (background wall)",
+      "accentColorRole": "Tan/Cream (primary text) and Orange (subtitle glow)",
+      "saturationAndValueRelationship": "High saturation in the guitar body; medium-low saturation in the background to emphasize the subject.",
+      "paletteRestrictions": [
+        "Avoid neon or synthetic colors",
+        "Maintain earthy, organic tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif and wide geometric sans-serif",
+      "letterConstructionRules": [
+        "Primary text uses thick, blocky serifs with uniform stroke weight",
+        "Secondary text is extended, wide-tracked, and features a horizontal glow effect"
+      ],
+      "characterSpecificRedesigns": [
+        "None; standard glyph forms used for maximum legibility"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt slabs",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked by word",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over background wall"
+          },
+          "treatment": {
+            "fill": "tan/cream",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "square",
+            "corners": "slightly rounded",
+            "counters": "wide",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "below primary text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "centered under primary block"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "orange horizontal glow/streak",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High contrast between a heavy, traditional slab serif and a modern, wide-tracked sans-serif.",
+      "graphicDevices": [
+        "Horizontal orange light streaks behind the subtitle"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif style for the main name",
+          "Extended width for the subtitle"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Centering the text over the subject's face"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy, low-contrast slab serif structure",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bank Gothic",
+            "reason": "Matches the wide, geometric feel of the subtitle",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a warm-toned photograph of a man with a beard and denim jacket, smiling and leaning his arms over the top of an acoustic guitar. The background should feature a doorway and a sage green wall on the right side.",
+        "overlayInstruction": "Add the artist name in a large, stacked tan slab-serif font in the upper right. Below it, add the album title in a small, wide-tracked white sans-serif font with a subtle orange horizontal glow effect."
+      },
+      "verificationChecks": [
+        "Is the guitar the primary foreground element?",
+        "Is the text legible against the green wall?",
+        "Does the subject's gaze lead toward the text?",
+        "Are the slab serifs thick and blocky?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Wall color",
+      "Guitar finish (sunburst vs natural)",
+      "Subject's clothing (flannel vs denim)"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the artist",
+      "Any brand logos on the guitar headstock",
+      "Original album title text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Warm, inviting atmosphere",
+        "Clear typographic hierarchy",
+        "Balanced composition between subject and text"
+      ],
+      "avoid": [
+        "Harsh flash photography",
+        "Cluttered backgrounds",
+        "Thin, delicate fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text does not overlap the subject's face",
+      "Ensure the guitar strings are rendered clearly",
+      "Verify the orange glow effect is horizontal and subtle",
+      "Confirm the slab serif font has a heavy visual weight"
+    ],
+    "reuseFormula": "Candid musician portrait + acoustic guitar foreground + right-aligned slab serif typography = Country Album Aesthetic"
+  }
+}

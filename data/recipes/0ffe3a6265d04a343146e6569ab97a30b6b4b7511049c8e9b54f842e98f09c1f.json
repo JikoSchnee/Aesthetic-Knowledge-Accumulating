@@ -1,0 +1,315 @@
+{
+  "id": "0ffe3a6265d04a343146e6569ab97a30b6b4b7511049c8e9b54f842e98f09c1f",
+  "skillId": "0ffe3a6265d04a343146e6569ab97a30b6b4b7511049c8e9b54f842e98f09c1f",
+  "versionId": "0ffe3a6265d04a343146e6569ab97a30b6b4b7511049c8e9b54f842e98f09c1f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:12:35.459Z",
+  "approvedAt": "2026-08-12T21:12:35.459Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:12:35.459Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "This Ole Boy.jpg",
+    "hash": "0ffe3a6265d04a343146e6569ab97a30b6b4b7511049c8e9b54f842e98f09c1f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "This Ole Boy",
+    "artist": "Craig Morgan",
+    "artworkUrl": "https://coverartarchive.org/release-group/9a7c4634-f86a-4c58-acdd-eef2049ac58f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9a7c4634-f86a-4c58-acdd-eef2049ac58f",
+    "releaseGroupId": "9a7c4634-f86a-4c58-acdd-eef2049ac58f",
+    "recordingId": "c709d4fe-a651-4b38-8704-5cbe799c4396",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "This Ole BoyCraig Morgan",
+      "song": "This Ole Boy",
+      "performer": "Craig Morgan",
+      "peakPosition": 87,
+      "firstChartDate": "2012-04-07",
+      "lastChartDate": "2012-06-02",
+      "appearances": [
+        {
+          "chartDate": "2012-04-07",
+          "position": 92
+        },
+        {
+          "chartDate": "2012-04-14",
+          "position": 92
+        },
+        {
+          "chartDate": "2012-04-21",
+          "position": 88
+        },
+        {
+          "chartDate": "2012-04-28",
+          "position": 87
+        },
+        {
+          "chartDate": "2012-05-05",
+          "position": 93
+        },
+        {
+          "chartDate": "2012-05-12",
+          "position": 98
+        },
+        {
+          "chartDate": "2012-05-19",
+          "position": 94
+        },
+        {
+          "chartDate": "2012-05-26",
+          "position": 95
+        },
+        {
+          "chartDate": "2012-06-02",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "rustic country album cover weathered wood slab serif distressed texture country singer rustic background blue metal sign subject in white shirt contrasts against dark wood and blue metal textured typography mimics the weathered grain of the background horizontal text blocks balance the vertical lines of the wood subject s eye level aligns with the primary text block combine subject casual portrait background weathered wood metal typography distressed heavy slab serif to create a rustic americana aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Rustic Country Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Distressed Typography"
+      ],
+      "useCases": [
+        "Country music album art",
+        "Americana lifestyle branding",
+        "Outdoor apparel marketing"
+      ],
+      "retrievalTags": [
+        "weathered wood",
+        "slab serif",
+        "distressed texture",
+        "country singer",
+        "rustic background",
+        "blue metal sign"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A rustic, outdoor portrait featuring a subject against weathered wood and metal textures with heavy, distressed slab-serif typography.",
+      "triggerTerms": [
+        "weathered wood background",
+        "distressed slab serif text",
+        "rustic country portrait",
+        "outdoor Americana aesthetic"
+      ],
+      "excludeWhen": [
+        "clean minimalist designs",
+        "urban neon aesthetics",
+        "high-fashion studio lighting"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium shot of a smiling man in casual attire positioned against a dual-textured background of vertical weathered wooden planks and a blue-and-white industrial metal sign. The composition is anchored by heavy, textured block lettering in the upper right quadrant.",
+    "coreVisualRelationships": [
+      "Subject in white shirt contrasts against dark wood and blue metal",
+      "Textured typography mimics the weathered grain of the background",
+      "Horizontal text blocks balance the vertical lines of the wood",
+      "Subject's eye level aligns with the primary text block"
+    ],
+    "coreInvariants": [
+      "Weathered vertical wood grain texture",
+      "Heavy slab-serif typography with distressed internal texture",
+      "Natural, diffused outdoor lighting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered-left, occupying approximately 60% of the vertical frame from the waist up.",
+      "visualAnchor": "The subject's face and the large white distressed text in the upper right.",
+      "movementAndEyePath": "From the subject's smile to the large white name text, then down to the smaller yellow title text.",
+      "negativeSpace": "The right side of the frame provides space for the typographic elements against the wood texture."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Natural wood browns and weathered greys (background)",
+      "contrastColorRole": "Deep blue and stark white (metal sign and shirt)",
+      "accentColorRole": "Muted mustard yellow (secondary text)",
+      "saturationAndValueRelationship": "High value contrast between the white shirt/text and the dark background; generally desaturated earth tones.",
+      "paletteRestrictions": [
+        "Avoid vibrant primary colors",
+        "Limit to earth tones, denim blue, and off-white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy Slab Serif",
+      "letterConstructionRules": [
+        "Thick, blocky slabs",
+        "Uniform stroke weight",
+        "Internal distressing and 'chipped paint' texture effects"
+      ],
+      "characterSpecificRedesigns": [
+        "Eroded edges on all glyphs to match wood grain"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "condensed to normal",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "block slabs",
+            "corners": "slightly rounded/weathered",
+            "counters": "small",
+            "strokeCharacter": "textured"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over wood texture"
+          },
+          "treatment": {
+            "fill": "white with transparency/texture",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "distressed/grunge",
+            "distortion": "weathered"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "block slabs",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below primary text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over wood texture"
+          },
+          "treatment": {
+            "fill": "mustard yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Two weights of the same slab-serif family, using color and texture to differentiate hierarchy.",
+      "graphicDevices": [
+        "Weathered wood texture overlay",
+        "Industrial metal sign as a secondary background element"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif geometry",
+          "Uppercase styling",
+          "Distressed texture"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Clean sans-serifs",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab-serif skeleton",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Stencilia",
+            "reason": "Provides the industrial, weathered feel",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in a white t-shirt standing against a background of vertical weathered grey wood planks on top and a blue/white industrial metal sign on the bottom.",
+        "overlayInstruction": "Apply heavy, distressed white slab-serif text in the upper right, with a secondary line of mustard yellow slab-serif text directly below it."
+      },
+      "verificationChecks": [
+        "Text has a weathered, non-solid texture",
+        "Wood grain is vertical and visible",
+        "Typography is uppercase slab-serif",
+        "Subject is positioned to the left"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Wood grain intensity",
+      "Text distress level",
+      "Metal sign color",
+      "Subject's pose"
+    ],
+    "mustRedesign": [
+      "Any modern or high-tech elements",
+      "Clean, non-distressed typography",
+      "Vibrant, saturated color palettes"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic weathered texture",
+        "Balanced typographic hierarchy",
+        "Naturalistic lighting"
+      ],
+      "avoid": [
+        "Plastic-looking surfaces",
+        "Default digital fonts without texture",
+        "Artificial-looking lens flares"
+      ]
+    },
+    "postGenerationChecks": [
+      "Is the text properly distressed to match the wood?",
+      "Is the slab-serif font heavy enough?",
+      "Does the blue metal sign look aged?",
+      "Is the subject's expression natural and approachable?",
+      "Is the color palette cohesive and earthy?"
+    ],
+    "reuseFormula": "Combine [Subject: Casual Portrait] + [Background: Weathered Wood & Metal] + [Typography: Distressed Heavy Slab Serif] to create a rustic Americana aesthetic."
+  }
+}

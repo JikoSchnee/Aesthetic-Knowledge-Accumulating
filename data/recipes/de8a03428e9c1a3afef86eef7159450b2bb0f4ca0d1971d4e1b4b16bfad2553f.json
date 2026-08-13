@@ -1,0 +1,241 @@
+{
+  "id": "de8a03428e9c1a3afef86eef7159450b2bb0f4ca0d1971d4e1b4b16bfad2553f",
+  "skillId": "de8a03428e9c1a3afef86eef7159450b2bb0f4ca0d1971d4e1b4b16bfad2553f",
+  "versionId": "de8a03428e9c1a3afef86eef7159450b2bb0f4ca0d1971d4e1b4b16bfad2553f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:58:31.182Z",
+  "approvedAt": "2026-08-12T19:58:31.182Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:58:31.182Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Beautiful & Damned.jpg",
+    "hash": "de8a03428e9c1a3afef86eef7159450b2bb0f4ca0d1971d4e1b4b16bfad2553f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Beautiful & Damned",
+    "artist": "G-Eazy",
+    "artworkUrl": "https://coverartarchive.org/release-group/27d7122f-77d9-4515-81c0-3a5d5df6c922/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/27d7122f-77d9-4515-81c0-3a5d5df6c922",
+    "releaseGroupId": "27d7122f-77d9-4515-81c0-3a5d5df6c922",
+    "recordingId": "15209508-a525-4fbf-8f89-783ad92532b2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The PlanG-Eazy",
+      "song": "The Plan",
+      "performer": "G-Eazy",
+      "peakPosition": 96,
+      "firstChartDate": "2017-12-02",
+      "lastChartDate": "2017-12-02",
+      "appearances": [
+        {
+          "chartDate": "2017-12-02",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty low key cinematic portrait low key lighting leather jacket bruised face slicked back hair dark background cinematic drama chiaroscuro subject emerges from a pure black void hard light highlights the texture of the leather and hair downward gaze creates a mood of introspection or pain contrast between the white shirt and black jacket anchors the center low key lighting leather texture facial trauma downward gaze gritty cinematic portrait",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Low-Key Cinematic Portrait",
+      "category": "Photography",
+      "medium": [
+        "Digital Photography",
+        "Chiaroscuro Lighting"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Dramatic Character Poster",
+        "Editorial Fashion Photography"
+      ],
+      "retrievalTags": [
+        "low-key lighting",
+        "leather jacket",
+        "bruised face",
+        "slicked back hair",
+        "dark background",
+        "cinematic drama",
+        "chiaroscuro"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, low-key portrait of a male figure in a leather jacket with dramatic shadows and realistic facial trauma.",
+      "triggerTerms": [
+        "chiaroscuro male portrait",
+        "gritty leather jacket photography",
+        "low-key dramatic lighting",
+        "bruised face cinematic shot"
+      ],
+      "excludeWhen": [
+        "bright or colorful backgrounds are required",
+        "the subject needs to be smiling",
+        "high-key lighting is preferred"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A somber, low-key portrait of a man with slicked-back, wet-look hair, wearing a black leather biker jacket. The lighting is highly directional, casting deep shadows that obscure half the face and the background entirely. The subject has visible bruises and blood on his face and white t-shirt, looking downward in a defeated or contemplative pose.",
+    "coreVisualRelationships": [
+      "Subject emerges from a pure black void",
+      "Hard light highlights the texture of the leather and hair",
+      "Downward gaze creates a mood of introspection or pain",
+      "Contrast between the white shirt and black jacket anchors the center"
+    ],
+    "coreInvariants": [
+      "Pure black background (#000000)",
+      "High-contrast directional lighting from above-right",
+      "Visible skin texture and realistic facial trauma"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered medium close-up, head and shoulders filling the lower two-thirds of the frame.",
+      "visualAnchor": "The bridge of the nose and the highlight on the forehead.",
+      "movementAndEyePath": "Eyes are drawn to the bright forehead, down the bridge of the nose to the blood on the shirt, then out to the texture of the leather jacket.",
+      "negativeSpace": "Extensive negative space at the top and sides, creating a sense of isolation."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and shadows (Background and Jacket)",
+      "contrastColorRole": "Pale skin tones and white t-shirt",
+      "accentColorRole": "Muted crimson and brownish-red (Blood and bruises)",
+      "saturationAndValueRelationship": "Low saturation overall with extreme value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "No vibrant colors",
+        "Limited to black, white, flesh tones, and dried blood red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight letter spacing",
+        "All-caps presentation"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "high"
+          },
+          "composition": {
+            "position": "bottom right corner",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within a white rectangular box"
+          },
+          "treatment": {
+            "fill": "black text on white background",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single condensed sans-serif for all informational text.",
+      "graphicDevices": [
+        "Solid white rectangular border/background for the text block"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps",
+          "Condensed width",
+          "White box container"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Transparent backgrounds for the text block"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy, condensed, and authoritative feel of the advisory label.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers Bold Condensed",
+            "reason": "Provides a clean, modern, and legible look within a small footprint.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-key cinematic portrait of a man with slicked-back hair and a black leather jacket against a pure black background. Use chiaroscuro lighting to highlight facial texture and bruises. Leave the bottom right corner clear for a graphic overlay.",
+        "overlayInstruction": "Place a small white rectangle in the bottom right corner. Inside the rectangle, typeset three lines of bold, condensed sans-serif text in black, centered and stacked."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Is the lighting directional and high-contrast?",
+        "Is the text contained within a solid white box?",
+        "Does the subject look downward?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of facial trauma",
+      "Angle of the head tilt",
+      "Glossiness of the leather jacket",
+      "Amount of hair straying from the slicked-back style"
+    ],
+    "mustRedesign": [
+      "Any specific brand logos on the jacket hardware",
+      "Exact wording of the advisory label to avoid trademark issues"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Realistic skin and leather textures",
+        "Deep, noise-free blacks in the shadows",
+        "Convincing wet-look hair"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Cartoonish blood effects",
+        "Visible background details"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for realistic shadow fall-off on the face",
+      "Ensure the white shirt has visible blood staining",
+      "Verify the leather jacket has specular highlights",
+      "Confirm the text box is perfectly rectangular and opaque"
+    ],
+    "reuseFormula": "Low-key lighting + Leather texture + Facial trauma + Downward gaze = Gritty Cinematic Portrait"
+  }
+}

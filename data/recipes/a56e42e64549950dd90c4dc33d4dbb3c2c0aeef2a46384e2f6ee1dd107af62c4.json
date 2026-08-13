@@ -1,0 +1,322 @@
+{
+  "id": "a56e42e64549950dd90c4dc33d4dbb3c2c0aeef2a46384e2f6ee1dd107af62c4",
+  "skillId": "a56e42e64549950dd90c4dc33d4dbb3c2c0aeef2a46384e2f6ee1dd107af62c4",
+  "versionId": "a56e42e64549950dd90c4dc33d4dbb3c2c0aeef2a46384e2f6ee1dd107af62c4",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:23:12.233Z",
+  "approvedAt": "2026-08-13T05:23:12.233Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:23:12.233Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Get Rich or Die Tryin’: Music From and Inspired by the Motion Picture.jpg",
+    "hash": "a56e42e64549950dd90c4dc33d4dbb3c2c0aeef2a46384e2f6ee1dd107af62c4",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Get Rich or Die Tryin’: Music From and Inspired by the Motion Picture",
+    "artist": "50 Cent",
+    "artworkUrl": "https://coverartarchive.org/release-group/a112a075-e799-315e-8393-088c4bf87272/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a112a075-e799-315e-8393-088c4bf87272",
+    "releaseGroupId": "a112a075-e799-315e-8393-088c4bf87272",
+    "recordingId": "d65da1ff-b456-494e-83df-4fe7ad3c9f68",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Window Shopper50 Cent",
+      "song": "Window Shopper",
+      "performer": "50 Cent",
+      "peakPosition": 20,
+      "firstChartDate": "2005-11-12",
+      "lastChartDate": "2006-01-21",
+      "appearances": [
+        {
+          "chartDate": "2005-11-12",
+          "position": 82
+        },
+        {
+          "chartDate": "2005-11-19",
+          "position": 64
+        },
+        {
+          "chartDate": "2005-11-26",
+          "position": 30
+        },
+        {
+          "chartDate": "2005-12-03",
+          "position": 20
+        },
+        {
+          "chartDate": "2005-12-10",
+          "position": 23
+        },
+        {
+          "chartDate": "2005-12-17",
+          "position": 23
+        },
+        {
+          "chartDate": "2005-12-24",
+          "position": 27
+        },
+        {
+          "chartDate": "2005-12-31",
+          "position": 46
+        },
+        {
+          "chartDate": "2006-01-07",
+          "position": 51
+        },
+        {
+          "chartDate": "2006-01-14",
+          "position": 47
+        },
+        {
+          "chartDate": "2006-01-21",
+          "position": 73
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic urban drama poster layout back portrait tattooed back high contrast lighting urban drama cinematic typography monochrome background typography layered directly over the central subject s back high contrast rim lighting defining the silhouette against a bright background symmetrical composition centered on the spine color contrast between red display text and monochrome imagery centered back portrait high contrast rim light stacked red serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Urban Drama Poster Layout",
+      "category": "Entertainment Design",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Movie posters",
+        "Album covers",
+        "Urban fashion branding",
+        "Dramatic character portraits"
+      ],
+      "retrievalTags": [
+        "back portrait",
+        "tattooed back",
+        "high contrast lighting",
+        "urban drama",
+        "cinematic typography",
+        "monochrome background"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered back-view portrait with high-contrast rim lighting and layered serif typography for dramatic urban storytelling.",
+      "triggerTerms": [
+        "back-facing character portrait",
+        "urban drama poster style",
+        "high contrast rim lighting on muscular back"
+      ],
+      "excludeWhen": [
+        "bright colorful pop aesthetics",
+        "front-facing portraits",
+        "minimalist flat design"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A muscular male figure viewed from behind, centered in the frame, featuring prominent back tattoos and a handgun tucked into the waistband. The lighting is high-contrast with strong white rim highlights against a desaturated, cool-toned background. Bold, red serif typography is layered over the center of the back, flanked by smaller white supporting text.",
+    "coreVisualRelationships": [
+      "Typography layered directly over the central subject's back",
+      "High-contrast rim lighting defining the silhouette against a bright background",
+      "Symmetrical composition centered on the spine",
+      "Color contrast between red display text and monochrome imagery"
+    ],
+    "coreInvariants": [
+      "Back-facing perspective of the primary subject",
+      "High-contrast lighting with bright white edges",
+      "Centralized vertical text stack"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large, centered muscular torso occupying 80% of the vertical frame.",
+      "visualAnchor": "The red display typography in the center of the back.",
+      "movementAndEyePath": "Starts at the head/shoulders, moves down the spine through the red text, and ends at the weapon in the waistband.",
+      "negativeSpace": "Bright, desaturated space surrounding the dark silhouette of the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated cool grays and blacks for the subject and background.",
+      "contrastColorRole": "Bright white for rim lighting and supporting text.",
+      "accentColorRole": "Vibrant red for the primary display typography.",
+      "saturationAndValueRelationship": "High value contrast between the dark subject and bright background; low saturation except for the red text.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Cool Gray",
+        "Deep Red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classic high-contrast serif",
+      "letterConstructionRules": [
+        "Sharp, triangular serifs",
+        "High stroke contrast between thicks and thins",
+        "Vertical stress in rounded characters"
+      ],
+      "characterSpecificRedesigns": [
+        "Extended horizontal bars on the 'OR' connector"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Over subject",
+            "relationshipToImage": "Layered on top"
+          },
+          "treatment": {
+            "fill": "Solid Red",
+            "outline": "None",
+            "shadow": "Subtle drop shadow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Fine"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Above and below display text",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Over subject",
+            "relationshipToImage": "Layered on top"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Varying scale and color of the same serif family to create hierarchy.",
+      "graphicDevices": [
+        "Horizontal rules flanking the 'OR' text",
+        "Parental advisory style box in bottom right"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Red color for main title",
+          "High-contrast serif style",
+          "Centered alignment"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "Low contrast colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman Bold",
+            "reason": "Matches the classic high-contrast serif look with sharp terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni",
+            "reason": "Provides the extreme stroke contrast seen in the display text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, desaturated photo of a muscular man's back from the waist up, centered. He has intricate black ink tattoos across his shoulders and back. Use strong white rim lighting to separate him from a light gray, vignetted background. A handgun is tucked into the back of his black jeans.",
+        "overlayInstruction": "Add a central stack of text. The main title should be in a bold, red, high-contrast serif font. Flank the middle word with thin horizontal lines. Add smaller white serif text above and below the main title with wide letter spacing."
+      },
+      "verificationChecks": [
+        "Is the subject centered and facing away?",
+        "Is the main text bright red and serif?",
+        "Is there high-contrast rim lighting on the subject?",
+        "Are the horizontal rules present around the connector word?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Tattoo density",
+      "Intensity of rim lighting",
+      "Red color shade",
+      "Text tracking width"
+    ],
+    "mustRedesign": [
+      "Specific tattoo patterns",
+      "Specific facial features of the child",
+      "Exact brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic cinematic lighting",
+        "Clean, sharp typography",
+        "Strong central symmetry"
+      ],
+      "avoid": [
+        "Blurry or low-contrast edges",
+        "Cluttered backgrounds",
+        "Casual or handwritten fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the red text is legible against the dark tattoos.",
+      "Ensure the rim lighting creates a clear silhouette.",
+      "Verify the text is perfectly centered vertically and horizontally.",
+      "Confirm the weapon in the waistband is rendered realistically but subtly."
+    ],
+    "reuseFormula": "Centered back portrait + high-contrast rim light + stacked red serif typography."
+  }
+}

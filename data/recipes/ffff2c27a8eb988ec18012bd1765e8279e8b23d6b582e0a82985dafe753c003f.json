@@ -1,0 +1,271 @@
+{
+  "id": "ffff2c27a8eb988ec18012bd1765e8279e8b23d6b582e0a82985dafe753c003f",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T10:36:45.268Z",
+  "approvedAt": "2026-08-11T10:36:45.268Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T10:36:45.268Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Steve Alaimo Sings & Swings.jpg",
+    "hash": "ffff2c27a8eb988ec18012bd1765e8279e8b23d6b582e0a82985dafe753c003f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Steve Alaimo Sings & Swings",
+    "artist": "Steve Alaimo",
+    "artworkUrl": "https://coverartarchive.org/release-group/d3555c9e-22c1-47fa-bb5f-092f48b2cdfe/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d3555c9e-22c1-47fa-bb5f-092f48b2cdfe",
+    "releaseGroupId": "d3555c9e-22c1-47fa-bb5f-092f48b2cdfe",
+    "recordingId": "ac0f2fa4-807f-41f7-954f-3f687e9e5793",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Cast Your Fate To The WindSteve Alaimo",
+      "song": "Cast Your Fate To The Wind",
+      "performer": "Steve Alaimo",
+      "peakPosition": 89,
+      "firstChartDate": "1965-06-26",
+      "lastChartDate": "1965-07-03",
+      "appearances": [
+        {
+          "chartDate": "1965-06-26",
+          "position": 90
+        },
+        {
+          "chartDate": "1965-07-03",
+          "position": 89
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century crooner album layout 1960s purple header male portrait sans serif display asymmetrical layout vintage pop the purple header occupies the top 40 of the frame the subject s head breaks the horizontal boundary between the purple and neutral sections large display text is left aligned within the header while smaller tracklist text is right aligned the subject s gaze is directed toward the right edge of the frame solid color header overlapping portrait high weight condensed sans serif mid century modern album aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Crooner Album Layout",
+      "category": "Album Cover Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Offset Print"
+      ],
+      "useCases": [
+        "Vinyl record packaging",
+        "Retro music posters",
+        "Mid-century modern branding"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "purple header",
+        "male portrait",
+        "sans-serif display",
+        "asymmetrical layout",
+        "vintage pop"
+      ]
+    },
+    "visualDefinition": "A two-part vertical composition featuring a solid purple header block with bold, stylized typography and a lower section containing a close-up, profile-view portrait of a man against a neutral, slightly textured background.",
+    "coreVisualRelationships": [
+      "The purple header occupies the top 40% of the frame.",
+      "The subject's head breaks the horizontal boundary between the purple and neutral sections.",
+      "Large display text is left-aligned within the header, while smaller tracklist text is right-aligned.",
+      "The subject's gaze is directed toward the right edge of the frame."
+    ],
+    "coreInvariants": [
+      "Solid purple upper third",
+      "High-contrast white display lettering",
+      "Close-cropped male profile portrait",
+      "Horizontal division of color and image"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale portrait centered horizontally but anchored to the bottom edge, with the crown of the head overlapping the top color block.",
+      "visualAnchor": "The bold white display text in the upper left corner.",
+      "movementAndEyePath": "Starts at the top-left title, moves across to the tracklist on the right, then drops down to the subject's face and follows his gaze off-frame.",
+      "negativeSpace": "The neutral background around the subject provides breathing room for the dense information in the header."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Medium-saturated purple (Amethyst) used as a solid background for the top section.",
+      "contrastColorRole": "White used for all primary and secondary typography for maximum legibility.",
+      "accentColorRole": "Natural skin tones and dark hair provide organic contrast to the geometric color block.",
+      "saturationAndValueRelationship": "High value contrast between white text and purple background; muted, naturalistic saturation in the photographic area.",
+      "paletteRestrictions": [
+        "No bright primary colors",
+        "No gradients in the header"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Ultra-bold, condensed sans-serif with rounded outer corners.",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Squarish proportions with rounded exterior corners",
+        "Tight letter spacing (kerning)",
+        "Internal counters are narrow slits"
+      ],
+      "characterSpecificRedesigns": [
+        "The ampersand is a stylized, script-like contrast to the blocky letters",
+        "Horizontal bars in 'E' and 'S' are perfectly parallel"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "heavy",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "rounded-outer",
+            "counters": "closed-slit",
+            "strokeCharacter": "blocky"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "two-line-stack",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained-in-color-block"
+          },
+          "treatment": {
+            "fill": "solid-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "horizontal",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "functional"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "wide",
+            "leading": "loose",
+            "lineBreakPattern": "multi-column-list",
+            "density": "low"
+          },
+          "composition": {
+            "position": "top-right",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained-in-color-block"
+          },
+          "treatment": {
+            "fill": "solid-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme contrast between heavy, stylized display type and light, functional metadata type.",
+      "graphicDevices": [
+        "Bullet points (circles) used as separators in the tracklist"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The rounded-square aesthetic of the main title",
+          "The solid purple background"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts for main titles",
+          "Centering the text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Provides the necessary weight and condensed structure for the display text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Microgramma or Eurostile Bold",
+            "reason": "Captures the mid-century 'square-sans' aesthetic.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in profile looking right, wearing a dark suit jacket and white shirt. The bottom 60% is the photo, the top 40% is a solid flat purple rectangle. The man's hair should slightly overlap the purple area.",
+        "overlayInstruction": "Apply bold, condensed, rounded-square sans-serif text in white to the top-left purple area. Add a list of song titles in a smaller, clean sans-serif font to the top-right purple area, using white circles as separators."
+      },
+      "verificationChecks": [
+        "Is the purple block a solid, flat color?",
+        "Does the subject's head overlap the color boundary?",
+        "Is the display text ultra-bold and condensed?",
+        "Is the tracklist right-aligned?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Header color",
+      "Subject's gaze direction",
+      "Typography weight",
+      "Vertical split ratio"
+    ],
+    "mustRedesign": [
+      "Specific artist name",
+      "Specific song titles",
+      "Record label logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean 1960s graphic layout",
+        "High-contrast legibility",
+        "Balanced asymmetrical composition"
+      ],
+      "avoid": [
+        "Modern digital gradients",
+        "Drop shadows on text",
+        "Busy backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text does not touch the edges of the frame.",
+      "Check that the purple hue is consistent and not mottled.",
+      "Verify the ampersand is more decorative than the surrounding letters.",
+      "Confirm the portrait lighting is soft and naturalistic."
+    ],
+    "reuseFormula": "Solid color header + overlapping portrait + high-weight condensed sans-serif = Mid-Century Modern Album Aesthetic"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:28:27.974Z"
+}

@@ -1,0 +1,277 @@
+{
+  "id": "a70d68bbf77a312424e15502d6e52bca077158b7ba2b810e976c8f733eff9868",
+  "skillId": "a70d68bbf77a312424e15502d6e52bca077158b7ba2b810e976c8f733eff9868",
+  "versionId": "a70d68bbf77a312424e15502d6e52bca077158b7ba2b810e976c8f733eff9868",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:38:50.198Z",
+  "approvedAt": "2026-08-13T00:38:50.198Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:38:50.198Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "50 Years From Home: Nobody Held Her Like Me.jpg",
+    "hash": "a70d68bbf77a312424e15502d6e52bca077158b7ba2b810e976c8f733eff9868",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "50 Years From Home: Nobody Held Her Like Me",
+    "artist": "Vince Gill",
+    "artworkUrl": "https://coverartarchive.org/release-group/d7a0327e-2ae9-4c64-ac04-2b9d6ecec4cd/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d7a0327e-2ae9-4c64-ac04-2b9d6ecec4cd",
+    "releaseGroupId": "d7a0327e-2ae9-4c64-ac04-2b9d6ecec4cd",
+    "recordingId": "32b0de66-debf-4c4f-badf-16605c06d31a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Whenever You Come AroundVince Gill",
+      "song": "Whenever You Come Around",
+      "performer": "Vince Gill",
+      "peakPosition": 72,
+      "firstChartDate": "1994-05-21",
+      "lastChartDate": "1994-07-23",
+      "appearances": [
+        {
+          "chartDate": "1994-05-21",
+          "position": 85
+        },
+        {
+          "chartDate": "1994-05-28",
+          "position": 72
+        },
+        {
+          "chartDate": "1994-06-04",
+          "position": 77
+        },
+        {
+          "chartDate": "1994-06-11",
+          "position": 80
+        },
+        {
+          "chartDate": "1994-06-18",
+          "position": 78
+        },
+        {
+          "chartDate": "1994-06-25",
+          "position": 76
+        },
+        {
+          "chartDate": "1994-07-02",
+          "position": 80
+        },
+        {
+          "chartDate": "1994-07-09",
+          "position": 86
+        },
+        {
+          "chartDate": "1994-07-16",
+          "position": 98
+        },
+        {
+          "chartDate": "1994-07-23",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage dual guitar album cover sunburst guitar relic electric guitar parchment texture minimalist layout vintage serif typography symmetrical pairing of vertical instruments high contrast dark guitar bodies against light parchment balanced typographic headers and footers textural harmony between worn wood and grainy paper pair subject a and subject b symmetrically textured neutral background thin wide tracked serif typography at margins",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Dual Guitar Album Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Country music album covers",
+        "Vintage instrument catalogs",
+        "Americana aesthetic posters"
+      ],
+      "retrievalTags": [
+        "sunburst guitar",
+        "relic electric guitar",
+        "parchment texture",
+        "minimalist layout",
+        "vintage serif typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A symmetrical layout featuring two weathered electric guitars side-by-side on a textured parchment background with thin, spaced-out serif typography.",
+      "triggerTerms": [
+        "dual relic guitars",
+        "vintage instrument photography",
+        "parchment background album art"
+      ],
+      "excludeWhen": [
+        "modern high-gloss finishes are requested",
+        "busy or illustrative backgrounds are needed",
+        "bold sans-serif fonts are required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "Two vertically oriented electric guitars with heavy 'relic' wear patterns are centered against a pale, grainy parchment-style background. The typography is placed at the extreme top and bottom, utilizing a light-weight serif font with wide tracking.",
+    "coreVisualRelationships": [
+      "Symmetrical pairing of vertical instruments",
+      "High-contrast dark guitar bodies against light parchment",
+      "Balanced typographic headers and footers",
+      "Textural harmony between worn wood and grainy paper"
+    ],
+    "coreInvariants": [
+      "Parchment-textured background",
+      "Relic/worn finish on instruments",
+      "Wide letter spacing",
+      "Vertical orientation of subjects"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two guitars occupy the central 60% of the frame, standing parallel to each other.",
+      "visualAnchor": "The dark bodies of the guitars serve as the primary visual weight.",
+      "movementAndEyePath": "Vertical flow from top text, down the guitar necks to the bodies, ending at the bottom text.",
+      "negativeSpace": "Ample negative space around the guitars emphasizes their silhouette and the paper texture."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pale cream/parchment (Background)",
+      "contrastColorRole": "Black and dark sunburst (Guitar bodies)",
+      "accentColorRole": "Tortoiseshell and aged white (Pickguards)",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the subjects and the background.",
+      "paletteRestrictions": [
+        "Earth tones only",
+        "No neon colors",
+        "No pure white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman serif",
+      "letterConstructionRules": [
+        "Extremely thin stroke weight",
+        "High horizontal tracking",
+        "Small, sharp serifs"
+      ],
+      "characterSpecificRedesigns": [
+        "Zeroes may be slashed or stylized as circles"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Old-style Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light",
+            "contrast": "Low",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Pointed",
+            "counters": "Open",
+            "strokeCharacter": "Consistent"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "0.2em",
+            "leading": "1.2em",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top and bottom margins",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separated by negative space"
+          },
+          "treatment": {
+            "fill": "Dark grey or black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Slightly weathered",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used in varying weights or sizes for consistency.",
+      "graphicDevices": [
+        "Grainy paper texture overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide tracking",
+          "Thin stroke weight",
+          "Centered alignment"
+        ],
+        "avoid": [
+          "Bold weights",
+          "Script fonts",
+          "Tight kerning"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Copperplate Light",
+            "reason": "Captures the small serif and wide stance.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Adobe Caslon Light",
+            "reason": "Provides the classic, elegant serif feel.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-resolution image of two vintage, heavily relic'd electric guitars (one sunburst, one black) standing side-by-side on a pale cream parchment paper background with visible grain.",
+        "overlayInstruction": "Add centered uppercase text at the top and bottom using a thin, wide-tracked serif font in dark charcoal."
+      },
+      "verificationChecks": [
+        "Are the guitars vertically aligned?",
+        "Is the background texture visible but not distracting?",
+        "Is the text tracking sufficiently wide?",
+        "Is the color palette limited to earth tones and parchment?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Guitar models",
+      "Amount of relic wear",
+      "Parchment tint",
+      "Text tracking width"
+    ],
+    "mustRedesign": [
+      "Specific brand logos on headstocks",
+      "Exact artist names",
+      "Specific serial numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic-looking wood wear",
+        "Subtle paper grain",
+        "Balanced symmetry"
+      ],
+      "avoid": [
+        "Plastic-looking finishes",
+        "Digital-looking gradients",
+        "Cluttered margins"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for symmetrical placement of guitars",
+      "Ensure text is perfectly centered",
+      "Verify the 'relic' wear looks organic and not procedural",
+      "Confirm the parchment texture is consistent across the frame"
+    ],
+    "reuseFormula": "Pair [Subject A] and [Subject B] symmetrically + [Textured Neutral Background] + [Thin Wide-Tracked Serif Typography at Margins]"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "id": "13aca0a49b80adb9fc29f1353eff2348c7b37778df8829e02a75a4176c73e235",
+  "skillId": "13aca0a49b80adb9fc29f1353eff2348c7b37778df8829e02a75a4176c73e235",
+  "versionId": "13aca0a49b80adb9fc29f1353eff2348c7b37778df8829e02a75a4176c73e235",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:49:11.632Z",
+  "approvedAt": "2026-08-12T22:49:11.632Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:49:11.632Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Neighborhoods.jpg",
+    "hash": "13aca0a49b80adb9fc29f1353eff2348c7b37778df8829e02a75a4176c73e235",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Neighborhoods",
+    "artist": "Blink-182",
+    "artworkUrl": "https://coverartarchive.org/release-group/efb9eedc-b036-4fbe-a436-281342259800/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/efb9eedc-b036-4fbe-a436-281342259800",
+    "releaseGroupId": "efb9eedc-b036-4fbe-a436-281342259800",
+    "recordingId": "daa99801-a3b3-4d0a-86c0-899894f26ecc",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Up All NightBlink-182",
+      "song": "Up All Night",
+      "performer": "Blink-182",
+      "peakPosition": 65,
+      "firstChartDate": "2011-07-30",
+      "lastChartDate": "2011-08-06",
+      "appearances": [
+        {
+          "chartDate": "2011-07-30",
+          "position": 85
+        },
+        {
+          "chartDate": "2011-08-06",
+          "position": 65
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome isometric urban lettering isometric city stippled texture black and white architectural lettering graffiti aesthetic urban sprawl hand drawn letters as architectural anchors within a grid based city high contrast white on black line work dense stippling used for tonal variation on roof surfaces isometric perspective creating a uniform sense of depth isometric cityscape architectural lettering stippled texture monochrome high contrast",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Isometric Urban Lettering",
+      "category": "Graphic Illustration",
+      "medium": [
+        "Pen and Ink",
+        "Digital Illustration",
+        "Stippling"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Streetwear Apparel Graphics",
+        "Skate Deck Design",
+        "Editorial Illustration"
+      ],
+      "retrievalTags": [
+        "isometric city",
+        "stippled texture",
+        "black and white",
+        "architectural lettering",
+        "graffiti aesthetic",
+        "urban sprawl",
+        "hand-drawn"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dense, monochrome isometric cityscape where large-scale block letters are integrated as architectural structures within a stippled urban environment.",
+      "triggerTerms": [
+        "isometric city lettering",
+        "stippled urban illustration",
+        "black and white architectural type",
+        "dense hand-drawn cityscape"
+      ],
+      "excludeWhen": [
+        "photorealistic urban scenes",
+        "minimalist flat design",
+        "vibrant color palettes",
+        "standard horizontal typesetting"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast, black-and-white isometric illustration of a dense city. The primary subject consists of massive, three-dimensional block letters that function as skyscrapers, surrounded by smaller buildings, billboards, and graffiti-style tags. The entire scene is rendered using white outlines on black backgrounds and dense stippling for texture and shading.",
+    "coreVisualRelationships": [
+      "Letters as architectural anchors within a grid-based city",
+      "High-contrast white-on-black line work",
+      "Dense stippling used for tonal variation on roof surfaces",
+      "Isometric perspective creating a uniform sense of depth"
+    ],
+    "coreInvariants": [
+      "Strict monochrome black and white palette",
+      "Isometric 30-degree projection",
+      "Integration of text as 3D building forms"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large 3D letters dominate the center and mid-ground, scaled to dwarf surrounding structures.",
+      "visualAnchor": "The central vertical axis formed by the primary architectural lettering.",
+      "movementAndEyePath": "The eye follows the isometric grid lines from the bottom foreground upward through the dense layers of buildings.",
+      "negativeSpace": "Minimal; the composition is intentionally crowded to simulate urban density."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black background and heavy shadows",
+      "contrastColorRole": "White outlines and highlights",
+      "accentColorRole": "Stippled grey-scale effects created by dot density",
+      "saturationAndValueRelationship": "Pure binary contrast with no mid-tone grays other than through optical mixing of dots.",
+      "paletteRestrictions": [
+        "Strictly Black (#000000)",
+        "Strictly White (#FFFFFF)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "illustrated-type",
+      "baseSkeleton": "Extra-bold sans-serif block letters",
+      "letterConstructionRules": [
+        "Letters must be rendered as 3D isometric extrusions",
+        "Top surfaces of letters feature dense stippling",
+        "Side walls of letters feature vertical hatching or solid black",
+        "Windows and architectural details are embedded into the letter faces"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are modified to include windows, doors, and rooftop antennas",
+        "Internal counters of letters like 'B' or 'A' serve as courtyards or light wells"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-sans-serif",
+          "anatomy": {
+            "width": "ultra-wide",
+            "weight": "heavy",
+            "contrast": "none",
+            "xHeight": "full-cap",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small-geometric",
+            "strokeCharacter": "monolinear-block"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "stacked-isometric",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "center-midground",
+            "scale": "massive",
+            "rotation": "30-degree-isometric",
+            "warp": "none",
+            "overlap": "high",
+            "relationshipToImage": "integrated-subject"
+          },
+          "treatment": {
+            "fill": "stippled-texture",
+            "outline": "thick-white",
+            "shadow": "solid-black-extrusion",
+            "depth": "extreme-3d",
+            "texture": "pointillist",
+            "distortion": "perspective-skew"
+          }
+        }
+      ],
+      "pairingStrategy": "Secondary text appears as graffiti tags or billboard signage in a variety of hand-drawn script and block styles.",
+      "graphicDevices": [
+        "Stippled gradients",
+        "Isometric grid",
+        "Graffiti tags",
+        "Architectural cross-hatching"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Isometric perspective",
+          "Stippled roof textures",
+          "White-on-black line style"
+        ],
+        "avoid": [
+          "Standard 2D fonts",
+          "Smooth gradients",
+          "Clean vector lines without hand-drawn jitter"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Helvetica Inserat",
+            "reason": "Provides the heavy block skeleton needed for architectural extrusion.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Custom Isometric Block",
+            "reason": "Necessary to ensure the letters align perfectly with the 30-degree urban grid.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a dense isometric cityscape in a black and white hand-drawn style with white outlines on a black background. Include stippled textures on rooftops and various small buildings, billboards, and graffiti tags.",
+        "overlayInstruction": "Draw large 3D block letters into the center of the city using the same isometric perspective. The tops of the letters should have dense stippling, and the sides should have architectural details like windows to blend into the city environment."
+      },
+      "verificationChecks": [
+        "Are the letters rendered as 3D buildings?",
+        "Is the perspective consistently isometric?",
+        "Is the color palette strictly black and white?",
+        "Is stippling used for texture on horizontal surfaces?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of buildings",
+      "Complexity of stippling",
+      "Scale of the primary lettering",
+      "Amount of graffiti and signage"
+    ],
+    "mustRedesign": [
+      "Any use of color",
+      "Standard horizontal text placement",
+      "Photographic textures"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Consistent isometric projection",
+        "High-contrast binary aesthetic",
+        "Hand-drawn pen-and-ink feel"
+      ],
+      "avoid": [
+        "Anti-aliased gray edges",
+        "Perspective distortion outside of isometric rules",
+        "Sparse or empty compositions"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for consistent 30-degree angles on all structures.",
+      "Ensure no gray pixels exist; only black and white.",
+      "Verify that the large letters are integrated as buildings, not just floating.",
+      "Confirm stippling density provides enough contrast between surfaces."
+    ],
+    "reuseFormula": "Isometric Cityscape + Architectural Lettering + Stippled Texture + Monochrome High-Contrast"
+  }
+}

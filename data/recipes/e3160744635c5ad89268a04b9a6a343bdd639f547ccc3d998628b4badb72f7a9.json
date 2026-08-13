@@ -1,0 +1,290 @@
+{
+  "id": "e3160744635c5ad89268a04b9a6a343bdd639f547ccc3d998628b4badb72f7a9",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T00:28:01.596Z",
+  "approvedAt": "2026-08-12T00:28:01.596Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T00:28:01.596Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "More Music From Ray.jpg",
+    "hash": "e3160744635c5ad89268a04b9a6a343bdd639f547ccc3d998628b4badb72f7a9",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "More Music From Ray",
+    "artist": "Ray Charles",
+    "artworkUrl": "https://coverartarchive.org/release-group/5df17284-8200-3198-a0d5-7dde76c38f58/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5df17284-8200-3198-a0d5-7dde76c38f58",
+    "releaseGroupId": "5df17284-8200-3198-a0d5-7dde76c38f58",
+    "recordingId": "0462661c-1be5-46bd-b8a4-c9172ce5dd03",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Let's Go Get StonedRay Charles",
+      "song": "Let's Go Get Stoned",
+      "performer": "Ray Charles",
+      "peakPosition": 31,
+      "firstChartDate": "1966-05-28",
+      "lastChartDate": "1966-07-23",
+      "appearances": [
+        {
+          "chartDate": "1966-05-28",
+          "position": 83
+        },
+        {
+          "chartDate": "1966-06-04",
+          "position": 64
+        },
+        {
+          "chartDate": "1966-06-11",
+          "position": 59
+        },
+        {
+          "chartDate": "1966-06-18",
+          "position": 47
+        },
+        {
+          "chartDate": "1966-06-25",
+          "position": 37
+        },
+        {
+          "chartDate": "1966-07-02",
+          "position": 36
+        },
+        {
+          "chartDate": "1966-07-09",
+          "position": 32
+        },
+        {
+          "chartDate": "1966-07-16",
+          "position": 31
+        },
+        {
+          "chartDate": "1966-07-23",
+          "position": 44
+        }
+      ]
+    }
+  },
+  "dedupeText": "soul legend cinematic album cover monochrome spotlight piano keys soul music 1950s style stage lighting script lettering diagonal spotlight beam cutting through the dark negative space juxtaposition of sharp foreground profile against blurred background piano keys contrast between fluid script lettering and rigid geometric graphic bars cinematic profile diagonal spotlight blurred instrumental background script sans serif contrast",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soul Legend Cinematic Album Cover",
+      "category": "Music Photography",
+      "medium": [
+        "Cinematic Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Concert Poster",
+        "Biographical Film Promotion"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "spotlight",
+        "piano keys",
+        "soul music",
+        "1950s style",
+        "stage lighting",
+        "script lettering"
+      ]
+    },
+    "visualDefinition": "A high-contrast, moody composition featuring a musician in profile at a piano, bathed in a dramatic diagonal spotlight against a dark teal-tinted background. The upper third features a blurred close-up of piano keys overlaid with expressive script and structured sans-serif typography.",
+    "coreVisualRelationships": [
+      "Diagonal spotlight beam cutting through the dark negative space",
+      "Juxtaposition of sharp foreground profile against blurred background piano keys",
+      "Contrast between fluid script lettering and rigid geometric graphic bars"
+    ],
+    "coreInvariants": [
+      "Deep teal/cyan monochrome color grade",
+      "Strong diagonal light source from top right",
+      "Musician in profile wearing dark glasses and a suit"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Musician positioned in the lower left quadrant, medium shot; piano keys occupy the top third in soft focus.",
+      "visualAnchor": "The bright white spotlight beam in the upper right quadrant.",
+      "movementAndEyePath": "Eye starts at the bright spotlight, follows the beam down to the musician, then moves up to the script title.",
+      "negativeSpace": "Extensive dark space in the center and left provides breathing room for the typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Dark teal/midnight blue (background and shadows)",
+      "contrastColorRole": "Bright white (spotlight and script lettering)",
+      "accentColorRole": "Orange (graphic bars at the top)",
+      "saturationAndValueRelationship": "Low saturation with high value contrast between the light beam and the surrounding darkness.",
+      "paletteRestrictions": [
+        "Limit to teal, white, and a single warm accent color"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Fluid brush script and geometric sans-serif",
+      "letterConstructionRules": [
+        "Script: High slant, varying stroke weight, connected lowercase, large looped capitals",
+        "Sans-serif: All-caps, medium weight, uniform stroke, tight tracking"
+      ],
+      "characterSpecificRedesigns": [
+        "The script 'R' features a prominent top loop and a long, sweeping tail"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "rounded",
+            "corners": "smooth",
+            "counters": "open",
+            "strokeCharacter": "fluid brush"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "upper center",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "over piano keys",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "soft outer glow",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "between graphic bars",
+            "relationshipToImage": "header"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Expressive, organic script paired with rigid, industrial sans-serif for a balance of emotion and structure.",
+      "graphicDevices": [
+        "Horizontal orange bars resembling equalizer levels or film strips flanking the top text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The diagonal slant of the script",
+          "The all-caps condensed sans-serif"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Centered script (keep it slightly offset for dynamism)"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mistral or Brush Script",
+            "reason": "Captures the mid-century expressive handwriting feel",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Provides the necessary structural contrast for the header",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a cinematic photo of a male soul singer in profile wearing dark glasses and a suit, sitting at a piano. Use a dark teal color grade. A bright diagonal spotlight should shine from the top right. The background should show blurred piano keys in the upper third.",
+        "overlayInstruction": "Add a large white brush script title in the upper center. Above it, place a line of all-caps condensed sans-serif text flanked by orange horizontal rectangular bars."
+      },
+      "verificationChecks": [
+        "Is the color palette strictly teal, white, and orange?",
+        "Does the spotlight create a clear diagonal path?",
+        "Is the script text legible against the blurred piano keys?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the teal tint",
+      "Angle of the spotlight",
+      "Thickness of the script brush strokes"
+    ],
+    "mustRedesign": [
+      "Any specific artist likeness",
+      "Existing studio logos",
+      "Original film title wording"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic depth of field",
+        "Authentic 1950s/60s stage lighting feel",
+        "Clean typographic hierarchy"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Modern digital filters",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the musician's profile is sharp while the piano keys are blurred",
+      "Check that the orange bars are perfectly horizontal",
+      "Verify the script text has a natural, hand-drawn flow",
+      "Confirm the spotlight does not wash out the musician's face details"
+    ],
+    "reuseFormula": "Cinematic Profile + Diagonal Spotlight + Blurred Instrumental Background + Script/Sans-Serif Contrast"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:25:09.627Z"
+}

@@ -1,0 +1,259 @@
+{
+  "id": "ac7895c99e7db51241e148c147da1044b4bdf7b69b49c88ed3e15a4eb7705bd0",
+  "skillId": "ac7895c99e7db51241e148c147da1044b4bdf7b69b49c88ed3e15a4eb7705bd0",
+  "versionId": "ac7895c99e7db51241e148c147da1044b4bdf7b69b49c88ed3e15a4eb7705bd0",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:59:05.504Z",
+  "approvedAt": "2026-08-13T04:59:05.504Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:59:05.504Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Fighter.jpg",
+    "hash": "ac7895c99e7db51241e148c147da1044b4bdf7b69b49c88ed3e15a4eb7705bd0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Fighter",
+    "artist": "David Nail",
+    "artworkUrl": "https://coverartarchive.org/release-group/9005aa66-5b6d-40fd-8c73-b44dbed5f90b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9005aa66-5b6d-40fd-8c73-b44dbed5f90b",
+    "releaseGroupId": "9005aa66-5b6d-40fd-8c73-b44dbed5f90b",
+    "recordingId": "e5aebcdb-a586-4f74-b539-35fe4019a3da",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Night's On FireDavid Nail",
+      "song": "Night's On Fire",
+      "performer": "David Nail",
+      "peakPosition": 81,
+      "firstChartDate": "2016-07-09",
+      "lastChartDate": "2016-08-06",
+      "appearances": [
+        {
+          "chartDate": "2016-07-09",
+          "position": 100
+        },
+        {
+          "chartDate": "2016-07-16",
+          "position": 94
+        },
+        {
+          "chartDate": "2016-07-23",
+          "position": 90
+        },
+        {
+          "chartDate": "2016-07-30",
+          "position": 81
+        },
+        {
+          "chartDate": "2016-08-06",
+          "position": 88
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage marquee polaroid portrait polaroid frame cinema marquee vintage filter male portrait sunglasses lo fi photography washed out colors subject in lower right foreground looking away from camera large marquee sign dominating the upper left quadrant strong diagonal perspective from the sign leading toward the subject heavy shadow under the marquee creating a dark void behind the subject square polaroid frame angled cinema marquee faded warm tones condensed red plastic lettering",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Marquee Polaroid Portrait",
+      "category": "Photography",
+      "medium": [
+        "Instant Film",
+        "Polaroid",
+        "Analog Photography"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Nostalgic Branding",
+        "Retro Social Media Content"
+      ],
+      "retrievalTags": [
+        "polaroid frame",
+        "cinema marquee",
+        "vintage filter",
+        "male portrait",
+        "sunglasses",
+        "lo-fi photography",
+        "washed out colors"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Generates a square-format instant film portrait featuring a subject in the foreground and a vintage cinema marquee with physical plastic lettering in the background.",
+      "triggerTerms": [
+        "polaroid style portrait with marquee",
+        "vintage instant film aesthetic",
+        "cinema sign background portrait"
+      ],
+      "excludeWhen": [
+        "modern high-definition digital photography",
+        "neon signs",
+        "clean minimalist studio shots"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square-format photograph with a white instant-film border, featuring a man in sunglasses in the lower right foreground and a large, angled cinema marquee with red plastic letters in the upper left background, characterized by warm, faded, and slightly yellowed analog tones.",
+    "coreVisualRelationships": [
+      "Subject in lower right foreground looking away from camera",
+      "Large marquee sign dominating the upper left quadrant",
+      "Strong diagonal perspective from the sign leading toward the subject",
+      "Heavy shadow under the marquee creating a dark void behind the subject"
+    ],
+    "coreInvariants": [
+      "White instant-film border with chemical staining at the bottom edge",
+      "Warm, desaturated color palette with yellow-green highlights",
+      "Physical plastic marquee lettering with visible mounting tracks"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is medium-close, positioned in the bottom right third of the frame.",
+      "visualAnchor": "The bright, white marquee sign in the upper left acts as the primary anchor.",
+      "movementAndEyePath": "The eye follows the diagonal line of the marquee from top-left down to the subject in the bottom-right.",
+      "negativeSpace": "Significant dark negative space created by the shadow under the marquee overhang."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Creamy off-white (marquee and border)",
+      "contrastColorRole": "Deep charcoal and black (shadows and clothing)",
+      "accentColorRole": "Muted brick red (marquee lettering)",
+      "saturationAndValueRelationship": "Low saturation with a compressed dynamic range; highlights are yellowed and blacks are slightly lifted.",
+      "paletteRestrictions": [
+        "No vibrant blues",
+        "No pure whites",
+        "No high-contrast digital blacks"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Condensed Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Rounded terminals",
+        "Condensed proportions",
+        "Physical 3D appearance of plastic tabs"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters appear slightly misaligned as if placed by hand on a track"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "upper left on marquee",
+            "scale": "large",
+            "rotation": "angled perspective",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "integrated into background object"
+          },
+          "treatment": {
+            "fill": "muted red",
+            "outline": "none",
+            "shadow": "subtle depth",
+            "texture": "plastic sheen",
+            "distortion": "perspective tilt"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used in two sizes for hierarchy.",
+      "graphicDevices": [
+        "Horizontal marquee tracks",
+        "Polaroid frame border",
+        "Light leaks"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "uppercase",
+          "condensed width",
+          "red color"
+        ],
+        "avoid": [
+          "serif fonts",
+          "script fonts",
+          "perfectly aligned digital text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Champion Gothic",
+            "reason": "Captures the condensed, blocky feel of vintage signage.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Trade Gothic Condensed",
+            "reason": "Provides the utilitarian look of plastic marquee letters.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square polaroid-style photo of a man with a beard and sunglasses in the lower right, with a large vintage cinema marquee sign in the upper left. The sign should have empty horizontal tracks. Use a warm, faded 1970s film aesthetic.",
+        "overlayInstruction": "Add red, condensed, sans-serif plastic-style lettering to the marquee tracks, ensuring the perspective matches the angle of the sign."
+      },
+      "verificationChecks": [
+        "Is the frame square with a white border?",
+        "Are the colors warm and faded like old film?",
+        "Is the text integrated into the marquee tracks?",
+        "Is there a heavy shadow under the sign?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject gender/appearance",
+      "Text on the marquee",
+      "Intensity of the film grain",
+      "Angle of the marquee"
+    ],
+    "mustRedesign": [
+      "Modern digital sharpness",
+      "Clean white backgrounds",
+      "Neon lighting"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic instant film texture",
+        "Tangible plastic look for letters",
+        "Consistent perspective between sign and text"
+      ],
+      "avoid": [
+        "Floating text",
+        "Perfectly horizontal text on an angled sign",
+        "Vibrant modern colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for chemical staining on the bottom border",
+      "Ensure the subject is looking away from the camera",
+      "Verify the marquee letters look like physical objects",
+      "Confirm the color palette is yellow-tinted"
+    ],
+    "reuseFormula": "Square Polaroid Frame + Angled Cinema Marquee + Faded Warm Tones + Condensed Red Plastic Lettering"
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "id": "be579978c5796a40831a9b6db0efd260116bbc9323bc0c256dc06fdf3355baac",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:18:42.402Z",
+  "approvedAt": "2026-08-11T08:18:42.402Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:18:42.402Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Attacking a Straw Man.jpg",
+    "hash": "be579978c5796a40831a9b6db0efd260116bbc9323bc0c256dc06fdf3355baac",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Attacking a Straw Man",
+    "artist": "New Colony Six",
+    "artworkUrl": "https://coverartarchive.org/release-group/95f08705-5064-455f-89a6-9c37daca490d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/95f08705-5064-455f-89a6-9c37daca490d",
+    "releaseGroupId": "95f08705-5064-455f-89a6-9c37daca490d",
+    "recordingId": "4b0dfcbd-921c-45ea-a3da-352acdf4868f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Barbara, I Love YouNew Colony Six",
+      "song": "Barbara, I Love You",
+      "performer": "New Colony Six",
+      "peakPosition": 78,
+      "firstChartDate": "1970-01-10",
+      "lastChartDate": "1970-02-07",
+      "appearances": [
+        {
+          "chartDate": "1970-01-10",
+          "position": 91
+        },
+        {
+          "chartDate": "1970-01-17",
+          "position": 90
+        },
+        {
+          "chartDate": "1970-01-24",
+          "position": 81
+        },
+        {
+          "chartDate": "1970-01-31",
+          "position": 78
+        },
+        {
+          "chartDate": "1970-02-07",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "psychedelic pop illustration style 1960s psychedelic pop art hand drawn lettering bell bottoms halftone dots vibrant flat color vibrant yellow title text anchoring the top third of the composition central cluster of figures with overlapping silhouettes creating a dense focal point high contrast between the solid black background and the saturated primary secondary color palette rhythmic repetition of vertical stripes and polka dots within the clothing patterns psychedelic pop art heavy black outlines flat saturated colors ben day dots liquid hand lettering solid black background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Psychedelic Pop Illustration Style",
+      "category": "Album Art",
+      "medium": [
+        "Ink Illustration",
+        "Flat Color Fill",
+        "Screen Print"
+      ],
+      "useCases": [
+        "Vintage Music Poster",
+        "Retro Apparel Design",
+        "Editorial Illustration"
+      ],
+      "retrievalTags": [
+        "1960s psychedelic",
+        "pop art",
+        "hand-drawn lettering",
+        "bell bottoms",
+        "halftone dots",
+        "vibrant flat color"
+      ]
+    },
+    "visualDefinition": "A high-contrast psychedelic illustration featuring a group of stylized figures in 1960s mod attire, set against a solid black background with vibrant, flat-color fills and heavy black outlines. The style incorporates organic, flowing shapes, Ben-Day dot patterns, and expressive, hand-drawn typography that integrates into the overall composition.",
+    "coreVisualRelationships": [
+      "Vibrant yellow title text anchoring the top third of the composition.",
+      "Central cluster of figures with overlapping silhouettes creating a dense focal point.",
+      "High contrast between the solid black background and the saturated primary/secondary color palette.",
+      "Rhythmic repetition of vertical stripes and polka dots within the clothing patterns."
+    ],
+    "coreInvariants": [
+      "Heavy, uniform black line weight for all figure outlines.",
+      "Solid black negative space surrounding the central graphic.",
+      "Flat, non-gradient color application with occasional halftone texture."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A group of seven figures occupies the center and lower two-thirds, scaled to fill the horizontal width.",
+      "visualAnchor": "The large, flowing yellow script at the top acts as the primary visual anchor.",
+      "movementAndEyePath": "The eye starts at the top-left script, follows the curve of the letters down into the central figures, and settles on the rhythmic patterns of the trousers at the bottom.",
+      "negativeSpace": "Dominant solid black background that makes the internal colors pop."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Saturated Yellow for primary typography and highlights.",
+      "contrastColorRole": "Solid Black for background and heavy outlines.",
+      "accentColorRole": "Magenta, Cyan, and Orange for clothing patterns and ground plane.",
+      "saturationAndValueRelationship": "Extremely high saturation across all hues with no mid-tone shading.",
+      "paletteRestrictions": [
+        "No gradients",
+        "No realistic skin tones",
+        "Limited to 6-8 distinct flat colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Script",
+      "letterConstructionRules": [
+        "Heavy, bulbous terminals",
+        "Variable stroke width with extreme contrast",
+        "Interlocking characters with shared baselines",
+        "Liquid-like, organic flow following a slight upward arc"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'T' and 'N' feature elongated, sweeping swashes that frame the text block.",
+        "Lower case letters are tightly packed with minimal counters."
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "psychedelic-script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "heavy",
+            "contrast": "high",
+            "xHeight": "large",
+            "terminals": "rounded-bulbous",
+            "corners": "soft",
+            "counters": "tight",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "centered-arc",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "natural-flow",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "5-degree-arc",
+            "warp": "organic-wave",
+            "overlap": "slight-touching",
+            "relationshipToImage": "integrated-header"
+          },
+          "treatment": {
+            "fill": "solid-yellow",
+            "outline": "heavy-black",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "liquid"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "blackletter-hybrid",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "angled",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below-main-title",
+            "scale": "small",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating-in-negative-space"
+          },
+          "treatment": {
+            "fill": "solid-black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a large, fluid, organic display script with a smaller, structured, calligraphic subtitle.",
+      "graphicDevices": [
+        "Ben-Day dot patterns",
+        "Vertical stripes",
+        "Organic 'puddle' shapes for the ground plane"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Bulbous terminals",
+          "Interlocking letterforms",
+          "Heavy black outlines"
+        ],
+        "avoid": [
+          "Clean sans-serifs",
+          "Modern geometric fonts",
+          "Thin hairlines"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Art Nouveau Script",
+            "reason": "Matches the organic, flowing nature of the primary title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Fraktur or Old English",
+            "reason": "Matches the calligraphic structure of the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a psychedelic ink illustration of a 1960s pop band with 7 members in mod clothing (bell bottoms, patterned jackets, guitars). Use flat colors (yellow, orange, magenta, cyan) and heavy black outlines against a solid black background. Include Ben-Day dot textures on some clothing items.",
+        "overlayInstruction": "Add a large, hand-drawn yellow psychedelic script title at the top, following a slight upward arc. Below it, add a smaller subtitle in a black calligraphic font."
+      },
+      "verificationChecks": [
+        "Is the background solid black?",
+        "Are all colors flat with no gradients?",
+        "Is the main title interlocking and bulbous?",
+        "Are the figures outlined in thick black ink?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of figures in the band",
+      "Specific color palette (e.g., swapping magenta for lime green)",
+      "Density of the halftone dot patterns",
+      "Curvature of the main title arc"
+    ],
+    "mustRedesign": [
+      "Any specific band logos or record label insignias",
+      "Exact facial likenesses of historical figures",
+      "Specific trademarked guitar headstock shapes"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast graphic impact",
+        "Authentic 1960s 'Summer of Love' vibe",
+        "Clean, deliberate line work"
+      ],
+      "avoid": [
+        "Digital-looking gradients",
+        "Airbrushed effects",
+        "Thin, wispy lines"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that no text is blurry or illegible.",
+      "Ensure the yellow of the text matches the yellow accents in the illustration.",
+      "Verify that the black background is pure and consistent.",
+      "Confirm the halftone dots are visible but not overwhelming."
+    ],
+    "reuseFormula": "Psychedelic Pop Art = (Heavy Black Outlines + Flat Saturated Colors + Ben-Day Dots) * (Liquid Hand-Lettering / Solid Black Background)"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:07:44.430Z"
+}

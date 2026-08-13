@@ -1,0 +1,293 @@
+{
+  "id": "b333ade83ff8f3a90804e8b6771340ec1852d7ea16eba99765ccfcb2b6e5586e",
+  "skillId": "b333ade83ff8f3a90804e8b6771340ec1852d7ea16eba99765ccfcb2b6e5586e",
+  "versionId": "b333ade83ff8f3a90804e8b6771340ec1852d7ea16eba99765ccfcb2b6e5586e",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:20:40.896Z",
+  "approvedAt": "2026-08-12T17:20:40.896Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:20:40.896Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Straight Outta Compton.jpg",
+    "hash": "b333ade83ff8f3a90804e8b6771340ec1852d7ea16eba99765ccfcb2b6e5586e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Straight Outta Compton",
+    "artist": "N.W.A",
+    "artworkUrl": "https://coverartarchive.org/release-group/fed1608d-80b7-38d2-aeb8-c6357f0d4c23/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/fed1608d-80b7-38d2-aeb8-c6357f0d4c23",
+    "releaseGroupId": "fed1608d-80b7-38d2-aeb8-c6357f0d4c23",
+    "recordingId": "62f24090-70fa-4846-bcbf-83319021643c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Straight Outta ComptonN.W.A",
+      "song": "Straight Outta Compton",
+      "performer": "N.W.A",
+      "peakPosition": 38,
+      "firstChartDate": "2015-09-05",
+      "lastChartDate": "2015-09-12",
+      "appearances": [
+        {
+          "chartDate": "2015-09-05",
+          "position": 38
+        },
+        {
+          "chartDate": "2015-09-12",
+          "position": 61
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban low angle group portrait low angle worm s eye view urban group streetwear torn paper edge 90s hip hop aesthetic hand painted lettering radial symmetry of subjects pointing toward a central sky focal point contrast between the organic jagged black borders and the smooth blue sky dominance of the top red title against the dark clothing of the subjects confrontational eye contact from subjects looking down at the viewer low angle group circle torn paper borders aggressive hand painted typography urban confrontational aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Low-Angle Group Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Hand-drawn Typography"
+      ],
+      "useCases": [
+        "Hip-hop album covers",
+        "Streetwear branding",
+        "Urban culture posters",
+        "Documentary film key art"
+      ],
+      "retrievalTags": [
+        "low angle",
+        "worm's eye view",
+        "urban group",
+        "streetwear",
+        "torn paper edge",
+        "90s hip hop aesthetic",
+        "hand-painted lettering"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A low-angle group portrait framed by torn black borders and aggressive hand-drawn typography for an urban, confrontational aesthetic.",
+      "triggerTerms": [
+        "worm's eye view group shot",
+        "urban street photography album cover",
+        "torn paper border layout",
+        "aggressive hand-drawn red title"
+      ],
+      "excludeWhen": [
+        "clean corporate photography is needed",
+        "high-angle or eye-level perspectives are required",
+        "minimalist or pastel color palettes are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A circle of figures looking down at the camera from a low-angle perspective, framed by jagged black paper-tear textures at the top and bottom. The sky forms a central blue negative space, while bold, distressed hand-painted lettering dominates the upper and lower margins.",
+    "coreVisualRelationships": [
+      "Radial symmetry of subjects pointing toward a central sky focal point",
+      "Contrast between the organic, jagged black borders and the smooth blue sky",
+      "Dominance of the top red title against the dark clothing of the subjects",
+      "Confrontational eye contact from subjects looking down at the viewer"
+    ],
+    "coreInvariants": [
+      "Extreme low-angle perspective",
+      "Torn paper edge framing",
+      "Hand-drawn or distressed typography",
+      "Circular composition of subjects"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subjects are arranged in a ring around the perimeter of the frame, appearing large and imposing due to the low angle.",
+      "visualAnchor": "The central patch of blue sky acts as the compositional anchor, drawing the eye inward before it moves to the faces.",
+      "movementAndEyePath": "The eye starts at the central sky, moves outward to the faces, then upward to the red title and downward to the white subtitle.",
+      "negativeSpace": "The sky provides a circular negative space in the center, while the black torn borders provide heavy negative space at the top and bottom."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (clothing and borders) and Blue (sky)",
+      "contrastColorRole": "Red (main title) and White (subtitle)",
+      "accentColorRole": "Flesh tones and denim textures",
+      "saturationAndValueRelationship": "High contrast between dark foreground figures and bright central sky; high saturation on the red title.",
+      "paletteRestrictions": [
+        "Primary red",
+        "Deep black",
+        "Sky blue",
+        "Neutral grays/whites"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Sans-serif with irregular stroke widths",
+      "letterConstructionRules": [
+        "Rough, hand-painted appearance",
+        "Inconsistent baseline and cap height",
+        "Visible brush stroke textures and drips",
+        "Thick, aggressive strokes"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters have jagged, uneven edges to mimic street graffiti or quick painting"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "expressive-handwritten",
+          "anatomy": {
+            "width": "condensed to normal",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt and irregular",
+            "corners": "sharp and jagged",
+            "counters": "small and tight",
+            "strokeCharacter": "painterly"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "slight irregular jitter",
+            "overlap": "overlaps subject heads",
+            "relationshipToImage": "foreground overlay"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "subtle black drop shadow",
+            "depth": "flat",
+            "texture": "distressed paint",
+            "distortion": "manual jitter"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "distressed-sans",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "rough",
+            "corners": "rounded/worn",
+            "counters": "open",
+            "strokeCharacter": "stenciled or chalk-like"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "within black border",
+            "relationshipToImage": "overlay on border"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "chalky or eroded",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Aggressive, large red hand-painted title paired with a smaller, more legible white distressed subtitle.",
+      "graphicDevices": [
+        "Torn paper edges",
+        "Heavy black vignette/bordering"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Red color for main title",
+          "Hand-painted texture",
+          "All-caps styling"
+        ],
+        "avoid": [
+          "Clean, modern sans-serifs",
+          "Script fonts",
+          "Perfectly straight baselines"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Road Rage",
+            "reason": "Captures the aggressive, hand-painted brush stroke feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Misery",
+            "reason": "Provides a similar distressed, horror-adjacent urban vibe.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A low-angle worm's eye view photograph of a group of 5-6 men in 90s streetwear standing in a circle looking down at the camera. The center of the frame is a clear blue sky. Apply jagged, torn black paper borders to the top and bottom edges of the image.",
+        "overlayInstruction": "Add a large, hand-painted red title in the top black border area, slightly overlapping the heads of the subjects. Add a smaller, white distressed sans-serif subtitle in the bottom black border area."
+      },
+      "verificationChecks": [
+        "Is the camera angle extremely low looking up?",
+        "Are there torn paper textures at the top and bottom?",
+        "Is the main title red and hand-drawn in appearance?",
+        "Is the central sky visible between the subjects?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects in the circle",
+      "Color of the central sky (e.g., sunset, overcast)",
+      "Intensity of the torn paper texture",
+      "Color of the display typography"
+    ],
+    "mustRedesign": [
+      "Specific faces of the original artists",
+      "The 'Parental Advisory' logo",
+      "Exact letterforms of the original logo"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Gritty urban texture",
+        "Imposing low-angle perspective",
+        "High-contrast lighting"
+      ],
+      "avoid": [
+        "Soft focus",
+        "Bright, cheerful color palettes",
+        "Clean, digital-looking borders"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for radial symmetry in the composition",
+      "Ensure the red title is the most saturated element",
+      "Verify the torn edges look organic and not geometric",
+      "Confirm the subjects' expressions are serious or confrontational",
+      "Ensure the sky is the brightest part of the image"
+    ],
+    "reuseFormula": "Low-angle group circle + torn paper borders + aggressive hand-painted typography = Urban Confrontational Aesthetic."
+  }
+}

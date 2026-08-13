@@ -1,0 +1,276 @@
+{
+  "id": "a26211763ea047b03a73c32f6eae0dd8cb558b78246a525be15442f1962bb735",
+  "skillId": "a26211763ea047b03a73c32f6eae0dd8cb558b78246a525be15442f1962bb735",
+  "versionId": "a26211763ea047b03a73c32f6eae0dd8cb558b78246a525be15442f1962bb735",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:30:00.195Z",
+  "approvedAt": "2026-08-12T23:30:00.195Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:30:00.195Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Bedroom Music 2026.jpg",
+    "hash": "a26211763ea047b03a73c32f6eae0dd8cb558b78246a525be15442f1962bb735",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Bedroom Music 2026",
+    "artist": "Kaleo",
+    "artworkUrl": "https://coverartarchive.org/release-group/cbcdf059-ad1d-4ed1-9b8b-5092f0b38a08/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/cbcdf059-ad1d-4ed1-9b8b-5092f0b38a08",
+    "releaseGroupId": "cbcdf059-ad1d-4ed1-9b8b-5092f0b38a08",
+    "recordingId": "8e811304-772f-489d-97c0-976f240571e2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Way Down We GoKaleo",
+      "song": "Way Down We Go",
+      "performer": "Kaleo",
+      "peakPosition": 54,
+      "firstChartDate": "2017-01-14",
+      "lastChartDate": "2017-03-04",
+      "appearances": [
+        {
+          "chartDate": "2017-01-14",
+          "position": 98
+        },
+        {
+          "chartDate": "2017-01-21",
+          "position": 85
+        },
+        {
+          "chartDate": "2017-01-28",
+          "position": 91
+        },
+        {
+          "chartDate": "2017-02-04",
+          "position": 85
+        },
+        {
+          "chartDate": "2017-02-11",
+          "position": 54
+        },
+        {
+          "chartDate": "2017-02-18",
+          "position": 63
+        },
+        {
+          "chartDate": "2017-02-25",
+          "position": 71
+        },
+        {
+          "chartDate": "2017-03-04",
+          "position": 81
+        }
+      ]
+    }
+  },
+  "dedupeText": "nocturnal urban silhouette cover silhouette bokeh urban night geometric sans serif moody city lights couple window view silhouetted subjects on the right balancing heavy typography on the left sharp geometric text against a soft focus bokeh background warm orange yellow light points against deep blue and black shadows vertical window frame acting as a compositional divider nocturnal silhouette bokeh background geometric sans overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Nocturnal Urban Silhouette Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Playlist Cover",
+        "Podcast Thumbnail",
+        "Social Media Post"
+      ],
+      "retrievalTags": [
+        "silhouette",
+        "bokeh",
+        "urban night",
+        "geometric sans-serif",
+        "moody",
+        "city lights",
+        "couple",
+        "window view"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A moody, low-light composition featuring silhouetted figures against a bokeh-rich urban nightscape with bold, left-aligned geometric typography.",
+      "triggerTerms": [
+        "urban night silhouette with bold text",
+        "bokeh city lights album cover",
+        "moody window view photography"
+      ],
+      "excludeWhen": [
+        "bright daylight scenes",
+        "minimalist white backgrounds",
+        "handwritten or script typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square-format image depicting two silhouetted figures looking out a window at a blurred city at night. The left side of the frame is dominated by large, white, geometric sans-serif text, while the right side contains the primary human subjects. Warm bokeh circles from city lights contrast with the cool, dark tones of the interior.",
+    "coreVisualRelationships": [
+      "Silhouetted subjects on the right balancing heavy typography on the left",
+      "Sharp geometric text against a soft-focus bokeh background",
+      "Warm orange/yellow light points against deep blue and black shadows",
+      "Vertical window frame acting as a compositional divider"
+    ],
+    "coreInvariants": [
+      "High-contrast silhouette of human figures",
+      "Out-of-focus urban light circles (bokeh)",
+      "Left-aligned, all-caps geometric sans-serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two figures occupy the right third of the frame, scaled to appear as if viewed from behind within a room.",
+      "visualAnchor": "The bright white text in the upper-left quadrant serves as the primary focal point.",
+      "movementAndEyePath": "The eye starts at the bold text, moves down the left margin, then follows the window frame to the silhouetted couple.",
+      "negativeSpace": "The dark, shadowed interior around the figures provides negative space that emphasizes the bright city lights and text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep indigo and black (shadows/night sky)",
+      "contrastColorRole": "Bright white (typography)",
+      "accentColorRole": "Warm amber and gold (bokeh lights)",
+      "saturationAndValueRelationship": "Low-value, high-contrast scene with saturated warm accents against desaturated darks.",
+      "paletteRestrictions": [
+        "Avoid bright primary colors",
+        "Limit to nocturnal tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Perfectly circular 'O' and 'C' characters",
+        "Uniform stroke weight throughout",
+        "Sharp, unbracketed corners",
+        "Wide apertures"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open and circular",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "Wide",
+            "leading": "Tight",
+            "lineBreakPattern": "Word-by-word or short phrases",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top-left quadrant",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlays the blurred background"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single-family usage with varying weights or sizes for secondary info.",
+      "graphicDevices": [
+        "Vertical alignment along a common left axis"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric circularity",
+          "Bold weight",
+          "All-caps styling"
+        ],
+        "avoid": [
+          "Serifs",
+          "Condensed widths",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Classic geometric skeleton with circular 'O's.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Modern geometric feel with excellent legibility.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Montserrat Bold",
+            "reason": "Open-source alternative with similar geometric properties.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photograph of a couple in silhouette looking out a window at a city at night. Use a shallow depth of field to create large, warm amber bokeh circles from the city lights. The interior should be very dark with cool blue tones.",
+        "overlayInstruction": "Add three lines of left-aligned, all-caps text in a bold geometric sans-serif font in the top-left corner. Use solid white for the text color and ensure wide letter spacing."
+      },
+      "verificationChecks": [
+        "Is the text perfectly left-aligned?",
+        "Are the 'O's perfectly circular?",
+        "Is the background sufficiently blurred to create bokeh?",
+        "Are the human figures rendered as dark silhouettes?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Bokeh intensity",
+      "Text tracking width",
+      "Cool vs. warm color balance in the shadows",
+      "Subject distance from window"
+    ],
+    "mustRedesign": [
+      "Avoid using any specific existing brand logos",
+      "Ensure the text does not obscure the faces of the silhouettes"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clear distinction between sharp text and soft background",
+        "Legible typography despite the busy bokeh",
+        "Atmospheric nocturnal mood"
+      ],
+      "avoid": [
+        "Over-exposure in the background",
+        "Low-contrast text that blends into the lights",
+        "Cluttered composition"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that text is solid white without transparency",
+      "Verify that the silhouette is dark enough to hide facial features",
+      "Ensure the bokeh circles are varied in size",
+      "Confirm the geometric font has no serifs"
+    ],
+    "reuseFormula": "Nocturnal Silhouette + Bokeh Background + Geometric Sans Overlay"
+  }
+}

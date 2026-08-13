@@ -1,0 +1,287 @@
+{
+  "id": "605f8b112af3ed9599dadc85d5772917648bb97f3748d935040c92afac3b4f6e",
+  "skillId": "605f8b112af3ed9599dadc85d5772917648bb97f3748d935040c92afac3b4f6e",
+  "versionId": "605f8b112af3ed9599dadc85d5772917648bb97f3748d935040c92afac3b4f6e",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:06:36.337Z",
+  "approvedAt": "2026-08-12T21:06:36.337Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:06:36.337Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Until Then I’ll Suffer.jpg",
+    "hash": "605f8b112af3ed9599dadc85d5772917648bb97f3748d935040c92afac3b4f6e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Until Then I’ll Suffer",
+    "artist": "Barbara Lynn",
+    "artworkUrl": "https://coverartarchive.org/release-group/ba65a730-9272-3901-b132-7eb1e5296c23/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ba65a730-9272-3901-b132-7eb1e5296c23",
+    "releaseGroupId": "ba65a730-9272-3901-b132-7eb1e5296c23",
+    "recordingId": "cb32f169-a0f4-4687-94e2-324eebe6cbba",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "This Is The Thanks I GetBarbara Lynn",
+      "song": "This Is The Thanks I Get",
+      "performer": "Barbara Lynn",
+      "peakPosition": 65,
+      "firstChartDate": "1968-02-17",
+      "lastChartDate": "1968-02-24",
+      "appearances": [
+        {
+          "chartDate": "1968-02-17",
+          "position": 74
+        },
+        {
+          "chartDate": "1968-02-24",
+          "position": 65
+        }
+      ]
+    }
+  },
+  "dedupeText": "soul and blues album cover layout duotone double exposure letterboxed typography soul music 1960s aesthetic magenta tint foreground subject anchored to the bottom right third faded background face occupying the upper left two thirds horizontal black bands framing the central image monochromatic magenta color cast across the central photographic area layered duotone portrait black letterbox bars wide tracked roman serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soul and Blues Album Cover Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Typography"
+      ],
+      "useCases": [
+        "Vintage soul album art",
+        "Retrospective music compilation covers",
+        "Monochromatic portrait layouts"
+      ],
+      "retrievalTags": [
+        "duotone",
+        "double exposure",
+        "letterboxed typography",
+        "soul music",
+        "1960s aesthetic",
+        "magenta tint"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A duotone portrait layout featuring a high-contrast foreground subject against a faded, large-scale background ghost image, framed by black horizontal bars with wide-tracked serif typography.",
+      "triggerTerms": [
+        "duotone double exposure portrait",
+        "letterboxed album cover typography",
+        "magenta tinted music retrospective"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "full-color vibrant photography",
+        "sans-serif dominant layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A three-layered composition consisting of a solid black header and footer containing white text, a large faded background portrait in a magenta duotone, and a sharp, high-contrast foreground subject interacting with an object.",
+    "coreVisualRelationships": [
+      "Foreground subject anchored to the bottom-right third",
+      "Faded background face occupying the upper-left two-thirds",
+      "Horizontal black bands framing the central image",
+      "Monochromatic magenta color cast across the central photographic area"
+    ],
+    "coreInvariants": [
+      "High-contrast black and white foreground subject against a tinted background",
+      "Wide letter-spacing in the display typography",
+      "Double-exposure effect with varying opacity levels"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Foreground subject is small-scale, positioned horizontally across the lower half; background subject is large-scale, cropped to the face.",
+      "visualAnchor": "The high-contrast black clothing of the foreground figure.",
+      "movementAndEyePath": "Eyes start at the top display text, move to the large background face, then down to the foreground figure and bottom text.",
+      "negativeSpace": "The magenta-tinted mid-ground acts as negative space between the two portraits."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Magenta/Purple duotone for the photographic mid-section.",
+      "contrastColorRole": "Solid black for the header and footer bars.",
+      "accentColorRole": "Pure white for the typography and highlights in the foreground subject.",
+      "saturationAndValueRelationship": "High value contrast between white text and black bars; low saturation magenta tinting.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Magenta-Purple"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman serif with high contrast and sharp terminals.",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Sharp, bracketed serifs",
+        "Open counters in the 'A' and 'R'",
+        "Wide tracking"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "0.2em",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top header",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within black bar"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "0.3em",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom footer",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within black bar"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Uniform typeface family used for both header and footer with varying scale and tracking.",
+      "graphicDevices": [
+        "Horizontal black bands",
+        "Duotone photographic filter"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide tracking",
+          "High-contrast serif style",
+          "Uppercase format"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Tight kerning",
+          "Lowercase letters"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Optima",
+            "reason": "Matches the flared terminals and elegant stroke contrast.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Trajan",
+            "reason": "Captures the classical Roman uppercase authority.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a duotone magenta image with a large, low-opacity face in the background and a high-contrast, sharp foreground figure lying down with a guitar. Add solid black bars at the very top and bottom.",
+        "overlayInstruction": "Place white, wide-tracked, high-contrast serif text in all-caps centered within the top and bottom black bars."
+      },
+      "verificationChecks": [
+        "Is the background face low opacity and magenta-tinted?",
+        "Are the top and bottom bars solid black?",
+        "Is the text white and widely tracked?",
+        "Is the foreground subject high contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Magenta tint intensity",
+      "Opacity of the background face",
+      "Tracking width of the typography",
+      "Height of the black header/footer bars"
+    ],
+    "mustRedesign": [
+      "Specific artist likeness",
+      "Original song titles",
+      "Specific guitar brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean typographic alignment",
+        "Distinct separation between foreground and background layers",
+        "Consistent duotone color cast"
+      ],
+      "avoid": [
+        "Cluttered mid-ground",
+        "Low-contrast text against black",
+        "Modern digital gradients"
+      ]
+    },
+    "postGenerationChecks": [
+      "Text is perfectly centered in black bars",
+      "Foreground subject does not overlap the black bars",
+      "Background face is recognizable but ethereal",
+      "Color palette is strictly limited to black, white, and magenta tones"
+    ],
+    "reuseFormula": "Layered duotone portrait + black letterbox bars + wide-tracked Roman serif typography."
+  }
+}

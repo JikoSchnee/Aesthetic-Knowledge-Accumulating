@@ -1,0 +1,309 @@
+{
+  "id": "b0931fff7432d59ca518a803b29d195902e99c8927ee20420e30159bc2c03652",
+  "skillId": "b0931fff7432d59ca518a803b29d195902e99c8927ee20420e30159bc2c03652",
+  "versionId": "b0931fff7432d59ca518a803b29d195902e99c8927ee20420e30159bc2c03652",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:25:43.400Z",
+  "approvedAt": "2026-08-12T22:25:43.400Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:25:43.400Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Turn Your Radio On.jpg",
+    "hash": "b0931fff7432d59ca518a803b29d195902e99c8927ee20420e30159bc2c03652",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Turn Your Radio On",
+    "artist": "Ray Stevens",
+    "artworkUrl": "https://coverartarchive.org/release-group/21cea5e4-0a71-4fa5-8991-138a3e054fa8/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/21cea5e4-0a71-4fa5-8991-138a3e054fa8",
+    "releaseGroupId": "21cea5e4-0a71-4fa5-8991-138a3e054fa8",
+    "recordingId": "99b129c1-4e20-4296-856e-f21609e1496f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Turn Your Radio OnRay Stevens",
+      "song": "Turn Your Radio On",
+      "performer": "Ray Stevens",
+      "peakPosition": 63,
+      "firstChartDate": "1971-11-20",
+      "lastChartDate": "1972-01-01",
+      "appearances": [
+        {
+          "chartDate": "1971-11-20",
+          "position": 91
+        },
+        {
+          "chartDate": "1971-11-27",
+          "position": 84
+        },
+        {
+          "chartDate": "1971-12-04",
+          "position": 76
+        },
+        {
+          "chartDate": "1971-12-11",
+          "position": 71
+        },
+        {
+          "chartDate": "1971-12-18",
+          "position": 65
+        },
+        {
+          "chartDate": "1971-12-25",
+          "position": 63
+        },
+        {
+          "chartDate": "1972-01-01",
+          "position": 70
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage soft focus portrait album layout 1970s soft focus backlit portrait serif typography warm tones film grain subject centered horizontally but anchored by text on the right warm backlight contrasting with deep shadows in the foreground tight typographic leading creating a solid block of information soft focus background blending into the subject s silhouette warm backlit portrait right aligned dense serif typography film grain",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Soft-Focus Portrait Album Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typography"
+      ],
+      "useCases": [
+        "Album covers",
+        "Retro editorial layouts",
+        "Nostalgic portraiture"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "soft focus",
+        "backlit portrait",
+        "serif typography",
+        "warm tones",
+        "film grain"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A warm, backlit 1970s-style portrait with a right-aligned typographic block using high-contrast serifs.",
+      "triggerTerms": [
+        "1970s album cover style",
+        "backlit soft focus portrait",
+        "vintage serif layout"
+      ],
+      "excludeWhen": [
+        "modern minimalist requests",
+        "high-contrast digital sharpness",
+        "centered typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up portrait of a smiling subject with a warm, hazy backlight that creates a glowing halo effect around the hair, paired with a dense block of right-aligned serif text in the upper right quadrant.",
+    "coreVisualRelationships": [
+      "Subject centered horizontally but anchored by text on the right",
+      "Warm backlight contrasting with deep shadows in the foreground",
+      "Tight typographic leading creating a solid block of information",
+      "Soft-focus background blending into the subject's silhouette"
+    ],
+    "coreInvariants": [
+      "Warm color temperature",
+      "Soft-focus lens effect",
+      "Right-aligned text block",
+      "High-contrast serif display type"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the central 70% of the frame, from chest up.",
+      "visualAnchor": "The subject's face and the glowing medallion necklace.",
+      "movementAndEyePath": "Eyes move from the subject's face to the text block on the right, then down to the bright medallion.",
+      "negativeSpace": "Dark, out-of-focus foliage in the background provides negative space for text legibility."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep browns and earthy shadows (background/clothing)",
+      "contrastColorRole": "Warm golden highlights (backlighting/skin tones)",
+      "accentColorRole": "Creamy off-white (typography and medallion)",
+      "saturationAndValueRelationship": "Low saturation with high value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "No neon colors",
+        "No cool blues",
+        "No harsh whites"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional and modern serifs",
+      "letterConstructionRules": [
+        "Extreme contrast between thick and thin strokes",
+        "Ball terminals on lowercase letters",
+        "Tight letter spacing (kerning)",
+        "Vertical stress"
+      ],
+      "characterSpecificRedesigns": [
+        "Overlapping 'y' and 'v' in display text",
+        "Tight tracking to create a cohesive block"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Ball",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Very Tight",
+            "lineBreakPattern": "Staggered",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top Right",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over dark background"
+          },
+          "treatment": {
+            "fill": "Cream/Off-white",
+            "outline": "None",
+            "shadow": "Subtle glow",
+            "depth": "Flat",
+            "texture": "Slight grain",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Square",
+            "counters": "Closed",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Normal",
+            "leading": "Normal",
+            "lineBreakPattern": "List",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Below Display Text",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Aligned with display text"
+          },
+          "treatment": {
+            "fill": "Off-white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for titles paired with a clean, functional sans-serif for lists.",
+      "graphicDevices": [
+        "Small logo in top left corner",
+        "Thin border or bleed-to-edge"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right alignment",
+          "Tight leading",
+          "High-contrast serif"
+        ],
+        "avoid": [
+          "Centered text",
+          "Modern geometric sans-serifs",
+          "Bright white text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Caslon No. 224",
+            "reason": "Captures the high contrast and ball terminals of the era.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bookman Old Style",
+            "reason": "Provides the swash-like warmth and weight of 70s display type.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a warm, backlit portrait of a person with soft-focus hair highlights and a dark, out-of-focus natural background. Ensure the right side of the frame has dark negative space.",
+        "overlayInstruction": "Add a right-aligned block of text in the upper right quadrant using a high-contrast serif font in cream. Use tight leading for the title and a smaller sans-serif for the list below."
+      },
+      "verificationChecks": [
+        "Is the lighting warm and hazy?",
+        "Is the text right-aligned?",
+        "Is the font high-contrast serif?",
+        "Is there a visible film grain?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Backlight intensity",
+      "Text block density",
+      "Subject's expression",
+      "Grain amount"
+    ],
+    "mustRedesign": [
+      "Specific celebrity likeness",
+      "Original brand logos",
+      "Exact tracklist wording"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft-focus glow",
+        "Warm color palette",
+        "Tight typographic hierarchy"
+      ],
+      "avoid": [
+        "Digital sharpness",
+        "Cool-toned lighting",
+        "Loose letter spacing"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for halo effect around hair",
+      "Verify right-alignment of text block",
+      "Ensure cream-colored typography",
+      "Confirm film-like grain texture",
+      "Check for high-contrast serif anatomy"
+    ],
+    "reuseFormula": "Warm Backlit Portrait + Right-Aligned Dense Serif Typography + Film Grain"
+  }
+}

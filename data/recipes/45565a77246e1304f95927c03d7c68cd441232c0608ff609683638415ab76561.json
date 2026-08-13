@@ -1,0 +1,251 @@
+{
+  "id": "45565a77246e1304f95927c03d7c68cd441232c0608ff609683638415ab76561",
+  "skillId": "45565a77246e1304f95927c03d7c68cd441232c0608ff609683638415ab76561",
+  "versionId": "45565a77246e1304f95927c03d7c68cd441232c0608ff609683638415ab76561",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:00:33.592Z",
+  "approvedAt": "2026-08-13T00:00:33.592Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:00:33.592Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Percy Sledge Way.jpg",
+    "hash": "45565a77246e1304f95927c03d7c68cd441232c0608ff609683638415ab76561",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Percy Sledge Way",
+    "artist": "Percy Sledge",
+    "artworkUrl": "https://coverartarchive.org/release-group/90dbd9a9-33fc-4b81-a5c4-f21871807ffb/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/90dbd9a9-33fc-4b81-a5c4-f21871807ffb",
+    "releaseGroupId": "90dbd9a9-33fc-4b81-a5c4-f21871807ffb",
+    "recordingId": "b680f80c-f352-46b9-9996-f42d5338a44d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "What Am I Living ForPercy Sledge",
+      "song": "What Am I Living For",
+      "performer": "Percy Sledge",
+      "peakPosition": 91,
+      "firstChartDate": "1967-07-08",
+      "lastChartDate": "1967-07-15",
+      "appearances": [
+        {
+          "chartDate": "1967-07-08",
+          "position": 94
+        },
+        {
+          "chartDate": "1967-07-15",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul album cover style psychedelic stripes duotone portrait cooper black typography mid century soul vibrant horizontal bands subject silhouette overlaps the striped background and bottom blue field arched title text follows a convex curve across the top header left aligned tracklist text is centered vertically within the striped zone high contrast duotone skin tones match the background pink duotone portrait arched heavy serif horizontal color bands cyan framing",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Album Cover Style",
+      "category": "Graphic Design",
+      "medium": [
+        "Screen Print",
+        "Halftone Photography",
+        "Offset Lithography"
+      ],
+      "useCases": [
+        "Vintage music posters",
+        "Retro soul album art",
+        "Pop art editorial layouts",
+        "1960s themed branding"
+      ],
+      "retrievalTags": [
+        "psychedelic stripes",
+        "duotone portrait",
+        "Cooper Black typography",
+        "mid-century soul",
+        "vibrant horizontal bands"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast duotone portrait overlaid on a background of vibrant, multi-colored horizontal stripes with heavy, rounded display typography.",
+      "triggerTerms": [
+        "1960s soul album aesthetic",
+        "vibrant horizontal stripe background",
+        "duotone halftone portrait overlay",
+        "heavy rounded serif display text"
+      ],
+      "excludeWhen": [
+        "minimalist modern designs",
+        "muted pastel color palettes",
+        "clean sans-serif corporate layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central high-contrast duotone figure in a thoughtful pose, set against a background of alternating pink and orange horizontal stripes framed by blue blocks, featuring bold, arched display lettering at the top.",
+    "coreVisualRelationships": [
+      "Subject silhouette overlaps the striped background and bottom blue field",
+      "Arched title text follows a convex curve across the top header",
+      "Left-aligned tracklist text is centered vertically within the striped zone",
+      "High-contrast duotone skin tones match the background pink"
+    ],
+    "coreInvariants": [
+      "Horizontal color banding in the middle third of the composition",
+      "High-contrast black-and-color duotone treatment for the human subject",
+      "Heavyweight rounded serif typography for the primary title"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale portrait positioned slightly right of center, extending from the bottom edge to the upper third.",
+      "visualAnchor": "The high-contrast black silhouette of the subject's suit and hair.",
+      "movementAndEyePath": "Eyes start at the arched title, move down the left-aligned list, and settle on the subject's face.",
+      "negativeSpace": "Solid blue blocks at the top and bottom provide breathing room for the dense central patterns."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cyan blue in the header and footer blocks.",
+      "contrastColorRole": "Black for the subject's shadows and primary text.",
+      "accentColorRole": "Vibrant pink and orange for the horizontal stripes and skin highlights.",
+      "saturationAndValueRelationship": "High saturation and high value contrast between the black ink and the bright neon-adjacent background colors.",
+      "paletteRestrictions": [
+        "Cyan",
+        "Magenta-Pink",
+        "Orange",
+        "Black",
+        "Lime Green"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold rounded serif with high contrast",
+      "letterConstructionRules": [
+        "Extremely thick strokes with tight counters",
+        "Soft, rounded terminals and serifs",
+        "Heavy bottom-weighting on curves"
+      ],
+      "characterSpecificRedesigns": [
+        "Tightly kerned lowercase with large x-heights",
+        "Arched baseline for the main title"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif / Fat Face",
+          "anatomy": {
+            "width": "wide",
+            "weight": "black",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "small",
+            "strokeCharacter": "bulbous"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "arched",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "convex arch",
+            "overlap": "none",
+            "relationshipToImage": "above subject"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy display face paired with a smaller, high-contrast slab serif for secondary lists.",
+      "graphicDevices": [
+        "Horizontal color bands",
+        "Duotone halftone effect",
+        "Arched text path"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Arched baseline",
+          "Rounded terminals",
+          "High stroke contrast"
+        ],
+        "avoid": [
+          "Thin sans-serifs",
+          "Geometric modernism",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cooper Black",
+            "reason": "Matches the iconic rounded, heavy-weight 1960s aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Goudy Heavyface",
+            "reason": "Provides the necessary high contrast and thick serifs.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a background with a cyan blue top and bottom block. In the center, create alternating horizontal stripes of vibrant pink and orange. Place a high-contrast duotone portrait of a man in a suit, using black for shadows and pink for highlights, overlapping the stripes.",
+        "overlayInstruction": "Add the main title in a white, heavy rounded serif font like Cooper Black, following a convex arch at the top. Add a list of text on the left side in black slab-serif typography."
+      },
+      "verificationChecks": [
+        "Is the title arched?",
+        "Are the stripes horizontal and alternating pink/orange?",
+        "Is the portrait a duotone using the background pink?",
+        "Is the font weight sufficiently heavy and rounded?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Stripe color palette",
+      "Arch intensity of the title",
+      "Duotone highlight color",
+      "Number of horizontal bands"
+    ],
+    "mustRedesign": [
+      "Avoid modern digital gradients; use flat color bands",
+      "Ensure the subject is high-contrast duotone, not a full-color photo"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Vibrant 1960s color saturation",
+        "Tight, heavy typography",
+        "Clear horizontal banding"
+      ],
+      "avoid": [
+        "Low-contrast imagery",
+        "Thin line weights",
+        "Digital-looking glows"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast duotone subject",
+      "Verify horizontal stripe alignment",
+      "Confirm arched display typography",
+      "Ensure cyan header/footer blocks are present"
+    ],
+    "reuseFormula": "Duotone Portrait + Arched Heavy Serif + Horizontal Color Bands + Cyan Framing"
+  }
+}

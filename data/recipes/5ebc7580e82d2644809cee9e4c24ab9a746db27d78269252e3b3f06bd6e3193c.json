@@ -1,0 +1,260 @@
+{
+  "id": "5ebc7580e82d2644809cee9e4c24ab9a746db27d78269252e3b3f06bd6e3193c",
+  "skillId": "5ebc7580e82d2644809cee9e4c24ab9a746db27d78269252e3b3f06bd6e3193c",
+  "versionId": "5ebc7580e82d2644809cee9e4c24ab9a746db27d78269252e3b3f06bd6e3193c",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:57:56.572Z",
+  "approvedAt": "2026-08-12T19:57:56.572Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:57:56.572Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Free Electric Band.jpg",
+    "hash": "5ebc7580e82d2644809cee9e4c24ab9a746db27d78269252e3b3f06bd6e3193c",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Free Electric Band",
+    "artist": "Albert Hammond",
+    "artworkUrl": "https://coverartarchive.org/release-group/37b93335-3191-3721-9a23-435ae26124b5/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/37b93335-3191-3721-9a23-435ae26124b5",
+    "releaseGroupId": "37b93335-3191-3721-9a23-435ae26124b5",
+    "recordingId": "43867714-0b57-4816-b226-343bdacafdd9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The PeacemakerAlbert Hammond",
+      "song": "The Peacemaker",
+      "performer": "Albert Hammond",
+      "peakPosition": 80,
+      "firstChartDate": "1973-09-01",
+      "lastChartDate": "1973-09-22",
+      "appearances": [
+        {
+          "chartDate": "1973-09-01",
+          "position": 86
+        },
+        {
+          "chartDate": "1973-09-08",
+          "position": 80
+        },
+        {
+          "chartDate": "1973-09-15",
+          "position": 80
+        },
+        {
+          "chartDate": "1973-09-22",
+          "position": 88
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage sepia concert halftone 1970s sepia halftone acoustic guitar stage lighting grainy folk rock musician centered behind a large acoustic guitar foreground raised hands framing the head and catching intense light textured dark background contrasting with bright white light flares typography anchored to the top left corner in a flush left block high contrast sepia photography halftone screen geometric sans serif typography top left 1970s folk rock aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Sepia Concert Halftone",
+      "category": "Music Photography",
+      "medium": [
+        "Sepia-toned photography",
+        "Halftone print",
+        "Analog film"
+      ],
+      "useCases": [
+        "Album cover design",
+        "Retro concert posters",
+        "Documentary music photography"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "sepia",
+        "halftone",
+        "acoustic guitar",
+        "stage lighting",
+        "grainy",
+        "folk rock"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, sepia-toned concert photograph featuring a musician with an acoustic guitar under dramatic stage lighting with a visible halftone texture.",
+      "triggerTerms": [
+        "sepia halftone concert photo",
+        "grainy 1970s folk rock album art",
+        "high contrast stage lighting photography"
+      ],
+      "excludeWhen": [
+        "clean modern digital photography",
+        "vibrant color palettes",
+        "minimalist vector art"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A low-key, monochromatic sepia image of a male musician performing with an acoustic guitar. The scene is defined by harsh, directional stage lighting that creates blown-out highlights on the performer's hands and face, while the rest of the frame remains in deep, textured shadow with a prominent mechanical halftone dot pattern.",
+    "coreVisualRelationships": [
+      "Musician centered behind a large acoustic guitar foreground",
+      "Raised hands framing the head and catching intense light",
+      "Textured dark background contrasting with bright white light flares",
+      "Typography anchored to the top-left corner in a flush-left block"
+    ],
+    "coreInvariants": [
+      "Sepia or warm monochromatic color grade",
+      "Visible halftone screen texture across the entire image",
+      "High-contrast lighting with minimal midtone detail",
+      "Grainy, analog film aesthetic"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The musician is the central focus, partially obscured by a large acoustic guitar in the lower-left foreground.",
+      "visualAnchor": "The musician's face and the microphone stand serve as the central vertical anchor.",
+      "movementAndEyePath": "The eye moves from the bright highlights of the raised hands down to the face, then follows the guitar neck across the bottom.",
+      "negativeSpace": "Heavy, dark negative space occupies the upper-right and lower-right quadrants, emphasizing the light sources."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep umber and dark brown shadows",
+      "contrastColorRole": "Creamy white highlights",
+      "accentColorRole": "Mid-tone sepia transitions",
+      "saturationAndValueRelationship": "Low saturation, high value contrast between deep blacks and blown-out whites.",
+      "paletteRestrictions": [
+        "No primary colors",
+        "No cool tones",
+        "Strictly monochromatic warm scale"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Open counters",
+        "Tight letter spacing",
+        "Clean, unadorned terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'a' with a double-story structure",
+        "Tall x-height relative to ascenders"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light to Regular",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Circular",
+            "strokeCharacter": "Clean"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked short lines",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Top-left corner",
+            "scale": "Small to medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in dark negative space"
+          },
+          "treatment": {
+            "fill": "Off-white / Cream",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Slightly distressed to match halftone",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used for all text elements to maintain a clean, modernist contrast against the gritty photo.",
+      "graphicDevices": [
+        "Halftone screen overlay",
+        "Film grain",
+        "Light leak/flare effects"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Left-aligned block",
+          "Geometric sans-serif skeleton",
+          "Tight leading"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Matches the geometric 1970s aesthetic and tight tracking.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Provides the clean, monolinear geometric look.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast sepia concert photo of a musician with an acoustic guitar, featuring dramatic stage lighting, blown-out highlights on raised hands, and a heavy halftone dot texture.",
+        "overlayInstruction": "Add a left-aligned block of geometric sans-serif text in the top-left corner using an off-white color with tight line spacing."
+      },
+      "verificationChecks": [
+        "Is the halftone texture visible?",
+        "Is the color palette strictly warm sepia/brown?",
+        "Is the text left-aligned in the top-left corner?",
+        "Are the highlights on the hands sufficiently bright?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of halftone dots",
+      "Warmth of the sepia tone",
+      "Amount of highlight bloom",
+      "Position of the musician"
+    ],
+    "mustRedesign": [
+      "Avoid modern digital sharpness",
+      "Do not use vibrant colors",
+      "Ensure text does not overlap the main subject's face"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s print feel",
+        "Strong tonal contrast",
+        "Consistent halftone pattern"
+      ],
+      "avoid": [
+        "Smooth gradients",
+        "Modern sans-serifs like Helvetica",
+        "Digital noise instead of film grain"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for halftone consistency across dark and light areas",
+      "Verify the sepia tone is not too orange or yellow",
+      "Ensure the guitar is a prominent foreground element",
+      "Confirm the text is legible but secondary to the image"
+    ],
+    "reuseFormula": "High-contrast sepia photography + Halftone screen + Geometric Sans-Serif typography (top-left) = 1970s Folk-Rock Aesthetic."
+  }
+}

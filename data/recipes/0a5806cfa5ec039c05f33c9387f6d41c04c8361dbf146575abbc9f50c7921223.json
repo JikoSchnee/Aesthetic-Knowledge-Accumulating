@@ -1,0 +1,248 @@
+{
+  "id": "0a5806cfa5ec039c05f33c9387f6d41c04c8361dbf146575abbc9f50c7921223",
+  "skillId": "0a5806cfa5ec039c05f33c9387f6d41c04c8361dbf146575abbc9f50c7921223",
+  "versionId": "0a5806cfa5ec039c05f33c9387f6d41c04c8361dbf146575abbc9f50c7921223",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:59:21.893Z",
+  "approvedAt": "2026-08-13T04:59:21.893Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:59:21.893Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Strong.jpg",
+    "hash": "0a5806cfa5ec039c05f33c9387f6d41c04c8361dbf146575abbc9f50c7921223",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Strong",
+    "artist": "Tyler Hubbard",
+    "artworkUrl": "https://coverartarchive.org/release-group/14be27a7-31d3-4ac9-9e0d-ecff8845b89f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/14be27a7-31d3-4ac9-9e0d-ecff8845b89f",
+    "releaseGroupId": "14be27a7-31d3-4ac9-9e0d-ecff8845b89f",
+    "recordingId": "67cd69f2-8575-41d9-93fc-494f6f49b056",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "ParkTyler Hubbard",
+      "song": "Park",
+      "performer": "Tyler Hubbard",
+      "peakPosition": 84,
+      "firstChartDate": "2025-08-09",
+      "lastChartDate": "2025-08-16",
+      "appearances": [
+        {
+          "chartDate": "2025-08-09",
+          "position": 84
+        },
+        {
+          "chartDate": "2025-08-16",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "solar flare portrait with distressed sans serif warm gradient lens flare distressed typography halftone pattern vertical text red and yellow light leak bisecting the subject s face diagonally high contrast warm color gradient red to yellow textured halftone patterns within the white typography subject s gaze directed at the viewer through the flare portrait diagonal yellow flare red gradient wash distressed wide sans serif frame",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Solar Flare Portrait with Distressed Sans-Serif",
+      "category": "Album Art",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design",
+        "Halftone Texturing"
+      ],
+      "useCases": [
+        "Contemporary Country Music Album Covers",
+        "Artist Promotional Posters",
+        "High-Energy Portraiture"
+      ],
+      "retrievalTags": [
+        "warm gradient",
+        "lens flare",
+        "distressed typography",
+        "halftone pattern",
+        "vertical text",
+        "red and yellow"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast portrait bathed in a fiery red-to-yellow gradient with heavy lens flare and vertically stacked, distressed block typography.",
+      "triggerTerms": [
+        "solar flare portrait",
+        "warm gradient album art",
+        "distressed vertical sans-serif",
+        "halftone texture overlay"
+      ],
+      "excludeWhen": [
+        "cool color palettes are required",
+        "minimalist clean typography is needed",
+        "landscape orientation is primary"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered male portrait obscured by a powerful diagonal yellow light leak, set against a deep red background. The composition is framed by large, white, distressed sans-serif text running vertically on the left and horizontally at the bottom right.",
+    "coreVisualRelationships": [
+      "Light leak bisecting the subject's face diagonally",
+      "High-contrast warm color gradient (Red to Yellow)",
+      "Textured halftone patterns within the white typography",
+      "Subject's gaze directed at the viewer through the flare"
+    ],
+    "coreInvariants": [
+      "Warm monochromatic-adjacent palette (Red/Orange/Yellow)",
+      "Distressed/weathered texture on all text elements",
+      "Strong diagonal light source from the right"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium close-up portrait, centered horizontally, occupying the middle two-thirds of the frame.",
+      "visualAnchor": "The bright yellow light flare on the right side of the subject's face.",
+      "movementAndEyePath": "Starts at the bright flare, moves left to the vertical text, then down to the horizontal text at the bottom.",
+      "negativeSpace": "Minimal; filled with color gradients and light artifacts."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Red (Background and shadows)",
+      "contrastColorRole": "Bright Yellow (Light flare and highlights)",
+      "accentColorRole": "White (Typography)",
+      "saturationAndValueRelationship": "High saturation throughout with extreme value contrast between the deep red shadows and blown-out yellow highlights.",
+      "paletteRestrictions": [
+        "No cool tones (blues/greens)",
+        "No solid black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy, wide, geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Square terminals",
+        "Wide proportions",
+        "Heavy distressing/weathering"
+      ],
+      "characterSpecificRedesigns": [
+        "Halftone dot pattern applied as a mask to the fill",
+        "Rough, eroded edges"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "vertical stack",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "left edge",
+            "scale": "large",
+            "rotation": "270 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "framing element"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "halftone and erosion",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used in two orientations (vertical and horizontal) to create a frame.",
+      "graphicDevices": [
+        "Halftone screen overlay",
+        "Diagonal lens flare",
+        "Color wash"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Heavy weight",
+          "Wide width",
+          "Distressed texture"
+        ],
+        "avoid": [
+          "Serifs",
+          "Thin weights",
+          "Clean edges"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Provides the necessary weight and vertical presence.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Microgramma or Eurostile Bold Extended",
+            "reason": "Matches the wide geometric structure of the horizontal text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man with medium-length hair, lit by a powerful diagonal yellow lens flare coming from the right. Apply a deep red to orange gradient wash over the entire image. The right side should be nearly blown out with yellow light.",
+        "overlayInstruction": "Add large, heavy, wide sans-serif text. One string should run vertically along the left edge, rotated 90 degrees counter-clockwise. A second string should be placed horizontally at the bottom right. Apply a white halftone texture and distressed erosion effect to all text."
+      },
+      "verificationChecks": [
+        "Is the text heavily distressed with a halftone pattern?",
+        "Is there a strong diagonal yellow light leak?",
+        "Is the color palette strictly warm (red/orange/yellow)?",
+        "Is the vertical text oriented correctly along the left edge?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the lens flare",
+      "Amount of text distressing",
+      "Portrait subject",
+      "Specific red-to-yellow gradient balance"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Unique brand logos",
+      "Specific facial features of the original subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-energy warm color palette",
+        "Bold, readable but weathered typography",
+        "Dramatic lighting"
+      ],
+      "avoid": [
+        "Low-contrast lighting",
+        "Clean, digital-looking text",
+        "Cool color temperatures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Verify text is uppercase and wide-bodied",
+      "Ensure the halftone texture is visible in the white areas",
+      "Check that the light flare interacts with the subject's face",
+      "Confirm the vertical text is rotated 270 degrees"
+    ],
+    "reuseFormula": "Portrait + Diagonal Yellow Flare + Red Gradient Wash + Distressed Wide Sans-Serif Frame"
+  }
+}

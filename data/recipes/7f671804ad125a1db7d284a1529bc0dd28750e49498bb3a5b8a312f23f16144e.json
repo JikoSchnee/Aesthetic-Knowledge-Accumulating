@@ -1,0 +1,296 @@
+{
+  "id": "7f671804ad125a1db7d284a1529bc0dd28750e49498bb3a5b8a312f23f16144e",
+  "skillId": "7f671804ad125a1db7d284a1529bc0dd28750e49498bb3a5b8a312f23f16144e",
+  "versionId": "7f671804ad125a1db7d284a1529bc0dd28750e49498bb3a5b8a312f23f16144e",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:44:03.296Z",
+  "approvedAt": "2026-08-12T05:44:03.296Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:44:03.296Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Evangeline.jpg",
+    "hash": "7f671804ad125a1db7d284a1529bc0dd28750e49498bb3a5b8a312f23f16144e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Evangeline",
+    "artist": "Emmylou Harris",
+    "artworkUrl": "https://coverartarchive.org/release-group/4d666e91-af9c-3528-86b3-4da33982245f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/4d666e91-af9c-3528-86b3-4da33982245f",
+    "releaseGroupId": "4d666e91-af9c-3528-86b3-4da33982245f",
+    "recordingId": "257e3c67-dc5a-4f91-af7f-fca7daae3692",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Mister SandmanEmmylou Harris",
+      "song": "Mister Sandman",
+      "performer": "Emmylou Harris",
+      "peakPosition": 37,
+      "firstChartDate": "1981-02-28",
+      "lastChartDate": "1981-05-23",
+      "appearances": [
+        {
+          "chartDate": "1981-02-28",
+          "position": 83
+        },
+        {
+          "chartDate": "1981-03-07",
+          "position": 73
+        },
+        {
+          "chartDate": "1981-03-14",
+          "position": 63
+        },
+        {
+          "chartDate": "1981-03-21",
+          "position": 54
+        },
+        {
+          "chartDate": "1981-03-28",
+          "position": 44
+        },
+        {
+          "chartDate": "1981-04-04",
+          "position": 42
+        },
+        {
+          "chartDate": "1981-04-11",
+          "position": 39
+        },
+        {
+          "chartDate": "1981-04-18",
+          "position": 38
+        },
+        {
+          "chartDate": "1981-04-25",
+          "position": 37
+        },
+        {
+          "chartDate": "1981-05-02",
+          "position": 49
+        },
+        {
+          "chartDate": "1981-05-09",
+          "position": 52
+        },
+        {
+          "chartDate": "1981-05-16",
+          "position": 75
+        },
+        {
+          "chartDate": "1981-05-23",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "folk revival portraiture folk 1980s floral dress fringed boots studio backdrop geometric layout soft lighting subject centered vertically and horizontally muted blue background contrasting with warm floral patterns typography aligned to the top left and top right margins thin dark border defining the square format soft even studio lighting with minimal floor shadows studio portrait muted backdrop corner justified wide tracked sans serif",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Folk-Revival Portraiture",
+      "category": "Album Cover Art",
+      "medium": [
+        "Photography",
+        "Studio Portrait"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Editorial fashion spreads",
+        "Vintage-inspired posters"
+      ],
+      "retrievalTags": [
+        "folk",
+        "1980s",
+        "floral dress",
+        "fringed boots",
+        "studio backdrop",
+        "geometric layout",
+        "soft lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A full-body studio portrait featuring a central subject in a dynamic pose against a solid, muted backdrop with wide-tracked sans-serif typography at the top corners.",
+      "triggerTerms": [
+        "folk revival aesthetic",
+        "floral dress studio portrait",
+        "wide-tracked sans-serif header",
+        "muted blue backdrop"
+      ],
+      "excludeWhen": [
+        "busy outdoor backgrounds are required",
+        "high-contrast dramatic shadows are needed",
+        "maximalist typography is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A full-length portrait of a woman in a floral black dress and fringed boots, positioned centrally against a flat, desaturated blue studio wall. The subject's pose is mid-action, adjusting a sheer sleeve, creating a sense of candid movement within a formal studio setting. The composition is framed by a thin dark border and anchored by minimalist text in the upper corners.",
+    "coreVisualRelationships": [
+      "Subject centered vertically and horizontally",
+      "Muted blue background contrasting with warm floral patterns",
+      "Typography aligned to the top-left and top-right margins",
+      "Thin dark border defining the square format",
+      "Soft, even studio lighting with minimal floor shadows"
+    ],
+    "coreInvariants": [
+      "Solid color studio backdrop",
+      "Full-body framing",
+      "Wide letter spacing in headers",
+      "Square aspect ratio"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body subject centered, occupying approximately 70% of the vertical height.",
+      "visualAnchor": "The subject's face and the reaching arm create a focal point in the upper-middle third.",
+      "movementAndEyePath": "Eyes start at the top-left text, move down the subject's body to the boots, and follow the reaching arm back up to the top-right text.",
+      "negativeSpace": "Ample negative space on both sides of the subject, emphasizing the silhouette."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted steel blue (background and floor)",
+      "contrastColorRole": "Deep black (dress base)",
+      "accentColorRole": "Dusty rose and sage green (floral patterns)",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the black dress and the light boots/sleeves.",
+      "paletteRestrictions": [
+        "No neon colors",
+        "No high-chroma primaries"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric sans-serif",
+      "letterConstructionRules": [
+        "Monolinear stroke weight",
+        "Open counters",
+        "High horizontal-to-vertical ratio",
+        "No serifs"
+      ],
+      "characterSpecificRedesigns": [
+        "Wide-set 'V' and 'A' characters",
+        "Circular 'O' and 'G'"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light to Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified to corners",
+            "tracking": "Very wide (approx 300-500 units)",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top corners",
+            "scale": "Small relative to frame",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Pale pink or white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for both corner elements to maintain symmetry.",
+      "graphicDevices": [
+        "Thin dark inner border",
+        "Symmetrical corner placement"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide tracking",
+          "Uppercase",
+          "Geometric skeleton"
+        ],
+        "avoid": [
+          "Serifs",
+          "Condensed fonts",
+          "Bold weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Matches the geometric purity and 1970s/80s aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Captures the era-appropriate circular forms and clean lines.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a full-body studio portrait of a woman in a black floral midi-dress and cream fringed boots against a solid muted blue backdrop. Use soft, even lighting and a square frame with a thin dark border.",
+        "overlayInstruction": "Add uppercase geometric sans-serif text in the top-left and top-right corners. Use very wide tracking and a light weight in a pale pink color."
+      },
+      "verificationChecks": [
+        "Is the text justified to the top corners?",
+        "Is the tracking wide enough to feel airy?",
+        "Is the background a single muted color?",
+        "Is the subject's entire body visible?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Backdrop color",
+      "Dress floral pattern",
+      "Text color",
+      "Subject pose"
+    ],
+    "mustRedesign": [
+      "Do not use the specific name of the artist or album",
+      "Do not replicate the exact floral pattern of the dress"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, symmetrical layout",
+        "Soft studio lighting",
+        "Balanced negative space"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Heavy shadows",
+        "Tight letter spacing"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for square aspect ratio",
+      "Ensure thin border is present",
+      "Verify text is uppercase and wide-tracked",
+      "Confirm subject is centered"
+    ],
+    "reuseFormula": "Studio Portrait + Muted Backdrop + Corner-Justified Wide-Tracked Sans-Serif"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:37.003Z"
+}

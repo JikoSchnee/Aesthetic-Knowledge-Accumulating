@@ -1,0 +1,291 @@
+{
+  "id": "8d087a73641a46d0005b503eda0c8cb4da25ad1a2b26a652541454d2459709d4",
+  "skillId": "8d087a73641a46d0005b503eda0c8cb4da25ad1a2b26a652541454d2459709d4",
+  "versionId": "8d087a73641a46d0005b503eda0c8cb4da25ad1a2b26a652541454d2459709d4",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T20:02:27.418Z",
+  "approvedAt": "2026-08-12T20:02:27.418Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T20:02:27.418Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Magazine.jpg",
+    "hash": "8d087a73641a46d0005b503eda0c8cb4da25ad1a2b26a652541454d2459709d4",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Magazine",
+    "artist": "Rickie Lee Jones",
+    "artworkUrl": "https://coverartarchive.org/release-group/e7505eac-18f0-3db2-9dbc-579dc07f030c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e7505eac-18f0-3db2-9dbc-579dc07f030c",
+    "releaseGroupId": "e7505eac-18f0-3db2-9dbc-579dc07f030c",
+    "recordingId": "70e60695-383b-4865-9f40-4712165737a7",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Real EndRickie Lee Jones",
+      "song": "The Real End",
+      "performer": "Rickie Lee Jones",
+      "peakPosition": 83,
+      "firstChartDate": "1984-09-29",
+      "lastChartDate": "1984-10-20",
+      "appearances": [
+        {
+          "chartDate": "1984-09-29",
+          "position": 87
+        },
+        {
+          "chartDate": "1984-10-06",
+          "position": 83
+        },
+        {
+          "chartDate": "1984-10-13",
+          "position": 83
+        },
+        {
+          "chartDate": "1984-10-20",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome portrait with geometric color accents monochrome portrait wide tracking typography color block overlay 80s minimalist chiaroscuro photography contrast between the organic textures of the monochrome portrait and the sharp geometric frame hierarchy established by the wide tracked header versus the small dense subtitle block visual tension created by the asymmetrical placement of the blue rectangular tag balance between the dark shadows of the subject and the solid black outer border monochrome portrait thick black frame wide tracked sans header asymmetrical color block subtitle",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Portrait with Geometric Color Accents",
+      "category": "Graphic Design / Album Art",
+      "medium": [
+        "Black and white photography",
+        "Digital layout",
+        "Color blocking"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Editorial portraiture",
+        "Minimalist book jackets"
+      ],
+      "retrievalTags": [
+        "monochrome portrait",
+        "wide tracking typography",
+        "color block overlay",
+        "80s minimalist",
+        "chiaroscuro photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered black-and-white portrait framed by a thick black border with wide-tracked sans-serif headers and small, vibrant geometric color blocks.",
+      "triggerTerms": [
+        "wide-tracked minimalist header",
+        "monochrome portrait with blue accents",
+        "framed black and white photography layout"
+      ],
+      "excludeWhen": [
+        "vibrant full-color photography is required",
+        "complex illustrative backgrounds are needed",
+        "handwritten or script typography is preferred"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast black and white portrait of a subject with soft lighting, encased in a heavy black square frame. The layout features extremely wide-tracked sans-serif text at the top and a small, rectangular blue color block containing serif text positioned asymmetrically on the right.",
+    "coreVisualRelationships": [
+      "Contrast between the organic textures of the monochrome portrait and the sharp geometric frame",
+      "Hierarchy established by the wide-tracked header versus the small, dense subtitle block",
+      "Visual tension created by the asymmetrical placement of the blue rectangular tag",
+      "Balance between the dark shadows of the subject and the solid black outer border"
+    ],
+    "coreInvariants": [
+      "Heavy black outer border framing the central image",
+      "Wide letter-spacing in the primary display text",
+      "High-contrast black and white photography style",
+      "Solid blue rectangular accent block"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centered, occupying approximately 70% of the frame, shown from the chest up.",
+      "visualAnchor": "The subject's eyes and the bright blue accent block on the right.",
+      "movementAndEyePath": "Eyes start at the wide-tracked top text, move down to the subject's face, and settle on the blue accent block.",
+      "negativeSpace": "Substantial negative space provided by the thick black border and the dark background behind the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black and white (photography and frame)",
+      "contrastColorRole": "Deep blue (accent block and specific letters)",
+      "accentColorRole": "Pale cyan (small corner block)",
+      "saturationAndValueRelationship": "High value contrast in the portrait; high saturation in the small geometric accents.",
+      "paletteRestrictions": [
+        "Strictly monochrome for the image",
+        "Limited to two distinct shades of blue for accents"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric sans-serif and classic transitional serif",
+      "letterConstructionRules": [
+        "Primary header uses uniform stroke weight sans-serif",
+        "Secondary text uses high-contrast serif with bracketed terminals",
+        "Extreme tracking (letter-spacing) applied to the header"
+      ],
+      "characterSpecificRedesigns": [
+        "Initial letters of words in the header are color-coded to match the accent blocks"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "500-800 units",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "very low"
+          },
+          "composition": {
+            "position": "top center within border",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by border"
+          },
+          "treatment": {
+            "fill": "white with blue initials",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "transitional serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "regular",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "bracketed",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "modulated"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "high"
+          },
+          "composition": {
+            "position": "right-aligned, overlapping image edge",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "on top of image",
+            "relationshipToImage": "contained within blue rectangle"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a wide-tracked modern sans-serif with a traditional, tightly-set serif.",
+      "graphicDevices": [
+        "Solid color rectangular overlays",
+        "Thick framing border"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extreme tracking",
+          "Color-coded initials",
+          "The rectangular blue tag"
+        ],
+        "avoid": [
+          "Heavy shadows on text",
+          "Script fonts",
+          "Distorting the aspect ratio of the frame"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura or Gill Sans",
+            "reason": "Clean geometric skeletons suitable for wide tracking in the header.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Times New Roman or Caslon",
+            "reason": "Classic serif feel for the small accent block text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white studio portrait of a person with soft hair texture, centered within a thick solid black square frame. Include a small cyan square in the bottom left corner and a medium blue rectangle on the right edge overlapping the image.",
+        "overlayInstruction": "Add the primary name in a wide-tracked white sans-serif at the top, making the first letter of each word blue. Add the title in a small white serif font inside the blue rectangle on the right."
+      },
+      "verificationChecks": [
+        "Is the header tracking extremely wide?",
+        "Are the first letters of the header words blue?",
+        "Is the portrait strictly monochrome?",
+        "Does the blue rectangle overlap the image edge?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Width of the black border",
+      "Color of the accent blocks",
+      "Tracking distance of the header"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Any identifiable brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean geometric lines",
+        "High-contrast photographic range",
+        "Balanced asymmetrical accents"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-resolution textures",
+        "Tight letter-spacing in the header"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for consistent monolinear stroke in the header font",
+      "Ensure the blue rectangle has a sharp, clean edge",
+      "Verify the image-to-border ratio remains approximately 4:1",
+      "Confirm the cyan block is present in the bottom left"
+    ],
+    "reuseFormula": "Monochrome Portrait + Thick Black Frame + Wide-Tracked Sans Header + Asymmetrical Color Block Subtitle"
+  }
+}

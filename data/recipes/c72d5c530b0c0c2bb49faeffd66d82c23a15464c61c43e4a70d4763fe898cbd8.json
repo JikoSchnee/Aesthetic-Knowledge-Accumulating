@@ -1,0 +1,288 @@
+{
+  "id": "c72d5c530b0c0c2bb49faeffd66d82c23a15464c61c43e4a70d4763fe898cbd8",
+  "skillId": "c72d5c530b0c0c2bb49faeffd66d82c23a15464c61c43e4a70d4763fe898cbd8",
+  "versionId": "c72d5c530b0c0c2bb49faeffd66d82c23a15464c61c43e4a70d4763fe898cbd8",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:19:54.611Z",
+  "approvedAt": "2026-08-12T17:19:54.611Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:19:54.611Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Simply Streisand.jpg",
+    "hash": "c72d5c530b0c0c2bb49faeffd66d82c23a15464c61c43e4a70d4763fe898cbd8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Simply Streisand",
+    "artist": "Barbra Streisand",
+    "artworkUrl": "https://coverartarchive.org/release-group/59ed7229-f80b-378c-aa4a-af0d181bd74d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/59ed7229-f80b-378c-aa4a-af0d181bd74d",
+    "releaseGroupId": "59ed7229-f80b-378c-aa4a-af0d181bd74d",
+    "recordingId": "e7351592-d3a6-47a9-b9f5-9dfdf632b94f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Stout-Hearted MenBarbra Streisand",
+      "song": "Stout-Hearted Men",
+      "performer": "Barbra Streisand",
+      "peakPosition": 92,
+      "firstChartDate": "1967-08-26",
+      "lastChartDate": "1967-09-02",
+      "appearances": [
+        {
+          "chartDate": "1967-08-26",
+          "position": 92
+        },
+        {
+          "chartDate": "1967-09-02",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century vocalist studio portrait mid century studio portrait high key serif typography minimalist vocalist 1960s subject s head acts as a vertical divider between two main text blocks high key lighting minimizes background detail to emphasize silhouette muted color palette of the clothing coordinates with the neutral studio backdrop text alignment follows the horizontal eye line of the subject centered subject flanking wide tracked serif neutral high key studio mid century vocalist aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Vocalist Studio Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Retro album covers",
+        "Vintage editorial portraits",
+        "1960s minimalist branding"
+      ],
+      "retrievalTags": [
+        "mid-century",
+        "studio portrait",
+        "high-key",
+        "serif typography",
+        "minimalist",
+        "vocalist",
+        "1960s"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A clean, high-key studio portrait featuring a centered subject with elegant, wide-tracked serif typography flanking the head.",
+      "triggerTerms": [
+        "1960s studio portrait style",
+        "minimalist album cover layout",
+        "high-key vintage photography"
+      ],
+      "excludeWhen": [
+        "busy backgrounds are required",
+        "modern sans-serif aesthetics are requested",
+        "high-contrast dramatic lighting is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, three-quarter profile portrait of a woman sitting on a stool against a neutral, desaturated background. The composition is balanced by large-scale, widely spaced serif text on either side of the subject's head, creating a symmetrical typographic header.",
+    "coreVisualRelationships": [
+      "Subject's head acts as a vertical divider between two main text blocks",
+      "High-key lighting minimizes background detail to emphasize silhouette",
+      "Muted color palette of the clothing coordinates with the neutral studio backdrop",
+      "Text alignment follows the horizontal eye-line of the subject"
+    ],
+    "coreInvariants": [
+      "Neutral, flat-lit studio background",
+      "Centered subject placement",
+      "Wide tracking in display typography",
+      "Desaturated color grading"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centrally located, seated on a stool, occupying the lower two-thirds of the frame vertically.",
+      "visualAnchor": "The subject's face and eyes, positioned at the top-center of the visual weight.",
+      "movementAndEyePath": "Starts at the face, moves outward to the flanking text, then down the silhouette of the body to the stool.",
+      "negativeSpace": "Ample negative space in the upper corners and around the subject to create a sense of 'simplicity'."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm grey/beige background and skin tones",
+      "contrastColorRole": "Deep charcoal/black for the lower half of the subject's clothing",
+      "accentColorRole": "Soft white/light blue for the upper garment",
+      "saturationAndValueRelationship": "Low saturation throughout with a high-value background and high-contrast dark base.",
+      "paletteRestrictions": [
+        "No vibrant primaries",
+        "No neon colors",
+        "Limited to earth tones and desaturated blues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional serif",
+      "letterConstructionRules": [
+        "Ball terminals on lowercase letters",
+        "Vertical stress in the bowls",
+        "Sharp, fine serifs",
+        "Extreme letter spacing (tracking)"
+      ],
+      "characterSpecificRedesigns": [
+        "Italicized display text for a sense of motion and elegance"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light to Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Ball",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Centered relative to their respective sides",
+            "tracking": "Very wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single word or short phrase",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Flanking the subject's head at the top",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Integrated into the negative space"
+          },
+          "treatment": {
+            "fill": "Dark grey or muted brown",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Light",
+            "contrast": "Medium",
+            "xHeight": "Small",
+            "terminals": "Sharp",
+            "corners": "Sharp",
+            "counters": "Small",
+            "strokeCharacter": "Thin"
+          },
+          "typesetting": {
+            "case": "Title case",
+            "alignment": "Right-aligned",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "List format",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Right side, mid-height",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Muted grey",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Matching serif families with varied weights and tracking for hierarchy.",
+      "graphicDevices": [
+        "Minimalist furniture (wooden stool)",
+        "Subtle vignette"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High-contrast serif style",
+          "Wide tracking",
+          "Sentence case"
+        ],
+        "avoid": [
+          "Sans-serif",
+          "Bold weights",
+          "Tight tracking"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Baskerville Italic",
+            "reason": "Classic transitional serif with elegant curves and high contrast.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Caslon Italic",
+            "reason": "Provides the necessary 1960s editorial feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key studio portrait of a woman in 1960s attire, seated on a wooden stool against a flat, neutral grey-beige background. Ensure the top third of the image has ample empty space flanking her head.",
+        "overlayInstruction": "Apply large, widely-tracked serif text in an italic style on either side of the subject's head. Add a right-aligned list of smaller text in the middle-right negative space."
+      },
+      "verificationChecks": [
+        "Is the text widely tracked?",
+        "Is the background neutral and uncluttered?",
+        "Is the subject centered?",
+        "Is the lighting soft and high-key?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's pose",
+      "Specific serif font choice",
+      "Background tint (warm vs cool)",
+      "Amount of tracking in the display text"
+    ],
+    "mustRedesign": [
+      "Avoid any modern digital filters",
+      "Ensure the stool looks period-accurate (mid-century)",
+      "Maintain the specific 'split' header layout"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, balanced symmetry",
+        "Legible but airy typography",
+        "Soft, professional studio lighting"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Heavy shadows",
+        "Modern sans-serif fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Text does not overlap the subject's face",
+      "Color palette remains desaturated and cohesive",
+      "Typography feels integrated into the space rather than pasted on",
+      "The overall mood is calm and sophisticated"
+    ],
+    "reuseFormula": "Centered Subject + Flanking Wide-Tracked Serif + Neutral High-Key Studio = Mid-Century Vocalist Aesthetic"
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "id": "11b5a5dde6cfdb9201c8a1802764b9a62d22c83e230627be0af173197d2e7779",
+  "skillId": "11b5a5dde6cfdb9201c8a1802764b9a62d22c83e230627be0af173197d2e7779",
+  "versionId": "11b5a5dde6cfdb9201c8a1802764b9a62d22c83e230627be0af173197d2e7779",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:49:41.696Z",
+  "approvedAt": "2026-08-12T17:49:41.696Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:49:41.696Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Fireflies.jpg",
+    "hash": "11b5a5dde6cfdb9201c8a1802764b9a62d22c83e230627be0af173197d2e7779",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Fireflies",
+    "artist": "Faith Hill",
+    "artworkUrl": "https://coverartarchive.org/release-group/8f734d8d-289b-337d-8901-bc52de3a607e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8f734d8d-289b-337d-8901-bc52de3a607e",
+    "releaseGroupId": "8f734d8d-289b-337d-8901-bc52de3a607e",
+    "recordingId": "8dc1c20a-ec9d-43d5-9fb1-27a32b0ca9bb",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sunshine And SummertimeFaith Hill",
+      "song": "Sunshine And Summertime",
+      "performer": "Faith Hill",
+      "peakPosition": 70,
+      "firstChartDate": "2006-07-29",
+      "lastChartDate": "2006-09-30",
+      "appearances": [
+        {
+          "chartDate": "2006-07-29",
+          "position": 95
+        },
+        {
+          "chartDate": "2006-08-05",
+          "position": 87
+        },
+        {
+          "chartDate": "2006-08-12",
+          "position": 82
+        },
+        {
+          "chartDate": "2006-08-19",
+          "position": 78
+        },
+        {
+          "chartDate": "2006-08-26",
+          "position": 73
+        },
+        {
+          "chartDate": "2006-09-02",
+          "position": 73
+        },
+        {
+          "chartDate": "2006-09-09",
+          "position": 70
+        },
+        {
+          "chartDate": "2006-09-16",
+          "position": 75
+        },
+        {
+          "chartDate": "2006-09-23",
+          "position": 79
+        },
+        {
+          "chartDate": "2006-09-30",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "warm glow portrait with wide sans serif typography warm lens flare wide sans serif golden hour lighting soft focus hair over the shoulder portrait the lens flare acts as a bridge between the subject and the text the wide tracking of the text balances the large scale of the portrait warm highlights in the hair harmonize with the golden hue of the lettering high key portrait golden lens flare wide geometric sans serif ethereal pop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Warm Glow Portrait with Wide Sans-Serif Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Promotional Portraiture",
+        "Editorial Beauty Layout"
+      ],
+      "retrievalTags": [
+        "warm lens flare",
+        "wide sans-serif",
+        "golden hour lighting",
+        "soft focus hair",
+        "over-the-shoulder portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-key over-the-shoulder portrait featuring a warm, golden lens flare that interacts with wide-tracked, geometric sans-serif display text.",
+      "triggerTerms": [
+        "golden lens flare portrait",
+        "wide geometric sans-serif overlay",
+        "warm high-key beauty shot"
+      ],
+      "excludeWhen": [
+        "dark or moody lighting is required",
+        "serif typography is requested",
+        "full body shots are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up portrait of a woman looking back over her shoulder, characterized by a dominant warm light source creating a soft-focus glow and lens flare that partially obscures the subject's hair and integrates with the typography.",
+    "coreVisualRelationships": [
+      "The lens flare acts as a bridge between the subject and the text.",
+      "The wide tracking of the text balances the large scale of the portrait.",
+      "Warm highlights in the hair harmonize with the golden hue of the lettering."
+    ],
+    "coreInvariants": [
+      "High-key lighting with a warm, golden color temperature.",
+      "Over-the-shoulder composition with the subject looking toward the viewer.",
+      "Wide-tracked, all-caps geometric sans-serif typography."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject occupies the right two-thirds of the frame in a close-up scale.",
+      "visualAnchor": "The subject's eyes and the bright lens flare in the center-left.",
+      "movementAndEyePath": "From the subject's eyes, down the curve of the hair to the text on the left, then back through the lens flare.",
+      "negativeSpace": "Minimal, primarily located in the upper left corner and around the text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm white and cream (background and highlights)",
+      "contrastColorRole": "Deep brown and bronze (hair shadows and text)",
+      "accentColorRole": "Golden yellow (lens flare)",
+      "saturationAndValueRelationship": "High value with low to moderate saturation, creating a soft, ethereal feel.",
+      "paletteRestrictions": [
+        "Avoid cool blues or greens",
+        "Maintain a warm, monochromatic-adjacent range of golds and browns"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Wide proportions",
+        "Open counters",
+        "Flat terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "n/a (all caps)",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "large",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "very wide",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "middle left",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "partially obscured by light flare",
+            "relationshipToImage": "integrated via lighting effects"
+          },
+          "treatment": {
+            "fill": "bronze gradient",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "subtle metallic sheen",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single family with varying weights or sizes for hierarchy.",
+      "graphicDevices": [
+        "Lens flare overlay",
+        "Soft focus edges"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide tracking",
+          "Geometric skeleton",
+          "All-caps format"
+        ],
+        "avoid": [
+          "Condensed fonts",
+          "Serif fonts",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Copperplate Gothic (Sans version)",
+            "reason": "Matches the wide, sturdy geometric feel.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Gotham Wide",
+            "reason": "Provides the modern geometric clarity and width.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bank Gothic",
+            "reason": "Captures the square-ish, wide proportions.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key portrait of a woman with long wavy hair looking over her shoulder. Apply a strong golden lens flare from the left side that softens the hair texture.",
+        "overlayInstruction": "Add two lines of all-caps, wide-tracked geometric sans-serif text on the left side. The text should have a bronze color and appear slightly behind the brightest part of the lens flare."
+      },
+      "verificationChecks": [
+        "Is the text tracking sufficiently wide?",
+        "Does the lens flare interact with the text and hair?",
+        "Is the color palette consistently warm?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of lens flare",
+      "Tracking width of typography",
+      "Subject's hair color (within warm range)"
+    ],
+    "mustRedesign": [
+      "Any cool-toned lighting",
+      "Tight letter spacing",
+      "Centered text alignment"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, ethereal lighting quality",
+        "Clean, legible but widely spaced typography",
+        "Seamless integration of light effects"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Cluttered backgrounds",
+        "Default font tracking"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the lens flare does not make the text illegible.",
+      "Ensure the subject's gaze is directed toward the viewer.",
+      "Verify the monolinear stroke weight of the font.",
+      "Confirm the high-key exposure levels."
+    ],
+    "reuseFormula": "High-key portrait + Golden Lens Flare + Wide Geometric Sans-Serif = Ethereal Pop Aesthetic"
+  }
+}

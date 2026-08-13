@@ -1,0 +1,270 @@
+{
+  "id": "0cb1909c5546c8c5288211a9b27c7c39f51f64a05b8c3d91ab0d5dc2c29c9de5",
+  "skillId": "0cb1909c5546c8c5288211a9b27c7c39f51f64a05b8c3d91ab0d5dc2c29c9de5",
+  "versionId": "0cb1909c5546c8c5288211a9b27c7c39f51f64a05b8c3d91ab0d5dc2c29c9de5",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:22:50.633Z",
+  "approvedAt": "2026-08-12T19:22:50.633Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:22:50.633Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Servin’ Up Some Soul.jpg",
+    "hash": "0cb1909c5546c8c5288211a9b27c7c39f51f64a05b8c3d91ab0d5dc2c29c9de5",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Servin’ Up Some Soul",
+    "artist": "Mary Wells",
+    "artworkUrl": "https://coverartarchive.org/release-group/88b59cf4-9f7b-4c34-98a2-6df1a42a3997/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/88b59cf4-9f7b-4c34-98a2-6df1a42a3997",
+    "releaseGroupId": "88b59cf4-9f7b-4c34-98a2-6df1a42a3997",
+    "recordingId": "446fdbb0-1275-4153-86f0-baf2e6e999e3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The DoctorMary Wells",
+      "song": "The Doctor",
+      "performer": "Mary Wells",
+      "peakPosition": 65,
+      "firstChartDate": "1968-05-18",
+      "lastChartDate": "1968-07-06",
+      "appearances": [
+        {
+          "chartDate": "1968-05-18",
+          "position": 100
+        },
+        {
+          "chartDate": "1968-05-25",
+          "position": 83
+        },
+        {
+          "chartDate": "1968-06-01",
+          "position": 70
+        },
+        {
+          "chartDate": "1968-06-08",
+          "position": 70
+        },
+        {
+          "chartDate": "1968-06-15",
+          "position": 70
+        },
+        {
+          "chartDate": "1968-06-22",
+          "position": 66
+        },
+        {
+          "chartDate": "1968-06-29",
+          "position": 65
+        },
+        {
+          "chartDate": "1968-07-06",
+          "position": 68
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage soul album cover layout 1960s soul portrait photography yellow typography red background vintage vinyl serif display subject centered horizontally and vertically yellow text contrasting against deep red background typography framing the subject s head warm lighting on skin tones matching the red environment portrait solid red backdrop yellow heavy serif typography top corners vintage soul aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Soul Album Cover Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Retro Poster Design",
+        "Music Promotion"
+      ],
+      "retrievalTags": [
+        "1960s soul",
+        "portrait photography",
+        "yellow typography",
+        "red background",
+        "vintage vinyl",
+        "serif display"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered close-up portrait against a solid red backdrop with bold yellow serif typography positioned in the upper corners.",
+      "triggerTerms": [
+        "vintage soul album cover",
+        "retro portrait with yellow text",
+        "1960s music aesthetic"
+      ],
+      "excludeWhen": [
+        "modern minimalist design",
+        "landscape photography",
+        "sans-serif only layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, centered portrait of a subject with dark hair, resting their chin on crossed arms, set against a vibrant red studio background. The composition is framed by heavy, stylized yellow serif text in the top-left and a list of tracks in the top-right.",
+    "coreVisualRelationships": [
+      "Subject centered horizontally and vertically",
+      "Yellow text contrasting against deep red background",
+      "Typography framing the subject's head",
+      "Warm lighting on skin tones matching the red environment"
+    ],
+    "coreInvariants": [
+      "Solid red background",
+      "Bold yellow serif typography",
+      "Centered close-up portrait composition"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the central 70% of the frame, from the waist up.",
+      "visualAnchor": "The subject's eyes and the large title text in the top-left corner.",
+      "movementAndEyePath": "From the bold title (top-left) to the subject's face (center), then to the tracklist (top-right).",
+      "negativeSpace": "Solid red areas surrounding the subject's head and shoulders."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant Red (Background)",
+      "contrastColorRole": "Bright Yellow (Typography)",
+      "accentColorRole": "Deep Black (Hair and shadows)",
+      "saturationAndValueRelationship": "High saturation red and yellow with high-contrast shadows in the portrait.",
+      "paletteRestrictions": [
+        "Red",
+        "Yellow",
+        "Black",
+        "Natural skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavyweight serif with rounded terminals",
+      "letterConstructionRules": [
+        "Thick strokes with high contrast",
+        "Rounded, bulbous serifs",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Curved 'S' with heavy terminals",
+        "Wide 'M' and 'W' characters"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Heavy",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Rounded",
+            "corners": "Softened",
+            "counters": "Open",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "Mixed Case",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top Left",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlaid on background"
+          },
+          "treatment": {
+            "fill": "Solid Yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Uniform font family used for both title and tracklist with scale variation.",
+      "graphicDevices": [
+        "Corner-weighted text blocks"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow color",
+          "Heavy serif weight",
+          "Top-corner placement"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Centered text",
+          "White text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cooper Black",
+            "reason": "Matches the heavy, rounded vintage serif feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bookman Old Style Bold",
+            "reason": "Provides the necessary weight and classic serif structure.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a person with dark hair resting their chin on crossed arms against a solid, vibrant red studio background.",
+        "overlayInstruction": "Add bold yellow serif text in the top-left corner for the title and smaller yellow serif text in the top-right for a list."
+      },
+      "verificationChecks": [
+        "Is the background a solid, saturated red?",
+        "Is the text bright yellow?",
+        "Is the main title positioned in the top-left?",
+        "Is the subject centered with arms crossed?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject ethnicity",
+      "Specific text content",
+      "Red background shade"
+    ],
+    "mustRedesign": [
+      "Logos and brand marks",
+      "Specific artist names",
+      "Specific song titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast yellow-on-red legibility",
+        "Soft studio lighting on the subject",
+        "Balanced corner-weighted typography"
+      ],
+      "avoid": [
+        "Digital gradients",
+        "Drop shadows on text",
+        "Busy backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for solid red background consistency",
+      "Verify yellow text is bold and serif",
+      "Ensure subject is centered and looking at camera",
+      "Confirm no modern digital artifacts are present"
+    ],
+    "reuseFormula": "Portrait + Solid Red Backdrop + Yellow Heavy Serif Typography (Top Corners) = Vintage Soul Aesthetic"
+  }
+}

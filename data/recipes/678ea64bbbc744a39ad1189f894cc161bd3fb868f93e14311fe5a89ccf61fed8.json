@@ -1,0 +1,264 @@
+{
+  "id": "678ea64bbbc744a39ad1189f894cc161bd3fb868f93e14311fe5a89ccf61fed8",
+  "skillId": "678ea64bbbc744a39ad1189f894cc161bd3fb868f93e14311fe5a89ccf61fed8",
+  "versionId": "678ea64bbbc744a39ad1189f894cc161bd3fb868f93e14311fe5a89ccf61fed8",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:53:28.261Z",
+  "approvedAt": "2026-08-12T23:53:28.261Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:53:28.261Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Greatest Rapper Alive.jpg",
+    "hash": "678ea64bbbc744a39ad1189f894cc161bd3fb868f93e14311fe5a89ccf61fed8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Greatest Rapper Alive",
+    "artist": "G Herbo",
+    "artworkUrl": "https://coverartarchive.org/release-group/283b0d4d-eae5-4a54-991a-8173e7336fb9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/283b0d4d-eae5-4a54-991a-8173e7336fb9",
+    "releaseGroupId": "283b0d4d-eae5-4a54-991a-8173e7336fb9",
+    "recordingId": "ca31b7e0-9288-4b2d-9ad5-656d13a5b4ce",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Went LegitG Herbo",
+      "song": "Went Legit",
+      "performer": "G Herbo",
+      "peakPosition": 81,
+      "firstChartDate": "2025-07-12",
+      "lastChartDate": "2025-08-30",
+      "appearances": [
+        {
+          "chartDate": "2025-07-12",
+          "position": 95
+        },
+        {
+          "chartDate": "2025-07-19",
+          "position": 83
+        },
+        {
+          "chartDate": "2025-08-02",
+          "position": 89
+        },
+        {
+          "chartDate": "2025-08-09",
+          "position": 81
+        },
+        {
+          "chartDate": "2025-08-16",
+          "position": 89
+        },
+        {
+          "chartDate": "2025-08-23",
+          "position": 98
+        },
+        {
+          "chartDate": "2025-08-30",
+          "position": 82
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome hip hop collage cover monochrome high contrast collage background rapper profile wide tracking typography black and white photography foreground subject in sharp profile vs background collage in soft focus high key highlights on beanie jewelry vs deep black shadows in clothing small wide tracked typography vs large scale central figure modern performance imagery vs nostalgic archival background imagery high contrast profile faded photo collage background wide tracked serif subtitle nostalgic hip hop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Hip-Hop Collage Cover",
+      "category": "Album Art",
+      "medium": [
+        "Digital Photography",
+        "Photo Collage",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Editorial Portraits",
+        "Promotional Posters"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "high contrast",
+        "collage background",
+        "rapper profile",
+        "wide tracking typography",
+        "black and white photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome composition featuring a sharp profile subject against a faded, low-opacity photographic collage background.",
+      "triggerTerms": [
+        "monochrome hip-hop album cover",
+        "high contrast profile portrait with collage background",
+        "wide tracked serif typography on dark background"
+      ],
+      "excludeWhen": [
+        "vibrant color palettes are required",
+        "minimalist single-subject backgrounds are needed",
+        "modern sans-serif display type is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central, high-contrast black and white profile of a performer holding a microphone, set against a dark, desaturated collage of candid family or archival photographs. The foreground subject is sharply defined with bright highlights on a white beanie and jewelry, while the background is a dim, textured tapestry of faces.",
+    "coreVisualRelationships": [
+      "Foreground subject in sharp profile vs. background collage in soft focus",
+      "High-key highlights on beanie/jewelry vs. deep black shadows in clothing",
+      "Small, wide-tracked typography vs. large-scale central figure",
+      "Modern performance imagery vs. nostalgic archival background imagery"
+    ],
+    "coreInvariants": [
+      "Strict monochrome (black, white, and gray) color palette",
+      "Low-opacity, multi-image collage background",
+      "High-contrast lighting on the primary subject's profile"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Primary subject is centered horizontally, shown from the chest up in profile, occupying approximately 60% of the vertical frame.",
+      "visualAnchor": "The bright white beanie and the hand holding the microphone serve as the primary focal points.",
+      "movementAndEyePath": "The eye starts at the bright beanie, follows the profile down to the microphone, then moves to the wide-tracked text at the bottom right.",
+      "negativeSpace": "Deep black negative space is concentrated in the subject's torso and the lower right quadrant."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Black (Background and clothing)",
+      "contrastColorRole": "Pure White (Beanie, jewelry, and typography)",
+      "accentColorRole": "Mid-tone Grays (Collage background and skin highlights)",
+      "saturationAndValueRelationship": "Zero saturation; extreme value contrast between the foreground subject and the dark background.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Serif",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Sharp, bracketed serifs",
+        "Small caps or all-caps styling"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 1,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Pointed",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "0.4em",
+            "leading": "1.2em",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom right",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over dark background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single serif typeface used with extreme letter-spacing to create a cinematic feel.",
+      "graphicDevices": [
+        "Parental Advisory label in bottom left corner",
+        "Faded collage overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide tracking",
+          "Serif classification",
+          "All-caps"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Tight kerning",
+          "Bold weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman",
+            "reason": "Classic serif structure with high contrast.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Baskerville",
+            "reason": "Elegant serifs and excellent legibility at small sizes with wide tracking.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast monochrome image of a man in profile wearing a white beanie and jewelry, holding a microphone. The background should be a dark, low-opacity collage of various candid family photos.",
+        "overlayInstruction": "Add a single line of all-caps serif text in the bottom right corner with very wide tracking (letter spacing) in white."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochrome?",
+        "Is the background a faded collage of multiple photos?",
+        "Is the text in the bottom right corner a serif font with wide tracking?",
+        "Is the foreground subject in high-contrast profile?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Opacity of the background collage",
+      "Amount of tracking in the typography",
+      "Intensity of the highlights on the subject"
+    ],
+    "mustRedesign": [
+      "Any use of color",
+      "Modern sans-serif typography",
+      "Solid, non-textured backgrounds"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clear separation between foreground subject and background collage",
+        "Crisp, legible small-scale typography",
+        "Deep, rich black levels"
+      ],
+      "avoid": [
+        "Muddy grays in the foreground",
+        "Overlapping text on the subject's face",
+        "Low-resolution collage elements"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast lighting on the beanie.",
+      "Ensure the background collage is visible but not distracting.",
+      "Verify the typography is a serif font with significant letter spacing.",
+      "Confirm the overall mood is somber and nostalgic."
+    ],
+    "reuseFormula": "High-contrast profile + Faded photo collage background + Wide-tracked serif subtitle = Nostalgic Hip-Hop Aesthetic"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "id": "e614a69cf946f1a28b05cea3aa00d9620281fbecdd40d9b4ad75c0354245648d",
+  "skillId": "e614a69cf946f1a28b05cea3aa00d9620281fbecdd40d9b4ad75c0354245648d",
+  "versionId": "e614a69cf946f1a28b05cea3aa00d9620281fbecdd40d9b4ad75c0354245648d",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:48:24.632Z",
+  "approvedAt": "2026-08-12T12:48:24.632Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:48:24.632Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "King’s Disease II.jpg",
+    "hash": "e614a69cf946f1a28b05cea3aa00d9620281fbecdd40d9b4ad75c0354245648d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "King’s Disease II",
+    "artist": "Nas",
+    "artworkUrl": "https://coverartarchive.org/release-group/ffeab707-e97f-44b5-9a99-2f1dce58af89/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ffeab707-e97f-44b5-9a99-2f1dce58af89",
+    "releaseGroupId": "ffeab707-e97f-44b5-9a99-2f1dce58af89",
+    "recordingId": "046317fd-3f3a-4bb9-a147-ebba012baacf",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "RareNas",
+      "song": "Rare",
+      "performer": "Nas",
+      "peakPosition": 100,
+      "firstChartDate": "2021-08-21",
+      "lastChartDate": "2021-08-21",
+      "appearances": [
+        {
+          "chartDate": "2021-08-21",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "warm toned hip hop portrait warm lighting orange gradient profile portrait gold jewelry grainy texture black and gold typography subject skin tones harmonizing with the orange background gradient high contrast lighting defining the facial profile against the saturated backdrop gold jewelry acting as a mid ground visual bridge between subject and text heavy film grain unifying the photographic and graphic elements profile portrait saturated warm gradient heavy film grain gold blackletter typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Warm Toned Hip-Hop Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Color Grading",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Editorial Portraits",
+        "Promotional Artist Posters"
+      ],
+      "retrievalTags": [
+        "warm lighting",
+        "orange gradient",
+        "profile portrait",
+        "gold jewelry",
+        "grainy texture",
+        "black and gold typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast profile portrait set against a vibrant orange-to-red gradient with heavy film grain and gold-accented typography.",
+      "triggerTerms": [
+        "warm orange gradient portrait",
+        "hip hop album cover style",
+        "profile view with gold chain",
+        "grainy saturated portrait"
+      ],
+      "excludeWhen": [
+        "requesting cool color palettes",
+        "requesting minimalist white backgrounds",
+        "requesting full-body action shots"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up profile of a male subject looking off-camera, bathed in warm, directional light that blends into a saturated orange background. The image features a heavy film grain texture and is anchored by a thick gold cuban link chain and stylized gold-colored serif typography.",
+    "coreVisualRelationships": [
+      "Subject skin tones harmonizing with the orange background gradient",
+      "High-contrast lighting defining the facial profile against the saturated backdrop",
+      "Gold jewelry acting as a mid-ground visual bridge between subject and text",
+      "Heavy film grain unifying the photographic and graphic elements"
+    ],
+    "coreInvariants": [
+      "Monochromatic warm color palette (orange/red/gold)",
+      "Heavy digital or film grain texture across the entire frame",
+      "Profile-view composition with subject looking toward the left"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale head and shoulders portrait centered horizontally, slightly offset to the right to allow for profile gaze.",
+      "visualAnchor": "The subject's eye and the bright gold chain at the bottom center.",
+      "movementAndEyePath": "Starts at the subject's face, follows the gaze left, then drops to the gold chain and moves to the bottom-right typography.",
+      "negativeSpace": "Dense, saturated orange space surrounding the head, creating a halo effect."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant orange-red gradient background",
+      "contrastColorRole": "Deep shadows and black hair for structural definition",
+      "accentColorRole": "Metallic gold for jewelry and typography",
+      "saturationAndValueRelationship": "High saturation in the mid-tones with deep, crushed blacks in the shadows.",
+      "paletteRestrictions": [
+        "No cool colors (blues, greens, purples)",
+        "Limited to warm spectrum: orange, red, gold, brown"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Blackletter-influenced serif",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Sharp, thorn-like serifs",
+        "Interlocking or overlapping characters in the logo mark",
+        "Calligraphic terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'N' and 'a' in the top left are merged into a single ligature-style mark",
+        "The 's' is nested within the curve of the 'a'"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "custom-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "angled",
+            "counters": "closed",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top-left corner",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "interlocking characters",
+            "relationshipToImage": "floating over background"
+          },
+          "treatment": {
+            "fill": "gold-gradient",
+            "outline": "none",
+            "shadow": "subtle-glow",
+            "depth": "flat",
+            "texture": "smooth-metallic",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "display",
+          "hierarchyLevel": 2,
+          "classification": "blackletter-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "pointed",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "regular"
+          },
+          "composition": {
+            "position": "bottom-right corner",
+            "scale": "small-medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over subject's shoulder"
+          },
+          "treatment": {
+            "fill": "gold-yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A stylized, interlocking monogram paired with a more legible but stylistically consistent blackletter serif.",
+      "graphicDevices": [
+        "Heavy film grain overlay",
+        "Vignetting",
+        "Soft glow on highlights"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Gold color",
+          "Sharp serifs",
+          "Interlocking logo style"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Modernist geometric fonts",
+          "Thin hairlines"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Old English or Fraktur variants",
+            "reason": "Matches the sharp, aggressive serif style of the bottom text",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Custom Victorian Serif",
+            "reason": "Matches the decorative, interlocking nature of the top-left mark",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a profile portrait of a man with short hair and a gold chain against a saturated orange-red gradient background with heavy film grain.",
+        "overlayInstruction": "Add gold-colored blackletter-style typography in the top-left and bottom-right corners, ensuring the top-left text uses interlocking characters."
+      },
+      "verificationChecks": [
+        "Is the background a vibrant orange-red gradient?",
+        "Is there a heavy grain texture visible?",
+        "Is the typography gold and serif-based?",
+        "Is the subject in profile view?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the orange gradient",
+      "Amount of film grain",
+      "Thickness of the gold chain",
+      "Complexity of the interlocking typography"
+    ],
+    "mustRedesign": [
+      "Any blue or cool-toned elements",
+      "Clean, digital-looking backgrounds without grain",
+      "Modern sans-serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Seamless blending between subject and background color",
+        "Tangible metallic texture on the gold elements",
+        "Consistent film grain across all layers"
+      ],
+      "avoid": [
+        "Flat, plastic-looking skin textures",
+        "Low-contrast lighting",
+        "Generic system fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the grain doesn't obscure facial features",
+      "Ensure the gold chain has realistic highlights",
+      "Verify the typography is legible despite the stylized serifs",
+      "Confirm the color palette remains strictly warm"
+    ],
+    "reuseFormula": "Profile Portrait + Saturated Warm Gradient + Heavy Film Grain + Gold Blackletter Typography"
+  }
+}

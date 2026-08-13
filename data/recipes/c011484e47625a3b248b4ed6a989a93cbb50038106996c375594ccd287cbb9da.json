@@ -1,0 +1,303 @@
+{
+  "id": "c011484e47625a3b248b4ed6a989a93cbb50038106996c375594ccd287cbb9da",
+  "skillId": "c011484e47625a3b248b4ed6a989a93cbb50038106996c375594ccd287cbb9da",
+  "versionId": "c011484e47625a3b248b4ed6a989a93cbb50038106996c375594ccd287cbb9da",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:04:07.195Z",
+  "approvedAt": "2026-08-12T23:04:07.195Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:04:07.195Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "3.0.jpg",
+    "hash": "c011484e47625a3b248b4ed6a989a93cbb50038106996c375594ccd287cbb9da",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "3.0",
+    "artist": "Marc Anthony",
+    "artworkUrl": "https://coverartarchive.org/release-group/0f09fbf0-2e6b-46a4-a0c7-682c67268186/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0f09fbf0-2e6b-46a4-a0c7-682c67268186",
+    "releaseGroupId": "0f09fbf0-2e6b-46a4-a0c7-682c67268186",
+    "recordingId": "17d4d425-5b75-4547-be28-f96912cd259f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Vivir Mi VidaMarc Anthony",
+      "song": "Vivir Mi Vida",
+      "performer": "Marc Anthony",
+      "peakPosition": 92,
+      "firstChartDate": "2013-08-10",
+      "lastChartDate": "2013-09-28",
+      "appearances": [
+        {
+          "chartDate": "2013-08-10",
+          "position": 92
+        },
+        {
+          "chartDate": "2013-08-17",
+          "position": 97
+        },
+        {
+          "chartDate": "2013-08-24",
+          "position": 99
+        },
+        {
+          "chartDate": "2013-08-31",
+          "position": 99
+        },
+        {
+          "chartDate": "2013-09-28",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome celebrity portrait with bold sans serif overlay black and white aviator sunglasses tight crop portrait bold typography high contrast masculine aesthetic the reflection in the sunglasses adds depth to the flat monochrome plane the horizontal bar of the aviators echoes the horizontal alignment of the text high key background highlights contrast against the dark clothing and hair text scale creates a foreground layer that pushes the subject into the mid ground high contrast bw headshot aviators bottom aligned bold sans serif overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Celebrity Portrait with Bold Sans-Serif Overlay",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Editorial celebrity features",
+        "Promotional artist posters"
+      ],
+      "retrievalTags": [
+        "black and white",
+        "aviator sunglasses",
+        "tight crop portrait",
+        "bold typography",
+        "high contrast",
+        "masculine aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome close-up portrait featuring a subject in aviator sunglasses with large, clean sans-serif text anchored at the bottom.",
+      "triggerTerms": [
+        "monochrome portrait with aviators",
+        "bold bottom-aligned sans-serif text",
+        "high-contrast black and white album cover",
+        "tight headshot with sunglasses"
+      ],
+      "excludeWhen": [
+        "full-body shots are required",
+        "vibrant color palettes are requested",
+        "delicate or serif typography is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, high-contrast black-and-white headshot of a man wearing metallic aviator sunglasses. The lighting emphasizes skin texture and facial contours. Large, white, geometric sans-serif typography is layered over the lower chest area, creating a strong horizontal anchor.",
+    "coreVisualRelationships": [
+      "The reflection in the sunglasses adds depth to the flat monochrome plane",
+      "The horizontal bar of the aviators echoes the horizontal alignment of the text",
+      "High-key background highlights contrast against the dark clothing and hair",
+      "Text scale creates a foreground layer that pushes the subject into the mid-ground"
+    ],
+    "coreInvariants": [
+      "Monochrome color space",
+      "Aviator-style eyewear",
+      "Tight facial cropping",
+      "Bottom-weighted typographic hierarchy"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up, head and shoulders, slightly off-center to the right.",
+      "visualAnchor": "The white bold text across the bottom third of the frame.",
+      "movementAndEyePath": "From the bright forehead down to the reflective lenses, then following the jawline to the bold text at the bottom.",
+      "negativeSpace": "High-key, blown-out background on the left and right sides of the head."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-tone grays in skin and clothing",
+      "contrastColorRole": "Deep blacks in shadows and hair",
+      "accentColorRole": "Pure white for the typography and background highlights",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between the subject and the bright background.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Closed apertures",
+        "Straight-cut terminals",
+        "Circular 'O' and '0' forms"
+      ],
+      "characterSpecificRedesigns": [
+        "Tight kerning to create a solid block of text"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Bold",
+            "contrast": "Low/None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Bottom edge",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays subject's chest",
+            "relationshipToImage": "Foreground anchor"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light to Regular",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Circular",
+            "strokeCharacter": "Thin monoline"
+          },
+          "typesetting": {
+            "case": "Numeric",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "N/A",
+            "lineBreakPattern": "N/A",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Bottom right corner",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays subject",
+            "relationshipToImage": "Secondary detail"
+          },
+          "treatment": {
+            "fill": "Semi-transparent white or light gray",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Weight contrast: Heavy bold display text paired with light-weight geometric numerals.",
+      "graphicDevices": [
+        "Horizontal text alignment",
+        "Photographic grain"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase sans-serif",
+          "Tight tracking",
+          "Bottom alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Neue Bold",
+            "reason": "Provides the clean, authoritative grotesque look required for the main name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Matches the geometric circularity of the secondary numeric text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Alternative for a more industrial, dense typographic feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white close-up portrait of a man with short hair wearing metallic aviator sunglasses, looking slightly away from the camera. Use a bright, overexposed background to create a halo effect around the head. Ensure the lower chest area is dark to provide contrast for future text.",
+        "overlayInstruction": "Apply large, bold, white uppercase sans-serif text across the bottom of the image. Use tight kerning. In the bottom right corner, add secondary numeric text in a lighter weight geometric font."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochrome?",
+        "Are the sunglasses aviator style?",
+        "Is the primary text bold and uppercase?",
+        "Is the text positioned at the bottom of the frame?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the film grain",
+      "Reflection detail in the sunglasses",
+      "Opacity of the secondary numeric text",
+      "Tightness of the facial crop"
+    ],
+    "mustRedesign": [
+      "Any use of color",
+      "Script or serif typefaces",
+      "Centering the text vertically"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp focus on the sunglasses and facial texture",
+        "High-contrast tonal range",
+        "Clean, professional typographic layout"
+      ],
+      "avoid": [
+        "Low-contrast muddy grays",
+        "Blurry text edges",
+        "Distracting background elements"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure white highlights in the background",
+      "Ensure text does not obscure the subject's mouth",
+      "Verify the '3.0' or secondary text is thinner than the main name",
+      "Confirm the aviator bridge is clearly defined"
+    ],
+    "reuseFormula": "High-contrast BW Headshot + Aviators + Bottom-aligned Bold Sans-Serif Overlay"
+  }
+}

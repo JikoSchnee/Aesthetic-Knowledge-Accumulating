@@ -1,0 +1,275 @@
+{
+  "id": "fae86caed4ef659a472bc913bec39104fb1b7f9b2b005a5876409dd5e1672473",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T07:16:47.250Z",
+  "approvedAt": "2026-08-11T07:16:47.250Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T07:16:47.250Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "As I Am.jpg",
+    "hash": "fae86caed4ef659a472bc913bec39104fb1b7f9b2b005a5876409dd5e1672473",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "As I Am",
+    "artist": "Jack White & Alicia Keys",
+    "artworkUrl": "https://coverartarchive.org/release-group/b8387dc6-5576-3984-abea-8f54f7c53489/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b8387dc6-5576-3984-abea-8f54f7c53489",
+    "releaseGroupId": "b8387dc6-5576-3984-abea-8f54f7c53489",
+    "recordingId": "80366c3d-8edd-4a97-95cf-6bc591d1465f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Another Way to DieJack White & Alicia Keys",
+      "song": "Another Way to Die",
+      "performer": "Jack White & Alicia Keys",
+      "peakPosition": 81,
+      "firstChartDate": "2008-11-29",
+      "lastChartDate": "2008-12-06",
+      "appearances": [
+        {
+          "chartDate": "2008-11-29",
+          "position": 81
+        },
+        {
+          "chartDate": "2008-12-06",
+          "position": 82
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome portrait with geometric display type monochrome close up portrait geometric typography high contrast red accent curly hair texture symmetry of the face vs organic texture of the hair high contrast grayscale skin tones vs vibrant red typographic accents geometric rigidity of the title vs soft curves of the facial features top aligned text anchoring the vertical composition high contrast b w portrait geometric inline type primary color geometric accents",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Portrait with Geometric Display Type",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Digital Illustration"
+      ],
+      "useCases": [
+        "Album Covers",
+        "Editorial Portraits",
+        "Concert Posters",
+        "Fashion Branding"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "close-up portrait",
+        "geometric typography",
+        "high contrast",
+        "red accent",
+        "curly hair texture"
+      ]
+    },
+    "visualDefinition": "A tight, high-contrast black and white facial portrait featuring voluminous curly hair framing the face, overlaid with bold, geometric display lettering that incorporates internal red triangular accents.",
+    "coreVisualRelationships": [
+      "Symmetry of the face vs. organic texture of the hair",
+      "High-contrast grayscale skin tones vs. vibrant red typographic accents",
+      "Geometric rigidity of the title vs. soft curves of the facial features",
+      "Top-aligned text anchoring the vertical composition"
+    ],
+    "coreInvariants": [
+      "Monochromatic skin and hair rendering",
+      "Extreme close-up framing (forehead to chin)",
+      "Geometric sans-serif display type with hollow/inline features",
+      "Red as the sole chromatic accent"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered, extreme close-up, filling approximately 85% of the frame width.",
+      "visualAnchor": "The eyes and the bridge of the nose serve as the central focal point.",
+      "movementAndEyePath": "Starts at the eyes, moves upward to the bold display text, then follows the hair texture down to the mouth.",
+      "negativeSpace": "Minimal; the dark, dense curls act as a textured background frame."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black and white grayscale for the photographic subject.",
+      "contrastColorRole": "Deep blacks in the hair and shadows provide depth.",
+      "accentColorRole": "Vibrant red used exclusively for geometric fills within the lettering.",
+      "saturationAndValueRelationship": "High value contrast in the face (bright highlights, deep shadows) with zero saturation except for the flat, high-saturation red accents.",
+      "paletteRestrictions": [
+        "Grayscale",
+        "Pure Red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Monolinear stroke weight",
+        "Geometric shapes (circles for 'C', triangles for 'A')",
+        "Inline/hollow centers",
+        "Internal triangular red fills at the base or corners of characters"
+      ],
+      "characterSpecificRedesigns": [
+        "A-frame without crossbar, replaced by a red triangle",
+        "L with a red square/triangle at the vertex",
+        "S with a segmented inline path"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-display",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "cap-height",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open/geometric",
+            "strokeCharacter": "monolinear inline"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top third",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "over hair and forehead",
+            "relationshipToImage": "floating overlay"
+          },
+          "treatment": {
+            "fill": "white outline with red geometric inserts",
+            "outline": "thin white",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "circular",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left-aligned under first letter of title",
+            "tracking": "normal",
+            "leading": "compact",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "below main title, left-justified",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "over hair",
+            "relationshipToImage": "secondary overlay"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Geometric display for impact paired with a clean, legible sans-serif for secondary info.",
+      "graphicDevices": [
+        "Triangular color blocks",
+        "Inline stroke paths"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric A-frame",
+          "Red internal accents",
+          "Monochrome portrait style"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Multi-color gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Display",
+            "reason": "Strong geometric foundation for modification",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Bauhaus 93",
+            "reason": "Circular and geometric character shapes",
+            "confidence": "low"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white close-up portrait of a woman with voluminous, dark curly hair framing her face. The lighting should be soft on the skin but create deep shadows in the hair. The expression should be neutral with slightly parted lips.",
+        "overlayInstruction": "Add geometric custom lettering across the top. The letters should be white outlines with vibrant red triangles placed inside the corners or bases of the characters. Add a smaller, solid white sans-serif subtitle justified to the left below the main text."
+      },
+      "verificationChecks": [
+        "Is the portrait strictly monochrome?",
+        "Are the red accents limited to the interior of the letters?",
+        "Is the hair texture detailed and high-contrast?",
+        "Is the main text centered and geometric?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Hair volume and curl tightness",
+      "Placement of red geometric accents within letters",
+      "Intensity of facial highlights",
+      "Tracking/spacing of the main title"
+    ],
+    "mustRedesign": [
+      "Specific letter shapes that mimic trademarked logos",
+      "Exact facial identity of the original subject",
+      "Specific brand-identifying color shades"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp focus on the eyes",
+        "Clean, vector-like precision in the typography",
+        "Seamless integration of text over hair texture"
+      ],
+      "avoid": [
+        "Blurry hair textures",
+        "Low-contrast gray-on-gray skin tones",
+        "Messy or handwritten typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure red (#FF0000) saturation in accents.",
+      "Ensure no color bleeding from red into the monochrome portrait.",
+      "Verify the 'A' characters are rendered as triangles.",
+      "Confirm the composition is vertically oriented and tight."
+    ],
+    "reuseFormula": "High-contrast B&W portrait + Geometric Inline Type + Primary Color Geometric Accents"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T07:32:52.623Z"
+}

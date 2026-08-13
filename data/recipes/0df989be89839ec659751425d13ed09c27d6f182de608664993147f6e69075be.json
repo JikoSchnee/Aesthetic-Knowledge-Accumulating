@@ -1,0 +1,281 @@
+{
+  "id": "0df989be89839ec659751425d13ed09c27d6f182de608664993147f6e69075be",
+  "skillId": "0df989be89839ec659751425d13ed09c27d6f182de608664993147f6e69075be",
+  "versionId": "0df989be89839ec659751425d13ed09c27d6f182de608664993147f6e69075be",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:26:08.866Z",
+  "approvedAt": "2026-08-12T17:26:08.866Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:26:08.866Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Street Opera.jpg",
+    "hash": "0df989be89839ec659751425d13ed09c27d6f182de608664993147f6e69075be",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Street Opera",
+    "artist": "Ashford & Simpson",
+    "artworkUrl": "https://coverartarchive.org/release-group/6884d56d-5183-4ee2-92ff-d85061ac4570/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6884d56d-5183-4ee2-92ff-d85061ac4570",
+    "releaseGroupId": "6884d56d-5183-4ee2-92ff-d85061ac4570",
+    "recordingId": "0504be71-7da5-4751-8a64-e275d2825bf1",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Street CornerAshford & Simpson",
+      "song": "Street Corner",
+      "performer": "Ashford & Simpson",
+      "peakPosition": 56,
+      "firstChartDate": "1982-06-05",
+      "lastChartDate": "1982-08-07",
+      "appearances": [
+        {
+          "chartDate": "1982-06-05",
+          "position": 85
+        },
+        {
+          "chartDate": "1982-06-12",
+          "position": 81
+        },
+        {
+          "chartDate": "1982-06-19",
+          "position": 74
+        },
+        {
+          "chartDate": "1982-06-26",
+          "position": 69
+        },
+        {
+          "chartDate": "1982-07-03",
+          "position": 60
+        },
+        {
+          "chartDate": "1982-07-10",
+          "position": 58
+        },
+        {
+          "chartDate": "1982-07-17",
+          "position": 57
+        },
+        {
+          "chartDate": "1982-07-24",
+          "position": 56
+        },
+        {
+          "chartDate": "1982-07-31",
+          "position": 92
+        },
+        {
+          "chartDate": "1982-08-07",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "sophisticated 80s soul duo portrait 80s soul studio portrait leopard print art deco typography soft lighting duo subjects are centered and occupy the lower two thirds of the frame typography is clustered in the upper right corner for balance neutral grey background provides high contrast for the patterned clothing thin white border frames the entire composition studio portrait animal print fashion art deco typography keyline border",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Sophisticated 80s Soul Duo Portrait",
+      "category": "Music Album Art",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "R&B album covers",
+        "Retro soul promotional posters",
+        "Sophisticated 1980s editorial layouts"
+      ],
+      "retrievalTags": [
+        "80s soul",
+        "studio portrait",
+        "leopard print",
+        "art deco typography",
+        "soft lighting",
+        "duo"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A sophisticated 1980s studio portrait featuring a male and female duo in patterned attire with elegant, high-contrast Art Deco-inspired typography.",
+      "triggerTerms": [
+        "80s studio portrait",
+        "leopard print fashion",
+        "Art Deco album typography",
+        "soft grey studio backdrop"
+      ],
+      "excludeWhen": [
+        "modern minimalist styles",
+        "outdoor natural lighting",
+        "grunge or industrial aesthetics"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up studio portrait of a man and woman positioned tightly together against a neutral grey gradient background. The subjects wear coordinated animal-print garments. The composition is anchored by a thin white border frame and elegant, stylized typography in the upper right quadrant.",
+    "coreVisualRelationships": [
+      "Subjects are centered and occupy the lower two-thirds of the frame",
+      "Typography is clustered in the upper right corner for balance",
+      "Neutral grey background provides high contrast for the patterned clothing",
+      "Thin white border frames the entire composition"
+    ],
+    "coreInvariants": [
+      "Thin white geometric border with notched corners",
+      "Coordinated animal print or high-texture patterned clothing",
+      "Soft, diffused studio lighting with gentle highlights on skin"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The duo is centered, shown from the chest up, filling the majority of the lower frame.",
+      "visualAnchor": "The faces of the subjects serve as the primary focal point, supported by the bold typography in the top right.",
+      "movementAndEyePath": "Eyes move from the subjects' faces to the stylized text in the upper right, then follow the border around the frame.",
+      "negativeSpace": "Significant negative space in the upper left and right corners, providing room for the typography and creating a clean, professional look."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Neutral grey (background)",
+      "contrastColorRole": "Black and tan (animal prints)",
+      "accentColorRole": "White (typography and border)",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the dark hair/clothing and the light background/text.",
+      "paletteRestrictions": [
+        "Muted earth tones",
+        "Monochromatic greys",
+        "High-contrast white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Art Deco Sans-Serif",
+      "letterConstructionRules": [
+        "High-waisted crossbars",
+        "Elongated vertical stems",
+        "Geometric curves with sharp terminals",
+        "Interlocking or overlapping character placements"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' features a high crossbar and extended left leg",
+        "The 'S' has a tight, geometric curl",
+        "The 'O' is perfectly circular"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Art Deco",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Light",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Sharp",
+            "corners": "Angular",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Compact",
+            "lineBreakPattern": "Stacked",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top Right",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Interlocking characters",
+            "relationshipToImage": "Floating over background"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Pair the stylized display lettering with a clean, widely-spaced sans-serif for secondary information.",
+      "graphicDevices": [
+        "Thin white keyline border",
+        "Geometric corner accents"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High-waisted proportions",
+          "Geometric Art Deco feel"
+        ],
+        "avoid": [
+          "Heavy serifs",
+          "Script fonts",
+          "Distressed textures"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Anna",
+            "reason": "Matches the high-waisted, geometric Art Deco style.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Broadway",
+            "reason": "Captures the 80s-retro-deco vibe, though heavier than the original.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a male and female duo against a grey gradient background, wearing leopard print clothing, framed by a thin white border.",
+        "overlayInstruction": "Apply custom Art Deco lettering in the top right corner using white vector paths with interlocking characters."
+      },
+      "verificationChecks": [
+        "Typography is positioned in the upper right",
+        "Border has notched geometric corners",
+        "Clothing features animal print patterns",
+        "Background is a smooth grey gradient"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background gradient intensity",
+      "Animal print scale",
+      "Typography weight",
+      "Border thickness"
+    ],
+    "mustRedesign": [
+      "Generic modern sans-serif fonts",
+      "Busy or colorful backgrounds",
+      "Casual or streetwear clothing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typographic edges",
+        "Balanced asymmetrical composition",
+        "Professional studio lighting quality"
+      ],
+      "avoid": [
+        "Cluttered layouts",
+        "Low-contrast text",
+        "Uncoordinated subject styling"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for interlocking character legibility",
+      "Verify the thin white border is consistent",
+      "Ensure the grey gradient is smooth without banding",
+      "Confirm the subjects' expressions are warm and professional"
+    ],
+    "reuseFormula": "Studio Portrait + Animal Print Fashion + Art Deco Typography + Keyline Border"
+  }
+}

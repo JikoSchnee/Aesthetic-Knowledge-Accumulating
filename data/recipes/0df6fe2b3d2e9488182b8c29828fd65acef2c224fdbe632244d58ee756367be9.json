@@ -1,0 +1,256 @@
+{
+  "id": "0df6fe2b3d2e9488182b8c29828fd65acef2c224fdbe632244d58ee756367be9",
+  "skillId": "0df6fe2b3d2e9488182b8c29828fd65acef2c224fdbe632244d58ee756367be9",
+  "versionId": "0df6fe2b3d2e9488182b8c29828fd65acef2c224fdbe632244d58ee756367be9",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:24:53.796Z",
+  "approvedAt": "2026-08-13T00:24:53.796Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:24:53.796Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Saved.jpg",
+    "hash": "0df6fe2b3d2e9488182b8c29828fd65acef2c224fdbe632244d58ee756367be9",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Saved",
+    "artist": "LaVern Baker",
+    "artworkUrl": "https://coverartarchive.org/release-group/235fbe14-3574-4268-a174-deb05eb00660/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/235fbe14-3574-4268-a174-deb05eb00660",
+    "releaseGroupId": "235fbe14-3574-4268-a174-deb05eb00660",
+    "recordingId": "1ab5e777-3659-4122-8eaa-447fa85283ca",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Wheel Of FortuneLaVern Baker",
+      "song": "Wheel Of Fortune",
+      "performer": "LaVern Baker",
+      "peakPosition": 83,
+      "firstChartDate": "1960-04-30",
+      "lastChartDate": "1960-05-21",
+      "appearances": [
+        {
+          "chartDate": "1960-04-30",
+          "position": 100
+        },
+        {
+          "chartDate": "1960-05-07",
+          "position": 87
+        },
+        {
+          "chartDate": "1960-05-14",
+          "position": 83
+        },
+        {
+          "chartDate": "1960-05-21",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century minimalist line art album cover line art portrait mid century modern geometric color blocks minimalist ink drawing 1960s graphic design organic hand drawn lines versus rigid geometric blocks expansive white negative space versus dense color saturation asymmetrical balance between the large portrait and the compact text block minimalist line portrait right aligned geometric text block mid century modern aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Minimalist Line Art Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Pen and ink drawing",
+        "Offset lithography",
+        "Graphic layout"
+      ],
+      "useCases": [
+        "Vintage jazz or soul album art",
+        "Minimalist editorial portraiture",
+        "Retro music festival posters"
+      ],
+      "retrievalTags": [
+        "line art portrait",
+        "mid-century modern",
+        "geometric color blocks",
+        "minimalist ink drawing",
+        "1960s graphic design"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A minimalist ink-line portrait paired with a right-aligned vertical stack of high-contrast geometric color blocks containing bold sans-serif typography.",
+      "triggerTerms": [
+        "minimalist ink line portrait",
+        "mid-century album cover layout",
+        "geometric color block typography"
+      ],
+      "excludeWhen": [
+        "photorealistic portraits are required",
+        "complex painterly backgrounds are needed",
+        "centered symmetrical layouts are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A stark white composition featuring a delicate, continuous-style black ink line drawing of a face on the left, balanced by a rigid, rectangular stack of orange and yellow blocks on the upper right containing heavy black lettering.",
+    "coreVisualRelationships": [
+      "Organic hand-drawn lines versus rigid geometric blocks",
+      "Expansive white negative space versus dense color saturation",
+      "Asymmetrical balance between the large portrait and the compact text block"
+    ],
+    "coreInvariants": [
+      "Fine-gauge black ink line work for the portrait",
+      "Stacked rectangular color fields in the upper right quadrant",
+      "High-contrast black sans-serif display type"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale line art portrait occupying the left two-thirds of the frame.",
+      "visualAnchor": "The vibrant orange and yellow rectangular block in the top right corner.",
+      "movementAndEyePath": "Starts at the bold text block, moves down through the color fields, then sweeps left across the minimalist facial features.",
+      "negativeSpace": "Dominant white background providing breathing room for the thin line work."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (background)",
+      "contrastColorRole": "Black (line art and typography)",
+      "accentColorRole": "Vibrant Orange and Lemon Yellow (geometric blocks)",
+      "saturationAndValueRelationship": "High saturation in the small geometric area against a zero-saturation white field.",
+      "paletteRestrictions": [
+        "White",
+        "Black",
+        "Vibrant Orange",
+        "Lemon Yellow"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight letter spacing",
+        "High x-height",
+        "Sharp, clean terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "contained within color blocks",
+            "relationshipToImage": "separate but adjacent"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "flat",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family with varying weights and sizes for hierarchy.",
+      "graphicDevices": [
+        "Horizontal rule lines",
+        "Rectangular color fills",
+        "Circular graphic emblem"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase sans-serif style",
+          "Tight vertical stacking",
+          "Placement within color blocks"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the bold, mid-century industrial feel of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Provides the geometric purity seen in the letterforms.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a minimalist black ink line drawing of a woman's face on a plain white background, positioned to the left. Leave the top right quadrant empty.",
+        "overlayInstruction": "Add a vertical stack of three rectangular blocks (orange, orange-to-black gradient, yellow) in the top right. Place bold black uppercase sans-serif text inside the orange and yellow blocks."
+      },
+      "verificationChecks": [
+        "Is the portrait rendered in thin black lines only?",
+        "Are the color blocks strictly rectangular and right-aligned?",
+        "Is the typography bold, black, and sans-serif?",
+        "Is there significant white space on the left and bottom?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Portrait line thickness",
+      "Color block hues",
+      "Text content",
+      "Portrait subject"
+    ],
+    "mustRedesign": [
+      "Specific facial features to avoid likeness issues",
+      "Logos and brand names",
+      "Specific catalog numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp line work",
+        "Flat, vibrant color fields",
+        "Precise typographic alignment"
+      ],
+      "avoid": [
+        "Shading or gradients in the portrait",
+        "Distressed or weathered textures",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the line art does not overlap the color blocks.",
+      "Verify the text is legible against the orange and yellow backgrounds.",
+      "Check that the overall composition maintains an asymmetrical balance.",
+      "Confirm the background is a clean, solid white."
+    ],
+    "reuseFormula": "Minimalist Line Portrait + Right-Aligned Geometric Text Block = Mid-Century Modern Aesthetic"
+  }
+}

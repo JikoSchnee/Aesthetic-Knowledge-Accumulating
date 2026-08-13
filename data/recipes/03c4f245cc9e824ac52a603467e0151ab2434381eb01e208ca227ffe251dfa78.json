@@ -1,0 +1,301 @@
+{
+  "id": "03c4f245cc9e824ac52a603467e0151ab2434381eb01e208ca227ffe251dfa78",
+  "skillId": "03c4f245cc9e824ac52a603467e0151ab2434381eb01e208ca227ffe251dfa78",
+  "versionId": "03c4f245cc9e824ac52a603467e0151ab2434381eb01e208ca227ffe251dfa78",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:07:23.435Z",
+  "approvedAt": "2026-08-12T15:07:23.435Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:07:23.435Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Midnight Rendezvous.jpg",
+    "hash": "03c4f245cc9e824ac52a603467e0151ab2434381eb01e208ca227ffe251dfa78",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Midnight Rendezvous",
+    "artist": "Tasha Thomas",
+    "artworkUrl": "https://coverartarchive.org/release-group/16cae94b-f4d5-4c44-bba8-765c5e957d15/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/16cae94b-f4d5-4c44-bba8-765c5e957d15",
+    "releaseGroupId": "16cae94b-f4d5-4c44-bba8-765c5e957d15",
+    "recordingId": "d72e47c3-8ad8-487d-a4ae-964efa937947",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Shoot Me (With Your Love)Tasha Thomas",
+      "song": "Shoot Me (With Your Love)",
+      "performer": "Tasha Thomas",
+      "peakPosition": 91,
+      "firstChartDate": "1979-01-27",
+      "lastChartDate": "1979-02-24",
+      "appearances": [
+        {
+          "chartDate": "1979-01-27",
+          "position": 97
+        },
+        {
+          "chartDate": "1979-02-03",
+          "position": 94
+        },
+        {
+          "chartDate": "1979-02-10",
+          "position": 91
+        },
+        {
+          "chartDate": "1979-02-17",
+          "position": 91
+        },
+        {
+          "chartDate": "1979-02-24",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "disco era monochromatic portrait 1970s monochromatic red script lettering studio portrait disco aesthetic high key lighting glamour photography subject to background color matching red on red diagonal script vs horizontal sans serif tension high contrast facial features against saturated environment centralized subject with asymmetrical typographic weight subject in color x background in color x diagonal script title wide tracked sans serif header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Disco Era Monochromatic Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design",
+        "Airbrushed Illustration"
+      ],
+      "useCases": [
+        "Vintage soul album covers",
+        "Disco-themed event posters",
+        "Retro fashion editorials",
+        "Monochromatic portrait design"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "monochromatic red",
+        "script lettering",
+        "studio portrait",
+        "disco aesthetic",
+        "high-key lighting",
+        "glamour photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A monochromatic red studio portrait featuring a central subject in matching attire, characterized by a large-scale diagonal script title and a clean sans-serif subtitle.",
+      "triggerTerms": [
+        "monochromatic red studio portrait",
+        "diagonal retro script lettering",
+        "70s disco album aesthetic",
+        "high-contrast red-on-red composition"
+      ],
+      "excludeWhen": [
+        "naturalistic lighting is required",
+        "multi-colored backgrounds are needed",
+        "modern minimalist sans-serif only layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A vibrant, high-saturation red composition where the subject's clothing and the background share a nearly identical hue, creating a seamless silhouette effect. The layout is anchored by a large, expressive script title angled at approximately 30 degrees, paired with a small, wide-tracked sans-serif header.",
+    "coreVisualRelationships": [
+      "Subject-to-background color matching (red-on-red)",
+      "Diagonal script vs. horizontal sans-serif tension",
+      "High-contrast facial features against saturated environment",
+      "Centralized subject with asymmetrical typographic weight"
+    ],
+    "coreInvariants": [
+      "Monochromatic red palette",
+      "Diagonal upward-slanting script",
+      "Studio lighting with soft shadows",
+      "High-saturation color grading"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium shot, centered horizontally, filling the lower two-thirds of the frame.",
+      "visualAnchor": "The subject's face and the large script lettering in the upper-left quadrant.",
+      "movementAndEyePath": "Starts at the top-left subtitle, follows the diagonal script down to the subject's face, then follows the arms to the bottom corners.",
+      "negativeSpace": "Concentrated in the upper corners around the typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Vibrant Crimson Red (Background and Clothing)",
+      "contrastColorRole": "Deep Brown/Black (Skin tones and hair)",
+      "accentColorRole": "Gold/Yellow (Jewelry and highlights)",
+      "saturationAndValueRelationship": "High saturation throughout; value contrast is used to define the subject's features against the flat red field.",
+      "paletteRestrictions": [
+        "Strictly monochromatic red background",
+        "Limited accent colors (gold, white, black)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script and geometric sans-serif",
+      "letterConstructionRules": [
+        "Script: Thick-to-thin stroke variation, sharp terminals, 30-degree baseline slant.",
+        "Sans-serif: Monolinear, wide proportions, all-caps."
+      ],
+      "characterSpecificRedesigns": [
+        "Extended descenders on script letters to create motion lines.",
+        "Interlocking loops in the script to suggest fluid movement."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "titlecase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "staggered",
+            "density": "high"
+          },
+          "composition": {
+            "position": "upper-left",
+            "scale": "large",
+            "rotation": "-30 degrees",
+            "warp": "none",
+            "overlap": "partial over subject",
+            "relationshipToImage": "integrated"
+          },
+          "treatment": {
+            "fill": "gradient or textured gold/white",
+            "outline": "thin dark stroke",
+            "shadow": "soft drop shadow",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "italicized slant"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "geometric",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "very wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "low"
+          },
+          "composition": {
+            "position": "top-left edge",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between expressive, slanted script and rigid, wide-tracked geometric sans-serif.",
+      "graphicDevices": [
+        "Diagonal baseline",
+        "Monochromatic color bleed"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Diagonal orientation of the main title",
+          "Wide tracking of the top header",
+          "Red-on-red color scheme"
+        ],
+        "avoid": [
+          "Vertical text",
+          "Serif body fonts",
+          "Multi-colored backgrounds"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mistral or Brush Script",
+            "reason": "Captures the energetic, hand-drawn feel of the 70s era.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic (Extended)",
+            "reason": "Matches the geometric, wide-tracked aesthetic of the subtitle.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a person wearing a vibrant red silk blouse against a matching solid red background. Use high-key lighting to define the face and hands while letting the clothing blend into the background.",
+        "overlayInstruction": "Apply a large script title at a 30-degree upward angle in the upper-left. Add a small, wide-tracked all-caps sans-serif subtitle along the top-left margin."
+      },
+      "verificationChecks": [
+        "Is the background and clothing the same shade of red?",
+        "Is the main title slanted diagonally?",
+        "Is the subtitle tracking significantly wider than standard?",
+        "Is the lighting high-contrast on the subject's face?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Saturation of the red",
+      "Angle of the script title",
+      "Subject's pose",
+      "Tracking width of the subtitle"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original subject",
+      "Original brand logos",
+      "Exact handwriting of the script"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Seamless red-on-red color matching",
+        "Dynamic diagonal typographic flow",
+        "Clean studio lighting"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Muted or pastel colors",
+        "Horizontal-only typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for monochromatic consistency",
+      "Verify diagonal text alignment",
+      "Ensure high-contrast facial definition",
+      "Confirm wide tracking on the top text line"
+    ],
+    "reuseFormula": "Subject in [Color X] + Background in [Color X] + Diagonal Script Title + Wide-Tracked Sans-Serif Header."
+  }
+}

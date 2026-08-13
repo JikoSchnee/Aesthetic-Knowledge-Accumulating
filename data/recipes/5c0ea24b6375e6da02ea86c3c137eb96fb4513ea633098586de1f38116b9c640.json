@@ -1,0 +1,246 @@
+{
+  "id": "5c0ea24b6375e6da02ea86c3c137eb96fb4513ea633098586de1f38116b9c640",
+  "skillId": "5c0ea24b6375e6da02ea86c3c137eb96fb4513ea633098586de1f38116b9c640",
+  "versionId": "5c0ea24b6375e6da02ea86c3c137eb96fb4513ea633098586de1f38116b9c640",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:00:32.878Z",
+  "approvedAt": "2026-08-13T05:00:32.878Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:00:32.878Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "In My Defense.jpg",
+    "hash": "5c0ea24b6375e6da02ea86c3c137eb96fb4513ea633098586de1f38116b9c640",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "In My Defense",
+    "artist": "Iggy Azalea",
+    "artworkUrl": "https://coverartarchive.org/release-group/e16bbab3-5749-45b1-9386-e45a088f8433/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e16bbab3-5749-45b1-9386-e45a088f8433",
+    "releaseGroupId": "e16bbab3-5749-45b1-9386-e45a088f8433",
+    "recordingId": "38137737-cd56-447a-a4ba-4137b4425c86",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sally WalkerIggy Azalea",
+      "song": "Sally Walker",
+      "performer": "Iggy Azalea",
+      "peakPosition": 62,
+      "firstChartDate": "2019-03-30",
+      "lastChartDate": "2019-03-30",
+      "appearances": [
+        {
+          "chartDate": "2019-03-30",
+          "position": 62
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic crime scene noir crime scene neon red lighting vintage sedan parking garage noir aesthetic blood splatter italicized display type cool blue ambient light vs hot red focal light horizontal car line vs vertical wall pillars large scale graphic header vs detailed photographic subject glossy metallic textures vs matte concrete surfaces cinematic noir red underglow stadium framed italic typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Crime Scene Noir",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Thriller Movie Posters",
+        "Dramatic Editorial Photography"
+      ],
+      "retrievalTags": [
+        "crime scene",
+        "neon red lighting",
+        "vintage sedan",
+        "parking garage",
+        "noir aesthetic",
+        "blood splatter",
+        "italicized display type"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast cinematic scene featuring a vintage silver car and a central figure under harsh spotlighting with a bold, framed typographic header.",
+      "triggerTerms": [
+        "cinematic crime scene aesthetic",
+        "red neon underglow car",
+        "bold framed italic typography",
+        "parking garage noir"
+      ],
+      "excludeWhen": [
+        "natural daylight is required",
+        "minimalist or soft pastel themes are requested",
+        "non-dramatic portraiture"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dramatic, low-angle shot in a dark parking garage featuring a silver 1980s-style sedan with an open door. A woman in a metallic dress sits slumped against the car, surrounded by blood splatters. The scene is lit by a cool blue overhead spotlight and intense red under-car lighting, topped with a large, stadium-style framed typographic logo.",
+    "coreVisualRelationships": [
+      "Cool blue ambient light vs. hot red focal light",
+      "Horizontal car line vs. vertical wall pillars",
+      "Large-scale graphic header vs. detailed photographic subject",
+      "Glossy metallic textures vs. matte concrete surfaces"
+    ],
+    "coreInvariants": [
+      "Red underglow lighting reflecting on wet asphalt",
+      "Stadium-shaped rounded rectangle frame for text",
+      "Vintage silver sedan as the central prop",
+      "High-contrast spotlighting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The car and figure occupy the lower two-thirds of the frame, centered horizontally.",
+      "visualAnchor": "The bright red underglow beneath the car and the large red logo at the top.",
+      "movementAndEyePath": "Starts at the large red header, moves down the spotlight beam to the car, and settles on the figure and blood details.",
+      "negativeSpace": "Ample dark space at the bottom and sides to emphasize the central illuminated action."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep teal/blue (ambient background and shadows)",
+      "contrastColorRole": "Vibrant blood red (lighting, blood, and typography)",
+      "accentColorRole": "Bright white (spotlight center and floor markings)",
+      "saturationAndValueRelationship": "High saturation in the reds against desaturated, dark blue tones.",
+      "paletteRestrictions": [
+        "Avoid warm yellows or greens",
+        "Limit to cyan, red, and silver/grey"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy Sans-Serif Italic",
+      "letterConstructionRules": [
+        "Slanted to the right (italicized)",
+        "Uniform stroke weight",
+        "Open counters in 'D' and 'R'",
+        "Sharp, square terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Main title is outlined with a thin inner gap",
+        "Subtitle is solid fill",
+        "Enclosed in a thick rounded-corner rectangular border"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Bold",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Slightly rounded",
+            "counters": "Large",
+            "strokeCharacter": "Outlined"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Compact",
+            "lineBreakPattern": "Two-line stack",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating above subject in spotlight"
+          },
+          "treatment": {
+            "fill": "None (outlined)",
+            "outline": "Solid red",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "Italicized"
+          }
+        }
+      ],
+      "pairingStrategy": "Solid bold sans-serif for secondary text paired with outlined bold sans-serif for primary text.",
+      "graphicDevices": [
+        "Rounded-corner stadium frame",
+        "Horizontal divider lines integrated into the frame"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Italic slant",
+          "Red color",
+          "Stadium frame"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact Italic",
+            "reason": "Provides the necessary weight and aggressive stance.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Eurostile Bold Extended Italic",
+            "reason": "Matches the geometric, slightly retro-tech feel of the frame.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a cinematic photo of a silver 1980s sedan in a dark concrete parking garage. A woman in a silver dress is slumped against the car door. Use a cool blue overhead spotlight and intense red neon underglow beneath the car. Add blood splatter on the car and ground. The top third of the wall should be brightly lit by the spotlight to receive text.",
+        "overlayInstruction": "Apply a large red stadium-shaped frame to the upper spotlight area. Inside, place two rows of bold, italicized sans-serif text. The top row should be solid red, and the bottom row should be larger and outlined in red."
+      },
+      "verificationChecks": [
+        "Is the red underglow reflecting on the wet ground?",
+        "Is the text slanted and enclosed in a rounded frame?",
+        "Is the lighting high-contrast teal and red?",
+        "Is the car a vintage silver sedan?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the red underglow",
+      "Amount of blood splatter",
+      "Text content within the frame",
+      "Car model (must remain vintage/boxy)"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact car brand logos",
+      "Unique artist signatures"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic lighting depth",
+        "Clean graphic-to-photo integration",
+        "Consistent color grading"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Low-resolution textures",
+        "Generic default fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for color bleed between red and blue zones",
+      "Ensure text legibility against the spotlight background",
+      "Verify the car's metallic texture looks realistic",
+      "Confirm the stadium frame is perfectly centered"
+    ],
+    "reuseFormula": "Cinematic Noir + Red Underglow + Stadium-Framed Italic Typography"
+  }
+}

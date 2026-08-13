@@ -1,0 +1,178 @@
+{
+  "id": "cf42262c003b2b30b9fa1f7302ec1432de0de6020ee8025bfcf9616c3540b0b3",
+  "skillId": "cf42262c003b2b30b9fa1f7302ec1432de0de6020ee8025bfcf9616c3540b0b3",
+  "versionId": "cf42262c003b2b30b9fa1f7302ec1432de0de6020ee8025bfcf9616c3540b0b3",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:04:31.648Z",
+  "approvedAt": "2026-08-12T22:04:31.648Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:04:31.648Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "I GOT ISSUES.jpg",
+    "hash": "cf42262c003b2b30b9fa1f7302ec1432de0de6020ee8025bfcf9616c3540b0b3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "I GOT ISSUES",
+    "artist": "YG",
+    "artworkUrl": "https://coverartarchive.org/release-group/172cadce-7f30-496f-b02f-3d36e4816120/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/172cadce-7f30-496f-b02f-3d36e4816120",
+    "releaseGroupId": "172cadce-7f30-496f-b02f-3d36e4816120",
+    "recordingId": "4595d6d5-1a8c-4659-b62e-2b7a7ba35fcb",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "ToxicYG",
+      "song": "Toxic",
+      "performer": "YG",
+      "peakPosition": 81,
+      "firstChartDate": "2022-10-15",
+      "lastChartDate": "2022-10-22",
+      "appearances": [
+        {
+          "chartDate": "2022-10-15",
+          "position": 81
+        },
+        {
+          "chartDate": "2022-10-22",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast urban portrait with halo effect low key lighting red halo urban portrait high contrast minimalist background subject centered vertically and horizontally red halo provides the only color contrast against monochrome skin tones bright jewelry and cup rim act as secondary focal points deep shadows obscure the torso to create a floating effect low key lighting centered subject red radial head glow black on black styling",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Urban Portrait with Halo Effect",
+      "category": "Photography",
+      "medium": [
+        "Digital Photography",
+        "Photo Manipulation"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Promotional Poster",
+        "Social Media Profile"
+      ],
+      "retrievalTags": [
+        "low-key lighting",
+        "red halo",
+        "urban portrait",
+        "high contrast",
+        "minimalist background"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, low-key portrait featuring a central subject emerging from total darkness with a soft red glow behind the head.",
+      "triggerTerms": [
+        "red halo portrait",
+        "low-key urban photography",
+        "subject emerging from black background"
+      ],
+      "excludeWhen": [
+        "brightly lit scenes",
+        "complex environments",
+        "natural outdoor lighting"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, medium-close-up portrait of a man against a solid black background. The subject's face and hands are illuminated with high-contrast lighting, while his clothing blends into the darkness. A soft, circular red glow emanates from behind his head, creating a modern halo effect.",
+    "coreVisualRelationships": [
+      "Subject centered vertically and horizontally",
+      "Red halo provides the only color contrast against monochrome skin tones",
+      "Bright jewelry and cup rim act as secondary focal points",
+      "Deep shadows obscure the torso to create a floating effect"
+    ],
+    "coreInvariants": [
+      "Solid pitch-black background",
+      "Soft-edged red circular glow behind the head",
+      "High-contrast lighting on facial features"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered, occupying the middle vertical third of the frame.",
+      "visualAnchor": "The subject's face, framed by the red halo.",
+      "movementAndEyePath": "Eyes start at the face/halo, move down the jewelry to the hand holding the cup at the bottom.",
+      "negativeSpace": "Extensive black negative space surrounding the subject on all sides."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (Background and clothing)",
+      "contrastColorRole": "Desaturated skin tones and silver jewelry",
+      "accentColorRole": "Vibrant red (Halo and cup)",
+      "saturationAndValueRelationship": "High value contrast between skin/jewelry and background; low saturation except for the red accents.",
+      "paletteRestrictions": [
+        "Black",
+        "Red",
+        "Silver/White",
+        "Desaturated Brown"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Radial gradient glow",
+        "Film grain texture"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast portrait of a man with a fade haircut and silver chains against a pure black background. Apply a soft red radial glow behind his head. Ensure his black shirt blends perfectly into the background.",
+        "overlayInstruction": "If adding text, use a bold, wide sans-serif font in white, placed either at the very top or very bottom to maintain the central focus."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Is there a soft red glow behind the head?",
+        "Is the lighting high-contrast on the face?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the red halo",
+      "Amount of film grain",
+      "Subject's accessories"
+    ],
+    "mustRedesign": [
+      "Avoid any visible background elements or textures other than grain",
+      "Ensure the clothing is indistinguishable from the black background"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Deep, true blacks",
+        "Sharp focus on facial features",
+        "Smooth gradient for the red halo"
+      ],
+      "avoid": [
+        "Muddy grey backgrounds",
+        "Over-saturation of skin tones",
+        "Harsh edges on the halo"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure black levels in the background",
+      "Verify the red halo is centered behind the head",
+      "Ensure jewelry highlights are crisp",
+      "Confirm the cup at the bottom is visible but secondary"
+    ],
+    "reuseFormula": "Low-key lighting + centered subject + red radial head-glow + black-on-black styling."
+  }
+}

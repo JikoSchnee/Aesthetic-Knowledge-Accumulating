@@ -1,0 +1,305 @@
+{
+  "id": "6bfb898fd165e0d4c013ec52566c0f978877d3f882d90aa031812b233d2f8647",
+  "skillId": "6bfb898fd165e0d4c013ec52566c0f978877d3f882d90aa031812b233d2f8647",
+  "versionId": "6bfb898fd165e0d4c013ec52566c0f978877d3f882d90aa031812b233d2f8647",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:41:57.766Z",
+  "approvedAt": "2026-08-12T22:41:57.766Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:41:57.766Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Return of Bruno.jpg",
+    "hash": "6bfb898fd165e0d4c013ec52566c0f978877d3f882d90aa031812b233d2f8647",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Return of Bruno",
+    "artist": "Bruce Willis",
+    "artworkUrl": "https://coverartarchive.org/release-group/eb19b9f9-a7c4-3206-8434-446bffc659c3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/eb19b9f9-a7c4-3206-8434-446bffc659c3",
+    "releaseGroupId": "eb19b9f9-a7c4-3206-8434-446bffc659c3",
+    "recordingId": "1983ea5a-c3fc-4634-b7ae-e462805dfd2d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Under The BoardwalkBruce Willis",
+      "song": "Under The Boardwalk",
+      "performer": "Bruce Willis",
+      "peakPosition": 59,
+      "firstChartDate": "1987-06-13",
+      "lastChartDate": "1987-07-25",
+      "appearances": [
+        {
+          "chartDate": "1987-06-13",
+          "position": 89
+        },
+        {
+          "chartDate": "1987-06-20",
+          "position": 77
+        },
+        {
+          "chartDate": "1987-06-27",
+          "position": 72
+        },
+        {
+          "chartDate": "1987-07-04",
+          "position": 64
+        },
+        {
+          "chartDate": "1987-07-11",
+          "position": 59
+        },
+        {
+          "chartDate": "1987-07-18",
+          "position": 69
+        },
+        {
+          "chartDate": "1987-07-25",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro studio portrait with neon script high contrast portrait warm studio lighting serif display type neon pink marker script grainy film texture 80s aesthetic contrast between the structured yellow serif and the chaotic pink script warm rim lighting on the subject against a deep black background triangular balance between the subject s face and the two text blocks film grain texture unifying the photographic and graphic elements combine high contrast warm portrait bold yellow serif header vibrant pink marker script heavy film grain",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Studio Portrait with Neon Script",
+      "category": "Album Cover Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Offset Print"
+      ],
+      "useCases": [
+        "80s-inspired music covers",
+        "Celebrity portraiture with high contrast",
+        "Retro marketing materials"
+      ],
+      "retrievalTags": [
+        "high-contrast portrait",
+        "warm studio lighting",
+        "serif display type",
+        "neon pink marker script",
+        "grainy film texture",
+        "80s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast male portrait set against a dark, warm-lit studio background featuring bold yellow serif headers and vibrant pink hand-drawn marker script.",
+      "triggerTerms": [
+        "80s studio portrait style",
+        "yellow serif header with pink marker script",
+        "warm rim-lit portrait on dark background"
+      ],
+      "excludeWhen": [
+        "minimalist modern design is requested",
+        "flat vector illustration is needed",
+        "cool-toned or high-key lighting is required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium close-up portrait of a man in a dark shirt, positioned on the right side of the frame, looking toward the viewer. The background is a dimly lit, warm studio or stage environment with bokeh highlights. The composition is anchored by large, bold yellow serif typography at the top left and a vibrant, messy pink marker-style script at the bottom left.",
+    "coreVisualRelationships": [
+      "Contrast between the structured yellow serif and the chaotic pink script",
+      "Warm rim lighting on the subject against a deep black background",
+      "Triangular balance between the subject's face and the two text blocks",
+      "Film grain texture unifying the photographic and graphic elements"
+    ],
+    "coreInvariants": [
+      "High-contrast chiaroscuro lighting",
+      "Vibrant yellow and hot pink color accents",
+      "Grainy, analog film aesthetic"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is a medium close-up, occupying the right two-thirds of the frame, slightly angled toward the camera.",
+      "visualAnchor": "The subject's face and the bright yellow display type at the top left.",
+      "movementAndEyePath": "Starts at the yellow header, moves down to the pink script, then across to the subject's face.",
+      "negativeSpace": "Deep shadows in the background provide significant negative space for the text elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and dark browns (background and clothing)",
+      "contrastColorRole": "Warm amber and yellow (lighting and header text)",
+      "accentColorRole": "Vibrant magenta/hot pink (marker script)",
+      "saturationAndValueRelationship": "High value contrast with saturated accents against a low-value, desaturated background.",
+      "paletteRestrictions": [
+        "Avoid cool blues or greens",
+        "Maintain high black levels"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "High-contrast transitional serif and expressive gestural script",
+      "letterConstructionRules": [
+        "Header: Thick vertical strokes, thin horizontal strokes, sharp serifs",
+        "Script: Variable pressure marker strokes, overlapping letters, jagged edges"
+      ],
+      "characterSpecificRedesigns": [
+        "Tight kerning in the serif header where serifs almost touch",
+        "Underlining flourish in the script text"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Angular",
+            "counters": "Open",
+            "strokeCharacter": "Classic"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top Left",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlays dark background"
+          },
+          "treatment": {
+            "fill": "Solid Yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Script",
+          "anatomy": {
+            "width": "Variable",
+            "weight": "Medium-Bold",
+            "contrast": "Low",
+            "xHeight": "Irregular",
+            "terminals": "Blunt",
+            "corners": "Rounded",
+            "counters": "Tight",
+            "strokeCharacter": "Marker-drawn"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked/Angled",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Bottom Left",
+            "scale": "Medium",
+            "rotation": "Slightly tilted",
+            "warp": "Hand-drawn irregularity",
+            "overlap": "Letters overlap slightly",
+            "relationshipToImage": "Overlays dark background and subject's arm"
+          },
+          "treatment": {
+            "fill": "Solid Magenta/Pink",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Ink-bleed effect",
+            "distortion": "Gestural"
+          }
+        }
+      ],
+      "pairingStrategy": "Formal, rigid serif paired with chaotic, informal marker script for high energy.",
+      "graphicDevices": [
+        "Hand-drawn underline flourish",
+        "Film grain overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow/Pink color contrast",
+          "Serif/Script pairing",
+          "Tight stacking of text"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Clean digital vectors without grain",
+          "Centered alignment"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Caslon No. 224",
+            "reason": "Matches the high-contrast bold serif look of the header",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Permanent Marker",
+            "reason": "Approximates the raw, hand-drawn feel of the subtitle",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast portrait of a man in a black t-shirt, lit with warm amber rim light against a dark, out-of-focus studio background with warm bokeh. Apply a heavy film grain texture.",
+        "overlayInstruction": "Add bold yellow serif text in the top left corner, stacked tightly. Add a vibrant pink hand-drawn marker script in the bottom left corner with a jagged underline."
+      },
+      "verificationChecks": [
+        "Is the yellow text a high-contrast serif?",
+        "Is the pink text a messy, hand-drawn script?",
+        "Is the lighting high-contrast with warm highlights?",
+        "Is there a visible film grain texture across the whole image?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the pink script color",
+      "Amount of film grain",
+      "Tightness of the serif kerning",
+      "Warmth of the background bokeh"
+    ],
+    "mustRedesign": [
+      "Do not use the specific name 'Bruce Willis'",
+      "Do not use the specific title 'The Return of Bruno'",
+      "Avoid exact replication of the subject's facial features"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1980s film photography look",
+        "Vibrant, non-pastel accent colors",
+        "Clear hierarchy between the two text styles"
+      ],
+      "avoid": [
+        "Flat, modern digital lighting",
+        "Clean, sterile typography",
+        "Low-contrast backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the pink script looks hand-drawn, not like a standard font",
+      "Check that the yellow text is perfectly legible against the dark background",
+      "Confirm the subject is positioned to the right to allow space for text",
+      "Verify the presence of film grain"
+    ],
+    "reuseFormula": "Combine [High-Contrast Warm Portrait] + [Bold Yellow Serif Header] + [Vibrant Pink Marker Script] + [Heavy Film Grain]."
+  }
+}

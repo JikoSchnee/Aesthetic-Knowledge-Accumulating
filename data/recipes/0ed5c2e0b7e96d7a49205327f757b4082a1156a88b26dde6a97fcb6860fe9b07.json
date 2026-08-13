@@ -1,0 +1,259 @@
+{
+  "id": "0ed5c2e0b7e96d7a49205327f757b4082a1156a88b26dde6a97fcb6860fe9b07",
+  "skillId": "0ed5c2e0b7e96d7a49205327f757b4082a1156a88b26dde6a97fcb6860fe9b07",
+  "versionId": "0ed5c2e0b7e96d7a49205327f757b4082a1156a88b26dde6a97fcb6860fe9b07",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:03:29.282Z",
+  "approvedAt": "2026-08-12T15:03:29.282Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:03:29.282Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Keane Brothers.jpg",
+    "hash": "0ed5c2e0b7e96d7a49205327f757b4082a1156a88b26dde6a97fcb6860fe9b07",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Keane Brothers",
+    "artist": "The Keane Brothers",
+    "artworkUrl": "https://coverartarchive.org/release-group/f104f2b2-402e-45a6-a342-30edf5903df0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f104f2b2-402e-45a6-a342-30edf5903df0",
+    "releaseGroupId": "f104f2b2-402e-45a6-a342-30edf5903df0",
+    "recordingId": "09e4f855-d052-4e35-95b6-f8453ff0dec6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "SherryThe Keane Brothers",
+      "song": "Sherry",
+      "performer": "The Keane Brothers",
+      "peakPosition": 84,
+      "firstChartDate": "1976-11-13",
+      "lastChartDate": "1976-12-11",
+      "appearances": [
+        {
+          "chartDate": "1976-11-13",
+          "position": 90
+        },
+        {
+          "chartDate": "1976-11-20",
+          "position": 88
+        },
+        {
+          "chartDate": "1976-11-27",
+          "position": 86
+        },
+        {
+          "chartDate": "1976-12-04",
+          "position": 86
+        },
+        {
+          "chartDate": "1976-12-11",
+          "position": 84
+        }
+      ]
+    }
+  },
+  "dedupeText": "seventies studio portrait with graphic badge 1970s velvet suit mottled blue background geometric badge logo skateboarding portrait vintage sneakers subjects positioned in a tiered diagonal arrangement from bottom left to center right dark velvet textures contrasting against a bright textured blue background graphic badge in the upper left balancing the visual weight of the subjects warm skin tones and patterned shirts providing a color break from the dominant blues 1970s studio portrait velvet textures mottled blue backdrop geometric badge overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Seventies Studio Portrait with Graphic Badge",
+      "category": "Album Art",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design",
+        "Airbrushed Backdrop"
+      ],
+      "useCases": [
+        "Retro music packaging",
+        "Seventies-themed promotional posters",
+        "Nostalgic portraiture"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "velvet suit",
+        "mottled blue background",
+        "geometric badge logo",
+        "skateboarding portrait",
+        "vintage sneakers"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1970s studio portrait featuring subjects in dark velvet attire against a textured blue backdrop, anchored by a geometric, multi-tiered graphic badge in the upper corner.",
+      "triggerTerms": [
+        "70s studio portrait with blue mottled background",
+        "velvet suit fashion photography",
+        "geometric arrow-shaped logo badge"
+      ],
+      "excludeWhen": [
+        "modern minimalist photography",
+        "outdoor natural lighting",
+        "flat vector illustrations"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A staged studio composition featuring two subjects in dark velvet suits and patterned shirts. One subject sits on a skateboard while the other sits behind a small piano. The lighting is soft but directional, creating deep shadows in the velvet texture. The background is a classic mottled blue studio curtain. A prominent graphic badge with a blue and white color scheme sits in the top left, featuring a central hexagonal bar and diagonal secondary bars.",
+    "coreVisualRelationships": [
+      "Subjects positioned in a tiered, diagonal arrangement from bottom left to center right",
+      "Dark velvet textures contrasting against a bright, textured blue background",
+      "Graphic badge in the upper left balancing the visual weight of the subjects",
+      "Warm skin tones and patterned shirts providing a color break from the dominant blues"
+    ],
+    "coreInvariants": [
+      "Mottled blue studio backdrop with vignetted edges",
+      "Dark navy or black velvet clothing with visible sheen",
+      "Geometric badge logo with white outlines and blue fills"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two subjects occupy the lower two-thirds of the frame, arranged diagonally.",
+      "visualAnchor": "The graphic badge in the upper left corner serves as the primary brand anchor.",
+      "movementAndEyePath": "The eye starts at the bright logo, moves down the diagonal line of the subjects, and rests on the bright white sneakers at the bottom.",
+      "negativeSpace": "Significant negative space in the upper right quadrant, filled by the textured blue backdrop."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blue and navy (background and velvet suits)",
+      "contrastColorRole": "White (logo outlines, sneakers, and highlights)",
+      "accentColorRole": "Warm ochre and red (shirt patterns and sneaker stripes)",
+      "saturationAndValueRelationship": "High value contrast between the dark suits and the bright white accents; medium saturation in the blue background.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Limit to 70s-era earth tones for accents"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif and Script",
+      "letterConstructionRules": [
+        "Main text is uppercase, heavy-weight geometric sans-serif with wide proportions",
+        "Secondary text is a slanted, informal script with connected strokes",
+        "All text is contained within a multi-part geometric badge frame"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are tightly tracked to fit within the hexagonal bar",
+        "Script text is angled to match the diagonal orientation of the badge wings"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "medium",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "contained within badge",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "blue",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A bold, blocky sans-serif for the primary name paired with a fluid, slanted script for the descriptor.",
+      "graphicDevices": [
+        "Hexagonal central bar",
+        "Diagonal arrow-like wings",
+        "Circular thin-line halo behind the badge"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric badge shape",
+          "Blue and white color scheme",
+          "Diagonal text orientation for secondary elements"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Modern digital gradients",
+          "Drop shadows on text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic Bold",
+            "reason": "Matches the geometric, wide-set uppercase aesthetic of the 70s.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Brush Script",
+            "reason": "Approximates the informal, slanted secondary text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of two people in 1970s velvet suits against a mottled blue backdrop. One person is sitting on a vintage yellow skateboard, the other is sitting behind a small wooden toy piano. Use soft, directional lighting.",
+        "overlayInstruction": "Create a geometric badge in the top left corner consisting of a central blue hexagonal bar with white outlines. Add two diagonal blue bars above and below the center. Place bold white sans-serif text in the center and slanted script text in the diagonal bars."
+      },
+      "verificationChecks": [
+        "Is the background a mottled blue studio texture?",
+        "Are the subjects wearing velvet textures?",
+        "Is the logo badge geometric with a blue/white color scheme?",
+        "Is the primary text a bold, wide sans-serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject age and gender",
+      "Specific props (skateboard, piano)",
+      "Intensity of the blue background texture"
+    ],
+    "mustRedesign": [
+      "Specific faces of the original subjects",
+      "Original brand logos",
+      "Exact shirt patterns"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s studio lighting",
+        "Rich velvet fabric rendering",
+        "Clean, sharp-edged graphic badge"
+      ],
+      "avoid": [
+        "Flat, untextured backgrounds",
+        "Modern casual clothing",
+        "Digital-looking glow effects"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the velvet has a visible sheen and deep shadows.",
+      "Verify the badge is positioned in the upper left quadrant.",
+      "Check that the white sneakers provide a bright visual anchor at the bottom.",
+      "Confirm the background has a painterly, mottled quality."
+    ],
+    "reuseFormula": "1970s Studio Portrait + Velvet Textures + Mottled Blue Backdrop + Geometric Badge Overlay"
+  }
+}

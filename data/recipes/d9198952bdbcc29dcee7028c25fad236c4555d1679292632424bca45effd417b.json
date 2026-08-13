@@ -1,0 +1,270 @@
+{
+  "id": "d9198952bdbcc29dcee7028c25fad236c4555d1679292632424bca45effd417b",
+  "skillId": "d9198952bdbcc29dcee7028c25fad236c4555d1679292632424bca45effd417b",
+  "versionId": "d9198952bdbcc29dcee7028c25fad236c4555d1679292632424bca45effd417b",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:16:20.517Z",
+  "approvedAt": "2026-08-12T16:16:20.517Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:16:20.517Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Breakthrough.jpg",
+    "hash": "d9198952bdbcc29dcee7028c25fad236c4555d1679292632424bca45effd417b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Breakthrough",
+    "artist": "Lenny LeBlanc",
+    "artworkUrl": "https://coverartarchive.org/release-group/67502c88-914c-401c-a24b-14f420e8c2f6/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/67502c88-914c-401c-a24b-14f420e8c2f6",
+    "releaseGroupId": "67502c88-914c-401c-a24b-14f420e8c2f6",
+    "recordingId": "b1bba7ee-8c26-4869-8367-4ec51c2c6f95",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Somebody Send My Baby HomeLenny LeBlanc",
+      "song": "Somebody Send My Baby Home",
+      "performer": "Lenny LeBlanc",
+      "peakPosition": 55,
+      "firstChartDate": "1981-03-28",
+      "lastChartDate": "1981-05-09",
+      "appearances": [
+        {
+          "chartDate": "1981-03-28",
+          "position": 87
+        },
+        {
+          "chartDate": "1981-04-04",
+          "position": 77
+        },
+        {
+          "chartDate": "1981-04-11",
+          "position": 69
+        },
+        {
+          "chartDate": "1981-04-18",
+          "position": 63
+        },
+        {
+          "chartDate": "1981-04-25",
+          "position": 57
+        },
+        {
+          "chartDate": "1981-05-02",
+          "position": 55
+        },
+        {
+          "chartDate": "1981-05-09",
+          "position": 78
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage arched frame portrait layout arched frame brick wall background double exposure effect 70s typography earth tones rounded sans serif typography follows the curvature of the central arch subject transparency reveals background texture earth toned palette unifies the frame and background rounded corners of the frame echo the letterforms arched frame double exposure portrait rounded outlined display type 70s retro cover",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Arched Frame Portrait Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Illustration"
+      ],
+      "useCases": [
+        "Album cover design",
+        "Retro editorial layouts",
+        "Vintage poster design"
+      ],
+      "retrievalTags": [
+        "arched frame",
+        "brick wall background",
+        "double exposure effect",
+        "70s typography",
+        "earth tones",
+        "rounded sans-serif"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered portrait within a rounded arch frame, featuring a double-exposure effect against a brick wall and heavy, rounded display typography.",
+      "triggerTerms": [
+        "70s album cover style",
+        "arched window frame portrait",
+        "brick wall double exposure",
+        "rounded bubble display text"
+      ],
+      "excludeWhen": [
+        "modern minimalist requests",
+        "high-contrast neon designs",
+        "sharp geometric layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central vertical rectangle with a rounded top arch containing a portrait of a man. The man is partially transparent, revealing a weathered brick wall behind him. The entire frame is set against a solid brown background, with large, rounded, outlined typography arching over the top of the frame.",
+    "coreVisualRelationships": [
+      "Typography follows the curvature of the central arch",
+      "Subject transparency reveals background texture",
+      "Earth-toned palette unifies the frame and background",
+      "Rounded corners of the frame echo the letterforms"
+    ],
+    "coreInvariants": [
+      "The central frame must have a rounded arch top",
+      "The subject must exhibit a double-exposure or ghosting effect against a textured wall",
+      "The typography must be thick, rounded, and outlined"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body portrait centered within the arched frame, scaled to fill the vertical space.",
+      "visualAnchor": "The large, arched display text at the top center.",
+      "movementAndEyePath": "Eyes start at the bold top text, follow the arch down into the portrait, and settle on the subject's face.",
+      "negativeSpace": "Substantial solid brown border surrounding the central arched frame."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm chocolate brown background",
+      "contrastColorRole": "Tan/beige for the frame border and text fill",
+      "accentColorRole": "Red and black from the subject's clothing",
+      "saturationAndValueRelationship": "Low saturation, muted earth tones with a vintage film-like fade.",
+      "paletteRestrictions": [
+        "Brown",
+        "Tan",
+        "Brick Red",
+        "Muted Grey"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Extra-bold rounded sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Fully rounded terminals and corners",
+        "Tight letter spacing",
+        "Thick dark outlines"
+      ],
+      "characterSpecificRedesigns": [
+        "The initial 'L' is significantly elongated vertically to anchor the left side of the arch"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "rounded-sans",
+          "anatomy": {
+            "width": "wide",
+            "weight": "heavy",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "rounded",
+            "counters": "circular",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered-arch",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "curved",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "variable-along-path",
+            "warp": "arch",
+            "overlap": "none",
+            "relationshipToImage": "arched over the frame"
+          },
+          "treatment": {
+            "fill": "tan",
+            "outline": "dark brown",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single heavy display face with a small, rectangular-boxed sans-serif for metadata.",
+      "graphicDevices": [
+        "Rounded-top rectangular frame",
+        "Double-line border",
+        "Boxed text element in bottom corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Rounded terminals",
+          "Thick outline",
+          "Arched baseline"
+        ],
+        "avoid": [
+          "Serifs",
+          "Thin strokes",
+          "Sharp angles"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Pump Triline or Bauhaus Heavy",
+            "reason": "Matches the thick, rounded, geometric 70s aesthetic",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "VAG Rounded Black",
+            "reason": "Provides the necessary rounded terminals and weight",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a solid chocolate brown background. In the center, place a vertical rectangle with a rounded arch top. Inside the arch, show a man in 70s attire standing against a weathered brick wall, using a double-exposure effect so the bricks are visible through his body.",
+        "overlayInstruction": "Add large, extra-bold rounded sans-serif text in an arch shape over the top of the frame. The text should have a tan fill and a thick dark brown outline. Add a small tan box with dark text in the bottom right corner."
+      },
+      "verificationChecks": [
+        "Is the top of the central frame a perfect arch?",
+        "Is the brick texture visible through the subject?",
+        "Does the typography have thick, rounded outlines?",
+        "Is the color palette restricted to muted earth tones?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Transparency level of the subject",
+      "Thickness of the frame border",
+      "Curvature of the text arch",
+      "Brick wall color and weathering"
+    ],
+    "mustRedesign": [
+      "Any modern digital gradients",
+      "Sharp-edged typography",
+      "High-saturation colors"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film grain texture",
+        "Consistent rounded geometry between frame and text",
+        "Balanced earth-tone palette"
+      ],
+      "avoid": [
+        "Clean, high-definition digital photography",
+        "Default system fonts",
+        "White backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the 'L' or initial letter anchors the arch correctly",
+      "Verify the double-exposure effect is subtle but visible",
+      "Ensure the frame border is perfectly centered",
+      "Confirm the text outline is thick enough to be a distinct graphic element"
+    ],
+    "reuseFormula": "Arched Frame + Double Exposure Portrait + Rounded Outlined Display Type = 70s Retro Cover"
+  }
+}

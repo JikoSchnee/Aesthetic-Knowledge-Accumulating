@@ -1,0 +1,316 @@
+{
+  "id": "046c28262281193a679fdb5923642a0319dea8f4d70515a6ded395bdc634e078",
+  "skillId": "046c28262281193a679fdb5923642a0319dea8f4d70515a6ded395bdc634e078",
+  "versionId": "046c28262281193a679fdb5923642a0319dea8f4d70515a6ded395bdc634e078",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T20:44:49.192Z",
+  "approvedAt": "2026-08-12T20:44:49.192Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T20:44:49.192Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The More I See You/Call Me.jpg",
+    "hash": "046c28262281193a679fdb5923642a0319dea8f4d70515a6ded395bdc634e078",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The More I See You/Call Me",
+    "artist": "Chris Montez",
+    "artworkUrl": "https://coverartarchive.org/release-group/63b3c9aa-2411-392f-8e31-ba4c6e6ba1a6/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/63b3c9aa-2411-392f-8e31-ba4c6e6ba1a6",
+    "releaseGroupId": "63b3c9aa-2411-392f-8e31-ba4c6e6ba1a6",
+    "recordingId": "d44754f8-52a2-49f5-9ba4-2cac4b311e34",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "There Will Never Be Another YouChris Montez",
+      "song": "There Will Never Be Another You",
+      "performer": "Chris Montez",
+      "peakPosition": 33,
+      "firstChartDate": "1966-08-13",
+      "lastChartDate": "1966-10-01",
+      "appearances": [
+        {
+          "chartDate": "1966-08-13",
+          "position": 90
+        },
+        {
+          "chartDate": "1966-08-20",
+          "position": 74
+        },
+        {
+          "chartDate": "1966-08-27",
+          "position": 59
+        },
+        {
+          "chartDate": "1966-09-03",
+          "position": 43
+        },
+        {
+          "chartDate": "1966-09-10",
+          "position": 35
+        },
+        {
+          "chartDate": "1966-09-17",
+          "position": 33
+        },
+        {
+          "chartDate": "1966-09-24",
+          "position": 46
+        },
+        {
+          "chartDate": "1966-10-01",
+          "position": 46
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century pop album cover aesthetic 1960s mod pop music swash lettering studio portrait vibrant orange blue background subject in dark suit as the primary visual anchor supporting figures in high contrast orange clothing text clustered in the upper left quadrant solid blue background providing a clean field for subjects and type combine studio portrait with 60s styling textured blue backdrop left aligned swash typography in white yellow",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Pop Album Cover Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Vintage album art",
+        "1960s retro marketing",
+        "Nostalgic music promotion"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "mod",
+        "pop music",
+        "swash lettering",
+        "studio portrait",
+        "vibrant orange",
+        "blue background"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Use this skill for 1960s-style pop album covers featuring studio portraits of smiling performers against solid backgrounds with heavy swash typography.",
+      "triggerTerms": [
+        "1960s pop album cover",
+        "mod studio portrait",
+        "vintage swash lettering",
+        "retro music aesthetic"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "dark or gritty themes",
+        "abstract digital art"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A vibrant 1960s studio portrait composition featuring a central male figure in a dark suit flanked by female figures in bright orange, set against a textured blue backdrop with prominent, decorative swash typography in the upper left.",
+    "coreVisualRelationships": [
+      "Subject in dark suit as the primary visual anchor",
+      "Supporting figures in high-contrast orange clothing",
+      "Text clustered in the upper left quadrant",
+      "Solid blue background providing a clean field for subjects and type"
+    ],
+    "coreInvariants": [
+      "High-key studio lighting with soft shadows",
+      "Decorative swash-heavy display typography",
+      "Complementary blue and orange color palette"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Primary subject is mid-ground right, secondary subjects are staggered in the background and foreground left.",
+      "visualAnchor": "The male figure in the dark suit provides the heaviest visual weight.",
+      "movementAndEyePath": "Eyes move from the large white title in the top left, down the list of tracks, then across to the smiling faces of the subjects.",
+      "negativeSpace": "The blue background acts as negative space, primarily concentrated in the upper right and around the text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Medium blue background",
+      "contrastColorRole": "Bright orange clothing on female subjects",
+      "accentColorRole": "White and yellow for typography",
+      "saturationAndValueRelationship": "High saturation in the orange and blue, with high value contrast between the dark suit and the bright background.",
+      "paletteRestrictions": [
+        "Cerulean blue",
+        "Safety orange",
+        "Pure white",
+        "Golden yellow"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy slab serif with extreme swashes",
+      "letterConstructionRules": [
+        "Exaggerated, curly swashes on capital letters",
+        "Thick, consistent stroke weight",
+        "Tight letter spacing",
+        "Italicized or slanted orientation for secondary headers"
+      ],
+      "characterSpecificRedesigns": [
+        "Capital 'C' and 'M' feature deep, circular curls",
+        "Lowercase 'z' has a decorative descending tail"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "decorative-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "ball-terminals",
+            "corners": "rounded",
+            "counters": "small",
+            "strokeCharacter": "monolinear-thick"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "flush-left",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floated-over-background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script-inflected-serif",
+          "anatomy": {
+            "width": "medium",
+            "weight": "bold",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "swash",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "multi-line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below-display",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floated-over-background"
+          },
+          "treatment": {
+            "fill": "yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold white swash display paired with smaller yellow script-like serif for secondary info.",
+      "graphicDevices": [
+        "Corner-aligned logo badge",
+        "Bottom-right technical metadata bar"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Swash characteristics",
+          "Color hierarchy",
+          "Left-aligned block"
+        ],
+        "avoid": [
+          "Modern sans-serifs",
+          "Centered layouts",
+          "Subtle pastels"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the heavy weight and decorative curls of the era.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Cooper Black Italic",
+            "reason": "Provides the necessary weight and friendly retro feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a man in a black suit and three women in bright orange sweaters, all smiling, against a textured blue wall background. Leave the top-left quadrant clear for text.",
+        "overlayInstruction": "Add the main title in a large, white, decorative swash font in the top left. Below it, add secondary text in a smaller, yellow, italicized serif font."
+      },
+      "verificationChecks": [
+        "Is the typography left-aligned?",
+        "Are the swashes on the display text prominent?",
+        "Is the blue/orange color contrast maintained?",
+        "Is the lighting consistent with 1960s studio photography?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background texture intensity",
+      "Typography swash length",
+      "Subject count",
+      "Orange saturation level"
+    ],
+    "mustRedesign": [
+      "Any modern digital artifacts",
+      "Flat, non-textured backgrounds",
+      "Thin, minimalist fonts"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s film grain look",
+        "Heavy, tactile-feeling typography",
+        "Genuine-looking smiles and period-accurate hair/clothing"
+      ],
+      "avoid": [
+        "Generic stock photo appearance",
+        "Default system fonts",
+        "Overly sharp digital edges"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for swash legibility",
+      "Verify blue/orange color balance",
+      "Ensure text does not obscure faces",
+      "Confirm 1960s period accuracy in styling",
+      "Check for proper left-alignment of text blocks"
+    ],
+    "reuseFormula": "Combine [Studio Portrait with 60s Styling] + [Textured Blue Backdrop] + [Left-Aligned Swash Typography in White/Yellow]."
+  }
+}

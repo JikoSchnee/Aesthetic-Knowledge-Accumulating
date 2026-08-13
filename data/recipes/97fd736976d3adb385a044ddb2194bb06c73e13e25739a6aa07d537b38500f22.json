@@ -1,0 +1,293 @@
+{
+  "id": "97fd736976d3adb385a044ddb2194bb06c73e13e25739a6aa07d537b38500f22",
+  "skillId": "97fd736976d3adb385a044ddb2194bb06c73e13e25739a6aa07d537b38500f22",
+  "versionId": "97fd736976d3adb385a044ddb2194bb06c73e13e25739a6aa07d537b38500f22",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:50:52.008Z",
+  "approvedAt": "2026-08-12T12:50:52.008Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:50:52.008Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Hello My Name Is....jpg",
+    "hash": "97fd736976d3adb385a044ddb2194bb06c73e13e25739a6aa07d537b38500f22",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Hello My Name Is...",
+    "artist": "Bridgit Mendler",
+    "artworkUrl": "https://coverartarchive.org/release-group/1c706735-7d78-4e75-a491-bf0d4369c722/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1c706735-7d78-4e75-a491-bf0d4369c722",
+    "releaseGroupId": "1c706735-7d78-4e75-a491-bf0d4369c722",
+    "recordingId": "fca0c32f-8f71-49ef-ad6b-d0eb7d21e734",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Ready Or NotBridgit Mendler",
+      "song": "Ready Or Not",
+      "performer": "Bridgit Mendler",
+      "peakPosition": 49,
+      "firstChartDate": "2012-11-03",
+      "lastChartDate": "2013-01-26",
+      "appearances": [
+        {
+          "chartDate": "2012-11-03",
+          "position": 98
+        },
+        {
+          "chartDate": "2012-11-10",
+          "position": 78
+        },
+        {
+          "chartDate": "2012-11-17",
+          "position": 85
+        },
+        {
+          "chartDate": "2012-11-24",
+          "position": 98
+        },
+        {
+          "chartDate": "2012-12-01",
+          "position": 90
+        },
+        {
+          "chartDate": "2012-12-08",
+          "position": 87
+        },
+        {
+          "chartDate": "2012-12-15",
+          "position": 87
+        },
+        {
+          "chartDate": "2012-12-22",
+          "position": 97
+        },
+        {
+          "chartDate": "2012-12-29",
+          "position": 87
+        },
+        {
+          "chartDate": "2013-01-05",
+          "position": 94
+        },
+        {
+          "chartDate": "2013-01-12",
+          "position": 49
+        },
+        {
+          "chartDate": "2013-01-19",
+          "position": 75
+        },
+        {
+          "chartDate": "2013-01-26",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "pop portrait with geometric color accents blonde hair with highlights geometric color bars soft studio lighting lower third typography messy textured hair pop aesthetic subject s gaze directed slightly off camera to create a candid feel vertical color bars on the left mirroring the verticality of the hair strands horizontal text block grounding the airy messy texture of the upper image color streaks in hair echoing the palette of the graphic overlays studio portrait messy textured hair left aligned vertical color bars lower third gradient text block",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Pop Portrait with Geometric Color Accents",
+      "category": "Music Album Art",
+      "medium": [
+        "Studio Photography",
+        "Digital Graphic Overlay"
+      ],
+      "useCases": [
+        "Pop music album covers",
+        "Teen lifestyle magazine spreads",
+        "Promotional artist headshots"
+      ],
+      "retrievalTags": [
+        "blonde hair with highlights",
+        "geometric color bars",
+        "soft studio lighting",
+        "lower third typography",
+        "messy textured hair",
+        "pop aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A studio portrait of a young woman featuring messy blonde hair with vibrant multi-colored streaks, framed by vertical geometric color bars and a horizontal lower-third text block.",
+      "triggerTerms": [
+        "pop artist portrait with color bars",
+        "messy blonde hair with rainbow highlights",
+        "lower third graphic overlay portrait"
+      ],
+      "excludeWhen": [
+        "high-contrast noir lighting is requested",
+        "minimalist black and white photography is needed",
+        "corporate professional headshots are required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium close-up of a young woman with voluminous, wind-swept blonde hair containing hidden streaks of blue, pink, and yellow. The composition is stabilized by three thin vertical color bars on the left and a semi-transparent horizontal gradient bar at the bottom containing sans-serif typography.",
+    "coreVisualRelationships": [
+      "Subject's gaze directed slightly off-camera to create a candid feel",
+      "Vertical color bars on the left mirroring the verticality of the hair strands",
+      "Horizontal text block grounding the airy, messy texture of the upper image",
+      "Color streaks in hair echoing the palette of the graphic overlays"
+    ],
+    "coreInvariants": [
+      "Neutral grey studio background",
+      "Soft, diffused key lighting with minimal harsh shadows",
+      "Messy, high-volume hair texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered horizontally, filling approximately 70% of the frame from chest up.",
+      "visualAnchor": "The subject's eyes and the bold lower-third text block.",
+      "movementAndEyePath": "Eyes start at the subject's face, follow the hair downward to the hand, and rest on the horizontal text bar.",
+      "negativeSpace": "Uniform light grey space surrounding the head to allow hair flyaways to be visible."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm blonde and neutral grey background",
+      "contrastColorRole": "Teal, magenta, and yellow vertical bars",
+      "accentColorRole": "Rainbow hair highlights and gold jewelry",
+      "saturationAndValueRelationship": "High saturation in graphic elements against a desaturated, soft-toned photographic base.",
+      "paletteRestrictions": [
+        "Teal",
+        "Magenta",
+        "Mustard Yellow",
+        "Soft Grey"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Modern geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Circular counters in 'b', 'd', 'g', 'o'",
+        "Tight kerning for the primary name"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'g' with a simplified open loop",
+        "Lowercase 't' with a short crossbar"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over subject",
+            "relationshipToImage": "anchored to horizontal bar"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "flat",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold lowercase primary name paired with all-caps light-weight secondary metadata.",
+      "graphicDevices": [
+        "Vertical thin stripes",
+        "Semi-transparent horizontal gradient overlay",
+        "Color-matched hair highlights"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase styling",
+          "Geometric circularity",
+          "Horizontal bar placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Matches the clean, modern geometric structure and high x-height.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat",
+            "reason": "Provides the same circular 'o' and 'g' shapes in lowercase.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a young woman with messy blonde hair containing blue and pink highlights, wearing a gold ring, against a grey background. Include three thin vertical lines (teal, magenta, yellow) on the far left.",
+        "overlayInstruction": "Apply a semi-transparent magenta-to-orange horizontal gradient bar across the bottom third. Place bold white geometric sans-serif text in lowercase on the left side of the bar."
+      },
+      "verificationChecks": [
+        "Text is lowercase and bold",
+        "Hair has visible multi-colored streaks",
+        "Vertical color bars are present on the left edge",
+        "Background is a neutral, flat grey"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of hair highlights",
+      "Width of vertical graphic bars",
+      "Opacity of the horizontal text overlay",
+      "Subject's expression"
+    ],
+    "mustRedesign": [
+      "Any specific artist names or logos",
+      "Exact placement of hair flyaways",
+      "Specific jewelry design"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean graphic-to-photo integration",
+        "Soft skin retouching",
+        "High-volume hair texture"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Harsh flash shadows",
+        "Illegible text contrast"
+      ]
+    },
+    "postGenerationChecks": [
+      "Is the text anchored to the lower third?",
+      "Are the vertical bars aligned to the left edge?",
+      "Does the hair look naturally messy rather than matted?",
+      "Is the color palette consistent between the graphics and the hair?"
+    ],
+    "reuseFormula": "Studio Portrait + Messy Textured Hair + Left-aligned Vertical Color Bars + Lower-Third Gradient Text Block"
+  }
+}

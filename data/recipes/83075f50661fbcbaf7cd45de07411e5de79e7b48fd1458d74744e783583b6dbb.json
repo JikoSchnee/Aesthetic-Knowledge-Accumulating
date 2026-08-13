@@ -1,0 +1,282 @@
+{
+  "id": "83075f50661fbcbaf7cd45de07411e5de79e7b48fd1458d74744e783583b6dbb",
+  "skillId": "83075f50661fbcbaf7cd45de07411e5de79e7b48fd1458d74744e783583b6dbb",
+  "versionId": "83075f50661fbcbaf7cd45de07411e5de79e7b48fd1458d74744e783583b6dbb",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:54:16.525Z",
+  "approvedAt": "2026-08-12T05:54:16.525Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:54:16.525Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Twain Shall Meet.jpg",
+    "hash": "83075f50661fbcbaf7cd45de07411e5de79e7b48fd1458d74744e783583b6dbb",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Twain Shall Meet",
+    "artist": "Eric Burdon & The Animals",
+    "artworkUrl": "https://coverartarchive.org/release-group/868e9e16-3e18-3579-8e9b-212cf7d074c4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/868e9e16-3e18-3579-8e9b-212cf7d074c4",
+    "releaseGroupId": "868e9e16-3e18-3579-8e9b-212cf7d074c4",
+    "recordingId": "dab7a4d3-688e-454f-bde0-c594e5334de1",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "MontereyEric Burdon & The Animals",
+      "song": "Monterey",
+      "performer": "Eric Burdon & The Animals",
+      "peakPosition": 15,
+      "firstChartDate": "1967-12-16",
+      "lastChartDate": "1968-02-10",
+      "appearances": [
+        {
+          "chartDate": "1967-12-16",
+          "position": 85
+        },
+        {
+          "chartDate": "1967-12-23",
+          "position": 64
+        },
+        {
+          "chartDate": "1967-12-30",
+          "position": 32
+        },
+        {
+          "chartDate": "1968-01-06",
+          "position": 24
+        },
+        {
+          "chartDate": "1968-01-13",
+          "position": 15
+        },
+        {
+          "chartDate": "1968-01-20",
+          "position": 15
+        },
+        {
+          "chartDate": "1968-01-27",
+          "position": 37
+        },
+        {
+          "chartDate": "1968-02-03",
+          "position": 39
+        },
+        {
+          "chartDate": "1968-02-10",
+          "position": 42
+        }
+      ]
+    }
+  },
+  "dedupeText": "psychedelic grid collage psychedelic 1960s grid layout mixed media collage vintage photography surrealism warm tones grid based modularity vs organic overlapping elements high contrast monochrome faces vs saturated warm toned graphics mechanical precision gears clocks vs natural fragility flowers birds flat graphic symbols vs three dimensional found objects modular grid warm palette high contrast b w portraits psychedelic symbols warped vertical lettering 1960s collage aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Psychedelic Grid Collage",
+      "category": "Graphic Design",
+      "medium": [
+        "Mixed Media",
+        "Collage",
+        "Analog Photography",
+        "Found Objects"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Retro Poster Design",
+        "Editorial Illustration",
+        "Artistic Montage"
+      ],
+      "retrievalTags": [
+        "psychedelic",
+        "1960s",
+        "grid layout",
+        "mixed media collage",
+        "vintage photography",
+        "surrealism",
+        "warm tones"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dense, modular grid collage combining high-contrast monochrome portraits with vibrant psychedelic symbols and physical textures.",
+      "triggerTerms": [
+        "modular grid collage",
+        "1960s psychedelic montage",
+        "mixed media album art",
+        "warm-toned vintage collage"
+      ],
+      "excludeWhen": [
+        "clean minimalist layouts",
+        "modern digital flat design",
+        "single-subject photography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A complex, multi-panel composition structured on an irregular grid. It features a mix of high-contrast black-and-white portraiture, organic elements like dried flowers and nests, mechanical gears, and bold psychedelic graphic symbols. The color palette is dominated by warm oranges, reds, and yellows, contrasted against stark monochrome photography and deep black borders.",
+    "coreVisualRelationships": [
+      "Grid-based modularity vs. organic overlapping elements",
+      "High-contrast monochrome faces vs. saturated warm-toned graphics",
+      "Mechanical precision (gears, clocks) vs. natural fragility (flowers, birds)",
+      "Flat graphic symbols vs. three-dimensional found objects"
+    ],
+    "coreInvariants": [
+      "Warm orange and red color foundation",
+      "High-contrast black and white portraiture",
+      "Modular square and rectangular framing",
+      "Inclusion of 1960s-era graphic motifs"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A large-scale portrait occupies the bottom right quadrant, balanced by a dense cluster of smaller, varied modules across the rest of the frame.",
+      "visualAnchor": "The large face in the bottom right and the central white bird silhouette act as primary anchors.",
+      "movementAndEyePath": "The eye moves in a zig-zag pattern across the grid, jumping between high-contrast B&W elements and bright red/yellow focal points.",
+      "negativeSpace": "Minimal; the composition is a 'horror vacui' style collage with very little unoccupied area."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm Ochre and Burnt Orange (background and graphic fills)",
+      "contrastColorRole": "Deep Black and Stark White (photographic elements)",
+      "accentColorRole": "Bright Red and Golden Yellow (geometric shapes and flowers)",
+      "saturationAndValueRelationship": "High saturation in graphic areas meets high value contrast in photographic areas.",
+      "paletteRestrictions": [
+        "Avoid cool blues or greens except as very minor accents"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Psychedelic Art Nouveau",
+      "letterConstructionRules": [
+        "Heavy bottom-weighting",
+        "Liquid, flowing curves",
+        "Variable stroke widths with extreme contrast",
+        "Interlocking characters"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters that warp to fit rectangular containers",
+        "Vertical stacking of characters"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "Psychedelic Display",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Ultra-bold",
+            "contrast": "Extreme",
+            "xHeight": "High",
+            "terminals": "Rounded and flared",
+            "corners": "Softened",
+            "counters": "Tight and organic",
+            "strokeCharacter": "Fluid and melting"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Vertical",
+            "tracking": "Tight",
+            "leading": "None",
+            "lineBreakPattern": "Stacked",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Bottom center-left",
+            "scale": "Medium",
+            "rotation": "90 degrees",
+            "warp": "Heavy",
+            "overlap": "None",
+            "relationshipToImage": "Integrated into grid cell"
+          },
+          "treatment": {
+            "fill": "Black on Yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "Liquid warp"
+          }
+        }
+      ],
+      "pairingStrategy": "Mix warped psychedelic display lettering with small, typewriter-style or sans-serif metadata text.",
+      "graphicDevices": [
+        "Sunburst patterns",
+        "Concentric circles",
+        "Halftone textures",
+        "Mechanical diagrams"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Warped vertical orientation",
+          "High-contrast black/yellow color scheme"
+        ],
+        "avoid": [
+          "Modern geometric sans-serifs",
+          "Clean digital gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Wes Wilson style lettering",
+            "reason": "Captures the authentic 1960s concert poster aesthetic",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Art Nouveau display",
+            "reason": "Provides the organic skeleton for the warped lettering",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a modular grid collage featuring high-contrast B&W portraits, dried yellow flowers, mechanical gears, a white bird silhouette, and orange/red geometric shapes.",
+        "overlayInstruction": "Apply custom-drawn, warped psychedelic lettering in a vertical orientation within one of the lower-left grid cells using a black fill on a yellow background."
+      },
+      "verificationChecks": [
+        "Grid structure is maintained",
+        "Color palette is restricted to warm tones and monochrome",
+        "Lettering is warped and integrated into the grid",
+        "Mix of photographic and graphic textures is present"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Grid density",
+      "Ratio of photography to graphic symbols",
+      "Intensity of the orange/red color cast",
+      "Complexity of the mechanical/organic objects"
+    ],
+    "mustRedesign": [
+      "Specific faces to avoid likeness issues",
+      "Unique lettering to avoid existing brand marks",
+      "Specific found objects like the nest or gears"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s analog feel",
+        "High-contrast photographic grain",
+        "Tactile, layered appearance"
+      ],
+      "avoid": [
+        "Clean digital vectors",
+        "Modern high-resolution photography",
+        "Standard computer fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Does the image feel like a physical collage?",
+      "Is the large portrait in the bottom right balanced by the grid?",
+      "Are the warm tones consistent across the graphic elements?",
+      "Is the typography sufficiently warped and psychedelic?"
+    ],
+    "reuseFormula": "Modular grid + [Warm Palette] + [High-Contrast B&W Portraits] + [Psychedelic Symbols] + [Warped Vertical Lettering] = 1960s Collage Aesthetic"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:42.267Z"
+}

@@ -1,0 +1,261 @@
+{
+  "id": "52d25941e85755914907abfa306baf89baf5c897d8be0761afc80a010319c683",
+  "skillId": "52d25941e85755914907abfa306baf89baf5c897d8be0761afc80a010319c683",
+  "versionId": "52d25941e85755914907abfa306baf89baf5c897d8be0761afc80a010319c683",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:19:33.562Z",
+  "approvedAt": "2026-08-12T14:19:33.562Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:19:33.562Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "You Don’t Bring Me Flowers.jpg",
+    "hash": "52d25941e85755914907abfa306baf89baf5c897d8be0761afc80a010319c683",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "You Don’t Bring Me Flowers",
+    "artist": "Neil Diamond",
+    "artworkUrl": "https://coverartarchive.org/release-group/a5a1dfbc-c470-3735-bc7f-327391cbe569/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a5a1dfbc-c470-3735-bc7f-327391cbe569",
+    "releaseGroupId": "a5a1dfbc-c470-3735-bc7f-327391cbe569",
+    "recordingId": "7098c675-abe5-4bdf-8362-4967705d9644",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Say MaybeNeil Diamond",
+      "song": "Say Maybe",
+      "performer": "Neil Diamond",
+      "peakPosition": 55,
+      "firstChartDate": "1979-05-19",
+      "lastChartDate": "1979-06-30",
+      "appearances": [
+        {
+          "chartDate": "1979-05-19",
+          "position": 84
+        },
+        {
+          "chartDate": "1979-05-26",
+          "position": 73
+        },
+        {
+          "chartDate": "1979-06-02",
+          "position": 65
+        },
+        {
+          "chartDate": "1979-06-09",
+          "position": 61
+        },
+        {
+          "chartDate": "1979-06-16",
+          "position": 55
+        },
+        {
+          "chartDate": "1979-06-23",
+          "position": 56
+        },
+        {
+          "chartDate": "1979-06-30",
+          "position": 90
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochromatic stippled portrait with script typography stippled texture monochrome portrait script lettering halftone grain 1970s aesthetic centered headshot high contrast dark hair against a light textured background symmetrical placement of script text balancing the centered subject dense stippling in shadows transitioning to sparse grain in highlights stippled portrait corner scripts grainy monochrome",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochromatic Stippled Portrait with Script Typography",
+      "category": "Album Art",
+      "medium": [
+        "Stipple Engraving",
+        "Ink Drawing",
+        "Lithography"
+      ],
+      "useCases": [
+        "Vintage-style album covers",
+        "Editorial portraiture",
+        "Retro 1970s graphic design"
+      ],
+      "retrievalTags": [
+        "stippled texture",
+        "monochrome portrait",
+        "script lettering",
+        "halftone grain",
+        "1970s aesthetic",
+        "centered headshot"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochromatic portrait rendered through dense stippling and grain, featuring elegant script typography at the top corners.",
+      "triggerTerms": [
+        "stippled ink portrait",
+        "monochrome 70s album style",
+        "grainy pointillist headshot"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "modern minimalist sans-serif layouts are requested",
+        "clean digital vector art is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, front-facing male portrait rendered in a dark purple-grey ink using a stippled, grainy technique that mimics traditional lithographic printing. The subject has dark, voluminous hair and a neutral expression, set against a light, textured off-white background. The composition is framed by delicate script typography in the upper left and right corners.",
+    "coreVisualRelationships": [
+      "High-contrast dark hair against a light, textured background",
+      "Symmetrical placement of script text balancing the centered subject",
+      "Dense stippling in shadows transitioning to sparse grain in highlights"
+    ],
+    "coreInvariants": [
+      "Monochromatic ink palette",
+      "Pointillist/stippled texture throughout the subject",
+      "Centered head-and-shoulders composition"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered head-and-shoulders portrait, occupying approximately 60% of the vertical frame.",
+      "visualAnchor": "The subject's eyes, rendered with high-contrast stippling.",
+      "movementAndEyePath": "Starts at the eyes, moves upward to the script titles in the corners, then down the textured shoulders.",
+      "negativeSpace": "Ample light-grey textured space surrounding the head, emphasizing the silhouette."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/light grey background texture",
+      "contrastColorRole": "Deep charcoal/purple-grey ink for shadows and hair",
+      "accentColorRole": "Mid-tone stippled greys for skin modeling",
+      "saturationAndValueRelationship": "Zero saturation; value is defined entirely by the density of ink dots.",
+      "paletteRestrictions": [
+        "Monochrome only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script with varying stroke weights",
+      "letterConstructionRules": [
+        "High-contrast thick and thin strokes",
+        "Elongated swashes on capital letters",
+        "Connected lowercase letters with fluid loops"
+      ],
+      "characterSpecificRedesigns": [
+        "Capital letters feature dramatic, sweeping descenders and ascenders"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed to normal",
+            "weight": "light to medium",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "sentence case",
+            "alignment": "left and right justified to corners",
+            "tracking": "normal",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top corners",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "solid ink",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "slight bleed",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Symmetrical placement of two distinct script phrases to balance the central axis.",
+      "graphicDevices": [
+        "Grainy paper texture",
+        "Stipple shading"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Cursive flow",
+          "High stroke contrast"
+        ],
+        "avoid": [
+          "Blocky serifs",
+          "Geometric sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Shelley Volante",
+            "reason": "Captures the elegant, formal 70s script vibe",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Bickham Script",
+            "reason": "Provides the necessary flourish and stroke contrast",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a monochromatic, stippled ink portrait of a man with 1970s hair, centered on a light grey textured paper background. Use dense pointillism for shadows.",
+        "overlayInstruction": "Apply elegant, high-contrast cursive script in the top left and top right corners using a dark charcoal ink color."
+      },
+      "verificationChecks": [
+        "Is the portrait rendered with visible dots/stippling?",
+        "Is the color palette strictly monochromatic?",
+        "Are the text elements placed in the top corners?",
+        "Does the hair have a high-volume 70s silhouette?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Stipple density",
+      "Ink color (e.g., sepia vs. charcoal)",
+      "Script flourish intensity"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact wording of the titles",
+      "Unique logo marks"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Consistent stipple texture",
+        "Balanced corner typography",
+        "Authentic paper grain"
+      ],
+      "avoid": [
+        "Smooth digital gradients",
+        "Modern photographic clarity",
+        "Centered text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for stipple consistency in skin tones",
+      "Ensure script is legible but delicate",
+      "Verify monochromatic color balance",
+      "Confirm centered composition"
+    ],
+    "reuseFormula": "Stippled Portrait + Corner Scripts + Grainy Monochrome"
+  }
+}

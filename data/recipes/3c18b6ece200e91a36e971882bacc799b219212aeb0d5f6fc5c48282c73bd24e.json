@@ -1,0 +1,197 @@
+{
+  "id": "3c18b6ece200e91a36e971882bacc799b219212aeb0d5f6fc5c48282c73bd24e",
+  "skillId": "3c18b6ece200e91a36e971882bacc799b219212aeb0d5f6fc5c48282c73bd24e",
+  "versionId": "3c18b6ece200e91a36e971882bacc799b219212aeb0d5f6fc5c48282c73bd24e",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:56:35.891Z",
+  "approvedAt": "2026-08-13T04:56:35.891Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:56:35.891Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "folklore.jpg",
+    "hash": "3c18b6ece200e91a36e971882bacc799b219212aeb0d5f6fc5c48282c73bd24e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "folklore",
+    "artist": "Taylor Swift Featuring Bon Iver",
+    "artworkUrl": "https://coverartarchive.org/release-group/f1d08326-c23b-4b43-be3b-20b33ab10bf6/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f1d08326-c23b-4b43-be3b-20b33ab10bf6",
+    "releaseGroupId": "f1d08326-c23b-4b43-be3b-20b33ab10bf6",
+    "recordingId": "e5225306-fb16-4382-97cc-baa6349cd61e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "ExileTaylor Swift Featuring Bon Iver",
+      "song": "Exile",
+      "performer": "Taylor Swift Featuring Bon Iver",
+      "peakPosition": 6,
+      "firstChartDate": "2020-08-08",
+      "lastChartDate": "2020-09-05",
+      "appearances": [
+        {
+          "chartDate": "2020-08-08",
+          "position": 6
+        },
+        {
+          "chartDate": "2020-08-15",
+          "position": 36
+        },
+        {
+          "chartDate": "2020-08-22",
+          "position": 61
+        },
+        {
+          "chartDate": "2020-08-29",
+          "position": 82
+        },
+        {
+          "chartDate": "2020-09-05",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "misty ethereal forest monochrome misty forest monochrome ethereal solitary figure tall trees foggy woods film grain low contrast verticality of tree trunks vs horizontal forest floor small scale of human figure vs massive scale of nature light diffusion from the top vs darker textures at the bottom sharp foreground textures vs soft hazy background depth scale focused monochrome landscape atmospheric diffusion vertical rhythm",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Misty Ethereal Forest Monochrome",
+      "category": "Photography",
+      "medium": [
+        "Black and White Photography",
+        "Film Grain",
+        "Atmospheric Landscape"
+      ],
+      "useCases": [
+        "Album Art",
+        "Book Covers",
+        "Cinematic Mood Boards",
+        "Minimalist Wall Art"
+      ],
+      "retrievalTags": [
+        "misty forest",
+        "monochrome",
+        "ethereal",
+        "solitary figure",
+        "tall trees",
+        "foggy woods",
+        "film grain",
+        "low contrast"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Generates a desaturated, grainy, black-and-white forest scene featuring a small solitary figure amidst towering, vertical tree trunks and heavy atmospheric fog.",
+      "triggerTerms": [
+        "misty monochrome forest",
+        "ethereal foggy woods with solitary figure",
+        "grainy black and white woodland landscape"
+      ],
+      "excludeWhen": [
+        "vibrant colors are required",
+        "urban environments",
+        "close-up portraits",
+        "high-contrast sharp digital looks"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A vertical-heavy composition in black and white, characterized by a dense, foggy forest where light filters through the canopy, creating a soft, low-contrast glow. A tiny human figure stands at the base, emphasizing the scale of the towering, slender trees.",
+    "coreVisualRelationships": [
+      "Verticality of tree trunks vs. horizontal forest floor",
+      "Small scale of human figure vs. massive scale of nature",
+      "Light diffusion from the top vs. darker textures at the bottom",
+      "Sharp foreground textures vs. soft, hazy background depth"
+    ],
+    "coreInvariants": [
+      "Heavy atmospheric fog obscuring the background",
+      "Visible film grain texture throughout",
+      "Monochromatic grayscale palette",
+      "Dominant vertical lines from tree trunks"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A small, solitary figure is positioned in the lower center-third, appearing dwarfed by the environment.",
+      "visualAnchor": "The thickest, darkest tree trunk on the left-center foreground provides a structural anchor.",
+      "movementAndEyePath": "The eye follows the vertical trunks upward into the mist, then settles back down to the small figure at the base.",
+      "negativeSpace": "Extensive use of 'white' negative space created by thick fog in the upper half of the frame."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-tone grays and hazy whites defining the atmosphere.",
+      "contrastColorRole": "Deep charcoal and black defining the tree bark and foreground shadows.",
+      "accentColorRole": "Bright white light flares at the top of the canopy.",
+      "saturationAndValueRelationship": "Zero saturation; value range is compressed toward the highlights to simulate fog.",
+      "paletteRestrictions": [
+        "Grayscale only",
+        "No pure blacks except in deepest shadows",
+        "No high-saturation elements"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Film grain overlay",
+        "Soft glow diffusion"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a black and white photograph of a misty forest with tall, thin trees and a small person standing in the distance. Use a low-angle shot to emphasize height. Apply heavy fog and film grain.",
+        "overlayInstruction": "If adding text, use a thin, serif typeface with wide tracking, placed in a corner or centered at the bottom to maintain the sense of scale."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochromatic?",
+        "Is there a visible grain texture?",
+        "Does the fog obscure the distant trees?",
+        "Is the human figure small enough to show scale?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Fog density",
+      "Grain intensity",
+      "Tree density",
+      "Figure placement"
+    ],
+    "mustRedesign": [
+      "Any color elements",
+      "Modern digital sharpness",
+      "Wide-angle distortion"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sense of quiet isolation",
+        "Natural vertical rhythm",
+        "Soft light diffusion"
+      ],
+      "avoid": [
+        "Cluttered foregrounds",
+        "Harsh artificial lighting",
+        "Oversaturated blacks"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for vertical alignment of trees",
+      "Verify the presence of film-like grain",
+      "Ensure the figure does not dominate the frame",
+      "Confirm the top of the image is lighter than the bottom"
+    ],
+    "reuseFormula": "Scale-focused monochrome landscape + atmospheric diffusion + vertical rhythm"
+  }
+}

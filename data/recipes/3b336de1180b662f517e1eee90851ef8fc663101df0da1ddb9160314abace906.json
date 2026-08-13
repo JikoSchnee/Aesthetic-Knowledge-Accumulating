@@ -1,0 +1,268 @@
+{
+  "id": "3b336de1180b662f517e1eee90851ef8fc663101df0da1ddb9160314abace906",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T12:07:20.902Z",
+  "approvedAt": "2026-08-11T12:07:20.902Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T12:07:20.902Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Sparks Fly.jpg",
+    "hash": "3b336de1180b662f517e1eee90851ef8fc663101df0da1ddb9160314abace906",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Sparks Fly",
+    "artist": "Miranda Cosgrove",
+    "artworkUrl": "https://coverartarchive.org/release-group/ea0f433c-5b84-4bea-8f10-12eb7dcf039c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ea0f433c-5b84-4bea-8f10-12eb7dcf039c",
+    "releaseGroupId": "ea0f433c-5b84-4bea-8f10-12eb7dcf039c",
+    "recordingId": "8e762d1e-7aa7-4569-905f-60a7c49cd736",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Dancing CrazyMiranda Cosgrove",
+      "song": "Dancing Crazy",
+      "performer": "Miranda Cosgrove",
+      "peakPosition": 100,
+      "firstChartDate": "2011-04-02",
+      "lastChartDate": "2011-04-02",
+      "appearances": [
+        {
+          "chartDate": "2011-04-02",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "sun drenched pop portrait bokeh overexposed grunge typography braided hair pastel pink soft focus outdoor portrait subject s dark hair provides a sharp contrast against the blown out luminous background the textured dirty typography of the main name contrasts with the soft ethereal quality of the photography the pink tones in the clothing and nails are echoed in the subtitle text color for visual harmony the subject s gaze and shoulder positioning create a diagonal line leading toward the text block high key bokeh portrait right aligned distressed serif clean sans serif subtitle in accent color",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Sun-Drenched Pop Portrait",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "bokeh",
+        "overexposed",
+        "grunge typography",
+        "braided hair",
+        "pastel pink",
+        "soft focus",
+        "outdoor portrait"
+      ]
+    },
+    "visualDefinition": "A high-key, soft-focus portrait of a young woman with dark hair and a side-braid, set against a bright, overexposed green and white bokeh background. The composition features a mix of distressed, textured serif typography and clean, modern sans-serif subtitles.",
+    "coreVisualRelationships": [
+      "Subject's dark hair provides a sharp contrast against the blown-out, luminous background.",
+      "The textured, 'dirty' typography of the main name contrasts with the soft, ethereal quality of the photography.",
+      "The pink tones in the clothing and nails are echoed in the subtitle text color for visual harmony.",
+      "The subject's gaze and shoulder positioning create a diagonal line leading toward the text block."
+    ],
+    "coreInvariants": [
+      "Overexposed, bright green-yellow bokeh background",
+      "Distressed/grungy texture applied to the primary display font",
+      "Soft, diffused lighting on the subject's face"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is positioned on the left third of the frame, medium close-up, looking slightly over her shoulder.",
+      "visualAnchor": "The subject's eyes and the large, textured primary name text.",
+      "movementAndEyePath": "From the subject's face, down the line of the shoulder, across to the right-aligned text block.",
+      "negativeSpace": "Extensive bright negative space on the right side, used as a canvas for typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Luminous white and pale lime green (background/lighting)",
+      "contrastColorRole": "Deep espresso brown (hair and primary text)",
+      "accentColorRole": "Soft rose pink (clothing, nails, and subtitle text)",
+      "saturationAndValueRelationship": "High value, low-to-medium saturation; the background is nearly white in areas, making the dark hair and text pop.",
+      "paletteRestrictions": [
+        "Avoid harsh blacks; use dark browns for shadows and text.",
+        "Avoid saturated primary colors."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Sturdy, slab-serif or transitional serif for the main name; geometric sans-serif for the subtitle.",
+      "letterConstructionRules": [
+        "Main text uses lowercase for the first name and lowercase for the last name, stacked.",
+        "Subtitle is all-caps with wide tracking.",
+        "Main text features a 'stamped' or 'weathered' texture with irregular edges."
+      ],
+      "characterSpecificRedesigns": [
+        "The dot on the 'i' is rendered as a small, textured circle.",
+        "The 'g' has a distinct double-loop or ear-heavy structure."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Medium",
+            "xHeight": "High",
+            "terminals": "Blunt/Slab",
+            "corners": "Rounded/Distressed",
+            "counters": "Open",
+            "strokeCharacter": "Textured/Rough"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "right",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked by name",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Upper right quadrant",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Placed over the bokeh background"
+          },
+          "treatment": {
+            "fill": "Dark brown with grunge texture",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Distressed/Ink-bleed",
+            "distortion": "Eroded edges"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Sans-serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Square",
+            "corners": "Slightly rounded",
+            "counters": "Geometric",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "Wide",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Directly below display text",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Muted rose pink",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Distressed serif for personality paired with clean sans-serif for clarity.",
+      "graphicDevices": [
+        "Bokeh light leaks",
+        "Grunge texture overlay on text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right-aligned text block",
+          "Lowercase main name",
+          "Uppercase subtitle",
+          "Distressed texture"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Drop shadows",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Clarendon or Archer with a grunge overlay",
+            "reason": "Matches the sturdy slab-serif structure of the primary name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham or Montserrat Bold",
+            "reason": "Provides the clean, geometric sans-serif look for the subtitle.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a young woman with dark hair and a side-braid, wearing a pink off-the-shoulder top. Use a shallow depth of field with a bright, overexposed outdoor background featuring green and white circular bokeh. Lighting should be soft and high-key.",
+        "overlayInstruction": "Add right-aligned text in the upper right. The top two lines should be a bold, distressed serif font in dark brown, lowercase. Below that, add a single line of all-caps sans-serif text in rose pink with wide letter spacing."
+      },
+      "verificationChecks": [
+        "Is the background sufficiently overexposed?",
+        "Is the primary text textured/grungy?",
+        "Is the text right-aligned?",
+        "Is the color of the subtitle sampled from the clothing?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the background bokeh",
+      "Level of distress on the primary font",
+      "Specific shade of pink for the accent color",
+      "Tightness of the hair braid"
+    ],
+    "mustRedesign": [
+      "Avoid using the exact celebrity likeness; focus on the 'girl-next-door' archetype.",
+      "Do not use specific brand logos."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Luminous, airy atmosphere",
+        "Clear typographic hierarchy",
+        "Soft skin retouching style"
+      ],
+      "avoid": [
+        "Dark or moody lighting",
+        "Crisp, sharp background details",
+        "Neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text does not overlap the subject's face.",
+      "Check that the grunge texture on the text looks organic, not repetitive.",
+      "Verify the background doesn't have distracting shapes, only soft bokeh.",
+      "Confirm the pink text is legible against the bright background."
+    ],
+    "reuseFormula": "High-key bokeh portrait + right-aligned distressed serif + clean sans-serif subtitle in accent color."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:06:58.225Z"
+}

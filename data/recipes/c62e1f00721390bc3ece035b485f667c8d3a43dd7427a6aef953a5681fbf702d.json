@@ -1,0 +1,287 @@
+{
+  "id": "c62e1f00721390bc3ece035b485f667c8d3a43dd7427a6aef953a5681fbf702d",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T18:16:11.420Z",
+  "approvedAt": "2026-08-11T18:16:11.420Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T18:16:11.420Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Here Come the Lords.jpg",
+    "hash": "c62e1f00721390bc3ece035b485f667c8d3a43dd7427a6aef953a5681fbf702d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Here Come the Lords",
+    "artist": "Lords Of The Underground",
+    "artworkUrl": "https://coverartarchive.org/release-group/5baacca3-98cd-3ba7-9356-7cae0004cf85/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5baacca3-98cd-3ba7-9356-7cae0004cf85",
+    "releaseGroupId": "5baacca3-98cd-3ba7-9356-7cae0004cf85",
+    "recordingId": "4709a780-7d9b-41f6-81b7-0ab719710407",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Here Come The LordsLords Of The Underground",
+      "song": "Here Come The Lords",
+      "performer": "Lords Of The Underground",
+      "peakPosition": 93,
+      "firstChartDate": "1993-12-18",
+      "lastChartDate": "1994-01-22",
+      "appearances": [
+        {
+          "chartDate": "1993-12-18",
+          "position": 93
+        },
+        {
+          "chartDate": "1993-12-25",
+          "position": 98
+        },
+        {
+          "chartDate": "1994-01-01",
+          "position": 98
+        },
+        {
+          "chartDate": "1994-01-08",
+          "position": 100
+        },
+        {
+          "chartDate": "1994-01-15",
+          "position": 94
+        },
+        {
+          "chartDate": "1994-01-22",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "90s hip hop gritty collage 90s hip hop gritty texture blackletter low angle photography halftone grain urban aesthetic overlapping portraits creating a sense of depth and movement vertical light beams cutting through dark textured backgrounds large scale gothic lettering integrated into the mid ground high contrast shadows defining facial features with a blue tinted grain combine low angle urban photography vertical light leaks grainy blue black color grade oversized green gothic typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "90s Hip-Hop Gritty Collage",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Collage",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Streetwear Branding",
+        "Retro Event Poster"
+      ],
+      "retrievalTags": [
+        "90s hip hop",
+        "gritty texture",
+        "blackletter",
+        "low-angle photography",
+        "halftone grain",
+        "urban aesthetic"
+      ]
+    },
+    "visualDefinition": "A high-contrast, gritty urban collage featuring multiple low-angle portraits of men, overlaid with vertical light streaks and heavy, stylized gothic and sans-serif typography. The image uses a cool-toned, grainy color palette with sharp green and orange accents.",
+    "coreVisualRelationships": [
+      "Overlapping portraits creating a sense of depth and movement",
+      "Vertical light beams cutting through dark, textured backgrounds",
+      "Large-scale gothic lettering integrated into the mid-ground",
+      "High-contrast shadows defining facial features with a blue-tinted grain"
+    ],
+    "coreInvariants": [
+      "Heavy film grain and halftone-like texture",
+      "Low-angle perspective on human subjects",
+      "Cool blue and deep black base tones",
+      "Vibrant green gothic typography with thin outlines"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three figures arranged in a triangular formation, with the foreground figure tilted and scaled larger to create dynamic perspective.",
+      "visualAnchor": "The central figure's face and the large green gothic text spanning the middle.",
+      "movementAndEyePath": "Eyes move from the bottom-left tilted face, up through the vertical light streaks to the top-right figure, then down to the bottom-center text.",
+      "negativeSpace": "Minimal; the frame is densely packed with figures, light, and text to create an 'underground' claustrophobic energy."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep navy and black (shadows and background)",
+      "contrastColorRole": "Pale blue-white (light streaks and highlights)",
+      "accentColorRole": "Forest green (primary text) and muted orange (secondary text)",
+      "saturationAndValueRelationship": "High value contrast between light beams and shadows; saturation is low in the photography but high in the graphic text elements.",
+      "paletteRestrictions": [
+        "Avoid bright reds or yellows",
+        "Limit to cool-toned shadows"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Blackletter/Gothic and Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Gothic characters feature sharp, angular terminals and vertical stress",
+        "Thin white or light green outlines on dark green fills",
+        "Sans-serif elements use wide tracking and varied scales"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'l' and 'd' in gothic font extended vertically",
+        "Staggered baseline for the secondary sans-serif text"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Blackletter",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Spiked",
+            "corners": "Angular",
+            "counters": "Narrow",
+            "strokeCharacter": "Calligraphic"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "centered-staggered",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "Manual word breaks",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Center-middle",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays subjects",
+            "relationshipToImage": "Integrated layer"
+          },
+          "treatment": {
+            "fill": "Solid green",
+            "outline": "Thin light-green",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "Medium",
+            "terminals": "Blunt",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "staggered",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Bottom-center",
+            "scale": "Medium to Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Foreground",
+            "relationshipToImage": "Floating"
+          },
+          "treatment": {
+            "fill": "White and Orange",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast juxtaposition between ornate medieval gothic and clean modern sans-serif.",
+      "graphicDevices": [
+        "Vertical light flares",
+        "Halftone screen overlay",
+        "Color-blocked text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Gothic style for main title",
+          "Staggered layout of secondary text"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Drop shadows on text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Old English Text MT",
+            "reason": "Matches the sharp, traditional blackletter structure of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Provides the clean, geometric contrast needed for the secondary text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a gritty, low-angle photo collage of three men in urban attire. Use a dark blue and black color palette with heavy film grain and vertical white light beams cutting through the frame. The composition should be dense and high-contrast.",
+        "overlayInstruction": "Add large green gothic text in the center with a thin light-green outline. Below it, add staggered, wide-tracked sans-serif text in white and muted orange."
+      },
+      "verificationChecks": [
+        "Is the grain texture visible across the entire image?",
+        "Are the light beams vertical and sharp?",
+        "Is the gothic text the primary visual focus?",
+        "Is the color palette restricted to blues, greens, and blacks?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the film grain",
+      "Angle of the portrait subjects",
+      "Brightness of the vertical light beams",
+      "Specific shade of green for the gothic text"
+    ],
+    "mustRedesign": [
+      "Any specific artist faces or recognizable logos",
+      "Exact wording from the original cover",
+      "Specific brand-name clothing items"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 90s print texture",
+        "Dynamic low-angle perspective",
+        "Sharp typographic contrast"
+      ],
+      "avoid": [
+        "Clean, modern digital gradients",
+        "Soft focus or bokeh",
+        "Standard horizontal text alignment"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for halftone pattern consistency",
+      "Ensure text does not have modern digital drop shadows",
+      "Verify the 'underground' moody lighting",
+      "Confirm the triangular composition of the subjects"
+    ],
+    "reuseFormula": "Combine low-angle urban photography + vertical light leaks + grainy blue-black color grade + oversized green gothic typography."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:22:07.226Z"
+}

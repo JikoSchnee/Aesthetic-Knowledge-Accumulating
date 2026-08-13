@@ -1,0 +1,290 @@
+{
+  "id": "e22cd0fa3b8615fbea1d78626f416110adbe1f3275604cca2fe26b97558e7718",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T19:47:38.221Z",
+  "approvedAt": "2026-08-11T19:47:38.221Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T19:47:38.221Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Love Is Everything.jpg",
+    "hash": "e22cd0fa3b8615fbea1d78626f416110adbe1f3275604cca2fe26b97558e7718",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Love Is Everything",
+    "artist": "George Strait",
+    "artworkUrl": "https://coverartarchive.org/release-group/a916739c-77dc-479c-aead-7addcf77688b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a916739c-77dc-479c-aead-7addcf77688b",
+    "releaseGroupId": "a916739c-77dc-479c-aead-7addcf77688b",
+    "recordingId": "eb903ff2-6b71-4e19-906d-8d05cf87de6a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I Got A CarGeorge Strait",
+      "song": "I Got A Car",
+      "performer": "George Strait",
+      "peakPosition": 89,
+      "firstChartDate": "2014-06-14",
+      "lastChartDate": "2014-07-26",
+      "appearances": [
+        {
+          "chartDate": "2014-06-14",
+          "position": 96
+        },
+        {
+          "chartDate": "2014-06-21",
+          "position": 94
+        },
+        {
+          "chartDate": "2014-06-28",
+          "position": 89
+        },
+        {
+          "chartDate": "2014-07-05",
+          "position": 99
+        },
+        {
+          "chartDate": "2014-07-12",
+          "position": 95
+        },
+        {
+          "chartDate": "2014-07-19",
+          "position": 95
+        },
+        {
+          "chartDate": "2014-07-26",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "modern country album layout country music high key photography acoustic guitar cowboy aesthetic minimalist background serif typography long shadow subject positioned in the upper right quadrant balanced by heavy typography at the bottom long soft horizontal shadow connecting the subject to the left edge of the frame high contrast relationship between the dark denim hat and the sterile white environment textual hierarchy where the primary name overlaps the secondary title high key studio portrait long horizontal shadow notched border frame layered condensed sans serif and classical serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Modern Country Album Layout",
+      "category": "Music Packaging",
+      "medium": [
+        "Studio Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Promotional Poster",
+        "Artist Branding"
+      ],
+      "retrievalTags": [
+        "country music",
+        "high-key photography",
+        "acoustic guitar",
+        "cowboy aesthetic",
+        "minimalist background",
+        "serif typography",
+        "long shadow"
+      ]
+    },
+    "visualDefinition": "A full-body portrait of a male musician in traditional country attire holding an acoustic guitar, set against a stark white high-key background with a long horizontal shadow. The composition is anchored by large, bold typography at the bottom, framed by a thin blue border with notched corners.",
+    "coreVisualRelationships": [
+      "Subject positioned in the upper right quadrant balanced by heavy typography at the bottom",
+      "Long, soft horizontal shadow connecting the subject to the left edge of the frame",
+      "High-contrast relationship between the dark denim/hat and the sterile white environment",
+      "Textual hierarchy where the primary name overlaps the secondary title"
+    ],
+    "coreInvariants": [
+      "High-key white background with no horizon line",
+      "Thin blue border with 45-degree notched corners",
+      "Full-body standing pose with guitar held at waist height"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is scaled to approximately 60% of vertical height, positioned right of center.",
+      "visualAnchor": "The large, dark blue block-lettering at the bottom center.",
+      "movementAndEyePath": "Starts at the subject's face, follows the guitar neck down to the shadow, then moves across to the bold text at the bottom.",
+      "negativeSpace": "Extensive white space on the left side and top, creating a clean, airy feel."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure white background for high-key lighting.",
+      "contrastColorRole": "Deep navy blue for the primary typography and denim clothing.",
+      "accentColorRole": "Warm wood tones from the guitar and a single red initial in the secondary text.",
+      "saturationAndValueRelationship": "High value contrast between the background and the dark clothing/text; low saturation except for the warm wood and red accent.",
+      "paletteRestrictions": [
+        "Navy Blue",
+        "Pure White",
+        "Warm Brown",
+        "Muted Red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed sans-serif and classical serif",
+      "letterConstructionRules": [
+        "Primary text uses a heavy, condensed grotesque sans-serif with flat terminals.",
+        "Secondary text uses a high-contrast transitional serif with sharp bracketed serifs."
+      ],
+      "characterSpecificRedesigns": [
+        "First letter of the secondary title is colored red while the rest is muted taupe/grey."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "under secondary text",
+            "relationshipToImage": "anchors the base"
+          },
+          "treatment": {
+            "fill": "navy blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "ball or sharp",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom center, overlapping primary text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over primary text",
+            "relationshipToImage": "layered depth"
+          },
+          "treatment": {
+            "fill": "taupe with red initial",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a heavy industrial sans-serif with a delicate, elegant serif.",
+      "graphicDevices": [
+        "Thin blue border with notched corners",
+        "Long horizontal drop shadow"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed nature of primary text",
+          "Color distinction of the first letter in the serif line"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Distressed or weathered textures"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Champion Gothic",
+            "reason": "Matches the heavy, condensed block feel of the primary name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Baskerville or Caslon",
+            "reason": "Provides the necessary classical serif contrast for the title line.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A full-body studio photograph of a man in a black cowboy hat, blue denim shirt, and jeans holding an acoustic guitar. The background is pure white. A long, soft shadow extends from his feet horizontally to the left. The lighting is bright and even.",
+        "overlayInstruction": "Add a thin navy blue border with 45-degree notched corners. At the bottom, place large condensed navy blue sans-serif text. Overlap this with a second line of serif text in taupe, making the very first letter of the second line bright red."
+      },
+      "verificationChecks": [
+        "Is the background pure white with a long horizontal shadow?",
+        "Does the border have notched corners?",
+        "Is the primary text a heavy condensed sans-serif?",
+        "Does the secondary serif text overlap the primary text?",
+        "Is the first letter of the serif text red?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's pose",
+      "Guitar model",
+      "Specific shade of blue for the border and text",
+      "Length and softness of the shadow"
+    ],
+    "mustRedesign": [
+      "Specific artist name and album title",
+      "Any logos on the guitar headstock",
+      "Specific facial features of the artist"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, high-key studio look",
+        "Precise typographic alignment",
+        "Balanced negative space"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast lighting",
+        "Illegible overlapping text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the shadow direction is consistent with the lighting on the subject.",
+      "Ensure the notched corners of the border are symmetrical.",
+      "Verify the red accent color is only on the first letter of the subtitle.",
+      "Confirm the subject is not centered, but slightly to the right."
+    ],
+    "reuseFormula": "High-key studio portrait + long horizontal shadow + notched border frame + layered condensed sans-serif and classical serif typography."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:25:01.086Z"
+}

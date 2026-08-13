@@ -1,0 +1,246 @@
+{
+  "id": "52996d2f24372ed0bc1439d59cb409637b007ab0986d3f61b52c8863aa03398c",
+  "skillId": "52996d2f24372ed0bc1439d59cb409637b007ab0986d3f61b52c8863aa03398c",
+  "versionId": "52996d2f24372ed0bc1439d59cb409637b007ab0986d3f61b52c8863aa03398c",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T20:11:13.210Z",
+  "approvedAt": "2026-08-12T20:11:13.210Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T20:11:13.210Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Old Things New.jpg",
+    "hash": "52996d2f24372ed0bc1439d59cb409637b007ab0986d3f61b52c8863aa03398c",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Old Things New",
+    "artist": "Joe Nichols",
+    "artworkUrl": "https://coverartarchive.org/release-group/6fec1874-924c-421d-baa8-b476323d3f0a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6fec1874-924c-421d-baa8-b476323d3f0a",
+    "releaseGroupId": "6fec1874-924c-421d-baa8-b476323d3f0a",
+    "recordingId": "13e96874-600b-480c-b7b6-f054a271198a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Shape I'm InJoe Nichols",
+      "song": "The Shape I'm In",
+      "performer": "Joe Nichols",
+      "peakPosition": 91,
+      "firstChartDate": "2011-03-12",
+      "lastChartDate": "2011-03-19",
+      "appearances": [
+        {
+          "chartDate": "2011-03-12",
+          "position": 98
+        },
+        {
+          "chartDate": "2011-03-19",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "country music album cover portrait male portrait country music slab serif brick wall background candid smile denim shirt soft natural lighting subject looking away from the camera toward the light source text positioned in the negative space to the right of the subject s head color harmony between the blue shirt and the cool toned shadows of the white brick horizontal rule separating the artist name from the album title candid profile portrait neutral textured background right aligned slab serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Country Music Album Cover Portrait",
+      "category": "Music Photography",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Artist Promotional Material",
+        "Editorial Portraiture"
+      ],
+      "retrievalTags": [
+        "male portrait",
+        "country music",
+        "slab serif",
+        "brick wall background",
+        "candid smile",
+        "denim shirt",
+        "soft natural lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A candid, side-profile male portrait against a neutral brick wall with right-aligned slab-serif typography.",
+      "triggerTerms": [
+        "country artist album cover style",
+        "candid male portrait against brick wall",
+        "slab serif typography with horizontal rule"
+      ],
+      "excludeWhen": [
+        "high-contrast studio lighting is requested",
+        "abstract or minimalist art is needed",
+        "sans-serif or script typography is required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium-shot portrait of a smiling man in profile, seated against a light-colored brick wall. The lighting is soft and directional, coming from the left. The right side of the frame features stacked, right-aligned slab-serif text with a thin horizontal line separating the primary and secondary lines.",
+    "coreVisualRelationships": [
+      "Subject looking away from the camera toward the light source",
+      "Text positioned in the negative space to the right of the subject's head",
+      "Color harmony between the blue shirt and the cool-toned shadows of the white brick",
+      "Horizontal rule separating the artist name from the album title"
+    ],
+    "coreInvariants": [
+      "Right-aligned slab-serif typography",
+      "Neutral-toned brick wall background",
+      "Soft, naturalistic side-lighting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left two-thirds of the frame, seated and angled toward the left.",
+      "visualAnchor": "The subject's face and smile serve as the primary focal point.",
+      "movementAndEyePath": "The viewer's eye starts at the subject's face, follows his gaze to the left, then moves to the right to read the text.",
+      "negativeSpace": "The upper right quadrant provides a clean, textured area for typographic elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white and light gray (brick wall background)",
+      "contrastColorRole": "Medium blue (denim shirt)",
+      "accentColorRole": "Dark brown (hair) and white (text)",
+      "saturationAndValueRelationship": "Low saturation with high key values; the image feels bright and airy.",
+      "paletteRestrictions": [
+        "Muted blues",
+        "Earth tones",
+        "Neutral grays"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif with wide proportions",
+      "letterConstructionRules": [
+        "Thick, blocky serifs",
+        "Consistent stroke weight",
+        "Wide character stance"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in negative space"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "thin dark drop shadow",
+            "shadow": "subtle",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used in two sizes, separated by a graphic line.",
+      "graphicDevices": [
+        "Thin horizontal rule between text lines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif classification",
+          "Right alignment",
+          "Uppercase styling"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Centered text",
+          "Brightly colored text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab-serif weight and wide proportions.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Archer Black",
+            "reason": "Provides a similar slab-serif feel with slightly more modern geometry.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a medium shot of a man with dark hair and a denim shirt, smiling in profile against a light-colored brick wall. Ensure soft lighting from the left and ample negative space on the right.",
+        "overlayInstruction": "Add right-aligned, uppercase slab-serif text in white in the upper right corner. Place a thin horizontal line between the two lines of text."
+      },
+      "verificationChecks": [
+        "Is the text right-aligned?",
+        "Is the font a heavy slab-serif?",
+        "Is there a horizontal line between the text lines?",
+        "Is the subject in profile looking toward the light?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's clothing color",
+      "Brick wall texture and color",
+      "Text content",
+      "Intensity of the side lighting"
+    ],
+    "mustRedesign": [
+      "Logos or specific brand marks",
+      "Exact facial features of the artist",
+      "Specific jewelry details"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, legible typography",
+        "Natural-looking skin tones",
+        "Balanced composition between subject and text"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Cluttered backgrounds",
+        "Illegible text overlays"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text does not overlap the subject's head.",
+      "Ensure the brick texture is visible but not distracting.",
+      "Verify the slab-serif font maintains a bold, masculine feel.",
+      "Confirm the horizontal rule is centered vertically between the text lines."
+    ],
+    "reuseFormula": "Candid profile portrait + neutral textured background + right-aligned slab-serif typography."
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "id": "834e4d75c441471cecc29157e4822dd74669dc2eb8f27ce66b18d34264886a9e",
+  "skillId": "834e4d75c441471cecc29157e4822dd74669dc2eb8f27ce66b18d34264886a9e",
+  "versionId": "834e4d75c441471cecc29157e4822dd74669dc2eb8f27ce66b18d34264886a9e",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:24:09.718Z",
+  "approvedAt": "2026-08-12T23:24:09.718Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:24:09.718Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Brass Knuckles.jpg",
+    "hash": "834e4d75c441471cecc29157e4822dd74669dc2eb8f27ce66b18d34264886a9e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Brass Knuckles",
+    "artist": "Nelly",
+    "artworkUrl": "https://coverartarchive.org/release-group/9f992f36-1875-397f-a0aa-692a92b1902c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9f992f36-1875-397f-a0aa-692a92b1902c",
+    "releaseGroupId": "9f992f36-1875-397f-a0aa-692a92b1902c",
+    "recordingId": "a635f1af-5d4f-4580-85d5-fecf9d7a40fe",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "WarriorNelly",
+      "song": "Warrior",
+      "performer": "Nelly",
+      "peakPosition": 96,
+      "firstChartDate": "2008-08-30",
+      "lastChartDate": "2008-08-30",
+      "appearances": [
+        {
+          "chartDate": "2008-08-30",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty urban athleticism album cover monochrome photography muscular physique boxing wraps halftone gradient heavy sans serif high contrast lighting urban grit subject s white hand wraps as the primary light value focal point cyan block lettering anchored to the bottom left quadrant halftone dot gradient bridging the gap between text and subject high contrast lighting defining muscle anatomy against deep shadows monochrome high contrast photography single color block typography halftone texture overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Urban Athleticism Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design",
+        "Halftone Patterning"
+      ],
+      "useCases": [
+        "Hip-hop album art",
+        "Sports documentary posters",
+        "Fitness brand marketing",
+        "Urban lifestyle editorial"
+      ],
+      "retrievalTags": [
+        "monochrome photography",
+        "muscular physique",
+        "boxing wraps",
+        "halftone gradient",
+        "heavy sans-serif",
+        "high contrast lighting",
+        "urban grit"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome portrait of a muscular figure with boxing wraps, featuring bold blocky typography and a cyan halftone overlay.",
+      "triggerTerms": [
+        "gritty hip hop cover",
+        "muscular monochrome portrait",
+        "boxing wrap aesthetic",
+        "heavy block lettering with halftone"
+      ],
+      "excludeWhen": [
+        "requesting colorful or vibrant imagery",
+        "minimalist thin-line typography is required",
+        "the subject is a landscape or object"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A low-key, high-contrast black and white photograph of a muscular man with tattoos and hand wraps, positioned against a dark background. The lower third features a heavy, blocky typographic treatment in cyan and white, integrated with a blue halftone dot pattern that fades into the shadows.",
+    "coreVisualRelationships": [
+      "Subject's white hand wraps as the primary light-value focal point",
+      "Cyan block lettering anchored to the bottom-left quadrant",
+      "Halftone dot gradient bridging the gap between text and subject",
+      "High-contrast lighting defining muscle anatomy against deep shadows"
+    ],
+    "coreInvariants": [
+      "Monochrome subject with a single-color accent (Cyan)",
+      "Heavy, geometric block typography",
+      "Halftone texture in the lower graphic layer"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered muscular torso and head, filling the frame from the waist up.",
+      "visualAnchor": "The bright white boxing wraps on the raised fist.",
+      "movementAndEyePath": "Starts at the white hand wraps, moves down to the bold cyan text, then across to the advisory label in the bottom right.",
+      "negativeSpace": "Deep black shadows surrounding the subject's head and shoulders."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black and white monochrome for the photographic subject.",
+      "contrastColorRole": "Cyan (process blue) for the primary display text.",
+      "accentColorRole": "White for secondary text and highlights.",
+      "saturationAndValueRelationship": "High value contrast in the subject; high saturation in the cyan graphic elements.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Cyan"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Ultra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Extremely thick strokes with minimal counters",
+        "Square terminals and sharp 90-degree corners",
+        "Uniform stroke weight throughout",
+        "Letters are tightly packed with zero kerning"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'N' and 'M' equivalents are solid blocks with thin vertical slits",
+        "The 'E' has three equal horizontal bars with no vertical stem on the right"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-block",
+          "anatomy": {
+            "width": "extra-wide",
+            "weight": "ultra-black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "minimal-slit",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-word",
+            "density": "solid"
+          },
+          "composition": {
+            "position": "bottom-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over-subject",
+            "relationshipToImage": "anchored-to-edge"
+          },
+          "treatment": {
+            "fill": "cyan",
+            "outline": "black",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Pair ultra-heavy block display text with a smaller, stencil-like or industrial sans-serif for subtitles.",
+      "graphicDevices": [
+        "Halftone dot pattern",
+        "Horizontal divider bars",
+        "Rectangular framing for secondary text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Blocky geometry",
+          "Cyan color",
+          "Halftone texture"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Provides the necessary verticality and weight for the secondary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Custom geometric vector shapes",
+            "reason": "The primary display text is more like a logo/graphic than a standard font.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white photo of a muscular man with boxing wraps and tattoos, lit from the side to emphasize muscle definition, against a dark background. Leave the bottom third darker for text placement.",
+        "overlayInstruction": "Apply a cyan halftone dot gradient across the bottom third. Place ultra-bold, blocky cyan text in the bottom left, and a white industrial-style subtitle directly beneath it."
+      },
+      "verificationChecks": [
+        "Is the subject monochrome?",
+        "Is the primary text cyan and blocky?",
+        "Is there a halftone dot pattern in the lower section?",
+        "Is the lighting high-contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the halftone dots",
+      "Specific shade of the accent color (e.g., cyan vs. red)",
+      "Subject's pose (e.g., boxing vs. weightlifting)"
+    ],
+    "mustRedesign": [
+      "Specific artist tattoos",
+      "Parental Advisory logo",
+      "Exact artist name"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast muscle definition",
+        "Clean, sharp typographic edges",
+        "Seamless halftone integration"
+      ],
+      "avoid": [
+        "Blurry or low-contrast photography",
+        "Default system fonts like Arial",
+        "Messy or overlapping text that obscures the subject's face"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast lighting on the torso",
+      "Verify the cyan color matches the intended urban aesthetic",
+      "Ensure the block text is legible despite its weight",
+      "Confirm the halftone pattern fades correctly into the black background"
+    ],
+    "reuseFormula": "Monochrome high-contrast photography + single-color block typography + halftone texture overlay."
+  }
+}

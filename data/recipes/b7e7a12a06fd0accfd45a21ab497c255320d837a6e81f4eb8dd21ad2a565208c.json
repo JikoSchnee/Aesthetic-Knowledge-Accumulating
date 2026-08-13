@@ -1,0 +1,247 @@
+{
+  "id": "b7e7a12a06fd0accfd45a21ab497c255320d837a6e81f4eb8dd21ad2a565208c",
+  "skillId": "b7e7a12a06fd0accfd45a21ab497c255320d837a6e81f4eb8dd21ad2a565208c",
+  "versionId": "b7e7a12a06fd0accfd45a21ab497c255320d837a6e81f4eb8dd21ad2a565208c",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:56:04.562Z",
+  "approvedAt": "2026-08-12T05:56:04.562Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:56:04.562Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Serenades of Love.jpg",
+    "hash": "b7e7a12a06fd0accfd45a21ab497c255320d837a6e81f4eb8dd21ad2a565208c",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Serenades of Love",
+    "artist": "Bobby Vinton",
+    "artworkUrl": "https://coverartarchive.org/release-group/633aa780-6a1f-49e7-b1d6-b09c035c79f1/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/633aa780-6a1f-49e7-b1d6-b09c035c79f1",
+    "releaseGroupId": "633aa780-6a1f-49e7-b1d6-b09c035c79f1",
+    "recordingId": "02c7d075-5720-4654-8828-07cfdf2bf7c7",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Moonlight SerenadeBobby Vinton",
+      "song": "Moonlight Serenade",
+      "performer": "Bobby Vinton",
+      "peakPosition": 97,
+      "firstChartDate": "1976-05-01",
+      "lastChartDate": "1976-05-08",
+      "appearances": [
+        {
+          "chartDate": "1976-05-01",
+          "position": 99
+        },
+        {
+          "chartDate": "1976-05-08",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage romantic crooner album cover 70s portrait plaid shirt curly hair red script dark background crooner subject centered against a high contrast dark void vibrant red text providing a color pop against muted clothing tones diagonal text orientation framing the subject s head warm skin tones balanced by cool blue denim and multi colored plaid centered 70s portrait dark void background diagonal red marker script in corners",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Romantic Crooner Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Hand-lettering"
+      ],
+      "useCases": [
+        "Retro music packaging",
+        "1970s nostalgic portraiture",
+        "Romantic ballad branding"
+      ],
+      "retrievalTags": [
+        "70s portrait",
+        "plaid shirt",
+        "curly hair",
+        "red script",
+        "dark background",
+        "crooner"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered male portrait against a dark background featuring vibrant red hand-drawn script lettering angled in the upper corners.",
+      "triggerTerms": [
+        "1970s studio portrait with red script",
+        "vintage crooner album aesthetic",
+        "plaid shirt portrait dark backdrop"
+      ],
+      "excludeWhen": [
+        "modern minimalist design is required",
+        "bright outdoor lighting is requested",
+        "sans-serif typography is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up studio portrait of a man with curly hair wearing a plaid shirt and vest, framed by expressive, diagonal red handwriting against a near-black background.",
+    "coreVisualRelationships": [
+      "Subject centered against a high-contrast dark void",
+      "Vibrant red text providing a color pop against muted clothing tones",
+      "Diagonal text orientation framing the subject's head",
+      "Warm skin tones balanced by cool blue denim and multi-colored plaid"
+    ],
+    "coreInvariants": [
+      "Hand-drawn script style with consistent stroke weight",
+      "Dark, low-key background lighting",
+      "Diagonal upward tilt of all text elements"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Head and shoulders portrait, centered horizontally, occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The subject's face, specifically the eyes and smile, centered in the composition.",
+      "movementAndEyePath": "Eyes start at the top-left script, move down to the face, and then up to the top-right script.",
+      "negativeSpace": "Significant dark negative space in the upper third and surrounding the subject's head."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black/brown background providing high contrast.",
+      "contrastColorRole": "Vibrant red used exclusively for the graphic text elements.",
+      "accentColorRole": "Multi-colored plaid (orange, blue, yellow) in the clothing.",
+      "saturationAndValueRelationship": "High value contrast between the dark background and the bright red text and skin tones.",
+      "paletteRestrictions": [
+        "Avoid neon or pastel colors",
+        "Limit text to a single primary red hue"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive handwriting",
+      "letterConstructionRules": [
+        "Uniform line weight suggesting a felt-tip marker",
+        "Rapid, gestural strokes with sharp terminals",
+        "Ascending diagonal baseline",
+        "Connected lowercase letters with exaggerated capital initials"
+      ],
+      "characterSpecificRedesigns": [
+        "Underlining strokes that extend from the final letter of words"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "monolinear",
+            "xHeight": "low",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "gestural"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "staggered",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "upper corners",
+            "scale": "large",
+            "rotation": "15 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over background"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single-style gestural script used for all text elements to maintain a personal, signed feel.",
+      "graphicDevices": [
+        "Diagonal underlines",
+        "Hand-drawn flourishes"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Diagonal orientation",
+          "Red color",
+          "Handwritten quality"
+        ],
+        "avoid": [
+          "Formal calligraphy",
+          "Geometric sans-serifs",
+          "Horizontal baselines"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Marker Script",
+            "reason": "Captures the casual, felt-tip pen aesthetic of the original.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Signature Style",
+            "reason": "Matches the personal, 'autographed' look of the layout.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A 1970s style studio portrait of a man with curly hair, wearing a plaid shirt and a dark vest, centered against a solid dark brown or black background with soft lighting on the face.",
+        "overlayInstruction": "Add hand-drawn, gestural script in bright red ink. Position the text in the top left and top right corners, tilted upwards at a 15-degree angle, with long underlines extending from the words."
+      },
+      "verificationChecks": [
+        "Is the text bright red?",
+        "Is the text angled diagonally upwards?",
+        "Is the background dark and uncluttered?",
+        "Does the lettering look like marker handwriting?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's clothing pattern",
+      "Specific angle of the text",
+      "Intensity of the red hue"
+    ],
+    "mustRedesign": [
+      "Any modern digital fonts",
+      "Brightly lit backgrounds",
+      "Horizontal text alignment"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 70s film grain texture",
+        "Fluid, confident handwriting strokes",
+        "High contrast between subject and background"
+      ],
+      "avoid": [
+        "Clean vector lines",
+        "Drop shadows on text",
+        "Perfectly symmetrical layouts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the red text does not overlap the subject's face.",
+      "Verify the plaid pattern feels period-accurate to the 1970s.",
+      "Check that the background is sufficiently dark to make the red pop.",
+      "Confirm the handwriting has a consistent 'marker' thickness."
+    ],
+    "reuseFormula": "Centered 70s portrait + dark void background + diagonal red marker script in corners."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:44:02.171Z"
+}

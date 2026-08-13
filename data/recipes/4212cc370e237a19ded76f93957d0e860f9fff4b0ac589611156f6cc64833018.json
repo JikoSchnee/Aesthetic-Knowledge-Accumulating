@@ -1,0 +1,266 @@
+{
+  "id": "4212cc370e237a19ded76f93957d0e860f9fff4b0ac589611156f6cc64833018",
+  "skillId": "4212cc370e237a19ded76f93957d0e860f9fff4b0ac589611156f6cc64833018",
+  "versionId": "4212cc370e237a19ded76f93957d0e860f9fff4b0ac589611156f6cc64833018",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:45:16.387Z",
+  "approvedAt": "2026-08-12T18:45:16.387Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:45:16.387Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Kathy Troccoli.jpg",
+    "hash": "4212cc370e237a19ded76f93957d0e860f9fff4b0ac589611156f6cc64833018",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Kathy Troccoli",
+    "artist": "Kathy Troccoli",
+    "artworkUrl": "https://coverartarchive.org/release-group/66fc370c-97c8-3a63-beba-8dd95961a82a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/66fc370c-97c8-3a63-beba-8dd95961a82a",
+    "releaseGroupId": "66fc370c-97c8-3a63-beba-8dd95961a82a",
+    "recordingId": "609a3a0a-f76e-4e0f-819e-dc263dc28c0d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Tell Me Where It HurtsKathy Troccoli",
+      "song": "Tell Me Where It Hurts",
+      "performer": "Kathy Troccoli",
+      "peakPosition": 88,
+      "firstChartDate": "1994-07-09",
+      "lastChartDate": "1994-08-13",
+      "appearances": [
+        {
+          "chartDate": "1994-07-09",
+          "position": 97
+        },
+        {
+          "chartDate": "1994-07-16",
+          "position": 97
+        },
+        {
+          "chartDate": "1994-07-23",
+          "position": 91
+        },
+        {
+          "chartDate": "1994-07-30",
+          "position": 88
+        },
+        {
+          "chartDate": "1994-08-06",
+          "position": 92
+        },
+        {
+          "chartDate": "1994-08-13",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "90s pop portrait cover 90s aesthetic soft focus portrait warm studio lighting italic serif typography headshot with hand draped background subject s face as the central focal point warm background tones complementing the subject s skin and hair typography positioned to frame the top of the head hand placement creating a diagonal line toward the face studio portrait warm amber glow soft focus italic serif header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "90s Pop Portrait Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Studio Lighting",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Artist promotional posters",
+        "Editorial fashion spreads"
+      ],
+      "retrievalTags": [
+        "90s aesthetic",
+        "soft focus portrait",
+        "warm studio lighting",
+        "italic serif typography",
+        "headshot with hand",
+        "draped background"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A soft-focus studio portrait featuring a central subject with warm, golden-hour lighting and elegant italicized display typography at the top.",
+      "triggerTerms": [
+        "90s soft focus portrait",
+        "warm studio glow",
+        "italic serif header",
+        "draped fabric background"
+      ],
+      "excludeWhen": [
+        "high-contrast noir styles",
+        "minimalist modern layouts",
+        "street photography",
+        "flat vector illustrations"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up portrait of a woman with dark hair and bangs, resting her chin on her hand. The lighting is warm and diffused, creating a soft glow on the skin. The background consists of out-of-focus, warm-toned draped fabric. Elegant, wide-spaced italicized serif text sits at the top edge.",
+    "coreVisualRelationships": [
+      "Subject's face as the central focal point",
+      "Warm background tones complementing the subject's skin and hair",
+      "Typography positioned to frame the top of the head",
+      "Hand placement creating a diagonal line toward the face"
+    ],
+    "coreInvariants": [
+      "Soft-focus lens effect",
+      "Warm amber and gold color palette",
+      "Italicized serif typography with wide tracking",
+      "Studio-lit portraiture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered, occupying the middle and lower two-thirds of the frame in a medium close-up.",
+      "visualAnchor": "The subject's eyes and the bright white collar of the shirt.",
+      "movementAndEyePath": "From the top typography down to the eyes, following the curve of the hair to the hand and chin.",
+      "negativeSpace": "Minimal negative space, filled with textured, out-of-focus fabric drapes."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm ambers and golds in the background and skin tones.",
+      "contrastColorRole": "Deep blacks and purples in the clothing and hair.",
+      "accentColorRole": "Bright white of the shirt collar and magenta-pink lip color.",
+      "saturationAndValueRelationship": "High saturation in the warm tones with soft, low-contrast transitions between light and shadow.",
+      "paletteRestrictions": [
+        "Avoid cool blues or harsh neon colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Elegant, high-contrast serif",
+      "letterConstructionRules": [
+        "Italicized slant",
+        "High stroke contrast between thick and thin lines",
+        "Fine, sharp serifs",
+        "Wide character spacing (tracking)"
+      ],
+      "characterSpecificRedesigns": [
+        "Uppercase 'K' and 'T' are slightly larger for emphasis",
+        "Lowercase 'y' has a graceful, elongated tail"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Fine",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating above the subject's head"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "Thin dark drop shadow",
+            "shadow": "Soft glow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used for the main name, often paired with a small geometric logo in the corner.",
+      "graphicDevices": [
+        "Diamond-shaped logo in the bottom corner",
+        "Soft-focus vignette"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Italic slant",
+          "High contrast",
+          "Wide tracking"
+        ],
+        "avoid": [
+          "Sans-serif",
+          "Bold blocky fonts",
+          "Tight kerning"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni Italic",
+            "reason": "Matches the high contrast and elegant serif structure.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Didot Italic",
+            "reason": "Provides the sophisticated 90s fashion aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus studio portrait of a woman with dark hair and bangs, wearing a dark jacket and white collar, against a warm amber draped fabric background.",
+        "overlayInstruction": "Add the artist's name in a white, high-contrast italic serif font at the top, using wide tracking and a subtle drop shadow."
+      },
+      "verificationChecks": [
+        "Is the lighting warm and diffused?",
+        "Is the text italicized with high contrast?",
+        "Is the background out-of-focus fabric?",
+        "Is the subject's pose centered with a hand-to-face gesture?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the warm glow",
+      "Thickness of the font strokes",
+      "Color of the shirt collar",
+      "Texture of the background drapes"
+    ],
+    "mustRedesign": [
+      "Avoid using specific brand logos",
+      "Do not replicate the exact facial features of the original artist",
+      "Ensure the text is a generic placeholder name"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, flattering skin texture",
+        "Balanced warm color palette",
+        "Legible but elegant typography"
+      ],
+      "avoid": [
+        "Harsh digital sharpening",
+        "Clashing cool-toned backgrounds",
+        "Overly thick or heavy fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for soft-focus consistency across the image",
+      "Verify the typography is centered and properly spaced",
+      "Ensure the warm amber tones dominate the background",
+      "Confirm the subject's expression is soft and engaging"
+    ],
+    "reuseFormula": "Studio Portrait + Warm Amber Glow + Soft Focus + Italic Serif Header"
+  }
+}

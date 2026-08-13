@@ -1,0 +1,234 @@
+{
+  "id": "9ffb15aa4714e6319c4adfd4b56369e3c8aa6f62a63a94587ee479a2e74e0385",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T23:33:31.569Z",
+  "approvedAt": "2026-08-11T23:33:31.569Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T23:33:31.569Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Seal.jpg",
+    "hash": "9ffb15aa4714e6319c4adfd4b56369e3c8aa6f62a63a94587ee479a2e74e0385",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Seal",
+    "artist": "Seal",
+    "artworkUrl": "https://coverartarchive.org/release-group/97375917-d328-3738-a556-9edfb489cdad/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/97375917-d328-3738-a556-9edfb489cdad",
+    "releaseGroupId": "97375917-d328-3738-a556-9edfb489cdad",
+    "recordingId": "d38dd1ca-0562-41b3-af47-3b28d92fd95f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "KillerSeal",
+      "song": "Killer",
+      "performer": "Seal",
+      "peakPosition": 100,
+      "firstChartDate": "1992-03-28",
+      "lastChartDate": "1992-04-04",
+      "appearances": [
+        {
+          "chartDate": "1992-03-28",
+          "position": 100
+        },
+        {
+          "chartDate": "1992-04-04",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast typographic portrait high key stark white background bold typography leather fashion integrated subject 90s aesthetic subject as a literal typographic element extreme contrast between deep blacks and blown out whites symmetrical weight distribution across the horizontal axis interaction between the figure s stance and the surrounding letterforms place subject in dark textured clothing as a central pillar within ultra bold sans serif word against infinite white background to create a graphic human hybrid composition",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Typographic Portrait",
+      "category": "Music Album Art",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Covers",
+        "Editorial Fashion Layouts",
+        "Minimalist Poster Design"
+      ],
+      "retrievalTags": [
+        "high-key",
+        "stark white background",
+        "bold typography",
+        "leather fashion",
+        "integrated subject",
+        "90s aesthetic"
+      ]
+    },
+    "visualDefinition": "A stark, high-contrast composition featuring a central figure in dark leather attire standing within a row of oversized, bold sans-serif letters against a pure white void. The figure's body physically replaces one of the characters in the word, creating a seamless integration of human form and graphic type.",
+    "coreVisualRelationships": [
+      "Subject as a literal typographic element",
+      "Extreme contrast between deep blacks and blown-out whites",
+      "Symmetrical weight distribution across the horizontal axis",
+      "Interaction between the figure's stance and the surrounding letterforms"
+    ],
+    "coreInvariants": [
+      "Pure white background with no horizon line",
+      "Heavy, blocky sans-serif typography",
+      "Subject wearing dark, textured materials like leather",
+      "Low-angle perspective on the subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered vertically and horizontally, scaled to match the height of the adjacent typography.",
+      "visualAnchor": "The central figure acts as the primary anchor, bridging the gap between two halves of a word.",
+      "movementAndEyePath": "Horizontal scan from left to right, interrupted and held by the central figure before completing the word.",
+      "negativeSpace": "Dominant white space at the top and bottom, creating a 'letterbox' effect for the central content."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure White (#FFFFFF) background providing infinite depth.",
+      "contrastColorRole": "Deep Black (#000000) for the typography and clothing.",
+      "accentColorRole": "Warm skin tones and subtle highlights on leather texture.",
+      "saturationAndValueRelationship": "Extreme value contrast with near-zero saturation in the environment.",
+      "paletteRestrictions": [
+        "Monochromatic focus",
+        "No mid-tone backgrounds"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Massive stroke weight",
+        "Flat terminals",
+        "Tight kerning",
+        "Square proportions"
+      ],
+      "characterSpecificRedesigns": [
+        "One character is omitted to be replaced by the human figure's silhouette"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Black/Ultra",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Small/Closed",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Lower third",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Subject stands between letters",
+            "relationshipToImage": "Integrated"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for maximum impact.",
+      "graphicDevices": [
+        "Negative space integration"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Weight",
+          "Geometric simplicity",
+          "Uppercase format"
+        ],
+        "avoid": [
+          "Serifs",
+          "Thin weights",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the sturdy, industrial feel of the letterforms.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Provides the necessary vertical presence and weight.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Helvetica Black",
+            "reason": "Offers the clean geometric terminals seen in the 'E' and 'L'.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A studio portrait of a person with dreadlocks wearing a black leather trench coat and leather pants, standing in a wide power-pose against a seamless pure white background. The lighting should be high-contrast, emphasizing the texture of the leather.",
+        "overlayInstruction": "Place large, ultra-bold black sans-serif uppercase letters on either side of the subject so the subject's body occupies the space of a missing letter in the word."
+      },
+      "verificationChecks": [
+        "Is the background pure white with no shadows?",
+        "Does the subject's height match the letter height?",
+        "Is the typography heavy enough to balance the visual weight of the person?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's pose",
+      "Specific word used",
+      "Texture of the dark clothing",
+      "Vertical placement of the text line"
+    ],
+    "mustRedesign": [
+      "Any specific artist names or logos",
+      "Unique jewelry or identifiable branding on clothing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Perfectly clean white background",
+        "Sharp focus on the subject and type",
+        "Balanced horizontal symmetry"
+      ],
+      "avoid": [
+        "Soft edges on typography",
+        "Visible floor seams",
+        "Low-contrast lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is legible despite the missing letter.",
+      "Check that the subject's feet are level with the baseline of the letters.",
+      "Verify the leather texture has specular highlights.",
+      "Confirm no color bleed from the subject into the white void."
+    ],
+    "reuseFormula": "Place [Subject in Dark Textured Clothing] as a central pillar within [Ultra-Bold Sans-Serif Word] against [Infinite White Background] to create a [Graphic-Human Hybrid] composition."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:17:30.741Z"
+}

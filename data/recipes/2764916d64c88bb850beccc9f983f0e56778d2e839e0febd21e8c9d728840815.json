@@ -1,0 +1,292 @@
+{
+  "id": "2764916d64c88bb850beccc9f983f0e56778d2e839e0febd21e8c9d728840815",
+  "skillId": "2764916d64c88bb850beccc9f983f0e56778d2e839e0febd21e8c9d728840815",
+  "versionId": "2764916d64c88bb850beccc9f983f0e56778d2e839e0febd21e8c9d728840815",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:49:01.672Z",
+  "approvedAt": "2026-08-12T23:49:01.672Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:49:01.672Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Faces.jpg",
+    "hash": "2764916d64c88bb850beccc9f983f0e56778d2e839e0febd21e8c9d728840815",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Faces",
+    "artist": "Shawn Phillips",
+    "artworkUrl": "https://coverartarchive.org/release-group/dfec1272-340b-3de6-a2d2-2111f5bfd9a9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/dfec1272-340b-3de6-a2d2-2111f5bfd9a9",
+    "releaseGroupId": "dfec1272-340b-3de6-a2d2-2111f5bfd9a9",
+    "recordingId": "458ac8b2-11bd-4ece-b8cc-7b5548f05924",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "WeShawn Phillips",
+      "song": "We",
+      "performer": "Shawn Phillips",
+      "peakPosition": 89,
+      "firstChartDate": "1973-01-13",
+      "lastChartDate": "1973-01-27",
+      "appearances": [
+        {
+          "chartDate": "1973-01-13",
+          "position": 97
+        },
+        {
+          "chartDate": "1973-01-20",
+          "position": 92
+        },
+        {
+          "chartDate": "1973-01-27",
+          "position": 89
+        }
+      ]
+    }
+  },
+  "dedupeText": "sepia sketch double portrait sepia double exposure sketch parchment hand drawn serene vintage overlapping facial features creating a composite identity centered subject matter against a wide textured field top aligned primary text balanced by bottom aligned secondary text tonal harmony between the sketch medium and the paper substrate sepia sketch portrait aged parchment texture classical serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Sepia Sketch Double Portrait",
+      "category": "Album Art",
+      "medium": [
+        "charcoal drawing",
+        "graphite sketch",
+        "parchment texture"
+      ],
+      "useCases": [
+        "folk music album covers",
+        "vintage portraiture",
+        "artistic sketch overlays"
+      ],
+      "retrievalTags": [
+        "sepia",
+        "double exposure sketch",
+        "parchment",
+        "hand-drawn",
+        "serene",
+        "vintage"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A sepia-toned hand-drawn sketch featuring a dual-perspective portrait on aged parchment with classical serif typography.",
+      "triggerTerms": [
+        "sepia sketch portrait",
+        "double exposure drawing",
+        "aged parchment texture",
+        "classical serif album art"
+      ],
+      "excludeWhen": [
+        "modern digital photography is required",
+        "vibrant neon colors are requested",
+        "clean minimalist sans-serif layouts are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A monochromatic sepia composition showing two overlapping views of the same bearded man—one facing forward and one in profile—rendered in a soft, charcoal-like sketching style on a textured, stained paper background.",
+    "coreVisualRelationships": [
+      "overlapping facial features creating a composite identity",
+      "centered subject matter against a wide textured field",
+      "top-aligned primary text balanced by bottom-aligned secondary text",
+      "tonal harmony between the sketch medium and the paper substrate"
+    ],
+    "coreInvariants": [
+      "monochromatic sepia color palette",
+      "visible paper grain and staining",
+      "soft-edged charcoal or graphite line work"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The dual portrait is centrally located, occupying the middle 60% of the vertical space.",
+      "visualAnchor": "The forward-facing eyes of the left portrait serve as the primary focal point.",
+      "movementAndEyePath": "The eye moves from the top text down to the eyes of the portrait, then follows the profile line to the bottom text.",
+      "negativeSpace": "Significant negative space on the left and right edges, filled with parchment texture."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm sepia brown for the sketch and text.",
+      "contrastColorRole": "Light tan/beige for the parchment background.",
+      "accentColorRole": "Darker burnt umber for deep shadows in the beard and eyes.",
+      "saturationAndValueRelationship": "Low saturation with a narrow value range, emphasizing texture over high contrast.",
+      "paletteRestrictions": [
+        "no pure blacks",
+        "no pure whites",
+        "no chromatic colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "classical roman serif",
+      "letterConstructionRules": [
+        "high stroke contrast",
+        "sharp, bracketed serifs",
+        "slightly condensed proportions",
+        "overlapping characters in the primary title"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'P' and 'H' in the top line are tightly kerned to touch",
+        "The 'S' characters have deep, elegant curves"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "pointed",
+            "counters": "open",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "slight character touching",
+            "relationshipToImage": "separated by negative space"
+          },
+          "treatment": {
+            "fill": "dark sepia",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "slight bleed into paper",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "pointed",
+            "counters": "wide",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "anchoring the base"
+          },
+          "treatment": {
+            "fill": "medium sepia",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "faded",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used with varying weights and tracking.",
+      "graphicDevices": [
+        "parchment texture",
+        "vignetted edges"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "high contrast serifs",
+          "tight kerning on top text",
+          "wide tracking on bottom text"
+        ],
+        "avoid": [
+          "sans-serif fonts",
+          "modern slab serifs",
+          "bold weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Caslon",
+            "reason": "Classic proportions and sharp serifs match the era's aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni",
+            "reason": "High contrast between thick and thin strokes.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a sepia-toned charcoal sketch of a man's face in a double exposure style (one front view, one profile) on a heavily textured, stained parchment paper background. Ensure the drawing has soft, blended edges.",
+        "overlayInstruction": "Apply classical serif typography in a dark sepia color. The top text should be large, uppercase, and tightly kerned. The bottom text should be smaller, uppercase, and widely tracked."
+      },
+      "verificationChecks": [
+        "Is the color palette strictly monochromatic sepia?",
+        "Do the two faces overlap naturally?",
+        "Is the paper texture visible through the sketch?",
+        "Is the top text centered and larger than the bottom text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "intensity of paper staining",
+      "opacity of the sketch overlap",
+      "tracking width of the bottom text"
+    ],
+    "mustRedesign": [
+      "any use of modern digital brushes that look too clean",
+      "vibrant or multi-color palettes",
+      "sans-serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "authentic hand-drawn charcoal texture",
+        "convincing aged paper appearance",
+        "elegant classical typesetting"
+      ],
+      "avoid": [
+        "plastic-looking skin textures",
+        "perfectly white backgrounds",
+        "default system fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for charcoal smudge details in the beard.",
+      "Verify the parchment has non-uniform staining.",
+      "Ensure the serif terminals are sharp and distinct.",
+      "Confirm the double exposure effect maintains facial recognition."
+    ],
+    "reuseFormula": "sepia_sketch_portrait + aged_parchment_texture + classical_serif_typography"
+  }
+}

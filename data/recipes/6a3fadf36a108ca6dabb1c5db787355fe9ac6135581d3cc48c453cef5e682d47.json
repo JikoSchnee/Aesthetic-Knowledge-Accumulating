@@ -1,0 +1,265 @@
+{
+  "id": "6a3fadf36a108ca6dabb1c5db787355fe9ac6135581d3cc48c453cef5e682d47",
+  "skillId": "6a3fadf36a108ca6dabb1c5db787355fe9ac6135581d3cc48c453cef5e682d47",
+  "versionId": "6a3fadf36a108ca6dabb1c5db787355fe9ac6135581d3cc48c453cef5e682d47",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:34:16.133Z",
+  "approvedAt": "2026-08-12T19:34:16.133Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:34:16.133Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Ear Candy.jpg",
+    "hash": "6a3fadf36a108ca6dabb1c5db787355fe9ac6135581d3cc48c453cef5e682d47",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Ear Candy",
+    "artist": "Helen Reddy",
+    "artworkUrl": "https://coverartarchive.org/release-group/7ccdc554-f307-4be1-a560-43b98269035d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7ccdc554-f307-4be1-a560-43b98269035d",
+    "releaseGroupId": "7ccdc554-f307-4be1-a560-43b98269035d",
+    "recordingId": "4a932da0-520d-4626-a73f-d3a0f1103e39",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Happy GirlsHelen Reddy",
+      "song": "The Happy Girls",
+      "performer": "Helen Reddy",
+      "peakPosition": 57,
+      "firstChartDate": "1977-10-08",
+      "lastChartDate": "1977-11-19",
+      "appearances": [
+        {
+          "chartDate": "1977-10-08",
+          "position": 90
+        },
+        {
+          "chartDate": "1977-10-15",
+          "position": 80
+        },
+        {
+          "chartDate": "1977-10-22",
+          "position": 70
+        },
+        {
+          "chartDate": "1977-10-29",
+          "position": 60
+        },
+        {
+          "chartDate": "1977-11-05",
+          "position": 59
+        },
+        {
+          "chartDate": "1977-11-12",
+          "position": 57
+        },
+        {
+          "chartDate": "1977-11-19",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "seventies soft glamour portrait 1970s soft focus serif typography muted palette halftone glamour portrait subject centered vertically and horizontally typography anchored to the top margin color harmony between clothing and text soft focus studio background blending with the subject s silhouette soft studio portrait high contrast serif header muted rose taupe palette tight kerning",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Seventies Soft Glamour Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Retro fashion editorial",
+        "Vintage-style promotional posters"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "soft focus",
+        "serif typography",
+        "muted palette",
+        "halftone",
+        "glamour portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered studio portrait featuring a soft-lit subject against a neutral backdrop with large-scale serif typography spanning the top edge.",
+      "triggerTerms": [
+        "1970s soft glamour portrait",
+        "vintage album cover layout",
+        "muted pink and taupe studio photo"
+      ],
+      "excludeWhen": [
+        "high-contrast modern lighting is required",
+        "minimalist sans-serif layouts are requested",
+        "vibrant neon colors are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A seated woman in a thoughtful pose, centered in the frame, wearing a halter top and long skirt. The lighting is diffused and warm, creating soft shadows. The color palette is dominated by muted taupe, dusty rose, and mauve. Large, elegant serif text is positioned at the very top, overlapping slightly with the subject's hair.",
+    "coreVisualRelationships": [
+      "Subject centered vertically and horizontally",
+      "Typography anchored to the top margin",
+      "Color harmony between clothing and text",
+      "Soft-focus studio background blending with the subject's silhouette"
+    ],
+    "coreInvariants": [
+      "Muted color palette",
+      "High-waisted serif typography",
+      "Soft, diffused studio lighting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is seated, occupying the lower two-thirds of the frame, centered.",
+      "visualAnchor": "The subject's face and the large-scale header text.",
+      "movementAndEyePath": "Eyes start at the large header, move down to the subject's face, then follow the arm down to the base of the frame.",
+      "negativeSpace": "Ample negative space on the left and right sides of the subject, creating a sense of calm."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Taupe/Grey-Brown (Background and shadows)",
+      "contrastColorRole": "Dusty Rose (Clothing and Typography)",
+      "accentColorRole": "Mauve/Deep Pink (Text highlights and fabric patterns)",
+      "saturationAndValueRelationship": "Low saturation across all hues with mid-range values, creating a 'faded' vintage look.",
+      "paletteRestrictions": [
+        "No pure blacks",
+        "No high-saturation primaries",
+        "No bright whites"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional serif",
+      "letterConstructionRules": [
+        "Extremely tight tracking (touching or nearly touching)",
+        "High stroke contrast",
+        "Sharp, bracketed serifs",
+        "Tall x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters may overlap slightly to fit the width of the frame"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal to slightly condensed",
+            "weight": "Medium-Bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Sharp",
+            "corners": "Bracketed",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "behind or slightly over hair",
+            "relationshipToImage": "header"
+          },
+          "treatment": {
+            "fill": "Dusty Rose",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A large serif display font paired with a tiny, delicate script or italic serif for secondary details.",
+      "graphicDevices": [
+        "Thin white border framing the entire composition"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Tight tracking",
+          "High contrast serifs",
+          "Color matching with subject"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Wide letter spacing",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Caslon No. 224",
+            "reason": "Captures the high-contrast, tight-kerning aesthetic of 70s display type.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bookman Old Style",
+            "reason": "Provides the characteristic 70s weight and serif structure.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a woman seated on the floor in a thoughtful pose, soft 1970s lighting, muted taupe background, wearing a dusty rose halter top and long skirt. Leave the top 20% of the frame clear for text.",
+        "overlayInstruction": "Add large uppercase serif text in dusty rose at the top of the frame with extremely tight tracking, ensuring it spans the full width."
+      },
+      "verificationChecks": [
+        "Is the lighting soft and diffused?",
+        "Is the color palette muted and cohesive?",
+        "Is the typography large, serif, and tightly tracked?",
+        "Is there a thin white border around the image?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject pose",
+      "Specific shade of pink/taupe",
+      "Text content"
+    ],
+    "mustRedesign": [
+      "Modern digital sharpness",
+      "Bright primary colors",
+      "Sans-serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft-focus film look",
+        "Tight typographic kerning",
+        "Muted tonal harmony"
+      ],
+      "avoid": [
+        "Over-saturation",
+        "Hard shadows",
+        "Modern minimalist layouts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 1970s film grain texture",
+      "Verify text overlaps or touches slightly",
+      "Ensure the border is thin and consistent",
+      "Confirm the subject's pose feels candid yet posed"
+    ],
+    "reuseFormula": "Soft Studio Portrait + High-Contrast Serif Header + Muted Rose/Taupe Palette + Tight Kerning"
+  }
+}

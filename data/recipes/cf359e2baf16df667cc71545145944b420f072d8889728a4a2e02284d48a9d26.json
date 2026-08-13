@@ -1,0 +1,280 @@
+{
+  "id": "cf359e2baf16df667cc71545145944b420f072d8889728a4a2e02284d48a9d26",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:20:09.867Z",
+  "approvedAt": "2026-08-11T15:20:09.867Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:20:09.867Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Just for the Record.jpg",
+    "hash": "cf359e2baf16df667cc71545145944b420f072d8889728a4a2e02284d48a9d26",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Just for the Record",
+    "artist": "Barbara Mandrell",
+    "artworkUrl": "https://coverartarchive.org/release-group/35db1cfc-79b1-485d-b006-a3d1c08d5644/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/35db1cfc-79b1-485d-b006-a3d1c08d5644",
+    "releaseGroupId": "35db1cfc-79b1-485d-b006-a3d1c08d5644",
+    "recordingId": "93685a70-92a3-42a0-ac86-cf8ab416d2ee",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Fooled By A FeelingBarbara Mandrell",
+      "song": "Fooled By A Feeling",
+      "performer": "Barbara Mandrell",
+      "peakPosition": 89,
+      "firstChartDate": "1979-10-06",
+      "lastChartDate": "1979-11-03",
+      "appearances": [
+        {
+          "chartDate": "1979-10-06",
+          "position": 90
+        },
+        {
+          "chartDate": "1979-10-13",
+          "position": 89
+        },
+        {
+          "chartDate": "1979-10-20",
+          "position": 91
+        },
+        {
+          "chartDate": "1979-10-27",
+          "position": 89
+        },
+        {
+          "chartDate": "1979-11-03",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro glamour portrait layout glamour portrait sequined clothing soft focus magenta rim light inline typography cursive script studio portraiture contrast between the soft matte skin and the sharp reflective sequins relationship between the magenta backlighting and the warm skin tones alignment of the primary display text along the top right margin studio portrait soft focus magenta rim light right aligned inline typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Glamour Portrait Layout",
+      "category": "Album Cover Art",
+      "medium": [
+        "Photography",
+        "Studio Lighting",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vinyl Record Packaging",
+        "Retro Editorial Photography",
+        "1970s-80s Nostalgia Branding"
+      ],
+      "retrievalTags": [
+        "glamour portrait",
+        "sequined clothing",
+        "soft focus",
+        "magenta rim light",
+        "inline typography",
+        "cursive script",
+        "studio portraiture"
+      ]
+    },
+    "visualDefinition": "A close-up studio portrait of a woman with voluminous blonde hair, leaning her head on her hand. The lighting features a soft-focus haze with a distinct magenta/pink rim light on the hair and sequins. The background is dark and indistinct, focusing attention on the subject's face and the shimmering texture of a dark sequined garment.",
+    "coreVisualRelationships": [
+      "Contrast between the soft, matte skin and the sharp, reflective sequins",
+      "Relationship between the magenta backlighting and the warm skin tones",
+      "Alignment of the primary display text along the top right margin"
+    ],
+    "coreInvariants": [
+      "Soft-focus lens effect",
+      "Magenta-tinted rim lighting on hair",
+      "Dark, sequined attire providing specular highlights",
+      "Head-on-hand pose"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left and center foreground, scaled to a medium close-up.",
+      "visualAnchor": "The subject's eyes and the bright specular highlights on the sequins.",
+      "movementAndEyePath": "Starts at the face, follows the arm down to the hand, then moves up to the typography in the top right.",
+      "negativeSpace": "Dark, heavy negative space in the upper right and lower left corners."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and dark browns in the background and clothing.",
+      "contrastColorRole": "Warm peach and cream skin tones.",
+      "accentColorRole": "Vibrant magenta/pink rim lighting and gold jewelry accents.",
+      "saturationAndValueRelationship": "Low-key lighting with high-value specular highlights and saturated color accents in the hair.",
+      "paletteRestrictions": [
+        "Avoid bright primary blues or greens",
+        "Limit to warm neutrals and magenta accents"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif and Formal Script",
+      "letterConstructionRules": [
+        "Primary text uses a multi-line inline effect where each stroke is composed of parallel thin lines.",
+        "Secondary text is a fluid, connected monoline script with long descenders."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' and 'M' in the display text feature extended horizontal bars that connect to adjacent letters."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Inline Sans-Serif",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Light",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Parallel multi-line"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Airy"
+          },
+          "composition": {
+            "position": "Top right",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over dark background"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "Multi-line inline",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Script",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Thin",
+            "contrast": "Low",
+            "xHeight": "Medium",
+            "terminals": "Tapered",
+            "corners": "Rounded",
+            "counters": "Closed",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Directly below display text",
+            "scale": "Medium",
+            "rotation": "Slight upward slant",
+            "warp": "None",
+            "overlap": "Underlines the display text",
+            "relationshipToImage": "Layered over background"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Geometric inline display paired with a delicate, slanted script for a sophisticated 70s aesthetic.",
+      "graphicDevices": [
+        "Horizontal rule underlining the display text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Inline multi-line style",
+          "Right-aligned composition",
+          "Magenta rim light"
+        ],
+        "avoid": [
+          "Heavy block serifs",
+          "Distressed textures on type",
+          "Centered layouts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Prisma or Akzidenz-Grotesk Inline",
+            "reason": "Captures the multi-line geometric feel of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral or Snell Roundhand",
+            "reason": "Provides the necessary contrast with a fluid, handwritten feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A soft-focus studio portrait of a blonde woman in a dark sequined top, leaning her head on her hand. Use warm skin tones and a strong magenta rim light on the hair. The background should be dark and out of focus.",
+        "overlayInstruction": "Add right-aligned white text in the top right corner. Use a geometric inline font for the top line and a thin, slanted script for the line immediately below it, separated by a thin horizontal line."
+      },
+      "verificationChecks": [
+        "Is the magenta rim light visible on the hair?",
+        "Does the typography feature an inline multi-line effect?",
+        "Is the overall image quality soft-focus and glamorous?",
+        "Is the text right-aligned in the upper quadrant?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the magenta rim light",
+      "Density of the sequins on the clothing",
+      "Amount of soft-focus blur applied to the portrait"
+    ],
+    "mustRedesign": [
+      "Any specific artist names or promotional stamps",
+      "Record label logos",
+      "Specific facial features of the original subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-quality studio lighting simulation",
+        "Clean, vector-sharp typography",
+        "Balanced low-key composition"
+      ],
+      "avoid": [
+        "Harsh, direct flash lighting",
+        "Pixelated edges on the text",
+        "Overly busy backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for the presence of the magenta hair light.",
+      "Ensure the script text is legible and elegant.",
+      "Verify the sequin highlights are bright but not blown out.",
+      "Confirm the inline font has distinct parallel lines."
+    ],
+    "reuseFormula": "Studio Portrait + Soft Focus + Magenta Rim Light + Right-Aligned Inline Typography"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:23:05.257Z"
+}

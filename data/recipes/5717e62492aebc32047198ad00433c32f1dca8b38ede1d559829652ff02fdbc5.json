@@ -1,0 +1,289 @@
+{
+  "id": "5717e62492aebc32047198ad00433c32f1dca8b38ede1d559829652ff02fdbc5",
+  "skillId": "5717e62492aebc32047198ad00433c32f1dca8b38ede1d559829652ff02fdbc5",
+  "versionId": "5717e62492aebc32047198ad00433c32f1dca8b38ede1d559829652ff02fdbc5",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:02:30.929Z",
+  "approvedAt": "2026-08-12T14:02:30.929Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:02:30.929Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Best of Fats Domino!.jpg",
+    "hash": "5717e62492aebc32047198ad00433c32f1dca8b38ede1d559829652ff02fdbc5",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Best of Fats Domino!",
+    "artist": "Fats Domino",
+    "artworkUrl": "https://coverartarchive.org/release-group/1559d755-7910-49b0-8469-9fd3f62cb7d5/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1559d755-7910-49b0-8469-9fd3f62cb7d5",
+    "releaseGroupId": "1559d755-7910-49b0-8469-9fd3f62cb7d5",
+    "recordingId": "053b9dca-a41d-448a-b15a-5fa536a39b97",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sally Was A Good Old GirlFats Domino",
+      "song": "Sally Was A Good Old Girl",
+      "performer": "Fats Domino",
+      "peakPosition": 99,
+      "firstChartDate": "1964-09-19",
+      "lastChartDate": "1964-09-26",
+      "appearances": [
+        {
+          "chartDate": "1964-09-19",
+          "position": 99
+        },
+        {
+          "chartDate": "1964-09-26",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century studio session album cover 1960s album art condensed sans serif recording studio interior vintage yellow typography candid musician portrait bright yellow typography contrasting against a dark moody studio background subject centered between upper display title and lower tracklist blocks technical studio equipment microphone boom arm framing the subject on the left warm low key lighting on the subject s face against a deep blue black suit candid studio portrait condensed yellow sans serif dark low key lighting mid century album aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Studio Session Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Vintage jazz or soul album covers",
+        "Retro recording studio promotional material",
+        "Mid-century music compilation layouts"
+      ],
+      "retrievalTags": [
+        "1960s album art",
+        "condensed sans-serif",
+        "recording studio interior",
+        "vintage yellow typography",
+        "candid musician portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A mid-century recording studio aesthetic featuring a candid central portrait framed by bold, yellow condensed sans-serif typography and technical studio equipment.",
+      "triggerTerms": [
+        "1960s soul album layout",
+        "vintage studio session photography",
+        "condensed yellow display type",
+        "candid musician at mixing desk"
+      ],
+      "excludeWhen": [
+        "modern digital clean aesthetics are required",
+        "minimalist white-space designs are requested",
+        "high-contrast black and white photography is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition featuring a centered, candid portrait of a musician in a dark suit, set within a dimly lit recording studio. The layout is defined by heavy, bright yellow condensed typography at the top and bottom, with technical elements like a vintage condenser microphone and sheet music providing environmental context.",
+    "coreVisualRelationships": [
+      "Bright yellow typography contrasting against a dark, moody studio background",
+      "Subject centered between upper display title and lower tracklist blocks",
+      "Technical studio equipment (microphone, boom arm) framing the subject on the left",
+      "Warm, low-key lighting on the subject's face against a deep blue/black suit"
+    ],
+    "coreInvariants": [
+      "Square aspect ratio",
+      "Condensed sans-serif typeface in high-visibility yellow",
+      "Candid, non-posed expression",
+      "Visible recording studio environment"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Musician is centered, waist-up, occupying the middle third of the vertical space.",
+      "visualAnchor": "The subject's smiling face and the bright yellow title at the top.",
+      "movementAndEyePath": "Starts at the large top title, moves down to the subject's face, then splits to the tracklist blocks at the bottom left and right.",
+      "negativeSpace": "Dark studio shadows provide negative space that makes the yellow text and the subject's face pop."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep navy and charcoal (studio background and suit)",
+      "contrastColorRole": "Bright canary yellow (all typography)",
+      "accentColorRole": "Warm skin tones and off-white sheet music",
+      "saturationAndValueRelationship": "High value contrast between the text and background; low saturation in the environment with high saturation in the type.",
+      "paletteRestrictions": [
+        "Limit to dark blues, blacks, warm browns, and bright yellow."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed grotesque sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "Very narrow character width",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Exclamation point is tall and thin to match character height"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "-2%",
+            "leading": "100%",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "solid yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left and right justified blocks",
+            "tracking": "0",
+            "leading": "110%",
+            "lineBreakPattern": "multi-line list",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom corners",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "solid yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in different scales for title and tracklist.",
+      "graphicDevices": [
+        "Rectangular logo frame with rounded corners for secondary metadata"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow color",
+          "Condensed width",
+          "Uppercase styling"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Italics"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy, condensed, sans-serif impact of the title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Universe 59 Ultra Condensed",
+            "reason": "Captures the mid-century Swiss-style condensed aesthetic.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Alternate Gothic No. 1",
+            "reason": "Provides the correct vintage grotesque feel.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square photograph of a smiling man in a dark navy suit sitting at a recording studio desk with sheet music. Include a vintage silver condenser microphone on a boom arm in the upper left. The lighting should be warm on the face and dark in the background.",
+        "overlayInstruction": "Add a large title in bold yellow extra-condensed sans-serif at the top. Add two blocks of smaller yellow condensed text in the bottom left and bottom right corners to simulate a tracklist."
+      },
+      "verificationChecks": [
+        "Is the typography bright yellow?",
+        "Is the main title in an extra-condensed uppercase sans-serif?",
+        "Is the subject a musician in a studio setting?",
+        "Are there two distinct text blocks at the bottom?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's expression",
+      "Density of the tracklist text",
+      "Specific shade of yellow",
+      "Microphone model"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Original record label logos",
+      "Unique catalog numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s film grain texture",
+        "High-contrast yellow-on-dark-blue legibility",
+        "Balanced square composition"
+      ],
+      "avoid": [
+        "Modern digital sharpness",
+        "Neon colors",
+        "Gradient fills in text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that text does not obscure the subject's face.",
+      "Ensure the yellow is consistent across all text elements.",
+      "Verify the microphone looks like a vintage studio model.",
+      "Confirm the layout maintains a square aspect ratio."
+    ],
+    "reuseFormula": "Candid Studio Portrait + Condensed Yellow Sans-Serif + Dark Low-Key Lighting = Mid-Century Album Aesthetic"
+  }
+}

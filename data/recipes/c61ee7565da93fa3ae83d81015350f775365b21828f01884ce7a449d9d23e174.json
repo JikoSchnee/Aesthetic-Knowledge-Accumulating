@@ -1,0 +1,300 @@
+{
+  "id": "c61ee7565da93fa3ae83d81015350f775365b21828f01884ce7a449d9d23e174",
+  "skillId": "c61ee7565da93fa3ae83d81015350f775365b21828f01884ce7a449d9d23e174",
+  "versionId": "c61ee7565da93fa3ae83d81015350f775365b21828f01884ce7a449d9d23e174",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:36:09.984Z",
+  "approvedAt": "2026-08-13T00:36:09.984Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:36:09.984Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Sands of Time.jpg",
+    "hash": "c61ee7565da93fa3ae83d81015350f775365b21828f01884ce7a449d9d23e174",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Sands of Time",
+    "artist": "Jay & The Americans",
+    "artworkUrl": "https://coverartarchive.org/release-group/42c774c9-d274-49b7-99b4-152714d10dc5/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/42c774c9-d274-49b7-99b4-152714d10dc5",
+    "releaseGroupId": "42c774c9-d274-49b7-99b4-152714d10dc5",
+    "recordingId": "78fae304-7a16-4cab-b5a5-35553fba0a68",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "When You DanceJay & The Americans",
+      "song": "When You Dance",
+      "performer": "Jay & The Americans",
+      "peakPosition": 70,
+      "firstChartDate": "1969-04-05",
+      "lastChartDate": "1969-05-03",
+      "appearances": [
+        {
+          "chartDate": "1969-04-05",
+          "position": 95
+        },
+        {
+          "chartDate": "1969-04-12",
+          "position": 89
+        },
+        {
+          "chartDate": "1969-04-19",
+          "position": 76
+        },
+        {
+          "chartDate": "1969-04-26",
+          "position": 70
+        },
+        {
+          "chartDate": "1969-05-03",
+          "position": 73
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage hourglass silhouette album cover hourglass silhouette purple vignette running figures circular text vintage texture 1960s aesthetic hourglass as a container for a secondary landscape scene circular text path echoing the curves of the hourglass high contrast between the bright interior scene and dark purple exterior horizontal movement of figures against the verticality of the hourglass hourglass silhouette landscape scene inside textured color background circular sans serif text frame bold slab serif header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Hourglass Silhouette Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Collage",
+        "Offset Print"
+      ],
+      "useCases": [
+        "Retro music album art",
+        "Psychedelic 1960s posters",
+        "Conceptual book covers about time"
+      ],
+      "retrievalTags": [
+        "hourglass",
+        "silhouette",
+        "purple vignette",
+        "running figures",
+        "circular text",
+        "vintage texture",
+        "1960s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A central hourglass silhouette containing a landscape with running figures, framed by circular typography on a textured purple background.",
+      "triggerTerms": [
+        "hourglass silhouette landscape",
+        "circular text frame",
+        "vintage purple vignette album cover",
+        "figures running inside a glass shape"
+      ],
+      "excludeWhen": [
+        "modern minimalist digital art",
+        "bright neon colors",
+        "3D rendered objects"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central, vertically oriented hourglass shape acts as a window into a different scene. The top bulb of the hourglass is translucent blue-green glass, while the bottom bulb contains a bright, sandy landscape with four silhouetted figures running from left to right. The entire composition is set against a deep purple, textured background with a heavy vignette and circular text framing the central object.",
+    "coreVisualRelationships": [
+      "Hourglass as a container for a secondary landscape scene",
+      "Circular text path echoing the curves of the hourglass",
+      "High contrast between the bright interior scene and dark purple exterior",
+      "Horizontal movement of figures against the verticality of the hourglass"
+    ],
+    "coreInvariants": [
+      "Hourglass silhouette",
+      "Deep purple textured background",
+      "Circular text arrangement",
+      "Running figures in the bottom bulb"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The hourglass is centered vertically and horizontally, occupying approximately 70% of the height.",
+      "visualAnchor": "The bright bottom bulb of the hourglass containing the running figures.",
+      "movementAndEyePath": "Eyes start at the top bold text, follow the circular text path down to the running figures, then back up through the hourglass neck.",
+      "negativeSpace": "The dark purple textured area surrounding the central hourglass and text circle."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Royal Purple (background and vignette)",
+      "contrastColorRole": "Pale Sand and Sky Blue (interior hourglass scene)",
+      "accentColorRole": "White (typography)",
+      "saturationAndValueRelationship": "High value contrast between the white/sand interior and the low-value purple exterior; muted saturation overall to mimic vintage print.",
+      "paletteRestrictions": [
+        "Limit to purple, white, sand, and muted teal"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif and wide sans-serif",
+      "letterConstructionRules": [
+        "Blocky, high-impact slab serifs for main titles",
+        "Uniform stroke weight for circular secondary text",
+        "Tight letter spacing in the top headers"
+      ],
+      "characterSpecificRedesigns": [
+        "Ampersand is stylized and smaller than adjacent letters"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "thick slabs",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "sturdy"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "two lines",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "above hourglass"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "slight grain",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "circular",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "continuous circle",
+            "density": "light"
+          },
+          "composition": {
+            "position": "centered around hourglass",
+            "scale": "small",
+            "rotation": "variable",
+            "warp": "circular path",
+            "overlap": "none",
+            "relationshipToImage": "framing device"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold slab serif for impact paired with a clean, light sans-serif for decorative framing.",
+      "graphicDevices": [
+        "Circular text path",
+        "Vignette",
+        "Double-exposure effect (scene inside object)"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif style",
+          "Circular text orientation",
+          "Uppercase styling"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Modernist geometric sans-serifs like Helvetica",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Clarendon",
+            "reason": "Matches the heavy slab serif aesthetic of the 1960s",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Copperplate Gothic",
+            "reason": "Similar wide, sturdy feel for secondary headers",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a textured deep purple background with a heavy dark vignette. In the center, place an hourglass silhouette. The top bulb should be translucent teal glass. The bottom bulb should contain a bright, sun-drenched sandy landscape with four small silhouetted figures running across it.",
+        "overlayInstruction": "Add bold white slab-serif text at the top. Add a secondary circle of white sans-serif text that perfectly frames the hourglass silhouette."
+      },
+      "verificationChecks": [
+        "Is the text at the top bold and slab-serif?",
+        "Does the text form a perfect circle around the hourglass?",
+        "Is the background a textured purple with a vignette?",
+        "Are there figures running inside the bottom of the hourglass?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color",
+      "Scene inside the hourglass",
+      "Number of figures",
+      "Font weight"
+    ],
+    "mustRedesign": [
+      "Specific band names",
+      "Specific song titles",
+      "Record label logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Vintage print texture",
+        "Seamless integration of the landscape into the hourglass",
+        "Legible circular typesetting"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Sharp vector edges",
+        "Modern high-contrast photography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the hourglass neck is narrow and centered",
+      "Check that circular text does not overlap the hourglass",
+      "Verify the purple background has a 'dusty' or 'paper' texture",
+      "Confirm the figures are in silhouette against the bright sand"
+    ],
+    "reuseFormula": "Hourglass silhouette + [Landscape Scene] inside + [Textured Color] background + Circular [Sans-Serif] text frame + Bold [Slab Serif] header."
+  }
+}

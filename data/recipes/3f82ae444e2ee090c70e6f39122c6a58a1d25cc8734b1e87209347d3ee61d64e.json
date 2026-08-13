@@ -1,0 +1,288 @@
+{
+  "id": "3f82ae444e2ee090c70e6f39122c6a58a1d25cc8734b1e87209347d3ee61d64e",
+  "skillId": "3f82ae444e2ee090c70e6f39122c6a58a1d25cc8734b1e87209347d3ee61d64e",
+  "versionId": "3f82ae444e2ee090c70e6f39122c6a58a1d25cc8734b1e87209347d3ee61d64e",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T10:16:16.335Z",
+  "approvedAt": "2026-08-12T10:16:16.335Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T10:16:16.335Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Rebirth.jpg",
+    "hash": "3f82ae444e2ee090c70e6f39122c6a58a1d25cc8734b1e87209347d3ee61d64e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Rebirth",
+    "artist": "Lil Wayne",
+    "artworkUrl": "https://coverartarchive.org/release-group/5d79140b-66a9-4897-a364-0aa86eec190a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5d79140b-66a9-4897-a364-0aa86eec190a",
+    "releaseGroupId": "5d79140b-66a9-4897-a364-0aa86eec190a",
+    "recordingId": "2d06cc71-441f-4ca5-bfdd-bdb27c949d2a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "On FireLil Wayne",
+      "song": "On Fire",
+      "performer": "Lil Wayne",
+      "peakPosition": 62,
+      "firstChartDate": "2009-12-26",
+      "lastChartDate": "2010-01-02",
+      "appearances": [
+        {
+          "chartDate": "2009-12-26",
+          "position": 62
+        },
+        {
+          "chartDate": "2010-01-02",
+          "position": 84
+        }
+      ]
+    }
+  },
+  "dedupeText": "opulent rock hip hop fusion album cover rococo opulence electric guitar urban fashion gold luxury interior hip hop rock fusion juxtaposition of gritty urban fashion against 18th century french luxury furniture horizontal alignment of the guitar neck with the central typographic baseline warm gold and brown tones contrasted by stark white and red display text low angle perspective emphasizing the subject s dominance and scale combine luxury furniture urban fashion musical instrument geometric typography with sharp modifications",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Opulent Rock-Hip-Hop Fusion Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "rococo",
+        "opulence",
+        "electric guitar",
+        "urban fashion",
+        "gold",
+        "luxury interior",
+        "hip-hop rock fusion"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast portrait of a musician lounging on an ornate gold rococo sofa, blending luxury interior aesthetics with gritty urban fashion and rock instrumentation.",
+      "triggerTerms": [
+        "musician on ornate gold sofa",
+        "rococo luxury hip-hop aesthetic",
+        "urban rock album cover style"
+      ],
+      "excludeWhen": [
+        "minimalist white backgrounds",
+        "corporate headshots",
+        "bright outdoor natural lighting"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central figure in urban attire and sunglasses reclines on a heavily carved, gold-leafed floral damask sofa. An electric guitar rests across their lap. The lighting is warm and moody, emphasizing metallic textures and deep shadows, with a bold typographic overlay across the mid-section.",
+    "coreVisualRelationships": [
+      "Juxtaposition of gritty urban fashion against 18th-century French luxury furniture",
+      "Horizontal alignment of the guitar neck with the central typographic baseline",
+      "Warm gold and brown tones contrasted by stark white and red display text",
+      "Low-angle perspective emphasizing the subject's dominance and scale"
+    ],
+    "coreInvariants": [
+      "Ornate gold-framed sofa with floral damask upholstery",
+      "Electric guitar positioned horizontally across the subject's lap",
+      "Warm, low-key interior lighting with visible background bokeh"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centered and seated, occupying the middle two-thirds of the frame vertically and horizontally.",
+      "visualAnchor": "The bright white electric guitar body and the large white display typography serve as the primary anchors.",
+      "movementAndEyePath": "The eye starts at the subject's face, follows the guitar neck down to the right, then sweeps across the bold central text.",
+      "negativeSpace": "Minimal negative space; the frame is densely packed with the sofa's texture and background details."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm gold and ochre tones from the sofa and lighting.",
+      "contrastColorRole": "Deep browns and blacks in the shadows and clothing.",
+      "accentColorRole": "Stark white for the primary name and vibrant red for the secondary title.",
+      "saturationAndValueRelationship": "High value contrast between the bright text/guitar and the dark, saturated background.",
+      "paletteRestrictions": [
+        "Gold",
+        "Bronze",
+        "Deep Red",
+        "White",
+        "Black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Heavy weight with uniform stroke thickness",
+        "Sharp, angular terminals",
+        "Custom elongated descenders on specific characters to create a 'fang' or 'spike' effect"
+      ],
+      "characterSpecificRedesigns": [
+        "The letter 'Y' features a vertically extended stem that drops below the baseline into a sharp point."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "None",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Center-left overlay",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays subject's legs",
+            "relationshipToImage": "Integrated foreground element"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "Subtle drop shadow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "Vertical elongation on select stems"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Wide",
+            "leading": "None",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Center-right, following display text",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays sofa",
+            "relationshipToImage": "Secondary information"
+          },
+          "treatment": {
+            "fill": "Vibrant Red",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Size and color contrast between a heavy white primary name and a spaced-out red secondary title.",
+      "graphicDevices": [
+        "Parental Advisory label in bottom right corner",
+        "Horizontal typographic bar"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The sharp vertical extension on the central letter",
+          "The high-contrast color split between white and red"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Pastel colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Provides the clean geometric skeleton for the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Offers the sharp geometric terminals required for the look.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photo of a person in urban streetwear and sunglasses reclining on a gold rococo sofa with floral patterns, holding a white electric guitar horizontally. Use warm, moody interior lighting.",
+        "overlayInstruction": "Add bold, white geometric sans-serif text across the center, modifying the 'Y' to have a long pointed descender. Add a smaller, red, wide-tracked subtitle to the right."
+      },
+      "verificationChecks": [
+        "Is the 'Y' stem elongated and sharp?",
+        "Is the sofa gold and ornate?",
+        "Is the guitar positioned horizontally?",
+        "Is the secondary text red and widely spaced?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Sofa upholstery pattern",
+      "Subject's specific clothing items",
+      "Guitar model",
+      "Intensity of the gold sheen"
+    ],
+    "mustRedesign": [
+      "Specific artist face and tattoos",
+      "Branded logos on clothing or guitar",
+      "Exact proprietary font files"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-quality metallic texture on the sofa",
+        "Clean, sharp typographic edges",
+        "Dramatic, cinematic lighting"
+      ],
+      "avoid": [
+        "Flat, unshaded 2D graphics",
+        "Low-resolution textures",
+        "Cluttered or illegible text placement"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is legible against the background",
+      "Ensure the gold textures look metallic rather than yellow",
+      "Verify the guitar does not look warped or AI-distorted",
+      "Confirm the 'fang' modification on the typography is present"
+    ],
+    "reuseFormula": "Combine [Luxury Furniture] + [Urban Fashion] + [Musical Instrument] + [Geometric Typography with Sharp Modifications]"
+  }
+}

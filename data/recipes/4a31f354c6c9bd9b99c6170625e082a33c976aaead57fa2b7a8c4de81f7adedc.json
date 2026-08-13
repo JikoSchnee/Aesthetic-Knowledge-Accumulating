@@ -1,0 +1,228 @@
+{
+  "id": "4a31f354c6c9bd9b99c6170625e082a33c976aaead57fa2b7a8c4de81f7adedc",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T19:09:54.333Z",
+  "approvedAt": "2026-08-11T19:09:54.333Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T19:09:54.333Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Growing Up Is Getting Old.jpg",
+    "hash": "4a31f354c6c9bd9b99c6170625e082a33c976aaead57fa2b7a8c4de81f7adedc",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Growing Up Is Getting Old",
+    "artist": "Jason Michael Carroll",
+    "artworkUrl": "https://coverartarchive.org/release-group/d169acf5-9f97-45c4-93cf-8d183287dd7a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d169acf5-9f97-45c4-93cf-8d183287dd7a",
+    "releaseGroupId": "d169acf5-9f97-45c4-93cf-8d183287dd7a",
+    "recordingId": "fa669f72-24df-4130-a6f7-a3ba6c998209",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Hurry HomeJason Michael Carroll",
+      "song": "Hurry Home",
+      "performer": "Jason Michael Carroll",
+      "peakPosition": 99,
+      "firstChartDate": "2010-02-13",
+      "lastChartDate": "2010-02-13",
+      "appearances": [
+        {
+          "chartDate": "2010-02-13",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "golden hour profile portrait profile golden hour lens flare warm tones minimalist typography overexposed background long hair sepia toned subject profile facing right against a high key overexposed background warm yellow gold light source originating from the upper right creating a soft haze across the face dark clothing at the bottom providing a heavy visual base for the light filled upper composition profile portrait golden hour haze top aligned geometric sans wide tracking",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Golden Hour Profile Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Post-Processing"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portraiture",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "profile",
+        "golden hour",
+        "lens flare",
+        "warm tones",
+        "minimalist typography",
+        "overexposed background",
+        "long hair",
+        "sepia-toned"
+      ]
+    },
+    "visualDefinition": "A close-up profile portrait of a man with shoulder-length hair, bathed in intense, warm golden-hour light that creates a soft lens flare and washes out the background into a hazy, bright glow. The composition is centered and intimate, featuring a clean horizontal line of text at the top.",
+    "coreVisualRelationships": [
+      "Subject profile facing right against a high-key, overexposed background",
+      "Warm yellow-gold light source originating from the upper right, creating a soft haze across the face",
+      "Dark clothing at the bottom providing a heavy visual base for the light-filled upper composition"
+    ],
+    "coreInvariants": [
+      "Monochromatic warm color palette (yellow, gold, brown)",
+      "High-key lighting with significant lens flare",
+      "Profile orientation of the subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered horizontally, filling the middle two-thirds of the frame vertically.",
+      "visualAnchor": "The subject's eye and the bridge of the nose, which are the sharpest points of focus.",
+      "movementAndEyePath": "Starts at the text at the top, moves down to the subject's profile, and follows the gaze toward the right edge.",
+      "negativeSpace": "Ample negative space at the top and right, filled with bright, hazy light."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm golden yellow (background and highlights)",
+      "contrastColorRole": "Deep brown and black (clothing and hair shadows)",
+      "accentColorRole": "Soft white (specular highlights and text)",
+      "saturationAndValueRelationship": "Low saturation with high value in the background; high contrast between the dark foreground and light background.",
+      "paletteRestrictions": [
+        "Avoid cool tones like blue or green",
+        "Limit palette to sepia-adjacent hues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Open counters",
+        "Capitals only"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light",
+            "contrast": "Monolinear",
+            "xHeight": "N/A (All Caps)",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Clean"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Center",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top margin",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in the negative space above the head"
+          },
+          "treatment": {
+            "fill": "Off-white / Light Cream",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single weight sans-serif for a minimalist, modern look.",
+      "graphicDevices": [
+        "Vertical pipe separator between text elements"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide tracking",
+          "Uppercase",
+          "Light weight"
+        ],
+        "avoid": [
+          "Serifs",
+          "Bold weights",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Light",
+            "reason": "Geometric clarity and modern feel",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat Light",
+            "reason": "Open counters and clean geometric forms",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Classic geometric proportions",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A profile portrait of a man with long hair, shot in high-key golden hour light. The background is a bright, overexposed yellow haze. A soft lens flare washes over the subject's face from the top right. The man wears a dark jacket.",
+        "overlayInstruction": "Add a single line of light-weight, uppercase geometric sans-serif text across the top margin. Use wide tracking and a vertical bar to separate the two phrases. The text should be a pale cream color."
+      },
+      "verificationChecks": [
+        "Is the lighting warm and hazy?",
+        "Is the text centered and small at the top?",
+        "Is the subject in a clear profile view?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the lens flare",
+      "Warmth of the color grade",
+      "Tracking width of the typography"
+    ],
+    "mustRedesign": [
+      "Do not use the specific artist name or album title",
+      "Do not replicate the exact facial features of the individual"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, ethereal lighting quality",
+        "Balanced negative space at the top",
+        "Clean, legible minimalist typography"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Cluttered backgrounds",
+        "Heavy or decorative fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is perfectly horizontal and centered.",
+      "Check that the lens flare does not obscure the profile's silhouette.",
+      "Verify the color palette remains strictly in the warm/golden range.",
+      "Confirm the tracking of the text is wide enough to feel airy."
+    ],
+    "reuseFormula": "Profile portrait + Golden Hour Haze + Top-aligned Geometric Sans (Wide Tracking)"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:08:21.765Z"
+}

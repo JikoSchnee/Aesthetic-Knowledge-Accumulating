@@ -1,0 +1,274 @@
+{
+  "id": "bda57a710491bab2c287a0e522b76fedc4ca50720a208ef7175bbf04e9466349",
+  "skillId": "bda57a710491bab2c287a0e522b76fedc4ca50720a208ef7175bbf04e9466349",
+  "versionId": "bda57a710491bab2c287a0e522b76fedc4ca50720a208ef7175bbf04e9466349",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:08:47.247Z",
+  "approvedAt": "2026-08-12T23:08:47.247Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:08:47.247Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Seal IV.jpg",
+    "hash": "bda57a710491bab2c287a0e522b76fedc4ca50720a208ef7175bbf04e9466349",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Seal IV",
+    "artist": "Seal",
+    "artworkUrl": "https://coverartarchive.org/release-group/1a27c60a-42b3-361c-a37a-02b25f7d6954/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1a27c60a-42b3-361c-a37a-02b25f7d6954",
+    "releaseGroupId": "1a27c60a-42b3-361c-a37a-02b25f7d6954",
+    "recordingId": "75f5925f-8370-4da9-8867-d2f5fbc12eef",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Waiting For YouSeal",
+      "song": "Waiting For You",
+      "performer": "Seal",
+      "peakPosition": 89,
+      "firstChartDate": "2003-10-18",
+      "lastChartDate": "2003-12-06",
+      "appearances": [
+        {
+          "chartDate": "2003-10-18",
+          "position": 98
+        },
+        {
+          "chartDate": "2003-10-25",
+          "position": 96
+        },
+        {
+          "chartDate": "2003-11-01",
+          "position": 96
+        },
+        {
+          "chartDate": "2003-11-08",
+          "position": 96
+        },
+        {
+          "chartDate": "2003-11-15",
+          "position": 93
+        },
+        {
+          "chartDate": "2003-11-22",
+          "position": 89
+        },
+        {
+          "chartDate": "2003-11-29",
+          "position": 91
+        },
+        {
+          "chartDate": "2003-12-06",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "stoic low angle portrait with translucent overlay low angle close up portrait translucent typography studio lighting textured skin stoic expression subject s upward gaze creates a sense of authority and resilience large scale typography anchors the bottom of the composition neutral grey background provides high contrast for the dark silhouette translucent text interacts with the folds and shadows of the clothing low angle portrait directional studio lighting massive translucent sans serif overlay stoic editorial style",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Stoic Low-Angle Portrait with Translucent Overlay",
+      "category": "Editorial Portraiture",
+      "medium": [
+        "Studio Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Magazine Feature",
+        "Biographical Poster"
+      ],
+      "retrievalTags": [
+        "low angle",
+        "close-up portrait",
+        "translucent typography",
+        "studio lighting",
+        "textured skin",
+        "stoic expression"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dramatic, low-angle studio portrait featuring high-contrast lighting and large, semi-transparent sans-serif typography layered over the subject's chest.",
+      "triggerTerms": [
+        "low angle close-up portrait",
+        "translucent block lettering overlay",
+        "dramatic studio lighting on face",
+        "textured skin detail"
+      ],
+      "excludeWhen": [
+        "full body shots",
+        "bright colorful backgrounds",
+        "playful or smiling expressions"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, low-angle headshot of a man with a shaved head and visible facial texture, looking slightly off-camera with a stoic expression. The lighting is directional, creating deep shadows and highlights that emphasize facial structure. A large, semi-transparent sans-serif word is superimposed across the lower third of the frame, partially obscured by the subject's dark clothing.",
+    "coreVisualRelationships": [
+      "Subject's upward gaze creates a sense of authority and resilience",
+      "Large-scale typography anchors the bottom of the composition",
+      "Neutral grey background provides high contrast for the dark silhouette",
+      "Translucent text interacts with the folds and shadows of the clothing"
+    ],
+    "coreInvariants": [
+      "Low-angle perspective",
+      "High-detail skin texture",
+      "Monochromatic or desaturated color palette",
+      "Large-scale sans-serif overlay"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The head occupies the upper two-thirds of the frame, centered but angled slightly to the right.",
+      "visualAnchor": "The subject's eyes and the bridge of the nose serve as the primary focal point.",
+      "movementAndEyePath": "The viewer's eye starts at the facial scars and eyes, then moves down to the large-scale typography at the base.",
+      "negativeSpace": "Minimal negative space, primarily in the upper corners against a flat grey background."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and dark blues in the clothing and shadows.",
+      "contrastColorRole": "Neutral cool grey in the background.",
+      "accentColorRole": "Warm brown skin tones with high-value highlights.",
+      "saturationAndValueRelationship": "Low saturation overall with a wide dynamic range from deep shadows to bright specular highlights on the skin.",
+      "paletteRestrictions": [
+        "Avoid vibrant primary colors",
+        "Maintain a muted, professional tone"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Extra-bold weight",
+        "Uniform stroke thickness",
+        "Square terminals",
+        "Tight kerning"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "lower third",
+            "scale": "massive",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "foreground overlay",
+            "relationshipToImage": "translucent layer over clothing"
+          },
+          "treatment": {
+            "fill": "white at 30-50% opacity",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for maximum impact; no secondary type.",
+      "graphicDevices": [
+        "Transparency/Opacity modulation"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extra-bold weight",
+          "Uppercase casing",
+          "Translucency"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Provides the necessary weight and classic editorial feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Inter Black",
+            "reason": "Modern geometric alternative with high legibility at large scales.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Similar condensed heavy footprint for high-impact display.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-angle studio portrait of a man with a shaved head and textured skin, wearing a dark jacket, against a neutral grey background with directional lighting.",
+        "overlayInstruction": "Add a single word in a massive, extra-bold white sans-serif font across the bottom third of the image, setting the layer opacity to 40%."
+      },
+      "verificationChecks": [
+        "Is the camera angle low, looking up at the subject?",
+        "Is the text translucent and placed over the clothing?",
+        "Is the skin texture sharp and detailed?",
+        "Is the background a flat, neutral grey?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Opacity of the text",
+      "Intensity of the facial highlights",
+      "Specific word used in the overlay"
+    ],
+    "mustRedesign": [
+      "Do not include specific artist names or logos",
+      "Ensure the text is a generic placeholder if used"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Professional studio lighting quality",
+        "Sharp focus on facial features",
+        "Clean typographic integration"
+      ],
+      "avoid": [
+        "Blurry skin textures",
+        "Low-contrast lighting",
+        "Illegible or overly busy backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "The text must be centered horizontally",
+      "The subject's gaze must be directed upward and away",
+      "The lighting must create a clear distinction between the subject and the background",
+      "The typography must feel integrated into the lower composition"
+    ],
+    "reuseFormula": "Low-angle portrait + directional studio lighting + massive translucent sans-serif overlay = Stoic Editorial Style"
+  }
+}

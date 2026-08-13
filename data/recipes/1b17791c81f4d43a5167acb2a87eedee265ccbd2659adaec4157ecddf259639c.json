@@ -1,0 +1,293 @@
+{
+  "id": "1b17791c81f4d43a5167acb2a87eedee265ccbd2659adaec4157ecddf259639c",
+  "skillId": "1b17791c81f4d43a5167acb2a87eedee265ccbd2659adaec4157ecddf259639c",
+  "versionId": "1b17791c81f4d43a5167acb2a87eedee265ccbd2659adaec4157ecddf259639c",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T02:05:02.229Z",
+  "approvedAt": "2026-08-13T02:05:02.229Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T02:05:02.229Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Johnny One Time.jpg",
+    "hash": "1b17791c81f4d43a5167acb2a87eedee265ccbd2659adaec4157ecddf259639c",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Johnny One Time",
+    "artist": "Brenda Lee",
+    "artworkUrl": "https://coverartarchive.org/release-group/24cf62b1-a0f0-4b7e-8f8e-370155148bae/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/24cf62b1-a0f0-4b7e-8f8e-370155148bae",
+    "releaseGroupId": "24cf62b1-a0f0-4b7e-8f8e-370155148bae",
+    "recordingId": "983ed443-eb3e-4649-9c0f-0ef47e1f6d21",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "You Don't Need Me For Anything AnymoreBrenda Lee",
+      "song": "You Don't Need Me For Anything Anymore",
+      "performer": "Brenda Lee",
+      "peakPosition": 84,
+      "firstChartDate": "1969-05-17",
+      "lastChartDate": "1969-05-31",
+      "appearances": [
+        {
+          "chartDate": "1969-05-17",
+          "position": 87
+        },
+        {
+          "chartDate": "1969-05-24",
+          "position": 86
+        },
+        {
+          "chartDate": "1969-05-31",
+          "position": 84
+        }
+      ]
+    }
+  },
+  "dedupeText": "chiaroscuro mid century vocalist cover chiaroscuro 1960s split lighting slab serif low key photography warm highlights subject face emerges from a solid black background typographic block is flush right and vertically stacked warm skin tones contrast against a cool or neutral black void text hierarchy moves from heavy display to light body text chiaroscuro portrait right aligned triple tier typography 1960s palette",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Chiaroscuro Mid-Century Vocalist Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vintage music packaging",
+        "Retro editorial portraits",
+        "Classic jazz or pop posters"
+      ],
+      "retrievalTags": [
+        "chiaroscuro",
+        "1960s",
+        "split lighting",
+        "slab serif",
+        "low-key photography",
+        "warm highlights"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dramatic low-key portrait with high-contrast split lighting and a right-aligned typographic block featuring heavy slab serifs and sans-serif body text.",
+      "triggerTerms": [
+        "chiaroscuro portrait",
+        "1960s album cover style",
+        "split lighting photography",
+        "retro slab serif typography"
+      ],
+      "excludeWhen": [
+        "bright high-key lighting is required",
+        "modern minimalist digital aesthetics are preferred",
+        "centered layouts are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A moody, high-contrast portrait where half the subject's face is lost in deep shadow, paired with a structured block of text in the upper right quadrant using bold, vintage-inspired typefaces.",
+    "coreVisualRelationships": [
+      "Subject face emerges from a solid black background",
+      "Typographic block is flush-right and vertically stacked",
+      "Warm skin tones contrast against a cool or neutral black void",
+      "Text hierarchy moves from heavy display to light body text"
+    ],
+    "coreInvariants": [
+      "Deep black negative space",
+      "Single-source directional lighting",
+      "Right-aligned text block",
+      "Warm-toned highlights on the subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered or slightly left-of-center, medium close-up scale.",
+      "visualAnchor": "The illuminated eye and cheek of the subject.",
+      "movementAndEyePath": "Eye starts at the illuminated face, moves right to the bold display text, then down through the body copy.",
+      "negativeSpace": "Extensive solid black negative space surrounding the subject and text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background and shadows.",
+      "contrastColorRole": "Warm peach and amber skin highlights.",
+      "accentColorRole": "Orange or ochre for primary display text.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "No bright primary blues or greens",
+        "Avoid flat lighting"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric and slab-serif foundations",
+      "letterConstructionRules": [
+        "Display text uses ultra-heavy weights with minimal counters",
+        "Secondary text uses high-contrast slab serifs",
+        "Body text uses clean, wide-set sans-serifs"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase display letters with thick, blocky strokes",
+        "Uppercase slab serifs with heavy horizontal bars"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "ultra-black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "tiny",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "heavy slabs",
+            "corners": "square",
+            "counters": "open",
+            "strokeCharacter": "thick"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "aligned with display text"
+          },
+          "treatment": {
+            "fill": "orange",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between ultra-heavy lowercase sans and wide uppercase slab serifs.",
+      "graphicDevices": [
+        "Horizontal dividers or slashes between list items"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right alignment",
+          "High weight contrast",
+          "Lowercase display text"
+        ],
+        "avoid": [
+          "Serif body text",
+          "Centered text",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Antique Olive Nord",
+            "reason": "Captures the heavy, blocky lowercase display feel",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Clarendon Wide",
+            "reason": "Matches the sturdy slab-serif subtitle style",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Wide",
+            "reason": "Appropriate for the clean, mid-century body text",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-key chiaroscuro portrait of a subject with 1960s styling, where the left side of the frame and the left side of the face are completely submerged in deep black shadow. Ensure warm highlights on the right side of the face.",
+        "overlayInstruction": "Apply right-aligned text in the upper right quadrant. Use a very heavy lowercase sans-serif for the top line, a bold uppercase slab-serif in orange for the second line, and a small sans-serif for the list below."
+      },
+      "verificationChecks": [
+        "Is the background solid black?",
+        "Is the text flush-right?",
+        "Is there a clear hierarchy between the three text styles?",
+        "Does the lighting create a dramatic split effect on the face?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Highlight color",
+      "Subject gender/age",
+      "Accent color for subtitle",
+      "Amount of negative space"
+    ],
+    "mustRedesign": [
+      "Modern digital gradients",
+      "Centered typography",
+      "Soft, even lighting"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic shadow depth",
+        "Sharp typographic alignment",
+        "Vintage film grain texture"
+      ],
+      "avoid": [
+        "Over-exposure",
+        "Cluttered backgrounds",
+        "Default system fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure shadows are pure black without noise",
+      "Verify text does not overlap the subject's features",
+      "Check that the orange accent color is muted/retro, not neon",
+      "Confirm the lowercase display text is legible despite its weight"
+    ],
+    "reuseFormula": "Chiaroscuro Portrait + Right-Aligned Triple-Tier Typography + 1960s Palette"
+  }
+}

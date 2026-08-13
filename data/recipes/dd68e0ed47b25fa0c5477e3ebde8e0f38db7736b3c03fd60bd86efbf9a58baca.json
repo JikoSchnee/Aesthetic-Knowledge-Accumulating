@@ -1,0 +1,295 @@
+{
+  "id": "dd68e0ed47b25fa0c5477e3ebde8e0f38db7736b3c03fd60bd86efbf9a58baca",
+  "skillId": "dd68e0ed47b25fa0c5477e3ebde8e0f38db7736b3c03fd60bd86efbf9a58baca",
+  "versionId": "dd68e0ed47b25fa0c5477e3ebde8e0f38db7736b3c03fd60bd86efbf9a58baca",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:40:59.525Z",
+  "approvedAt": "2026-08-12T12:40:59.525Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:40:59.525Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Summertime Dream.jpg",
+    "hash": "dd68e0ed47b25fa0c5477e3ebde8e0f38db7736b3c03fd60bd86efbf9a58baca",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Summertime Dream",
+    "artist": "Gordon Lightfoot",
+    "artworkUrl": "https://coverartarchive.org/release-group/df6156b9-5e04-3cde-8f7b-139bd6ef35dc/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/df6156b9-5e04-3cde-8f7b-139bd6ef35dc",
+    "releaseGroupId": "df6156b9-5e04-3cde-8f7b-139bd6ef35dc",
+    "recordingId": "58180cd8-14ff-4f9d-b225-11e59300115f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Race Among The RuinsGordon Lightfoot",
+      "song": "Race Among The Ruins",
+      "performer": "Gordon Lightfoot",
+      "peakPosition": 65,
+      "firstChartDate": "1977-02-19",
+      "lastChartDate": "1977-03-12",
+      "appearances": [
+        {
+          "chartDate": "1977-02-19",
+          "position": 83
+        },
+        {
+          "chartDate": "1977-02-26",
+          "position": 70
+        },
+        {
+          "chartDate": "1977-03-05",
+          "position": 65
+        },
+        {
+          "chartDate": "1977-03-12",
+          "position": 67
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast grainy portrait album cover grainy black and white high contrast portrait halftone texture serif typography 1970s aesthetic stark lighting subject occupies the left two thirds of the frame typography is anchored to the right vertical axis extreme contrast between deep blacks and blown out whites heavy film grain texture across the entire image high contrast b w portrait halftone grain right aligned stacked serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Grainy Portrait Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Halftone Print",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Folk music album art",
+        "Vintage-style editorial portraits",
+        "High-contrast poster design"
+      ],
+      "retrievalTags": [
+        "grainy black and white",
+        "high contrast portrait",
+        "halftone texture",
+        "serif typography",
+        "1970s aesthetic",
+        "stark lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, grainy black-and-white portrait with a stark halftone texture and right-aligned serif typography.",
+      "triggerTerms": [
+        "high contrast grainy portrait",
+        "halftone black and white photography",
+        "vintage folk album aesthetic"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "modern minimalist sans-serif layouts are requested",
+        "clean digital vector art is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A stark, high-contrast black-and-white portrait of a man with a beard and curly hair, characterized by heavy grain and a halftone-like texture. The subject is positioned on the left, looking directly at the viewer, while the right side features clean, stacked serif typography in dark blue and muted red.",
+    "coreVisualRelationships": [
+      "Subject occupies the left two-thirds of the frame",
+      "Typography is anchored to the right vertical axis",
+      "Extreme contrast between deep blacks and blown-out whites",
+      "Heavy film grain texture across the entire image"
+    ],
+    "coreInvariants": [
+      "High-contrast black and white tonal range",
+      "Visible halftone or heavy film grain texture",
+      "Right-aligned stacked serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Close-up portrait occupying the left and center, scaled to fill the vertical height.",
+      "visualAnchor": "The subject's eyes and the dark mass of the hair/beard.",
+      "movementAndEyePath": "From the subject's gaze on the left to the stacked text on the right.",
+      "negativeSpace": "Blown-out white space on the far right and top right corners."
+    },
+    "colorSystem": {
+      "dominantColorRole": "High-contrast black and white (monochrome portrait)",
+      "contrastColorRole": "Dark navy blue for primary display text",
+      "accentColorRole": "Muted brick red for secondary subtitle text",
+      "saturationAndValueRelationship": "Extreme value contrast with zero saturation in the image and low saturation in the text.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Dark Navy Blue",
+        "Muted Brick Red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman serif with high stroke contrast",
+      "letterConstructionRules": [
+        "Sharp, bracketed serifs",
+        "Vertical stress in curved strokes",
+        "Tight letter spacing (tracking)"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Bracketed",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked by word",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "middle right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over white negative space"
+          },
+          "treatment": {
+            "fill": "dark navy blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Bracketed",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over white negative space"
+          },
+          "treatment": {
+            "fill": "muted brick red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Same typeface family with color and scale contrast.",
+      "graphicDevices": [
+        "Halftone screen effect",
+        "Heavy film grain"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right alignment",
+          "Serif style",
+          "Stacked layout"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Centered text",
+          "Bright neon colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman or Perpetua",
+            "reason": "Matches the classical serif structure and high contrast.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Sabon or Garamond",
+            "reason": "Provides the elegant, vintage book-like quality of the original.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white portrait of a man with a beard and curly hair, using a heavy halftone grain effect. The subject should be on the left, leaving white space on the right.",
+        "overlayInstruction": "Add two levels of stacked, right-aligned serif text in the white space. The top level should be large and dark navy blue; the bottom level should be medium-sized and muted brick red."
+      },
+      "verificationChecks": [
+        "Is the image strictly black and white with high contrast?",
+        "Is the grain/halftone texture visible?",
+        "Is the text right-aligned and stacked?",
+        "Are the colors for the text dark blue and muted red?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Grain intensity",
+      "Contrast level",
+      "Text color palette",
+      "Subject positioning"
+    ],
+    "mustRedesign": [
+      "Do not use modern digital filters that smooth the skin",
+      "Do not use sans-serif typography",
+      "Do not center the composition"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film grain look",
+        "Sharp, legible serif typography",
+        "Balanced asymmetrical composition"
+      ],
+      "avoid": [
+        "Low-resolution pixelation",
+        "Muddy grays in the high-contrast areas",
+        "Default system fonts like Arial"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast tonal separation",
+      "Verify right-alignment of all text blocks",
+      "Ensure grain texture is consistent across the subject",
+      "Confirm the two-color hierarchy in the typography"
+    ],
+    "reuseFormula": "High-contrast B&W portrait + Halftone grain + Right-aligned stacked serif typography"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "id": "a4bd4bcb012f8fb2e26ebddddcb273168ff5fac313e98d2b37d026d1b6925d47",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T00:56:45.217Z",
+  "approvedAt": "2026-08-12T00:56:45.217Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T00:56:45.217Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Rogues Gallery.jpg",
+    "hash": "a4bd4bcb012f8fb2e26ebddddcb273168ff5fac313e98d2b37d026d1b6925d47",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Rogues Gallery",
+    "artist": "Slade",
+    "artworkUrl": "https://coverartarchive.org/release-group/13a587ac-7894-34e0-bd22-fa2cccfe1601/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/13a587ac-7894-34e0-bd22-fa2cccfe1601",
+    "releaseGroupId": "13a587ac-7894-34e0-bd22-fa2cccfe1601",
+    "recordingId": "74dde68d-4a5a-40a5-b586-69310f4935f7",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Little SheilaSlade",
+      "song": "Little Sheila",
+      "performer": "Slade",
+      "peakPosition": 86,
+      "firstChartDate": "1985-05-04",
+      "lastChartDate": "1985-05-18",
+      "appearances": [
+        {
+          "chartDate": "1985-05-04",
+          "position": 92
+        },
+        {
+          "chartDate": "1985-05-11",
+          "position": 88
+        },
+        {
+          "chartDate": "1985-05-18",
+          "position": 86
+        }
+      ]
+    }
+  },
+  "dedupeText": "victorian rogue album cover 80s rock victorian costumes bowler hats top hats gray border geometric accents group portrait central rectangular image inset within a thick neutral gray frame high contrast yellow typography against a muted gray background repetitive red triangular motifs acting as bullet points or directional markers dark moody lighting on the subjects contrasting with the flat graphic border central portrait thick gray border oversized yellow initial red triangle punctuation 80s graphic rock aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Victorian Rogue Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Offset Print"
+      ],
+      "useCases": [
+        "Album Art",
+        "Poster Design",
+        "Editorial Layout"
+      ],
+      "retrievalTags": [
+        "80s rock",
+        "victorian costumes",
+        "bowler hats",
+        "top hats",
+        "gray border",
+        "geometric accents",
+        "group portrait"
+      ]
+    },
+    "visualDefinition": "A four-person group portrait in Victorian-era attire, framed within a large gray border featuring bold, yellow sans-serif typography and small red triangular accents.",
+    "coreVisualRelationships": [
+      "Central rectangular image inset within a thick neutral gray frame",
+      "High-contrast yellow typography against a muted gray background",
+      "Repetitive red triangular motifs acting as bullet points or directional markers",
+      "Dark, moody lighting on the subjects contrasting with the flat, graphic border"
+    ],
+    "coreInvariants": [
+      "Matte gray textured background",
+      "Bright yellow blocky sans-serif text",
+      "Small red downward-pointing triangles",
+      "Subjects in dark formal wear with hats"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four men seated in a row, occupying the central 60% of the vertical space within a defined rectangle.",
+      "visualAnchor": "The large, oversized initial letter in the top left corner of the layout.",
+      "movementAndEyePath": "Starts at the large top-left character, moves across the top text, drops to the central portrait, and follows the vertical line of triangles to the bottom text.",
+      "negativeSpace": "Substantial gray margins on all four sides, creating a 'window' effect for the photography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Medium neutral gray background providing a flat, industrial canvas.",
+      "contrastColorRole": "Bright lemon yellow for primary and secondary text elements.",
+      "accentColorRole": "Small red triangles providing rhythmic punctuation.",
+      "saturationAndValueRelationship": "High saturation in the graphic elements (yellow/red) against low saturation in the background and photographic subject matter.",
+      "paletteRestrictions": [
+        "Neutral Gray",
+        "Lemon Yellow",
+        "Cadmium Red",
+        "Deep Black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavyweight geometric sans-serif with rounded terminals.",
+      "letterConstructionRules": [
+        "Uniform stroke width",
+        "Oversized initial character for the main title",
+        "Wide tracking for secondary text",
+        "Softened corners on blocky letterforms"
+      ],
+      "characterSpecificRedesigns": [
+        "Initial letter scaled to approximately 300% of the following characters",
+        "Hyphens replaced by red triangular glyphs"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "wide",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "widest",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "above-frame"
+          },
+          "treatment": {
+            "fill": "solid yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "geometric-sans",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom-center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "below-frame"
+          },
+          "treatment": {
+            "fill": "solid yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single-family variation using scale and tracking to differentiate hierarchy.",
+      "graphicDevices": [
+        "Downward pointing equilateral triangles",
+        "Vertical column of triangles as a divider",
+        "Rectangular image border"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow color",
+          "Oversized first letter",
+          "Red triangle accents"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Matches the geometric weight and circular counters.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Arial Black Rounded",
+            "reason": "Captures the soft terminals and heavy presence.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a group portrait of four men in 19th-century English attire (bowler hats, top hats, waistcoats) sitting in a row against a dark, slightly textured background. Place this image inside a central rectangular frame on a solid, matte medium-gray canvas.",
+        "overlayInstruction": "Add uppercase yellow text in a heavy geometric sans-serif. Place the main title at the top with a massive first letter. Place the subtitle at the bottom. Insert small red downward-pointing triangles between top letters and in a vertical line leading to the bottom text."
+      },
+      "verificationChecks": [
+        "Is the first letter significantly larger than the rest?",
+        "Are there red triangles used as spacers?",
+        "Is the background a flat, neutral gray?",
+        "Is the central image a distinct rectangle?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of men in the portrait",
+      "Specific shade of gray for the border",
+      "Tracking width of the bottom text",
+      "Number of red triangles in the vertical stack"
+    ],
+    "mustRedesign": [
+      "Specific band member faces",
+      "Corporate logos in the bottom corners",
+      "Exact wording of the titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, graphic layout",
+        "High-contrast color pop (Yellow on Gray)",
+        "Balanced negative space in the margins"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Gradient fills on text",
+        "Thin, delicate fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the red triangles are uniform in size.",
+      "Ensure the yellow text is legible against the gray.",
+      "Verify the Victorian costumes are consistent across all four subjects.",
+      "Confirm the large initial letter does not overlap the central image."
+    ],
+    "reuseFormula": "Central portrait + Thick gray border + Oversized yellow initial + Red triangle punctuation = 80s Graphic Rock Aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:18:04.490Z"
+}

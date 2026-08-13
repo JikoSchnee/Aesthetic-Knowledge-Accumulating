@@ -1,0 +1,264 @@
+{
+  "id": "783fed2b6def7066c882e73001467684e10897fde4dc61d4da1dba337c7b579a",
+  "skillId": "783fed2b6def7066c882e73001467684e10897fde4dc61d4da1dba337c7b579a",
+  "versionId": "783fed2b6def7066c882e73001467684e10897fde4dc61d4da1dba337c7b579a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:50:14.361Z",
+  "approvedAt": "2026-08-12T23:50:14.361Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:50:14.361Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Don't Give Up Your Day Job.jpg",
+    "hash": "783fed2b6def7066c882e73001467684e10897fde4dc61d4da1dba337c7b579a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Don't Give Up Your Day Job",
+    "artist": "Jack Wagner",
+    "artworkUrl": "https://coverartarchive.org/release-group/326aa0ca-c672-3ce6-ac29-e7fde0a669c4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/326aa0ca-c672-3ce6-ac29-e7fde0a669c4",
+    "releaseGroupId": "326aa0ca-c672-3ce6-ac29-e7fde0a669c4",
+    "recordingId": "9e8e1fca-53b7-4824-bbc0-dab60a8283f9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Weatherman SaysJack Wagner",
+      "song": "Weatherman Says",
+      "performer": "Jack Wagner",
+      "peakPosition": 67,
+      "firstChartDate": "1987-05-09",
+      "lastChartDate": "1987-06-13",
+      "appearances": [
+        {
+          "chartDate": "1987-05-09",
+          "position": 87
+        },
+        {
+          "chartDate": "1987-05-16",
+          "position": 75
+        },
+        {
+          "chartDate": "1987-05-23",
+          "position": 73
+        },
+        {
+          "chartDate": "1987-05-30",
+          "position": 67
+        },
+        {
+          "chartDate": "1987-06-06",
+          "position": 76
+        },
+        {
+          "chartDate": "1987-06-13",
+          "position": 87
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic studio portrait with scratched lettering noir film set silhouette extreme close up scratched text monochrome high contrast studio lighting scale contrast between the macro face and the distant silhouette interaction between the subject and industrial studio hardware textural tension between smooth photographic gradients and jagged lettering balance of deep blacks and blown out white highlights combine extreme close up portrait distant silhouette on film set hand scratched typography in a high contrast monochrome palette",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Studio Portrait with Scratched Lettering",
+      "category": "Album Art",
+      "medium": [
+        "Black and White Photography",
+        "Mixed Media",
+        "Hand-Lettering"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Theatrical Posters",
+        "Editorial Portraits"
+      ],
+      "retrievalTags": [
+        "noir",
+        "film set",
+        "silhouette",
+        "extreme close-up",
+        "scratched text",
+        "monochrome",
+        "high contrast",
+        "studio lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dual-layered composition featuring an extreme close-up portrait juxtaposed with a full-body silhouette on a film set, tied together by raw, hand-scratched typography.",
+      "triggerTerms": [
+        "noir film set silhouette",
+        "scratched hand-drawn lettering",
+        "extreme close-up portrait overlay",
+        "high-contrast monochrome studio photography"
+      ],
+      "excludeWhen": [
+        "vibrant colors are required",
+        "clean minimalist sans-serif typography is needed",
+        "the subject must be fully lit without shadows"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast black and white composition where a large-scale, detailed facial crop on the left transitions into a dark void, revealing a smaller silhouette of the same figure standing amidst studio lighting equipment on the right.",
+    "coreVisualRelationships": [
+      "Scale contrast between the macro face and the distant silhouette",
+      "Interaction between the subject and industrial studio hardware",
+      "Textural tension between smooth photographic gradients and jagged lettering",
+      "Balance of deep blacks and blown-out white highlights"
+    ],
+    "coreInvariants": [
+      "Monochrome or sepia-toned palette",
+      "Presence of studio lighting rigs as graphic elements",
+      "Hand-scratched or etched typographic style"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up of a face occupies the left 40% of the frame; a full-body silhouette stands in the lower right quadrant.",
+      "visualAnchor": "The detailed eye of the large-scale portrait serves as the primary focal point.",
+      "movementAndEyePath": "From the large eye on the left, across the dark center to the silhouette and lighting rig on the right, then down to the bottom-aligned text.",
+      "negativeSpace": "Heavy use of solid black in the center to separate the two scales of the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black for shadows and silhouettes",
+      "contrastColorRole": "Bright white for studio background and highlights",
+      "accentColorRole": "Muted sepia or warm grey midtones",
+      "saturationAndValueRelationship": "Zero saturation with extreme value range from 0 to 100.",
+      "paletteRestrictions": [
+        "Grayscale only",
+        "No primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "All-caps informal script",
+      "letterConstructionRules": [
+        "Jagged, uneven strokes mimicking a scratched surface",
+        "Variable baseline and letter height",
+        "Inconsistent stroke thickness",
+        "Aggressive, rapid execution style"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters like 'A' and 'W' have elongated, sharp terminals",
+        "Crossbars are often disconnected or slanted"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "hand-drawn",
+          "anatomy": {
+            "width": "condensed to normal",
+            "weight": "light to medium",
+            "contrast": "high",
+            "xHeight": "high (all caps)",
+            "terminals": "sharp",
+            "corners": "angular",
+            "counters": "irregular",
+            "strokeCharacter": "scratchy"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "loose",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top and bottom margins",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "on top of image",
+            "relationshipToImage": "integrated as if scratched onto the negative"
+          },
+          "treatment": {
+            "fill": "white or light grey",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "distressed",
+            "distortion": "jittery"
+          }
+        }
+      ],
+      "pairingStrategy": "Single expressive hand-drawn style used for both name and title to maintain raw aesthetic.",
+      "graphicDevices": [
+        "Studio barn-door lights",
+        "Exposed cables",
+        "Film grain"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Scratchy texture",
+          "Hand-written feel"
+        ],
+        "avoid": [
+          "Clean digital fonts",
+          "Perfectly straight baselines"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rough Hand-drawn Script",
+            "reason": "Captures the raw, unpolished energy of the original lettering.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Scratched Metal Type",
+            "reason": "Mimics the 'etched into film' look.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast B&W photo. Left side: extreme close-up of a man's face, focused on one eye. Right side: a silhouette of the same man standing in a bright studio space with professional lighting rigs and cables visible. Center: deep black shadow transition.",
+        "overlayInstruction": "Apply hand-scratched, all-caps white lettering at the top and bottom. The text should look like it was carved into a physical photograph with a needle."
+      },
+      "verificationChecks": [
+        "Is the left eye sharp and detailed?",
+        "Is the right-side figure a clean silhouette?",
+        "Does the text look hand-scratched rather than typed?",
+        "Is the palette strictly monochrome?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the sepia tint",
+      "Density of the studio equipment on the right",
+      "Aggression level of the scratched text"
+    ],
+    "mustRedesign": [
+      "Avoid using standard sans-serif fonts",
+      "Do not use soft, even lighting; must be high-contrast"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic film-noir atmosphere",
+        "Clear distinction between the two subject scales",
+        "Authentic-looking distressed lettering"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Generic stock photo look",
+        "Clean vector typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast tonal range",
+      "Verify the 'scratched' texture of the font",
+      "Ensure the studio equipment is recognizable but stylized",
+      "Confirm the dual-scale composition is balanced"
+    ],
+    "reuseFormula": "Combine [Extreme Close-up Portrait] + [Distant Silhouette on Film Set] + [Hand-Scratched Typography] in a [High-Contrast Monochrome] palette."
+  }
+}

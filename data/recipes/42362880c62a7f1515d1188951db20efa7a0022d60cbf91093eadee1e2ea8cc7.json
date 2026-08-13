@@ -1,0 +1,254 @@
+{
+  "id": "42362880c62a7f1515d1188951db20efa7a0022d60cbf91093eadee1e2ea8cc7",
+  "skillId": "42362880c62a7f1515d1188951db20efa7a0022d60cbf91093eadee1e2ea8cc7",
+  "versionId": "42362880c62a7f1515d1188951db20efa7a0022d60cbf91093eadee1e2ea8cc7",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:47:09.759Z",
+  "approvedAt": "2026-08-12T05:47:09.759Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:47:09.759Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Cradlesong.jpg",
+    "hash": "42362880c62a7f1515d1188951db20efa7a0022d60cbf91093eadee1e2ea8cc7",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Cradlesong",
+    "artist": "Rob Thomas",
+    "artworkUrl": "https://coverartarchive.org/release-group/dbb8b358-52bf-4c75-a512-dd7c77985327/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/dbb8b358-52bf-4c75-a512-dd7c77985327",
+    "releaseGroupId": "dbb8b358-52bf-4c75-a512-dd7c77985327",
+    "recordingId": "5d053511-4943-4a59-8e71-c3d70d0064b5",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "MockingbirdRob Thomas",
+      "song": "Mockingbird",
+      "performer": "Rob Thomas",
+      "peakPosition": 95,
+      "firstChartDate": "2010-07-31",
+      "lastChartDate": "2010-09-11",
+      "appearances": [
+        {
+          "chartDate": "2010-07-31",
+          "position": 100
+        },
+        {
+          "chartDate": "2010-08-28",
+          "position": 95
+        },
+        {
+          "chartDate": "2010-09-04",
+          "position": 100
+        },
+        {
+          "chartDate": "2010-09-11",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "chiaroscuro portrait with textured overlays chiaroscuro split lighting textured portrait gritty overlay monocular focus low key lighting extreme contrast between the pitch black left side and the illuminated right side of the face textural tension between the smooth skin tones and the rough speckled overlay visual weight anchored by the single highly detailed blue eye typographic framing at the top left and bottom right corners dramatic split lighting gritty texture overlay corner weighted lowercase sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Chiaroscuro Portrait with Textured Overlays",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Dramatic Editorial Portraits",
+        "Cinematic Character Posters"
+      ],
+      "retrievalTags": [
+        "chiaroscuro",
+        "split lighting",
+        "textured portrait",
+        "gritty overlay",
+        "monocular focus",
+        "low-key lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, low-key portrait featuring a face emerging from deep shadow with heavy textural overlays and a single piercing eye.",
+      "triggerTerms": [
+        "chiaroscuro portrait with grit",
+        "split-lit face in deep shadow",
+        "textured monocular portrait"
+      ],
+      "excludeWhen": [
+        "bright and airy photography is needed",
+        "full-face visibility is required",
+        "clean minimalist aesthetics are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dramatic close-up portrait where half the face is obscured by absolute black shadow, while the lit side features pale skin, a sharp blue eye, and a layer of painterly, gritty texture that suggests age or distress.",
+    "coreVisualRelationships": [
+      "Extreme contrast between the pitch-black left side and the illuminated right side of the face.",
+      "Textural tension between the smooth skin tones and the rough, speckled overlay.",
+      "Visual weight anchored by the single, highly detailed blue eye.",
+      "Typographic framing at the top-left and bottom-right corners."
+    ],
+    "coreInvariants": [
+      "Split-lighting (chiaroscuro) effect obscuring exactly half the face.",
+      "Desaturated, sickly skin tones contrasted with a vibrant eye color.",
+      "Gritty, speckled texture across the mid-tones and highlights."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The face is centered vertically but shifted slightly right, filling approximately 70% of the frame height.",
+      "visualAnchor": "The subject's right eye (viewer's right), which is the only sharp, high-contrast point of focus.",
+      "movementAndEyePath": "Starts at the bright eye, moves down to the lips, then follows the diagonal to the text in the corners.",
+      "negativeSpace": "Dominant black negative space on the left side of the frame, creating a sense of mystery and depth."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and dark umber for shadows and background.",
+      "contrastColorRole": "Pale, desaturated greenish-yellow for skin highlights.",
+      "accentColorRole": "Vibrant cerulean blue for the iris and small red speckles.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast; the eye is the only high-saturation element.",
+      "paletteRestrictions": [
+        "Avoid bright whites; use off-white or cream for highlights.",
+        "Avoid warm, healthy skin tones."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif with rounded terminals",
+      "letterConstructionRules": [
+        "Monolinear stroke weight",
+        "Open counters",
+        "Lowercase only for a modern, understated feel"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Rounded",
+            "corners": "Rounded",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "Top-left and bottom-right corners",
+            "scale": "Small relative to the face",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "Floating over dark areas"
+          },
+          "treatment": {
+            "fill": "Pale cream / Off-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used in two different positions to frame the subject.",
+      "graphicDevices": [
+        "Corner-weighted layout"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase styling",
+          "Wide letter spacing",
+          "Rounded terminals"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Bold weights",
+          "All-caps"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "VAG Rounded Light",
+            "reason": "Matches the friendly but clean rounded geometry.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham Rounded",
+            "reason": "Provides a similar modern, geometric feel with rounded ends.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man with a short fringe haircut, lit with harsh split-lighting so one side is in total darkness. Apply a gritty, speckled texture overlay with hints of red and yellow. The skin should be pale and desaturated, with one bright blue eye visible.",
+        "overlayInstruction": "Add lowercase sans-serif text in a light, rounded font. Place one line in the top-left corner and another in the bottom-right corner, using a pale cream color and wide tracking."
+      },
+      "verificationChecks": [
+        "Is the left side of the face completely obscured by shadow?",
+        "Is the eye color a vibrant, contrasting blue?",
+        "Is the text lowercase and positioned in the corners?",
+        "Does the image have a gritty, textured overlay?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the texture overlay",
+      "Hue of the single visible eye",
+      "Degree of skin desaturation",
+      "Tracking width of the typography"
+    ],
+    "mustRedesign": [
+      "Do not use the specific name 'Rob Thomas' or 'Cradlesong'.",
+      "Do not replicate the exact facial features of the artist."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic chiaroscuro lighting",
+        "Visible film grain or grit texture",
+        "Balanced corner-weighted typography"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Clean, digital-looking skin",
+        "Centered text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the shadow side is deep black without detail.",
+      "Check that the texture doesn't obscure the clarity of the visible eye.",
+      "Verify the typography is legible against the dark background.",
+      "Confirm the color palette remains muted except for the eye."
+    ],
+    "reuseFormula": "Dramatic Split-Lighting + Gritty Texture Overlay + Corner-Weighted Lowercase Sans-Serif Typography."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:07.656Z"
+}

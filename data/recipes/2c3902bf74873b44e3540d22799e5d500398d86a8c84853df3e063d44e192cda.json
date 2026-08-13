@@ -1,0 +1,314 @@
+{
+  "id": "2c3902bf74873b44e3540d22799e5d500398d86a8c84853df3e063d44e192cda",
+  "skillId": "2c3902bf74873b44e3540d22799e5d500398d86a8c84853df3e063d44e192cda",
+  "versionId": "2c3902bf74873b44e3540d22799e5d500398d86a8c84853df3e063d44e192cda",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:04:11.160Z",
+  "approvedAt": "2026-08-12T16:04:11.160Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:04:11.160Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Fast Times at Ridgemont High: Music From the Motion Picture.jpg",
+    "hash": "2c3902bf74873b44e3540d22799e5d500398d86a8c84853df3e063d44e192cda",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Fast Times at Ridgemont High: Music From the Motion Picture",
+    "artist": "Timothy B. Schmit",
+    "artworkUrl": "https://coverartarchive.org/release-group/6c82371e-dc63-3ce9-862e-9786dd4694ec/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6c82371e-dc63-3ce9-862e-9786dd4694ec",
+    "releaseGroupId": "6c82371e-dc63-3ce9-862e-9786dd4694ec",
+    "recordingId": "d0fc3b93-3a8f-47aa-a894-e14cff68d4b7",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "So Much In LoveTimothy B. Schmit",
+      "song": "So Much In Love",
+      "performer": "Timothy B. Schmit",
+      "peakPosition": 59,
+      "firstChartDate": "1982-10-02",
+      "lastChartDate": "1982-11-20",
+      "appearances": [
+        {
+          "chartDate": "1982-10-02",
+          "position": 81
+        },
+        {
+          "chartDate": "1982-10-09",
+          "position": 70
+        },
+        {
+          "chartDate": "1982-10-16",
+          "position": 62
+        },
+        {
+          "chartDate": "1982-10-23",
+          "position": 62
+        },
+        {
+          "chartDate": "1982-10-30",
+          "position": 59
+        },
+        {
+          "chartDate": "1982-11-06",
+          "position": 59
+        },
+        {
+          "chartDate": "1982-11-13",
+          "position": 88
+        },
+        {
+          "chartDate": "1982-11-20",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro high school soundtrack aesthetic checkerboard 80s graphic design bold typography vignette high school aesthetic retro pop culture title block anchored to the top third with aggressive forward slant central subject framed by a circular checkerboard graphic symmetrical columns of secondary text flanking the central image high contrast between black background and bright primary color accents 80s soundtrack layout slanted red title yellow trapezoid checkerboard ring central vignette symmetrical text columns",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro High School Soundtrack Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Digital Illustration",
+        "Graphic Layout"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Retro Movie Posters",
+        "80s Themed Event Promotion"
+      ],
+      "retrievalTags": [
+        "checkerboard",
+        "80s graphic design",
+        "bold typography",
+        "vignette",
+        "high school aesthetic",
+        "retro pop culture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Use this skill for 1980s-inspired layouts featuring bold, slanted display type, checkerboard circular frames, and a central product focus against a dark vignette.",
+      "triggerTerms": [
+        "80s movie soundtrack style",
+        "checkerboard circle frame",
+        "slanted bold red title",
+        "retro high school aesthetic"
+      ],
+      "excludeWhen": [
+        "minimalist modern design is requested",
+        "pastel or soft color palettes are required",
+        "flat vector illustrations without depth are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast composition featuring a central photographic subject framed by a yellow and black checkerboard ring, set against a black background with a soft central spotlight. The top is dominated by a large, slanted, red sans-serif title block overlapping a yellow trapezoidal shape.",
+    "coreVisualRelationships": [
+      "Title block anchored to the top third with aggressive forward slant",
+      "Central subject framed by a circular checkerboard graphic",
+      "Symmetrical columns of secondary text flanking the central image",
+      "High contrast between black background and bright primary color accents"
+    ],
+    "coreInvariants": [
+      "Yellow and black checkerboard circular border",
+      "Slanted red display typography with black outlines",
+      "Central radial vignette spotlight effect"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central focal point, occupying the middle third of the vertical space.",
+      "visualAnchor": "The large red title block at the top serves as the primary anchor.",
+      "movementAndEyePath": "Starts at the top title, moves down to the central framed image, then scans the flanking text columns.",
+      "negativeSpace": "Heavy use of solid black negative space to emphasize the central spotlight and top graphics."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background and negative space)",
+      "contrastColorRole": "Yellow (trapezoid and checkerboard accents)",
+      "accentColorRole": "Red (primary title fill)",
+      "saturationAndValueRelationship": "High saturation primaries (Red/Yellow) against a zero-value black background.",
+      "paletteRestrictions": [
+        "Black",
+        "Pure Red",
+        "Golden Yellow",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Extra-bold condensed sans-serif",
+      "letterConstructionRules": [
+        "Aggressive 15-20 degree forward slant (italicization)",
+        "Varying baseline heights for a 'staggered' look",
+        "Thick black outlines around red fills",
+        "Sharp, angular terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'S' characters are often elongated or compressed to fit the staggered baseline"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "custom-sans",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "slightly rounded",
+            "counters": "tight",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single word focus",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "slanted",
+            "warp": "none",
+            "overlap": "overlaps background shapes",
+            "relationshipToImage": "above"
+          },
+          "treatment": {
+            "fill": "red",
+            "outline": "thick black",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "italicized"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "bold-sans",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "square",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "horizontal block",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below main title",
+            "scale": "medium",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "contained in blue bar",
+            "relationshipToImage": "above"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Aggressive custom display type paired with clean, functional bold sans-serif for secondary information.",
+      "graphicDevices": [
+        "Yellow trapezoid background for title",
+        "Blue rectangular bar for subtitle",
+        "Checkerboard ring frame"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slant angle",
+          "Red/Yellow/Black color scheme",
+          "Checkerboard motif"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Thin line weights",
+          "Centering the title without the slant"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Helvetica Inserat",
+            "reason": "Provides the necessary weight and condensed structure for the display type.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Good for the secondary text columns to maintain the 80s feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a solid black background with a soft white radial spotlight in the center. Place a circular ring with a yellow and black checkerboard pattern inside the spotlight area. At the top, place a bright yellow trapezoid shape.",
+        "overlayInstruction": "Add large, bold, red slanted uppercase text with black outlines over the yellow trapezoid. Below that, add a blue horizontal bar with white bold sans-serif text. Flank the central circle with two symmetrical columns of white sans-serif text."
+      },
+      "verificationChecks": [
+        "Is the title text slanted forward?",
+        "Is the checkerboard ring present and circular?",
+        "Is the background solid black with a central vignette?",
+        "Are the primary colors Red and Yellow dominant in the top graphic?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Checkerboard square size",
+      "Title slant angle",
+      "Vignette intensity",
+      "Secondary text column count"
+    ],
+    "mustRedesign": [
+      "Any modern gradients",
+      "Drop shadows on the main title",
+      "Lowercase letters in the display title"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast 80s graphic style",
+        "Clean geometric framing",
+        "Bold, legible typography"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Muted or pastel colors",
+        "Handwritten or script fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the red title has a thick black outline.",
+      "Ensure the checkerboard pattern is strictly yellow and black.",
+      "Verify the central image is contained within the ring.",
+      "Confirm the text columns are vertically aligned.",
+      "Check that the yellow trapezoid is behind the red text."
+    ],
+    "reuseFormula": "80s_Soundtrack_Layout = (Slanted_Red_Title + Yellow_Trapezoid) / (Checkerboard_Ring + Central_Vignette) + Symmetrical_Text_Columns"
+  }
+}

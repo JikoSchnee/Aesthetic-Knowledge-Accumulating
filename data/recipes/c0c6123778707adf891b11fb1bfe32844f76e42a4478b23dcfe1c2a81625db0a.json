@@ -1,0 +1,290 @@
+{
+  "id": "c0c6123778707adf891b11fb1bfe32844f76e42a4478b23dcfe1c2a81625db0a",
+  "skillId": "c0c6123778707adf891b11fb1bfe32844f76e42a4478b23dcfe1c2a81625db0a",
+  "versionId": "c0c6123778707adf891b11fb1bfe32844f76e42a4478b23dcfe1c2a81625db0a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:00:53.497Z",
+  "approvedAt": "2026-08-12T16:00:53.497Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:00:53.497Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Bobbie Sue.jpg",
+    "hash": "c0c6123778707adf891b11fb1bfe32844f76e42a4478b23dcfe1c2a81625db0a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Bobbie Sue",
+    "artist": "The Oak Ridge Boys",
+    "artworkUrl": "https://coverartarchive.org/release-group/97223952-3e81-40b7-abfa-565042d991c1/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/97223952-3e81-40b7-abfa-565042d991c1",
+    "releaseGroupId": "97223952-3e81-40b7-abfa-565042d991c1",
+    "recordingId": "866c930a-8938-4439-9b8d-c7fb6ed92b74",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "So FineThe Oak Ridge Boys",
+      "song": "So Fine",
+      "performer": "The Oak Ridge Boys",
+      "peakPosition": 76,
+      "firstChartDate": "1982-06-12",
+      "lastChartDate": "1982-07-03",
+      "appearances": [
+        {
+          "chartDate": "1982-06-12",
+          "position": 88
+        },
+        {
+          "chartDate": "1982-06-19",
+          "position": 78
+        },
+        {
+          "chartDate": "1982-06-26",
+          "position": 76
+        },
+        {
+          "chartDate": "1982-07-03",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro country group album cover retro 1980s country music band portrait color block background script typography geometric stripes subjects overlap the vertical color boundaries diagonal script text sits in the center midground top header is anchored to the upper edge across all color blocks warm color palette unifies disparate clothing styles group portrait vertical tricolor background slanted script overlay spaced header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Country Group Album Cover",
+      "category": "Music Media",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Vinyl Print"
+      ],
+      "useCases": [
+        "Vintage album art recreation",
+        "1980s country music aesthetic",
+        "Retro band promotional posters"
+      ],
+      "retrievalTags": [
+        "retro",
+        "1980s",
+        "country music",
+        "band portrait",
+        "color block background",
+        "script typography",
+        "geometric stripes"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A multi-subject group portrait set against a bold vertical color-block background with overlapping script and sans-serif typography.",
+      "triggerTerms": [
+        "1980s country album style",
+        "vertical color block background",
+        "band portrait with script overlay"
+      ],
+      "excludeWhen": [
+        "minimalist modern designs",
+        "single-subject portraits",
+        "monochromatic backgrounds"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "Four men in varied 1980s attire standing in front of a background composed of wide vertical red and yellow stripes, featuring a prominent diagonal script title and a top-aligned spaced sans-serif header.",
+    "coreVisualRelationships": [
+      "Subjects overlap the vertical color boundaries",
+      "Diagonal script text sits in the center-midground",
+      "Top header is anchored to the upper edge across all color blocks",
+      "Warm color palette unifies disparate clothing styles"
+    ],
+    "coreInvariants": [
+      "Vertical tricolor background (Red-Yellow-Red)",
+      "Diagonal script title with underline",
+      "Spaced sans-serif header at the top margin"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four full-length or three-quarter figures arranged horizontally, filling the middle 70% of the frame.",
+      "visualAnchor": "The central script title in yellow with red outlines acts as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the top header, drop to the central script, and then scan the four subjects from left to right.",
+      "negativeSpace": "Minimal; the frame is densely packed with subjects and large-scale typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Primary Red (background blocks and text outlines)",
+      "contrastColorRole": "Bright Yellow (central background block and script fill)",
+      "accentColorRole": "White (header text and clothing highlights)",
+      "saturationAndValueRelationship": "High saturation and high value for a vibrant, commercial 1980s look.",
+      "paletteRestrictions": [
+        "Limited to Red, Yellow, White, and natural clothing tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans and Formal Script",
+      "letterConstructionRules": [
+        "Header: Wide tracking, uniform stroke weight, all-caps",
+        "Title: 45-degree upward slant, connected cursive, thick-to-thin modulation"
+      ],
+      "characterSpecificRedesigns": [
+        "The script 'B' and 'Q' feature exaggerated flourishes",
+        "A long underline stroke extends from the final letter of the script title"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "flourished",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "titlecase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "center",
+            "scale": "large",
+            "rotation": "15 degrees",
+            "warp": "none",
+            "overlap": "over subjects",
+            "relationshipToImage": "floating overlay"
+          },
+          "treatment": {
+            "fill": "yellow",
+            "outline": "red",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "slanted"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "geometric",
+            "strokeCharacter": "monoline"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "justified",
+            "tracking": "very wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "small",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "background only",
+            "relationshipToImage": "border-like"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast pairing of a rigid, spaced geometric sans with a fluid, slanted decorative script.",
+      "graphicDevices": [
+        "Vertical color bands",
+        "Horizontal divider lines at the bottom",
+        "Diagonal underline"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow-on-red script color scheme",
+          "Wide tracking of the top text"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Vertical text orientation"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Medium",
+            "reason": "Matches the geometric, clean look of the top header",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Brush Script",
+            "reason": "Captures the 80s slanted cursive energy",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of four men in 1980s fashion (sweaters, leather, denim) standing against a background of three wide vertical stripes: Red, Yellow, Red.",
+        "overlayInstruction": "Add a wide-tracked sans-serif title in white at the very top. Add a large, yellow slanted script title with a red outline across the center of the image."
+      },
+      "verificationChecks": [
+        "Is the background divided into red and yellow vertical blocks?",
+        "Is the central script text slanted upwards?",
+        "Is the top text widely spaced across the entire width?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects",
+      "Specific colors of the vertical blocks",
+      "Angle of the script text"
+    ],
+    "mustRedesign": [
+      "Modern minimalist typography",
+      "Desaturated or pastel color palettes",
+      "Asymmetrical background layouts"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast color blocking",
+        "Legible script overlay",
+        "Balanced group composition"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-resolution textures",
+        "Muted 70s earth tones"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the script text has a distinct red outline.",
+      "Ensure the top header is perfectly horizontal.",
+      "Verify the subjects are positioned in front of the color blocks.",
+      "Confirm the yellow block is centered between two red blocks."
+    ],
+    "reuseFormula": "Group Portrait + Vertical Tricolor Background + Slanted Script Overlay + Spaced Header"
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "id": "5f48b9a1a35d6bb220bfa6f511c2d7dd81ae169960bdd6d506c30045c200ac14",
+  "skillId": "5f48b9a1a35d6bb220bfa6f511c2d7dd81ae169960bdd6d506c30045c200ac14",
+  "versionId": "5f48b9a1a35d6bb220bfa6f511c2d7dd81ae169960bdd6d506c30045c200ac14",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:42:51.365Z",
+  "approvedAt": "2026-08-12T15:42:51.365Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:42:51.365Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "At the Hop With the Sherrys.jpg",
+    "hash": "5f48b9a1a35d6bb220bfa6f511c2d7dd81ae169960bdd6d506c30045c200ac14",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "At the Hop With the Sherrys",
+    "artist": "The Sherrys",
+    "artworkUrl": "https://coverartarchive.org/release-group/3e587b87-c526-30bc-a282-f0d6c4a1cb2e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3e587b87-c526-30bc-a282-f0d6c4a1cb2e",
+    "releaseGroupId": "3e587b87-c526-30bc-a282-f0d6c4a1cb2e",
+    "recordingId": "8c6f13f3-09d2-4a98-95e3-a7910e61e408",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Slop TimeThe Sherrys",
+      "song": "Slop Time",
+      "performer": "The Sherrys",
+      "peakPosition": 97,
+      "firstChartDate": "1963-01-12",
+      "lastChartDate": "1963-01-12",
+      "appearances": [
+        {
+          "chartDate": "1963-01-12",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century girl group record sleeve mid century modern 1960s girl group arched typography slab serif retro photography dance party arched display text framing the central subjects repetitive dancing figures creating a rhythmic top border left aligned vertical list balancing the central trio high contrast subjects against a neutral desaturated background combine a central group portrait with a large arched slab serif header and a top border of illustrative icons to create a mid century entertainment aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Girl Group Record Sleeve",
+      "category": "Album Art",
+      "medium": [
+        "Offset Lithography",
+        "Studio Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vintage music promotion",
+        "1960s retro aesthetic design",
+        "Nostalgic entertainment posters"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "1960s",
+        "girl group",
+        "arched typography",
+        "slab serif",
+        "retro photography",
+        "dance party"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1960s-style album cover featuring a central trio of performers under a large, arched slab-serif title and a row of dancing silhouettes.",
+      "triggerTerms": [
+        "1960s girl group album cover",
+        "arched slab serif typography",
+        "retro dance party aesthetic",
+        "mid-century record sleeve layout"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "dark or moody photography",
+        "sans-serif only layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A balanced, symmetrical composition featuring three female vocalists in matching attire, framed by a prominent arched title above and a tracklist to the left, set against a light, textured background with illustrative accents.",
+    "coreVisualRelationships": [
+      "Arched display text framing the central subjects",
+      "Repetitive dancing figures creating a rhythmic top border",
+      "Left-aligned vertical list balancing the central trio",
+      "High-contrast subjects against a neutral, desaturated background"
+    ],
+    "coreInvariants": [
+      "Arched primary display text with heavy black outlines",
+      "Three subjects in identical poses and costumes",
+      "Row of illustrated dancing couples at the top edge"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three subjects positioned centrally from the waist up, occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The large, arched red slab-serif title at the top center.",
+      "movementAndEyePath": "Eyes start at the arched title, move down to the subjects' faces, then sweep left to the tracklist.",
+      "negativeSpace": "Light cream/off-white background provides breathing room around the subjects and text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cream/Off-white background",
+      "contrastColorRole": "Deep navy and black in clothing and outlines",
+      "accentColorRole": "Vibrant red in the main title and blue in the subtitle",
+      "saturationAndValueRelationship": "High saturation in the primary title against a desaturated, vintage-toned background.",
+      "paletteRestrictions": [
+        "Red",
+        "Light Blue",
+        "Navy",
+        "Cream",
+        "Black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy Slab Serif",
+      "letterConstructionRules": [
+        "Thick, blocky serifs",
+        "Uniform stroke weight",
+        "Strong black outlines",
+        "Arched baseline for the primary display text"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are warped to follow a circular arc while maintaining vertical stems."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Extra Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Blunt",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single Arch",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top Center",
+            "scale": "Large",
+            "rotation": "Variable (Arched)",
+            "warp": "Arc",
+            "overlap": "None",
+            "relationshipToImage": "Framing subjects"
+          },
+          "treatment": {
+            "fill": "Red",
+            "outline": "Black",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Solid",
+            "distortion": "Arc"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Square",
+            "corners": "Sharp",
+            "counters": "Closed",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Normal",
+            "leading": "Normal",
+            "lineBreakPattern": "Single Line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Above Arch",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Header"
+          },
+          "treatment": {
+            "fill": "Blue",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Solid",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy slab serif for impact paired with a clean, bold sans-serif for secondary information.",
+      "graphicDevices": [
+        "Illustrative dancing silhouettes",
+        "Record label logo in top right corner",
+        "Vertical list for track information"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Arched layout",
+          "Slab serif style",
+          "Red/Blue/Cream color scheme"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Modern gradients",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab serif weight and structure.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Suitable for the secondary sans-serif text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a vintage 1960s studio photograph of three women in matching white cardigans and navy skirts against a cream background, with a row of small colorful dancing silhouettes at the top.",
+        "overlayInstruction": "Add a large arched title in red slab-serif with black outlines over the subjects, and a blue sans-serif subtitle above it."
+      },
+      "verificationChecks": [
+        "Is the main title arched?",
+        "Are the subjects in matching 1960s attire?",
+        "Is the color palette limited to red, blue, navy, and cream?",
+        "Are there dancing silhouettes at the top?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects",
+      "Color of the arched title",
+      "Style of the dancing silhouettes",
+      "Background texture intensity"
+    ],
+    "mustRedesign": [
+      "Modern digital photography styles",
+      "Contemporary sans-serif fonts like Helvetica",
+      "Complex 3D effects or gradients"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic mid-century print texture",
+        "Clear hierarchy between title and subjects",
+        "Consistent 1960s fashion styling"
+      ],
+      "avoid": [
+        "Clean, sterile digital looks",
+        "Overly busy backgrounds",
+        "Mismatched font eras"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for proper arching of the display text.",
+      "Ensure the grain and texture feel like vintage paper.",
+      "Verify the tracklist is legible and correctly aligned.",
+      "Confirm the dancing figures are stylized and not photorealistic."
+    ],
+    "reuseFormula": "Combine a central group portrait with a large arched slab-serif header and a top-border of illustrative icons to create a mid-century entertainment aesthetic."
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "id": "f226df16c3ead89bd7b02fee2108a76e879a9c0f2f51fd6c053d9cac16a247e6",
+  "skillId": "f226df16c3ead89bd7b02fee2108a76e879a9c0f2f51fd6c053d9cac16a247e6",
+  "versionId": "f226df16c3ead89bd7b02fee2108a76e879a9c0f2f51fd6c053d9cac16a247e6",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:01:07.219Z",
+  "approvedAt": "2026-08-12T23:01:07.219Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:01:07.219Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Dear Joe,.jpg",
+    "hash": "f226df16c3ead89bd7b02fee2108a76e879a9c0f2f51fd6c053d9cac16a247e6",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Dear Joe,",
+    "artist": "Jax",
+    "artworkUrl": "https://coverartarchive.org/release-group/71a89179-1fbc-4ae4-80f0-76c604a56a3e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/71a89179-1fbc-4ae4-80f0-76c604a56a3e",
+    "releaseGroupId": "71a89179-1fbc-4ae4-80f0-76c604a56a3e",
+    "recordingId": "0d7194f9-294b-4ca0-bf54-5ff17f0a99b3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Victoria's SecretJax",
+      "song": "Victoria's Secret",
+      "performer": "Jax",
+      "peakPosition": 40,
+      "firstChartDate": "2022-10-29",
+      "lastChartDate": "2023-01-28",
+      "appearances": [
+        {
+          "chartDate": "2022-10-29",
+          "position": 47
+        },
+        {
+          "chartDate": "2022-11-05",
+          "position": 58
+        },
+        {
+          "chartDate": "2022-11-12",
+          "position": 56
+        },
+        {
+          "chartDate": "2022-11-19",
+          "position": 66
+        },
+        {
+          "chartDate": "2022-11-26",
+          "position": 61
+        },
+        {
+          "chartDate": "2022-12-03",
+          "position": 59
+        },
+        {
+          "chartDate": "2022-12-10",
+          "position": 57
+        },
+        {
+          "chartDate": "2022-12-17",
+          "position": 63
+        },
+        {
+          "chartDate": "2022-12-24",
+          "position": 67
+        },
+        {
+          "chartDate": "2022-12-31",
+          "position": 66
+        },
+        {
+          "chartDate": "2023-01-07",
+          "position": 63
+        },
+        {
+          "chartDate": "2023-01-14",
+          "position": 40
+        },
+        {
+          "chartDate": "2023-01-21",
+          "position": 45
+        },
+        {
+          "chartDate": "2023-01-28",
+          "position": 47
+        }
+      ]
+    }
+  },
+  "dedupeText": "upside down sky portrait upside down blue sky red jacket inversion bold sans serif surreal portrait vertical inversion of the subject creates a surreal gravity effect high contrast between the primary red clothing and the cyan sky clean white typography acts as a heavy visual base for the floating subject soft lighting on the face contrasts with the sharp geometric letterforms inverted portrait sky backdrop bottom weighted bold sans serif",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Upside-Down Sky Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Music Single Cover",
+        "Editorial Fashion Layout",
+        "Social Media Profile Art"
+      ],
+      "retrievalTags": [
+        "upside down",
+        "blue sky",
+        "red jacket",
+        "inversion",
+        "bold sans-serif",
+        "surreal portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A surreal vertical inversion featuring a portrait descending from the top edge against a bright sky background with bold, centered bottom typography.",
+      "triggerTerms": [
+        "upside down portrait",
+        "inverted head from top",
+        "sky background with red clothing",
+        "bold white sans serif bottom text"
+      ],
+      "excludeWhen": [
+        "horizontal layouts",
+        "dark or moody lighting",
+        "natural orientation portraits"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, upside-down portrait of a person wearing bright red, appearing to hang from the top of the frame against a vibrant blue sky with wispy clouds, anchored by large, clean white sans-serif text at the bottom.",
+    "coreVisualRelationships": [
+      "Vertical inversion of the subject creates a surreal gravity effect",
+      "High contrast between the primary red clothing and the cyan sky",
+      "Clean white typography acts as a heavy visual base for the floating subject",
+      "Soft lighting on the face contrasts with the sharp, geometric letterforms"
+    ],
+    "coreInvariants": [
+      "Upside-down orientation of the subject",
+      "Subject entering from the top frame edge",
+      "Vibrant blue sky background",
+      "Bold white sans-serif text at the bottom"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered horizontally, occupying the top two-thirds of the frame in an inverted position.",
+      "visualAnchor": "The large, white typography at the bottom provides a stable foundation for the composition.",
+      "movementAndEyePath": "The eye starts at the inverted face at the top, follows the vertical axis down to the bold text at the bottom.",
+      "negativeSpace": "The blue sky provides ample breathing room around the head and between the subject and the text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cyan/Blue (Sky background)",
+      "contrastColorRole": "Bright Red (Clothing)",
+      "accentColorRole": "White (Typography and clouds)",
+      "saturationAndValueRelationship": "High saturation in the primary colors (red and blue) with high value in the white elements.",
+      "paletteRestrictions": [
+        "Vibrant Cyan",
+        "True Red",
+        "Pure White",
+        "Natural Skin Tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Flat terminals",
+        "High x-height",
+        "Condensed proportions"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaying the bottom of the sky background"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single bold weight for maximum impact.",
+      "graphicDevices": [
+        "Vertical inversion"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase",
+          "Condensed width",
+          "Bold weight",
+          "White color"
+        ],
+        "avoid": [
+          "Serifs",
+          "Italics",
+          "Low-contrast colors",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy, condensed, and bold nature of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Provides the clean, condensed, uppercase aesthetic required.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Alternate Gothic",
+            "reason": "Offers a similar condensed geometric structure.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a person wearing a bright red jacket, positioned upside down so their head enters from the top of the frame. The background should be a clear blue sky with soft, wispy white clouds. The lighting should be bright and even.",
+        "overlayInstruction": "Add bold, white, condensed uppercase sans-serif text centered at the bottom of the image."
+      },
+      "verificationChecks": [
+        "Is the subject inverted?",
+        "Is the text bold, white, and sans-serif?",
+        "Is the background a vibrant blue sky?",
+        "Is the text centered at the bottom?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject expression",
+      "Cloud density",
+      "Shade of red in clothing",
+      "Text content"
+    ],
+    "mustRedesign": [
+      "Do not use the specific name 'Joe'",
+      "Do not replicate specific facial features of the original person",
+      "Do not copy specific clothing brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typography",
+        "Vibrant color contrast",
+        "Clear vertical inversion"
+      ],
+      "avoid": [
+        "Blurry text",
+        "Muted or muddy colors",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the head is not cut off awkwardly at the top",
+      "Ensure the red of the jacket is highly saturated",
+      "Verify the text is perfectly centered",
+      "Confirm the sky looks natural despite the inverted subject"
+    ],
+    "reuseFormula": "Inverted Portrait + Sky Backdrop + Bottom-Weighted Bold Sans-Serif"
+  }
+}

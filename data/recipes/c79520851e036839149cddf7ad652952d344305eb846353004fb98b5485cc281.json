@@ -1,0 +1,250 @@
+{
+  "id": "c79520851e036839149cddf7ad652952d344305eb846353004fb98b5485cc281",
+  "skillId": "c79520851e036839149cddf7ad652952d344305eb846353004fb98b5485cc281",
+  "versionId": "c79520851e036839149cddf7ad652952d344305eb846353004fb98b5485cc281",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:11:56.107Z",
+  "approvedAt": "2026-08-12T19:11:56.107Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:11:56.107Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Let There Be Drums.jpg",
+    "hash": "c79520851e036839149cddf7ad652952d344305eb846353004fb98b5485cc281",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Let There Be Drums",
+    "artist": "Sandy Nelson",
+    "artworkUrl": "https://coverartarchive.org/release-group/f0cbdd16-2826-4bec-b664-de2d3053ba3d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f0cbdd16-2826-4bec-b664-de2d3053ba3d",
+    "releaseGroupId": "f0cbdd16-2826-4bec-b664-de2d3053ba3d",
+    "recordingId": "8213a1c0-e403-4822-9ee9-054591209c75",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Birth Of The BeatSandy Nelson",
+      "song": "The Birth Of The Beat",
+      "performer": "Sandy Nelson",
+      "peakPosition": 75,
+      "firstChartDate": "1962-02-24",
+      "lastChartDate": "1962-02-24",
+      "appearances": [
+        {
+          "chartDate": "1962-02-24",
+          "position": 75
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century abstract percussion cover abstract expressionism impasto mid century modern percussion drum kit palette knife bold typography 1960s design textured inset painting vs flat black frame primary color palette red yellow blue against dark background slanted heavy typography mirroring the energy of the abstract art geometric framing of chaotic expressive subject matter abstract subject painting heavy black frame slanted bold sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Abstract Percussion Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Oil Painting",
+        "Graphic Design",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Jazz album art",
+        "Mid-century modern posters",
+        "Abstract expressionist book covers",
+        "Vintage vinyl aesthetics"
+      ],
+      "retrievalTags": [
+        "abstract expressionism",
+        "impasto",
+        "mid-century modern",
+        "percussion",
+        "drum kit",
+        "palette knife",
+        "bold typography",
+        "1960s design"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A mid-century modern layout featuring a centered square abstract painting of a drum kit framed by a heavy black border with bold, high-contrast sans-serif typography at the top.",
+      "triggerTerms": [
+        "mid-century abstract album cover",
+        "painterly drum kit illustration",
+        "bold red and yellow vintage typography",
+        "impasto percussion art"
+      ],
+      "excludeWhen": [
+        "clean minimalist digital art is requested",
+        "photorealistic imagery is needed",
+        "modern flat design is the goal"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition where an abstract, textured painting of a drum set is inset within a thick black frame. The painting uses aggressive palette knife strokes and a primary color palette. Above the image, two distinct blocks of bold, slanted typography sit on the black background.",
+    "coreVisualRelationships": [
+      "Textured inset painting vs. flat black frame",
+      "Primary color palette (red, yellow, blue) against dark background",
+      "Slanted, heavy typography mirroring the energy of the abstract art",
+      "Geometric framing of chaotic, expressive subject matter"
+    ],
+    "coreInvariants": [
+      "Thick black border on all sides",
+      "Square inset for the artwork",
+      "Heavy, slanted sans-serif display type",
+      "Visible impasto texture in the central image"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The abstract painting occupies the bottom 75% of the frame, centered horizontally.",
+      "visualAnchor": "The bright yellow and red circular forms representing drums and cymbals in the painting.",
+      "movementAndEyePath": "Eyes start at the bold red text at the top left, move across to the yellow text, then drop into the chaotic energy of the central painting.",
+      "negativeSpace": "Heavy black negative space at the top provides a stage for the typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black (background/frame)",
+      "contrastColorRole": "Cadmium red and golden yellow (text and painting highlights)",
+      "accentColorRole": "Cerulean blue and burnt umber (painting details)",
+      "saturationAndValueRelationship": "High saturation colors are placed against a zero-value black background for maximum punch.",
+      "paletteRestrictions": [
+        "Avoid pastels",
+        "Limit to primary-adjacent hues",
+        "Maintain high contrast"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold, slanted sans-serif with rounded terminals",
+      "letterConstructionRules": [
+        "Heavy stroke weight",
+        "Significant italic slant (approx 15 degrees)",
+        "Tight letter spacing",
+        "Lowercase-only or mixed-case with uniform height"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'a' with a closed counter",
+        "Lowercase 's' with aggressive curves"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "softened",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top third",
+            "scale": "large",
+            "rotation": "italicized",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by black space"
+          },
+          "treatment": {
+            "fill": "solid red and yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Color-coded hierarchy using the same typeface in two different primary colors.",
+      "graphicDevices": [
+        "Inset square frame",
+        "Small rectangular logo block in top right"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slant",
+          "Weight",
+          "Color contrast"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Thin weights",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Antique Olive Nord Italic",
+            "reason": "Matches the heavy weight and mid-century feel",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy Italic",
+            "reason": "Provides the necessary punch and era-appropriate look",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a textured oil painting of a drum kit using a palette knife style with bold reds, yellows, and blues. Place this painting inside a square inset within a large solid black frame, leaving a wide black margin at the top.",
+        "overlayInstruction": "Add two phrases of text in the top black margin using a heavy, slanted sans-serif font. The first phrase should be bright red and the second should be golden yellow."
+      },
+      "verificationChecks": [
+        "Is the painting style abstract and textured?",
+        "Is the black frame thick and dominant?",
+        "Is the text slanted and extra-bold?",
+        "Are the colors limited to red, yellow, blue, and black?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Painting abstraction level",
+      "Typography color",
+      "Frame thickness",
+      "Slant angle of text"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Record label logos",
+      "Catalog numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Visible paint texture",
+        "High-contrast color pop",
+        "Mid-century layout balance"
+      ],
+      "avoid": [
+        "Digital gradients",
+        "Clean vector lines in the painting",
+        "Modern minimalist sans-serifs like Helvetica"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for impasto texture in the artwork",
+      "Ensure the black border is perfectly solid",
+      "Verify the text is lowercase and heavily slanted",
+      "Confirm the square aspect ratio of the inset art"
+    ],
+    "reuseFormula": "Abstract [Subject] Painting + Heavy Black Frame + Slanted Bold Sans-Serif Typography"
+  }
+}

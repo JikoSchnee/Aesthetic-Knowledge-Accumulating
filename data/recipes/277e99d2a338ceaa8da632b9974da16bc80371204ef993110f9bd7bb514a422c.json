@@ -1,0 +1,337 @@
+{
+  "id": "277e99d2a338ceaa8da632b9974da16bc80371204ef993110f9bd7bb514a422c",
+  "skillId": "277e99d2a338ceaa8da632b9974da16bc80371204ef993110f9bd7bb514a422c",
+  "versionId": "277e99d2a338ceaa8da632b9974da16bc80371204ef993110f9bd7bb514a422c",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T20:36:33.675Z",
+  "approvedAt": "2026-08-12T20:36:33.675Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T20:36:33.675Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Piano Men.jpg",
+    "hash": "277e99d2a338ceaa8da632b9974da16bc80371204ef993110f9bd7bb514a422c",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Piano Men",
+    "artist": "Peter Nero",
+    "artworkUrl": "https://coverartarchive.org/release-group/bff0b8a4-af78-432f-aa25-d55828a0b95a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/bff0b8a4-af78-432f-aa25-d55828a0b95a",
+    "releaseGroupId": "bff0b8a4-af78-432f-aa25-d55828a0b95a",
+    "recordingId": "556ad514-78d0-4855-999a-1375ea0ca058",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Theme From \"Summer Of '42\"Peter Nero",
+      "song": "Theme From \"Summer Of '42\"",
+      "performer": "Peter Nero",
+      "peakPosition": 21,
+      "firstChartDate": "1971-10-16",
+      "lastChartDate": "1972-01-08",
+      "appearances": [
+        {
+          "chartDate": "1971-10-16",
+          "position": 91
+        },
+        {
+          "chartDate": "1971-10-23",
+          "position": 81
+        },
+        {
+          "chartDate": "1971-10-30",
+          "position": 76
+        },
+        {
+          "chartDate": "1971-11-06",
+          "position": 58
+        },
+        {
+          "chartDate": "1971-11-13",
+          "position": 43
+        },
+        {
+          "chartDate": "1971-11-20",
+          "position": 31
+        },
+        {
+          "chartDate": "1971-11-27",
+          "position": 29
+        },
+        {
+          "chartDate": "1971-12-04",
+          "position": 24
+        },
+        {
+          "chartDate": "1971-12-11",
+          "position": 21
+        },
+        {
+          "chartDate": "1971-12-18",
+          "position": 21
+        },
+        {
+          "chartDate": "1971-12-25",
+          "position": 29
+        },
+        {
+          "chartDate": "1972-01-01",
+          "position": 31
+        },
+        {
+          "chartDate": "1972-01-08",
+          "position": 40
+        }
+      ]
+    }
+  },
+  "dedupeText": "classical piano album cover layout piano hands script typography black background musical elegant monochrome contrast typography occupies the top 40 of the frame piano keys create a diagonal leading line from bottom left to center the hand acts as the central focal point and visual bridge high contrast between the white keys text and the black negative space combine a low key musical instrument close up with a three tier typographic hierarchy sans serif metadata script title serif subtitle on a black field",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Classical Piano Album Cover Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Digital Photography",
+        "Typography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Concert posters",
+        "Classical music branding",
+        "Elegant editorial layouts"
+      ],
+      "retrievalTags": [
+        "piano",
+        "hands",
+        "script typography",
+        "black background",
+        "musical",
+        "elegant",
+        "monochrome contrast"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dark, high-contrast layout featuring a close-up of hands playing a piano with layered script and serif typography.",
+      "triggerTerms": [
+        "piano hands close up",
+        "elegant script music cover",
+        "dark classical music layout"
+      ],
+      "excludeWhen": [
+        "bright colorful pop music designs",
+        "minimalist sans-serif layouts",
+        "full-body musician portraits"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dramatic, low-key photograph of a pianist's hand in motion over ivory keys, set against a deep black background with sophisticated white and silver typography layered in the upper half.",
+    "coreVisualRelationships": [
+      "Typography occupies the top 40% of the frame",
+      "Piano keys create a diagonal leading line from bottom left to center",
+      "The hand acts as the central focal point and visual bridge",
+      "High contrast between the white keys/text and the black negative space"
+    ],
+    "coreInvariants": [
+      "Deep black background for maximum contrast",
+      "Diagonal orientation of the piano keyboard",
+      "Layered typographic hierarchy with script as the primary display"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The hand and keyboard are positioned in the lower two-thirds, scaled to show detail of the fingers and keys.",
+      "visualAnchor": "The pianist's hand at the center-right.",
+      "movementAndEyePath": "Eyes start at the large script title, move down to the artist names, and follow the diagonal of the piano keys to the hand.",
+      "negativeSpace": "Extensive black negative space in the upper background provides a clean canvas for text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background and shadows)",
+      "contrastColorRole": "White (keys and primary text)",
+      "accentColorRole": "Silver/Grey (gradients and secondary seals)",
+      "saturationAndValueRelationship": "Low saturation with extreme value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "Monochromatic",
+        "Grayscale",
+        "High-contrast black and white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Mix of formal script and transitional serifs",
+      "letterConstructionRules": [
+        "Display script features high stroke contrast and elegant flourishes",
+        "Secondary text uses wide-tracked sans-serif for metadata",
+        "Artist names use a classic italicized serif"
+      ],
+      "characterSpecificRedesigns": [
+        "Title script features a drop shadow to separate it from the dark background"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "flourished",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "upper center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over negative space"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "thin silver",
+            "shadow": "soft black drop shadow",
+            "depth": "subtle",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "bracketed",
+            "corners": "sharp",
+            "counters": "clear",
+            "strokeCharacter": "italic"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "two columns",
+            "density": "light"
+          },
+          "composition": {
+            "position": "middle center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "centered below title"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Formal script for the main title paired with a legible italic serif for secondary information and a wide-spaced sans-serif for branding.",
+      "graphicDevices": [
+        "Circular serrated seal in the bottom right corner",
+        "Bullet points separating names"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Script/Serif contrast",
+          "White-on-black color scheme",
+          "Italicized artist names"
+        ],
+        "avoid": [
+          "Bold sans-serif for titles",
+          "Bright colors",
+          "Centered portraits"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bickham Script",
+            "reason": "Matches the formal, high-contrast calligraphic style of the title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Times New Roman Italic",
+            "reason": "Provides the classic, legible serif look for the artist names.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Appropriate for the wide-tracked metadata at the very top.",
+            "confidence": "low"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, low-key photograph of a hand playing a piano. The keyboard should run diagonally from the bottom left. The background must be solid black. Ensure the lighting highlights the skin texture of the hand and the ivory of the keys.",
+        "overlayInstruction": "Add a large, elegant script title in the upper third with a subtle drop shadow. Below it, place artist names in an italicized serif font, separated by bullets. At the very top, add a line of wide-tracked sans-serif text. Place a silver serrated seal in the bottom right corner."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Is the script title the largest typographic element?",
+        "Does the keyboard follow a diagonal path?",
+        "Are the artist names italicized?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Angle of the keyboard",
+      "Intensity of the hand's motion blur",
+      "Script flourish complexity",
+      "Position of the silver seal"
+    ],
+    "mustRedesign": [
+      "Avoid using specific brand logos",
+      "Do not replicate the exact 'Sterling Collection' text",
+      "Ensure the hand is generic and not a specific celebrity"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast lighting",
+        "Sophisticated typographic hierarchy",
+        "Clean, uncluttered composition"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Clashing colors",
+        "Crowded text placement"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast legibility of white text on black.",
+      "Verify the diagonal composition of the piano keys.",
+      "Ensure the script font feels formal and classical.",
+      "Confirm the presence of a dark negative space at the top."
+    ],
+    "reuseFormula": "Combine a low-key musical instrument close-up with a three-tier typographic hierarchy (Sans-Serif Metadata / Script Title / Serif Subtitle) on a black field."
+  }
+}

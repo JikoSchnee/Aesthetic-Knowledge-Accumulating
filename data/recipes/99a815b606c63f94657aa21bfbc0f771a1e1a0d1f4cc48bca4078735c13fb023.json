@@ -1,0 +1,307 @@
+{
+  "id": "99a815b606c63f94657aa21bfbc0f771a1e1a0d1f4cc48bca4078735c13fb023",
+  "skillId": "99a815b606c63f94657aa21bfbc0f771a1e1a0d1f4cc48bca4078735c13fb023",
+  "versionId": "99a815b606c63f94657aa21bfbc0f771a1e1a0d1f4cc48bca4078735c13fb023",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:32:21.926Z",
+  "approvedAt": "2026-08-12T19:32:21.926Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:32:21.926Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "By Request.jpg",
+    "hash": "99a815b606c63f94657aa21bfbc0f771a1e1a0d1f4cc48bca4078735c13fb023",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "By Request",
+    "artist": "Brenda Lee",
+    "artworkUrl": "https://coverartarchive.org/release-group/18d200ba-e466-451e-b54d-d85aafad20da/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/18d200ba-e466-451e-b54d-d85aafad20da",
+    "releaseGroupId": "18d200ba-e466-451e-b54d-d85aafad20da",
+    "recordingId": "a45040d2-9f00-4b84-b960-d7cafffec9ce",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Grass Is GreenerBrenda Lee",
+      "song": "The Grass Is Greener",
+      "performer": "Brenda Lee",
+      "peakPosition": 17,
+      "firstChartDate": "1963-09-28",
+      "lastChartDate": "1963-11-16",
+      "appearances": [
+        {
+          "chartDate": "1963-09-28",
+          "position": 74
+        },
+        {
+          "chartDate": "1963-10-05",
+          "position": 46
+        },
+        {
+          "chartDate": "1963-10-12",
+          "position": 36
+        },
+        {
+          "chartDate": "1963-10-19",
+          "position": 30
+        },
+        {
+          "chartDate": "1963-10-26",
+          "position": 21
+        },
+        {
+          "chartDate": "1963-11-02",
+          "position": 20
+        },
+        {
+          "chartDate": "1963-11-09",
+          "position": 17
+        },
+        {
+          "chartDate": "1963-11-16",
+          "position": 42
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century vocalist album cover bouffant hairstyle mid century modern warm studio lighting sans serif and script pairing 1960s pop the subject s head occupies the central 60 of the frame the yellow typography creates a horizontal header that anchors the top edge the warm background tones harmonize with the subject s skin and hair the tracklist on the right balances the asymmetrical weight of the script title on the left 1960s portrait bouffant hair warm textured backdrop yellow script sans serif header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Vocalist Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Offset Lithography",
+        "Typography"
+      ],
+      "useCases": [
+        "Vintage music packaging",
+        "1960s retro branding",
+        "Classic portraiture layouts"
+      ],
+      "retrievalTags": [
+        "bouffant hairstyle",
+        "mid-century modern",
+        "warm studio lighting",
+        "sans-serif and script pairing",
+        "1960s pop"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered close-up portrait of a female vocalist with a 1960s bouffant hairstyle against a warm, textured studio backdrop with high-contrast yellow typography.",
+      "triggerTerms": [
+        "1960s album cover style",
+        "vintage female vocalist portrait",
+        "bouffant hair studio photography"
+      ],
+      "excludeWhen": [
+        "modern digital minimalist styles",
+        "outdoor natural light photography",
+        "dark or moody color palettes"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, centered headshot of a smiling woman with voluminous dark hair, set against a reddish-brown textured background. The layout features a bold yellow title across the top and a vertical tracklist on the right side.",
+    "coreVisualRelationships": [
+      "The subject's head occupies the central 60% of the frame.",
+      "The yellow typography creates a horizontal header that anchors the top edge.",
+      "The warm background tones harmonize with the subject's skin and hair.",
+      "The tracklist on the right balances the asymmetrical weight of the script title on the left."
+    ],
+    "coreInvariants": [
+      "High-volume 1960s bouffant hairstyle",
+      "Warm reddish-brown textured studio background",
+      "Bright yellow primary typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale centered portrait, cropped from the shoulders up.",
+      "visualAnchor": "The subject's eyes and smile form the central focal point.",
+      "movementAndEyePath": "Eyes start at the bold yellow title, move down to the subject's face, then right to the tracklist.",
+      "negativeSpace": "Minimal negative space, with the background texture filling the corners around the hair."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm reddish-brown (background and hair shadows)",
+      "contrastColorRole": "Bright yellow (typography)",
+      "accentColorRole": "White (clothing and teeth)",
+      "saturationAndValueRelationship": "High saturation in the yellow text against a medium-value, warm-toned background.",
+      "paletteRestrictions": [
+        "Warm earth tones",
+        "Primary yellow",
+        "Creamy whites"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Combination of casual script and geometric sans-serif",
+      "letterConstructionRules": [
+        "Script: Slanted, fluid, connected strokes with varying thickness.",
+        "Sans-serif: Bold, uppercase, uniform stroke weight, tight tracking."
+      ],
+      "characterSpecificRedesigns": [
+        "The script 'B' and 'R' feature exaggerated loops.",
+        "The sans-serif 'E' has equal-length horizontal bars."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on background"
+          },
+          "treatment": {
+            "fill": "solid yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "wide",
+            "weight": "medium",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "looped",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "medium-large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on background"
+          },
+          "treatment": {
+            "fill": "solid yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a formal, heavy sans-serif and a light, informal script.",
+      "graphicDevices": [
+        "Horizontal divider line",
+        "Right-aligned tracklist block"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow color",
+          "Script/Sans-serif pairing",
+          "Top-aligned placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Lowercase for the main name",
+          "Centered text for the tracklist"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Matches the bold, tight sans-serif feel of the name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Brush Script MT",
+            "reason": "Captures the mid-century casual script aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 1960s-style studio portrait of a woman with a large bouffant hairstyle, smiling, wearing a white collared shirt, against a textured reddish-brown wood-grain or curtain backdrop.",
+        "overlayInstruction": "Add the title in bright yellow at the top, using a script font on the left and a bold condensed sans-serif on the right. Add a small tracklist in yellow sans-serif on the right side."
+      },
+      "verificationChecks": [
+        "Is the hair volume consistent with 1960s styles?",
+        "Is the typography bright yellow?",
+        "Is the background a warm, textured brown?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background texture intensity",
+      "Hair volume",
+      "Typography scale"
+    ],
+    "mustRedesign": [
+      "Modern digital hair textures",
+      "Flat, untextured backgrounds",
+      "Contemporary sans-serif fonts like Helvetica"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s film grain look",
+        "High-contrast yellow-on-brown legibility",
+        "Period-accurate hairstyle"
+      ],
+      "avoid": [
+        "Over-sharpened digital edges",
+        "Neon colors",
+        "Minimalist white space"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for script and sans-serif pairing at the top.",
+      "Ensure the subject's face is the primary focus.",
+      "Verify the warm, reddish-brown color palette.",
+      "Confirm the yellow text is vibrant and legible."
+    ],
+    "reuseFormula": "1960s Portrait + Bouffant Hair + Warm Textured Backdrop + Yellow Script/Sans-Serif Header"
+  }
+}

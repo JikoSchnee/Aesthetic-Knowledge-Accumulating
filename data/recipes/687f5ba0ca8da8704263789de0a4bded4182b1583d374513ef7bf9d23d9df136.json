@@ -1,0 +1,285 @@
+{
+  "id": "687f5ba0ca8da8704263789de0a4bded4182b1583d374513ef7bf9d23d9df136",
+  "skillId": "687f5ba0ca8da8704263789de0a4bded4182b1583d374513ef7bf9d23d9df136",
+  "versionId": "687f5ba0ca8da8704263789de0a4bded4182b1583d374513ef7bf9d23d9df136",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:11:08.540Z",
+  "approvedAt": "2026-08-12T18:11:08.540Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:11:08.540Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "One Chance.jpg",
+    "hash": "687f5ba0ca8da8704263789de0a4bded4182b1583d374513ef7bf9d23d9df136",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "One Chance",
+    "artist": "Taylor Swift",
+    "artworkUrl": "https://coverartarchive.org/release-group/f140c38c-538d-45e7-b7ab-670fe5f8426d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f140c38c-538d-45e7-b7ab-670fe5f8426d",
+    "releaseGroupId": "f140c38c-538d-45e7-b7ab-670fe5f8426d",
+    "recordingId": "f1df3fff-7f31-4ba8-8f9b-46de81ea0a15",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sweeter Than FictionTaylor Swift",
+      "song": "Sweeter Than Fiction",
+      "performer": "Taylor Swift",
+      "peakPosition": 34,
+      "firstChartDate": "2013-11-09",
+      "lastChartDate": "2013-11-09",
+      "appearances": [
+        {
+          "chartDate": "2013-11-09",
+          "position": 34
+        }
+      ]
+    }
+  },
+  "dedupeText": "theatrical melancholy clown poster clown sequins heart shape melancholy theatrical lighting sans serif typography stage performance subject centered within a large heart shaped frame contrast between white costume and vibrant sequined background typography layered over the lower third of the subject warm ambient lighting with cool toned bokeh highlights subject in costume type theatrical prop frame textured backdrop geometric sans serif typography with color split",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Theatrical Melancholy Clown Poster",
+      "category": "Entertainment Media",
+      "medium": [
+        "Cinematic Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Movie Posters",
+        "Theatrical Promotional Material",
+        "Editorial Layouts"
+      ],
+      "retrievalTags": [
+        "clown",
+        "sequins",
+        "heart shape",
+        "melancholy",
+        "theatrical lighting",
+        "sans-serif typography",
+        "stage performance"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered, melancholic performer in a white Pierrot costume framed by a large, glittering heart-shaped stage prop with bold, layered sans-serif typography.",
+      "triggerTerms": [
+        "melancholic clown on stage",
+        "sequined heart backdrop",
+        "Pierrot costume theatrical lighting",
+        "bold red and white movie poster typography"
+      ],
+      "excludeWhen": [
+        "requesting a happy circus clown",
+        "requesting a minimalist background",
+        "requesting a horror-themed clown"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central figure in a white ruffled clown suit with black pom-poms and white face paint stands before a microphone. He is framed by a massive, red-bordered heart filled with multi-colored vertical sequin curtains. The lighting is soft but focused, creating a contrast between the performer's sad expression and the festive, sparkling background.",
+    "coreVisualRelationships": [
+      "Subject centered within a large heart-shaped frame",
+      "Contrast between white costume and vibrant sequined background",
+      "Typography layered over the lower third of the subject",
+      "Warm ambient lighting with cool-toned bokeh highlights"
+    ],
+    "coreInvariants": [
+      "White Pierrot-style costume with large ruff and black pom-poms",
+      "Heart-shaped stage aperture",
+      "Vertical multi-colored sequin texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body subject centered, occupying the middle 60% of the vertical frame.",
+      "visualAnchor": "The performer's white-painted face and the large red 'O' in the title.",
+      "movementAndEyePath": "Eyes start at the face, move down to the bold title, then outward to the heart frame.",
+      "negativeSpace": "Minimal; the frame is densely packed with texture and light."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (costume and face paint)",
+      "contrastColorRole": "Deep Red (heart border and primary text)",
+      "accentColorRole": "Multi-colored (sequins: green, purple, gold)",
+      "saturationAndValueRelationship": "High saturation in the background elements against a high-value, low-saturation central subject.",
+      "paletteRestrictions": [
+        "Primary Red",
+        "Pure White",
+        "Deep Black",
+        "Multi-colored metallic tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Perfectly circular 'O'",
+        "Sharp, unbracketed terminals",
+        "Wide apertures"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'O' is oversized and serves as a graphic anchor"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal to Wide",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "None",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Lower third",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Overlays subject",
+            "relationshipToImage": "Foreground"
+          },
+          "treatment": {
+            "fill": "Solid Red and White",
+            "outline": "None",
+            "shadow": "Subtle drop shadow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminders": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Very Wide",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Bottom edge",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Foreground"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family with varying weights, colors, and tracking.",
+      "graphicDevices": [
+        "Color blocking within words",
+        "Extreme letter spacing for secondary text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric 'O'",
+          "High tracking on the bottom line",
+          "Red/White color split"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Distressed textures on letters"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Matches the clean, geometric structure and modern theatrical feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura",
+            "reason": "Provides the perfectly circular 'O' and sharp geometry.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a cinematic shot of a man in a white Pierrot clown costume with black pom-poms and white face paint, standing on a stage with a microphone. He is framed by a large red heart-shaped prop filled with vertical multi-colored sequin curtains. Soft theatrical lighting with bokeh orbs.",
+        "overlayInstruction": "Add bold geometric sans-serif text in the lower third. Use a large red 'O' followed by white uppercase letters for the main title. Below it, add a line of smaller white uppercase text with very wide tracking."
+      },
+      "verificationChecks": [
+        "Is the 'O' perfectly circular?",
+        "Is the tracking on the bottom line significantly wider than the title?",
+        "Does the text overlay the subject's torso?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the heart border",
+      "Density of the sequins",
+      "Expression of the clown",
+      "Tracking width of the metadata text"
+    ],
+    "mustRedesign": [
+      "Avoid using specific actor names",
+      "Avoid using specific movie titles",
+      "Ensure the heart shape is a prop, not a digital frame"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Realistic fabric texture on the costume",
+        "Specular highlights on the sequins",
+        "Clean, sharp typographic edges"
+      ],
+      "avoid": [
+        "Cartoonish clown aesthetics",
+        "Low-resolution textures",
+        "Cluttered typography that obscures the face"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for monolinear stroke weight in typography",
+      "Verify the heart shape is symmetrical",
+      "Ensure the clown's face paint is matte and opaque",
+      "Confirm the red text color matches the heart border"
+    ],
+    "reuseFormula": "Subject in [Costume Type] + [Theatrical Prop Frame] + [Textured Backdrop] + [Geometric Sans-Serif Typography with Color Split]"
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "id": "5586fb193eb141e4ef34ee71fe45ed79330635d6f982d31e19ab3a0e8d332b56",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:54:40.713Z",
+  "approvedAt": "2026-08-11T22:54:40.713Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:54:40.713Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "James Ray.jpg",
+    "hash": "5586fb193eb141e4ef34ee71fe45ed79330635d6f982d31e19ab3a0e8d332b56",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "James Ray",
+    "artist": "James Ray",
+    "artworkUrl": "https://coverartarchive.org/release-group/8855b130-f1bb-4eff-a36e-900c92b678c3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8855b130-f1bb-4eff-a36e-900c92b678c3",
+    "releaseGroupId": "8855b130-f1bb-4eff-a36e-900c92b678c3",
+    "recordingId": "9a356b61-e9dd-4088-ad1b-881ae7aa2970",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Itty Bitty PiecesJames Ray",
+      "song": "Itty Bitty Pieces",
+      "performer": "James Ray",
+      "peakPosition": 41,
+      "firstChartDate": "1962-04-07",
+      "lastChartDate": "1962-06-09",
+      "appearances": [
+        {
+          "chartDate": "1962-04-07",
+          "position": 91
+        },
+        {
+          "chartDate": "1962-04-14",
+          "position": 83
+        },
+        {
+          "chartDate": "1962-04-21",
+          "position": 70
+        },
+        {
+          "chartDate": "1962-04-28",
+          "position": 62
+        },
+        {
+          "chartDate": "1962-05-05",
+          "position": 54
+        },
+        {
+          "chartDate": "1962-05-12",
+          "position": 41
+        },
+        {
+          "chartDate": "1962-05-19",
+          "position": 51
+        },
+        {
+          "chartDate": "1962-05-26",
+          "position": 50
+        },
+        {
+          "chartDate": "1962-06-02",
+          "position": 57
+        },
+        {
+          "chartDate": "1962-06-09",
+          "position": 71
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul portrait layout 1960s soul music suit and tie wooden stool textured background condensed sans serif low key lighting subject positioned off center to the right balanced by heavy typography on the left dark suit blending into a dark mottled background for a moody low key effect high contrast white lettering against a dark olive and charcoal environment seated portrait on right dark textured background large condensed rounded text in upper left mid century soul aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vintage Music Packaging",
+        "Retro Editorial Portrait",
+        "Jazz Era Poster"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "soul music",
+        "suit and tie",
+        "wooden stool",
+        "textured background",
+        "condensed sans-serif",
+        "low-key lighting"
+      ]
+    },
+    "visualDefinition": "A full-body portrait of a man in a dark suit seated on a wooden stool against a dark, atmospheric, textured studio backdrop. The composition features a large, stylized typographic block in the upper left quadrant and a secondary logo in the lower left.",
+    "coreVisualRelationships": [
+      "Subject positioned off-center to the right, balanced by heavy typography on the left.",
+      "Dark suit blending into a dark, mottled background for a moody, low-key effect.",
+      "High-contrast white lettering against a dark olive and charcoal environment."
+    ],
+    "coreInvariants": [
+      "Subject seated on a simple wooden stool.",
+      "Mottled, painterly studio backdrop with subtle horizontal lighting gradient.",
+      "Tight, condensed typography with rounded terminals."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is seated on the right third of the frame, full body visible from head to feet.",
+      "visualAnchor": "The subject's face and the large white display text in the upper left.",
+      "movementAndEyePath": "Eyes start at the large text, move right to the subject's face, then down the line of the suit to the stool.",
+      "negativeSpace": "Significant dark space surrounding the subject, particularly on the left and top."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep olive and charcoal grey (background and suit).",
+      "contrastColorRole": "Creamy white (typography and shirt cuffs/collar).",
+      "accentColorRole": "Warm wood tones (stool).",
+      "saturationAndValueRelationship": "Low saturation with high value contrast between the text and the dark environment.",
+      "paletteRestrictions": [
+        "Muted earth tones",
+        "Deep blacks",
+        "Off-whites"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed geometric sans-serif",
+      "letterConstructionRules": [
+        "Tall x-height",
+        "Rounded corners and terminals",
+        "Uniform stroke weight",
+        "Extremely tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Lower-case 'a' with a large counter and short ascender",
+        "Uppercase 'R' with a rounded leg"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "condensed-sans",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "bold",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "rounded",
+            "counters": "narrow",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked-words",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "solid-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "flourished",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "lower-left",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "corner-anchored"
+          },
+          "treatment": {
+            "fill": "solid-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold condensed sans-serif for impact paired with a delicate script for brand identity.",
+      "graphicDevices": [
+        "Stacked text block"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed width",
+          "Rounded terminals",
+          "Left alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Wide tracking",
+          "Bright colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bebas Neue Rounded",
+            "reason": "Captures the condensed, bold, and rounded feel of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Druk Condensed",
+            "reason": "Matches the extreme verticality and tight spacing.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A full-body studio portrait of a man in a 1960s dark suit and tie, seated on a simple wooden stool. The background is a dark, mottled olive-grey textured wall with a subtle light source from the left. The man is positioned on the right side of the frame.",
+        "overlayInstruction": "Add large, bold, ultra-condensed rounded sans-serif text in the upper left corner, stacked vertically. Add a small cursive script logo in the bottom left corner. All text should be solid off-white."
+      },
+      "verificationChecks": [
+        "Is the display text ultra-condensed and rounded?",
+        "Is the subject positioned to the right?",
+        "Is the background dark and textured?",
+        "Is the color palette restricted to muted tones and white?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject pose",
+      "Background texture intensity",
+      "Typography scale",
+      "Specific hue of the dark background"
+    ],
+    "mustRedesign": [
+      "Specific facial features",
+      "Original brand logos",
+      "Exact text content"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "1960s analog photography feel",
+        "High-contrast typographic balance",
+        "Moody studio lighting"
+      ],
+      "avoid": [
+        "Modern digital sharpness",
+        "Vibrant primary colors",
+        "Centered text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for film grain or analog texture.",
+      "Ensure text is left-aligned and stacked.",
+      "Verify the stool is a simple wooden design.",
+      "Confirm the subject's suit is dark and formal."
+    ],
+    "reuseFormula": "Seated portrait on right + Dark textured background + Large condensed rounded text in upper left = Mid-century Soul Aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:09:41.887Z"
+}

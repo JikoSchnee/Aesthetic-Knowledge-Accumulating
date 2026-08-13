@@ -1,0 +1,240 @@
+{
+  "id": "54c3388f4d82ae83398512883ecd789ded941aa1e4d6aee0a0c1cc44f1a219f3",
+  "skillId": "54c3388f4d82ae83398512883ecd789ded941aa1e4d6aee0a0c1cc44f1a219f3",
+  "versionId": "54c3388f4d82ae83398512883ecd789ded941aa1e4d6aee0a0c1cc44f1a219f3",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T01:52:56.067Z",
+  "approvedAt": "2026-08-13T01:52:56.067Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T01:52:56.067Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Fabulous Impressions.jpg",
+    "hash": "54c3388f4d82ae83398512883ecd789ded941aa1e4d6aee0a0c1cc44f1a219f3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Fabulous Impressions",
+    "artist": "The Impressions",
+    "artworkUrl": "https://coverartarchive.org/release-group/03fea8de-ecfc-475a-bdce-4b1b9401ca26/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/03fea8de-ecfc-475a-bdce-4b1b9401ca26",
+    "releaseGroupId": "03fea8de-ecfc-475a-bdce-4b1b9401ca26",
+    "recordingId": "8bffb9a0-cf98-48b5-9133-753eb71874ab",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "You Always Hurt MeThe Impressions",
+      "song": "You Always Hurt Me",
+      "performer": "The Impressions",
+      "peakPosition": 96,
+      "firstChartDate": "1967-03-04",
+      "lastChartDate": "1967-03-11",
+      "appearances": [
+        {
+          "chartDate": "1967-03-04",
+          "position": 97
+        },
+        {
+          "chartDate": "1967-03-11",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul performance cover swash serif stage lighting tuxedo vintage vinyl high contrast photography yellow typography large yellow display type overlapping a dark textured background three figures arranged horizontally across the lower two thirds high contrast lighting creating deep shadows and bright highlights on faces and shirts small metadata text positioned in the extreme corners high contrast stage photography bold swash serif title dark negative space vintage soul aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Performance Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typography"
+      ],
+      "useCases": [
+        "Vintage album art",
+        "Soul and R&B music promotion",
+        "Retro concert posters",
+        "1960s editorial layouts"
+      ],
+      "retrievalTags": [
+        "swash serif",
+        "stage lighting",
+        "tuxedo",
+        "vintage vinyl",
+        "high contrast photography",
+        "yellow typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast stage performance photograph featuring a vocal group in formal wear with dominant, tightly-kerned swash serif typography in the upper quadrant.",
+      "triggerTerms": [
+        "vintage soul album cover style",
+        "swash serif display type on dark photo",
+        "1960s stage performance photography"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "bright daylight photography",
+        "sans-serif dominant layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dark, atmospheric scene of three male performers in black tuxedos under warm stage spotlights, anchored by a large, decorative yellow serif title that utilizes dramatic swashes and tight line spacing.",
+    "coreVisualRelationships": [
+      "Large yellow display type overlapping a dark, textured background",
+      "Three figures arranged horizontally across the lower two-thirds",
+      "High-contrast lighting creating deep shadows and bright highlights on faces and shirts",
+      "Small metadata text positioned in the extreme corners"
+    ],
+    "coreInvariants": [
+      "High-contrast chiaroscuro lighting on subjects",
+      "Decorative swash-heavy serif typography",
+      "Dark, nearly black background with subtle grain or texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three performers occupy the lower half of the frame at a medium-full shot scale.",
+      "visualAnchor": "The large yellow title in the upper left quadrant serves as the primary entry point.",
+      "movementAndEyePath": "Eyes move from the bright yellow title down to the illuminated faces of the performers, then across the horizontal line of the group.",
+      "negativeSpace": "Extensive dark negative space in the upper right and between performers provides breathing room for the heavy type."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and dark shadows (background and suits)",
+      "contrastColorRole": "Bright yellow (primary typography)",
+      "accentColorRole": "Crisp white (dress shirts and highlights)",
+      "saturationAndValueRelationship": "High value contrast between the dark background and the saturated yellow type and white highlights.",
+      "paletteRestrictions": [
+        "Limited to black, yellow, white, and warm skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast transitional serif with decorative swashes",
+      "letterConstructionRules": [
+        "Extremely tight tracking (touching characters)",
+        "Dramatic ball terminals and teardrop swashes",
+        "Thick vertical strokes with hairline horizontals"
+      ],
+      "characterSpecificRedesigns": [
+        "Uppercase 'T', 'F', and 'I' feature extended decorative swashes",
+        "Lowercase 's' and 'n' have rounded, fluid terminals"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "ball",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "modulated"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stair-stepped",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "background",
+            "relationshipToImage": "layered over dark space"
+          },
+          "treatment": {
+            "fill": "solid yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Pair the decorative display serif with a small, clean sans-serif for technical metadata.",
+      "graphicDevices": [
+        "Corner-aligned technical text",
+        "Small boxed logo in upper right"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Yellow color",
+          "Swash terminals",
+          "Tight kerning"
+        ],
+        "avoid": [
+          "Modern geometric sans-serifs",
+          "Drop shadows on text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the 1960s/70s decorative serif aesthetic with similar ball terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Caslon Antique Swash",
+            "reason": "Provides the high-contrast stroke and dramatic capital swashes.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast photograph of three men in black tuxedos performing on a dark stage with spotlights hitting their faces and white shirts. The top third should be mostly dark negative space.",
+        "overlayInstruction": "Add large, bold yellow swash-serif text in the upper left, tightly kerned. Add small white sans-serif technical text in the top left corner."
+      },
+      "verificationChecks": [
+        "Is the typography yellow and high-contrast?",
+        "Are the performers in formal wear?",
+        "Is the background predominantly dark and textured?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of performers",
+      "Typography color (e.g., orange or gold)",
+      "Amount of film grain/texture"
+    ],
+    "mustRedesign": [
+      "Avoid modern digital clarity; maintain a vintage film aesthetic",
+      "Ensure text does not obscure the performers' faces"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic chiaroscuro lighting",
+        "Authentic 1960s swash typography",
+        "Balanced horizontal composition"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Default system fonts",
+        "Clean, digital-looking gradients"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for tight character spacing in the title",
+      "Verify high contrast between white shirts and black suits",
+      "Ensure the yellow text is the brightest element in the top half",
+      "Confirm the presence of film-like grain"
+    ],
+    "reuseFormula": "High-contrast stage photography + Bold Swash Serif Title + Dark Negative Space = Vintage Soul Aesthetic"
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "id": "5b6530eb8d0c897e0a700b0a1fa5c1c0348bd9ef7c5a1f1484a8337c52fe2c99",
+  "skillId": "5b6530eb8d0c897e0a700b0a1fa5c1c0348bd9ef7c5a1f1484a8337c52fe2c99",
+  "versionId": "5b6530eb8d0c897e0a700b0a1fa5c1c0348bd9ef7c5a1f1484a8337c52fe2c99",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:31:14.647Z",
+  "approvedAt": "2026-08-12T14:31:14.647Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:31:14.647Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Blues Side of Rock 'n'Roll.jpg",
+    "hash": "5b6530eb8d0c897e0a700b0a1fa5c1c0348bd9ef7c5a1f1484a8337c52fe2c99",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Blues Side of Rock 'n'Roll",
+    "artist": "LaVern Baker",
+    "artworkUrl": "https://coverartarchive.org/release-group/aef2c855-1478-3198-bb8b-b1ef35db63f3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/aef2c855-1478-3198-bb8b-b1ef35db63f3",
+    "releaseGroupId": "aef2c855-1478-3198-bb8b-b1ef35db63f3",
+    "recordingId": "b4d63669-2b84-457c-b6d8-38b0371cc0c3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "See See RiderLaVern Baker",
+      "song": "See See Rider",
+      "performer": "LaVern Baker",
+      "peakPosition": 34,
+      "firstChartDate": "1962-12-01",
+      "lastChartDate": "1963-02-09",
+      "appearances": [
+        {
+          "chartDate": "1962-12-01",
+          "position": 86
+        },
+        {
+          "chartDate": "1962-12-08",
+          "position": 73
+        },
+        {
+          "chartDate": "1962-12-15",
+          "position": 55
+        },
+        {
+          "chartDate": "1962-12-22",
+          "position": 48
+        },
+        {
+          "chartDate": "1962-12-29",
+          "position": 44
+        },
+        {
+          "chartDate": "1963-01-05",
+          "position": 37
+        },
+        {
+          "chartDate": "1963-01-12",
+          "position": 36
+        },
+        {
+          "chartDate": "1963-01-19",
+          "position": 34
+        },
+        {
+          "chartDate": "1963-01-26",
+          "position": 42
+        },
+        {
+          "chartDate": "1963-02-02",
+          "position": 48
+        },
+        {
+          "chartDate": "1963-02-09",
+          "position": 68
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century blues album cover halftone monochrome photography sans serif display 1950s style musical performance blue typography bold blue typography contrasting against monochrome background subject centric photography with musicians in mid performance top heavy typographic hierarchy grainy halftone texture across the entire image monochrome halftone photo bold blue geometric header italic blue subtitle",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Blues Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Halftone Photography",
+        "Offset Printing",
+        "Graphic Layout"
+      ],
+      "useCases": [
+        "Vintage music promotion",
+        "Retro album art",
+        "Mid-century jazz and blues posters"
+      ],
+      "retrievalTags": [
+        "halftone",
+        "monochrome photography",
+        "sans-serif display",
+        "1950s style",
+        "musical performance",
+        "blue typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome performance photograph overlaid with bold, flat blue sans-serif typography typical of mid-century record sleeves.",
+      "triggerTerms": [
+        "vintage blues album cover style",
+        "halftone monochrome performance photo",
+        "bold blue sans-serif header"
+      ],
+      "excludeWhen": [
+        "modern digital gradients are requested",
+        "full-color photography is required",
+        "minimalist Swiss style is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition featuring a grainy, high-contrast black and white photograph of a musical trio (singer, guitarist, drummer) on a stage, topped with a large, flat blue sans-serif title and a smaller italicized subtitle at the bottom.",
+    "coreVisualRelationships": [
+      "Bold blue typography contrasting against monochrome background",
+      "Subject-centric photography with musicians in mid-performance",
+      "Top-heavy typographic hierarchy",
+      "Grainy halftone texture across the entire image"
+    ],
+    "coreInvariants": [
+      "High-contrast black and white photography",
+      "Flat, saturated blue color for all text elements",
+      "Square aspect ratio"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Musicians occupy the central and lower two-thirds of the frame; the singer is on the right, guitarist in the center, and drummer on the left.",
+      "visualAnchor": "The large blue display text at the top edge.",
+      "movementAndEyePath": "Starts at the bold top header, moves down through the guitarist's instrument to the singer, and ends at the bottom subtitle.",
+      "negativeSpace": "Minimal; the frame is densely packed with the band and instruments."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Monochrome (Black, White, Grey) for the photographic base.",
+      "contrastColorRole": "Medium-saturated Blue for all typographic elements.",
+      "accentColorRole": "None",
+      "saturationAndValueRelationship": "High-value contrast in the photo; flat, mid-tone saturation in the blue text.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Blue (Hex approx #2E74B5)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric and Humanist Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight for the header",
+        "Sharp, clean terminals",
+        "Italicized script-like slant for the subtitle"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on background"
+          },
+          "treatment": {
+            "fill": "solid blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "italic sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "sentence",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "overlaid on drum kit",
+            "relationshipToImage": "integrated into lower foreground"
+          },
+          "treatment": {
+            "fill": "solid blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold geometric sans-serif for the name paired with a softer, slanted sans-serif for the title.",
+      "graphicDevices": [
+        "Halftone screen effect"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Blue color",
+          "Uppercase header",
+          "Italicized subtitle"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Drop shadows",
+          "Multi-color text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Matches the geometric uppercase structure of the header.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gill Sans Italic",
+            "reason": "Matches the humanist, slanted feel of the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square, high-contrast black and white photograph with a heavy halftone grain. The scene should feature a 1950s-era musical trio: a female singer in a formal gown, a male guitarist in a suit, and a drummer with a vintage kit, all performing on a simple stage.",
+        "overlayInstruction": "Add a large uppercase bold sans-serif name in flat blue at the top. Add a smaller italicized title in the same blue at the bottom, centered over the drum kit."
+      },
+      "verificationChecks": [
+        "Is the image monochrome with a halftone texture?",
+        "Is the text a flat, solid blue without effects?",
+        "Is the top text uppercase and bold?",
+        "Is the bottom text italicized?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of halftone grain",
+      "Specific shade of blue",
+      "Position of the musicians"
+    ],
+    "mustRedesign": [
+      "Modern digital fonts with variable widths",
+      "Clean, high-resolution digital photography",
+      "Complex color palettes"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1950s print texture",
+        "High-contrast tonal range in the photo",
+        "Clear typographic hierarchy"
+      ],
+      "avoid": [
+        "Blurry text",
+        "Low-contrast photography",
+        "Modern sans-serifs like Helvetica"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for halftone dot visibility",
+      "Ensure blue text is perfectly flat and opaque",
+      "Verify the square aspect ratio",
+      "Confirm the drummer, guitarist, and singer are all visible"
+    ],
+    "reuseFormula": "Monochrome Halftone Photo + Bold Blue Geometric Header + Italic Blue Subtitle"
+  }
+}

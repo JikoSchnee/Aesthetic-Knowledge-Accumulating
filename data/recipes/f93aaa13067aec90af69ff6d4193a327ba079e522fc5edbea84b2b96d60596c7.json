@@ -1,0 +1,292 @@
+{
+  "id": "f93aaa13067aec90af69ff6d4193a327ba079e522fc5edbea84b2b96d60596c7",
+  "skillId": "f93aaa13067aec90af69ff6d4193a327ba079e522fc5edbea84b2b96d60596c7",
+  "versionId": "f93aaa13067aec90af69ff6d4193a327ba079e522fc5edbea84b2b96d60596c7",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:01:01.521Z",
+  "approvedAt": "2026-08-12T15:01:01.521Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:01:01.521Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Street Talk.jpg",
+    "hash": "f93aaa13067aec90af69ff6d4193a327ba079e522fc5edbea84b2b96d60596c7",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Street Talk",
+    "artist": "Steve Perry",
+    "artworkUrl": "https://coverartarchive.org/release-group/23569c25-9d44-37a7-8864-276020e47b6a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/23569c25-9d44-37a7-8864-276020e47b6a",
+    "releaseGroupId": "23569c25-9d44-37a7-8864-276020e47b6a",
+    "recordingId": "ef428107-358b-40d0-b460-fadd91cd419f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "She's MineSteve Perry",
+      "song": "She's Mine",
+      "performer": "Steve Perry",
+      "peakPosition": 21,
+      "firstChartDate": "1984-06-30",
+      "lastChartDate": "1984-09-22",
+      "appearances": [
+        {
+          "chartDate": "1984-06-30",
+          "position": 53
+        },
+        {
+          "chartDate": "1984-07-07",
+          "position": 36
+        },
+        {
+          "chartDate": "1984-07-14",
+          "position": 31
+        },
+        {
+          "chartDate": "1984-07-21",
+          "position": 29
+        },
+        {
+          "chartDate": "1984-07-28",
+          "position": 25
+        },
+        {
+          "chartDate": "1984-08-04",
+          "position": 24
+        },
+        {
+          "chartDate": "1984-08-11",
+          "position": 21
+        },
+        {
+          "chartDate": "1984-08-18",
+          "position": 21
+        },
+        {
+          "chartDate": "1984-08-25",
+          "position": 30
+        },
+        {
+          "chartDate": "1984-09-01",
+          "position": 53
+        },
+        {
+          "chartDate": "1984-09-08",
+          "position": 68
+        },
+        {
+          "chartDate": "1984-09-15",
+          "position": 76
+        },
+        {
+          "chartDate": "1984-09-22",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic hallway with sharp script overlay 80s rock aesthetic sharp script lettering hallway perspective low key lighting asymmetrical layout red and sepia asymmetrical balance between the white negative space and the dark photographic frame aggressive diagonal lettering cutting across the boundary of the image high contrast lighting within the photo creating deep shadows and a focal point on the subject color contrast between the muted sepia photo and the saturated red typography sepia hallway photo asymmetrical white frame sharp red script overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Hallway with Sharp Script Overlay",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Custom Lettering"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Editorial Layouts",
+        "Cinematic Posters"
+      ],
+      "retrievalTags": [
+        "80s rock aesthetic",
+        "sharp script lettering",
+        "hallway perspective",
+        "low-key lighting",
+        "asymmetrical layout",
+        "red and sepia"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A cinematic sepia-toned photograph of a figure in a hallway, framed by a wide white border and overlaid with aggressive, sharp-angled red script.",
+      "triggerTerms": [
+        "sharp jagged script lettering",
+        "cinematic hallway perspective",
+        "asymmetrical white border layout",
+        "low-key sepia photography"
+      ],
+      "excludeWhen": [
+        "vibrant multi-color photography is required",
+        "clean sans-serif typography is needed",
+        "symmetrical centered compositions are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A vertical sepia-toned photograph of a man leaning against a wall in a dark hallway, positioned on the right side of a larger white canvas. The left side features a wide white margin containing large, aggressive, red hand-drawn lettering with sharp, needle-like terminals that overlap the image edge.",
+    "coreVisualRelationships": [
+      "Asymmetrical balance between the white negative space and the dark photographic frame",
+      "Aggressive diagonal lettering cutting across the boundary of the image",
+      "High-contrast lighting within the photo creating deep shadows and a focal point on the subject",
+      "Color contrast between the muted sepia photo and the saturated red typography"
+    ],
+    "coreInvariants": [
+      "Sharp, needle-like terminals on all lettering",
+      "Asymmetrical white border on the left and top",
+      "Low-key lighting with a single overhead source in the photo"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is a full-body figure on the far right, scaled to approximately 1/3 of the image height.",
+      "visualAnchor": "The dark, open doorway in the center of the photograph acts as a secondary anchor to the large red text.",
+      "movementAndEyePath": "Eyes start at the large red text on the left, follow the sharp diagonals into the photograph, and land on the illuminated figure.",
+      "negativeSpace": "Dominant white space on the left and top margins creates a 'frame-within-a-frame' effect."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/Cream (Background and margins)",
+      "contrastColorRole": "Deep Sepia/Black (Photographic shadows)",
+      "accentColorRole": "Saturated Red (Typography)",
+      "saturationAndValueRelationship": "High value contrast between the white border and dark photo; high saturation contrast between the red text and muted photo.",
+      "paletteRestrictions": [
+        "Limited to sepia tones, white, and a single accent red."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "script",
+      "letterConstructionRules": [
+        "Extremely elongated, sharp, needle-like terminals",
+        "Aggressive diagonal strokes",
+        "Variable stroke width with heavy pressure on downstrokes",
+        "Letters are interconnected with jagged, lightning-bolt-like ligatures"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'S' and 'P' feature long vertical descenders that taper to a point",
+        "Horizontal bars are replaced with upward-slanted sharp strokes"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "expressive-script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "low",
+            "terminals": "pointed",
+            "corners": "sharp",
+            "counters": "angular",
+            "strokeCharacter": "aggressive"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "staggered",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top-left, overlapping image",
+            "scale": "large",
+            "rotation": "15 degrees",
+            "warp": "none",
+            "overlap": "partial over photo",
+            "relationshipToImage": "aggressive-overlay"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "thin black drop-shadow",
+            "shadow": "hard-edge offset",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single expressive script used in two different scales for primary and secondary information.",
+      "graphicDevices": [
+        "Hard-edged photographic border",
+        "Drop shadow on text to lift it from the background"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Sharpness of terminals",
+          "Diagonal slant",
+          "Red color"
+        ],
+        "avoid": [
+          "Rounded scripts",
+          "Standard brush scripts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Aggressive 80s Metal Script",
+            "reason": "Captures the jagged, energetic feel of the original lettering.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Custom Vector Lettering",
+            "reason": "The specific needle-like points are best achieved through manual vector paths.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a sepia-toned, low-key photograph of a man in a leather jacket leaning against a wall in a dark hallway with an open door. Place this photo on the right side of a vertical white canvas, leaving a wide white margin on the left and top.",
+        "overlayInstruction": "Add custom red script lettering in the top-left white space, ensuring the sharp terminals of the letters overlap the edge of the photograph. Use a second, smaller instance of the same script in the bottom-left."
+      },
+      "verificationChecks": [
+        "Are the letter terminals sharp and needle-like?",
+        "Is the photograph sepia-toned and positioned asymmetrically?",
+        "Does the text overlap the photographic frame?",
+        "Is the red color saturated against the muted background?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Width of the white margin",
+      "Intensity of the sepia tint",
+      "Angle of the text slant",
+      "Subject pose in the hallway"
+    ],
+    "mustRedesign": [
+      "Any rounded or soft-edged typography",
+      "Symmetrical or centered layouts",
+      "Full-color vibrant photography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast cinematic lighting",
+        "Aggressive, sharp-edged graphic feel",
+        "Clean asymmetrical framing"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Generic cursive fonts",
+        "Soft focus"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the red text has a subtle black drop shadow for legibility.",
+      "Ensure the hallway perspective leads the eye toward the subject.",
+      "Verify the white border is clean and consistent on the left and top.",
+      "Confirm the lettering looks hand-drawn and jagged rather than digital."
+    ],
+    "reuseFormula": "Sepia Hallway Photo + Asymmetrical White Frame + Sharp Red Script Overlay"
+  }
+}

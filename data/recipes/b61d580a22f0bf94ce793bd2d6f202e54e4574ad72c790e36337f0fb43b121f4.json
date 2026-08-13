@@ -1,0 +1,253 @@
+{
+  "id": "b61d580a22f0bf94ce793bd2d6f202e54e4574ad72c790e36337f0fb43b121f4",
+  "skillId": "b61d580a22f0bf94ce793bd2d6f202e54e4574ad72c790e36337f0fb43b121f4",
+  "versionId": "b61d580a22f0bf94ce793bd2d6f202e54e4574ad72c790e36337f0fb43b121f4",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:27:51.957Z",
+  "approvedAt": "2026-08-12T13:27:51.957Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:27:51.957Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Bones.jpg",
+    "hash": "b61d580a22f0bf94ce793bd2d6f202e54e4574ad72c790e36337f0fb43b121f4",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Bones",
+    "artist": "Bones",
+    "artworkUrl": "https://coverartarchive.org/release-group/b37c0abd-08af-4b6a-8804-3c236a124f97/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b37c0abd-08af-4b6a-8804-3c236a124f97",
+    "releaseGroupId": "b37c0abd-08af-4b6a-8804-3c236a124f97",
+    "recordingId": "bcd2fa44-14c1-4487-a2d7-35907cdf356c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "RobertaBones",
+      "song": "Roberta",
+      "performer": "Bones",
+      "peakPosition": 94,
+      "firstChartDate": "1972-11-04",
+      "lastChartDate": "1972-11-11",
+      "appearances": [
+        {
+          "chartDate": "1972-11-04",
+          "position": 94
+        },
+        {
+          "chartDate": "1972-11-11",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage psychedelic rock band portrait psychedelic 1970s bubble lettering long hair denim outdoor portrait warm lighting halftone texture logo centered in the upper third negative space subjects arranged horizontally across the lower two thirds warm golden hour light contrasting with a cool purple border textural contrast between smooth skin and grainy halftone lettering vintage band portrait 70s group photography overexposed sky psychedelic bubble script halftone texture solid border frame",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Psychedelic Rock Band Portrait",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Custom Lettering",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Retro album covers",
+        "70s band promotional photography",
+        "Vintage-style poster design"
+      ],
+      "retrievalTags": [
+        "psychedelic",
+        "1970s",
+        "bubble lettering",
+        "long hair",
+        "denim",
+        "outdoor portrait",
+        "warm lighting",
+        "halftone texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1970s-style group portrait featuring warm, hazy outdoor lighting and a prominent psychedelic bubble-lettering logo centered at the top.",
+      "triggerTerms": [
+        "70s rock band aesthetic",
+        "psychedelic bubble lettering logo",
+        "vintage group portrait with warm haze"
+      ],
+      "excludeWhen": [
+        "modern high-contrast digital photography is required",
+        "minimalist Swiss-style typography is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "Four long-haired musicians sitting on a low brick wall against a bright, overexposed sky, topped with a thick-stroked, halftone-textured psychedelic script logo.",
+    "coreVisualRelationships": [
+      "Logo centered in the upper third negative space",
+      "Subjects arranged horizontally across the lower two-thirds",
+      "Warm golden-hour light contrasting with a cool purple border",
+      "Textural contrast between smooth skin and grainy halftone lettering"
+    ],
+    "coreInvariants": [
+      "Thick, multi-layered outline on the display text",
+      "Overexposed, bright white background behind the subjects",
+      "Warm, low-contrast photographic color grading"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four subjects seated in a row, occupying the bottom half of the frame at a medium-full scale.",
+      "visualAnchor": "The large, stylized script logo at the top center.",
+      "movementAndEyePath": "Starts at the bold logo, moves down to the faces of the subjects, and follows their seated line across the frame.",
+      "negativeSpace": "Significant bright white space in the upper half surrounding the logo."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm neutrals and denim blues in the photography.",
+      "contrastColorRole": "Bright white background for high-key exposure.",
+      "accentColorRole": "Lavender/purple used for the outer border and logo outlines.",
+      "saturationAndValueRelationship": "Low saturation in the photo with high value (brightness); high saturation in the graphic border.",
+      "paletteRestrictions": [
+        "Muted earth tones",
+        "Denim blue",
+        "Lavender purple",
+        "Creamy white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script with exaggerated x-height and rounded terminals.",
+      "letterConstructionRules": [
+        "Extremely thick, pillowy forms",
+        "Interlocking or overlapping characters",
+        "Heavy drop-shadow or offset outline effect",
+        "Internal halftone dot pattern for texture"
+      ],
+      "characterSpecificRedesigns": [
+        "Uppercase 'B' with large, rounded loops",
+        "Lowercase letters featuring cloud-like, bulbous bases"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "psychedelic-script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "ultra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "small/closed",
+            "strokeCharacter": "monolinear-thick"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "slight upward arch",
+            "overlap": "letters overlap significantly",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "cream-to-yellow gradient with halftone dots",
+            "outline": "thick purple and blue multi-stroke",
+            "shadow": "none",
+            "depth": "flat-graphic",
+            "texture": "halftone",
+            "distortion": "bubble-style expansion"
+          }
+        }
+      ],
+      "pairingStrategy": "Standalone display lettering; no secondary typeface.",
+      "graphicDevices": [
+        "Solid color frame/border",
+        "Halftone screen texture",
+        "Multi-layered outlines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Bubble-like volume",
+          "Halftone texture",
+          "Thick outlines"
+        ],
+        "avoid": [
+          "Thin strokes",
+          "Sharp serifs",
+          "Modern sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bell Bottom Laser",
+            "reason": "Captures the 70s psychedelic volume and curvature.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Candice",
+            "reason": "Provides the thick, rounded script skeleton.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 1970s-style outdoor portrait of four men with long hair and vintage clothing (denim, vests) sitting on a brick wall. Use warm, hazy lighting and an overexposed white sky in the top half. Add a solid purple border around the entire image.",
+        "overlayInstruction": "Apply a custom bubble-script logo in the top center. Use a cream fill with a blue halftone dot pattern and a thick purple multi-layered outline."
+      },
+      "verificationChecks": [
+        "Is the logo centered in the white space?",
+        "Does the lettering have a halftone texture?",
+        "Is there a solid purple border around the frame?",
+        "Is the lighting warm and hazy?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of band members",
+      "Color of the outer border",
+      "Intensity of the halftone texture",
+      "Specific clothing items (e.g., more leather vs. more denim)"
+    ],
+    "mustRedesign": [
+      "Modern digital sharpness",
+      "Clean, thin-line typography",
+      "Dark or busy backgrounds behind the text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 70s film grain and color cast",
+        "Voluminous, pillowy letterforms",
+        "High-key lighting in the upper half"
+      ],
+      "avoid": [
+        "Flat, vector-style illustrations",
+        "Neon colors",
+        "Contemporary fashion"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for thick, multi-layered outlines on text",
+      "Ensure the sky is bright white/overexposed",
+      "Verify the presence of a solid color border",
+      "Confirm the subjects have 1970s-appropriate hair and attire",
+      "Check for halftone dot patterns inside the lettering"
+    ],
+    "reuseFormula": "Vintage Band Portrait = (70s Group Photography + Overexposed Sky) + (Psychedelic Bubble Script * Halftone Texture) + Solid Border Frame"
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "id": "bbf613058c125f9981aa7047852c5487dc16051023c444bc6b0b9d88f71c095c",
+  "skillId": "bbf613058c125f9981aa7047852c5487dc16051023c444bc6b0b9d88f71c095c",
+  "versionId": "bbf613058c125f9981aa7047852c5487dc16051023c444bc6b0b9d88f71c095c",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T10:25:17.613Z",
+  "approvedAt": "2026-08-12T10:25:17.613Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T10:25:17.613Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Mornings Like These.jpg",
+    "hash": "bbf613058c125f9981aa7047852c5487dc16051023c444bc6b0b9d88f71c095c",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Mornings Like These",
+    "artist": "Julie",
+    "artworkUrl": "https://coverartarchive.org/release-group/cf96f9bd-bc88-449b-81b9-688dffe0cc54/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/cf96f9bd-bc88-449b-81b9-688dffe0cc54",
+    "releaseGroupId": "cf96f9bd-bc88-449b-81b9-688dffe0cc54",
+    "recordingId": "da88714e-5544-49f4-8ff3-bba15d822258",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "One Fine DayJulie",
+      "song": "One Fine Day",
+      "performer": "Julie",
+      "peakPosition": 93,
+      "firstChartDate": "1976-01-17",
+      "lastChartDate": "1976-02-07",
+      "appearances": [
+        {
+          "chartDate": "1976-01-17",
+          "position": 94
+        },
+        {
+          "chartDate": "1976-01-24",
+          "position": 93
+        },
+        {
+          "chartDate": "1976-01-31",
+          "position": 95
+        },
+        {
+          "chartDate": "1976-02-07",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "impressionist portrait album cover impasto visible brushstrokes painterly portrait serif typography muted earth tones asymmetrical layout subject occupies the left two thirds of the frame text block is anchored in the upper right negative space brushstroke direction follows the contours of the face and hair color palette of the text echoes the deep reds of the portrait s lips impasto portrait right aligned serif block earth tone palette",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Impressionist Portrait Album Cover",
+      "category": "Album Art",
+      "medium": [
+        "Oil Painting",
+        "Impressionism",
+        "Canvas Texture"
+      ],
+      "useCases": [
+        "Folk Music Album Covers",
+        "Literary Fiction Book Jackets",
+        "Artistic Portraiture Commissions"
+      ],
+      "retrievalTags": [
+        "impasto",
+        "visible brushstrokes",
+        "painterly portrait",
+        "serif typography",
+        "muted earth tones",
+        "asymmetrical layout"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A painterly, impasto-style portrait with visible, blocky brushstrokes and a high-contrast serif typographic block positioned in the upper right negative space.",
+      "triggerTerms": [
+        "impasto oil painting portrait",
+        "visible thick brushstrokes",
+        "painterly texture with serif text overlay"
+      ],
+      "excludeWhen": [
+        "smooth digital illustration is requested",
+        "photorealistic portraits are needed",
+        "modern sans-serif minimalist layouts are required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up portrait rendered in thick, expressive oil paint strokes, featuring a subject with a neutral expression. The composition uses a warm, neutral background that serves as a canvas for a four-line justified text block in the upper right quadrant.",
+    "coreVisualRelationships": [
+      "Subject occupies the left two-thirds of the frame",
+      "Text block is anchored in the upper right negative space",
+      "Brushstroke direction follows the contours of the face and hair",
+      "Color palette of the text echoes the deep reds of the portrait's lips"
+    ],
+    "coreInvariants": [
+      "Visible canvas texture throughout the image",
+      "Impasto technique with distinct, unblended color patches",
+      "High-contrast serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale bust portrait positioned off-center to the left, cropped at the shoulders.",
+      "visualAnchor": "The subject's eyes and the dark mass of the clothing provide the primary visual weight.",
+      "movementAndEyePath": "Eyes lead from the subject's gaze to the text block in the upper right, then down the curve of the hair.",
+      "negativeSpace": "Significant open space in the upper right, textured with light beige and cream brushstrokes."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm neutrals (beige, cream, tan) in the background and skin tones.",
+      "contrastColorRole": "Deep black/charcoal for the clothing and shadows.",
+      "accentColorRole": "Crimson red for the lips and the display typography.",
+      "saturationAndValueRelationship": "Muted saturation overall with high value contrast between the dark clothing and light background.",
+      "paletteRestrictions": [
+        "Avoid neon or synthetic colors",
+        "Limit to earth tones and primary reds"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman Serif",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Bracketed serifs",
+        "Large x-height for the middle lines",
+        "Extended descender on the initial 'J'"
+      ],
+      "characterSpecificRedesigns": [
+        "Initial letter of the first line is significantly larger and drops below the baseline",
+        "Last line is scaled to match the width of the first line"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Four-line stack",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Upper Right",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Deep Crimson",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used with varying scales and weights to create internal hierarchy.",
+      "graphicDevices": [
+        "Justified text block alignment"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Serif style",
+          "Crimson color",
+          "Right-aligned stack"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "Centered alignment"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "High contrast and elegant serifs match the classical feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Caslon",
+            "reason": "Provides a more sturdy, traditional look that complements the oil painting medium.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate an oil painting of a woman's portrait in an impasto style with thick, visible brushstrokes. Use a palette of beige, tan, peach, and deep charcoal. Leave the upper right quadrant as a textured, light-colored negative space.",
+        "overlayInstruction": "Add four lines of uppercase serif text in the upper right corner. The first and fourth lines should be larger than the middle two. Use a deep crimson color for the text and align it to the right."
+      },
+      "verificationChecks": [
+        "Is the brushwork thick and visible (impasto)?",
+        "Is the text block justified to the right?",
+        "Does the text color match the lip color?",
+        "Is the canvas texture visible?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's hair color",
+      "Intensity of the impasto texture",
+      "Specific shade of the red accent color"
+    ],
+    "mustRedesign": [
+      "Do not use smooth gradients",
+      "Do not use modern digital airbrushing effects"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile paint quality",
+        "Balanced asymmetrical composition",
+        "Legible but integrated typography"
+      ],
+      "avoid": [
+        "Flat vector art",
+        "Generic stock photography look",
+        "Overly saturated neon palettes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no digital artifacts or 'plastic' skin textures are present.",
+      "Verify the text is not overlapping the subject's face.",
+      "Check that the brushstrokes follow the form of the subject.",
+      "Confirm the serif font has high contrast strokes."
+    ],
+    "reuseFormula": "Impasto Portrait + Right-Aligned Serif Block + Earth Tone Palette"
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "id": "785cc926ddb5324b449bd043c23d9912fd95c45c0092644e72e15d71e106cb9c",
+  "skillId": "785cc926ddb5324b449bd043c23d9912fd95c45c0092644e72e15d71e106cb9c",
+  "versionId": "785cc926ddb5324b449bd043c23d9912fd95c45c0092644e72e15d71e106cb9c",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:15:55.200Z",
+  "approvedAt": "2026-08-12T19:15:55.200Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:15:55.200Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Honey, Wheat & Laughter.jpg",
+    "hash": "785cc926ddb5324b449bd043c23d9912fd95c45c0092644e72e15d71e106cb9c",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Honey, Wheat & Laughter",
+    "artist": "Anne Murray",
+    "artworkUrl": "https://coverartarchive.org/release-group/a100032e-a8ee-43ce-9918-217cb954f441/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a100032e-a8ee-43ce-9918-217cb954f441",
+    "releaseGroupId": "a100032e-a8ee-43ce-9918-217cb954f441",
+    "recordingId": "0f9656db-709a-4cd1-8c6a-091ab95a0b51",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The CallAnne Murray",
+      "song": "The Call",
+      "performer": "Anne Murray",
+      "peakPosition": 91,
+      "firstChartDate": "1976-02-21",
+      "lastChartDate": "1976-03-20",
+      "appearances": [
+        {
+          "chartDate": "1976-02-21",
+          "position": 100
+        },
+        {
+          "chartDate": "1976-02-28",
+          "position": 95
+        },
+        {
+          "chartDate": "1976-03-06",
+          "position": 92
+        },
+        {
+          "chartDate": "1976-03-13",
+          "position": 91
+        },
+        {
+          "chartDate": "1976-03-20",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage folk pop album cover layout 1970s mustard yellow centered portrait geometric sans serif grainy texture framed composition square in square nested framing top heavy typographic alignment warm monochromatic border vs full color photographic inset high contrast facial lighting against a dark background within the photo square portrait wide solid border top centered hairline geometric type 1970s folk pop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Folk-Pop Album Cover Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Offset Printing",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Book Covers",
+        "Retro Editorial Layouts"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "mustard yellow",
+        "centered portrait",
+        "geometric sans-serif",
+        "grainy texture",
+        "framed composition"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered square portrait framed by a wide solid-color border with stacked, light-weight geometric typography at the top center.",
+      "triggerTerms": [
+        "vintage 70s album aesthetic",
+        "mustard yellow border frame",
+        "centered square photo with top-aligned text"
+      ],
+      "excludeWhen": [
+        "modern minimalist white space is required",
+        "dynamic or diagonal layouts are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square photographic portrait is inset within a larger square field of solid mustard yellow. The typography is centered in the upper margin, featuring a thin-stroke geometric sans-serif font. The overall image has a warm, analog grain and high-contrast lighting on the subject's face.",
+    "coreVisualRelationships": [
+      "Square-in-square nested framing",
+      "Top-heavy typographic alignment",
+      "Warm monochromatic border vs. full-color photographic inset",
+      "High-contrast facial lighting against a dark background within the photo"
+    ],
+    "coreInvariants": [
+      "Solid mustard yellow border framing all four sides of the central image"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is a close-up portrait centered horizontally, occupying approximately 60% of the total canvas height.",
+      "visualAnchor": "The central photographic square acts as the primary anchor, supported by the top-centered text.",
+      "movementAndEyePath": "The eye starts at the top-centered text, moves down to the subject's eyes, and then rests on the overall framed composition.",
+      "negativeSpace": "Substantial negative space is provided by the wide, solid-color margins surrounding the central image."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mustard yellow (background/border)",
+      "contrastColorRole": "Deep shadows and dark hair (within the photo)",
+      "accentColorRole": "Warm skin tones and bright blue eye highlights",
+      "saturationAndValueRelationship": "High saturation in the border; high contrast and warm values in the central photograph.",
+      "paletteRestrictions": [
+        "Mustard yellow",
+        "Warm browns",
+        "Deep blacks",
+        "Flesh tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Extremely light stroke weight",
+        "Large x-height",
+        "Circular 'o' and 'e' shapes",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Hairline/Light",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Center",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top Center",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Placed in the upper margin above the photo"
+          },
+          "treatment": {
+            "fill": "Dark Brown/Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family with slight variations in size for hierarchy.",
+      "graphicDevices": [
+        "Square frame",
+        "Grainy photographic texture"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Thin stroke weight",
+          "Geometric skeleton",
+          "Centered alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Bold weights",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic Extra Light",
+            "reason": "Matches the 1970s geometric aesthetic and thin stroke weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Provides the necessary geometric circularity and clean lines.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square image of a woman's face in a 1970s grainy film style with high-contrast lighting, then place this square in the center of a larger mustard-yellow square canvas.",
+        "overlayInstruction": "Add two lines of centered text in the top margin using a hairline geometric sans-serif font in dark brown."
+      },
+      "verificationChecks": [
+        "Is the text centered in the top margin?",
+        "Is the central photo a perfect square?",
+        "Is the border color a consistent mustard yellow?",
+        "Is the font weight extremely light?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Border color",
+      "Portrait subject",
+      "Text content",
+      "Grain intensity"
+    ],
+    "mustRedesign": [
+      "Logos",
+      "Specific artist names",
+      "Record label branding"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Analog film grain texture",
+        "Precise geometric centering",
+        "Warm 1970s color palette"
+      ],
+      "avoid": [
+        "Digital sharpness",
+        "Modern neon colors",
+        "Asymmetrical layouts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for centered alignment of all elements",
+      "Verify the mustard yellow hue is not too bright or neon",
+      "Ensure the photographic grain is visible but not distracting",
+      "Confirm the font is a thin geometric sans-serif"
+    ],
+    "reuseFormula": "Square portrait + Wide solid border + Top-centered hairline geometric type = 1970s Folk-Pop Aesthetic"
+  }
+}

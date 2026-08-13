@@ -1,0 +1,257 @@
+{
+  "id": "9f0453f79ede96b5a9bc4faab1c5e3b1e9e1f1dc348469776cd77d6249882904",
+  "skillId": "9f0453f79ede96b5a9bc4faab1c5e3b1e9e1f1dc348469776cd77d6249882904",
+  "versionId": "9f0453f79ede96b5a9bc4faab1c5e3b1e9e1f1dc348469776cd77d6249882904",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T14:43:00.531Z",
+  "approvedAt": "2026-08-12T14:43:00.531Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T14:43:00.531Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Love’s the Thing.jpg",
+    "hash": "9f0453f79ede96b5a9bc4faab1c5e3b1e9e1f1dc348469776cd77d6249882904",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Love’s the Thing",
+    "artist": "Barbara Mason",
+    "artworkUrl": "https://coverartarchive.org/release-group/d500c90e-2ac5-3dbc-8d03-f80dbdf47475/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d500c90e-2ac5-3dbc-8d03-f80dbdf47475",
+    "releaseGroupId": "d500c90e-2ac5-3dbc-8d03-f80dbdf47475",
+    "recordingId": "150364d8-3971-47b2-8f68-727b24579c3e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Shackin' UpBarbara Mason",
+      "song": "Shackin' Up",
+      "performer": "Barbara Mason",
+      "peakPosition": 91,
+      "firstChartDate": "1975-04-19",
+      "lastChartDate": "1975-05-10",
+      "appearances": [
+        {
+          "chartDate": "1975-04-19",
+          "position": 99
+        },
+        {
+          "chartDate": "1975-04-26",
+          "position": 96
+        },
+        {
+          "chartDate": "1975-05-03",
+          "position": 92
+        },
+        {
+          "chartDate": "1975-05-10",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage soul portrait with swash typography afro hairstyle swash serif high collar warm studio lighting 70s soul gold jewelry subject s face as the primary focal point typography nested in the negative space of the hair and background warm skin tones contrasting with deep black clothing high collar framing the jawline portrait afro high collar warm light typography swash serif top left placement",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Soul Portrait with Swash Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Retro music covers",
+        "1970s soul aesthetic",
+        "Portrait-focused editorial layouts"
+      ],
+      "retrievalTags": [
+        "afro hairstyle",
+        "swash serif",
+        "high collar",
+        "warm studio lighting",
+        "70s soul",
+        "gold jewelry"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A close-up studio portrait featuring a subject with an afro and high-collared dark clothing, paired with decorative swash-heavy serif typography in the upper left corner.",
+      "triggerTerms": [
+        "70s soul album cover style",
+        "swash serif typography portrait",
+        "vintage studio lighting afro portrait"
+      ],
+      "excludeWhen": [
+        "modern minimalist photography",
+        "bright outdoor natural light",
+        "sans-serif typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, warm-toned portrait of a woman with a large afro hairstyle, wearing a black high-collared shirt. The lighting is soft and directional, highlighting the face against a dark, textured background. Decorative, interlocking serif text with dramatic swashes is positioned in the top left quadrant.",
+    "coreVisualRelationships": [
+      "Subject's face as the primary focal point",
+      "Typography nested in the negative space of the hair and background",
+      "Warm skin tones contrasting with deep black clothing",
+      "High collar framing the jawline"
+    ],
+    "coreInvariants": [
+      "Large afro hairstyle framing the face",
+      "High-contrast black collared garment",
+      "Decorative swash-heavy serif lettering",
+      "Warm, saturated lip color"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered and fills approximately 70% of the frame vertically.",
+      "visualAnchor": "The subject's eyes and the bright red-orange lips.",
+      "movementAndEyePath": "Eyes move from the subject's face to the decorative text in the top left, then down the line of the collar.",
+      "negativeSpace": "Deep shadows in the background and the dark fabric of the shirt provide negative space for the text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and dark browns in the clothing and background.",
+      "contrastColorRole": "Warm skin tones and golden highlights.",
+      "accentColorRole": "Vibrant red-orange on the lips and pink/gold in the typography.",
+      "saturationAndValueRelationship": "High value contrast between the face and the dark surroundings; high saturation in the lip color.",
+      "paletteRestrictions": [
+        "Earth tones",
+        "Deep blacks",
+        "Warm golds",
+        "Saturated reds"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "High-contrast transitional serif",
+      "letterConstructionRules": [
+        "Extravagant swashes on capital letters",
+        "Interlocking descenders and ascenders",
+        "Tight letter spacing with occasional overlaps",
+        "Varying stroke weights with thin hairlines"
+      ],
+      "characterSpecificRedesigns": [
+        "Capital 'B' and 'M' feature extended, curling swashes",
+        "Lowercase 'y' and 'g' have decorative looped tails"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Decorative Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium-Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Ball terminals",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Elegant and fluid"
+          },
+          "typesetting": {
+            "case": "Mixed Case",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top Left",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Letters overlap slightly",
+            "relationshipToImage": "Placed over the dark background/hair area"
+          },
+          "treatment": {
+            "fill": "Gold and Pink gradients",
+            "outline": "None",
+            "shadow": "Subtle drop shadow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single decorative family with varying weights and swash alternates.",
+      "graphicDevices": [
+        "Swash extensions",
+        "Interlocking glyphs"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast",
+          "Ball terminals",
+          "Dramatic swashes"
+        ],
+        "avoid": [
+          "Geometric sans-serif",
+          "Modern slab serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the 70s decorative serif aesthetic perfectly.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Benguiat",
+            "reason": "Similar high-contrast and period-accurate feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a warm-toned studio portrait of a woman with a large afro, wearing a black high-collared shirt against a dark, slightly textured background. Focus on soft directional lighting on the face.",
+        "overlayInstruction": "Apply decorative serif text in the top left corner using a font with heavy swashes. Use gold and pink colors for the text, ensuring it interlocks elegantly."
+      },
+      "verificationChecks": [
+        "Check for high-contrast swash serifs",
+        "Ensure the afro hairstyle is prominent",
+        "Verify the high-collar framing",
+        "Confirm warm studio lighting"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Lip color intensity",
+      "Typography swash complexity",
+      "Background texture",
+      "Collar height"
+    ],
+    "mustRedesign": [
+      "Avoid modern digital sharpness; maintain a film-like grain",
+      "Ensure swashes do not obscure the subject's eyes"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s color grading",
+        "Elegant typographic integration",
+        "Soft but defined facial shadows"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Default system fonts",
+        "Neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Is the typography in the top left quadrant?",
+      "Does the subject have a large afro?",
+      "Is the lighting warm and directional?",
+      "Are the swashes on the text prominent?",
+      "Is the collar high and dark?"
+    ],
+    "reuseFormula": "Portrait(Afro + High Collar + Warm Light) + Typography(Swash Serif + Top Left Placement)"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "id": "c2bf61f694698a1fc305767c661e8301513e9e3be4ca8f589aac949b1d02e7d3",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T18:26:22.067Z",
+  "approvedAt": "2026-08-11T18:26:22.067Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T18:26:22.067Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "15.jpg",
+    "hash": "c2bf61f694698a1fc305767c661e8301513e9e3be4ca8f589aac949b1d02e7d3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "15",
+    "artist": "Bhad Bhabie",
+    "artworkUrl": "https://coverartarchive.org/release-group/a2348537-aa0d-4602-9dfc-3ecd6bbd90a1/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a2348537-aa0d-4602-9dfc-3ecd6bbd90a1",
+    "releaseGroupId": "a2348537-aa0d-4602-9dfc-3ecd6bbd90a1",
+    "recordingId": "53d02e5d-61ac-4e8b-95be-c752162563d6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Hi BichBhad Bhabie",
+      "song": "Hi Bich",
+      "performer": "Bhad Bhabie",
+      "peakPosition": 68,
+      "firstChartDate": "2017-10-21",
+      "lastChartDate": "2017-10-21",
+      "appearances": [
+        {
+          "chartDate": "2017-10-21",
+          "position": 68
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban streetwear album cover urban streetwear red and white 3d numerals industrial background asphalt sporty subject s red jacket provides the primary color pop against a neutral gray background large 3d numerals overlap the background wall but sit behind the subject s head the diagonal line of the subject s stride mimics the perspective of the ground plane bottom text is anchored to the asphalt surface with a subtle perspective tilt urban photography 3d background typography distressed footer text primary color pop red white blue",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Streetwear Album Cover",
+      "category": "Music Artwork",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design",
+        "3D Typography"
+      ],
+      "useCases": [
+        "Hip-hop album cover",
+        "Streetwear brand lookbook",
+        "Social media music promotion"
+      ],
+      "retrievalTags": [
+        "urban",
+        "streetwear",
+        "red and white",
+        "3D numerals",
+        "industrial background",
+        "asphalt",
+        "sporty"
+      ]
+    },
+    "visualDefinition": "A full-body profile shot of a person in sporty streetwear walking across an asphalt lot against a corrugated metal wall, featuring large 3D-extruded numerals in the background and distressed sans-serif text at the bottom.",
+    "coreVisualRelationships": [
+      "Subject's red jacket provides the primary color pop against a neutral gray background",
+      "Large 3D numerals overlap the background wall but sit behind the subject's head",
+      "The diagonal line of the subject's stride mimics the perspective of the ground plane",
+      "Bottom text is anchored to the asphalt surface with a subtle perspective tilt"
+    ],
+    "coreInvariants": [
+      "High-contrast red, white, and blue color palette on the clothing",
+      "Industrial corrugated texture of the background wall",
+      "3D extrusion of the background numerals pointing downward and to the left"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body subject positioned slightly left of center, occupying approximately 70% of the vertical frame.",
+      "visualAnchor": "The bright red jacket serves as the primary focal point due to its high saturation.",
+      "movementAndEyePath": "Eye starts at the red jacket, follows the subject's stride down to the shoes, moves across the bottom text, and finishes on the large background numerals.",
+      "negativeSpace": "Ample negative space provided by the neutral corrugated wall on the right side."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Neutral grays and whites from the background and asphalt.",
+      "contrastColorRole": "Vibrant red used in the jacket, stripes, and hair.",
+      "accentColorRole": "Deep blue stripes and black shadows in the 3D text.",
+      "saturationAndValueRelationship": "High saturation on the subject's clothing against a desaturated, high-key background.",
+      "paletteRestrictions": [
+        "Red",
+        "White",
+        "Gray",
+        "Blue"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Condensed Sans-Serif",
+      "letterConstructionRules": [
+        "Heavy vertical weight",
+        "Slightly rounded corners on the bottom text",
+        "Extreme 3D extrusion for the background numerals",
+        "Distressed, grainy texture applied to the bottom lettering"
+      ],
+      "characterSpecificRedesigns": [
+        "Numerals feature a flat frontal face with a long, dark gray drop-shadow extrusion"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "3D Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Closed",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Upper right quadrant",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "3D Extrusion",
+            "overlap": "Behind subject",
+            "relationshipToImage": "Integrated into the environment"
+          },
+          "treatment": {
+            "fill": "Light gray",
+            "outline": "None",
+            "shadow": "Deep 3D extrusion",
+            "depth": "Extreme",
+            "texture": "Clean",
+            "distortion": "Perspective"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Distressed Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Rounded",
+            "corners": "Softened",
+            "counters": "Open",
+            "strokeCharacter": "Textured"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Center",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Bottom center",
+            "scale": "Medium",
+            "rotation": "Slight horizontal shear",
+            "warp": "None",
+            "overlap": "Over asphalt",
+            "relationshipToImage": "Floating above ground"
+          },
+          "treatment": {
+            "fill": "White with transparency",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Gritty/Grainy",
+            "distortion": "Weathered"
+          }
+        }
+      ],
+      "pairingStrategy": "Large 3D geometric numerals paired with weathered, wide-tracked condensed sans-serif.",
+      "graphicDevices": [
+        "3D Extrusion",
+        "Grain Overlay",
+        "Color Blocking"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "3D depth of the numbers",
+          "Condensed nature of the bottom text",
+          "Wide letter spacing at the bottom"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Clean, high-gloss finishes on the bottom text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Anton",
+            "reason": "Provides the necessary weight and condensed structure for the 3D effect.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Excellent for the bottom text due to its clean condensed uppercase forms.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photo of a person with red hair in a white and red tracksuit walking across an asphalt lot in front of a gray corrugated metal garage door. Ensure the lighting is overcast and flat.",
+        "overlayInstruction": "Place large 3D extruded numerals in the upper right, behind the person's head. Add a distressed condensed sans-serif title at the bottom with wide tracking and a slight perspective tilt to match the ground."
+      },
+      "verificationChecks": [
+        "Is the red jacket the most saturated element?",
+        "Do the 3D numbers appear to be part of the background wall?",
+        "Is the bottom text grainy and slightly transparent?",
+        "Is the subject in a full-body walking profile?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the 3D extrusion",
+      "Amount of grain on the bottom text",
+      "Saturation of the red elements",
+      "Height of the subject in frame"
+    ],
+    "mustRedesign": [
+      "Parental advisory logo must be replaced with a generic placeholder or removed",
+      "Specific facial features must be generalized",
+      "Unique tattoos must be replaced with generic patterns"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Consistent 3D perspective on numerals",
+        "Authentic industrial texture on the wall",
+        "Balanced color distribution of red accents"
+      ],
+      "avoid": [
+        "Plastic-looking skin textures",
+        "Perfectly clean, digital-looking text at the bottom",
+        "Mismatched lighting between subject and background"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the 3D extrusion direction is consistent",
+      "Ensure the bottom text tracking is wide enough to span the subject's stride",
+      "Verify that the red hair and red jacket are the same hue",
+      "Confirm the background wall texture is visible through the 3D numerals"
+    ],
+    "reuseFormula": "Urban photography + 3D background typography + Distressed footer text + Primary color pop (Red/White/Blue)"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:21:48.423Z"
+}

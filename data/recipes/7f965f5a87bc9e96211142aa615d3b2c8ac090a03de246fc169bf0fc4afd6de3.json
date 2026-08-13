@@ -1,0 +1,305 @@
+{
+  "id": "7f965f5a87bc9e96211142aa615d3b2c8ac090a03de246fc169bf0fc4afd6de3",
+  "skillId": "7f965f5a87bc9e96211142aa615d3b2c8ac090a03de246fc169bf0fc4afd6de3",
+  "versionId": "7f965f5a87bc9e96211142aa615d3b2c8ac090a03de246fc169bf0fc4afd6de3",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:32:52.638Z",
+  "approvedAt": "2026-08-12T06:32:52.638Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:32:52.638Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Just Blue.jpg",
+    "hash": "7f965f5a87bc9e96211142aa615d3b2c8ac090a03de246fc169bf0fc4afd6de3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Just Blue",
+    "artist": "Space",
+    "artworkUrl": "https://coverartarchive.org/release-group/70dc885c-996d-3333-b1c1-cd73ce13053c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/70dc885c-996d-3333-b1c1-cd73ce13053c",
+    "releaseGroupId": "70dc885c-996d-3333-b1c1-cd73ce13053c",
+    "recordingId": "5ba001b3-799e-497d-918b-e306bf2e0e5a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "My Love Is MusicSpace",
+      "song": "My Love Is Music",
+      "performer": "Space",
+      "peakPosition": 60,
+      "firstChartDate": "1979-04-28",
+      "lastChartDate": "1979-06-09",
+      "appearances": [
+        {
+          "chartDate": "1979-04-28",
+          "position": 96
+        },
+        {
+          "chartDate": "1979-05-05",
+          "position": 91
+        },
+        {
+          "chartDate": "1979-05-12",
+          "position": 81
+        },
+        {
+          "chartDate": "1979-05-19",
+          "position": 71
+        },
+        {
+          "chartDate": "1979-05-26",
+          "position": 62
+        },
+        {
+          "chartDate": "1979-06-02",
+          "position": 62
+        },
+        {
+          "chartDate": "1979-06-09",
+          "position": 60
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro futurist sci fi album art 1970s sci fi aerodynamic spacecraft ocean surface flight techno futurism airbrushed gradients the spacecraft s diagonal orientation creates a sense of forward momentum the bright white hull contrasts sharply against the deep blue water and dark shadow the typography is integrated into the upper atmospheric haze balancing the heavy visual weight of the ship below retro futurist airbrush geometric techno type oceanic setting",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro-Futurist Sci-Fi Album Art",
+      "category": "Illustration",
+      "medium": [
+        "Airbrush Painting",
+        "Acrylic on Board"
+      ],
+      "useCases": [
+        "Synthwave album covers",
+        "Retro-futurist concept art",
+        "Sci-fi book jackets"
+      ],
+      "retrievalTags": [
+        "1970s sci-fi",
+        "aerodynamic spacecraft",
+        "ocean surface flight",
+        "techno-futurism",
+        "airbrushed gradients"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1970s-style airbrushed illustration featuring a sleek, angular spacecraft skimming over a deep blue ocean surface with high-contrast lighting and geometric display typography.",
+      "triggerTerms": [
+        "retro-futurist spacecraft skimming water",
+        "70s airbrush sci-fi art style",
+        "techno-geometric display font"
+      ],
+      "excludeWhen": [
+        "photorealistic modern CGI is requested",
+        "minimalist flat vector art is needed",
+        "dark, gritty dystopian themes are required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dynamic composition showing a white, multi-windowed spacecraft with ski-like landing gear gliding just above a textured blue sea, set against a hazy, atmospheric sky with a prominent geometric title at the top.",
+    "coreVisualRelationships": [
+      "The spacecraft's diagonal orientation creates a sense of forward momentum.",
+      "The bright white hull contrasts sharply against the deep blue water and dark shadow.",
+      "The typography is integrated into the upper atmospheric haze, balancing the heavy visual weight of the ship below."
+    ],
+    "coreInvariants": [
+      "The spacecraft must feature a multi-paneled cockpit with visible interior lighting.",
+      "The water must show a distinct wake or spray effect beneath the craft's landing skis.",
+      "The color palette must be dominated by cyan, cobalt, and white with magenta interior accents."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The spacecraft is the central focal point, occupying the middle third of the frame at a 30-degree upward diagonal angle.",
+      "visualAnchor": "The dark, elongated shadow cast by the ship onto the water surface anchors the object in space.",
+      "movementAndEyePath": "The eye follows the ship's nose from left to right, then moves upward to the title text and down the wake trail.",
+      "negativeSpace": "Large areas of textured blue water in the bottom half and hazy sky in the top right provide breathing room."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep cobalt and cyan blue (water and atmosphere)",
+      "contrastColorRole": "Bright white (spacecraft hull and typography)",
+      "accentColorRole": "Magenta and violet (cockpit interior glow)",
+      "saturationAndValueRelationship": "High value contrast between the ship and its shadow; high saturation in the blue mid-tones.",
+      "paletteRestrictions": [
+        "Avoid earthy browns or greens",
+        "Limit palette to blues, whites, and small neon accents"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Geometric sans-serif with stencil-like gaps",
+      "letterConstructionRules": [
+        "Horizontal strokes are thick and uniform",
+        "Vertical strokes are often replaced by open gaps or thin connectors",
+        "Corners are strictly 90-degree angles or 45-degree chamfers",
+        "The letter 'E' consists of three parallel horizontal bars without a vertical spine"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' is a trapezoid with a horizontal gap",
+        "The 'S' is constructed from five distinct horizontal segments",
+        "The 'U' is a square-bottomed open vessel"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Techno",
+          "anatomy": {
+            "width": "Extended",
+            "weight": "Bold",
+            "contrast": "Monolinear",
+            "xHeight": "Full cap height",
+            "terminals": "Flat",
+            "corners": "Sharp/Square",
+            "counters": "Open/Rectangular",
+            "strokeCharacter": "Segmented"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified to edges",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top margin",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in sky"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "Soft atmospheric glow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Sans-serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Regular",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Blunt",
+            "corners": "Slightly rounded",
+            "counters": "Closed",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Bottom right corner",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlay on water"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "Thin box enclosure",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast scale pairing between a dominant geometric display face and a tiny functional utility face.",
+      "graphicDevices": [
+        "Rectangular framing for corner metadata",
+        "Horizontal alignment guides"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Segmented 'E'",
+          "Wide tracking",
+          "Monolinear weight"
+        ],
+        "avoid": [
+          "Serifs",
+          "Script fonts",
+          "Organic curves"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Data 70",
+            "reason": "Captures the retro-computer aesthetic of the era",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Microgramma Bold Extended",
+            "reason": "Matches the square, technical feel of the spacecraft design",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate an airbrushed illustration of a white futuristic spacecraft with landing skis flying over a deep blue ocean. The sky should be a hazy mix of blue and white. Leave the top 15% of the image clear for text.",
+        "overlayInstruction": "Add the display text in a white, segmented geometric techno font across the top. Add a small boxed logo and serial number in the bottom right corner."
+      },
+      "verificationChecks": [
+        "Is the 'E' composed of three horizontal bars?",
+        "Is the spacecraft angled diagonally?",
+        "Is the water a deep, textured blue?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Angle of the spacecraft",
+      "Intensity of the magenta cockpit glow",
+      "Roughness of the water surface"
+    ],
+    "mustRedesign": [
+      "Any specific brand logos",
+      "Exact artist signatures",
+      "Specific copyrighted ship designs"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Smooth airbrush gradients",
+        "Technical precision in ship paneling",
+        "Atmospheric perspective"
+      ],
+      "avoid": [
+        "Messy brushstrokes",
+        "Flat, unshaded colors",
+        "Modern digital 'clean' look"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the typography is perfectly horizontal.",
+      "Ensure the ship's shadow aligns with the light source.",
+      "Verify the 'stencil' gaps in the display font are consistent.",
+      "Confirm the magenta glow is confined to the cockpit windows."
+    ],
+    "reuseFormula": "Retro-Futurist Airbrush + Geometric Techno Type + Oceanic Setting"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:37.720Z"
+}

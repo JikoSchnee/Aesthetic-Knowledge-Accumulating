@@ -1,0 +1,315 @@
+{
+  "id": "434b50a9e70e69b7372662becd49f9edb7f614b0ee1b8eb26e35222786fb5249",
+  "skillId": "434b50a9e70e69b7372662becd49f9edb7f614b0ee1b8eb26e35222786fb5249",
+  "versionId": "434b50a9e70e69b7372662becd49f9edb7f614b0ee1b8eb26e35222786fb5249",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:09:53.137Z",
+  "approvedAt": "2026-08-12T16:09:53.137Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:09:53.137Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Measure of a Man.jpg",
+    "hash": "434b50a9e70e69b7372662becd49f9edb7f614b0ee1b8eb26e35222786fb5249",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Measure of a Man",
+    "artist": "Clay Aiken",
+    "artworkUrl": "https://coverartarchive.org/release-group/1936138b-3a44-3a4a-b3b3-e445c7b79a72/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1936138b-3a44-3a4a-b3b3-e445c7b79a72",
+    "releaseGroupId": "1936138b-3a44-3a4a-b3b3-e445c7b79a72",
+    "recordingId": "e2de5316-3ac3-40d1-9664-f9cba2b7b95a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "SolitaireClay Aiken",
+      "song": "Solitaire",
+      "performer": "Clay Aiken",
+      "peakPosition": 4,
+      "firstChartDate": "2004-04-03",
+      "lastChartDate": "2004-05-22",
+      "appearances": [
+        {
+          "chartDate": "2004-04-03",
+          "position": 4
+        },
+        {
+          "chartDate": "2004-04-10",
+          "position": 27
+        },
+        {
+          "chartDate": "2004-04-17",
+          "position": 48
+        },
+        {
+          "chartDate": "2004-04-24",
+          "position": 61
+        },
+        {
+          "chartDate": "2004-05-01",
+          "position": 58
+        },
+        {
+          "chartDate": "2004-05-08",
+          "position": 80
+        },
+        {
+          "chartDate": "2004-05-15",
+          "position": 97
+        },
+        {
+          "chartDate": "2004-05-22",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "early 2000s pop portrait layout 2000s aesthetic geometric sans serif cool toned studio lighting asymmetric typography spiky hair portrait subject positioned right of center to create left side negative space typography aligned to the left margin within the negative space cool blue background tones echoing the subject s eye color horizontal lines of the chair and arms grounding the verticality of the face cool toned studio portrait geometric sans serif thin asymmetric left aligned layout 2000s pop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Early 2000s Pop Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Studio Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Pop music album covers",
+        "Artist promotional posters",
+        "Editorial portraiture"
+      ],
+      "retrievalTags": [
+        "2000s aesthetic",
+        "geometric sans serif",
+        "cool-toned studio lighting",
+        "asymmetric typography",
+        "spiky hair portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A clean, cool-toned studio portrait featuring a subject leaning on a chair with asymmetric, lightweight geometric sans-serif typography positioned in the negative space.",
+      "triggerTerms": [
+        "2000s pop album aesthetic",
+        "cool blue studio portrait",
+        "lightweight geometric sans serif layout",
+        "subject leaning on chair back"
+      ],
+      "excludeWhen": [
+        "warm-toned vintage photography",
+        "heavy serif typography",
+        "maximalist collage styles"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium close-up portrait of a male subject with spiky hair, leaning his chin on crossed arms over the back of a chair. The lighting is soft and cool-toned, creating a bright, slightly desaturated atmosphere. Typography is placed in the upper left quadrant, utilizing a thin, modern sans-serif font with varying weights and colors to create hierarchy.",
+    "coreVisualRelationships": [
+      "subject positioned right-of-center to create left-side negative space",
+      "typography aligned to the left margin within the negative space",
+      "cool blue background tones echoing the subject's eye color",
+      "horizontal lines of the chair and arms grounding the verticality of the face"
+    ],
+    "coreInvariants": [
+      "cool-toned color palette",
+      "lightweight geometric sans-serif font",
+      "asymmetric composition",
+      "soft studio lighting with minimal harsh shadows"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the right two-thirds of the frame, scaled from chest up.",
+      "visualAnchor": "The subject's eyes and the crossed arms resting on the chair back.",
+      "movementAndEyePath": "Starts at the subject's face, moves down to the crossed arms, then sweeps left to the typography.",
+      "negativeSpace": "Significant open space in the upper left corner to accommodate text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cool light blue/white background",
+      "contrastColorRole": "Deep black and dark navy in the subject's clothing",
+      "accentColorRole": "Muted blue and slate grey in the typography and chair",
+      "saturationAndValueRelationship": "Low saturation with high value (brightness) in the background, contrasting with high-value skin tones and low-value clothing.",
+      "paletteRestrictions": [
+        "Avoid warm yellows or reds",
+        "Limit to cool blues, greys, and blacks"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Perfectly circular 'o' and 'a' counters",
+        "Monolinear stroke weight",
+        "Open apertures",
+        "Flat terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'a' is single-story and perfectly round",
+        "Lowercase 'y' has a straight, diagonal descender"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light to Thin",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Large/Round",
+            "strokeCharacter": "Monoline"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "Tight",
+            "leading": "1.0",
+            "lineBreakPattern": "Single line for name",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Upper left quadrant",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Two-tone (e.g., blue and black)",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Thin",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Large/Round",
+            "strokeCharacter": "Monoline"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "Normal",
+            "leading": "1.2",
+            "lineBreakPattern": "Single line",
+            "density": "Very Light"
+          },
+          "composition": {
+            "position": "Directly below display text",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Solid black or dark grey",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Weight and color contrast within the same font family.",
+      "graphicDevices": [
+        "Color blocking within a single word to distinguish first and last name"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase typesetting",
+          "Geometric roundness",
+          "Thin stroke weight"
+        ],
+        "avoid": [
+          "Serifs",
+          "Italics",
+          "Heavy bold weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Century Gothic",
+            "reason": "Matches the perfectly round 'o' and 'a' and thin monolinear strokes.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Provides the geometric precision and tight kerning characteristic of the era.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Offers the necessary geometric skeleton and clean lowercase forms.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a male subject with early 2000s spiky hair, wearing a black pinstripe shirt, leaning his chin on his crossed arms over the back of a light blue chair. Use cool-toned lighting and a pale blue-white background, leaving the upper left quadrant empty.",
+        "overlayInstruction": "Add two lines of lowercase text in the upper left negative space using a thin geometric sans-serif like Century Gothic. The first line should be larger, with the first word in a medium blue and the second word in black. The second line should be smaller and entirely black."
+      },
+      "verificationChecks": [
+        "Is the text entirely lowercase?",
+        "Is the background cool-toned (blue/white)?",
+        "Is the font a thin geometric sans-serif?",
+        "Is the subject leaning on a chair back?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the blue tint",
+      "Weight of the geometric font",
+      "Subject's hair style (while maintaining the era's texture)",
+      "Specific color of the first word in the title"
+    ],
+    "mustRedesign": [
+      "Avoid any serif fonts",
+      "Do not use warm lighting (golden hour, etc.)",
+      "Do not center the typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp focus on the subject's eyes",
+        "Balanced negative space for text",
+        "Consistent cool-toned color grading"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Heavy drop shadows on text",
+        "Oversaturated colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the 'a' and 'o' in the font are circular.",
+      "Ensure the subject's arms are crossed and resting on a chair.",
+      "Verify the text is left-aligned in the upper left corner.",
+      "Confirm the color palette is strictly cool-toned."
+    ],
+    "reuseFormula": "Cool-toned studio portrait + Geometric Sans-Serif (Thin) + Asymmetric Left-Aligned Layout = 2000s Pop Aesthetic"
+  }
+}

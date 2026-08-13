@@ -1,0 +1,322 @@
+{
+  "id": "987a00e6bf13fc274bc35cc78619bba571e5bea3bce1ee7ca301e1c72ecfbe00",
+  "skillId": "987a00e6bf13fc274bc35cc78619bba571e5bea3bce1ee7ca301e1c72ecfbe00",
+  "versionId": "987a00e6bf13fc274bc35cc78619bba571e5bea3bce1ee7ca301e1c72ecfbe00",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:38:41.460Z",
+  "approvedAt": "2026-08-12T16:38:41.460Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:38:41.460Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Sounds Like Life.jpg",
+    "hash": "987a00e6bf13fc274bc35cc78619bba571e5bea3bce1ee7ca301e1c72ecfbe00",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Sounds Like Life",
+    "artist": "Darryl Worley",
+    "artworkUrl": "https://coverartarchive.org/release-group/fc4691b5-1623-45aa-9041-b12e29f6b621/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/fc4691b5-1623-45aa-9041-b12e29f6b621",
+    "releaseGroupId": "fc4691b5-1623-45aa-9041-b12e29f6b621",
+    "recordingId": "350d8875-27e6-4cd5-939c-80b40a000bf5",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sounds Like Life To MeDarryl Worley",
+      "song": "Sounds Like Life To Me",
+      "performer": "Darryl Worley",
+      "peakPosition": 84,
+      "firstChartDate": "2009-08-01",
+      "lastChartDate": "2009-10-24",
+      "appearances": [
+        {
+          "chartDate": "2009-08-01",
+          "position": 99
+        },
+        {
+          "chartDate": "2009-08-08",
+          "position": 98
+        },
+        {
+          "chartDate": "2009-08-29",
+          "position": 100
+        },
+        {
+          "chartDate": "2009-09-05",
+          "position": 87
+        },
+        {
+          "chartDate": "2009-09-12",
+          "position": 89
+        },
+        {
+          "chartDate": "2009-09-19",
+          "position": 92
+        },
+        {
+          "chartDate": "2009-09-26",
+          "position": 90
+        },
+        {
+          "chartDate": "2009-10-03",
+          "position": 91
+        },
+        {
+          "chartDate": "2009-10-10",
+          "position": 84
+        },
+        {
+          "chartDate": "2009-10-17",
+          "position": 84
+        },
+        {
+          "chartDate": "2009-10-24",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "rustic sepia portrait album cover sepia portrait weathered wood background serif typography masculine aesthetic close up portrait country music style subject s face occupies the right two thirds of the frame weathered wood texture provides vertical rhythm on the left typography is nested in the dark area of the subject s shoulder high contrast lighting creates deep shadows in the clothing and hair portrait subject man style sepia lighting high contrast background texture weathered wood typography position bottom left style stacked serif",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Rustic Sepia Portrait Album Cover",
+      "category": "Music Photography",
+      "medium": [
+        "Digital Photography",
+        "Sepia Toning",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Country Music Album Art",
+        "Artist Promotional Poster",
+        "Book Cover for Memoir"
+      ],
+      "retrievalTags": [
+        "sepia portrait",
+        "weathered wood background",
+        "serif typography",
+        "masculine aesthetic",
+        "close-up portrait",
+        "country music style"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A warm, desaturated sepia portrait of a man against a weathered wooden texture with classic serif typography in the lower-left corner.",
+      "triggerTerms": [
+        "sepia country album cover",
+        "weathered wood portrait",
+        "masculine close-up photography"
+      ],
+      "excludeWhen": [
+        "vibrant color is required",
+        "modern sans-serif minimalist layouts",
+        "urban settings"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, intimate portrait of a man with stubble and dark hair, positioned on the right side of the frame. The background features vertical, heavily textured weathered wood on the left. The entire image is processed in a warm, low-saturation sepia tone with high contrast, emphasizing skin texture and wood grain. Typography is anchored in the bottom left, using a mix of bold and light serif fonts.",
+    "coreVisualRelationships": [
+      "Subject's face occupies the right two-thirds of the frame",
+      "Weathered wood texture provides vertical rhythm on the left",
+      "Typography is nested in the dark area of the subject's shoulder",
+      "High-contrast lighting creates deep shadows in the clothing and hair"
+    ],
+    "coreInvariants": [
+      "Warm sepia color grading",
+      "Visible wood grain texture",
+      "Tight facial crop",
+      "Bottom-left typographic alignment"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large-scale close-up portrait shifted to the right, with the face filling the upper right quadrant.",
+      "visualAnchor": "The subject's eyes and the bright white shirt collar providing a central point of light.",
+      "movementAndEyePath": "From the subject's eyes, down the line of the nose to the white collar, then leftward to the typography.",
+      "negativeSpace": "The dark jacket and the shadowed wood texture serve as functional negative space for text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep brown and charcoal (shadows and jacket)",
+      "contrastColorRole": "Cream and off-white (shirt and highlights)",
+      "accentColorRole": "Warm sepia mid-tones (skin and wood)",
+      "saturationAndValueRelationship": "Low saturation with high value contrast between the dark jacket and light skin/shirt.",
+      "paletteRestrictions": [
+        "No primary colors",
+        "No pure blacks",
+        "No cool blues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Serif",
+      "letterConstructionRules": [
+        "Sharp triangular serifs",
+        "High stroke contrast",
+        "All-caps for primary name",
+        "Lowercase for secondary title"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "N/A (All Caps)",
+            "terminals": "Sharp",
+            "corners": "Angular",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "0.9em",
+            "lineBreakPattern": "stacked",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "bottom-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "on subject's shoulder",
+            "relationshipToImage": "integrated into dark foreground"
+          },
+          "treatment": {
+            "fill": "off-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Old Style Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Rounded",
+            "corners": "Soft",
+            "counters": "Wide",
+            "strokeCharacter": "Delicate"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "anchored to bottom edge"
+          },
+          "treatment": {
+            "fill": "cream",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between bold uppercase display and light lowercase subtitle within the same serif family.",
+      "graphicDevices": [
+        "Horizontal rule separating subtitle from display text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Serif style",
+          "All-caps primary name",
+          "Bottom-left alignment"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Centered text",
+          "Bright white text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman Bold",
+            "reason": "Provides the necessary classical serif weight and sharp terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Garamond",
+            "reason": "Excellent for the lighter, lowercase subtitle text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a close-up portrait of a man with stubble and dark hair, looking slightly off-camera, positioned on the right. Background on the left is vertical weathered wood. Apply a warm sepia filter with high contrast and film grain.",
+        "overlayInstruction": "Add two lines of text in the bottom left corner. Top line: large, bold, all-caps serif font. Bottom line: smaller, light, lowercase serif font. Color should be a warm cream."
+      },
+      "verificationChecks": [
+        "Is the image sepia-toned?",
+        "Is the wood texture visible on the left?",
+        "Is the text aligned to the bottom left?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of sepia toning",
+      "Amount of facial stubble",
+      "Roughness of the wood texture",
+      "Font weight of the primary name"
+    ],
+    "mustRedesign": [
+      "Avoid any modern digital interface elements",
+      "Do not use saturated colors",
+      "Ensure the text does not obscure the subject's face"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic weathered wood texture",
+        "Natural skin tones within the sepia range",
+        "Clean, legible serif typesetting"
+      ],
+      "avoid": [
+        "Plastic-looking skin",
+        "Generic brown filters without contrast",
+        "Clashing font styles"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast lighting on the face",
+      "Verify the vertical orientation of the wood grain",
+      "Ensure the white collar provides a strong highlight",
+      "Confirm the typography is in a serif style"
+    ],
+    "reuseFormula": "Portrait(Subject:Man, Style:Sepia, Lighting:High-Contrast) + Background(Texture:Weathered Wood) + Typography(Position:Bottom-Left, Style:Stacked Serif)"
+  }
+}

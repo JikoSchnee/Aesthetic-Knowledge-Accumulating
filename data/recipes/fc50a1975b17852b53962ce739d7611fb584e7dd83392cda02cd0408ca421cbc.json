@@ -1,0 +1,285 @@
+{
+  "id": "fc50a1975b17852b53962ce739d7611fb584e7dd83392cda02cd0408ca421cbc",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T18:42:58.770Z",
+  "approvedAt": "2026-08-11T18:42:58.770Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T18:42:58.770Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Hang On for Your Life.jpg",
+    "hash": "fc50a1975b17852b53962ce739d7611fb584e7dd83392cda02cd0408ca421cbc",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Hang On for Your Life",
+    "artist": "Shooting Star",
+    "artworkUrl": "https://coverartarchive.org/release-group/ac21256b-537e-3fcf-b16a-b29232681505/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ac21256b-537e-3fcf-b16a-b29232681505",
+    "releaseGroupId": "ac21256b-537e-3fcf-b16a-b29232681505",
+    "recordingId": "f9773d5c-0ce9-467e-9266-d29a0af1bee8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "HollywoodShooting Star",
+      "song": "Hollywood",
+      "performer": "Shooting Star",
+      "peakPosition": 70,
+      "firstChartDate": "1982-03-27",
+      "lastChartDate": "1982-04-24",
+      "appearances": [
+        {
+          "chartDate": "1982-03-27",
+          "position": 84
+        },
+        {
+          "chartDate": "1982-04-03",
+          "position": 74
+        },
+        {
+          "chartDate": "1982-04-10",
+          "position": 70
+        },
+        {
+          "chartDate": "1982-04-17",
+          "position": 87
+        },
+        {
+          "chartDate": "1982-04-24",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "surreal interior action composite motocross bedroom surrealism monochrome motion blur 1980s aesthetic composite photography static gritty interior vs dynamic airborne subject monochromatic environment vs vibrant saturated typography horizontal room lines vs diagonal motion of the motorcycle gritty b w interior dynamic action subject bi color retro typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Surreal Interior Action Composite",
+      "category": "Album Art",
+      "medium": [
+        "Black and white photography",
+        "Graphic design",
+        "Airbrushed illustration"
+      ],
+      "useCases": [
+        "Rock music cover art",
+        "Surrealist editorial",
+        "Retro action poster"
+      ],
+      "retrievalTags": [
+        "motocross",
+        "bedroom",
+        "surrealism",
+        "monochrome",
+        "motion blur",
+        "1980s aesthetic",
+        "composite photography"
+      ]
+    },
+    "visualDefinition": "A high-contrast black and white photograph of a mundane, slightly dated bedroom interior featuring a radiator, dresser, and bed, juxtaposed with a dynamic, full-color or high-contrast motocross rider jumping through the air in the upper right quadrant with visible motion trails.",
+    "coreVisualRelationships": [
+      "Static, gritty interior vs. dynamic, airborne subject",
+      "Monochromatic environment vs. vibrant, saturated typography",
+      "Horizontal room lines vs. diagonal motion of the motorcycle"
+    ],
+    "coreInvariants": [
+      "Gritty film grain texture",
+      "Motion blur streaks behind the motorcycle",
+      "High-contrast lighting from a window source"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The motorcycle and rider occupy the upper right quadrant, scaled to appear as if jumping across the room.",
+      "visualAnchor": "The dark, textured bed in the lower right provides a heavy base for the composition.",
+      "movementAndEyePath": "The eye starts at the top-left text, follows the diagonal path of the motorcycle downward toward the bed, then circles back through the vertical lines of the radiator.",
+      "negativeSpace": "Significant negative space in the upper left and center allows the typography to breathe against the wallpaper texture."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated grayscale for the photographic base.",
+      "contrastColorRole": "Deep blacks in the shadows of the furniture and motorcycle tires.",
+      "accentColorRole": "Vibrant red for the primary script lettering and cyan/teal for the secondary display text.",
+      "saturationAndValueRelationship": "High value contrast in the B&W image; extreme saturation in the graphic overlays.",
+      "paletteRestrictions": [
+        "Grayscale background",
+        "Pure red",
+        "Bright cyan"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Condensed sans-serif and casual brush script",
+      "letterConstructionRules": [
+        "Secondary text is ultra-condensed with high verticality",
+        "Primary script features a heavy drop shadow and thick, uniform stroke weight",
+        "Script is angled at approximately 30 degrees upward"
+      ],
+      "characterSpecificRedesigns": [
+        "Connected lowercase letters in the script",
+        "Elongated stems in the sans-serif display text"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "medium",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "brush-like"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center-left",
+            "scale": "large",
+            "rotation": "30 degrees",
+            "warp": "none",
+            "overlap": "overlaps motorcycle wheel",
+            "relationshipToImage": "floating foreground"
+          },
+          "treatment": {
+            "fill": "saturated red",
+            "outline": "thin black",
+            "shadow": "hard black offset",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "cap-height",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "all caps",
+            "alignment": "justified",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "small",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "header"
+          },
+          "treatment": {
+            "fill": "cyan gradient",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-energy script paired with rigid, architectural sans-serif.",
+      "graphicDevices": [
+        "Motion streaks",
+        "Drop shadows",
+        "Film grain"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Diagonal tilt of script",
+          "Ultra-condensed width of top text",
+          "Wide letter spacing of top text"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Low-contrast B&W processing",
+          "Centering the motorcycle"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Steelfish or Impact Condensed",
+            "reason": "Matches the verticality and narrowness of the top display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Brush Script or Kaufmann",
+            "reason": "Provides the casual, energetic 80s script feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a gritty, high-contrast black and white photo of a 1970s bedroom with a radiator, dresser, and bed. Composite a motocross rider in mid-air jump in the upper right, with white motion blur streaks trailing behind the bike.",
+        "overlayInstruction": "Add a single line of ultra-condensed cyan sans-serif text across the very top with wide tracking. Below it, add a large, bold red script title at a 30-degree upward angle with a black drop shadow, partially overlapping the motorcycle's front wheel."
+      },
+      "verificationChecks": [
+        "Is the room B&W and the text colored?",
+        "Does the motorcycle have motion trails?",
+        "Is the script text tilted upwards?",
+        "Is the top text ultra-condensed and widely spaced?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of motion blur",
+      "Room clutter level",
+      "Saturation of the red script",
+      "Grain amount"
+    ],
+    "mustRedesign": [
+      "Specific brand logos on the motorcycle",
+      "Exact facial features of the rider",
+      "Specific wallpaper patterns"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Gritty film-noir photographic quality",
+        "Sense of high-speed movement",
+        "Clean, sharp graphic overlays"
+      ],
+      "avoid": [
+        "Modern digital clarity",
+        "Soft pastel colors",
+        "Centered, static compositions"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high contrast in the B&W areas",
+      "Ensure the red script has a distinct drop shadow",
+      "Verify the cyan text is justified across the top width",
+      "Confirm the motorcycle appears to be 'entering' the frame from the right"
+    ],
+    "reuseFormula": "Gritty B&W Interior + Dynamic Action Subject + Bi-color Retro Typography"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:27:58.917Z"
+}

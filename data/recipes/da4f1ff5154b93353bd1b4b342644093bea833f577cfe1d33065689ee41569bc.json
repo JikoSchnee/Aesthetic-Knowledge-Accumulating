@@ -1,0 +1,295 @@
+{
+  "id": "da4f1ff5154b93353bd1b4b342644093bea833f577cfe1d33065689ee41569bc",
+  "skillId": "da4f1ff5154b93353bd1b4b342644093bea833f577cfe1d33065689ee41569bc",
+  "versionId": "da4f1ff5154b93353bd1b4b342644093bea833f577cfe1d33065689ee41569bc",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:05:18.878Z",
+  "approvedAt": "2026-08-13T00:05:18.878Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:05:18.878Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Storyteller.jpg",
+    "hash": "da4f1ff5154b93353bd1b4b342644093bea833f577cfe1d33065689ee41569bc",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Storyteller",
+    "artist": "Crystal Waters",
+    "artworkUrl": "https://coverartarchive.org/release-group/9b392db0-4354-37c7-844b-4c14df79e42c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9b392db0-4354-37c7-844b-4c14df79e42c",
+    "releaseGroupId": "9b392db0-4354-37c7-844b-4c14df79e42c",
+    "recordingId": "432ba4ae-f94d-459a-9eeb-ae8d7de9c2a6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "What I NeedCrystal Waters",
+      "song": "What I Need",
+      "performer": "Crystal Waters",
+      "peakPosition": 82,
+      "firstChartDate": "1995-03-04",
+      "lastChartDate": "1995-03-25",
+      "appearances": [
+        {
+          "chartDate": "1995-03-04",
+          "position": 87
+        },
+        {
+          "chartDate": "1995-03-11",
+          "position": 82
+        },
+        {
+          "chartDate": "1995-03-18",
+          "position": 85
+        },
+        {
+          "chartDate": "1995-03-25",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "high key portrait with geometric sans serif typography high key lighting overexposed white background geometric sans serif 90s aesthetic centered portrait blue and gold typography subject s white clothing merging with the white background high contrast blue eyes and warm skin tones against a cool white field large primary text balanced by smaller offset secondary text geometric letterforms echoing the circularity of the subject s eyes high key portrait white on white blending geometric sans serif typography in lower third",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Key Portrait with Geometric Sans-Serif Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Editorial Fashion Layouts",
+        "Minimalist Promotional Posters"
+      ],
+      "retrievalTags": [
+        "high-key lighting",
+        "overexposed white background",
+        "geometric sans-serif",
+        "90s aesthetic",
+        "centered portrait",
+        "blue and gold typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-key, overexposed portrait style where the subject's white clothing blends into a pure white background, anchored by clean geometric sans-serif text in the lower third.",
+      "triggerTerms": [
+        "high-key overexposed portrait",
+        "white-on-white fashion photography",
+        "geometric sans-serif album layout"
+      ],
+      "excludeWhen": [
+        "dark or moody lighting is required",
+        "busy or textured backgrounds are needed",
+        "serif or decorative typography is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A minimalist composition featuring a subject in white against a white background, creating a seamless 'floating head' effect. The image is defined by high-contrast facial features and sharp, modern typography placed horizontally across the lower half.",
+    "coreVisualRelationships": [
+      "Subject's white clothing merging with the white background",
+      "High-contrast blue eyes and warm skin tones against a cool white field",
+      "Large primary text balanced by smaller, offset secondary text",
+      "Geometric letterforms echoing the circularity of the subject's eyes"
+    ],
+    "coreInvariants": [
+      "Overexposed white-on-white background and clothing relationship",
+      "Geometric sans-serif typography with circular 'o' and 'a' counters",
+      "Lower-third text placement"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered in the upper half, medium-close-up scale, looking directly at the camera.",
+      "visualAnchor": "The subject's eyes and the large blue typography serve as the primary anchors.",
+      "movementAndEyePath": "The eye starts at the subject's face, moves down to the large blue text, and finally to the smaller gold text.",
+      "negativeSpace": "Extensive white negative space occupies the majority of the frame, particularly the sides and bottom."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure white (background and clothing)",
+      "contrastColorRole": "Medium blue (primary display text)",
+      "accentColorRole": "Golden tan (secondary text and skin tones)",
+      "saturationAndValueRelationship": "High value, low saturation overall, with localized saturation in the eyes and text.",
+      "paletteRestrictions": [
+        "White",
+        "Blue",
+        "Gold/Tan",
+        "Natural skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric sans-serif with circular proportions",
+      "letterConstructionRules": [
+        "Perfectly circular counters in 'o', 'a', and 'e'",
+        "Uniform stroke weight",
+        "Straight, vertical terminals",
+        "Low crossbars on 't'"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'a' is single-story and circular",
+        "Lowercase 'y' has a straight, diagonal descender"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "circular",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "lower-middle",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on white space"
+          },
+          "treatment": {
+            "fill": "medium blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "flat",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "circular",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom-right of primary text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on white space"
+          },
+          "treatment": {
+            "fill": "golden tan",
+            "outline": "thin dark brown",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "flat",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Size and color contrast within the same typeface family or similar geometric skeletons.",
+      "graphicDevices": [
+        "Horizontal text alignment",
+        "Color-coded hierarchy"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric circularity",
+          "Monolinear stroke weight",
+          "High-key lighting"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Heavy drop shadows",
+          "High-contrast stroke weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Matches the circular counters and geometric 90s aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura",
+            "reason": "Provides the necessary geometric skeleton and monolinear weight.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key portrait of a subject wearing white, positioned in the upper half of the frame. The lighting should be so bright that the white clothing and white background merge seamlessly, leaving only the face and hair visible with high contrast.",
+        "overlayInstruction": "Add geometric sans-serif text in the lower third. The primary text should be large and blue, left-aligned. The secondary text should be smaller, golden-tan with a thin outline, positioned below and to the right of the primary text."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Does the clothing blend into the background?",
+        "Are the 'o' and 'a' characters perfectly circular?",
+        "Is the text hierarchy established by color and size?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's hair color",
+      "Primary text color",
+      "Secondary text color",
+      "Subject's gaze direction"
+    ],
+    "mustRedesign": [
+      "Avoid using specific artist names or album titles",
+      "Do not replicate the exact facial features of the reference subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Seamless white-on-white transition",
+        "Clean, sharp geometric typography",
+        "Balanced lower-third text placement"
+      ],
+      "avoid": [
+        "Visible seams between subject and background",
+        "Blurry or low-resolution text",
+        "Cluttered composition"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure white background (#FFFFFF)",
+      "Ensure text is legible against the white field",
+      "Verify geometric proportions of the typeface",
+      "Confirm high-key lighting on the subject's face"
+    ],
+    "reuseFormula": "High-key portrait + white-on-white blending + geometric sans-serif typography in lower third."
+  }
+}

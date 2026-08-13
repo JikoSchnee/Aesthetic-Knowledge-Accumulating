@@ -1,0 +1,248 @@
+{
+  "id": "eeafe8e541228f217019f9a29d27a6533d87fbf78b383494a2d794b9928be2e9",
+  "skillId": "eeafe8e541228f217019f9a29d27a6533d87fbf78b383494a2d794b9928be2e9",
+  "versionId": "eeafe8e541228f217019f9a29d27a6533d87fbf78b383494a2d794b9928be2e9",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:26:02.114Z",
+  "approvedAt": "2026-08-12T13:26:02.114Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:26:02.114Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Wintersong.jpg",
+    "hash": "eeafe8e541228f217019f9a29d27a6533d87fbf78b383494a2d794b9928be2e9",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Wintersong",
+    "artist": "Sarah McLachlan",
+    "artworkUrl": "https://coverartarchive.org/release-group/1ee8381a-f536-3f29-97e3-27881c1c88e7/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1ee8381a-f536-3f29-97e3-27881c1c88e7",
+    "releaseGroupId": "1ee8381a-f536-3f29-97e3-27881c1c88e7",
+    "recordingId": "eda3240c-0fb1-47a8-adbe-fde168b6d134",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "RiverSarah McLachlan",
+      "song": "River",
+      "performer": "Sarah McLachlan",
+      "peakPosition": 71,
+      "firstChartDate": "2006-12-23",
+      "lastChartDate": "2007-01-06",
+      "appearances": [
+        {
+          "chartDate": "2006-12-23",
+          "position": 78
+        },
+        {
+          "chartDate": "2006-12-30",
+          "position": 71
+        },
+        {
+          "chartDate": "2007-01-06",
+          "position": 85
+        }
+      ]
+    }
+  },
+  "dedupeText": "ethereal winter portrait layout lens flare snowy mountains ethereal glow soft focus winter landscape outlined typography warm lens flare contrasting with cool blue white snow subject centered against a vast bright landscape text positioned in the upper margin to avoid obscuring the subject soft focus on the subject blending into the hazy background ethereal portrait high key snowy landscape soft focus subject warm lens flare overlay top centered outlined rounded typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Ethereal Winter Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Post-Processing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Winter-themed editorial spreads",
+        "Atmospheric portraiture"
+      ],
+      "retrievalTags": [
+        "lens flare",
+        "snowy mountains",
+        "ethereal glow",
+        "soft focus",
+        "winter landscape",
+        "outlined typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A soft-focus portrait set against a bright, snowy mountain backdrop with prominent lens flare and top-centered outlined text.",
+      "triggerTerms": [
+        "ethereal winter portrait",
+        "snowy mountain backdrop with lens flare",
+        "soft glow portrait photography"
+      ],
+      "excludeWhen": [
+        "high-contrast urban settings",
+        "dark moody lighting",
+        "minimalist flat vector art"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered medium-shot portrait of a woman with wavy hair, bathed in a warm, hazy lens flare that creates a soft-focus effect. The background consists of bright, overexposed snowy mountains under a pale sky. The composition is topped with a single line of outlined, rounded typography.",
+    "coreVisualRelationships": [
+      "Warm lens flare contrasting with cool blue-white snow",
+      "Subject centered against a vast, bright landscape",
+      "Text positioned in the upper margin to avoid obscuring the subject",
+      "Soft focus on the subject blending into the hazy background"
+    ],
+    "coreInvariants": [
+      "Overexposed snowy mountain background",
+      "Prominent pink and white circular lens flare artifacts",
+      "Outlined display typography at the top edge"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium shot, centered horizontally, occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The subject's face, specifically the eyes, framed by the lens flare.",
+      "movementAndEyePath": "From the top-centered text down to the subject's face, then outward to the mountain horizon.",
+      "negativeSpace": "Significant bright negative space in the upper third and sides provided by the sky and snow."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cool whites and pale blues (background and clothing)",
+      "contrastColorRole": "Warm browns and skin tones (subject)",
+      "accentColorRole": "Soft pink and magenta (lens flare)",
+      "saturationAndValueRelationship": "High value, low to medium saturation; overall bright and airy feel.",
+      "paletteRestrictions": [
+        "Avoid deep blacks",
+        "Limit to pastel and high-key tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Rounded sans-serif with uniform stroke width",
+      "letterConstructionRules": [
+        "Softly rounded terminals",
+        "Open counters",
+        "Consistent geometric proportions"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "rounded-sans",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "small-to-medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in sky area"
+          },
+          "treatment": {
+            "fill": "transparent",
+            "outline": "thin blue-grey",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used for both artist and title for a cohesive, quiet look.",
+      "graphicDevices": [
+        "Thin stroke outline on text to ensure legibility against bright sky"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Rounded terminals",
+          "Outline-only treatment",
+          "Top-center placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Heavy drop shadows",
+          "Solid black fills"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "VAG Rundschrift",
+            "reason": "Matches the rounded, friendly, and geometric skeleton of the original.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Arial Rounded",
+            "reason": "Provides the necessary soft terminals and clean legibility.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key photograph of a woman with wavy hair in a white dress, centered against a bright snowy mountain range. Apply a heavy soft-focus filter and add circular pink/white lens flares over the subject's face and hair.",
+        "overlayInstruction": "Add the text in a rounded sans-serif font at the top center. Set the fill to transparent and add a thin, dark-blue outline."
+      },
+      "verificationChecks": [
+        "Is the text outlined and transparent?",
+        "Is there a visible lens flare effect?",
+        "Is the background a bright, snowy landscape?",
+        "Is the overall image high-key and soft-focus?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of lens flare",
+      "Amount of background blur",
+      "Thickness of text outline"
+    ],
+    "mustRedesign": [
+      "Solid filled text",
+      "Sharp, high-contrast backgrounds",
+      "Dark, saturated color palettes"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dreamlike, ethereal atmosphere",
+        "Legible outlined typography",
+        "Balanced high-key exposure"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Cluttered backgrounds",
+        "Aggressive or jagged fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the lens flare does not obscure the eyes completely.",
+      "Ensure the text outline is visible against the sky.",
+      "Verify the subject is centered.",
+      "Confirm the color palette remains cool with warm accents."
+    ],
+    "reuseFormula": "Ethereal Portrait = (High-Key Snowy Landscape + Soft-Focus Subject) + (Warm Lens Flare Overlay) + (Top-Centered Outlined Rounded Typography)"
+  }
+}

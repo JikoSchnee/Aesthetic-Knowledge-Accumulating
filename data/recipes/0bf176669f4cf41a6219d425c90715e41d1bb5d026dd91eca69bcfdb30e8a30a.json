@@ -1,0 +1,295 @@
+{
+  "id": "0bf176669f4cf41a6219d425c90715e41d1bb5d026dd91eca69bcfdb30e8a30a",
+  "skillId": "0bf176669f4cf41a6219d425c90715e41d1bb5d026dd91eca69bcfdb30e8a30a",
+  "versionId": "0bf176669f4cf41a6219d425c90715e41d1bb5d026dd91eca69bcfdb30e8a30a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T02:16:40.413Z",
+  "approvedAt": "2026-08-13T02:16:40.413Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T02:16:40.413Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "\"11-20-79\".jpg",
+    "hash": "0bf176669f4cf41a6219d425c90715e41d1bb5d026dd91eca69bcfdb30e8a30a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "\"11-20-79\"",
+    "artist": "Mona Lisa",
+    "artworkUrl": "https://coverartarchive.org/release-group/8ce04fcd-4999-34d4-81de-4f052e4458ed/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8ce04fcd-4999-34d4-81de-4f052e4458ed",
+    "releaseGroupId": "8ce04fcd-4999-34d4-81de-4f052e4458ed",
+    "recordingId": "e2a52675-38df-4ab8-890f-29641f707154",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "You SaidMona Lisa",
+      "song": "You Said",
+      "performer": "Mona Lisa",
+      "peakPosition": 83,
+      "firstChartDate": "1996-06-22",
+      "lastChartDate": "1996-07-20",
+      "appearances": [
+        {
+          "chartDate": "1996-06-22",
+          "position": 83
+        },
+        {
+          "chartDate": "1996-06-29",
+          "position": 91
+        },
+        {
+          "chartDate": "1996-07-06",
+          "position": 94
+        },
+        {
+          "chartDate": "1996-07-13",
+          "position": 94
+        },
+        {
+          "chartDate": "1996-07-20",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "late 90s r b album aesthetic leather outfit checkerboard floor high angle shot script lettering y2k aesthetic r b fashion blue and black grid reflective leather texture against matte floor tiles high angle perspective creating a diagonal body line hand written white script overlapping the subject s legs cool toned color palette with a single warm yellow accent high angle fashion photography reflective leather geometric grid floor layered hand drawn typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Late 90s R&B Album Aesthetic",
+      "category": "Music Photography",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design",
+        "Hand-lettering"
+      ],
+      "useCases": [
+        "Album cover design",
+        "90s nostalgia editorial",
+        "Streetwear lookbook",
+        "Promotional music poster"
+      ],
+      "retrievalTags": [
+        "leather outfit",
+        "checkerboard floor",
+        "high-angle shot",
+        "script lettering",
+        "y2k aesthetic",
+        "r&b fashion",
+        "blue and black grid"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-angle studio portrait featuring a subject in reflective black leather against a geometric checkerboard floor with layered script typography.",
+      "triggerTerms": [
+        "90s R&B album cover style",
+        "leather suit on checkerboard floor",
+        "high-angle fashion portrait with script overlay"
+      ],
+      "excludeWhen": [
+        "minimalist white backgrounds are requested",
+        "modern flat vector illustrations are needed",
+        "natural outdoor lighting is required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A full-body studio portrait taken from a high angle, showing a person reclining on a grid-patterned floor of blue, black, and white squares. The subject wears a glossy black leather jacket and pants, creating high-specular highlights. The composition is anchored by large, expressive hand-written script and blocky numerals in the foreground.",
+    "coreVisualRelationships": [
+      "Reflective leather texture against matte floor tiles",
+      "High-angle perspective creating a diagonal body line",
+      "Hand-written white script overlapping the subject's legs",
+      "Cool-toned color palette with a single warm yellow accent"
+    ],
+    "coreInvariants": [
+      "Checkerboard floor pattern in blue, black, and white",
+      "High-gloss black leather clothing",
+      "High-angle 'looking down' camera placement"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered, reclining diagonally across the frame from top-left to mid-right.",
+      "visualAnchor": "The subject's face and the large white script in the lower-left quadrant.",
+      "movementAndEyePath": "Eye starts at the face, follows the line of the leather-clad body down to the feet, then circles back through the large foreground text.",
+      "negativeSpace": "The geometric floor tiles provide structured negative space around the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black (leather and floor tiles)",
+      "contrastColorRole": "Steel blue and off-white (floor tiles)",
+      "accentColorRole": "Muted yellow (secondary text)",
+      "saturationAndValueRelationship": "High contrast between the dark leather and the lighter floor tiles; low saturation overall with a single pop of yellow.",
+      "paletteRestrictions": [
+        "Limited to black, white, steel blue, and yellow"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script and casual marker-style numerals",
+      "letterConstructionRules": [
+        "Fluid, connected script for the primary name",
+        "Varying line weight suggesting a brush or marker",
+        "Slanted, informal block numerals for the date"
+      ],
+      "characterSpecificRedesigns": [
+        "Exaggerated ascenders and descenders in the script",
+        "Double-quote marks styled as quick vertical slashes"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "variable",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "lower center",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "overlaps subject",
+            "relationshipToImage": "foreground overlay"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "casual-sans",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "tall",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "closed",
+            "strokeCharacter": "marker-like"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "bottom left",
+            "scale": "medium",
+            "rotation": "slight upward tilt",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "marker-bleed",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Fluid white script paired with blocky yellow marker-style numerals for a 'signed' look.",
+      "graphicDevices": [
+        "Checkerboard grid",
+        "Diagonal composition"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Hand-written feel",
+          "Color contrast between white and yellow text"
+        ],
+        "avoid": [
+          "Clean, modern sans-serifs",
+          "Formal calligraphy"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Casual Brush Script",
+            "reason": "Mimics the fluid, hand-drawn quality of the main name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Felt-tip Marker Font",
+            "reason": "Captures the informal, blocky nature of the date text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A high-angle studio photo of a woman in a shiny black leather suit reclining on a floor made of large blue, black, and white checkerboard tiles.",
+        "overlayInstruction": "Add large, fluid white hand-written script across the lower third, overlapping the subject's legs, and add yellow marker-style numerals in the bottom left corner."
+      },
+      "verificationChecks": [
+        "Is the floor a grid of blue, black, and white?",
+        "Does the leather have visible specular highlights?",
+        "Is the camera angle looking down from above?",
+        "Is the text hand-written in style?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Floor tile colors",
+      "Subject pose",
+      "Text color (yellow accent)",
+      "Leather finish (matte vs gloss)"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact brand logos on clothing",
+      "Specific proprietary font files"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-gloss texture on the clothing",
+        "Clear geometric grid on the floor",
+        "Layered depth between text and subject"
+      ],
+      "avoid": [
+        "Flat, non-reflective clothing",
+        "Low-contrast lighting",
+        "Perfectly horizontal/vertical camera angles"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the script text is legible but looks hand-drawn.",
+      "Check that the high-angle perspective is maintained.",
+      "Verify the leather texture looks authentic and reflective.",
+      "Confirm the checkerboard pattern is consistent across the floor."
+    ],
+    "reuseFormula": "High-angle fashion photography + reflective leather + geometric grid floor + layered hand-drawn typography."
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "id": "58efac87e8ff1940afed87a273696625460692414f87d40378afd0bafdc339ad",
+  "skillId": "58efac87e8ff1940afed87a273696625460692414f87d40378afd0bafdc339ad",
+  "versionId": "58efac87e8ff1940afed87a273696625460692414f87d40378afd0bafdc339ad",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:26:24.527Z",
+  "approvedAt": "2026-08-12T22:26:24.527Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:26:24.527Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "No Second Chance.jpg",
+    "hash": "58efac87e8ff1940afed87a273696625460692414f87d40378afd0bafdc339ad",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "No Second Chance",
+    "artist": "Charlie",
+    "artworkUrl": "https://coverartarchive.org/release-group/7fd094f4-4cd9-3483-b46d-4eb58789516f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7fd094f4-4cd9-3483-b46d-4eb58789516f",
+    "releaseGroupId": "7fd094f4-4cd9-3483-b46d-4eb58789516f",
+    "recordingId": "8dc13dcd-8a4e-4935-a0f0-efd7e6c5e96a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Turning To YouCharlie",
+      "song": "Turning To You",
+      "performer": "Charlie",
+      "peakPosition": 96,
+      "firstChartDate": "1977-08-20",
+      "lastChartDate": "1977-08-27",
+      "appearances": [
+        {
+          "chartDate": "1977-08-20",
+          "position": 96
+        },
+        {
+          "chartDate": "1977-08-27",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "seventies cinematic bedroom portrait 1970s aesthetic high contrast serif cinematic lighting muted interior grainy film oversized header text bleeding off the top edge subject centered vertically beneath the main title diagonal black bar providing a sharp geometric contrast to soft bedding muted beige and cream tones punctuated by small red accents combine a grainy low saturation interior portrait with oversized top cropped didone typography and a tilted geometric label for a 1970s editorial aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Seventies Cinematic Bedroom Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Analog Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Retro album covers",
+        "Vintage editorial photography",
+        "70s lifestyle branding"
+      ],
+      "retrievalTags": [
+        "1970s aesthetic",
+        "high-contrast serif",
+        "cinematic lighting",
+        "muted interior",
+        "grainy film"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1970s-style interior portrait featuring a central subject on a bed, framed by oversized top-aligned serif typography and a diagonal black-bar subtitle.",
+      "triggerTerms": [
+        "70s film grain bedroom portrait",
+        "oversized white serif header",
+        "diagonal black label text",
+        "muted vintage interior photography"
+      ],
+      "excludeWhen": [
+        "modern digital clean photography is required",
+        "minimalist sans-serif layouts are needed",
+        "bright neon color palettes are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A cinematic, low-saturation photograph of a woman in a slip kneeling on a bed, characterized by a soft, warm interior glow, framed by massive white serif lettering at the top and a tilted black banner across the middle-right.",
+    "coreVisualRelationships": [
+      "Oversized header text bleeding off the top edge",
+      "Subject centered vertically beneath the main title",
+      "Diagonal black bar providing a sharp geometric contrast to soft bedding",
+      "Muted beige and cream tones punctuated by small red accents"
+    ],
+    "coreInvariants": [
+      "High-contrast Didone-style serif typography",
+      "Soft-focus background with domestic props (lamp, bottle, flowers)",
+      "Analog film texture with visible grain and slight desaturation"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central figure, medium-full shot, kneeling on a bed, occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The large white serif letters at the top edge act as the primary anchor.",
+      "movementAndEyePath": "From the top header down to the subject's face, then following the diagonal black bar to the right.",
+      "negativeSpace": "Ample negative space provided by the plain wall behind the subject and the white bedding."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cream and beige (background and bedding)",
+      "contrastColorRole": "Black (diagonal bar and hair)",
+      "accentColorRole": "Muted red (roses) and teal (bottle)",
+      "saturationAndValueRelationship": "Low saturation with high value in the background; high contrast in the typography.",
+      "paletteRestrictions": [
+        "No neon colors",
+        "Avoid pure primary blues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast modern serif (Didone)",
+      "letterConstructionRules": [
+        "Extremely thin hairlines",
+        "Heavy vertical stems",
+        "Flat, unbracketed serifs",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are cropped at the top edge of the frame"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Didone Serif",
+          "anatomy": {
+            "width": "condensed to normal",
+            "weight": "bold",
+            "contrast": "extreme",
+            "xHeight": "high",
+            "terminals": "ball or flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform vertical thickness"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "-50",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "massive",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "bleeds off top",
+            "relationshipToImage": "foreground overlay"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "100",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "middle right",
+            "scale": "medium",
+            "rotation": "-5 degrees",
+            "warp": "none",
+            "overlap": "inside black bar",
+            "relationshipToImage": "floating overlay"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Uniform serif family used in two scales and contexts (header vs. label).",
+      "graphicDevices": [
+        "Solid black rectangular bar with a slight upward tilt"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast between thick and thin strokes",
+          "Top-edge cropping"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Rounded corners"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni Poster",
+            "reason": "Matches the extreme contrast and verticality of the header.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Didot",
+            "reason": "Provides the elegant, high-fashion 70s look for the subtitle.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 1970s film-style photograph of a woman in a silk slip kneeling on a messy white bed in a beige room. Include a vintage bedside lamp, a small vase of red roses, and a green bottle on a wooden table in the background. Use soft, warm lighting and visible film grain.",
+        "overlayInstruction": "Add a massive white uppercase serif title at the very top, cropped by the frame edge. Add a solid black horizontal bar tilted slightly upward on the right side, containing white uppercase serif text."
+      },
+      "verificationChecks": [
+        "Is the top text cropped by the upper border?",
+        "Is the black bar tilted at a slight angle?",
+        "Does the image have a warm, muted 70s color grade?",
+        "Is the font a high-contrast Didone style?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Tilt angle of the black bar",
+      "Amount of film grain",
+      "Saturation of the red accents",
+      "Tightness of the header letter-spacing"
+    ],
+    "mustRedesign": [
+      "Avoid modern digital sharpness",
+      "Do not use lowercase for the display text",
+      "Ensure the black bar is not perfectly horizontal"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 70s film texture",
+        "Extreme typographic contrast",
+        "Balanced domestic clutter"
+      ],
+      "avoid": [
+        "Clean vector graphics",
+        "Modern furniture styles",
+        "Vibrant digital colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast serif hairlines",
+      "Verify the top-edge bleed of the header",
+      "Ensure the color palette remains in the beige/cream spectrum",
+      "Confirm the presence of the diagonal black graphic element"
+    ],
+    "reuseFormula": "Combine a grainy, low-saturation interior portrait with oversized, top-cropped Didone typography and a tilted geometric label for a 1970s editorial aesthetic."
+  }
+}

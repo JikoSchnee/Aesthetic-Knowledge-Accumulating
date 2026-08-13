@@ -1,0 +1,297 @@
+{
+  "id": "41d9ff8d61c723a31fe16b6206bd4221a6e3a56aa06567891d51a4257aa837d5",
+  "skillId": "41d9ff8d61c723a31fe16b6206bd4221a6e3a56aa06567891d51a4257aa837d5",
+  "versionId": "41d9ff8d61c723a31fe16b6206bd4221a6e3a56aa06567891d51a4257aa837d5",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:44:19.856Z",
+  "approvedAt": "2026-08-12T12:44:19.856Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:44:19.856Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Full Circle.jpg",
+    "hash": "41d9ff8d61c723a31fe16b6206bd4221a6e3a56aa06567891d51a4257aa837d5",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Full Circle",
+    "artist": "Creed",
+    "artworkUrl": "https://coverartarchive.org/release-group/1fb07d07-8b08-4189-b7b5-f1c45dfc9b12/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1fb07d07-8b08-4189-b7b5-f1c45dfc9b12",
+    "releaseGroupId": "1fb07d07-8b08-4189-b7b5-f1c45dfc9b12",
+    "recordingId": "5bfb95e6-0537-4a8c-9163-646962549fc1",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "RainCreed",
+      "song": "Rain",
+      "performer": "Creed",
+      "peakPosition": 91,
+      "firstChartDate": "2009-10-24",
+      "lastChartDate": "2010-03-13",
+      "appearances": [
+        {
+          "chartDate": "2009-10-24",
+          "position": 91
+        },
+        {
+          "chartDate": "2010-01-09",
+          "position": 91
+        },
+        {
+          "chartDate": "2010-03-13",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "grungy metallic relic cover grunge metallic keys chasm distressed chipped paint high contrast weathered metal central metallic object as the primary focal point high contrast between bright metallic highlights and deep black shadows vertical alignment of hanging keys creating downward visual weight textured chipped paint effect unifying the foreground and background central weathered relic distressed roman display text gothic subtitle high contrast dark void",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Grungy Metallic Relic Cover",
+      "category": "Album Art",
+      "medium": [
+        "Digital Composite",
+        "Macro Photography",
+        "Distressed Texture Overlay"
+      ],
+      "useCases": [
+        "Hard rock album covers",
+        "Dark fantasy book jackets",
+        "Industrial music branding"
+      ],
+      "retrievalTags": [
+        "grunge",
+        "metallic",
+        "keys",
+        "chasm",
+        "distressed",
+        "chipped paint",
+        "high contrast",
+        "weathered metal"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, gritty composition featuring a central metallic object suspended in a dark, textured void with weathered serif typography.",
+      "triggerTerms": [
+        "grungy metallic relic",
+        "weathered metal keys hanging",
+        "distressed dark rock aesthetic",
+        "chipped paint texture background"
+      ],
+      "excludeWhen": [
+        "clean minimalist designs",
+        "bright colorful pop aesthetics",
+        "flat vector illustrations"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central, weathered brass-like ring or collar with various antique keys hanging from chains, set against a heavily distressed black background with vertical light streaks at the top.",
+    "coreVisualRelationships": [
+      "Central metallic object as the primary focal point",
+      "High contrast between bright metallic highlights and deep black shadows",
+      "Vertical alignment of hanging keys creating downward visual weight",
+      "Textured, chipped paint effect unifying the foreground and background"
+    ],
+    "coreInvariants": [
+      "Heavily distressed and weathered surface textures",
+      "Muted metallic color palette (gold, silver, rust)",
+      "Symmetrical or centered subject placement"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large central subject occupying the middle third of the frame.",
+      "visualAnchor": "The bright, circular metallic collar at the center.",
+      "movementAndEyePath": "Top-down movement from the large display text to the central object, then following the hanging keys downward to the subtitle.",
+      "negativeSpace": "Deep black, textured negative space surrounding the central object to emphasize isolation."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and dark charcoal background with heavy grain.",
+      "contrastColorRole": "Aged gold and brass metallic highlights on the central object.",
+      "accentColorRole": "Cool silver and oxidized grey on the hanging keys.",
+      "saturationAndValueRelationship": "Low saturation with extreme value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "No vibrant primary colors",
+        "No clean gradients"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Extended Roman Serif",
+      "letterConstructionRules": [
+        "Wide, horizontal proportions",
+        "Sharp, triangular serifs",
+        "Visible weathering and 'chipped' texture within the glyphs",
+        "Custom swash or extension on specific characters to create flow"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'R' features an elongated leg that underlines subsequent letters"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "extra-wide",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "weathered",
+            "counters": "open",
+            "strokeCharacter": "distressed"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating above subject"
+          },
+          "treatment": {
+            "fill": "weathered-cream",
+            "outline": "none",
+            "shadow": "subtle-glow",
+            "depth": "flat",
+            "texture": "cracked-paint",
+            "distortion": "eroded-edges"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Blackletter / Gothic",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "pointed",
+            "corners": "sharp",
+            "counters": "tight",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "centered",
+            "tracking": "extra-wide",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "anchoring the base"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a heavy, weathered Roman display face and a delicate, spaced-out Gothic subtitle.",
+      "graphicDevices": [
+        "Vertical light streaks/stalactites at the top edge",
+        "Heavy film grain and dust overlays"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide serif proportions",
+          "Distressed texture",
+          "High tracking in subtitle"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Modern geometric faces"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cinzel Decorative",
+            "reason": "Captures the flared serifs and classical weight",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Trajan Pro",
+            "reason": "Provides the base Roman skeleton for the display text",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Old English Text",
+            "reason": "Approximate style for the bottom calligraphic text",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a dark, gritty background with heavy black textures and chipped paint effects. In the center, place a weathered brass collar with various antique keys hanging from chains. Add vertical white light streaks at the very top edge.",
+        "overlayInstruction": "Apply a large, weathered Roman serif title at the top center with a cracked paint texture. Add a small, widely-spaced Gothic subtitle at the bottom center in clean white."
+      },
+      "verificationChecks": [
+        "Is the central object metallic and weathered?",
+        "Is the background predominantly black with high-contrast texture?",
+        "Does the top text have a wide, distressed serif appearance?",
+        "Is the bottom text spaced out and calligraphic?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the grunge texture",
+      "Number and style of hanging keys",
+      "Width of the display font",
+      "Brightness of the top light streaks"
+    ],
+    "mustRedesign": [
+      "Specific logo shapes",
+      "Exact key bit patterns",
+      "Unique character swashes"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tangible metallic texture",
+        "Deep, moody atmosphere",
+        "Clear typographic hierarchy"
+      ],
+      "avoid": [
+        "Flat colors",
+        "Clean digital gradients",
+        "Generic sans-serif fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for realistic metallic highlights",
+      "Ensure text weathering matches background distress",
+      "Verify the vertical balance of the keys",
+      "Confirm the background is sufficiently dark for contrast"
+    ],
+    "reuseFormula": "Central weathered relic + Distressed Roman display text + Gothic subtitle + High-contrast dark void."
+  }
+}

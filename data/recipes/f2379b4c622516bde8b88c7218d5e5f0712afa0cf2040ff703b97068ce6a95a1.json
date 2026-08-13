@@ -1,0 +1,260 @@
+{
+  "id": "f2379b4c622516bde8b88c7218d5e5f0712afa0cf2040ff703b97068ce6a95a1",
+  "skillId": "f2379b4c622516bde8b88c7218d5e5f0712afa0cf2040ff703b97068ce6a95a1",
+  "versionId": "f2379b4c622516bde8b88c7218d5e5f0712afa0cf2040ff703b97068ce6a95a1",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:52:10.256Z",
+  "approvedAt": "2026-08-12T13:52:10.256Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:52:10.256Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Soft Parade.jpg",
+    "hash": "f2379b4c622516bde8b88c7218d5e5f0712afa0cf2040ff703b97068ce6a95a1",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Soft Parade",
+    "artist": "The Doors",
+    "artworkUrl": "https://coverartarchive.org/release-group/cf90c9a0-4831-3d30-a545-ed77308e807b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/cf90c9a0-4831-3d30-a545-ed77308e807b",
+    "releaseGroupId": "cf90c9a0-4831-3d30-a545-ed77308e807b",
+    "recordingId": "3ae8133e-1555-4427-b815-8f51accc65a6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Runnin' BlueThe Doors",
+      "song": "Runnin' Blue",
+      "performer": "The Doors",
+      "peakPosition": 64,
+      "firstChartDate": "1969-09-06",
+      "lastChartDate": "1969-10-11",
+      "appearances": [
+        {
+          "chartDate": "1969-09-06",
+          "position": 89
+        },
+        {
+          "chartDate": "1969-09-13",
+          "position": 85
+        },
+        {
+          "chartDate": "1969-09-20",
+          "position": 76
+        },
+        {
+          "chartDate": "1969-09-27",
+          "position": 71
+        },
+        {
+          "chartDate": "1969-10-04",
+          "position": 64
+        },
+        {
+          "chartDate": "1969-10-11",
+          "position": 75
+        }
+      ]
+    }
+  },
+  "dedupeText": "atmospheric spotlight portrait spotlight vignette geometric sans serif high contrast blue gradient group portrait 1960s aesthetic subject cluster centered horizontally and vertically blue to black radial gradient defining the upper half high contrast lighting on subjects against absolute black typography aligned to the horizontal center of the spotlight centered group top down blue radial glow lowercase geometric sans serif atmospheric 60s noir",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Atmospheric Spotlight Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Studio Lighting"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Dramatic Editorial Layouts",
+        "Minimalist Poster Design"
+      ],
+      "retrievalTags": [
+        "spotlight",
+        "vignette",
+        "geometric sans-serif",
+        "high contrast",
+        "blue gradient",
+        "group portrait",
+        "1960s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast group portrait centered in a dark void, illuminated by a soft blue overhead spotlight with minimalist geometric typography.",
+      "triggerTerms": [
+        "blue spotlight vignette",
+        "centered group in dark void",
+        "minimalist geometric sans-serif header"
+      ],
+      "excludeWhen": [
+        "brightly lit backgrounds",
+        "busy textures",
+        "hand-drawn or script typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central cluster of figures is isolated in a deep black environment, lit from above by a diffused blue circular glow that creates a heavy vignette. The composition is anchored by a centered line of lowercase geometric text positioned in the upper third of the frame.",
+    "coreVisualRelationships": [
+      "Subject cluster centered horizontally and vertically",
+      "Blue-to-black radial gradient defining the upper half",
+      "High-contrast lighting on subjects against absolute black",
+      "Typography aligned to the horizontal center of the spotlight"
+    ],
+    "coreInvariants": [
+      "Deep black negative space occupying at least 60% of the frame",
+      "Soft-edged blue radial gradient in the top half",
+      "Lowercase geometric sans-serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Small central cluster of figures, occupying approximately 20% of the total height.",
+      "visualAnchor": "The bright blue spotlight in the upper half acts as the primary anchor for the eye.",
+      "movementAndEyePath": "Eye starts at the blue glow, reads the centered text, then drops to the high-contrast figures in the center.",
+      "negativeSpace": "Extensive black negative space surrounds the subjects on three sides."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Black (Background)",
+      "contrastColorRole": "Steel Blue (Spotlight)",
+      "accentColorRole": "White (Typography and highlights)",
+      "saturationAndValueRelationship": "Low saturation blue fading into zero-value black; high-value white highlights on subjects.",
+      "paletteRestrictions": [
+        "Monochromatic blue and black base",
+        "Neutral white highlights"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Perfectly circular 'o' and 'd' counters",
+        "Uniform stroke weight",
+        "Lowercase only",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Forward slash used as a separator between phrases"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light to Regular",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Circular",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "centered",
+            "tracking": "-2%",
+            "leading": "1.2",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "Upper third, centered",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "Overlaid on the blue gradient"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single weight geometric sans used for all elements.",
+      "graphicDevices": [
+        "Forward slash separator"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase format",
+          "Geometric circularity",
+          "White color"
+        ],
+        "avoid": [
+          "Serifs",
+          "Italics",
+          "Heavy weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Matches the circular counters and geometric 1960s feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Provides the necessary geometric skeleton and lowercase aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a photograph of a group of people in 1960s attire, centered in a pitch-black studio. Light them with a single soft blue spotlight from above that creates a diffused circular glow in the upper half of the frame, leaving the bottom half in deep shadow.",
+        "overlayInstruction": "Add a single line of lowercase geometric sans-serif text in white, centered horizontally within the blue spotlight area."
+      },
+      "verificationChecks": [
+        "Is the text entirely lowercase?",
+        "Is the background pure black at the edges?",
+        "Is the blue light a soft radial gradient?",
+        "Is the text centered horizontally?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the blue spotlight",
+      "Number of figures in the central cluster",
+      "Weight of the geometric font"
+    ],
+    "mustRedesign": [
+      "Any serif fonts",
+      "Uppercase letters",
+      "Hard edges on the spotlight gradient"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Absolute black negative space",
+        "Smooth blue-to-black transition",
+        "Perfectly centered typography"
+      ],
+      "avoid": [
+        "Visible background textures",
+        "Color bleeding outside the blue/white/black palette"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no logos or specific brand marks are present.",
+      "Verify the 'o' characters are perfectly circular.",
+      "Check that the subjects are high-contrast against the black floor.",
+      "Confirm the blue glow does not reach the bottom corners."
+    ],
+    "reuseFormula": "Centered group + Top-down blue radial glow + Lowercase geometric sans-serif = Atmospheric 60s Noir."
+  }
+}

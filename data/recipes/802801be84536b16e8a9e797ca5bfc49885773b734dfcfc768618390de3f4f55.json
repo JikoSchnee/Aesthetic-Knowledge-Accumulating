@@ -1,0 +1,330 @@
+{
+  "id": "802801be84536b16e8a9e797ca5bfc49885773b734dfcfc768618390de3f4f55",
+  "skillId": "802801be84536b16e8a9e797ca5bfc49885773b734dfcfc768618390de3f4f55",
+  "versionId": "802801be84536b16e8a9e797ca5bfc49885773b734dfcfc768618390de3f4f55",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:04:35.312Z",
+  "approvedAt": "2026-08-12T05:04:35.312Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:04:35.312Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "A medio vivir.jpg",
+    "hash": "802801be84536b16e8a9e797ca5bfc49885773b734dfcfc768618390de3f4f55",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "A medio vivir",
+    "artist": "Ricky Martin",
+    "artworkUrl": "https://coverartarchive.org/release-group/9eb664d0-c955-3a76-8179-1e8dadf8bd14/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/9eb664d0-c955-3a76-8179-1e8dadf8bd14",
+    "releaseGroupId": "9eb664d0-c955-3a76-8179-1e8dadf8bd14",
+    "recordingId": "0aca49c6-4f11-4089-92ff-92ec00591ef4",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "MariaRicky Martin",
+      "song": "Maria",
+      "performer": "Ricky Martin",
+      "peakPosition": 88,
+      "firstChartDate": "1996-07-20",
+      "lastChartDate": "1996-10-19",
+      "appearances": [
+        {
+          "chartDate": "1996-07-20",
+          "position": 90
+        },
+        {
+          "chartDate": "1996-07-27",
+          "position": 90
+        },
+        {
+          "chartDate": "1996-08-03",
+          "position": 96
+        },
+        {
+          "chartDate": "1996-08-10",
+          "position": 91
+        },
+        {
+          "chartDate": "1996-08-17",
+          "position": 93
+        },
+        {
+          "chartDate": "1996-08-24",
+          "position": 95
+        },
+        {
+          "chartDate": "1996-08-31",
+          "position": 98
+        },
+        {
+          "chartDate": "1996-09-07",
+          "position": 95
+        },
+        {
+          "chartDate": "1996-09-14",
+          "position": 93
+        },
+        {
+          "chartDate": "1996-09-21",
+          "position": 96
+        },
+        {
+          "chartDate": "1996-09-28",
+          "position": 89
+        },
+        {
+          "chartDate": "1996-10-05",
+          "position": 88
+        },
+        {
+          "chartDate": "1996-10-12",
+          "position": 88
+        },
+        {
+          "chartDate": "1996-10-19",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast nineties pop portrait monochrome portrait extended serif typography 90s aesthetic high contrast photography melancholic male portrait text framing the subject at extreme top and bottom margins high contrast between the white background and dark hair shadows diagonal movement created by the subject s head tilt and hand placement balance between heavy display type and delicate body type high contrast monochrome portrait extended bold serif top wide tracked light serif bottom",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Nineties Pop Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Fashion editorial photography",
+        "Promotional artist posters"
+      ],
+      "retrievalTags": [
+        "monochrome portrait",
+        "extended serif typography",
+        "90s aesthetic",
+        "high contrast photography",
+        "melancholic male portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast black and white portrait featuring a male subject with textured hair, framed by wide-tracked, extended serif typography at the top and bottom margins.",
+      "triggerTerms": [
+        "90s monochrome album style",
+        "extended serif display text",
+        "high contrast portrait with wide tracking"
+      ],
+      "excludeWhen": [
+        "vibrant colorful designs are needed",
+        "minimalist sans-serif layouts are requested",
+        "landscape photography is the primary focus"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up, high-contrast monochrome portrait of a male subject looking downward, characterized by soft lighting on the face and deep shadows in the hair. The composition is anchored by two horizontal bands of text: a bold, extended serif at the top and a light, widely-spaced serif at the bottom.",
+    "coreVisualRelationships": [
+      "Text framing the subject at extreme top and bottom margins",
+      "High contrast between the white background and dark hair/shadows",
+      "Diagonal movement created by the subject's head tilt and hand placement",
+      "Balance between heavy display type and delicate body type"
+    ],
+    "coreInvariants": [
+      "Monochrome or desaturated color palette",
+      "Tight headshot cropping",
+      "Extreme horizontal letter spacing (tracking)"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered close-up portrait, filling approximately 80% of the vertical frame.",
+      "visualAnchor": "The subject's eyes and hand, positioned in the center-right of the frame.",
+      "movementAndEyePath": "The eye starts at the bold top text, follows the downward gaze of the subject, and rests on the bottom text line.",
+      "negativeSpace": "High-key white space surrounding the subject's shoulders and the left side of the frame."
+    },
+    "colorSystem": {
+      "dominantColorRole": "High-key white background and highlights",
+      "contrastColorRole": "Deep black and charcoal shadows in hair and clothing",
+      "accentColorRole": "Dark teal or forest green for the primary display text",
+      "saturationAndValueRelationship": "High value contrast with very low saturation, bordering on grayscale.",
+      "paletteRestrictions": [
+        "Monochrome photography",
+        "Single dark accent color for text"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extended slab-serif and classical roman serif",
+      "letterConstructionRules": [
+        "Top text uses ultra-extended horizontal proportions",
+        "Bottom text uses standard proportions with extreme tracking",
+        "Heavy weight for the top display, light weight for the bottom metadata"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Extended Slab Serif",
+          "anatomy": {
+            "width": "ultra-expanded",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "slab",
+            "corners": "sharp",
+            "counters": "wide",
+            "strokeCharacter": "consistent"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top margin",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaying hair"
+          },
+          "treatment": {
+            "fill": "solid dark teal",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Old Style Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "medium",
+            "xHeight": "low",
+            "terminals": "bracketed",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "tapered"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "justified-spread",
+            "tracking": "extreme",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "bottom margin",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaying white space"
+          },
+          "treatment": {
+            "fill": "solid dark teal",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between heavy horizontal expansion and light vertical elegance.",
+      "graphicDevices": [
+        "Horizontal text bands"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extended width of top text",
+          "Extreme tracking of bottom text"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "Tight tracking"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma or Eurostile Extended",
+            "reason": "Matches the horizontal stretch and bold presence of the top text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Adobe Garamond or Sabon",
+            "reason": "Provides the classical, light serif feel for the bottom text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white portrait of a man with textured, medium-length hair, looking down with his hand near his temple, against a clean white background.",
+        "overlayInstruction": "Add a single line of bold, ultra-extended serif text at the top margin and a single line of light, extremely wide-tracked serif text at the bottom margin."
+      },
+      "verificationChecks": [
+        "Is the top text significantly wider than it is tall?",
+        "Is the bottom text tracking wide enough to span the full width?",
+        "Is the image high-contrast monochrome?",
+        "Is the subject looking downward?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Text color",
+      "Subject's hair texture",
+      "Intensity of the high-key lighting"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original artist",
+      "Original brand logos",
+      "Exact wording of the title"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, high-contrast monochrome photography",
+        "Precise typographic alignment at margins",
+        "Sense of 90s editorial mood"
+      ],
+      "avoid": [
+        "Low-resolution textures",
+        "Cluttered backgrounds",
+        "Default font tracking"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for clarity of the extended serif letterforms",
+      "Ensure the bottom text is legible despite extreme tracking",
+      "Verify the monochrome balance avoids muddy grays",
+      "Confirm the subject's pose conveys the intended melancholic mood"
+    ],
+    "reuseFormula": "High-contrast monochrome portrait + Extended bold serif top + Wide-tracked light serif bottom."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:38.582Z"
+}

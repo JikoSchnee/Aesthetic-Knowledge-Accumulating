@@ -1,0 +1,284 @@
+{
+  "id": "122d9f95966004a5ea71b3973d83ed3af45040fad4a31406c8ac8a1419da277b",
+  "skillId": "122d9f95966004a5ea71b3973d83ed3af45040fad4a31406c8ac8a1419da277b",
+  "versionId": "122d9f95966004a5ea71b3973d83ed3af45040fad4a31406c8ac8a1419da277b",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:15:42.541Z",
+  "approvedAt": "2026-08-12T05:15:42.541Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:15:42.541Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "I Serve a Savior.jpg",
+    "hash": "122d9f95966004a5ea71b3973d83ed3af45040fad4a31406c8ac8a1419da277b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "I Serve a Savior",
+    "artist": "Josh Turner",
+    "artworkUrl": "https://coverartarchive.org/release-group/090f76b9-8f9c-450e-a749-ff19c458618a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/090f76b9-8f9c-450e-a749-ff19c458618a",
+    "releaseGroupId": "090f76b9-8f9c-450e-a749-ff19c458618a",
+    "recordingId": "990f0cea-1a41-4536-833e-85674908f82a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Me And GodJosh Turner",
+      "song": "Me And God",
+      "performer": "Josh Turner",
+      "peakPosition": 98,
+      "firstChartDate": "2007-05-05",
+      "lastChartDate": "2007-05-12",
+      "appearances": [
+        {
+          "chartDate": "2007-05-05",
+          "position": 98
+        },
+        {
+          "chartDate": "2007-05-12",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "rustic country gospel album cover country music gospel wooden bench outdoor portrait serif typography warm lighting rustic aesthetic subject centered horizontally and vertically on a wooden bench typography layered directly over the subject s torso warm golden light flare at the bottom contrasting with deep green background text hierarchy established by scale and a decorative horizontal rule centered subject on rustic prop soft natural background stacked wide tracked serif typography horizontal divider rule",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Rustic Country Gospel Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "country music",
+        "gospel",
+        "wooden bench",
+        "outdoor portrait",
+        "serif typography",
+        "warm lighting",
+        "rustic aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered male portrait on a wooden bench in a soft-focus park setting, featuring stacked white serif typography separated by a decorative rule.",
+      "triggerTerms": [
+        "man sitting on wooden bench in park",
+        "country gospel album cover style",
+        "warm outdoor portrait with centered text"
+      ],
+      "excludeWhen": [
+        "urban settings",
+        "high-contrast neon lighting",
+        "sans-serif modern minimalist layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A man in casual attire sits centered on a dark wood church-style bench outdoors. The background is a lush, out-of-focus green park. The lighting is warm and golden, particularly at the bottom edges. White, elegant serif text is overlaid across the man's chest area, featuring a horizontal divider line.",
+    "coreVisualRelationships": [
+      "Subject centered horizontally and vertically on a wooden bench",
+      "Typography layered directly over the subject's torso",
+      "Warm golden light flare at the bottom contrasting with deep green background",
+      "Text hierarchy established by scale and a decorative horizontal rule"
+    ],
+    "coreInvariants": [
+      "Centered wooden bench as the primary prop",
+      "Soft-focus natural background",
+      "White serif typography with a horizontal divider"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body seated portrait, centered, occupying the middle 60% of the frame.",
+      "visualAnchor": "The man's face and the bright white text block at the center.",
+      "movementAndEyePath": "From the subject's face down to the large display text, then to the subtitle, and finally to the warm light at the bottom.",
+      "negativeSpace": "Significant blurred green space above and to the sides of the bench."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep greens and earthy browns in the background and bench.",
+      "contrastColorRole": "Crisp white for all typographic elements.",
+      "accentColorRole": "Warm golden-orange light flare at the bottom edge.",
+      "saturationAndValueRelationship": "High saturation in the greens, low value in the bench and clothing, high value in the text.",
+      "paletteRestrictions": [
+        "Avoid cool blues or harsh artificial colors."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman serif",
+      "letterConstructionRules": [
+        "High contrast between thick and thin strokes",
+        "Sharp, bracketed serifs",
+        "Open counters and wide proportions"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "bracketed",
+            "counters": "open",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "center-upper-torso",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over subject",
+            "relationshipToImage": "integrated overlay"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "bracketed",
+            "counters": "open",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "extra-wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "below-divider",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over subject",
+            "relationshipToImage": "integrated overlay"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Uniform typeface family with varying scale and tracking.",
+      "graphicDevices": [
+        "Horizontal rule consisting of a thin line with diagonal hatch marks."
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Serif style",
+          "All-caps casing",
+          "Wide tracking"
+        ],
+        "avoid": [
+          "Sans-serif",
+          "Script fonts",
+          "Heavy drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Baskerville",
+            "reason": "Classic high-contrast serif with elegant proportions.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Caslon",
+            "reason": "Traditional feel suitable for country/gospel themes.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photograph of a man sitting on a dark wooden park bench, centered, in a lush green park with soft bokeh. Add a warm golden light flare at the bottom of the frame.",
+        "overlayInstruction": "Add two lines of centered white serif text in all caps over the man's chest. The top line should be larger. Separate the lines with a thin horizontal rule featuring a diagonal pattern."
+      },
+      "verificationChecks": [
+        "Is the text centered horizontally?",
+        "Is the font a high-contrast serif?",
+        "Is there a decorative horizontal rule between the text lines?",
+        "Is the background a soft-focus natural environment?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's clothing",
+      "Bench style",
+      "Intensity of the bottom light flare",
+      "Tracking width of the subtitle"
+    ],
+    "mustRedesign": [
+      "Do not use specific artist names or album titles.",
+      "Do not replicate the specific diagonal hatch pattern of the divider exactly."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, legible white typography",
+        "Soft, natural lighting",
+        "Balanced central composition"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast text",
+        "Harsh digital filters"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is perfectly centered.",
+      "Check that the serif font has sharp, clear terminals.",
+      "Verify the warm light flare does not obscure the subject's feet.",
+      "Confirm the horizontal rule is centered between the two lines of text."
+    ],
+    "reuseFormula": "Centered subject on rustic prop + soft natural background + stacked wide-tracked serif typography + horizontal divider rule."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:42:44.152Z"
+}

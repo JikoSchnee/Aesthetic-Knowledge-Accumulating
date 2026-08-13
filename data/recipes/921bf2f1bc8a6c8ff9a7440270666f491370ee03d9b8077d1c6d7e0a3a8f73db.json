@@ -1,0 +1,279 @@
+{
+  "id": "921bf2f1bc8a6c8ff9a7440270666f491370ee03d9b8077d1c6d7e0a3a8f73db",
+  "skillId": "921bf2f1bc8a6c8ff9a7440270666f491370ee03d9b8077d1c6d7e0a3a8f73db",
+  "versionId": "921bf2f1bc8a6c8ff9a7440270666f491370ee03d9b8077d1c6d7e0a3a8f73db",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:05:22.720Z",
+  "approvedAt": "2026-08-12T05:05:22.720Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:05:22.720Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Stephen Stills 2.jpg",
+    "hash": "921bf2f1bc8a6c8ff9a7440270666f491370ee03d9b8077d1c6d7e0a3a8f73db",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Stephen Stills 2",
+    "artist": "Stephen Stills",
+    "artworkUrl": "https://coverartarchive.org/release-group/94a93926-49e7-36f7-8ce6-72cd91c7b5c2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/94a93926-49e7-36f7-8ce6-72cd91c7b5c2",
+    "releaseGroupId": "94a93926-49e7-36f7-8ce6-72cd91c7b5c2",
+    "recordingId": "b7e98323-539e-48b2-9768-be9a562ae3e3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "MarianneStephen Stills",
+      "song": "Marianne",
+      "performer": "Stephen Stills",
+      "peakPosition": 42,
+      "firstChartDate": "1971-08-21",
+      "lastChartDate": "1971-10-09",
+      "appearances": [
+        {
+          "chartDate": "1971-08-21",
+          "position": 64
+        },
+        {
+          "chartDate": "1971-08-28",
+          "position": 58
+        },
+        {
+          "chartDate": "1971-09-04",
+          "position": 48
+        },
+        {
+          "chartDate": "1971-09-11",
+          "position": 46
+        },
+        {
+          "chartDate": "1971-09-18",
+          "position": 43
+        },
+        {
+          "chartDate": "1971-09-25",
+          "position": 42
+        },
+        {
+          "chartDate": "1971-10-02",
+          "position": 42
+        },
+        {
+          "chartDate": "1971-10-09",
+          "position": 47
+        }
+      ]
+    }
+  },
+  "dedupeText": "1970s candid portraiture and heavy sans serif layout 1970s candid portrait heavy sans serif upper right alignment film grain muted palette subject s gaze creates a lead in line toward the left edge heavy typography in the upper right balances the visual weight of the subject in the lower center right muted earthy tones in the clothing contrast with the bright blown out light from the window tight cropping on the profile emphasizes intimacy and contemplation candid profile portrait analog film texture top right heavy sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "1970s Candid Portraiture and Heavy Sans-Serif Layout",
+      "category": "Graphic Design / Photography",
+      "medium": [
+        "analog photography",
+        "offset printing",
+        "typesetting"
+      ],
+      "useCases": [
+        "album cover art",
+        "editorial portraiture",
+        "vintage-inspired branding",
+        "folk-rock aesthetic"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "candid portrait",
+        "heavy sans-serif",
+        "upper right alignment",
+        "film grain",
+        "muted palette"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A side-profile candid portrait with a heavy, top-aligned sans-serif title that balances negative space against a dark-clothed subject.",
+      "triggerTerms": [
+        "70s folk rock album aesthetic",
+        "heavy sans-serif top right",
+        "candid profile portrait film grain"
+      ],
+      "excludeWhen": [
+        "vibrant modern digital photography is required",
+        "centered typography is requested",
+        "high-contrast studio lighting is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A side-profile of a man with long hair and sideburns, looking out a window, captured with the soft grain and muted tones of 1970s analog film, paired with a bold, blocky sans-serif title in the upper right corner.",
+    "coreVisualRelationships": [
+      "Subject's gaze creates a lead-in line toward the left edge",
+      "Heavy typography in the upper right balances the visual weight of the subject in the lower center-right",
+      "Muted, earthy tones in the clothing contrast with the bright, blown-out light from the window",
+      "Tight cropping on the profile emphasizes intimacy and contemplation"
+    ],
+    "coreInvariants": [
+      "Analog film grain texture",
+      "Side-profile orientation",
+      "Heavyweight sans-serif typography",
+      "Upper-right text placement"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the lower two-thirds and right half of the frame in a medium-close-up profile.",
+      "visualAnchor": "The subject's face and the high-contrast window frame.",
+      "movementAndEyePath": "Starts at the subject's eye, follows the gaze to the left, then moves up to the bold text in the top right.",
+      "negativeSpace": "Significant negative space in the upper left (window light) and upper center."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted charcoal and brown (clothing and hair)",
+      "contrastColorRole": "Desaturated cream and white (background light)",
+      "accentColorRole": "Deep navy or black (typography)",
+      "saturationAndValueRelationship": "Low saturation with a compressed dynamic range, typical of vintage print.",
+      "paletteRestrictions": [
+        "No neon colors",
+        "No high-chroma primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Extremely thick stroke weight",
+        "Tight letter spacing (tracking)",
+        "Uniform stroke width with minimal modulation",
+        "Square or slightly rounded terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "Numbers should match the cap height and weight of the letters"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "1.0",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in the brightest area of the background"
+          },
+          "treatment": {
+            "fill": "dark navy or black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "slight ink bleed",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single heavy weight used for all text to maintain a bold, singular statement.",
+      "graphicDevices": [
+        "None"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extra-bold weight",
+          "Uppercase styling",
+          "Top-right alignment"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Light or thin weights",
+          "Script or decorative styles"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Provides the necessary weight and 1970s editorial feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Offers a geometric alternative that fits the era's design trends.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Antique Olive Nord",
+            "reason": "Captures the unique, heavy-top weight characteristic of some 70s display types.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a candid, side-profile portrait of a man with 1970s-style long hair and sideburns, wearing a dark jacket, looking out a window. Use analog film grain, muted earthy tones, and soft, natural lighting with a bright, slightly overexposed window background.",
+        "overlayInstruction": "Add uppercase text in a heavy, black sans-serif font in the top right corner. Ensure the tracking is tight and the text is aligned to the right margin."
+      },
+      "verificationChecks": [
+        "Is the text in the top right corner?",
+        "Is the font weight extremely heavy?",
+        "Does the image have a visible film grain texture?",
+        "Is the subject in a side-profile view?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's clothing color",
+      "Intensity of film grain",
+      "Specific sans-serif font choice",
+      "Brightness of the window light"
+    ],
+    "mustRedesign": [
+      "Avoid modern digital sharpness",
+      "Avoid centered or bottom-aligned text",
+      "Avoid serif or script typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film aesthetic",
+        "Balanced composition between subject and negative space",
+        "High-impact, heavy typography"
+      ],
+      "avoid": [
+        "Clean, vector-like edges on the subject",
+        "Overly saturated colors",
+        "Generic 'modern' sans-serifs like Arial or Helvetica Regular"
+      ]
+    },
+    "postGenerationChecks": [
+      "Verify the text is uppercase and right-aligned",
+      "Ensure the subject's profile is clear and contemplative",
+      "Check for muted, desaturated color palette",
+      "Confirm the presence of analog-style grain"
+    ],
+    "reuseFormula": "Candid Profile Portrait + Analog Film Texture + Top-Right Heavy Sans-Serif Typography"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:47.547Z"
+}

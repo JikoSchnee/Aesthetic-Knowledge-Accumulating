@@ -1,0 +1,341 @@
+{
+  "id": "88244b2bc03eb8cb7036521fb1373b42f0c4e982b450aa0b9c669d8baa57c292",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:27:03.595Z",
+  "approvedAt": "2026-08-11T15:27:03.595Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:27:03.595Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Act of Valor.jpg",
+    "hash": "88244b2bc03eb8cb7036521fb1373b42f0c4e982b450aa0b9c669d8baa57c292",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Act of Valor",
+    "artist": "Keith Urban",
+    "artworkUrl": "https://coverartarchive.org/release-group/2633d050-e8b6-4463-8256-8aead439f512/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/2633d050-e8b6-4463-8256-8aead439f512",
+    "releaseGroupId": "2633d050-e8b6-4463-8256-8aead439f512",
+    "recordingId": "8e3cf1cc-42a4-48d6-bf03-79f8a180c57b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "For YouKeith Urban",
+      "song": "For You",
+      "performer": "Keith Urban",
+      "peakPosition": 55,
+      "firstChartDate": "2012-06-16",
+      "lastChartDate": "2012-10-13",
+      "appearances": [
+        {
+          "chartDate": "2012-06-16",
+          "position": 97
+        },
+        {
+          "chartDate": "2012-06-23",
+          "position": 83
+        },
+        {
+          "chartDate": "2012-06-30",
+          "position": 78
+        },
+        {
+          "chartDate": "2012-07-07",
+          "position": 78
+        },
+        {
+          "chartDate": "2012-07-14",
+          "position": 70
+        },
+        {
+          "chartDate": "2012-07-21",
+          "position": 67
+        },
+        {
+          "chartDate": "2012-07-28",
+          "position": 65
+        },
+        {
+          "chartDate": "2012-08-04",
+          "position": 65
+        },
+        {
+          "chartDate": "2012-08-11",
+          "position": 71
+        },
+        {
+          "chartDate": "2012-08-18",
+          "position": 73
+        },
+        {
+          "chartDate": "2012-08-25",
+          "position": 69
+        },
+        {
+          "chartDate": "2012-09-01",
+          "position": 67
+        },
+        {
+          "chartDate": "2012-09-08",
+          "position": 64
+        },
+        {
+          "chartDate": "2012-09-15",
+          "position": 55
+        },
+        {
+          "chartDate": "2012-09-22",
+          "position": 59
+        },
+        {
+          "chartDate": "2012-09-29",
+          "position": 74
+        },
+        {
+          "chartDate": "2012-10-06",
+          "position": 85
+        },
+        {
+          "chartDate": "2012-10-13",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "military silhouette horizon silhouette soldiers sunset military cinematic horizon serif typography high contrast high contrast between the pitch black foreground silhouettes and the bright sky background horizontal alignment of figures along a central horizon line framing effect created by the dark structural beams at the top and sides warm lens flare accentuating the sunset point on the horizon silhouetted subject bright horizon dark framing centered high contrast serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Military Silhouette Horizon",
+      "category": "Entertainment Poster",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Album Art",
+        "Movie Poster",
+        "Book Cover"
+      ],
+      "retrievalTags": [
+        "silhouette",
+        "soldiers",
+        "sunset",
+        "military",
+        "cinematic",
+        "horizon",
+        "serif typography",
+        "high contrast"
+      ]
+    },
+    "visualDefinition": "A cinematic composition featuring a line of silhouetted soldiers standing against a bright, cloudy sky at sunset, framed by the dark interior of a hangar or transport bay, with a large black void in the lower half for centered serif typography.",
+    "coreVisualRelationships": [
+      "High contrast between the pitch-black foreground/silhouettes and the bright sky background",
+      "Horizontal alignment of figures along a central horizon line",
+      "Framing effect created by the dark structural beams at the top and sides",
+      "Warm lens flare accentuating the sunset point on the horizon"
+    ],
+    "coreInvariants": [
+      "Total black silhouettes for human figures",
+      "Centered vertical hierarchy",
+      "Cold blue sky tones contrasting with a single warm light source"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Soldiers occupy the middle horizontal third; text occupies the lower third.",
+      "visualAnchor": "The bright sun point on the horizon line acts as the primary focal point, drawing the eye to the center.",
+      "movementAndEyePath": "Eye starts at the bright horizon, moves outward to the silhouettes, then drops down to the large display text.",
+      "negativeSpace": "Extensive solid black negative space in the bottom 40% of the frame provides a clean canvas for typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black (background and silhouettes)",
+      "contrastColorRole": "Pale blue and white (sky and clouds)",
+      "accentColorRole": "Warm orange/red (lens flare and sun)",
+      "saturationAndValueRelationship": "Low saturation in the sky, extreme value contrast between light and dark areas.",
+      "paletteRestrictions": [
+        "No mid-tone grays in the foreground",
+        "No vibrant greens or purples"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman Serif",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Sharp, bracketed serifs",
+        "Vertical stress",
+        "Open counters in 'A' and 'O'"
+      ],
+      "characterSpecificRedesigns": [
+        "Reduced scale for secondary words to create a tiered hierarchy within the main title line"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Old Style Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Regular",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Large",
+            "strokeCharacter": "Elegant and tapered"
+          },
+          "typesetting": {
+            "case": "All-caps",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Lower middle third",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Placed over solid black void"
+          },
+          "treatment": {
+            "fill": "Light gray to white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Sans-serif or small-cap serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Blunt",
+            "corners": "Square",
+            "counters": "Small",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "All-caps",
+            "alignment": "Centered",
+            "tracking": "Extra wide",
+            "leading": "Loose",
+            "lineBreakPattern": "Single line",
+            "density": "Sparse"
+          },
+          "composition": {
+            "position": "Bottom center",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Anchored at the base"
+          },
+          "treatment": {
+            "fill": "Medium gray",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Large classical serif for impact paired with a tiny, widely-spaced secondary line for a 'prestige' look.",
+      "graphicDevices": [
+        "Horizontal rule-like alignment of text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps styling",
+          "Wide tracking",
+          "High-contrast serif"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Heavy slab serifs",
+          "Distressed or 'grunge' textures"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Trajan",
+            "reason": "Classic cinematic serif with Roman proportions",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Cinzel",
+            "reason": "Modern alternative with similar sharp serifs and elegant feel",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Adobe Garamond",
+            "reason": "Provides the necessary stroke contrast and traditional authority",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a wide-angle shot from inside a dark hangar looking out. In the opening, place 7 silhouetted soldiers in various tactical poses against a bright, cloudy sunset sky. The bottom 40% of the image must be solid, featureless black. Include a subtle red lens flare near the sun on the horizon.",
+        "overlayInstruction": "Center the main title in a large, light-gray Trajan-style serif font in all-caps with wide tracking. Below it, add a secondary subtitle in a much smaller, white, widely-spaced sans-serif font."
+      },
+      "verificationChecks": [
+        "Is the bottom area solid black?",
+        "Are the soldiers completely silhouetted without internal detail?",
+        "Is the text centered and legible?",
+        "Is the horizon line straight?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of soldiers",
+      "Intensity of the lens flare",
+      "Cloud density in the sky",
+      "Tracking width of the typography"
+    ],
+    "mustRedesign": [
+      "Any visible facial features on soldiers",
+      "Specific military unit patches or logos",
+      "Non-centered text layouts"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp silhouette edges",
+        "Balanced horizontal distribution of figures",
+        "Clean, high-contrast typography"
+      ],
+      "avoid": [
+        "Muddy grays in the black areas",
+        "Cluttered backgrounds",
+        "Low-contrast text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for silhouette clarity against the sky",
+      "Verify the 'all-caps' requirement for all text",
+      "Ensure no text overlaps the soldiers",
+      "Confirm the lens flare does not obscure the text",
+      "Check for symmetrical framing of the hangar opening"
+    ],
+    "reuseFormula": "Silhouetted subject + bright horizon + dark framing + centered high-contrast serif typography."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:15:00.698Z"
+}

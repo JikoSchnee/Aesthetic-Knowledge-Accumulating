@@ -1,0 +1,261 @@
+{
+  "id": "c7f162925276f7b47b99ce9cb35b358b30adf906ebdfcd33cfbdde794ecae18c",
+  "skillId": "c7f162925276f7b47b99ce9cb35b358b30adf906ebdfcd33cfbdde794ecae18c",
+  "versionId": "c7f162925276f7b47b99ce9cb35b358b30adf906ebdfcd33cfbdde794ecae18c",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:26:17.494Z",
+  "approvedAt": "2026-08-12T06:26:17.494Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:26:17.494Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Christmas Album.jpg",
+    "hash": "c7f162925276f7b47b99ce9cb35b358b30adf906ebdfcd33cfbdde794ecae18c",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Christmas Album",
+    "artist": "Herb Alpert & The Tijuana Brass",
+    "artworkUrl": "https://coverartarchive.org/release-group/c42c46be-af07-386b-9dee-b85376adef13/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c42c46be-af07-386b-9dee-b85376adef13",
+    "releaseGroupId": "c42c46be-af07-386b-9dee-b85376adef13",
+    "recordingId": "5344d9a6-f883-429c-a390-4e38347d21f1",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "My Favorite ThingsHerb Alpert & The Tijuana Brass",
+      "song": "My Favorite Things",
+      "performer": "Herb Alpert & The Tijuana Brass",
+      "peakPosition": 45,
+      "firstChartDate": "1968-12-14",
+      "lastChartDate": "1969-01-18",
+      "appearances": [
+        {
+          "chartDate": "1968-12-14",
+          "position": 75
+        },
+        {
+          "chartDate": "1968-12-21",
+          "position": 47
+        },
+        {
+          "chartDate": "1968-12-28",
+          "position": 47
+        },
+        {
+          "chartDate": "1969-01-04",
+          "position": 46
+        },
+        {
+          "chartDate": "1969-01-11",
+          "position": 45
+        },
+        {
+          "chartDate": "1969-01-18",
+          "position": 54
+        }
+      ]
+    }
+  },
+  "dedupeText": "festive brass musician portrait santa claus costume trumpet player vintage 1960s photography swash typography holiday music the trumpet mouthpiece acts as the central focal point where the beard and hands converge the white santa hat provides a high contrast background for the colorful typography the dark eyes of the subject create a direct gaze that anchors the composition the texture of the synthetic beard fills the lower two thirds of the frame take a tight portrait of a themed character use the headwear as a graphic canvas for high contrast decorative swash lettering and anchor the base with a relevant prop",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Festive Brass Musician Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Holiday album covers",
+        "Vintage music promotion",
+        "Themed portraiture"
+      ],
+      "retrievalTags": [
+        "Santa Claus costume",
+        "trumpet player",
+        "vintage 1960s photography",
+        "swash typography",
+        "holiday music"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A tight, square-format portrait of a musician in a Santa costume playing a brass instrument, featuring interlocking swash typography across the hat.",
+      "triggerTerms": [
+        "musician in Santa suit playing trumpet",
+        "vintage holiday album cover style",
+        "tight portrait with white beard and brass instrument"
+      ],
+      "excludeWhen": [
+        "full body shots are required",
+        "modern minimalist digital art is requested",
+        "non-holiday themes"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up, square-cropped photograph of a man with dark eyes wearing a white Santa hat and a voluminous, textured white beard. He is holding a gold trumpet to his lips. The top portion of the hat serves as a canvas for two distinct styles of interlocking, decorative typography in green and orange-red.",
+    "coreVisualRelationships": [
+      "The trumpet mouthpiece acts as the central focal point where the beard and hands converge.",
+      "The white Santa hat provides a high-contrast background for the colorful typography.",
+      "The dark eyes of the subject create a direct gaze that anchors the composition.",
+      "The texture of the synthetic beard fills the lower two-thirds of the frame."
+    ],
+    "coreInvariants": [
+      "Tight square crop focusing on the face from forehead to hands.",
+      "Subject must be playing a brass instrument.",
+      "Typography must be placed on the white fabric of the hat."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up, centered horizontally, with the face occupying the middle third and the beard filling the bottom.",
+      "visualAnchor": "The subject's eyes and the gold trumpet mouthpiece.",
+      "movementAndEyePath": "Starts at the eyes, moves down to the trumpet, then up to the decorative text on the hat.",
+      "negativeSpace": "Minimal; the frame is densely packed with the subject's features and costume."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (hat and beard texture)",
+      "contrastColorRole": "Dark brown/black (eyes and hair)",
+      "accentColorRole": "Gold (trumpet) and Green/Orange (typography)",
+      "saturationAndValueRelationship": "High value whites with saturated, mid-century graphic accents.",
+      "paletteRestrictions": [
+        "Warm skin tones",
+        "Metallic gold",
+        "Forest green",
+        "Burnt orange"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Serif with extreme swashes",
+      "letterConstructionRules": [
+        "Interlocking descenders and ascenders",
+        "Heavy use of decorative curls and loops",
+        "Tight letter spacing with overlapping elements"
+      ],
+      "characterSpecificRedesigns": [
+        "Capital letters feature extended, spiraling swashes that cradle the lowercase letters."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Decorative Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Low",
+            "terminals": "Ball terminals and curls",
+            "corners": "Rounded",
+            "counters": "Small",
+            "strokeCharacter": "Fluid and calligraphic"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked and nested",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top center-left",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "High",
+            "relationshipToImage": "Overlaid on the white hat"
+          },
+          "treatment": {
+            "fill": "Solid green with thin dark outline",
+            "outline": "Thin dark green",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a green decorative script-like serif and a secondary orange-red swash serif.",
+      "graphicDevices": [
+        "Interlocking flourishes",
+        "Color-coded hierarchy"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Swash extensions",
+          "Interlocking layout"
+        ],
+        "avoid": [
+          "Modern sans-serifs",
+          "Clean, unadorned fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the 70s decorative serif aesthetic",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Caslon Graphique",
+            "reason": "High contrast and tight spacing potential",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A square close-up photo of a man with dark eyes wearing a white Santa hat and a large, curly white beard, holding a gold trumpet to his lips. The lighting is soft and even.",
+        "overlayInstruction": "Add two lines of decorative, interlocking swash typography in the upper third of the image, specifically on the white area of the hat. Use green for the top line and orange-red for the bottom line."
+      },
+      "verificationChecks": [
+        "Is the crop a tight square?",
+        "Is the typography interlocking and decorative?",
+        "Is the trumpet visible and being played?",
+        "Is the text placed on the hat?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Beard volume",
+      "Typography color palette",
+      "Instrument type (brass family)"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Original logo marks",
+      "Exact 1:1 letterforms"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile beard texture",
+        "Authentic 1960s film grain",
+        "Complex typographic interlocking"
+      ],
+      "avoid": [
+        "Plastic-looking beard",
+        "Digital-only flat colors",
+        "Standard system fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the eyes are sharp and expressive.",
+      "Ensure the gold of the trumpet has a realistic metallic sheen.",
+      "Verify the typography does not obscure the subject's eyes.",
+      "Confirm the beard texture looks fibrous rather than a solid mass."
+    ],
+    "reuseFormula": "Take a tight portrait of a themed character, use the headwear as a graphic canvas for high-contrast decorative swash lettering, and anchor the base with a relevant prop."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:44:12.223Z"
+}

@@ -1,0 +1,271 @@
+{
+  "id": "46af577b43a271082c122c3a897134eded59cb5ffdafe178c09828895076f85a",
+  "skillId": "46af577b43a271082c122c3a897134eded59cb5ffdafe178c09828895076f85a",
+  "versionId": "46af577b43a271082c122c3a897134eded59cb5ffdafe178c09828895076f85a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:24:38.865Z",
+  "approvedAt": "2026-08-12T19:24:38.865Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:24:38.865Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Portrait of Bobby.jpg",
+    "hash": "46af577b43a271082c122c3a897134eded59cb5ffdafe178c09828895076f85a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Portrait of Bobby",
+    "artist": "Bobby Sherman",
+    "artworkUrl": "https://coverartarchive.org/release-group/524477ff-02d5-460c-a1a2-b62e461082ab/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/524477ff-02d5-460c-a1a2-b62e461082ab",
+    "releaseGroupId": "524477ff-02d5-460c-a1a2-b62e461082ab",
+    "recordingId": "872b8eb3-ba7a-40fc-b703-9d58fe5bb997",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The DrumBobby Sherman",
+      "song": "The Drum",
+      "performer": "Bobby Sherman",
+      "peakPosition": 29,
+      "firstChartDate": "1971-05-01",
+      "lastChartDate": "1971-06-19",
+      "appearances": [
+        {
+          "chartDate": "1971-05-01",
+          "position": 90
+        },
+        {
+          "chartDate": "1971-05-08",
+          "position": 50
+        },
+        {
+          "chartDate": "1971-05-15",
+          "position": 39
+        },
+        {
+          "chartDate": "1971-05-22",
+          "position": 34
+        },
+        {
+          "chartDate": "1971-05-29",
+          "position": 31
+        },
+        {
+          "chartDate": "1971-06-05",
+          "position": 29
+        },
+        {
+          "chartDate": "1971-06-12",
+          "position": 36
+        },
+        {
+          "chartDate": "1971-06-19",
+          "position": 41
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage psychedelic pop album cover psychedelic lettering bell bottoms vintage photography 1970s pop culture outdoor portrait subject in vibrant lavender pants contrasting with dark jacket organic dense foliage background providing texture large scale display text overlapping the upper background low angle perspective emphasizing the subject s posture 1970s portrait psychedelic liquid lettering high contrast color blocking",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Psychedelic Pop Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Custom Lettering"
+      ],
+      "useCases": [
+        "Retro music packaging",
+        "1970s aesthetic posters",
+        "Vintage editorial layouts"
+      ],
+      "retrievalTags": [
+        "psychedelic lettering",
+        "bell bottoms",
+        "vintage photography",
+        "1970s pop culture",
+        "outdoor portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1970s-style portrait composition featuring a subject in vibrant period clothing set against a natural background with high-contrast, psychedelic display lettering.",
+      "triggerTerms": [
+        "1970s pop album aesthetic",
+        "psychedelic display typography",
+        "vintage outdoor portraiture"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "clean sans-serif layouts",
+        "studio-lit corporate photography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A full-body portrait of a seated figure in a vintage carriage, characterized by high-saturation clothing, a lush foliage background, and expressive, liquid-like red typography in the upper left quadrant.",
+    "coreVisualRelationships": [
+      "Subject in vibrant lavender pants contrasting with dark jacket",
+      "Organic, dense foliage background providing texture",
+      "Large-scale display text overlapping the upper background",
+      "Low-angle perspective emphasizing the subject's posture"
+    ],
+    "coreInvariants": [
+      "High-contrast red display lettering with liquid-like terminals",
+      "Subject seated in a dark, vintage mechanical structure",
+      "Lush, sun-dappled green foliage background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the right two-thirds of the frame, seated diagonally from bottom left to top right.",
+      "visualAnchor": "The bright lavender pants of the subject serve as the primary visual anchor.",
+      "movementAndEyePath": "Eyes start at the bright pants, move up to the subject's face, then to the large red text in the upper left.",
+      "negativeSpace": "Minimal negative space; the frame is filled with dense foliage and the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep greens and browns of the foliage and carriage.",
+      "contrastColorRole": "Bright lavender of the trousers.",
+      "accentColorRole": "Vibrant red used for the display typography.",
+      "saturationAndValueRelationship": "High saturation in the subject's clothing and text against a naturally lit, textured background.",
+      "paletteRestrictions": [
+        "Lavender",
+        "Forest Green",
+        "Deep Red",
+        "Earth Tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Serif with exaggerated, fluid extensions",
+      "letterConstructionRules": [
+        "Stems end in rounded, droplet-like terminals",
+        "High stroke contrast with thin connectors",
+        "Exaggerated swashes on capital letters",
+        "Interlocking or overlapping character placement"
+      ],
+      "characterSpecificRedesigns": [
+        "O characters are narrow and elongated",
+        "R and B have extended, curling tails",
+        "T has a wide, wavy crossbar"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "psychedelic-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "rounded-liquid",
+            "corners": "soft",
+            "counters": "narrow",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "staggered",
+            "density": "high"
+          },
+          "composition": {
+            "position": "upper-left",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "slight overlap with background elements",
+            "relationshipToImage": "floating-overlay"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "organic-melt"
+          }
+        }
+      ],
+      "pairingStrategy": "Single decorative face paired with small, functional sans-serif metadata.",
+      "graphicDevices": [
+        "Small rectangular logo block in corner",
+        "Fine-print metadata at bottom right"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Liquid terminals",
+          "High contrast",
+          "Red color"
+        ],
+        "avoid": [
+          "Standard geometric serifs",
+          "Modern digital sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Art Nouveau revival",
+            "reason": "Matches the fluid, organic curves of the lettering",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Psychedelic 70s display",
+            "reason": "Captures the specific era-appropriate 'melting' look",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photograph of a man with 1970s hair wearing a black jacket and bright lavender bell-bottom pants, seated in a vintage dark carriage outdoors with dense sun-dappled foliage behind him.",
+        "overlayInstruction": "Apply large, custom red psychedelic lettering in the upper left corner with rounded, liquid-like terminals and high stroke contrast."
+      },
+      "verificationChecks": [
+        "Check for liquid-like terminals on all display letters",
+        "Ensure the lavender pants are the brightest element in the photo",
+        "Verify the text is positioned in the upper left quadrant",
+        "Confirm the background is dense, textured foliage"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the trousers",
+      "Density of the background foliage",
+      "Specific phrasing of the display text"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Original brand logos",
+      "Exact wording of the title"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film grain and color balance",
+        "Fluid, hand-drawn quality in the typography",
+        "High-contrast color palette"
+      ],
+      "avoid": [
+        "Clean digital vectors",
+        "Modern fashion styles",
+        "Flat studio lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Does the typography feel organic and 'melting'?",
+      "Is the subject's attire period-accurate for the early 70s?",
+      "Is the color of the text a vibrant, saturated red?",
+      "Does the composition maintain the diagonal subject placement?"
+    ],
+    "reuseFormula": "1970s Portrait + Psychedelic Liquid Lettering + High Contrast Color Blocking"
+  }
+}

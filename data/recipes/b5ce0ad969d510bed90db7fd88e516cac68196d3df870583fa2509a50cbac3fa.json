@@ -1,0 +1,268 @@
+{
+  "id": "b5ce0ad969d510bed90db7fd88e516cac68196d3df870583fa2509a50cbac3fa",
+  "skillId": "b5ce0ad969d510bed90db7fd88e516cac68196d3df870583fa2509a50cbac3fa",
+  "versionId": "b5ce0ad969d510bed90db7fd88e516cac68196d3df870583fa2509a50cbac3fa",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:44:16.566Z",
+  "approvedAt": "2026-08-12T12:44:16.566Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:44:16.566Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "This Is Andy Kim.jpg",
+    "hash": "b5ce0ad969d510bed90db7fd88e516cac68196d3df870583fa2509a50cbac3fa",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "This Is Andy Kim",
+    "artist": "Andy Kim",
+    "artworkUrl": "https://coverartarchive.org/release-group/d244506d-74ef-49e6-83f5-8179bd6a4ebf/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d244506d-74ef-49e6-83f5-8179bd6a4ebf",
+    "releaseGroupId": "d244506d-74ef-49e6-83f5-8179bd6a4ebf",
+    "recordingId": "cde2da83-dc8e-4995-91af-9bf1f14fe64e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Rainbow RideAndy Kim",
+      "song": "Rainbow Ride",
+      "performer": "Andy Kim",
+      "peakPosition": 49,
+      "firstChartDate": "1968-12-21",
+      "lastChartDate": "1969-02-01",
+      "appearances": [
+        {
+          "chartDate": "1968-12-21",
+          "position": 87
+        },
+        {
+          "chartDate": "1968-12-28",
+          "position": 84
+        },
+        {
+          "chartDate": "1969-01-04",
+          "position": 73
+        },
+        {
+          "chartDate": "1969-01-11",
+          "position": 60
+        },
+        {
+          "chartDate": "1969-01-18",
+          "position": 50
+        },
+        {
+          "chartDate": "1969-01-25",
+          "position": 49
+        },
+        {
+          "chartDate": "1969-02-01",
+          "position": 58
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage sepia portrait album cover sepia high contrast split layout 70s fashion sans serif typography seated portrait grainy texture asymmetric balance between a dark void and a detailed photographic subject high contrast between deep shadows and blown out highlights in the sepia tone geometric tension created by the thin vertical dividing line textual grounding via bottom left justified typography combine a high contrast vintage portrait with a minimalist split screen layout and bold bottom aligned sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Sepia Portrait Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Duotone Printing"
+      ],
+      "useCases": [
+        "Retro music album art",
+        "Vintage editorial portraits",
+        "1970s style promotional posters"
+      ],
+      "retrievalTags": [
+        "sepia",
+        "high contrast",
+        "split layout",
+        "70s fashion",
+        "sans-serif typography",
+        "seated portrait",
+        "grainy texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, sepia-toned split layout featuring a seated male figure in 1970s attire with clean, bottom-aligned sans-serif typography.",
+      "triggerTerms": [
+        "70s sepia album cover",
+        "split vertical layout portrait",
+        "high contrast vintage male portrait",
+        "retro duotone photography style"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "modern minimalist digital aesthetics are requested",
+        "serif or decorative typography is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A vertical split-screen composition where the left third is a dark, solid field and the right two-thirds contains a high-contrast, grainy sepia photograph of a man seated on a stool, wearing a textured blazer and slacks, with a thin vertical line separating the two sections.",
+    "coreVisualRelationships": [
+      "Asymmetric balance between a dark void and a detailed photographic subject",
+      "High contrast between deep shadows and blown-out highlights in the sepia tone",
+      "Geometric tension created by the thin vertical dividing line",
+      "Textual grounding via bottom-left justified typography"
+    ],
+    "coreInvariants": [
+      "Sepia or monochromatic duotone color palette",
+      "Vertical split layout with a thin dividing rule",
+      "High-grain, high-contrast photographic texture",
+      "Bottom-left aligned sans-serif text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Seated male figure occupies the right two-thirds of the frame, medium-full shot scale.",
+      "visualAnchor": "The subject's face and the high-contrast white of the shirt/hands.",
+      "movementAndEyePath": "Starts at the subject's face, moves down the body to the hands, then shifts left to the typography.",
+      "negativeSpace": "Heavy negative space on the left third, acting as a dark weight to balance the image."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep umber/black for shadows and the left panel.",
+      "contrastColorRole": "Warm sepia/cream for highlights and skin tones.",
+      "accentColorRole": "Pure white for the typography.",
+      "saturationAndValueRelationship": "Low saturation, high value contrast with a gritty, filmic grain.",
+      "paletteRestrictions": [
+        "Monochromatic sepia tones only",
+        "No primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Closed apertures",
+        "Straight-cut terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Neo-Grotesque Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Horizontal",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Two lines",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Bottom-left corner",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Placed within the dark negative space"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family with weight variation for secondary metadata.",
+      "graphicDevices": [
+        "Thin vertical dividing line",
+        "Rectangular logo blocks in top-left"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Sans-serif classification",
+          "Bottom-left alignment",
+          "White color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Italics",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Bold",
+            "reason": "Matches the clean, mid-century modern aesthetic of the era.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Akzidenz-Grotesk",
+            "reason": "Provides the necessary grit and structure for a vintage look.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast sepia photograph of a man in a 70s blazer seated on a wooden stool against a textured wall. Split the image vertically: the left 30% should be a solid dark umber field separated by a thin white line.",
+        "overlayInstruction": "Add two lines of bold white sans-serif text in the bottom-left corner, justified left, using a font like Helvetica Bold."
+      },
+      "verificationChecks": [
+        "Is the image monochromatic sepia?",
+        "Is there a clear vertical split in the composition?",
+        "Is the text bold, white, and sans-serif?",
+        "Does the photograph have a high-grain, vintage texture?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Width of the left dark panel",
+      "Intensity of the sepia tint",
+      "Subject pose and attire",
+      "Grain density"
+    ],
+    "mustRedesign": [
+      "Specific brand logos in the top left",
+      "The specific facial features of the subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film grain",
+        "Strong vertical compositional balance",
+        "High-contrast lighting on the subject"
+      ],
+      "avoid": [
+        "Modern digital sharpness",
+        "Vibrant colors",
+        "Complex decorative fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for the thin vertical dividing line",
+      "Verify the text is bottom-left aligned",
+      "Ensure the sepia tone is consistent across the right panel",
+      "Confirm the subject's clothing reflects a 1970s aesthetic"
+    ],
+    "reuseFormula": "Combine a high-contrast vintage portrait with a minimalist split-screen layout and bold, bottom-aligned sans-serif typography."
+  }
+}

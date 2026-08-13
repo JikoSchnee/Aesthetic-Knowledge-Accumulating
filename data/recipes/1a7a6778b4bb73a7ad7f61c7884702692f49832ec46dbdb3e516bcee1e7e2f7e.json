@@ -1,0 +1,286 @@
+{
+  "id": "1a7a6778b4bb73a7ad7f61c7884702692f49832ec46dbdb3e516bcee1e7e2f7e",
+  "skillId": "1a7a6778b4bb73a7ad7f61c7884702692f49832ec46dbdb3e516bcee1e7e2f7e",
+  "versionId": "1a7a6778b4bb73a7ad7f61c7884702692f49832ec46dbdb3e516bcee1e7e2f7e",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:22:53.184Z",
+  "approvedAt": "2026-08-12T23:22:53.184Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:22:53.184Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Jessie James.jpg",
+    "hash": "1a7a6778b4bb73a7ad7f61c7884702692f49832ec46dbdb3e516bcee1e7e2f7e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Jessie James",
+    "artist": "Jessie James",
+    "artworkUrl": "https://coverartarchive.org/release-group/5bb542bc-1d4a-42f5-8d04-71174d59df08/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5bb542bc-1d4a-42f5-8d04-71174d59df08",
+    "releaseGroupId": "5bb542bc-1d4a-42f5-8d04-71174d59df08",
+    "recordingId": "2fcf0ce6-80cb-4917-8fde-a1691d354819",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "WantedJessie James",
+      "song": "Wanted",
+      "performer": "Jessie James",
+      "peakPosition": 40,
+      "firstChartDate": "2009-05-30",
+      "lastChartDate": "2009-09-05",
+      "appearances": [
+        {
+          "chartDate": "2009-05-30",
+          "position": 87
+        },
+        {
+          "chartDate": "2009-06-27",
+          "position": 98
+        },
+        {
+          "chartDate": "2009-07-04",
+          "position": 74
+        },
+        {
+          "chartDate": "2009-07-11",
+          "position": 76
+        },
+        {
+          "chartDate": "2009-07-18",
+          "position": 70
+        },
+        {
+          "chartDate": "2009-07-25",
+          "position": 72
+        },
+        {
+          "chartDate": "2009-08-01",
+          "position": 71
+        },
+        {
+          "chartDate": "2009-08-08",
+          "position": 67
+        },
+        {
+          "chartDate": "2009-08-15",
+          "position": 76
+        },
+        {
+          "chartDate": "2009-08-22",
+          "position": 72
+        },
+        {
+          "chartDate": "2009-08-29",
+          "position": 40
+        },
+        {
+          "chartDate": "2009-09-05",
+          "position": 66
+        }
+      ]
+    }
+  },
+  "dedupeText": "pop country album cover portrait close up portrait warm skin tones script typography soft focus background glamour lighting tight facial framing centered horizontally warm skin tones contrasting with a cool cyan text color soft diffused studio lighting against a high key background text overlapping the lower chin and hair area tight portrait high key white background warm lighting cyan script overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Pop Country Album Cover Portrait",
+      "category": "Music Photography",
+      "medium": [
+        "Digital Photography",
+        "Studio Lighting",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Headshot",
+        "Magazine Cover"
+      ],
+      "retrievalTags": [
+        "close-up portrait",
+        "warm skin tones",
+        "script typography",
+        "soft focus background",
+        "glamour lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A tight, centered facial portrait with warm, saturated skin tones and a bright white background, featuring thin script lettering across the lower third.",
+      "triggerTerms": [
+        "tight facial crop portrait",
+        "warm glamour lighting",
+        "cyan script overlay"
+      ],
+      "excludeWhen": [
+        "full body shots",
+        "dark or moody backgrounds",
+        "minimalist sans-serif typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast, warm-toned close-up of a female face, framed by voluminous brown hair, set against a blown-out white background with thin, elegant script text positioned at the bottom.",
+    "coreVisualRelationships": [
+      "Tight facial framing centered horizontally",
+      "Warm skin tones contrasting with a cool cyan text color",
+      "Soft, diffused studio lighting against a high-key background",
+      "Text overlapping the lower chin and hair area"
+    ],
+    "coreInvariants": [
+      "Extreme close-up crop focusing on eyes and lips",
+      "High-key white background",
+      "Warm, saturated color grading on the subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered, extreme close-up, filling approximately 80% of the vertical frame.",
+      "visualAnchor": "The eyes, positioned in the upper third of the composition.",
+      "movementAndEyePath": "From the eyes down to the lips, then to the script text at the bottom.",
+      "negativeSpace": "Bright white space at the top corners and sides."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm peach and bronze skin tones",
+      "contrastColorRole": "Pure white background",
+      "accentColorRole": "Cyan/Light Blue for the typography",
+      "saturationAndValueRelationship": "High saturation in the subject's face and hair; high value (brightness) in the background.",
+      "paletteRestrictions": [
+        "Warm browns",
+        "Peach",
+        "Cyan",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script",
+      "letterConstructionRules": [
+        "Thin, consistent stroke weight",
+        "Fluid, connected lowercase letters",
+        "Large, sweeping ascenders and descenders",
+        "Slightly italicized slant"
+      ],
+      "characterSpecificRedesigns": [
+        "Extended 'J' descenders that loop under the following letters"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "light",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "monolinear script"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "over subject",
+            "relationshipToImage": "floating overlay"
+          },
+          "treatment": {
+            "fill": "cyan-blue gradient",
+            "outline": "none",
+            "shadow": "subtle soft drop shadow",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single script face for a personal, signature-like feel.",
+      "graphicDevices": [
+        "Signature-style baseline"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Thin stroke weight",
+          "Cyan color",
+          "Cursive connectivity"
+        ],
+        "avoid": [
+          "Heavy brush scripts",
+          "Blocky serifs",
+          "Black text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mistral-style script",
+            "reason": "Captures the fluid, handwritten energy",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Signature font",
+            "reason": "Matches the personal branding aesthetic",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-resolution, tight facial portrait of a woman with long brown hair, warm studio lighting, and a pure white background. Focus on the eyes and lips.",
+        "overlayInstruction": "Add a thin, cyan-colored cursive signature across the bottom third of the image, overlapping the subject's chin and hair."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Is the skin tone warm and saturated?",
+        "Is the text a thin, cyan script?",
+        "Is the crop tight on the face?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Hair color",
+      "Text color",
+      "Tightness of the crop"
+    ],
+    "mustRedesign": [
+      "Specific facial features",
+      "Exact signature shape",
+      "Brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, high-key lighting",
+        "Sharp focus on the eyes",
+        "Elegant, legible script"
+      ],
+      "avoid": [
+        "Muddy shadows",
+        "Cluttered backgrounds",
+        "Thick, heavy fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-key background exposure",
+      "Verify cyan color accuracy in text",
+      "Ensure text does not obscure the eyes",
+      "Confirm warm color balance in skin tones"
+    ],
+    "reuseFormula": "Tight portrait + High-key white background + Warm lighting + Cyan script overlay"
+  }
+}

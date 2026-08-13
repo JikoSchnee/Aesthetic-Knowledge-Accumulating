@@ -1,0 +1,283 @@
+{
+  "id": "d38cbfc8c918c9e1fd4620a387853a33426fd18dc68ae348f61b7c29232c022f",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:46:24.981Z",
+  "approvedAt": "2026-08-11T08:46:24.981Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:46:24.981Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "I Walk Alone.jpg",
+    "hash": "d38cbfc8c918c9e1fd4620a387853a33426fd18dc68ae348f61b7c29232c022f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "I Walk Alone",
+    "artist": "Marty Robbins",
+    "artworkUrl": "https://coverartarchive.org/release-group/7dd03198-d177-450d-99e3-84198486defd/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7dd03198-d177-450d-99e3-84198486defd",
+    "releaseGroupId": "7dd03198-d177-450d-99e3-84198486defd",
+    "recordingId": "c142ef60-29c5-4ab1-83e4-43c2a7091fa2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Begging To YouMarty Robbins",
+      "song": "Begging To You",
+      "performer": "Marty Robbins",
+      "peakPosition": 74,
+      "firstChartDate": "1963-11-30",
+      "lastChartDate": "1963-12-28",
+      "appearances": [
+        {
+          "chartDate": "1963-11-30",
+          "position": 83
+        },
+        {
+          "chartDate": "1963-12-07",
+          "position": 80
+        },
+        {
+          "chartDate": "1963-12-14",
+          "position": 78
+        },
+        {
+          "chartDate": "1963-12-21",
+          "position": 78
+        },
+        {
+          "chartDate": "1963-12-28",
+          "position": 74
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage country music album cover 1960s country music slab serif piano low key lighting grainy texture diagonal typography subject s gaze directed toward the viewer while hands are engaged with the piano keys strong diagonal tension between the upward slanted text and the downward slanted piano body high contrast between the illuminated face hands and the dark atmospheric background combine a low key grainy portrait of a musician with heavy diagonally oriented slab serif typography to create a classic mid century album aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Country Music Album Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Packaging",
+        "Retro Poster Design",
+        "Mid-Century Editorial Layout"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "country music",
+        "slab serif",
+        "piano",
+        "low-key lighting",
+        "grainy texture",
+        "diagonal typography"
+      ]
+    },
+    "visualDefinition": "A mid-shot of a male performer in a dark suit playing a piano, set against a deep, textured dark background. The composition features a heavy, stacked slab-serif title block rotated at a 25-degree upward angle, accompanied by a list of tracks in a smaller, matching angle.",
+    "coreVisualRelationships": [
+      "Subject's gaze directed toward the viewer while hands are engaged with the piano keys.",
+      "Strong diagonal tension between the upward-slanted text and the downward-slanted piano body.",
+      "High contrast between the illuminated face/hands and the dark, atmospheric background."
+    ],
+    "coreInvariants": [
+      "25 to 30 degree upward rotation for all text elements.",
+      "Heavy slab-serif typography for the primary display title.",
+      "Grainy, film-like texture across the entire image surface."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left two-thirds of the frame, shown from the waist up in profile-to-three-quarter view.",
+      "visualAnchor": "The performer's face and the bright white piano keys serve as the primary focal points.",
+      "movementAndEyePath": "The eye moves from the performer's face, down to the hands on the keys, and then follows the diagonal text block upward to the top right.",
+      "negativeSpace": "Large areas of dark, textured negative space in the upper left and center provide a canvas for the typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and muted blue-blacks in the background and suit.",
+      "contrastColorRole": "Warm skin tones and off-white piano keys providing highlights.",
+      "accentColorRole": "Pale cream or light lavender-grey for the primary typography.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the subject's highlights and the dark environment.",
+      "paletteRestrictions": [
+        "Avoid vibrant or neon colors; stick to a desaturated, vintage film palette."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold slab serif with square terminals and minimal stroke contrast.",
+      "letterConstructionRules": [
+        "Extremely tight letter spacing (kerning) where characters nearly touch.",
+        "Thick, blocky serifs of equal weight to the main stems.",
+        "Stacked layout with lines of text following a consistent diagonal axis."
+      ],
+      "characterSpecificRedesigns": [
+        "None; focus on the geometric solidity of the slab forms."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Black/Extra Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Square slab",
+            "corners": "Sharp",
+            "counters": "Small and geometric",
+            "strokeCharacter": "Uniform and heavy"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Very tight",
+            "lineBreakPattern": "Stacked by word",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Upper right quadrant",
+            "scale": "Large",
+            "rotation": "25 degrees upward",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Placed in the dark negative space above the piano."
+          },
+          "treatment": {
+            "fill": "Solid pale cream",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "Slightly distressed/grainy",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Sans-serif or light slab",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "Medium",
+            "terminals": "Blunt",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "List format",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Center right, below display text",
+            "scale": "Small",
+            "rotation": "25 degrees upward",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in dark space."
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "A heavy, aggressive slab serif for the title paired with a clean, legible sans-serif for secondary information, both sharing the same diagonal orientation.",
+      "graphicDevices": [
+        "Diagonal baseline for all text groups."
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The 25-degree angle",
+          "The heavy slab-serif weight",
+          "The tight leading"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Horizontal text placement",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab-serif geometry and square terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Stymie Black",
+            "reason": "Classic mid-century slab serif with appropriate weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Egyptian Slate Bold",
+            "reason": "Modern alternative with similar blocky characteristics.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A grainy, low-key photograph of a man in a dark suit playing a piano. The lighting should be focused on his face and hands, leaving the rest of the scene in deep shadow. The piano should be angled downward toward the right. Apply a vintage film grain and slight color desaturation.",
+        "overlayInstruction": "Add the primary title in a heavy slab-serif font in the upper right, rotated 25 degrees upward. Below it, add a list of secondary text in a smaller font, maintaining the same 25-degree rotation and right-aligned to the title block."
+      },
+      "verificationChecks": [
+        "Is the text rotated at a consistent upward angle?",
+        "Is the primary font a heavy, blocky slab serif?",
+        "Is the lighting high-contrast and moody?",
+        "Is there a visible film grain texture?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Angle of rotation (20-35 degrees)",
+      "Intensity of film grain",
+      "Specific color of the display text (cream, white, or light grey)"
+    ],
+    "mustRedesign": [
+      "Any specific artist names or song titles",
+      "Corporate record labels or logos",
+      "Specific facial features of the original performer"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s analog feel",
+        "Strong diagonal composition",
+        "Legible but dense typography"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Modern sans-serif fonts like Helvetica",
+        "Bright, saturated primary colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text does not overlap the performer's face.",
+      "Check that the slab serifs are thick and square.",
+      "Verify the grain is uniform and not blotchy.",
+      "Confirm the diagonal alignment is consistent across all text blocks."
+    ],
+    "reuseFormula": "Combine a low-key, grainy portrait of a musician with heavy, diagonally-oriented slab-serif typography to create a classic mid-century album aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:07:51.728Z"
+}

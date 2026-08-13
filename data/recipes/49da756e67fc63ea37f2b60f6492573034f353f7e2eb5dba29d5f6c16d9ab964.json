@@ -1,0 +1,301 @@
+{
+  "id": "49da756e67fc63ea37f2b60f6492573034f353f7e2eb5dba29d5f6c16d9ab964",
+  "skillId": "49da756e67fc63ea37f2b60f6492573034f353f7e2eb5dba29d5f6c16d9ab964",
+  "versionId": "49da756e67fc63ea37f2b60f6492573034f353f7e2eb5dba29d5f6c16d9ab964",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:47:55.468Z",
+  "approvedAt": "2026-08-12T19:47:55.468Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:47:55.468Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Teen Angel.jpg",
+    "hash": "49da756e67fc63ea37f2b60f6492573034f353f7e2eb5dba29d5f6c16d9ab964",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Teen Angel",
+    "artist": "Mark Dinning",
+    "artworkUrl": "https://coverartarchive.org/release-group/e6a3d91a-440b-4dac-b80d-6e0b13417f1d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e6a3d91a-440b-4dac-b80d-6e0b13417f1d",
+    "releaseGroupId": "e6a3d91a-440b-4dac-b80d-6e0b13417f1d",
+    "recordingId": "464f8dcd-3116-4f96-95a8-9ebe574ac81e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Lovin' TouchMark Dinning",
+      "song": "The Lovin' Touch",
+      "performer": "Mark Dinning",
+      "peakPosition": 84,
+      "firstChartDate": "1960-08-20",
+      "lastChartDate": "1960-10-01",
+      "appearances": [
+        {
+          "chartDate": "1960-08-20",
+          "position": 100
+        },
+        {
+          "chartDate": "1960-08-27",
+          "position": 92
+        },
+        {
+          "chartDate": "1960-09-10",
+          "position": 91
+        },
+        {
+          "chartDate": "1960-09-17",
+          "position": 88
+        },
+        {
+          "chartDate": "1960-09-24",
+          "position": 84
+        },
+        {
+          "chartDate": "1960-10-01",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century crooner album cover mid century modern rockabilly aesthetic halftone texture slab serif acoustic guitar studio portrait the musician s head is positioned just below the primary title text the guitar body provides a warm orange counterpoint to the cool blue background the shadow cast to the right creates a sense of shallow studio depth the secondary text is right aligned to balance the guitar s neck extension 1950s studio portrait slab serif header halftone texture black frame border",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Crooner Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Offset Print"
+      ],
+      "useCases": [
+        "Vintage music packaging",
+        "Retro 1950s/60s posters",
+        "Nostalgic media archives"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "rockabilly aesthetic",
+        "halftone texture",
+        "slab serif",
+        "acoustic guitar",
+        "studio portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1950s-style studio portrait of a male musician with an acoustic guitar, featuring high-contrast slab serif typography and a textured color-gradient background.",
+      "triggerTerms": [
+        "vintage album cover style",
+        "1950s crooner portrait",
+        "retro slab serif music poster"
+      ],
+      "excludeWhen": [
+        "modern digital photography",
+        "minimalist flat design",
+        "sans-serif only layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central studio portrait of a smiling male musician seated with an acoustic guitar, set against a multi-tonal blue and orange gradient background with visible halftone grain. The layout is framed by a black border with bold, blocky typography at the top and a small branding bar at the bottom.",
+    "coreVisualRelationships": [
+      "The musician's head is positioned just below the primary title text",
+      "The guitar body provides a warm orange counterpoint to the cool blue background",
+      "The shadow cast to the right creates a sense of shallow studio depth",
+      "The secondary text is right-aligned to balance the guitar's neck extension"
+    ],
+    "coreInvariants": [
+      "Black outer border",
+      "Halftone texture overlay",
+      "High-contrast slab serif title",
+      "Warm-to-cool background gradient"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Musician is centered, occupying the middle 70% of the frame vertically.",
+      "visualAnchor": "The bright orange acoustic guitar body in the lower-left quadrant.",
+      "movementAndEyePath": "Starts at the large white title, moves down to the musician's face, follows the guitar neck down-right, and ends at the bottom branding bar.",
+      "negativeSpace": "Tight composition with minimal negative space, filled by the textured gradient and cast shadow."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blue and indigo background tones.",
+      "contrastColorRole": "Bright white for the primary title text.",
+      "accentColorRole": "Golden yellow and warm orange in the guitar and secondary text.",
+      "saturationAndValueRelationship": "High saturation in the warm tones against a desaturated, dark background to create pop.",
+      "paletteRestrictions": [
+        "Limit to primary CMYK-adjacent tones to mimic vintage offset printing."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif and condensed sans-serif",
+      "letterConstructionRules": [
+        "Thick, uniform strokes",
+        "Square serifs on the primary title",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "extra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "-2%",
+            "leading": "100%",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "header"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "0%",
+            "leading": "90%",
+            "lineBreakPattern": "two lines",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "upper right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating over background"
+          },
+          "treatment": {
+            "fill": "golden yellow",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Varying weights and colors of the same slab serif family to maintain mid-century cohesion.",
+      "graphicDevices": [
+        "Solid black border frame",
+        "Bottom centered rectangular label box"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif geometry",
+          "Uppercase styling",
+          "High contrast colors"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Modernist sans-serifs like Helvetica",
+          "Gradient fills on text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab serif structure of the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Stymie Black",
+            "reason": "Captures the vintage 1950s advertising feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a 1950s male musician with dark hair and a patterned shirt, holding an acoustic guitar. Use a background gradient of deep blue to orange with a heavy halftone print texture and a cast shadow to the right. Frame the entire image with a thick black border.",
+        "overlayInstruction": "Add the primary title in white extra-bold slab serif at the top. Add the artist name in golden yellow bold slab serif, right-aligned in the upper right quadrant. Place a small black rectangle at the bottom center with yellow serif text."
+      },
+      "verificationChecks": [
+        "Is the title in a heavy slab serif?",
+        "Is there a halftone texture over the image?",
+        "Is the musician holding an acoustic guitar?",
+        "Is the color palette dominated by blue, orange, and yellow?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background gradient colors",
+      "Shirt pattern",
+      "Guitar model",
+      "Border thickness"
+    ],
+    "mustRedesign": [
+      "Modern clothing",
+      "Digital clean backgrounds",
+      "Sans-serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Visible print grain",
+        "High-contrast lighting",
+        "Period-accurate styling"
+      ],
+      "avoid": [
+        "Soft focus",
+        "Pastel color palettes",
+        "Minimalist white space"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the halftone texture is visible but does not obscure the face.",
+      "Check that the slab serifs are thick and blocky.",
+      "Verify the black border frames the entire composition.",
+      "Confirm the guitar color matches the warm accents in the text."
+    ],
+    "reuseFormula": "1950s Studio Portrait + Slab Serif Header + Halftone Texture + Black Frame Border"
+  }
+}

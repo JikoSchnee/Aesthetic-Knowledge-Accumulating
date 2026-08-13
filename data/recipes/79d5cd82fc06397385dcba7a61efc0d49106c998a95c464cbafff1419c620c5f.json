@@ -1,0 +1,286 @@
+{
+  "id": "79d5cd82fc06397385dcba7a61efc0d49106c998a95c464cbafff1419c620c5f",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T10:17:05.992Z",
+  "approvedAt": "2026-08-11T10:17:05.992Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T10:17:05.992Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "G.T.O..jpg",
+    "hash": "79d5cd82fc06397385dcba7a61efc0d49106c998a95c464cbafff1419c620c5f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "G.T.O.",
+    "artist": "Ronny And The Daytonas",
+    "artworkUrl": "https://coverartarchive.org/release-group/0b9a09c9-93af-4dca-8ca6-9b9c7838d29d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/0b9a09c9-93af-4dca-8ca6-9b9c7838d29d",
+    "releaseGroupId": "0b9a09c9-93af-4dca-8ca6-9b9c7838d29d",
+    "recordingId": "f595b5bf-087f-4769-b0fa-05dce0b04d79",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "California BoundRonny And The Daytonas",
+      "song": "California Bound",
+      "performer": "Ronny And The Daytonas",
+      "peakPosition": 72,
+      "firstChartDate": "1964-11-07",
+      "lastChartDate": "1964-12-05",
+      "appearances": [
+        {
+          "chartDate": "1964-11-07",
+          "position": 89
+        },
+        {
+          "chartDate": "1964-11-14",
+          "position": 80
+        },
+        {
+          "chartDate": "1964-11-21",
+          "position": 72
+        },
+        {
+          "chartDate": "1964-11-28",
+          "position": 72
+        },
+        {
+          "chartDate": "1964-12-05",
+          "position": 75
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century automotive collage cover steering wheel hubcap muscle car 1960s collage geometric sans serif bold typography circular frame acting as a container for multiple photographic perspectives high contrast relationship between the bright yellow title and black background symmetry between the four quadrants radiating from a central hubcap detail color coordination between the red jackets of the subjects and the red automotive accents geometric circular frame 4 quadrant photography bold bi color header typography solid dark background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Automotive Collage Cover",
+      "category": "Album Art",
+      "medium": [
+        "Graphic Design",
+        "Photography",
+        "Collage"
+      ],
+      "useCases": [
+        "Vintage-style record covers",
+        "Automotive enthusiast posters",
+        "Retro 1960s marketing"
+      ],
+      "retrievalTags": [
+        "steering wheel",
+        "hubcap",
+        "muscle car",
+        "1960s",
+        "collage",
+        "geometric",
+        "sans-serif",
+        "bold typography"
+      ]
+    },
+    "visualDefinition": "A central circular graphic resembling a stylized steering wheel or hubcap, divided into four quadrants containing distinct photographic vignettes of a car and its owners, set against a solid dark background with bold, high-contrast typography at the top.",
+    "coreVisualRelationships": [
+      "Circular frame acting as a container for multiple photographic perspectives",
+      "High-contrast relationship between the bright yellow title and black background",
+      "Symmetry between the four quadrants radiating from a central hubcap detail",
+      "Color coordination between the red jackets of the subjects and the red automotive accents"
+    ],
+    "coreInvariants": [
+      "Solid black background",
+      "Muted sage green circular frame",
+      "Four-quadrant photographic layout",
+      "Bold, heavy sans-serif display type"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The circular collage dominates the center and lower two-thirds of the frame; the band and car details are scaled to fit within the quadrants.",
+      "visualAnchor": "The central chrome hubcap detail serves as the geometric and visual anchor.",
+      "movementAndEyePath": "Eyes start at the large yellow title, move to the band name, then spiral through the four quadrants starting from the top group photo.",
+      "negativeSpace": "Heavy black negative space at the top and corners focuses attention on the central graphic."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black provides a deep, non-reflective background.",
+      "contrastColorRole": "Sage green defines the geometric structure of the collage.",
+      "accentColorRole": "Bright yellow for the primary title; vibrant red in the photography for pop.",
+      "saturationAndValueRelationship": "High-value, high-saturation text against low-value background; photography uses naturalistic but punchy 60s film tones.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Limit to one primary accent color for text"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold, wide sans-serif and condensed italic sans-serif.",
+      "letterConstructionRules": [
+        "Primary title uses ultra-heavy weight with minimal tracking",
+        "Secondary text uses high-slant italics with tight spacing",
+        "All caps for primary and secondary emphasis"
+      ],
+      "characterSpecificRedesigns": [
+        "Periods in the acronym are square and thick",
+        "Italic 'A' in secondary text has a sharp apex"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "-20",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by background"
+          },
+          "treatment": {
+            "fill": "bright yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Condensed Sans-Serif Italic",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "angled",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "0",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "top right, adjacent to title",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between heavy, wide yellow blocks and lean, slanted white lines.",
+      "graphicDevices": [
+        "Circular frame with four trapezoidal cutouts",
+        "Central circular inset",
+        "Thin horizontal rule at bottom right"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Heavy weight of the main title",
+          "Italic slant of the secondary text",
+          "Yellow/White/Black color scheme"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centering the top text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Helvetica Black Extended",
+            "reason": "Matches the visual weight and blocky nature of the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers 67 Condensed Bold Italic",
+            "reason": "Captures the lean, aggressive slant of the secondary text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a 1960s style collage. The background is solid black. In the center is a large sage-green circle. Inside the circle are four quadrants separated by the green frame. The top quadrant shows four men in red jackets leaning on a classic car. The bottom quadrant shows a chrome car emblem. The left and right quadrants show close-ups of car grills and taillights. In the very center is a chrome hubcap.",
+        "overlayInstruction": "Add the main title in the top left corner using an extra-bold, wide yellow sans-serif font. Add the secondary text to the right of the title in a white, condensed, italic sans-serif font. Add a small logo and thin line in the bottom right corner."
+      },
+      "verificationChecks": [
+        "Is the main title yellow and extra-bold?",
+        "Are there four distinct photo quadrants inside a green circle?",
+        "Is the background solid black?",
+        "Is the secondary text slanted and white?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the circular frame",
+      "Subject matter within the quadrants",
+      "Main title accent color"
+    ],
+    "mustRedesign": [
+      "Specific band names and logos",
+      "Exact car model emblems",
+      "Specific faces of the people in the photo"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Mid-century geometric balance",
+        "High-contrast legibility",
+        "Clean, sharp edges on the graphic frame"
+      ],
+      "avoid": [
+        "Digital gradients",
+        "Drop shadows on text",
+        "Modern distressed textures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the green circle is perfectly centered horizontally.",
+      "Check that the yellow text does not touch the green circle.",
+      "Verify the four quadrants are symmetrical.",
+      "Confirm the hubcap is the central focal point of the circle."
+    ],
+    "reuseFormula": "Geometric circular frame + 4-quadrant photography + bold bi-color header typography + solid dark background."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:13:22.085Z"
+}

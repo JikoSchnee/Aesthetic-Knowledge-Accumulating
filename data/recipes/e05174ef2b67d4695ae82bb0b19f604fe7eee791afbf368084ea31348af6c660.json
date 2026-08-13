@@ -1,0 +1,263 @@
+{
+  "id": "e05174ef2b67d4695ae82bb0b19f604fe7eee791afbf368084ea31348af6c660",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T09:13:37.856Z",
+  "approvedAt": "2026-08-11T09:13:37.856Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T09:13:37.856Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Blue Autumn.jpg",
+    "hash": "e05174ef2b67d4695ae82bb0b19f604fe7eee791afbf368084ea31348af6c660",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Blue Autumn",
+    "artist": "Bobby Goldsboro",
+    "artworkUrl": "https://coverartarchive.org/release-group/5ef0a8b3-b9e7-4695-8655-1ec78255f4ce/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5ef0a8b3-b9e7-4695-8655-1ec78255f4ce",
+    "releaseGroupId": "5ef0a8b3-b9e7-4695-8655-1ec78255f4ce",
+    "recordingId": "6225c69b-4af2-4a90-9eeb-9ee7033af043",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Blue AutumnBobby Goldsboro",
+      "song": "Blue Autumn",
+      "performer": "Bobby Goldsboro",
+      "peakPosition": 35,
+      "firstChartDate": "1966-12-10",
+      "lastChartDate": "1967-02-04",
+      "appearances": [
+        {
+          "chartDate": "1966-12-10",
+          "position": 80
+        },
+        {
+          "chartDate": "1966-12-17",
+          "position": 63
+        },
+        {
+          "chartDate": "1966-12-24",
+          "position": 54
+        },
+        {
+          "chartDate": "1966-12-31",
+          "position": 44
+        },
+        {
+          "chartDate": "1967-01-07",
+          "position": 42
+        },
+        {
+          "chartDate": "1967-01-14",
+          "position": 37
+        },
+        {
+          "chartDate": "1967-01-21",
+          "position": 37
+        },
+        {
+          "chartDate": "1967-01-28",
+          "position": 35
+        },
+        {
+          "chartDate": "1967-02-04",
+          "position": 57
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro pop album cover aesthetic mid century modern pop art checkered pattern studio portrait archival texture monochromatic background subject centered vertically between the arced title and the floor debris contrast between the busy checkered striped clothing and the flat blue background color harmony between the background the scattered leaves and the subject s accessories studio portrait solid color backdrop floor debris arched bold rounded typography retro pop cover",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Pop Album Cover Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Studio Lighting",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Vintage Poster Design",
+        "1960s Retro Branding"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "pop art",
+        "checkered pattern",
+        "studio portrait",
+        "archival texture",
+        "monochromatic background"
+      ]
+    },
+    "visualDefinition": "A 1960s-inspired studio portrait featuring a subject in a crouched pose against a solid blue backdrop, surrounded by scattered blue leaves. The composition is defined by high-contrast patterns on clothing and bold, arced typography at the top.",
+    "coreVisualRelationships": [
+      "Subject centered vertically between the arced title and the floor debris",
+      "Contrast between the busy checkered/striped clothing and the flat blue background",
+      "Color harmony between the background, the scattered leaves, and the subject's accessories"
+    ],
+    "coreInvariants": [
+      "Solid blue studio backdrop",
+      "Crouched or kneeling subject pose",
+      "Arced display typography at the top",
+      "Scattered leaf-like debris on the floor"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centrally located, occupying the middle third of the frame vertically.",
+      "visualAnchor": "The subject's face and the bold white text at the top act as dual anchors.",
+      "movementAndEyePath": "The eye follows the arc of the text, drops to the subject's face, and follows the body line down to the scattered leaves.",
+      "negativeSpace": "Significant negative space in the upper corners and around the subject to emphasize the silhouette."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Medium blue background and floor.",
+      "contrastColorRole": "White for typography and clothing highlights.",
+      "accentColorRole": "Warm skin tones and blonde hair to break the cool palette.",
+      "saturationAndValueRelationship": "High-value white text against a mid-value blue background; low-saturation blue environment.",
+      "paletteRestrictions": [
+        "Blue",
+        "White",
+        "Black",
+        "Warm Tan"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Heavyweight sans-serif with rounded terminals",
+      "letterConstructionRules": [
+        "Thick, uniform stroke weight",
+        "Soft, rounded corners on all glyphs",
+        "Slightly irregular, hand-cut feel",
+        "Tight kerning with occasional overlaps"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters follow a convex upward arc",
+        "O and U characters are wide and circular"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "rounded-sans",
+          "anatomy": {
+            "width": "wide",
+            "weight": "ultra-bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered-arc",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "two-line stack",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "arched",
+            "warp": "convex",
+            "overlap": "slight",
+            "relationshipToImage": "floating above subject"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "slight paper grain",
+            "distortion": "organic edges"
+          }
+        }
+      ],
+      "pairingStrategy": "Single heavy display face for maximum impact.",
+      "graphicDevices": [
+        "Arched text path",
+        "Scattered organic elements (leaves)"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Arched layout",
+          "Rounded terminals",
+          "Heavy weight"
+        ],
+        "avoid": [
+          "Serifs",
+          "Thin strokes",
+          "Straight horizontal baselines"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Blippo Black",
+            "reason": "Matches the heavy, rounded, geometric feel of the era.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Cooper Black (Rounded)",
+            "reason": "Captures the soft, friendly, bold aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A studio photograph of a person in 1960s mod fashion (checkered jacket, striped pants) crouching on a blue floor against a blue wall. Scattered blue leaves are on the floor around them. Soft studio lighting.",
+        "overlayInstruction": "Add two lines of bold, white, rounded sans-serif text at the top, following a convex upward arc. The text should have a slightly hand-cut, organic edge."
+      },
+      "verificationChecks": [
+        "Is the text arched?",
+        "Is the background a consistent blue tone?",
+        "Are the leaves scattered naturally on the floor?",
+        "Is the clothing high-contrast pattern?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Leaf color",
+      "Background blue shade",
+      "Clothing pattern type",
+      "Arc intensity of the text"
+    ],
+    "mustRedesign": [
+      "Specific facial features",
+      "Original brand logos",
+      "Exact wording of the title"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Mid-century studio lighting look",
+        "Heavy, rounded typographic weight",
+        "Clean silhouette against the blue"
+      ],
+      "avoid": [
+        "Modern digital gradients",
+        "Sharp, thin typography",
+        "Busy backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for archival paper texture/noise",
+      "Ensure text does not touch the subject's head",
+      "Verify the blue color is consistent across floor and wall",
+      "Confirm the text is solid white without transparency"
+    ],
+    "reuseFormula": "Studio portrait + solid color backdrop + floor debris + arched bold rounded typography = Retro Pop Cover."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:47:24.181Z"
+}

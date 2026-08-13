@@ -1,0 +1,229 @@
+{
+  "id": "ff2e92545f89bd5218a67a1ce4c88a1d4e284fa9768da0980af7cb18fcc371d3",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:54:05.164Z",
+  "approvedAt": "2026-08-11T22:54:05.164Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:54:05.164Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "My Paper Heart.jpg",
+    "hash": "ff2e92545f89bd5218a67a1ce4c88a1d4e284fa9768da0980af7cb18fcc371d3",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "My Paper Heart",
+    "artist": "Francesca Battistelli",
+    "artworkUrl": "https://coverartarchive.org/release-group/45c6cf45-8bda-30e1-bebb-2caec521a088/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/45c6cf45-8bda-30e1-bebb-2caec521a088",
+    "releaseGroupId": "45c6cf45-8bda-30e1-bebb-2caec521a088",
+    "recordingId": "c1f83202-f91f-498c-b904-cebd5e121648",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "It's Your LifeFrancesca Battistelli",
+      "song": "It's Your Life",
+      "performer": "Francesca Battistelli",
+      "peakPosition": 95,
+      "firstChartDate": "2009-12-12",
+      "lastChartDate": "2009-12-12",
+      "appearances": [
+        {
+          "chartDate": "2009-12-12",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "sun drenched vintage indie album cover vintage car sun flare distressed texture indie pop warm lighting tattered paper effect candid portrait subject leaning against the car hood creates a diagonal anchor from top left to bottom center the warm yellow sun flare contrasts with the cool desaturated blue of the car and denim distressed paper textures and creases unify the foreground subject with the background environment large blocky typography sits in the lower right quadrant balanced by the subject s position on the left combine a candid vintage style portrait with a heavy found object texture overlay and bold condensed sans serif typography for a folk pop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Sun-Drenched Vintage Indie Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Grunge Texturing"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "vintage car",
+        "sun flare",
+        "distressed texture",
+        "indie pop",
+        "warm lighting",
+        "tattered paper effect",
+        "candid portrait"
+      ]
+    },
+    "visualDefinition": "A high-key, warm-toned candid portrait of a woman sitting on the hood of a vintage light-blue car, featuring heavy paper-crease textures and a dominant golden-hour sun flare that washes out the upper right corner.",
+    "coreVisualRelationships": [
+      "Subject leaning against the car hood creates a diagonal anchor from top-left to bottom-center.",
+      "The warm yellow sun flare contrasts with the cool, desaturated blue of the car and denim.",
+      "Distressed paper textures and creases unify the foreground subject with the background environment.",
+      "Large, blocky typography sits in the lower-right quadrant, balanced by the subject's position on the left."
+    ],
+    "coreInvariants": [
+      "Heavy crumple and crease texture overlay",
+      "Overexposed golden-yellow light source in the upper right",
+      "Desaturated, grainy color palette with high contrast"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is positioned on the left third, medium shot, sitting on a car hood.",
+      "visualAnchor": "The woman's smiling face and the bright sun flare act as primary focal points.",
+      "movementAndEyePath": "Eyes start at the subject's face, follow her body down to the car bumper, then move right to the large block text.",
+      "negativeSpace": "The upper right quadrant is filled with light and texture rather than detail, providing breathing room for the title."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Golden yellow and warm cream (lighting and texture)",
+      "contrastColorRole": "Desaturated sky blue (car and jeans)",
+      "accentColorRole": "Deep brown and muted red (typography and clothing details)",
+      "saturationAndValueRelationship": "High value in the highlights with low saturation in the midtones, creating a 'faded photo' look.",
+      "paletteRestrictions": [
+        "Avoid vibrant greens or purples",
+        "Limit blacks to deep shadows only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed Sans-Serif",
+      "letterConstructionRules": [
+        "Tall x-height with narrow proportions",
+        "Flat terminals and uniform stroke weight",
+        "Slightly distressed or 'stamped' edges to match the background texture"
+      ],
+      "characterSpecificRedesigns": [
+        "Inclusion of a small graphic icon (heart) between words in the subtitle"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "slightly rounded",
+            "counters": "closed",
+            "strokeCharacter": "solid but weathered"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked two lines",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "lower right quadrant",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "partially over the car headlight",
+            "relationshipToImage": "integrated via blending modes"
+          },
+          "treatment": {
+            "fill": "dark brown with subtle transparency",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "subtle grain",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A large condensed sans-serif for the name paired with a smaller, wider sans-serif for the title, separated by a graphic element.",
+      "graphicDevices": [
+        "Crumpled paper texture overlay",
+        "Vertical crease lines",
+        "Light leaks"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Uppercase styling",
+          "Dark earthy color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Clean, modern digital looks"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or League Gothic",
+            "reason": "Matches the heavy, condensed, blocky feel of the main text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Provides the necessary height and clean sans-serif structure.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photo of a woman in a newsboy cap and ripped jeans sitting on the hood of a vintage 1960s light blue car. Apply a heavy golden sun flare from the top right. Overlay a high-contrast crumpled paper texture with visible vertical folds and a sepia-toned grain.",
+        "overlayInstruction": "Add two lines of large, dark brown condensed sans-serif text in the lower right. Below that, add a smaller line of text in a similar font, featuring a small red crumpled-paper heart icon as a separator."
+      },
+      "verificationChecks": [
+        "Is the sun flare washing out the top right corner?",
+        "Does the paper texture appear to be 'on top' of the entire image?",
+        "Is the typography condensed and bold?",
+        "Is the color palette dominated by warm yellows and cool blues?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the sun flare",
+      "Density of the paper creases",
+      "Color of the vintage car",
+      "Subject's pose and clothing"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the woman",
+      "Exact car model branding",
+      "Specific logo-like heart graphic"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile paper quality",
+        "Nostalgic, sun-drenched atmosphere",
+        "Strong typographic weight"
+      ],
+      "avoid": [
+        "Clean, high-definition digital look",
+        "Cool-toned lighting",
+        "Thin, delicate fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text looks integrated into the texture, not just floating on top.",
+      "Check that the sun flare doesn't obscure the subject's face entirely.",
+      "Verify the 'ripped' edges of the jeans are visible and detailed.",
+      "Confirm the color of the text is a dark, earthy tone rather than pure black."
+    ],
+    "reuseFormula": "Combine a candid vintage-style portrait with a heavy 'found object' texture overlay and bold, condensed sans-serif typography for a folk-pop aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:28:22.309Z"
+}

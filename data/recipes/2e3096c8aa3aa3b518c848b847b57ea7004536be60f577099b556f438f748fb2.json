@@ -1,0 +1,293 @@
+{
+  "id": "2e3096c8aa3aa3b518c848b847b57ea7004536be60f577099b556f438f748fb2",
+  "skillId": "2e3096c8aa3aa3b518c848b847b57ea7004536be60f577099b556f438f748fb2",
+  "versionId": "2e3096c8aa3aa3b518c848b847b57ea7004536be60f577099b556f438f748fb2",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:10:49.547Z",
+  "approvedAt": "2026-08-12T18:10:49.547Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:10:49.547Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Songs by Ricky.jpg",
+    "hash": "2e3096c8aa3aa3b518c848b847b57ea7004536be60f577099b556f438f748fb2",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Songs by Ricky",
+    "artist": "Ricky Nelson",
+    "artworkUrl": "https://coverartarchive.org/release-group/4abd427f-58d5-4a86-a9bb-8376e6aeaa6f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/4abd427f-58d5-4a86-a9bb-8376e6aeaa6f",
+    "releaseGroupId": "4abd427f-58d5-4a86-a9bb-8376e6aeaa6f",
+    "recordingId": "26c8423d-cc54-4f6b-a402-753b21d5a9b1",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sweeter Than YouRicky Nelson",
+      "song": "Sweeter Than You",
+      "performer": "Ricky Nelson",
+      "peakPosition": 9,
+      "firstChartDate": "1959-07-04",
+      "lastChartDate": "1959-09-19",
+      "appearances": [
+        {
+          "chartDate": "1959-07-04",
+          "position": 53
+        },
+        {
+          "chartDate": "1959-07-11",
+          "position": 24
+        },
+        {
+          "chartDate": "1959-07-18",
+          "position": 18
+        },
+        {
+          "chartDate": "1959-07-25",
+          "position": 15
+        },
+        {
+          "chartDate": "1959-08-01",
+          "position": 9
+        },
+        {
+          "chartDate": "1959-08-08",
+          "position": 12
+        },
+        {
+          "chartDate": "1959-08-15",
+          "position": 18
+        },
+        {
+          "chartDate": "1959-08-22",
+          "position": 23
+        },
+        {
+          "chartDate": "1959-08-29",
+          "position": 26
+        },
+        {
+          "chartDate": "1959-09-05",
+          "position": 43
+        },
+        {
+          "chartDate": "1959-09-12",
+          "position": 60
+        },
+        {
+          "chartDate": "1959-09-19",
+          "position": 78
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century crooner album cover 1950s album cover magenta banner condensed sans serif male portrait low key lighting magenta header bar vs dark portrait background white condensed text vs solid magenta field warm rim lighting on hair vs deep shadow background centered subject gaze vs top aligned information solid color header ultra condensed type low key rim lit portrait mid century album aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Crooner Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting",
+        "Print Design"
+      ],
+      "useCases": [
+        "Vintage music packaging",
+        "Retro 1950s posters",
+        "Classic portrait photography layouts"
+      ],
+      "retrievalTags": [
+        "1950s",
+        "album cover",
+        "magenta banner",
+        "condensed sans-serif",
+        "male portrait",
+        "low-key lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A classic mid-century record sleeve layout featuring a high-contrast male portrait beneath a solid magenta header with bold condensed typography.",
+      "triggerTerms": [
+        "1950s album cover style",
+        "magenta header bar",
+        "condensed sans-serif title",
+        "vintage crooner portrait"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "bright high-key lighting",
+        "sans-serif fonts with wide proportions"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition dominated by a warm-toned, low-key portrait of a young man, topped by a horizontal magenta band containing white, ultra-condensed sans-serif text and technical audio logos.",
+    "coreVisualRelationships": [
+      "magenta header bar vs dark portrait background",
+      "white condensed text vs solid magenta field",
+      "warm rim lighting on hair vs deep shadow background",
+      "centered subject gaze vs top-aligned information"
+    ],
+    "coreInvariants": [
+      "Solid magenta horizontal banner at the top edge",
+      "Ultra-condensed, heavy-weight sans-serif title text",
+      "Low-key, warm-toned studio portraiture",
+      "Square aspect ratio"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered male bust, occupying the bottom 80% of the frame.",
+      "visualAnchor": "The magenta header bar acts as the primary structural anchor.",
+      "movementAndEyePath": "Eyes start at the bright white text in the magenta bar, then drop to the subject's face and eyes.",
+      "negativeSpace": "Deep brown/black negative space surrounds the subject, emphasizing the rim lighting."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep brown/black (background and shadows)",
+      "contrastColorRole": "Magenta (header bar)",
+      "accentColorRole": "White (typography and shirt collar)",
+      "saturationAndValueRelationship": "High saturation in the header bar contrasts with the desaturated, warm-toned skin and dark background.",
+      "paletteRestrictions": [
+        "Magenta",
+        "Deep Umber",
+        "White",
+        "Warm Flesh Tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Ultra-condensed sans-serif",
+      "letterConstructionRules": [
+        "Extremely narrow width-to-height ratio",
+        "Uniform stroke thickness",
+        "Flat terminals",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "S and G have very small apertures",
+        "R has a short, straight leg"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "narrow",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "contained within magenta bar",
+            "relationshipToImage": "separated by color block"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Pair the bold title with small, technical-style extended sans-serif for secondary metadata.",
+      "graphicDevices": [
+        "Solid color header bar",
+        "Diamond-shaped bullet points",
+        "Technical 'Stereo' logo with horizontal lines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ultra-condensed width",
+          "Magenta background color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Pastel colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Captures the heavy, condensed verticality of the title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bebas Neue",
+            "reason": "Provides the clean, uppercase mid-century look.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square, low-key studio portrait of a young man with 1950s pompadour hair, warm rim lighting, wearing a dark cardigan over a white shirt, against a dark brown background. Leave the top 15% of the frame as a solid magenta bar.",
+        "overlayInstruction": "In the magenta bar, add white ultra-condensed sans-serif text in all caps. Place technical 'STEREO' branding in the top right corner of the bar."
+      },
+      "verificationChecks": [
+        "Is the header bar a solid magenta?",
+        "Is the text ultra-condensed and white?",
+        "Is the portrait lighting low-key with warm highlights?",
+        "Is the composition square?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Header bar height",
+      "Portrait subject age/gender",
+      "Magenta hue intensity",
+      "Typography width"
+    ],
+    "mustRedesign": [
+      "Avoid modern digital filters",
+      "Do not use wide or airy typography",
+      "Ensure the magenta bar is perfectly horizontal and opaque"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1950s print texture",
+        "High-contrast lighting on the subject",
+        "Clean, bold typographic hierarchy"
+      ],
+      "avoid": [
+        "Blurry text",
+        "Overly saturated skin tones",
+        "Modern sans-serifs like Helvetica"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for ultra-condensed font width",
+      "Verify magenta color accuracy",
+      "Ensure rim lighting on hair is visible",
+      "Confirm square aspect ratio",
+      "Check for technical logo placement in top right"
+    ],
+    "reuseFormula": "Solid Color Header + Ultra-Condensed Type + Low-Key Rim-Lit Portrait = Mid-Century Album Aesthetic"
+  }
+}

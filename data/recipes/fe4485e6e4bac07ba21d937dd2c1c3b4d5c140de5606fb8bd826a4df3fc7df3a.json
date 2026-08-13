@@ -1,0 +1,302 @@
+{
+  "id": "fe4485e6e4bac07ba21d937dd2c1c3b4d5c140de5606fb8bd826a4df3fc7df3a",
+  "skillId": "fe4485e6e4bac07ba21d937dd2c1c3b4d5c140de5606fb8bd826a4df3fc7df3a",
+  "versionId": "fe4485e6e4bac07ba21d937dd2c1c3b4d5c140de5606fb8bd826a4df3fc7df3a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:12:05.614Z",
+  "approvedAt": "2026-08-12T05:12:05.614Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:12:05.614Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Sweet Talker.jpg",
+    "hash": "fe4485e6e4bac07ba21d937dd2c1c3b4d5c140de5606fb8bd826a4df3fc7df3a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Sweet Talker",
+    "artist": "Jessie J",
+    "artworkUrl": "https://coverartarchive.org/release-group/2aa2f6e7-7c1f-4d3f-807e-384faed07092/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/2aa2f6e7-7c1f-4d3f-807e-384faed07092",
+    "releaseGroupId": "2aa2f6e7-7c1f-4d3f-807e-384faed07092",
+    "recordingId": "b7eb6090-963f-4ad6-89b3-a4f5034cd092",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "MasterpieceJessie J",
+      "song": "Masterpiece",
+      "performer": "Jessie J",
+      "peakPosition": 65,
+      "firstChartDate": "2015-01-03",
+      "lastChartDate": "2015-03-28",
+      "appearances": [
+        {
+          "chartDate": "2015-01-03",
+          "position": 65
+        },
+        {
+          "chartDate": "2015-01-10",
+          "position": 68
+        },
+        {
+          "chartDate": "2015-03-28",
+          "position": 85
+        }
+      ]
+    }
+  },
+  "dedupeText": "pop icon studio portrait studio portrait high waisted fashion monochromatic background symmetrical pose condensed sans serif typography gold jewelry accents symmetrical subject stance balancing the asymmetrical text placement high contrast black clothing against a mid tone grey background gold jewelry providing warm metallic highlights to a cool toned palette verticality of the subject mirrored by the condensed letterforms symmetrical studio portrait ultra condensed display type neutral gradient backdrop",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Pop Icon Studio Portrait",
+      "category": "Music Album Art",
+      "medium": [
+        "Studio Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Design",
+        "Promotional Music Poster",
+        "Fashion Editorial Layout"
+      ],
+      "retrievalTags": [
+        "studio portrait",
+        "high-waisted fashion",
+        "monochromatic background",
+        "symmetrical pose",
+        "condensed sans-serif typography",
+        "gold jewelry accents"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered, full-body studio portrait featuring a symmetrical power pose against a neutral gradient background with stylized condensed typography.",
+      "triggerTerms": [
+        "symmetrical studio portrait",
+        "high-waisted black fashion photography",
+        "condensed display typography with swashes",
+        "neutral grey studio backdrop"
+      ],
+      "excludeWhen": [
+        "candid outdoor photography",
+        "busy environmental backgrounds",
+        "low-angle perspective",
+        "handwritten script fonts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A full-body, centered female subject in a wide-legged stance, wearing black high-waisted attire and gold jewelry, set against a seamless grey studio backdrop with a soft floor-to-wall transition. The composition is anchored by a large, stylized display name on the left and a smaller subtitle at the bottom center.",
+    "coreVisualRelationships": [
+      "Symmetrical subject stance balancing the asymmetrical text placement",
+      "High-contrast black clothing against a mid-tone grey background",
+      "Gold jewelry providing warm metallic highlights to a cool-toned palette",
+      "Verticality of the subject mirrored by the condensed letterforms"
+    ],
+    "coreInvariants": [
+      "Symmetrical wide-legged 'A-frame' stance",
+      "Seamless grey studio gradient background",
+      "High-waisted black silhouette"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered full-body figure occupying the vertical height of the frame.",
+      "visualAnchor": "The subject's face and hands at the top center, framed by the arms.",
+      "movementAndEyePath": "From the face down the vertical line of the body to the feet, then outward to the display text on the left.",
+      "negativeSpace": "Significant open space to the left and right of the torso, utilized for typographic placement."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Neutral mid-grey background providing a clean canvas.",
+      "contrastColorRole": "Deep black for the clothing and hair, creating a sharp silhouette.",
+      "accentColorRole": "Warm gold for jewelry and red for lips.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the subject and the background.",
+      "paletteRestrictions": [
+        "Monochromatic grey scale",
+        "Deep black",
+        "Metallic gold",
+        "Vibrant red accent"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Ultra-condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Extremely high aspect ratio (tall and narrow)",
+        "Geometric terminals",
+        "Custom swash extensions on specific characters"
+      ],
+      "characterSpecificRedesigns": [
+        "Initial 'J' features a deep, rounded descender loop",
+        "Final 'J' features a mirrored deep, rounded descender loop",
+        "Middle 'S' characters are tightly compressed"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "medium",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "clean"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "high"
+          },
+          "composition": {
+            "position": "middle-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in negative space beside the torso"
+          },
+          "treatment": {
+            "fill": "off-white",
+            "outline": "none",
+            "shadow": "subtle soft drop",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "blunt",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "low"
+          },
+          "composition": {
+            "position": "bottom-center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed between the feet"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between ultra-condensed stylized display type and wide-tracked geometric sans-serif.",
+      "graphicDevices": [
+        "Symmetrical swash elements",
+        "Horizontal alignment to floor plane"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ultra-condensed proportions",
+          "J-loop swashes",
+          "Wide tracking for subtitle"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Italics",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Steelfish",
+            "reason": "Provides the necessary ultra-condensed skeleton for modification.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Alternative for a heavy condensed feel, though requires thinning.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Suitable for the wide-tracked subtitle text.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A full-body studio photograph of a woman in a symmetrical wide-legged stance, wearing a black bra top and high-waisted black briefs with gold jewelry, against a seamless grey studio backdrop with soft lighting.",
+        "overlayInstruction": "Add the primary name in ultra-condensed white sans-serif to the left of the torso with custom loops on the 'J's. Add the title in wide-tracked bold white sans-serif at the bottom center between the feet."
+      },
+      "verificationChecks": [
+        "Is the subject perfectly centered?",
+        "Are the 'J' swashes symmetrical in their curve?",
+        "Is the subtitle tracking wide enough to span the gap between the feet?",
+        "Is the background a smooth grey gradient?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background grey tone",
+      "Jewelry density",
+      "Typography swash length",
+      "Subtitle tracking width"
+    ],
+    "mustRedesign": [
+      "Specific artist name",
+      "Specific album title",
+      "Unique brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean studio lighting",
+        "Sharp focus on the subject",
+        "Balanced typographic weight"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-resolution textures",
+        "Poorly integrated text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for anatomical symmetry in the pose",
+      "Ensure text does not overlap the subject's body",
+      "Verify the metallic sheen on the gold accents",
+      "Confirm the ultra-condensed nature of the display font"
+    ],
+    "reuseFormula": "Symmetrical Studio Portrait + Ultra-Condensed Display Type + Neutral Gradient Backdrop"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:44:33.769Z"
+}

@@ -1,0 +1,261 @@
+{
+  "id": "6a9e6694e45f2c132b1506fe33179b1ebf59763ac1280b42d1859e6965915efe",
+  "skillId": "6a9e6694e45f2c132b1506fe33179b1ebf59763ac1280b42d1859e6965915efe",
+  "versionId": "6a9e6694e45f2c132b1506fe33179b1ebf59763ac1280b42d1859e6965915efe",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:33:48.588Z",
+  "approvedAt": "2026-08-12T23:33:48.588Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:33:48.588Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Icehouse.jpg",
+    "hash": "6a9e6694e45f2c132b1506fe33179b1ebf59763ac1280b42d1859e6965915efe",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Icehouse",
+    "artist": "Icehouse",
+    "artworkUrl": "https://coverartarchive.org/release-group/cb6cb34b-9505-3b5f-97e7-139a4d6b3026/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/cb6cb34b-9505-3b5f-97e7-139a4d6b3026",
+    "releaseGroupId": "cb6cb34b-9505-3b5f-97e7-139a4d6b3026",
+    "recordingId": "b3b1e8ad-9635-4f7d-ac79-d6de02beae26",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "We Can Get TogetherIcehouse",
+      "song": "We Can Get Together",
+      "performer": "Icehouse",
+      "peakPosition": 62,
+      "firstChartDate": "1981-08-01",
+      "lastChartDate": "1981-09-12",
+      "appearances": [
+        {
+          "chartDate": "1981-08-01",
+          "position": 86
+        },
+        {
+          "chartDate": "1981-08-08",
+          "position": 77
+        },
+        {
+          "chartDate": "1981-08-15",
+          "position": 69
+        },
+        {
+          "chartDate": "1981-08-22",
+          "position": 62
+        },
+        {
+          "chartDate": "1981-08-29",
+          "position": 62
+        },
+        {
+          "chartDate": "1981-09-05",
+          "position": 82
+        },
+        {
+          "chartDate": "1981-09-12",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "minimalist linear landscape cover stark line art monochromatic landscape geometric branches post punk aesthetic desaturated palette organic foreground trunks framing a central architectural sketch heavy horizontal branch weight contrasting with vertical linear sky high contrast black ink against a muted neutral background symmetry between left and right framing elements stark ink landscape geometric line sky corner pinned sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Minimalist Linear Landscape Cover",
+      "category": "Graphic Illustration",
+      "medium": [
+        "Ink Drawing",
+        "Screen Print",
+        "Digital Illustration"
+      ],
+      "useCases": [
+        "Album Art",
+        "Book Cover",
+        "Minimalist Poster Design"
+      ],
+      "retrievalTags": [
+        "stark line art",
+        "monochromatic landscape",
+        "geometric branches",
+        "post-punk aesthetic",
+        "desaturated palette"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A stark, minimalist landscape featuring heavy black ink branches that transition into thin, geometric lines against a desaturated, parchment-like background.",
+      "triggerTerms": [
+        "stark ink branch illustration",
+        "geometric line landscape",
+        "minimalist desaturated cover art"
+      ],
+      "excludeWhen": [
+        "vibrant colors are required",
+        "photorealistic textures are needed",
+        "complex 3D shading is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast composition where thick, organic tree trunks on the left and right margins support a canopy of heavy black branches that fracture into a dense web of thin, straight geometric lines intersecting the upper sky. The background features a faint, sketch-like architectural outline on a warm, desaturated beige field.",
+    "coreVisualRelationships": [
+      "Organic foreground trunks framing a central architectural sketch",
+      "Heavy horizontal branch weight contrasting with vertical linear sky",
+      "High-contrast black ink against a muted, neutral background",
+      "Symmetry between left and right framing elements"
+    ],
+    "coreInvariants": [
+      "The transition from thick, textured ink strokes to thin, perfectly straight geometric lines in the upper half."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two large tree trunks frame the left and right edges, with a central horizontal branch structure spanning the middle third.",
+      "visualAnchor": "The heavy, dark horizontal branch line that bisects the composition.",
+      "movementAndEyePath": "Eyes move from the solid trunks upward through the thick branches and then follow the radiating thin lines into the upper corners.",
+      "negativeSpace": "Extensive use of flat, desaturated beige space in the upper sky and lower ground to emphasize the line work."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated beige/parchment background",
+      "contrastColorRole": "Solid black for primary branch structures",
+      "accentColorRole": "Muted blue-purple for corner typography",
+      "saturationAndValueRelationship": "Low saturation overall with extreme value contrast between the black ink and the light background.",
+      "paletteRestrictions": [
+        "No vibrant primaries",
+        "Limited to three main tones: beige, black, and one muted accent color"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Open apertures",
+        "Clean, sharp terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "justified-to-corners",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single-word",
+            "density": "solid"
+          },
+          "composition": {
+            "position": "top corners",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floated in negative space"
+          },
+          "treatment": {
+            "fill": "solid muted blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single weight geometric sans-serif used for all text elements to maintain minimalist balance.",
+      "graphicDevices": [
+        "Corner-pinned layout"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase format",
+          "Corner placement",
+          "Geometric sans-serif style"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Matches the geometric, clean uppercase aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gill Sans Bold",
+            "reason": "Provides a similar weight and clarity for corner placement.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a minimalist ink drawing of two tree trunks framing a central house sketch on beige paper, with thick black branches that turn into a web of thin straight lines in the sky.",
+        "overlayInstruction": "Add uppercase geometric sans-serif text in the top left and top right corners in a muted blue-purple color."
+      },
+      "verificationChecks": [
+        "Text is pinned to the top corners",
+        "Branches transition from thick ink to thin geometric lines",
+        "Background is a desaturated beige",
+        "No vibrant colors are present"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of the geometric line web",
+      "Thickness of the framing tree trunks",
+      "Specific hue of the corner typography"
+    ],
+    "mustRedesign": [
+      "Avoid photographic textures",
+      "Do not use gradients in the background",
+      "Ensure lines in the upper half are perfectly straight"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Stark contrast between black ink and beige background",
+        "Clean, legible corner typography",
+        "Balanced framing of the central subject"
+      ],
+      "avoid": [
+        "Cluttered compositions",
+        "Soft or blurry line work",
+        "Centered text blocks"
+      ]
+    },
+    "postGenerationChecks": [
+      "Are the upper lines straight and geometric?",
+      "Is the text in the top corners only?",
+      "Is the color palette restricted to beige, black, and one accent?",
+      "Does the composition feel balanced but stark?"
+    ],
+    "reuseFormula": "Stark ink landscape + geometric line sky + corner-pinned sans-serif typography."
+  }
+}

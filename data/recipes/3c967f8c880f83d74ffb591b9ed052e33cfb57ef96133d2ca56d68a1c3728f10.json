@@ -1,0 +1,330 @@
+{
+  "id": "3c967f8c880f83d74ffb591b9ed052e33cfb57ef96133d2ca56d68a1c3728f10",
+  "skillId": "3c967f8c880f83d74ffb591b9ed052e33cfb57ef96133d2ca56d68a1c3728f10",
+  "versionId": "3c967f8c880f83d74ffb591b9ed052e33cfb57ef96133d2ca56d68a1c3728f10",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T10:02:39.227Z",
+  "approvedAt": "2026-08-12T10:02:39.227Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T10:02:39.227Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Flower.jpg",
+    "hash": "3c967f8c880f83d74ffb591b9ed052e33cfb57ef96133d2ca56d68a1c3728f10",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Flower",
+    "artist": "Jody Watley",
+    "artworkUrl": "https://coverartarchive.org/release-group/22813eff-86c0-39ec-8032-25c748efdf12/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/22813eff-86c0-39ec-8032-25c748efdf12",
+    "releaseGroupId": "22813eff-86c0-39ec-8032-25c748efdf12",
+    "recordingId": "457d674c-850d-4098-b4ea-4a88f275f0b9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Off The HookJody Watley",
+      "song": "Off The Hook",
+      "performer": "Jody Watley",
+      "peakPosition": 73,
+      "firstChartDate": "1998-02-21",
+      "lastChartDate": "1998-05-16",
+      "appearances": [
+        {
+          "chartDate": "1998-02-21",
+          "position": 83
+        },
+        {
+          "chartDate": "1998-02-28",
+          "position": 77
+        },
+        {
+          "chartDate": "1998-03-07",
+          "position": 73
+        },
+        {
+          "chartDate": "1998-03-14",
+          "position": 73
+        },
+        {
+          "chartDate": "1998-03-21",
+          "position": 77
+        },
+        {
+          "chartDate": "1998-03-28",
+          "position": 86
+        },
+        {
+          "chartDate": "1998-04-04",
+          "position": 88
+        },
+        {
+          "chartDate": "1998-04-11",
+          "position": 77
+        },
+        {
+          "chartDate": "1998-04-18",
+          "position": 75
+        },
+        {
+          "chartDate": "1998-04-25",
+          "position": 81
+        },
+        {
+          "chartDate": "1998-05-02",
+          "position": 78
+        },
+        {
+          "chartDate": "1998-05-09",
+          "position": 88
+        },
+        {
+          "chartDate": "1998-05-16",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "warm earth tone portrait with overlaid serif typography tilted portrait warm lighting serif typography earth tones 90s aesthetic shallow depth of field the subject s tilted head creates a diagonal line that leads the eye toward the typography the dark green chair back provides a solid horizontal anchor for the text warm skin tones and hair colors harmonize with the golden hour lighting the text is placed directly over the darkest part of the image for maximum legibility tilted portrait warm golden lighting foreground object text placement elegant lowercase serif",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Warm Earth-Tone Portrait with Overlaid Serif Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Music cover art",
+        "Lifestyle editorial",
+        "Fashion photography",
+        "Promotional posters"
+      ],
+      "retrievalTags": [
+        "tilted portrait",
+        "warm lighting",
+        "serif typography",
+        "earth tones",
+        "90s aesthetic",
+        "shallow depth of field"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A close-up, tilted portrait featuring warm, sun-drenched lighting and elegant serif text overlaid on a physical prop in the foreground.",
+      "triggerTerms": [
+        "tilted head portrait",
+        "warm earth tones",
+        "serif text on chair back",
+        "90s R&B aesthetic"
+      ],
+      "excludeWhen": [
+        "high-contrast black and white",
+        "minimalist modern sans-serif",
+        "wide-angle landscape shots"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A soft-focus, intimate portrait of a woman with her head tilted, resting on her hands which are draped over the back of a dark green chair. The lighting is warm and golden, creating a nostalgic, sun-kissed atmosphere with a shallow depth of field that blurs the background into a bright, airy glow.",
+    "coreVisualRelationships": [
+      "The subject's tilted head creates a diagonal line that leads the eye toward the typography.",
+      "The dark green chair back provides a solid horizontal anchor for the text.",
+      "Warm skin tones and hair colors harmonize with the golden-hour lighting.",
+      "The text is placed directly over the darkest part of the image for maximum legibility."
+    ],
+    "coreInvariants": [
+      "Diagonal head tilt",
+      "Warm, golden-hour color palette",
+      "Text placed on a foreground object",
+      "Soft, diffused lighting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject occupies the upper-left and center, scaled as a medium close-up.",
+      "visualAnchor": "The dark green chair back in the lower-right quadrant acts as the primary visual anchor and text container.",
+      "movementAndEyePath": "The eye starts at the subject's face, follows the tilt of the head down to the hands, and rests on the typography on the chair.",
+      "negativeSpace": "The upper-right background is blown out with bright light, providing a high-key negative space."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm ambers and honey browns (skin and hair).",
+      "contrastColorRole": "Deep forest green (chair back) provides a cool contrast to the warm tones.",
+      "accentColorRole": "Pale cream or gold (typography).",
+      "saturationAndValueRelationship": "High value in the background, medium saturation in the subject, and low value/high contrast in the text area.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Avoid harsh primary blues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Serif",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Elegant, bracketed serifs",
+        "Lowercase for the primary name to create an intimate feel",
+        "Wide tracking for the secondary subtitle"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'j' and 'y' have elongated, graceful descenders"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Old Style Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "ball terminals",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "tapered"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "lower center-right",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "over foreground object",
+            "relationshipToImage": "integrated into the scene"
+          },
+          "treatment": {
+            "fill": "pale gold or cream",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "medium",
+            "xHeight": "low",
+            "terminals": "sharp",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "center",
+            "tracking": "very wide",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "low"
+          },
+          "composition": {
+            "position": "directly below display text",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "subordinate"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Size and tracking contrast between two weights of the same or similar serif family.",
+      "graphicDevices": [
+        "Horizontal slats of a chair used as a text baseline"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase styling",
+          "High contrast serifs",
+          "Wide tracking on subtitle"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "All-caps for the main name",
+          "Bright saturated text colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Caslon or Garamond",
+            "reason": "Classic old-style serifs with elegant descenders and high legibility.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni",
+            "reason": "High contrast strokes for a more fashion-forward look.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a warm-toned, sun-drenched portrait of a woman with long brown hair, head tilted and resting on her hands. Her hands are draped over the back of a dark green wooden chair. Use a shallow depth of field with a bright, blown-out background.",
+        "overlayInstruction": "Overlay lowercase serif text in a pale cream color on the dark green chair back. Center the text horizontally. Place a smaller, widely-tracked subtitle in white directly underneath the main text."
+      },
+      "verificationChecks": [
+        "Is the head tilted at approximately 45 degrees?",
+        "Is the lighting warm and golden?",
+        "Is the text placed on the dark green chair back?",
+        "Is the main text lowercase serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the golden light",
+      "Angle of the head tilt",
+      "Color of the chair",
+      "Tracking width of the subtitle"
+    ],
+    "mustRedesign": [
+      "Avoid modern geometric sans-serifs",
+      "Avoid harsh, direct flash lighting"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, flattering skin tones",
+        "Legible text against a dark background",
+        "Nostalgic 90s film feel"
+      ],
+      "avoid": [
+        "Over-sharpening",
+        "Digital noise",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for natural skin texture under warm light.",
+      "Ensure the text doesn't obscure the subject's face or hands.",
+      "Verify the color harmony between the green chair and warm skin.",
+      "Confirm the serif font has high stroke contrast."
+    ],
+    "reuseFormula": "Tilted Portrait + Warm Golden Lighting + Foreground Object Text Placement + Elegant Lowercase Serif"
+  }
+}

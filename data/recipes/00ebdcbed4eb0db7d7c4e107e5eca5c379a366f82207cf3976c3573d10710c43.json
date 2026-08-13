@@ -1,0 +1,285 @@
+{
+  "id": "00ebdcbed4eb0db7d7c4e107e5eca5c379a366f82207cf3976c3573d10710c43",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:10:11.914Z",
+  "approvedAt": "2026-08-11T22:10:11.914Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:10:11.914Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "This Is Bobby Goldsboro.jpg",
+    "hash": "00ebdcbed4eb0db7d7c4e107e5eca5c379a366f82207cf3976c3573d10710c43",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "This Is Bobby Goldsboro",
+    "artist": "Bobby Goldsboro",
+    "artworkUrl": "https://coverartarchive.org/release-group/7ef0da7c-cad6-44ab-a690-782ba46b7317/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7ef0da7c-cad6-44ab-a690-782ba46b7317",
+    "releaseGroupId": "7ef0da7c-cad6-44ab-a690-782ba46b7317",
+    "recordingId": "d26dafb9-5804-4dd0-a8ee-2c77d13573a6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "If You Wait For LoveBobby Goldsboro",
+      "song": "If You Wait For Love",
+      "performer": "Bobby Goldsboro",
+      "peakPosition": 75,
+      "firstChartDate": "1965-08-21",
+      "lastChartDate": "1965-09-18",
+      "appearances": [
+        {
+          "chartDate": "1965-08-21",
+          "position": 94
+        },
+        {
+          "chartDate": "1965-08-28",
+          "position": 88
+        },
+        {
+          "chartDate": "1965-09-04",
+          "position": 84
+        },
+        {
+          "chartDate": "1965-09-11",
+          "position": 78
+        },
+        {
+          "chartDate": "1965-09-18",
+          "position": 75
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage mid century portrait album layout 1960s album art portrait photography slab serif white header textured border white header block occupying the top third of the frame large photographic portrait occupying the bottom two thirds heavy outer border framing the entire composition color coordination between the subject s clothing and the display text square layout textured border color white header block condensed slab serif title two column sans serif list portrait image",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Mid-Century Portrait Album Layout",
+      "category": "Graphic Design / Music Packaging",
+      "medium": [
+        "Photography",
+        "Offset Printing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vintage-style record covers",
+        "Retro editorial layouts",
+        "Nostalgic portrait posters"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "album art",
+        "portrait photography",
+        "slab serif",
+        "white header",
+        "textured border"
+      ]
+    },
+    "visualDefinition": "A classic mid-century album cover featuring a large square portrait framed by a thick, textured border, topped with a white header containing bold display typography and a two-column tracklist.",
+    "coreVisualRelationships": [
+      "White header block occupying the top third of the frame",
+      "Large photographic portrait occupying the bottom two-thirds",
+      "Heavy outer border framing the entire composition",
+      "Color coordination between the subject's clothing and the display text"
+    ],
+    "coreInvariants": [
+      "Thick outer border with distressed texture",
+      "Two-column tracklist layout in the header",
+      "White background for all text elements",
+      "Thin white internal stroke separating the image from the border"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centered in the lower two-thirds, shown from the chest up, slightly angled toward the viewer.",
+      "visualAnchor": "The bold, red display text at the top of the white header.",
+      "movementAndEyePath": "Starts at the red title, moves down to the tracklist, then settles on the central portrait.",
+      "negativeSpace": "Significant white space in the header provides breathing room for the text against the dense photographic background."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Earthy brown/maroon for the outer border.",
+      "contrastColorRole": "Pure white for the header background and internal framing line.",
+      "accentColorRole": "Warm orange-red for the display text and subject's clothing.",
+      "saturationAndValueRelationship": "Muted, natural tones in the photograph contrasted with high-saturation red text.",
+      "paletteRestrictions": [
+        "Brown",
+        "White",
+        "Orange-Red",
+        "Moss Green"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed slab serif and geometric sans-serif",
+      "letterConstructionRules": [
+        "Display text uses heavy, condensed slab serifs with minimal stroke contrast",
+        "Secondary text uses light-weight, wide-tracked geometric sans-serif",
+        "All text is set in uppercase"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "1.0",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left of header",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by white space"
+          },
+          "treatment": {
+            "fill": "solid orange-red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "geometric",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monoline"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "1.2",
+            "lineBreakPattern": "two-column list",
+            "density": "light"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by white space"
+          },
+          "treatment": {
+            "fill": "muted blue-grey",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-impact condensed slab serif paired with airy, wide-tracked sans-serif for functional lists.",
+      "graphicDevices": [
+        "Thin white keyline border",
+        "Distressed/weathered texture on the outer frame"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Two-column layout",
+          "Condensed display weight"
+        ],
+        "avoid": [
+          "Serif fonts for the tracklist",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Schmalfette",
+            "reason": "Matches the heavy, condensed feel of the display title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light or Gill Sans Light",
+            "reason": "Captures the clean, mid-century feel of the tracklist.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square portrait of a man in a 1960s orange sweater and paisley scarf, set against a mossy stone wall. Place this image inside a thick, weathered maroon-brown border with a thin white inner stroke. Leave the top 30% of the frame as a solid white rectangle.",
+        "overlayInstruction": "Add a bold, condensed red slab-serif title at the top left of the white area. Below it, add two columns of text in a light, wide-tracked blue-grey sans-serif font."
+      },
+      "verificationChecks": [
+        "Is the header background pure white?",
+        "Is the display text condensed and bold?",
+        "Is the outer border textured/distressed?",
+        "Are there two distinct columns for the secondary text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Border color",
+      "Display text color",
+      "Portrait subject",
+      "Number of columns in the tracklist"
+    ],
+    "mustRedesign": [
+      "Specific artist name and song titles",
+      "Record label logos in the top right corner",
+      "Specific facial features of the subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean typographic hierarchy",
+        "Balanced white space in the header",
+        "Authentic 1960s color palette"
+      ],
+      "avoid": [
+        "Modern digital gradients",
+        "Drop shadows on text",
+        "Overly sharp, clean borders without texture"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the white header does not overlap the portrait.",
+      "Check that the red text matches the warmth of the subject's clothing.",
+      "Verify the outer border has a visible 'worn' texture.",
+      "Confirm all text is in uppercase."
+    ],
+    "reuseFormula": "Square layout + [Textured Border Color] + [White Header Block] + [Condensed Slab Serif Title] + [Two-Column Sans-Serif List] + [Portrait Image]"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:01:10.266Z"
+}

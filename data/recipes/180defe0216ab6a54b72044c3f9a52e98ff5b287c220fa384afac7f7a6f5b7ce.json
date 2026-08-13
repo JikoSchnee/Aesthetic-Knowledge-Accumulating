@@ -1,0 +1,244 @@
+{
+  "id": "180defe0216ab6a54b72044c3f9a52e98ff5b287c220fa384afac7f7a6f5b7ce",
+  "skillId": "180defe0216ab6a54b72044c3f9a52e98ff5b287c220fa384afac7f7a6f5b7ce",
+  "versionId": "180defe0216ab6a54b72044c3f9a52e98ff5b287c220fa384afac7f7a6f5b7ce",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:14:45.730Z",
+  "approvedAt": "2026-08-12T09:14:45.730Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:14:45.730Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Vibrate Higher.jpg",
+    "hash": "180defe0216ab6a54b72044c3f9a52e98ff5b287c220fa384afac7f7a6f5b7ce",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Vibrate Higher",
+    "artist": "Kanye West",
+    "artworkUrl": "https://coverartarchive.org/release-group/ed514513-2339-439c-a153-534a7800bdea/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ed514513-2339-439c-a153-534a7800bdea",
+    "releaseGroupId": "ed514513-2339-439c-a153-534a7800bdea",
+    "recordingId": "aca63b33-9bff-4c0d-b1dc-3dba11e402d8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "New SlavesKanye West",
+      "song": "New Slaves",
+      "performer": "Kanye West",
+      "peakPosition": 56,
+      "firstChartDate": "2013-07-06",
+      "lastChartDate": "2013-07-13",
+      "appearances": [
+        {
+          "chartDate": "2013-07-06",
+          "position": 56
+        },
+        {
+          "chartDate": "2013-07-13",
+          "position": 90
+        }
+      ]
+    }
+  },
+  "dedupeText": "activist protest collage with metallic overlay protest activism duotone metallic text stencil red and black grainy collage high contrast black and white background vs vibrant red central graphic industrial metallic text texture vs organic grainy photo texture geometric central framing vs chaotic crowd movement combine gritty b w crowd photo central red geometric overlay brushed metal wide sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Activist Protest Collage with Metallic Overlay",
+      "category": "Album Art",
+      "medium": [
+        "Digital Collage",
+        "Duotone Photography",
+        "Metallic Typography"
+      ],
+      "useCases": [
+        "Social justice documentary posters",
+        "Political hip-hop album covers",
+        "Urban protest event flyers"
+      ],
+      "retrievalTags": [
+        "protest",
+        "activism",
+        "duotone",
+        "metallic text",
+        "stencil",
+        "red and black",
+        "grainy",
+        "collage"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A gritty, high-contrast protest scene featuring a central red geometric overlay and brushed metallic display typography.",
+      "triggerTerms": [
+        "protest collage with red overlay",
+        "metallic brushed text album art",
+        "duotone activist photography style"
+      ],
+      "excludeWhen": [
+        "clean corporate designs",
+        "pastel color palettes",
+        "minimalist white space layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dark, grainy black-and-white photograph of a crowd at a protest, partially obscured by a large, semi-transparent red geometric shape in the center. The composition is framed by bold, brushed-metal textured typography at the top and bottom.",
+    "coreVisualRelationships": [
+      "High-contrast black-and-white background vs. vibrant red central graphic",
+      "Industrial metallic text texture vs. organic grainy photo texture",
+      "Geometric central framing vs. chaotic crowd movement"
+    ],
+    "coreInvariants": [
+      "Heavy film grain",
+      "Deep red central graphic overlay",
+      "Brushed steel/metallic text effect"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A crowd of protesters fills the frame, centered behind a large red graphic that spans 70% of the height.",
+      "visualAnchor": "The large red geometric shape in the center acts as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the top metallic header, drop to the red central graphic, scan the protest signs, and finish at the bottom metallic title.",
+      "negativeSpace": "Minimal; the frame is densely packed with figures, signs, and graphic elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black and dark grey provide the base photographic layer.",
+      "contrastColorRole": "Vibrant red (approx #C00000) defines the central graphic and highlights.",
+      "accentColorRole": "Silver/Steel grey with a brushed texture for the primary text.",
+      "saturationAndValueRelationship": "High value contrast between the bright metallic text and the dark, desaturated background.",
+      "paletteRestrictions": [
+        "Strictly red, black, white, and silver"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Wide, blocky proportions",
+        "Uniform stroke weight",
+        "Sharp, square corners"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters feature a horizontal brushed metal texture with vertical gradients simulating light reflection."
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top and bottom thirds",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "brushed metal texture",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "horizontal grain",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Use a wide, bold sans-serif for primary titles and a more condensed, tracked-out version for secondary metadata.",
+      "graphicDevices": [
+        "Semi-transparent red geometric overlay",
+        "Heavy film grain overlay",
+        "Stencil-style protest signs in background"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Brushed metal texture",
+          "Wide tracking",
+          "Uppercase styling"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Bright neon colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham Ultra",
+            "reason": "Provides the necessary geometric weight and wide stance.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bank Gothic",
+            "reason": "Captures the industrial, wide-set aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a high-contrast, grainy black-and-white photo of a protest crowd with signs. Overlay a large, semi-transparent red geometric shape in the center.",
+        "overlayInstruction": "Add wide, bold geometric sans-serif text at the top and bottom. Apply a horizontal brushed-metal texture and a slight vertical gradient to the text."
+      },
+      "verificationChecks": [
+        "Is the red graphic semi-transparent?",
+        "Does the text have a visible brushed metal texture?",
+        "Is the background photo sufficiently grainy and high-contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Opacity of the red overlay",
+      "Intensity of the film grain",
+      "Width of the text tracking"
+    ],
+    "mustRedesign": [
+      "Specific protest sign text",
+      "Brand logos",
+      "Specific faces in the crowd"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Gritty urban atmosphere",
+        "Industrial metallic text feel",
+        "Strong color contrast"
+      ],
+      "avoid": [
+        "Clean, high-resolution photography",
+        "Flat, solid-color text without texture"
+      ]
+    },
+    "postGenerationChecks": [
+      "Text is centered and legible against the background.",
+      "Metallic texture looks like brushed steel, not just grey.",
+      "The red overlay does not completely hide the background details.",
+      "The overall mood is serious and activist-oriented."
+    ],
+    "reuseFormula": "Combine [Gritty B&W Crowd Photo] + [Central Red Geometric Overlay] + [Brushed Metal Wide Sans-Serif Typography]."
+  }
+}

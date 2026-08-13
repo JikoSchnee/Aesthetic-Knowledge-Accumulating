@@ -1,0 +1,255 @@
+{
+  "id": "5a4f5a7bc53b8e92ca0ab6680b18068529abefe01053269f279e394daee74706",
+  "skillId": "5a4f5a7bc53b8e92ca0ab6680b18068529abefe01053269f279e394daee74706",
+  "versionId": "5a4f5a7bc53b8e92ca0ab6680b18068529abefe01053269f279e394daee74706",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:54:23.166Z",
+  "approvedAt": "2026-08-12T06:54:23.166Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:54:23.166Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Ready.jpg",
+    "hash": "5a4f5a7bc53b8e92ca0ab6680b18068529abefe01053269f279e394daee74706",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Ready",
+    "artist": "Trey Songz",
+    "artworkUrl": "https://coverartarchive.org/release-group/5ce92d26-c60b-4fcf-8d0d-9c5d0d928c8c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5ce92d26-c60b-4fcf-8d0d-9c5d0d928c8c",
+    "releaseGroupId": "5ce92d26-c60b-4fcf-8d0d-9c5d0d928c8c",
+    "recordingId": "95567061-5093-41c2-9291-3dddc0d7229a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Neighbors Know My NameTrey Songz",
+      "song": "Neighbors Know My Name",
+      "performer": "Trey Songz",
+      "peakPosition": 43,
+      "firstChartDate": "2010-03-13",
+      "lastChartDate": "2010-07-24",
+      "appearances": [
+        {
+          "chartDate": "2010-03-13",
+          "position": 88
+        },
+        {
+          "chartDate": "2010-03-20",
+          "position": 72
+        },
+        {
+          "chartDate": "2010-03-27",
+          "position": 63
+        },
+        {
+          "chartDate": "2010-04-03",
+          "position": 51
+        },
+        {
+          "chartDate": "2010-04-10",
+          "position": 51
+        },
+        {
+          "chartDate": "2010-04-17",
+          "position": 58
+        },
+        {
+          "chartDate": "2010-04-24",
+          "position": 53
+        },
+        {
+          "chartDate": "2010-05-01",
+          "position": 50
+        },
+        {
+          "chartDate": "2010-05-08",
+          "position": 46
+        },
+        {
+          "chartDate": "2010-05-15",
+          "position": 43
+        },
+        {
+          "chartDate": "2010-05-22",
+          "position": 52
+        },
+        {
+          "chartDate": "2010-05-29",
+          "position": 59
+        },
+        {
+          "chartDate": "2010-06-05",
+          "position": 66
+        },
+        {
+          "chartDate": "2010-06-12",
+          "position": 75
+        },
+        {
+          "chartDate": "2010-06-19",
+          "position": 73
+        },
+        {
+          "chartDate": "2010-06-26",
+          "position": 86
+        },
+        {
+          "chartDate": "2010-07-03",
+          "position": 84
+        },
+        {
+          "chartDate": "2010-07-10",
+          "position": 87
+        },
+        {
+          "chartDate": "2010-07-17",
+          "position": 96
+        },
+        {
+          "chartDate": "2010-07-24",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast monochrome male portraiture monochrome high contrast male torso dramatic lighting vignette chiseled physique studio portrait subject to background contrast creates a halo effect around the head and shoulders top down lighting creates deep shadows in the eye sockets and under the pectoral muscles symmetrical composition focuses attention on the central vertical axis of the torso monochrome palette emphasizes texture and form over color information dramatic monochrome studio portrait high contrast b w overhead key light centered male torso vignetted gradient background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Monochrome Male Portraiture",
+      "category": "Photography",
+      "medium": [
+        "Black and white photography",
+        "Studio lighting"
+      ],
+      "useCases": [
+        "Editorial fashion spreads",
+        "Music album cover art",
+        "Fitness branding",
+        "Dramatic character studies"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "high-contrast",
+        "male torso",
+        "dramatic lighting",
+        "vignette",
+        "chiseled physique",
+        "studio portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Generates high-contrast black and white male portraits featuring dramatic top-down lighting that emphasizes muscular definition and skin texture against a clean gradient background.",
+      "triggerTerms": [
+        "high-contrast monochrome male portrait",
+        "dramatic studio lighting torso",
+        "black and white fitness photography"
+      ],
+      "excludeWhen": [
+        "full color images are requested",
+        "soft, low-contrast lighting is needed",
+        "busy or outdoor backgrounds are required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A stark black and white studio portrait of a male subject from the waist up, utilizing a strong overhead light source to create deep shadows and bright highlights that accentuate anatomical structure. The subject is centered against a light gray background that vignettes into dark corners.",
+    "coreVisualRelationships": [
+      "Subject-to-background contrast creates a halo effect around the head and shoulders",
+      "Top-down lighting creates deep shadows in the eye sockets and under the pectoral muscles",
+      "Symmetrical composition focuses attention on the central vertical axis of the torso",
+      "Monochrome palette emphasizes texture and form over color information"
+    ],
+    "coreInvariants": [
+      "High-contrast black and white tonal range",
+      "Dramatic overhead key lighting",
+      "Centered waist-up framing",
+      "Clean, gradient studio background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centrally positioned, filling approximately 70% of the vertical frame from the waist to the top of the head.",
+      "visualAnchor": "The face and upper chest serve as the primary focal point due to the highest concentration of light and detail.",
+      "movementAndEyePath": "The eye starts at the illuminated face, travels down the defined midline of the torso, and is contained by the dark vignettes at the bottom corners.",
+      "negativeSpace": "Significant negative space exists to the left and right of the head and shoulders, emphasizing the silhouette."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure black for deep shadows and background edges",
+      "contrastColorRole": "Bright white for specular highlights on skin and the center of the background",
+      "accentColorRole": "Mid-tone grays for skin texture and muscle transitions",
+      "saturationAndValueRelationship": "Zero saturation; extreme value range from 0 to 100 to maximize dramatic impact.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Vignetting",
+        "Hard-edged shadows"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white studio portrait of a muscular man from the waist up, centered against a light gray background with a dark vignette. Use dramatic overhead lighting to create deep shadows under the brow and muscles.",
+        "overlayInstruction": "If text is needed, apply clean sans-serif typography in white or light gray, positioned in the negative space around the head or across the lower third using a 'Multiply' or 'Overlay' blending mode for integration."
+      },
+      "verificationChecks": [
+        "Is the image strictly black and white?",
+        "Is the lighting coming from a high angle to define musculature?",
+        "Is the subject centered with a clear silhouette?",
+        "Is there a visible gradient/vignette in the background?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the vignette",
+      "Hardness of the shadow edges",
+      "Subject's pose (front-facing vs. slight profile)",
+      "Amount of skin texture detail"
+    ],
+    "mustRedesign": [
+      "Any color elements",
+      "Flat, even lighting",
+      "Cluttered backgrounds"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp focus on the facial features and skin texture",
+        "Deep, true blacks in the shadow areas",
+        "Clear anatomical definition through light and shadow"
+      ],
+      "avoid": [
+        "Muddiness in the gray tones",
+        "Blown-out highlights that lose skin detail",
+        "Soft-focus or hazy filters"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for anatomical accuracy in the muscle shadows",
+      "Ensure the background gradient is smooth without banding",
+      "Verify the eyes have appropriate catchlights from the overhead source"
+    ],
+    "reuseFormula": "Dramatic Monochrome Studio Portrait = (High-Contrast B&W) + (Overhead Key Light) + (Centered Male Torso) + (Vignetted Gradient Background)"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:55:14.949Z"
+}

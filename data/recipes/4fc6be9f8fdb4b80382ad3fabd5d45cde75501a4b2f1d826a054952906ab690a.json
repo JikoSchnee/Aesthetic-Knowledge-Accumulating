@@ -1,0 +1,281 @@
+{
+  "id": "4fc6be9f8fdb4b80382ad3fabd5d45cde75501a4b2f1d826a054952906ab690a",
+  "skillId": "4fc6be9f8fdb4b80382ad3fabd5d45cde75501a4b2f1d826a054952906ab690a",
+  "versionId": "4fc6be9f8fdb4b80382ad3fabd5d45cde75501a4b2f1d826a054952906ab690a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:40:23.228Z",
+  "approvedAt": "2026-08-13T00:40:23.228Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:40:23.228Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Joe.jpg",
+    "hash": "4fc6be9f8fdb4b80382ad3fabd5d45cde75501a4b2f1d826a054952906ab690a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Joe",
+    "artist": "Jerry Butler",
+    "artworkUrl": "https://coverartarchive.org/release-group/71cb6315-13e3-41dc-8634-59ff4ec992f2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/71cb6315-13e3-41dc-8634-59ff4ec992f2",
+    "releaseGroupId": "71cb6315-13e3-41dc-8634-59ff4ec992f2",
+    "recordingId": "c3abba00-ff84-4b2a-b707-f53875151ff5",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Where Are You GoingJerry Butler",
+      "song": "Where Are You Going",
+      "performer": "Jerry Butler",
+      "peakPosition": 95,
+      "firstChartDate": "1970-08-22",
+      "lastChartDate": "1970-08-22",
+      "appearances": [
+        {
+          "chartDate": "1970-08-22",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage cinematic propaganda collage 1970s aesthetic circular framing patriotic motifs gritty portraiture target overlay sans serif typography central figure framed by a large geometric circle secondary circular target graphic overlapping the primary subject diagonal tension created by the shotgun and the flag high contrast lighting on subjects against a dark background combine a central circular framed portrait with a secondary target overlaid portrait using a dark background and bold geometric sans serif typography for a 1970s cinematic aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Cinematic Propaganda Collage",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Collage"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Political Satire Posters",
+        "Retro Film Promotion"
+      ],
+      "retrievalTags": [
+        "1970s aesthetic",
+        "circular framing",
+        "patriotic motifs",
+        "gritty portraiture",
+        "target overlay",
+        "sans-serif typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A gritty 1970s-style collage featuring a central portrait within a circular frame, overlaid with symbolic elements like flags and targets, using high-contrast photography and bold sans-serif type.",
+      "triggerTerms": [
+        "70s gritty film poster style",
+        "circular portrait collage with target overlay",
+        "vintage soundtrack cover aesthetic"
+      ],
+      "excludeWhen": [
+        "modern minimalist digital art",
+        "bright pastel illustrations",
+        "clean corporate branding"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dark, textured composition centered on a man in a work jacket and hat holding a shotgun, framed by a large white circle. A secondary circular target graphic containing a woman's face is positioned at the bottom center, flanked by a small American flag. The overall tone is somber and politically charged, utilizing a muted color palette with stark white accents.",
+    "coreVisualRelationships": [
+      "Central figure framed by a large geometric circle",
+      "Secondary circular target graphic overlapping the primary subject",
+      "Diagonal tension created by the shotgun and the flag",
+      "High-contrast lighting on subjects against a dark background"
+    ],
+    "coreInvariants": [
+      "Circular framing device for the primary subject",
+      "Target reticle overlay on a secondary portrait",
+      "Muted earth tones contrasted with patriotic red, white, and blue"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Primary male figure is centered and large-scale; secondary female figure is small-scale within a target at the bottom.",
+      "visualAnchor": "The large white circular frame surrounding the main subject.",
+      "movementAndEyePath": "Eyes start at the main subject's face, move down to the target graphic, then follow the diagonal of the shotgun back up.",
+      "negativeSpace": "Heavy dark space outside the central circle and at the bottom for credits."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Dark charcoal and black for background and shadows.",
+      "contrastColorRole": "Off-white for the circular frame and typography.",
+      "accentColorRole": "Muted red and blue from the flag and hat emblem.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the white elements and dark background.",
+      "paletteRestrictions": [
+        "Avoid neon or vibrant modern colors",
+        "Limit to earth tones, black, white, and muted primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Heavy weight with tight kerning",
+        "Circular counters in display text",
+        "Uniform stroke width for body text"
+      ],
+      "characterSpecificRedesigns": [
+        "The letter 'o' in the main title is modified to include a patriotic star and stripe pattern."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Extra Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Rounded",
+            "counters": "Circular",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "Overlays the top of the circular frame"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "Medium",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "justified",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "multi-line block",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "bottom",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "Placed in the dark footer area"
+          },
+          "treatment": {
+            "fill": "off-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold, rounded display type paired with condensed, utilitarian block text.",
+      "graphicDevices": [
+        "Circular target reticle",
+        "Thin white circular border",
+        "Small flag icon"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The circular 'o' modification",
+          "The justified block of text at the bottom"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Italics"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Matches the geometric, rounded feel of the display type.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Matches the utilitarian feel of the bottom credit block.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, gritty photograph of a man in a 70s work jacket and hat holding a shotgun, framed by a large white circle on a black background. Include a small target graphic with a woman's face at the bottom center.",
+        "overlayInstruction": "Add bold, rounded sans-serif display text at the top, modifying the central 'o' with a star pattern. Add a dense block of justified uppercase sans-serif text at the bottom."
+      },
+      "verificationChecks": [
+        "Is the main subject framed by a white circle?",
+        "Is there a target graphic overlaying a secondary face?",
+        "Is the bottom text block justified and uppercase?",
+        "Is the color palette muted and high-contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject of the primary portrait",
+      "Subject within the target graphic",
+      "Specific patriotic symbols used",
+      "Density of the bottom text block"
+    ],
+    "mustRedesign": [
+      "Any specific actor likenesses",
+      "Original studio logos",
+      "Specific movie titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Gritty film grain texture",
+        "Strong geometric framing",
+        "High-contrast lighting"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Modern thin-line icons",
+        "Vibrant neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the target graphic is semi-transparent over the face.",
+      "Check that the white circular frame is perfectly centered.",
+      "Verify the display text has a heavy, rounded weight.",
+      "Confirm the bottom text is legible but densely packed."
+    ],
+    "reuseFormula": "Combine a central circular-framed portrait with a secondary target-overlaid portrait, using a dark background and bold, geometric sans-serif typography for a 1970s cinematic aesthetic."
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "id": "e1765b96e94d49e13dede17b803e1f757cb04cb8e5b7e0f2c4feab53bb819877",
+  "skillId": "e1765b96e94d49e13dede17b803e1f757cb04cb8e5b7e0f2c4feab53bb819877",
+  "versionId": "e1765b96e94d49e13dede17b803e1f757cb04cb8e5b7e0f2c4feab53bb819877",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:23:12.827Z",
+  "approvedAt": "2026-08-13T05:23:12.827Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:23:12.827Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Nightfall.jpg",
+    "hash": "e1765b96e94d49e13dede17b803e1f757cb04cb8e5b7e0f2c4feab53bb819877",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Nightfall",
+    "artist": "Little Big Town",
+    "artworkUrl": "https://coverartarchive.org/release-group/05358d56-89e7-4a46-a491-196179efbeb0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/05358d56-89e7-4a46-a491-196179efbeb0",
+    "releaseGroupId": "05358d56-89e7-4a46-a491-196179efbeb0",
+    "recordingId": "b0ea63e7-f02d-4b36-8707-cc4b082a8b5a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Wine, Beer, WhiskeyLittle Big Town",
+      "song": "Wine, Beer, Whiskey",
+      "performer": "Little Big Town",
+      "peakPosition": 100,
+      "firstChartDate": "2020-11-07",
+      "lastChartDate": "2020-11-07",
+      "appearances": [
+        {
+          "chartDate": "2020-11-07",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "nocturnal celestial portrait starry sky night photography wide angle portrait cinematic lighting copper border serif typography long exposure scale contrast between small human figures and the expansive celestial sky color temperature shift from cool deep blue to warm orange horizon symmetrical framing using a double border system vertical hierarchy with text floating in the upper atmospheric space wide angle nocturnal landscape starry sky dominance centered wide tracked serif typography double border framing",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Nocturnal Celestial Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Cinematic Poster Design",
+        "Atmospheric Editorial Layouts"
+      ],
+      "retrievalTags": [
+        "starry sky",
+        "night photography",
+        "wide angle portrait",
+        "cinematic lighting",
+        "copper border",
+        "serif typography",
+        "long exposure"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A cinematic group portrait set against a vast, starry night sky with a warm horizon glow and a thick, framed border.",
+      "triggerTerms": [
+        "starry night group portrait",
+        "cinematic nocturnal landscape",
+        "wide-spaced serif typography over stars"
+      ],
+      "excludeWhen": [
+        "daylight scenes",
+        "minimalist white backgrounds",
+        "close-up headshots"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A wide-angle nocturnal scene featuring a group of figures standing in a dark field. The upper two-thirds of the frame is dominated by a deep blue starry sky that transitions into a warm, orange-hued horizon on the right. The entire image is encased in a thin copper-colored inner frame and a thick black outer border, with centered, widely-tracked serif text at the top.",
+    "coreVisualRelationships": [
+      "Scale contrast between small human figures and the expansive celestial sky",
+      "Color temperature shift from cool deep blue to warm orange horizon",
+      "Symmetrical framing using a double-border system",
+      "Vertical hierarchy with text floating in the upper atmospheric space"
+    ],
+    "coreInvariants": [
+      "A starry sky occupying at least 60% of the vertical composition",
+      "A thin, contrasting inner border separating the image from a thick outer margin",
+      "Extreme letter-spacing on all display typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Figures are positioned in the lower third, appearing small against the landscape to emphasize scale.",
+      "visualAnchor": "The central group of figures provides the grounding anchor for the composition.",
+      "movementAndEyePath": "The eye starts at the large display text, moves down through the stars to the figures, and finally to the horizon glow.",
+      "negativeSpace": "Extensive negative space provided by the dark sky and the thick black outer border."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep midnight blue and black (background and borders)",
+      "contrastColorRole": "Warm orange and copper (horizon glow and inner frame)",
+      "accentColorRole": "Muted teal and terracotta (typography colors)",
+      "saturationAndValueRelationship": "High value contrast between the bright stars/horizon and the dark foreground/sky.",
+      "paletteRestrictions": [
+        "Deep blues",
+        "Burnt orange",
+        "Copper",
+        "Black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman serif",
+      "letterConstructionRules": [
+        "High-contrast strokes",
+        "Sharp, bracketed serifs",
+        "Open counters",
+        "Extreme horizontal tracking"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "transitional-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "medium-high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "pointed",
+            "counters": "large",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "0.5em",
+            "leading": "1.2em",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaying-sky"
+          },
+          "treatment": {
+            "fill": "muted-teal",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "square",
+            "counters": "tight",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "0.2em",
+            "leading": "1.0em",
+            "lineBreakPattern": "single-line",
+            "density": "moderate"
+          },
+          "composition": {
+            "position": "below-display",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaying-sky"
+          },
+          "treatment": {
+            "fill": "terracotta",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for the title paired with a sturdier, smaller slab-serif for secondary information.",
+      "graphicDevices": [
+        "Thin rectangular inner frame",
+        "Thick solid outer border"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extreme tracking",
+          "Uppercase styling",
+          "Serif classification"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "Tight kerning"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cinzel",
+            "reason": "Matches the classical Roman serif feel and elegant proportions.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Trajan",
+            "reason": "Provides the cinematic, authoritative uppercase look.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a wide-angle night landscape with a group of four people in the lower third. The sky should be filled with stars, with a warm orange glow on the right horizon. Add a thin copper border around the image and a thick black margin outside that.",
+        "overlayInstruction": "Add uppercase serif text in the top center of the sky area. Use extreme tracking (wide spacing). The primary title should be in a light teal color, and the secondary text below it in a terracotta color."
+      },
+      "verificationChecks": [
+        "Is the tracking on the text extremely wide?",
+        "Is there a clear color transition from blue to orange in the sky?",
+        "Are the figures small in scale relative to the sky?",
+        "Is the double-border (thin inner, thick outer) present?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the horizon glow",
+      "Density of the star field",
+      "Thickness of the outer black border",
+      "Color of the inner frame"
+    ],
+    "mustRedesign": [
+      "Do not use modern sans-serif fonts",
+      "Do not place text in the lower half of the image",
+      "Do not use bright, saturated primary colors"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic scale",
+        "Atmospheric depth",
+        "Elegant typographic spacing"
+      ],
+      "avoid": [
+        "Cluttered foregrounds",
+        "Low-contrast text",
+        "Casual or handwritten fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that text is perfectly centered horizontally",
+      "Ensure the copper border is a consistent thin weight",
+      "Verify the sky occupies the majority of the frame",
+      "Confirm the color palette remains moody and nocturnal"
+    ],
+    "reuseFormula": "Wide-angle nocturnal landscape + Starry sky dominance + Centered wide-tracked serif typography + Double-border framing."
+  }
+}

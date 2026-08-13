@@ -1,0 +1,302 @@
+{
+  "id": "7469feb69231bde76355cc2855c27e1e85d087ae58c527452ad4090152c05fd0",
+  "skillId": "7469feb69231bde76355cc2855c27e1e85d087ae58c527452ad4090152c05fd0",
+  "versionId": "7469feb69231bde76355cc2855c27e1e85d087ae58c527452ad4090152c05fd0",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:39:32.360Z",
+  "approvedAt": "2026-08-12T09:39:32.360Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:39:32.360Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Happiness Is Dean Martin.jpg",
+    "hash": "7469feb69231bde76355cc2855c27e1e85d087ae58c527452ad4090152c05fd0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Happiness Is Dean Martin",
+    "artist": "Dean Martin",
+    "artworkUrl": "https://coverartarchive.org/release-group/dc491330-0365-4ae5-8c7a-3db498e46d76/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/dc491330-0365-4ae5-8c7a-3db498e46d76",
+    "releaseGroupId": "dc491330-0365-4ae5-8c7a-3db498e46d76",
+    "recordingId": "5cacf165-2d69-4615-a0a9-c251aec0a1aa",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Nobody's Baby AgainDean Martin",
+      "song": "Nobody's Baby Again",
+      "performer": "Dean Martin",
+      "peakPosition": 60,
+      "firstChartDate": "1966-10-08",
+      "lastChartDate": "1966-11-12",
+      "appearances": [
+        {
+          "chartDate": "1966-10-08",
+          "position": 88
+        },
+        {
+          "chartDate": "1966-10-15",
+          "position": 87
+        },
+        {
+          "chartDate": "1966-10-22",
+          "position": 72
+        },
+        {
+          "chartDate": "1966-10-29",
+          "position": 60
+        },
+        {
+          "chartDate": "1966-11-05",
+          "position": 60
+        },
+        {
+          "chartDate": "1966-11-12",
+          "position": 62
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century crooner album cover 1960s tuxedo speech bubble typography slab serif low key lighting kitsch subject in profile facing right toward secondary object typography contained within a hand drawn speech bubble outline high contrast between white shirt text and dark background stacked text hierarchy with varied font weights take a subject in formal wear in profile view add a kitschy prop and overlay stacked slab serif typography inside a speech bubble using low key lighting",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Crooner Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Offset Printing",
+        "Graphic Layout"
+      ],
+      "useCases": [
+        "Vintage record sleeve design",
+        "Retro entertainment marketing",
+        "Mid-century celebrity portraiture"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "tuxedo",
+        "speech bubble typography",
+        "slab serif",
+        "low-key lighting",
+        "kitsch"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1960s-style album cover featuring a low-key profile portrait of a male vocalist in formal wear paired with a kitschy prop and heavy slab-serif typography inside a speech bubble.",
+      "triggerTerms": [
+        "vintage crooner album cover",
+        "1960s record sleeve aesthetic",
+        "tuxedo profile portrait with speech bubble"
+      ],
+      "excludeWhen": [
+        "modern minimalist design",
+        "bright high-key lighting",
+        "sans-serif digital typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A side-profile portrait of a man in a black tuxedo and white shirt, looking toward a small doll or child figure held in his hands. The background is dark and indistinct, focusing attention on the subjects through dramatic side-lighting. A graphic speech bubble in the upper right quadrant contains bold, stacked typography.",
+    "coreVisualRelationships": [
+      "Subject in profile facing right toward secondary object",
+      "Typography contained within a hand-drawn speech bubble outline",
+      "High contrast between white shirt/text and dark background",
+      "Stacked text hierarchy with varied font weights"
+    ],
+    "coreInvariants": [
+      "Low-key lighting with deep shadows",
+      "Formal evening wear (tuxedo and bow tie)",
+      "Speech bubble graphic device"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Primary male figure occupies the left two-thirds of the frame in a medium close-up profile; secondary object is held in the lower right.",
+      "visualAnchor": "The bright white shirt and collar of the tuxedo.",
+      "movementAndEyePath": "From the man's face on the left, following his gaze to the doll on the right, then upward to the speech bubble text.",
+      "negativeSpace": "Heavy dark negative space in the upper left and background to emphasize the lit contours of the face."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black and dark brown (background and tuxedo)",
+      "contrastColorRole": "Bright white (shirt, text, and doll's clothing)",
+      "accentColorRole": "Muted red and green (doll's dress and text shadow)",
+      "saturationAndValueRelationship": "High value contrast with generally low saturation, typical of mid-century color film.",
+      "paletteRestrictions": [
+        "Limited palette of black, white, and primary accents"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif and high-contrast serif",
+      "letterConstructionRules": [
+        "Display text uses ultra-bold slab serifs with thick blocky terminals",
+        "Secondary text uses high-contrast transitional serifs",
+        "Tight letter spacing (tracking)"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "ultra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt slabs",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "consistent thickness"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in speech bubble"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "red drop shadow",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "ball terminals",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "above display text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in speech bubble"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy slab serif for impact paired with a softer, high-contrast serif for narrative context.",
+      "graphicDevices": [
+        "Hand-drawn thin-line speech bubble with a 'tail' pointing to the secondary subject"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif weight",
+          "Speech bubble container",
+          "Stacked layout"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Italics",
+          "Glow effects"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab-serif display style",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Clarendon",
+            "reason": "Classic mid-century slab serif feel",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Century Schoolbook",
+            "reason": "Appropriate for the high-contrast secondary serif text",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-key studio portrait of a man in a black tuxedo and white shirt in profile, looking at a small vintage doll held in his hands against a dark, shadowy background.",
+        "overlayInstruction": "Add a thin white-outlined speech bubble in the upper right. Inside, stack two lines of bold white slab-serif text with a red drop shadow on the bottom line, and one line of smaller white serif text above it."
+      },
+      "verificationChecks": [
+        "Is the man in a clear side profile?",
+        "Is the lighting high-contrast/low-key?",
+        "Is the text contained within a speech bubble?",
+        "Is the main text a heavy slab-serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's expression",
+      "Color of the drop shadow",
+      "Complexity of the speech bubble shape"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the celebrity",
+      "Exact brand logos",
+      "Original album title text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s film grain and lighting",
+        "Tight, heavy typographic lockup",
+        "Clear visual narrative between man and object"
+      ],
+      "avoid": [
+        "Digital sharpness",
+        "Modern flat design icons",
+        "Neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the speech bubble tail points toward the doll/subject",
+      "Check that the slab-serif text is significantly bolder than the serif text",
+      "Verify the low-key lighting doesn't lose all detail in the tuxedo"
+    ],
+    "reuseFormula": "Take a [Subject in Formal Wear] in [Profile View], add a [Kitschy Prop], and overlay [Stacked Slab-Serif Typography] inside a [Speech Bubble] using [Low-Key Lighting]."
+  }
+}

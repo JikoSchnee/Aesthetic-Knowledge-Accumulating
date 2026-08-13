@@ -1,0 +1,243 @@
+{
+  "id": "97e6da9e8ed2120077fbf26a50b73c65496e166c710b68644e4c55be38045ce4",
+  "skillId": "97e6da9e8ed2120077fbf26a50b73c65496e166c710b68644e4c55be38045ce4",
+  "versionId": "97e6da9e8ed2120077fbf26a50b73c65496e166c710b68644e4c55be38045ce4",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:47:23.140Z",
+  "approvedAt": "2026-08-12T09:47:23.140Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:47:23.140Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Charice.jpg",
+    "hash": "97e6da9e8ed2120077fbf26a50b73c65496e166c710b68644e4c55be38045ce4",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Charice",
+    "artist": "Charice",
+    "artworkUrl": "https://coverartarchive.org/release-group/3365a425-ff21-4846-8fac-70956b703fe7/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3365a425-ff21-4846-8fac-70956b703fe7",
+    "releaseGroupId": "3365a425-ff21-4846-8fac-70956b703fe7",
+    "recordingId": "91cc1ad5-0343-431d-bdf5-dc9544745584",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Note To GodCharice",
+      "song": "Note To God",
+      "performer": "Charice",
+      "peakPosition": 44,
+      "firstChartDate": "2009-06-06",
+      "lastChartDate": "2009-06-06",
+      "appearances": [
+        {
+          "chartDate": "2009-06-06",
+          "position": 44
+        }
+      ]
+    }
+  },
+  "dedupeText": "vibrant pop portrait with script overlay high key lighting bucket hat surprised expression script typography orange accent studio portrait subject s face as the central focal point orange hat echoing the color of the typographic fill symmetrical hand placement framing the jawline text overlay integrated into the lower foreground high key studio portrait vibrant accessory subject expression script nameplate overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vibrant Pop Portrait with Script Overlay",
+      "category": "Commercial Portrait Photography",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Social Media Profile",
+        "Promotional Poster",
+        "Artist Branding"
+      ],
+      "retrievalTags": [
+        "high-key lighting",
+        "bucket hat",
+        "surprised expression",
+        "script typography",
+        "orange accent",
+        "studio portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "High-key studio portrait featuring a central subject with a bright accent accessory and a stylized script nameplate overlay in the lower third.",
+      "triggerTerms": [
+        "bright studio portrait with orange bucket hat",
+        "surprised expression high-key photography",
+        "script overlay on lower third portrait"
+      ],
+      "excludeWhen": [
+        "moody or low-light photography is requested",
+        "minimalist composition without text is needed",
+        "full-body shots are required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up, high-key studio portrait of a young woman with a joyful, surprised expression, wearing a bright orange bucket hat. Her hands frame her face, and a stylized, outlined script name is positioned across the lower chest area against a clean white background.",
+    "coreVisualRelationships": [
+      "Subject's face as the central focal point",
+      "Orange hat echoing the color of the typographic fill",
+      "Symmetrical hand placement framing the jawline",
+      "Text overlay integrated into the lower foreground"
+    ],
+    "coreInvariants": [
+      "High-key white background",
+      "Bright orange accessory",
+      "Open-mouthed joyful expression",
+      "Script typography with white outline"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered close-up, head and shoulders filling the majority of the frame.",
+      "visualAnchor": "The subject's open mouth and eyes form the primary anchor.",
+      "movementAndEyePath": "From the bright orange hat down to the eyes, following the hands to the typographic nameplate at the bottom.",
+      "negativeSpace": "Pure white background surrounding the subject's head and shoulders."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (background and clothing)",
+      "contrastColorRole": "Orange (hat and text fill)",
+      "accentColorRole": "Brown/Black (hair and eyes)",
+      "saturationAndValueRelationship": "High value, high saturation for the orange elements against a neutral white base.",
+      "paletteRestrictions": [
+        "Limit to white, orange, and natural skin/hair tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Fluid, upright casual script",
+      "letterConstructionRules": [
+        "Consistent stroke weight",
+        "Disconnected characters with script-like terminals",
+        "Strong white outer stroke for legibility against clothing"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'i' with a circular dot",
+        "Open loops on 'a' and 'e'"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "medium",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "monolinear script"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "open"
+          },
+          "composition": {
+            "position": "lower-third center",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "subject-foreground",
+            "relationshipToImage": "floating over chest"
+          },
+          "treatment": {
+            "fill": "orange",
+            "outline": "thick white",
+            "shadow": "soft drop shadow",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single decorative script for branding focus.",
+      "graphicDevices": [
+        "Thick white stroke around letters",
+        "Subtle drop shadow for depth"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Script style",
+          "Orange fill",
+          "White outline"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Hard geometric sans-serifs",
+          "Neon colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Grand Hotel",
+            "reason": "Similar upright script feel with clear legibility",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Pacifico",
+            "reason": "Casual, friendly script with similar weight",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key studio portrait of a young woman with a surprised, happy expression, wearing a bright orange bucket hat and a white ruffled top, hands framing her face, against a pure white background.",
+        "overlayInstruction": "Add a large script name in the lower third using an orange fill, a thick white outline, and a subtle drop shadow."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Is the hat a vibrant orange?",
+        "Does the text have a visible white outline?",
+        "Is the subject's expression joyful and surprised?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Hat color",
+      "Text content",
+      "Subject ethnicity",
+      "Typography stroke thickness"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original subject",
+      "Exact brand logos if present",
+      "Specific ring design"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean studio lighting",
+        "Sharp focus on eyes",
+        "Legible typography overlay"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Muted colors",
+        "Aggressive shadows"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for clean separation between subject and white background",
+      "Ensure the orange of the hat and text are harmonious",
+      "Verify the script font is legible despite the outline",
+      "Confirm the 'surprised' expression looks natural and energetic"
+    ],
+    "reuseFormula": "High-key studio portrait + [Vibrant Accessory] + [Subject Expression] + [Script Nameplate Overlay]"
+  }
+}

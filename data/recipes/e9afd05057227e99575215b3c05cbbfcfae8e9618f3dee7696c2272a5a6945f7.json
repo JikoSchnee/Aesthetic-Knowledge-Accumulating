@@ -1,0 +1,269 @@
+{
+  "id": "e9afd05057227e99575215b3c05cbbfcfae8e9618f3dee7696c2272a5a6945f7",
+  "skillId": "e9afd05057227e99575215b3c05cbbfcfae8e9618f3dee7696c2272a5a6945f7",
+  "versionId": "e9afd05057227e99575215b3c05cbbfcfae8e9618f3dee7696c2272a5a6945f7",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:43:47.002Z",
+  "approvedAt": "2026-08-12T06:43:47.002Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:43:47.002Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Cycles.jpg",
+    "hash": "e9afd05057227e99575215b3c05cbbfcfae8e9618f3dee7696c2272a5a6945f7",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Cycles",
+    "artist": "Frank Sinatra",
+    "artworkUrl": "https://coverartarchive.org/release-group/fabc3a19-0d1a-3ea8-a64c-c3eb5a3f6a3f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/fabc3a19-0d1a-3ea8-a64c-c3eb5a3f6a3f",
+    "releaseGroupId": "fabc3a19-0d1a-3ea8-a64c-c3eb5a3f6a3f",
+    "recordingId": "bea26425-51e2-4250-98c0-5bb7e921cd1b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "My Way Of LifeFrank Sinatra",
+      "song": "My Way Of Life",
+      "performer": "Frank Sinatra",
+      "peakPosition": 64,
+      "firstChartDate": "1968-08-31",
+      "lastChartDate": "1968-10-05",
+      "appearances": [
+        {
+          "chartDate": "1968-08-31",
+          "position": 78
+        },
+        {
+          "chartDate": "1968-09-07",
+          "position": 78
+        },
+        {
+          "chartDate": "1968-09-14",
+          "position": 71
+        },
+        {
+          "chartDate": "1968-09-21",
+          "position": 71
+        },
+        {
+          "chartDate": "1968-09-28",
+          "position": 64
+        },
+        {
+          "chartDate": "1968-10-05",
+          "position": 70
+        }
+      ]
+    }
+  },
+  "dedupeText": "melancholic mid century minimalist album cover mid century modern geometric sans serif framed photography melancholic portrait black background hairline typography text to image vertical stacking high contrast black field vs framed color photo geometric precision of type vs organic texture of photo overlapping letterforms creating a rhythmic pattern solid black field centered framed photo hairline geometric sans serif stacked with overlap",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Melancholic Mid-Century Minimalist Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typography"
+      ],
+      "useCases": [
+        "Jazz album art",
+        "Vintage editorial layout",
+        "Poster design"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "geometric sans-serif",
+        "framed photography",
+        "melancholic portrait",
+        "black background",
+        "hairline typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A stark black layout featuring a small, white-bordered central photograph topped by ultra-thin, overlapping geometric sans-serif typography.",
+      "triggerTerms": [
+        "hairline geometric sans-serif typography",
+        "framed central portrait on black background",
+        "overlapping thin letters",
+        "1960s minimalist album aesthetic"
+      ],
+      "excludeWhen": [
+        "maximalist designs",
+        "bright colorful backgrounds",
+        "heavy bold fonts",
+        "full-bleed photography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A minimalist composition defined by a large black field containing a central, white-framed vertical photograph of a man in a suit, positioned below two tiers of extremely thin, gold-toned geometric sans-serif text that overlaps vertically.",
+    "coreVisualRelationships": [
+      "Text-to-image vertical stacking",
+      "High-contrast black field vs. framed color photo",
+      "Geometric precision of type vs. organic texture of photo",
+      "Overlapping letterforms creating a rhythmic pattern"
+    ],
+    "coreInvariants": [
+      "Solid black background",
+      "Thin white border around the image",
+      "Hairline stroke weight for all text",
+      "Vertical overlap between the two lines of text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central vertical rectangle occupying approximately 40% of the height.",
+      "visualAnchor": "The central framed photograph acts as the primary weight, while the large text acts as the header.",
+      "movementAndEyePath": "Top-down flow from the smaller name to the large title, then resting on the framed portrait.",
+      "negativeSpace": "Extensive black negative space surrounding all elements, creating a sense of isolation."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Solid black background providing high contrast.",
+      "contrastColorRole": "White for the photo border and upper text.",
+      "accentColorRole": "Muted gold/ochre for the large display text.",
+      "saturationAndValueRelationship": "Low-saturation, warm-toned photograph contrasting with the flat, deep black field.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Gold",
+        "Muted earth tones in photo"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric sans-serif with circular 'O' and 'C' forms.",
+      "letterConstructionRules": [
+        "Extremely thin (hairline) stroke weight",
+        "Perfectly circular curves",
+        "Sharp, unadorned terminals",
+        "Tight tracking with vertical overlap"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'Y' has a deep descent that overlaps the line below",
+        "The 'L' and 'E' have long horizontal bars"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Hairline",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Large/Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Extremely tight/Overlapping",
+            "lineBreakPattern": "Single word",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Upper third",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Vertical overlap with line above",
+            "relationshipToImage": "Stacked above"
+          },
+          "treatment": {
+            "fill": "Muted Gold",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Solid",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in two different scales and colors.",
+      "graphicDevices": [
+        "Thin white rectangular frame",
+        "Vertical stacking"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Hairline weight",
+          "Geometric circularity",
+          "Vertical overlap"
+        ],
+        "avoid": [
+          "Serifs",
+          "Bold weights",
+          "Wide tracking"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic Extra Light",
+            "reason": "Captures the geometric 1960s aesthetic and circular forms.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Hairline",
+            "reason": "Provides the necessary geometric precision and thin stroke.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a solid black canvas. In the center, place a vertical rectangular photograph with a thin white border. The photo should feature a man in a dark suit in a pensive or melancholic pose within a textured, indoor setting.",
+        "overlayInstruction": "Add two lines of centered, uppercase geometric sans-serif text above the photo. The top line should be white and small. The second line should be large, gold-toned, and positioned so its top edge overlaps the bottom of the first line."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Is the text stroke weight extremely thin?",
+        "Does the large text overlap the line above it?",
+        "Is there a thin white border around the central image?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Image content",
+      "Text color (gold vs white)",
+      "Amount of vertical overlap"
+    ],
+    "mustRedesign": [
+      "Specific artist name",
+      "Specific album title",
+      "Exact photographic likeness"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Perfectly centered alignment",
+        "Hairline typographic elegance",
+        "High-contrast minimalist layout"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Thick borders",
+        "Distorted fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text is perfectly centered horizontally.",
+      "Check that the white border around the photo is uniform and thin.",
+      "Verify that the 'Y' or other descenders in the top line interact with the bottom line.",
+      "Confirm the black background is solid and noise-free."
+    ],
+    "reuseFormula": "Solid black field + centered framed photo + hairline geometric sans-serif stacked with overlap."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:55:23.673Z"
+}

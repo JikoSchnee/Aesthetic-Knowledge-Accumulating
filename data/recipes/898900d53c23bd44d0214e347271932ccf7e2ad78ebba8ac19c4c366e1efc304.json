@@ -1,0 +1,277 @@
+{
+  "id": "898900d53c23bd44d0214e347271932ccf7e2ad78ebba8ac19c4c366e1efc304",
+  "skillId": "898900d53c23bd44d0214e347271932ccf7e2ad78ebba8ac19c4c366e1efc304",
+  "versionId": "898900d53c23bd44d0214e347271932ccf7e2ad78ebba8ac19c4c366e1efc304",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:17:40.476Z",
+  "approvedAt": "2026-08-13T05:17:40.476Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:17:40.476Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Back to the 70's.jpg",
+    "hash": "898900d53c23bd44d0214e347271932ccf7e2ad78ebba8ac19c4c366e1efc304",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Back to the 70's",
+    "artist": "Chic",
+    "artworkUrl": "https://coverartarchive.org/release-group/5e8067da-a1dc-4ad1-99e2-a5b492531b50/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/5e8067da-a1dc-4ad1-99e2-a5b492531b50",
+    "releaseGroupId": "5e8067da-a1dc-4ad1-99e2-a5b492531b50",
+    "recordingId": "ed15654f-4a84-4257-b1c4-3e097ee9ec45",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "My Forbidden LoverChic",
+      "song": "My Forbidden Lover",
+      "performer": "Chic",
+      "peakPosition": 43,
+      "firstChartDate": "1979-10-06",
+      "lastChartDate": "1979-12-01",
+      "appearances": [
+        {
+          "chartDate": "1979-10-06",
+          "position": 82
+        },
+        {
+          "chartDate": "1979-10-13",
+          "position": 72
+        },
+        {
+          "chartDate": "1979-10-20",
+          "position": 60
+        },
+        {
+          "chartDate": "1979-10-27",
+          "position": 49
+        },
+        {
+          "chartDate": "1979-11-03",
+          "position": 43
+        },
+        {
+          "chartDate": "1979-11-10",
+          "position": 43
+        },
+        {
+          "chartDate": "1979-11-17",
+          "position": 67
+        },
+        {
+          "chartDate": "1979-11-24",
+          "position": 94
+        },
+        {
+          "chartDate": "1979-12-01",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro duotone pop graphic duotone 70s retro bold sans serif split color background cyan and magenta vintage fashion horizontal bisecting line between cyan and magenta fields subject s pose spans both color zones typography anchored to the horizontal color transition high contrast between white text and saturated background subject person in 70s attire color cyan magenta horizontal split duotone typography centered white ultra bold geometric sans serif",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Duotone Pop Graphic",
+      "category": "Graphic Design",
+      "medium": [
+        "Digital Photography",
+        "Duotone Filter",
+        "Vector Typography"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Retro Event Poster",
+        "Social Media Banner",
+        "Music Playlist Thumbnail"
+      ],
+      "retrievalTags": [
+        "duotone",
+        "70s retro",
+        "bold sans-serif",
+        "split color background",
+        "cyan and magenta",
+        "vintage fashion"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast duotone composition featuring a central figure split horizontally between two vibrant color fields with heavy, overlapping sans-serif typography.",
+      "triggerTerms": [
+        "cyan and magenta duotone",
+        "split color retro poster",
+        "bold overlapping 70s typography"
+      ],
+      "excludeWhen": [
+        "natural skin tones are required",
+        "minimalist thin typography is requested",
+        "monochromatic single-color designs"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition featuring a woman in 1970s attire, rendered in a duotone style. The top half of the image is cyan-tinted, while the bottom half is magenta-tinted. Large, white, ultra-bold sans-serif text is centered horizontally, overlapping the color boundary.",
+    "coreVisualRelationships": [
+      "Horizontal bisecting line between cyan and magenta fields",
+      "Subject's pose spans both color zones",
+      "Typography anchored to the horizontal color transition",
+      "High contrast between white text and saturated background"
+    ],
+    "coreInvariants": [
+      "Horizontal split-screen duotone color mapping",
+      "Ultra-heavy geometric sans-serif typeface",
+      "Centralized human subject in period-specific clothing"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium shot of a female figure, centered, filling approximately 80% of the vertical frame.",
+      "visualAnchor": "The horizontal line dividing the cyan and magenta sections.",
+      "movementAndEyePath": "Eyes start at the subject's face in the cyan zone, move down to the bold white text, and follow the diagonal lines of the subject's sleeves.",
+      "negativeSpace": "Minimal; the subject and large-scale typography occupy most of the frame."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cyan (top half) and Magenta (bottom half) as primary duotone filters.",
+      "contrastColorRole": "White for all typographic elements.",
+      "accentColorRole": "Deep navy/black for shadows and hair details within the duotone mapping.",
+      "saturationAndValueRelationship": "High saturation with crushed blacks and bright white highlights.",
+      "paletteRestrictions": [
+        "Cyan",
+        "Magenta",
+        "White",
+        "Black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Extra Bold Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight kerning with occasional character overlap",
+        "Flat terminals",
+        "Large x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "The '7' features a sharp, straight diagonal",
+        "The '0' is a perfect geometric circle"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Ultra-Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Small/Closed",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Center",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Characters slightly touch",
+            "relationshipToImage": "Overlays the subject at the waist/chest level"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in varying scales for primary and secondary text.",
+      "graphicDevices": [
+        "Horizontal color split",
+        "Duotone image processing"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ultra-bold weight",
+          "Geometric construction",
+          "White color"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Matches the geometric '0' and sharp '7' construction.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham Ultra",
+            "reason": "Provides the necessary weight and modern-retro feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a medium shot of a person in 70s fashion. Apply a horizontal split duotone filter: cyan on the top half and magenta on the bottom half. Ensure high contrast with deep blacks.",
+        "overlayInstruction": "Add large, centered, white geometric sans-serif text in all caps. Position the text so it sits directly on the color split line."
+      },
+      "verificationChecks": [
+        "Is the color split perfectly horizontal?",
+        "Is the text ultra-bold and white?",
+        "Does the subject appear in a duotone style?",
+        "Is the font geometric sans-serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color pair (e.g., Yellow/Blue instead of Cyan/Magenta)",
+      "Subject pose",
+      "Text content",
+      "Font weight"
+    ],
+    "mustRedesign": [
+      "Avoid using thin or serif fonts",
+      "Do not use natural skin tones",
+      "Ensure the text is not transparent"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast duotone effect",
+        "Perfect horizontal color alignment",
+        "Heavy typographic presence"
+      ],
+      "avoid": [
+        "Low-resolution textures",
+        "Muted or pastel colors",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for color bleed across the horizontal split",
+      "Verify text legibility against the background",
+      "Ensure the subject's features are visible through the duotone filter",
+      "Confirm the font matches the geometric ultra-bold style"
+    ],
+    "reuseFormula": "Subject [Person in 70s attire] + Color [Cyan/Magenta Horizontal Split Duotone] + Typography [Centered White Ultra-Bold Geometric Sans-Serif]"
+  }
+}

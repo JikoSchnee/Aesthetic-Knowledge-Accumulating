@@ -1,0 +1,164 @@
+{
+  "id": "68095b28ab2c2883b852dcbfb059a7fd59e969462cfd54bf2940d272ac715f3e",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:48:58.601Z",
+  "approvedAt": "2026-08-11T08:48:58.601Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:48:58.601Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Dawn FM.jpg",
+    "hash": "68095b28ab2c2883b852dcbfb059a7fd59e969462cfd54bf2940d272ac715f3e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Dawn FM",
+    "artist": "The Weeknd",
+    "artworkUrl": "https://coverartarchive.org/release-group/3344452a-3da9-4b4f-8954-ae23a86c2ecf/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3344452a-3da9-4b4f-8954-ae23a86c2ecf",
+    "releaseGroupId": "3344452a-3da9-4b4f-8954-ae23a86c2ecf",
+    "recordingId": "c6024381-284f-4dbc-a947-defea79eccfe",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Best FriendsThe Weeknd",
+      "song": "Best Friends",
+      "performer": "The Weeknd",
+      "peakPosition": 60,
+      "firstChartDate": "2022-01-22",
+      "lastChartDate": "2022-01-22",
+      "appearances": [
+        {
+          "chartDate": "2022-01-22",
+          "position": 60
+        }
+      ]
+    }
+  },
+  "dedupeText": "aged noir portraiture chiaroscuro aged makeup cyan lighting textured hair melancholy dark background cyan highlights vs deep black shadows textured grey hair vs smooth dark clothing intense eye contact vs somber facial expression warm rim light vs cool primary key light portrait chiaroscuro cyan top light amber rim light aged texture black void",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Aged Noir Portraiture",
+      "category": "Photography",
+      "medium": [
+        "Cinematic Photography",
+        "Digital Portraiture",
+        "High-Contrast Lighting"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Character Study",
+        "Theatrical Poster",
+        "Editorial Portrait"
+      ],
+      "retrievalTags": [
+        "chiaroscuro",
+        "aged makeup",
+        "cyan lighting",
+        "textured hair",
+        "melancholy",
+        "dark background"
+      ]
+    },
+    "visualDefinition": "A tight, high-contrast headshot of a man with hyper-realistic aged features, characterized by a cool cyan top-down light and a warm, subtle amber rim light against a void-like black background.",
+    "coreVisualRelationships": [
+      "Cyan highlights vs. deep black shadows",
+      "Textured grey hair vs. smooth dark clothing",
+      "Intense eye contact vs. somber facial expression",
+      "Warm rim light vs. cool primary key light"
+    ],
+    "coreInvariants": [
+      "Pitch black background",
+      "Cyan-tinted top lighting",
+      "Hyper-detailed skin texture and wrinkles",
+      "Salt-and-pepper afro-textured hair and beard"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centrally framed head and shoulders, filling approximately 70% of the vertical space.",
+      "visualAnchor": "The subject's eyes, positioned slightly above the horizontal midline.",
+      "movementAndEyePath": "Light catches the top of the hair, draws down to the eyes, and follows the beard line to the subtle amber rim light on the right shoulder.",
+      "negativeSpace": "Total black negative space surrounding the subject, emphasizing isolation."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black (shadows and background)",
+      "contrastColorRole": "Cyan/Cool Blue (key light and highlights)",
+      "accentColorRole": "Amber/Warm Yellow (subtle rim light on the lower right)",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "No bright primary colors",
+        "No mid-tone backgrounds",
+        "Strictly limited to cyan, amber, and grayscale"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Heavy film grain",
+        "Chiaroscuro lighting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-detail portrait of an aged man with a grey afro and beard. Use a single cyan light source from above and a faint amber rim light from the side. Set against a pure black background with visible skin pores and wrinkles.",
+        "overlayInstruction": "If adding text, use a minimalist, thin sans-serif font in a muted grey or cyan, placed in the lower third to avoid obscuring the face."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Is the primary light source cyan?",
+        "Is the skin texture hyper-realistic?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the cyan tint",
+      "Density of the beard and hair texture",
+      "Prominence of the amber rim light",
+      "Degree of facial aging/wrinkles"
+    ],
+    "mustRedesign": [
+      "Avoid any flat lighting",
+      "Do not use colorful backgrounds",
+      "Ensure the eyes are not lost in shadow"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic depth",
+        "Tactile texture in hair and skin",
+        "Dramatic shadow fall-off"
+      ],
+      "avoid": [
+        "Soft-focus filters",
+        "Cartoonish aging effects",
+        "Balanced three-point lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for cyan color cast on the hair highlights.",
+      "Verify the presence of the subtle amber light on the neck/shoulder.",
+      "Ensure the background is #000000 black.",
+      "Confirm the expression is somber and weary."
+    ],
+    "reuseFormula": "Portrait + Chiaroscuro + Cyan Top Light + Amber Rim Light + Aged Texture + Black Void"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T09:06:49.825Z"
+}

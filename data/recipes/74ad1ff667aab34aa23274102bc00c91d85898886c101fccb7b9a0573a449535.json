@@ -1,0 +1,306 @@
+{
+  "id": "74ad1ff667aab34aa23274102bc00c91d85898886c101fccb7b9a0573a449535",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:15:13.398Z",
+  "approvedAt": "2026-08-11T22:15:13.398Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:15:13.398Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "In Another World.jpg",
+    "hash": "74ad1ff667aab34aa23274102bc00c91d85898886c101fccb7b9a0573a449535",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "In Another World",
+    "artist": "Joe Diffie",
+    "artworkUrl": "https://coverartarchive.org/release-group/b4253186-d7c7-30cd-a668-42f1cb080aaf/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b4253186-d7c7-30cd-a668-42f1cb080aaf",
+    "releaseGroupId": "b4253186-d7c7-30cd-a668-42f1cb080aaf",
+    "recordingId": "e3d307a3-9d90-41ce-a0ce-339b3e8e8bbf",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "In Another WorldJoe Diffie",
+      "song": "In Another World",
+      "performer": "Joe Diffie",
+      "peakPosition": 66,
+      "firstChartDate": "2002-01-19",
+      "lastChartDate": "2002-03-30",
+      "appearances": [
+        {
+          "chartDate": "2002-01-19",
+          "position": 72
+        },
+        {
+          "chartDate": "2002-01-26",
+          "position": 72
+        },
+        {
+          "chartDate": "2002-02-02",
+          "position": 72
+        },
+        {
+          "chartDate": "2002-02-09",
+          "position": 71
+        },
+        {
+          "chartDate": "2002-02-16",
+          "position": 70
+        },
+        {
+          "chartDate": "2002-02-23",
+          "position": 68
+        },
+        {
+          "chartDate": "2002-03-02",
+          "position": 66
+        },
+        {
+          "chartDate": "2002-03-09",
+          "position": 78
+        },
+        {
+          "chartDate": "2002-03-16",
+          "position": 85
+        },
+        {
+          "chartDate": "2002-03-23",
+          "position": 95
+        },
+        {
+          "chartDate": "2002-03-30",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "country music portrait layout acoustic guitar portrait textured background serif typography country music blue and gold subject s downward gaze directs the eye to the guitar body warm wood tones of the guitar contrast with the cool blue background vertical typography on the left balances the horizontal neck of the guitar textured background provides depth without distracting from the subject combine a moody textured blue portrait of a musician with high contrast vertically oriented condensed serif typography for a classic country rock aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Country Music Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Promotional Posters",
+        "Artist Profiles"
+      ],
+      "retrievalTags": [
+        "acoustic guitar",
+        "portrait",
+        "textured background",
+        "serif typography",
+        "country music",
+        "blue and gold"
+      ]
+    },
+    "visualDefinition": "A medium close-up of a male musician looking down at an acoustic guitar, set against a heavily textured, mottled blue and grey background. The lighting is soft and directional, highlighting the contours of the face and the satin sheen of the shirt.",
+    "coreVisualRelationships": [
+      "Subject's downward gaze directs the eye to the guitar body",
+      "Warm wood tones of the guitar contrast with the cool blue background",
+      "Vertical typography on the left balances the horizontal neck of the guitar",
+      "Textured background provides depth without distracting from the subject"
+    ],
+    "coreInvariants": [
+      "Mottled blue/grey textured backdrop",
+      "Acoustic guitar as a central prop",
+      "Subject in a dark satin-finish button-down shirt",
+      "High-contrast serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered, occupying the middle and right two-thirds of the frame.",
+      "visualAnchor": "The acoustic guitar body in the lower left quadrant.",
+      "movementAndEyePath": "Starts at the subject's face, follows the gaze down to the guitar, then follows the guitar neck to the right-hand text.",
+      "negativeSpace": "Concentrated in the upper left and lower right corners, filled with textured patterns."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep navy and mottled blue (background and shirt)",
+      "contrastColorRole": "Warm amber and mahogany (guitar wood)",
+      "accentColorRole": "Pale gold and white (typography)",
+      "saturationAndValueRelationship": "High value contrast between the dark clothing and the bright guitar/text; low saturation in the background to emphasize the subject.",
+      "paletteRestrictions": [
+        "Avoid bright primary reds or greens",
+        "Limit to cool blues, warm browns, and metallic accents"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Tall, condensed serif with high stroke contrast",
+      "letterConstructionRules": [
+        "Elongated vertical proportions",
+        "Sharp, bracketed serifs",
+        "Thin horizontal strokes compared to thick verticals"
+      ],
+      "characterSpecificRedesigns": [
+        "Diamond-shaped tittle on the 'i'",
+        "Extended descenders on specific capital letters"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "pointed",
+            "counters": "narrow",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked words",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "upper left",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "partially over subject's arm",
+            "relationshipToImage": "integrated"
+          },
+          "treatment": {
+            "fill": "gradient gold",
+            "outline": "thin dark drop shadow",
+            "shadow": "subtle",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "clean"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "wide",
+            "leading": "loose",
+            "lineBreakPattern": "multi-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "lower right",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "soft outer glow",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Tall condensed display serif paired with a widely spaced, lighter weight serif for secondary info.",
+      "graphicDevices": [
+        "Textured overlay",
+        "Vignetting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Verticality of the main title",
+          "Wide tracking of the subtitle"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "Heavy drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Onyx or Bodoni Campanile",
+            "reason": "Matches the high-contrast, condensed verticality of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Perpetua or Garamond Light",
+            "reason": "Provides the clean, classic serif look for the secondary text with wide tracking.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A man with styled hair and a mustache, wearing a dark blue satin shirt, looking down while playing a wooden acoustic guitar. The background is a textured, mottled wall with shades of blue, grey, and black. Soft studio lighting.",
+        "overlayInstruction": "Add large, vertically stacked, condensed gold serif text in the upper left. Add smaller, widely spaced white serif text in the lower right corner."
+      },
+      "verificationChecks": [
+        "Is the guitar wood tone warm and rich?",
+        "Is the background texture visible but not distracting?",
+        "Is the primary text condensed and vertically dominant?",
+        "Is there a clear diagonal flow from top-left to bottom-right?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background texture intensity",
+      "Shirt color (within dark jewel tones)",
+      "Typography color (gold vs silver)",
+      "Guitar finish (gloss vs matte)"
+    ],
+    "mustRedesign": [
+      "Specific artist facial features",
+      "Proprietary logos",
+      "Exact wording of the original text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Professional studio lighting quality",
+        "Legible but stylized typography",
+        "Balanced color temperature between cool background and warm subject"
+      ],
+      "avoid": [
+        "Flat, untextured backgrounds",
+        "Overly bright or neon colors",
+        "Low-contrast text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the guitar neck does not obscure the secondary text.",
+      "Check that the satin shirt has realistic highlights.",
+      "Verify the gold text has a subtle metallic sheen.",
+      "Confirm the background texture looks like painted plaster or stone."
+    ],
+    "reuseFormula": "Combine a moody, textured blue portrait of a musician with high-contrast, vertically-oriented condensed serif typography for a classic country-rock aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:12:50.349Z"
+}

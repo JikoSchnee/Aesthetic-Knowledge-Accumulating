@@ -1,0 +1,278 @@
+{
+  "id": "fa9f64582ec85f1f6be3b4fc4e365f1b357de1ef85f0cac168afd60f942b945f",
+  "skillId": "fa9f64582ec85f1f6be3b4fc4e365f1b357de1ef85f0cac168afd60f942b945f",
+  "versionId": "fa9f64582ec85f1f6be3b4fc4e365f1b357de1ef85f0cac168afd60f942b945f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:54:07.425Z",
+  "approvedAt": "2026-08-12T18:54:07.425Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:54:07.425Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "All of Me.jpg",
+    "hash": "fa9f64582ec85f1f6be3b4fc4e365f1b357de1ef85f0cac168afd60f942b945f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "All of Me",
+    "artist": "Estelle",
+    "artworkUrl": "https://coverartarchive.org/release-group/50ce6f82-3df8-415e-a1f6-b8be1aa184a6/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/50ce6f82-3df8-415e-a1f6-b8be1aa184a6",
+    "releaseGroupId": "50ce6f82-3df8-415e-a1f6-b8be1aa184a6",
+    "recordingId": "e91aebc9-e419-4452-8b1e-7f4418aa9ec0",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Thank YouEstelle",
+      "song": "Thank You",
+      "performer": "Estelle",
+      "peakPosition": 100,
+      "firstChartDate": "2012-03-17",
+      "lastChartDate": "2012-03-17",
+      "appearances": [
+        {
+          "chartDate": "2012-03-17",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome portrait with stylized typography monochrome high key lighting close up portrait stylized sans serif swash lettering grainy texture the subject s face acts as the primary focal point centered horizontally raised arms create a natural frame around the head leading the eye inward high contrast black and white tones separate the subject from the blown out background typography is anchored to the bottom right balancing the visual weight of the subject s shoulder high key monochrome portrait geometric sans serif custom vector swashes bottom right justification",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Portrait with Stylized Typography",
+      "category": "Music Album Art",
+      "medium": [
+        "Black and White Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Album Covers",
+        "Editorial Portraits",
+        "Fashion Photography Layouts"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "high-key lighting",
+        "close-up portrait",
+        "stylized sans-serif",
+        "swash lettering",
+        "grainy texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-key monochrome close-up portrait featuring a central subject framed by raised arms, with bottom-right justified stylized typography.",
+      "triggerTerms": [
+        "monochrome high-key portrait",
+        "stylized swash typography",
+        "grainy black and white close-up"
+      ],
+      "excludeWhen": [
+        "vibrant color is required",
+        "landscape orientation is needed",
+        "multiple subjects are present"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, grainy black-and-white headshot of a person looking directly at the camera, framed by their own arms. The lighting is bright and soft, creating a high-key effect that washes out the background into pure white. Typography is clustered in the bottom right corner, mixing clean sans-serif with decorative, elongated swashes.",
+    "coreVisualRelationships": [
+      "The subject's face acts as the primary focal point, centered horizontally.",
+      "Raised arms create a natural frame around the head, leading the eye inward.",
+      "High-contrast black and white tones separate the subject from the blown-out background.",
+      "Typography is anchored to the bottom right, balancing the visual weight of the subject's shoulder."
+    ],
+    "coreInvariants": [
+      "Monochrome color palette with visible film grain texture."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up, head centered vertically and horizontally, filling approximately 60% of the frame.",
+      "visualAnchor": "The subject's eyes, positioned slightly above the horizontal midline.",
+      "movementAndEyePath": "From the eyes, the gaze moves down to the lips, then follows the curve of the arms to the typography in the bottom right.",
+      "negativeSpace": "Significant pure white negative space in the upper corners and background."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-tone grays in the skin and shadows.",
+      "contrastColorRole": "Pure white background and highlights.",
+      "accentColorRole": "Deep black in the hair, eyes, and clothing.",
+      "saturationAndValueRelationship": "Zero saturation; high value range with compressed mid-tones for a soft, luminous look.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Extended horizontal bars",
+        "Exaggerated circular swashes on terminal characters",
+        "Tight letter spacing for the main title"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'E' and 'L' characters feature elongated, looping tails that extend below the baseline.",
+        "The 'S' is integrated into the flow of the surrounding swashes."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Decorative Sans-Serif",
+          "anatomy": {
+            "width": "Normal to wide",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Modified with loops",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Bottom right corner",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Slightly over the subject's shoulder",
+            "relationshipToImage": "Overlay"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light",
+            "contrast": "None",
+            "xHeight": "Medium",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Circular",
+            "strokeCharacter": "Thin"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Wide",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Airy"
+          },
+          "composition": {
+            "position": "Directly above the display text",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlay"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "A clean, wide-tracked sans-serif paired with a heavily stylized, custom-swash version of the same weight.",
+      "graphicDevices": [
+        "Horizontal rule-like extensions from letters"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right-aligned composition",
+          "Monolinear stroke weight",
+          "Uppercase styling"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Italics",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gotham or Montserrat",
+            "reason": "Provides the clean geometric skeleton for the base text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Avant Garde Gothic",
+            "reason": "Matches the geometric aesthetic and historical context of stylized ligatures.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key, grainy black and white close-up portrait of a person looking forward, framed by their arms raised above their head. The background should be blown out to pure white.",
+        "overlayInstruction": "Add right-aligned white text in the bottom right corner. Use a clean geometric sans-serif for the top line with wide tracking. For the bottom line, use a larger font with custom vector swashes looping from the 'E' and 'L' characters."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochrome?",
+        "Is the background pure white?",
+        "Is the text right-aligned in the bottom corner?",
+        "Do the letters have decorative swashes?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Grain intensity",
+      "Contrast level",
+      "Swash length",
+      "Subject framing tightness"
+    ],
+    "mustRedesign": [
+      "Any color elements",
+      "Centered typography",
+      "Serif typefaces"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Luminous skin tones",
+        "Sharp focus on the eyes",
+        "Balanced typographic weight"
+      ],
+      "avoid": [
+        "Muddy grays",
+        "Cluttered backgrounds",
+        "Default system fonts without modification"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-key exposure without losing facial detail.",
+      "Ensure film grain is uniform across the subject.",
+      "Verify that swashes do not obscure legibility.",
+      "Confirm the composition remains bottom-right heavy for text."
+    ],
+    "reuseFormula": "High-key monochrome portrait + geometric sans-serif + custom vector swashes + bottom-right justification."
+  }
+}

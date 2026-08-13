@@ -1,0 +1,278 @@
+{
+  "id": "f4e1d2c4fe224f4d18d4f2ee2e5c0004062408b0841817ea5adc0e57bb8eea63",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T07:33:45.542Z",
+  "approvedAt": "2026-08-11T07:33:45.542Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T07:33:45.542Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Airdream Believer.jpg",
+    "hash": "f4e1d2c4fe224f4d18d4f2ee2e5c0004062408b0841817ea5adc0e57bb8eea63",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Airdream Believer",
+    "artist": "John Stewart",
+    "artworkUrl": "https://coverartarchive.org/release-group/7641329d-e901-38b3-82cf-4c8dfdc5e617/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7641329d-e901-38b3-82cf-4c8dfdc5e617",
+    "releaseGroupId": "7641329d-e901-38b3-82cf-4c8dfdc5e617",
+    "recordingId": "c4fa8680-7b72-436d-bbd7-5393e672ae02",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "ArmstrongJohn Stewart",
+      "song": "Armstrong",
+      "performer": "John Stewart",
+      "peakPosition": 74,
+      "firstChartDate": "1969-09-06",
+      "lastChartDate": "1969-09-20",
+      "appearances": [
+        {
+          "chartDate": "1969-09-06",
+          "position": 75
+        },
+        {
+          "chartDate": "1969-09-13",
+          "position": 75
+        },
+        {
+          "chartDate": "1969-09-20",
+          "position": 74
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro desert surrealism album cover 90s aesthetic surrealism desert landscape chrome lettering airstream trailer cowboy glowing aura the floating trailer acts as a central celestial object above the human figure the chrome typography at the top and bottom creates a heavy visual frame the yellow aura around the trailer contrasts with the deep blue and black night sky the desert elements like the cactus and road provide a grounded perspective for the surreal floating objects combine a dark landscape with a glowing central surreal object framed by heavy 3d chrome display type",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Desert Surrealism Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Digital Collage",
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Poster Design",
+        "Retro-themed Promotional Material"
+      ],
+      "retrievalTags": [
+        "90s aesthetic",
+        "surrealism",
+        "desert landscape",
+        "chrome lettering",
+        "airstream trailer",
+        "cowboy",
+        "glowing aura"
+      ]
+    },
+    "visualDefinition": "A surreal digital collage featuring a man in a cowboy hat standing in a dark desert landscape, with a metallic travel trailer floating above him surrounded by a yellow glow, framed by heavy chrome-effect typography.",
+    "coreVisualRelationships": [
+      "The floating trailer acts as a central celestial object above the human figure.",
+      "The chrome typography at the top and bottom creates a heavy visual frame.",
+      "The yellow aura around the trailer contrasts with the deep blue and black night sky.",
+      "The desert elements like the cactus and road provide a grounded perspective for the surreal floating objects."
+    ],
+    "coreInvariants": [
+      "Metallic chrome texture on primary text",
+      "Yellow glowing halo around the central floating object",
+      "Dark, saturated desert night color palette",
+      "Low-angle perspective of the human subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A man in a cowboy hat is positioned in the lower right foreground, scaled to approximately half the height of the frame.",
+      "visualAnchor": "The floating silver trailer in the upper center, emphasized by a bright yellow glow.",
+      "movementAndEyePath": "Eyes start at the top chrome title, drop to the glowing trailer, follow the man's gaze, and land on the bottom nameplate.",
+      "negativeSpace": "Deep black and dark blue sky in the upper corners and center-left provides breathing room for the collage elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep navy blue and black for the night sky and background.",
+      "contrastColorRole": "Bright yellow used exclusively for the aura/glow effect.",
+      "accentColorRole": "Chrome silver and red outlines for the primary typography.",
+      "saturationAndValueRelationship": "High contrast between the dark background and the bright, reflective metallic surfaces and glowing elements.",
+      "paletteRestrictions": [
+        "Avoid pastel colors",
+        "Maintain high-contrast dark values"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Bold, italicized sans-serif and script hybrids",
+      "letterConstructionRules": [
+        "Heavy 3D extrusion with a downward-right drop shadow",
+        "Metallic gradient fill simulating chrome reflection",
+        "Red or orange thin outer stroke",
+        "Italicized lean for dynamic movement"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are tightly kerned to the point of overlapping in the script-style bottom text"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif-italic",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "rounded",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "slight-arch",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "chrome-gradient",
+            "outline": "red-stroke",
+            "shadow": "hard-black-drop",
+            "depth": "3d-extruded",
+            "texture": "reflective",
+            "distortion": "italicized"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "script-display",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "flourished",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "center",
+            "tracking": "very-tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "dense"
+          },
+          "composition": {
+            "position": "bottom-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "letters-touching",
+            "relationshipToImage": "foreground-overlay"
+          },
+          "treatment": {
+            "fill": "chrome-gradient",
+            "outline": "red-stroke",
+            "shadow": "hard-black-drop",
+            "depth": "3d-extruded",
+            "texture": "reflective",
+            "distortion": "italicized"
+          }
+        }
+      ],
+      "pairingStrategy": "A bold, arched sans-serif for the title paired with a fluid, connected chrome script for the name.",
+      "graphicDevices": [
+        "3D beveling",
+        "Outer glows",
+        "Drop shadows"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Chrome texture",
+          "Red outline",
+          "3D extrusion"
+        ],
+        "avoid": [
+          "Flat colors",
+          "Serif fonts",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact Italic",
+            "reason": "Provides the heavy weight and slanted profile for the top title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Brush Script Bold",
+            "reason": "Captures the connected, fluid motion of the bottom text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A dark desert night scene with a road receding into the distance, a silhouette of a cactus on the right, and a man in a cowboy hat and dark jacket in the lower right. In the upper center, a silver airstream-style trailer floats, surrounded by a soft, vibrant yellow outer glow.",
+        "overlayInstruction": "Apply large, 3D chrome-textured text at the top with a slight arch and a red outline. Apply a large, italicized chrome script name at the bottom with a red outline and heavy black drop shadow."
+      },
+      "verificationChecks": [
+        "Is the trailer glowing yellow?",
+        "Does the text have a convincing metallic chrome gradient?",
+        "Is the man wearing a cowboy hat?",
+        "Is the background a dark desert night?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the yellow glow",
+      "Angle of the 3D text extrusion",
+      "Position of the cowboy figure",
+      "Curvature of the top text arch"
+    ],
+    "mustRedesign": [
+      "Avoid specific facial features of the original subject",
+      "Do not use the exact brand logo of the trailer",
+      "Ensure all text is generic or user-provided"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-gloss metallic textures",
+        "Clear 90s-style digital collage layering",
+        "Strong contrast between glow and night sky"
+      ],
+      "avoid": [
+        "Modern minimalist flat design",
+        "Low-contrast palettes",
+        "Thin, elegant typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Text must be legible despite the chrome effect",
+      "The trailer must appear to be floating, not resting on the ground",
+      "The red outline on the text must be sharp and visible",
+      "The overall composition must feel like a retro CD cover"
+    ],
+    "reuseFormula": "Combine a dark landscape with a glowing central surreal object, framed by heavy 3D chrome display type."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T07:36:46.316Z"
+}

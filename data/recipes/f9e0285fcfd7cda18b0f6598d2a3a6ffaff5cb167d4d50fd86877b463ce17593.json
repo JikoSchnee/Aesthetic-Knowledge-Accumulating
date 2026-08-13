@@ -1,0 +1,293 @@
+{
+  "id": "f9e0285fcfd7cda18b0f6598d2a3a6ffaff5cb167d4d50fd86877b463ce17593",
+  "skillId": "f9e0285fcfd7cda18b0f6598d2a3a6ffaff5cb167d4d50fd86877b463ce17593",
+  "versionId": "f9e0285fcfd7cda18b0f6598d2a3a6ffaff5cb167d4d50fd86877b463ce17593",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:51:04.979Z",
+  "approvedAt": "2026-08-12T09:51:04.979Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:51:04.979Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "From The Capitol Vaults (vol. 4).jpg",
+    "hash": "f9e0285fcfd7cda18b0f6598d2a3a6ffaff5cb167d4d50fd86877b463ce17593",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "From The Capitol Vaults (vol. 4)",
+    "artist": "Nat King Cole",
+    "artworkUrl": "https://coverartarchive.org/release-group/88e71b7e-0a78-4e98-a6e7-217a51e19c76/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/88e71b7e-0a78-4e98-a6e7-217a51e19c76",
+    "releaseGroupId": "88e71b7e-0a78-4e98-a6e7-217a51e19c76",
+    "recordingId": "754e7a63-d8c8-425e-a339-29d1f697540e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Nothing Goes Up (Without Coming Down)Nat King Cole",
+      "song": "Nothing Goes Up (Without Coming Down)",
+      "performer": "Nat King Cole",
+      "peakPosition": 87,
+      "firstChartDate": "1963-03-02",
+      "lastChartDate": "1963-03-23",
+      "appearances": [
+        {
+          "chartDate": "1963-03-02",
+          "position": 90
+        },
+        {
+          "chartDate": "1963-03-16",
+          "position": 100
+        },
+        {
+          "chartDate": "1963-03-23",
+          "position": 87
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century studio duotone album cover mid century modern duotone orange monochrome subject recording studio geometric sans serif archival music 1950s aesthetic grayscale subject vs saturated orange background vertical microphone element balancing the central figure top aligned thin display type vs bottom aligned heavy block type studio acoustic panels providing geometric background structure grayscale subject saturated duotone environment geometric sans serif framing",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Studio Duotone Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Duotone",
+        "Digital Layout"
+      ],
+      "useCases": [
+        "Jazz album covers",
+        "Vintage archival music collections",
+        "Retro studio photography posters",
+        "Podcast cover art for historical series"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "duotone orange",
+        "monochrome subject",
+        "recording studio",
+        "geometric sans serif",
+        "archival music",
+        "1950s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A mid-century recording studio aesthetic featuring a grayscale subject isolated against a vibrant duotone background with clean, geometric sans-serif typography.",
+      "triggerTerms": [
+        "vintage jazz album layout",
+        "duotone studio portrait",
+        "archival music collection cover",
+        "retro recording session photography"
+      ],
+      "excludeWhen": [
+        "modern high-contrast neon styles",
+        "hand-drawn illustration",
+        "ornate serif typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central grayscale figure in profile, wearing mid-century attire, positioned in a recording studio environment. The background is a flat, saturated orange duotone, creating a sharp separation between the subject and the setting. The composition is framed by bold, clean sans-serif text at the top and bottom.",
+    "coreVisualRelationships": [
+      "Grayscale subject vs. saturated orange background",
+      "Vertical microphone element balancing the central figure",
+      "Top-aligned thin display type vs. bottom-aligned heavy block type",
+      "Studio acoustic panels providing geometric background structure"
+    ],
+    "coreInvariants": [
+      "Subject must remain in grayscale",
+      "Background must be a single-color duotone",
+      "Typography must be geometric sans-serif"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium shot, waist-up profile of a man in a hat, centered horizontally.",
+      "visualAnchor": "The subject's face and the vintage condenser microphone.",
+      "movementAndEyePath": "Starts at the large top text, moves down to the subject's face, follows the microphone line, and ends at the heavy bottom banner.",
+      "negativeSpace": "Open space around the head to allow the orange duotone to pop."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Saturated Burnt Orange (Background)",
+      "contrastColorRole": "Grayscale (Subject)",
+      "accentColorRole": "Pure White (Typography)",
+      "saturationAndValueRelationship": "High saturation background with neutral, mid-value subject tones.",
+      "paletteRestrictions": [
+        "Orange",
+        "Black",
+        "White",
+        "Gray"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight for display text",
+        "High x-height for bottom banner text",
+        "Open counters in circular characters like 'O' and 'C'"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light/Thin",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified/Spread",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Airy"
+          },
+          "composition": {
+            "position": "Top edge",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlays background only"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Slightly rounded",
+            "counters": "Tight",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Bottom edge inside black bar",
+            "scale": "Medium-Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Contained in footer"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between light/airy top display and heavy/condensed bottom banner.",
+      "graphicDevices": [
+        "Black footer bar",
+        "Oval emblem/logo container on the left"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Geometric nature of top font",
+          "Condensed nature of bottom font"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Italics"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Matches the geometric, thin-stroke uppercase display at the top.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Matches the heavy, impactful feel of the bottom banner text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a grayscale photo of a man in a 1950s polo shirt and fedora in a recording studio with a vintage microphone. Apply a vibrant orange duotone filter to the background studio elements while keeping the man in pure grayscale. Add a solid black bar at the very bottom.",
+        "overlayInstruction": "Add thin, wide-tracked geometric sans-serif uppercase text at the top in white. Add bold, condensed sans-serif uppercase text centered in the black bottom bar in white."
+      },
+      "verificationChecks": [
+        "Is the subject strictly grayscale?",
+        "Is the background a uniform orange duotone?",
+        "Is the top text thin and the bottom text heavy?",
+        "Is the microphone visible and vertically oriented?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color (e.g., blue or green duotone)",
+      "Subject attire (suit vs. casual)",
+      "Tracking width of top text"
+    ],
+    "mustRedesign": [
+      "Specific brand logos in the oval emblem",
+      "Exact facial features of the artist",
+      "Specific album volume numbering"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean separation between grayscale and color",
+        "Balanced typographic hierarchy",
+        "Authentic vintage studio atmosphere"
+      ],
+      "avoid": [
+        "Color bleeding into the grayscale subject",
+        "Cluttered backgrounds",
+        "Low-resolution textures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for clean edges between subject and orange background",
+      "Ensure text is perfectly horizontal and centered",
+      "Verify the black footer bar is solid and opaque",
+      "Confirm the duotone effect doesn't muddy the studio details"
+    ],
+    "reuseFormula": "Grayscale Subject + Saturated Duotone Environment + Geometric Sans-Serif Framing"
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "id": "52ee9725b09c9f4cfbe0cf7ac0b0535ca94e8c07124d8f09aee6e021bab0de68",
+  "skillId": "52ee9725b09c9f4cfbe0cf7ac0b0535ca94e8c07124d8f09aee6e021bab0de68",
+  "versionId": "52ee9725b09c9f4cfbe0cf7ac0b0535ca94e8c07124d8f09aee6e021bab0de68",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:00:34.546Z",
+  "approvedAt": "2026-08-12T21:00:34.546Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:00:34.546Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Hold On!.jpg",
+    "hash": "52ee9725b09c9f4cfbe0cf7ac0b0535ca94e8c07124d8f09aee6e021bab0de68",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Hold On!",
+    "artist": "Herman's Hermits",
+    "artworkUrl": "https://coverartarchive.org/release-group/6ab0589a-cdbd-42fd-89f6-3effdbe65d1e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6ab0589a-cdbd-42fd-89f6-3effdbe65d1e",
+    "releaseGroupId": "6ab0589a-cdbd-42fd-89f6-3effdbe65d1e",
+    "recordingId": "c28f0bcf-fd16-44f8-be1a-0514ba867923",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "This Door Swings Both WaysHerman's Hermits",
+      "song": "This Door Swings Both Ways",
+      "performer": "Herman's Hermits",
+      "peakPosition": 12,
+      "firstChartDate": "1966-07-09",
+      "lastChartDate": "1966-08-27",
+      "appearances": [
+        {
+          "chartDate": "1966-07-09",
+          "position": 78
+        },
+        {
+          "chartDate": "1966-07-16",
+          "position": 56
+        },
+        {
+          "chartDate": "1966-07-23",
+          "position": 32
+        },
+        {
+          "chartDate": "1966-07-30",
+          "position": 16
+        },
+        {
+          "chartDate": "1966-08-06",
+          "position": 13
+        },
+        {
+          "chartDate": "1966-08-13",
+          "position": 12
+        },
+        {
+          "chartDate": "1966-08-20",
+          "position": 18
+        },
+        {
+          "chartDate": "1966-08-27",
+          "position": 46
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century pop soundtrack layout mid century modern triptych sans serif typography vintage photography grid layout 1960s pop large scale block typography dominates the upper half of the composition a triptych inspired photo grid anchors the bottom half horizontal rules separate different tiers of text and imagery rounded rectangular frames create a soft television screen aesthetic for the photos cream background stacked bold sans serif typography in red blue horizontal rule dividers symmetrical grid of rounded corner photos",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Pop Soundtrack Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Print",
+        "Vinyl Record Sleeve"
+      ],
+      "useCases": [
+        "Album cover design",
+        "Retro film posters",
+        "1960s editorial layouts"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "triptych",
+        "sans-serif typography",
+        "vintage photography",
+        "grid layout",
+        "1960s pop"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A structured grid layout featuring a large typographic header and multiple photographic panels with rounded corners, typical of 1960s pop culture media.",
+      "triggerTerms": [
+        "1960s album cover style",
+        "retro grid photo layout",
+        "bold blocky sans-serif header"
+      ],
+      "excludeWhen": [
+        "modern minimalist requests",
+        "dark moody aesthetics",
+        "asymmetrical organic layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A cream-colored background serves as a canvas for a top-heavy typographic hierarchy and a bottom-aligned grid of five photographic panels. The photos are arranged in three vertical columns, with the central column being a large portrait and the flanking columns containing two smaller stacked portraits each, all featuring rounded corners and thin black borders.",
+    "coreVisualRelationships": [
+      "Large-scale block typography dominates the upper half of the composition.",
+      "A triptych-inspired photo grid anchors the bottom half.",
+      "Horizontal rules separate different tiers of text and imagery.",
+      "Rounded rectangular frames create a soft, television-screen aesthetic for the photos."
+    ],
+    "coreInvariants": [
+      "Cream or off-white background",
+      "Rounded corner photo frames",
+      "Heavy horizontal dividing lines",
+      "Primary color palette for text (Red and Blue)"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Typography is centered and scaled to fill the top 40% of the frame; photography occupies the bottom 60% in a balanced grid.",
+      "visualAnchor": "The large central photograph of the main subject acts as the primary focal point.",
+      "movementAndEyePath": "Top-down flow: starting with the small metadata text, moving to the bold title, then the artist name, and finally resting on the photo grid.",
+      "negativeSpace": "Generous margins around the edges and between the text blocks prevent the dense information from feeling cluttered."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cream (Background)",
+      "contrastColorRole": "Black (Dividing lines and small text)",
+      "accentColorRole": "Bright Red and Royal Blue (Main titles)",
+      "saturationAndValueRelationship": "High-saturation primary colors for text against a low-saturation, warm-toned background.",
+      "paletteRestrictions": [
+        "No gradients",
+        "No neon colors",
+        "Limited to primary accents"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold, condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight letter spacing (tracking)",
+        "Flat terminals",
+        "Large x-height with minimal ascenders/descenders"
+      ],
+      "characterSpecificRedesigns": [
+        "Exclamation point is integrated into the baseline of the title text."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "flush",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper-center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by horizontal rule"
+          },
+          "treatment": {
+            "fill": "solid color",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Stacking different weights and colors of the same sans-serif family, separated by geometric lines.",
+      "graphicDevices": [
+        "Horizontal black rules",
+        "Rounded rectangular masks",
+        "Small logo box in the upper right"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Condensed width",
+          "Primary color usage"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Italics"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Matches the heavy, condensed, blocky feel of the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Provides the mid-century grotesque look for secondary headers.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a cream-colored background with a grid of five photos at the bottom. The grid should have one large central vertical photo and two smaller stacked photos on each side. All photos must have rounded corners and thin black outlines. Leave the top 40% of the image empty for text.",
+        "overlayInstruction": "Add three levels of text in the top section. The top level is small blue sans-serif. The middle level is large, bold red uppercase sans-serif. The bottom level is large, bold blue uppercase sans-serif. Place thick black horizontal lines between the text blocks and above the photo grid."
+      },
+      "verificationChecks": [
+        "Are the photo corners rounded?",
+        "Is the background a warm cream color?",
+        "Are there horizontal black lines separating the sections?",
+        "Is the main title text in a bold, condensed sans-serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of photos in the grid",
+      "Primary accent colors for text",
+      "Thickness of the dividing rules"
+    ],
+    "mustRedesign": [
+      "Any specific artist names or faces",
+      "The MGM logo or specific record label branding",
+      "The exact wording of the soundtrack credits"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, geometric alignment",
+        "High-contrast primary color text",
+        "Consistent rounded corner radius across all photos"
+      ],
+      "avoid": [
+        "Drop shadows on text",
+        "Modern digital gradients",
+        "Distorted or handwritten fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is perfectly centered horizontally.",
+      "Ensure the horizontal lines do not touch the edges of the frame.",
+      "Verify the cream background is uniform and not textured.",
+      "Confirm the photo grid is symmetrical."
+    ],
+    "reuseFormula": "Cream Background + (Stacked Bold Sans-Serif Typography in Red/Blue) + (Horizontal Rule Dividers) + (Symmetrical Grid of Rounded-Corner Photos)"
+  }
+}

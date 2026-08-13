@@ -1,0 +1,326 @@
+{
+  "id": "35ee031711403dd507ae6f9574f4e4fe3bef5dd201e2f4397d5ea56c534ca420",
+  "skillId": "35ee031711403dd507ae6f9574f4e4fe3bef5dd201e2f4397d5ea56c534ca420",
+  "versionId": "35ee031711403dd507ae6f9574f4e4fe3bef5dd201e2f4397d5ea56c534ca420",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:34:20.298Z",
+  "approvedAt": "2026-08-12T15:34:20.298Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:34:20.298Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Hood Hottest Princess.jpg",
+    "hash": "35ee031711403dd507ae6f9574f4e4fe3bef5dd201e2f4397d5ea56c534ca420",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Hood Hottest Princess",
+    "artist": "Sexyy Red",
+    "artworkUrl": "https://coverartarchive.org/release-group/ae9bffbe-35fa-40bb-b14a-16f21407a120/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ae9bffbe-35fa-40bb-b14a-16f21407a120",
+    "releaseGroupId": "ae9bffbe-35fa-40bb-b14a-16f21407a120",
+    "recordingId": "2766bec0-f8da-4963-9ca9-7eaf5cf12fbb",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "SkeeYeeSexyy Red",
+      "song": "SkeeYee",
+      "performer": "Sexyy Red",
+      "peakPosition": 62,
+      "firstChartDate": "2023-09-16",
+      "lastChartDate": "2023-12-02",
+      "appearances": [
+        {
+          "chartDate": "2023-09-16",
+          "position": 67
+        },
+        {
+          "chartDate": "2023-09-23",
+          "position": 66
+        },
+        {
+          "chartDate": "2023-09-30",
+          "position": 74
+        },
+        {
+          "chartDate": "2023-10-07",
+          "position": 68
+        },
+        {
+          "chartDate": "2023-10-14",
+          "position": 62
+        },
+        {
+          "chartDate": "2023-10-21",
+          "position": 84
+        },
+        {
+          "chartDate": "2023-10-28",
+          "position": 94
+        },
+        {
+          "chartDate": "2023-11-04",
+          "position": 65
+        },
+        {
+          "chartDate": "2023-11-11",
+          "position": 84
+        },
+        {
+          "chartDate": "2023-11-18",
+          "position": 84
+        },
+        {
+          "chartDate": "2023-11-25",
+          "position": 83
+        },
+        {
+          "chartDate": "2023-12-02",
+          "position": 88
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban pop album cover aesthetic bold red background arched serif typography urban fashion high contrast studio lighting script signature subject centered and squatting to create a triangular base arched top text following the curve of the subject s head hair high contrast lighting creating deep shadows on a monochromatic background white accessories and text popping against a dominant red field urban subject saturated red backdrop arched slab serif title script signature overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Pop Album Cover Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Typography"
+      ],
+      "useCases": [
+        "Music Album Art",
+        "Promotional Posters",
+        "Social Media Banners"
+      ],
+      "retrievalTags": [
+        "bold red background",
+        "arched serif typography",
+        "urban fashion",
+        "high contrast studio lighting",
+        "script signature"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Use this skill for high-energy urban music covers featuring a central subject against a solid vibrant red backdrop with arched, heavy-weight serif display text.",
+      "triggerTerms": [
+        "bold red studio portrait",
+        "arched heavy serif title",
+        "urban pop aesthetic",
+        "high-contrast fashion photography"
+      ],
+      "excludeWhen": [
+        "requesting minimalist or pastel designs",
+        "requesting corporate or professional business layouts",
+        "requesting landscape or nature-focused imagery"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, low-angle studio portrait of a subject in expressive urban fashion, set against a seamless, saturated red background. The composition is framed by large, arched serif typography at the top and a fluid script signature in the bottom corner.",
+    "coreVisualRelationships": [
+      "Subject centered and squatting to create a triangular base",
+      "Arched top text following the curve of the subject's head/hair",
+      "High-contrast lighting creating deep shadows on a monochromatic background",
+      "White accessories and text popping against a dominant red field"
+    ],
+    "coreInvariants": [
+      "Saturated red monochromatic background",
+      "Arched display typography at the top",
+      "High-contrast studio lighting with hard shadows"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centrally located, occupying the middle 60% of the frame in a squatting pose.",
+      "visualAnchor": "The large, arched white serif text at the top serves as the primary anchor.",
+      "movementAndEyePath": "Eyes start at the arched title, move down to the subject's face, and follow the vertical line of the body to the signature at the bottom left.",
+      "negativeSpace": "Significant negative space on the left and right sides of the subject, filled with solid red."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Saturated Red (Background and overall mood)",
+      "contrastColorRole": "Off-white/Cream (Typography and highlights)",
+      "accentColorRole": "Black (Shadows and small graphic elements)",
+      "saturationAndValueRelationship": "High saturation background with high value (bright) foreground elements to ensure legibility.",
+      "paletteRestrictions": [
+        "Red",
+        "White",
+        "Black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavyweight slab-serif and fluid brush script",
+      "letterConstructionRules": [
+        "Display text must be arched upward",
+        "Serifs are thick and rounded",
+        "Script text is slanted with varying stroke thickness"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'P' and 'S' in the main title have exaggerated, rounded curves."
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Black",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Blunt",
+            "corners": "Rounded",
+            "counters": "Open",
+            "strokeCharacter": "Thick"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Two-line stack",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "Arched",
+            "overlap": "None",
+            "relationshipToImage": "Framing the subject"
+          },
+          "treatment": {
+            "fill": "Solid Cream",
+            "outline": "None",
+            "shadow": "Subtle drop shadow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "Warped arch"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Script",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Variable",
+            "terminals": "Tapered",
+            "corners": "Soft",
+            "counters": "Closed",
+            "strokeCharacter": "Fluid"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Left",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Bottom left",
+            "scale": "Medium",
+            "rotation": "-15 degrees",
+            "warp": "None",
+            "overlap": "Overlays background",
+            "relationshipToImage": "Signature style"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "Thin white stroke",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Smooth",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy, structured slab serif for the title paired with a loose, organic script for the signature.",
+      "graphicDevices": [
+        "Arched text path",
+        "Small rectangular advisory badge"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Arched orientation",
+          "Heavy weight of top text",
+          "Red background"
+        ],
+        "avoid": [
+          "Thin sans-serifs",
+          "Centered script text",
+          "Multi-colored backgrounds"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cooper Black",
+            "reason": "Matches the heavy, rounded serif aesthetic of the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Mistral",
+            "reason": "Provides a similar energetic brush-script feel for the signature.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a person in urban fashion squatting against a solid, vibrant red seamless backdrop with high-contrast lighting.",
+        "overlayInstruction": "Add a large, arched heavyweight slab-serif title in cream at the top, and a white brush-script signature at the bottom left."
+      },
+      "verificationChecks": [
+        "Is the top text arched?",
+        "Is the background a solid, saturated red?",
+        "Is the main font a heavy slab-serif?",
+        "Is the subject centered?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue",
+      "Arch intensity of the title",
+      "Subject pose",
+      "Script font style"
+    ],
+    "mustRedesign": [
+      "Any thin or delicate typography",
+      "Busy or photographic backgrounds",
+      "Horizontal, non-arched titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast lighting",
+        "Clean, legible arched typography",
+        "Balanced triangular composition"
+      ],
+      "avoid": [
+        "Low-resolution textures",
+        "Clashing colors",
+        "Poorly masked subjects"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the arch of the text does not obscure the subject's face.",
+      "Ensure the red background is uniform without distracting gradients.",
+      "Verify the script signature is legible against the red.",
+      "Confirm the lighting on the subject matches the intensity of the background color."
+    ],
+    "reuseFormula": "Urban Subject + Saturated Red Backdrop + Arched Slab Serif Title + Script Signature Overlay"
+  }
+}

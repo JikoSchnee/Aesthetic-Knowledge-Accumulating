@@ -1,0 +1,271 @@
+{
+  "id": "0e2723c676c45a95a60fb39ef211ad836c6f0e38f6633a1f0072b586009f5348",
+  "skillId": "0e2723c676c45a95a60fb39ef211ad836c6f0e38f6633a1f0072b586009f5348",
+  "versionId": "0e2723c676c45a95a60fb39ef211ad836c6f0e38f6633a1f0072b586009f5348",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:22:24.909Z",
+  "approvedAt": "2026-08-12T13:22:24.909Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:22:24.909Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Right Where You Want Me.jpg",
+    "hash": "0e2723c676c45a95a60fb39ef211ad836c6f0e38f6633a1f0072b586009f5348",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Right Where You Want Me",
+    "artist": "Jesse McCartney",
+    "artworkUrl": "https://coverartarchive.org/release-group/960c76a3-d557-3c6b-9a19-c03e94ff7bf3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/960c76a3-d557-3c6b-9a19-c03e94ff7bf3",
+    "releaseGroupId": "960c76a3-d557-3c6b-9a19-c03e94ff7bf3",
+    "recordingId": "3a8e7564-4e9d-4d70-be2c-9264139317c5",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Right Where You Want MeJesse McCartney",
+      "song": "Right Where You Want Me",
+      "performer": "Jesse McCartney",
+      "peakPosition": 33,
+      "firstChartDate": "2006-09-23",
+      "lastChartDate": "2006-11-18",
+      "appearances": [
+        {
+          "chartDate": "2006-09-23",
+          "position": 67
+        },
+        {
+          "chartDate": "2006-09-30",
+          "position": 33
+        },
+        {
+          "chartDate": "2006-10-07",
+          "position": 34
+        },
+        {
+          "chartDate": "2006-10-14",
+          "position": 62
+        },
+        {
+          "chartDate": "2006-10-21",
+          "position": 64
+        },
+        {
+          "chartDate": "2006-10-28",
+          "position": 71
+        },
+        {
+          "chartDate": "2006-11-04",
+          "position": 72
+        },
+        {
+          "chartDate": "2006-11-11",
+          "position": 76
+        },
+        {
+          "chartDate": "2006-11-18",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban alley pop album cover urban alleyway industrial background male portrait slab serif typography muted tones 2000s pop aesthetic subject on the left balances the text block on the right receding alley lines create depth behind the flat text dark clothing contrasts with the lighter industrial textures horizontal rules in text echo the horizontal lines of the garage doors urban portrait industrial perspective stacked slab serif typography with rule lines",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Alley Pop Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Posters",
+        "Social Media Banners"
+      ],
+      "retrievalTags": [
+        "urban alleyway",
+        "industrial background",
+        "male portrait",
+        "slab serif typography",
+        "muted tones",
+        "2000s pop aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A moody urban portrait featuring a male subject in a dark hoodie against an industrial alleyway with stacked slab-serif typography.",
+      "triggerTerms": [
+        "urban industrial portrait",
+        "alleyway background with text overlay",
+        "slab serif album cover style"
+      ],
+      "excludeWhen": [
+        "bright neon colors are requested",
+        "clean minimalist studio backgrounds are needed",
+        "sans-serif modernism is the primary goal"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium shot of a young man in a black hoodie looking off-camera, positioned on the left third of the frame. The background is a receding perspective of an industrial alley with corrugated metal doors and brick walls. The right side features a vertically stacked typographic block with horizontal rule lines.",
+    "coreVisualRelationships": [
+      "Subject on the left balances the text block on the right",
+      "Receding alley lines create depth behind the flat text",
+      "Dark clothing contrasts with the lighter industrial textures",
+      "Horizontal rules in text echo the horizontal lines of the garage doors"
+    ],
+    "coreInvariants": [
+      "Three-tier typographic hierarchy separated by horizontal lines",
+      "Industrial alleyway perspective with a vanishing point on the right",
+      "Muted, slightly desaturated color palette with cool shadows"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left 40% of the frame, medium shot from waist up.",
+      "visualAnchor": "The subject's face and the large primary name text.",
+      "movementAndEyePath": "Starts at the subject's face, moves down his arm, then across to the right-aligned text block.",
+      "negativeSpace": "The alleyway floor and upper sky provide breathing room for the dense central composition."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted olive and grey industrial tones in the background.",
+      "contrastColorRole": "Deep black of the hoodie against the lighter concrete.",
+      "accentColorRole": "Crisp white for all typographic elements.",
+      "saturationAndValueRelationship": "Low saturation with a focus on tonal contrast between shadows and highlights.",
+      "paletteRestrictions": [
+        "No vibrant primary colors",
+        "Avoid high-saturation blues or reds"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Slab serif and geometric sans-serif",
+      "letterConstructionRules": [
+        "Primary name uses heavy, wide slab serifs with slight distressing",
+        "Secondary text uses a bold, extended sans-serif",
+        "Tertiary text uses a light, tracked-out sans-serif"
+      ],
+      "characterSpecificRedesigns": [
+        "Horizontal bars extending from the edges of the text block to create a framed effect"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blocky",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "single word",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "middle right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on background"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle drop",
+            "depth": "flat",
+            "texture": "slight grain",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast a heavy slab serif with a clean, wide-tracked sans-serif for a balanced industrial look.",
+      "graphicDevices": [
+        "Thin horizontal divider lines",
+        "Text block alignment to the right third"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif style",
+          "Horizontal rule lines",
+          "All-caps casing"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Serif fonts with high contrast like Bodoni"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell",
+            "reason": "Matches the heavy, geometric slab serif of the primary name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Copperplate Gothic",
+            "reason": "Captures the small-serif feel of the secondary text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photo of a young man in a black hoodie standing in a gritty, industrial alleyway with corrugated metal doors, looking away from the camera. Leave the right side of the frame clear for text.",
+        "overlayInstruction": "Add three levels of white uppercase text on the right. Top level: Large slab serif. Middle level: Bold sans-serif. Bottom level: Light sans-serif. Separate levels with thin horizontal white lines."
+      },
+      "verificationChecks": [
+        "Is the text block right-aligned?",
+        "Are there horizontal lines between the text rows?",
+        "Is the primary font a heavy slab serif?",
+        "Is the background an industrial alleyway?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's pose",
+      "Alleyway texture (brick vs metal)",
+      "Typography weight"
+    ],
+    "mustRedesign": [
+      "Any specific artist names or logos",
+      "Unique jewelry or wristband patterns"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clear typographic hierarchy",
+        "Sense of urban depth",
+        "Balanced asymmetrical composition"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Illegible text overlaps",
+        "Overly bright lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the slab serif is sufficiently heavy.",
+      "Ensure the horizontal lines are perfectly straight.",
+      "Verify the subject is not centered.",
+      "Confirm the color palette remains muted."
+    ],
+    "reuseFormula": "Urban Portrait + Industrial Perspective + Stacked Slab-Serif Typography with Rule Lines"
+  }
+}

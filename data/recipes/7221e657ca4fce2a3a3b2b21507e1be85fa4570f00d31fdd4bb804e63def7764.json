@@ -1,0 +1,286 @@
+{
+  "id": "7221e657ca4fce2a3a3b2b21507e1be85fa4570f00d31fdd4bb804e63def7764",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T22:32:14.630Z",
+  "approvedAt": "2026-08-11T22:32:14.630Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T22:32:14.630Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "For Once in My Life.jpg",
+    "hash": "7221e657ca4fce2a3a3b2b21507e1be85fa4570f00d31fdd4bb804e63def7764",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "For Once in My Life",
+    "artist": "O.C. Smith",
+    "artworkUrl": "https://coverartarchive.org/release-group/169f986f-7852-49b4-a342-85cc87a5a4b1/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/169f986f-7852-49b4-a342-85cc87a5a4b1",
+    "releaseGroupId": "169f986f-7852-49b4-a342-85cc87a5a4b1",
+    "recordingId": "bb88086c-5cb4-4512-98dd-f19ae5a55025",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Isn't It Lonely TogetherO.C. Smith",
+      "song": "Isn't It Lonely Together",
+      "performer": "O.C. Smith",
+      "peakPosition": 63,
+      "firstChartDate": "1968-12-14",
+      "lastChartDate": "1969-01-18",
+      "appearances": [
+        {
+          "chartDate": "1968-12-14",
+          "position": 80
+        },
+        {
+          "chartDate": "1968-12-21",
+          "position": 76
+        },
+        {
+          "chartDate": "1968-12-28",
+          "position": 63
+        },
+        {
+          "chartDate": "1969-01-04",
+          "position": 63
+        },
+        {
+          "chartDate": "1969-01-11",
+          "position": 68
+        },
+        {
+          "chartDate": "1969-01-18",
+          "position": 68
+        }
+      ]
+    }
+  },
+  "dedupeText": "soul revival album cover aesthetic 1960s soul retro portrait bubble typography soft focus background denim jacket warm skin tones the large outlined title at the top creates a header frame for the subject s head the central yellow text acts as a horizontal anchor across the subject s chest the dark bokeh background pushes the warm lit subject forward for maximum depth vintage soul portrait centered warm portrait dark bokeh background bubble display header high contrast serif anchor",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soul Revival Album Cover Aesthetic",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Vintage Poster",
+        "Book Cover"
+      ],
+      "retrievalTags": [
+        "1960s soul",
+        "retro portrait",
+        "bubble typography",
+        "soft focus background",
+        "denim jacket",
+        "warm skin tones"
+      ]
+    },
+    "visualDefinition": "A centered, warm-toned portrait of a smiling man in a denim jacket against a dark, out-of-focus natural background, framed by bold, outlined bubble lettering at the top and high-contrast serif typography in the center.",
+    "coreVisualRelationships": [
+      "The large, outlined title at the top creates a header frame for the subject's head.",
+      "The central yellow text acts as a horizontal anchor across the subject's chest.",
+      "The dark, bokeh background pushes the warm-lit subject forward for maximum depth."
+    ],
+    "coreInvariants": [
+      "Soft, diffused outdoor lighting on the face",
+      "Heavy black outlines on the primary display text",
+      "A color palette dominated by deep greens, blues, and warm flesh tones"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium shot, centered, with the subject leaning forward slightly to fill the lower two-thirds of the frame.",
+      "visualAnchor": "The subject's face and smile, positioned at the vertical center-line.",
+      "movementAndEyePath": "Starts at the large top title, moves down to the face, then to the central yellow title, and finally to the supporting tracklist text.",
+      "negativeSpace": "Dark, textured foliage in the upper corners provides space for secondary text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep forest green and navy blue (background and clothing)",
+      "contrastColorRole": "Warm peach and golden yellow (typography and skin highlights)",
+      "accentColorRole": "Salmon pink (text outlines)",
+      "saturationAndValueRelationship": "High value contrast between the bright text/face and the low-value, desaturated background.",
+      "paletteRestrictions": [
+        "Avoid neon or digital-pure colors",
+        "Stick to 1960s film-emulation tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Rounded sans-serif and heavy slab-serif",
+      "letterConstructionRules": [
+        "Primary title uses ultra-bold, rounded 'bubble' forms with tight kerning and thick outlines.",
+        "Secondary title uses a heavy, high-contrast serif with rounded terminals.",
+        "Body text uses a clean, bold sans-serif."
+      ],
+      "characterSpecificRedesigns": [
+        "Interlocking or overlapping characters in the main title",
+        "Thick, contrasting stroke weights in the central serif text"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Rounded Sans-Serif",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Ultra-Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Rounded",
+            "corners": "Soft",
+            "counters": "Small",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top edge",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Slightly over hair",
+            "relationshipToImage": "Foreground frame"
+          },
+          "treatment": {
+            "fill": "Peach/Salmon",
+            "outline": "Thick Black",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Ball terminals",
+            "corners": "Softened",
+            "counters": "Open",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Centered",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Center chest",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Over clothing",
+            "relationshipToImage": "Central anchor"
+          },
+          "treatment": {
+            "fill": "Golden Yellow",
+            "outline": "Thin Black Drop",
+            "shadow": "Soft",
+            "depth": "None",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Bubble display for impact paired with a classic high-contrast serif for sophistication.",
+      "graphicDevices": [
+        "Heavy outlines",
+        "Symmetrical text placement",
+        "Two-column tracklist layout"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Bubble font style",
+          "Centered composition",
+          "Warm color palette"
+        ],
+        "avoid": [
+          "Modern geometric sans-serifs",
+          "Flat digital lighting",
+          "White backgrounds"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cooper Black",
+            "reason": "Matches the rounded, heavy, vintage feel of the era.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the high-contrast serif look for the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A medium shot of a smiling Black man with a short afro and mustache, wearing a blue denim jacket, outdoors. The background is a dark, out-of-focus forest at dusk. Warm, soft lighting on his face.",
+        "overlayInstruction": "Add a large, peach-colored bubble-style title with a thick black outline at the top. Add a golden-yellow bold serif title across the center. Place two columns of small white sans-serif text in the upper left and right corners."
+      },
+      "verificationChecks": [
+        "Is the top text heavily outlined?",
+        "Is the background dark and blurry?",
+        "Is the central text golden yellow?",
+        "Does the subject have a warm, friendly expression?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Jacket color",
+      "Background density",
+      "Text outline thickness",
+      "Skin tone warmth"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Record label logos",
+      "Specific track titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s film grain",
+        "Legible but heavy typography",
+        "Naturalistic skin textures"
+      ],
+      "avoid": [
+        "Over-sharpening",
+        "Plastic-looking skin",
+        "Modern minimalist layouts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for proper text-to-background contrast.",
+      "Ensure the bubble font feels 'puffy' and vintage.",
+      "Verify the denim texture is visible.",
+      "Confirm the lighting feels like golden hour or soft daylight."
+    ],
+    "reuseFormula": "Vintage Soul Portrait = (Centered Warm Portrait + Dark Bokeh Background) * (Bubble Display Header + High-Contrast Serif Anchor)"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:12:38.404Z"
+}

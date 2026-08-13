@@ -1,0 +1,251 @@
+{
+  "id": "79b2806eda43ddea442c74ac2d93d51d213cead0c52ea2b30a34e104398db991",
+  "skillId": "79b2806eda43ddea442c74ac2d93d51d213cead0c52ea2b30a34e104398db991",
+  "versionId": "79b2806eda43ddea442c74ac2d93d51d213cead0c52ea2b30a34e104398db991",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:53:04.747Z",
+  "approvedAt": "2026-08-12T13:53:04.747Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:53:04.747Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Playing for Keeps.jpg",
+    "hash": "79b2806eda43ddea442c74ac2d93d51d213cead0c52ea2b30a34e104398db991",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Playing for Keeps",
+    "artist": "Eddie Money",
+    "artworkUrl": "https://coverartarchive.org/release-group/84ce285c-0b06-46c1-8506-b3d745e88ede/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/84ce285c-0b06-46c1-8506-b3d745e88ede",
+    "releaseGroupId": "84ce285c-0b06-46c1-8506-b3d745e88ede",
+    "recordingId": "1b2e70a1-6a74-4e53-97cb-68bf45e21f17",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Running BackEddie Money",
+      "song": "Running Back",
+      "performer": "Eddie Money",
+      "peakPosition": 78,
+      "firstChartDate": "1980-09-13",
+      "lastChartDate": "1980-10-04",
+      "appearances": [
+        {
+          "chartDate": "1980-09-13",
+          "position": 89
+        },
+        {
+          "chartDate": "1980-09-20",
+          "position": 80
+        },
+        {
+          "chartDate": "1980-09-27",
+          "position": 78
+        },
+        {
+          "chartDate": "1980-10-04",
+          "position": 90
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty monochrome portrait with hand lettered header monochrome close up portrait hand drawn typography high contrast grainy texture 1970s rock aesthetic text overlaps the dark hair at the top edge high contrast between deep shadows and bright highlights on the face grainy texture unifies the image and the lettering tight cropping focuses on the subject s intense expression high contrast b w portrait heavy film grain top aligned marker lettering",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Monochrome Portrait with Hand-Lettered Header",
+      "category": "Album Art",
+      "medium": [
+        "Black and White Photography",
+        "Hand-Lettering",
+        "Film Grain"
+      ],
+      "useCases": [
+        "Rock Music Covers",
+        "Indie Film Posters",
+        "Editorial Portraiture"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "close-up portrait",
+        "hand-drawn typography",
+        "high contrast",
+        "grainy texture",
+        "1970s rock aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, grainy black-and-white close-up portrait featuring a subject with long hair and an intense gaze, topped with informal hand-lettered text.",
+      "triggerTerms": [
+        "gritty monochrome portrait",
+        "hand-lettered album cover",
+        "intense close-up photography"
+      ],
+      "excludeWhen": [
+        "clean minimalist design",
+        "vibrant color palettes",
+        "formal sans-serif typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight, high-contrast black-and-white photograph of a man's face, partially obscured by long, textured hair. The lighting is dramatic, emphasizing the bridge of the nose and one eye. Informal, all-caps hand-lettering is positioned across the top edge, appearing as if written directly onto the print.",
+    "coreVisualRelationships": [
+      "Text overlaps the dark hair at the top edge",
+      "High contrast between deep shadows and bright highlights on the face",
+      "Grainy texture unifies the image and the lettering",
+      "Tight cropping focuses on the subject's intense expression"
+    ],
+    "coreInvariants": [
+      "Monochrome color scheme",
+      "Hand-drawn, informal typographic style",
+      "Visible film grain texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The face is centered and fills approximately 80% of the frame vertically.",
+      "visualAnchor": "The subject's right eye (viewer's right) is the primary focal point.",
+      "movementAndEyePath": "The eye leads to the bridge of the nose, then upward to the hand-lettered title.",
+      "negativeSpace": "Minimal negative space, primarily in the dark shadows of the hair and background."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and black for shadows and hair.",
+      "contrastColorRole": "Bright white for facial highlights and text.",
+      "accentColorRole": "Mid-tone grays for skin texture and hair detail.",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast with a compressed mid-tone range.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Informal, slightly slanted all-caps handwriting.",
+      "letterConstructionRules": [
+        "Variable stroke width suggesting a felt-tip marker",
+        "Inconsistent baseline and x-height",
+        "Open counters and simplified forms"
+      ],
+      "characterSpecificRedesigns": [
+        "E and F have elongated horizontal bars",
+        "Y has a deep, curved tail"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "monolinear marker"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "loose",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "slight organic arc",
+            "overlap": "over subject hair"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "slight bleed",
+            "distortion": "hand-drawn jitter"
+          }
+        }
+      ],
+      "pairingStrategy": "Single-style hand-lettering to maintain a raw, personal aesthetic.",
+      "graphicDevices": [
+        "Film grain overlay",
+        "Vignetting in corners"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Hand-drawn feel",
+          "Uppercase format",
+          "Top-edge placement"
+        ],
+        "avoid": [
+          "Perfectly geometric fonts",
+          "Drop shadows",
+          "Bold weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Marker handwriting",
+            "reason": "Matches the informal, raw energy of the original.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Rough-edged sans-serif",
+            "reason": "Provides a similar tactile quality if a font must be used.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, grainy black-and-white close-up portrait of a man with long, messy hair, focusing on an intense gaze with dramatic lighting.",
+        "overlayInstruction": "Add a single line of white, hand-lettered uppercase text across the top edge, ensuring it looks like it was written with a marker over the image."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochrome?",
+        "Is the grain texture visible across the entire frame?",
+        "Does the text appear hand-drawn rather than typeset?",
+        "Is the lighting high-contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of film grain",
+      "Subject's hair length and texture",
+      "Slant of the hand-lettering"
+    ],
+    "mustRedesign": [
+      "Avoid using any specific celebrity likeness",
+      "Do not use existing brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic film grain look",
+        "Dramatic chiaroscuro lighting",
+        "Organic, non-digital lettering feel"
+      ],
+      "avoid": [
+        "Smooth digital gradients",
+        "Clean vector lines",
+        "Perfectly aligned text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast tonal range",
+      "Verify text is legible but informal",
+      "Ensure grain does not obscure facial features",
+      "Confirm top-edge placement of text"
+    ],
+    "reuseFormula": "High-contrast B&W portrait + heavy film grain + top-aligned marker lettering."
+  }
+}

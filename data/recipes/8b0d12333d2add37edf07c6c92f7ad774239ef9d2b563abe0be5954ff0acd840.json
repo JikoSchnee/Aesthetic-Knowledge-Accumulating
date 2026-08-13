@@ -1,0 +1,321 @@
+{
+  "id": "8b0d12333d2add37edf07c6c92f7ad774239ef9d2b563abe0be5954ff0acd840",
+  "skillId": "8b0d12333d2add37edf07c6c92f7ad774239ef9d2b563abe0be5954ff0acd840",
+  "versionId": "8b0d12333d2add37edf07c6c92f7ad774239ef9d2b563abe0be5954ff0acd840",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T10:40:20.802Z",
+  "approvedAt": "2026-08-12T10:40:20.802Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T10:40:20.802Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "One to One.jpg",
+    "hash": "8b0d12333d2add37edf07c6c92f7ad774239ef9d2b563abe0be5954ff0acd840",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "One to One",
+    "artist": "Carole King",
+    "artworkUrl": "https://coverartarchive.org/release-group/8e7a8b94-a20c-46ea-99f3-8dc14f85e6b9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8e7a8b94-a20c-46ea-99f3-8dc14f85e6b9",
+    "releaseGroupId": "8e7a8b94-a20c-46ea-99f3-8dc14f85e6b9",
+    "recordingId": "b3d32cd8-9936-454f-a6cb-f6f63247430c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "One To OneCarole King",
+      "song": "One To One",
+      "performer": "Carole King",
+      "peakPosition": 45,
+      "firstChartDate": "1982-03-27",
+      "lastChartDate": "1982-05-29",
+      "appearances": [
+        {
+          "chartDate": "1982-03-27",
+          "position": 86
+        },
+        {
+          "chartDate": "1982-04-03",
+          "position": 76
+        },
+        {
+          "chartDate": "1982-04-10",
+          "position": 65
+        },
+        {
+          "chartDate": "1982-04-17",
+          "position": 60
+        },
+        {
+          "chartDate": "1982-04-24",
+          "position": 54
+        },
+        {
+          "chartDate": "1982-05-01",
+          "position": 50
+        },
+        {
+          "chartDate": "1982-05-08",
+          "position": 48
+        },
+        {
+          "chartDate": "1982-05-15",
+          "position": 45
+        },
+        {
+          "chartDate": "1982-05-22",
+          "position": 45
+        },
+        {
+          "chartDate": "1982-05-29",
+          "position": 90
+        }
+      ]
+    }
+  },
+  "dedupeText": "golden hour portrait with framed border golden hour stone steps framed photograph warm lighting bohemian fashion serif typography outdoor portrait warm sunset light contrasting with cool blue stone steps centered subject framed by a thick dark border text aligned horizontally across the top margin triangular composition formed by the seated pose centered portrait stone steps golden hour light black border frame top aligned spaced serif",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Golden Hour Portrait with Framed Border",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Folk music album covers",
+        "1970s-1980s retro aesthetics",
+        "Outdoor portraiture with high-contrast lighting"
+      ],
+      "retrievalTags": [
+        "golden hour",
+        "stone steps",
+        "framed photograph",
+        "warm lighting",
+        "bohemian fashion",
+        "serif typography",
+        "outdoor portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered outdoor portrait of a seated figure on stone steps, framed by a thick dark border with elegant top-aligned serif text.",
+      "triggerTerms": [
+        "golden hour portrait on stone steps",
+        "framed album cover with top text",
+        "warm sunset lighting outdoor portrait"
+      ],
+      "excludeWhen": [
+        "modern minimalist photography",
+        "studio lighting",
+        "sans-serif bold typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central photograph of a woman with curly hair sitting on blue-toned stone steps, wearing a light blouse and patterned skirt. The scene is lit by a warm sunset from the left, creating a strong glow against a dark, shadowed background. The entire image is contained within a thin white line, surrounded by a thick black outer frame featuring gold and white serif text at the top.",
+    "coreVisualRelationships": [
+      "Warm sunset light contrasting with cool blue stone steps",
+      "Centered subject framed by a thick dark border",
+      "Text aligned horizontally across the top margin",
+      "Triangular composition formed by the seated pose"
+    ],
+    "coreInvariants": [
+      "Thick black outer border",
+      "Thin white internal frame line",
+      "High-contrast golden hour lighting",
+      "Stone step setting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered vertically and horizontally within the inner frame, occupying approximately 60% of the frame height.",
+      "visualAnchor": "The subject's face and the bright light source on the left tree.",
+      "movementAndEyePath": "Eyes start at the top text, move down to the subject's face, follow the arms down to the boots, and rest on the texture of the steps.",
+      "negativeSpace": "Substantial black border provides a heavy frame; dark foliage in the background creates depth."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black (border and shadows)",
+      "contrastColorRole": "Cool blue-grey (stone steps)",
+      "accentColorRole": "Golden yellow (sunset light and primary text)",
+      "saturationAndValueRelationship": "High value contrast between the bright sunset glow and the deep shadows of the border and background.",
+      "paletteRestrictions": [
+        "Black",
+        "Golden Yellow",
+        "Cool Grey",
+        "Cream"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman serif",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Sharp, bracketed serifs",
+        "Open counters",
+        "Small caps for secondary text"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Old Style Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "Medium-high",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Pointed",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "All Caps",
+            "alignment": "Left-aligned within top margin",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top left of the black border",
+            "scale": "Medium",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separated by border"
+          },
+          "treatment": {
+            "fill": "Golden yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Old Style Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Pointed",
+            "counters": "Open",
+            "strokeCharacter": "Fine"
+          },
+          "typesetting": {
+            "case": "All Caps",
+            "alignment": "Right-aligned within top margin",
+            "tracking": "Extremely wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Very light"
+          },
+          "composition": {
+            "position": "Top right of the black border",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Separated by border"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Color-coded hierarchy using the same serif family with different weights and tracking.",
+      "graphicDevices": [
+        "Thin white keyline border",
+        "Thick black outer margin"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide tracking",
+          "Serif style",
+          "Top-aligned placement"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Centered text",
+          "Bold weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Garamond",
+            "reason": "Classic serif with elegant proportions",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Sabon",
+            "reason": "Clean, readable old-style serif",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photograph of a woman with curly hair sitting on blue-grey stone steps at sunset. The light should hit from the left, creating a warm glow on the trees and the subject's side. Place this photo inside a thin white rectangular frame, surrounded by a thick black border.",
+        "overlayInstruction": "Add two strings of text in a classic serif font at the top of the black border. The left string should be in golden yellow with wide tracking. The right string should be in white with even wider tracking."
+      },
+      "verificationChecks": [
+        "Is the subject centered on the steps?",
+        "Is there a clear distinction between the golden light and cool shadows?",
+        "Is the text placed entirely within the top black margin?",
+        "Is the thin white keyline present around the photo?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's clothing pattern",
+      "Intensity of the sunset glow",
+      "Width of the black border",
+      "Tracking of the top text"
+    ],
+    "mustRedesign": [
+      "Specific facial features",
+      "Exact clothing patterns",
+      "Original artist name and title"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast warm/cool lighting",
+        "Elegant, spaced-out serif typography",
+        "Clean, geometric framing"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast lighting",
+        "Modern or digital-looking fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for the golden-yellow color in the primary text",
+      "Ensure the steps have a blue-grey stone texture",
+      "Verify the 'framed' look with the black border",
+      "Confirm the wide letter spacing in the typography"
+    ],
+    "reuseFormula": "Centered Portrait + Stone Steps + Golden Hour Light + Black Border Frame + Top-Aligned Spaced Serif"
+  }
+}

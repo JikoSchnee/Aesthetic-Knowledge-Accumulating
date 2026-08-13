@@ -1,0 +1,239 @@
+{
+  "id": "7085183b13dbf878090d525e42b13102fe456d1804e86479a175722d288d42f8",
+  "skillId": "7085183b13dbf878090d525e42b13102fe456d1804e86479a175722d288d42f8",
+  "versionId": "7085183b13dbf878090d525e42b13102fe456d1804e86479a175722d288d42f8",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T04:57:15.895Z",
+  "approvedAt": "2026-08-13T04:57:15.895Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T04:57:15.895Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Mr. Davis.jpg",
+    "hash": "7085183b13dbf878090d525e42b13102fe456d1804e86479a175722d288d42f8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Mr. Davis",
+    "artist": "Gucci Mane & Nicki Minaj",
+    "artworkUrl": "https://coverartarchive.org/release-group/d5c520e0-62ca-40f3-b3fd-c316e96d8738/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d5c520e0-62ca-40f3-b3fd-c316e96d8738",
+    "releaseGroupId": "d5c520e0-62ca-40f3-b3fd-c316e96d8738",
+    "recordingId": "e26f2211-9d41-4e87-9124-5885ff1e016c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Make LoveGucci Mane & Nicki Minaj",
+      "song": "Make Love",
+      "performer": "Gucci Mane & Nicki Minaj",
+      "peakPosition": 78,
+      "firstChartDate": "2017-03-18",
+      "lastChartDate": "2017-03-18",
+      "appearances": [
+        {
+          "chartDate": "2017-03-18",
+          "position": 78
+        }
+      ]
+    }
+  },
+  "dedupeText": "golden halo silhouette portrait silhouette backlit gold jewelry halo lighting profile view high contrast minimalist portrait subject silhouette against a centered circular glow reflective gold textures contrasting with matte black shadows profile orientation creating a sharp graphic edge minimalist color palette of black and amber gold profile silhouette radial halo metallic accents",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Golden Halo Silhouette Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portraiture",
+        "Dramatic Social Media Branding"
+      ],
+      "retrievalTags": [
+        "silhouette",
+        "backlit",
+        "gold jewelry",
+        "halo lighting",
+        "profile view",
+        "high contrast",
+        "minimalist portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast profile silhouette of a subject wearing reflective gold jewelry, set against a circular golden glow on a black background.",
+      "triggerTerms": [
+        "golden halo silhouette",
+        "backlit profile with jewelry",
+        "dramatic gold rim lighting"
+      ],
+      "excludeWhen": [
+        "full body shots",
+        "brightly lit faces",
+        "colorful backgrounds",
+        "natural daylight settings"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A stark black silhouette of a male profile facing right, centered against a soft, circular amber-gold gradient. The only visible details are the glint of a small gold earring and the intricate, reflective texture of multiple thick gold chains around the neck.",
+    "coreVisualRelationships": [
+      "Subject silhouette against a centered circular glow",
+      "Reflective gold textures contrasting with matte black shadows",
+      "Profile orientation creating a sharp graphic edge",
+      "Minimalist color palette of black and amber-gold"
+    ],
+    "coreInvariants": [
+      "Total black silhouette of the facial features",
+      "Circular radial gradient background",
+      "High-specular reflection on jewelry elements"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is a medium close-up profile, positioned slightly off-center to the left, facing right.",
+      "visualAnchor": "The bright gold chains at the bottom-left of the silhouette.",
+      "movementAndEyePath": "Eyes start at the bright jewelry, move up the silhouette edge to the ear, and follow the profile line against the halo.",
+      "negativeSpace": "Extensive black negative space in the corners and within the subject's form."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black for the subject and outer background.",
+      "contrastColorRole": "Amber-gold for the radial halo.",
+      "accentColorRole": "Bright metallic gold for the jewelry highlights.",
+      "saturationAndValueRelationship": "High value contrast between the black silhouette and the luminous background glow.",
+      "paletteRestrictions": [
+        "Black",
+        "Amber",
+        "Gold"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "High legibility at small scales",
+        "All-caps presentation"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "metadata",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Bottom right corner",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over black background"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used for functional metadata only.",
+      "graphicDevices": [
+        "Small rectangular framing for advisory text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps styling",
+          "Bottom-right placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Large display type"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Bold",
+            "reason": "Standard for clean, functional metadata.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers Bold",
+            "reason": "Provides a similar geometric clarity.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a profile silhouette of a man with short hair and thick gold chains, set against a centered circular amber-gold glow on a black background. Ensure the face is completely blacked out.",
+        "overlayInstruction": "Add small, white, all-caps sans-serif text in the bottom right corner, stacked in three lines."
+      },
+      "verificationChecks": [
+        "Is the face a pure black silhouette?",
+        "Is the background glow circular and centered?",
+        "Are the gold chains highly reflective?",
+        "Is the text small and confined to the bottom right?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the golden halo",
+      "Thickness and number of gold chains",
+      "Subject profile angle"
+    ],
+    "mustRedesign": [
+      "Any visible facial features within the silhouette",
+      "Non-circular background gradients",
+      "Brightly colored clothing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp silhouette edges",
+        "Smooth radial gradient",
+        "Metallic luster on jewelry"
+      ],
+      "avoid": [
+        "Banding in the gradient",
+        "Blurry silhouette lines",
+        "Muted or dull gold tones"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure black levels in the silhouette",
+      "Verify the glow does not spill into the center of the face",
+      "Ensure jewelry highlights are the brightest points in the image",
+      "Confirm text is legible but unobtrusive"
+    ],
+    "reuseFormula": "Profile Silhouette + Radial Halo + Metallic Accents"
+  }
+}

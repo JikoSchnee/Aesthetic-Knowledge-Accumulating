@@ -1,0 +1,263 @@
+{
+  "id": "c6d2ad9500f89610e6d64e0ac0fc89273120946208ce2b9ce148985b5e741647",
+  "skillId": "c6d2ad9500f89610e6d64e0ac0fc89273120946208ce2b9ce148985b5e741647",
+  "versionId": "c6d2ad9500f89610e6d64e0ac0fc89273120946208ce2b9ce148985b5e741647",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:58:55.304Z",
+  "approvedAt": "2026-08-12T23:58:55.304Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:58:55.304Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Danny’s Song.jpg",
+    "hash": "c6d2ad9500f89610e6d64e0ac0fc89273120946208ce2b9ce148985b5e741647",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Danny’s Song",
+    "artist": "Anne Murray",
+    "artworkUrl": "https://coverartarchive.org/release-group/3f2276da-e89e-3eb8-a923-361e731c785c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3f2276da-e89e-3eb8-a923-361e731c785c",
+    "releaseGroupId": "3f2276da-e89e-3eb8-a923-361e731c785c",
+    "recordingId": "cda0828a-ab8e-4993-bcc9-54b81413081c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "What About MeAnne Murray",
+      "song": "What About Me",
+      "performer": "Anne Murray",
+      "peakPosition": 64,
+      "firstChartDate": "1973-05-26",
+      "lastChartDate": "1973-07-14",
+      "appearances": [
+        {
+          "chartDate": "1973-05-26",
+          "position": 83
+        },
+        {
+          "chartDate": "1973-06-02",
+          "position": 74
+        },
+        {
+          "chartDate": "1973-06-09",
+          "position": 68
+        },
+        {
+          "chartDate": "1973-06-16",
+          "position": 68
+        },
+        {
+          "chartDate": "1973-06-23",
+          "position": 66
+        },
+        {
+          "chartDate": "1973-06-30",
+          "position": 64
+        },
+        {
+          "chartDate": "1973-07-07",
+          "position": 71
+        },
+        {
+          "chartDate": "1973-07-14",
+          "position": 73
+        }
+      ]
+    }
+  },
+  "dedupeText": "soft focus chiaroscuro portrait chiaroscuro vignette soft focus warm lighting centered portrait black background subject centered against a void warm skin tones contrasting with deep black soft light fall off from center to edges take a centered portrait apply a heavy black radial gradient vignette and add thin yellow script at the vertical poles",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soft Focus Chiaroscuro Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Studio Lighting"
+      ],
+      "useCases": [
+        "Folk music album covers",
+        "Intimate portraiture",
+        "Vintage 1970s aesthetic"
+      ],
+      "retrievalTags": [
+        "chiaroscuro",
+        "vignette",
+        "soft focus",
+        "warm lighting",
+        "centered portrait",
+        "black background"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered, warm-toned facial portrait emerging from a deep black vignette with soft-focus studio lighting.",
+      "triggerTerms": [
+        "chiaroscuro portrait emerging from black",
+        "soft focus 70s studio lighting",
+        "centered face vignette"
+      ],
+      "excludeWhen": [
+        "high-contrast modern digital photography",
+        "brightly lit backgrounds",
+        "sharp architectural lines"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up portrait of a subject centered in the frame, where the edges of the face and hair dissolve into a solid black background through heavy vignetting and soft-focus lighting, creating a warm, intimate atmosphere.",
+    "coreVisualRelationships": [
+      "Subject centered against a void",
+      "Warm skin tones contrasting with deep black",
+      "Soft light fall-off from center to edges"
+    ],
+    "coreInvariants": [
+      "Solid black background vignette",
+      "Warm, diffused key lighting on the face",
+      "Symmetrical or near-symmetrical composition"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Face is centered, occupying approximately 50% of the vertical frame height.",
+      "visualAnchor": "The eyes of the subject, positioned slightly above the horizontal midline.",
+      "movementAndEyePath": "Eye path starts at the eyes, moves down to the mouth and hand, then radiates outward into the black void.",
+      "negativeSpace": "Extensive solid black negative space surrounding the central subject on all sides."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Black (Background)",
+      "contrastColorRole": "Warm Peach/Beige (Skin Tones)",
+      "accentColorRole": "Golden Yellow (Hair highlights and jewelry)",
+      "saturationAndValueRelationship": "Low saturation with high value contrast between the central subject and the surrounding darkness.",
+      "paletteRestrictions": [
+        "No cool blues or greens",
+        "No bright primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script",
+      "letterConstructionRules": [
+        "Fluid, connected strokes",
+        "Variable line weight suggesting a brush or nib",
+        "Elongated ascenders and descenders"
+      ],
+      "characterSpecificRedesigns": [
+        "Uppercase letters feature decorative loops",
+        "Lowercase 'y' and 'g' have long, sweeping tails"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "medium",
+            "weight": "light",
+            "contrast": "medium",
+            "xHeight": "low",
+            "terminals": "tapered",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "n/a",
+            "lineBreakPattern": "single-line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top and bottom center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "pale yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single script style used for both artist name and title to maintain intimacy.",
+      "graphicDevices": [
+        "Heavy vignette"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Cursive flow",
+          "Pale yellow color"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Bold blocky type"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mistral-like script",
+            "reason": "Captures the informal, hand-drawn quality of the original lettering.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Snell Roundhand",
+            "reason": "Provides the necessary elegance and thin stroke weight.",
+            "confidence": "low"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus portrait of a person with warm lighting, centered in the frame, with the edges of the image fading into a deep, solid black vignette.",
+        "overlayInstruction": "Add centered, hand-lettered style script text in a pale yellow color at the very top and very bottom of the frame."
+      },
+      "verificationChecks": [
+        "Is the background solid black at the edges?",
+        "Is the lighting on the face warm and diffused?",
+        "Is the text centered and rendered in a thin script?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the vignette",
+      "Warmth of the skin tones",
+      "Subject's pose (e.g., hand placement)"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original subject",
+      "Exact signature-style logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Seamless transition from subject to black background",
+        "Soft, non-digital film look",
+        "Balanced top/bottom text placement"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Pixelation in the dark areas",
+        "Modern geometric fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no harsh borders between the subject and the black background.",
+      "Verify the text is legible but small enough not to distract from the face.",
+      "Check that the color palette remains strictly warm (yellows, oranges, browns) and black.",
+      "Confirm the focus is softest at the edges of the hair."
+    ],
+    "reuseFormula": "Take a centered portrait, apply a heavy black radial gradient vignette, and add thin yellow script at the vertical poles."
+  }
+}

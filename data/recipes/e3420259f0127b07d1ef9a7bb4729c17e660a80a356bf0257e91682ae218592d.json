@@ -1,0 +1,241 @@
+{
+  "id": "e3420259f0127b07d1ef9a7bb4729c17e660a80a356bf0257e91682ae218592d",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T07:09:40.488Z",
+  "approvedAt": "2026-08-11T07:09:40.488Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T07:09:40.488Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "National Lampoon’s Animal House: Original Motion Picture Soundtrack.jpg",
+    "hash": "e3420259f0127b07d1ef9a7bb4729c17e660a80a356bf0257e91682ae218592d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "National Lampoon’s Animal House: Original Motion Picture Soundtrack",
+    "artist": "Stephen Bishop",
+    "artworkUrl": "https://coverartarchive.org/release-group/b23dd639-af32-3fee-b2f1-6e0a8890a68a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b23dd639-af32-3fee-b2f1-6e0a8890a68a",
+    "releaseGroupId": "b23dd639-af32-3fee-b2f1-6e0a8890a68a",
+    "recordingId": "77e0d411-a5b4-4ce1-8efd-91bed72f5165",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Animal HouseStephen Bishop",
+      "song": "Animal House",
+      "performer": "Stephen Bishop",
+      "peakPosition": 73,
+      "firstChartDate": "1978-12-23",
+      "lastChartDate": "1979-01-20",
+      "appearances": [
+        {
+          "chartDate": "1978-12-23",
+          "position": 88
+        },
+        {
+          "chartDate": "1978-12-30",
+          "position": 88
+        },
+        {
+          "chartDate": "1979-01-06",
+          "position": 77
+        },
+        {
+          "chartDate": "1979-01-13",
+          "position": 73
+        },
+        {
+          "chartDate": "1979-01-20",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "chaos illustration soundtrack cover caricature busy composition fraternity house satirical illustration 1970s aesthetic crowded scene central architectural anchor supporting a swarm of peripheral action high contrast relationship between detailed colorful illustration and negative white space vertical hierarchy from small metadata to large title to complex central image central subject architecture action crowded caricatures style pen ink watercolor type heavy red block lettering background white negative space",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Chaos Illustration Soundtrack Cover",
+      "category": "Entertainment Illustration",
+      "medium": [
+        "Pen and Ink",
+        "Watercolor Illustration",
+        "Caricature Art"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Poster Design",
+        "Editorial Illustration"
+      ],
+      "retrievalTags": [
+        "caricature",
+        "busy composition",
+        "fraternity house",
+        "satirical illustration",
+        "1970s aesthetic",
+        "crowded scene"
+      ]
+    },
+    "visualDefinition": "A dense, chaotic caricature illustration of a multi-story Victorian house teeming with exaggerated characters engaged in various slapstick activities, set against a stark white background with bold, blocky title typography at the top.",
+    "coreVisualRelationships": [
+      "Central architectural anchor supporting a swarm of peripheral action",
+      "High-contrast relationship between detailed, colorful illustration and negative white space",
+      "Vertical hierarchy from small metadata to large title to complex central image"
+    ],
+    "coreInvariants": [
+      "Stippled or cross-hatched ink linework",
+      "Exaggerated facial expressions and physical comedy",
+      "Primary red and yellow color accents within the illustration and type"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The house and characters occupy the central 70% of the frame, tapering upward toward the roofline.",
+      "visualAnchor": "The central Victorian house structure acts as the skeleton for all character interactions.",
+      "movementAndEyePath": "Circular movement starting from the top title, spiraling down through the various character vignettes to the bottom-center car.",
+      "negativeSpace": "Extensive white negative space surrounds the central cluster, focusing attention on the complexity of the drawing."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/Cream background providing a neutral canvas.",
+      "contrastColorRole": "Deep red used for the primary title and key character clothing.",
+      "accentColorRole": "Bright yellow for highlights, secondary text, and small props.",
+      "saturationAndValueRelationship": "Muted, watercolor-like washes for the house with high-saturation pops on characters and vehicles.",
+      "paletteRestrictions": [
+        "Avoid neon or digital-gradient colors",
+        "Limit to a comic-book primary palette"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Extra-bold, slab-serif or block-style sans-serif",
+      "letterConstructionRules": [
+        "Heavy horizontal weight",
+        "Slightly irregular, hand-drawn edges",
+        "Tight kerning with occasional overlapping characters",
+        "Inward-slanting vertical strokes on certain letters"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' and 'H' characters feature exaggeratedly thick stems",
+        "Terminals are blunt and slightly rounded"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "custom-block",
+          "anatomy": {
+            "width": "ultra-wide",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "slightly rounded",
+            "counters": "minimal",
+            "strokeCharacter": "solid and chunky"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "two-line stack",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "slight character touching",
+            "relationshipToImage": "floating above the house roof"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "slight ink bleed",
+            "distortion": "hand-drawn variance"
+          }
+        }
+      ],
+      "pairingStrategy": "A clean, small-scale sans-serif for metadata to contrast the heavy, expressive display type.",
+      "graphicDevices": [
+        "Pennant flags with internal lettering",
+        "Explosion-like debris clouds around characters"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The heavy weight of the display type",
+          "The red-on-white color scheme"
+        ],
+        "avoid": [
+          "Clean, geometric digital fonts",
+          "Drop shadows on the main title"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cooper Black (Modified)",
+            "reason": "Shares the heavy weight and rounded corners of the era",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Impact (Wide)",
+            "reason": "Provides the necessary blocky presence",
+            "confidence": "low"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a detailed pen-and-ink caricature of a crowded fraternity house party with dozens of characters in 1970s attire, using watercolor washes on a white background. Leave the top third of the image empty.",
+        "overlayInstruction": "Add a heavy, hand-drawn block-letter title in solid red in the top center, and small black sans-serif metadata at the very top and bottom corners."
+      },
+      "verificationChecks": [
+        "Is the title text heavy enough to balance the busy illustration?",
+        "Are the character expressions exaggerated and humorous?",
+        "Is the background pure white or light cream?",
+        "Does the house look like a hand-drawn architectural sketch?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of characters",
+      "Specific color of the house siding",
+      "Style of the car at the bottom"
+    ],
+    "mustRedesign": [
+      "Any specific celebrity likenesses",
+      "Existing studio logos",
+      "Specific trademarked fraternity Greek letters"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-detail line art",
+        "Sense of organized chaos",
+        "Retro 1970s satirical magazine feel"
+      ],
+      "avoid": [
+        "Minimalist modernism",
+        "3D rendering",
+        "Photorealistic textures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no characters are floating disconnected from the house or ground",
+      "Verify the red title is the most saturated element",
+      "Check that the linework is consistent across all characters",
+      "Confirm the composition tapers toward the top"
+    ],
+    "reuseFormula": "Central [Subject: Architecture] + [Action: Crowded Caricatures] + [Style: Pen/Ink/Watercolor] + [Type: Heavy Red Block Lettering] + [Background: White Negative Space]"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T07:32:36.395Z"
+}

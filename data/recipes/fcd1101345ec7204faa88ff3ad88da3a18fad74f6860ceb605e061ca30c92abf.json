@@ -1,0 +1,292 @@
+{
+  "id": "fcd1101345ec7204faa88ff3ad88da3a18fad74f6860ceb605e061ca30c92abf",
+  "skillId": "fcd1101345ec7204faa88ff3ad88da3a18fad74f6860ceb605e061ca30c92abf",
+  "versionId": "fcd1101345ec7204faa88ff3ad88da3a18fad74f6860ceb605e061ca30c92abf",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:46:33.979Z",
+  "approvedAt": "2026-08-12T19:46:33.979Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:46:33.979Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Shadrack.jpg",
+    "hash": "fcd1101345ec7204faa88ff3ad88da3a18fad74f6860ceb605e061ca30c92abf",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Shadrack",
+    "artist": "Brook Benton",
+    "artworkUrl": "https://coverartarchive.org/release-group/30db3c2b-244f-470d-8f13-1517ea41356f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/30db3c2b-244f-470d-8f13-1517ea41356f",
+    "releaseGroupId": "30db3c2b-244f-470d-8f13-1517ea41356f",
+    "recordingId": "4dd546de-18cb-4ad1-a713-720496eff897",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Lost PennyBrook Benton",
+      "song": "The Lost Penny",
+      "performer": "Brook Benton",
+      "peakPosition": 77,
+      "firstChartDate": "1962-01-13",
+      "lastChartDate": "1962-01-20",
+      "appearances": [
+        {
+          "chartDate": "1962-01-13",
+          "position": 80
+        },
+        {
+          "chartDate": "1962-01-20",
+          "position": 77
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century modernist gospel record layout 1960s graphic design stained glass illustration bold serif typography tri color palette geometric abstraction horizontal yellow banner contrasts with white background stacked magenta and cyan titles create primary focal point arched window provides a heavy geometric anchor at the bottom small orange secondary text acts as a bridge between title and image yellow banner stacked serif titles geometric arched illustration 1960s mid century layout",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Modernist Gospel Record Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Print",
+        "Offset Lithography"
+      ],
+      "useCases": [
+        "Vinyl record cover art",
+        "Retro poster design",
+        "Vintage book covers",
+        "Mid-century branding"
+      ],
+      "retrievalTags": [
+        "1960s graphic design",
+        "stained glass illustration",
+        "bold serif typography",
+        "tri-color palette",
+        "geometric abstraction"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A structured 1960s-style layout featuring a horizontal header band, large stacked serif titles, and a central geometric stained-glass window illustration.",
+      "triggerTerms": [
+        "mid-century record cover",
+        "stained glass graphic",
+        "bold serif stacked text",
+        "yellow header layout"
+      ],
+      "excludeWhen": [
+        "modern minimalist requests",
+        "photographic realism",
+        "organic hand-drawn styles"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A three-tier vertical composition starting with a mustard-yellow 'Stereo' banner, followed by high-contrast stacked serif typography in magenta and cyan, and anchored by a central arched stained-glass window with abstract geometric panes.",
+    "coreVisualRelationships": [
+      "Horizontal yellow banner contrasts with white background",
+      "Stacked magenta and cyan titles create primary focal point",
+      "Arched window provides a heavy geometric anchor at the bottom",
+      "Small orange secondary text acts as a bridge between title and image"
+    ],
+    "coreInvariants": [
+      "Mustard yellow top banner",
+      "Arched stained glass window with black lead lines",
+      "High-contrast serif typography",
+      "White negative space surrounding the central illustration"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The title text occupies the upper-middle third; the stained glass window is centered in the bottom half.",
+      "visualAnchor": "The arched stained glass window at the bottom center.",
+      "movementAndEyePath": "Top-down: Yellow banner to bold titles, through the list of tracks, ending on the colorful window graphic.",
+      "negativeSpace": "Ample white space on the left and right of the central window and between text blocks."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (background)",
+      "contrastColorRole": "Mustard Yellow (header) and Black (outlines)",
+      "accentColorRole": "Magenta, Cyan, and Orange (typography)",
+      "saturationAndValueRelationship": "High saturation primary and secondary colors against a clean white field.",
+      "paletteRestrictions": [
+        "Mustard Yellow",
+        "Magenta",
+        "Cyan",
+        "Orange",
+        "Black",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extended slab and modern serifs",
+      "letterConstructionRules": [
+        "High stroke contrast in main titles",
+        "Heavy horizontal serifs",
+        "Wide, expanded proportions for header text",
+        "Uniform stroke weight for secondary track lists"
+      ],
+      "characterSpecificRedesigns": [
+        "Extremely wide 'S' and 'E' in the yellow banner",
+        "Sharp, pointed serifs on the magenta and cyan titles"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "extra-expanded",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "wide",
+            "strokeCharacter": "blocky"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "single word",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top banner",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within yellow bar"
+          },
+          "treatment": {
+            "fill": "gold-brown",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "bracketed",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left-aligned",
+            "tracking": "normal",
+            "leading": "compact",
+            "lineBreakPattern": "stacked",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "upper middle",
+            "scale": "medium-large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "above illustration"
+          },
+          "treatment": {
+            "fill": "magenta and cyan",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between ultra-wide slab serifs and high-contrast modern serifs.",
+      "graphicDevices": [
+        "Horizontal color bands",
+        "Square bullet points",
+        "Arched window frame"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Color-coded lines of text",
+          "Arched window shape"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "Overlapping text and image"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Craw Modern",
+            "reason": "Matches the high-contrast serif style of the main titles",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Microgramma Bold Extended",
+            "reason": "Matches the wide, blocky feel of the top banner text",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a white canvas with a mustard yellow horizontal bar at the top. In the bottom center, place an arched stained-glass window illustration with thick black lead lines and geometric panes in green, yellow, blue, and red.",
+        "overlayInstruction": "Add bold, uppercase serif text. The top banner text should be ultra-wide and gold-brown. Below the banner, stack two lines of large serif text in magenta and cyan. Beneath that, add three lines of smaller orange serif text separated by small squares."
+      },
+      "verificationChecks": [
+        "Is the yellow banner at the very top?",
+        "Are the main titles stacked and color-coded?",
+        "Is the stained glass window centered and arched?",
+        "Is the overall aesthetic 1960s graphic design?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the stained glass panes",
+      "Specific serif font choice",
+      "Width of the top yellow banner",
+      "Alignment of the track list text"
+    ],
+    "mustRedesign": [
+      "Any specific artist names or record label logos",
+      "The exact arrangement of the stained glass panes"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp edges on all graphic elements",
+        "Vibrant, flat color application",
+        "Balanced typographic hierarchy"
+      ],
+      "avoid": [
+        "Distressed or 'grunge' textures",
+        "Gradient fills",
+        "Blurry or soft-edged illustrations"
+      ]
+    },
+    "postGenerationChecks": [
+      "Text is perfectly horizontal and aligned",
+      "Stained glass window is symmetrical in its outer arch",
+      "Colors are punchy and saturated",
+      "White space feels intentional and clean"
+    ],
+    "reuseFormula": "Yellow banner + Stacked Serif Titles + Geometric Arched Illustration = 1960s Mid-Century Layout"
+  }
+}

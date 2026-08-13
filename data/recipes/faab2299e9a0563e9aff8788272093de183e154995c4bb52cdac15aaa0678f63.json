@@ -1,0 +1,310 @@
+{
+  "id": "faab2299e9a0563e9aff8788272093de183e154995c4bb52cdac15aaa0678f63",
+  "skillId": "faab2299e9a0563e9aff8788272093de183e154995c4bb52cdac15aaa0678f63",
+  "versionId": "faab2299e9a0563e9aff8788272093de183e154995c4bb52cdac15aaa0678f63",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:03:52.273Z",
+  "approvedAt": "2026-08-12T19:03:52.273Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:03:52.273Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Here's to New Dreams.jpg",
+    "hash": "faab2299e9a0563e9aff8788272093de183e154995c4bb52cdac15aaa0678f63",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Here's to New Dreams",
+    "artist": "Raven-Symone",
+    "artworkUrl": "https://coverartarchive.org/release-group/3a74035e-c836-376f-892e-522d10e70d33/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3a74035e-c836-376f-892e-522d10e70d33",
+    "releaseGroupId": "3a74035e-c836-376f-892e-522d10e70d33",
+    "recordingId": "df52f271-7d4f-49f9-98cf-97c3045eff28",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "That's What Little Girls Are Made OfRaven-Symone",
+      "song": "That's What Little Girls Are Made Of",
+      "performer": "Raven-Symone",
+      "peakPosition": 68,
+      "firstChartDate": "1993-08-07",
+      "lastChartDate": "1993-09-25",
+      "appearances": [
+        {
+          "chartDate": "1993-08-07",
+          "position": 87
+        },
+        {
+          "chartDate": "1993-08-14",
+          "position": 74
+        },
+        {
+          "chartDate": "1993-08-21",
+          "position": 68
+        },
+        {
+          "chartDate": "1993-08-28",
+          "position": 73
+        },
+        {
+          "chartDate": "1993-09-04",
+          "position": 71
+        },
+        {
+          "chartDate": "1993-09-11",
+          "position": 91
+        },
+        {
+          "chartDate": "1993-09-18",
+          "position": 93
+        },
+        {
+          "chartDate": "1993-09-25",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "90s urban pop portrait layout 90s aesthetic streetwear bold typography white background oversized clothing urban fashion subject centered vertically and horizontally bold blue typography creates a foreground layer over the subject high contrast lighting with soft shadows on the floor repetitive patterns in clothing stripes contrasting with flat background full body portrait high key white background bold horizontal slab serif overlay 90s pop aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "90s Urban Pop Portrait Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Promotional Poster",
+        "Editorial Music Feature"
+      ],
+      "retrievalTags": [
+        "90s aesthetic",
+        "streetwear",
+        "bold typography",
+        "white background",
+        "oversized clothing",
+        "urban fashion"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered full-body portrait on a stark white background with a horizontal typographic band cutting across the subject's midsection.",
+      "triggerTerms": [
+        "90s hip hop album cover",
+        "streetwear portrait white background",
+        "bold blue serif text overlay"
+      ],
+      "excludeWhen": [
+        "minimalist modern photography",
+        "dark moody lighting",
+        "landscape orientation"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A full-body studio portrait of a young person in oversized, striped urban apparel, positioned centrally against a high-key white background. A large, bold blue serif nameplate is layered over the subject's waist, creating a distinct horizontal axis.",
+    "coreVisualRelationships": [
+      "Subject centered vertically and horizontally",
+      "Bold blue typography creates a foreground layer over the subject",
+      "High-contrast lighting with soft shadows on the floor",
+      "Repetitive patterns in clothing (stripes) contrasting with flat background"
+    ],
+    "coreInvariants": [
+      "Pure white background",
+      "Full-body standing pose",
+      "Primary color palette of red, white, blue, and black",
+      "Oversized streetwear silhouette"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body subject centered, occupying approximately 80% of the vertical height.",
+      "visualAnchor": "The bold blue horizontal text across the center of the frame.",
+      "movementAndEyePath": "Starts at the face, moves down to the bold blue text, then follows the wide stance to the boots.",
+      "negativeSpace": "Extensive white negative space on the left and right sides of the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (background and clothing base)",
+      "contrastColorRole": "Red (clothing stripes)",
+      "accentColorRole": "Royal Blue (typography)",
+      "saturationAndValueRelationship": "High saturation in the red and blue against a neutral white and black base.",
+      "paletteRestrictions": [
+        "Pure white background",
+        "Royal blue text",
+        "Red and white stripes"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extended slab serif",
+      "letterConstructionRules": [
+        "Heavy horizontal weight",
+        "Wide proportions",
+        "Sharp, prominent serifs",
+        "Lowercase for the main nameplate"
+      ],
+      "characterSpecificRedesigns": [
+        "The hyphen is elongated to bridge the gap between names"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "center-mid",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over subject",
+            "relationshipToImage": "foreground layer"
+          },
+          "treatment": {
+            "fill": "royal blue",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "straight",
+            "corners": "square",
+            "counters": "closed",
+            "strokeCharacter": "monoline"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "right",
+            "tracking": "extra-wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom-right of center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over subject",
+            "relationshipToImage": "secondary overlay"
+          },
+          "treatment": {
+            "fill": "gold/tan",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold, heavy slab serif paired with a light, widely-tracked sans-serif for contrast.",
+      "graphicDevices": [
+        "Horizontal text band"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase styling",
+          "Wide tracking",
+          "Blue color"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Vertical text",
+          "Bright neon colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab serif and wide stance of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Clarendon Wide",
+            "reason": "Provides the necessary serif structure and expanded width.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A full-body studio photograph of a person in oversized red and white striped clothing and black boots, centered on a pure white background with soft floor shadows.",
+        "overlayInstruction": "Add a large, bold royal blue slab serif name in lowercase across the center of the image, overlapping the subject. Below it, add a smaller subtitle in gold with extra-wide letter spacing."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Is the main text lowercase and blue?",
+        "Does the text overlap the subject's midsection?",
+        "Is the subject wearing oversized striped apparel?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "clothing pattern",
+      "text color",
+      "subject pose",
+      "subtitle placement"
+    ],
+    "mustRedesign": [
+      "Specific artist name",
+      "Original logos",
+      "Exact facial features"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-key lighting",
+        "Clean horizontal text alignment",
+        "Oversized silhouette"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Thin fonts",
+        "Tight cropping"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text is legible against the striped clothing",
+      "Verify the subject is centered",
+      "Check that the blue color is vibrant",
+      "Confirm the wide tracking of the subtitle"
+    ],
+    "reuseFormula": "Full-body portrait + high-key white background + bold horizontal slab-serif overlay = 90s Pop Aesthetic."
+  }
+}

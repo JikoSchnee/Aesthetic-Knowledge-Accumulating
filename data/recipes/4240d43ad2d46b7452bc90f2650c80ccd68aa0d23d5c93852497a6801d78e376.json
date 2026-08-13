@@ -1,0 +1,259 @@
+{
+  "id": "4240d43ad2d46b7452bc90f2650c80ccd68aa0d23d5c93852497a6801d78e376",
+  "skillId": "4240d43ad2d46b7452bc90f2650c80ccd68aa0d23d5c93852497a6801d78e376",
+  "versionId": "4240d43ad2d46b7452bc90f2650c80ccd68aa0d23d5c93852497a6801d78e376",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:02:56.700Z",
+  "approvedAt": "2026-08-13T05:02:56.700Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:02:56.700Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Restless Eyes.jpg",
+    "hash": "4240d43ad2d46b7452bc90f2650c80ccd68aa0d23d5c93852497a6801d78e376",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Restless Eyes",
+    "artist": "Janis Ian",
+    "artworkUrl": "https://coverartarchive.org/release-group/02b09cbb-f84a-3dc8-9ee7-d9caeb78b464/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/02b09cbb-f84a-3dc8-9ee7-d9caeb78b464",
+    "releaseGroupId": "02b09cbb-f84a-3dc8-9ee7-d9caeb78b464",
+    "recordingId": "25b80c0e-a372-4f33-af44-62ebde101d3a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Under The CoversJanis Ian",
+      "song": "Under The Covers",
+      "performer": "Janis Ian",
+      "peakPosition": 71,
+      "firstChartDate": "1981-07-11",
+      "lastChartDate": "1981-08-01",
+      "appearances": [
+        {
+          "chartDate": "1981-07-11",
+          "position": 81
+        },
+        {
+          "chartDate": "1981-07-18",
+          "position": 71
+        },
+        {
+          "chartDate": "1981-07-25",
+          "position": 71
+        },
+        {
+          "chartDate": "1981-08-01",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "tilted contact sheet montage contact sheet film strip tilted frames multi panel portrait 80s aesthetic musical instrument white background sans serif typography sequential frames showing different moments of the same subject diagonal alignment of frames against a static white canvas typography aligned to the tilt of the top frame consistent lighting and color palette across all internal images three frame tilted montage thick black borders high key white background stacked color coded sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Tilted Contact Sheet Montage",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Layout",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Editorial Portrait Spreads",
+        "Music Promotion Posters",
+        "Retro 1980s Graphic Design"
+      ],
+      "retrievalTags": [
+        "contact sheet",
+        "film strip",
+        "tilted frames",
+        "multi-panel portrait",
+        "80s aesthetic",
+        "musical instrument",
+        "white background",
+        "sans-serif typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A dynamic multi-frame layout resembling a tilted film strip or contact sheet with a clean white border and stacked vertical typography.",
+      "triggerTerms": [
+        "tilted film strip layout",
+        "stacked contact sheet frames",
+        "diagonal multi-panel portrait"
+      ],
+      "excludeWhen": [
+        "single frame portraits",
+        "perfectly horizontal or vertical grids",
+        "dark or textured backgrounds"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A series of three rectangular photographic frames arranged vertically with a slight clockwise tilt, mimicking a cut strip of film. The frames are separated by thick black borders and set against a stark white background, with text tucked into the upper right negative space.",
+    "coreVisualRelationships": [
+      "Sequential frames showing different moments of the same subject",
+      "Diagonal alignment of frames against a static white canvas",
+      "Typography aligned to the tilt of the top frame",
+      "Consistent lighting and color palette across all internal images"
+    ],
+    "coreInvariants": [
+      "Thick black internal borders",
+      "Uniform tilt angle for all frames",
+      "High-key white negative space",
+      "Subject interaction with a central prop (guitar)"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centered within each frame, appearing at a medium-shot scale showing head, shoulders, and instrument.",
+      "visualAnchor": "The central frame is the largest and most complete, serving as the primary focal point.",
+      "movementAndEyePath": "The eye follows the diagonal descent from the top left to the bottom right, guided by the tilt of the frames.",
+      "negativeSpace": "Ample white space on the right side provides room for typographic elements and balances the heavy black frames."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (Background)",
+      "contrastColorRole": "Black (Frame borders and shadows)",
+      "accentColorRole": "Blue and Sunburst Yellow (Subject's clothing and instrument)",
+      "saturationAndValueRelationship": "High contrast between the dark interior of the frames and the bright white exterior; moderate saturation within the photos.",
+      "paletteRestrictions": [
+        "Clean white background",
+        "Deep black borders",
+        "Natural skin tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "geometric sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "High x-height",
+        "Tight letter spacing",
+        "Vertical stacking of words"
+      ],
+      "characterSpecificRedesigns": [
+        "First letter of each word highlighted in a different color (red/blue)",
+        "Horizontal green bars underlining specific words"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "word-per-line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "medium",
+            "rotation": "5 degrees clockwise",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "adjacent to top frame"
+          },
+          "treatment": {
+            "fill": "blue and red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used with color-coding for hierarchy.",
+      "graphicDevices": [
+        "Thin horizontal green rules",
+        "Color-blocked initial caps"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical stacking",
+          "Tilt angle",
+          "Color-coded initials"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Extra Condensed",
+            "reason": "Matches the heavy, compact geometric feel of the original.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers Bold Condensed",
+            "reason": "Provides the clean, mid-century modern look required for 80s editorial style.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate three sequential portraits of a musician with a guitar, styled in 80s fashion, placed inside three black-bordered rectangular frames. Tilt the entire three-frame sequence 5 degrees clockwise on a solid white background.",
+        "overlayInstruction": "Add four lines of vertically stacked uppercase sans-serif text in the top right corner, tilted to match the frames. Use blue for most letters, red for the first letter of the bottom two lines, and add thin green horizontal lines between the words."
+      },
+      "verificationChecks": [
+        "Frames are tilted clockwise",
+        "Background is pure white",
+        "Text is stacked vertically",
+        "Black borders are thick and distinct"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Tilt angle of the frames",
+      "Number of frames in the sequence",
+      "Color of the initial caps in the text",
+      "Thickness of the black borders"
+    ],
+    "mustRedesign": [
+      "Specific artist name and album title",
+      "Exact facial features of the subject",
+      "Specific guitar brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, high-contrast layout",
+        "Authentic film-strip appearance",
+        "Balanced negative space"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Blurry frame edges",
+        "Low-contrast typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the tilt is consistent across all frames and text.",
+      "Ensure the white background is free of artifacts.",
+      "Verify that the text does not overlap the image frames.",
+      "Confirm the black borders are uniform in width."
+    ],
+    "reuseFormula": "Three-frame tilted montage + thick black borders + high-key white background + stacked color-coded sans-serif typography."
+  }
+}

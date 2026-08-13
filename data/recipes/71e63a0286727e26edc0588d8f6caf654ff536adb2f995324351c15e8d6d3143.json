@@ -1,0 +1,285 @@
+{
+  "id": "71e63a0286727e26edc0588d8f6caf654ff536adb2f995324351c15e8d6d3143",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T18:54:42.049Z",
+  "approvedAt": "2026-08-11T18:54:42.049Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T18:54:42.049Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Not Shy.jpg",
+    "hash": "71e63a0286727e26edc0588d8f6caf654ff536adb2f995324351c15e8d6d3143",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Not Shy",
+    "artist": "Walter Egan",
+    "artworkUrl": "https://coverartarchive.org/release-group/8ebc5cd2-c741-3330-bdb9-4a07544d200e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8ebc5cd2-c741-3330-bdb9-4a07544d200e",
+    "releaseGroupId": "8ebc5cd2-c741-3330-bdb9-4a07544d200e",
+    "recordingId": "af2d8a36-bd86-4aad-a62e-2124d8daa0af",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Hot Summer NightsWalter Egan",
+      "song": "Hot Summer Nights",
+      "performer": "Walter Egan",
+      "peakPosition": 55,
+      "firstChartDate": "1978-10-14",
+      "lastChartDate": "1978-11-25",
+      "appearances": [
+        {
+          "chartDate": "1978-10-14",
+          "position": 84
+        },
+        {
+          "chartDate": "1978-10-21",
+          "position": 77
+        },
+        {
+          "chartDate": "1978-10-28",
+          "position": 71
+        },
+        {
+          "chartDate": "1978-11-04",
+          "position": 61
+        },
+        {
+          "chartDate": "1978-11-11",
+          "position": 55
+        },
+        {
+          "chartDate": "1978-11-18",
+          "position": 55
+        },
+        {
+          "chartDate": "1978-11-25",
+          "position": 80
+        }
+      ]
+    }
+  },
+  "dedupeText": "chiaroscuro portrait with minimalist typography chiaroscuro split lighting monochrome 70s rock minimalist type dramatic shadow subject face bisected by light and shadow brightest highlights on hair and forehead against pure black negative space typography anchored in the upper right quadrant for balance direct eye contact from the visible eye creating a focal point chiaroscuro portrait subject type cool warm tint right aligned dual font typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Chiaroscuro Portrait with Minimalist Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "High-Contrast Monochrome"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portraiture",
+        "Poster Design"
+      ],
+      "retrievalTags": [
+        "chiaroscuro",
+        "split lighting",
+        "monochrome",
+        "70s rock",
+        "minimalist type",
+        "dramatic shadow"
+      ]
+    },
+    "visualDefinition": "A high-contrast black and white portrait where half the subject's face is completely obscured by deep shadow, merging into a solid black background, while the other half is brightly illuminated to reveal texture and form.",
+    "coreVisualRelationships": [
+      "Subject face bisected by light and shadow",
+      "Brightest highlights on hair and forehead against pure black negative space",
+      "Typography anchored in the upper right quadrant for balance",
+      "Direct eye contact from the visible eye creating a focal point"
+    ],
+    "coreInvariants": [
+      "Absolute black background",
+      "Hard-edged shadow line on the face",
+      "Monochromatic blue-tinted grayscale"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered vertically, slightly offset to the left; large scale filling the left two-thirds of the frame.",
+      "visualAnchor": "The visible left eye of the subject.",
+      "movementAndEyePath": "From the bright highlights of the hair, down to the visible eye, then across to the typography in the upper right.",
+      "negativeSpace": "Dominant on the right side and bottom, creating a sense of mystery and isolation."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black (#000000) for background and shadows.",
+      "contrastColorRole": "Cool-toned white/light gray for highlights.",
+      "accentColorRole": "Subtle blue-gray tint across the midtones.",
+      "saturationAndValueRelationship": "Zero saturation; extreme value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "No warm tones",
+        "No mid-range grays in the background"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif for the primary line; wide sans-serif for the secondary line.",
+      "letterConstructionRules": [
+        "Primary text uses thick, blocky serifs with low contrast strokes",
+        "Secondary text uses geometric, all-caps sans-serif with wide tracking"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Square slabs",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Upper right corner",
+            "scale": "Small relative to portrait",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Light blue-gray",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "Cap-height",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Circular",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "All Caps",
+            "alignment": "Right",
+            "tracking": "Very Wide",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Directly below display text",
+            "scale": "50% of display text height",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Aligned with display text right edge"
+          },
+          "treatment": {
+            "fill": "Light blue-gray",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a heavy, traditional slab serif and a modern, airy geometric sans-serif.",
+      "graphicDevices": [
+        "None"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Right alignment",
+          "Wide tracking on the second line",
+          "Slab serif weight"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Centered text",
+          "Bright colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Clarendon Bold",
+            "reason": "Matches the heavy slab serif structure and 70s aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Matches the geometric, wide-tracked secondary text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, black and white portrait of a person with longish hair. Use split lighting (chiaroscuro) so one side of the face is in total darkness, merging into a black background. Apply a subtle cool blue tint to the image.",
+        "overlayInstruction": "Add two lines of text in the upper right corner, right-aligned. The top line should be a bold slab serif in title case. The bottom line should be a geometric sans-serif in all caps with very wide letter spacing."
+      },
+      "verificationChecks": [
+        "Is the right side of the face completely lost to shadow?",
+        "Is the text right-aligned in the upper corner?",
+        "Is the color palette strictly monochrome with a cool tint?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the blue tint",
+      "Amount of hair detail visible in the highlights",
+      "Tracking width of the subtitle text"
+    ],
+    "mustRedesign": [
+      "Any visible logos in the bottom corners",
+      "Specific facial features of the original subject",
+      "Exact wording of the original text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic split lighting",
+        "Pure black negative space",
+        "Clean typographic hierarchy"
+      ],
+      "avoid": [
+        "Muddy grays in the background",
+        "Soft, diffused lighting",
+        "Cluttered composition"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for true black (#000000) in at least 40% of the frame.",
+      "Ensure the visible eye is sharp and in focus.",
+      "Verify the slab serif and sans-serif pairing maintains a clear hierarchy.",
+      "Confirm the blue tint is subtle and not a primary color."
+    ],
+    "reuseFormula": "Chiaroscuro Portrait + [Subject Type] + [Cool/Warm Tint] + Right-Aligned Dual-Font Typography"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:12:36.947Z"
+}

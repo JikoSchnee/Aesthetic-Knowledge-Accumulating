@@ -1,0 +1,273 @@
+{
+  "id": "98be650e8a9b6a63a29c1ecf977dce1b29553b1c0ea8b295b80655d1b30dea81",
+  "skillId": "98be650e8a9b6a63a29c1ecf977dce1b29553b1c0ea8b295b80655d1b30dea81",
+  "versionId": "98be650e8a9b6a63a29c1ecf977dce1b29553b1c0ea8b295b80655d1b30dea81",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:55:54.142Z",
+  "approvedAt": "2026-08-12T06:55:54.142Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:55:54.142Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Letter / Neon Rainbow.jpg",
+    "hash": "98be650e8a9b6a63a29c1ecf977dce1b29553b1c0ea8b295b80655d1b30dea81",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Letter / Neon Rainbow",
+    "artist": "The Box Tops",
+    "artworkUrl": "https://coverartarchive.org/release-group/a7f9cb97-4ee3-389c-bd2d-1c8155295383/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a7f9cb97-4ee3-389c-bd2d-1c8155295383",
+    "releaseGroupId": "a7f9cb97-4ee3-389c-bd2d-1c8155295383",
+    "recordingId": "93b5b27a-cafc-48c5-8ab2-065e9156ca3e",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Neon RainbowThe Box Tops",
+      "song": "Neon Rainbow",
+      "performer": "The Box Tops",
+      "peakPosition": 24,
+      "firstChartDate": "1967-11-11",
+      "lastChartDate": "1968-01-06",
+      "appearances": [
+        {
+          "chartDate": "1967-11-11",
+          "position": 87
+        },
+        {
+          "chartDate": "1967-11-18",
+          "position": 62
+        },
+        {
+          "chartDate": "1967-11-25",
+          "position": 47
+        },
+        {
+          "chartDate": "1967-12-02",
+          "position": 37
+        },
+        {
+          "chartDate": "1967-12-09",
+          "position": 24
+        },
+        {
+          "chartDate": "1967-12-16",
+          "position": 24
+        },
+        {
+          "chartDate": "1967-12-23",
+          "position": 24
+        },
+        {
+          "chartDate": "1967-12-30",
+          "position": 24
+        },
+        {
+          "chartDate": "1968-01-06",
+          "position": 55
+        }
+      ]
+    }
+  },
+  "dedupeText": "psychedelic box perspective album art psychedelic worm s eye view box perspective 1960s pop art floral illustration harlequin pattern 3d isometric style box projection against a solid dark background worm s eye view photography creating a circular composition of figures contrast between realistic photography and flat vibrant psychedelic illustration top heavy typographic weight balancing the photographic subject below 3d box perspective worm s eye photography psychedelic graphic panels bubble typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Psychedelic Box Perspective Album Art",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Illustration",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Retro Poster Design",
+        "Vintage 1960s Branding"
+      ],
+      "retrievalTags": [
+        "psychedelic",
+        "worm's eye view",
+        "box perspective",
+        "1960s pop art",
+        "floral illustration",
+        "harlequin pattern"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 3D box perspective layout featuring a low-angle group portrait on the front face, psychedelic floral patterns on the top, and geometric harlequin sides.",
+      "triggerTerms": [
+        "psychedelic box perspective",
+        "worm's eye view group portrait",
+        "1960s bubble lettering floral"
+      ],
+      "excludeWhen": [
+        "flat 2D minimalist designs",
+        "modern high-contrast digital photography",
+        "sans-serif corporate layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A three-dimensional rectangular prism floating in a black void, where the front face shows a group of people looking down at the camera against a bright sky, the top face contains heavy bubble typography and hand-drawn flowers, and the side face features a repeating diamond harlequin pattern.",
+    "coreVisualRelationships": [
+      "3D isometric-style box projection against a solid dark background",
+      "Worm's eye view photography creating a circular composition of figures",
+      "Contrast between realistic photography and flat, vibrant psychedelic illustration",
+      "Top-heavy typographic weight balancing the photographic subject below"
+    ],
+    "coreInvariants": [
+      "The 3D box perspective must be maintained as the primary framing device."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Group portrait occupies the largest face of the box, with figures arranged in a radial pattern around the center.",
+      "visualAnchor": "The top face of the box with its bright pink background and heavy white lettering.",
+      "movementAndEyePath": "Eyes start at the bold top text, move down the vertical edge of the box, and circle through the faces of the subjects in the photograph.",
+      "negativeSpace": "Extensive black negative space surrounding the central 3D object."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black background providing high contrast for the floating object.",
+      "contrastColorRole": "Bright pink and orange on the top and side faces of the box.",
+      "accentColorRole": "Sky blue and pale yellow within the photographic and floral elements.",
+      "saturationAndValueRelationship": "High saturation in the graphic elements contrasted with the naturalistic, slightly desaturated tones of the 1960s film photography.",
+      "paletteRestrictions": [
+        "Avoid neon or digital-first colors; use printed ink tones like magenta, cyan, and golden yellow."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Ultra-bold, rounded bubble letters with minimal counters.",
+      "letterConstructionRules": [
+        "Letters must be tightly packed with overlapping edges.",
+        "Heavy black outlines around white fills.",
+        "Distorted perspective to match the top plane of the box."
+      ],
+      "characterSpecificRedesigns": [
+        "O and P characters have extremely small, off-center counters.",
+        "B and X characters feature exaggerated, rounded terminals."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "psychedelic-bubble",
+          "anatomy": {
+            "width": "ultra-wide",
+            "weight": "heavy",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "vestigial",
+            "strokeCharacter": "monolinear-thick"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "stacked",
+            "density": "high"
+          },
+          "composition": {
+            "position": "top face of box",
+            "scale": "large",
+            "rotation": "perspective-aligned",
+            "warp": "3D plane",
+            "overlap": "heavy",
+            "relationshipToImage": "integrated into graphic panel"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "thick black",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "perspective"
+          }
+        }
+      ],
+      "pairingStrategy": "Pair heavy custom bubble lettering with a secondary wide, stylized sans-serif for metadata.",
+      "graphicDevices": [
+        "Hand-drawn daisies with simple petals",
+        "Harlequin diamond pattern",
+        "3D box edge highlights"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Bubble aesthetic",
+          "Perspective distortion",
+          "Thick black outlines"
+        ],
+        "avoid": [
+          "Thin serifs",
+          "Modernist geometric sans",
+          "Clean digital gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Pinto Flare",
+            "reason": "Captures the 1960s psychedelic weight and rounded forms.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Dazzle Ships",
+            "reason": "Matches the heavy, blocky, yet rounded bubble style.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a 3D rectangular box floating in a black void. The front face features a worm's eye view photo of four men in 1960s attire against a sky. The top face is solid pink with hand-drawn daisies. The right side face has an orange and yellow harlequin diamond pattern.",
+        "overlayInstruction": "Apply ultra-bold white bubble lettering with thick black outlines to the top pink face, ensuring the text follows the 3D perspective of the box."
+      },
+      "verificationChecks": [
+        "Is the box perspective consistent across all three visible faces?",
+        "Does the photography use a low-angle 'worm's eye' viewpoint?",
+        "Is the typography on the top face distorted to match the plane?",
+        "Are the floral elements hand-drawn in style rather than photorealistic?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Box rotation angle",
+      "Number of figures in the photograph",
+      "Floral density on the top panel",
+      "Color of the harlequin pattern"
+    ],
+    "mustRedesign": [
+      "Specific band member faces",
+      "Record label logos",
+      "Exact song titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s film grain and color palette",
+        "Consistent 3D geometric projection",
+        "Hand-rendered quality in the graphic panels"
+      ],
+      "avoid": [
+        "Sharp digital vectors",
+        "Modern clothing styles",
+        "Standard 2D layout without depth"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text does not bleed off the edges of the top box face.",
+      "Ensure the black background is pure and free of artifacts.",
+      "Verify the perspective lines of the box converge correctly.",
+      "Confirm the photographic lighting matches the sky background."
+    ],
+    "reuseFormula": "3D Box Perspective + Worm's Eye Photography + Psychedelic Graphic Panels + Bubble Typography"
+  }
+}

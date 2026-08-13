@@ -1,0 +1,264 @@
+{
+  "id": "7796a1b4c8169f5aa16d8cab8e52a84ec985435727d5b93a0954d1d51ff2a3cc",
+  "skillId": "7796a1b4c8169f5aa16d8cab8e52a84ec985435727d5b93a0954d1d51ff2a3cc",
+  "versionId": "7796a1b4c8169f5aa16d8cab8e52a84ec985435727d5b93a0954d1d51ff2a3cc",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:59:02.345Z",
+  "approvedAt": "2026-08-12T22:59:02.345Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:59:02.345Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Spy.jpg",
+    "hash": "7796a1b4c8169f5aa16d8cab8e52a84ec985435727d5b93a0954d1d51ff2a3cc",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Spy",
+    "artist": "Carly Simon",
+    "artworkUrl": "https://coverartarchive.org/release-group/3c92c1bd-1680-3723-854c-d15c1f717d8b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3c92c1bd-1680-3723-854c-d15c1f717d8b",
+    "releaseGroupId": "3c92c1bd-1680-3723-854c-d15c1f717d8b",
+    "recordingId": "b3f572dd-d269-498b-93b9-d1671499f249",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "VengeanceCarly Simon",
+      "song": "Vengeance",
+      "performer": "Carly Simon",
+      "peakPosition": 48,
+      "firstChartDate": "1979-06-09",
+      "lastChartDate": "1979-07-21",
+      "appearances": [
+        {
+          "chartDate": "1979-06-09",
+          "position": 82
+        },
+        {
+          "chartDate": "1979-06-16",
+          "position": 71
+        },
+        {
+          "chartDate": "1979-06-23",
+          "position": 61
+        },
+        {
+          "chartDate": "1979-06-30",
+          "position": 52
+        },
+        {
+          "chartDate": "1979-07-07",
+          "position": 51
+        },
+        {
+          "chartDate": "1979-07-14",
+          "position": 48
+        },
+        {
+          "chartDate": "1979-07-21",
+          "position": 73
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome cinematic portrait with diagonal shadow monochrome close up portrait diagonal shadow fedora hat grainy texture 70s aesthetic soft focus diagonal shadow line vs vertical facial orientation high key skin tones vs deep black hat and shadow soft hair texture vs sharp geometric shadow edge extreme close up monochrome diagonal hat shadow corner stamped typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Cinematic Portrait with Diagonal Shadow",
+      "category": "Photography",
+      "medium": [
+        "Black and white film photography",
+        "Studio portraiture"
+      ],
+      "useCases": [
+        "Album cover art",
+        "Editorial fashion photography",
+        "Intimate artist profiles"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "close-up portrait",
+        "diagonal shadow",
+        "fedora hat",
+        "grainy texture",
+        "70s aesthetic",
+        "soft focus"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome close-up portrait featuring a subject in a wide-brimmed hat with a sharp diagonal shadow bisecting the face.",
+      "triggerTerms": [
+        "monochrome close-up portrait with diagonal hat shadow",
+        "grainy black and white 1970s album cover style",
+        "high-key facial lighting with deep hat brim shadow"
+      ],
+      "excludeWhen": [
+        "full body shots are required",
+        "vibrant color palettes are requested",
+        "modern high-definition digital clarity is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "An extreme close-up of a face, tilted slightly, where a dark diagonal shadow from a hat brim cuts across the upper right quadrant, leaving one eye visible and the lower face in soft, high-key light.",
+    "coreVisualRelationships": [
+      "Diagonal shadow line vs. vertical facial orientation",
+      "High-key skin tones vs. deep black hat and shadow",
+      "Soft hair texture vs. sharp geometric shadow edge"
+    ],
+    "coreInvariants": [
+      "Monochrome color space",
+      "Visible film grain",
+      "Diagonal shadow bisecting the forehead and one eye",
+      "Extreme close-up framing"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Extreme close-up, face occupies 80% of the frame, tilted approximately 15 degrees.",
+      "visualAnchor": "The visible eye, positioned near the center-top of the frame.",
+      "movementAndEyePath": "The eye follows the diagonal line of the hat brim from top-right down toward the mouth.",
+      "negativeSpace": "Minimal, confined to the dark areas of the hat and the deep shadow."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-tone grays (skin and hair)",
+      "contrastColorRole": "Deep black (hat and shadow)",
+      "accentColorRole": "Bright white (highlights on lips and eyes)",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between lit skin and shadowed hat.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Sans-serif grotesque",
+      "letterConstructionRules": [
+        "Small-scale uppercase lettering",
+        "Slightly distressed or stamped appearance",
+        "Placed within a small rectangular or angled frame"
+      ],
+      "characterSpecificRedesigns": [
+        "Uniform stroke weight with rounded terminals to mimic ink bleed"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "metadata",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "stacked",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top left corner",
+            "scale": "small",
+            "rotation": "10 degrees",
+            "warp": "none",
+            "overlap": "on top of hair texture",
+            "relationshipToImage": "tucked into corner"
+          },
+          "treatment": {
+            "fill": "dark gray",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "stamped ink effect",
+            "distortion": "slight tilt"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used for all metadata to maintain a utilitarian, 'stamped' look.",
+      "graphicDevices": [
+        "Thin border lines around text block",
+        "Angled text orientation"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Corner placement",
+          "Angled orientation",
+          "Small scale"
+        ],
+        "avoid": [
+          "Large display type",
+          "Serif fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Matches the utilitarian, mid-century grotesque feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Univers Bold Condensed",
+            "reason": "Provides the necessary compact structure and clean lines.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a grainy, black and white extreme close-up of a person's face tilted slightly, wearing a dark fedora that casts a sharp diagonal shadow over the upper right side of the face, leaving one eye visible.",
+        "overlayInstruction": "Add small, uppercase sans-serif text in the top-left corner, tilted at a slight angle, encased in a thin rectangular frame with a stamped ink texture."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochrome?",
+        "Is the diagonal shadow from the hat sharp and prominent?",
+        "Is the text small and confined to the top-left corner?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Grain intensity",
+      "Angle of the hat shadow",
+      "Contrast level between skin and shadow",
+      "Degree of head tilt"
+    ],
+    "mustRedesign": [
+      "Any modern digital sharpening",
+      "Color elements",
+      "Centered typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic film grain texture",
+        "Soft focus on hair edges",
+        "High-key lighting on the lower face"
+      ],
+      "avoid": [
+        "Clean vector lines",
+        "Pure white backgrounds",
+        "Modern sans-serif fonts like Helvetica"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for visible film grain across mid-tones",
+      "Ensure the diagonal shadow edge is clean but not digitally perfect",
+      "Verify the eye is the primary focal point despite the shadow",
+      "Confirm text is small and tilted in the corner"
+    ],
+    "reuseFormula": "Extreme Close-up + Monochrome + Diagonal Hat Shadow + Corner Stamped Typography"
+  }
+}

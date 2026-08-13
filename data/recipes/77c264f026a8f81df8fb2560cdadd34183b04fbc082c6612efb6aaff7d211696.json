@@ -1,0 +1,229 @@
+{
+  "id": "77c264f026a8f81df8fb2560cdadd34183b04fbc082c6612efb6aaff7d211696",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T07:49:39.713Z",
+  "approvedAt": "2026-08-11T07:49:39.713Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T07:49:39.713Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Awake.jpg",
+    "hash": "77c264f026a8f81df8fb2560cdadd34183b04fbc082c6612efb6aaff7d211696",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Awake",
+    "artist": "Skillet",
+    "artworkUrl": "https://coverartarchive.org/release-group/f2b45cd0-d840-4723-b503-30c56e4a56f3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f2b45cd0-d840-4723-b503-30c56e4a56f3",
+    "releaseGroupId": "f2b45cd0-d840-4723-b503-30c56e4a56f3",
+    "recordingId": "6f023a36-8bfe-4357-9033-2310f0ce1a1f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Awake And AliveSkillet",
+      "song": "Awake And Alive",
+      "performer": "Skillet",
+      "peakPosition": 100,
+      "firstChartDate": "2009-09-12",
+      "lastChartDate": "2009-09-12",
+      "appearances": [
+        {
+          "chartDate": "2009-09-12",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "mummified gaze album art bandage mummy eye monochromatic high key dramatic textural sharp typography contrast between the organic textured bandages and the sharp geometric letterforms the singular blue eye acting as the only point of color and emotional intensity high key lighting that bleeds the white bandages into the white background diagonal tension created by the tear in the bandages across the face combine high key textural photography with aggressive high contrast display typography to create a sense of tension and focus",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mummified Gaze Album Art",
+      "category": "Music Cover Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Alternative Rock Album Cover",
+        "Theatrical Poster",
+        "Book Jacket Design"
+      ],
+      "retrievalTags": [
+        "bandage",
+        "mummy",
+        "eye",
+        "monochromatic",
+        "high-key",
+        "dramatic",
+        "textural",
+        "sharp typography"
+      ]
+    },
+    "visualDefinition": "A high-key, close-up portrait of a head completely wrapped in white gauze bandages, leaving only a single, intense blue eye visible through a jagged tear. The composition is centered and minimalist, focusing on the contrast between the soft texture of the knit fabric and the sharp, black graphic typography overlaid on the bandages.",
+    "coreVisualRelationships": [
+      "Contrast between the organic, textured bandages and the sharp, geometric letterforms.",
+      "The singular blue eye acting as the only point of color and emotional intensity.",
+      "High-key lighting that bleeds the white bandages into the white background.",
+      "Diagonal tension created by the tear in the bandages across the face."
+    ],
+    "coreInvariants": [
+      "Single visible eye",
+      "White knit gauze texture",
+      "High-key white-on-white environment",
+      "Black central typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The head occupies the majority of the frame, tightly cropped and centered.",
+      "visualAnchor": "The single blue eye in the upper right quadrant serves as the primary focal point.",
+      "movementAndEyePath": "The viewer's eye starts at the intense blue iris, follows the diagonal line of the bandage tear down to the central black text.",
+      "negativeSpace": "Extensive white negative space at the edges, blending seamlessly with the subject's highlights."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White (bandages and background) providing a clean, clinical, and bright base.",
+      "contrastColorRole": "Black (typography) for maximum legibility and graphic punch.",
+      "accentColorRole": "Blue (iris) as the sole saturated hue to draw immediate attention.",
+      "saturationAndValueRelationship": "Extremely high value (brightness) throughout, with low saturation except for the iris.",
+      "paletteRestrictions": [
+        "Monochromatic white/grey/black with one singular color accent."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Serif and Techno-Industrial",
+      "letterConstructionRules": [
+        "Primary text uses a high-contrast serif with sharp, needle-like terminals.",
+        "Secondary text uses a slanted, angular, stencil-like industrial aesthetic.",
+        "Horizontal bars in the serif font are extremely thin compared to vertical strokes."
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' characters feature extended, sharp apexes that resemble thorns or spikes.",
+        "The 'W' is constructed from two overlapping 'V' shapes with sharp points."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Bold",
+            "contrast": "Extreme",
+            "xHeight": "High",
+            "terminals": "Sharp/Spiky",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "None",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Center",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays subject",
+            "relationshipToImage": "Floating foreground element"
+          },
+          "treatment": {
+            "fill": "Solid Black",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a sharp, aggressive techno-logo and a sophisticated but dangerous-looking high-contrast serif.",
+      "graphicDevices": [
+        "Diagonal alignment",
+        "Sharp geometric cuts"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Sharpness of terminals",
+          "Extreme stroke contrast",
+          "Central placement"
+        ],
+        "avoid": [
+          "Rounded fonts",
+          "Script fonts",
+          "Low-contrast sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Didot or Bodoni (Modified)",
+            "reason": "Provides the high contrast and sharp serifs required for the main text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Custom Techno/Stencil",
+            "reason": "Matches the aggressive, industrial feel of the secondary logo text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A high-key studio photograph of a person's head completely wrapped in white knit gauze bandages. A jagged tear in the bandages reveals one intense blue eye. The lighting is bright and soft, causing the edges of the head to blend into a pure white background.",
+        "overlayInstruction": "Apply sharp, black, high-contrast serif typography in all caps across the center of the image. Ensure the terminals are pointed and the vertical strokes are thick."
+      },
+      "verificationChecks": [
+        "Is the eye the only saturated color element?",
+        "Does the bandage texture look like a knit fabric?",
+        "Is the background pure white?",
+        "Are the letterforms sharp and aggressive?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Tightness of the bandage wrap",
+      "Intensity of the blue eye color",
+      "Sharpness of the font terminals",
+      "Amount of shadow in the bandage folds"
+    ],
+    "mustRedesign": [
+      "Specific brand logos",
+      "Exact letterform shapes of the secondary text",
+      "Specific facial features of the model"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile fabric texture",
+        "High-key lighting balance",
+        "Precise typographic edges"
+      ],
+      "avoid": [
+        "Muddy shadows",
+        "Blurry text",
+        "Multiple visible eyes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no text is cut off by the frame.",
+      "Verify the bandage texture is visible even in bright areas.",
+      "Check that the black text has no transparency.",
+      "Confirm the eye is centered vertically within its tear."
+    ],
+    "reuseFormula": "Combine high-key textural photography with aggressive, high-contrast display typography to create a sense of tension and focus."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T08:12:33.992Z"
+}

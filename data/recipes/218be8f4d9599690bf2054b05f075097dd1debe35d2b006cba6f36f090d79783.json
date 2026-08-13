@@ -1,0 +1,296 @@
+{
+  "id": "218be8f4d9599690bf2054b05f075097dd1debe35d2b006cba6f36f090d79783",
+  "libraryType": "photo",
+  "batchId": "7793b57b-d710-4ec2-9d9c-56730858372b",
+  "status": "approved",
+  "providerModel": "google/gemini-2.5-flash",
+  "createdAt": "2026-08-07T09:56:56.123Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-2.5-flash",
+  "typographyUpdatedAt": "2026-08-07T09:56:56.123Z",
+  "source": {
+    "kind": "album_cover",
+    "filename": "Frank Ocean — Blonde.jpg",
+    "hash": "218be8f4d9599690bf2054b05f075097dd1debe35d2b006cba6f36f090d79783",
+    "provider": "iTunes Search API",
+    "albumId": "1146195596",
+    "title": "Blonde",
+    "artist": "Frank Ocean",
+    "genre": "Pop · Music · R&B/Soul",
+    "year": "2016",
+    "sourceUrl": "https://music.apple.com/us/album/blonde/1146195596",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/45/68/bb4568f3-68cd-619d-fbcb-4e179916545d/BlondCover-Final.jpg/600x600bb.jpg"
+  },
+  "dedupeText": "blond album cover recreation album art portrait minimalist textured background green hair barcode parental advisory the central portrait is framed by a wide light colored border the title text is aligned to the top left of the central image the barcode and parental advisory label are aligned to the bottom right of the central image the subject s green hair provides a distinct color contrast against their skin tone and the background recreate the composition with a new subject maintaining the green hair and face covering pose adjust the background texture and lighting while preserving the overall color palette and minimalist framing replace the title and metadata text with new content ensuring the typographic styles and placement are consistent with the original",
+  "duplicateCandidates": [],
+  "duplicateDecision": "not_required",
+  "recipe": {
+    "metadata": {
+      "title": "Blond Album Cover Recreation",
+      "category": "Album Art",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover",
+        "Promotional Material",
+        "Digital Display"
+      ],
+      "retrievalTags": [
+        "album art",
+        "portrait",
+        "minimalist",
+        "textured background",
+        "green hair",
+        "barcode",
+        "parental advisory"
+      ]
+    },
+    "visualDefinition": "A square album cover featuring a central photographic portrait of a person with green hair, covering their face with one hand, set against a light, textured background. The title text is positioned in the upper left, and a barcode with a parental advisory label is in the lower right.",
+    "coreVisualRelationships": [
+      "The central portrait is framed by a wide, light-colored border.",
+      "The title text is aligned to the top left of the central image.",
+      "The barcode and parental advisory label are aligned to the bottom right of the central image.",
+      "The subject's green hair provides a distinct color contrast against their skin tone and the background."
+    ],
+    "coreInvariants": [
+      "The central image must be a portrait of a person with green hair, covering their face.",
+      "The background must be a light, textured off-white color.",
+      "The title text must be black, italicized, and sans-serif, positioned in the top left quadrant.",
+      "A barcode and 'Parental Advisory Explicit Content' label must be present in the bottom right quadrant."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The photographic subject occupies approximately 50-60% of the central image's height, positioned slightly off-center to the right, with their head and shoulders visible.",
+      "visualAnchor": "The subject's face and hand covering it serve as the primary visual anchor, drawing the eye to the emotional core of the image.",
+      "movementAndEyePath": "The eye is drawn from the title text in the upper left, down to the subject's face, and then to the barcode in the lower right, creating a diagonal flow.",
+      "negativeSpace": "Significant negative space surrounds the central image, creating a clean, minimalist aesthetic and emphasizing the subject. The space within the central image around the subject is also minimal, focusing attention on the figure."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/light gray (background) provides a neutral, expansive canvas.",
+      "contrastColorRole": "Dark skin tones and black text/graphics provide strong contrast against the light background.",
+      "accentColorRole": "Vibrant green (hair) serves as a distinct, unexpected accent color.",
+      "saturationAndValueRelationship": "The background is desaturated and high value, while the subject's skin tones are mid-value and moderately saturated. The green hair is highly saturated, and the text/graphics are low value (black).",
+      "paletteRestrictions": [
+        "Limited to off-white, black, various skin tones, and a specific vibrant green for the hair."
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Sans-serif, italicized, uppercase for 'Parental Advisory', mixed case for 'Explicit Content'.",
+      "letterConstructionRules": [
+        "All letters are solid black.",
+        "The main title uses a bold, italic sans-serif typeface.",
+        "The 'Parental Advisory' text uses a condensed, bold sans-serif typeface.",
+        "The 'Explicit Content' text uses a regular weight, condensed sans-serif typeface."
+      ],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Sans-serif, Italic",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "monoline",
+            "xHeight": "tall",
+            "terminals": "sheared/angled",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "geometric"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "top left, outside the central image frame",
+            "scale": "large, occupying significant horizontal space",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "positioned above and to the left of the main photographic subject"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Sans-serif, Condensed",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "monoline",
+            "xHeight": "tall",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "geometric"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "bottom right, inside the barcode graphic",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "part of a graphic element positioned below and to the right of the main photographic subject"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "caption",
+          "hierarchyLevel": 3,
+          "classification": "Sans-serif, Condensed",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "regular",
+            "contrast": "monoline",
+            "xHeight": "normal",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "geometric"
+          },
+          "typesetting": {
+            "case": "mixed case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "bottom right, below 'Parental Advisory'",
+            "scale": "very small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "part of a graphic element positioned below and to the right of the main photographic subject"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A bold, italic display sans-serif is paired with a condensed, utilitarian sans-serif for metadata, creating a clear hierarchy and functional contrast.",
+      "graphicDevices": [
+        "Barcode graphic with numbers",
+        "Parental Advisory Explicit Content label"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Italic angle and bold weight for the main title.",
+          "Condensed width and all caps for 'Parental Advisory'.",
+          "Overall sans-serif aesthetic for all text elements.",
+          "Black fill for all text and graphic elements."
+        ],
+        "avoid": [
+          "Serif fonts.",
+          "Script or decorative fonts.",
+          "Light or thin weights for the main title.",
+          "Expanded or wide fonts for the metadata."
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura PT Bold Italic",
+            "reason": "Matches the geometric, bold, and italic characteristics of the main title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Akzidenz-Grotesk Condensed Bold",
+            "reason": "Similar condensed, bold sans-serif style for the 'Parental Advisory' text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Helvetica Neue Condensed",
+            "reason": "Provides a clean, condensed sans-serif option for the smaller metadata text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square image with a central photographic portrait of a person with green hair, covering their face with one hand, against a light, plain background. The portrait should be framed by a wide, light-colored border. Ensure the background has a subtle, fine-grained texture.",
+        "overlayInstruction": "Overlay the main title text 'blond' in a bold, italic, black sans-serif font in the upper left quadrant, aligned with the top and left edges of the central image. In the bottom right quadrant, overlay a standard barcode graphic with numbers, and to its left, the 'Parental Advisory Explicit Content' label. The label should use a condensed sans-serif font, with 'Parental Advisory' in bold uppercase and 'Explicit Content' in regular weight mixed case, stacked."
+      },
+      "verificationChecks": [
+        "Is the main title text bold, italic, and sans-serif?",
+        "Is the main title text positioned in the upper left, outside the central image?",
+        "Are the barcode and parental advisory label present in the bottom right?",
+        "Is the parental advisory text condensed and sans-serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Exact shade of green for the hair.",
+      "Specific skin tone of the subject.",
+      "Subtlety and type of texture on the background.",
+      "Exact dimensions of the central image relative to the border.",
+      "Specific font choices for text elements, adhering to anatomical and typesetting rules."
+    ],
+    "mustRedesign": [],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "A clean, minimalist layout with a strong central photographic element.",
+        "Clear visual hierarchy between the title, image, and metadata.",
+        "A sense of intimacy or introspection conveyed by the subject's pose.",
+        "A balanced composition despite asymmetric text and graphic placement."
+      ],
+      "avoid": [
+        "Cluttered or busy backgrounds.",
+        "Fonts that clash with the modern, minimalist aesthetic (e.g., highly decorative, serif, or script fonts).",
+        "Overly bright or distracting colors in the background.",
+        "Poorly integrated text or graphic elements that appear as afterthoughts."
+      ]
+    },
+    "postGenerationChecks": [
+      "Verify the central image is a portrait of a person with green hair, covering their face.",
+      "Confirm the background is a light, textured off-white.",
+      "Check for correct placement and styling of the main title 'blond'.",
+      "Ensure the barcode and 'Parental Advisory' label are correctly positioned and styled.",
+      "Assess overall visual balance and adherence to the minimalist aesthetic."
+    ],
+    "reuseFormula": "Recreate the composition with a new subject maintaining the green hair and face-covering pose. Adjust the background texture and lighting while preserving the overall color palette and minimalist framing. Replace the title and metadata text with new content, ensuring the typographic styles and placement are consistent with the original."
+  },
+  "embeddingStatus": "ready",
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T01:25:54.101Z",
+  "indexStatus": "hybrid_searchable",
+  "approvedAt": "2026-08-07T10:04:41.082Z"
+}

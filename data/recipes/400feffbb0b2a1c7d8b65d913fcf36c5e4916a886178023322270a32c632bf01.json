@@ -1,0 +1,314 @@
+{
+  "id": "400feffbb0b2a1c7d8b65d913fcf36c5e4916a886178023322270a32c632bf01",
+  "skillId": "400feffbb0b2a1c7d8b65d913fcf36c5e4916a886178023322270a32c632bf01",
+  "versionId": "400feffbb0b2a1c7d8b65d913fcf36c5e4916a886178023322270a32c632bf01",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:44:05.205Z",
+  "approvedAt": "2026-08-12T23:44:05.205Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:44:05.205Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "We Weren’t Crazy.jpg",
+    "hash": "400feffbb0b2a1c7d8b65d913fcf36c5e4916a886178023322270a32c632bf01",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "We Weren’t Crazy",
+    "artist": "Josh Gracin",
+    "artworkUrl": "https://coverartarchive.org/release-group/aea0d8bf-3e6c-3c9f-b594-c0a02b3dc2bb/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/aea0d8bf-3e6c-3c9f-b594-c0a02b3dc2bb",
+    "releaseGroupId": "aea0d8bf-3e6c-3c9f-b594-c0a02b3dc2bb",
+    "recordingId": "499aa8f8-ed3c-4c68-ac29-460c52768e10",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "We Weren't CrazyJosh Gracin",
+      "song": "We Weren't Crazy",
+      "performer": "Josh Gracin",
+      "peakPosition": 82,
+      "firstChartDate": "2008-04-19",
+      "lastChartDate": "2008-08-09",
+      "appearances": [
+        {
+          "chartDate": "2008-04-19",
+          "position": 82
+        },
+        {
+          "chartDate": "2008-04-26",
+          "position": 88
+        },
+        {
+          "chartDate": "2008-05-03",
+          "position": 96
+        },
+        {
+          "chartDate": "2008-05-10",
+          "position": 98
+        },
+        {
+          "chartDate": "2008-05-17",
+          "position": 99
+        },
+        {
+          "chartDate": "2008-07-05",
+          "position": 99
+        },
+        {
+          "chartDate": "2008-07-19",
+          "position": 92
+        },
+        {
+          "chartDate": "2008-07-26",
+          "position": 87
+        },
+        {
+          "chartDate": "2008-08-02",
+          "position": 90
+        },
+        {
+          "chartDate": "2008-08-09",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "rustic country album cover layout distressed sans serif weathered texture portrait photography industrial background teal and brown palette subject on the left third balanced by text on the right third foreground railing creates a diagonal leading line across the lower half distressed text texture mirrors the weathered wall background warm skin tones and brown clothing contrast with cool teal typography subject leaning foreground rail background weathered wall typography distressed right aligned",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Rustic Country Album Cover Layout",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Distressed Typography"
+      ],
+      "useCases": [
+        "Country music album art",
+        "Artist promotional posters",
+        "Rustic lifestyle branding"
+      ],
+      "retrievalTags": [
+        "distressed sans-serif",
+        "weathered texture",
+        "portrait photography",
+        "industrial background",
+        "teal and brown palette"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A rustic portrait layout featuring a subject leaning on a foreground rail with heavy, distressed display typography anchored in the upper right quadrant.",
+      "triggerTerms": [
+        "weathered country album style",
+        "distressed block lettering",
+        "industrial portrait composition"
+      ],
+      "excludeWhen": [
+        "clean minimalist corporate designs",
+        "bright neon aesthetics",
+        "high-fashion studio photography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium-close portrait of a male subject leaning on a dark metal railing, set against a weathered, light-colored industrial wall. The composition uses a strong diagonal from the railing and balances the subject on the left with heavy, textured typography on the right.",
+    "coreVisualRelationships": [
+      "Subject on the left third balanced by text on the right third",
+      "Foreground railing creates a diagonal leading line across the lower half",
+      "Distressed text texture mirrors the weathered wall background",
+      "Warm skin tones and brown clothing contrast with cool teal typography"
+    ],
+    "coreInvariants": [
+      "Heavy distressed sans-serif display font for the primary name",
+      "Subject leaning on a horizontal or diagonal foreground element",
+      "Weathered, textured background with visible patina or rust"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left two-thirds of the frame, leaning forward from the waist up.",
+      "visualAnchor": "The dark, curved metal railing in the foreground provides a solid base for the composition.",
+      "movementAndEyePath": "Eyes start at the subject's face, follow the arm down to the railing, then move right to the large display text.",
+      "negativeSpace": "The upper right quadrant serves as a textured canvas for the primary typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Earth tones (browns and tans) in the subject's clothing and background.",
+      "contrastColorRole": "Deep teal used for the primary display text.",
+      "accentColorRole": "Black for secondary text and foreground railing shadows.",
+      "saturationAndValueRelationship": "High contrast between the dark foreground elements and the bright, weathered background wall.",
+      "paletteRestrictions": [
+        "Avoid vibrant primary colors",
+        "Stick to desaturated, organic tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy, condensed sans-serif",
+      "letterConstructionRules": [
+        "Thick, uniform stroke weights",
+        "Tight letter spacing",
+        "Substantial vertical elongation",
+        "Eroded or 'stamped' texture applied to the fill"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters feature irregular, chipped edges to simulate weathered paint on metal."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "extra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded/eroded",
+            "counters": "small",
+            "strokeCharacter": "solid with distressed texture"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper right",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed over the background wall"
+          },
+          "treatment": {
+            "fill": "teal gradient",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "grunge/distressed",
+            "distortion": "weathered edges"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "square",
+            "counters": "open",
+            "strokeCharacter": "clean"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "small",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "cleanly legible against background"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy distressed display font paired with a clean, wide-tracked secondary sans-serif for legibility.",
+      "graphicDevices": [
+        "Thin diagonal 'scratch' lines intersecting the display text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Distressed texture",
+          "Condensed proportions",
+          "Right-aligned hierarchy"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered alignment"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact with grunge overlay",
+            "reason": "Matches the heavy weight and condensed nature of the primary text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Good candidate for the clean, wide-tracked subtitle text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in a brown sweater leaning on a dark, rusted metal pipe railing. The background is a weathered, off-white industrial wall with visible texture and patina. Leave the upper right quadrant clear for text.",
+        "overlayInstruction": "Apply a large, right-aligned, distressed teal sans-serif name in the upper right. Below it, add a smaller, clean black sans-serif title with wide letter spacing."
+      },
+      "verificationChecks": [
+        "Is the primary text heavily distressed?",
+        "Is the text right-aligned?",
+        "Does the subject lean on a foreground element?",
+        "Is the color palette dominated by teal, brown, and tan?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the text distress",
+      "Angle of the foreground railing",
+      "Saturation of the teal accent color"
+    ],
+    "mustRedesign": [
+      "Avoid using smooth, clean fonts for the main name",
+      "Do not center the subject in the frame"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Visible weathering on both background and text",
+        "Clear hierarchy between name and title",
+        "Natural, candid-style lighting"
+      ],
+      "avoid": [
+        "Plastic-looking skin textures",
+        "Perfectly clean, untextured walls",
+        "Default system fonts without modification"
+      ]
+    },
+    "postGenerationChecks": [
+      "Text texture matches background grit",
+      "Subject's gaze is directed slightly away from the camera",
+      "The teal color pops against the neutral background",
+      "The railing creates a clear sense of depth"
+    ],
+    "reuseFormula": "Subject(Leaning) + Foreground(Rail) + Background(Weathered Wall) + Typography(Distressed/Right-Aligned)"
+  }
+}

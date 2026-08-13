@@ -1,0 +1,309 @@
+{
+  "id": "e7c0c3ff14b0a411a91d92918ace1cfc799a0e6d29bbc3541abbcd826927a109",
+  "skillId": "e7c0c3ff14b0a411a91d92918ace1cfc799a0e6d29bbc3541abbcd826927a109",
+  "versionId": "e7c0c3ff14b0a411a91d92918ace1cfc799a0e6d29bbc3541abbcd826927a109",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:11:27.476Z",
+  "approvedAt": "2026-08-12T13:11:27.476Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:11:27.476Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "No Brakes.jpg",
+    "hash": "e7c0c3ff14b0a411a91d92918ace1cfc799a0e6d29bbc3541abbcd826927a109",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "No Brakes",
+    "artist": "John Waite",
+    "artworkUrl": "https://coverartarchive.org/release-group/d1e3708b-25d8-3d43-90a3-8928ed9dd1d1/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d1e3708b-25d8-3d43-90a3-8928ed9dd1d1",
+    "releaseGroupId": "d1e3708b-25d8-3d43-90a3-8928ed9dd1d1",
+    "recordingId": "4d3066b0-c3cb-4bea-a47f-faa5e9b03064",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Restless HeartJohn Waite",
+      "song": "Restless Heart",
+      "performer": "John Waite",
+      "peakPosition": 59,
+      "firstChartDate": "1985-01-26",
+      "lastChartDate": "1985-03-16",
+      "appearances": [
+        {
+          "chartDate": "1985-01-26",
+          "position": 88
+        },
+        {
+          "chartDate": "1985-02-02",
+          "position": 78
+        },
+        {
+          "chartDate": "1985-02-09",
+          "position": 71
+        },
+        {
+          "chartDate": "1985-02-16",
+          "position": 63
+        },
+        {
+          "chartDate": "1985-02-23",
+          "position": 59
+        },
+        {
+          "chartDate": "1985-03-02",
+          "position": 59
+        },
+        {
+          "chartDate": "1985-03-09",
+          "position": 73
+        },
+        {
+          "chartDate": "1985-03-16",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast noir portrait layout high contrast black and white noir halftone stark lighting minimalist typography 80s aesthetic subject partially obscured by a large black geometric silhouette extreme contrast between pure white background and deep black shadows small scale typography balanced against a large central visual weight halftone texture providing mid tone detail in the face high contrast portrait solid black foreground silhouette pure white background edge aligned geometric sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Noir Portrait Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Halftone Print",
+        "Minimalist Typography"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Editorial Portraiture",
+        "Minimalist Poster Design"
+      ],
+      "retrievalTags": [
+        "high contrast",
+        "black and white",
+        "noir",
+        "halftone",
+        "stark lighting",
+        "minimalist typography",
+        "80s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A stark black-and-white portrait featuring a subject partially obscured by deep shadows or clothing, utilizing extreme contrast and minimalist sans-serif typography positioned at the edges.",
+      "triggerTerms": [
+        "high contrast noir portrait",
+        "stark black and white album cover",
+        "minimalist edge-aligned typography"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "soft lighting or gradients are needed",
+        "centered large-scale display type is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast, monochrome composition where a central figure is defined by sharp shadows and bright highlights, set against a pure white background. The subject's face is partially hidden by a large, dark silhouette (like a collar), and the image features a visible halftone or grain texture. Typography is small, geometric, and pushed to the extreme margins.",
+    "coreVisualRelationships": [
+      "Subject partially obscured by a large black geometric silhouette",
+      "Extreme contrast between pure white background and deep black shadows",
+      "Small-scale typography balanced against a large central visual weight",
+      "Halftone texture providing mid-tone detail in the face"
+    ],
+    "coreInvariants": [
+      "Pure white background (#FFFFFF)",
+      "Deep black silhouette (#000000)",
+      "Visible halftone dot pattern in skin tones"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central portrait, medium-close up, with the lower half of the frame dominated by a dark silhouette.",
+      "visualAnchor": "The subject's eyes, which are the only detailed features visible above the dark mass.",
+      "movementAndEyePath": "From the eyes down to the dark silhouette, then outward to the small text at the top and left margins.",
+      "negativeSpace": "Extensive white space surrounding the head and at the top corners."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure White (Background)",
+      "contrastColorRole": "Deep Black (Silhouette and Shadows)",
+      "accentColorRole": "None",
+      "saturationAndValueRelationship": "Zero saturation; binary value relationship with minimal gray mid-tones.",
+      "paletteRestrictions": [
+        "Monochrome only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Open counters",
+        "Strictly geometric forms"
+      ],
+      "characterSpecificRedesigns": [
+        "Occasional use of a 'no' symbol or slashed circle as a character replacement"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "horizontal and vertical stacks",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top-left and side-left margins",
+            "scale": "small",
+            "rotation": "0 or 90 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "isolated in negative space"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "regular",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "top-right corner",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "isolated"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family with varying orientation and tracking.",
+      "graphicDevices": [
+        "Vertical text orientation",
+        "Slashed circle symbol"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Wide tracking",
+          "Edge alignment",
+          "Small scale relative to image"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Centered text",
+          "Large display sizes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Neue Medium",
+            "reason": "Matches the clean, mid-century geometric aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic",
+            "reason": "Provides a slightly more industrial, 80s feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white portrait of a person where the bottom half of the face is obscured by a sharp, black silhouette of a high collar. The background must be pure white. Apply a subtle halftone dot texture to the skin tones.",
+        "overlayInstruction": "Add small, black, geometric sans-serif text in all caps. Place one line horizontally at the top left, one line vertically down the left margin, and a serial number in the top right corner."
+      },
+      "verificationChecks": [
+        "Is the background pure white?",
+        "Is the contrast extreme with deep blacks?",
+        "Is the text small and pushed to the margins?",
+        "Is there a visible halftone texture in the mid-tones?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's expression",
+      "Shape of the obscuring silhouette",
+      "Density of the halftone pattern",
+      "Specific margin alignment of text"
+    ],
+    "mustRedesign": [
+      "Any specific artist names or logos",
+      "Specific catalog numbers",
+      "Unique brand symbols"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Stark binary contrast",
+        "Clean geometric typography",
+        "Intentional use of negative space"
+      ],
+      "avoid": [
+        "Muddy grays",
+        "Cluttered composition",
+        "Soft-focus edges"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no gray gradients in the background",
+      "Verify text is legible but unobtrusive",
+      "Check that the halftone effect doesn't muddy the eyes",
+      "Confirm the silhouette is solid black"
+    ],
+    "reuseFormula": "High-contrast portrait + solid black foreground silhouette + pure white background + edge-aligned geometric sans-serif typography."
+  }
+}

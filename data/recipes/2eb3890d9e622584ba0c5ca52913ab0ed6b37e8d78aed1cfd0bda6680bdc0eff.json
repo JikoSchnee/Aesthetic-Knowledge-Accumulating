@@ -1,0 +1,257 @@
+{
+  "id": "2eb3890d9e622584ba0c5ca52913ab0ed6b37e8d78aed1cfd0bda6680bdc0eff",
+  "skillId": "2eb3890d9e622584ba0c5ca52913ab0ed6b37e8d78aed1cfd0bda6680bdc0eff",
+  "versionId": "2eb3890d9e622584ba0c5ca52913ab0ed6b37e8d78aed1cfd0bda6680bdc0eff",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:37:20.641Z",
+  "approvedAt": "2026-08-12T21:37:20.641Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:37:20.641Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Spoiled Girl.jpg",
+    "hash": "2eb3890d9e622584ba0c5ca52913ab0ed6b37e8d78aed1cfd0bda6680bdc0eff",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Spoiled Girl",
+    "artist": "Carly Simon",
+    "artworkUrl": "https://coverartarchive.org/release-group/74717ee7-06bf-3d32-8cf3-cbad5b23ac13/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/74717ee7-06bf-3d32-8cf3-cbad5b23ac13",
+    "releaseGroupId": "74717ee7-06bf-3d32-8cf3-cbad5b23ac13",
+    "recordingId": "c88f5678-ee8c-4870-bdf8-86183c5b3c92",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Tired Of Being BlondeCarly Simon",
+      "song": "Tired Of Being Blonde",
+      "performer": "Carly Simon",
+      "peakPosition": 70,
+      "firstChartDate": "1985-06-29",
+      "lastChartDate": "1985-07-27",
+      "appearances": [
+        {
+          "chartDate": "1985-06-29",
+          "position": 84
+        },
+        {
+          "chartDate": "1985-07-06",
+          "position": 74
+        },
+        {
+          "chartDate": "1985-07-13",
+          "position": 72
+        },
+        {
+          "chartDate": "1985-07-20",
+          "position": 70
+        },
+        {
+          "chartDate": "1985-07-27",
+          "position": 87
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic noir album cover noir shadowy wide tracking monochromatic cinematic lighting 80s aesthetic subject framed by vertical doorway on the far left large expanse of negative space shadow occupying the right two thirds symmetrical typographic headers at the extreme top and bottom margins high contrast between the lit doorway and the surrounding darkness low key noir photography left aligned subject extreme wide tracked geometric sans serif headers",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Noir Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Editorial Layout",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "noir",
+        "shadowy",
+        "wide-tracking",
+        "monochromatic",
+        "cinematic lighting",
+        "80s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A moody, low-key photographic composition featuring a subject partially obscured by deep shadows and framed by architectural elements, paired with ultra-wide tracked sans-serif typography.",
+      "triggerTerms": [
+        "noir silhouette photography",
+        "wide tracked sans serif header",
+        "low key cinematic portrait",
+        "shadowy architectural framing"
+      ],
+      "excludeWhen": [
+        "bright high-key lighting is required",
+        "vibrant multi-color palettes are needed",
+        "tightly packed typography is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dark, atmospheric scene where a female figure is positioned in a doorway on the left, casting long shadows into a predominantly black, textured void on the right. The composition is anchored by extreme horizontal typography at the top and bottom edges.",
+    "coreVisualRelationships": [
+      "Subject framed by vertical doorway on the far left",
+      "Large expanse of negative space/shadow occupying the right two-thirds",
+      "Symmetrical typographic headers at the extreme top and bottom margins",
+      "High contrast between the lit doorway and the surrounding darkness"
+    ],
+    "coreInvariants": [
+      "Extreme wide letter-spacing (tracking)",
+      "Low-key lighting with deep blacks",
+      "Vertical architectural framing of the subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is small-to-medium scale, confined to the left vertical third of the frame.",
+      "visualAnchor": "The bright vertical sliver of the doorway on the left acts as the primary light source and anchor.",
+      "movementAndEyePath": "Eyes start at the lit figure on the left, move across the dark texture of the center, and are contained by the horizontal text lines.",
+      "negativeSpace": "Dominant; approximately 70% of the frame is deep shadow or dark texture."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Black (Background and Shadows)",
+      "contrastColorRole": "Warm White/Cream (Light source and Typography)",
+      "accentColorRole": "Muted Grey (Mid-tones and textures)",
+      "saturationAndValueRelationship": "Low saturation, extreme value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "Monochromatic or near-monochromatic",
+        "No vibrant primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Square or slightly extended proportions",
+        "Open apertures",
+        "No serifs"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Extended",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified/Centered",
+            "tracking": "500-800 units",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Sparse"
+          },
+          "composition": {
+            "position": "Top and Bottom margins",
+            "scale": "Small relative to frame width",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlays dark areas for maximum legibility"
+          },
+          "treatment": {
+            "fill": "White/Light Grey",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for both top and bottom text to maintain symmetry.",
+      "graphicDevices": [
+        "Horizontal alignment along the frame edges"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extreme tracking",
+          "Uppercase sans-serif",
+          "Edge-to-edge span"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Tight kerning"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma or Eurostile",
+            "reason": "Captures the square, extended 80s geometric feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bank Gothic",
+            "reason": "Provides the necessary horizontal weight and clean lines.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-key photograph of a person standing in a brightly lit doorway on the far left of a dark room. The rest of the frame should be filled with deep shadows and subtle dark textures. The lighting should be cinematic and noir-inspired.",
+        "overlayInstruction": "Add uppercase geometric sans-serif text at the very top and very bottom edges. Use extreme tracking so the text spans nearly the entire width of the frame. The text should be light grey or white."
+      },
+      "verificationChecks": [
+        "Is the text tracking extremely wide?",
+        "Is the subject confined to the left third?",
+        "Is the majority of the image deep shadow?",
+        "Are the fonts clean, uppercase sans-serifs?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject pose",
+      "Texture of the dark background",
+      "Specific tracking width",
+      "Font weight"
+    ],
+    "mustRedesign": [
+      "Any logos or specific artist names",
+      "Specific facial features of the original subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast noir lighting",
+        "Balanced typographic symmetry",
+        "Clean geometric letterforms"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Illegible text due to low contrast",
+        "Standard default kerning"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that text does not touch the subject",
+      "Ensure the right side of the image remains dark and atmospheric",
+      "Verify that the top and bottom text lines are horizontally aligned",
+      "Confirm the tracking is consistent across both lines of text"
+    ],
+    "reuseFormula": "Low-key noir photography + Left-aligned subject + Extreme wide-tracked geometric sans-serif headers"
+  }
+}

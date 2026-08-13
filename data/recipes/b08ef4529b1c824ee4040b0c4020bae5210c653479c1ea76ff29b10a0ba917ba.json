@@ -1,0 +1,320 @@
+{
+  "id": "b08ef4529b1c824ee4040b0c4020bae5210c653479c1ea76ff29b10a0ba917ba",
+  "skillId": "b08ef4529b1c824ee4040b0c4020bae5210c653479c1ea76ff29b10a0ba917ba",
+  "versionId": "b08ef4529b1c824ee4040b0c4020bae5210c653479c1ea76ff29b10a0ba917ba",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:11:08.807Z",
+  "approvedAt": "2026-08-12T23:11:08.807Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:11:08.807Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Just an Old Fashioned Love Song.jpg",
+    "hash": "b08ef4529b1c824ee4040b0c4020bae5210c653479c1ea76ff29b10a0ba917ba",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Just an Old Fashioned Love Song",
+    "artist": "Paul Williams",
+    "artworkUrl": "https://coverartarchive.org/release-group/7719215b-2ca7-3e0c-b400-cd05a0841457/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/7719215b-2ca7-3e0c-b400-cd05a0841457",
+    "releaseGroupId": "7719215b-2ca7-3e0c-b400-cd05a0841457",
+    "recordingId": "8eff3fb5-68d2-417f-b76c-05951fc34a0b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Waking Up AlonePaul Williams",
+      "song": "Waking Up Alone",
+      "performer": "Paul Williams",
+      "peakPosition": 60,
+      "firstChartDate": "1972-02-19",
+      "lastChartDate": "1972-04-15",
+      "appearances": [
+        {
+          "chartDate": "1972-02-19",
+          "position": 96
+        },
+        {
+          "chartDate": "1972-02-26",
+          "position": 86
+        },
+        {
+          "chartDate": "1972-03-04",
+          "position": 83
+        },
+        {
+          "chartDate": "1972-03-11",
+          "position": 71
+        },
+        {
+          "chartDate": "1972-03-18",
+          "position": 68
+        },
+        {
+          "chartDate": "1972-03-25",
+          "position": 66
+        },
+        {
+          "chartDate": "1972-04-01",
+          "position": 63
+        },
+        {
+          "chartDate": "1972-04-08",
+          "position": 60
+        },
+        {
+          "chartDate": "1972-04-15",
+          "position": 68
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage intimate portrait album layout vintage photo frame cream border serif typography warm film grain centered square image 70s aesthetic large negative space border framing a central square subject warm interior lighting in the photo echoing the cream border color small scale typography creating a sense of intimacy and quietude symmetrical vertical alignment of text and image square central photo wide cream border top centered small serif text 1970s folk aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Intimate Portrait Album Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting"
+      ],
+      "useCases": [
+        "1970s singer-songwriter album covers",
+        "Nostalgic book jackets",
+        "Minimalist editorial layouts",
+        "Folk music branding"
+      ],
+      "retrievalTags": [
+        "vintage photo frame",
+        "cream border",
+        "serif typography",
+        "warm film grain",
+        "centered square image",
+        "70s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A classic 1970s album layout featuring a centered square photograph surrounded by a wide cream-colored border with delicate serif typography.",
+      "triggerTerms": [
+        "70s folk album style",
+        "centered square photo with wide cream border",
+        "vintage singer-songwriter cover layout"
+      ],
+      "excludeWhen": [
+        "modern high-contrast digital styles",
+        "full-bleed photography",
+        "sans-serif bold typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square, warm-toned photograph is inset into a large, off-white or cream-colored square canvas. The photograph has a soft, filmic quality with visible grain and deep shadows. Centered above the image are two lines of small, elegant serif text in a dark brown or sepia tone.",
+    "coreVisualRelationships": [
+      "Large negative space border framing a central square subject",
+      "Warm interior lighting in the photo echoing the cream border color",
+      "Small-scale typography creating a sense of intimacy and quietude",
+      "Symmetrical vertical alignment of text and image"
+    ],
+    "coreInvariants": [
+      "Wide cream-colored margins",
+      "Centered square image aspect ratio",
+      "Dark brown serif font",
+      "Low-contrast, warm-toned photography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The photograph is a central square occupying approximately 50% of the total canvas height.",
+      "visualAnchor": "The central photograph acts as the primary anchor, supported by the top-centered text.",
+      "movementAndEyePath": "The eye starts at the top text, moves down into the central image, and rests on the wide negative space.",
+      "negativeSpace": "Extremely high; the border occupies more than half of the design area."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cream/Off-white (Background/Border)",
+      "contrastColorRole": "Deep Brown/Sepia (Typography and Photo Shadows)",
+      "accentColorRole": "Warm Amber/Red (Photo highlights and flowers)",
+      "saturationAndValueRelationship": "Low saturation overall with a warm, yellow-red bias in the midtones.",
+      "paletteRestrictions": [
+        "No pure whites",
+        "No vibrant blues or greens",
+        "No harsh blacks"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman Serif",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Bracketed serifs",
+        "Small x-height relative to ascenders",
+        "Open counters"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Old-style Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "Medium-High",
+            "xHeight": "Low",
+            "terminals": "Sharp/Bracketed",
+            "corners": "Slightly rounded",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Centered",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating above"
+          },
+          "treatment": {
+            "fill": "Dark Brown",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Slightly ink-bled",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "All-caps Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "Medium",
+            "xHeight": "N/A",
+            "terminals": "Bracketed",
+            "corners": "Sharp",
+            "counters": "Clear",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "Normal",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Directly below display text",
+            "scale": "Very small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating above"
+          },
+          "treatment": {
+            "fill": "Dark Brown",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Size and case contrast within the same serif family.",
+      "graphicDevices": [
+        "Square photo frame"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Serif style",
+          "Wide tracking on uppercase lines",
+          "Dark brown color"
+        ],
+        "avoid": [
+          "Sans-serif",
+          "Script fonts",
+          "Bright colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Garamond",
+            "reason": "Classic old-style serif with elegant proportions.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Caslon",
+            "reason": "Traditional feel with distinct character.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Sabon",
+            "reason": "Clean and balanced for small-scale typesetting.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square image with a wide cream-colored border. The central photo should be a warm, grainy, 1970s-style interior shot with soft lighting and deep shadows.",
+        "overlayInstruction": "Add two lines of centered dark brown serif text in the top margin. The first line should be larger in sentence case; the second line should be smaller, all-caps, with wide letter spacing."
+      },
+      "verificationChecks": [
+        "Is the image perfectly square?",
+        "Is the border color a warm cream rather than white?",
+        "Is the text centered and small in scale?",
+        "Does the photo have a film-like grain?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Border width",
+      "Photo grain intensity",
+      "Typography tracking",
+      "Background cream tint"
+    ],
+    "mustRedesign": [
+      "Any modern digital sharpness",
+      "Vibrant or neon colors",
+      "Asymmetrical layouts"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, warm lighting",
+        "Balanced negative space",
+        "Legible but delicate serif type"
+      ],
+      "avoid": [
+        "Cluttered margins",
+        "High-contrast digital filters",
+        "Heavy bold fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for centered vertical alignment",
+      "Verify the 'old-style' serif characteristics",
+      "Ensure the photo looks like a physical print",
+      "Confirm the color palette is limited to warm earth tones"
+    ],
+    "reuseFormula": "Square central photo + Wide cream border + Top-centered small serif text = 1970s Folk Aesthetic."
+  }
+}

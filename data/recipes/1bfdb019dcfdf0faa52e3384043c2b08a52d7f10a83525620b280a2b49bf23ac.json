@@ -1,0 +1,261 @@
+{
+  "id": "1bfdb019dcfdf0faa52e3384043c2b08a52d7f10a83525620b280a2b49bf23ac",
+  "skillId": "1bfdb019dcfdf0faa52e3384043c2b08a52d7f10a83525620b280a2b49bf23ac",
+  "versionId": "1bfdb019dcfdf0faa52e3384043c2b08a52d7f10a83525620b280a2b49bf23ac",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:16:16.340Z",
+  "approvedAt": "2026-08-12T16:16:16.340Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:16:16.340Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Foolish Behaviour.jpg",
+    "hash": "1bfdb019dcfdf0faa52e3384043c2b08a52d7f10a83525620b280a2b49bf23ac",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Foolish Behaviour",
+    "artist": "Rod Stewart",
+    "artworkUrl": "https://coverartarchive.org/release-group/b85e2cc1-9666-3b9a-9498-21fb38ab8b2f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b85e2cc1-9666-3b9a-9498-21fb38ab8b2f",
+    "releaseGroupId": "b85e2cc1-9666-3b9a-9498-21fb38ab8b2f",
+    "recordingId": "0ac2448d-967e-4ef3-98ba-abbf8c2c863b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Somebody SpecialRod Stewart",
+      "song": "Somebody Special",
+      "performer": "Rod Stewart",
+      "peakPosition": 71,
+      "firstChartDate": "1981-03-21",
+      "lastChartDate": "1981-04-18",
+      "appearances": [
+        {
+          "chartDate": "1981-03-21",
+          "position": 81
+        },
+        {
+          "chartDate": "1981-03-28",
+          "position": 71
+        },
+        {
+          "chartDate": "1981-04-04",
+          "position": 71
+        },
+        {
+          "chartDate": "1981-04-11",
+          "position": 79
+        },
+        {
+          "chartDate": "1981-04-18",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro pop rock album cover with outlined display type outlined typography close up portrait striped collar 1980s aesthetic bold display type warm lighting text overlaps the subject s hair and clothing to create depth warm skin tones contrast with the cool dark background diagonal lines of the striped collar lead the eye toward the face large scale typography acts as a frame for the central portrait combine a high intensity close up portrait with oversized hollowed out geometric sans serif typography that frames the face",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Pop Rock Album Cover with Outlined Display Type",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Offset Printing"
+      ],
+      "useCases": [
+        "Album art design",
+        "Retro 1980s music posters",
+        "Editorial portrait layouts"
+      ],
+      "retrievalTags": [
+        "outlined typography",
+        "close-up portrait",
+        "striped collar",
+        "1980s aesthetic",
+        "bold display type",
+        "warm lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A tight close-up portrait featuring bold, outlined sans-serif typography that overlaps the subject's hair and clothing.",
+      "triggerTerms": [
+        "outlined display text over portrait",
+        "retro 80s album cover style",
+        "bold sans-serif outline lettering"
+      ],
+      "excludeWhen": [
+        "minimalist white space is required",
+        "modern flat design is requested",
+        "text must be placed away from the subject"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast, warm-toned close-up portrait of a male figure with feathered hair, wearing a red and black striped garment, framed by large-scale outlined sans-serif text at the top and bottom.",
+    "coreVisualRelationships": [
+      "Text overlaps the subject's hair and clothing to create depth",
+      "Warm skin tones contrast with the cool dark background",
+      "Diagonal lines of the striped collar lead the eye toward the face",
+      "Large-scale typography acts as a frame for the central portrait"
+    ],
+    "coreInvariants": [
+      "Outlined sans-serif typography with transparent or image-filled centers",
+      "Tight facial crop focusing on the eyes and expression",
+      "High-contrast lighting with warm highlights"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The face is centered and scaled to fill approximately 70% of the vertical frame.",
+      "visualAnchor": "The subject's eyes and the bold outlined text at the top.",
+      "movementAndEyePath": "The eye starts at the large top text, moves down to the subject's eyes, follows the striped collar, and ends at the bottom text.",
+      "negativeSpace": "Minimal negative space, primarily located in the dark background to the left of the face."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm flesh tones and golden-brown hair.",
+      "contrastColorRole": "Deep black and dark blue background.",
+      "accentColorRole": "Vibrant red stripes on the collar.",
+      "saturationAndValueRelationship": "High saturation in the reds and skin tones against a low-value, muted background.",
+      "paletteRestrictions": [
+        "Red",
+        "Black",
+        "Warm Tan",
+        "Dark Navy"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Heavy outer stroke with a hollow center",
+        "Tight kerning with occasional character overlap",
+        "Uniform stroke weight for the outlines"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'R' and 'A' have slightly rounded outer corners to match the stroke weight",
+        "The 'S' is tightly curved to fit the compact spacing"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "monolinear outline"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "two lines",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top and bottom edges",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "overlaps hair and clothing",
+            "relationshipToImage": "foreground layer"
+          },
+          "treatment": {
+            "fill": "none",
+            "outline": "thick white or light grey",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in two different sizes for top and bottom text.",
+      "graphicDevices": [
+        "Outlined text",
+        "Overlapping layers",
+        "High-contrast stripes"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Outline thickness",
+          "Uppercase sans-serif style",
+          "Overlapping placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Solid fills for the large text",
+          "Thin strokes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Extra Bold Outline",
+            "reason": "Matches the geometric skeleton and bold presence.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy Outline",
+            "reason": "Provides a similar sturdy, classic rock aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a tight, warm-lit close-up portrait of a person with feathered hair wearing a red and black striped collar against a dark background.",
+        "overlayInstruction": "Apply large, bold, uppercase sans-serif outlined text at the top and bottom, ensuring the outlines overlap the hair and collar."
+      },
+      "verificationChecks": [
+        "Is the text hollow with a visible outline?",
+        "Does the text overlap the subject's hair?",
+        "Is the portrait a tight close-up?",
+        "Are the red and black stripes prominent?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Thickness of the text outline",
+      "Intensity of the red in the stripes",
+      "Tightness of the facial crop"
+    ],
+    "mustRedesign": [
+      "Avoid using specific celebrity likenesses",
+      "Do not replicate specific brand logos",
+      "Ensure text content is generic or user-provided"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clear, legible outlines",
+        "High-contrast portrait lighting",
+        "Intentional text-to-image overlap"
+      ],
+      "avoid": [
+        "Blurry text edges",
+        "Low-contrast color palettes",
+        "Centered text that obscures the eyes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is strictly outlined and not solid.",
+      "Verify the striped pattern is sharp and high-contrast.",
+      "Ensure the hair texture is visible through the hollow parts of the letters.",
+      "Confirm the composition feels crowded and energetic, typical of 80s rock art."
+    ],
+    "reuseFormula": "Combine a high-intensity close-up portrait with oversized, hollowed-out geometric sans-serif typography that frames the face."
+  }
+}

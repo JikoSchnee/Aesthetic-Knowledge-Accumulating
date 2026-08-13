@@ -1,0 +1,292 @@
+{
+  "id": "2fe896f7afaa76040cda73aba23443cac514e89ca94e4a1735acf9e619618115",
+  "skillId": "2fe896f7afaa76040cda73aba23443cac514e89ca94e4a1735acf9e619618115",
+  "versionId": "2fe896f7afaa76040cda73aba23443cac514e89ca94e4a1735acf9e619618115",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:08:29.194Z",
+  "approvedAt": "2026-08-12T05:08:29.194Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:08:29.194Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Birth of a King.jpg",
+    "hash": "2fe896f7afaa76040cda73aba23443cac514e89ca94e4a1735acf9e619618115",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Birth of a King",
+    "artist": "Jordan Smith",
+    "artworkUrl": "https://coverartarchive.org/release-group/6fd6fd4a-ba8b-464c-aad1-208518911151/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6fd6fd4a-ba8b-464c-aad1-208518911151",
+    "releaseGroupId": "6fd6fd4a-ba8b-464c-aad1-208518911151",
+    "recordingId": "6747c0ca-cd61-44c6-96c9-d7d1741ced34",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Mary Did You KnowJordan Smith",
+      "song": "Mary Did You Know",
+      "performer": "Jordan Smith",
+      "peakPosition": 24,
+      "firstChartDate": "2016-01-02",
+      "lastChartDate": "2016-01-02",
+      "appearances": [
+        {
+          "chartDate": "2016-01-02",
+          "position": 24
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic epic landscape album cover epic landscape serif typography desaturated mountains vintage film texture letterboxed layout text to image framing where the border acts as a stage for typography contrast between the organic mountain textures and the sharp geometric border desaturated color palette creating a somber epic mood uniform film grain texture across both image and graphic elements epic landscape dark border frame textured serif typography film grain overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Epic Landscape Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Digital Photography",
+        "Typography",
+        "Film Grain Overlay"
+      ],
+      "useCases": [
+        "Music Album Art",
+        "Cinematic Poster",
+        "Book Cover",
+        "Podcast Art"
+      ],
+      "retrievalTags": [
+        "epic landscape",
+        "serif typography",
+        "desaturated mountains",
+        "vintage film texture",
+        "letterboxed layout"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A cinematic, desaturated mountain landscape framed by a dark border with large, textured serif typography.",
+      "triggerTerms": [
+        "epic cinematic landscape",
+        "textured serif typography",
+        "desaturated mountain range",
+        "vintage film grain overlay"
+      ],
+      "excludeWhen": [
+        "vibrant colors are required",
+        "modern sans-serif styles are requested",
+        "minimalist white backgrounds are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition featuring a central rectangular landscape of misty, desaturated mountains under a cloudy sky, encased in a thick charcoal-grey border. The top section contains large, weathered serif text, while the bottom features a smaller, clean serif credit line, all unified by a heavy layer of film grain and dust speckles.",
+    "coreVisualRelationships": [
+      "Text-to-image framing where the border acts as a stage for typography",
+      "Contrast between the organic mountain textures and the sharp geometric border",
+      "Desaturated color palette creating a somber, epic mood",
+      "Uniform film grain texture across both image and graphic elements"
+    ],
+    "coreInvariants": [
+      "Thick dark border framing the central image",
+      "High-contrast serif typography with distressed texture",
+      "Desaturated, low-key color grading",
+      "Heavy film grain and dust artifacts"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "A central rectangular landscape occupies the middle 60% of the frame.",
+      "visualAnchor": "The large title text in the upper third of the composition.",
+      "movementAndEyePath": "Eyes start at the large top text, move down to the mountain range, and finish at the smaller text at the bottom.",
+      "negativeSpace": "The thick charcoal border provides significant negative space for the typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Charcoal grey and deep blacks in the border and shadows.",
+      "contrastColorRole": "Off-white/light grey for the typography and sky highlights.",
+      "accentColorRole": "Muted purples and browns within the mountain shadows.",
+      "saturationAndValueRelationship": "Low saturation with high value contrast between the text and the dark background.",
+      "paletteRestrictions": [
+        "No vibrant primary colors",
+        "No pure white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical serif with high stroke contrast",
+      "letterConstructionRules": [
+        "Sharp, triangular serifs",
+        "High vertical contrast",
+        "Open counters in 'B' and 'R'",
+        "Distressed, chalky texture applied to the fill"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' has a flat top",
+        "The 'K' has a high waist and sharp terminals"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium-Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Classic"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "two-line stack",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by border"
+          },
+          "treatment": {
+            "fill": "textured off-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "weathered/distressed",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Classic"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "extra-wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by border"
+          },
+          "treatment": {
+            "fill": "clean off-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Varying scale and tracking of the same serif family for hierarchy.",
+      "graphicDevices": [
+        "Rectangular image frame",
+        "Heavy film grain overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast serifs",
+          "Uppercase styling",
+          "Wide tracking"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "Bright colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cinzel",
+            "reason": "Classical proportions and sharp serifs suitable for epic themes",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Trajan",
+            "reason": "The industry standard for cinematic serif typography",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Playfair Display",
+            "reason": "High contrast and elegant terminals",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a desaturated, cinematic landscape of misty mountains under a cloudy sky. Apply a heavy film grain and dust texture. Frame the image with a thick, dark charcoal-grey border on all sides, leaving more space at the top and bottom.",
+        "overlayInstruction": "Add large, centered, uppercase serif text in the top border area with a weathered, chalky texture. Add smaller, centered, uppercase serif text in the bottom border area with wide tracking."
+      },
+      "verificationChecks": [
+        "Is the typography centered?",
+        "Is the film grain consistent across the image and border?",
+        "Is the color palette desaturated and moody?",
+        "Is the main title text significantly larger than the bottom text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Thickness of the border",
+      "Intensity of the film grain",
+      "Specific mountain terrain",
+      "Font weight of the title"
+    ],
+    "mustRedesign": [
+      "Any specific artist names or album titles",
+      "Exact mountain silhouettes from the source",
+      "Unique distressed patterns in the letters"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic scale",
+        "Cohesive texture application",
+        "Balanced typographic hierarchy"
+      ],
+      "avoid": [
+        "Clean, digital-looking gradients",
+        "Modernist sans-serif layouts",
+        "Vibrant saturation"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is legible against the dark background",
+      "Verify the 'weathered' texture on the text looks organic",
+      "Check that the landscape feels vast and epic",
+      "Confirm the square aspect ratio is maintained"
+    ],
+    "reuseFormula": "Epic Landscape + Dark Border Frame + Textured Serif Typography + Film Grain Overlay"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:42:56.738Z"
+}

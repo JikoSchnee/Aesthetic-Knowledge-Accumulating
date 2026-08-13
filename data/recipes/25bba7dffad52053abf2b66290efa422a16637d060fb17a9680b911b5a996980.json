@@ -1,0 +1,301 @@
+{
+  "id": "25bba7dffad52053abf2b66290efa422a16637d060fb17a9680b911b5a996980",
+  "skillId": "25bba7dffad52053abf2b66290efa422a16637d060fb17a9680b911b5a996980",
+  "versionId": "25bba7dffad52053abf2b66290efa422a16637d060fb17a9680b911b5a996980",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:31:35.672Z",
+  "approvedAt": "2026-08-12T12:31:35.672Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:31:35.672Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "...A Lot of Dominos!.jpg",
+    "hash": "25bba7dffad52053abf2b66290efa422a16637d060fb17a9680b911b5a996980",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "...A Lot of Dominos!",
+    "artist": "Fats Domino",
+    "artworkUrl": "https://coverartarchive.org/release-group/6fc1dd4d-c384-328b-8187-beed623c9815/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6fc1dd4d-c384-328b-8187-beed623c9815",
+    "releaseGroupId": "6fc1dd4d-c384-328b-8187-beed623c9815",
+    "recordingId": "013f431f-093e-428f-8c4a-253b44eecbe6",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Put Your Arms Around Me HoneyFats Domino",
+      "song": "Put Your Arms Around Me Honey",
+      "performer": "Fats Domino",
+      "peakPosition": 58,
+      "firstChartDate": "1960-09-03",
+      "lastChartDate": "1960-10-08",
+      "appearances": [
+        {
+          "chartDate": "1960-09-03",
+          "position": 88
+        },
+        {
+          "chartDate": "1960-09-10",
+          "position": 78
+        },
+        {
+          "chartDate": "1960-09-17",
+          "position": 58
+        },
+        {
+          "chartDate": "1960-09-24",
+          "position": 59
+        },
+        {
+          "chartDate": "1960-10-01",
+          "position": 72
+        },
+        {
+          "chartDate": "1960-10-08",
+          "position": 85
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century painted jazz album cover 1950s album art painterly portrait warm yellow wash slab serif typography grand piano sketch suit and tie illustration central figure anchored by vibrant yellow orange background wash typographic weight balanced against the visual weight of the suit faint line art piano providing context without competing with the portrait high contrast blue text against warm background tones painterly portrait luminous gouache wash slab serif display type line art accent",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Painted Jazz Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Gouache painting",
+        "Watercolor",
+        "Offset lithography",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Vintage music packaging",
+        "Retro poster design",
+        "Mid-century modern editorial illustration",
+        "Jazz-themed branding"
+      ],
+      "retrievalTags": [
+        "1950s album art",
+        "painterly portrait",
+        "warm yellow wash",
+        "slab serif typography",
+        "grand piano sketch",
+        "suit and tie illustration"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A painterly mid-century aesthetic featuring a central figure in a suit surrounded by vibrant yellow and orange washes and a minimalist line-art piano.",
+      "triggerTerms": [
+        "1950s painted album cover style",
+        "warm gouache wash background",
+        "retro slab serif music cover",
+        "painterly jazz portrait"
+      ],
+      "excludeWhen": [
+        "modern digital photography is required",
+        "minimalist Swiss style is requested",
+        "dark or moody color palettes are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central, smiling male figure in a brown suit walking forward, rendered in a painterly style with visible brushstrokes. The background is a luminous, textured wash of yellow and orange gouache, featuring a faint, pink-outlined grand piano to the left. Bold, blue slab-serif typography spans the upper third, paired with a delicate italicized serif for the artist's name.",
+    "coreVisualRelationships": [
+      "Central figure anchored by vibrant yellow-orange background wash",
+      "Typographic weight balanced against the visual weight of the suit",
+      "Faint line-art piano providing context without competing with the portrait",
+      "High-contrast blue text against warm background tones"
+    ],
+    "coreInvariants": [
+      "Textured, visible brushwork in the portrait",
+      "Luminous yellow-to-white gradient wash",
+      "Slab-serif display type in a contrasting cool color"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-length central figure, approximately 70% of vertical height, centered horizontally.",
+      "visualAnchor": "The dark shoes and the saturated brown of the suit provide the base anchor.",
+      "movementAndEyePath": "Eye starts at the bold blue title, moves down to the face, follows the suit down to the feet, and circles back to the piano sketch.",
+      "negativeSpace": "Significant white space on the left and right edges where the yellow wash fades out."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm Yellow and Orange (background wash and highlights)",
+      "contrastColorRole": "Deep Brown and Black (suit and shoes)",
+      "accentColorRole": "Cobalt Blue (primary text) and Magenta (piano outline)",
+      "saturationAndValueRelationship": "High saturation in the center wash, fading to low saturation at the edges; high value contrast between the suit and the background.",
+      "paletteRestrictions": [
+        "Avoid neon or synthetic digital colors",
+        "Limit to earth tones, primary yellow, and a single cool accent"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Sturdy slab serif and elegant transitional serif",
+      "letterConstructionRules": [
+        "Display text uses heavy, rectangular slabs with minimal contrast",
+        "Subtitle uses high-contrast strokes with sharp, angled serifs"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "top third",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "partially over background wash",
+            "relationshipToImage": "superimposed"
+          },
+          "treatment": {
+            "fill": "solid cobalt blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "ball",
+            "corners": "sharp",
+            "counters": "tight",
+            "strokeCharacter": "tapered"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "below display text, right-aligned",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating"
+          },
+          "treatment": {
+            "fill": "dark brown",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Bold, masculine slab serif paired with a delicate, feminine italic serif for contrast.",
+      "graphicDevices": [
+        "Magenta rectangle in top right corner for secondary branding",
+        "Thin line-art illustration of a grand piano"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif weight",
+          "Italicized serif contrast",
+          "Blue and brown color pairing"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell or Stymie",
+            "reason": "Matches the heavy, uniform slab serif display style",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Baskerville Italic or Caslon Italic",
+            "reason": "Captures the elegant, high-contrast serif subtitle",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a painterly illustration of a man in a brown suit walking forward, set against a textured yellow and orange gouache wash. Include a faint, pink line-drawing of a grand piano to the left.",
+        "overlayInstruction": "Add the title in a bold blue slab-serif font across the top, and the artist name in a dark brown italicized serif font below it to the right."
+      },
+      "verificationChecks": [
+        "Is the background wash textured like gouache?",
+        "Is the primary text a bold slab serif in blue?",
+        "Is the piano rendered as a simple line drawing?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the yellow wash",
+      "Color of the suit",
+      "Placement of the piano sketch"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Proprietary logos in the top right corner",
+      "Exact wording of the original text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Hand-painted texture in the portrait",
+        "Vibrant, luminous background color",
+        "Clean, mid-century typographic layout"
+      ],
+      "avoid": [
+        "Flat, digital vector gradients",
+        "Overly sharp, photographic realism",
+        "Modern sans-serif typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the blue text is legible against the yellow background",
+      "Verify the painterly style is consistent across the figure and background",
+      "Check that the piano sketch remains a secondary, subtle element",
+      "Confirm the slab-serif font has the correct mid-century weight"
+    ],
+    "reuseFormula": "Painterly Portrait + Luminous Gouache Wash + Slab Serif Display Type + Line Art Accent"
+  }
+}

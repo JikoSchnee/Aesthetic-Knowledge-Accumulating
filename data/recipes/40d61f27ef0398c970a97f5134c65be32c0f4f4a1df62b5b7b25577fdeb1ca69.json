@@ -1,0 +1,288 @@
+{
+  "id": "40d61f27ef0398c970a97f5134c65be32c0f4f4a1df62b5b7b25577fdeb1ca69",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T14:19:22.249Z",
+  "approvedAt": "2026-08-11T14:19:22.249Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T14:19:22.249Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "For the Boys.jpg",
+    "hash": "40d61f27ef0398c970a97f5134c65be32c0f4f4a1df62b5b7b25577fdeb1ca69",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "For the Boys",
+    "artist": "Bette Midler",
+    "artworkUrl": "https://coverartarchive.org/release-group/578f54ee-b630-3a34-8215-aa648e349e32/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/578f54ee-b630-3a34-8215-aa648e349e32",
+    "releaseGroupId": "578f54ee-b630-3a34-8215-aa648e349e32",
+    "recordingId": "69b2d8e2-67a0-454f-ac08-00191047fa3c",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Every Road Leads Back To YouBette Midler",
+      "song": "Every Road Leads Back To You",
+      "performer": "Bette Midler",
+      "peakPosition": 78,
+      "firstChartDate": "1991-12-21",
+      "lastChartDate": "1992-01-25",
+      "appearances": [
+        {
+          "chartDate": "1991-12-21",
+          "position": 86
+        },
+        {
+          "chartDate": "1991-12-28",
+          "position": 86
+        },
+        {
+          "chartDate": "1992-01-04",
+          "position": 81
+        },
+        {
+          "chartDate": "1992-01-11",
+          "position": 82
+        },
+        {
+          "chartDate": "1992-01-18",
+          "position": 78
+        },
+        {
+          "chartDate": "1992-01-25",
+          "position": 83
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage cinematic performance poster 1940s style cinematic lighting sepia tones serif typography film grain stage performance the diagonal reach between the performer and the audience member creates a central focal line the bright stage lighting in the background creates a halo effect around the subjects the dark textured foreground provides a stable base for the primary title typography the warm sepia color palette unifies the historical setting with the emotional tone combine a high contrast period photograph with classical roman serif typography in white utilizing dark negative space for text placement",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Cinematic Performance Poster",
+      "category": "Entertainment Design",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Soundtrack Cover",
+        "Theatrical Poster",
+        "Period Drama Marketing"
+      ],
+      "retrievalTags": [
+        "1940s style",
+        "cinematic lighting",
+        "sepia tones",
+        "serif typography",
+        "film grain",
+        "stage performance"
+      ]
+    },
+    "visualDefinition": "A high-contrast, warm-toned cinematic scene depicting a female performer reaching out to a soldier in a crowded audience, framed by classic serif typography at the top and bottom margins.",
+    "coreVisualRelationships": [
+      "The diagonal reach between the performer and the audience member creates a central focal line.",
+      "The bright stage lighting in the background creates a halo effect around the subjects.",
+      "The dark, textured foreground provides a stable base for the primary title typography.",
+      "The warm sepia color palette unifies the historical setting with the emotional tone."
+    ],
+    "coreInvariants": [
+      "Heavy film grain texture",
+      "High-contrast chiaroscuro lighting",
+      "Classic serif typeface with sharp terminals",
+      "Muted, desaturated warm color grading"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Primary subjects are positioned on the right third and lower-left, creating a dynamic interaction across the frame.",
+      "visualAnchor": "The large, white serif title at the bottom center serves as the primary anchor.",
+      "movementAndEyePath": "Eyes move from the top billing text, down the performer's arm to the soldier's hand, and finally to the main title.",
+      "negativeSpace": "Deep shadows in the lower corners and upper center provide space for legible text placement."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep umber and charcoal shadows provide the foundation.",
+      "contrastColorRole": "Warm amber and golden highlights define the subjects' silhouettes.",
+      "accentColorRole": "Pure white is used exclusively for typography to ensure maximum legibility.",
+      "saturationAndValueRelationship": "Low saturation with high value contrast between the light sources and the dark environment.",
+      "paletteRestrictions": [
+        "No vibrant primary colors",
+        "No cool blues or greens"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman Serif",
+      "letterConstructionRules": [
+        "High stroke contrast between thick and thin lines",
+        "Sharp, bracketed serifs",
+        "Open counters in the 'O' and 'B'",
+        "Slightly condensed proportions for secondary text"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'R' features a graceful, curved leg",
+        "The 'Y' has a deep, symmetrical crotch"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Old Style Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Pointed",
+            "counters": "Circular",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "centered",
+            "density": "open"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on dark foreground"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Bracketed",
+            "corners": "Soft",
+            "counters": "Open",
+            "strokeCharacter": "Clean"
+          },
+          "typesetting": {
+            "case": "title-caps",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "regular"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on dark background"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "A bold, high-contrast serif for the main title paired with a lighter, more delicate serif for credits and billing.",
+      "graphicDevices": [
+        "Horizontal text alignment",
+        "Wide letter spacing for metadata"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps for main title",
+          "High-contrast serif style",
+          "White color"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Script or handwritten styles",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Baskerville",
+            "reason": "Classic transitional serif with high legibility and historical feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni",
+            "reason": "Extreme stroke contrast matches the dramatic lighting of the image.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a cinematic, grainy 1940s-style photograph of a female singer on a stage reaching down to touch the hand of a soldier in a dark, crowded audience. Use warm sepia tones and strong backlighting to create a glow around the subjects.",
+        "overlayInstruction": "Apply white serif typography. Place the main title in large all-caps at the bottom center. Place secondary billing in smaller text at the top and just above the main title."
+      },
+      "verificationChecks": [
+        "Is the film grain visible and consistent?",
+        "Is the typography pure white without effects?",
+        "Does the lighting create a clear silhouette for the main subjects?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the film grain",
+      "Warmth of the color temperature",
+      "Tracking/letter-spacing of the metadata text",
+      "Scale of the main title"
+    ],
+    "mustRedesign": [
+      "Any modern digital-looking elements",
+      "Vibrant or neon colors",
+      "Sans-serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic period-drama atmosphere",
+        "Clear typographic hierarchy",
+        "Emotional connection through subject interaction"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Overly sharp digital resolution",
+        "Cluttered text placement"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast serif terminals",
+      "Ensure grain doesn't obscure text legibility",
+      "Verify the diagonal composition of the hands",
+      "Confirm the all-caps treatment of the bottom title",
+      "Validate the warm, monochromatic-leaning palette"
+    ],
+    "reuseFormula": "Combine a high-contrast period photograph with classical Roman serif typography in white, utilizing dark negative space for text placement."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:07:35.286Z"
+}

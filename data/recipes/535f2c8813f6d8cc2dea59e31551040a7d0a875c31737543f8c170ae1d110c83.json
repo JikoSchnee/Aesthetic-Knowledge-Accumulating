@@ -1,0 +1,263 @@
+{
+  "id": "535f2c8813f6d8cc2dea59e31551040a7d0a875c31737543f8c170ae1d110c83",
+  "skillId": "535f2c8813f6d8cc2dea59e31551040a7d0a875c31737543f8c170ae1d110c83",
+  "versionId": "535f2c8813f6d8cc2dea59e31551040a7d0a875c31737543f8c170ae1d110c83",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:31:31.175Z",
+  "approvedAt": "2026-08-12T19:31:31.175Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:31:31.175Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "September Morn.jpg",
+    "hash": "535f2c8813f6d8cc2dea59e31551040a7d0a875c31737543f8c170ae1d110c83",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "September Morn",
+    "artist": "Neil Diamond",
+    "artworkUrl": "https://coverartarchive.org/release-group/4347be8a-a871-31d4-8ad5-fdf42eea1492/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/4347be8a-a871-31d4-8ad5-fdf42eea1492",
+    "releaseGroupId": "4347be8a-a871-31d4-8ad5-fdf42eea1492",
+    "recordingId": "9a0731ae-985d-403e-9294-4c61ccfdd9b5",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Good Lord Loves YouNeil Diamond",
+      "song": "The Good Lord Loves You",
+      "performer": "Neil Diamond",
+      "peakPosition": 67,
+      "firstChartDate": "1980-04-05",
+      "lastChartDate": "1980-05-10",
+      "appearances": [
+        {
+          "chartDate": "1980-04-05",
+          "position": 85
+        },
+        {
+          "chartDate": "1980-04-12",
+          "position": 76
+        },
+        {
+          "chartDate": "1980-04-19",
+          "position": 68
+        },
+        {
+          "chartDate": "1980-04-26",
+          "position": 67
+        },
+        {
+          "chartDate": "1980-05-03",
+          "position": 92
+        },
+        {
+          "chartDate": "1980-05-10",
+          "position": 91
+        }
+      ]
+    }
+  },
+  "dedupeText": "soft focus 70s portrait album cover soft focus vignette open collar script typography warm studio lighting grainy film texture subject centered with direct eye contact high contrast between white shirt and dark background typography balanced in top left and top right corners soft diffused lighting creating gentle shadows on the face soft focus portrait white open collar dark vignette corner aligned script 70s singer songwriter aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Soft Focus 70s Portrait Album Cover",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Studio Lighting",
+        "Analog Film"
+      ],
+      "useCases": [
+        "Classic singer-songwriter album covers",
+        "Nostalgic 1970s editorial portraits",
+        "Soft-lit male headshots"
+      ],
+      "retrievalTags": [
+        "soft focus",
+        "vignette",
+        "open collar",
+        "script typography",
+        "warm studio lighting",
+        "grainy film texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered, soft-focus male portrait with a dark vignetted background and elegant script typography placed in the upper corners.",
+      "triggerTerms": [
+        "70s soft focus portrait",
+        "singer-songwriter album aesthetic",
+        "vignetted studio headshot with script"
+      ],
+      "excludeWhen": [
+        "modern high-contrast digital photography",
+        "minimalist sans-serif layouts",
+        "bright outdoor natural lighting"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up studio portrait of a man with dark hair and a white open-collared shirt, characterized by a shallow depth of field, warm skin tones, and a heavy dark vignette that isolates the subject against a murky background.",
+    "coreVisualRelationships": [
+      "Subject centered with direct eye contact",
+      "High contrast between white shirt and dark background",
+      "Typography balanced in top left and top right corners",
+      "Soft, diffused lighting creating gentle shadows on the face"
+    ],
+    "coreInvariants": [
+      "Heavy dark vignette framing the head",
+      "White open-collared shirt as the primary light-reflecting element",
+      "Soft-focus film grain texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Head and shoulders centered, filling approximately 70% of the vertical frame.",
+      "visualAnchor": "The subject's eyes and the bright white V-neck of the shirt.",
+      "movementAndEyePath": "Starts at the eyes, moves down to the white shirt, then upward to the corner typography.",
+      "negativeSpace": "Deeply shadowed upper corners and sides providing a frame for the face."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep umber and charcoal (background/shadows)",
+      "contrastColorRole": "Pure white (shirt and typography)",
+      "accentColorRole": "Warm peach and tan (skin tones)",
+      "saturationAndValueRelationship": "Low saturation with high value contrast between the shirt and the background.",
+      "paletteRestrictions": [
+        "Muted earth tones",
+        "No neon or primary brights"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Elegant cursive script",
+      "letterConstructionRules": [
+        "High contrast between thick and thin strokes",
+        "Elongated, looping swashes on capital letters",
+        "Connected lowercase letters with rounded terminals",
+        "Uniform baseline with slight upward tilt"
+      ],
+      "characterSpecificRedesigns": [
+        "Capital letters feature exaggerated circular flourishes",
+        "Terminals end in soft, rounded bulbs"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Script",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Rounded/Ball",
+            "corners": "Soft",
+            "counters": "Open",
+            "strokeCharacter": "Fluid"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Justified to corners",
+            "tracking": "Normal",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line per corner",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top left and top right corners",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over dark background"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single decorative script used for both artist name and title to maintain symmetry.",
+      "graphicDevices": [
+        "Vignetting",
+        "Soft-focus filter"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Looping swashes",
+          "High stroke contrast",
+          "White color"
+        ],
+        "avoid": [
+          "Blocky serifs",
+          "Geometric sans-serifs",
+          "Hard edges"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Shelley Allegro",
+            "reason": "Matches the elegant, high-contrast 70s script style.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bickham Script",
+            "reason": "Provides the necessary flourishes and formal cursive structure.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus studio portrait of a man with dark hair wearing a white open-collared shirt, centered against a dark, heavily vignetted brown-black background with visible film grain.",
+        "overlayInstruction": "Add white elegant script text in the top left and top right corners, ensuring the swashes are prominent and the text is legible against the dark background."
+      },
+      "verificationChecks": [
+        "Is the lighting soft and diffused?",
+        "Is the vignette strong enough to darken the corners?",
+        "Is the typography a high-contrast white script?",
+        "Is the shirt a bright white open-collar style?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the vignette",
+      "Amount of film grain",
+      "Warmth of the skin tones",
+      "Complexity of the script flourishes"
+    ],
+    "mustRedesign": [
+      "Avoid modern digital sharpness",
+      "Do not use flat, solid black backgrounds; keep them textured and murky"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft-focus glow",
+        "Balanced corner typography",
+        "Analog film texture"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Digital noise",
+        "Modern sans-serif fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for soft focus on facial features",
+      "Ensure typography is placed in the extreme upper corners",
+      "Verify the white shirt is the brightest point of the image",
+      "Confirm the presence of a dark vignette"
+    ],
+    "reuseFormula": "Soft-focus portrait + white open collar + dark vignette + corner-aligned script = 70s Singer-Songwriter Aesthetic"
+  }
+}

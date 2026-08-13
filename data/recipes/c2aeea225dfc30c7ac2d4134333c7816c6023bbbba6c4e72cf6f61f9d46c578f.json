@@ -1,0 +1,250 @@
+{
+  "id": "c2aeea225dfc30c7ac2d4134333c7816c6023bbbba6c4e72cf6f61f9d46c578f",
+  "skillId": "c2aeea225dfc30c7ac2d4134333c7816c6023bbbba6c4e72cf6f61f9d46c578f",
+  "versionId": "c2aeea225dfc30c7ac2d4134333c7816c6023bbbba6c4e72cf6f61f9d46c578f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:15:03.883Z",
+  "approvedAt": "2026-08-13T05:15:03.883Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:15:03.883Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Double Dutchess.jpg",
+    "hash": "c2aeea225dfc30c7ac2d4134333c7816c6023bbbba6c4e72cf6f61f9d46c578f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Double Dutchess",
+    "artist": "Fergie",
+    "artworkUrl": "https://coverartarchive.org/release-group/1bb8e24e-042b-47d7-9eea-46895b62f362/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1bb8e24e-042b-47d7-9eea-46895b62f362",
+    "releaseGroupId": "1bb8e24e-042b-47d7-9eea-46895b62f362",
+    "recordingId": "8c19944b-73e0-47c8-9d31-c49fc9c430c1",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "M.I.L.F. $Fergie",
+      "song": "M.I.L.F. $",
+      "performer": "Fergie",
+      "peakPosition": 34,
+      "firstChartDate": "2016-07-23",
+      "lastChartDate": "2016-08-06",
+      "appearances": [
+        {
+          "chartDate": "2016-07-23",
+          "position": 34
+        },
+        {
+          "chartDate": "2016-07-30",
+          "position": 80
+        },
+        {
+          "chartDate": "2016-08-06",
+          "position": 86
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast split portrait with glitch typography monochrome split composition glitch text high contrast editorial portrait brutalist typography vertical bisection of the central subject symmetrical vertical stacking of typography high contrast relationship between white background and black graphic elements interaction between organic human form and geometric glitch text high key monochrome portrait vertical bisection flanking vertical glitch typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Split Portrait with Glitch Typography",
+      "category": "Editorial Photography",
+      "medium": [
+        "Black and white photography",
+        "Digital graphic design",
+        "Glitch art"
+      ],
+      "useCases": [
+        "Album cover art",
+        "Fashion editorial",
+        "Modern minimalist poster",
+        "High-fashion branding"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "split composition",
+        "glitch text",
+        "high contrast",
+        "editorial portrait",
+        "brutalist typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast black and white portrait bisected by a vertical seam, flanked by vertically stacked glitch-distorted sans-serif characters.",
+      "triggerTerms": [
+        "split monochrome portrait",
+        "vertical glitch typography",
+        "high-key black and white editorial",
+        "bisected fashion photography"
+      ],
+      "excludeWhen": [
+        "soft lighting is required",
+        "colorful or vibrant palettes are requested",
+        "traditional horizontal text layout is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A stark, high-key black and white image featuring a central female subject in a white bodysuit, arms crossed, with a distinct vertical line splitting the frame. The composition is framed by large, bold, black letters on either side that exhibit horizontal digital glitch offsets.",
+    "coreVisualRelationships": [
+      "Vertical bisection of the central subject",
+      "Symmetrical vertical stacking of typography",
+      "High-contrast relationship between white background and black graphic elements",
+      "Interaction between organic human form and geometric glitch text"
+    ],
+    "coreInvariants": [
+      "Vertical split line through the center of the subject",
+      "High-key white background with no visible environment",
+      "Glitch-style horizontal displacement on all typographic characters"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central, medium-shot portrait occupying the middle third of the horizontal space.",
+      "visualAnchor": "The vertical seam line running through the subject's face and torso.",
+      "movementAndEyePath": "Eyes start at the central face, move down the vertical split, then scan the flanking vertical text columns.",
+      "negativeSpace": "Extensive white negative space surrounding the subject and between the text elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure white background and highlights",
+      "contrastColorRole": "Deep black for shadows and typography",
+      "accentColorRole": "Mid-tone grays in the subject's skin and hair",
+      "saturationAndValueRelationship": "Zero saturation; extreme value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy geometric sans-serif",
+      "letterConstructionRules": [
+        "Blocky, thick strokes",
+        "Horizontal slices shifted left or right to create a glitch effect",
+        "Uniform width for all characters"
+      ],
+      "characterSpecificRedesigns": [
+        "G and R feature sharp, angular cuts",
+        "E and F have elongated horizontal bars with offset segments"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "extra-wide",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small/closed",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "extra-wide",
+            "lineBreakPattern": "one character per line",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "flanking left and right margins",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "horizontal glitch offset",
+            "overlap": "none",
+            "relationshipToImage": "framing the subject"
+          },
+          "treatment": {
+            "fill": "solid black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "digital glitch"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used for all display elements to maintain brutalist consistency.",
+      "graphicDevices": [
+        "Vertical center seam",
+        "Horizontal glitch displacement"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical stacking",
+          "Glitch displacement",
+          "High weight"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Italics",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Helvetica Black",
+            "reason": "Provides the necessary heavy skeleton for glitch modification.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Geometric clarity works well with the stark composition.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white portrait of a woman in a white bodysuit against a white background, with a sharp vertical line splitting the image down the center.",
+        "overlayInstruction": "Add vertically stacked, heavy sans-serif letters on the left and right sides, applying horizontal slice-and-shift glitch effects to each character."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochrome?",
+        "Is there a clear vertical split through the subject?",
+        "Are the letters stacked vertically?",
+        "Do the letters have horizontal glitch offsets?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the glitch offset",
+      "Width of the central split line",
+      "Subject pose and expression",
+      "Typography weight"
+    ],
+    "mustRedesign": [
+      "Any color elements",
+      "Soft or low-contrast lighting",
+      "Standard horizontal text alignment"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Stark black and white contrast",
+        "Clean, sharp edges on graphic elements",
+        "Balanced symmetrical layout"
+      ],
+      "avoid": [
+        "Blurry textures",
+        "Low-resolution glitch effects",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Verify the vertical split is perfectly centered.",
+      "Ensure the text is legible despite the glitch effect.",
+      "Check that the background is pure white without gradients.",
+      "Confirm the subject's skin tones are rendered in high-contrast grayscale."
+    ],
+    "reuseFormula": "High-key monochrome portrait + vertical bisection + flanking vertical glitch typography."
+  }
+}

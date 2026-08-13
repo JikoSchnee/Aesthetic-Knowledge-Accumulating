@@ -1,0 +1,267 @@
+{
+  "id": "ff747902508eeffb70697f3386dab25000f6e31689c14a81b60e40d361bb79ca",
+  "skillId": "ff747902508eeffb70697f3386dab25000f6e31689c14a81b60e40d361bb79ca",
+  "versionId": "ff747902508eeffb70697f3386dab25000f6e31689c14a81b60e40d361bb79ca",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:17:38.555Z",
+  "approvedAt": "2026-08-12T18:17:38.555Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:17:38.555Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "A Group Called Smith.jpg",
+    "hash": "ff747902508eeffb70697f3386dab25000f6e31689c14a81b60e40d361bb79ca",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "A Group Called Smith",
+    "artist": "Smith",
+    "artworkUrl": "https://coverartarchive.org/release-group/2a377374-3045-3844-8749-90f9a3cfcbcc/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/2a377374-3045-3844-8749-90f9a3cfcbcc",
+    "releaseGroupId": "2a377374-3045-3844-8749-90f9a3cfcbcc",
+    "recordingId": "e0e8e79f-f17a-492e-ad59-b466bf968d10",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Take A Look AroundSmith",
+      "song": "Take A Look Around",
+      "performer": "Smith",
+      "peakPosition": 43,
+      "firstChartDate": "1970-02-21",
+      "lastChartDate": "1970-04-04",
+      "appearances": [
+        {
+          "chartDate": "1970-02-21",
+          "position": 88
+        },
+        {
+          "chartDate": "1970-02-28",
+          "position": 61
+        },
+        {
+          "chartDate": "1970-03-07",
+          "position": 51
+        },
+        {
+          "chartDate": "1970-03-14",
+          "position": 43
+        },
+        {
+          "chartDate": "1970-03-21",
+          "position": 43
+        },
+        {
+          "chartDate": "1970-03-28",
+          "position": 48
+        },
+        {
+          "chartDate": "1970-04-04",
+          "position": 49
+        }
+      ]
+    }
+  },
+  "dedupeText": "late sixties psychedelic folk rock cover 1960s psychedelic folk rock rural swash lettering earth tones outbuilding subject group clustered around a central dark doorway bright green typography contrasting against dark wood warm earth tones of the foreground vs cool greens of the background natural sunlight creating harsh shadows on the ground vintage band portrait weathered wood psychedelic swash typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Late Sixties Psychedelic Folk-Rock Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Custom Lettering"
+      ],
+      "useCases": [
+        "Music packaging",
+        "Vintage-style editorial",
+        "Retro band promotion"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "psychedelic",
+        "folk rock",
+        "rural",
+        "swash lettering",
+        "earth tones",
+        "outbuilding"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A rustic outdoor group portrait featuring 1960s fashion and ornate, swash-heavy psychedelic lettering centered at the top.",
+      "triggerTerms": [
+        "late 60s folk rock aesthetic",
+        "psychedelic swash typography",
+        "vintage band portrait in rural setting"
+      ],
+      "excludeWhen": [
+        "modern high-contrast photography is needed",
+        "urban settings are requested",
+        "minimalist sans-serif layouts are required"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A group of five individuals in late-1960s attire (paisley, bell-bottoms, fringe) posed around a weathered wooden shed in a sunlit rural field, topped with a distinctive green psychedelic logo.",
+    "coreVisualRelationships": [
+      "Subject group clustered around a central dark doorway",
+      "Bright green typography contrasting against dark wood",
+      "Warm earth tones of the foreground vs. cool greens of the background",
+      "Natural sunlight creating harsh shadows on the ground"
+    ],
+    "coreInvariants": [
+      "Weathered vertical wood planks",
+      "1960s period-accurate fashion",
+      "Ornate, curvilinear display type",
+      "Desaturated, slightly grainy film texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body group portrait occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The central dark opening of the wooden structure.",
+      "movementAndEyePath": "Starts at the bright green logo at top center, moves down through the central figure, and fans out to the peripheral members.",
+      "negativeSpace": "Open sky and distant hills on the right side provide breathing room."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm browns and tans (wood, dirt, clothing)",
+      "contrastColorRole": "Deep shadows and dark interior of the shed",
+      "accentColorRole": "Vibrant lime green for the primary logo",
+      "saturationAndValueRelationship": "Muted, naturalistic saturation for the photo with high-saturation, flat-color typography.",
+      "paletteRestrictions": [
+        "Avoid neon colors except for the logo",
+        "Maintain 1970s film stock color balance"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Serif with extreme decorative extensions",
+      "letterConstructionRules": [
+        "Exaggerated swashes and curls on ascenders and descenders",
+        "Variable stroke width with thick verticals",
+        "Interlocking or tightly nested letterforms",
+        "Ball terminals on decorative flourishes"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'S' features a large top loop and a sweeping bottom tail",
+        "The 'h' has a descender that curls back under the word"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Psychedelic Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Ball and teardrop",
+            "corners": "Rounded",
+            "counters": "Small",
+            "strokeCharacter": "Fluid and calligraphic"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Very tight",
+            "lineBreakPattern": "Stacked",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Slightly overlapping the background wood",
+            "relationshipToImage": "Floating above the subjects"
+          },
+          "treatment": {
+            "fill": "Solid lime green",
+            "outline": "Thin dark green stroke",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single decorative face paired with minimal, small-scale technical metadata in the corners.",
+      "graphicDevices": [
+        "Decorative swashes",
+        "Framing by the shed door"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The lime green color",
+          "The extreme swashes",
+          "The centered top placement"
+        ],
+        "avoid": [
+          "Clean modern sans-serifs",
+          "Digital-looking gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the 70s-era decorative serif feel",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Art Nouveau display fonts",
+            "reason": "Matches the organic, flowing curves of the custom lettering",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A medium shot of a 1960s folk-rock band (men and women) in paisley and brown clothing, posed in front of a weathered wooden outhouse in a sunny field with distant hills. High-noon lighting with sharp shadows.",
+        "overlayInstruction": "Add a large, lime green custom-lettered logo at the top center using a psychedelic serif style with heavy swashes and curls."
+      },
+      "verificationChecks": [
+        "Is the green logo the most vibrant element?",
+        "Are the clothes period-accurate for 1969?",
+        "Is the wood texture of the shed visible and weathered?",
+        "Is the typography centered and ornate?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of band members",
+      "Specific green hue of the logo",
+      "Density of the background foliage"
+    ],
+    "mustRedesign": [
+      "Modern digital logos",
+      "Contemporary clothing styles",
+      "High-saturation HDR photography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic film grain",
+        "Natural sunlight behavior",
+        "Cohesive 60s color palette"
+      ],
+      "avoid": [
+        "Plastic textures",
+        "Perfectly straight digital lines in the logo",
+        "Modern font faces"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 1960s fashion accuracy",
+      "Verify the logo has a hand-drawn, swash-heavy quality",
+      "Ensure the lighting feels like natural outdoor sun",
+      "Confirm the color palette is dominated by earth tones and lime green"
+    ],
+    "reuseFormula": "Vintage Band Portrait + Weathered Wood + Psychedelic Swash Typography"
+  }
+}

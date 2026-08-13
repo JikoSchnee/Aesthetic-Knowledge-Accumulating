@@ -1,0 +1,282 @@
+{
+  "id": "b5858286ef1f8acd9d052e7555237f6ca15d39cc8ad5bd89bc9a86a0424e4677",
+  "skillId": "b5858286ef1f8acd9d052e7555237f6ca15d39cc8ad5bd89bc9a86a0424e4677",
+  "versionId": "b5858286ef1f8acd9d052e7555237f6ca15d39cc8ad5bd89bc9a86a0424e4677",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:40:04.830Z",
+  "approvedAt": "2026-08-12T05:40:04.830Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:40:04.830Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Reflection.jpg",
+    "hash": "b5858286ef1f8acd9d052e7555237f6ca15d39cc8ad5bd89bc9a86a0424e4677",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Reflection",
+    "artist": "Fifth Harmony",
+    "artworkUrl": "https://coverartarchive.org/release-group/b6caee11-8635-4876-baf8-2658f121dbe2/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b6caee11-8635-4876-baf8-2658f121dbe2",
+    "releaseGroupId": "b6caee11-8635-4876-baf8-2658f121dbe2",
+    "recordingId": "1b6ffa3c-6585-4124-a01e-aa22352165a4",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Miss Movin' OnFifth Harmony",
+      "song": "Miss Movin' On",
+      "performer": "Fifth Harmony",
+      "peakPosition": 76,
+      "firstChartDate": "2013-08-03",
+      "lastChartDate": "2013-11-09",
+      "appearances": [
+        {
+          "chartDate": "2013-08-03",
+          "position": 85
+        },
+        {
+          "chartDate": "2013-08-24",
+          "position": 83
+        },
+        {
+          "chartDate": "2013-08-31",
+          "position": 78
+        },
+        {
+          "chartDate": "2013-09-07",
+          "position": 76
+        },
+        {
+          "chartDate": "2013-09-14",
+          "position": 95
+        },
+        {
+          "chartDate": "2013-09-21",
+          "position": 91
+        },
+        {
+          "chartDate": "2013-09-28",
+          "position": 86
+        },
+        {
+          "chartDate": "2013-10-05",
+          "position": 95
+        },
+        {
+          "chartDate": "2013-10-26",
+          "position": 98
+        },
+        {
+          "chartDate": "2013-11-02",
+          "position": 92
+        },
+        {
+          "chartDate": "2013-11-09",
+          "position": 82
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome glamour group portrait black and white wide brim hats gold typography low key lighting group portrait glamour reflection effect high contrast black and white skin tones against deep black backgrounds overlapping subjects creating a dense triangular group hierarchy metallic gold typography providing the sole color accent symmetrical reflection of text at the bottom edge monochrome studio group wide brim hats gold modern serif mirrored reflection",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Glamour Group Portrait",
+      "category": "Music Album Art",
+      "medium": [
+        "Studio Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Pop Music Album Covers",
+        "Fashion Editorial Group Shots",
+        "Promotional Band Photography"
+      ],
+      "retrievalTags": [
+        "black and white",
+        "wide brim hats",
+        "gold typography",
+        "low key lighting",
+        "group portrait",
+        "glamour",
+        "reflection effect"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome group portrait featuring subjects in wide-brimmed hats with metallic gold display typography and a vertical reflection effect.",
+      "triggerTerms": [
+        "monochrome group portrait with wide brim hats",
+        "gold serif typography on black and white photo",
+        "low key studio lighting group shot"
+      ],
+      "excludeWhen": [
+        "vibrant colorful backgrounds are required",
+        "candid or outdoor natural lighting is requested",
+        "single subject portraits"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tightly framed, low-key monochrome composition of five women wearing black wide-brimmed hats and dark clothing, anchored by a large gold-gradient serif title at the bottom that features a mirrored reflection.",
+    "coreVisualRelationships": [
+      "High-contrast black and white skin tones against deep black backgrounds",
+      "Overlapping subjects creating a dense, triangular group hierarchy",
+      "Metallic gold typography providing the sole color accent",
+      "Symmetrical reflection of text at the bottom edge"
+    ],
+    "coreInvariants": [
+      "Black wide-brimmed hats on all subjects",
+      "Monochrome photographic treatment for the subjects",
+      "Gold gradient texture on the primary display text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Five subjects arranged in a tiered, overlapping formation filling the frame from top to bottom.",
+      "visualAnchor": "The central subject's face and the large gold typography at the base.",
+      "movementAndEyePath": "Circular movement between the faces, eventually settling on the bright gold text at the bottom.",
+      "negativeSpace": "Minimal; the composition is densely packed with subjects against a dark, vignetted background."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background and clothing)",
+      "contrastColorRole": "White/Grey (skin tones and highlights)",
+      "accentColorRole": "Gold (typography)",
+      "saturationAndValueRelationship": "Zero saturation for the image; high value contrast in the metallic text gradient.",
+      "paletteRestrictions": [
+        "Grayscale for imagery",
+        "Gold/Yellow gradients for text"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast modern serif",
+      "letterConstructionRules": [
+        "Extreme contrast between thick and thin strokes",
+        "Sharp, hairline serifs",
+        "Elongated vertical proportions"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "light",
+            "contrast": "extreme",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "acute",
+            "counters": "open",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "foreground",
+            "relationshipToImage": "anchoring the base"
+          },
+          "treatment": {
+            "fill": "gold gradient",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "metallic",
+            "distortion": "vertical reflection"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family with varying scales and tracking for hierarchy.",
+      "graphicDevices": [
+        "Vertical mirrored reflection of text",
+        "Vignetted edges"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast serif style",
+          "Gold metallic gradient",
+          "Mirrored reflection"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Flat colors for text",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Didot or Bodoni",
+            "reason": "Matches the high-contrast, elegant fashion aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Playfair Display",
+            "reason": "Provides the necessary sharp serifs and modern feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white studio portrait of five women in black wide-brimmed hats, arranged in a tiered group composition with low-key lighting and a dark background.",
+        "overlayInstruction": "Add large, centered uppercase text in a gold metallic gradient at the bottom, using a high-contrast serif font, and include a vertical mirrored reflection of the text below it."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochrome?",
+        "Does the text have a gold metallic gradient?",
+        "Is there a mirrored reflection of the text at the bottom?",
+        "Are all subjects wearing wide-brimmed hats?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects",
+      "Intensity of the gold gradient",
+      "Opacity of the text reflection"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subjects",
+      "Brand logos or specific jewelry designs",
+      "Exact wording of the original text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp photographic clarity",
+        "Sophisticated metallic texture on text",
+        "Balanced group composition"
+      ],
+      "avoid": [
+        "Muddy grayscale tones",
+        "Low-resolution text rendering",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast skin highlights",
+      "Verify the gold text is legible against the dark background",
+      "Ensure the reflection is vertically aligned with the source text"
+    ],
+    "reuseFormula": "Monochrome Studio Group + Wide Brim Hats + Gold Modern Serif + Mirrored Reflection"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:44:01.287Z"
+}

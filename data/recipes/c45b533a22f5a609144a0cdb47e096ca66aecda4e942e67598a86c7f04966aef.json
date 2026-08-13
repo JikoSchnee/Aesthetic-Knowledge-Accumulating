@@ -1,0 +1,251 @@
+{
+  "id": "c45b533a22f5a609144a0cdb47e096ca66aecda4e942e67598a86c7f04966aef",
+  "skillId": "c45b533a22f5a609144a0cdb47e096ca66aecda4e942e67598a86c7f04966aef",
+  "versionId": "c45b533a22f5a609144a0cdb47e096ca66aecda4e942e67598a86c7f04966aef",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:07:06.726Z",
+  "approvedAt": "2026-08-12T05:07:06.726Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:07:06.726Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "X: Ten.jpg",
+    "hash": "c45b533a22f5a609144a0cdb47e096ca66aecda4e942e67598a86c7f04966aef",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "X: Ten",
+    "artist": "Trace Adkins",
+    "artworkUrl": "https://coverartarchive.org/release-group/a2548574-4060-3ef5-bde2-e409f6d277a3/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a2548574-4060-3ef5-bde2-e409f6d277a3",
+    "releaseGroupId": "a2548574-4060-3ef5-bde2-e409f6d277a3",
+    "recordingId": "0f6c8b2c-faaa-47b6-b567-07744f456010",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Marry For MoneyTrace Adkins",
+      "song": "Marry For Money",
+      "performer": "Trace Adkins",
+      "peakPosition": 98,
+      "firstChartDate": "2009-03-21",
+      "lastChartDate": "2009-04-25",
+      "appearances": [
+        {
+          "chartDate": "2009-03-21",
+          "position": 99
+        },
+        {
+          "chartDate": "2009-03-28",
+          "position": 99
+        },
+        {
+          "chartDate": "2009-04-25",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty monochrome country portrait monochrome high contrast cowboy hat distressed typography film grain low key lighting subject s face partially obscured by hat brim and shadow typography centered horizontally in the lower third texture of the distressed font mirroring the film grain of the photo high contrast between the bright background and the dark silhouette of the hat combine a low key monochromatic portrait with a heavily distressed beveled slab serif typographic overlay to create a rugged masculine aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Monochrome Country Portrait",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album covers",
+        "Promotional posters",
+        "Artist branding"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "high contrast",
+        "cowboy hat",
+        "distressed typography",
+        "film grain",
+        "low key lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, grainy black and white portrait featuring a central subject in a cowboy hat with integrated distressed display typography.",
+      "triggerTerms": [
+        "gritty monochrome portrait",
+        "distressed slab serif overlay",
+        "high contrast film grain photography"
+      ],
+      "excludeWhen": [
+        "vibrant color palettes are required",
+        "clean minimalist vector styles are requested",
+        "soft focus or high-key lighting is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up, low-key monochrome photograph of a man in a cowboy hat, characterized by heavy film grain and deep shadows, featuring a large, weathered typographic element that overlaps the subject.",
+    "coreVisualRelationships": [
+      "Subject's face partially obscured by hat brim and shadow",
+      "Typography centered horizontally in the lower third",
+      "Texture of the distressed font mirroring the film grain of the photo",
+      "High contrast between the bright background and the dark silhouette of the hat"
+    ],
+    "coreInvariants": [
+      "Heavy monochromatic film grain texture across all elements"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Close-up portrait, subject occupies the upper two-thirds of the frame, slightly off-center to the right.",
+      "visualAnchor": "The large, distressed 'X' character centered in the lower third.",
+      "movementAndEyePath": "From the subject's eyes under the hat brim, down the line of the face to the central typographic logo.",
+      "negativeSpace": "High-contrast white space on the left side balancing the dark mass of the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and dark grays in the subject and shadows.",
+      "contrastColorRole": "Pure white for the background highlights and typographic highlights.",
+      "accentColorRole": "Mid-tone grays providing texture and grain.",
+      "saturationAndValueRelationship": "Zero saturation; extreme value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Condensed slab serif and heavy block serif",
+      "letterConstructionRules": [
+        "Tall, condensed proportions for secondary text",
+        "Heavy, oversized central character with slab serifs",
+        "Visible weathering, chipping, and stone-like texture applied to all glyphs"
+      ],
+      "characterSpecificRedesigns": [
+        "Central 'X' is scaled significantly larger to act as a divider and anchor",
+        "Bottom metadata text is ultra-bold and wide to provide a stable base"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blocky",
+            "corners": "sharp but weathered",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "lower third",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "subject-foreground",
+            "relationshipToImage": "integrated overlay"
+          },
+          "treatment": {
+            "fill": "textured gray",
+            "outline": "subtle white inner glow",
+            "shadow": "hard drop shadow",
+            "depth": "beveled effect",
+            "texture": "cracked stone",
+            "distortion": "weathered edges"
+          }
+        }
+      ],
+      "pairingStrategy": "A tall condensed display face paired with an oversized central iconographic letter and a wide, heavy block base.",
+      "graphicDevices": [
+        "Distressed texture overlay",
+        "Bevel and emboss effects",
+        "Film grain noise"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Slab serifs",
+          "Weathered texture"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Clean sans-serifs",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Champion Gothic",
+            "reason": "Provides the necessary condensed weight and impact.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the slab serif requirements for the central character.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, grainy black and white close-up portrait of a man in a cowboy hat, looking down, with deep shadows and a bright white background on one side.",
+        "overlayInstruction": "Apply a large, centered, distressed slab-serif typographic logo in the lower third, featuring a textured stone effect and heavy beveling."
+      },
+      "verificationChecks": [
+        "Is the image strictly monochromatic?",
+        "Is the film grain prominent across both the photo and the text?",
+        "Does the central 'X' or large character anchor the composition?",
+        "Is the lighting high-contrast with deep blacks?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Grain intensity",
+      "Typography distress level",
+      "Shadow depth",
+      "Subject head tilt"
+    ],
+    "mustRedesign": [
+      "Specific artist likeness",
+      "Exact brand logos",
+      "Specific album title text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile weathered texture on type",
+        "Dramatic low-key lighting",
+        "Consistent film grain"
+      ],
+      "avoid": [
+        "Smooth digital gradients",
+        "Clean vector edges",
+        "Low contrast"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for grayscale consistency",
+      "Verify typographic texture matches background grain",
+      "Ensure the hat brim creates a strong shadow over the eyes",
+      "Confirm the slab serifs are blocky and weathered"
+    ],
+    "reuseFormula": "Combine a low-key monochromatic portrait with a heavily distressed, beveled slab-serif typographic overlay to create a rugged, masculine aesthetic."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:44:08.784Z"
+}

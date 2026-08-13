@@ -1,0 +1,289 @@
+{
+  "id": "855ca65b94feb86a18e591cc300271536e9ffacf9902ee0f129958079ba5002d",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T21:38:57.425Z",
+  "approvedAt": "2026-08-11T21:38:57.425Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T21:38:57.425Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Souvenirs.jpg",
+    "hash": "855ca65b94feb86a18e591cc300271536e9ffacf9902ee0f129958079ba5002d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Souvenirs",
+    "artist": "Rick Nelson",
+    "artworkUrl": "https://coverartarchive.org/release-group/74342452-bd42-44c0-804e-4f4bb0a43541/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/74342452-bd42-44c0-804e-4f4bb0a43541",
+    "releaseGroupId": "74342452-bd42-44c0-804e-4f4bb0a43541",
+    "recordingId": "d424e583-685e-4707-85f4-0086af222e21",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "I'm In Love AgainRick Nelson",
+      "song": "I'm In Love Again",
+      "performer": "Rick Nelson",
+      "peakPosition": 67,
+      "firstChartDate": "1963-02-23",
+      "lastChartDate": "1963-03-30",
+      "appearances": [
+        {
+          "chartDate": "1963-02-23",
+          "position": 84
+        },
+        {
+          "chartDate": "1963-03-02",
+          "position": 72
+        },
+        {
+          "chartDate": "1963-03-09",
+          "position": 67
+        },
+        {
+          "chartDate": "1963-03-16",
+          "position": 78
+        },
+        {
+          "chartDate": "1963-03-23",
+          "position": 76
+        },
+        {
+          "chartDate": "1963-03-30",
+          "position": 79
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century portrait album cover 1950s 1960s crooner seriffed typography textured paper muted palette portrait frame the portrait is nested within a secondary frame created by the negative space of the gray border the large display text spans the width of the inner portrait frame the subtitle is tightly tracked and centered directly beneath the main title the color of the main text echoes the warm skin tones of the subject centered vintage portrait wide textured border classical serif display type widely tracked sans serif subtitle",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Portrait Album Cover",
+      "category": "Music Packaging",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Offset Print"
+      ],
+      "useCases": [
+        "Vinyl record sleeves",
+        "Vintage-style posters",
+        "Retro editorial layouts"
+      ],
+      "retrievalTags": [
+        "1950s",
+        "1960s",
+        "crooner",
+        "seriffed typography",
+        "textured paper",
+        "muted palette",
+        "portrait frame"
+      ]
+    },
+    "visualDefinition": "A centered, square-format portrait of a man in mid-century formal attire, set within a wide, textured gray border that features large-scale serif typography at the top.",
+    "coreVisualRelationships": [
+      "The portrait is nested within a secondary frame created by the negative space of the gray border.",
+      "The large display text spans the width of the inner portrait frame.",
+      "The subtitle is tightly tracked and centered directly beneath the main title.",
+      "The color of the main text echoes the warm skin tones of the subject."
+    ],
+    "coreInvariants": [
+      "Square overall aspect ratio",
+      "Wide, uniform gray border on all sides",
+      "Muted, desaturated color palette with a warm-toned subject",
+      "Subtle paper grain or canvas texture across the entire composition"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is a medium-shot portrait centered horizontally, occupying roughly the middle 50% of the vertical space.",
+      "visualAnchor": "The subject's face serves as the primary focal point, anchored by the large display text above.",
+      "movementAndEyePath": "Eyes start at the large top text, drop to the subtitle, then settle on the subject's face and suit.",
+      "negativeSpace": "Extensive use of a solid, textured gray field to isolate the central image and typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Neutral medium gray background with a matte texture.",
+      "contrastColorRole": "Warm tan and beige tones in the subject's suit and background curtains.",
+      "accentColorRole": "Soft coral or salmon pink used for the primary display typography.",
+      "saturationAndValueRelationship": "Low saturation overall with a narrow value range, creating a soft, vintage feel.",
+      "paletteRestrictions": [
+        "No vibrant or neon colors",
+        "No pure black or pure white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical serif with high stroke contrast and vertical stress.",
+      "letterConstructionRules": [
+        "Sharp, bracketed serifs",
+        "Tall x-height for the display text",
+        "Tight letter spacing for the main title",
+        "Wide tracking for the secondary metadata text"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'R' has a graceful, slightly curved leg",
+        "The 'N' has sharp, pointed apexes"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Sharp",
+            "corners": "Bracketed",
+            "counters": "Open",
+            "strokeCharacter": "Elegant and formal"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating above the portrait frame"
+          },
+          "treatment": {
+            "fill": "Coral pink",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Slightly grainy",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "N/A",
+            "terminals": "Blunt",
+            "corners": "Square",
+            "counters": "Small",
+            "strokeCharacter": "Geometric"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Very wide",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Directly below display text",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Bridge between title and image"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast serif for the name paired with a clean, widely-spaced sans-serif for the title.",
+      "graphicDevices": [
+        "Thin border line around the central portrait"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Serif style",
+          "Coral-on-gray color scheme",
+          "Wide tracking for subtitle"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Modernist sans-serifs for main title",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Baskerville Bold",
+            "reason": "Matches the high contrast and classical serif structure of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic",
+            "reason": "Provides a clean, mid-century feel for the secondary text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square image with a wide, textured medium-gray border. In the center, place a vintage-style 1950s portrait of a man in a tan suit and tie, sitting in front of muted beige curtains. The portrait should have a soft, slightly grainy film quality.",
+        "overlayInstruction": "Add the main name in a large coral-pink serif font at the top, centered. Below it, add a subtitle in a small, white, widely-spaced sans-serif font."
+      },
+      "verificationChecks": [
+        "Is the gray border wide and textured?",
+        "Is the main text coral pink and seriffed?",
+        "Is the subtitle widely tracked?",
+        "Is the portrait centered and square?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Border width",
+      "Text color",
+      "Subject attire",
+      "Background texture intensity"
+    ],
+    "mustRedesign": [
+      "Modern digital sharpness",
+      "Vibrant primary colors",
+      "Asymmetrical layouts"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic vintage paper texture",
+        "Balanced mid-century typography",
+        "Soft lighting on the subject"
+      ],
+      "avoid": [
+        "High-contrast digital filters",
+        "Cluttered backgrounds",
+        "Sans-serif main titles"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text does not touch the edges of the portrait frame.",
+      "Check that the gray border is uniform on all four sides.",
+      "Verify the 'old print' texture is visible but not distracting.",
+      "Confirm the color palette remains muted and cohesive."
+    ],
+    "reuseFormula": "Centered vintage portrait + wide textured border + classical serif display type + widely-tracked sans-serif subtitle."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:14:40.743Z"
+}

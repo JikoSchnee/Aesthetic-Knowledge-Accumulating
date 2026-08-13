@@ -1,0 +1,279 @@
+{
+  "id": "761e89bd834864f53ca2b38e8ffcea9d422b968280568ef1d98ead693c524644",
+  "skillId": "761e89bd834864f53ca2b38e8ffcea9d422b968280568ef1d98ead693c524644",
+  "versionId": "761e89bd834864f53ca2b38e8ffcea9d422b968280568ef1d98ead693c524644",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T02:56:21.388Z",
+  "approvedAt": "2026-08-13T02:56:21.388Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T02:56:21.388Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Ain’t in It for My Health.jpg",
+    "hash": "761e89bd834864f53ca2b38e8ffcea9d422b968280568ef1d98ead693c524644",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Ain’t in It for My Health",
+    "artist": "Zach Top",
+    "artworkUrl": "https://coverartarchive.org/release-group/fa0d29da-35e4-4146-8850-cc3e2b6acb31/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/fa0d29da-35e4-4146-8850-cc3e2b6acb31",
+    "releaseGroupId": "fa0d29da-35e4-4146-8850-cc3e2b6acb31",
+    "recordingId": "4bb3912d-989d-442c-a5f9-1cdb1178b04d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "good times & tan lines|zach top",
+      "song": "Good Times & Tan Lines",
+      "performer": "Zach Top",
+      "peakPosition": 75,
+      "firstChartDate": "2025-09-13",
+      "lastChartDate": "2025-09-20",
+      "appearances": [
+        {
+          "chartDate": "2025-09-13",
+          "position": 75
+        },
+        {
+          "chartDate": "2025-09-20",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "country musician low key portrait low key lighting cowboy hat acoustic guitar chiaroscuro red rim light slab serif typography subject positioned on the left third facing right typography anchored in the dark negative space on the right red rim light defining the hat and shoulder against the black void guitar neck creating a horizontal leading line across the lower half low key musician portrait red rim light slab serif typography in negative space",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Country Musician Low-Key Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Composition"
+      ],
+      "useCases": [
+        "Country music album covers",
+        "Artist promotional posters",
+        "Moody editorial portraits"
+      ],
+      "retrievalTags": [
+        "low-key lighting",
+        "cowboy hat",
+        "acoustic guitar",
+        "chiaroscuro",
+        "red rim light",
+        "slab serif typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A moody, low-key portrait of a musician with a cowboy hat and guitar, featuring dramatic red backlighting and centered-right slab serif text.",
+      "triggerTerms": [
+        "low-key country musician portrait",
+        "cowboy hat silhouette with red light",
+        "moody acoustic guitar photography"
+      ],
+      "excludeWhen": [
+        "bright or high-key lighting is required",
+        "modern pop or electronic aesthetics are requested",
+        "full-body action shots are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dramatic, high-contrast portrait of a man in a cowboy hat playing an acoustic guitar, set against a dark background with a deep red glow highlighting the silhouette. The subject is partially obscured by shadow, creating a somber and authentic atmosphere.",
+    "coreVisualRelationships": [
+      "Subject positioned on the left third, facing right",
+      "Typography anchored in the dark negative space on the right",
+      "Red rim light defining the hat and shoulder against the black void",
+      "Guitar neck creating a horizontal leading line across the lower half"
+    ],
+    "coreInvariants": [
+      "Chiaroscuro lighting leaving the face mostly in shadow",
+      "Deep red and black color palette",
+      "Presence of a traditional cowboy hat and acoustic guitar"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium shot of a musician occupying the left two-thirds of the frame.",
+      "visualAnchor": "The highlighted edge of the cowboy hat and the musician's hands on the guitar.",
+      "movementAndEyePath": "Starts at the red glow on the hat, moves down the face to the hands, and follows the guitar neck to the text on the right.",
+      "negativeSpace": "Heavy black negative space on the right side and top, used for typographic placement."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background and shadows)",
+      "contrastColorRole": "Deep Red (rim lighting and atmospheric glow)",
+      "accentColorRole": "Warm skin tones and wood grain (subtle highlights)",
+      "saturationAndValueRelationship": "Low value, high contrast; saturation is concentrated in the red light.",
+      "paletteRestrictions": [
+        "Avoid bright primary colors",
+        "Limit to dark earth tones and deep reds"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Sturdy, wide slab serif",
+      "letterConstructionRules": [
+        "Heavy rectangular serifs",
+        "Uniform stroke weight",
+        "Wide horizontal proportions"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt slab",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "center-right",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in dark negative space"
+          },
+          "treatment": {
+            "fill": "off-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "slab",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "aligned with primary text"
+          },
+          "treatment": {
+            "fill": "off-white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Consistent slab serif family with varying weights and tracking.",
+      "graphicDevices": [
+        "None"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif classification",
+          "Uppercase typesetting",
+          "Wide tracking on the main name"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Sans-serif fonts",
+          "Centered alignment"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell",
+            "reason": "Classic slab serif with similar geometric weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Archer",
+            "reason": "Offers a similar sturdy but approachable slab feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a low-key portrait of a man in a cowboy hat playing an acoustic guitar. Use a single red light source from the left to create a rim light effect on his silhouette. The right side of the frame should be almost entirely black negative space.",
+        "overlayInstruction": "Add the artist name in a bold, wide slab serif font in the center-right negative space. Below it, add the title in a smaller, medium-weight slab serif font, aligned to the left of the artist name."
+      },
+      "verificationChecks": [
+        "Is the face mostly in shadow?",
+        "Is there a distinct red rim light?",
+        "Is the text a slab serif?",
+        "Is the text placed in the right-side negative space?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the red glow",
+      "Position of the guitar neck",
+      "Tracking width of the display text"
+    ],
+    "mustRedesign": [
+      "Avoid showing the face clearly; maintain the low-key shadow",
+      "Do not use modern sans-serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic chiaroscuro lighting",
+        "Authentic country/western mood",
+        "Clean, legible slab serif typography"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Cluttered backgrounds",
+        "Bright, saturated colors other than red"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high contrast between subject and background",
+      "Ensure the red light doesn't wash out the subject",
+      "Verify the slab serif font has appropriate weight",
+      "Confirm the composition follows the rule of thirds"
+    ],
+    "reuseFormula": "Low-key musician portrait + red rim light + slab serif typography in negative space."
+  }
+}

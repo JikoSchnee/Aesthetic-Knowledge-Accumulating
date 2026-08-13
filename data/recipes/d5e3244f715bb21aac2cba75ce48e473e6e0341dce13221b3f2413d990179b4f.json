@@ -1,0 +1,315 @@
+{
+  "id": "d5e3244f715bb21aac2cba75ce48e473e6e0341dce13221b3f2413d990179b4f",
+  "skillId": "d5e3244f715bb21aac2cba75ce48e473e6e0341dce13221b3f2413d990179b4f",
+  "versionId": "d5e3244f715bb21aac2cba75ce48e473e6e0341dce13221b3f2413d990179b4f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T20:12:46.414Z",
+  "approvedAt": "2026-08-12T20:12:46.414Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T20:12:46.414Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Song Remembers When.jpg",
+    "hash": "d5e3244f715bb21aac2cba75ce48e473e6e0341dce13221b3f2413d990179b4f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Song Remembers When",
+    "artist": "Trisha Yearwood",
+    "artworkUrl": "https://coverartarchive.org/release-group/24389b31-b4fd-3b99-9c4f-2a12bf9a909b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/24389b31-b4fd-3b99-9c4f-2a12bf9a909b",
+    "releaseGroupId": "24389b31-b4fd-3b99-9c4f-2a12bf9a909b",
+    "recordingId": "3157030f-6c12-40d8-b89f-1938e8656145",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Song Remembers WhenTrisha Yearwood",
+      "song": "The Song Remembers When",
+      "performer": "Trisha Yearwood",
+      "peakPosition": 82,
+      "firstChartDate": "1993-11-27",
+      "lastChartDate": "1994-01-22",
+      "appearances": [
+        {
+          "chartDate": "1993-11-27",
+          "position": 97
+        },
+        {
+          "chartDate": "1993-12-04",
+          "position": 92
+        },
+        {
+          "chartDate": "1993-12-11",
+          "position": 91
+        },
+        {
+          "chartDate": "1993-12-18",
+          "position": 90
+        },
+        {
+          "chartDate": "1993-12-25",
+          "position": 85
+        },
+        {
+          "chartDate": "1994-01-01",
+          "position": 82
+        },
+        {
+          "chartDate": "1994-01-08",
+          "position": 82
+        },
+        {
+          "chartDate": "1994-01-15",
+          "position": 90
+        },
+        {
+          "chartDate": "1994-01-22",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "nostalgic country portrait layout 90s country aesthetic sunflower bouquet soft focus vignette serif typography warm golden tones subject centered behind a foreground floral element soft vignette transition between the central photo and white border text color sampled from cool tones to contrast warm imagery hierarchical split between large name and smaller subtitle central soft focus portrait sunflower foreground heavy white vignette split serif typography in muted blue",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Nostalgic Country Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Editorial portraiture",
+        "Nostalgic book covers"
+      ],
+      "retrievalTags": [
+        "90s country aesthetic",
+        "sunflower bouquet",
+        "soft focus vignette",
+        "serif typography",
+        "warm golden tones"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered female portrait framed by a soft vignette and large sunflowers, utilizing a split-title layout with classic serif typography.",
+      "triggerTerms": [
+        "soft focus portrait with sunflowers",
+        "90s country music album style",
+        "vignetted portrait with split header and footer text"
+      ],
+      "excludeWhen": [
+        "modern minimalist layouts",
+        "high-contrast neon styles",
+        "sans-serif heavy designs"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A warm, soft-focus portrait of a woman holding a large bouquet of sunflowers, set against a blurred golden background. The image is framed by a white border, with large, light-blue serif text split between the top and bottom of the frame.",
+    "coreVisualRelationships": [
+      "Subject centered behind a foreground floral element",
+      "Soft vignette transition between the central photo and white border",
+      "Text color sampled from cool tones to contrast warm imagery",
+      "Hierarchical split between large name and smaller subtitle"
+    ],
+    "coreInvariants": [
+      "Soft focus photography",
+      "Sunflower bouquet as a primary foreground element",
+      "White outer margin",
+      "Classical serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central medium-close-up portrait, scaled to occupy 70% of the vertical space.",
+      "visualAnchor": "The central sunflower in the bouquet, positioned just below the subject's face.",
+      "movementAndEyePath": "From the top large name, down to the subject's eyes, through the sunflowers, to the bottom large name.",
+      "negativeSpace": "Substantial white border surrounding the central vignetted image."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm golden yellows and browns in the central image.",
+      "contrastColorRole": "Muted powder blue for the primary typography.",
+      "accentColorRole": "Deep greens in the sunflower leaves.",
+      "saturationAndValueRelationship": "High saturation in the flowers against a desaturated, high-value white background.",
+      "paletteRestrictions": [
+        "White background",
+        "Golden yellow",
+        "Powder blue",
+        "Earth tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Classical Roman Serif",
+      "letterConstructionRules": [
+        "High stroke contrast",
+        "Sharp, bracketed serifs",
+        "Open counters",
+        "Vertical stress"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Pointed",
+            "counters": "Large",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single word per line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top and bottom margins",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Framing the vignette"
+          },
+          "treatment": {
+            "fill": "Powder blue",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Solid",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Italic Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Light",
+            "contrast": "Medium",
+            "xHeight": "Low",
+            "terminals": "Soft",
+            "corners": "Rounded",
+            "counters": "Small",
+            "strokeCharacter": "Fluid"
+          },
+          "typesetting": {
+            "case": "Lowercase",
+            "alignment": "Centered",
+            "tracking": "Extra wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Very light"
+          },
+          "composition": {
+            "position": "Directly below top display text",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Overlays image vignette",
+            "relationshipToImage": "Floating over background"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Solid",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Large uppercase serif for names paired with small, widely tracked italic serif for descriptive text.",
+      "graphicDevices": [
+        "Soft-edge vignette",
+        "White border frame"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Serif style",
+          "Wide tracking",
+          "Powder blue color"
+        ],
+        "avoid": [
+          "Sans-serif",
+          "Bold weights",
+          "Tight kerning"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Baskerville",
+            "reason": "Classic high-contrast serif with elegant proportions.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Caslon",
+            "reason": "Traditional feel that matches the 90s country aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus portrait of a woman with long hair holding a bouquet of bright sunflowers, set against a blurred golden field. Apply a heavy white vignette that fades into a solid white square border.",
+        "overlayInstruction": "Add large uppercase serif text in powder blue at the top and bottom margins. Add a single line of small, italicized, widely-spaced white text centered just below the top blue text."
+      },
+      "verificationChecks": [
+        "Is the text color powder blue?",
+        "Is there a soft vignette between the photo and the white border?",
+        "Are the sunflowers the primary foreground element?",
+        "Is the typography a high-contrast serif?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Flower type",
+      "Text color",
+      "Vignette intensity",
+      "Subject hair color"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original artist",
+      "Original album title and artist name",
+      "Exact sunflower arrangement"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, warm lighting",
+        "Clean white margins",
+        "Elegant, spaced-out typography"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Cluttered backgrounds",
+        "Modern digital filters"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is legible against the vignette.",
+      "Check that the sunflowers look natural and vibrant.",
+      "Verify the white border is perfectly square and clean.",
+      "Confirm the serif font has sharp, elegant details."
+    ],
+    "reuseFormula": "Central soft-focus portrait + sunflower foreground + heavy white vignette + split serif typography in muted blue."
+  }
+}

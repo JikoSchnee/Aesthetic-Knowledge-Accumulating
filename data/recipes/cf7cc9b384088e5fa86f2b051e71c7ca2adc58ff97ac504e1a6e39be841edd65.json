@@ -1,0 +1,282 @@
+{
+  "id": "cf7cc9b384088e5fa86f2b051e71c7ca2adc58ff97ac504e1a6e39be841edd65",
+  "skillId": "cf7cc9b384088e5fa86f2b051e71c7ca2adc58ff97ac504e1a6e39be841edd65",
+  "versionId": "cf7cc9b384088e5fa86f2b051e71c7ca2adc58ff97ac504e1a6e39be841edd65",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:13:16.654Z",
+  "approvedAt": "2026-08-13T00:13:16.654Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:13:16.654Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Blurring the Edges.jpg",
+    "hash": "cf7cc9b384088e5fa86f2b051e71c7ca2adc58ff97ac504e1a6e39be841edd65",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Blurring the Edges",
+    "artist": "Meredith Brooks",
+    "artworkUrl": "https://coverartarchive.org/release-group/a66998ee-563b-3860-82a9-aa88f04f43c5/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a66998ee-563b-3860-82a9-aa88f04f43c5",
+    "releaseGroupId": "a66998ee-563b-3860-82a9-aa88f04f43c5",
+    "recordingId": "893ddfb7-ec1f-4b80-a2e4-ef6e4c0ad1d4",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "What Would HappenMeredith Brooks",
+      "song": "What Would Happen",
+      "performer": "Meredith Brooks",
+      "peakPosition": 46,
+      "firstChartDate": "1998-02-28",
+      "lastChartDate": "1998-05-02",
+      "appearances": [
+        {
+          "chartDate": "1998-02-28",
+          "position": 46
+        },
+        {
+          "chartDate": "1998-03-07",
+          "position": 46
+        },
+        {
+          "chartDate": "1998-03-14",
+          "position": 50
+        },
+        {
+          "chartDate": "1998-03-21",
+          "position": 55
+        },
+        {
+          "chartDate": "1998-03-28",
+          "position": 64
+        },
+        {
+          "chartDate": "1998-04-04",
+          "position": 68
+        },
+        {
+          "chartDate": "1998-04-11",
+          "position": 80
+        },
+        {
+          "chartDate": "1998-04-18",
+          "position": 85
+        },
+        {
+          "chartDate": "1998-04-25",
+          "position": 91
+        },
+        {
+          "chartDate": "1998-05-02",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "late 90s grunge pop portrait 90s aesthetic motion blur sideways typography indie rock film grain cargo pants electric guitar subject is slightly off center to the right balanced by a vertical text margin on the left the guitar s warm orange body provides a focal point against the cool blue grey floor motion blur on the subject s face and hair creates a sense of candid movement the background is divided into a cool toned floor and a warm out of focus wall subject musician prop instrument effect motion blur layout vertical margin text 90s alternative aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Late 90s Grunge-Pop Portrait",
+      "category": "Music Photography",
+      "medium": [
+        "Film Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Editorial Music Profiles",
+        "Nostalgic Branding"
+      ],
+      "retrievalTags": [
+        "90s aesthetic",
+        "motion blur",
+        "sideways typography",
+        "indie rock",
+        "film grain",
+        "cargo pants",
+        "electric guitar"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A candid-style portrait of a musician with motion blur and vertical, margin-aligned typography for a 1990s alternative rock aesthetic.",
+      "triggerTerms": [
+        "90s grunge portrait",
+        "sideways margin text",
+        "motion blurred musician",
+        "desaturated film look"
+      ],
+      "excludeWhen": [
+        "clean corporate headshots",
+        "high-contrast neon lighting",
+        "centered bold titles"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium shot of a woman with dark hair, smiling and carrying an electric guitar, characterized by a soft motion blur and a desaturated, slightly warm color palette. The composition features a distinct vertical text strip on the far left margin, separated by a subtle vertical line.",
+    "coreVisualRelationships": [
+      "Subject is slightly off-center to the right, balanced by a vertical text margin on the left.",
+      "The guitar's warm orange body provides a focal point against the cool blue-grey floor.",
+      "Motion blur on the subject's face and hair creates a sense of candid movement.",
+      "The background is divided into a cool-toned floor and a warm, out-of-focus wall."
+    ],
+    "coreInvariants": [
+      "Vertical text orientation along the left edge",
+      "Soft-focus or motion-blurred subject",
+      "Film-like grain and desaturated tones",
+      "Presence of a musical instrument as a prop"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the right two-thirds of the frame, medium-full shot scale.",
+      "visualAnchor": "The orange electric guitar at the bottom left of the subject's silhouette.",
+      "movementAndEyePath": "Eyes start at the sharpest point of the guitar, move up the subject's arm to the blurred face, then shift left to the vertical text.",
+      "negativeSpace": "Significant negative space in the upper left and lower right floor areas."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cool blue-grey (floor and shadows)",
+      "contrastColorRole": "Muted beige and tan (background wall and clothing)",
+      "accentColorRole": "Burnt orange (guitar body)",
+      "saturationAndValueRelationship": "Low saturation overall with a matte, low-contrast finish in the blacks.",
+      "paletteRestrictions": [
+        "No vibrant primaries",
+        "No pure white",
+        "No high-gloss finishes"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Humanist Sans-Serif",
+      "letterConstructionRules": [
+        "Low contrast between thick and thin strokes",
+        "Slightly condensed proportions",
+        "Open counters for legibility at small sizes"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase used for secondary information",
+        "Bold weight for the primary name"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "closed",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "none",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "left margin",
+            "scale": "small",
+            "rotation": "270 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within a dedicated vertical border strip"
+          },
+          "treatment": {
+            "fill": "dark charcoal",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family using weight contrast (bold vs. regular) and case contrast (lowercase vs. italic).",
+      "graphicDevices": [
+        "Vertical hairline separator",
+        "Distressed paper-edge texture on the left margin"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical orientation",
+          "Lowercase styling",
+          "Left-side placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "All-caps",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Captures the 90s editorial weight and utilitarian feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Neue Bold Condensed",
+            "reason": "Provides the clean, low-contrast look required for the margin text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a film-grain photograph of a woman with long dark hair in a brown tank top and cargo pants, smiling with motion blur, holding an electric guitar, in a minimalist industrial space with a blue-grey floor and tan wall. Leave a 10% vertical strip on the left edge empty.",
+        "overlayInstruction": "Add a vertical line 10% from the left edge. Inside that strip, place the artist name in bold sans-serif lowercase and the album title in italic sans-serif lowercase, rotated 270 degrees so the text reads bottom-to-top."
+      },
+      "verificationChecks": [
+        "Is the text rotated 270 degrees?",
+        "Is there visible motion blur on the subject's face?",
+        "Is the color palette desaturated with a warm/cool split?",
+        "Is the text restricted to the left margin strip?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of motion blur",
+      "Specific guitar model",
+      "Width of the left margin strip",
+      "Warmth of the background wall"
+    ],
+    "mustRedesign": [
+      "Do not use the specific artist name or album title from the original.",
+      "Do not replicate the exact face of the individual.",
+      "Avoid modern high-definition digital sharpness."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic film grain texture",
+        "Intentional motion blur that doesn't obscure the smile",
+        "Clean, vertical typographic alignment"
+      ],
+      "avoid": [
+        "Over-saturation",
+        "Digital sharpening artifacts",
+        "Horizontal text placement"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is vertical and aligned to the left.",
+      "Verify the guitar is present and has a warm wood or orange tone.",
+      "Ensure the subject's expression is visible through the blur.",
+      "Confirm the presence of the vertical dividing line."
+    ],
+    "reuseFormula": "Subject [Musician] + Prop [Instrument] + Effect [Motion Blur] + Layout [Vertical Margin Text] = 90s Alternative Aesthetic"
+  }
+}

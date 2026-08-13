@@ -1,0 +1,241 @@
+{
+  "id": "84f0604ba426b6d486aaf1e8d93b096670b7c64d9768de84473e77aba111804f",
+  "skillId": "84f0604ba426b6d486aaf1e8d93b096670b7c64d9768de84473e77aba111804f",
+  "versionId": "84f0604ba426b6d486aaf1e8d93b096670b7c64d9768de84473e77aba111804f",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:15:20.192Z",
+  "approvedAt": "2026-08-13T00:15:20.192Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:15:20.192Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Life of a DON.jpg",
+    "hash": "84f0604ba426b6d486aaf1e8d93b096670b7c64d9768de84473e77aba111804f",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Life of a DON",
+    "artist": "Don Toliver",
+    "artworkUrl": "https://coverartarchive.org/release-group/180c2861-089c-418b-b54a-a3228386fd2c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/180c2861-089c-418b-b54a-a3228386fd2c",
+    "releaseGroupId": "180c2861-089c-418b-b54a-a3228386fd2c",
+    "recordingId": "43195702-28d0-4cc3-882f-84b7df548829",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "What You NeedDon Toliver",
+      "song": "What You Need",
+      "performer": "Don Toliver",
+      "peakPosition": 82,
+      "firstChartDate": "2021-05-22",
+      "lastChartDate": "2021-05-22",
+      "appearances": [
+        {
+          "chartDate": "2021-05-22",
+          "position": 82
+        }
+      ]
+    }
+  },
+  "dedupeText": "cinematic red carpet noir red carpet harsh shadows noir lighting tiger print low angle dramatic contrast parental advisory high contrast between saturated red and deep black diagonal shadow lines creating rhythmic depth central figure in a leather chair as the focal anchor repetitive tiger stripe patterns against solid color fields combine saturated red surface harsh diagonal shadows central figure in patterned clothing black negative space header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Cinematic Red Carpet Noir",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Post-Processing"
+      ],
+      "useCases": [
+        "Hip-hop album covers",
+        "Dramatic editorial photography",
+        "Cinematic promotional posters"
+      ],
+      "retrievalTags": [
+        "red carpet",
+        "harsh shadows",
+        "noir lighting",
+        "tiger print",
+        "low angle",
+        "dramatic contrast",
+        "parental advisory"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast cinematic scene featuring figures on a deep red surface with long, dramatic black shadows cast by a single directional light source.",
+      "triggerTerms": [
+        "dramatic red carpet noir",
+        "harsh directional lighting with long shadows",
+        "cinematic low-key photography on red"
+      ],
+      "excludeWhen": [
+        "brightly lit scenes",
+        "soft diffused lighting",
+        "minimalist white backgrounds"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dark, moody composition dominated by a saturated red floor and pitch-black negative space, featuring figures in patterned clothing interacting with long, diagonal shadows.",
+    "coreVisualRelationships": [
+      "High contrast between saturated red and deep black",
+      "Diagonal shadow lines creating rhythmic depth",
+      "Central figure in a leather chair as the focal anchor",
+      "Repetitive tiger-stripe patterns against solid color fields"
+    ],
+    "coreInvariants": [
+      "Deep red floor surface with visible texture",
+      "Long, parallel black shadows cast at a sharp diagonal",
+      "Pitch black upper background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Figures are clustered in the center-left, scaled to occupy roughly one-third of the vertical frame.",
+      "visualAnchor": "The seated figure in the black leather chair provides the primary weight.",
+      "movementAndEyePath": "The eye follows the diagonal shadow lines from the bottom right toward the central figures.",
+      "negativeSpace": "Extensive black negative space at the top and within the shadow bands."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep crimson red floor",
+      "contrastColorRole": "True black shadows and background",
+      "accentColorRole": "White sneakers and tiger-stripe highlights",
+      "saturationAndValueRelationship": "High saturation in the red mid-tones with extreme value contrast in the shadows.",
+      "paletteRestrictions": [
+        "Red",
+        "Black",
+        "White",
+        "Tan/Gold"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Condensed Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight kerning",
+        "High verticality"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "metadata",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "stacked",
+            "density": "high"
+          },
+          "composition": {
+            "position": "bottom right corner",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "black border",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single condensed sans-serif for utilitarian labeling.",
+      "graphicDevices": [
+        "Rectangular framing box for metadata"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions",
+          "Black and white color scheme"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Bright colors for text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact",
+            "reason": "Matches the heavy, condensed feel of standard advisory labels.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Helvetica Compressed",
+            "reason": "Provides the necessary verticality and clean terminals.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast photo of a man in tiger-print pants sitting in a black leather chair on a red carpet, with two other figures standing nearby. Use a single harsh light source to create long, diagonal black shadows across the red floor. The top half of the image should be pure black.",
+        "overlayInstruction": "Add a small, rectangular black and white advisory label in the bottom right corner using a bold condensed sans-serif font."
+      },
+      "verificationChecks": [
+        "Is the red floor highly saturated?",
+        "Are the shadows long and diagonal?",
+        "Is the top of the frame solid black?",
+        "Is the text box in the bottom right corner?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the red hue",
+      "Angle of the diagonal shadows",
+      "Pattern of the clothing"
+    ],
+    "mustRedesign": [
+      "Specific facial features",
+      "Brand logos on clothing",
+      "Exact text content of the label"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic chiaroscuro lighting",
+        "Rich texture on the red surface",
+        "Sharp shadow edges"
+      ],
+      "avoid": [
+        "Soft shadows",
+        "Muted colors",
+        "Even lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high contrast between red and black",
+      "Ensure shadows are parallel and diagonal",
+      "Verify the presence of the black negative space at the top",
+      "Confirm the metadata label is small and corner-aligned"
+    ],
+    "reuseFormula": "Combine [Saturated Red Surface] + [Harsh Diagonal Shadows] + [Central Figure in Patterned Clothing] + [Black Negative Space Header]."
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "id": "65f4520b228106847e054e5418dc2a4f2cd55d50aefe2a82054b963cf3a18393",
+  "skillId": "65f4520b228106847e054e5418dc2a4f2cd55d50aefe2a82054b963cf3a18393",
+  "versionId": "65f4520b228106847e054e5418dc2a4f2cd55d50aefe2a82054b963cf3a18393",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:32:21.304Z",
+  "approvedAt": "2026-08-12T23:32:21.304Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:32:21.304Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Glee: The Music, The Graduation Album.jpg",
+    "hash": "65f4520b228106847e054e5418dc2a4f2cd55d50aefe2a82054b963cf3a18393",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Glee: The Music, The Graduation Album",
+    "artist": "Glee Cast",
+    "artworkUrl": "https://coverartarchive.org/release-group/489aeebd-8977-4933-b39e-35c122a74152/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/489aeebd-8977-4933-b39e-35c122a74152",
+    "releaseGroupId": "489aeebd-8977-4933-b39e-35c122a74152",
+    "recordingId": "f6f10a80-c227-41d8-8133-e8cc1934cce3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "We Are YoungGlee Cast",
+      "song": "We Are Young",
+      "performer": "Glee Cast",
+      "peakPosition": 12,
+      "firstChartDate": "2011-12-24",
+      "lastChartDate": "2012-01-07",
+      "appearances": [
+        {
+          "chartDate": "2011-12-24",
+          "position": 12
+        },
+        {
+          "chartDate": "2011-12-31",
+          "position": 59
+        },
+        {
+          "chartDate": "2012-01-07",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "graduation pop ensemble cover graduation ensemble cast red gowns cyan background pop typography mortarboard red regalia contrasting against a solid cyan background large scale central typography overlapping the subjects tiered arrangement of subjects creating a full frame dynamic element of a tossed mortarboard in the upper corner ensemble cast in color a regalia color b solid background color a outlined lowercase title color c footer text",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Graduation Pop Ensemble Cover",
+      "category": "Entertainment",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Social Media Announcement"
+      ],
+      "retrievalTags": [
+        "graduation",
+        "ensemble cast",
+        "red gowns",
+        "cyan background",
+        "pop typography",
+        "mortarboard"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A vibrant ensemble portrait featuring a group in red graduation regalia against a solid cyan backdrop with bold, overlapping geometric typography.",
+      "triggerTerms": [
+        "graduation ensemble portrait",
+        "red gowns cyan background",
+        "overlapping lowercase typography"
+      ],
+      "excludeWhen": [
+        "dark or moody lighting is required",
+        "minimalist or high-fashion aesthetic is requested",
+        "individual solo portraiture"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A bright, high-key group photograph of young adults in red graduation caps and gowns, arranged in two tiers against a flat cyan background, featuring a large central typographic logo with a thick white outline.",
+    "coreVisualRelationships": [
+      "Red regalia contrasting against a solid cyan background",
+      "Large-scale central typography overlapping the subjects",
+      "Tiered arrangement of subjects creating a full frame",
+      "Dynamic element of a tossed mortarboard in the upper corner"
+    ],
+    "coreInvariants": [
+      "Solid cyan background color",
+      "Uniform red graduation gowns and caps",
+      "Lower-case sans-serif typography for primary titles"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Ensemble cast fills the lower two-thirds of the frame in a tiered, overlapping arrangement.",
+      "visualAnchor": "The large, white-outlined red text in the upper center acts as the primary anchor.",
+      "movementAndEyePath": "Eyes start at the large central logo, move down to the faces of the cast, and finally to the yellow text at the bottom.",
+      "negativeSpace": "Minimal negative space, primarily in the upper corners around the tossed cap."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Cyan (Background)",
+      "contrastColorRole": "Red (Gowns and Logo Fill)",
+      "accentColorRole": "Yellow (Bottom Text)",
+      "saturationAndValueRelationship": "High saturation and high value across all primary colors for a pop-art feel.",
+      "paletteRestrictions": [
+        "Cyan",
+        "Red",
+        "White",
+        "Yellow"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Extremely tight tracking causing characters to touch or overlap",
+        "Thick white outer stroke on primary title",
+        "Consistent lowercase usage for all elements",
+        "Circular 'g' and 'e' counters"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'l' and 'e' in the main title are merged or tightly tucked into the 'g'"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "slightly rounded",
+            "counters": "circular",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "behind subjects",
+            "relationshipToImage": "integrated"
+          },
+          "treatment": {
+            "fill": "red",
+            "outline": "thick white",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over subjects",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Uniform typeface family used across different weights and colors for brand consistency.",
+      "graphicDevices": [
+        "Thick white outlines",
+        "Overlapping glyphs"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase styling",
+          "Tight tracking",
+          "White outline on red text"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Uppercase letters",
+          "Thin strokes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Geometric circular forms and tight kerning potential",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Strong geometric foundation and lowercase aesthetic",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a group of diverse young adults in red graduation gowns and caps against a solid cyan background. Arrange them in two rows, with one person on the left reaching up as if they just threw a cap. Leave the top center area clear for text.",
+        "overlayInstruction": "Add large lowercase geometric sans-serif text in the top center with a red fill and thick white outline. Add a secondary line of yellow lowercase text across the bottom foreground."
+      },
+      "verificationChecks": [
+        "Is the background a solid cyan?",
+        "Are all subjects wearing red graduation regalia?",
+        "Is the primary text lowercase with a thick white outline?",
+        "Is the tracking tight enough that letters nearly touch?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of people in the ensemble",
+      "Specific shade of cyan background",
+      "Placement of the tossed mortarboard"
+    ],
+    "mustRedesign": [
+      "Any specific actor likenesses",
+      "Original show logos",
+      "Specific trademarked branding"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp edges on all graphic elements",
+        "Even, bright lighting on all faces",
+        "High color contrast between red and cyan"
+      ],
+      "avoid": [
+        "Muted or pastel colors",
+        "Hand-drawn or messy textures",
+        "Shadows on the background"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the white outline on the main text is consistent",
+      "Ensure the yellow text at the bottom is legible against the red gowns",
+      "Verify the tossed cap is in the upper left quadrant",
+      "Confirm all text is lowercase"
+    ],
+    "reuseFormula": "Ensemble cast in [Color A] regalia + [Color B] solid background + [Color A] outlined lowercase title + [Color C] footer text."
+  }
+}

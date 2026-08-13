@@ -1,0 +1,275 @@
+{
+  "id": "25dc3dcdb03d36df651649d6fb57aececf9df219e9e45dfbfd2442cd3537a393",
+  "skillId": "25dc3dcdb03d36df651649d6fb57aececf9df219e9e45dfbfd2442cd3537a393",
+  "versionId": "25dc3dcdb03d36df651649d6fb57aececf9df219e9e45dfbfd2442cd3537a393",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T02:12:59.438Z",
+  "approvedAt": "2026-08-13T02:12:59.438Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T02:12:59.438Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Old, The New & The Best of Mary Wells.jpg",
+    "hash": "25dc3dcdb03d36df651649d6fb57aececf9df219e9e45dfbfd2442cd3537a393",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Old, The New & The Best of Mary Wells",
+    "artist": "Mary Wells",
+    "artworkUrl": "https://coverartarchive.org/release-group/810d8044-6d4f-46e1-95dd-d6ad51eef14d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/810d8044-6d4f-46e1-95dd-d6ad51eef14d",
+    "releaseGroupId": "810d8044-6d4f-46e1-95dd-d6ad51eef14d",
+    "recordingId": "e78a47c5-5541-4cfe-9e8a-98f226baf3a4",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "You Lost The Sweetest BoyMary Wells",
+      "song": "You Lost The Sweetest Boy",
+      "performer": "Mary Wells",
+      "peakPosition": 22,
+      "firstChartDate": "1963-09-28",
+      "lastChartDate": "1963-11-23",
+      "appearances": [
+        {
+          "chartDate": "1963-09-28",
+          "position": 70
+        },
+        {
+          "chartDate": "1963-10-05",
+          "position": 50
+        },
+        {
+          "chartDate": "1963-10-12",
+          "position": 39
+        },
+        {
+          "chartDate": "1963-10-19",
+          "position": 35
+        },
+        {
+          "chartDate": "1963-10-26",
+          "position": 29
+        },
+        {
+          "chartDate": "1963-11-02",
+          "position": 24
+        },
+        {
+          "chartDate": "1963-11-09",
+          "position": 22
+        },
+        {
+          "chartDate": "1963-11-16",
+          "position": 24
+        },
+        {
+          "chartDate": "1963-11-23",
+          "position": 36
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage soul portrait album cover 1980s soul soft focus portrait blonde bouffant off the shoulder dress gradient studio backdrop serif typography with underline subject profile facing left against a negative space gradient voluminous hair texture contrasting with smooth skin and fabric typography anchored to the top left corner with horizontal rule lines warm skin tones and pink fabric popping against cool blue background studio profile soft focus top left serif typography gradient backdrop",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Soul Portrait Album Cover",
+      "category": "Music Photography",
+      "medium": [
+        "Studio Photography",
+        "Soft Focus",
+        "Airbrushed Retouching"
+      ],
+      "useCases": [
+        "Retro Soul Album Art",
+        "Vintage R&B Promotional Posters",
+        "Classic Diva Portraiture"
+      ],
+      "retrievalTags": [
+        "1980s soul",
+        "soft focus portrait",
+        "blonde bouffant",
+        "off-the-shoulder dress",
+        "gradient studio backdrop",
+        "serif typography with underline"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A soft-focus studio portrait of a female vocalist in profile against a blue-to-grey gradient, featuring high-volume blonde hair and elegant serif typography.",
+      "triggerTerms": [
+        "vintage soul album cover style",
+        "soft focus 80s portrait",
+        "diva profile photography"
+      ],
+      "excludeWhen": [
+        "modern high-contrast digital photography",
+        "minimalist sans-serif layouts",
+        "outdoor natural lighting"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A side-profile studio portrait of a woman with voluminous, textured blonde hair, wearing a pink off-the-shoulder garment. The lighting is diffused, creating a soft glow on the skin and hair, set against a muted blue atmospheric background with typography clustered in the upper left corner.",
+    "coreVisualRelationships": [
+      "Subject profile facing left against a negative space gradient",
+      "Voluminous hair texture contrasting with smooth skin and fabric",
+      "Typography anchored to the top-left corner with horizontal rule lines",
+      "Warm skin tones and pink fabric popping against cool blue background"
+    ],
+    "coreInvariants": [
+      "Soft-focus lens effect with low micro-contrast",
+      "Upper-left typographic alignment",
+      "Side-profile composition"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the right two-thirds of the frame, positioned from the chest up.",
+      "visualAnchor": "The high-volume blonde hair serves as the primary visual weight and anchor.",
+      "movementAndEyePath": "Eyes follow the subject's gaze from right to left, leading directly into the typography in the upper left.",
+      "negativeSpace": "Significant negative space in the upper left quadrant provides a clean area for text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted blue-grey gradient background",
+      "contrastColorRole": "Warm golden-blonde hair and skin tones",
+      "accentColorRole": "Dusty rose/pink fabric",
+      "saturationAndValueRelationship": "Low saturation overall with high value in the hair highlights; soft, low-contrast transitions.",
+      "paletteRestrictions": [
+        "No neon colors",
+        "No harsh blacks",
+        "No high-contrast primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "High-contrast transitional serif",
+      "letterConstructionRules": [
+        "Thin hairlines with thick vertical stems",
+        "Sharp, bracketed serifs",
+        "Interlocking or tightly kerned characters",
+        "Extended horizontal underline integrated with the baseline"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'M' and 'W' are oversized with decorative flourishes",
+        "The 'y' tail curves to meet the underline"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Bracketed",
+            "counters": "Open",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Top Left",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Placed in negative space"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Small-caps serif for metadata paired with large decorative serif for the main name.",
+      "graphicDevices": [
+        "Horizontal rule lines",
+        "Underlining that extends beyond the text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast serif style",
+          "Underline device",
+          "Top-left placement"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Centered text",
+          "Bold blocky fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Caslon No. 224",
+            "reason": "Matches the high-contrast 70s/80s serif aesthetic",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bookman Old Style with Swashes",
+            "reason": "Captures the decorative flourishes and vintage feel",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus studio portrait of a woman in profile facing left, with voluminous 80s blonde hair and a pink off-the-shoulder dress, against a blue-grey gradient background. Leave the top-left corner empty.",
+        "overlayInstruction": "Add the artist name in a high-contrast white serif font in the top-left corner, featuring a thin horizontal underline that extends across the width of the name."
+      },
+      "verificationChecks": [
+        "Is the subject in profile?",
+        "Is the lighting soft and diffused?",
+        "Is the text in the top-left corner?",
+        "Is there a horizontal line under the main text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Hair volume",
+      "Background gradient color",
+      "Fabric color",
+      "Typography scale"
+    ],
+    "mustRedesign": [
+      "Any modern digital sharpness",
+      "Flat, non-gradient backgrounds",
+      "Sans-serif typography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft-focus 'glow' effect",
+        "Elegant, balanced negative space",
+        "Cohesive vintage color palette"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Pixelation",
+        "Cluttered compositions"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for soft-focus consistency across the image",
+      "Ensure the typography does not overlap the subject's face",
+      "Verify the color temperature is slightly warm on the subject and cool on the background",
+      "Confirm the underline is perfectly horizontal"
+    ],
+    "reuseFormula": "Studio Profile + Soft Focus + Top-Left Serif Typography + Gradient Backdrop"
+  }
+}

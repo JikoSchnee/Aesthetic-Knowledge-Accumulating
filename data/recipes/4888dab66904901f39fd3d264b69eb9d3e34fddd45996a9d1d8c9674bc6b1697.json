@@ -1,0 +1,264 @@
+{
+  "id": "4888dab66904901f39fd3d264b69eb9d3e34fddd45996a9d1d8c9674bc6b1697",
+  "skillId": "4888dab66904901f39fd3d264b69eb9d3e34fddd45996a9d1d8c9674bc6b1697",
+  "versionId": "4888dab66904901f39fd3d264b69eb9d3e34fddd45996a9d1d8c9674bc6b1697",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T22:57:43.205Z",
+  "approvedAt": "2026-08-12T22:57:43.205Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T22:57:43.205Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Roger Miller.jpg",
+    "hash": "4888dab66904901f39fd3d264b69eb9d3e34fddd45996a9d1d8c9674bc6b1697",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Roger Miller",
+    "artist": "Roger Miller",
+    "artworkUrl": "https://coverartarchive.org/release-group/e3047e22-4305-3ba0-90fd-2c96e123c83b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e3047e22-4305-3ba0-90fd-2c96e123c83b",
+    "releaseGroupId": "e3047e22-4305-3ba0-90fd-2c96e123c83b",
+    "recordingId": "f2f39761-1f1b-42cb-b950-28e74af8cb5a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "VanceRoger Miller",
+      "song": "Vance",
+      "performer": "Roger Miller",
+      "peakPosition": 80,
+      "firstChartDate": "1968-12-07",
+      "lastChartDate": "1969-01-11",
+      "appearances": [
+        {
+          "chartDate": "1968-12-07",
+          "position": 100
+        },
+        {
+          "chartDate": "1968-12-14",
+          "position": 100
+        },
+        {
+          "chartDate": "1968-12-21",
+          "position": 97
+        },
+        {
+          "chartDate": "1968-12-28",
+          "position": 80
+        },
+        {
+          "chartDate": "1969-01-04",
+          "position": 80
+        },
+        {
+          "chartDate": "1969-01-11",
+          "position": 88
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century country folk album aesthetic mid century modern slab serif country music vintage photography outdoor portrait acoustic guitar the green header bar anchors the top edge and provides high contrast for the title the subject s diagonal posture with the guitar creates a dynamic internal frame the white brick wall on the right provides a textured vertical counterpoint to the subject the acoustic guitar acts as the central visual bridge between the subject and the background take a subject in a setting apply a vintage film filter and top with a color bar containing heavy slab serif text",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Country Folk Album Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Typesetting",
+        "Print"
+      ],
+      "useCases": [
+        "Vintage album cover recreation",
+        "Retro music posters",
+        "1960s Americana branding"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "slab serif",
+        "country music",
+        "vintage photography",
+        "outdoor portrait",
+        "acoustic guitar"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1960s-style album layout featuring a candid outdoor portrait with a prominent top-aligned slab serif header on a solid color band.",
+      "triggerTerms": [
+        "vintage country album cover",
+        "60s folk music aesthetic",
+        "heavy slab serif header",
+        "outdoor musician portrait"
+      ],
+      "excludeWhen": [
+        "modern digital photography is required",
+        "minimalist sans-serif layouts are requested",
+        "indoor studio lighting is preferred"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition featuring a smiling male musician with an acoustic guitar, seated outdoors. The image is topped by a thick horizontal green bar containing heavy, white slab-serif typography. The photography has a warm, slightly desaturated film quality with soft natural lighting.",
+    "coreVisualRelationships": [
+      "The green header bar anchors the top edge and provides high contrast for the title.",
+      "The subject's diagonal posture with the guitar creates a dynamic internal frame.",
+      "The white brick wall on the right provides a textured, vertical counterpoint to the subject.",
+      "The acoustic guitar acts as the central visual bridge between the subject and the background."
+    ],
+    "coreInvariants": [
+      "Heavy slab-serif display type",
+      "Solid color top-aligned header bar",
+      "Square 1:1 aspect ratio",
+      "Naturalistic outdoor setting"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The musician is centered, captured from the waist up, filling approximately 70% of the vertical space below the header.",
+      "visualAnchor": "The heavy white text in the green bar at the top.",
+      "movementAndEyePath": "Eyes start at the bold header, move down to the subject's face, and follow the line of the guitar neck across the frame.",
+      "negativeSpace": "Limited; the composition is densely packed with the subject, background textures, and the header."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted earth tones (browns, tans, and greens) in the photograph.",
+      "contrastColorRole": "Forest green header bar providing a distinct separation from the image.",
+      "accentColorRole": "Crisp white for the primary typography.",
+      "saturationAndValueRelationship": "Low saturation in the photo with high value contrast in the header area.",
+      "paletteRestrictions": [
+        "Avoid neon or overly vibrant modern colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold slab serif",
+      "letterConstructionRules": [
+        "Heavy rectangular serifs",
+        "Low stroke contrast",
+        "Tight letter spacing (tracking)",
+        "Large x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "Serifs on 'R' and 'M' are prominent and blocky",
+        "Internal counters are small due to extreme weight"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "Expanded",
+            "weight": "Black/Heavy",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Blunt/Slab",
+            "corners": "Sharp",
+            "counters": "Closed",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "-20",
+            "leading": "100%",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top edge inside color bar",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Contained within bar",
+            "relationshipToImage": "Header"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single heavy display face for impact; secondary metadata in small, light sans-serif.",
+      "graphicDevices": [
+        "Solid horizontal color band at the top",
+        "Small secondary logos/text in corners of the photo area"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif style",
+          "Uppercase format",
+          "Tight tracking"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Modernist sans-serifs",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab serifs and geometric proportions.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Stymie Black",
+            "reason": "Classic mid-century slab serif with similar weight.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square 1960s-style photograph of a smiling man playing an acoustic guitar on a porch, with a white brick wall and greenery in the background. Leave the top 15% of the frame as a solid forest green bar.",
+        "overlayInstruction": "Add the primary title in white, extra-bold slab-serif uppercase text, centered within the green bar at the top."
+      },
+      "verificationChecks": [
+        "Is the header bar a solid, dark green?",
+        "Is the text a heavy slab serif in white?",
+        "Does the photo have a vintage film grain and warm tone?",
+        "Is the composition a perfect square?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the header bar",
+      "Subject's instrument",
+      "Background texture (brick vs wood)"
+    ],
+    "mustRedesign": [
+      "Any modern digital artifacts",
+      "Thin or elegant serif fonts",
+      "High-saturation digital color grading"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s print texture",
+        "Bold, readable slab-serif header",
+        "Natural, candid subject expression"
+      ],
+      "avoid": [
+        "Generic stock photo appearance",
+        "Floating text without a background bar",
+        "Modern sans-serif typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is perfectly centered in the green bar.",
+      "Check that the photo looks like a physical print from the 1960s.",
+      "Verify the slab serifs are thick and blocky.",
+      "Confirm the 1:1 aspect ratio."
+    ],
+    "reuseFormula": "Take a [Subject] in a [Setting], apply a [Vintage Film] filter, and top with a [Color] bar containing [Heavy Slab Serif] text."
+  }
+}

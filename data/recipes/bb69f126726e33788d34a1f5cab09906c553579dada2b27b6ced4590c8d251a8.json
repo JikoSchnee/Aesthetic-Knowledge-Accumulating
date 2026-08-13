@@ -1,0 +1,158 @@
+{
+  "id": "bb69f126726e33788d34a1f5cab09906c553579dada2b27b6ced4590c8d251a8",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T18:15:00.428Z",
+  "approvedAt": "2026-08-11T18:15:00.428Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T18:15:00.428Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Traumazine.jpg",
+    "hash": "bb69f126726e33788d34a1f5cab09906c553579dada2b27b6ced4590c8d251a8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Traumazine",
+    "artist": "Megan Thee Stallion",
+    "artworkUrl": "https://coverartarchive.org/release-group/d20d5d07-bcb1-4aa2-a1a2-d8d2144ae782/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d20d5d07-bcb1-4aa2-a1a2-d8d2144ae782",
+    "releaseGroupId": "d20d5d07-bcb1-4aa2-a1a2-d8d2144ae782",
+    "recordingId": "2d74d859-6e4f-4483-9013-3463e562abe3",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "HerMegan Thee Stallion",
+      "song": "Her",
+      "performer": "Megan Thee Stallion",
+      "peakPosition": 62,
+      "firstChartDate": "2022-08-27",
+      "lastChartDate": "2022-08-27",
+      "appearances": [
+        {
+          "chartDate": "2022-08-27",
+          "position": 62
+        }
+      ]
+    }
+  },
+  "dedupeText": "tri fold emotional exposure multiple exposure monochrome high contrast emotional portrait overlapping faces stroboscopic effect the screaming face acts as the primary emotional anchor with the highest local contrast overlapping facial features create a ghosting effect that suggests movement or internal conflict the transition from high energy expression to low energy expression moves from left to right triple exposure monochrome portrait high contrast lighting black void background emotional progression left to right",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Tri-Fold Emotional Exposure",
+      "category": "Portrait Photography",
+      "medium": [
+        "Black and White Photography",
+        "Multiple Exposure",
+        "Digital Composite"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Editorial Fashion Spread",
+        "Psychological Concept Poster"
+      ],
+      "retrievalTags": [
+        "multiple exposure",
+        "monochrome",
+        "high contrast",
+        "emotional portrait",
+        "overlapping faces",
+        "stroboscopic effect"
+      ]
+    },
+    "visualDefinition": "A high-contrast black and white triple-exposure portrait of a woman, capturing a spectrum of emotion from an aggressive scream on the left to a neutral gaze in the center and a somber, downward look on the right. The faces overlap with varying levels of transparency against a solid black void.",
+    "coreVisualRelationships": [
+      "The screaming face acts as the primary emotional anchor with the highest local contrast.",
+      "Overlapping facial features create a ghosting effect that suggests movement or internal conflict.",
+      "The transition from high-energy expression to low-energy expression moves from left to right."
+    ],
+    "coreInvariants": [
+      "Pure black background (#000000)",
+      "High-key highlights on skin and teeth",
+      "Consistent lighting direction across all exposures"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject occupies the lower two-thirds of the frame, centered horizontally but weighted emotionally to the left.",
+      "visualAnchor": "The open mouth and teeth of the leftmost exposure provide the sharpest point of focus.",
+      "movementAndEyePath": "The eye follows a horizontal arc across the three sets of eyes, moving from the intense squint on the left to the closed lids on the right.",
+      "negativeSpace": "The upper third of the frame is entirely negative space, emphasizing the isolation of the subject."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black serves as the negative space and shadow depth.",
+      "contrastColorRole": "Pure white highlights define the contours of the face, hair edges, and jewelry.",
+      "accentColorRole": "Mid-tone grays provide the texture for skin and the translucent overlap areas.",
+      "saturationAndValueRelationship": "Zero saturation; extreme value range from 0 to 100 to create a dramatic, silver-gelatin look.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Motion blur",
+        "Transparency layering",
+        "Chiaroscuro lighting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white portrait of a woman with three distinct expressions (angry, neutral, sad) layered over each other using a multiple exposure technique against a black background.",
+        "overlayInstruction": "If adding text, use a stark, minimalist sans-serif in white, placed in the upper negative space to maintain the focus on the facial expressions."
+      },
+      "verificationChecks": [
+        "Ensure the teeth and eyes are the brightest points.",
+        "Check that the overlaps do not muddy the facial features excessively.",
+        "Verify the background is absolute black."
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Opacity of the overlapping layers",
+      "Intensity of the facial expressions",
+      "Amount of hair detail visible against the black"
+    ],
+    "mustRedesign": [
+      "Avoid any color tinting",
+      "Ensure the jewelry (necklace) aligns or creates a rhythmic pattern across the exposures"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp focus on the primary expression",
+        "Smooth gradients in the skin tones",
+        "Deep, rich blacks"
+      ],
+      "avoid": [
+        "Digital noise in the shadows",
+        "Flat, low-contrast gray mapping",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Are there exactly three distinct facial positions?",
+      "Is the leftmost face the most expressive?",
+      "Is the lighting consistent across all three exposures?",
+      "Does the image feel like a single cohesive moment rather than three separate photos?"
+    ],
+    "reuseFormula": "Triple-exposure monochrome portrait + high-contrast lighting + black void background + emotional progression (left-to-right)."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:20:58.523Z"
+}

@@ -1,0 +1,303 @@
+{
+  "id": "056fdd1ec375786358b2cda84654b51cab70c285d3ea75c2bd67d50f1e1e7fa0",
+  "skillId": "056fdd1ec375786358b2cda84654b51cab70c285d3ea75c2bd67d50f1e1e7fa0",
+  "versionId": "056fdd1ec375786358b2cda84654b51cab70c285d3ea75c2bd67d50f1e1e7fa0",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:13:17.090Z",
+  "approvedAt": "2026-08-12T05:13:17.090Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:13:17.090Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Maybe Not Tonight.jpg",
+    "hash": "056fdd1ec375786358b2cda84654b51cab70c285d3ea75c2bd67d50f1e1e7fa0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Maybe Not Tonight",
+    "artist": "Sammy Kershaw & Lorrie Morgan",
+    "artworkUrl": "https://coverartarchive.org/release-group/389e5c49-bb35-314c-8633-9636f464cfdb/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/389e5c49-bb35-314c-8633-9636f464cfdb",
+    "releaseGroupId": "389e5c49-bb35-314c-8633-9636f464cfdb",
+    "recordingId": "46bff055-2d84-4995-888c-c0989b3eb3c9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Maybe Not TonightSammy Kershaw & Lorrie Morgan",
+      "song": "Maybe Not Tonight",
+      "performer": "Sammy Kershaw & Lorrie Morgan",
+      "peakPosition": 86,
+      "firstChartDate": "1999-05-15",
+      "lastChartDate": "1999-06-12",
+      "appearances": [
+        {
+          "chartDate": "1999-05-15",
+          "position": 86
+        },
+        {
+          "chartDate": "1999-05-22",
+          "position": 96
+        },
+        {
+          "chartDate": "1999-05-29",
+          "position": 92
+        },
+        {
+          "chartDate": "1999-06-05",
+          "position": 90
+        },
+        {
+          "chartDate": "1999-06-12",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "dusk coastal portrait layout dusk beach portrait geometric sans serif low key lighting coastal pier 90s country aesthetic subject centered vertically and horizontally typography overlapping the dark silhouette of the subject color contrast between warm skin sun and cool blue background horizontal horizon line bisecting the composition centered portrait twilight beach thin geometric type overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Dusk Coastal Portrait Layout",
+      "category": "Album Cover Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Promotional artist posters",
+        "Editorial portraiture"
+      ],
+      "retrievalTags": [
+        "dusk",
+        "beach portrait",
+        "geometric sans-serif",
+        "low-key lighting",
+        "coastal pier",
+        "90s country aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered portrait against a twilight coastal background featuring a prominent geometric sans-serif title overlaying the subject's torso.",
+      "triggerTerms": [
+        "dusk beach portrait with large geometric text",
+        "low-key male portrait against purple sunset",
+        "coastal pier background with centered subject"
+      ],
+      "excludeWhen": [
+        "high-key lighting is required",
+        "urban or indoor settings are requested",
+        "minimalist or small typography is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium shot of a centered male figure in dark clothing, set against a deep blue and purple twilight beach scene with a distant pier and a low setting sun, featuring large, thin-stroke geometric typography across the middle third.",
+    "coreVisualRelationships": [
+      "Subject centered vertically and horizontally",
+      "Typography overlapping the dark silhouette of the subject",
+      "Color contrast between warm skin/sun and cool blue background",
+      "Horizontal horizon line bisecting the composition"
+    ],
+    "coreInvariants": [
+      "Twilight color palette (deep blues, purples, oranges)",
+      "Dark, textured clothing on the subject",
+      "Large-scale geometric sans-serif display type"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered medium shot, filling approximately 60% of the vertical frame.",
+      "visualAnchor": "The subject's face and the bright sun orb in the background.",
+      "movementAndEyePath": "From the face down to the large display text, then across to the horizon and pier.",
+      "negativeSpace": "The upper third of the sky and the lower third of the beach sand."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep indigo and navy blue (background and clothing)",
+      "contrastColorRole": "Pale yellow and orange (sun and text)",
+      "accentColorRole": "Lavender and violet (sky gradients)",
+      "saturationAndValueRelationship": "Low-key value with high saturation in the blues; high value contrast on the text.",
+      "paletteRestrictions": [
+        "Avoid bright daylight greens or reds"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Monolinear stroke weight",
+        "Perfectly circular 'a' and 'e' counters",
+        "Sharp vertices on 'M' and 'W'",
+        "Extremely thin weight for display text"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Hairline/Thin",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Straight",
+            "corners": "Sharp",
+            "counters": "Open/Circular",
+            "strokeCharacter": "Monoline"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Auto",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Center-middle",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Over subject torso",
+            "relationshipToImage": "Floating overlay"
+          },
+          "treatment": {
+            "fill": "Pale yellow/Cream",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Solid",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Grotesque Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "Medium",
+            "terminals": "Horizontal",
+            "corners": "Slightly rounded",
+            "counters": "Closed",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Lowercase",
+            "alignment": "Right-aligned to display text",
+            "tracking": "Normal",
+            "leading": "Tight",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Below display text, right-justified",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Over subject torso",
+            "relationshipToImage": "Floating overlay"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Solid",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme weight contrast between a thin display face and a bold, smaller sans-serif subtitle.",
+      "graphicDevices": [
+        "Horizontal horizon line",
+        "Silhouetted pier structure"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric circularity",
+          "Thin stroke weight of main title",
+          "Contrast between title and subtitle weights"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Italics"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic Extra Light",
+            "reason": "Matches the geometric circularity and thin stroke weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Provides the necessary geometric skeleton and sharp vertices.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Helvetica Bold",
+            "reason": "Suitable for the heavy lowercase subtitle.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A centered medium shot of a man in a dark navy sweater standing on a beach at dusk. The background features a deep blue ocean, a purple-hued sky, a distant wooden pier, and a small glowing orange sun near the horizon.",
+        "overlayInstruction": "Add the main title in a very thin, cream-colored geometric sans-serif font across the center. Add a smaller, bold, white lowercase subtitle justified to the right side below the main title."
+      },
+      "verificationChecks": [
+        "Is the main text thin and geometric?",
+        "Is the subject centered and wearing dark clothing?",
+        "Does the background feature a twilight color palette?",
+        "Is the subtitle bold and lowercase?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Sky color intensity",
+      "Pier distance and detail",
+      "Text color (cream vs white)",
+      "Sweater texture"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original subject",
+      "Original artist name and album title",
+      "Specific pier architecture"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean geometric typography",
+        "Balanced dusk lighting",
+        "Clear separation between subject and background via color"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-resolution textures",
+        "Illegible thin fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is perfectly centered horizontally.",
+      "Ensure the sun is a distinct, glowing orb.",
+      "Verify the thin font is legible against the dark sweater.",
+      "Confirm the horizon line is straight."
+    ],
+    "reuseFormula": "Centered Portrait + Twilight Beach + Thin Geometric Type Overlay"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:42:38.814Z"
+}

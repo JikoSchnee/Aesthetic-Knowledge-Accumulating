@@ -1,0 +1,299 @@
+{
+  "id": "aeff497b5c4ea1e822a778e1f97cf2a9906e6bf9b116a0c5de1077fe7387cbf0",
+  "skillId": "aeff497b5c4ea1e822a778e1f97cf2a9906e6bf9b116a0c5de1077fe7387cbf0",
+  "versionId": "aeff497b5c4ea1e822a778e1f97cf2a9906e6bf9b116a0c5de1077fe7387cbf0",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:45:22.676Z",
+  "approvedAt": "2026-08-12T19:45:22.676Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:45:22.676Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "I'm Leaving It Up to You.jpg",
+    "hash": "aeff497b5c4ea1e822a778e1f97cf2a9906e6bf9b116a0c5de1077fe7387cbf0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "I'm Leaving It Up to You",
+    "artist": "Dale & Grace",
+    "artworkUrl": "https://coverartarchive.org/release-group/3dfbc421-a82e-3f1f-aecd-fbfa6383f0f9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/3dfbc421-a82e-3f1f-aecd-fbfa6383f0f9",
+    "releaseGroupId": "3dfbc421-a82e-3f1f-aecd-fbfa6383f0f9",
+    "recordingId": "d951a5b2-ccc0-43c5-b6a9-b5dd3f77add2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Loneliest NightDale & Grace",
+      "song": "The Loneliest Night",
+      "performer": "Dale & Grace",
+      "peakPosition": 65,
+      "firstChartDate": "1964-05-02",
+      "lastChartDate": "1964-05-30",
+      "appearances": [
+        {
+          "chartDate": "1964-05-02",
+          "position": 89
+        },
+        {
+          "chartDate": "1964-05-09",
+          "position": 82
+        },
+        {
+          "chartDate": "1964-05-16",
+          "position": 78
+        },
+        {
+          "chartDate": "1964-05-23",
+          "position": 65
+        },
+        {
+          "chartDate": "1964-05-30",
+          "position": 68
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro pop duo cd cover 1960s style split frame rounded rectangle border condensed sans serif script typography mid century pop subject portrait on the left balanced by heavy display text on the right thick rounded corner border framing the central content script title at the top mirroring script subtitle at the bottom high contrast color blocking between the frame and the internal fields split frame layout rounded thick border condensed sans script pairing",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Pop Duo CD Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Print",
+        "Digital Layout"
+      ],
+      "useCases": [
+        "Album Art",
+        "Retro Compilation Cover",
+        "Vintage Music Marketing"
+      ],
+      "retrievalTags": [
+        "1960s style",
+        "split-frame",
+        "rounded rectangle border",
+        "condensed sans-serif",
+        "script typography",
+        "mid-century pop"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A split-frame retro layout featuring a photographic portrait on the left and bold condensed typography on a vibrant color block on the right, all enclosed in a thick rounded-corner border.",
+      "triggerTerms": [
+        "retro split-frame album cover",
+        "mid-century pop music layout",
+        "rounded rectangle border with color blocks"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "dark grunge aesthetics",
+        "layouts without photographic subjects"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition defined by a thick, multi-colored rounded-corner frame that bisects the image into two vertical halves: one containing a portrait and the other a solid color field for display text.",
+    "coreVisualRelationships": [
+      "Subject portrait on the left balanced by heavy display text on the right",
+      "Thick rounded-corner border framing the central content",
+      "Script title at the top mirroring script subtitle at the bottom",
+      "High-contrast color blocking between the frame and the internal fields"
+    ],
+    "coreInvariants": [
+      "Vertical bisection of the central rounded frame",
+      "Use of a thick, continuous rounded-corner border",
+      "Contrast between condensed sans-serif and fluid script fonts"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The photographic subject occupies the left half of the inner frame, scaled to fill from chest to head.",
+      "visualAnchor": "The right-side color block with large, yellow condensed text acts as the primary visual weight.",
+      "movementAndEyePath": "Eyes start at the top script title, move to the portrait, then to the bold name on the right, and finally to the bottom subtitle.",
+      "negativeSpace": "White space is used as an outer margin between the black thin-line border and the thick rounded frame."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White background and border margins",
+      "contrastColorRole": "Red and Purple used for the primary internal blocks and frame segments",
+      "accentColorRole": "Yellow for the primary display text",
+      "saturationAndValueRelationship": "High saturation in the central blocks with a muted, vintage-toned photograph.",
+      "paletteRestrictions": [
+        "Red",
+        "Purple",
+        "Yellow",
+        "White",
+        "Black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "A mix of high-contrast condensed sans-serif and casual mid-century script.",
+      "letterConstructionRules": [
+        "Display text must be ultra-condensed with flat sides",
+        "Script text must have a consistent rightward slant and fluid connections",
+        "Metadata text must be small, all-caps, and widely tracked"
+      ],
+      "characterSpecificRedesigns": [
+        "Ampersand in display text is smaller and centered between names",
+        "Script 'I' is flourished and oversized"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "right-center",
+            "scale": "large",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "adjacent"
+          },
+          "treatment": {
+            "fill": "solid yellow",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "script",
+          "anatomy": {
+            "width": "medium",
+            "weight": "medium",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "calligraphic"
+          },
+          "typesetting": {
+            "case": "sentence-case",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single-line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top-center",
+            "scale": "medium",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "above"
+          },
+          "treatment": {
+            "fill": "purple",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-impact condensed sans-serif for names paired with a decorative script for titles.",
+      "graphicDevices": [
+        "Thick rounded-corner frame",
+        "Vertical dividing line",
+        "Thin black outer border"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed proportions of the main text",
+          "Slant of the script",
+          "Rounded frame geometry"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Modern geometric sans-serifs",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Matches the ultra-condensed, bold display feel",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Brush Script or Mistral",
+            "reason": "Captures the mid-century casual script aesthetic",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square image with a thin black outer border. Inside, place a thick rounded-corner frame divided vertically. The left half contains a vintage 1960s-style portrait of a man and woman; the right half is a solid red block. The frame itself should be purple on the left and yellow/orange on the right.",
+        "overlayInstruction": "Add large, yellow, ultra-condensed sans-serif text in the red block. Add purple script text centered at the top and dark green script text at the bottom. Add small black sans-serif metadata in the top corners."
+      },
+      "verificationChecks": [
+        "Is the central frame divided vertically?",
+        "Is the display text ultra-condensed?",
+        "Are the corners of the internal frame rounded?",
+        "Is there a script title at the top?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Color of the right-side block",
+      "Subject of the portrait",
+      "Thickness of the rounded frame"
+    ],
+    "mustRedesign": [
+      "Avoid using modern digital gradients",
+      "Ensure the script font does not look like modern wedding calligraphy"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s color palette",
+        "Balanced split-frame composition",
+        "Clean, high-contrast typography"
+      ],
+      "avoid": [
+        "Low-resolution textures",
+        "Misaligned text blocks",
+        "Overly complex borders"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the rounded frame is perfectly symmetrical",
+      "Verify the script text is legible against the white background",
+      "Ensure the condensed text fills at least 60% of the red block height",
+      "Confirm the portrait has a vintage photographic grain"
+    ],
+    "reuseFormula": "Split-frame layout + Rounded thick border + (Condensed Sans + Script pairing)"
+  }
+}

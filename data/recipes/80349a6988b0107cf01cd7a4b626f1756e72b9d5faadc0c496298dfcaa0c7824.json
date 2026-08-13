@@ -1,0 +1,282 @@
+{
+  "id": "80349a6988b0107cf01cd7a4b626f1756e72b9d5faadc0c496298dfcaa0c7824",
+  "skillId": "80349a6988b0107cf01cd7a4b626f1756e72b9d5faadc0c496298dfcaa0c7824",
+  "versionId": "80349a6988b0107cf01cd7a4b626f1756e72b9d5faadc0c496298dfcaa0c7824",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T12:55:04.143Z",
+  "approvedAt": "2026-08-12T12:55:04.143Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T12:55:04.143Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Yourself or Someone Like You.jpg",
+    "hash": "80349a6988b0107cf01cd7a4b626f1756e72b9d5faadc0c496298dfcaa0c7824",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Yourself or Someone Like You",
+    "artist": "matchbox 20",
+    "artworkUrl": "https://coverartarchive.org/release-group/dbb71f1a-f9cb-3586-ba93-94150398368d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/dbb71f1a-f9cb-3586-ba93-94150398368d",
+    "releaseGroupId": "dbb71f1a-f9cb-3586-ba93-94150398368d",
+    "recordingId": "4623fa15-11ca-4d28-95f9-5251932772dd",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Real Worldmatchbox 20",
+      "song": "Real World",
+      "performer": "matchbox 20",
+      "peakPosition": 38,
+      "firstChartDate": "1998-12-05",
+      "lastChartDate": "1998-12-12",
+      "appearances": [
+        {
+          "chartDate": "1998-12-05",
+          "position": 38
+        },
+        {
+          "chartDate": "1998-12-12",
+          "position": 50
+        }
+      ]
+    }
+  },
+  "dedupeText": "alternative rock album cover aesthetic 90s alternative duotone photography framed portrait sans serif typography gritty texture subject framed by vertical architectural elements typographic block anchored to the top right corner high contrast between red text and blue toned background text hierarchy moving from bold to outlined to italicized blue toned framed portrait bold red lowercase sans outlined numeric italicized subtitle",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Alternative Rock Album Cover Aesthetic",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Editorial Layout",
+        "Poster Design"
+      ],
+      "retrievalTags": [
+        "90s alternative",
+        "duotone photography",
+        "framed portrait",
+        "sans-serif typography",
+        "gritty texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A gritty, blue-toned portrait framed by a window or doorway with a distinct three-tier typographic hierarchy in the upper right quadrant.",
+      "triggerTerms": [
+        "90s grunge album cover style",
+        "blue duotone portrait with bold red text",
+        "framed candid photography aesthetic"
+      ],
+      "excludeWhen": [
+        "clean minimalist corporate design",
+        "vibrant multi-color photography",
+        "centered symmetrical layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A desaturated, blue-tinted candid portrait of a man in glasses and a cap, viewed through a vertical frame, featuring a top-aligned typographic block with contrasting weights and colors.",
+    "coreVisualRelationships": [
+      "Subject framed by vertical architectural elements",
+      "Typographic block anchored to the top-right corner",
+      "High contrast between red text and blue-toned background",
+      "Text hierarchy moving from bold to outlined to italicized"
+    ],
+    "coreInvariants": [
+      "Blue-tinted monochromatic photographic treatment",
+      "Vertical framing device on left and right edges",
+      "Three-part typographic stack in the upper third"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium close-up portrait centered horizontally, filling the lower two-thirds of the frame.",
+      "visualAnchor": "The subject's dark-rimmed glasses and the bold red text in the top left of the text block.",
+      "movementAndEyePath": "Starts at the red text, moves right to the outlined numbers, down to the italicized subtitle, then settles on the subject's face.",
+      "negativeSpace": "The upper third of the image is relatively clear of detail to allow for legible text placement."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep navy and slate blue (photographic midtones and shadows)",
+      "contrastColorRole": "Off-white/pale blue (highlights and background)",
+      "accentColorRole": "Muted tomato red (primary text)",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast in the typography.",
+      "paletteRestrictions": [
+        "Monochromatic blue-scale photography",
+        "Single-color red accent"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric and Humanist Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight for the primary title",
+        "Thin, consistent outline for the numeric element",
+        "Slanted, condensed forms for the subtitle"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'm' with rounded shoulders",
+        "Open-counter '2' and '0' in the outlined section"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "slightly rounded",
+            "counters": "closed",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top left of text block",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid on light background"
+          },
+          "treatment": {
+            "fill": "red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "thin",
+            "contrast": "none",
+            "xHeight": "cap-height",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "large",
+            "strokeCharacter": "outline"
+          },
+          "typesetting": {
+            "case": "numeric",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "none",
+            "lineBreakPattern": "none",
+            "density": "light"
+          },
+          "composition": {
+            "position": "immediately right of primary title",
+            "scale": "extra-large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaid"
+          },
+          "treatment": {
+            "fill": "none",
+            "outline": "black",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast through weight and style (bold solid vs. thin outline vs. light italic).",
+      "graphicDevices": [
+        "Vertical border frames",
+        "Duotone filter"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase main title",
+          "Outlined numbers",
+          "Italicized subtitle"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Neue Bold",
+            "reason": "Matches the clean, bold sans-serif look of the primary title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Italic",
+            "reason": "Provides the necessary weight and slant for the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a blue-toned, grainy, candid portrait of a man with glasses and a cap, framed by vertical window edges.",
+        "overlayInstruction": "Add three levels of text in the top right: a bold red lowercase title, a large black-outlined number to its right, and a smaller black italicized subtitle below."
+      },
+      "verificationChecks": [
+        "Is the image monochromatic blue?",
+        "Is the main title lowercase and red?",
+        "Are the numbers outlined and larger than the text?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of blue tint",
+      "Thickness of the vertical frames",
+      "Color of the primary title"
+    ],
+    "mustRedesign": [
+      "Avoid using the specific band name or album title",
+      "Do not replicate the exact face of the individual in the photo"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Gritty film grain texture",
+        "Clear typographic hierarchy",
+        "Consistent duotone palette"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Default font spacing",
+        "Bright multi-color palettes"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for blue-scale color consistency",
+      "Verify text is top-aligned and right-justified as a block",
+      "Ensure the framing elements are visible on the sides",
+      "Confirm the red text provides a strong focal point"
+    ],
+    "reuseFormula": "Blue-toned framed portrait + bold red lowercase sans + outlined numeric + italicized subtitle."
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "id": "72450dd907f2ee81f2637c7304aed5456c783f1bf04a344246db673184cad095",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T12:50:10.053Z",
+  "approvedAt": "2026-08-11T12:50:10.053Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T12:50:10.053Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Fine Fine Line.jpg",
+    "hash": "72450dd907f2ee81f2637c7304aed5456c783f1bf04a344246db673184cad095",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Fine Fine Line",
+    "artist": "Andy Fraser",
+    "artworkUrl": "https://coverartarchive.org/release-group/425b2f9b-0821-3347-83c4-1e23b4890605/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/425b2f9b-0821-3347-83c4-1e23b4890605",
+    "releaseGroupId": "425b2f9b-0821-3347-83c4-1e23b4890605",
+    "recordingId": "b3f0a3a2-b5c1-4fd5-9c9f-4a31a4da8f66",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Do You Love MeAndy Fraser",
+      "song": "Do You Love Me",
+      "performer": "Andy Fraser",
+      "peakPosition": 82,
+      "firstChartDate": "1984-03-03",
+      "lastChartDate": "1984-03-31",
+      "appearances": [
+        {
+          "chartDate": "1984-03-03",
+          "position": 89
+        },
+        {
+          "chartDate": "1984-03-10",
+          "position": 85
+        },
+        {
+          "chartDate": "1984-03-17",
+          "position": 82
+        },
+        {
+          "chartDate": "1984-03-24",
+          "position": 88
+        },
+        {
+          "chartDate": "1984-03-31",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "new wave profile portrait profile portrait dramatic lighting minimalist layout condensed sans serif wide tracking 1980s aesthetic high contrast the subject s gaze directs the viewer toward the negative space containing the typography the vibrant red of the primary text contrasts sharply with the muted cool toned background the extreme horizontal tracking of the subtitle mimics the fine line concept mentioned in the text combine a high contrast profile portrait with a split hierarchy typographic layout one dense saturated block and one airy wide tracked line",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "New Wave Profile Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Album Covers",
+        "Editorial Portraits",
+        "80s Retro Branding"
+      ],
+      "retrievalTags": [
+        "profile portrait",
+        "dramatic lighting",
+        "minimalist layout",
+        "condensed sans-serif",
+        "wide tracking",
+        "1980s aesthetic",
+        "high contrast"
+      ]
+    },
+    "visualDefinition": "A high-contrast, close-up profile portrait of a man looking right, set against a neutral, slightly vignetted background. The composition features a bold, condensed red header in the top right and a secondary line of text with extreme letter-spacing cutting across the center-right negative space.",
+    "coreVisualRelationships": [
+      "The subject's gaze directs the viewer toward the negative space containing the typography.",
+      "The vibrant red of the primary text contrasts sharply with the muted, cool-toned background.",
+      "The extreme horizontal tracking of the subtitle mimics the 'fine line' concept mentioned in the text."
+    ],
+    "coreInvariants": [
+      "Strict profile view of the subject.",
+      "Neutral, off-white to light gray background with subtle gradient.",
+      "Top-right alignment for the primary display text."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left half of the frame, cropped at the shoulder and top of the head.",
+      "visualAnchor": "The subject's eye and the bold red block of text in the upper right corner.",
+      "movementAndEyePath": "Starts at the subject's face, follows the gaze to the right, then moves up to the red header and down to the spaced subtitle.",
+      "negativeSpace": "Large area of open, light-colored space on the right side provides balance to the heavy visual weight of the portrait."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/Light Gray (Background)",
+      "contrastColorRole": "Deep Brown/Black (Subject's hair and shadows)",
+      "accentColorRole": "Vibrant Red (Primary Typography)",
+      "saturationAndValueRelationship": "High value contrast between subject and background; high saturation only in the primary text.",
+      "paletteRestrictions": [
+        "Muted skin tones",
+        "Neutral grays",
+        "Pure signal red"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-condensed sans-serif and geometric sans-serif",
+      "letterConstructionRules": [
+        "Primary text uses heavy, tall, condensed forms with minimal apertures.",
+        "Secondary text uses light-weight, wide-set geometric forms."
+      ],
+      "characterSpecificRedesigns": [
+        "None; relies on standard font characteristics and extreme typesetting."
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extra-condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "solid red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "thin"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "extreme (approx 1000+ em)",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "center right",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "aligned with subject's nose/eye level"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High contrast in weight, width, and tracking between a dense red header and a sparse black subtitle.",
+      "graphicDevices": [
+        "Horizontal alignment"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Condensed nature of the top text",
+          "Extreme tracking of the middle text",
+          "Red/Black/White color scheme"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Helvetica Compressed",
+            "reason": "Matches the heavy, condensed verticality of the primary header.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light or Gill Sans Light",
+            "reason": "Provides the clean, geometric skeleton needed for the wide-tracked subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a man in profile looking right. Use high-contrast lighting to define the jawline and brow. The background should be a clean, light-gray wall with a subtle vignette. Leave the right half of the image as empty negative space.",
+        "overlayInstruction": "Add the primary name in the top right corner using an extra-condensed bold sans-serif in bright red. Below it, at the level of the subject's nose, add the secondary title in a light black sans-serif with extreme letter spacing so it spans the width of the negative space."
+      },
+      "verificationChecks": [
+        "Is the primary text a bold, condensed red sans-serif?",
+        "Is the secondary text extremely wide-tracked?",
+        "Is the subject in a strict profile view?",
+        "Is there significant negative space on the right side?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject's age and ethnicity",
+      "Specific shade of red for typography",
+      "Degree of background vignetting",
+      "Exact vertical position of the subtitle"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original person",
+      "Original artist name and album title text",
+      "Any specific record label logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp focus on the subject's profile",
+        "Clean, professional studio lighting",
+        "Precise typographic alignment"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast lighting",
+        "Default kerning on the subtitle"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the red text does not bleed into the background.",
+      "Check that the wide-tracked text is legible and evenly spaced.",
+      "Verify the profile crop does not feel cramped at the top.",
+      "Confirm the lighting creates a clear silhouette against the light background."
+    ],
+    "reuseFormula": "Combine a high-contrast profile portrait with a split-hierarchy typographic layout: one dense, saturated block and one airy, wide-tracked line."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:12:39.728Z"
+}

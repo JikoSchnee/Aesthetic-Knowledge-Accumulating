@@ -1,0 +1,275 @@
+{
+  "id": "7245f4281961b9bc60ec37a804478ae1990bd0272f605aa9bd49403ba3fbaa39",
+  "skillId": "7245f4281961b9bc60ec37a804478ae1990bd0272f605aa9bd49403ba3fbaa39",
+  "versionId": "7245f4281961b9bc60ec37a804478ae1990bd0272f605aa9bd49403ba3fbaa39",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:59:17.967Z",
+  "approvedAt": "2026-08-12T05:59:17.967Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:59:17.967Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "More….jpg",
+    "hash": "7245f4281961b9bc60ec37a804478ae1990bd0272f605aa9bd49403ba3fbaa39",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "More…",
+    "artist": "Trace Adkins",
+    "artworkUrl": "https://coverartarchive.org/release-group/a7f34705-4c46-3a3a-9ac3-df4f3c65f89c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/a7f34705-4c46-3a3a-9ac3-df4f3c65f89c",
+    "releaseGroupId": "a7f34705-4c46-3a3a-9ac3-df4f3c65f89c",
+    "recordingId": "a1a64edc-4891-48bc-9e9e-3b4d8e26531f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "MoreTrace Adkins",
+      "song": "More",
+      "performer": "Trace Adkins",
+      "peakPosition": 65,
+      "firstChartDate": "2000-04-29",
+      "lastChartDate": "2000-07-08",
+      "appearances": [
+        {
+          "chartDate": "2000-04-29",
+          "position": 84
+        },
+        {
+          "chartDate": "2000-05-06",
+          "position": 84
+        },
+        {
+          "chartDate": "2000-05-13",
+          "position": 75
+        },
+        {
+          "chartDate": "2000-05-20",
+          "position": 73
+        },
+        {
+          "chartDate": "2000-05-27",
+          "position": 73
+        },
+        {
+          "chartDate": "2000-06-03",
+          "position": 69
+        },
+        {
+          "chartDate": "2000-06-10",
+          "position": 68
+        },
+        {
+          "chartDate": "2000-06-17",
+          "position": 65
+        },
+        {
+          "chartDate": "2000-06-24",
+          "position": 73
+        },
+        {
+          "chartDate": "2000-07-01",
+          "position": 83
+        },
+        {
+          "chartDate": "2000-07-08",
+          "position": 92
+        }
+      ]
+    }
+  },
+  "dedupeText": "rustic country portrait layout cowboy hat rustic wood background low key lighting serif typography overlapping text cool blue tones subject centered vertically and horizontally text layered in front of the subject s chest and arms cool blue color cast unifying the dark clothing and rustic background high contrast between the white light blue text and the dark shirt subject in western attire weathered wood background cool blue low key lighting large overlapping serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Rustic Country Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Country music album covers",
+        "Artist promotional posters",
+        "Western lifestyle magazine covers"
+      ],
+      "retrievalTags": [
+        "cowboy hat",
+        "rustic wood background",
+        "low-key lighting",
+        "serif typography",
+        "overlapping text",
+        "cool blue tones"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered portrait of a male figure in western attire against a weathered wooden structure, featuring large serif typography that overlaps the subject's torso.",
+      "triggerTerms": [
+        "country music portrait",
+        "cowboy hat rustic background",
+        "serif text overlapping subject"
+      ],
+      "excludeWhen": [
+        "high-key bright lighting is required",
+        "modern urban settings are requested",
+        "sans-serif minimalist design is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium shot of a smiling man wearing a black cowboy hat and dark shirt, positioned in front of a weathered gray wooden barn wall. The lighting is moody with a blue-tinted shadow cast, and large, semi-transparent serif text is layered across the mid-section of the frame.",
+    "coreVisualRelationships": [
+      "Subject centered vertically and horizontally",
+      "Text layered in front of the subject's chest and arms",
+      "Cool blue color cast unifying the dark clothing and rustic background",
+      "High contrast between the white/light blue text and the dark shirt"
+    ],
+    "coreInvariants": [
+      "Black cowboy hat with decorative band",
+      "Weathered vertical wooden planks in the background",
+      "Large-scale serif display typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered medium shot, head and torso filling the upper two-thirds of the frame.",
+      "visualAnchor": "The subject's face and hat, framed by the dark shirt and background.",
+      "movementAndEyePath": "Eyes start at the face, move down to the large text across the chest, then to the hands at the bottom.",
+      "negativeSpace": "Tight framing with minimal negative space, mostly occupied by the textured wooden wall."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep navy and charcoal (clothing and shadows)",
+      "contrastColorRole": "Cool slate blue and muted gray (background and text)",
+      "accentColorRole": "Bright white (primary text highlights)",
+      "saturationAndValueRelationship": "Low saturation with a heavy emphasis on dark values and cool temperature.",
+      "paletteRestrictions": [
+        "Avoid warm oranges or reds",
+        "Limit to cool-toned neutrals"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Traditional high-contrast serif",
+      "letterConstructionRules": [
+        "Sharp, triangular serifs",
+        "High stroke contrast between thick and thin lines",
+        "Large x-height for the lowercase letters"
+      ],
+      "characterSpecificRedesigns": [
+        "Tight kerning causing slight overlaps between characters"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Sharp",
+            "corners": "Bracketed",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Mixed Case",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "Auto",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Lower middle third",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Overlays subject",
+            "relationshipToImage": "Foreground layer"
+          },
+          "treatment": {
+            "fill": "Gradient white to light blue",
+            "outline": "None",
+            "shadow": "Soft drop shadow for legibility",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Small lowercase serif subtitle placed above the main display name.",
+      "graphicDevices": [
+        "Color blocking within text (alternating white and blue)"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast serifs",
+          "Overlapping placement"
+        ],
+        "avoid": [
+          "Slab serifs",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Baskerville",
+            "reason": "Classic high-contrast serif with sharp terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Times New Roman",
+            "reason": "Standard serif structure that matches the traditional feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in a black cowboy hat and dark shirt sitting against a weathered gray barn wall with cool blue lighting.",
+        "overlayInstruction": "Apply large serif text across the center-bottom of the image, using a mix of white and light blue fill with a subtle drop shadow."
+      },
+      "verificationChecks": [
+        "Is the cowboy hat clearly defined?",
+        "Does the text overlap the subject's torso?",
+        "Is the color palette predominantly cool and dark?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the blue color cast",
+      "Amount of text overlap on the subject",
+      "Weathering level of the wooden background"
+    ],
+    "mustRedesign": [
+      "Avoid using specific artist names or logos",
+      "Change the specific text content while maintaining the serif style"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic rustic texture",
+        "Professional studio-style lighting on the face",
+        "Clean typographic integration"
+      ],
+      "avoid": [
+        "Cartoonish western elements",
+        "Overly bright or saturated colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is legible against the dark shirt",
+      "Ensure the cowboy hat does not cast an unflattering shadow on the face",
+      "Verify the cool-toned color grading is consistent across the image"
+    ],
+    "reuseFormula": "Subject in Western attire + Weathered wood background + Cool blue low-key lighting + Large overlapping serif typography."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:27.831Z"
+}

@@ -1,0 +1,268 @@
+{
+  "id": "71fe871b63fc80ed269df1e9f33098ac36b8ab2863915caa63112a559669365b",
+  "skillId": "71fe871b63fc80ed269df1e9f33098ac36b8ab2863915caa63112a559669365b",
+  "versionId": "71fe871b63fc80ed269df1e9f33098ac36b8ab2863915caa63112a559669365b",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:13:13.935Z",
+  "approvedAt": "2026-08-12T05:13:13.935Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:13:13.935Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Maybe the Rain Will Fall.jpg",
+    "hash": "71fe871b63fc80ed269df1e9f33098ac36b8ab2863915caa63112a559669365b",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Maybe the Rain Will Fall",
+    "artist": "The Cascades",
+    "artworkUrl": "https://coverartarchive.org/release-group/acb18761-cce1-439c-85db-7168088b0f39/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/acb18761-cce1-439c-85db-7168088b0f39",
+    "releaseGroupId": "acb18761-cce1-439c-85db-7168088b0f39",
+    "recordingId": "3d8a5bd8-5bb6-49a1-bbba-cc91f0ada92b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Maybe The Rain Will FallThe Cascades",
+      "song": "Maybe The Rain Will Fall",
+      "performer": "The Cascades",
+      "peakPosition": 61,
+      "firstChartDate": "1969-08-16",
+      "lastChartDate": "1969-09-20",
+      "appearances": [
+        {
+          "chartDate": "1969-08-16",
+          "position": 89
+        },
+        {
+          "chartDate": "1969-08-23",
+          "position": 79
+        },
+        {
+          "chartDate": "1969-08-30",
+          "position": 63
+        },
+        {
+          "chartDate": "1969-09-06",
+          "position": 63
+        },
+        {
+          "chartDate": "1969-09-13",
+          "position": 61
+        },
+        {
+          "chartDate": "1969-09-20",
+          "position": 69
+        }
+      ]
+    }
+  },
+  "dedupeText": "psychedelic fog band portrait heavy fog 3d block lettering vintage photography band portrait retro typography atmospheric smoke soft focus subjects emerging from a dense opaque foreground of fog heavy dark typography anchoring the top of the frame soft diffused lighting creating a dreamlike hazy atmosphere centralized group composition with varying head heights vintage band portrait opaque fog foreground heavy 3d block typography header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Psychedelic Fog Band Portrait",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Airbrushing"
+      ],
+      "useCases": [
+        "Vintage-style album covers",
+        "Retro band promotional posters",
+        "1960s-70s psychedelic aesthetic design"
+      ],
+      "retrievalTags": [
+        "heavy fog",
+        "3D block lettering",
+        "vintage photography",
+        "band portrait",
+        "retro typography",
+        "atmospheric smoke",
+        "soft focus"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A retro band portrait featuring subjects partially obscured by dense, voluminous white fog with heavy 3D block typography at the top.",
+      "triggerTerms": [
+        "band emerging from thick white fog",
+        "heavy 3D drop shadow typography",
+        "vintage 1970s soft focus photography",
+        "atmospheric smoke portrait"
+      ],
+      "excludeWhen": [
+        "modern high-contrast digital photography is requested",
+        "minimalist flat design is required",
+        "the fog should be thin or transparent"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A group of four men in period-specific 1960s-70s attire (western shirts, hats) standing in a dense field of white, billowing fog that obscures their lower bodies. The background is a soft, hazy blue-grey sky. The top of the composition is dominated by two lines of heavy, stylized 3D lettering with deep vertical drop shadows.",
+    "coreVisualRelationships": [
+      "Subjects emerging from a dense, opaque foreground of fog",
+      "Heavy, dark typography anchoring the top of the frame",
+      "Soft, diffused lighting creating a dreamlike, hazy atmosphere",
+      "Centralized group composition with varying head heights"
+    ],
+    "coreInvariants": [
+      "Dense white fog obscuring the lower half of the frame",
+      "Deep 3D extrusion on all display text",
+      "Muted, vintage color palette with soft grain"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four subjects positioned mid-ground, scaled to occupy the middle horizontal third of the frame.",
+      "visualAnchor": "The large, dark 3D typography at the top center acts as the primary visual anchor.",
+      "movementAndEyePath": "The eye starts at the heavy text, moves down to the faces of the subjects, and then flows into the swirling fog at the bottom.",
+      "negativeSpace": "The upper corners and the dense fog at the bottom provide significant negative space for atmospheric effect."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted blue-grey sky and off-white fog (background/atmosphere)",
+      "contrastColorRole": "Deep navy or charcoal for the 3D typography shadows",
+      "accentColorRole": "Warm tones (red, yellow, tan) in the subjects' clothing",
+      "saturationAndValueRelationship": "Low saturation overall with high value in the fog and low value in the text shadows.",
+      "paletteRestrictions": [
+        "Avoid neon or high-vibrancy colors",
+        "Limit to earth tones and desaturated blues"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Condensed sans-serif with geometric curves",
+      "letterConstructionRules": [
+        "Extreme vertical extrusion creating a 3D block effect",
+        "Tight letter spacing with overlapping elements in the second line",
+        "Curvilinear 'C' and 'S' shapes that interlock or nest",
+        "Consistent shadow angle pointing straight down or slightly left"
+      ],
+      "characterSpecificRedesigns": [
+        "The letter 'C' is oversized and wraps around subsequent letters",
+        "The 'A' and 'S' are nested within the curves of the 'C'"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "decorative",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "two-line stack",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "high in second line",
+            "relationshipToImage": "floating above subjects"
+          },
+          "treatment": {
+            "fill": "light grey or white",
+            "outline": "thin dark stroke",
+            "shadow": "deep 3D vertical extrusion",
+            "depth": "extreme",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single decorative style with varying scale and nesting for the second line.",
+      "graphicDevices": [
+        "3D block extrusion",
+        "Interlocking letterforms"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "3D depth",
+          "Vertical shadow",
+          "Condensed width"
+        ],
+        "avoid": [
+          "Flat 2D fonts",
+          "Serif fonts",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact with 3D effect",
+            "reason": "Provides the necessary weight and condensed skeleton",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Custom psychedelic 70s lettering",
+            "reason": "Matches the interlocking and nested nature of the second line",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a vintage 1970s photograph of four men in western-style shirts and hats, standing in a very thick, opaque white fog that covers them from the waist down. The background is a hazy, desaturated blue sky. Use a soft-focus lens effect and film grain.",
+        "overlayInstruction": "Apply two lines of centered, uppercase 3D block lettering at the top. The first line should be condensed; the second line should be larger with interlocking, nested letters. Use a deep vertical drop shadow to create a heavy 3D effect."
+      },
+      "verificationChecks": [
+        "Is the fog opaque enough to hide the lower bodies?",
+        "Does the text have a significant 3D vertical extrusion?",
+        "Is the color palette muted and vintage?",
+        "Are the letters in the second line nested or interlocking?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of the fog",
+      "Depth of the 3D text extrusion",
+      "Number of subjects",
+      "Clothing style of subjects"
+    ],
+    "mustRedesign": [
+      "Specific band member faces",
+      "Original brand logos",
+      "Exact text content"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film grain",
+        "Heavy 3D typographic depth",
+        "Voluminous, cloud-like fog texture"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Thin, modern sans-serif fonts",
+        "High-definition sharpness"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 3D text depth consistency",
+      "Ensure fog texture looks organic and not like a flat overlay",
+      "Verify the vintage color grading is applied",
+      "Confirm the composition is top-heavy with text"
+    ],
+    "reuseFormula": "Vintage Band Portrait + Opaque Fog Foreground + Heavy 3D Block Typography Header"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:27.104Z"
+}

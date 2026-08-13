@@ -1,0 +1,230 @@
+{
+  "id": "1e87548ab76666ddca5a5952d688c9abad34aafa9dc4bee4994ff69d7412b1be",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T14:15:45.149Z",
+  "approvedAt": "2026-08-11T14:15:45.149Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T14:15:45.149Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Mighty Instrumental’s.jpg",
+    "hash": "1e87548ab76666ddca5a5952d688c9abad34aafa9dc4bee4994ff69d7412b1be",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Mighty Instrumental’s",
+    "artist": "James Brown And The Famous Flames",
+    "artworkUrl": "https://coverartarchive.org/release-group/31166a9f-46c4-47d9-883f-37dd02d3526b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/31166a9f-46c4-47d9-883f-37dd02d3526b",
+    "releaseGroupId": "31166a9f-46c4-47d9-883f-37dd02d3526b",
+    "recordingId": "9cf6c233-6214-4aa6-ac23-232d1f3384f9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Every Beat Of My HeartJames Brown And The Famous Flames",
+      "song": "Every Beat Of My Heart",
+      "performer": "James Brown And The Famous Flames",
+      "peakPosition": 99,
+      "firstChartDate": "1963-02-09",
+      "lastChartDate": "1963-02-09",
+      "appearances": [
+        {
+          "chartDate": "1963-02-09",
+          "position": 99
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century soul record sleeve mid century soul music halftone arched typography vibrant primary colors collage triadic portrait arrangement forming a stable base for the arched text contrast between the warm skin tones and the vibrant green pink yellow palette dynamic tension between the upward curving main title and the horizontal tracklist footer repetition of the subject s face to create a sense of movement and presence triadic halftone portraits arched block typography color blocked footer 1960s soul aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Soul Record Sleeve",
+      "category": "Album Art",
+      "medium": [
+        "Offset Lithography",
+        "Halftone Photography",
+        "Hand-Drawn Lettering"
+      ],
+      "useCases": [
+        "Vintage Music Packaging",
+        "Retro Poster Design",
+        "1960s Graphic Style Guide"
+      ],
+      "retrievalTags": [
+        "mid-century",
+        "soul music",
+        "halftone",
+        "arched typography",
+        "vibrant primary colors",
+        "collage"
+      ]
+    },
+    "visualDefinition": "A high-energy 1960s album cover featuring a central portrait flanked by two smaller mirrored portraits, framed by bold, arched, multi-layered typography and a dense list of tracks at the bottom.",
+    "coreVisualRelationships": [
+      "Triadic portrait arrangement forming a stable base for the arched text",
+      "Contrast between the warm skin tones and the vibrant green/pink/yellow palette",
+      "Dynamic tension between the upward-curving main title and the horizontal tracklist footer",
+      "Repetition of the subject's face to create a sense of movement and presence"
+    ],
+    "coreInvariants": [
+      "Arched main title with thick outlines",
+      "Halftone texture on photographic elements",
+      "White background to maximize color pop",
+      "Horizontal color-blocked footer for metadata"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three portraits occupy the lower two-thirds; the central figure is slightly larger and positioned higher than the flanking two.",
+      "visualAnchor": "The large, arched green name in the upper-middle section acts as the primary focal point.",
+      "movementAndEyePath": "Eyes start at the arched green text, drop to the central face, move outward to the side faces, and finally settle on the tracklist at the bottom.",
+      "negativeSpace": "Clean white space is used in the upper corners and between portraits to prevent visual clutter."
+    },
+    "colorSystem": {
+      "dominantColorRole": "White background provides high-contrast clarity.",
+      "contrastColorRole": "Vibrant Green with yellow outlines for the primary name.",
+      "accentColorRole": "Hot Pink for secondary titles and Orange-Red for the subject's clothing.",
+      "saturationAndValueRelationship": "High saturation across all hues with minimal shading, creating a flat, graphic pop-art feel.",
+      "paletteRestrictions": [
+        "Limit to Green, Pink, Yellow, Red, and Cyan",
+        "Avoid gradients; use solid fills and thick strokes"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Heavy Sans-Serif and Blocky Display",
+      "letterConstructionRules": [
+        "Main name uses a heavy, blocky sans-serif with a significant upward arch",
+        "Secondary titles use a condensed, slightly irregular hand-drawn sans-serif",
+        "Footer text is a uniform, bold, condensed sans-serif"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters in the arched name are tilted to follow the curve radius",
+        "Double-outlining (yellow then black) on the green letters"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "custom-sans",
+          "anatomy": {
+            "width": "wide",
+            "weight": "extra-bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "small",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered-arch",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "single-line-arch",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper-middle",
+            "scale": "large",
+            "rotation": "variable-per-glyph",
+            "warp": "arch",
+            "overlap": "none",
+            "relationshipToImage": "frames the central portrait"
+          },
+          "treatment": {
+            "fill": "vibrant green",
+            "outline": "yellow inner, black outer",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "perspective-arch"
+          }
+        }
+      ],
+      "pairingStrategy": "Stacking a large arched display face over a condensed secondary face, grounded by a rigid grid-like footer.",
+      "graphicDevices": [
+        "Zig-zag 'lightning' lines",
+        "Color-blocked horizontal bars",
+        "Halftone dot patterns in photos"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The arching effect",
+          "The multi-layered stroke",
+          "The triadic photo layout"
+        ],
+        "avoid": [
+          "Modern digital gradients",
+          "Clean high-resolution photography",
+          "Serif fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Franklin Gothic Heavy",
+            "reason": "Provides the necessary weight for the arched display text.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Trade Gothic Bold Condensed",
+            "reason": "Matches the utilitarian feel of the footer tracklist.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a collage of three halftone-textured male portraits on a white background. The central figure wears a bright orange-red shirt. Add horizontal bars of yellow, cyan, and green at the bottom.",
+        "overlayInstruction": "Apply a large arched name in green with yellow and black outlines above the portraits. Add secondary pink text in a condensed sans-serif above that. Fill the bottom color bars with bold white and black condensed sans-serif text."
+      },
+      "verificationChecks": [
+        "Is the main name arched correctly?",
+        "Do the photos have a visible halftone dot texture?",
+        "Are the colors vibrant and flat without gradients?",
+        "Is the footer text contained within distinct color blocks?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Degree of the arch",
+      "Number of portraits (1 to 3)",
+      "Color of the footer bars",
+      "Intensity of the halftone effect"
+    ],
+    "mustRedesign": [
+      "Specific artist names and song titles",
+      "Record label logos and catalog numbers",
+      "Any specific brand iconography"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s print feel",
+        "High-contrast legibility",
+        "Dynamic, 'loud' visual energy"
+      ],
+      "avoid": [
+        "Minimalist modernism",
+        "Subtle pastel palettes",
+        "Thin, elegant typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no text is overlapping the subject's eyes",
+      "Check that the arch is symmetrical",
+      "Verify the halftone texture is consistent across all portraits",
+      "Confirm the color palette remains within the specified triadic range"
+    ],
+    "reuseFormula": "Triadic Halftone Portraits + Arched Block Typography + Color-Blocked Footer = 1960s Soul Aesthetic"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:04:21.708Z"
+}

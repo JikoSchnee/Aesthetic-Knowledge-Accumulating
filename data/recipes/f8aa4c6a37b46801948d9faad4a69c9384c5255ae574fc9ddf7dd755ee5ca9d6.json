@@ -1,0 +1,323 @@
+{
+  "id": "f8aa4c6a37b46801948d9faad4a69c9384c5255ae574fc9ddf7dd755ee5ca9d6",
+  "skillId": "f8aa4c6a37b46801948d9faad4a69c9384c5255ae574fc9ddf7dd755ee5ca9d6",
+  "versionId": "f8aa4c6a37b46801948d9faad4a69c9384c5255ae574fc9ddf7dd755ee5ca9d6",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:04:57.373Z",
+  "approvedAt": "2026-08-13T05:04:57.373Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:04:57.373Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Ask Rufus.jpg",
+    "hash": "f8aa4c6a37b46801948d9faad4a69c9384c5255ae574fc9ddf7dd755ee5ca9d6",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Ask Rufus",
+    "artist": "Rufus Featuring Chaka Khan",
+    "artworkUrl": "https://coverartarchive.org/release-group/cb6327b8-4ef5-3ca2-bbe2-260473c457cd/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/cb6327b8-4ef5-3ca2-bbe2-260473c457cd",
+    "releaseGroupId": "cb6327b8-4ef5-3ca2-bbe2-260473c457cd",
+    "recordingId": "7112f476-80c3-47b0-b42d-03d22d676083",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "At Midnight (My Love Will Lift You Up)Rufus Featuring Chaka Khan",
+      "song": "At Midnight (My Love Will Lift You Up)",
+      "performer": "Rufus Featuring Chaka Khan",
+      "peakPosition": 30,
+      "firstChartDate": "1977-02-12",
+      "lastChartDate": "1977-04-30",
+      "appearances": [
+        {
+          "chartDate": "1977-02-12",
+          "position": 86
+        },
+        {
+          "chartDate": "1977-02-19",
+          "position": 66
+        },
+        {
+          "chartDate": "1977-02-26",
+          "position": 55
+        },
+        {
+          "chartDate": "1977-03-05",
+          "position": 45
+        },
+        {
+          "chartDate": "1977-03-12",
+          "position": 39
+        },
+        {
+          "chartDate": "1977-03-19",
+          "position": 35
+        },
+        {
+          "chartDate": "1977-03-26",
+          "position": 33
+        },
+        {
+          "chartDate": "1977-04-02",
+          "position": 31
+        },
+        {
+          "chartDate": "1977-04-09",
+          "position": 30
+        },
+        {
+          "chartDate": "1977-04-16",
+          "position": 30
+        },
+        {
+          "chartDate": "1977-04-23",
+          "position": 47
+        },
+        {
+          "chartDate": "1977-04-30",
+          "position": 81
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro funk album cover layout 70s funk fisheye lens monochrome photography diagonal typography high contrast central large figure vs small peripheral figures curved floor line vs rectangular frame monochrome image vs saturated neon typography diagonal text orientation vs vertical subject monochrome fisheye photography diagonal neon script wide tracked geometric sans serif",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Funk Album Cover Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Illustration",
+        "Typography"
+      ],
+      "useCases": [
+        "Album Art",
+        "Concert Posters",
+        "Retro Editorial Layouts"
+      ],
+      "retrievalTags": [
+        "70s funk",
+        "fisheye lens",
+        "monochrome photography",
+        "diagonal typography",
+        "high contrast"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Use this skill for high-contrast monochrome photography featuring a central large figure and smaller background figures on a curved horizon with vibrant, layered diagonal text.",
+      "triggerTerms": [
+        "retro funk album aesthetic",
+        "fisheye room photography",
+        "diagonal script logo with banner",
+        "monochrome subject with neon accents"
+      ],
+      "excludeWhen": [
+        "minimalist modern designs",
+        "flat 2D illustrations",
+        "natural lighting portraits"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast black and white photograph of a central figure in a long dark dress, set within a curved, white circular room. Smaller figures stand on the horizon line. The top left features a large, vibrant script logo tilted diagonally, partially obscured by a yellow banner.",
+    "coreVisualRelationships": [
+      "Central large figure vs. small peripheral figures",
+      "Curved floor line vs. rectangular frame",
+      "Monochrome image vs. saturated neon typography",
+      "Diagonal text orientation vs. vertical subject"
+    ],
+    "coreInvariants": [
+      "High-contrast black and white photography for the subjects",
+      "Curved horizon line suggesting a circular or fisheye space",
+      "Diagonal text placement in the upper left quadrant"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Large central figure dominates the left-center; four smaller figures distributed along a curved horizon line in the background.",
+      "visualAnchor": "The central figure's face and the vibrant purple script logo in the top left.",
+      "movementAndEyePath": "Starts at the top-left logo, follows the diagonal banner down to the central figure, then sweeps across the curved horizon to the background figures.",
+      "negativeSpace": "Expansive white/grey curved wall provides significant breathing room around the subjects."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black and white photography (grayscale)",
+      "contrastColorRole": "Vibrant purple and neon green for the script logo",
+      "accentColorRole": "Bright yellow for the horizontal banner",
+      "saturationAndValueRelationship": "Extreme contrast between the dark silhouettes and the bright white background; high saturation in the graphic elements only.",
+      "paletteRestrictions": [
+        "Grayscale for imagery",
+        "Purple",
+        "Neon Green",
+        "Yellow"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Cursive script and geometric sans-serif",
+      "letterConstructionRules": [
+        "Script: Thick, brush-like strokes with a neon green outline",
+        "Sans-serif: Wide, geometric, all-caps with high tracking"
+      ],
+      "characterSpecificRedesigns": [
+        "The script 'R' has an elongated tail",
+        "The banner text is compressed and slanted to match the diagonal tilt"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "closed",
+            "strokeCharacter": "fluid"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top left",
+            "scale": "large",
+            "rotation": "30 degrees",
+            "warp": "none",
+            "overlap": "behind banner",
+            "relationshipToImage": "floating over subject"
+          },
+          "treatment": {
+            "fill": "purple",
+            "outline": "neon green",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "extended",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "all caps",
+            "alignment": "right",
+            "tracking": "very wide",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top right",
+            "scale": "small",
+            "rotation": "none",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "smooth",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Expressive, heavy script paired with a clean, wide-tracked geometric sans-serif for balance.",
+      "graphicDevices": [
+        "Yellow diagonal banner strip",
+        "Neon green glow/outline on script"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Diagonal orientation",
+          "High tracking on sans-serif",
+          "Neon outlines"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Vertical alignment for the main logo"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Mistral or Brush Script",
+            "reason": "Captures the fluid, hand-drawn energy of the main logo",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Matches the geometric, wide-tracked 70s sans-serif aesthetic",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white photo of a woman in a long black dress in a white circular room with a curved floor line. Place four small men in 70s attire along the curved horizon in the background.",
+        "overlayInstruction": "Add a large purple script logo with a neon green outline at a 30-degree diagonal in the top left. Place a yellow banner across it with black sans-serif text. Add wide-tracked white sans-serif text in the top right corner."
+      },
+      "verificationChecks": [
+        "Is the horizon line curved?",
+        "Is the main logo tilted diagonally?",
+        "Is the photography strictly monochrome?",
+        "Is the tracking on the top-right text sufficiently wide?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Curvature of the horizon",
+      "Angle of the diagonal text",
+      "Saturation of the neon accents"
+    ],
+    "mustRedesign": [
+      "Avoid using specific artist names or band logos",
+      "Ensure the background figures are generic 70s-style silhouettes"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast lighting",
+        "Clean, sharp typography",
+        "Dynamic diagonal composition"
+      ],
+      "avoid": [
+        "Muted or pastel colors in the graphics",
+        "Flat, straight horizon lines",
+        "Low-contrast photography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast black and white balance",
+      "Verify the diagonal banner is present",
+      "Ensure the background figures are small relative to the foreground",
+      "Confirm the script logo has a neon outline",
+      "Check that the top-right text is all-caps and wide-tracked"
+    ],
+    "reuseFormula": "Monochrome fisheye photography + diagonal neon script + wide-tracked geometric sans-serif."
+  }
+}

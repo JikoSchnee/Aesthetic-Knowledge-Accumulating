@@ -1,0 +1,249 @@
+{
+  "id": "02474ff9da5134c729ffe79141255395389eb1cbdda86134acd59f2fe5a64498",
+  "skillId": "02474ff9da5134c729ffe79141255395389eb1cbdda86134acd59f2fe5a64498",
+  "versionId": "02474ff9da5134c729ffe79141255395389eb1cbdda86134acd59f2fe5a64498",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T03:29:05.336Z",
+  "approvedAt": "2026-08-12T03:29:05.336Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T03:29:05.336Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Bloodshot.jpg",
+    "hash": "02474ff9da5134c729ffe79141255395389eb1cbdda86134acd59f2fe5a64498",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Bloodshot",
+    "artist": "The J. Geils Band",
+    "artworkUrl": "https://coverartarchive.org/release-group/f21bc956-d00d-3624-bf4b-5e4fcf0d6bbc/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/f21bc956-d00d-3624-bf4b-5e4fcf0d6bbc",
+    "releaseGroupId": "f21bc956-d00d-3624-bf4b-5e4fcf0d6bbc",
+    "recordingId": "8d289b88-7b8d-4eea-a55b-295af95b42ed",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Make Up Your MindThe J. Geils Band",
+      "song": "Make Up Your Mind",
+      "performer": "The J. Geils Band",
+      "peakPosition": 98,
+      "firstChartDate": "1973-09-08",
+      "lastChartDate": "1973-09-15",
+      "appearances": [
+        {
+          "chartDate": "1973-09-08",
+          "position": 98
+        },
+        {
+          "chartDate": "1973-09-15",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast duotone rock aesthetic duotone high contrast red and black serif typography 70s rock aesthetic band portrait letterboxed layout black header vs vibrant red image field white serif typography vs solid black background thin white frame vs saturated duotone content centered text alignment vs horizontal group arrangement solid black header high contrast white serif text red black duotone image white keyline frame",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Duotone Rock Aesthetic",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Duotone Print"
+      ],
+      "useCases": [
+        "Rock music album covers",
+        "Vintage concert posters",
+        "High-contrast editorial layouts"
+      ],
+      "retrievalTags": [
+        "duotone",
+        "high contrast",
+        "red and black",
+        "serif typography",
+        "70s rock aesthetic",
+        "band portrait",
+        "letterboxed layout"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A stark, two-panel layout featuring a black header with white high-contrast serifs above a saturated red-and-black duotone photograph framed in white.",
+      "triggerTerms": [
+        "red duotone band photo",
+        "black header with white serif text",
+        "high contrast rock album layout",
+        "saturated red monochrome portrait"
+      ],
+      "excludeWhen": [
+        "full-color photography is required",
+        "modern sans-serif minimalism is requested",
+        "soft or pastel color palettes are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A vertical composition divided into a solid black upper third containing centered white typography and a lower two-thirds featuring a high-contrast red duotone image of a group, enclosed in a thin white border.",
+    "coreVisualRelationships": [
+      "Black header vs. vibrant red image field",
+      "White serif typography vs. solid black background",
+      "Thin white frame vs. saturated duotone content",
+      "Centered text alignment vs. horizontal group arrangement"
+    ],
+    "coreInvariants": [
+      "Pure black background for the top section",
+      "Saturated red and black duotone effect on the photograph",
+      "Thin white rectangular border around the image area"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The group subject is centered in the lower frame, scaled to fill the width with heads near the top of the red field.",
+      "visualAnchor": "The centered white typography in the black header acts as the primary entry point.",
+      "movementAndEyePath": "Top-down flow from the bold text to the high-contrast red image below.",
+      "negativeSpace": "Significant solid black negative space in the upper third provides breathing room for the title."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Solid black (background and shadows)",
+      "contrastColorRole": "Vibrant red (mid-tones and highlights of the image)",
+      "accentColorRole": "Pure white (typography and framing)",
+      "saturationAndValueRelationship": "Extreme contrast with no gradients; colors are either fully saturated or solid black/white.",
+      "paletteRestrictions": [
+        "Black",
+        "Red",
+        "White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast Modern Serif",
+      "letterConstructionRules": [
+        "Extreme stroke contrast between thick and thin lines",
+        "Vertical stress",
+        "Fine, hair-line serifs",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Overlapping characters in the main title to create a unified block"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Didone / Modern Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "Extreme",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "All-caps",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "1.1",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top center",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Slight kerning overlap",
+            "relationshipToImage": "Separated by black space"
+          },
+          "treatment": {
+            "fill": "Solid white",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Use a smaller version of the same high-contrast serif for subtitles to maintain stylistic unity.",
+      "graphicDevices": [
+        "Thin white keyline border"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High stroke contrast",
+          "All-caps setting",
+          "White-on-black color scheme"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Low-contrast serifs",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni Poster",
+            "reason": "Matches the extreme contrast and vertical stress of the era.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Didot Bold",
+            "reason": "Provides the elegant hair-line serifs and thick stems.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a vertical layout with a solid black top section and a lower section containing a high-contrast red and black duotone photo of a group, framed by a thin white border.",
+        "overlayInstruction": "Center-align white text in a high-contrast Modern Serif font (like Bodoni) in the black header area."
+      },
+      "verificationChecks": [
+        "Is the image strictly red and black duotone?",
+        "Is the text centered in the black header?",
+        "Is there a thin white border around the red image area?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Red saturation level",
+      "Thickness of the white border",
+      "Vertical ratio of black header to red image"
+    ],
+    "mustRedesign": [
+      "Any specific band member likenesses",
+      "Original brand logos",
+      "Specific album title wording"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast visual impact",
+        "Clean, sharp typography",
+        "Saturated duotone color depth"
+      ],
+      "avoid": [
+        "Muted colors",
+        "Blurry edges",
+        "Low-contrast text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no gray tones exist in the duotone area.",
+      "Verify the white border is perfectly rectangular.",
+      "Check that the serif font has hair-line thin strokes.",
+      "Confirm the layout is split into distinct black and red zones."
+    ],
+    "reuseFormula": "Solid black header + High-contrast white serif text + Red/Black duotone image + White keyline frame."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:42:37.177Z"
+}

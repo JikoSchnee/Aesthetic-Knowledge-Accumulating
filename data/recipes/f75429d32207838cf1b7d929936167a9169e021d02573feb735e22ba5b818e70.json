@@ -1,0 +1,278 @@
+{
+  "id": "f75429d32207838cf1b7d929936167a9169e021d02573feb735e22ba5b818e70",
+  "skillId": "f75429d32207838cf1b7d929936167a9169e021d02573feb735e22ba5b818e70",
+  "versionId": "f75429d32207838cf1b7d929936167a9169e021d02573feb735e22ba5b818e70",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:20:35.164Z",
+  "approvedAt": "2026-08-12T15:20:35.164Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:20:35.164Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Broken Heart.jpg",
+    "hash": "f75429d32207838cf1b7d929936167a9169e021d02573feb735e22ba5b818e70",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Broken Heart",
+    "artist": "The Babys",
+    "artworkUrl": "https://coverartarchive.org/release-group/2ff0b647-bb8a-3178-ac2d-2f19effda285/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/2ff0b647-bb8a-3178-ac2d-2f19effda285",
+    "releaseGroupId": "2ff0b647-bb8a-3178-ac2d-2f19effda285",
+    "recordingId": "ff72182e-7bf6-465f-a2e6-b447e5cc720b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Silver DreamsThe Babys",
+      "song": "Silver Dreams",
+      "performer": "The Babys",
+      "peakPosition": 53,
+      "firstChartDate": "1978-02-04",
+      "lastChartDate": "1978-03-18",
+      "appearances": [
+        {
+          "chartDate": "1978-02-04",
+          "position": 85
+        },
+        {
+          "chartDate": "1978-02-11",
+          "position": 75
+        },
+        {
+          "chartDate": "1978-02-18",
+          "position": 65
+        },
+        {
+          "chartDate": "1978-02-25",
+          "position": 54
+        },
+        {
+          "chartDate": "1978-03-04",
+          "position": 54
+        },
+        {
+          "chartDate": "1978-03-11",
+          "position": 53
+        },
+        {
+          "chartDate": "1978-03-18",
+          "position": 86
+        }
+      ]
+    }
+  },
+  "dedupeText": "seventies glam rock portrait glam rock shag haircut velvet blazer soft vignette high contrast serif androgynous fashion 70s studio lighting triangular grouping of subjects creating a dense central focus soft focus lighting contrasting with sharp high contrast typography muted desaturated background tones emphasizing the warm skin tones and peach text textual overlap where the header sits closely above the subjects heads 70s studio portrait subject description texture velvet satin lighting soft focus vignette typography bold didone serif",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Seventies Glam Rock Portrait",
+      "category": "Photography",
+      "medium": [
+        "Studio Photography",
+        "Soft Focus",
+        "Vinyl Cover Art"
+      ],
+      "useCases": [
+        "Album cover design",
+        "Retro band promotion",
+        "Fashion editorial for 70s revival",
+        "Nostalgic music posters"
+      ],
+      "retrievalTags": [
+        "glam rock",
+        "shag haircut",
+        "velvet blazer",
+        "soft vignette",
+        "high-contrast serif",
+        "androgynous fashion",
+        "70s studio lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A soft-focus group portrait of four men with feathered hair and velvet attire, featuring a large-scale serif header overlapping the top edge.",
+      "triggerTerms": [
+        "70s glam rock band portrait",
+        "feathered hair studio photography",
+        "soft focus vintage album cover",
+        "velvet and satin menswear portrait"
+      ],
+      "excludeWhen": [
+        "modern high-definition sharp photography",
+        "minimalist layout",
+        "bright neon colors",
+        "grunge or punk aesthetics"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A tight triangular composition of four male figures with 1970s-style feathered and shag haircuts, dressed in textured fabrics like velvet and corduroy, set against a neutral, softly lit studio background with a prominent peach-toned serif title at the top.",
+    "coreVisualRelationships": [
+      "Triangular grouping of subjects creating a dense central focus",
+      "Soft-focus lighting contrasting with sharp, high-contrast typography",
+      "Muted, desaturated background tones emphasizing the warm skin tones and peach text",
+      "Textual overlap where the header sits closely above the subjects' heads"
+    ],
+    "coreInvariants": [
+      "Feathered or shag hairstyles",
+      "Soft, diffused studio lighting with a slight vignette",
+      "Textured 70s fashion (velvet, corduroy, scarves)",
+      "Neutral, desaturated background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four subjects arranged in a pyramid formation, filling the lower two-thirds of the frame.",
+      "visualAnchor": "The central figure's face and the large-scale header text at the top.",
+      "movementAndEyePath": "Starts at the large header, moves down through the central faces, and follows the diagonal lines of the subjects' shoulders.",
+      "negativeSpace": "Minimal negative space, primarily located in the upper corners around the text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted greys and off-whites in the background.",
+      "contrastColorRole": "Deep blacks and browns of the hair and velvet jackets.",
+      "accentColorRole": "Soft peach or salmon pink for the primary typography.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the dark clothing and pale skin/background.",
+      "paletteRestrictions": [
+        "No neon colors",
+        "No primary blues or greens",
+        "Avoid harsh digital saturation"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast Modern Serif",
+      "letterConstructionRules": [
+        "Extreme contrast between thick and thin strokes",
+        "Vertical stress",
+        "Fine, hairline serifs",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Didone / Modern Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Ball or teardrop",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Elegant and sharp"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "n/a",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "Top edge",
+            "scale": "Large, spanning the width",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "Close to or slightly touching hair",
+            "relationshipToImage": "Overlaid on background"
+          },
+          "treatment": {
+            "fill": "Solid peach/salmon",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Large display serif paired with a tiny, centered sans-serif or serif at the bottom for secondary info.",
+      "graphicDevices": [
+        "Soft vignette",
+        "Grainy film texture"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast strokes",
+          "Hairline serifs",
+          "Tight tracking"
+        ],
+        "avoid": [
+          "Sans-serif for the main title",
+          "Low contrast fonts",
+          "Script fonts"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Didot Bold",
+            "reason": "Matches the high contrast and elegant 70s editorial look.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni Poster",
+            "reason": "Provides the necessary weight and sharp serifs.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Pistilli Roman",
+            "reason": "Captures the specific 70s tight-kerning display aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A soft-focus studio portrait of four men with 70s shag haircuts in velvet blazers, arranged in a pyramid, against a desaturated grey background with a slight vignette.",
+        "overlayInstruction": "Add a large, centered title at the top in a bold, high-contrast peach-colored Didone serif font with tight letter spacing."
+      },
+      "verificationChecks": [
+        "Is the hair feathered and voluminous?",
+        "Is the lighting soft with a vintage film grain?",
+        "Is the top text a high-contrast serif?",
+        "Is the color palette muted with a peach accent?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of subjects",
+      "Specific color of the header text",
+      "Intensity of the soft-focus effect",
+      "Fabric textures of the clothing"
+    ],
+    "mustRedesign": [
+      "Do not use the specific faces of the original band members",
+      "Do not use the exact band name or album title",
+      "Do not copy the specific logo if one exists"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s hair styling",
+        "Soft-focus studio lighting",
+        "High-contrast elegant typography"
+      ],
+      "avoid": [
+        "Digital sharpness",
+        "Modern clothing styles",
+        "Flat, even lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is legible but tightly spaced",
+      "Check that the hair textures look soft and layered",
+      "Verify the triangular composition of the group",
+      "Confirm the background is desaturated and non-distracting"
+    ],
+    "reuseFormula": "70s Studio Portrait + [Subject Description] + [Texture: Velvet/Satin] + [Lighting: Soft Focus Vignette] + [Typography: Bold Didone Serif]"
+  }
+}

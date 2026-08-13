@@ -1,0 +1,246 @@
+{
+  "id": "5c2790e6c0453a3f229e88a24872d02851ae871df696f05e101bfcf9916122cc",
+  "skillId": "5c2790e6c0453a3f229e88a24872d02851ae871df696f05e101bfcf9916122cc",
+  "versionId": "5c2790e6c0453a3f229e88a24872d02851ae871df696f05e101bfcf9916122cc",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:02:30.389Z",
+  "approvedAt": "2026-08-12T18:02:30.389Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:02:30.389Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Harry Styles.jpg",
+    "hash": "5c2790e6c0453a3f229e88a24872d02851ae871df696f05e101bfcf9916122cc",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Harry Styles",
+    "artist": "Harry Styles",
+    "artworkUrl": "https://coverartarchive.org/release-group/05e6b686-b590-472a-9924-e623b223cb6d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/05e6b686-b590-472a-9924-e623b223cb6d",
+    "releaseGroupId": "05e6b686-b590-472a-9924-e623b223cb6d",
+    "recordingId": "5f2a2848-ff23-4628-bef1-ebe92173311d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sweet CreatureHarry Styles",
+      "song": "Sweet Creature",
+      "performer": "Harry Styles",
+      "peakPosition": 93,
+      "firstChartDate": "2017-05-20",
+      "lastChartDate": "2017-05-20",
+      "appearances": [
+        {
+          "chartDate": "2017-05-20",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "intimate wet skin portraiture wet skin water droplets overhead angle back portrait soft pink lighting damp hair tattoos silver necklace grainy film texture water droplets contrasting against smooth skin texture dark wet hair strands against a soft pink background thin silver necklace following the curve of the neck high angle perspective looking down onto the shoulders intimate subject wet skin texture color ambient lighting high angle film grain",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Intimate Wet Skin Portraiture",
+      "category": "Photography",
+      "medium": [
+        "Color Photography",
+        "Analog Film Style"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Editorial Fashion Photography",
+        "Skin Care Advertising",
+        "Moodboard for Intimate Lighting"
+      ],
+      "retrievalTags": [
+        "wet skin",
+        "water droplets",
+        "overhead angle",
+        "back portrait",
+        "soft pink lighting",
+        "damp hair",
+        "tattoos",
+        "silver necklace",
+        "grainy film texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Produces high-angle, intimate portraits of wet skin with soft pinkish lighting and visible water droplets, emphasizing texture and vulnerability.",
+      "triggerTerms": [
+        "wet skin texture with water droplets",
+        "overhead back portrait of a man in water",
+        "soft pink ambient lighting photography",
+        "damp dark hair texture"
+      ],
+      "excludeWhen": [
+        "dry skin is requested",
+        "bright daylight or harsh shadows are needed",
+        "full face portraits are the primary focus"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up, high-angle shot focusing on the back and shoulders of a person with wet skin covered in distinct water droplets. The lighting is soft and warm with a pinkish hue, creating a moody, intimate atmosphere. The subject has dark, damp hair and visible fine-line tattoos, wearing a delicate silver chain necklace. The overall aesthetic is grainy and film-like.",
+    "coreVisualRelationships": [
+      "Water droplets contrasting against smooth skin texture",
+      "Dark, wet hair strands against a soft pink background",
+      "Thin silver necklace following the curve of the neck",
+      "High-angle perspective looking down onto the shoulders"
+    ],
+    "coreInvariants": [
+      "Visible water droplets on skin",
+      "Soft, diffused pinkish-tan color palette",
+      "High-angle, slightly tilted composition",
+      "Film grain texture"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject's back and shoulder occupy the majority of the frame, positioned diagonally from the top right to the bottom left.",
+      "visualAnchor": "The curve of the neck and the silver necklace pendant serve as the central focal point.",
+      "movementAndEyePath": "The eye follows the dark hair at the top left, down the curve of the neck, and across the expanse of the wet shoulder.",
+      "negativeSpace": "Minimal negative space, primarily the soft pink water/background in the corners."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm skin tones (tan/beige) acting as the primary surface.",
+      "contrastColorRole": "Deep black for the wet hair and fine-line tattoos.",
+      "accentColorRole": "Soft pastel pink for the surrounding water and ambient light.",
+      "saturationAndValueRelationship": "Low saturation with mid-tone values, avoiding harsh whites or deep shadows to maintain a soft, intimate feel.",
+      "paletteRestrictions": [
+        "No neon colors",
+        "No high-contrast primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "All-caps presentation",
+        "Thin to medium weight",
+        "High legibility at small scales"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "metadata",
+          "hierarchyLevel": 1,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "None",
+            "density": "Compact"
+          },
+          "composition": {
+            "position": "Bottom right corner",
+            "scale": "Very small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Overlay on background"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "None",
+            "texture": "None",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used for branding/metadata only.",
+      "graphicDevices": [
+        "Small square border around metadata text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase styling",
+          "Small scale",
+          "Corner placement"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Large display type"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Neue Bold",
+            "reason": "Clean, professional, and legible at small sizes.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic",
+            "reason": "Provides a slightly more industrial, classic feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-angle photograph of a person's wet back and shoulders. The skin should be covered in clear water droplets. The hair should be dark and damp, clinging to the neck. The lighting must be a soft, diffused pinkish-tan. Include a thin silver necklace. Apply a subtle film grain.",
+        "overlayInstruction": "Add a small, white, all-caps sans-serif label inside a thin white square border in the bottom right corner."
+      },
+      "verificationChecks": [
+        "Are the water droplets clearly visible and sharp?",
+        "Is the lighting soft and pink-toned without being overly saturated?",
+        "Is the perspective a high-angle looking down?",
+        "Is the film grain present but not distracting?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of water droplets",
+      "Intensity of the pink hue",
+      "Amount of film grain",
+      "Visibility of tattoos"
+    ],
+    "mustRedesign": [
+      "Specific brand logos",
+      "Specific tattoo designs",
+      "Exact jewelry pendant details"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Tactile skin texture",
+        "Atmospheric, moody lighting",
+        "Sense of intimacy"
+      ],
+      "avoid": [
+        "Plastic-looking skin",
+        "Overly bright or clinical lighting",
+        "Digital sharpness that removes film feel"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for realistic water droplet physics on skin",
+      "Ensure the hair looks wet rather than just greasy",
+      "Verify the pink light feels like an environmental glow",
+      "Confirm the composition feels intimate and close-up"
+    ],
+    "reuseFormula": "Intimate [Subject] + Wet Skin Texture + [Color] Ambient Lighting + High Angle + Film Grain"
+  }
+}

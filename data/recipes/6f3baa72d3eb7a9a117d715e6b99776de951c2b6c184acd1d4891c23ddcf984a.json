@@ -1,0 +1,247 @@
+{
+  "id": "6f3baa72d3eb7a9a117d715e6b99776de951c2b6c184acd1d4891c23ddcf984a",
+  "skillId": "6f3baa72d3eb7a9a117d715e6b99776de951c2b6c184acd1d4891c23ddcf984a",
+  "versionId": "6f3baa72d3eb7a9a117d715e6b99776de951c2b6c184acd1d4891c23ddcf984a",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T23:06:30.588Z",
+  "approvedAt": "2026-08-12T23:06:30.588Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T23:06:30.588Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Breezy.jpg",
+    "hash": "6f3baa72d3eb7a9a117d715e6b99776de951c2b6c184acd1d4891c23ddcf984a",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Breezy",
+    "artist": "Chris Brown",
+    "artworkUrl": "https://coverartarchive.org/release-group/e8e16e24-ad62-4347-8979-a05e5c07670e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e8e16e24-ad62-4347-8979-a05e5c07670e",
+    "releaseGroupId": "e8e16e24-ad62-4347-8979-a05e5c07670e",
+    "recordingId": "41e4d8e7-34ee-4249-9750-f74dbe2bde9a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "WE (Warm Embrace)Chris Brown",
+      "song": "WE (Warm Embrace)",
+      "performer": "Chris Brown",
+      "peakPosition": 79,
+      "firstChartDate": "2022-07-09",
+      "lastChartDate": "2022-07-09",
+      "appearances": [
+        {
+          "chartDate": "2022-07-09",
+          "position": 79
+        }
+      ]
+    }
+  },
+  "dedupeText": "textured hair art portrait hair tattoo shaved lettering back of head monochrome textured hair urban style neck tattoos textured hair waves at the top contrasting with the sharp shaved band dark hair sculpted letters against a pale shaved scalp background symmetrical composition framed by the ears organic neck tattoos grounding the geometric hair design monochrome back of head portrait hair texture type shaved band sculpted hair lettering style neck accessories tattoos",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Textured Hair Art Portrait",
+      "category": "Photography",
+      "medium": [
+        "Black and White Photography",
+        "Hair Sculpting",
+        "Portraiture"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Barber Portfolio",
+        "Urban Fashion Editorial",
+        "Conceptual Identity Art"
+      ],
+      "retrievalTags": [
+        "hair tattoo",
+        "shaved lettering",
+        "back of head",
+        "monochrome",
+        "textured hair",
+        "urban style",
+        "neck tattoos"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast monochrome portrait focusing on the back of a head featuring intricate lettering sculpted directly into the hair texture.",
+      "triggerTerms": [
+        "shaved hair lettering",
+        "hair art portrait back view",
+        "monochrome textured hair sculpture"
+      ],
+      "excludeWhen": [
+        "face is visible",
+        "color photography is required",
+        "traditional typography on a flat background"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, close-up black and white photograph of the back of a person's head. The subject has short, wavy, light-colored hair with a horizontal band shaved into the middle to reveal darker, textured lettering formed by the remaining hair. The neck features faded tattoos and a thin silver chain.",
+    "coreVisualRelationships": [
+      "Textured hair waves at the top contrasting with the sharp shaved band",
+      "Dark hair-sculpted letters against a pale, shaved scalp background",
+      "Symmetrical composition framed by the ears",
+      "Organic neck tattoos grounding the geometric hair design"
+    ],
+    "coreInvariants": [
+      "Monochrome grayscale palette",
+      "Back-of-head perspective only",
+      "Hair-based typography (not digital overlay)",
+      "High-key lighting with soft shadows"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Centered, filling approximately 80% of the vertical frame.",
+      "visualAnchor": "The dark, sculpted lettering in the center of the head.",
+      "movementAndEyePath": "Starts at the wavy hair on top, moves down to the sharp lettering, then follows the neck tattoos to the chain.",
+      "negativeSpace": "Clean, light gray neutral background surrounding the head."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Mid-tone grays in the hair texture",
+      "contrastColorRole": "Deep blacks in the lettering and tattoos",
+      "accentColorRole": "Bright white highlights in the hair waves",
+      "saturationAndValueRelationship": "Zero saturation; high value contrast between shaved skin and dark hair.",
+      "paletteRestrictions": [
+        "Strictly grayscale"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "illustrated-type",
+      "baseSkeleton": "Blackletter or Gothic-inspired heavy capitals",
+      "letterConstructionRules": [
+        "Letters are formed by leaving patches of hair while shaving the surrounding area",
+        "Vertical strokes are thick and textured",
+        "Terminals are pointed and flame-like",
+        "The baseline and x-height are constrained within a straight horizontal band"
+      ],
+      "characterSpecificRedesigns": [
+        "Glyphs must appear three-dimensional due to hair depth",
+        "Edges are slightly soft due to hair follicles"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "custom-hair-sculpture",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Ultra-bold",
+            "contrast": "High",
+            "xHeight": "Full height of the shaved band",
+            "terminals": "Sharp, angular",
+            "corners": "Aggressive, gothic",
+            "counters": "Narrow",
+            "strokeCharacter": "Fibrous and organic"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Center of the cranium",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "Conforms to the curvature of the head",
+            "overlap": "None",
+            "relationshipToImage": "Integrated into the subject's physical form"
+          },
+          "treatment": {
+            "fill": "Natural hair texture",
+            "outline": "Shaved skin",
+            "shadow": "Natural depth from hair height",
+            "depth": "Physical 3D relief",
+            "texture": "Coarse hair",
+            "distortion": "Anamorphic wrap around the skull"
+          }
+        }
+      ],
+      "pairingStrategy": "N/A - Single integrated element",
+      "graphicDevices": [
+        "Shaved horizontal band",
+        "Neck tattoos",
+        "Jewelry chain"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "The 'hair-sculpted' look",
+          "The horizontal band layout",
+          "The blackletter influence"
+        ],
+        "avoid": [
+          "Clean digital fonts",
+          "Smooth vector edges",
+          "Sans-serif styles"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Gothic Blackletter",
+            "reason": "Matches the aggressive, pointed terminals and heavy weight of the hair art.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Chicano Style Script",
+            "reason": "Aligns with the urban tattoo aesthetic present on the neck.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-detail monochrome photo of the back of a head with light-colored wavy hair and a horizontal band shaved across the middle. Include neck tattoos and a silver chain.",
+        "overlayInstruction": "Using a custom brush that mimics hair texture, paint gothic-style lettering into the shaved band, ensuring the letters look like they are made of short, dark hair growing from the scalp."
+      },
+      "verificationChecks": [
+        "Does the text look like it is made of hair?",
+        "Is the image strictly black and white?",
+        "Is the composition centered on the back of the head?",
+        "Are the ears visible on the sides?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Hair wave intensity",
+      "Lettering style (Gothic vs. Block)",
+      "Neck tattoo density",
+      "Lighting contrast"
+    ],
+    "mustRedesign": [
+      "Any recognizable brand logos",
+      "Specific facial features",
+      "Identifiable celebrity likeness"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Realistic hair texture",
+        "Consistent monochrome grading",
+        "Sharp focus on the lettering area"
+      ],
+      "avoid": [
+        "Blurry hair details",
+        "Flat, 2D-looking text",
+        "Artificial-looking skin gradients"
+      ]
+    },
+    "postGenerationChecks": [
+      "Confirm the text follows the curve of the skull",
+      "Check that the shaved band has a realistic 'stubble' texture",
+      "Ensure the lighting highlights the waves in the top hair",
+      "Verify the neck tattoos look faded and integrated into the skin"
+    ],
+    "reuseFormula": "Monochrome back-of-head portrait + [hair texture type] + [shaved band] + [sculpted hair lettering style] + [neck accessories/tattoos]"
+  }
+}

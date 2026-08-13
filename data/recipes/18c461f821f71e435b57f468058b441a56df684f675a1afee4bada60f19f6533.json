@@ -1,0 +1,270 @@
+{
+  "id": "18c461f821f71e435b57f468058b441a56df684f675a1afee4bada60f19f6533",
+  "skillId": "18c461f821f71e435b57f468058b441a56df684f675a1afee4bada60f19f6533",
+  "versionId": "18c461f821f71e435b57f468058b441a56df684f675a1afee4bada60f19f6533",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:10:46.288Z",
+  "approvedAt": "2026-08-12T19:10:46.288Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:10:46.288Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "David Foster.jpg",
+    "hash": "18c461f821f71e435b57f468058b441a56df684f675a1afee4bada60f19f6533",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "David Foster",
+    "artist": "David Foster And Olivia Newton-John",
+    "artworkUrl": "https://coverartarchive.org/release-group/b653ceb2-f20b-3073-b9ad-eaa97cac35e0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/b653ceb2-f20b-3073-b9ad-eaa97cac35e0",
+    "releaseGroupId": "b653ceb2-f20b-3073-b9ad-eaa97cac35e0",
+    "recordingId": "3add9fa6-1d6b-4c36-8aef-23f997ba6678",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Best Of MeDavid Foster And Olivia Newton-John",
+      "song": "The Best Of Me",
+      "performer": "David Foster And Olivia Newton-John",
+      "peakPosition": 80,
+      "firstChartDate": "1986-06-14",
+      "lastChartDate": "1986-08-02",
+      "appearances": [
+        {
+          "chartDate": "1986-06-14",
+          "position": 89
+        },
+        {
+          "chartDate": "1986-06-21",
+          "position": 87
+        },
+        {
+          "chartDate": "1986-06-28",
+          "position": 83
+        },
+        {
+          "chartDate": "1986-07-05",
+          "position": 80
+        },
+        {
+          "chartDate": "1986-07-12",
+          "position": 88
+        },
+        {
+          "chartDate": "1986-07-19",
+          "position": 92
+        },
+        {
+          "chartDate": "1986-07-26",
+          "position": 94
+        },
+        {
+          "chartDate": "1986-08-02",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "eighties soft rock album aesthetic 1980s soft focus urban sunset high contrast serif male portrait overcoat grainy film subject gaze directed away from the camera toward the light source tight cropping on the head and shoulders typography anchored to the top right corner overlapping the hair contrast between the dark silhouette of the coat and the pale sky portrait of subject in dark clothing twilight urban background soft focus film grain top right stacked bold serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Eighties Soft Rock Album Aesthetic",
+      "category": "Music Photography",
+      "medium": [
+        "35mm film photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album cover art",
+        "Artist promotional posters",
+        "Retro magazine editorial",
+        "Nostalgic portraiture"
+      ],
+      "retrievalTags": [
+        "1980s",
+        "soft focus",
+        "urban sunset",
+        "high-contrast serif",
+        "male portrait",
+        "overcoat",
+        "grainy film"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A moody, soft-focus male portrait set against a twilight sky with bold, high-contrast serif typography tucked into the upper corner.",
+      "triggerTerms": [
+        "80s adult contemporary album style",
+        "soft focus sunset portrait",
+        "bold white serif corner text"
+      ],
+      "excludeWhen": [
+        "modern minimalist photography",
+        "bright daylight settings",
+        "sans-serif typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up portrait of a man with textured hair and stubble, wearing a dark coat, positioned against a soft-focus background of a brick wall and a gradient twilight sky. The lighting is warm and directional, creating a cinematic, nostalgic mood typical of 1980s pop-rock media.",
+    "coreVisualRelationships": [
+      "Subject gaze directed away from the camera toward the light source",
+      "Tight cropping on the head and shoulders",
+      "Typography anchored to the top right corner, overlapping the hair",
+      "Contrast between the dark silhouette of the coat and the pale sky"
+    ],
+    "coreInvariants": [
+      "Soft-focus film grain texture",
+      "Warm skin tones against cool blue and pink sky gradients",
+      "High-contrast, thick-and-thin serif typeface"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the left and center-left of the frame at a medium-close-up scale.",
+      "visualAnchor": "The subject's eyes and the bright white typography in the upper right.",
+      "movementAndEyePath": "The eye starts at the subject's face, follows his gaze upward, and lands on the bold text in the corner.",
+      "negativeSpace": "The sky on the right provides breathing room for the heavy typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep browns and blacks in the clothing and hair.",
+      "contrastColorRole": "Pale blue and soft lavender-pink in the twilight sky.",
+      "accentColorRole": "Pure white for the display typography.",
+      "saturationAndValueRelationship": "Low saturation in the background with high value contrast between the dark subject and the light sky.",
+      "paletteRestrictions": [
+        "No neon colors",
+        "No harsh primary colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Modern Serif / Didone",
+      "letterConstructionRules": [
+        "Extremely high stroke contrast",
+        "Vertical stress",
+        "Hairline serifs",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are tightly packed to create a solid block of text"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Didone Serif",
+          "anatomy": {
+            "width": "compressed",
+            "weight": "bold",
+            "contrast": "extreme",
+            "xHeight": "high",
+            "terminals": "ball or teardrop",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "thick vertical stems with hairline horizontals"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked words",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top right corner",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "partially overlaps subject's hair",
+            "relationshipToImage": "integrated foreground element"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single-family bold weights for maximum impact.",
+      "graphicDevices": [
+        "Corner-weighted layout"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High contrast",
+          "All-caps",
+          "Tight tracking"
+        ],
+        "avoid": [
+          "Sans-serif",
+          "Script fonts",
+          "Centered text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni Poster",
+            "reason": "Matches the extreme contrast and verticality of the era's design.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Didot Bold",
+            "reason": "Provides the elegant, high-fashion look typical of 80s pop covers.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus 35mm film portrait of a man with textured hair and a dark overcoat, looking upward at a twilight sky with a brick wall on the far left edge.",
+        "overlayInstruction": "Add bold, white, all-caps Didone serif text in the top right corner, stacked and tightly spaced."
+      },
+      "verificationChecks": [
+        "Is the text in the top right corner?",
+        "Is the font a high-contrast serif?",
+        "Is there a visible film grain texture?",
+        "Is the background a soft twilight gradient?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Sky color (from sunset orange to twilight blue)",
+      "Subject's coat color",
+      "Text alignment (flush right vs flush left)"
+    ],
+    "mustRedesign": [
+      "Do not use modern digital sharpness; maintain soft-focus film look.",
+      "Do not use sans-serif fonts."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, diffused lighting on the face",
+        "Visible film grain",
+        "Tight, blocky typographic composition"
+      ],
+      "avoid": [
+        "Over-sharpening",
+        "Flat lighting",
+        "Loose letter spacing"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast serif typography",
+      "Verify the subject is looking away from the camera",
+      "Ensure the sky has a soft gradient",
+      "Confirm the text overlaps the hair slightly",
+      "Check for 1980s film aesthetic"
+    ],
+    "reuseFormula": "Portrait of [Subject] in [Dark Clothing] + [Twilight/Urban Background] + [Soft Focus/Film Grain] + [Top-Right Stacked Bold Serif Typography]"
+  }
+}

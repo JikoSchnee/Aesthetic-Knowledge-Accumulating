@@ -1,0 +1,313 @@
+{
+  "id": "5154033a2bb23d6059d2b51268f033cc5b72aa0d8706fef8b808165e9f77a963",
+  "skillId": "5154033a2bb23d6059d2b51268f033cc5b72aa0d8706fef8b808165e9f77a963",
+  "versionId": "5154033a2bb23d6059d2b51268f033cc5b72aa0d8706fef8b808165e9f77a963",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:00:52.646Z",
+  "approvedAt": "2026-08-12T06:00:52.646Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:00:52.646Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Last Night!.jpg",
+    "hash": "5154033a2bb23d6059d2b51268f033cc5b72aa0d8706fef8b808165e9f77a963",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Last Night!",
+    "artist": "Mar-Keys",
+    "artworkUrl": "https://coverartarchive.org/release-group/46d2f197-ed1c-37eb-92f8-fbc51b3d5f7c/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/46d2f197-ed1c-37eb-92f8-fbc51b3d5f7c",
+    "releaseGroupId": "46d2f197-ed1c-37eb-92f8-fbc51b3d5f7c",
+    "recordingId": "5c051630-0911-40b2-9b5e-0b4e6f83345b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Morning AfterMar-Keys",
+      "song": "Morning After",
+      "performer": "Mar-Keys",
+      "peakPosition": 60,
+      "firstChartDate": "1961-10-07",
+      "lastChartDate": "1961-11-11",
+      "appearances": [
+        {
+          "chartDate": "1961-10-07",
+          "position": 74
+        },
+        {
+          "chartDate": "1961-10-14",
+          "position": 63
+        },
+        {
+          "chartDate": "1961-10-21",
+          "position": 70
+        },
+        {
+          "chartDate": "1961-10-28",
+          "position": 68
+        },
+        {
+          "chartDate": "1961-11-04",
+          "position": 60
+        },
+        {
+          "chartDate": "1961-11-11",
+          "position": 61
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century abstract jazz collage cover mid century modern abstract collage stencil typography primary color palette 1960s album art geometric abstraction matisse inspired cutouts horizontal typographic bands stacked above a square graphic field organic hand cut shapes contrasting with rigid geometric text blocks primary color blocks red blue yellow creating high energy visual rhythm heavy white border providing a clean frame for the dense internal composition combine extended slab serif header blue stencil band matisse style abstract collage white border frame",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Abstract Jazz Collage Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Screenprint",
+        "Paper Cut-out",
+        "Offset Lithography"
+      ],
+      "useCases": [
+        "Vinyl record sleeve design",
+        "Retro jazz festival posters",
+        "1960s soul music branding",
+        "Abstract geometric editorial layouts"
+      ],
+      "retrievalTags": [
+        "mid-century modern",
+        "abstract collage",
+        "stencil typography",
+        "primary color palette",
+        "1960s album art",
+        "geometric abstraction",
+        "Matisse-inspired cutouts"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A 1960s-style graphic layout featuring a central square of organic, Matisse-like paper cutouts topped by bold horizontal bands of stencil and extended typography.",
+      "triggerTerms": [
+        "mid-century jazz album cover style",
+        "abstract paper cutout collage",
+        "stencil display typography with blue header",
+        "1960s soul record aesthetic"
+      ],
+      "excludeWhen": [
+        "photorealistic imagery is required",
+        "modern minimalist digital gradients are requested",
+        "delicate script or serif body text is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition framed by a wide white border, containing a central grid of three horizontal zones: a top red extended title, a middle blue band with white stencil lettering, and a large bottom square filled with organic, multi-colored abstract shapes on a yellow ground.",
+    "coreVisualRelationships": [
+      "Horizontal typographic bands stacked above a square graphic field",
+      "Organic, hand-cut shapes contrasting with rigid geometric text blocks",
+      "Primary color blocks (red, blue, yellow) creating high-energy visual rhythm",
+      "Heavy white border providing a clean frame for the dense internal composition"
+    ],
+    "coreInvariants": [
+      "Central square graphic field containing abstract organic shapes",
+      "Top-heavy typographic hierarchy with distinct color-coded bands",
+      "Flat, unshaded color application across all elements"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The abstract collage occupies the lower 60% of the central square, while typography dominates the upper 40%.",
+      "visualAnchor": "The bright blue horizontal band containing the primary display text.",
+      "movementAndEyePath": "Top-down flow from the red title to the blue band, settling into the complex rhythmic patterns of the abstract collage.",
+      "negativeSpace": "Substantial white outer margin framing the entire square composition."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Yellow (background of the collage field)",
+      "contrastColorRole": "Blue and Red (header bands)",
+      "accentColorRole": "Green and Black (collage elements)",
+      "saturationAndValueRelationship": "High saturation primary colors with high value contrast against white and black.",
+      "paletteRestrictions": [
+        "Pure Red",
+        "Cobalt Blue",
+        "Golden Yellow",
+        "Emerald Green",
+        "Solid Black",
+        "Paper White"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Heavy slab serifs and condensed stencils",
+      "letterConstructionRules": [
+        "Top line: Ultra-extended, heavy slab serif with minimal counters",
+        "Middle line: Condensed stencil-style display face with vertical breaks",
+        "Bottom line: Small, monospaced sans-serif for metadata"
+      ],
+      "characterSpecificRedesigns": [
+        "Stencil gaps in the middle display text are placed at the top and bottom of vertical strokes",
+        "Integration of a circular graphic swirl within the middle text line"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "stencil-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "narrow",
+            "strokeCharacter": "stencil-cut"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "middle-header",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "contained-in-band",
+            "relationshipToImage": "overlay-on-blue"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "extended-slab-serif",
+          "anatomy": {
+            "width": "ultra-extended",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "low",
+            "terminals": "blocky",
+            "corners": "sharp",
+            "counters": "minimal",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "justified",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "solid"
+          },
+          "composition": {
+            "position": "top-header",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "above-blue-band"
+          },
+          "treatment": {
+            "fill": "red",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between ultra-wide slab serifs and ultra-narrow stencil serifs.",
+      "graphicDevices": [
+        "Solid color horizontal bands",
+        "Circular swirl icon",
+        "Organic paper-cut shapes"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Stencil gaps",
+          "Extended width of the top line",
+          "Primary color blocking"
+        ],
+        "avoid": [
+          "Modern digital sans-serifs",
+          "Gradient fills",
+          "Rounded corners on text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Stainer Stencil",
+            "reason": "Matches the high-contrast stencil look of the main title",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Extended Slab Serif (e.g., Microgramma or Eurostile Bold Extended)",
+            "reason": "Captures the wide, heavy feel of the top line",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Create a square composition with a wide white border. Inside, place a red horizontal line of text at the top, a solid blue band below it, and a large yellow square at the bottom filled with abstract, organic paper-cut shapes in red, green, and black. Add a thin black bar at the very bottom.",
+        "overlayInstruction": "Add white stencil-style display text centered within the blue band. Add small white monospaced metadata text within the bottom black bar."
+      },
+      "verificationChecks": [
+        "Is the top text line ultra-extended and red?",
+        "Does the blue band contain white stencil-style lettering?",
+        "Are the collage shapes organic and flat-colored?",
+        "Is there a wide white margin around the central square?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Collage shape density",
+      "Width of the blue header band",
+      "Color of the abstract shapes",
+      "Thickness of the outer white border"
+    ],
+    "mustRedesign": [
+      "Specific artist names and logos",
+      "Exact arrangement of the abstract shapes",
+      "Specific catalog numbers"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Flat, screen-printed texture",
+        "High-contrast primary color palette",
+        "Mid-century geometric balance"
+      ],
+      "avoid": [
+        "Drop shadows",
+        "Bevels",
+        "Photographic textures",
+        "Soft edges"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the stencil gaps in the typography are visible.",
+      "Verify the red text is significantly wider than it is tall.",
+      "Check that the collage shapes do not overlap in a way that creates new colors.",
+      "Confirm the overall layout maintains a square aspect ratio within the white frame."
+    ],
+    "reuseFormula": "Combine [Extended Slab Serif Header] + [Blue Stencil Band] + [Matisse-style Abstract Collage] + [White Border Frame]"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:15.676Z"
+}

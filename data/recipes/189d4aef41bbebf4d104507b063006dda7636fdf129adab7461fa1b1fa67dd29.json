@@ -1,0 +1,285 @@
+{
+  "id": "189d4aef41bbebf4d104507b063006dda7636fdf129adab7461fa1b1fa67dd29",
+  "skillId": "189d4aef41bbebf4d104507b063006dda7636fdf129adab7461fa1b1fa67dd29",
+  "versionId": "189d4aef41bbebf4d104507b063006dda7636fdf129adab7461fa1b1fa67dd29",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T15:13:10.765Z",
+  "approvedAt": "2026-08-12T15:13:10.765Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T15:13:10.765Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Burlesque: Original Motion Picture Soundtrack.jpg",
+    "hash": "189d4aef41bbebf4d104507b063006dda7636fdf129adab7461fa1b1fa67dd29",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Burlesque: Original Motion Picture Soundtrack",
+    "artist": "Christina Aguilera",
+    "artworkUrl": "https://coverartarchive.org/release-group/d88541ca-d956-41bd-86b8-2919048577b4/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d88541ca-d956-41bd-86b8-2919048577b4",
+    "releaseGroupId": "d88541ca-d956-41bd-86b8-2919048577b4",
+    "recordingId": "1dcd64ba-69f1-4060-9db0-8567a4730c4d",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Show Me How You BurlesqueChristina Aguilera",
+      "song": "Show Me How You Burlesque",
+      "performer": "Christina Aguilera",
+      "peakPosition": 70,
+      "firstChartDate": "2010-12-11",
+      "lastChartDate": "2010-12-11",
+      "appearances": [
+        {
+          "chartDate": "2010-12-11",
+          "position": 70
+        }
+      ]
+    }
+  },
+  "dedupeText": "glamour marquee dual portrait marquee lights dual portrait high contrast magenta accents theatrical glamour split composition vertical marquee text acting as a central axis and divider chiaroscuro contrast between the left dark and right light halves color harmony between magenta lips and magenta tinted light bulbs symmetrical eye level placement of the two subjects dual portrait vertical marquee divider magenta accent high contrast split",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Glamour Marquee Dual Portrait",
+      "category": "Entertainment Media",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design",
+        "Photo Manipulation"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Theatrical Posters",
+        "Fashion Editorial Layouts"
+      ],
+      "retrievalTags": [
+        "marquee lights",
+        "dual portrait",
+        "high contrast",
+        "magenta accents",
+        "theatrical glamour",
+        "split composition"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast dual portrait featuring a vertical marquee-style title separating two faces with distinct light and dark backgrounds.",
+      "triggerTerms": [
+        "marquee light typography",
+        "split black and white portrait",
+        "vertical title divider",
+        "theatrical glamour aesthetic"
+      ],
+      "excludeWhen": [
+        "naturalistic lighting is required",
+        "landscape orientation is mandatory",
+        "minimalist typography is requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A vertical composition featuring two female faces in close-up, divided by a central vertical column of marquee-bulb lettering. The left side is dominated by deep black shadows and dark hair, while the right side transitions into a high-key white background with blonde hair. Vibrant magenta is used exclusively for the lips and the glow of the marquee letters.",
+    "coreVisualRelationships": [
+      "Vertical marquee text acting as a central axis and divider",
+      "Chiaroscuro contrast between the left (dark) and right (light) halves",
+      "Color harmony between magenta lips and magenta-tinted light bulbs",
+      "Symmetrical eye-level placement of the two subjects"
+    ],
+    "coreInvariants": [
+      "Vertical orientation of the primary title",
+      "High-contrast skin tones against monochromatic backgrounds",
+      "Magenta as the sole chromatic accent color"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two large-scale faces flanking the center, cropped at the forehead and neck.",
+      "visualAnchor": "The vertical marquee title in the center of the frame.",
+      "movementAndEyePath": "Eyes move from the central glowing text outward to the subjects' eyes, then down to the matching magenta lips.",
+      "negativeSpace": "Deep black on the left and stark white on the right create a balanced void."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black and White (Backgrounds and Skin)",
+      "contrastColorRole": "Magenta (Lips and Typography)",
+      "accentColorRole": "Warm White (Marquee Bulbs)",
+      "saturationAndValueRelationship": "Extreme value contrast (0% to 100% brightness) with high-saturation magenta accents.",
+      "paletteRestrictions": [
+        "No blues or greens",
+        "No earth tones",
+        "Strictly grayscale with magenta"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "illustrated-type",
+      "baseSkeleton": "Heavy Sans-Serif",
+      "letterConstructionRules": [
+        "Vertical stacking of individual glyphs",
+        "Internal fill composed of circular light bulb patterns",
+        "Outer glow effect in magenta",
+        "Blocky, geometric proportions"
+      ],
+      "characterSpecificRedesigns": [
+        "Letters are treated as physical 3D marquee signs with depth"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab-Serif/Block",
+          "anatomy": {
+            "width": "Wide",
+            "weight": "Extra Bold",
+            "contrast": "Low",
+            "xHeight": "N/A (All Caps)",
+            "terminals": "Blunt",
+            "corners": "Rounded",
+            "counters": "Small",
+            "strokeCharacter": "Uniform"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered Vertical",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "One letter per line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Center Vertical Axis",
+            "scale": "Large",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Slightly over subjects",
+            "relationshipToImage": "Divider"
+          },
+          "treatment": {
+            "fill": "Bulb Pattern",
+            "outline": "Magenta Glow",
+            "shadow": "Soft Drop Shadow",
+            "depth": "Beveled",
+            "texture": "Light Bloom",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Sans-Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monoline"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified",
+            "tracking": "Wide",
+            "leading": "Normal",
+            "lineBreakPattern": "Single Line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Top Edge",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Header"
+          },
+          "treatment": {
+            "fill": "Magenta",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy decorative vertical title paired with a wide-tracked, clean sans-serif header.",
+      "graphicDevices": [
+        "Light bloom/glow",
+        "Vertical text alignment",
+        "Split-screen background"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical stacking",
+          "Marquee bulb texture",
+          "Magenta glow"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Horizontal main titles",
+          "Multi-color gradients"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Champion Gothic",
+            "reason": "Strong vertical presence and blocky structure for the base skeleton.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Budmo",
+            "reason": "Inherent marquee bulb aesthetic.",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a dual portrait of two women's faces. The left side should have a black background and dark hair; the right side should have a white background and blonde hair. Both should have vibrant magenta lipstick. Leave a clear vertical channel in the center.",
+        "overlayInstruction": "Add a vertical stack of bold, uppercase letters in the center channel. Apply a marquee light bulb texture inside the letters and a magenta outer glow."
+      },
+      "verificationChecks": [
+        "Is the title vertically stacked?",
+        "Are the lips and text the same shade of magenta?",
+        "Is there a clear black-to-white background split?",
+        "Do the letters contain visible light bulb patterns?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the magenta glow",
+      "Density of the marquee bulbs",
+      "Subject hair colors",
+      "Tracking of the top metadata text"
+    ],
+    "mustRedesign": [
+      "Any horizontal orientation of the main title",
+      "Natural lip colors (must be magenta)",
+      "Low-contrast lighting"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp focus on eyes",
+        "Clean separation between light and dark halves",
+        "Luminous quality in the marquee text"
+      ],
+      "avoid": [
+        "Muddy shadows",
+        "Blown-out highlights on skin",
+        "Pixelated glow effects"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for vertical alignment of the central text",
+      "Verify the magenta color match across elements",
+      "Ensure the high-contrast split is maintained",
+      "Confirm the marquee bulbs are distinct and not blurred into a solid fill"
+    ],
+    "reuseFormula": "Dual Portrait + Vertical Marquee Divider + Magenta Accent + High Contrast Split"
+  }
+}

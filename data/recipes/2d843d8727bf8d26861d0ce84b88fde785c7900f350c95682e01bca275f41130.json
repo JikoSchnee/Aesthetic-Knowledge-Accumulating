@@ -1,0 +1,294 @@
+{
+  "id": "2d843d8727bf8d26861d0ce84b88fde785c7900f350c95682e01bca275f41130",
+  "skillId": "2d843d8727bf8d26861d0ce84b88fde785c7900f350c95682e01bca275f41130",
+  "versionId": "2d843d8727bf8d26861d0ce84b88fde785c7900f350c95682e01bca275f41130",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T11:19:32.200Z",
+  "approvedAt": "2026-08-12T11:19:32.200Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T11:19:32.200Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Sweet Pea.jpg",
+    "hash": "2d843d8727bf8d26861d0ce84b88fde785c7900f350c95682e01bca275f41130",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Sweet Pea",
+    "artist": "Tommy Roe",
+    "artworkUrl": "https://coverartarchive.org/release-group/fef35f09-262a-3221-90ad-058206981096/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/fef35f09-262a-3221-90ad-058206981096",
+    "releaseGroupId": "fef35f09-262a-3221-90ad-058206981096",
+    "recordingId": "f1637497-8bdd-406e-b7a2-31a441c4d5da",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Party GirlTommy Roe",
+      "song": "Party Girl",
+      "performer": "Tommy Roe",
+      "peakPosition": 85,
+      "firstChartDate": "1964-12-05",
+      "lastChartDate": "1964-12-19",
+      "appearances": [
+        {
+          "chartDate": "1964-12-05",
+          "position": 87
+        },
+        {
+          "chartDate": "1964-12-12",
+          "position": 87
+        },
+        {
+          "chartDate": "1964-12-19",
+          "position": 85
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century pop record sleeve layout bubblegum pop slab serif magenta header profile portrait split column text distressed texture horizontal division between solid color header and photographic base color contrast between magenta background and cyan white text symmetry in the header text columns separated by a thin vertical line subject profile facing left to create lead in space combine a color header block with heavy slab serif text over a subject profile photograph with blurred background and weathered texture",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Pop Record Sleeve Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Offset Print",
+        "Photography",
+        "Typography"
+      ],
+      "useCases": [
+        "Vintage album cover design",
+        "1960s music marketing",
+        "Retro editorial layouts"
+      ],
+      "retrievalTags": [
+        "bubblegum pop",
+        "slab serif",
+        "magenta header",
+        "profile portrait",
+        "split column text",
+        "distressed texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A two-part vertical composition featuring a saturated magenta header with heavy slab-serif typography over a soft-focus profile portrait.",
+      "triggerTerms": [
+        "1960s pop album cover style",
+        "magenta header with white slab serif text",
+        "profile portrait with outdoor bokeh background",
+        "split column tracklist layout"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "dark moody aesthetics",
+        "sans-serif dominant layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square layout divided into a top third magenta text block and a bottom two-thirds photographic section. The header uses high-contrast, heavy-weight slab serifs in white and cyan, while the photograph features a warm-toned profile of a subject against a blurred natural background.",
+    "coreVisualRelationships": [
+      "Horizontal division between solid color header and photographic base",
+      "Color contrast between magenta background and cyan/white text",
+      "Symmetry in the header text columns separated by a thin vertical line",
+      "Subject profile facing left to create lead-in space"
+    ],
+    "coreInvariants": [
+      "Heavy slab-serif display type in the top header",
+      "Saturated magenta color block for the upper third",
+      "Soft-focus naturalistic background in the lower photographic section"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject in profile, positioned in the lower right quadrant, looking toward the left edge.",
+      "visualAnchor": "The large white slab-serif title text in the upper left.",
+      "movementAndEyePath": "Starts at the bold top-left text, moves across the header to the right, then drops to the subject's face and follows their gaze left.",
+      "negativeSpace": "Significant blurred background space to the left of the subject's profile."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Magenta (Header background)",
+      "contrastColorRole": "White (Primary display text)",
+      "accentColorRole": "Cyan (Secondary text and clothing)",
+      "saturationAndValueRelationship": "High saturation in the header contrasting with muted, warm natural tones in the photograph.",
+      "paletteRestrictions": [
+        "Magenta",
+        "Cyan",
+        "White",
+        "Warm Earth Tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif and bold grotesque",
+      "letterConstructionRules": [
+        "Extremely thick strokes",
+        "Blocky, rectangular serifs",
+        "Tight letter spacing",
+        "All-caps presentation"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear slab"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top left and top right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within color block"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "Grotesque Sans",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "multi-line column",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "center-left and center-right of header",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained within color block"
+          },
+          "treatment": {
+            "fill": "cyan",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy slab serif for titles paired with bold sans-serif for lists, using color to differentiate hierarchy.",
+      "graphicDevices": [
+        "Thin vertical divider line",
+        "Solid color header block",
+        "Distressed paper texture overlay"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif weight",
+          "Magenta/Cyan color contrast",
+          "Two-column header layout"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Thin serifs",
+          "Centered text in the header"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab-serif display style.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Heavy",
+            "reason": "Matches the secondary bold sans-serif lists.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square image with a saturated magenta rectangle covering the top 35%. The bottom 65% should be a warm-toned profile photograph of a person looking left against a blurred green and yellow forest background. Apply a subtle weathered paper texture across the whole image.",
+        "overlayInstruction": "Add two columns of text in the magenta block. Use a heavy white slab-serif for the top titles and a bold cyan sans-serif for the lists below. Separate the columns with a thin cyan vertical line."
+      },
+      "verificationChecks": [
+        "Is the header magenta?",
+        "Is the main title a heavy slab-serif?",
+        "Is the subject in profile in the lower section?",
+        "Are there two distinct columns of text in the header?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Header height percentage",
+      "Magenta hue saturation",
+      "Subject profile direction",
+      "Text column count"
+    ],
+    "mustRedesign": [
+      "Specific artist names and song titles",
+      "Record label logos",
+      "Specific facial features of the subject"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast slab-serif typography",
+        "Clear horizontal division of space",
+        "Vintage print texture"
+      ],
+      "avoid": [
+        "Clean digital gradients",
+        "Modern geometric sans-serifs",
+        "Sharp, high-resolution backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is contained within the magenta block.",
+      "Ensure the slab-serif is sufficiently heavy and blocky.",
+      "Verify the profile portrait has a soft-focus background.",
+      "Confirm the cyan and white color scheme for text."
+    ],
+    "reuseFormula": "Combine a [Color] header block with [Heavy Slab Serif] text over a [Subject] [Profile] photograph with [Blurred Background] and [Weathered Texture]."
+  }
+}

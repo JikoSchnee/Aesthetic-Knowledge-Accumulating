@@ -1,0 +1,252 @@
+{
+  "id": "7ea46db917b7a7d4446a10df8f384c2941a91d0d95fcbaebc910e21707eb2a74",
+  "skillId": "7ea46db917b7a7d4446a10df8f384c2941a91d0d95fcbaebc910e21707eb2a74",
+  "versionId": "7ea46db917b7a7d4446a10df8f384c2941a91d0d95fcbaebc910e21707eb2a74",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T17:37:51.849Z",
+  "approvedAt": "2026-08-12T17:37:51.849Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T17:37:51.849Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Melly vs. Melvin.jpg",
+    "hash": "7ea46db917b7a7d4446a10df8f384c2941a91d0d95fcbaebc910e21707eb2a74",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Melly vs. Melvin",
+    "artist": "YNW Melly",
+    "artworkUrl": "https://coverartarchive.org/release-group/2a43b657-9058-40ca-945e-fcb3fd542b9f/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/2a43b657-9058-40ca-945e-fcb3fd542b9f",
+    "releaseGroupId": "2a43b657-9058-40ca-945e-fcb3fd542b9f",
+    "recordingId": "4c5fb2cd-0970-4f5a-91d7-c513498109ac",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "SuicidalYNW Melly",
+      "song": "Suicidal",
+      "performer": "YNW Melly",
+      "peakPosition": 58,
+      "firstChartDate": "2019-12-07",
+      "lastChartDate": "2019-12-28",
+      "appearances": [
+        {
+          "chartDate": "2019-12-07",
+          "position": 64
+        },
+        {
+          "chartDate": "2019-12-14",
+          "position": 86
+        },
+        {
+          "chartDate": "2019-12-21",
+          "position": 74
+        },
+        {
+          "chartDate": "2019-12-28",
+          "position": 58
+        }
+      ]
+    }
+  },
+  "dedupeText": "duality portrait album cover split face duality extreme close up high contrast portrait hip hop aesthetic macro skin texture symmetrical balance between two contrasting facial expressions macro level skin and hair texture against a clean neutral background centralized typographic anchor point between the two subjects lighting contrast between warm bright and cool shadowed tones macro split portrait geometric extended sans high contrast duality lighting",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Duality Portrait Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Photography",
+        "Digital Compositing"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "split face",
+        "duality",
+        "extreme close-up",
+        "high contrast portrait",
+        "hip hop aesthetic",
+        "macro skin texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, macro-detail split portrait showing two distinct personas of the same subject through lighting and expression.",
+      "triggerTerms": [
+        "split personality portrait",
+        "macro skin texture close-up",
+        "dual persona album cover"
+      ],
+      "excludeWhen": [
+        "full body shots",
+        "soft focus photography",
+        "vibrant multi-color backgrounds"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A symmetrical composition featuring two extreme close-up halves of a face, one smiling with bright lighting and the other somber with moody shadows, separated by a narrow vertical gap containing centered typography.",
+    "coreVisualRelationships": [
+      "Symmetrical balance between two contrasting facial expressions",
+      "Macro-level skin and hair texture against a clean neutral background",
+      "Centralized typographic anchor point between the two subjects",
+      "Lighting contrast between warm/bright and cool/shadowed tones"
+    ],
+    "coreInvariants": [
+      "Extreme close-up cropping that cuts off the outer edges of the heads",
+      "Visible skin pores and fine hair detail",
+      "Neutral, desaturated background color"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two large-scale partial faces flanking the left and right edges, meeting near the center.",
+      "visualAnchor": "The central text block and the eyes of the two subjects.",
+      "movementAndEyePath": "Eyes move from the smiling left eye to the intense right eye, then down to the central text.",
+      "negativeSpace": "A thin vertical strip of light grey space in the center and the top corners."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Desaturated skin tones and neutral grey background.",
+      "contrastColorRole": "Deep blacks in the hair and shadows.",
+      "accentColorRole": "Bright white for teeth and typographic elements.",
+      "saturationAndValueRelationship": "Low saturation with high value contrast to emphasize texture over color.",
+      "paletteRestrictions": [
+        "Monochromatic leaning",
+        "Earth tones",
+        "High-key whites"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Wide, extended proportions",
+        "Uniform stroke weight",
+        "Inverted or mirrored characters to signify duality"
+      ],
+      "characterSpecificRedesigns": [
+        "Inverted 'E' or 'M' to create a mirrored effect",
+        "Sharp, angular terminals"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "extended",
+            "weight": "bold",
+            "contrast": "monolinear",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "center middle",
+            "scale": "small relative to faces",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "subtle drop shadow",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "mirrored glyphs"
+          }
+        }
+      ],
+      "pairingStrategy": "Single family with weight and orientation variations.",
+      "graphicDevices": [
+        "Parental advisory sticker",
+        "Vertical central alignment"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extended width",
+          "Geometric construction"
+        ],
+        "avoid": [
+          "Serifs",
+          "Script fonts",
+          "Condensed widths"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Microgramma",
+            "reason": "Matches the wide, technical, and geometric feel of the display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bank Gothic",
+            "reason": "Provides the necessary squareness and wide stance.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-detail macro photograph of two faces split down the middle. The left face is smiling with visible diamond-encrusted teeth and warm lighting. The right face is serious with dark dreadlocks and cool, shadowed lighting. Place them against a light grey studio background with a narrow gap between them.",
+        "overlayInstruction": "Add a single line of wide, geometric sans-serif text in the center gap. Use white fill. Include a standard black and white parental advisory logo at the bottom center."
+      },
+      "verificationChecks": [
+        "Is the skin texture sharp and visible?",
+        "Are the two faces clearly contrasting in mood?",
+        "Is the text centered in the negative space between the faces?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the lighting contrast",
+      "Width of the central negative space",
+      "Level of skin detail/grain"
+    ],
+    "mustRedesign": [
+      "Specific facial tattoos",
+      "Exact jewelry patterns",
+      "Specific artist likeness"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Macro-level sharpness",
+        "Balanced bilateral symmetry",
+        "Clean typographic integration"
+      ],
+      "avoid": [
+        "Blurry textures",
+        "Cluttered backgrounds",
+        "Low-contrast lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for symmetrical eye placement",
+      "Verify the 'vs' or central connector is smaller than the main names",
+      "Ensure the background is a clean, neutral gradient",
+      "Confirm the hair texture is distinct and high-resolution"
+    ],
+    "reuseFormula": "Macro Split Portrait + Geometric Extended Sans + High Contrast Duality Lighting"
+  }
+}

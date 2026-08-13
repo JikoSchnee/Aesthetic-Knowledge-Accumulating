@@ -1,0 +1,312 @@
+{
+  "id": "fa01e30de8c4a79e22c33d10bf138c9300e0ca8832b5420851f26b8415684bff",
+  "skillId": "fa01e30de8c4a79e22c33d10bf138c9300e0ca8832b5420851f26b8415684bff",
+  "versionId": "fa01e30de8c4a79e22c33d10bf138c9300e0ca8832b5420851f26b8415684bff",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:43:07.172Z",
+  "approvedAt": "2026-08-12T19:43:07.172Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:43:07.172Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "It Must Be Him.jpg",
+    "hash": "fa01e30de8c4a79e22c33d10bf138c9300e0ca8832b5420851f26b8415684bff",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "It Must Be Him",
+    "artist": "Vikki Carr",
+    "artworkUrl": "https://coverartarchive.org/release-group/ae5339ae-54e5-35a0-bcf8-d3a1791e893d/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ae5339ae-54e5-35a0-bcf8-d3a1791e893d",
+    "releaseGroupId": "ae5339ae-54e5-35a0-bcf8-d3a1791e893d",
+    "recordingId": "9b2f3c99-e10e-4f53-819f-3d1562764a8f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The LessonVikki Carr",
+      "song": "The Lesson",
+      "performer": "Vikki Carr",
+      "peakPosition": 34,
+      "firstChartDate": "1967-12-23",
+      "lastChartDate": "1968-02-10",
+      "appearances": [
+        {
+          "chartDate": "1967-12-23",
+          "position": 84
+        },
+        {
+          "chartDate": "1967-12-30",
+          "position": 69
+        },
+        {
+          "chartDate": "1968-01-06",
+          "position": 59
+        },
+        {
+          "chartDate": "1968-01-13",
+          "position": 48
+        },
+        {
+          "chartDate": "1968-01-20",
+          "position": 44
+        },
+        {
+          "chartDate": "1968-01-27",
+          "position": 34
+        },
+        {
+          "chartDate": "1968-02-03",
+          "position": 44
+        },
+        {
+          "chartDate": "1968-02-10",
+          "position": 65
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century geometric portrait layout 1960s geometric pattern op art background sans serif typography asymmetrical layout portrait photography top heavy typographic header vs large scale portrait subject wavy geometric background pattern vs smooth organic facial features warm skin tones vs dark red and black background palette right aligned title block vs left aligned tracklist columns geometric pattern background solid header bar tight sans serif typography warm profile portrait",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Geometric Portrait Layout",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Graphic Design",
+        "Typesetting"
+      ],
+      "useCases": [
+        "Vintage album cover design",
+        "Retro editorial layouts",
+        "Mid-century modern promotional posters"
+      ],
+      "retrievalTags": [
+        "1960s",
+        "geometric pattern",
+        "op-art background",
+        "sans-serif typography",
+        "asymmetrical layout",
+        "portrait photography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A mid-century modern layout featuring a high-contrast portrait against a complex geometric op-art background with a distinct top-aligned information header.",
+      "triggerTerms": [
+        "1960s album cover style",
+        "geometric checkerboard background",
+        "top-aligned sans-serif header",
+        "retro portrait with op-art"
+      ],
+      "excludeWhen": [
+        "minimalist white backgrounds are required",
+        "modern digital gradients are requested",
+        "serif-heavy classical layouts are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition divided into a top information bar and a large lower portrait area. The background is a distorted, wavy red and black checkerboard pattern that creates a sense of depth and movement. A side-profile portrait of a woman is centered, lit with warm tones. The top section contains structured columns of text and a primary title block in the upper right.",
+    "coreVisualRelationships": [
+      "Top-heavy typographic header vs. large-scale portrait subject",
+      "Wavy geometric background pattern vs. smooth organic facial features",
+      "Warm skin tones vs. dark red and black background palette",
+      "Right-aligned title block vs. left-aligned tracklist columns"
+    ],
+    "coreInvariants": [
+      "Distorted geometric checkerboard background pattern",
+      "Horizontal header bar separating text from imagery",
+      "Tight-tracked sans-serif typography"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is a medium-close-up profile portrait, centered horizontally and occupying the bottom two-thirds of the frame.",
+      "visualAnchor": "The primary title block in the upper right corner acts as the entry point for the eye.",
+      "movementAndEyePath": "Eye starts at the top right title, moves left across the tracklist columns, then drops down to the subject's face and follows the curve of the background pattern.",
+      "negativeSpace": "The background pattern functions as active negative space, providing texture without being empty."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep burgundy and black (background pattern)",
+      "contrastColorRole": "White (primary text and highlights)",
+      "accentColorRole": "Golden yellow (title text)",
+      "saturationAndValueRelationship": "Low-key lighting with high contrast between the dark background and the illuminated subject.",
+      "paletteRestrictions": [
+        "Burgundy",
+        "Black",
+        "White",
+        "Golden Yellow"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Circular 'o' and 'c' shapes",
+        "Tight letter spacing (tracking)",
+        "Lowercase emphasis for modern feel"
+      ],
+      "characterSpecificRedesigns": [
+        "Extremely tight kerning where characters nearly touch"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "right",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "high"
+          },
+          "composition": {
+            "position": "upper right",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in header box"
+          },
+          "treatment": {
+            "fill": "solid yellow and white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "straight",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "title-case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "columnar",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "upper center",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "contained in header columns"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in different weights and colors to distinguish hierarchy.",
+      "graphicDevices": [
+        "Thin white vertical and horizontal rules to separate text columns",
+        "Solid black header background"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Lowercase display text",
+          "Tight tracking",
+          "Geometric sans-serif skeleton"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Wide letter spacing"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Bold",
+            "reason": "Matches the mid-century Swiss style and tight kerning capabilities.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic",
+            "reason": "Provides the necessary weight and condensed feel for the body text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square image with a distorted red and black checkerboard pattern that creates a wavy, op-art effect. Place a warm-toned profile portrait of a woman in the center foreground. Leave the top 20% of the image as a solid black horizontal bar.",
+        "overlayInstruction": "Add two columns of white sans-serif text in the center of the black bar. In the right side of the black bar, add a large two-line title in a bold geometric sans-serif, with the top line in yellow and the bottom line in white, both in lowercase with tight tracking."
+      },
+      "verificationChecks": [
+        "Is the background a distorted checkerboard?",
+        "Is the top header bar solid black?",
+        "Is the main title in lowercase sans-serif?",
+        "Are there thin white lines separating the text columns?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background pattern intensity",
+      "Header bar height",
+      "Title text color",
+      "Subject lighting warmth"
+    ],
+    "mustRedesign": [
+      "Avoid using any specific artist names or existing album titles",
+      "Do not replicate the specific record label logo in the top left"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1960s color palette",
+        "Clean, Swiss-style typographic alignment",
+        "Seamless integration of subject and pattern"
+      ],
+      "avoid": [
+        "Modern digital 'glitch' effects",
+        "Default system fonts like Arial",
+        "Overly bright, neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the checkerboard pattern is wavy and not a flat grid",
+      "Ensure the text in the header is perfectly aligned to the grid",
+      "Verify the portrait has a soft, vintage film-like grain",
+      "Confirm the title text is lowercase and tightly tracked"
+    ],
+    "reuseFormula": "Geometric Pattern Background + Solid Header Bar + Tight Sans-Serif Typography + Warm Profile Portrait"
+  }
+}

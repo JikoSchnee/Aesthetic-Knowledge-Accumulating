@@ -1,0 +1,179 @@
+{
+  "id": "744c2de7e8d61ac445fda716112a849d2180928ef8b771768efb99989b40836d",
+  "skillId": "744c2de7e8d61ac445fda716112a849d2180928ef8b771768efb99989b40836d",
+  "versionId": "744c2de7e8d61ac445fda716112a849d2180928ef8b771768efb99989b40836d",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:09:29.060Z",
+  "approvedAt": "2026-08-12T06:09:29.060Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:09:29.060Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "American Heart.jpg",
+    "hash": "744c2de7e8d61ac445fda716112a849d2180928ef8b771768efb99989b40836d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "American Heart",
+    "artist": "Benson Boone",
+    "artworkUrl": "https://coverartarchive.org/release-group/8e25d6da-5fd3-4f30-9735-7ac39ddb9816/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8e25d6da-5fd3-4f30-9735-7ac39ddb9816",
+    "releaseGroupId": "8e25d6da-5fd3-4f30-9735-7ac39ddb9816",
+    "recordingId": "745bc191-03f6-442f-b56a-1df38816aa49",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Mr Electric BlueBenson Boone",
+      "song": "Mr Electric Blue",
+      "performer": "Benson Boone",
+      "peakPosition": 73,
+      "firstChartDate": "2025-07-05",
+      "lastChartDate": "2025-07-05",
+      "appearances": [
+        {
+          "chartDate": "2025-07-05",
+          "position": 73
+        }
+      ]
+    }
+  },
+  "dedupeText": "gritty patriotic portraiture low key lighting gritty texture muscular male torso national flag backdrop sweat and dirt dramatic shadows subject centered against a void like black background flag texture contrasting with wet gritty skin high contrast lighting defining muscular anatomy horizontal arm extension creating a t shape composition cinematic low key portrait subject description flag type gritty skin texture chiaroscuro lighting black background",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Gritty Patriotic Portraiture",
+      "category": "Cinematic Photography",
+      "medium": [
+        "Digital Photography",
+        "Chiaroscuro Lighting"
+      ],
+      "useCases": [
+        "Editorial sports photography",
+        "Cinematic character posters",
+        "Dramatic patriotic imagery"
+      ],
+      "retrievalTags": [
+        "low-key lighting",
+        "gritty texture",
+        "muscular male torso",
+        "national flag backdrop",
+        "sweat and dirt",
+        "dramatic shadows"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Generates high-contrast, low-key portraits of a muscular subject draped in a flag, characterized by heavy chiaroscuro and gritty skin textures.",
+      "triggerTerms": [
+        "gritty cinematic portrait",
+        "chiaroscuro lighting muscular man",
+        "draped in national flag",
+        "sweat and dirt skin texture"
+      ],
+      "excludeWhen": [
+        "brightly lit outdoor scenes",
+        "clean studio photography",
+        "minimalist flat lighting"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A dramatic, low-key portrait of a shirtless, muscular man with curly hair and a mustache, his skin covered in sweat and dark smudges. He is positioned centrally, holding a large, weathered flag behind his shoulders like a cape. The lighting is harsh and directional, creating deep shadows and highlighting the anatomical definition of the torso against a pitch-black background.",
+    "coreVisualRelationships": [
+      "Subject centered against a void-like black background",
+      "Flag texture contrasting with wet, gritty skin",
+      "High-contrast lighting defining muscular anatomy",
+      "Horizontal arm extension creating a T-shape composition"
+    ],
+    "coreInvariants": [
+      "Deep chiaroscuro lighting with near-total black shadows",
+      "Visible skin grit, sweat, and dark smudges",
+      "Flag draped behind the subject's outstretched arms"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central medium shot, torso and head filling the vertical frame.",
+      "visualAnchor": "The illuminated chest and abdominal muscles.",
+      "movementAndEyePath": "Starts at the brightly lit face looking off-camera, moves down the defined torso, and follows the horizontal lines of the flag.",
+      "negativeSpace": "Dominant black negative space surrounding the head and upper shoulders."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks and dark shadows (background and recesses).",
+      "contrastColorRole": "Warm skin tones and off-white flag stripes.",
+      "accentColorRole": "Muted reds and blues from the flag.",
+      "saturationAndValueRelationship": "Low saturation with high value contrast; colors are desaturated and weathered.",
+      "paletteRestrictions": [
+        "No vibrant or neon colors",
+        "Avoid pure white; use cream or off-white for highlights"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "none",
+      "constructionMode": "none",
+      "baseSkeleton": "none",
+      "letterConstructionRules": [],
+      "characterSpecificRedesigns": [],
+      "recommendedProductionMethod": "none",
+      "fontRequired": false,
+      "roles": [],
+      "pairingStrategy": "none",
+      "graphicDevices": [
+        "Heavy vignetting",
+        "Film grain texture"
+      ],
+      "substitutionGuidance": {
+        "preserve": [],
+        "avoid": [],
+        "candidateDirections": []
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast cinematic portrait of a muscular man with curly hair and a mustache, skin covered in sweat and dirt, holding a weathered flag behind him against a black background.",
+        "overlayInstruction": "If adding text, use a bold, distressed serif font in a muted cream color, positioned in the lower third with high tracking."
+      },
+      "verificationChecks": [
+        "Is the background solid black?",
+        "Is the skin texture gritty with visible sweat and dirt?",
+        "Is the lighting high-contrast chiaroscuro?",
+        "Is the flag weathered and desaturated?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of skin grit",
+      "Direction of the primary light source",
+      "Specific nationality of the flag",
+      "Subject's facial expression"
+    ],
+    "mustRedesign": [
+      "Flat lighting",
+      "Clean, unblemished skin",
+      "Bright, saturated flag colors"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Anatomical definition through shadow",
+        "Tactile texture on skin and fabric",
+        "Atmospheric, moody lighting"
+      ],
+      "avoid": [
+        "Plastic-looking skin",
+        "Uniform lighting",
+        "Generic stock photo appearance"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for realistic muscle anatomy under harsh light",
+      "Ensure the flag texture looks like heavy fabric, not digital overlay",
+      "Verify the eyes have a subtle catchlight despite the shadows",
+      "Confirm the background is free of light leaks or artifacts"
+    ],
+    "reuseFormula": "Cinematic low-key portrait + [Subject Description] + [Flag Type] + gritty skin texture + chiaroscuro lighting + black background."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:28.592Z"
+}

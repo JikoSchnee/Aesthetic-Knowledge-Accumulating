@@ -1,0 +1,251 @@
+{
+  "id": "a6d1013aebc547e130486765b8836d51daf10cd4b83efa9f8e151b9a1a4f4e48",
+  "skillId": "a6d1013aebc547e130486765b8836d51daf10cd4b83efa9f8e151b9a1a4f4e48",
+  "versionId": "a6d1013aebc547e130486765b8836d51daf10cd4b83efa9f8e151b9a1a4f4e48",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T11:40:41.735Z",
+  "approvedAt": "2026-08-12T11:40:41.735Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T11:40:41.735Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Cherished.jpg",
+    "hash": "a6d1013aebc547e130486765b8836d51daf10cd4b83efa9f8e151b9a1a4f4e48",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Cherished",
+    "artist": "Cher",
+    "artworkUrl": "https://coverartarchive.org/release-group/195164ee-5f70-4dcf-86fd-5e47bc1a9728/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/195164ee-5f70-4dcf-86fd-5e47bc1a9728",
+    "releaseGroupId": "195164ee-5f70-4dcf-86fd-5e47bc1a9728",
+    "recordingId": "8df837c1-7c90-430d-b8a4-95b69a66759b",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "PirateCher",
+      "song": "Pirate",
+      "performer": "Cher",
+      "peakPosition": 93,
+      "firstChartDate": "1977-01-15",
+      "lastChartDate": "1977-01-22",
+      "appearances": [
+        {
+          "chartDate": "1977-01-15",
+          "position": 96
+        },
+        {
+          "chartDate": "1977-01-22",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro ethereal studio portrait 1970s soft focus dreamy lighting bohemian fashion gradient backdrop stylized typography subject centered with a slight tilt for dynamic balance soft edged silhouette blending into a hazy atmospheric background high contrast texture of fringe and denim against smooth skin and blurred backdrop typography positioned at the extreme top edge to frame the subject combine subject description 70s studio lighting hazy pink purple gradient backdrop wide spaced stylized header",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Ethereal Studio Portrait",
+      "category": "Photography",
+      "medium": [
+        "Film Photography",
+        "Studio Lighting",
+        "Airbrushed Backdrop"
+      ],
+      "useCases": [
+        "Album Art",
+        "Fashion Editorial",
+        "Vintage Poster Design"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "soft focus",
+        "dreamy lighting",
+        "bohemian fashion",
+        "gradient backdrop",
+        "stylized typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A soft-focus studio portrait featuring a central subject against a hazy, multi-tonal pink and purple gradient backdrop with wide-tracked stylized headers.",
+      "triggerTerms": [
+        "1970s studio portrait",
+        "ethereal pink haze backdrop",
+        "soft focus film grain",
+        "bohemian fringe vest"
+      ],
+      "excludeWhen": [
+        "sharp modern digital photography",
+        "minimalist white backgrounds",
+        "bold sans-serif typography"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium-shot studio portrait of a woman with long dark hair, wearing a fringed cream vest and denim, set against a diffused, smoky pink and lavender background. The lighting is soft and directional, creating a gentle glow on the skin, while the overall image has a fine film grain and low-contrast shadow detail characteristic of 1970s analog photography.",
+    "coreVisualRelationships": [
+      "Subject centered with a slight tilt for dynamic balance",
+      "Soft-edged silhouette blending into a hazy atmospheric background",
+      "High-contrast texture of fringe and denim against smooth skin and blurred backdrop",
+      "Typography positioned at the extreme top edge to frame the subject"
+    ],
+    "coreInvariants": [
+      "Soft-focus lens effect",
+      "Pink-to-purple atmospheric gradient",
+      "Wide letter spacing in the header",
+      "Bohemian or folk-inspired styling"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central medium shot; subject occupies approximately 60% of the vertical frame.",
+      "visualAnchor": "The subject's face and eyes, highlighted by soft key lighting.",
+      "movementAndEyePath": "From the wide-spaced title at the top, down the line of the subject's hair, to the textured fringe of the vest.",
+      "negativeSpace": "Ample hazy space surrounding the subject, particularly in the upper corners."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Muted pink and lavender (background and atmosphere)",
+      "contrastColorRole": "Deep indigo and black (hair and denim)",
+      "accentColorRole": "Cream and off-white (vest and highlights)",
+      "saturationAndValueRelationship": "Mid-range saturation with a lifted black point, creating a 'dusty' or 'faded' vintage look.",
+      "paletteRestrictions": [
+        "No neon colors",
+        "No harsh primary reds",
+        "No pure digital blacks"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Geometric Sans with Art Deco influences",
+      "letterConstructionRules": [
+        "Extremely wide tracking (letter-spacing)",
+        "Uniform stroke weight",
+        "Open counters and stylized, curved terminals on characters like 'C' and 'S'",
+        "High horizontal crossbars"
+      ],
+      "characterSpecificRedesigns": [
+        "C and S feature elongated, hook-like terminals",
+        "H and E have high-waisted crossbars",
+        "R has a detached or stylized leg"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Stylized Art Deco",
+          "anatomy": {
+            "width": "Normal to wide",
+            "weight": "Light",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Curved and stylized",
+            "corners": "Rounded",
+            "counters": "Open",
+            "strokeCharacter": "Thin and elegant"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "500-800 units",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Very airy"
+          },
+          "composition": {
+            "position": "Top margin",
+            "scale": "Small relative to frame",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating above the subject's head"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Slightly softened edges",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single decorative face used sparingly to maintain focus on the portrait.",
+      "graphicDevices": [
+        "Atmospheric smoke/haze"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Extreme letter spacing",
+          "Thin stroke weight",
+          "Top-edge placement"
+        ],
+        "avoid": [
+          "Heavy serifs",
+          "Tight kerning",
+          "Modern digital sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Willow",
+            "reason": "Captures the stylized, arts-and-crafts geometric feel",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Busorama",
+            "reason": "Matches the 70s-era geometric eccentricity",
+            "confidence": "high"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a woman with long dark hair in 1970s bohemian attire, using a soft-focus lens and a hazy pink and lavender gradient backdrop with visible film grain.",
+        "overlayInstruction": "Add a single line of uppercase text at the very top edge using a thin, stylized geometric font with extremely wide letter spacing in white."
+      },
+      "verificationChecks": [
+        "Is the background a soft, smoky pink/purple gradient?",
+        "Is the typography tracked out significantly?",
+        "Does the image have a soft-focus, analog film quality?",
+        "Is the subject's styling consistent with 1970s folk-rock aesthetics?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the background haze",
+      "Amount of film grain",
+      "Subject's pose and expression",
+      "Specific hue of the pink/purple gradient"
+    ],
+    "mustRedesign": [
+      "Any modern digital sharpness",
+      "Standard default fonts",
+      "Flat, solid-color backgrounds"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dreamy, ethereal atmosphere",
+        "Soft, flattering studio lighting",
+        "Balanced, airy typographic layout"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Cluttered backgrounds",
+        "Overly saturated neon colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for soft-focus consistency across the subject",
+      "Verify the typography is centered and widely spaced",
+      "Ensure the color palette remains in the muted pink/lavender range",
+      "Confirm the grain texture looks organic rather than digital noise"
+    ],
+    "reuseFormula": "Combine [Subject Description] + [70s Studio Lighting] + [Hazy Pink/Purple Gradient Backdrop] + [Wide-Spaced Stylized Header]."
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "id": "aecccead42d9018b51541711774c1848aa8eecd3ae59d971e2e30572b5b8db17",
+  "skillId": "aecccead42d9018b51541711774c1848aa8eecd3ae59d971e2e30572b5b8db17",
+  "versionId": "aecccead42d9018b51541711774c1848aa8eecd3ae59d971e2e30572b5b8db17",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T21:58:51.750Z",
+  "approvedAt": "2026-08-12T21:58:51.750Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T21:58:51.750Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Bluegrass Sessions.jpg",
+    "hash": "aecccead42d9018b51541711774c1848aa8eecd3ae59d971e2e30572b5b8db17",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Bluegrass Sessions",
+    "artist": "Lynn Anderson",
+    "artworkUrl": "https://coverartarchive.org/release-group/67efab8c-6921-38d0-bbba-15fba18e9022/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/67efab8c-6921-38d0-bbba-15fba18e9022",
+    "releaseGroupId": "67efab8c-6921-38d0-bbba-15fba18e9022",
+    "recordingId": "0191aa2b-7233-4cce-8b16-1f42352de636",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Top Of The WorldLynn Anderson",
+      "song": "Top Of The World",
+      "performer": "Lynn Anderson",
+      "peakPosition": 74,
+      "firstChartDate": "1973-06-30",
+      "lastChartDate": "1973-09-01",
+      "appearances": [
+        {
+          "chartDate": "1973-06-30",
+          "position": 97
+        },
+        {
+          "chartDate": "1973-07-07",
+          "position": 95
+        },
+        {
+          "chartDate": "1973-07-14",
+          "position": 94
+        },
+        {
+          "chartDate": "1973-07-21",
+          "position": 92
+        },
+        {
+          "chartDate": "1973-07-28",
+          "position": 89
+        },
+        {
+          "chartDate": "1973-08-04",
+          "position": 85
+        },
+        {
+          "chartDate": "1973-08-11",
+          "position": 82
+        },
+        {
+          "chartDate": "1973-08-18",
+          "position": 77
+        },
+        {
+          "chartDate": "1973-08-25",
+          "position": 74
+        },
+        {
+          "chartDate": "1973-09-01",
+          "position": 79
+        }
+      ]
+    }
+  },
+  "dedupeText": "contemporary country portrait album cover portrait soft lighting condensed serif gradient background country music aesthetic warm tones subject s hair color harmonizes with the warm background and gold typography cool left side background provides a color contrast to the subject s skin tones typography overlaps the subject s clothing to create depth eye level of the subject aligns with the upper third of the frame soft portrait split tone gradient background condensed serif display typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Contemporary Country Portrait Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Compositing",
+        "Typography"
+      ],
+      "useCases": [
+        "Music album covers",
+        "Artist promotional posters",
+        "Podcast cover art",
+        "Author bio pages"
+      ],
+      "retrievalTags": [
+        "portrait",
+        "soft lighting",
+        "condensed serif",
+        "gradient background",
+        "country music aesthetic",
+        "warm tones"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A close-up portrait layout featuring a soft-focus subject against a split-tone background with layered, high-contrast condensed serif typography at the bottom.",
+      "triggerTerms": [
+        "soft focus portrait album cover",
+        "condensed serif text overlay",
+        "warm studio lighting profile",
+        "gradient wash background portrait"
+      ],
+      "excludeWhen": [
+        "requesting high-contrast noir photography",
+        "requesting minimalist sans-serif layouts",
+        "requesting full-body action shots"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A medium close-up of a smiling subject positioned slightly off-center, framed by a background that transitions from a cool, textured blue-white on the left to a warm, neutral tan on the right. The typography is anchored to the bottom third, utilizing a large, gold-toned condensed serif for the primary name and a smaller, black serif for the subtitle.",
+    "coreVisualRelationships": [
+      "Subject's hair color harmonizes with the warm background and gold typography",
+      "Cool left-side background provides a color contrast to the subject's skin tones",
+      "Typography overlaps the subject's clothing to create depth",
+      "Eye level of the subject aligns with the upper third of the frame"
+    ],
+    "coreInvariants": [
+      "Soft-focus skin retouching",
+      "Three-quarter facial view",
+      "Bottom-aligned typographic stack",
+      "Warm/cool split background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject occupies the right two-thirds of the frame, scaled from chest to top of head.",
+      "visualAnchor": "The subject's eyes and the large primary text block at the bottom left.",
+      "movementAndEyePath": "Starts at the subject's face, follows the line of the hair down to the large gold text, then moves right to the subtitle.",
+      "negativeSpace": "Significant negative space on the left side with a horizontal motion-blur texture."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm tan and beige (skin, hair, background right)",
+      "contrastColorRole": "Pale sky blue (background left)",
+      "accentColorRole": "Metallic gold (primary typography)",
+      "saturationAndValueRelationship": "High value, low to medium saturation for a soft, airy feel.",
+      "paletteRestrictions": [
+        "Avoid harsh primaries",
+        "Avoid neon colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast condensed serif",
+      "letterConstructionRules": [
+        "Extremely vertical proportions",
+        "Thin, flat serifs",
+        "High stroke contrast between thick and thin lines"
+      ],
+      "characterSpecificRedesigns": [
+        "Descender of 'y' is stylized with a soft curve",
+        "Uppercase 'A' has a high crossbar"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Modern Serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "tall",
+            "terminals": "sharp",
+            "corners": "bracketed",
+            "counters": "narrow",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "1.0",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "bottom left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "partial over subject",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "gold gradient",
+            "outline": "thin dark brown",
+            "shadow": "soft drop shadow",
+            "depth": "subtle 3D bevel",
+            "texture": "satin",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "regular",
+            "contrast": "medium",
+            "xHeight": "medium",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "consistent"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "1.2",
+            "lineBreakPattern": "single line",
+            "density": "regular"
+          },
+          "composition": {
+            "position": "directly below display text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "foreground"
+          },
+          "treatment": {
+            "fill": "black",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "High-contrast condensed display paired with a standard width, legible serif for information.",
+      "graphicDevices": [
+        "Horizontal motion blur on background left",
+        "Subtle outer glow on primary text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Verticality of the display font",
+          "Gold-to-tan color palette"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Heavy drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Onyx or Bodoni Condensed",
+            "reason": "Matches the high contrast and verticality of the primary name.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Baskerville",
+            "reason": "Provides a classic, legible contrast for the subtitle.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a soft-focus portrait of a smiling person with blonde hair, wearing a light-colored collared shirt. The background should be split: the left side is a light blue with horizontal motion blur, and the right side is a warm, neutral tan. Use soft, flattering studio lighting.",
+        "overlayInstruction": "Add the primary name in a large, gold-gradient condensed serif font at the bottom left, overlapping the shirt. Below it, add the subtitle in a smaller, black transitional serif font, left-aligned."
+      },
+      "verificationChecks": [
+        "Is the primary text condensed and high-contrast?",
+        "Does the background transition from cool blue to warm tan?",
+        "Is the lighting soft and flattering on the subject?",
+        "Does the text overlap the subject's clothing?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color temperature",
+      "Typography fill (gold vs silver)",
+      "Subject's facial expression",
+      "Intensity of the horizontal blur"
+    ],
+    "mustRedesign": [
+      "Transcribed names or specific artist identities",
+      "Exact logos or trademarks",
+      "Specific copyrighted song titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Smooth skin textures",
+        "Clean typographic edges",
+        "Balanced color harmony between hair and background"
+      ],
+      "avoid": [
+        "Pixelated gradients",
+        "Clashing font styles",
+        "Harsh, unflattering shadows"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the gold text has a subtle bevel or glow for legibility.",
+      "Ensure the horizontal blur on the left does not bleed into the subject's face.",
+      "Verify the hierarchy between the name and the subtitle is clear.",
+      "Confirm the subject's eyes are in sharp focus despite the overall soft aesthetic."
+    ],
+    "reuseFormula": "Soft Portrait + Split-Tone Gradient Background + Condensed Serif Display Typography"
+  }
+}

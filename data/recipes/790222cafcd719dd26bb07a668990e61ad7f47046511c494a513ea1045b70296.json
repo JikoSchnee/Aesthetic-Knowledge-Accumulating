@@ -1,0 +1,299 @@
+{
+  "id": "790222cafcd719dd26bb07a668990e61ad7f47046511c494a513ea1045b70296",
+  "skillId": "790222cafcd719dd26bb07a668990e61ad7f47046511c494a513ea1045b70296",
+  "versionId": "790222cafcd719dd26bb07a668990e61ad7f47046511c494a513ea1045b70296",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T05:35:34.686Z",
+  "approvedAt": "2026-08-12T05:35:34.686Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T05:35:34.686Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Mind On You.jpg",
+    "hash": "790222cafcd719dd26bb07a668990e61ad7f47046511c494a513ea1045b70296",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Mind On You",
+    "artist": "George Birge",
+    "artworkUrl": "https://coverartarchive.org/release-group/00ea1ea5-a275-409f-8739-f3a58dede86e/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/00ea1ea5-a275-409f-8739-f3a58dede86e",
+    "releaseGroupId": "00ea1ea5-a275-409f-8739-f3a58dede86e",
+    "recordingId": "93c58ab3-6ae0-4e36-bc37-ed6c7037aaf9",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Mind On YouGeorge Birge",
+      "song": "Mind On You",
+      "performer": "George Birge",
+      "peakPosition": 62,
+      "firstChartDate": "2023-12-30",
+      "lastChartDate": "2024-01-20",
+      "appearances": [
+        {
+          "chartDate": "2023-12-30",
+          "position": 88
+        },
+        {
+          "chartDate": "2024-01-06",
+          "position": 91
+        },
+        {
+          "chartDate": "2024-01-13",
+          "position": 62
+        },
+        {
+          "chartDate": "2024-01-20",
+          "position": 73
+        }
+      ]
+    }
+  },
+  "dedupeText": "modern country album cover with line art overlay country music portrait burnt orange line art vertical typography western aesthetic subject occupies the central vertical axis with a slight lean to the left vertical text on the left balances the dense line art on the right warm background color provides high contrast for white text and line art horizontal text at the bottom anchors the composition portrait burnt orange background white line art vertical bold typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Modern Country Album Cover with Line Art Overlay",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Illustration",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "country music",
+        "portrait",
+        "burnt orange",
+        "line art",
+        "vertical typography",
+        "western aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered male portrait against a solid warm background featuring white illustrative line art and bold, vertically stacked sans-serif typography.",
+      "triggerTerms": [
+        "country music album cover style",
+        "burnt orange background with white line art",
+        "vertical display typography on left edge",
+        "modern western portrait"
+      ],
+      "excludeWhen": [
+        "minimalist black and white photography is requested",
+        "landscape orientation is required",
+        "classical or orchestral themes are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up portrait of a man in a dark shirt and cap, positioned slightly off-center against a terracotta-orange background. The right side of the frame is filled with white, hand-drawn style line art icons (boots, guitars, bottles), while the left side features large, vertically oriented white text.",
+    "coreVisualRelationships": [
+      "Subject occupies the central vertical axis with a slight lean to the left.",
+      "Vertical text on the left balances the dense line art on the right.",
+      "Warm background color provides high contrast for white text and line art.",
+      "Horizontal text at the bottom anchors the composition."
+    ],
+    "coreInvariants": [
+      "Burnt orange or terracotta background color",
+      "White illustrative line art icons",
+      "Vertical 90-degree rotated display text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium close-up portrait, head and shoulders, occupying approximately 60% of the vertical height.",
+      "visualAnchor": "The subject's face and the large vertical white text on the left.",
+      "movementAndEyePath": "Eyes start at the vertical text, move to the subject's face, then scan the line art on the right before settling on the bottom horizontal text.",
+      "negativeSpace": "Minimal; the background is heavily textured with line art and typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Burnt orange background",
+      "contrastColorRole": "White for primary typography and line art",
+      "accentColorRole": "Cream or pale gold for secondary typography",
+      "saturationAndValueRelationship": "High saturation background with high value (white) overlays.",
+      "paletteRestrictions": [
+        "Burnt orange",
+        "White",
+        "Cream",
+        "Black (subject clothing)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Extra-bold condensed sans-serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Tight kerning",
+        "Flat terminals",
+        "High x-height"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "extra-bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "narrow",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "compact",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "left edge",
+            "scale": "large",
+            "rotation": "-90 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "adjacent to subject"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "medium",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlaying bottom of subject"
+          },
+          "treatment": {
+            "fill": "cream",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between vertical extra-bold condensed and horizontal bold wide-tracked sans-serif.",
+      "graphicDevices": [
+        "Hand-drawn white line art icons",
+        "Vertical text orientation"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical orientation of primary text",
+          "Burnt orange background",
+          "Line art style"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Drop shadows"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Champion Gothic",
+            "reason": "Matches the heavy, condensed, vertical display feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat Bold",
+            "reason": "Suitable for the horizontal secondary text at the bottom.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in a dark cap and shirt against a solid burnt orange background. On the right side of the background, include white, hand-drawn line art icons of western items like boots, guitars, and bottles.",
+        "overlayInstruction": "Add large, extra-bold condensed sans-serif text in white, rotated 90 degrees counter-clockwise along the left edge. Add secondary bold sans-serif text in cream at the bottom center with wide tracking."
+      },
+      "verificationChecks": [
+        "Is the primary text rotated 90 degrees?",
+        "Is the background burnt orange?",
+        "Are the line art icons white and hand-drawn in style?",
+        "Is the bottom text cream-colored and horizontally oriented?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Background color hue",
+      "Line art density",
+      "Subject pose",
+      "Typography weight"
+    ],
+    "mustRedesign": [
+      "Do not use specific brand logos from the cap",
+      "Do not use the specific artist name",
+      "Do not use the specific song title"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp typography",
+        "Consistent line weight in illustrations",
+        "High contrast between text and background"
+      ],
+      "avoid": [
+        "Blurry line art",
+        "Low-contrast text colors",
+        "Cluttered overlapping of text and face"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the vertical text is legible and correctly oriented.",
+      "Ensure the line art does not obscure the subject's face.",
+      "Verify the color palette matches the burnt orange and white theme.",
+      "Confirm the bottom text is centered and clearly visible."
+    ],
+    "reuseFormula": "Portrait + Burnt Orange Background + White Line Art + Vertical Bold Typography"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:32.968Z"
+}

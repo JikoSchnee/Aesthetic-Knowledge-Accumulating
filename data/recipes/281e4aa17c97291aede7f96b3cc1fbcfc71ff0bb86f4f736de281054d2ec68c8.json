@@ -1,0 +1,278 @@
+{
+  "id": "281e4aa17c97291aede7f96b3cc1fbcfc71ff0bb86f4f736de281054d2ec68c8",
+  "skillId": "281e4aa17c97291aede7f96b3cc1fbcfc71ff0bb86f4f736de281054d2ec68c8",
+  "versionId": "281e4aa17c97291aede7f96b3cc1fbcfc71ff0bb86f4f736de281054d2ec68c8",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T00:06:18.144Z",
+  "approvedAt": "2026-08-13T00:06:18.144Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T00:06:18.144Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "All of You.jpg",
+    "hash": "281e4aa17c97291aede7f96b3cc1fbcfc71ff0bb86f4f736de281054d2ec68c8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "All of You",
+    "artist": "Colbie Caillat",
+    "artworkUrl": "https://coverartarchive.org/release-group/796e76c9-0bb7-458a-8a2c-9e2011cb9076/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/796e76c9-0bb7-458a-8a2c-9e2011cb9076",
+    "releaseGroupId": "796e76c9-0bb7-458a-8a2c-9e2011cb9076",
+    "recordingId": "5f28fca5-9635-47b3-a8a6-7f3ae0906793",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "What IfColbie Caillat",
+      "song": "What If",
+      "performer": "Colbie Caillat",
+      "peakPosition": 77,
+      "firstChartDate": "2011-07-30",
+      "lastChartDate": "2011-07-30",
+      "appearances": [
+        {
+          "chartDate": "2011-07-30",
+          "position": 77
+        }
+      ]
+    }
+  },
+  "dedupeText": "sun drenched acoustic pop album cover overexposed warm lighting hand drawn lettering floral accents soft focus bohemian subject s face as the primary focal point in the lower two thirds hand drawn typography anchored in the upper white space botanical illustrations framing the top corners to balance the composition warm golden light unifying the subject and the background warm high key portrait organic script geometric subtitle corner botanicals",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Sun-Drenched Acoustic Pop Album Cover",
+      "category": "Music Branding",
+      "medium": [
+        "Photography",
+        "Digital Illustration",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Art",
+        "Lifestyle Magazine Cover",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "overexposed",
+        "warm lighting",
+        "hand-drawn lettering",
+        "floral accents",
+        "soft focus",
+        "bohemian"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A warm, high-key portrait featuring a sun-drenched subject paired with organic, hand-drawn typography and delicate botanical illustrations.",
+      "triggerTerms": [
+        "sun-drenched portrait",
+        "overexposed warm lighting",
+        "hand-drawn script with floral accents",
+        "high-key acoustic aesthetic"
+      ],
+      "excludeWhen": [
+        "dark or moody lighting is required",
+        "high-contrast urban settings are requested",
+        "minimalist sans-serif layouts are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A close-up, high-key portrait of a woman lying down, bathed in warm, golden light that creates a soft, overexposed glow. The composition is framed by delicate, hand-drawn floral and leaf illustrations in the upper corners, with organic, textured lettering centered in the upper third.",
+    "coreVisualRelationships": [
+      "Subject's face as the primary focal point in the lower two-thirds",
+      "Hand-drawn typography anchored in the upper white space",
+      "Botanical illustrations framing the top corners to balance the composition",
+      "Warm golden light unifying the subject and the background"
+    ],
+    "coreInvariants": [
+      "High-key, overexposed lighting with a warm yellow/gold tint",
+      "Organic, hand-drawn quality to the primary text",
+      "Soft-focus depth of field"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject's face is positioned diagonally across the lower half, filling approximately 60% of the frame.",
+      "visualAnchor": "The subject's eyes and the primary hand-drawn text serve as dual anchors.",
+      "movementAndEyePath": "The eye moves from the subject's face upward to the central text, then outward to the floral corner accents.",
+      "negativeSpace": "Significant bright, overexposed negative space in the upper third provides a clean canvas for typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm white and golden yellow (background and lighting)",
+      "contrastColorRole": "Earth-toned brown (primary text and leaf outlines)",
+      "accentColorRole": "Soft coral pink (floral accents and secondary text)",
+      "saturationAndValueRelationship": "High value (brightness) with low to moderate saturation, creating a washed-out, ethereal look.",
+      "paletteRestrictions": [
+        "Avoid deep blacks or high-contrast cool tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "organic script and geometric sans",
+      "letterConstructionRules": [
+        "Primary text features irregular, hand-drawn strokes with visible ink-like texture",
+        "Secondary text uses thin, monolinear geometric capitals",
+        "Varying baseline for the script to enhance the casual, organic feel"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'C' in the script has a wide, sweeping curve",
+        "The 't' has a high, slightly tilted crossbar"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "script",
+          "anatomy": {
+            "width": "variable",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "rounded",
+            "counters": "open",
+            "strokeCharacter": "textured"
+          },
+          "typesetting": {
+            "case": "mixed-case",
+            "alignment": "centered",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "two lines",
+            "density": "loose"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "placed in negative space"
+          },
+          "treatment": {
+            "fill": "earth-brown",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "subtle grain",
+            "distortion": "hand-drawn irregularity"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "light",
+            "contrast": "none",
+            "xHeight": "cap-height",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "geometric",
+            "strokeCharacter": "monoline"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "below primary text",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "centered in white space"
+          },
+          "treatment": {
+            "fill": "coral-pink",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between organic, textured script and clean, geometric sans-serif.",
+      "graphicDevices": [
+        "Line-art leaves with internal hatching",
+        "Stylized sun/flower icons with radiating petals"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Hand-drawn feel of the main title",
+          "Wide tracking of the subtitle"
+        ],
+        "avoid": [
+          "Standard, clean digital fonts for the main title",
+          "Heavy weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Casual Marker Script",
+            "reason": "Captures the organic, hand-drawn texture of the primary text",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Provides the geometric, airy feel for the subtitle",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key, overexposed portrait of a woman lying down, with warm golden lighting and a soft-focus background. Include line-art botanical illustrations in the top corners (leaves on the left, stylized flowers on the right).",
+        "overlayInstruction": "Add the primary title in a hand-drawn, textured script in earth-brown. Below it, add the subtitle in a thin, wide-tracked geometric sans-serif in coral pink."
+      },
+      "verificationChecks": [
+        "Is the lighting sufficiently warm and overexposed?",
+        "Does the script text have a visible hand-drawn texture?",
+        "Are the botanical elements positioned in the upper corners?",
+        "Is the subtitle color a soft coral pink?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the golden glow",
+      "Complexity of the botanical illustrations",
+      "Weight of the hand-drawn script"
+    ],
+    "mustRedesign": [
+      "Avoid using generic brush fonts; ensure the script feels custom and irregular",
+      "Do not use high-contrast shadows on the face"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, ethereal lighting",
+        "Balanced use of negative space",
+        "Organic, tactile feel in the graphics"
+      ],
+      "avoid": [
+        "Harsh digital gradients",
+        "Cluttered compositions",
+        "Cold or blue-toned lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is legible against the bright background",
+      "Ensure the floral icons do not distract from the subject's face",
+      "Verify the warm color temperature is consistent across the image",
+      "Confirm the hand-drawn text has irregular baselines"
+    ],
+    "reuseFormula": "Warm High-Key Portrait + Organic Script + Geometric Subtitle + Corner Botanicals"
+  }
+}

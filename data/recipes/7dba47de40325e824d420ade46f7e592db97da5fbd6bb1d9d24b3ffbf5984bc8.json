@@ -1,0 +1,260 @@
+{
+  "id": "7dba47de40325e824d420ade46f7e592db97da5fbd6bb1d9d24b3ffbf5984bc8",
+  "skillId": "7dba47de40325e824d420ade46f7e592db97da5fbd6bb1d9d24b3ffbf5984bc8",
+  "versionId": "7dba47de40325e824d420ade46f7e592db97da5fbd6bb1d9d24b3ffbf5984bc8",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:16:42.507Z",
+  "approvedAt": "2026-08-12T06:16:42.507Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:16:42.507Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Music From Across the Way.jpg",
+    "hash": "7dba47de40325e824d420ade46f7e592db97da5fbd6bb1d9d24b3ffbf5984bc8",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Music From Across the Way",
+    "artist": "James Last",
+    "artworkUrl": "https://coverartarchive.org/release-group/1a07e9d8-5264-4247-8d7e-e732b45283c9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1a07e9d8-5264-4247-8d7e-e732b45283c9",
+    "releaseGroupId": "1a07e9d8-5264-4247-8d7e-e732b45283c9",
+    "recordingId": "24cbf84e-e1dc-418c-8ad3-019327cb5387",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Music From Across The WayJames Last",
+      "song": "Music From Across The Way",
+      "performer": "James Last",
+      "peakPosition": 84,
+      "firstChartDate": "1972-01-15",
+      "lastChartDate": "1972-02-05",
+      "appearances": [
+        {
+          "chartDate": "1972-01-15",
+          "position": 95
+        },
+        {
+          "chartDate": "1972-01-22",
+          "position": 85
+        },
+        {
+          "chartDate": "1972-01-29",
+          "position": 85
+        },
+        {
+          "chartDate": "1972-02-05",
+          "position": 84
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage 1970s soft focus portrait album cover 1970s soft focus earth tones suede jacket psychedelic serif fountain background grainy texture subject interaction creates a central diagonal lean against a vertical anchor typography occupies the negative space of the blurred background color palette harmonizes between the subject s clothing and the architectural surroundings soft focus fountain spray provides a textured low contrast backdrop 1970s portrait suede earth tones soft focus fountain psychedelic serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage 1970s Soft-Focus Portrait Album Cover",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Retro music packaging",
+        "Nostalgic lifestyle editorial",
+        "Vintage fashion photography"
+      ],
+      "retrievalTags": [
+        "1970s",
+        "soft focus",
+        "earth tones",
+        "suede jacket",
+        "psychedelic serif",
+        "fountain background",
+        "grainy texture"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Generates a nostalgic 1970s-style portrait featuring a couple in period-accurate fashion with soft-focus backgrounds and heavy-weight psychedelic serif typography.",
+      "triggerTerms": [
+        "1970s soft focus portrait",
+        "vintage earth tone album cover",
+        "retro suede fashion photography"
+      ],
+      "excludeWhen": [
+        "modern high-definition digital photography is required",
+        "minimalist Swiss-style typography is requested",
+        "neon or high-saturation color palettes are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A warm, grainy, soft-focus photograph of a couple embracing outdoors, framed by a vertical architectural element like a lamppost, featuring stacked decorative serif typography in the upper left quadrant.",
+    "coreVisualRelationships": [
+      "Subject interaction creates a central diagonal lean against a vertical anchor",
+      "Typography occupies the negative space of the blurred background",
+      "Color palette harmonizes between the subject's clothing and the architectural surroundings",
+      "Soft-focus fountain spray provides a textured, low-contrast backdrop"
+    ],
+    "coreInvariants": [
+      "Heavy film grain and soft-focus lens effect",
+      "Earth-toned color palette dominated by ochre, tan, and muted blue",
+      "Stacked, centered decorative serif typography with rounded terminals"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium-full shot of a couple positioned slightly right of center, leaning against a dark vertical lamppost.",
+      "visualAnchor": "A dark, ornate vertical lamppost on the right edge provides structural stability.",
+      "movementAndEyePath": "Eyes start at the high-contrast typography in the top left, move down the woman's suede jacket, and follow the vertical line of the lamppost.",
+      "negativeSpace": "The upper left and center-left areas are occupied by a blurred fountain, providing a canvas for text."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Warm ochre and tan (suede jacket, pants, background stone)",
+      "contrastColorRole": "Muted slate blue (man's suit, typography fill)",
+      "accentColorRole": "Dark charcoal (lamppost, wrought iron fence)",
+      "saturationAndValueRelationship": "Low saturation with a compressed tonal range; shadows are lifted and highlights are soft.",
+      "paletteRestrictions": [
+        "No pure whites",
+        "No neon colors",
+        "No high-contrast digital blacks"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavyweight display serif with psychedelic curves",
+      "letterConstructionRules": [
+        "Extremely thick stems with high-contrast thin hairlines",
+        "Rounded, bulbous terminals (ball terminals)",
+        "Tight letter spacing (kerning)",
+        "Curvilinear, liquid-like serifs"
+      ],
+      "characterSpecificRedesigns": [
+        "Uppercase letters feature exaggerated swashes on 'J', 'L', and 'M'",
+        "Internal counters are small and circular"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Psychedelic Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Ultra-bold",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Rounded/Ball",
+            "corners": "Softened",
+            "counters": "Tight",
+            "strokeCharacter": "Variable"
+          },
+          "typesetting": {
+            "case": "all-caps",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked-short-phrases",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating-over-background"
+          },
+          "treatment": {
+            "fill": "muted-blue-with-texture",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "grainy",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used with varying colors (blue for name, ochre for title) to create hierarchy.",
+      "graphicDevices": [
+        "Wrought iron fence at the bottom edge",
+        "Vertical lamppost as a framing device"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ball terminals",
+          "High weight",
+          "Tight kerning"
+        ],
+        "avoid": [
+          "Sans-serif",
+          "Modern geometric fonts",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bookman Swash",
+            "reason": "Captures the 70s curves and heavy weight",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Cooper Black",
+            "reason": "Provides the necessary rounded, heavy-weight feel",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A soft-focus 1970s film photograph of a couple embracing next to a dark ornate lamppost. The woman wears a tan suede jacket and pants. The man wears a blue striped suit and a patterned neckerchief. Background is a blurred stone fountain. Heavy film grain, warm earth tones.",
+        "overlayInstruction": "Add stacked, centered all-caps text in the top left corner using a heavy psychedelic serif font. The top line should be muted blue; the subsequent lines should be ochre tan. Apply a slight grain texture to the text to match the photo."
+      },
+      "verificationChecks": [
+        "Is the typography a heavy-weight 70s serif?",
+        "Is the color palette restricted to earth tones and muted blues?",
+        "Does the image have a soft-focus, grainy film quality?",
+        "Is the lamppost used as a vertical anchor on the right?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject clothing colors",
+      "Typography color",
+      "Intensity of film grain",
+      "Degree of background blur"
+    ],
+    "mustRedesign": [
+      "Any modern digital sharpness",
+      "Clean, high-contrast vector text",
+      "Modern fashion elements"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic 1970s film texture",
+        "Cohesive earth-tone palette",
+        "Period-accurate display typography"
+      ],
+      "avoid": [
+        "Digital noise instead of film grain",
+        "Default sans-serif fonts",
+        "Vibrant primary colors"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for 'halo' artifacts around text; it should look printed on the grain.",
+      "Ensure the suede texture is visible despite the soft focus.",
+      "Verify the vertical lamppost is dark and provides a strong anchor.",
+      "Confirm the typography is stacked and centered in the top-left quadrant.",
+      "Check that the man's neckerchief has a vintage pattern."
+    ],
+    "reuseFormula": "1970s Portrait + Suede/Earth Tones + Soft Focus Fountain + [Psychedelic Serif Typography]"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T06:43:35.326Z"
+}

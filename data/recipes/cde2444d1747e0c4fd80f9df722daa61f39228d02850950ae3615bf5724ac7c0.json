@@ -1,0 +1,238 @@
+{
+  "id": "cde2444d1747e0c4fd80f9df722daa61f39228d02850950ae3615bf5724ac7c0",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T08:07:33.492Z",
+  "approvedAt": "2026-08-11T08:07:33.492Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T08:07:33.492Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Change of Heart.jpg",
+    "hash": "cde2444d1747e0c4fd80f9df722daa61f39228d02850950ae3615bf5724ac7c0",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Change of Heart",
+    "artist": "Eric Carmen",
+    "artworkUrl": "https://coverartarchive.org/release-group/57fda420-5166-396b-be8b-f728ecfeee6a/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/57fda420-5166-396b-be8b-f728ecfeee6a",
+    "releaseGroupId": "57fda420-5166-396b-be8b-f728ecfeee6a",
+    "recordingId": "70f948fc-01fd-4613-861a-921e7c8efc97",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Baby, I Need Your Lovin'Eric Carmen",
+      "song": "Baby, I Need Your Lovin'",
+      "performer": "Eric Carmen",
+      "peakPosition": 62,
+      "firstChartDate": "1979-01-27",
+      "lastChartDate": "1979-02-24",
+      "appearances": [
+        {
+          "chartDate": "1979-01-27",
+          "position": 75
+        },
+        {
+          "chartDate": "1979-02-03",
+          "position": 71
+        },
+        {
+          "chartDate": "1979-02-10",
+          "position": 63
+        },
+        {
+          "chartDate": "1979-02-17",
+          "position": 63
+        },
+        {
+          "chartDate": "1979-02-24",
+          "position": 62
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochrome noir portrait layout film noir high contrast suit and hat geometric shadow 1970s typography monochrome dramatic lighting subject centered vertically but offset by the heavy shadow extending to the right typography anchored to the top left corner balancing the visual weight of the shadow geometric intersection of the ledge and floor creating a v shape that guides the eye to the subject s feet high contrast monochrome photography geometric sans serif diagonal shadow composition",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochrome Noir Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Studio Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Fashion Spread",
+        "Theatrical Poster"
+      ],
+      "retrievalTags": [
+        "film noir",
+        "high contrast",
+        "suit and hat",
+        "geometric shadow",
+        "1970s typography",
+        "monochrome",
+        "dramatic lighting"
+      ]
+    },
+    "visualDefinition": "A high-contrast, monochrome studio portrait of a man in a suit and fedora sitting on a geometric ledge, characterized by a sharp diagonal shadow and left-aligned, tightly tracked sans-serif typography.",
+    "coreVisualRelationships": [
+      "Subject centered vertically but offset by the heavy shadow extending to the right.",
+      "Typography anchored to the top-left corner, balancing the visual weight of the shadow.",
+      "Geometric intersection of the ledge and floor creating a 'V' shape that guides the eye to the subject's feet."
+    ],
+    "coreInvariants": [
+      "High-key white floor contrasting with a deep black background.",
+      "Sharp, hard-edged shadow cast at a 45-degree angle.",
+      "Subject wearing a light-colored suit to stand out against the dark backdrop."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is medium-shot, seated centrally, occupying the middle vertical third of the frame.",
+      "visualAnchor": "The man's face and hat act as the primary anchor, framed by the dark background.",
+      "movementAndEyePath": "Eye starts at the text (top left), moves down to the subject's face, follows the suit line to the feet, and then tracks the long shadow to the right edge.",
+      "negativeSpace": "Significant negative space in the upper right (black) and lower right (white/shadow)."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal/black for the background and shadow.",
+      "contrastColorRole": "Pure white for the floor and highlights on the suit.",
+      "accentColorRole": "Mid-tone grays for the suit texture and skin tones.",
+      "saturationAndValueRelationship": "Zero saturation; extreme value contrast between the floor and the void.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Circular 'O' and 'C' forms",
+        "Sharp, unbracketed junctions"
+      ],
+      "characterSpecificRedesigns": [
+        "Extremely tight letter spacing (kerning) where characters almost touch",
+        "Stacked layout with minimal leading"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light to Medium",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Sheared",
+            "corners": "Sharp",
+            "counters": "Open/Circular",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Left",
+            "tracking": "Tight",
+            "leading": "Tight",
+            "lineBreakPattern": "Word-based stacking",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top Left",
+            "scale": "Medium",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Placed in the dark negative space"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used for all text to maintain a minimalist, modern look.",
+      "graphicDevices": [
+        "Left-justified text block"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric uppercase forms",
+          "Tight tracking"
+        ],
+        "avoid": [
+          "Serifs",
+          "Script fonts",
+          "Wide leading"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Captures the 70s geometric aesthetic and tight kerning capability.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Medium",
+            "reason": "Provides the necessary geometric circularity and clean lines.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "A monochrome studio photo of a man in a light gray suit and fedora sitting on a white geometric block. The background is pitch black. A single hard light source from the left creates a long, sharp diagonal shadow across a white floor.",
+        "overlayInstruction": "Apply uppercase geometric sans-serif text in the top-left corner. Use white fill, tight tracking, and stack the lines vertically with minimal space between them."
+      },
+      "verificationChecks": [
+        "Is the shadow edge sharp and diagonal?",
+        "Is the text left-aligned in the upper-left quadrant?",
+        "Is the image strictly grayscale?",
+        "Is the subject wearing a fedora?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Angle of the floor shadow",
+      "Weight of the font",
+      "Subject's seated pose"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Any specific brand logos on the clothing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast film noir lighting",
+        "Clean geometric composition",
+        "Balanced typographic weight"
+      ],
+      "avoid": [
+        "Soft shadows",
+        "Color tints",
+        "Centered text"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no color bleeding or sepia tones.",
+      "Check that the text does not overlap the subject's head.",
+      "Verify the shadow direction matches the light source on the subject.",
+      "Confirm the typography is uppercase and sans-serif."
+    ],
+    "reuseFormula": "High-contrast monochrome photography + Geometric Sans-Serif + Diagonal Shadow Composition"
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-11T08:12:54.680Z"
+}

@@ -1,0 +1,295 @@
+{
+  "id": "429181a96051992e8c70f4b1d87117d71585a6e0c001efb302c24548d0e07e8e",
+  "skillId": "429181a96051992e8c70f4b1d87117d71585a6e0c001efb302c24548d0e07e8e",
+  "versionId": "429181a96051992e8c70f4b1d87117d71585a6e0c001efb302c24548d0e07e8e",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T19:40:49.824Z",
+  "approvedAt": "2026-08-12T19:40:49.824Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T19:40:49.824Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Inside Out.jpg",
+    "hash": "429181a96051992e8c70f4b1d87117d71585a6e0c001efb302c24548d0e07e8e",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Inside Out",
+    "artist": "Bobby Darin",
+    "artworkUrl": "https://coverartarchive.org/release-group/59d47a1f-2991-434c-9437-c701926cc829/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/59d47a1f-2991-434c-9437-c701926cc829",
+    "releaseGroupId": "59d47a1f-2991-434c-9437-c701926cc829",
+    "recordingId": "7db43219-c1ec-48dd-b3bc-d51497132c81",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "The Lady Came From BaltimoreBobby Darin",
+      "song": "The Lady Came From Baltimore",
+      "performer": "Bobby Darin",
+      "peakPosition": 62,
+      "firstChartDate": "1967-04-08",
+      "lastChartDate": "1967-05-06",
+      "appearances": [
+        {
+          "chartDate": "1967-04-08",
+          "position": 86
+        },
+        {
+          "chartDate": "1967-04-15",
+          "position": 78
+        },
+        {
+          "chartDate": "1967-04-22",
+          "position": 63
+        },
+        {
+          "chartDate": "1967-04-29",
+          "position": 62
+        },
+        {
+          "chartDate": "1967-05-06",
+          "position": 62
+        }
+      ]
+    }
+  },
+  "dedupeText": "mid century candid doorway portrait 1960s photography doorway frame candid embrace urban winter slab serif typography over the shoulder the door frame creates a literal inside outside spatial dichotomy the couple s embrace provides a soft emotional center against the rigid geometry of the door typography is anchored to the vertical axis of the door panel creating a column of information frame a subject through an architectural element on the right using the architectural element as a canvas for heavy slab serif typography in a vintage film style",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Mid-Century Candid Doorway Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Color Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vintage-style record covers",
+        "Nostalgic editorial layouts",
+        "Urban romance storytelling"
+      ],
+      "retrievalTags": [
+        "1960s photography",
+        "doorway frame",
+        "candid embrace",
+        "urban winter",
+        "slab serif typography",
+        "over-the-shoulder"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A framed urban scene viewed through an open white door, featuring a couple in a candid embrace with bold, stacked slab-serif typography on the door panel.",
+      "triggerTerms": [
+        "1960s urban romance photography",
+        "open door framing a couple",
+        "vintage album cover with stacked slab serif"
+      ],
+      "excludeWhen": [
+        "modern minimalist photography",
+        "studio portraits without architectural framing",
+        "sans-serif dominated layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A vertical composition where an open white paneled door acts as a secondary frame for a couple embracing in a wintery urban setting, with text integrated directly onto the door's surface.",
+    "coreVisualRelationships": [
+      "The door frame creates a literal 'inside/outside' spatial dichotomy.",
+      "The couple's embrace provides a soft emotional center against the rigid geometry of the door.",
+      "Typography is anchored to the vertical axis of the door panel, creating a column of information."
+    ],
+    "coreInvariants": [
+      "Open white paneled door as a right-side foreground element",
+      "Candid, slightly grainy film texture",
+      "Winter urban background with bare trees and iron fencing"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The couple is positioned in the left two-thirds of the frame, medium-full shot scale.",
+      "visualAnchor": "The vertical edge of the open door and the brass hardware.",
+      "movementAndEyePath": "Eyes start at the couple's embrace, move right to the bold title text, then down the tracklist on the door panel.",
+      "negativeSpace": "The white surface of the door provides functional negative space for typographic elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white and muted greys from the door and urban background.",
+      "contrastColorRole": "Deep blacks and dark browns in the couple's clothing.",
+      "accentColorRole": "Muted orange-red in the woman's coat and purple-pink in the title text.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the white door and dark clothing.",
+      "paletteRestrictions": [
+        "Muted 1960s film palette",
+        "Avoid neon or high-chroma digital colors"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab serif with high x-height and tight spacing.",
+      "letterConstructionRules": [
+        "Blocky, rectangular serifs",
+        "Uniform stroke weight with slight modulation",
+        "Tight kerning for a compact, impactful look"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "black",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "blunt",
+            "corners": "sharp",
+            "counters": "small",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "tight",
+            "lineBreakPattern": "stacked",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "upper right door panel",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "printed on door surface"
+          },
+          "treatment": {
+            "fill": "solid color (orange and purple)",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "body",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "square",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "list",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "lower right door panel",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "printed on door surface"
+          },
+          "treatment": {
+            "fill": "dark blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Heavy slab serif for impact paired with a clean, condensed sans-serif for legibility in lists.",
+      "graphicDevices": [
+        "Horizontal bars framing technical metadata at the top",
+        "Square logo placement in the center of the door panel"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab serif weight",
+          "Stacked layout",
+          "Placement on the door"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Lightweight serifs",
+          "Centered text over the couple"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy, blocky slab serif aesthetic of the title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic Condensed",
+            "reason": "Appropriate for the secondary list text to maintain a mid-century feel.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a photograph of a couple in a winter embrace, seen through the frame of an open white paneled door on the right. The background should show a 1960s urban street with bare trees and an iron fence.",
+        "overlayInstruction": "Add bold, stacked slab-serif title text in the upper panel of the door using orange and purple. Add a list of text in a condensed blue sans-serif in the lower panel of the door."
+      },
+      "verificationChecks": [
+        "Is the door acting as a frame for the couple?",
+        "Is the title text heavy slab-serif and stacked?",
+        "Is the color palette muted with specific pops of orange and purple?",
+        "Is the photography style grainy and film-like?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Door color",
+      "Couple's clothing style",
+      "Urban background season",
+      "Title text color"
+    ],
+    "mustRedesign": [
+      "Specific artist names",
+      "Specific record label logos",
+      "Exact song titles"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clear architectural framing",
+        "Authentic 1960s film grain",
+        "Integrated typography that feels part of the door surface"
+      ],
+      "avoid": [
+        "Digital sharpness",
+        "Modern fashion",
+        "Floating text that doesn't respect the door's perspective"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the door hardware (knob/latch) is visible and realistic.",
+      "Check that the text follows the slight perspective of the open door.",
+      "Verify the couple's pose feels candid rather than staged.",
+      "Confirm the color of the title text is distinct from the background."
+    ],
+    "reuseFormula": "Frame a [Subject] through an [Architectural Element] on the right, using the [Architectural Element] as a canvas for [Heavy Slab Serif] typography in a [Vintage Film] style."
+  }
+}

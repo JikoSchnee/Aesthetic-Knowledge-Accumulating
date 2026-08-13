@@ -1,0 +1,271 @@
+{
+  "id": "ea83cbd81172e713119b80e1e077906dc4660e4261c4f71268b00ceaf4467a94",
+  "skillId": "ea83cbd81172e713119b80e1e077906dc4660e4261c4f71268b00ceaf4467a94",
+  "versionId": "ea83cbd81172e713119b80e1e077906dc4660e4261c4f71268b00ceaf4467a94",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T01:02:42.886Z",
+  "approvedAt": "2026-08-13T01:02:42.886Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T01:02:42.886Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Zebra.jpg",
+    "hash": "ea83cbd81172e713119b80e1e077906dc4660e4261c4f71268b00ceaf4467a94",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Zebra",
+    "artist": "Zebra",
+    "artworkUrl": "https://coverartarchive.org/release-group/88954aa2-448f-3dfe-a09c-41b581d21087/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/88954aa2-448f-3dfe-a09c-41b581d21087",
+    "releaseGroupId": "88954aa2-448f-3dfe-a09c-41b581d21087",
+    "recordingId": "33db3495-c62f-44a2-9848-1177b9cf9265",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Who's Behind The Door?Zebra",
+      "song": "Who's Behind The Door?",
+      "performer": "Zebra",
+      "peakPosition": 61,
+      "firstChartDate": "1983-07-09",
+      "lastChartDate": "1983-08-27",
+      "appearances": [
+        {
+          "chartDate": "1983-07-09",
+          "position": 87
+        },
+        {
+          "chartDate": "1983-07-16",
+          "position": 81
+        },
+        {
+          "chartDate": "1983-07-23",
+          "position": 76
+        },
+        {
+          "chartDate": "1983-07-30",
+          "position": 71
+        },
+        {
+          "chartDate": "1983-08-06",
+          "position": 62
+        },
+        {
+          "chartDate": "1983-08-13",
+          "position": 61
+        },
+        {
+          "chartDate": "1983-08-20",
+          "position": 66
+        },
+        {
+          "chartDate": "1983-08-27",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "hard rock band portrait with geometric display type monochrome portrait heavy sans serif overlapping faces chiaroscuro lighting geometric typography typography overlaps the hair of the leftmost subject faces are arranged in a diagonal recession from left to right deep shadows merge the subjects into a solid black background high key white text contrasts against dark hair and shadows high contrast monochrome photography overlapping subjects ultra bold geometric display type in top left corner",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Hard Rock Band Portrait with Geometric Display Type",
+      "category": "Music Album Art",
+      "medium": [
+        "Black and White Photography",
+        "Graphic Design",
+        "Vector Lettering"
+      ],
+      "useCases": [
+        "Rock band promotional material",
+        "Vintage 80s aesthetic album covers",
+        "High-contrast portrait photography"
+      ],
+      "retrievalTags": [
+        "monochrome portrait",
+        "heavy sans-serif",
+        "overlapping faces",
+        "chiaroscuro lighting",
+        "geometric typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "Use for high-contrast monochrome band portraits featuring ultra-bold, geometric display lettering that overlaps the subject.",
+      "triggerTerms": [
+        "chiaroscuro band portrait",
+        "heavy geometric display type",
+        "overlapping monochrome faces",
+        "80s hard rock aesthetic"
+      ],
+      "excludeWhen": [
+        "full color photography is required",
+        "minimalist or thin typography is requested",
+        "landscape orientation is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A high-contrast black and white composition featuring three male faces in a tight, overlapping arrangement, anchored by a massive, white geometric display font in the upper left corner.",
+    "coreVisualRelationships": [
+      "Typography overlaps the hair of the leftmost subject",
+      "Faces are arranged in a diagonal recession from left to right",
+      "Deep shadows merge the subjects into a solid black background",
+      "High-key white text contrasts against dark hair and shadows"
+    ],
+    "coreInvariants": [
+      "Monochrome black and white color palette",
+      "Ultra-bold geometric sans-serif typography",
+      "Chiaroscuro lighting with deep blacks",
+      "Tight facial cropping"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Three faces occupy the majority of the frame, scaled to fill the vertical space with varying degrees of overlap.",
+      "visualAnchor": "The large white text block in the top-left corner acts as the primary visual anchor.",
+      "movementAndEyePath": "The eye starts at the bright text, follows the diagonal line of the faces downward and to the right.",
+      "negativeSpace": "Extensive black negative space in the lower half and between the subjects creates a sense of depth and mystery."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black for background and shadows",
+      "contrastColorRole": "Pure white for typography and highlights",
+      "accentColorRole": "Mid-tone grays for skin texture and hair detail",
+      "saturationAndValueRelationship": "Zero saturation; extreme value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Ultra-bold geometric sans-serif",
+      "letterConstructionRules": [
+        "Extremely thick strokes with minimal counters",
+        "Sharp, angular terminals and corners",
+        "Letters are tightly kerned to the point of touching or overlapping",
+        "Horizontal bars are thin compared to vertical stems"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'Z' features sharp diagonal terminals",
+        "The 'A' has a very low crossbar and a flat top",
+        "The 'E' and 'B' have extremely compressed internal spaces"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric-display",
+          "anatomy": {
+            "width": "extended",
+            "weight": "ultra-black",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "angular",
+            "counters": "closed",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over-subject",
+            "relationshipToImage": "integrated-overlay"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "thin-black",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "clean",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single-font dominance; no secondary typeface.",
+      "graphicDevices": [
+        "Tight kerning",
+        "Overlapping elements"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Ultra-bold weight",
+          "Geometric structure",
+          "White-on-black contrast"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Thin weights"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Impact or Haettenschweiler",
+            "reason": "Provides the necessary vertical weight and density.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Futura Extra Bold",
+            "reason": "Captures the geometric essence of the letterforms.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white photograph of three men's faces overlapping in a diagonal arrangement, using chiaroscuro lighting with deep shadows and bright highlights on skin and hair.",
+        "overlayInstruction": "Add a single word in the top-left corner using an ultra-bold, white geometric sans-serif font. The letters should be tightly packed and slightly overlap the hair of the subject on the left."
+      },
+      "verificationChecks": [
+        "Is the image strictly black and white?",
+        "Is the typography ultra-bold and geometric?",
+        "Do the faces overlap with deep shadow transitions?",
+        "Is the text positioned in the top-left corner?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of faces",
+      "Specific word for typography",
+      "Intensity of the chiaroscuro effect"
+    ],
+    "mustRedesign": [
+      "Avoid using specific band logos",
+      "Ensure the faces are generic and not recognizable celebrities"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast tonal range",
+        "Sharp typographic edges",
+        "Seamless blending of subjects into the black background"
+      ],
+      "avoid": [
+        "Muddy grays",
+        "Low-resolution textures",
+        "Default system fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure black background",
+      "Verify text is pure white with no transparency",
+      "Ensure no color artifacts are present",
+      "Confirm typography is the largest graphic element"
+    ],
+    "reuseFormula": "High-contrast monochrome photography + Overlapping subjects + Ultra-bold geometric display type in top-left corner."
+  }
+}

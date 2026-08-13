@@ -1,0 +1,284 @@
+{
+  "id": "2238b1c4c6d90fbcafe814ffdfd45b0b04ab044ed8a169c1e5a4ab534320432d",
+  "skillId": "2238b1c4c6d90fbcafe814ffdfd45b0b04ab044ed8a169c1e5a4ab534320432d",
+  "versionId": "2238b1c4c6d90fbcafe814ffdfd45b0b04ab044ed8a169c1e5a4ab534320432d",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T06:55:55.815Z",
+  "approvedAt": "2026-08-12T06:55:55.815Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T06:55:55.815Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Reboot II.jpg",
+    "hash": "2238b1c4c6d90fbcafe814ffdfd45b0b04ab044ed8a169c1e5a4ab534320432d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Reboot II",
+    "artist": "Brooks & Dunn With Morgan Wallen",
+    "artworkUrl": "https://coverartarchive.org/release-group/6a8542a5-9ca1-49f2-93f3-66a1476cde35/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6a8542a5-9ca1-49f2-93f3-66a1476cde35",
+    "releaseGroupId": "6a8542a5-9ca1-49f2-93f3-66a1476cde35",
+    "recordingId": "5e063d9a-5852-40b8-92d2-9f9320af1d2f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Neon MoonBrooks & Dunn With Morgan Wallen",
+      "song": "Neon Moon",
+      "performer": "Brooks & Dunn With Morgan Wallen",
+      "peakPosition": 97,
+      "firstChartDate": "2024-11-30",
+      "lastChartDate": "2024-11-30",
+      "appearances": [
+        {
+          "chartDate": "2024-11-30",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "western gothic album cover steer skull longhorn western gothic tooled leather texture smoke background cowboy aesthetic skull centered vertically and horizontally typography layered over the top and bottom of the central icon atmospheric smoke providing depth behind the subject high contrast between the bone white skull and black background central rustic icon textured metallic display type smoky dark vignette western gothic aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Western Gothic Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Digital Photography",
+        "Graphic Design",
+        "Textured Typography"
+      ],
+      "useCases": [
+        "Country Music Album Art",
+        "Western Themed Event Posters",
+        "Rustic Branding"
+      ],
+      "retrievalTags": [
+        "steer skull",
+        "longhorn",
+        "western gothic",
+        "tooled leather texture",
+        "smoke background",
+        "cowboy aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered steer skull with long horns set against a dark, smoky background, featuring heavily textured western-style display typography.",
+      "triggerTerms": [
+        "western steer skull album art",
+        "tooled silver typography",
+        "rustic longhorn graphic"
+      ],
+      "excludeWhen": [
+        "modern minimalist designs",
+        "bright colorful pop art",
+        "urban tech aesthetics"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A symmetrical composition featuring a weathered steer skull as the central anchor, framed by atmospheric smoke and high-contrast lighting, topped with ornate, textured serif lettering.",
+    "coreVisualRelationships": [
+      "Skull centered vertically and horizontally",
+      "Typography layered over the top and bottom of the central icon",
+      "Atmospheric smoke providing depth behind the subject",
+      "High contrast between the bone-white skull and black background"
+    ],
+    "coreInvariants": [
+      "Steer skull with prominent horizontal horns",
+      "Tooled leather or engraved silver texture within the display type",
+      "Dark, smoky vignette background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The steer skull is the primary subject, centered and occupying approximately 60% of the vertical space.",
+      "visualAnchor": "The central forehead of the skull where the secondary text is placed.",
+      "movementAndEyePath": "Eyes start at the top display text, move down to the skull, and finish at the bottom Roman numerals.",
+      "negativeSpace": "Deep black negative space at the corners, filled with soft grey smoke to create atmosphere."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black background and deep shadows.",
+      "contrastColorRole": "Bone white and light tan of the skull.",
+      "accentColorRole": "Metallic silver and grey in the textured typography.",
+      "saturationAndValueRelationship": "Low saturation overall, relying on value contrast between light bone and dark void.",
+      "paletteRestrictions": [
+        "Monochromatic grey",
+        "Bone white",
+        "Deep black"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "High-contrast slab serif and heavy sans-serif",
+      "letterConstructionRules": [
+        "Display type features internal floral engraving patterns",
+        "Heavy beveling and drop shadows for a 3D metallic effect",
+        "Wide tracking for secondary sans-serif text"
+      ],
+      "characterSpecificRedesigns": [
+        "Ampersand is stylized with a smaller, centered loop",
+        "Roman numerals feature the same internal engraving as the primary title"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "slab-serif",
+          "anatomy": {
+            "width": "expanded",
+            "weight": "bold",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "bracketed serifs",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "textured"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "tight",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating above subject"
+          },
+          "treatment": {
+            "fill": "engraved silver texture",
+            "outline": "thin white",
+            "shadow": "soft black drop shadow",
+            "depth": "beveled",
+            "texture": "floral scrollwork",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "slightly rounded",
+            "counters": "closed",
+            "strokeCharacter": "solid"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "widest",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "centered on skull forehead",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "on top of subject",
+            "relationshipToImage": "integrated"
+          },
+          "treatment": {
+            "fill": "dark charcoal",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Ornate, textured slab-serif for the main brand paired with a clean, heavy sans-serif for the specific edition title.",
+      "graphicDevices": [
+        "Floral scrollwork engraving",
+        "Atmospheric smoke clouds",
+        "Symmetrical layout"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Internal engraving texture",
+          "Slab serif skeleton",
+          "Wide tracking on secondary text"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Thin hairlines",
+          "Bright colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Clarendon with custom texture",
+            "reason": "Provides the necessary slab-serif weight and western feel.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Copperplate Gothic",
+            "reason": "Matches the small-cap feel and sturdy presence.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a centered, weathered steer skull with long horizontal horns against a black background with wisps of grey smoke at the bottom and sides.",
+        "overlayInstruction": "Apply the primary title in a beveled, silver-textured slab-serif font at the top. Place the secondary title in a bold, wide-tracked sans-serif across the skull's forehead. Place large Roman numerals with the same silver texture at the bottom center."
+      },
+      "verificationChecks": [
+        "Is the skull centered?",
+        "Does the main text have a floral engraving texture?",
+        "Is the background dark and smoky?",
+        "Is the secondary text placed directly on the skull?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Density of smoke",
+      "Complexity of the floral engraving",
+      "Width of the horns",
+      "Weathering level of the skull"
+    ],
+    "mustRedesign": [
+      "Specific band logos",
+      "Exact floral pattern in the letters",
+      "Unique cracks in the skull bone"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast lighting",
+        "Tactile metallic texture in typography",
+        "Symmetrical balance"
+      ],
+      "avoid": [
+        "Flat, untextured colors in the display type",
+        "Cartoonish skull illustrations",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is legible against the texture.",
+      "Ensure the smoke does not obscure the horns.",
+      "Verify the beveled effect on the silver text looks three-dimensional.",
+      "Confirm the Roman numerals match the primary title style."
+    ],
+    "reuseFormula": "Central rustic icon + Textured metallic display type + Smoky dark vignette = Western Gothic Aesthetic"
+  }
+}

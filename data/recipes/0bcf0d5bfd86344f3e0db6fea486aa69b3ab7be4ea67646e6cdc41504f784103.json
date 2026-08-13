@@ -1,0 +1,296 @@
+{
+  "id": "0bcf0d5bfd86344f3e0db6fea486aa69b3ab7be4ea67646e6cdc41504f784103",
+  "skillId": "0bcf0d5bfd86344f3e0db6fea486aa69b3ab7be4ea67646e6cdc41504f784103",
+  "versionId": "0bcf0d5bfd86344f3e0db6fea486aa69b3ab7be4ea67646e6cdc41504f784103",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T10:25:06.650Z",
+  "approvedAt": "2026-08-12T10:25:06.650Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T10:25:06.650Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Light.jpg",
+    "hash": "0bcf0d5bfd86344f3e0db6fea486aa69b3ab7be4ea67646e6cdc41504f784103",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Light",
+    "artist": "Matisyahu",
+    "artworkUrl": "https://coverartarchive.org/release-group/c92309d6-db28-4f2a-b471-b5778b8f854b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/c92309d6-db28-4f2a-b471-b5778b8f854b",
+    "releaseGroupId": "c92309d6-db28-4f2a-b471-b5778b8f854b",
+    "recordingId": "a3ff7363-2409-4924-85af-e3bea001cdc1",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "One DayMatisyahu",
+      "song": "One Day",
+      "performer": "Matisyahu",
+      "peakPosition": 85,
+      "firstChartDate": "2010-03-13",
+      "lastChartDate": "2010-04-17",
+      "appearances": [
+        {
+          "chartDate": "2010-03-13",
+          "position": 90
+        },
+        {
+          "chartDate": "2010-03-20",
+          "position": 93
+        },
+        {
+          "chartDate": "2010-03-27",
+          "position": 89
+        },
+        {
+          "chartDate": "2010-04-03",
+          "position": 90
+        },
+        {
+          "chartDate": "2010-04-10",
+          "position": 85
+        },
+        {
+          "chartDate": "2010-04-17",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "overexposed solar flare portrait overexposed lens flare warm glow hooded figure minimalist layout sun drenched high key lighting subject to light the light acts as both a mask and a highlight obscuring the face warmth to neutral the golden orange tones of the figure contrast against a sterile cream background scale to space large scale display typography at the top balances the weighted figure at the bottom high key overexposed portrait central lens flare top aligned geometric sans serif display type warm monochromatic palette",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Overexposed Solar Flare Portrait",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Digital Post-Processing"
+      ],
+      "useCases": [
+        "Music cover art",
+        "Atmospheric editorial photography",
+        "Minimalist graphic posters"
+      ],
+      "retrievalTags": [
+        "overexposed",
+        "lens flare",
+        "warm glow",
+        "hooded figure",
+        "minimalist layout",
+        "sun-drenched",
+        "high-key lighting"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-key, sun-drenched portrait featuring a central figure obscured by intense golden lens flares and overexposed highlights.",
+      "triggerTerms": [
+        "overexposed golden hour portrait",
+        "intense lens flare obscuring face",
+        "warm high-key photography with minimalist sans-serif type"
+      ],
+      "excludeWhen": [
+        "dark or moody lighting is required",
+        "sharp facial detail is necessary",
+        "complex backgrounds are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A minimalist composition dominated by a central hooded figure bathed in extreme, overexposed warm light. The light source creates a massive, soft-edged white and yellow flare that washes out the subject's facial features, leaving only a suggestion of the eyes and nose. The background is a flat, off-white cream color, creating a high-key aesthetic where the subject emerges from the bottom frame.",
+    "coreVisualRelationships": [
+      "Subject-to-light: The light acts as both a mask and a highlight, obscuring the face.",
+      "Warmth-to-Neutral: The golden-orange tones of the figure contrast against a sterile cream background.",
+      "Scale-to-Space: Large-scale display typography at the top balances the weighted figure at the bottom."
+    ],
+    "coreInvariants": [
+      "Extreme overexposure in the center of the frame",
+      "Warm color temperature (yellow, orange, cream)",
+      "Minimalist off-white negative space at the top"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Central hooded figure, cropped from the chest up, occupying the bottom two-thirds of the frame.",
+      "visualAnchor": "The intense white-hot center of the lens flare on the subject's face.",
+      "movementAndEyePath": "Starts at the large display text at the top, drops down to the bright flare, and settles on the subtle secondary text in the bottom right.",
+      "negativeSpace": "Significant cream-colored negative space in the top third and around the shoulders."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white/Cream background providing a clean, high-key base.",
+      "contrastColorRole": "Golden yellow and orange tones within the subject and flare.",
+      "accentColorRole": "Pure white highlights at the core of the light flare.",
+      "saturationAndValueRelationship": "High value (brightness) throughout; saturation is concentrated in the mid-tones of the hoodie and the edges of the flare.",
+      "paletteRestrictions": [
+        "No cool tones (blues, greens)",
+        "No deep blacks or heavy shadows"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Open counters",
+        "Geometric curves (circular 'O', 'S')",
+        "Flat terminals"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal to slightly wide",
+            "weight": "Bold",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Centered",
+            "tracking": "Tight",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top edge",
+            "scale": "Large, spanning the width of the frame",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Muted golden-yellow",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Solid",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light",
+            "contrast": "Monolinear",
+            "xHeight": "High",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Solid"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Wide",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Light"
+          },
+          "composition": {
+            "position": "Bottom right corner",
+            "scale": "Small",
+            "rotation": "0",
+            "warp": "None",
+            "overlap": "Overlays the subject's shoulder",
+            "relationshipToImage": "Subtle overlay"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Solid",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Same family pairing using weight and scale contrast (Bold vs. Light).",
+      "graphicDevices": [
+        "None"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase geometric structure",
+          "Top-aligned placement for display text"
+        ],
+        "avoid": [
+          "Serifs",
+          "Script fonts",
+          "High-contrast strokes"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Matches the geometric uppercase structure and uniform weight.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Gotham Bold",
+            "reason": "Provides a similar modern, clean aesthetic with open counters.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key portrait of a hooded figure from the chest up against a cream background. Apply an intense, overexposed golden-yellow lens flare directly over the face, washing out features into white light. Keep the bottom edges of the figure visible in warm orange tones.",
+        "overlayInstruction": "Add large, bold, uppercase geometric sans-serif text in a muted gold color at the very top edge. Add small, light-weight, uppercase geometric sans-serif text in white at the bottom right corner, tracked wide."
+      },
+      "verificationChecks": [
+        "Is the face significantly obscured by light?",
+        "Is the background a flat, warm off-white?",
+        "Is the top text bold and uppercase?",
+        "Is the overall color palette limited to warm tones and cream?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the lens flare",
+      "Hue of the warm light (yellow vs. orange)",
+      "Weight of the display typography"
+    ],
+    "mustRedesign": [
+      "Do not include specific facial features if they are too clear; maintain the overexposed 'wash out' effect.",
+      "Do not use cool colors like blue or green."
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft, ethereal glow",
+        "Clean, minimalist layout",
+        "Balanced high-key exposure"
+      ],
+      "avoid": [
+        "Harsh shadows",
+        "Cluttered backgrounds",
+        "Low-resolution grain"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the flare doesn't look like a solid white circle but a natural light bleed.",
+      "Ensure the top text is perfectly centered and aligned to the top margin.",
+      "Verify the bottom right text is legible but subtle against the subject."
+    ],
+    "reuseFormula": "High-key overexposed portrait + central lens flare + top-aligned geometric sans-serif display type + warm monochromatic palette."
+  }
+}

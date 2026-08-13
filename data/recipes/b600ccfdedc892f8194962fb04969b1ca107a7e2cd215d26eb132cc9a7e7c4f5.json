@@ -1,0 +1,271 @@
+{
+  "id": "b600ccfdedc892f8194962fb04969b1ca107a7e2cd215d26eb132cc9a7e7c4f5",
+  "skillId": "b600ccfdedc892f8194962fb04969b1ca107a7e2cd215d26eb132cc9a7e7c4f5",
+  "versionId": "b600ccfdedc892f8194962fb04969b1ca107a7e2cd215d26eb132cc9a7e7c4f5",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T16:54:20.523Z",
+  "approvedAt": "2026-08-12T16:54:20.523Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T16:54:20.523Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Change the Weather.jpg",
+    "hash": "b600ccfdedc892f8194962fb04969b1ca107a7e2cd215d26eb132cc9a7e7c4f5",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Change the Weather",
+    "artist": "Underworld",
+    "artworkUrl": "https://coverartarchive.org/release-group/e60c53fe-7537-3bde-9eab-4884ea9b3486/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e60c53fe-7537-3bde-9eab-4884ea9b3486",
+    "releaseGroupId": "e60c53fe-7537-3bde-9eab-4884ea9b3486",
+    "recordingId": "2ef8a716-3e7e-436a-a492-3db204df66d2",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Stand UpUnderworld",
+      "song": "Stand Up",
+      "performer": "Underworld",
+      "peakPosition": 67,
+      "firstChartDate": "1989-08-26",
+      "lastChartDate": "1989-10-14",
+      "appearances": [
+        {
+          "chartDate": "1989-08-26",
+          "position": 95
+        },
+        {
+          "chartDate": "1989-09-02",
+          "position": 87
+        },
+        {
+          "chartDate": "1989-09-09",
+          "position": 78
+        },
+        {
+          "chartDate": "1989-09-16",
+          "position": 71
+        },
+        {
+          "chartDate": "1989-09-23",
+          "position": 67
+        },
+        {
+          "chartDate": "1989-09-30",
+          "position": 69
+        },
+        {
+          "chartDate": "1989-10-07",
+          "position": 79
+        },
+        {
+          "chartDate": "1989-10-14",
+          "position": 97
+        }
+      ]
+    }
+  },
+  "dedupeText": "new wave monochrome portrait monochrome geometric background 1980s aesthetic high contrast ornate jacket boxed typography subject s dark clothing contrasts sharply with the light geometric background intricate embroidery on the jacket mirrors the complexity of the background pattern the subject s direct gaze creates a strong psychological connection with the viewer the small rigid text box provides a modern graphic counterpoint to the organic portrait high contrast b w portrait geometric lattice background ornate fashion boxed geometric sans serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "New Wave Monochrome Portrait",
+      "category": "Music Album Art",
+      "medium": [
+        "Black and White Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Album Covers",
+        "Editorial Portraits",
+        "Fashion Photography",
+        "Post-Punk Visuals"
+      ],
+      "retrievalTags": [
+        "monochrome",
+        "geometric background",
+        "1980s aesthetic",
+        "high contrast",
+        "ornate jacket",
+        "boxed typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast black and white portrait featuring a subject against a repetitive geometric pattern with boxed, minimalist sans-serif typography in the upper corner.",
+      "triggerTerms": [
+        "monochrome portrait with geometric background",
+        "80s new wave album aesthetic",
+        "high contrast black and white photography with boxed text"
+      ],
+      "excludeWhen": [
+        "vibrant colors are required",
+        "soft, low-contrast lighting is needed",
+        "naturalistic outdoor settings are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, close-up black and white portrait of a man with intense eyes, wearing an ornate embroidered jacket, set against a background of repeating diamond and dot patterns. The composition is anchored by a small, rectangular text block in the top right corner.",
+    "coreVisualRelationships": [
+      "Subject's dark clothing contrasts sharply with the light geometric background",
+      "Intricate embroidery on the jacket mirrors the complexity of the background pattern",
+      "The subject's direct gaze creates a strong psychological connection with the viewer",
+      "The small, rigid text box provides a modern, graphic counterpoint to the organic portrait"
+    ],
+    "coreInvariants": [
+      "Strict black and white grayscale palette",
+      "Repeating geometric diamond/lattice background",
+      "High-contrast lighting emphasizing facial features",
+      "Ornate, textured clothing details"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered and occupies the lower two-thirds of the frame in a medium close-up.",
+      "visualAnchor": "The subject's eyes and the high-contrast facial features.",
+      "movementAndEyePath": "Eyes move from the subject's face to the ornate jacket details, then up to the geometric background and finally to the boxed text in the top right.",
+      "negativeSpace": "Minimal; the frame is densely packed with pattern and texture."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep blacks in the subject's hair and clothing.",
+      "contrastColorRole": "Bright whites in the background and highlights on the skin.",
+      "accentColorRole": "Mid-tone grays in the skin texture and jacket embroidery.",
+      "saturationAndValueRelationship": "Zero saturation; extreme value range from pure black to pure white.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Wide tracking (letter spacing)",
+        "All-caps presentation",
+        "Contained within a thin-bordered rectangular box"
+      ],
+      "characterSpecificRedesigns": [
+        "None; standard geometric forms"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High (all caps)",
+            "terminals": "Flat",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Center",
+            "tracking": "Wide",
+            "leading": "Tight",
+            "lineBreakPattern": "Stacked within box",
+            "density": "High"
+          },
+          "composition": {
+            "position": "Top right corner",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over background"
+          },
+          "treatment": {
+            "fill": "White text on black background",
+            "outline": "Thin white border around black box",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used in different weights or sizes within a boxed graphic device.",
+      "graphicDevices": [
+        "Double-lined rectangular box",
+        "Horizontal divider line between text lines"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "All-caps",
+          "Wide tracking",
+          "Boxed enclosure"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Handwritten styles"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Futura Bold",
+            "reason": "Matches the geometric, 80s-modernist feel of the original.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Franklin Gothic",
+            "reason": "Provides a sturdy, industrial sans-serif look.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white portrait of a man with dark hair and intense eyes, wearing a black jacket with intricate silver/white embroidery. The background should be a repeating pattern of diamonds with central dots.",
+        "overlayInstruction": "Add a small rectangular black box in the top right corner with a thin white border. Inside, place two lines of white, all-caps geometric sans-serif text separated by a thin horizontal line."
+      },
+      "verificationChecks": [
+        "Is the image strictly black and white?",
+        "Is the background a consistent geometric pattern?",
+        "Is the text contained within a bordered box in the corner?",
+        "Is the subject's gaze direct and high-contrast?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Complexity of the background pattern",
+      "Intricacy of the jacket embroidery",
+      "Subject's pose and expression",
+      "Specific text content in the box"
+    ],
+    "mustRedesign": [
+      "Specific brand logos",
+      "Exact artist likeness",
+      "Original album title text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Sharp focus on the subject's face",
+        "Clean, high-contrast grayscale conversion",
+        "Precise alignment of the graphic text box"
+      ],
+      "avoid": [
+        "Blurry or low-resolution textures",
+        "Muddy gray tones with no true blacks",
+        "Cluttered or asymmetrical text placement"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure no color artifacts are present",
+      "Verify the geometric pattern is seamless",
+      "Check that the text box border is crisp",
+      "Confirm the lighting creates dramatic shadows on the face"
+    ],
+    "reuseFormula": "High-contrast B&W portrait + geometric lattice background + ornate fashion + boxed geometric sans-serif typography."
+  }
+}

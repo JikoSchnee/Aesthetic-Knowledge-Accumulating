@@ -1,0 +1,290 @@
+{
+  "id": "db73986c1610e73929fb2388d6de5d1ad270c37fb15728bf27483f1f06604801",
+  "skillId": "db73986c1610e73929fb2388d6de5d1ad270c37fb15728bf27483f1f06604801",
+  "versionId": "db73986c1610e73929fb2388d6de5d1ad270c37fb15728bf27483f1f06604801",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T18:07:48.703Z",
+  "approvedAt": "2026-08-12T18:07:48.703Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T18:07:48.703Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Deepa.jpg",
+    "hash": "db73986c1610e73929fb2388d6de5d1ad270c37fb15728bf27483f1f06604801",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Deepa",
+    "artist": "Troop",
+    "artworkUrl": "https://coverartarchive.org/release-group/8f423b7e-523a-3dff-9679-6132dc6c804b/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/8f423b7e-523a-3dff-9679-6132dc6c804b",
+    "releaseGroupId": "8f423b7e-523a-3dff-9679-6132dc6c804b",
+    "recordingId": "4f51bcda-aff1-4fab-81d3-86bf91438999",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Sweet NovemberTroop",
+      "song": "Sweet November",
+      "performer": "Troop",
+      "peakPosition": 58,
+      "firstChartDate": "1992-09-26",
+      "lastChartDate": "1992-12-19",
+      "appearances": [
+        {
+          "chartDate": "1992-09-26",
+          "position": 85
+        },
+        {
+          "chartDate": "1992-10-03",
+          "position": 84
+        },
+        {
+          "chartDate": "1992-10-10",
+          "position": 74
+        },
+        {
+          "chartDate": "1992-10-17",
+          "position": 71
+        },
+        {
+          "chartDate": "1992-10-24",
+          "position": 65
+        },
+        {
+          "chartDate": "1992-10-31",
+          "position": 63
+        },
+        {
+          "chartDate": "1992-11-07",
+          "position": 69
+        },
+        {
+          "chartDate": "1992-11-14",
+          "position": 66
+        },
+        {
+          "chartDate": "1992-11-21",
+          "position": 58
+        },
+        {
+          "chartDate": "1992-11-28",
+          "position": 62
+        },
+        {
+          "chartDate": "1992-12-05",
+          "position": 70
+        },
+        {
+          "chartDate": "1992-12-12",
+          "position": 77
+        },
+        {
+          "chartDate": "1992-12-19",
+          "position": 93
+        }
+      ]
+    }
+  },
+  "dedupeText": "monochromatic group portrait with geometric logo monochromatic blue leather jackets geometric block lettering staggered group composition high top fades diagonal recession of subjects from right foreground to left background monochromatic blue tinting across all photographic elements high contrast lighting highlighting facial features and leather textures horizontal geometric logo block acting as a visual base monochromatic color staggered diagonal portrait geometric block logo overlay",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Monochromatic Group Portrait with Geometric Logo",
+      "category": "Music Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "90s R&B album covers",
+        "Group promotional photography",
+        "Urban fashion editorials"
+      ],
+      "retrievalTags": [
+        "monochromatic blue",
+        "leather jackets",
+        "geometric block lettering",
+        "staggered group composition",
+        "high-top fades"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A monochromatic blue-tinted group portrait featuring a staggered depth-of-field arrangement and a bold, geometric red-bordered logo at the bottom.",
+      "triggerTerms": [
+        "blue monochromatic group photo",
+        "staggered portrait depth",
+        "geometric block logo overlay"
+      ],
+      "excludeWhen": [
+        "vibrant multi-color photography is required",
+        "minimalist white backgrounds are requested",
+        "solo artist portraits"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A series of five men in leather jackets arranged in a diagonal line receding into a dark background, all unified by a deep blue color grade and anchored by a heavy, red-framed geometric logo in the lower foreground.",
+    "coreVisualRelationships": [
+      "Diagonal recession of subjects from right foreground to left background",
+      "Monochromatic blue tinting across all photographic elements",
+      "High-contrast lighting highlighting facial features and leather textures",
+      "Horizontal geometric logo block acting as a visual base"
+    ],
+    "coreInvariants": [
+      "Deep blue monochromatic color cast on the photography",
+      "Staggered head heights creating a rhythmic diagonal",
+      "Heavy red rectangular border around the primary text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Five subjects staggered diagonally; the rightmost figure is largest in the foreground, scaling down to the leftmost figure in the background.",
+      "visualAnchor": "The bright red rectangular logo block at the bottom center-right.",
+      "movementAndEyePath": "The eye starts at the large foreground face on the right, follows the diagonal line of heads back into the distance, and drops down to the bold red logo.",
+      "negativeSpace": "Deep black/dark blue void in the upper left and top areas provides breathing room for the dense group arrangement."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep Navy and Cyan (monochromatic photo tint)",
+      "contrastColorRole": "Bright Red (logo border and fill accents)",
+      "accentColorRole": "Light Blue (text interior)",
+      "saturationAndValueRelationship": "Low saturation in the photography with high value contrast; high saturation and flat values in the graphic logo.",
+      "paletteRestrictions": [
+        "Monochromatic blue photography",
+        "Primary red for graphic elements"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "ultra-wide geometric sans-serif",
+      "letterConstructionRules": [
+        "Letters are constructed from thick, uniform blocks",
+        "Negative space within letters is minimal and geometric",
+        "Stems and crossbars have equal weight",
+        "The 'T' and 'P' feature extended horizontal bars that touch the border"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'O's are perfect squares with small central cutouts",
+        "The 'R' uses a notched block for the leg"
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 1,
+          "classification": "display",
+          "anatomy": {
+            "width": "ultra-expanded",
+            "weight": "heavy",
+            "contrast": "none",
+            "xHeight": "100% (all caps)",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "minimal/square",
+            "strokeCharacter": "monolinear blocks"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "solid"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "foreground",
+            "relationshipToImage": "contained within a red rectangular frame"
+          },
+          "treatment": {
+            "fill": "cyan-blue",
+            "outline": "thick red border",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "matte",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Stand-alone geometric branding; no secondary type is used to maintain focus on the group identity.",
+      "graphicDevices": [
+        "Thick red rectangular frame",
+        "Interlocking letterforms"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Geometric blockiness",
+          "Red border",
+          "Cyan fill"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Thin strokes",
+          "Rounded corners"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bank Gothic (Modified)",
+            "reason": "Provides the wide, square skeleton needed for the base.",
+            "confidence": "medium"
+          },
+          {
+            "nameOrCategory": "Microgramma (Modified)",
+            "reason": "Captures the 90s tech-geometric aesthetic.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a group portrait of five men in black leather jackets, arranged in a diagonal line receding into the background. Apply a deep monochromatic blue tint to the entire image with high contrast lighting.",
+        "overlayInstruction": "Create a horizontal red rectangular box at the bottom. Inside, place custom geometric block lettering with a cyan fill, ensuring the letters are thick and touch the red borders."
+      },
+      "verificationChecks": [
+        "Is the photo monochromatic blue?",
+        "Are the subjects staggered diagonally?",
+        "Is the logo contained in a thick red rectangle?",
+        "Are the letterforms ultra-wide and geometric?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the blue tint",
+      "Number of subjects in the diagonal",
+      "Thickness of the red logo border"
+    ],
+    "mustRedesign": [
+      "Any specific facial features of the original subjects",
+      "The exact unique letterform of the 'R'",
+      "Specific brand logos on the clothing"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Consistent monochromatic blue grading",
+        "Sharp focus on the foreground subject",
+        "Perfectly horizontal and centered logo placement"
+      ],
+      "avoid": [
+        "Blurry or low-contrast photography",
+        "Thin or organic typography",
+        "Multiple colors in the background"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the blue tint is uniform across all subjects.",
+      "Verify the red border is a solid, vibrant primary red.",
+      "Ensure the diagonal composition creates a sense of depth.",
+      "Confirm the text is legible despite its geometric abstraction.",
+      "Check that the leather texture is visible through the blue grade."
+    ],
+    "reuseFormula": "Monochromatic [Color] + Staggered Diagonal Portrait + Geometric Block Logo Overlay"
+  }
+}

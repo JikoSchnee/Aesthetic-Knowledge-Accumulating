@@ -1,0 +1,284 @@
+{
+  "id": "d6f8793334d79276913ba4fcdad7217754700585871cca17da09c5467a12695d",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T14:11:10.109Z",
+  "approvedAt": "2026-08-11T14:11:10.109Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T14:11:10.109Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Alma Vacía.jpg",
+    "hash": "d6f8793334d79276913ba4fcdad7217754700585871cca17da09c5467a12695d",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Alma Vacía",
+    "artist": "Ivan Cornejo",
+    "artworkUrl": "https://coverartarchive.org/release-group/78582a2b-5169-4b52-aa89-3ff1998c0cb9/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/78582a2b-5169-4b52-aa89-3ff1998c0cb9",
+    "releaseGroupId": "78582a2b-5169-4b52-aa89-3ff1998c0cb9",
+    "recordingId": "c3a18e7a-f58e-420e-9a6c-0eb6f4cdc493",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Esta DanadaIvan Cornejo",
+      "song": "Esta Danada",
+      "performer": "Ivan Cornejo",
+      "peakPosition": 61,
+      "firstChartDate": "2021-10-16",
+      "lastChartDate": "2021-11-13",
+      "appearances": [
+        {
+          "chartDate": "2021-10-16",
+          "position": 96
+        },
+        {
+          "chartDate": "2021-10-23",
+          "position": 61
+        },
+        {
+          "chartDate": "2021-10-30",
+          "position": 66
+        },
+        {
+          "chartDate": "2021-11-06",
+          "position": 72
+        },
+        {
+          "chartDate": "2021-11-13",
+          "position": 83
+        }
+      ]
+    }
+  },
+  "dedupeText": "melancholic heartbreak album cover dark melancholic heartbreak anatomical heart grunge ink splatter portrait gothic typography the red anatomical heart held in the hand mirrors the red color of the primary display text the black ink splatter on the chest creates a visual void that contrasts with the light sweatshirt the diagonal white scratches in the background lead the eye from the subject toward the typography combine a desaturated portrait with a symbolic object heart a destructive graphic element splatter and a high contrast typographic pairing gothic sans serif under a heavy grunge texture",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Melancholic Heartbreak Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Digital Photography",
+        "Graphic Illustration",
+        "Mixed Media"
+      ],
+      "useCases": [
+        "Album Cover",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "dark",
+        "melancholic",
+        "heartbreak",
+        "anatomical heart",
+        "grunge",
+        "ink splatter",
+        "portrait",
+        "gothic typography"
+      ]
+    },
+    "visualDefinition": "A low-key portrait of a young man in a light grey sweatshirt, holding an anatomical heart in his hand. A large black ink splatter appears over his chest, suggesting a void. The background is dark and textured with white scratches and dust, featuring large, stylized gothic-inspired red typography in the upper right and clean sans-serif text at the bottom.",
+    "coreVisualRelationships": [
+      "The red anatomical heart held in the hand mirrors the red color of the primary display text.",
+      "The black ink splatter on the chest creates a visual void that contrasts with the light sweatshirt.",
+      "The diagonal white scratches in the background lead the eye from the subject toward the typography."
+    ],
+    "coreInvariants": [
+      "Low-key, high-contrast lighting on the subject's face.",
+      "Desaturated color palette with deep red as the only vibrant accent.",
+      "Distressed, grimy texture overlays across the entire composition."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Medium shot of the subject centered horizontally, occupying the lower two-thirds of the frame.",
+      "visualAnchor": "The anatomical heart held in the hand, emphasized by its bright red color against the dark background.",
+      "movementAndEyePath": "Starts at the subject's face, moves down to the ink splatter, follows the arm up to the heart, and finishes at the large red title.",
+      "negativeSpace": "Heavy dark negative space in the upper left and right corners to allow for text placement."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and black providing a somber, moody background.",
+      "contrastColorRole": "Light grey of the sweatshirt to make the subject pop from the shadows.",
+      "accentColorRole": "Blood red used for the heart and the primary display typography.",
+      "saturationAndValueRelationship": "Low saturation overall with high value contrast between the sweatshirt and the background.",
+      "paletteRestrictions": [
+        "Black",
+        "Grey",
+        "Blood Red",
+        "White (scratches)"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "modified-font",
+      "baseSkeleton": "Gothic Fraktur and Modern Sans-Serif",
+      "letterConstructionRules": [
+        "Primary title uses elongated ascenders and descenders with sharp, thorn-like serifs.",
+        "Secondary text uses wide tracking and thin, uniform stroke weights."
+      ],
+      "characterSpecificRedesigns": [
+        "The initial letter of the title features an oversized, sweeping flourish that wraps around the following characters."
+      ],
+      "recommendedProductionMethod": "svg-outline",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Blackletter/Gothic",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Medium",
+            "contrast": "High",
+            "xHeight": "Tall",
+            "terminals": "Pointed",
+            "corners": "Sharp",
+            "counters": "Narrow",
+            "strokeCharacter": "Calligraphic"
+          },
+          "typesetting": {
+            "case": "Sentence case",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Compact",
+            "lineBreakPattern": "Stacked",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Upper right quadrant",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Behind the subject's hand",
+            "relationshipToImage": "Integrated into the background texture"
+          },
+          "treatment": {
+            "fill": "Deep Red",
+            "outline": "None",
+            "shadow": "Subtle outer glow",
+            "depth": "Flat",
+            "texture": "Slightly distressed",
+            "distortion": "None"
+          }
+        },
+        {
+          "role": "metadata",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Light",
+            "contrast": "None",
+            "xHeight": "Medium",
+            "terminals": "Blunt",
+            "corners": "Square",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Justified",
+            "tracking": "Very wide",
+            "leading": "Single",
+            "lineBreakPattern": "Single line",
+            "density": "Airy"
+          },
+          "composition": {
+            "position": "Bottom edge",
+            "scale": "Small",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "Over the subject's torso",
+            "relationshipToImage": "Floating overlay"
+          },
+          "treatment": {
+            "fill": "White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "High contrast between ornate, emotional Gothic type and cold, clinical Sans-Serif.",
+      "graphicDevices": [
+        "Ink splatter brush",
+        "Film grain",
+        "Dust and scratch textures"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Red color for main title",
+          "Wide tracking for bottom text",
+          "Gothic style for main title"
+        ],
+        "avoid": [
+          "Bright colors",
+          "Playful fonts",
+          "Clean, high-key lighting"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Cloister Black",
+            "reason": "Captures the sharp, gothic aesthetic of the primary title.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Montserrat Light",
+            "reason": "Provides the clean, wide-tracked geometric look for the metadata.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a moody portrait of a young man in a grey sweatshirt against a dark, textured background with white scratches. He is holding a realistic red anatomical heart. A large black ink splatter is centered on his chest.",
+        "overlayInstruction": "Add a large red Gothic-style title in the upper right and a thin, wide-tracked white sans-serif name at the very bottom."
+      },
+      "verificationChecks": [
+        "Is the ink splatter centered on the chest?",
+        "Is the heart the primary red focal point?",
+        "Is the background sufficiently dark and distressed?",
+        "Is the typography hierarchy clear?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of the ink splatter",
+      "Density of the background scratches",
+      "Saturation of the red elements"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the subject",
+      "Exact shape of the ink splatter",
+      "Specific brand logos or signatures"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Grungy, distressed texture",
+        "Dramatic low-key lighting",
+        "Emotional, somber tone"
+      ],
+      "avoid": [
+        "Cartoonish illustrations",
+        "Vibrant multi-color palettes",
+        "Soft, even lighting"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure the text is legible against the dark background.",
+      "Check that the heart looks anatomical rather than a symbol.",
+      "Verify the scratch texture doesn't obscure the subject's face.",
+      "Confirm the wide tracking on the bottom text is maintained."
+    ],
+    "reuseFormula": "Combine a desaturated portrait with a symbolic object (heart), a destructive graphic element (splatter), and a high-contrast typographic pairing (Gothic + Sans-Serif) under a heavy grunge texture."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:24:04.124Z"
+}

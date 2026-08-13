@@ -1,0 +1,278 @@
+{
+  "id": "840f51dd4ac5a45ecbebea7c63d2f580d2b88648c977c9e06052cd5f885850d6",
+  "skillId": "840f51dd4ac5a45ecbebea7c63d2f580d2b88648c977c9e06052cd5f885850d6",
+  "versionId": "840f51dd4ac5a45ecbebea7c63d2f580d2b88648c977c9e06052cd5f885850d6",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T02:17:15.565Z",
+  "approvedAt": "2026-08-13T02:17:15.565Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T02:17:15.565Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Sweet Sweet.jpg",
+    "hash": "840f51dd4ac5a45ecbebea7c63d2f580d2b88648c977c9e06052cd5f885850d6",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Sweet Sweet",
+    "artist": "Burton Cummings",
+    "artworkUrl": "https://coverartarchive.org/release-group/6928f88e-2e59-471f-837f-a5c9ae361389/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/6928f88e-2e59-471f-837f-a5c9ae361389",
+    "releaseGroupId": "6928f88e-2e59-471f-837f-a5c9ae361389",
+    "recordingId": "f69521b0-0140-4f0f-81ad-806356692719",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "You Saved My SoulBurton Cummings",
+      "song": "You Saved My Soul",
+      "performer": "Burton Cummings",
+      "peakPosition": 37,
+      "firstChartDate": "1981-09-12",
+      "lastChartDate": "1981-11-21",
+      "appearances": [
+        {
+          "chartDate": "1981-09-12",
+          "position": 83
+        },
+        {
+          "chartDate": "1981-09-19",
+          "position": 74
+        },
+        {
+          "chartDate": "1981-09-26",
+          "position": 64
+        },
+        {
+          "chartDate": "1981-10-03",
+          "position": 54
+        },
+        {
+          "chartDate": "1981-10-10",
+          "position": 48
+        },
+        {
+          "chartDate": "1981-10-17",
+          "position": 42
+        },
+        {
+          "chartDate": "1981-10-24",
+          "position": 37
+        },
+        {
+          "chartDate": "1981-10-31",
+          "position": 37
+        },
+        {
+          "chartDate": "1981-11-07",
+          "position": 60
+        },
+        {
+          "chartDate": "1981-11-14",
+          "position": 82
+        },
+        {
+          "chartDate": "1981-11-21",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "retro studio portrait with diagonal typography mustache curly hair diagonal text studio lighting patterned shirt hands forward monochrome background subject centered horizontally and vertically hands in foreground creating depth and framing the face diagonal text lines mirroring each other in upper corners patterned shirt contrasting with solid dark pants and undershirt center weighted portrait mirror diagonal corner typography 1970s styling",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Retro Studio Portrait with Diagonal Typography",
+      "category": "Album Art",
+      "medium": [
+        "Photography",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Vinyl record covers",
+        "1970s-style editorial portraits",
+        "Musician promotional material"
+      ],
+      "retrievalTags": [
+        "mustache",
+        "curly hair",
+        "diagonal text",
+        "studio lighting",
+        "patterned shirt",
+        "hands forward",
+        "monochrome background"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A centered male portrait with hands held up toward the camera, framed by diagonal text lines in the upper corners.",
+      "triggerTerms": [
+        "retro male portrait with hands forward",
+        "diagonal corner typography layout",
+        "1970s studio photography style"
+      ],
+      "excludeWhen": [
+        "landscape orientation is required",
+        "modern high-contrast digital lighting is needed",
+        "minimalist text-free compositions are requested"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A centered, medium-shot portrait of a man with dark curly hair and a mustache, wearing a patterned open shirt over a dark tee. He holds both hands up, palms facing forward, creating a framing effect for his face. The background is a neutral, slightly vignetted studio backdrop. Text is placed at a 30-degree upward angle in the top-left and top-right corners, underlined by thin parallel rules.",
+    "coreVisualRelationships": [
+      "Subject centered horizontally and vertically",
+      "Hands in foreground creating depth and framing the face",
+      "Diagonal text lines mirroring each other in upper corners",
+      "Patterned shirt contrasting with solid dark pants and undershirt"
+    ],
+    "coreInvariants": [
+      "Symmetrical diagonal text placement",
+      "Direct eye contact with the camera",
+      "Neutral, low-texture studio background"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is central, occupying 80% of the vertical frame height.",
+      "visualAnchor": "The subject's face, framed by his own hands.",
+      "movementAndEyePath": "Eyes start at the face, move outward to the hands, then follow the diagonal text lines to the corners.",
+      "negativeSpace": "Ample negative space in the upper corners to accommodate the angled typography."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Neutral grey/blue studio background",
+      "contrastColorRole": "Deep black for pants and undershirt",
+      "accentColorRole": "Off-white with dark blue patterns on the overshirt",
+      "saturationAndValueRelationship": "Low saturation overall with a focus on tonal range and soft shadows.",
+      "paletteRestrictions": [
+        "Avoid vibrant neon colors",
+        "Stick to muted 1970s film tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Serif with moderate weight and italic slant",
+      "letterConstructionRules": [
+        "High-contrast stroke weights",
+        "Sharp, bracketed serifs",
+        "Italicized for dynamic movement",
+        "Underlined by a thin rule following the baseline angle"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Transitional Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Medium-Bold",
+            "contrast": "High",
+            "xHeight": "Medium",
+            "terminals": "Sharp",
+            "corners": "Bracketed",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "Title Case",
+            "alignment": "Left and Right justified to corners",
+            "tracking": "Tight",
+            "leading": "Normal",
+            "lineBreakPattern": "Two-line stacks",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Top-left and Top-right corners",
+            "scale": "Large",
+            "rotation": "30 degrees upward",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating above the subject's shoulders"
+          },
+          "treatment": {
+            "fill": "Solid dark grey",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface used in two mirrored locations for symmetry.",
+      "graphicDevices": [
+        "Thin diagonal rules underlining the text"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Diagonal orientation",
+          "Serif classification",
+          "Underline rules"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Horizontal text placement",
+          "Brightly colored text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Times New Roman Bold Italic",
+            "reason": "Matches the classic transitional serif structure and availability.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Baskerville Italic",
+            "reason": "Provides the high contrast and elegant serifs seen in the era.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a studio portrait of a man with 1970s curly hair and mustache, wearing a patterned short-sleeve shirt over a black tee, holding his hands up toward the camera in a framing gesture, against a neutral grey studio backdrop.",
+        "overlayInstruction": "Add two lines of serif italic text in the top-left and top-right corners, rotated 30 degrees upward, with a thin matching rule beneath each line."
+      },
+      "verificationChecks": [
+        "Text is angled at 30 degrees",
+        "Subject is centered with hands forward",
+        "Typography is serif and italicized",
+        "Background is a neutral studio gradient"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Pattern on the shirt",
+      "Specific angle of the text (20-40 degrees)",
+      "Intensity of the studio vignette"
+    ],
+    "mustRedesign": [
+      "Do not use specific artist names or titles from the original image",
+      "Do not replicate specific brand logos"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Soft film-like grain",
+        "Balanced corner typography",
+        "Natural skin tones"
+      ],
+      "avoid": [
+        "Over-sharpened digital look",
+        "Modern flat design elements",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Ensure text does not overlap the subject's head",
+      "Verify the diagonal rules are parallel to the text baseline",
+      "Check that the hands are in focus in the foreground",
+      "Confirm the lighting is soft and directional"
+    ],
+    "reuseFormula": "Center-weighted portrait + Mirror-diagonal corner typography + 1970s styling."
+  }
+}

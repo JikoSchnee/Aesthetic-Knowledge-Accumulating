@@ -1,0 +1,327 @@
+{
+  "id": "0ef469347e32cd3934bbe05d9de95976a121cbcf6fdc619f6a1a122a529abcbf",
+  "skillId": "0ef469347e32cd3934bbe05d9de95976a121cbcf6fdc619f6a1a122a529abcbf",
+  "versionId": "0ef469347e32cd3934bbe05d9de95976a121cbcf6fdc619f6a1a122a529abcbf",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T13:09:28.405Z",
+  "approvedAt": "2026-08-12T13:09:28.405Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T13:09:28.405Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Saturday Night.jpg",
+    "hash": "0ef469347e32cd3934bbe05d9de95976a121cbcf6fdc619f6a1a122a529abcbf",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Saturday Night",
+    "artist": "Zhane",
+    "artworkUrl": "https://coverartarchive.org/release-group/fbf9d7df-8b83-3a93-af54-d2433b19f1ad/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/fbf9d7df-8b83-3a93-af54-d2433b19f1ad",
+    "releaseGroupId": "fbf9d7df-8b83-3a93-af54-d2433b19f1ad",
+    "recordingId": "cc7d9b27-7b93-4385-90c8-576cd473cf43",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Request LineZhane",
+      "song": "Request Line",
+      "performer": "Zhane",
+      "peakPosition": 39,
+      "firstChartDate": "1997-03-15",
+      "lastChartDate": "1997-05-31",
+      "appearances": [
+        {
+          "chartDate": "1997-03-15",
+          "position": 51
+        },
+        {
+          "chartDate": "1997-03-22",
+          "position": 39
+        },
+        {
+          "chartDate": "1997-03-29",
+          "position": 39
+        },
+        {
+          "chartDate": "1997-04-05",
+          "position": 49
+        },
+        {
+          "chartDate": "1997-04-12",
+          "position": 49
+        },
+        {
+          "chartDate": "1997-04-19",
+          "position": 50
+        },
+        {
+          "chartDate": "1997-04-26",
+          "position": 55
+        },
+        {
+          "chartDate": "1997-05-03",
+          "position": 56
+        },
+        {
+          "chartDate": "1997-05-10",
+          "position": 68
+        },
+        {
+          "chartDate": "1997-05-17",
+          "position": 78
+        },
+        {
+          "chartDate": "1997-05-24",
+          "position": 95
+        },
+        {
+          "chartDate": "1997-05-31",
+          "position": 96
+        }
+      ]
+    }
+  },
+  "dedupeText": "90s r b minimalist album cover 90s aesthetic minimalist photography high contrast serif slip dress studio portrait pastel blue typography large scale typography overlapping the heads of the subjects high key white background creating a stark silhouette for the dark dresses vertical alignment of subjects contrasting with horizontal span of the header cool toned header vs warm toned footer text high key studio portrait massive didone header minimalist color palette",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "90s R&B Minimalist Album Cover",
+      "category": "Graphic Design",
+      "medium": [
+        "Photography",
+        "Digital Layout"
+      ],
+      "useCases": [
+        "Album Art",
+        "Editorial Fashion Layout",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "90s aesthetic",
+        "minimalist photography",
+        "high-contrast serif",
+        "slip dress",
+        "studio portrait",
+        "pastel blue typography"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A minimalist studio portrait featuring two subjects in slip dresses with oversized, high-contrast serif typography overlapping the background and subjects.",
+      "triggerTerms": [
+        "90s R&B album cover style",
+        "oversized serif header overlapping subjects",
+        "minimalist white studio portrait with pastel accents"
+      ],
+      "excludeWhen": [
+        "maximalist collage styles",
+        "dark or moody lighting",
+        "sans-serif dominant layouts"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A clean, high-key studio photograph of two women in elegant slip dresses, framed by a massive, light-blue serif title at the top and a smaller, warm-toned subtitle at the bottom right.",
+    "coreVisualRelationships": [
+      "Large-scale typography overlapping the heads of the subjects",
+      "High-key white background creating a stark silhouette for the dark dresses",
+      "Vertical alignment of subjects contrasting with horizontal span of the header",
+      "Cool-toned header vs warm-toned footer text"
+    ],
+    "coreInvariants": [
+      "High-contrast serif typography with thin hairlines",
+      "Clean white studio environment with soft floor shadows",
+      "Subjects positioned centrally or slightly off-center in full-length view"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Two full-length figures positioned centrally, occupying the middle vertical third of the frame.",
+      "visualAnchor": "The large, light-blue serif text at the top edge.",
+      "movementAndEyePath": "Starts at the large header, moves down through the subjects' faces and dresses, ending at the small text in the bottom right corner.",
+      "negativeSpace": "Extensive white space on the left and right sides of the subjects, emphasizing a clean, airy feel."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Pure white background and floor.",
+      "contrastColorRole": "Deep black and sage green of the dresses.",
+      "accentColorRole": "Pale sky blue for the header and terracotta for the footer.",
+      "saturationAndValueRelationship": "High-value, low-saturation background contrasted with high-value, high-saturation skin tones and dark garments.",
+      "paletteRestrictions": [
+        "White",
+        "Pale Blue",
+        "Black",
+        "Sage Green",
+        "Terracotta"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "High-contrast Modern Serif",
+      "letterConstructionRules": [
+        "Extreme contrast between thick stems and hairline serifs",
+        "Vertical stress",
+        "Large x-height",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "variable-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Didone / Modern Serif",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Regular",
+            "contrast": "High",
+            "xHeight": "High",
+            "terminals": "Sharp",
+            "corners": "Acute",
+            "counters": "Open",
+            "strokeCharacter": "Elegant"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "centered",
+            "tracking": "tight",
+            "leading": "none",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top edge",
+            "scale": "massive",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "behind and over subjects",
+            "relationshipToImage": "integrated"
+          },
+          "treatment": {
+            "fill": "pale blue",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "Humanist Serif",
+          "anatomy": {
+            "width": "Condensed",
+            "weight": "Light",
+            "contrast": "Medium",
+            "xHeight": "Medium",
+            "terminals": "Soft",
+            "corners": "Rounded",
+            "counters": "Closed",
+            "strokeCharacter": "Organic"
+          },
+          "typesetting": {
+            "case": "title case",
+            "alignment": "right",
+            "tracking": "normal",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "compact"
+          },
+          "composition": {
+            "position": "bottom right",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "terracotta",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "solid",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme scale contrast between a massive display Didone and a small, humble humanist serif.",
+      "graphicDevices": [
+        "Text-image overlap"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "High-contrast serif style",
+          "Pale blue color for header",
+          "Tight tracking"
+        ],
+        "avoid": [
+          "Sans-serif fonts",
+          "Heavy drop shadows",
+          "Bright primary colors"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "Matches the high-contrast, elegant 90s fashion aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "ITC Fenice",
+            "reason": "Provides the specific verticality and sharp serifs seen in the header.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-key studio photograph of two women in full-length slip dresses (one black, one sage) standing against a seamless white background with soft floor shadows.",
+        "overlayInstruction": "Add a massive pale blue serif title across the top, overlapping the subjects' hair, and a small terracotta serif subtitle in the bottom right corner."
+      },
+      "verificationChecks": [
+        "Is the header text large enough to overlap the subjects?",
+        "Is the background pure white with minimal shadows?",
+        "Is the contrast in the display font high (thin hairlines)?",
+        "Is the bottom text small and positioned in the lower right quadrant?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Dress colors",
+      "Header text color",
+      "Subject poses",
+      "Typography scale"
+    ],
+    "mustRedesign": [
+      "Logos",
+      "Specific artist names",
+      "Brand marks"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, high-key lighting",
+        "Elegant, high-contrast typography",
+        "Balanced negative space"
+      ],
+      "avoid": [
+        "Cluttered backgrounds",
+        "Low-contrast fonts",
+        "Heavy textures"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for clean edges on typography",
+      "Ensure subjects are in sharp focus",
+      "Verify the pale blue color is not too saturated",
+      "Confirm the overlap between text and subject looks intentional"
+    ],
+    "reuseFormula": "High-key studio portrait + Massive Didone header + Minimalist color palette"
+  }
+}

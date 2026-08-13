@@ -1,0 +1,315 @@
+{
+  "id": "10de8edf745b5286b82bcbbb1fdc639cb0fcda212a806fc39a5e304d94dd2568",
+  "skillId": "10de8edf745b5286b82bcbbb1fdc639cb0fcda212a806fc39a5e304d94dd2568",
+  "versionId": "10de8edf745b5286b82bcbbb1fdc639cb0fcda212a806fc39a5e304d94dd2568",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-13T05:06:07.245Z",
+  "approvedAt": "2026-08-13T05:06:07.245Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-13T05:06:07.245Z",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "OU812.jpg",
+    "hash": "10de8edf745b5286b82bcbbb1fdc639cb0fcda212a806fc39a5e304d94dd2568",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "OU812",
+    "artist": "Van Halen",
+    "artworkUrl": "https://coverartarchive.org/release-group/1af0e74f-d4b2-3105-ae7a-43b6bf7251ea/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1af0e74f-d4b2-3105-ae7a-43b6bf7251ea",
+    "releaseGroupId": "1af0e74f-d4b2-3105-ae7a-43b6bf7251ea",
+    "recordingId": "b46df44a-4953-478e-8d86-8a4c326ab3a8",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Black And BlueVan Halen",
+      "song": "Black And Blue",
+      "performer": "Van Halen",
+      "peakPosition": 34,
+      "firstChartDate": "1988-05-21",
+      "lastChartDate": "1988-07-23",
+      "appearances": [
+        {
+          "chartDate": "1988-05-21",
+          "position": 66
+        },
+        {
+          "chartDate": "1988-05-28",
+          "position": 58
+        },
+        {
+          "chartDate": "1988-06-04",
+          "position": 51
+        },
+        {
+          "chartDate": "1988-06-11",
+          "position": 43
+        },
+        {
+          "chartDate": "1988-06-18",
+          "position": 34
+        },
+        {
+          "chartDate": "1988-06-25",
+          "position": 37
+        },
+        {
+          "chartDate": "1988-07-02",
+          "position": 50
+        },
+        {
+          "chartDate": "1988-07-09",
+          "position": 67
+        },
+        {
+          "chartDate": "1988-07-16",
+          "position": 77
+        },
+        {
+          "chartDate": "1988-07-23",
+          "position": 98
+        }
+      ]
+    }
+  },
+  "dedupeText": "high contrast chiaroscuro band portrait chiaroscuro stark lighting black background 80s rock aesthetic monochrome portrait teal accent faces emerging from a unified black field staggered vertical and horizontal placement of subjects high contrast tonal range between highlights and shadows top left justified typography as a visual anchor stark chiaroscuro staggered portrait top left geometric typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "High-Contrast Chiaroscuro Band Portrait",
+      "category": "Music Album Art",
+      "medium": [
+        "Black and white photography",
+        "Graphic design",
+        "Studio lighting"
+      ],
+      "useCases": [
+        "Rock band album covers",
+        "Dramatic group portraits",
+        "High-contrast editorial photography"
+      ],
+      "retrievalTags": [
+        "chiaroscuro",
+        "stark lighting",
+        "black background",
+        "80s rock aesthetic",
+        "monochrome portrait",
+        "teal accent"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A stark, high-contrast group portrait featuring faces emerging from deep shadow against a pure black background with minimalist top-aligned typography.",
+      "triggerTerms": [
+        "chiaroscuro band portrait",
+        "faces emerging from black shadow",
+        "stark monochrome group photo",
+        "dramatic side-lit faces"
+      ],
+      "excludeWhen": [
+        "full-body shots are required",
+        "soft, even lighting is requested",
+        "colorful or busy backgrounds are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A composition of four male faces arranged in a staggered, tiered formation, illuminated by harsh directional light that leaves half of each face in total darkness, set against a void-like black backdrop.",
+    "coreVisualRelationships": [
+      "Faces emerging from a unified black field",
+      "Staggered vertical and horizontal placement of subjects",
+      "High-contrast tonal range between highlights and shadows",
+      "Top-left justified typography as a visual anchor"
+    ],
+    "coreInvariants": [
+      "Total black background (#000000)",
+      "Hard-edged chiaroscuro lighting",
+      "Monochrome subject matter with a single color accent in text"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Four faces occupying the central and lower two-thirds of the frame, varying in scale to create depth.",
+      "visualAnchor": "The top-left corner typography provides the primary anchor against the dark space.",
+      "movementAndEyePath": "The eye starts at the bright teal text, then moves downward through the staggered faces from left to right.",
+      "negativeSpace": "Extensive negative space at the top and between faces, creating a sense of mystery and focus."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black (background and shadows)",
+      "contrastColorRole": "White (highlights on skin and clothing)",
+      "accentColorRole": "Teal/Cyan (primary display text)",
+      "saturationAndValueRelationship": "Extreme value contrast with zero saturation in the image and high saturation in the accent text.",
+      "paletteRestrictions": [
+        "Black",
+        "White",
+        "Teal"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif and Serif",
+      "letterConstructionRules": [
+        "Primary text uses a wide, geometric sans-serif with consistent stroke weight",
+        "Secondary text uses a high-contrast serif with thin hairlines"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "medium",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "uniform"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "light"
+          },
+          "composition": {
+            "position": "top-left",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by negative space"
+          },
+          "treatment": {
+            "fill": "teal",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "flat",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "modern serif",
+          "anatomy": {
+            "width": "condensed",
+            "weight": "light",
+            "contrast": "high",
+            "xHeight": "medium",
+            "terminals": "sharp",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "variable"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "left",
+            "tracking": "normal",
+            "leading": "tight",
+            "lineBreakPattern": "single line",
+            "density": "medium"
+          },
+          "composition": {
+            "position": "directly below display text",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated"
+          },
+          "treatment": {
+            "fill": "white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "flat",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Contrast between a bold, wide sans-serif and a delicate, high-contrast serif.",
+      "graphicDevices": [
+        "None"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Teal color for top line",
+          "Left alignment",
+          "High contrast lighting"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Centered text",
+          "Color photography"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "ITC Avant Garde Gothic",
+            "reason": "Matches the wide, geometric structure of the primary display text.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Bodoni or Didot",
+            "reason": "Matches the high-contrast, elegant serif style of the secondary text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast black and white photograph of four men's faces in a staggered arrangement against a pure black background. Use harsh side-lighting so half of each face is in deep shadow.",
+        "overlayInstruction": "Add two lines of left-aligned text in the top-left corner. The top line should be a wide geometric sans-serif in teal. The bottom line should be a high-contrast serif in white."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Are the faces lit with high-contrast chiaroscuro?",
+        "Is the top line of text teal?",
+        "Is the text left-aligned in the top-left quadrant?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Number of faces",
+      "Teal hue intensity",
+      "Staggering pattern of subjects",
+      "Font weight of the display text"
+    ],
+    "mustRedesign": [
+      "Do not use specific band logos",
+      "Do not use the exact text 'VAN HALEN' or 'OU812'",
+      "Ensure faces are generic and not recognizable celebrities"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Deep, true blacks in shadows",
+        "Sharp, clear highlights on facial features",
+        "Clean, legible typography"
+      ],
+      "avoid": [
+        "Grey or muddy shadows",
+        "Soft focus",
+        "Overlapping text and faces"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for pure black background without noise",
+      "Verify the teal color matches the 80s aesthetic",
+      "Ensure the lighting creates a dramatic split-face effect",
+      "Confirm the typography is crisp and correctly aligned"
+    ],
+    "reuseFormula": "Stark Chiaroscuro + Staggered Portrait + Top-Left Geometric Typography"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "id": "e6066e25e80db04152c7c34c0a0346a6e1d24bbec472e9dcfd64e67395d6dfeb",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T14:06:29.105Z",
+  "approvedAt": "2026-08-11T14:06:29.105Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T14:06:29.105Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "The Select.jpg",
+    "hash": "e6066e25e80db04152c7c34c0a0346a6e1d24bbec472e9dcfd64e67395d6dfeb",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "The Select",
+    "artist": "Ty Myers",
+    "artworkUrl": "https://coverartarchive.org/release-group/d9c192c0-d0ac-41ec-9645-e5bfa984b0cb/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/d9c192c0-d0ac-41ec-9645-e5bfa984b0cb",
+    "releaseGroupId": "d9c192c0-d0ac-41ec-9645-e5bfa984b0cb",
+    "recordingId": "d0a85b00-f905-4a6b-8e95-6540aa3a396a",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Ends Of The EarthTy Myers",
+      "song": "Ends Of The Earth",
+      "performer": "Ty Myers",
+      "peakPosition": 94,
+      "firstChartDate": "2025-01-11",
+      "lastChartDate": "2025-01-11",
+      "appearances": [
+        {
+          "chartDate": "2025-01-11",
+          "position": 94
+        }
+      ]
+    }
+  },
+  "dedupeText": "urban nightscape album cover night city street photography musician portrait bokeh urban lighting guitar case vanishing point central figure anchored by a vertical guitar case silhouette converging road lines leading to the subject contrast between dark asphalt and vibrant neon city lights top right typographic weight balancing the left side neon sign central subject vanishing point road urban night bokeh top right slab serif typography",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Urban Nightscape Album Cover",
+      "category": "Music Photography",
+      "medium": [
+        "Digital Photography",
+        "Cinematic Lighting"
+      ],
+      "useCases": [
+        "Album Art",
+        "Promotional Poster",
+        "Social Media Banner"
+      ],
+      "retrievalTags": [
+        "night city",
+        "street photography",
+        "musician portrait",
+        "bokeh",
+        "urban lighting",
+        "guitar case",
+        "vanishing point"
+      ]
+    },
+    "visualDefinition": "A cinematic night scene featuring a central figure standing in the middle of a dark city street, leaning on a vertical guitar case. The background is a glowing urban skyline with neon signs and street lights creating a deep perspective towards a vanishing point.",
+    "coreVisualRelationships": [
+      "Central figure anchored by a vertical guitar case silhouette",
+      "Converging road lines leading to the subject",
+      "Contrast between dark asphalt and vibrant neon city lights",
+      "Top-right typographic weight balancing the left-side neon sign"
+    ],
+    "coreInvariants": [
+      "Low-angle perspective",
+      "Nighttime color palette with warm highlights",
+      "Symmetrical road composition",
+      "Slab-serif typography in the upper right quadrant"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Full-body figure centered horizontally, occupying the middle third of the vertical axis.",
+      "visualAnchor": "The dark silhouette of the guitar case resting on the road surface.",
+      "movementAndEyePath": "Eyes follow the road lines from the bottom corners to the central figure, then move upward to the city skyline and right to the text.",
+      "negativeSpace": "Large areas of dark asphalt in the foreground and dark sky in the upper left."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep charcoal and black (asphalt and night sky)",
+      "contrastColorRole": "Warm yellow and white (city lights and road markings)",
+      "accentColorRole": "Crimson red and neon pink (text and building signage)",
+      "saturationAndValueRelationship": "High value contrast between point-light sources and deep shadows; mid-range saturation in neon elements.",
+      "paletteRestrictions": [
+        "Avoid daylight blue",
+        "Limit green tones"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Heavy slab-serif",
+      "letterConstructionRules": [
+        "Thick, blocky serifs",
+        "Uniform stroke weight",
+        "Square proportions",
+        "Tight letter spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Slab-Serif",
+          "anatomy": {
+            "width": "Extended",
+            "weight": "Bold",
+            "contrast": "Low",
+            "xHeight": "High",
+            "terminals": "Blunt",
+            "corners": "Sharp",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Uppercase",
+            "alignment": "Right",
+            "tracking": "Tight",
+            "leading": "Compact",
+            "lineBreakPattern": "Two lines",
+            "density": "Heavy"
+          },
+          "composition": {
+            "position": "Top right corner",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating over dark sky"
+          },
+          "treatment": {
+            "fill": "White and Crimson Red",
+            "outline": "None",
+            "shadow": "Subtle drop shadow",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single family with color contrast for hierarchy",
+      "graphicDevices": [
+        "Neon sign glow (left)",
+        "Road lane markings"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Slab-serif style",
+          "Right alignment",
+          "Two-tone color split"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Lightweight sans-serifs"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Rockwell Extra Bold",
+            "reason": "Matches the heavy slab-serif aesthetic and blocky terminals.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Arvo Bold",
+            "reason": "Provides a similar geometric slab-serif structure.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a night photograph of a man leaning on a guitar case in the middle of a city street. Use a low-angle shot with converging road lines. The background should feature a blurred city skyline with a prominent neon sign on a building to the left. Lighting should be cinematic with warm bokeh.",
+        "overlayInstruction": "Add two lines of right-aligned text in a heavy slab-serif font to the top right corner. The top line should be white and the bottom line should be a muted crimson red."
+      },
+      "verificationChecks": [
+        "Is the figure centered?",
+        "Are the road lines converging toward the subject?",
+        "Is the text in the top right corner slab-serif?",
+        "Is the lighting consistent with a night urban environment?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of neon glow",
+      "Density of city skyline",
+      "Subject's pose",
+      "Color of the secondary text line"
+    ],
+    "mustRedesign": [
+      "Specific brand logos on buildings",
+      "Identifiable faces of bystanders",
+      "Exact wording of the original text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Cinematic depth of field",
+        "Clear vanishing point",
+        "Balanced typographic weight"
+      ],
+      "avoid": [
+        "Flat lighting",
+        "Cluttered foreground",
+        "Thin, illegible fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for realistic light reflection on the asphalt",
+      "Ensure the guitar case silhouette is distinct",
+      "Verify the slab-serif font weight is sufficiently heavy",
+      "Confirm the right-alignment of the text block"
+    ],
+    "reuseFormula": "Central subject + vanishing point road + urban night bokeh + top-right slab-serif typography."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:25:28.953Z"
+}

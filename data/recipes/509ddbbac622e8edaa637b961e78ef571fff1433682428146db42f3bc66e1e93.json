@@ -1,0 +1,292 @@
+{
+  "id": "509ddbbac622e8edaa637b961e78ef571fff1433682428146db42f3bc66e1e93",
+  "skillId": "509ddbbac622e8edaa637b961e78ef571fff1433682428146db42f3bc66e1e93",
+  "versionId": "509ddbbac622e8edaa637b961e78ef571fff1433682428146db42f3bc66e1e93",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:55:05.142Z",
+  "approvedAt": "2026-08-12T09:55:05.142Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:55:05.142Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Mr. Jordan.jpg",
+    "hash": "509ddbbac622e8edaa637b961e78ef571fff1433682428146db42f3bc66e1e93",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Mr. Jordan",
+    "artist": "Julian Lennon",
+    "artworkUrl": "https://coverartarchive.org/release-group/ac25c148-4483-323e-97ef-9b30e9676457/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/ac25c148-4483-323e-97ef-9b30e9676457",
+    "releaseGroupId": "ac25c148-4483-323e-97ef-9b30e9676457",
+    "recordingId": "1db5fc07-36c3-4c6f-89c0-3c58d11f7199",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Now You're In HeavenJulian Lennon",
+      "song": "Now You're In Heaven",
+      "performer": "Julian Lennon",
+      "peakPosition": 93,
+      "firstChartDate": "1989-05-13",
+      "lastChartDate": "1989-06-03",
+      "appearances": [
+        {
+          "chartDate": "1989-05-13",
+          "position": 93
+        },
+        {
+          "chartDate": "1989-05-20",
+          "position": 97
+        },
+        {
+          "chartDate": "1989-05-27",
+          "position": 94
+        },
+        {
+          "chartDate": "1989-06-03",
+          "position": 100
+        }
+      ]
+    }
+  },
+  "dedupeText": "noir portrait with condensed serif typography chiaroscuro film noir condensed serif monochrome grainy texture melancholic high contrast chiaroscuro lighting defining the facial structure vertical tension between the elongated letterforms and the downward gaze heavy film grain texture unifying the image and background asymmetrical balance with text framing the top and right edges high contrast monochrome portrait ultra condensed serif heavy film grain noir editorial aesthetic",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Noir Portrait with Condensed Serif Typography",
+      "category": "Album Art",
+      "medium": [
+        "Black and white photography",
+        "Film grain",
+        "Graphic design"
+      ],
+      "useCases": [
+        "Moody music covers",
+        "Cinematic editorial layouts",
+        "High-contrast portraiture"
+      ],
+      "retrievalTags": [
+        "chiaroscuro",
+        "film noir",
+        "condensed serif",
+        "monochrome",
+        "grainy texture",
+        "melancholic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A high-contrast, grainy black-and-white portrait featuring a subject in deep shadow with a hand to their face, paired with ultra-condensed serif display type.",
+      "triggerTerms": [
+        "noir portrait with condensed serif",
+        "grainy monochrome album cover",
+        "chiaroscuro face in hand photography"
+      ],
+      "excludeWhen": [
+        "vibrant colors are required",
+        "modern sans-serif minimalism is requested",
+        "bright, even lighting is needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square composition dominated by a low-key, grainy black-and-white photograph of a man's face partially obscured by his hand, set against a deep black background with stark white, vertically elongated typography.",
+    "coreVisualRelationships": [
+      "High-contrast chiaroscuro lighting defining the facial structure",
+      "Vertical tension between the elongated letterforms and the downward gaze",
+      "Heavy film grain texture unifying the image and background",
+      "Asymmetrical balance with text framing the top and right edges"
+    ],
+    "coreInvariants": [
+      "Monochromatic black and white color space",
+      "Heavy visible film grain or noise texture",
+      "Deep black negative space surrounding the subject"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Close-up portrait centered horizontally but weighted toward the bottom, filling approximately 60% of the frame.",
+      "visualAnchor": "The illuminated bridge of the nose and the hand resting against the cheek.",
+      "movementAndEyePath": "Starts at the large top text, moves down to the highlighted facial features, and follows the vertical text on the right.",
+      "negativeSpace": "Extensive deep black space at the top and left, creating a sense of isolation."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background and shadows",
+      "contrastColorRole": "Stark white for typography and highlights",
+      "accentColorRole": "Mid-tone grays within the film grain",
+      "saturationAndValueRelationship": "Zero saturation; extreme value contrast between highlights and shadows.",
+      "paletteRestrictions": [
+        "Grayscale only"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Ultra-condensed transitional serif",
+      "letterConstructionRules": [
+        "Extreme vertical elongation",
+        "High stroke contrast between thick verticals and thin horizontals",
+        "Short, sharp serifs",
+        "Narrow internal counters"
+      ],
+      "characterSpecificRedesigns": [
+        "Lowercase 'j' with a straight descender",
+        "Lowercase 'i' with a high-set dot"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "condensed serif",
+          "anatomy": {
+            "width": "ultra-condensed",
+            "weight": "medium",
+            "contrast": "high",
+            "xHeight": "high",
+            "terminals": "sharp",
+            "corners": "bracketed",
+            "counters": "narrow",
+            "strokeCharacter": "elegant"
+          },
+          "typesetting": {
+            "case": "lowercase",
+            "alignment": "centered",
+            "tracking": "wide",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "airy"
+          },
+          "composition": {
+            "position": "top center",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separated by negative space"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "subtitle",
+          "hierarchyLevel": 2,
+          "classification": "geometric sans-serif",
+          "anatomy": {
+            "width": "normal",
+            "weight": "light",
+            "contrast": "low",
+            "xHeight": "medium",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "vertical",
+            "tracking": "very wide",
+            "leading": "loose",
+            "lineBreakPattern": "stacked characters",
+            "density": "sparse"
+          },
+          "composition": {
+            "position": "middle right",
+            "scale": "small",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "floating in negative space"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Extreme contrast between large condensed serif and small spaced-out sans-serif.",
+      "graphicDevices": [
+        "Vertical text orientation for secondary information"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Vertical elongation of the main title",
+          "Lowercase styling for the main title",
+          "High contrast monochrome"
+        ],
+        "avoid": [
+          "Script fonts",
+          "Bold slab serifs",
+          "Horizontal orientation for the secondary text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Onyx",
+            "reason": "Matches the ultra-condensed serif profile with high contrast.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Futura Light",
+            "reason": "Appropriate for the clean, spaced-out secondary vertical text.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a high-contrast, grainy black and white portrait of a man looking down with his hand against his face, surrounded by deep black negative space.",
+        "overlayInstruction": "Add the main title in a large, white, ultra-condensed serif font at the top. Add secondary text vertically on the right side in a small, spaced-out white sans-serif."
+      },
+      "verificationChecks": [
+        "Is the image strictly black and white?",
+        "Is the main title font ultra-condensed and serif?",
+        "Is there a heavy film grain texture across the entire composition?",
+        "Is the secondary text oriented vertically?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Intensity of film grain",
+      "Degree of vertical elongation in typography",
+      "Placement of the subject within the frame"
+    ],
+    "mustRedesign": [
+      "Any use of color",
+      "Modern digital-clean textures",
+      "Horizontal secondary text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Dramatic chiaroscuro lighting",
+        "Authentic-looking film grain",
+        "Elegant, tall typography"
+      ],
+      "avoid": [
+        "Soft shadows",
+        "Low-contrast grays",
+        "Standard width fonts"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for high-contrast white-on-black legibility",
+      "Ensure grain does not obscure the letterforms",
+      "Verify the vertical stacking of the right-side text",
+      "Confirm the mood is somber and noir-inspired"
+    ],
+    "reuseFormula": "High-contrast monochrome portrait + ultra-condensed serif + heavy film grain = Noir Editorial Aesthetic"
+  }
+}

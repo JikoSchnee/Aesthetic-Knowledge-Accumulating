@@ -1,0 +1,303 @@
+{
+  "id": "bca7b1058635bf70011379103fc1da810a1efcecd106226d0b3b5cb201384274",
+  "skillId": "bca7b1058635bf70011379103fc1da810a1efcecd106226d0b3b5cb201384274",
+  "versionId": "bca7b1058635bf70011379103fc1da810a1efcecd106226d0b3b5cb201384274",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T09:45:43.695Z",
+  "approvedAt": "2026-08-12T09:45:43.695Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T09:45:43.695Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "PARTYNEXTDOOR 3 (P3).jpg",
+    "hash": "bca7b1058635bf70011379103fc1da810a1efcecd106226d0b3b5cb201384274",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "PARTYNEXTDOOR 3 (P3)",
+    "artist": "PARTYNEXTDOOR",
+    "artworkUrl": "https://coverartarchive.org/release-group/1fd5341e-4c69-404b-872e-5626f0864623/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/1fd5341e-4c69-404b-872e-5626f0864623",
+    "releaseGroupId": "1fd5341e-4c69-404b-872e-5626f0864623",
+    "recordingId": "07629109-77a8-4fca-933f-6114618f45fa",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Not NicePARTYNEXTDOOR",
+      "song": "Not Nice",
+      "performer": "PARTYNEXTDOOR",
+      "peakPosition": 82,
+      "firstChartDate": "2017-02-04",
+      "lastChartDate": "2017-03-18",
+      "appearances": [
+        {
+          "chartDate": "2017-02-04",
+          "position": 95
+        },
+        {
+          "chartDate": "2017-02-11",
+          "position": 83
+        },
+        {
+          "chartDate": "2017-02-18",
+          "position": 83
+        },
+        {
+          "chartDate": "2017-02-25",
+          "position": 82
+        },
+        {
+          "chartDate": "2017-03-04",
+          "position": 83
+        },
+        {
+          "chartDate": "2017-03-11",
+          "position": 88
+        },
+        {
+          "chartDate": "2017-03-18",
+          "position": 95
+        }
+      ]
+    }
+  },
+  "dedupeText": "low key circular portrait album cover low key lighting circular frame minimalist typography dark aesthetic chiaroscuro portrait circular frame centered in a square black canvas low key lighting on the subject creating high contrast with shadows semi transparent large scale text layered between the subject and the viewer solid white display text anchored at the bottom center circular mask low key portrait geometric sans serif typography black negative space",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Low-Key Circular Portrait Album Cover",
+      "category": "Music Art",
+      "medium": [
+        "Photography",
+        "Digital Graphic Design"
+      ],
+      "useCases": [
+        "Album Cover Art",
+        "Podcast Cover",
+        "Social Media Profile Branding"
+      ],
+      "retrievalTags": [
+        "low-key lighting",
+        "circular frame",
+        "minimalist typography",
+        "dark aesthetic",
+        "chiaroscuro portrait"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A minimalist dark layout featuring a circular-masked portrait with low-key lighting and bold sans-serif typography centered below.",
+      "triggerTerms": [
+        "circular portrait mask",
+        "low-key lighting portrait",
+        "dark minimalist album cover"
+      ],
+      "excludeWhen": [
+        "bright colorful designs",
+        "complex multi-image collages",
+        "hand-drawn illustration styles"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A central circular frame containing a moody, side-lit portrait against a black background, with large semi-transparent overlay text inside the circle and solid white sans-serif text positioned below the frame.",
+    "coreVisualRelationships": [
+      "Circular frame centered in a square black canvas",
+      "Low-key lighting on the subject creating high contrast with shadows",
+      "Semi-transparent large-scale text layered between the subject and the viewer",
+      "Solid white display text anchored at the bottom center"
+    ],
+    "coreInvariants": [
+      "Perfectly circular thin white border",
+      "Pure black background (#000000)",
+      "Chiaroscuro lighting style"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is centered within a circular mask that occupies approximately 60% of the total canvas height.",
+      "visualAnchor": "The circular frame acts as the primary focal point, supported by the bottom-aligned text.",
+      "movementAndEyePath": "Eyes start at the illuminated profile of the subject, move to the large overlay text, and then drop to the white text at the bottom.",
+      "negativeSpace": "Extensive pure black negative space surrounds the central circle and separates the text elements."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Black background for depth and mood.",
+      "contrastColorRole": "White for the circular border and primary typography.",
+      "accentColorRole": "Warm skin tones and gold jewelry highlights from the portrait lighting.",
+      "saturationAndValueRelationship": "Extremely low value overall with high contrast highlights on the subject's face and the white graphic elements.",
+      "paletteRestrictions": [
+        "Monochrome black and white for graphics",
+        "Naturalistic low-saturation tones for photography"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "dominant",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric Sans-Serif",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Square terminals",
+        "Wide proportions"
+      ],
+      "characterSpecificRedesigns": [
+        "None"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "open",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "0.05em",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "solid"
+          },
+          "composition": {
+            "position": "bottom center",
+            "scale": "medium",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "separate"
+          },
+          "treatment": {
+            "fill": "solid white",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        },
+        {
+          "role": "logo-like",
+          "hierarchyLevel": 2,
+          "classification": "Geometric Sans-Serif",
+          "anatomy": {
+            "width": "extra-wide",
+            "weight": "black",
+            "contrast": "none",
+            "xHeight": "high",
+            "terminals": "flat",
+            "corners": "sharp",
+            "counters": "closed",
+            "strokeCharacter": "monolinear"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "center",
+            "tracking": "-0.02em",
+            "leading": "normal",
+            "lineBreakPattern": "single line",
+            "density": "heavy"
+          },
+          "composition": {
+            "position": "centered in circle",
+            "scale": "large",
+            "rotation": "0",
+            "warp": "none",
+            "overlap": "over subject",
+            "relationshipToImage": "overlay"
+          },
+          "treatment": {
+            "fill": "semi-transparent grey",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "none",
+            "texture": "none",
+            "distortion": "none"
+          }
+        }
+      ],
+      "pairingStrategy": "Single typeface family used in different weights and opacities for hierarchy.",
+      "graphicDevices": [
+        "Thin white circular stroke",
+        "Parental Advisory label in bottom right corner"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Uppercase geometric sans-serif",
+          "Wide letter spacing for bottom text",
+          "Tight spacing for overlay text"
+        ],
+        "avoid": [
+          "Serif fonts",
+          "Script fonts",
+          "Italics"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Helvetica Neue Bold Extended",
+            "reason": "Matches the clean, modern, and wide geometric structure.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Inter Bold",
+            "reason": "Provides a similar modern, neutral feel with high legibility.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square image with a pure black background. In the center, place a circular frame with a thin white border. Inside the circle, place a low-key portrait of a man in profile, lit from the side so most of his face is in shadow.",
+        "overlayInstruction": "Add large, semi-transparent grey geometric sans-serif text centered inside the circle over the subject. Add solid white geometric sans-serif text in all caps centered at the bottom of the canvas."
+      },
+      "verificationChecks": [
+        "Is the background pure black?",
+        "Is the portrait lighting high-contrast/low-key?",
+        "Is the circular border a thin, clean white line?",
+        "Is the bottom text perfectly centered and uppercase?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Opacity of the overlay text",
+      "Thickness of the circular border",
+      "Subject's pose within the circle",
+      "Tracking of the bottom text"
+    ],
+    "mustRedesign": [
+      "Do not use specific artist names or logos",
+      "Do not use the exact 'PX3' text string",
+      "Ensure the portrait is a generic representation"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Clean, sharp edges on all graphic elements",
+        "Professional studio-quality lighting in the portrait",
+        "Perfect geometric centering"
+      ],
+      "avoid": [
+        "Blurry or pixelated edges",
+        "Visible background details outside the circle",
+        "Cluttered typography"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the circle is perfectly round",
+      "Verify the text is not touching the circular border",
+      "Ensure the lighting on the subject feels moody and intentional",
+      "Confirm the black background is uniform and deep"
+    ],
+    "reuseFormula": "Circular Mask + Low-Key Portrait + Geometric Sans-Serif Typography + Black Negative Space"
+  }
+}

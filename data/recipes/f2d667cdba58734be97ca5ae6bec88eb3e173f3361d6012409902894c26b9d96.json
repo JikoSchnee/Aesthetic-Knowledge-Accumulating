@@ -1,0 +1,275 @@
+{
+  "id": "f2d667cdba58734be97ca5ae6bec88eb3e173f3361d6012409902894c26b9d96",
+  "skillId": "f2d667cdba58734be97ca5ae6bec88eb3e173f3361d6012409902894c26b9d96",
+  "versionId": "f2d667cdba58734be97ca5ae6bec88eb3e173f3361d6012409902894c26b9d96",
+  "version": 1,
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-12T11:01:59.220Z",
+  "approvedAt": "2026-08-12T11:01:59.220Z",
+  "recipeSchemaVersion": "1.2",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-12T11:01:59.220Z",
+  "embeddingStatus": "missing",
+  "indexStatus": "keyword_only",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "1989.jpg",
+    "hash": "f2d667cdba58734be97ca5ae6bec88eb3e173f3361d6012409902894c26b9d96",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "1989",
+    "artist": "Taylor Swift",
+    "artworkUrl": "https://coverartarchive.org/release-group/4d9ec1c2-58ec-48a4-aa0a-916718adead0/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/4d9ec1c2-58ec-48a4-aa0a-916718adead0",
+    "releaseGroupId": "4d9ec1c2-58ec-48a4-aa0a-916718adead0",
+    "recordingId": "6c63a910-6e61-445f-8fbe-3bd17b954c95",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Out Of The WoodsTaylor Swift",
+      "song": "Out Of The Woods",
+      "performer": "Taylor Swift",
+      "peakPosition": 18,
+      "firstChartDate": "2014-11-01",
+      "lastChartDate": "2016-03-12",
+      "appearances": [
+        {
+          "chartDate": "2014-11-01",
+          "position": 18
+        },
+        {
+          "chartDate": "2014-11-08",
+          "position": 77
+        },
+        {
+          "chartDate": "2016-01-23",
+          "position": 46
+        },
+        {
+          "chartDate": "2016-01-30",
+          "position": 55
+        },
+        {
+          "chartDate": "2016-02-06",
+          "position": 50
+        },
+        {
+          "chartDate": "2016-02-13",
+          "position": 44
+        },
+        {
+          "chartDate": "2016-02-20",
+          "position": 49
+        },
+        {
+          "chartDate": "2016-02-27",
+          "position": 51
+        },
+        {
+          "chartDate": "2016-03-05",
+          "position": 53
+        },
+        {
+          "chartDate": "2016-03-12",
+          "position": 77
+        }
+      ]
+    }
+  },
+  "dedupeText": "vintage instant film portrait with marker lettering polaroid frame hand written marker washed out portrait seagull print sweatshirt retro 80s aesthetic the white border frames the central square image symmetrically on three sides with a larger bottom margin the hand lettered text is anchored to the bottom white margin balancing the visual weight of the portrait the soft pastel tones of the photograph contrast with the dark saturated ink of the marker lettering square vintage portrait white polaroid frame bottom aligned marker lettering",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Vintage Instant Film Portrait with Marker Lettering",
+      "category": "Photography and Graphic Design",
+      "medium": [
+        "Instant film photography",
+        "Hand-lettering",
+        "Marker illustration"
+      ],
+      "useCases": [
+        "Album cover art",
+        "Nostalgic social media posts",
+        "Vintage-style editorial layouts"
+      ],
+      "retrievalTags": [
+        "polaroid frame",
+        "hand-written marker",
+        "washed out portrait",
+        "seagull print sweatshirt",
+        "retro 80s aesthetic"
+      ]
+    },
+    "retrievalProfile": {
+      "description": "A square instant-film portrait featuring a cropped subject and thick, hand-written marker text on the bottom white border.",
+      "triggerTerms": [
+        "polaroid style portrait with marker writing",
+        "instant film aesthetic with hand-drawn initials",
+        "vintage photo with white border and felt-tip pen text"
+      ],
+      "excludeWhen": [
+        "digital high-definition photography is required",
+        "clean sans-serif typography is requested",
+        "full-body portraits are needed"
+      ],
+      "reviewStatus": "generated"
+    },
+    "visualDefinition": "A square-format photograph with a wide white border, mimicking instant film. The image is a soft-focus, slightly overexposed portrait of a person from the chest up, wearing a graphic sweatshirt. The bottom border contains thick, dark blue hand-lettered characters that appear to be written with a permanent marker.",
+    "coreVisualRelationships": [
+      "The white border frames the central square image symmetrically on three sides with a larger bottom margin.",
+      "The hand-lettered text is anchored to the bottom white margin, balancing the visual weight of the portrait.",
+      "The soft, pastel tones of the photograph contrast with the dark, saturated ink of the marker lettering."
+    ],
+    "coreInvariants": [
+      "Square image aspect ratio within a rectangular white frame.",
+      "Thick, uneven marker-style lettering on the bottom border.",
+      "Soft-focus, low-contrast photographic style with warm skin tones."
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "The subject is centered, cropped at the chin and mid-torso, filling the majority of the square frame.",
+      "visualAnchor": "The bright red lips and the dark marker text at the bottom serve as the primary focal points.",
+      "movementAndEyePath": "The eye starts at the red lips, moves down to the graphic on the sweatshirt, and finally rests on the bold lettering in the margin.",
+      "negativeSpace": "The wide white border acts as significant negative space, emphasizing the 'found object' quality of the photo."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Off-white and cream tones in the border and background.",
+      "contrastColorRole": "Muted lavender and blue in the sweatshirt graphic.",
+      "accentColorRole": "Saturated red on the lips and dark navy blue for the marker text.",
+      "saturationAndValueRelationship": "Low saturation and high value in the photo, contrasted by high saturation and low value in the text.",
+      "paletteRestrictions": [
+        "Avoid neon colors",
+        "Limit to muted pastels and one or two bold accents"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "custom-lettering",
+      "baseSkeleton": "Hand-drawn block capitals and numerals",
+      "letterConstructionRules": [
+        "Variable stroke width consistent with a felt-tip marker",
+        "Rounded terminals and visible ink pooling at stroke ends",
+        "Slightly irregular baseline and character spacing"
+      ],
+      "characterSpecificRedesigns": [
+        "Periods are large, circular blobs",
+        "Numerals have a slight lean and simplified forms"
+      ],
+      "recommendedProductionMethod": "hand-lettering",
+      "fontRequired": false,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "hand-written",
+          "anatomy": {
+            "width": "wide",
+            "weight": "bold",
+            "contrast": "low",
+            "xHeight": "high",
+            "terminals": "rounded",
+            "corners": "soft",
+            "counters": "open",
+            "strokeCharacter": "marker-stroke"
+          },
+          "typesetting": {
+            "case": "uppercase",
+            "alignment": "justified-between",
+            "tracking": "wide",
+            "leading": "none",
+            "lineBreakPattern": "single-line",
+            "density": "loose"
+          },
+          "composition": {
+            "position": "bottom-margin",
+            "scale": "large",
+            "rotation": "0 degrees",
+            "warp": "none",
+            "overlap": "none",
+            "relationshipToImage": "external-margin"
+          },
+          "treatment": {
+            "fill": "dark-navy-ink",
+            "outline": "none",
+            "shadow": "none",
+            "depth": "flat",
+            "texture": "marker-bleed",
+            "distortion": "natural-hand-tremor"
+          }
+        }
+      ],
+      "pairingStrategy": "Single hand-written style to maintain the 'personal artifact' aesthetic.",
+      "graphicDevices": [
+        "Instant film frame",
+        "Subtle film grain",
+        "Light leaks"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Marker texture",
+          "White border proportions"
+        ],
+        "avoid": [
+          "Perfectly straight digital fonts",
+          "Drop shadows on text"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Permanent Marker",
+            "reason": "Mimics the thick, felt-tip stroke and rounded ends.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "Felt Tip Bold",
+            "reason": "Captures the ink-bleed and casual nature of the lettering.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a square, soft-focus vintage portrait of a person in a graphic sweatshirt, centered within a wide white instant-film frame with a larger bottom margin.",
+        "overlayInstruction": "Apply hand-written marker lettering in dark navy blue to the bottom white margin, ensuring a casual, slightly irregular appearance."
+      },
+      "verificationChecks": [
+        "Is the image square within a rectangular white frame?",
+        "Does the text look like it was written with a physical marker?",
+        "Is the photo quality soft and slightly overexposed?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Subject of the portrait",
+      "Color of the marker ink",
+      "Graphic on the sweatshirt",
+      "Width of the white border"
+    ],
+    "mustRedesign": [
+      "Any crisp, modern digital typography",
+      "High-contrast, sharp digital photography",
+      "Perfectly centered, uniform text"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "Authentic instant-film texture",
+        "Natural-looking marker strokes",
+        "Muted, nostalgic color palette"
+      ],
+      "avoid": [
+        "Plastic-looking filters",
+        "Generic sans-serif fonts",
+        "Over-saturation"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check that the text is confined to the bottom margin.",
+      "Ensure the photo has a visible grain and soft focus.",
+      "Verify the marker strokes have rounded, organic ends.",
+      "Confirm the aspect ratio of the inner image is 1:1."
+    ],
+    "reuseFormula": "Square vintage portrait + white polaroid frame + bottom-aligned marker lettering."
+  }
+}

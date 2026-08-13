@@ -1,0 +1,231 @@
+{
+  "id": "5f70dc646ef771abdf98baa74532a55cae2ad502059220a346d7f203b117a120",
+  "libraryType": "photo",
+  "status": "approved",
+  "providerModel": "google/gemini-3-flash-preview",
+  "createdAt": "2026-08-11T15:59:36.649Z",
+  "approvedAt": "2026-08-11T15:59:36.649Z",
+  "recipeSchemaVersion": "1.1",
+  "typographySchemaVersion": "1.1",
+  "typographyStatus": "ready",
+  "typographyModel": "google/gemini-3-flash-preview",
+  "typographyUpdatedAt": "2026-08-11T15:59:36.649Z",
+  "embeddingStatus": "ready",
+  "indexStatus": "hybrid_searchable",
+  "source": {
+    "kind": "hot100_album_cover",
+    "filename": "Paula.jpg",
+    "hash": "5f70dc646ef771abdf98baa74532a55cae2ad502059220a346d7f203b117a120",
+    "provider": "musicbrainz-caa",
+    "albumTitle": "Paula",
+    "artist": "Robin Thicke",
+    "artworkUrl": "https://coverartarchive.org/release-group/e2a4b900-2d30-47a6-ba30-c58b451bcf20/front-1200",
+    "sourceUrl": "https://musicbrainz.org/release-group/e2a4b900-2d30-47a6-ba30-c58b451bcf20",
+    "releaseGroupId": "e2a4b900-2d30-47a6-ba30-c58b451bcf20",
+    "recordingId": "613b592f-d61a-462a-8b66-dc46e197bb4f",
+    "hot100": {
+      "repository": "HipsterVizNinja/random-data",
+      "commitSha": "5f75ec6669d726a34f80684dd21549ca82a79afc",
+      "path": "Music/hot-100/Hot 100.csv",
+      "songId": "Get Her BackRobin Thicke",
+      "song": "Get Her Back",
+      "performer": "Robin Thicke",
+      "peakPosition": 82,
+      "firstChartDate": "2014-07-12",
+      "lastChartDate": "2014-07-12",
+      "appearances": [
+        {
+          "chartDate": "2014-07-12",
+          "position": 82
+        }
+      ]
+    }
+  },
+  "dedupeText": "dual tone high contrast portrait layout low key lighting red and green lighting minimalist typography chiaroscuro leather jacket profile portrait subject emerging from deep shadow into saturated color complementary red and green light defining form minimalist white typography balancing the off center subject texture of the leather jacket contrasting with the smooth black background low key portrait dual tone red green lighting rounded geometric typography corner weighted layout",
+  "duplicateCandidates": [],
+  "duplicateDecision": "keep_independent",
+  "recipe": {
+    "metadata": {
+      "title": "Dual-Tone High Contrast Portrait Layout",
+      "category": "Album Art",
+      "medium": [
+        "Digital Photography",
+        "Color Channel Manipulation",
+        "Graphic Design"
+      ],
+      "useCases": [
+        "Music Cover Art",
+        "Editorial Portraiture",
+        "Promotional Poster"
+      ],
+      "retrievalTags": [
+        "low-key lighting",
+        "red and green lighting",
+        "minimalist typography",
+        "chiaroscuro",
+        "leather jacket",
+        "profile portrait"
+      ]
+    },
+    "visualDefinition": "A high-contrast, low-key portrait of a male figure in profile, emerging from absolute black. The subject is illuminated by harsh, directional red and green light that creates a stark color split across the face and clothing, paired with rounded, modern sans-serif typography positioned in the corners.",
+    "coreVisualRelationships": [
+      "Subject emerging from deep shadow into saturated color",
+      "Complementary red and green light defining form",
+      "Minimalist white typography balancing the off-center subject",
+      "Texture of the leather jacket contrasting with the smooth black background"
+    ],
+    "coreInvariants": [
+      "Pitch black background (0,0,0)",
+      "Dual-tone lighting (Red/Green)",
+      "Rounded, geometric letterforms",
+      "Subject looking downward in profile"
+    ],
+    "compositionAndHierarchy": {
+      "subjectPositionAndScale": "Subject is positioned on the right half of the frame, angled diagonally toward the lower left.",
+      "visualAnchor": "The saturated red light on the subject's forehead and cheek.",
+      "movementAndEyePath": "Eye starts at the top-left text, moves down the diagonal of the subject's face, and rests on the larger bottom-left text.",
+      "negativeSpace": "Extensive negative space on the left side and top, creating a sense of isolation."
+    },
+    "colorSystem": {
+      "dominantColorRole": "Deep black background for maximum contrast.",
+      "contrastColorRole": "Saturated red and green light defining the subject's contours.",
+      "accentColorRole": "Pure white for the typographic elements.",
+      "saturationAndValueRelationship": "High saturation in the mid-tones with crushed blacks and bright white text highlights.",
+      "paletteRestrictions": [
+        "No mid-tone grays",
+        "Limited to red, green, black, and white"
+      ]
+    },
+    "typographyAndGraphicLanguage": {
+      "presence": "supporting",
+      "constructionMode": "font-based",
+      "baseSkeleton": "Geometric sans-serif with extreme rounded terminals.",
+      "letterConstructionRules": [
+        "Uniform stroke weight",
+        "Fully rounded caps on all stems",
+        "Open counters in characters like 'P' and 'A'",
+        "Lowercase-style 'n' used in title case"
+      ],
+      "characterSpecificRedesigns": [
+        "The 'A' is a continuous loop with an open bottom",
+        "The 'R' has a detached or highly stylized leg",
+        "The 'k' features a soft, curved junction"
+      ],
+      "recommendedProductionMethod": "real-font",
+      "fontRequired": true,
+      "roles": [
+        {
+          "role": "display",
+          "hierarchyLevel": 1,
+          "classification": "Geometric Rounded Sans",
+          "anatomy": {
+            "width": "Normal",
+            "weight": "Bold",
+            "contrast": "None",
+            "xHeight": "High",
+            "terminals": "Fully Rounded",
+            "corners": "Soft",
+            "counters": "Open",
+            "strokeCharacter": "Monolinear"
+          },
+          "typesetting": {
+            "case": "Mixed Case / Stylized",
+            "alignment": "Left",
+            "tracking": "Normal",
+            "leading": "N/A",
+            "lineBreakPattern": "Single line",
+            "density": "Medium"
+          },
+          "composition": {
+            "position": "Bottom left corner",
+            "scale": "Large",
+            "rotation": "0 degrees",
+            "warp": "None",
+            "overlap": "None",
+            "relationshipToImage": "Floating in negative space"
+          },
+          "treatment": {
+            "fill": "Solid White",
+            "outline": "None",
+            "shadow": "None",
+            "depth": "Flat",
+            "texture": "Clean",
+            "distortion": "None"
+          }
+        }
+      ],
+      "pairingStrategy": "Single font family used in two different scales for hierarchy.",
+      "graphicDevices": [
+        "Color channel offset effect",
+        "Hard-edged lighting"
+      ],
+      "substitutionGuidance": {
+        "preserve": [
+          "Rounded terminals",
+          "Geometric circularity",
+          "Monolinear weight"
+        ],
+        "avoid": [
+          "Serifs",
+          "Sharp corners",
+          "Varying stroke widths"
+        ],
+        "candidateDirections": [
+          {
+            "nameOrCategory": "Bauhaus-inspired rounded fonts",
+            "reason": "Matches the geometric and soft-terminal aesthetic.",
+            "confidence": "high"
+          },
+          {
+            "nameOrCategory": "VAG Rounded",
+            "reason": "Provides the necessary monolinear rounded look.",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "twoStageComposition": {
+        "backgroundInstruction": "Generate a portrait of a man in a leather jacket against a pure black background. Use hard rim lighting: red light from the top left and green light from the bottom right. The man should be in profile, looking down, with high contrast and deep shadows.",
+        "overlayInstruction": "Add white text in a bold, rounded geometric sans-serif font. Place the artist name in the top left at a small scale and the title in the bottom left at a larger scale."
+      },
+      "verificationChecks": [
+        "Is the background absolute black?",
+        "Are the red and green lights distinct and saturated?",
+        "Does the typography have fully rounded terminals?",
+        "Is the subject looking down in profile?"
+      ],
+      "confidence": "high"
+    },
+    "adjustableVariables": [
+      "Light intensity",
+      "Color hue (e.g., blue/orange instead of red/green)",
+      "Text placement",
+      "Subject's angle"
+    ],
+    "mustRedesign": [
+      "Specific facial features of the original subject",
+      "Proprietary logos or branding",
+      "Exact text content"
+    ],
+    "aestheticFloor": {
+      "mustAchieve": [
+        "High-contrast chiaroscuro effect",
+        "Vibrant dual-tone lighting",
+        "Clean, modern typographic layout"
+      ],
+      "avoid": [
+        "Muddy shadows",
+        "Low-resolution grain",
+        "Cluttered backgrounds"
+      ]
+    },
+    "postGenerationChecks": [
+      "Check for color bleed in the black areas",
+      "Ensure text is legible against the dark background",
+      "Verify the rounded nature of the font terminals",
+      "Confirm the profile angle of the subject"
+    ],
+    "reuseFormula": "Low-key portrait + Dual-tone (Red/Green) lighting + Rounded Geometric Typography + Corner-weighted layout."
+  },
+  "embeddingModel": "openai/text-embedding-3-small",
+  "embeddingUpdatedAt": "2026-08-12T01:10:49.344Z"
+}
